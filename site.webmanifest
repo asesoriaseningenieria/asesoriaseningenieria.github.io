@@ -1,0 +1,19 @@
+{
+  "name": "Asesorías en Ingeniería",
+  "short_name": "Asesorías Ing.",
+  "icons": [
+    {
+      "src": "assets/img/brand/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/brand/logo-badge.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0F2547",
+  "background_color": "#09162E",
+  "display": "standalone"
+}

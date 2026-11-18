@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto y Solicitud de Asesoría | Asesorías en Ingeniería</title>
+  <meta name="description" content="Solicita clases particulares, asesoría en trabajos escritos o preparación de parciales en Asesorías en Ingeniería vía Facebook Messenger.">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/brand/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/subject.css">
+</head>
+
+<body>
+
+  <header id="site-header" class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-link">
+        <img src="assets/img/brand/logo-badge.png" alt="Logo Asesorías en Ingeniería">
+        <div class="brand-text">
+          Asesorías en Ingeniería
+          <span>Desde agosto de 2008</span>
+        </div>
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html" class="nav-link">Inicio</a></li>
+          <li><a href="index.html#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="index.html#materias" class="nav-link">Asignaturas</a></li>
+          <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://www.facebook.com/eulerasesoriaspagina" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <span class="btn-text-hide">Abrir Facebook</span>
+        </a>
+        <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="sub-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Ruta de navegación">
+          <a href="index.html">Inicio</a>
+          <span>/</span>
+          <span>Contacto y Solicitud</span>
+        </nav>
+
+        <div class="sub-hero-head">
+          <img class="sub-hero-icon" src="assets/img/icons/ingenieria-civil.svg" alt="Icono contacto">
+          <div>
+            <h1>Agenda tu Asesoría en Ingeniería</h1>
+            <p>Prepara el resumen de tu materia o proyecto aquí y envíanoslo directamente por mensaje interno en nuestra página oficial de Facebook para coordinar horario y entregarte nuestro canal privado de envío de archivos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contact-grid">
+      <div class="form-card">
+        <h2 style="color:var(--gold); margin-bottom:0.5rem;">Constructor rápido de solicitud</h2>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:1.4rem;">Completa estos datos para generar un mensaje ordenado y copiarlo en un clic hacia Facebook Messenger.</p>
+
+        <form id="advisory-form">
+          <div class="form-group">
+            <label for="materia">Materia o área de interés</label>
+            <select id="materia" class="form-control" required></select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nivel">Nivel académico</label>
+              <select id="nivel" class="form-control">
+                <option value="Universidad / Pregrado">Universidad / Pregrado</option>
+                <option value="Colegio / Bachillerato">Colegio / Bachillerato</option>
+                <option value="Examen de admisión (UdeA / otros)">Examen de admisión (UdeA / otros)</option>
+                <option value="Proyecto profesional / Posgrado">Proyecto profesional / Posgrado</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="modalidad">Modalidad preferida</label>
+              <select id="modalidad" class="form-control">
+                <option value="Online en vivo (cualquier ciudad)">Online en vivo (cualquier ciudad)</option>
+                <option value="Presencial (Medellín y alrededores)">Presencial (Medellín y alrededores)</option>
+                <option value="Revisión / desarrollo de trabajo escrito">Revisión / desarrollo de trabajo escrito</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="fecha">Fecha del examen o entrega (opcional)</label>
+            <input id="fecha" type="date" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label for="detalle">Temas específicos o descripción breve</label>
+            <textarea id="detalle" class="form-control" placeholder="Ej. Necesito refuerzo en métodos de integración por partes y fracciones parciales para un parcial el viernes..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold">Generar mensaje para Facebook</button>
+        </form>
+
+        <div id="message-preview" class="preview-box" aria-live="polite">
+          <pre id="preview-text"></pre>
+          <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.75rem;">
+            <button id="copy-message-btn" type="button" class="btn btn-outline btn-sm">Copiar mensaje</button>
+            <a href="https://www.facebook.com/eulerasesoriaspagina" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Abrir página de Facebook →</a>
+            <span id="copy-feedback" class="copy-feedback"></span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="subject-sidebar">
+        <div class="side-card">
+          <h3>¿Cómo funciona la atención?</h3>
+          <ul class="steps-list">
+            <li>
+              <span class="step-num">1</span>
+              <div>
+                <strong style="display:block; color:var(--text-main);">Escríbenos por Facebook</strong>
+                <span style="font-size:0.87rem; color:var(--text-muted);">Indícanos la materia, tu nivel y la fecha de tu parcial o entrega en Messenger.</span>
+              </div>
+            </li>
+            <li>
+              <span class="step-num">2</span>
+              <div>
+                <strong style="display:block; color:var(--text-main);">Canal privado de archivos</strong>
+                <span style="font-size:0.87rem; color:var(--text-muted);">Dentro del chat te compartimos nuestro contacto privado para recibir fotos del taller, PDFs o códigos.</span>
+              </div>
+            </li>
+            <li>
+              <span class="step-num">3</span>
+              <div>
+                <strong style="display:block; color:var(--text-main);">Clase o desarrollo paso a paso</strong>
+                <span style="font-size:0.87rem; color:var(--text-muted);">Confirmamos horario presencial u online en vivo, o el entregable detallado de tu proyecto.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-card">
+          <h3>Canal oficial directo</h3>
+          <p>Si ya tienes listas las dudas o temas, escríbenos directamente por mensaje interno en Facebook.</p>
+          <a href="https://www.facebook.com/eulerasesoriaspagina" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%;">Ir a Facebook Messenger</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span>&copy; 2008–<span id="current-year">2026</span> <strong>Asesorías en Ingeniería</strong>.</span>
+      <a href="index.html">← Volver a la página principal</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-materias.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+
+</html>
