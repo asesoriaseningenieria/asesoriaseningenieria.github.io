@@ -1,0 +1,1547 @@
+01-Hibbeler       28/8/56             5:04 AM              Página 16
+
+
+     16   •     CAPÍTULO 1 Esfuerzo
+
+
+     PROBLEMAS
+     1-1. Determine la fuerza normal interna resultante que                             1-3. Determine el par interno resultante que actúa sobre
+     actúa sobre la sección transversal por el punto A en cada                          las secciones transversales por los puntos B y C.
+     columna. En (a), el segmento BC pesa 180 lb/pie y el seg-
+     mento CD pesa 250 lb/pie. En (b), la columna tiene una
+     masa de 200 kg/m.
+                                                                                                    A                  600 lbpie
+                                                                                                                           B
+                                                                                                                               350 lbpie
+                              5 klb                                    8 kN
+                                                                                                    3 pies
+                                                                                                                                                  C
+                                  B
+                                                        200 mm          200 mm                               1 pie                                    500 lbpie
+                                                           6 kN             6 kN                                       2 pies
+
+          10 pies                                                                                                                 2 pies
+                                                                                   3m
+               8 pulg             8 pulg
+                                                        200 mm          200 mm                                        Prob. 1-3
+                  3 klb           3 klb
+                                                       4.5 kN               4.5 kN
+                                      C
+                                                                                        *1-4. Determine la fuerza normal y cortante internas re-
+              4 pies                                                                    sultantes en el miembro en (a) la sección a-a y (b) la sec-
+                                                                                        ción b-b, cada una de las cuales pasa por el punto A. La
+                                          A                  A                          carga de 500 lb está aplicada a lo largo del eje centroidal
+              4 pies                                                               1m   del miembro.
+                                      D
+                                                                                                                          a               b
+                                                                                                                                30°
+
+                            (a)                                       (b)
+
+                                               Prob. 1-1
+                                                                                         500 lb                                                               500 lb
+
+
+                                                                                                                                      A
+     1-2. Determine el par interno resultante que actúa sobre
+                                                                                                                  b
+     las secciones transversales por los puntos C y D. Los co-                                                            a
+     jinetes de soporte en A y B permiten el libre giro de la                                                         Prob. 1-4
+     flecha.
+                                                                                        1-5. Determine las cargas internas resultantes que ac-
+                                                                                        túan sobre la sección transversal a través del punto D del
+                       A                                                                miembro AB.
+                                          250 Nm
+                                                                                            50 mm       50 mm
+
+                                                     150 Nm                                                          300 mm                  150 mm
+                300 mm                     C
+                                                             400 Nm                                                                          B
+                           200 mm
+                                                                                              A     D
+                           150 mm
+                                              200 mm              D            B                         70 Nm                  200 mm
+                                                    250 mm
+
+                                                       150 mm
+                                                                                                                                                             C
+                                               Prob. 1-2                                                              Prob. 1-5
+01-Hibbeler   28/8/56       5:04 AM     Página 17
+
+
+                                                                                                                                                  PROBLEMAS        •     17
+
+
+              1-6. La viga AB está articulada por un pasador en A y                             1-9. Determine las cargas internas resultantes que actúan
+              soportada por un cable BC. Determine las cargas internas                          sobre la sección transversal por el punto C. La unidad en-
+              resultantes que actúan sobre la sección transversal en el                         friadora tiene un peso total de 52 klb y su centro de gra-
+              punto D.                                                                          vedad en G.
+              1-7. Resuelva el problema 1-6 para las cargas internas re-
+              sultantes que actúan en el punto E.
+
+                                                                                                                                      F
+
+
+                                                                B
+                                                   3 pies
+
+
+                                                         E
+                                                                       8 pies                                        30°                                30°
+                                                                                                         D
+                                                             1200 lb                                                                                                     E
+                                                                                               0.2 pie
+                                                D 3 pies
+                      C                     A                                                            A                                C                              B
+                                                                                                                     3 pies                        3 pies
+                               4 pies           6 pies
+
+                                                                                                                                          G
+                                        Probs. 1-6/7
+
+
+                                                                                                                               Prob. 1-9
+
+
+              *1-8. La viga AB está empotrada en la pared y tiene un                            1-10. Determine las cargas internas resultantes que ac-
+              peso uniforme de 80 lb/pie. Si el gancho soporta una car-                         túan sobre las secciones transversales por los puntos D y
+              ga de 1500 lb, determine las cargas internas resultantes que                      E de la estructura.
+              actúan sobre las secciones transversales por los puntos
+                                                                                                1-11. Determine las cargas internas resultantes que ac-
+              C y D.
+                                                                                                túan sobre las secciones transversales por los puntos F y
+                                                                                                G de la estructura.
+
+
+                                                                                                             C   1 pie
+                                  20 pies                               10 pies
+                   5 pies                                                         3 pies                             F
+              A                                                                            B
+                      C                                                    D                        4 pies
+                                                                                                                                              75 lb/pie
+
+                                                                                                             A
+
+                                                                                                                     D         B      E             G
+                                                                                                                     2 pies           2 pies
+                                                                                                             1 pie            1 pie               1 pie
+                                                                                                                                                          30°
+                                                         1500 lb
+                                                                                                                                                                150 lb
+
+                                            Prob. 1-8                                                                      Probs. 1-10/11
+01-Hibbeler       28/8/56        5:04 AM            Página 18
+
+
+     18    •   CAPÍTULO 1 Esfuerzo
+
+
+     *1-12. Determine las cargas internas resultantes que ac-                    1-15. La carga de 800 lb está siendo izada a velocidad
+     túan sobre (a) la sección a-a y (b) la sección b-b. Cada sec-               constante usando el motor M que tiene un peso de 90 lb.
+     ción pasa por el centroide en C.                                            Determine las cargas internas resultantes que actúan so-
+                                                                                 bre la sección transversal por el punto B en la viga. La
+                                                                                 viga tiene un peso de 40 lb/pie y está empotrada en la pa-
+                                                                                 red en A.
+                                                                                 *1-16. Determine las cargas internas resultantes que ac-
+                                                                                 túan sobre la sección transversal por los puntos C y D en
+                                                                                 el problema 1-15.
+                   B
+
+
+                                                b
+
+                                                                                                                    M
+                                                            a
+                       8 pies                                                                                                                1.5 pies
+                                      C                         600 lb/pie       A
+                                                                                             D                          C           B
+                                          45°                                            4 pies       4 pies        3 pies        3 pies      4 pies
+                                  a           b 45°
+                                          4 pies                A
+
+                                                                                                                                           0.25 pie
+
+                                      Prob. 1-12
+
+
+     1-13. Determine las cargas internas resultantes que ac-
+     túan sobre la sección transversal por el punto C en la vi-                                                Probs. 1-15/16
+     ga. La carga D tiene una masa de 300 kg y está siendo iza-
+     da por el motor M con velocidad constante.
+     1-14. Determine las cargas internas resultantes que ac-
+     túan sobre la sección transversal por el punto E de la viga
+     en el problema 1-13.
+                                                                                 1-17. Determine las cargas internas resultantes que ac-
+                                                                                 túan sobre la sección transversal en el punto B.
+
+
+                       2m                  2m                       2m
+          0.1 m                                         0.1 m
+                                                                                         60 lb/ pie
+
+                       E                            C                        A
+                                 B
+                            1m          1.5 m
+
+                                                                                     A                                                                  C
+                                                        D                                             B
+               M                                                                            3 pies                      12 pies
+
+
+                                  Probs. 1-13/14                                                                Prob. 1-17
+01-Hibbeler   28/8/56       5:04 AM        Página 19
+
+
+                                                                                                                                           PROBLEMAS   •   19
+
+
+              1-18. La viga soporta la carga distribuida mostrada. De-               1-21. La perforadora de vástago metálico está sometida
+              termine las cargas internas resultantes que actúan sobre la            a una fuerza de 120 N en su mango. Determine la magni-
+              sección transversal por el punto C. Suponga que las reac-              tud de la fuerza reactiva en el pasador A y en el eslabón
+              ciones en los soportes A y B son verticales.                           corto BC. Determine también las cargas internas resultan-
+                                                                                     tes que actúan sobre la sección transversal que pasa por D
+              1-19. Determine las cargas internas resultantes que ac-
+                                                                                     en el mango.
+              túan sobre la sección transversal por el punto D en el pro-
+              blema 1-18.                                                            1-22. Resuelva el problema 1-21 para las cargas internas
+                                                                                     resultantes sobre la sección transversal que pasa por E y
+                                                                                     en una sección transversal del eslabón corto BC.
+
+                                                                      1.5 kN/m
+
+                                                                                                                                            120 N
+                0.5 kN/m
+
+
+                                                                                                50 mm 100 mm
+                                                                                         60°                              50 mm
+                A                                                                B                     E
+                                           C                 D                                                      D    100 mm
+                                                                                           B                30°
+                            3m                 3m                3m                                    A                                   300 mm
+
+                                       Probs. 1-18/19                                      C
+                                                                                                                   200 mm
+
+
+              *1-20. La charola de servicio T usada en un avión está
+              soportada en cada lado por un brazo. La charola está co-
+              nectada por un pasador al brazo en A, y en B tiene un pa-
+              sador liso. (El pasador puede moverse dentro de la ranu-                                            Probs. 1-21/22
+              ra en los brazos para poder plegar la charola contra el
+              asiento del pasajero al frente cuando aquella no está en
+              uso.) Determine las cargas internas resultantes que actúan             1-23. El tubo tiene una masa de 12 kg/m. Considerando
+              sobre la sección transversal por el punto C del brazo cuan-            que está empotrado en la pared en A, determine las car-
+              do el brazo de la charola soporta las cargas mostradas.                gas internas resultantes que actúan sobre la sección trans-
+                                                                                     versal en B. Desprecie el peso de la palanca CD.
+
+
+                                                                      12 N                                                  z
+                                                        9N
+
+                               15 mm           100 mm        150 mm
+                                                                                                                                       A
+                                       B       A                                                            300 mm
+
+
+                                 60°                                      T
+                                                                                              200 mm
+
+                                                                                                            B
+                                                                                                                            60 N                            y
+                                  500 mm
+
+
+                                                                             x                                                     D
+               VC                                                                                 60 N
+                        C                                                            400 mm                             150 mm
+              MC
+                                                                                                            150 mm
+                 NC                                                                                    C
+
+                                           Prob. 1-20                                                      Prob. 1-23
+01-Hibbeler       28/8/56            5:04 AM              Página 20
+
+
+        20   •   CAPÍTULO 1 Esfuerzo
+
+
+        *1-24. La viga principal AB soporta la carga sobre el ala                  1-26. La flecha está soportada en sus extremos por dos
+        del avión. Las cargas consisten en la reacción de la rueda                 cojinetes A y B y está sometida a las fuerzas aplicadas a
+        de 35 000 lb en C, el peso de 1200 lb de combustible en el                 las poleas fijas a la flecha. Determine las cargas internas
+        tanque del ala, con centro de gravedad en D y el peso de                   resultantes que actúan sobre la sección transversal en el
+        400 lb del ala con centro de gravedad en E. Si está empo-                  punto C. Las fuerzas de 300 N actúan en la dirección z y
+        trada al fuselaje en A, determine las cargas internas resul-               las fuerzas de 500 N actúan en la dirección x. Los cojine-
+        tantes sobre la viga en este punto. Suponga que el ala no                  tes en A y B ejercen sólo componentes x y z de fuerza so-
+        transmite ninguna de las cargas al fuselaje, excepto a tra-                bre la flecha.
+        vés de la viga.
+
+                         z                                                                           z
+
+
+                                          6 pies
+                     A
+                                                      4 pies                                              400 mm
+                                                                2 pies
+                 1.5 pies                                                                       A
+                                 D                    E                                                               150 mm
+    x
+                                                               1 pie                                                         200 mm
+                                                                                     x
+                                                                                                                             C
+                                                                                                                                   250 mm
+                                                                       B
+                                                                                                                    300 N
+                                                                                                         300 N
+                                                                                                                                                  B
+                                                                                                              500 N
+                                                  C                            y
+                                                                                                              500 N
+                                         35 000 lb                                                                                                        y
+                                         Prob. 1-24                                                               Prob. 1-26
+
+        1-25. Determine las cargas internas resultantes que ac-
+        túan sobre la sección transversal por el punto B del letre-                1-27. Una manivela de prensa tiene las dimensiones mos-
+        ro. El poste está empotrado en el suelo y una presión uni-                 tradas. Determine las cargas internas resultantes que ac-
+        forme de 7 lb/pie2 actúa perpendicularmente sobre la cara                  túan sobre la sección transversal en A si se aplica una fuer-
+        del letrero.                                                               za vertical de 50 lb a la manivela como se muestra. Suponga
+                                                                                   que la manivela está empotrada a la flecha en B.
+                                                  z
+
+                                         3 pies
+                                                      2 pies
+                                                                                                                       B
+
+
+                                                                                                                                         z
+
+                                                           3 pies                                                          30°
+                                     2
+                             7 lb/pie
+
+                                                                                                             A
+                                                                                            7 pulg
+                                                          6 pies
+                                           B
+
+                                                                                            x
+                                                                                                         7 pulg
+                                     A
+                                                          4 pies
+                                                                                                                                         3 pulg
+
+                                                                                                                                                      y
+
+                             x                                             y                                                     50 lb
+
+                                         Prob. 1-25                                                               Prob. 1-27
+01-Hibbeler   28/8/56          5:05 AM             Página 21
+
+
+                                                                                                                                                              PROBLEMAS   •   21
+
+
+              *1-28. Determine las cargas internas resultantes que ac-                                 1-31. La barra curva AD de radio r tiene un peso w por
+              túan sobre la sección transversal por los puntos F y G de                                unidad de longitud. Si ésta se encuentra en un plano ver-
+              la estructura. El contacto en E es liso.                                                 tical, determine las cargas internas resultantes que actúan
+                                                                                                       sobre la sección transversal por el punto B. Sugerencia: la
+                                                                                                       distancia del centroide C del segmento AB al punto O es
+                                                                                                       OC  [2r sen(/2)]/.
+                                                   D
+                                                                                                                                      θ
+                                                                                                                      A                                       O
+                                                                 5 pies
+                                                       30°                                                                    C                 θ
+                               1.5 pies 1.5 pies
+                                                   C
+                                                                                 2 pies                                                              r
+                               B G                               E                                                        B
+                                                       3 pies
+                  4 pies                                                              2 pies
+                                                                             F                 80 lb
+
+
+                                                                                                                                                          D
+                               A
+
+                                                   Prob. 1-28
+                                                                                                                                          Prob. 1-31
+
+              1-29. El vástago del perno está sometido a una tensión                                   *1-32. La barra curva AD de radio r tiene un peso w por
+              de 80 lb. Determine las cargas internas resultantes que ac-                              unidad de longitud. Si ésta se encuentra en un plano hori-
+              túan sobre la sección transversal en el punto C.                                         zontal, determine las cargas internas resultantes que ac-
+                                                                                                       túan sobre la sección transversal por el punto B. Sugeren-
+                                                                                                       cia: la distancia del centroide C del segmento AB al punto
+                                                                                                       O es CO  0.9745r.
+
+                                                             C
+                                                                                                                                  D
+                                                                6 pulg
+                                                   90°
+                                                                                                                                      r
+                                                                                                                          B
+                                                                                                                                                              O
+                           A                                                              B                                           C             45°
+                                                   Prob. 1-29                                                                                                 90°
+                                                                                                                                            22.5°
+
+                                                                                                                                            A
+              1-30. Determine las cargas internas resultantes que ac-                                                                     Prob. 1-32
+              túan sobre la sección transversal en los puntos B y C del
+              miembro curvo.                                                                           1-33. Se muestra en la figura un elemento diferencial
+                                                                                                       tomado de una barra curva. Demuestre que dN/d  V,
+                                                                                                       dV/d  N, dM/d  T y dT/d  M.
+                                                       A
+                                                                                                                                            M + dM             T + dT
+
+                                   C                                                                                                  V + dV
+                                                                                                                                                          N + dN
+                                                   45°
+                                              2 pies                                                                      M V
+                                                                             500 lb
+
+                                                                                                                              N                     dθ
+                                                       30°       5       4
+                                                                     3                                            T
+                                          B
+
+                                                   Prob. 1-30                                                                             Prob. 1-33
+01-Hibbeler    28/8/56    5:06 AM       Página 39
+
+
+                                                                                            SECCIÓN 1.5 Esfuerzo cortante promedio                       •    39
+
+
+              E J E M P L O                 1.12
+              El miembro inclinado en la figura 1-26a está sometido a una fuerza de
+              compresión de 600 lb. Determine el esfuerzo de compresión promedio
+              a lo largo de las áreas lisas de contacto definidas por AB y BC, y el es-
+              fuerzo cortante promedio a lo largo del plano horizontal definido por                                                              600 lb
+              EDB.                                                                                                                   5       4
+                                                                                                                                         3
+                                                                                 600 lb
+                                                                     5       4
+                                                                         3
+
+
+                                                                                                         FAB
+                                                      A
+                                                                C
+                               1 pulg                                                                                FBC
+                                        E                 B                                                                  (b)
+                                               D
+                                                                2 pulg
+                              1.5 pulg                3 pulg                     (a)      Fig. 1-26
+
+              Solución                                                                                                                360 lb
+
+              Cargas internas. El diagrama de cuerpo libre del miembro inclinado
+              se muestra en la figura 1-26b. Las fuerzas de compresión que actúan
+                                                                                                          V
+              sobre las áreas de contacto son                                                                              (c)
+
+               + © F = 0;
+               :    x            FAB - 600 lb A 35 B = 0            FAB = 360 lb                                                                     600 lb
+              +q© Fy = 0;        FBC - 600 lb 45     A B =0         FBC = 480 lb                                                         5       4
+                                                                                                                                             3
+
+              También, del diagrama de cuerpo libre del segmento superior del miem-
+              bro del fondo, figura 1-26c, la fuerza cortante que actúa sobre el plano
+              horizontal seccionado EDB es
+               + © F = 0;
+               :                                   V = 360 lb
+                    x                                                                                 240 lb/pulg2
+
+              Esfuerzo promedio. Los esfuerzos de compresión promedio a lo lar-
+              go de los planos horizontal y vertical del miembro inclinado son                                                     160 lb/pulg2
+                                     360 lb
+                          AB=  =240 lb/pulg2                                             Resp.                             (d)
+                               (1 pulg)(1.5 pulg)
+                                     480 lb
+                          BC=  =160 lb/pulg2                                             Resp.
+                               (2 pulg)(1.5 pulg)
+                                                                                                                                     360 lb
+              Estas distribuciones de esfuerzo se muestran en la figura 1-26d.
+                El esfuerzo cortante promedio que actúa sobre el plano horizontal
+              definido por EDB es                                                                                          80 lb/pulg2
+                                       360 lb
+                          prom=  =80 lb/pulg2                                            Resp.                      (e)
+                                 (3 pulg)(1.5 pulg)
+              Este esfuerzo se muestra distribuido sobre el área seccionada en la figu-
+              ra 1-26e.
+01-Hibbeler    28/8/56       5:06 AM         Página 40
+
+
+     40   •   CAPÍTULO 1 Esfuerzo
+
+
+     PROBLEMAS
+     1-34. La columna está sometida a una fuerza axial de           *1-36. Al correr, el pie de un hombre de 150 lb está mo-
+     8 kN en su parte superior. Si el área de su sección trans-     mentáneamente sometido a una fuerza que es 5 veces su
+     versal tiene las dimensiones mostradas en la figura, deter-    peso. Determine el esfuerzo normal promedio desarrolla-
+     mine el esfuerzo normal promedio que actúa en la sección       do en la tibia T de su pierna en la sección media a-a. La
+     a-a. Muestre esta distribución del esfuerzo actuando sobre     sección transversal puede suponerse circular con diáme-
+     la sección transversal de la columna.                          tro exterior de 1.75 pulg y un diámetro interior de 1 pulg.
+                                                                    Suponga que el peroné F no soporta carga.
+
+                                      8 kN
+
+                                             75 mm
+                           10 mm                 75 mm
+                                                         10 mm
+
+                   10 mm                            70 mm
+                                                    70 mm
+                                                                                          T                 F
+               a
+                                                           a                             a                  a
+
+
+                                                                                                  750 lb
+
+                                                                                               Prob. 1-36
+                                   Prob. 1-34
+
+
+     1-35. El grillete de anclaje soporta la fuerza del cable de
+     600 lb. Si el pasador tiene un diámetro de 0.25 pulg, deter-
+     mine el esfuerzo cortante promedio en el pasador.              1-37. El pequeño bloque tiene un espesor de 0.5 pulg. Si
+                                                                    la distribución de esfuerzo en el soporte desarrollado por la
+                                                                    carga varía como se muestra, determine la fuerza F apli-
+                                                                    cada al bloque y la distancia d a la que está aplicada.
+
+
+                                                                                                 F
+
+                                                                                         d
+
+                       0.25 pulg
+                                                                                              1.5 pulg
+
+
+                                                                                     20 klb                     40 klb
+                                        600 lb
+
+                                   Prob. 1-35                                                  Prob. 1-37
+01-Hibbeler   28/8/56      5:31 AM    Página 41
+
+
+                                                                                                                      PROBLEMAS    •   41
+
+
+              1-38. El pequeño bloque tiene un espesor de 5 mm. Si la        *1-40. La rueda de soporte se mantiene en su lugar bajo
+              distribución de esfuerzo en el soporte desarrollado por        la pata de un andamio por medio de un pasador de 4 mm
+              la carga varía como se muestra, determine la fuerza F apli-    de diámetro como se muestra en la figura. Si la rueda es-
+              cada al bloque y la distancia d a la que está aplicada.        tá sometida a una fuerza normal de 3 kN, determine el
+                                                                             esfuerzo cortante promedio generado en el pasador. Des-
+                                                                             precie la fricción entre la pata del andamio y el tubo sobre
+                                                                             la rueda.
+
+
+                              180 mm F
+
+                                 d
+
+                                       120 mm
+
+                              60 mm
+
+
+                                                            60 MPa
+                                         40 MPa                                                         3 kN
+
+                                                                                                      Prob. 1-40
+                                      Prob. 1-38
+
+
+                                                                             1-41. Una mujer con peso de 175 lb está de pie sobre un
+                                                                             piso vinílico con zapatos de tacón puntiagudo. Si el tacón
+                                                                             tiene las dimensiones mostradas, determine el esfuerzo
+                                                                             normal promedio que ella ejerce sobre el piso y compáre-
+              1-39. La palanca está unida a la flecha empotrada por          lo con el esfuerzo normal promedio generado cuando un
+              medio de un pasador cónico que tiene un diámetro medio         hombre del mismo peso lleva zapatos de tacones planos.
+              de 6 mm. Si se aplica un par a la palanca, determine el es-    Suponga que la carga se aplica lentamente de manera que
+              fuerzo cortante promedio en el pasador, entre el pasador       puedan ignorarse los efectos dinámicos. Suponga también
+              y la palanca.                                                  que todo el peso es soportado sólo por el tacón de un za-
+                                                                             pato.
+
+
+                                          B 12 mm
+
+
+                                          A
+
+
+                             250 mm                250 mm
+
+                    20 N                                       20 N
+                                                                            1.2 pulg                      0.3 pulg
+                                                                                                                        0.1 pulg
+
+                                                                                       0.5 pulg
+
+
+                                      Prob. 1-39                                                      Prob. 1-41
+01-Hibbeler     28/8/56        5:31 AM          Página 42
+
+
+     42   •   CAPÍTULO 1 Esfuerzo
+
+
+     1-42. La lámpara con un peso de 50 lb está soportada por        1-46. Los dos miembros de acero están unidos entre sí
+     tres barras de acero conectadas por un anillo en A. Deter-      por medio de una soldadura a tope a 60°. Determine los
+     mine cuál barra está sometida al mayor esfuerzo normal          esfuerzos normal y cortante promedio resistidos en el pla-
+     promedio y calcule su valor. Considere   30°. El diáme-       no de la soldadura.
+     tro de cada barra se da en la figura.
+     1-43.    Resuelva el problema 1-42 para   45°.
+     *1-44. La lámpara con un peso de 50 lb está soportada por
+     tres barras de acero conectadas por un anillo en A. Deter-                                       25 mm
+     mine el ángulo de orientación  de AC tal que el esfuerzo
+     normal producido en la barra AC sea el doble del esfuer-         8 kN                                                 8 kN
+     zo normal promedio en la barra AD. ¿Cuál es la magnitud
+                                                                                            60°
+     del esfuerzo en cada barra? El diámetro de cada barra se
+                                                                                       30 mm
+     da en la figura.
+                                                                                               Prob. 1-46
+                         D                             C
+
+
+                   0.3 pulg
+                                                  0.25 pulg          1-47. La flecha compuesta consiste en un tubo AB y en
+                         45°                θ
+                                                                     una barra sólida BC. El tubo tiene un diámetro interior de
+                                     A                               20 mm y un diámetro exterior de 28 mm. La barra tiene un
+                                         0.35 pulg
+                                                                     diámetro de 12 mm. Determine el esfuerzo normal pro-
+                                    B
+                                                                     medio en los puntos D y E y represente el esfuerzo sobre
+                                                                     un elemento de volumen localizado en cada uno de esos
+                                                                     puntos.
+
+
+                               Probs. 1-42/43/44
+                                                                               A                  B    6 kN
+     1-45. El pedestal tiene una sección transversal triangu-        4 kN                                            C
+                                                                                                                         8 kN
+     lar como se muestra. Si está sometido a una fuerza com-                         D                 6 kN E
+     presiva de 500 lb, especifique las coordenadas x y y del pun-
+     to P(x, y) en que debe aplicarse la carga sobre la sección                                Prob. 1-47
+     transversal para que el esfuerzo normal sea uniforme.
+     Calcule el esfuerzo y esboce su distribución sobre una sec-
+     ción transversal en una sección alejada del punto de apli-
+     cación de la carga.
+                                                                     *1-48. La pieza de madera está sometida a una fuerza
+                                         500 lb                      de tensión de 85 lb. Determine los esfuerzos normal y cor-
+                                                                     tante promedio desarrollados en las fibras de la madera
+                                                                     orientadas a lo largo de la sección a-a a 15° con respecto
+                        12 pulg                      P(x,y)          el eje de la pieza.
+
+                                                              y
+
+
+          x     ulg 6 pulg
+              3p                                                      1 pulg
+
+                                                                                                                           a
+
+                                                                     85 lb                                                85 lb
+                                                                                                                3 pulg
+                                                                                         15
+                                                                      a
+
+
+                                  Prob. 1-45                                                   Prob. 1-48
+01-Hibbeler   28/8/56    5:31 AM            Página 43
+
+
+                                                                                                                               PROBLEMAS    •   43
+
+
+              1-49. El bloque de plástico está sometido a una fuerza        *1-52. La junta está sometida a la fuerza axial de miem-
+              axial de compresión de 600 N. Suponiendo que las tapas        bro de 5 kN. Determine el esfuerzo normal promedio que
+              arriba y en el fondo distribuyen la carga uniformemente a     actúa en las secciones AB y BC. Suponga que el miembro
+              través del bloque, determine los esfuerzos normal y cor-      es liso y que tiene 50 mm de espesor.
+              tante promedio que actúan a lo largo de la sección a-a.
+
+
+                                            600 N
+                                                                                                           50 mm
+                                                                                                       B
+                                                                                             40 mm                   C
+                                                                                                            60°
+                                                            a                                      A        45°
+
+                                                         150 mm
+                                            30°
+                             a
+                                                                                                                                     5 kN
+                                                         50 mm
+                                                                                                       Prob. 1-52
+                                 50 mm 50 mm
+
+                                             600 N                          1-53. La junta está sometida a la fuerza axial de miem-
+                                                                            bro de 6 klb. Determine el esfuerzo normal promedio que
+                                            Prob. 1-49                      actúa sobre las secciones AB y BC. Suponga que el miem-
+                                                                            bro es liso y que tiene 1.5 pulg de espesor.
+
+              1-50. El espécimen falló en una prueba de tensión a un
+                                                                                                                             6 klp
+              ángulo de 52° cuando la carga axial era de 19.80 klb. Si el
+              diámetro del espécimen es de 0.5 pulg, determine los es-
+              fuerzos normal y cortante promedio que actúan sobre el
+              plano inclinado de falla.Además, ¿cuál fue el esfuerzo nor-
+              mal promedio que actuaba sobre la sección transversal
+              cuando ocurrió la falla?                                                                                        60°
+                                                                                                   A                     C
+                                                                                            2 pulg                20°
+                                 52°                                                               B              4.5 pulg
+
+                             0.5 pulg
+
+                                                                                                       Prob. 1-53
+
+                                            Prob. 1-50
+                                                                            1-54. Los dos miembros usados en la construcción del fu-
+                                                                            selaje de un avión están unidos entre sí usando una solda-
+              1-51. Un espécimen a tensión con área A en su sección         dura de boca de pescado a 30°. Determine los esfuerzos
+              transversal está sometido a una fuerza axial P. Determine     normal y cortante promedio sobre el plano de cada solda-
+              el esfuerzo cortante máximo promedio en el espécimen e        dura. Suponga que cada plano inclinado soporta una fuer-
+              indique la orientación  de la sección en que éste ocurre.    za horizontal de 400 libras.
+
+
+                                                                                            1.5 pulg       30°
+
+              P                                                        P     800 lb       1 pulg                                            800 lb
+                                        θ                                                 1 pulg
+                                                                  A                                        30°
+
+                                            Prob. 1-51                                                 Prob. 1-54
+01-Hibbeler    28/8/56     5:31 AM      Página 44
+
+
+     44   •   CAPÍTULO 1 Esfuerzo
+
+
+     1-55. El conductor de un auto deportivo aplica los fre-         1-58. Las barras de la armadura tienen cada una un área
+     nos traseros, lo que ocasiona que los neumáticos se desli-      transversal de 1.25 pulg2. Determine el esfuerzo normal
+     cen. Si la fuerza normal en cada neumático trasero es de        promedio en cada barra debido a la carga P  8 klb. Indi-
+     400 lb y el coeficiente de fricción cinética entre los neumá-   que si el esfuerzo es de tensión o de compresión.
+     ticos y el pavimento es de k  0.5, determine el esfuerzo
+                                                                     1-59. Las barras de la armadura tienen cada una un
+     cortante promedio desarrollado por la fuerza de fricción
+                                                                     área transversal de 1.25 pulg2. Si el esfuerzo normal pro-
+     sobre los neumáticos. Suponga que el caucho de los neu-
+                                                                     medio máximo en cualquier barra no debe ser mayor de
+     máticos es flexible y que cada neumático tiene una presión
+                                                                     20 klb/pulg2, determine la magnitud máxima P de las car-
+     de 32 lb/pulg2.
+                                                                     gas que pueden aplicarse a la armadura.
+
+
+                                                                                                                          B                           C
+
+
+                                                                          3 pies
+
+
+                                                                               A                                      E                               D
+                                                                                            4 pies                                      4 pies
+                                               400 lb
+
+                              Prob. 1-55                                                                              0.75 P
+                                                                                   P
+
+                                                                                                    Probs. 1-58/59
+
+
+     *1-56. Las barras AB y BC tienen diámetros de 4 mm y
+     6 mm, respectivamente. Si la carga de 8 kN se aplica al ani-
+     llo en B, determine el esfuerzo normal promedio en cada         *1-60. La armadura está formada por tres miembros
+     barra si   60°.                                               conectados por pasadores; las áreas transversales de los
+     1-57. Las barras AB y BC tienen diámetros de 4 mm y             miembros se muestran en la figura. Determine el esfuer-
+     6 mm, respectivamente. Si la carga vertical de 8 kN se apli-    zo normal promedio generado en cada barra cuando la
+     ca al anillo en B, determine el ángulo  de la barra BC de      armadura está sometida a la carga mostrada. Indique si el
+     manera que el esfuerzo normal promedio en ambas barras          esfuerzo es de tensión o de compresión.
+     sea el mismo. ¿Qué valor tiene este esfuerzo?
+
+
+                                                                                                                                             500 lb
+                                                                                                                       3 pies
+                                                        C                                     C
+                                                                                                                                                 B
+                                                                                                                   ABC = 0.8 pulg2
+
+
+                                                                                                 AAC = 0.6 pulg2                      lg 2
+                                                                                                                                     pu
+                                                                                   4 pies                                       1.5
+                                           θ                                                                                  AB =
+                                                                                                                          A
+                A               B
+
+
+                                 8 kN                                                        A
+
+
+                            Probs. 1-56/57                                                                    Prob. 1-60
+01-Hibbeler   28/8/56        5:31 AM       Página 45
+
+
+                                                                                                                                          PROBLEMAS    •    45
+
+
+              1-61. La viga uniforme está soportada por dos barras AB           1-65. El bastidor de dos miembros está sometido a la car-
+              y CD cuyas áreas transversales son de 12 mm2 y 8 mm2,             ga distribuida mostrada. Determine la intensidad w de la
+              respectivamente. Si d  1 m, determine el esfuerzo normal         carga uniforme máxima que puede aplicarse al bastidor
+              promedio en cada barra.                                           sin que los esfuerzos normal y cortante promedios en la
+                                                                                sección b-b excedan los valores   15 MPa y   16 MPa,
+              1-62. La viga uniforme está soportada por dos barras AB
+                                                                                respectivamente. El miembro CB tiene una sección trans-
+              y CD cuyas áreas de sección transversal son de 12 mm2 y
+                                                                                versal cuadrada de 35 mm de lado.
+              8 mm2, respectivamente. Determine la posición d de la car-
+              ga de 6 kN para que el esfuerzo normal promedio en am-
+              bas barras sea el mismo.
+
+                                                                                                         C
+
+
+                      B                                           D                                                          a
+
+
+                                           6 kN                                                               a
+                                                                                              4m                                 b
+                                 d
+
+
+                     A                                              C
+                                                  3m                                                                             b
+                                                                                                         A                  3m
+                                       Probs. 1-61/62
+                                                                                                                                                 B
+
+
+                                                                                                                                              w
+
+              1-63. La lámpara usada para iluminar el enganche de va-                                         Probs. 1-64/65
+              gones de ferrocarril está soportada por el pasador de 81 pulg
+              de diámetro en A. Si la lámpara pesa 4 lb y el brazo tiene
+              un peso de 0.5 lb/pie, determine el esfuerzo cortante pro-
+              medio en el pasador necesario para soportar la lámpara.
+                                                                                ■1-66.  Considere el problema general de una barra hecha
+              Sugerencia: la fuerza cortante en el pasador es causada por
+                                                                                de m segmentos, cada uno con área transversal constante Am
+              el par requerido para el equilibrio en A.
+                                                                                y longitud Lm. Si se tienen n cargas sobre la barra como se
+                                                                                muestra, escriba un programa de computadora que pue-
+                                                                                da usarse para determinar el esfuerzo normal promedio en
+                                                                                cualquier posición específica x. Muestre una aplicación del
+                                                  3 pies                        programa usando los valores L1  4 pies, d1  2 pies,
+                                                                                P1  400 lb, A1  3 pulg2, L2  2 pies, d2  6 pies, P2 
+                         A
+                                                                         B        300 lb, A2  1 pulg2.
+
+                               1.25 pulg
+
+
+                                           Prob. 1-63
+                                                                                                                  dn
+                                                                                                        d2
+                                                                                             d1
+
+              *1-64. El bastidor de dos miembros está sometido a la                      A1                            A2                              Am
+              carga distribuida que se muestra en la siguiente figura. De-                                                           P2           Pn
+                                                                                         x                   P1
+              termine los esfuerzos normal y cortante promedio que ac-
+              túan en las secciones a-a y b-b. El miembro CB tiene una                             L1                  L2                   Lm
+              sección transversal cuadrada de 35 mm de lado. Conside-
+              re w  8 kN/m.                                                                                       Prob. 1-66
+01-Hibbeler        28/8/56            7:54 AM           Página 46
+
+
+     46   •     CAPÍTULO 1 Esfuerzo
+
+
+     1-67. La viga está soportada por un pasador en A y un                     1-70. La grúa pescante está sostenida por un pasador en
+     eslabón corto BC. Si P  15 kN, determine el esfuerzo cor-                A y soporta un elevador de cadena que puede viajar a lo
+     tante promedio desarrollado por los pasadores en A, B y                   largo del patín inferior de la viga, 1 pie  x  12 pies. Si el
+     C. Todos los pasadores están en cortante doble, como se                   elevador puede soportar una carga máxima de 1500 lb, de-
+     muestra y cada uno tiene un diámetro de 18 mm.                            termine el esfuerzo normal máximo promedio en el tiran-
+                                                                               te BC de diámetro 34 pulg y el esfuerzo cortante máximo
+     *1-68. La viga está soportada por un pasador en A y un
+                                                                               promedio en el pasador de diámetro de 58 pulg en B.
+     eslabón corto BC. Determine la magnitud máxima P de
+     las cargas que la viga soportará si el esfuerzo cortante pro-
+     medio en cada pasador no debe ser mayor de 80 MPa.
+     Todos los pasadores están en cortante doble y cada uno                             D
+     tiene un diámetro de 18 mm.
+                                                                                            B
+
+
+                             P        4P           4P           2P
+                   0.5m                                              0.5m
+                                 1m        1.5 m        1.5 m                                                                 30       C
+          C                                                                                  A
+           30
+                    B                                                  A
+
+
+                                          Probs. 1-67/68                                                x
+                                                                                                                              1500 lb
+                                                                                                                    10 pies
+
+                                                                                                         Prob. 1-70
+     1-69. Cuando la mano sostiene una piedra de 5 lb, el hú-
+     mero H, que se supone liso, ejerce las fuerzas normales FC
+     y FA sobre el radio C y el cúbito A, respectivamente, co-
+     mo se muestra. Si la menor área de sección transversal del                1-71. Determine el esfuerzo normal promedio desarro-
+     ligamento en B es de 0.30 pulg2, determine el máximo es-                  llado en los eslabones AB y CD de las tenazas que sopor-
+     fuerzo de tensión promedio a que estará sometido.                         tan el tronco con masa de 3 Mg. El área de la sección trans-
+                                                                               versal de cada eslabón es de 400 mm2.
+
+
+                                                                                                                A        C
+                                                                                                         20
+                                                                                                            B        E        D
+
+                                      B
+                        H                                                                                   0.2 m
+
+                                      FB                                   G                1.2 m
+                             75°             C
+              FC
+
+           0.8 pulg                   A
+                        FA                                                                                  30           30
+                                                                                                              0.4 m
+                             2 pulg
+                                                 14 pulg
+
+                                           Prob. 1-69                                                    Prob. 1-71
+01-Hibbeler   28/8/56    7:54 AM           Página 47
+
+
+                                                                                                                                  PROBLEMAS    •   47
+
+
+              *1-72. Determine el esfuerzo cortante promedio desarro-          1-74. El pedestal en forma de tronco cónico está hecho
+              llado en los pasadores A y B de las tenazas que soportan         de concreto con peso específico de 150 lb/pie3. Determi-
+              el tronco con masa de 3 Mg. Cada pasador tiene un diá-           ne el esfuerzo normal promedio que actúa a media altura
+              metro de 25 mm y está sujeto a un cortante doble.                del pedestal, esto es, a z  4 pies. Sugerencia: el volumen
+                                                                               de un cono de radio r y altura h es V  13 r 2h.
+
+
+                                                                                                                  z
+                                                 A        C
+                                           20
+                                                                                                       1 pie
+                                            B        E        D
+
+
+                                             0.2 m
+
+                                                                                                                                 8 pies
+                          1.2 m
+
+                                                                                                                          z = 4 pies
+
+                                            30            30
+                                              0.4 m                                        1.5 pies
+                                                                                                                                           y
+
+                                           Prob. 1-72
+                                                                                                   x
+                                                                                                               Prob. 1-74
+              1-73. El pedestal en forma de tronco cónico está hecho
+              de concreto con peso específico de 150 lb/pie3. Determi-
+              ne el esfuerzo normal promedio que actúa en la base del          1-75. La columna está hecha de concreto con densidad de
+              pedestal. Sugerencia: el volumen de un cono de radio r y         2.30 Mg/m3. En su parte superior B está sometida a una
+              altura h es V  13  r 2h.                                     fuerza de compresión axial de 15 kN. Determine el esfuer-
+                                                                               zo normal promedio en la columna en función de la dis-
+                                                                               tancia z medida desde su base. Nota: el resultado será útil
+                                                                               solamente para determinar el esfuerzo normal promedio
+                                             z                                 en una sección alejada de los extremos de la columna, de-
+                                                                               bido a la deformación localizada en los extremos.
+
+                                   1 pie
+                                                                                                                      z
+
+
+                                                                                                                      15 kN
+
+                                                                                                                  B       180 mm
+                                                                  8 pies
+
+
+                                                         z = 4 pies
+
+
+                        1.5 pies
+                                                                                                                                 4m
+                                                                           y
+                                                                                                                            z
+
+
+                              x                                                                x                                       y
+
+                                           Prob. 1-73                                                          Prob. 1-75
+01-Hibbeler    1/6/05    5:18 AM     Página 48
+
+
+     48   •   CAPÍTULO 1 Esfuerzo
+
+
+     *1-76. La pila está hecha de material con peso específi-     1-78. El radio del pedestal está definido por r 
+     co . Si tiene una sección transversal cuadrada, determine   (0.5e0.08y ) m, donde y está dada en metros. Si el material
+                                                                             2
+
+     su ancho w en función de z, de manera que el esfuerzo nor-   tiene una densidad de 2.5 Mg/m3, determine el esfuerzo
+     mal promedio en la pila permanezca constante. La pila so-    normal promedio en el soporte.
+     porta una carga constante P en su parte superior, donde
+     su ancho es w1.
+
+
+                                P
+
+                                           w1
+
+                                                w1
+
+                                                                                                    r = 0.5e−0.08y
+                                                                                                                  2
+                                                                                 3m
+
+                                                     z
+                                                                                      y
+                            w        w
+                                                         L                                                r
+
+                                                                                          0.5 m
+
+
+                                                                                             Prob. 1-78
+
+                             Prob. 1-76
+
+
+     1-77. El pedestal soporta una carga P en su centro. Si el    1-79. Determine la velocidad angular máxima constante
+     material tiene una densidad de masa , determine la di-       del volante de manera que el esfuerzo normal prome-
+     mensión radial r en función de z, de manera que el esfuer-   dio en su pestaña no sea mayor que   15 MPa. Supon-
+     zo normal promedio permanezca constante. La sección          ga que la pestaña es un anillo delgado con espesor de 3 mm,
+     transversal es circular.                                     ancho de 20 mm y masa de 30 kg/m. La rotación tiene lugar
+                                                                  en un plano horizontal. Desprecie el efecto de los rayos en
+                                                                  el análisis. Sugerencia: considere un diagrama de cuerpo
+                                 P                                libre de una porción semicircular del anillo. El centro de
+                                                                  masa de un segmento semicircular está en r̂  2r/ des-
+                                          r1                      de el diámetro.
+
+
+                        z
+
+                                                r                                                               v
+
+
+                                                                                                       0.8 mm
+
+
+                             Prob. 1-77                                                      Prob. 1-79
+01-Hibbeler   28/8/56    5:13 AM       Página 59
+
+
+                                                                                                                    PROBLEMAS     •    59
+
+
+         PROBLEMAS
+              *1-80. El miembro B está sometido a una fuerza de com-       1-82. La junta está conectada por medio de dos per-
+              presión de 800 lb. Si A y B están hechos de madera y tie-    nos. Determine el diámetro requerido de los pernos si el es-
+              nen 38 pulg de espesor, determine con una aproximación     fuerzo cortante permisible en los pernos es perm 
+              de 14 pulg la dimensión h más pequeña del soporte para     110 MPa. Suponga que cada perno soporta una porción
+              que el esfuerzo cortante promedio no sea mayor que           igual de la carga.
+              perm  300 lb/pulg2.
+
+
+                                                                                                            30 mm     80 kN
+
+                                                   B   800 lb
+                                                                                                                               30 mm
+                                          13
+                                                   5
+                                          12
+                                   h
+                            A                                                 40 kN
+
+                                                                                   40 kN
+                                       Prob. 1-80
+                                                                                                    Prob. 1-82
+
+
+              1-81. El poste de roble de 60  60 mm está soportado por
+              el bloque de pino. Si los esfuerzos permisibles por aplas-
+              tamiento en esos materiales son roble  43 MPa y pino 
+              25 MPa, determine la carga máxima P que puede ser so-
+              portada. Si se usa una placa rígida de apoyo entre los dos   1-83. La palanca está unida a la flecha A por medio de
+              materiales, determine su área requerida de manera que la     una chaveta de ancho d y longitud de 25 mm. Si la flecha
+              carga máxima P pueda ser soportada. ¿Qué valor tiene         está empotrada y se aplica una fuerza vertical de 200 N
+              esta carga?                                                  perpendicular al mango, determine la dimensión d si el es-
+                                                                           fuerzo cortante permisible en la chaveta es perm  35 MPa.
+
+
+                                               P
+
+
+                                                                                           d
+                                                                               a            a
+                                                                               A
+                                                                                           20 mm
+                                                                                                      500 mm
+
+                                                                                                                              200 N
+
+
+                                       Prob. 1-81                                                   Prob. 1-83
+01-Hibbeler        28/8/56       5:13 AM       Página 60
+
+
+     60   •       CAPÍTULO 1 Esfuerzo
+
+
+     *1-84. El tamaño a del filete se determina calculando el           1-87. El manguito de un eslabón giratorio en el control
+     esfuerzo cortante promedio a lo largo del plano sombreado          elevador de un avión se mantiene en posición usando una
+     que tenga la menor sección transversal. Determine el               tuerca y una arandela como se muestra en la figura (a). La
+     tamaño a más pequeño de los dos cordones si la fuerza              falla de la arandela A puede ocasionar que la barra de
+     aplicada a la placa es P  20 klb. El esfuerzo cortante            empuje se separe como se muestra en la figura (b). Si el
+     permisible para el material de la soldadura es perm              esfuerzo normal promedio máximo para la arandela es
+     14 klb/pulg2.                                                      máx  60 klb/pulg2 y el esfuerzo cortante promedio má-
+                                                                        ximo es máx  21 klb/pulg2, determine la fuerza F que de-
+                                                                        be aplicarse al manguito para que ocurra la falla. La aran-
+                                                                        dela tiene 116 pulg de espesor.
+                                           a
+
+                                  45
+              P                                            4 pulg
+
+                             a                                                     0.75 pulg
+                                                                        F                                                 F
+                                   Prob. 1-84
+
+                                                                                                                                            A
+                                                                                                (a)                                   (b)
+     1-85. El tamaño del cordón de soldadura es a  0.25 pulg.
+     Si se supone que la junta falla por cortante en ambos lados
+                                                                                                              Prob. 1-87
+     del bloque a lo largo del plano sombreado, el cual tiene la
+     sección transversal más pequeña, determine la fuerza má-
+     xima P que puede aplicarse a la placa. El esfuerzo cortan-
+     te permisible para el material de la soldadura es perm 
+     14 klb/pulg2.
+                                                                        *1-88. Los dos alambres de acero AB y AC se usan para
+                                                                        soportar la carga. Si ambos alambres tienen un esfuerzo
+                                                                        de tensión permisible de perm  200 MPa, determine el
+                                                                        diámetro requerido de cada alambre si la carga aplicada
+                                           a                            es P  5 kN.
+                                  45                                    1-89. Los dos cables de acero AB y AC se usan para so-
+              P                                            4 pulg
+                                                                        portar la carga. Si ambos alambres tienen un esfuerzo de
+                          a                                             tensión permisible de perm  180 MPa, y el alambre AB
+                                                                        tiene un diámetro de 6 mm y AC tiene un diámetro de
+                                                                        4 mm, determine la mayor fuerza P que puede aplicarse a
+                                   Prob. 1-85                           la cadena antes de que falle uno de los alambres.
+
+
+     1-86. El miembro a tensión está ensamblado por medio
+     de dos pernos, uno a cada lado del miembro como se mues-
+     tra. Cada perno tiene un diámetro de 0.3 pulg. Determine
+     la carga máxima P que puede aplicarse al miembro si el                                                                       C
+     esfuerzo cortante permisible para los pernos es perm                          B
+     12 klb/pulg2 y el esfuerzo normal promedio permisible es                                  60
+                                                                                                                      5
+                                                                                                                              3
+     perm  20 klb/pulg2.                                                                                A           4
+
+
+                                                60
+
+      P                                                             P
+                                                                                                      P
+
+
+                                   Prob. 1-86                                                       Probs. 1-88/89
+01-Hibbeler   28/8/56     5:13 AM        Página 61
+
+
+                                                                                                                                                    PROBLEMAS      •   61
+
+
+              1-90. El brazo de la grúa está soportado por el cable de                1-93. La viga está hecha de pino del sur y está soporta-
+              un malacate que tiene un diámetro de 0.25 pulg y un es-                 da por placas de base que descansan en mampostería. Si
+              fuerzo normal permisible de perm  24 klb/pulg2. Deter-                los esfuerzos permisibles de aplastamiento para los ma-
+              mine la carga máxima que puede ser soportada sin que el                 teriales son (pino)perm  2.81 klb/pulg2, (mamp)perm 
+              cable falle cuando   30° y   45°. Desprecie el tama-                6.70 klb/pulg2, determine la longitud requerida para las
+              ño del malacate.                                                        placas de apoyo en A y B, con una aproximación de 41 pulg,
+                                                                                      para soportar la carga mostrada. Las placas tienen 3 pulg
+              1-91. El brazo está soportado por el cable del malaca-
+                                                                                      de ancho.
+              te que tiene un esfuerzo normal permisible de perm 
+              24 klb/pulg2. Si se requiere que el cable levante lentamen-
+              te 5000 lb, de   20° a   50°, determine el diámetro más
+              pequeño del cable con una aproximación de 116 pulg. El
+              brazo AB tiene una longitud de 20 pies. Desprecie el ta-
+              maño del malacate.                                                                                         6 klb
+                                                                                                                                            200 lb/pie
+
+
+                                                                                             A
+                                                                                  B                                                             B
+                                                                                                             5 pies                    5 pies           3 pies
+
+
+                                                      θ                                                                  Prob. 1-93
+                                                                      20 pies
+
+                                                A             φ
+
+
+                                                                                      1-94. Si el esfuerzo permisible de aplastamiento para el
+                                                                                      material bajo los soportes A y B es (b)perm  400 lb/pulg2,
+                                        Probs. 1-90/91                                determine el tamaño de las placas cuadradas de apoyo A′
+                                                                                      y B′ requeridas para soportar la carga. Considere P 
+                                                                                      1.5 klb. Dimensione las placas con una aproximación de
+                                                                                      1 pulg. Las reacciones en los soportes son verticales.
+                                                                                       2
+
+                                                                                      1-95. Si el esfuerzo permisible por aplastamiento para el
+              *1-92. La armadura se usa para soportar la carga mos-                   material bajo los soportes A y B es (b)perm  400 lb/pulg2,
+              trada. Determine el área requerida de la sección transver-              determine la carga P máxima que puede aplicarse a la viga.
+              sal del miembro BC si el esfuerzo normal permisible es                  Las placas de apoyo A′ y B′ tienen sección cuadrada de
+              perm  24 klb/pulg2.                                                   2  2 pulg y 4  4 pulg, respectivamente.
+
+
+                                             800 lb
+                                                                                                                               3 klb
+                                                                                            2 klb            2 klb                              2 klb
+                                                                                                                                                                       P
+                         400 lb   6 pies                  6 pies                                    5 pies            5 pies           5 pies           7.5 pies
+                                               F
+
+                                             60                  E
+                         6 pies                                          6 pies
+                                      B                   C
+                                   30
+                     A            45                                    D
+                                                                                             A                                                   B
+
+
+                                           Prob. 1-92                                                                  Probs. 1-94/95
+01-Hibbeler      28/8/56      5:13 AM            Página 62
+
+
+     62   •    CAPÍTULO 1 Esfuerzo
+
+
+     *1-96. Determine el área transversal requerida en el               1-98. Las dos barras de aluminio AB y AC tienen diá-
+     miembro BC y el diámetro de los pasadores en A y B si              metros de 10 mm y 8 mm, respectivamente. Determine la
+     el esfuerzo normal permisible es perm  3 klb/pulg2 y el          fuerza P máxima vertical que puede ser soportada. El
+     esfuerzo cortante permisible es perm  4 klb/pulg2.                esfuerzo permisible de tensión para el aluminio es perm 
+                                                                        150 MPa.
+
+
+                                                                    C                                                  B
+
+
+                  1500 lb              1500 lb
+
+
+                                                                                   C                  A         45
+              2 pies        4 pies             2 pies
+
+                                                              60
+
+
+          A                                             B                                              P
+
+                                                                                                Prob. 1-98
+
+
+                                                                        1-99. Las ménsulas soportan uniformemente la viga, por
+                                     Prob. 1-96                         lo que se supone que los cuatro clavos en cada ménsula so-
+                                                                        portan una porción igual de la carga. Si la viga está some-
+                                                                        tida a la carga mostrada, determine el esfuerzo cortante
+                                                                        promedio en cada clavo de la ménsula en los extremos A
+                                                                        y B. Cada clavo tiene un diámetro de 0.25 pulg. Las mén-
+     1-97. Las dos barras de aluminio soportan la fuerza ver-           sulas soportan sólo cargas verticales.
+     tical de P  20 kN. Determine sus diámetros requeridos si          *1-100. Las ménsulas soportan uniformemente la viga,
+     el esfuerzo permisible de tensión para el aluminio es de           por lo que se supone que los cuatro clavos de cada mén-
+     perm  150 MPa.                                                   sula soportan porciones iguales de la carga. Determine el
+                                                                        diámetro más pequeño de los clavos en A y B si el esfuerzo
+                                                                        cortante permisible para los clavos es perm  4 klb/pulg2.
+                                                                        Las ménsulas soportan sólo cargas verticales.
+
+
+                                                              B
+                                                                                                                      40 lb/pie
+                                                                              30 lb/pie
+
+
+                   C                       A            45
+
+
+                                                                               A                                            B
+
+                                            P                                                     18 pies
+
+
+                                     Prob. 1-97                                               Probs. 1-99/100
+01-Hibbeler   28/8/56       5:13 AM     Página 63
+
+
+                                                                                                                             PROBLEMAS       •   63
+
+
+              1-101. La viga atirantada se usa para soportar una carga       *1-104. Si el esfuerzo cortante permisible para cada uno
+              distribuida de w  0.8 klb/pie. Determine el esfuerzo cor-     de los pasadores de acero de 0.3 pulg de diámetro en A, B
+              tante promedio en el perno en A de 0.40 pulg de diámetro       y C es perm  12.5 klb/pulg2 y el esfuerzo normal per-
+              y el esfuerzo de tensión promedio en el tirante AB que tie-    misible para la barra de 0.40 pulg de diámetro es perm 
+              ne un diámetro de 0.5 pulg. Si el esfuerzo de fluencia en      22 klb/pulg2, determine la intensidad w máxima de la carga
+              cortante para el perno es y  25 klb/pulg2 y el esfuerzo       uniformemente distribuida que puede colgarse de la viga.
+              de fluencia en tensión para el tirante es y  38 klb/pulg2,
+              determine el factor de seguridad con respecto a la fluen-
+              cia en cada caso.
+              1-102. Determine la intensidad w máxima de la carga dis-                           C
+              tribuida que puede ser soportada por la viga atirantada de
+              manera que no se exceda un esfuerzo cortante permisible
+               perm  13.5 klb/pulg en los pernos de 0.40 pulg de diá-
+                                    2
+
+              metro en A y B, ni que se exceda tampoco un esfuerzo per-
+              misible de tensión perm  22 klb/pulg2 en el tirante AB
+                                                                                       4 pies
+              de 0.5 pulg de diámetro.
+                                                                                                 A
+
+
+                                                                                                                             B
+
+                                                                                                             3 pies
+                             B
+                                                                                                                                      w
+
+                                                                                                                              1 pie
+
+               3 pies
+                                                                                                         Probs. 1-103/104
+                        C                                A
+
+
+                                                                             1-105. Las dos partes de la viga de madera están conec-
+                                                                             tadas entre sí por un perno en B. Suponiendo que las co-
+                                                                       w
+                                                                             nexiones en A, B, C y D ejercen sólo fuerzas verticales so-
+                                      4 pies                 2 pies          bre la viga, determine el diámetro requerido del perno en
+                                                                             B y el diámetro exterior requerido de sus arandelas si el
+                                                                             esfuerzo permisible de tensión para el perno es (t)perm 
+                                      Probs. 1-101/102
+                                                                             150 MPa y el esfuerzo permisible por aplastamiento para
+                                                                             la madera es (b)perm  28 MPa. Suponga que el agujero
+                                                                             en las arandelas tiene el mismo diámetro que el perno.
+
+
+                                                                                                                                 2 kN
+              1-103. La viga atirantada se usa para soportar la carga                  3 kN                               1.5 kN
+              distribuida de w  500 lb/pie. Determine el factor de               2m            2m         1.5 m      1.5 m 1.5 m    1.5 m
+              seguridad con respecto a la fluencia en el tirante de acero                            C                                           D
+              BC y en los pasadores en B y C si el esfuerzo de fluencia      A                                        B
+              para el acero en tensión es y  36 klb/pulg2 y en cortante
+              es y  18 klb/pulg2. El tirante tiene un diámetro de
+              0.4 pulg y los pasadores tienen cada uno un diámetro
+              de 0.30 pulg.                                                                                Prob. 1-105
+01-Hibbeler    28/8/56     5:13 AM     Página 64
+
+
+     64   •   CAPÍTULO 1 Esfuerzo
+
+
+     1-106. La barra se mantiene en equilibrio por los sopor-        1-110. El pasador está sometido a cortante doble ya que
+     tes de pasador en A y en B. Observe que el soporte en A         se usa para conectar los tres eslabones entre sí. Debido al
+     tiene una sola hoja y por lo tanto el pasador está someti-      desgaste, la carga está distribuida sobre las partes superior
+     do a cortante simple, mientras que el soporte en B tiene        e inferior del pasador como se muestra en el diagrama de
+     dos hojas y su pasador está sometido a cortante doble.          cuerpo libre. Determine la máxima carga P que la cone-
+     El esfuerzo cortante permisible para ambos pasadores es         xión puede soportar si el esfuerzo cortante permisible para
+      perm  150 MPa. Si se coloca sobre la barra una carga uni-     el material es perm  8 klb/pulg2 y el diámetro del pasa-
+     formemente distribuida w  8 kN/m, determine su posi-           dor es de 0.5 pulg. Determine también las intensidades de
+     ción mínima permisible x medida desde B. Los pasadores          carga w1 y w2.
+     en A y en B tienen cada uno un diámetro de 8 mm. Des-
+     precie cualquier fuerza axial en la barra.
+     1-107. La barra se mantiene en equilibrio por los sopor-                                        P
+     tes de pasador en A y en B. Note que el soporte en A tie-
+     ne una sola hoja y por lo tanto el pasador está sometido
+     a cortante simple, mientras que el soporte en B tiene dos
+     hojas y su pasador está sometido a cortante doble. El
+     esfuerzo cortante permisible para ambos pasadores es                           1 pulg                        1 pulg
+      perm  125 MPa. Si x  1 m, determine la carga w distri-
+     buida máxima que la barra puede soportar. Los pasadores
+     A y B tienen cada uno un diámetro de 8 mm. Desprecie
+     cualquier fuerza axial en la barra.                                                                                       d
+
+     *1-108. La barra se mantiene en equilibrio por los sopor-
+     tes de pasador en A y en B. Note que el soporte en A tie-                                    1.5 pulg
+     ne una sola hoja y por lo tanto el pasador está sometido a
+     cortante simple, mientras que el soporte en B tiene dos ho-
+     jas y su pasador está sometido a cortante doble. El esfuer-                      P
+                                                                                      —                             P
+                                                                                                                    —
+                                                                                      2                             2
+     zo cortante permisible para ambos pasadores es perm 
+     125 MPa. Si x  1 m y w  12 kN/m, determine el menor                                   w2              w2
+     diámetro requerido para los pasadores A y B. Desprecie
+     cualquier fuerza axial en la barra.
+
+                                                                                                                  w1
+
+                    A                                                                        Probs. 1-109/110
+
+                                   B
+
+                                                   w                 1-111. El cojinete de empuje consiste en un collarín circu-
+                            2m                                       lar A fijo a la flecha B. Determine la fuerza axial P má-
+                                         x                           xima que puede aplicarse a la flecha de manera que el
+                                                                     esfuerzo cortante a lo largo de la superficie cilíndrica a o b
+                                             2m                      no sea mayor que el esfuerzo cortante permisible perm 
+                                                                     170 MPa.
+
+                         Probs. 1-106/107/108
+
+
+                                                                                                         C
+                                                                                                                       b
+     1-109. El pasador está sometido a cortante doble ya que                                             a
+     se usa para conectar los tres eslabones entre sí. Debido al           P                 B           A                 30 mm 58 mm
+     desgaste, la carga está distribuida sobre las partes superior
+                                                                                                         a
+     e inferior del pasador como se muestra en el diagrama de
+     cuerpo libre. Determine el diámetro d del pasador si el                                                           b
+                                                                                                     35 mm
+     esfuerzo cortante permisible es perm  10 klb/pulg2 y                                                             20 mm
+     la carga P  8 klb. Determine también las intensidades de
+     carga w1 y w2.                                                                               Prob. 1-111
+01-Hibbeler        28/8/56        5:13 AM       Página 66
+
+
+     66   •       CAPÍTULO 1 Esfuerzo
+
+
+     P R O B L E M A S D E R E PA S O
+     *1-112. Un perno atraviesa una placa de 30 mm de espe-                   1-114. Determine las cargas internas resultantes que ac-
+     sor. Si la fuerza en el vástago del perno es de 8 kN, deter-             túan sobre las secciones transversales por los puntos D y
+     mine el esfuerzo normal promedio en el vástago, el esfuer-               E de la estructura.
+     zo cortante promedio a lo largo del área cilíndrica de la
+     placa definida por las líneas a-a y el esfuerzo cortante pro-
+     medio en la cabeza del perno a lo largo del área cilíndrica
+     definida por las líneas b-b.
+
+
+                                                                                                                                  150 lb/pie
+
+                           8 mm                     a
+                                                    7 mm                                                   D    B
+                                                                                                1.5 pies
+                       b                                              8 kN                     A
+              18 mm                                                                   4 pies        E
+                       b
+
+                                                    a                                              2.5 pies
+                                                        30 mm
+                                                                                               C
+                                                                                                     3 pies              5 pies
+                                    Prob. 1-112
+
+                                                                                                           Prob. 1-114
+
+
+     1-113. La estructura de dos miembros está sometida a la
+     carga mostrada. Determine el esfuerzo normal promedio
+     y el esfuerzo cortante promedio que actúan en las seccio-
+     nes a-a y b-b. El miembro CB tiene una sección transver-
+     sal cuadrada de 2 pulg por lado.                                         1-115. La barra BC está hecha de acero cuyo esfuerzo
+                                                                              permisible de tensión es perm  155 MPa. Determine su
+                                                                              diámetro más pequeño para que pueda soportar la carga
+                                                                              mostrada. Suponga que la viga está conectada por un pa-
+                                                                              sador en A.
+
+                                                                          C
+                                                                      b
+
+
+                                                    a             30 b
+
+                                                                  a               C                                      15 kN/m
+                              300 lb pie
+              A                                             60
+                                                        B
+
+                     4 pies            4 pies                                    B                                                             A
+                                                                                                     3m                      1.5 m
+                                                  80 lb
+
+                                    Prob. 1-113                                                            Prob. 1-115
+01-Hibbeler   28/8/56    5:13 AM         Página 67
+
+
+                                                                                                                  PROBLEMAS DE REPASO    •   67
+
+
+              *1-116. La columna tiene un área transversal de 12(103)            1-118. La polea se mantiene fija a la flecha de 20 mm de
+              mm2. Está sometida a una fuerza axial de 50 kN. Si la placa        diámetro por medio de una chaveta que se inserta en una
+              de base a la cual la columna está unida tiene una longitud         ranura de la polea y de la flecha. Si la carga suspendida
+              de 250 mm, determine su ancho d de manera que el esfuer-           tiene una masa de 50 kg, determine el esfuerzo cortante
+              zo de aplastamiento promedio en el suelo bajo la placa sea         promedio en la chaveta a lo largo de la sección a-a. La cha-
+              la tercera parte del esfuerzo de compresión promedio en la         veta tiene una sección transversal cuadrada de 5 mm por
+              columna. Esboce la distribución de esfuerzos que actúan            5 mm y 12 mm de longitud.
+              sobre la sección transversal de la columna y en el fondo de
+              la placa de base.
+
+
+                                            50 kN
+
+                                                                                                     a                    a
+
+
+                                                                                                            75 mm
+
+
+                                                          250 mm
+                              d
+
+
+                                         Prob. 1-116                                                        Prob. 1-118
+
+
+              1-117. La viga AB está soportada por un pasador en A y
+              por un cable BC. Otro cable CG se usa para sostener la
+              estructura. Si AB pesa 120 lb/pie y la columna FC pesa
+              180 lb/pie, determine las cargas internas resultantes que          1-119. La conexión de barra y grillete está sometida a
+              actúan sobre las secciones transversales por los puntos D          una fuerza de tensión de 5 kN. Determine el esfuerzo nor-
+              y E. Desprecie los anchos de la viga y de la columna en el         mal promedio en cada barra y el esfuerzo cortante prome-
+              cálculo.                                                           dio en el pasador A entre los miembros.
+
+
+                                                    C
+                                         4 pies
+                                                          6 pies             B
+                                                                                                   40 mm
+                                                                                  5 kN
+                                                        A          D
+                                                                   12 pies
+                                         8 pies
+
+
+                                                          E
+                                                                                                                                 30 mm
+                                         4 pies                                                       A
+                                                                                                          25 mm
+                  G
+                                                      F
+                                                                                                                                         5 kN
+                              12 pies
+
+                                        Prob. 1-117                                                        Prob. 1-119

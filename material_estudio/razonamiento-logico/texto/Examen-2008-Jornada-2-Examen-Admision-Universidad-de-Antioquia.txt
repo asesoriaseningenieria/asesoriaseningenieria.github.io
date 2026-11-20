@@ -1,0 +1,1156 @@
+Vicerrectoría de Docencia
+    Departamento de Admisiones y Registro
+
+
+                      EXAMEN DE ADMISIÓN
+                        SEMESTRE 2008-01
+
+                          Jornada 2A: Lunes p.m.
+
+
+   Marque la opción correspondiente, rellenando los círculos: a, b, c ó d.
+Razonamiento Lógico
+
+
+                      2
+Preguntas del 1 al 4.
+
+La tabla siguiente muestra algunos resultados obtenidos en       Se sabe que:
+una eliminatoria de futbol donde participaron los equipos A,      Rosa tiene únicamente como vecinos a sus cuatro amigos
+B, C, E y donde jugaran todos contra todos:                       Juan es quien más vecinos tiene en la parcelación.
+                                                                  Luís es vecino de Juan y Rosa pero no de Sara.
+                  PJ         PG         PP         PE
+                                                                  Sara tiene cinco familias vecinas.
+        A         3           2                    X
+                                                                 5. De las siguientes afirmaciones, la única de la cual se
+        B         3           Y                     0
+                                                                     tiene certeza es:
+        C                     1                     2
+         E                    Z          2                                A.   Rosa vive en la parcela 3
+      PJ: Partidos jugados, PG: Partidos ganados, PP: partidos            B.   Juan vive en la parcela 6
+     perdidos, PE: Partidos empatados.                                    C.   Rosa vive en la parcela 10
+     Se sabe que A le ganó a E y B perdió con C.                          D.   María es vecina de Juan
+
+
+1.   El número de partidos que se jugaron en la eliminatoria     6.       Si se sabe además que María y Luís tienen el mismo
+     fue:                                                                 número de vecinos, entonces, las parcelas de Juan, Sara,
+                                                                          Rosa, Luís y María son respectivamente las marcadas
+     A.       3                                                           con los números:
+     B.       4
+     C.       5                                                           A.   6, 7, 3, 2, 4
+     D.       6                                                           B.   8, 7, 6, 3, 4
+                                                                          C.   6, 8, 10, 9, 11
+2.   Los números que ocupan las posiciones X, Y, Z de la                  D.   7, 8, 10, 11, 9
+     tabla son respectivamente:
+                                                                 7.       Aceptando      como      verdaderas    las    siguientes
+     A.       0, 2, 1                                                     proposiciones:
+     B.       1, 2, 1
+     C.       1, 1, 0                                                         La ciudad A ha sufrido un sismo de 7 grados en la
+     D.       0, 1, 0                                                          escala de Richter.
+                                                                              No todos los edificios de la ciudad A son sismo-
+3.   En el partido entre A y B                                                 resistentes.
+                                                                              Sólo los edificios sismo-resistentes soportan sin
+     A.       Ganó A                                                           daño alguno un sismo de 7 grados en la escala de
+     B.       Ganó B                                                           Richter.
+     C.       A empató con B
+     D.       No puede determinarse con los datos conocidos.              De las afirmaciones siguientes, la única que se puede
+                                                                          concluir lógicamente de las proposiones anteriores es:
+4.   El número de partidos que perdió B es:
+                                                                          A.   Todos los edificios de la ciudad A no son sismo
+     A.       0                                                                resistentes.
+     B.       1                                                           B.   Ningún edificio de la ciudad A sufrió daño alguno
+     C.       2                                                                en el sismo de 7 grados en la escala de Richter.
+     D.       3                                                           C.   Al menos un edificio de la ciudad A sufrió daños en
+                                                                               el sismo de 7 grados en la escala de Richter.
+Preguntas 5 y 6.                                                          D.   Muchos edificios de la ciudad A sufrieron daños en
+                                                                               el sismo de 7 grados en la escala de Richter.
+Juan, Sara, Rosa, Luís y María viven en la misma parcelación
+(en diferentes parcelas) y son amigos.                           8.       En un estudio realizado a una población estudiantil se
+El siguiente es un mapa de la parcelación; se consideran                  tomaron aleatoriamente 100 estudiantes y se encontró
+vecinos aquellos cuyas parcelas lindan en más de un punto                 que 56 estudiantes tiene el peso adecuado para su
+(comparten un segmento). Las parcelas se identifican con                  estatura y 25 mujeres tienen sobrepeso.
+los números que aparecen en el gráfico.                                   El número de hombres con sobrepeso es:
+
+
+          1 2            3   4   5                                        A.   17
+                             7                                            B.   19
+            6                8                                            C.   25
+          9             10   11 12                                        D.   44
+                                                                        12. Una mezcla de 15 partes de A, 7 de B y 9 de C pesa 93
+  Preguntas del 9 al 11.                                                    onzas. Si cada parte de A, B o C tiene el mismo peso,
+                                                                            entonces, las onzas de B que hay en la mezcla son:
+  Un pueblo tiene un extraño conjunto de límites de velocidad.
+  A 1 km del centro del pueblo hay un aviso que dice 120                    A.   27.12
+  km/h, a ½ km del centro un aviso dice 40km/h, a 1/3 km hay                B.   25
+  un aviso que dice 20 km/h, a ¼ km el aviso dice 12 km/h y a               C.   21
+  1/5 km hay un aviso que dice “detenga el vehículo”                        D.   20.5
+
+  9.   Si en la gráfica situamos el centro del pueblo en el             Preguntas 13 y 14.
+       origen, entonces la gráfica que representa a un vehículo
+       que viaja hacia el centro del pueblo al límite de la                 Cecilia, Diego, Fabio, Gloria y Mario tienen diferentes
+       velocidad en cada tramo es:                                          cantidades de dinero. Ni Gloria ni Cecilia tienen tanto
+                                                                            dinero como Fabio. Tanto Cecilia como Diego tienen
+                                                                            más dinero que Mario. Gloria tiene más dinero que
+Velocidad                              Velocidad
+120                                    120
+                                                                            Mario, pero menos que Cecilia.
+       A                                     B
+                                                                        13. El que tiene la menor cantidad de dinero es:
+ 60                                     60
+ 40                                     40
+ 20                                     20                                  A. Mario
+ 12                                     12
+                                                                            B. Gloria
+       1
+           / 5 ¼ 1/ 3   ½       1 km
+                                             1
+                                              / 5 ¼ 1/ 3   ½    1 km        C. Diego
+                                     Velocidad                              D. Cecilia
+Velocidad                                                               14. Si adicionalmente se sabe que Diego no tiene tanto
+120                                    120
+
+       C                                     D                              dinero como Gloria, entonces el orden decreciente en el
+                                                                            cual esta distribuido el dinero entre estas cinco
+60                                      60
+ 40                                     40
+                                                                            personas es:
+ 20                                     20
+ 12                                     12
+                                                                            A.   Fabio, Gloria, Cecilia, Mario, Diego
+           1
+            /5 ¼ 1/3    ½        1 km                      ½     1 km       B.   Gloria, Fabio, Diego, Cecilia, Mario
+                                                                            C.   Gloria, Fabio, Cecilia, Mario, Diego
+                                                                            D.   Fabio, Cecilia, Gloria, Diego, Mario
+       A.       A
+       B.       B                                                       15. En una elección uno de los candidatos obtuvo el 65% de
+       C.       C                                                           los votos y sacó 1500 votos más que el otro candidato.
+       D.       D                                                           Entonces el número de votos fue:
+
+  10. El tiempo que se gasta en viajar en el tramo por el cúal              A.   4000
+      va a 120 km/h es:                                                     B.   4500
+                                                                            C.   5000
+       A.       La mitad del tiempo total invertido desde el primer         D.   5500
+                aviso hasta detenerse
+       B.       Un cuarto del tiempo total invertido en el viaje        16. En un estanque experimental se han sembrado dos
+                desde el primer aviso hasta detenerse                       especies de peces designadas como A y B
+       C.       Igual a la suma de los tiempos en que viaja a 40            respectivamente. Al cabo exactamente de un año se ha
+                km/h y 20 km/h.                                             hecho un censo de ambas especies y se encontró que
+       D.       Mayor que en el tramo en el que viaja a 12 km/h.            mientras la población de A se incrementó en el 20%, la
+                                                                            población de B disminuyó en el 10% y el número de
+  11. La distancia recorrida por el vehículo (en kilometros)                peces de ambas especies resultó al final igual.
+      desde el primero hasta el último aviso es:                            Entonces la razón entre las poblaciones iniciales de la
+                                                                            especie A, con relacion a la especie B es:
+       A.       1/5
+       B.       2/3                                                         A.   1/2
+       C.       3/4                                                         B.   3/4
+       D.       4/5                                                         C.   5/6
+                                                                            D.   8/9
+17. Se define la operación      entre los números reales m, q         C.   Hay una ganancia de 33 dólares
+                                                                      D.   No es posible determinar si hay ganancia ó
+      así                      , entonces q q es igual a:                  sobrecosto.
+
+                                                                22. El resultado de la suma: 1 + 2 - 3 + 4 - 5 + 6 - 7 + 8 - . . . . .
+      A.    – q2 /2
+                                                                    . - 99 + 100 es:
+      B.    q3
+      C.    q2/2
+                                                                      A.   70
+      D.    -q3
+                                                                      B.   52
+                                                                      C.   0
+18.    27A
+                                                                      D.   -50
+     x B7
+    35.772
+En la multiplicación señalada, A y B representan dígitos.
+                                                                23.                      largo
+                                                                      ancho
+Entonces los valores de A y B son respectivamente:
+                                                                      o
+                                                                                                                altura
+      A.    5y8
+      B.    6y9
+      C.    6y7
+      D.    7y5
+                                                                      Se tiene una caja de caras rectangulares cuyo volumen
+                                                                      es igual a 1000 cm3. Si el largo es cuatro veces el ancho
+19. Ana le dice a Lucy: “si yo te doy 6 de mis colores
+                                                                      y la altura es el doble del ancho, entonces, el área
+    entonces quedaría con 2/3 de la cantidad tuya” . Lucy
+                                                                      superficial de la caja en cm2 es:
+    replica “si yo te doy 10 de los mios entonces quedaría
+    con 1/2 de los tuyos”.
+                                                                      A.   1000
+    Las cantidades de colores que tienen Ana y Lucy
+                                                                      B.   800
+    respectivamente son:
+                                                                      C.   700
+                                                                      D.   500
+    A. 18, 16
+    B. 30, 30
+                                                                24. Se desea cercar un terreno retangular de 100m 2 de área
+    C. 15, 25
+                                                                    y luego dicha región se va dividir en dos porciones
+    D. 25, 30
+                                                                    iguales con una cerca paralela a uno de sus lados, como
+Preguntas 20 y 21.
+                                                                    lo muestra la figura:
+En una microempresa de mueblesCredencial   24781
+                                    se ha encontrado que si
+se produce menos de cierta cantidad de muebles por mes,
+entonces se genera un sobrecosto de producción (en
+dólares) para dichas cantidades de muebles. Por encima de
+dicho número se produce una ganancia, también en dólares.
+Se sabe además que la relación de sobrecosto ó ganancia (y)                                       x
+como función de la cantidad de muebles producidos por
+                                                                      La longitud total “L” de la cerca necesaria para hacer el
+mes (x) está dada por la ecuación 3x + 4y = 96.
+                                                                      trabajo se puede escribir en términos de “x” como:
+
+                                                                      A.   L = (203 / 100) x
+20. El número mínimo de muebles que deben producirse
+                                                                      B.   L = (201 / 100) x
+    por mes para que no se presente sobrecosto de
+                                                                      C.   L = 2x + ( x / 300)
+    produción es:
+                                                                      D.   L = 2x + (300 / x)
+      A.    24
+                                                                25. La razón entre el área sombreada y el área total de la
+      B.    32
+                                                                    figura es:
+      C.    60
+      D.    96
+
+                                                                      A.   1/3
+21. Si se producen 76 muebles al mes, la única afirmación
+                                                                      B.   1/2
+    verdadera con respecto al sobrecosto ó ganancia es:
+                                                                      C.   3/8
+                                                                      D.   2/5
+      A.    Hay un sobrecosto de 33 dólares
+      B.    El sobrecosto es de 0 dólares
+26. Si los ángulos de un triángulo tienen por medida
+    números enteros consecutivos, entonces la medida del
+    menor del los ángulos es:
+                                                                      Con bloques paralelepípedos rectangulares iguales y
+      A.   58°                                                        sólidos, con las dimensiones que se indican en la figura,
+      B.   59°                                                        se han construido las dos paredes escalonadas de a una
+      C.   60°                                                        sola hilada de bloques en la base de cada pared (BA y
+      D.   61°                                                        BE respectivamente).
+
+
+27.                                                               30. La altura a la que se encuentra el punto D con respecto
+                                                                      al nivel del piso es:
+
+
+                                                                       A.
+                                                                       B.
+                                                                       C.
+                                                                       D.
+      El número total de triángulos diferentes en la figura es:
+                                                                  31. Si se coloca un cable partiendo de A y siguiendo el perfil
+      A.      9                                                       de la escala pasa por C y continuando por el perfil llega
+      B.     10                                                       a D, entonces su longitud es:
+      C.     13
+      D.     15                                                         A.
+                                                                        B.
+28. Un estudio realizado a una máquina productora de
+    tornillos ha establecido que de cada 4 tornillos                    C.
+    producidos, 1 es defectuoso. Si se requiere cubrir un               D.
+    pedido de 48 tornillos, entonces de las siguientes
+    afirmaciones la única verdadera es:                           32. Si se quiere que las dos paredes tengan forma
+                                                                      rectangular, de la misma altura, manteniendo el mismo
+      A. Basta con producir 60 tornillos.                             número de bloques en las bases (AB y BE) que en la
+      B. Es necesario producir 64 tornillos.                          figura inicial, entonces una opción que registra la forma
+      C. Es suficiente producir 56 tornillos o más.                   de lograrlo es:
+      D. Es necesario producir más de 64 tornillos.
+                                                                       A.     Reacomodar 4 bloques y agregar 2 bloques
+29. Los dígitos 1, 2, 3, 4 y 9 son usados una sola vez para                   nuevos.
+    formar el más pequeño número par de 5 cifras. El                   B.     Reacomodar 3 bloques y agregar 4 bloques
+    dígito en el lugar de las decenas es:                                     nuevos.
+                                                                       C.     Reacomodar 6 bloques.
+      A. 2                                                             D.     Reacomodar 3 bloques.
+      B. 3
+      C. 4                                                        33. 1, 2, –3, –4, 1, 2, –3, – 4, . . .
+      D. 9                                                           La secuencia de arriba comienza con 1 y repite el patrón
+                                                                     1, 2, –3, – 4 indefinidamente.
+
+                                                                     Sean, P: La suma de los términos que ocupan los lugares
+Preguntas del 30 al 32.
+                                        b b
+                                                                             49 y 51 de la secuencia.
+                                                                             Q: La suma de los términos que ocupan los
+                  D                           a                              lugares 50 y 52 de la secuencia.
+                                                                       Entonces de las siguientes afirmaciones, la única
+                                                                      verdadera es:
+
+                                                                      A.     P>Q
+                             C                                        B.     Q>P
+                                                                      C.     Q=P
+                  E
+                                                                      D.     Se requiere más información para relacionar P y Q.
+                                       A
+
+
+                                 B
+                                                                      C. C  C
+Preguntas 34 y 35.                                                    D. A  B  C
+                                                                 38. De las siguientes igualdades, la única verdadera es:
+Un supermercado necesita organizar en su sección de
+                                                                                                   Credencial 24781
+verduras, 5 clases de vegetales, designados por B, T, A, P, F;         A.       ANB=AC
+los cuales deben colocarse en una fila de 5 estantes                   B.       CAN=CC
+consecutivos, no necesariamente en este orden.            Las          C.       AA=BB
+influencias que unos de ellos tienen sobre los otros                   D.       BC=AB
+acelerando su maduración y las condiciones internas de
+presentación, exigen que se cumplan las siguientes               39. En una bolsa opaca hay 15 pelotas, algunas son rojas y
+condiciones para su ubicación, así:                                  otras son azules. El número de pelotas rojas es uno más
+    B y T no pueden ocupar posiciones contiguas.                    que el de azules. La probabilidad de sacar de la bolsa
+    P y B ocupan posiciones contiguas.                              una pelota azul es:
+    P no está ubicado en un extremo y no está contiguo a F.
+    A no está contiguo a T ni contiguo a F.                           A. 1/15
+                                                                       B. 7/15
+34. De las situaciones que se describen a continuación, la             C. 8/15
+    única que no es posible es:                                        D. 1/2
+
+    A.    T está entre P y F.                                    40.
+    B.    F está en un extremo.
+    C.    A está en un extremo.
+    D.    B está entre F y A.
+
+35. De los ordenamientos que se indican, el único que                       1           2      3                4
+    satisface todas las condiciones establecidas es:
+                                                                       Los cuadrados representados en las 4 figuras son
+     A.   B, P, T, A, F.                                               iguales. Si se quiere completar cada cuadrado con
+     B.   F, B, P, T, A.                                               figuras similares a la respectiva región sombreada sin
+     C.   A, B, P, T, F.                                               que se den traslapes y sin partir las regiones
+     D.   A, F, B, P, T.                                               sombreadas entonces, ello no es posible en el cuadrado
+                                                                       de la figura:
+36. Un estudiante debe responder 3 de 5 preguntas en un
+    examen. El número de selecciones distintas que puede               A. 1
+    hacer el estudiante es:                                            B. 2
+                                                                       C. 3
+     A.     5                                                          D. 4
+     B.    10
+     C.    15
+     D.    20
+
+Preguntas 37 y 38.
+
+Un juego consta de 4 movimientos así:
+N: No moverse.
+A: Cuarto de giro a la izquierda.
+B: Cuarto de giro a la derecha.
+C: Medio giro.
+
+37. Se emplea el signo  para unir dos movimientos
+    sucesivos.
+     A  B significa que el movimiento B se realiza a
+     continuación del movimiento A.
+     De las siguientes secuencias de movimientos, la que
+     equivale a N es:
+
+     A. A  A
+     B. B  B
+                                                        Competencia Lectora
+Preguntas del 41 al 63                                                    D. Cementerios
+                                                                     44. Puede decirse que los semitas cananeos, según el texto
+La actual Yabayl, en la costa oriental mediterránea y al norte de        eran, menos:
+Beirut, es la ciudad habitada más antigua del mundo; es la
+heredera de la milenaria Gubla de los textos ugaríticos, la               A. Descendientes de Sem, uno de los hijos de Noé
+denostada Gebal de los escritos bíblicos y la mercantil Byblos            B. Inmigrantes que fundaron Canaán
+de los griegos.                                                           C. Los primeros que cambiaron las costumbres nativas
+Al parecer, su origen se remonta al milenio V a.C., cuando una            D. Los sucesores de los pescadores que fundaron Biblos
+comunidad de pescadores, de la que quedan algunos vestigios
+de sus viviendas y la imagen lítica de una divinidad, eligió este    45. Biblos era un puerto:
+lugar para instalar un pequeño puerto. Los semitas cananeos,
+que se establecieron en el país hacia el 3500 a.C., cambiaron             A. Fluvial
+las costumbres locales, tal como se aprecia en la necrópolis de           B. Marítimo
+la época, en la que se han hallado los cadáveres encorvados y             C. Marítimo y fluvial
+acompañados de bienes y recipientes con alimentos.                        D. Un puerto en la desembocadura de un río
+A principios del milenio III a.C., se estableció en el país de
+Canaán el pueblo fenicio, de oscuro origen, que potenció el          46. Según el texto, los fundadores de Biblos son:
+comercio de Biblos. Los fenicios, que habían destruido la
+primitiva ciudad cananea, reconstruyeron Biblos rodeándola de             A. Los de gubla
+murallas. Dentro del recinto amurallado se estableció un plano            B. Los ugaríticos
+urbano a partir de una estrecha calle principal, que descendía            C. Una comunidad de pescadores
+hasta el puerto y en la cual confluían numerosas calles                   D. Los de gebal
+secundarias flanqueadas de casas y templos. Entre estos
+últimos se construyeron, hacia el 2800 a.C., el consagrado a         47. Los primeros colonos que llegaron a Biblos, lo hicieron
+Baalat Gebal, diosa tutelar de Biblos, y otro en forma de L a una        después de:
+divinidad masculina, que posiblemente fue Baal, dios principal
+del panteón fenicio heredado de la cultura cananea.                       A. 3.000 años
+Biblos, al igual que las otras ciudades fenicias, como Tiro,              B. 2.000 años
+Sidón, Trípoli y Akka, entre otras, alcanzó una gran prosperidad          C. 2.200 años
+económica, hecho del que dan fe los tesoros acumulados en las             D. 1.500 años
+tumbas de los grandes señores. Sin embargo, los fenicios no
+articularon sus dominios en una organización política y              48. Puede decirse que hubo colonización en Biblos, porque
+administrativa y cada ciudad mantuvo su autonomía y una                  estos colonos:
+aguda rivalidad con las demás. Esta circunstancia facilitó su
+sometimiento a vasallaje por parte de los egipcios a partir del           A. Tuvieron hijos con los pobladores
+milenio II a.C., pero no impidió las relaciones con los egeos.            B. Entraron destruyéndolo todo
+Serían precisamente los pueblos del mar quienes liberarían a              C. Modificaron sus costumbres e impulsaron su desarrollo
+las ciudades fenicias de la tutela faraónica hacia el 1200 a.C.                económico y civil
+Asirios, babilonios, persas y finalmente helenos ocuparon el              D. Impusieron sus leyes y gobiernos
+país fenicio en el curso de los siglos y afectaron gravemente su
+economía. En el 333 a.C., Alejandro el Magno, tras la batalla de     49. La llegada de los semitas cananeos al puerto fundado es
+Issos, arrebató Biblos a los persas y la helenizó. Tras el dominio       semejante a la que ocurrió cuando:
+griego y un período anárquico, los romanos incorporaron Biblos,
+en el 64 a.C., a la provincia de Siria, y construyeron numerosos          A. Los Hunos al mando de Atila arrasaban poblaciones a
+templos y edificios públicos.                                                 sangre y fuego
+                                                                          B. Los españoles colonizaron a América
+41. La actual Yabayl está situada, según el texto al:                     C. Los blancos llegan como colonos a las poblaciones
+                                                                              indígenas del Amazonas
+     A. Este de China
+                                                                          D. EE.UU. coloniza con su idioma el sur de México
+     B. Oeste de América
+     C. Este del mar Mediterráneo
+                                                                     50. Desde el punto de vista político y administrativo, los fenicios
+     D. Oeste del mar Mediterráneo
+                                                                         se oponen a los:
+42. Si es la ciudad habitada más antigua del mundo, es porque:
+                                                                          A. De Gebal
+     A. Fue la que primero se habitó                                      B. Egipcios
+     B. Las demás ciudades antiguas están deshabitadas                    C. Pescadores
+     C. De las habitadas antiguamente, es la más habitada.                D. Cananeos
+     D. De las más antiguas que están habitadas, es la más
+         antigua                                                     51. Cronológicamente, Biblos perteneció a:
+
+43. Necrópolis significa, según el texto, ciudad de los:                  A. Egipto, Persia, Grecia y Roma
+                                                                          B. Fenicia, Egipto, algunos pueblos del mar y Roma
+     A. Pescadores                                                        C. Ugaria, Grecia, Roma y Siria
+     B. Semitas cananeos                                                  D. Fenicia, algunos pueblos del mar y Siria
+     C. Muertos
+
+
+                                                                                                         Credencial 24781
+52. De lo que encontraron los arqueólogos en la necrópolis se       61. Del texto se deduce que:
+    puede inferir que, en sus orígenes, la población de Biblos:
+                                                                         A.   La rivalidad va contra el progreso económico
+     A. No enterraba a sus muertos                                       B.   La falta de gobierno estimula el progreso económico
+     B. Enterraba a sus muertos en posición fetal                        C.   La autonomía y la competencia           promueven el
+     C. Enterraba a sus muertos con sus pertenencias                          desarrollo económico
+     D. Enterraba a sus muertos sin sus pertenencias                     D.   El poder de un imperio es garantía de progreso
+                                                                              económico
+53. También se infiere que la manera de enterrar los muertos
+    indica si un pueblo cree o no en:                               62. Según el texto, “la denostada Gebal de los escritos bíblicos”
+                                                                        quiere decir que:
+     A. Un dios
+     B. La existencia de un más allá                                     A.   Se llamó así a la ciudad en honor a la diosa Gebal de
+     C. La reencarnación                                                      los fenicios
+     D. El regreso de los muertos                                        B.   La Biblia aprecia a la diosa como lo hará después
+                                                                              con la Virgen María
+54. Los fenicios heredaron de los cananeos, menos:                       C.   Los escritos bíblicos se refieren a la diosa como al
+                                                                              becerro de oro que adoraban los israelitas cuando
+     A. El dios lítico                                                        Moisés bajó con las tablas de la ley
+     B. La manera de enterrar a los muertos                              D.   La Biblia se refiere a la ciudad fenicia como una
+     C. La diosa baalat gebal                                                 ciudad de idólatras
+     D. El puerto
+                                                                    63. Según el texto, el último nombre de Biblos se debe a que el
+55. En el texto, las siguientes expresiones hacen referencia al         pueblo que reside en ella actualmente es:
+    mismo pueblo:
+                                                                         A. Israelita
+     A. Egeos, pueblos del mar, romanos                                  B. Musulmán
+     B. Helenos, egeos, griegos                                          C. Cristiano
+     C. Asirios, babilonios, persas                                      D. Protestante
+     D. Tirios, sidones y tirios
+
+56. El texto permite afirmar que:                                   Preguntas del 64 al 70
+
+     A.   La Biblos fenicia fue la mercantil Byblos de los          Un hombre del pueblo de Neguá, en la costa de Colombia, pudo
+          griegos                                                   subir al alto cielo. A la vuelta, contó. Dijo que había
+     B.   Gubla, Gebal y Beirut son la misma ciudad                 contemplado, desde allá arriba, la vida humana. Y dijo que
+     C.   Tiro, Sidón, Trípoli y Akka eran parte de Biblos          somos un mar de fueguitos.
+     D.   Egipto, Asiria, Babilonia, Persia, Grecia y Roma eran     —El mundo es eso –reveló–. Un montón de gente, un mar de
+          los pueblos del mar                                       fueguitos. Cada persona brilla con luz propia entre todas las
+                                                                    demás. No hay dos fuegos iguales. Hay fuegos grandes y
+57. Los nombres de Yabayl, cronológicamente han sido, según         fuegos chicos; y fuegos de todos los colores. Hay gente de
+    el texto:                                                       fuego sereno, que ni se entera del viento; y gente de fuego loco,
+                                                                    que llena el aire de chispas. Algunos fuegos, fuegos bobos, no
+     A.   Gubla, Gebal, Byblos, Canaán, Fenicia, Siria, Yabayl      alumbran ni queman. Pero otros arden la vida con tantas ganas,
+     B.   Gubla, Gebal, Canaán, Biblos, Byblos, Yabayl              que no se puede mirarlos sin parpadear; y quien se acerca, se
+     C.   Gubla, Canaán, Biblos, Gebal, Byblos, Siria, Yabayl       enciende.
+     D.   Gubla, Ugaria, Canaán, Fenicia, Byblos, Yabayl
+                                                                    64. Los fuegos, según el texto, se clasifican en:
+58. La helenización a la que se refiere el texto que llevó a cabo
+    Alejandro el Magno en Biblos quedó registrada por:                   A. Serenos, locos, bobos y quemantes
+                                                                         B. Grandes, chicos y coloridos
+     A. su prosperidad mercantil                                         C. Grandes, chicos, bobos y quemantes
+     B. su liberación de los egipcios                                    D. Serenos, locos, grandes y chicos
+     C. la “y” en la escritura de su nombre: Byblos
+     D. el cambio en el nombre de sus dioses                        65. Los colores de los fuegos “de todos los colores” son los del:
+
+59. Por un período anárquico se entiende un período sin:                 A. Amanecer
+     A. Gobierno                                                         B. Espectro
+     B. Orden                                                            C. Arco iris
+     C. Monarquía                                                        D. Atardecer
+     D. Dios ni ley
+                                                                    66. Los fuegos locos, tal como se describen en el texto, son:
+60. El título más adecuado para el texto es:
+                                                                         A. Llamativos y refulgentes
+     A. Biblos                                                           B. Enceguecedores y contraindicados
+     B. Yabayl                                                           C. Atractivos y repelentes
+     C. La ciudad más antigua del mundo                                  D. Indeterminados y herméticos
+     D. Colonización e imperio
+67. Del texto se infiere que:                                        72. Impávida significa en el texto:
+
+     A. El fuego produce luz                                              A. Imperturbable
+     B. Pueden encontrarse fuegos iguales                                 B. Imperfecta
+     C. No hay gente sin luz                                              C. Con pávido
+     D. El fuego se hereda                                                D. Sin pavezno
+
+68. El mejor título para el texto sería:                             73. Según lo que dice el texto, la lora saluda al narrador con:
+
+     A. Desde el alto cielo                                               A. Palabras soeces
+     B. Tejas arriba                                                      B. Expresiones amables
+     C. La vida humana                                                    C. Una algarabía
+     D. Humanidad policromática                                           D. Palabras dulces
+
+69. Para el narrador son evidentes la predilección y admiración      74. Del texto se infiere que el narrador:
+    por la gente de fuego:
+                                                                          A.    Aguanta los gritos de la lora, pero no la soporta
+     A. Colorido                                                                porque es grosera
+     B. Sereno                                                            B.    No aguanta los gritos de la lora, pero la soporta
+     C. Loco                                                                    porque se siente solo
+     D. Ardiente                                                          C.    Tiene paciencia con la lora porque algún día le
+                                                                                romperá el cuello
+70. La categoría de “fuego bobo” se debe a:                               D.    No tiene paciencia con la lora porque vive amargado
+
+     A. No tienen poder de convicción                                75. Una verdad que no se discute, que se aplica al texto, es:
+     B. No cumplen las funciones inherentes
+     C. Como ciertas heces, no huelen ni hieden                           A. Es mejor estar mal acompañado que solo
+     D. Tienen la chispa retardada.                                       B. Perro que ladra no muerde
+                                                                          C. Es mejor estar solo que mal acompañado
+                                                                          D. Quien siembra vientos, recoge tempestades
+
+Preguntas del 71 al 80                                               76. Según el texto, se puede inferir que el narrador:
+
+Cuando llego a mi casa la encuentro impávida y burlona, me                A.    Deambula por las calles antes de llegar a su casa
+saluda con gritos que son una algarabía que a veces no                    B.    Camina por la ciudad sin rumbo fijo hasta llegar a su
+aguanto. A veces no quisiera llegar a la casa, más bien salir del               casa
+trabajo, deambular por las calles, caminar por mi ciudad sin              C.    Nunca llega a su casa después de salir del trabajo
+rumbo fijo; pero reflexiono, sé que ella me necesita, ella en mis         D.    Siempre llega a su casa después de salir del trabajo
+soledades me hace mucha falta.
+                                                                     77. Un título adecuado al anterior relato, sería:
+Sé soportar sus ruidos, sus desatinos, su parlanchina lengua,
+sus groseras palabras y lenguaje burdo y descarado... No sé               A. Crónica de una muerte anunciada
+cómo la soporto, llevamos cinco años juntos y desde entonces              B. La dulce habladora
+es así. No he podido corregirla un momento; cuando llevo                  C. La vecina habladora
+amigos a mi casa está ella presente para atraer la conversación           D. El hombre impaciente
+o más bien para distraerla.
+                                                                     78. La lora de la que se habla en el relato es:
+Hay días en que me levanto contento, sucede pocas veces,
+quisiera cantar, reír, gritar; pero sé que al pronunciar algo ella        A. Un ave (animal vertebrado y ovíparo)
+está presta a responderme, burlándose de lo que yo diga.                  B. Una mujer charlatana, histérica y habladora
+                                                                          C. La esposa del narrador
+Quisiera seguirla soportando, pero mi paciencia tiene límite.             D. Una vecina impertinente
+Estoy a punto de enloquecer, de perder la razón, sé que la
+culpa de todo la tiene ella. Algún día tomaré medidas en el          79. De lo expresado por el narrador a lo largo del relato se
+asunto y ese día será definitivo, ese día todo acabará de                puede decir que la muerte de la lora es:
+manera trágica; terminaré rompiendo en mil pedazos su frágil y
+delicado cuello.                                                          A. Segura
+                                                                          B. Probable
+No cabe la menor duda, tengo ganas de matar esa maldita lora.             C. Más que segura
+                                                                          D. Poco probable
+
+71. El narrador de la historia:                                      80. El personaje de la historia es:
+
+     A. Es casado                                                         A. Seguro a la hora de tomar decisiones
+     B. Vive solo y tiene una vecina que parece una lora                  B. Insoportable
+     C. Tiene una lora                                                    C. Indeciso
+     D. Vive solo y la vecina tiene una lora insoportable                 D. Asertivo a la hora de tomar decisiones
+
+
+                                                                                                           Credencial 24781
+    Nombre: GARCIA GARCIA JORGE MARIO
+    Credencial: 24782
+
+
+            Vicerrectoría de Docencia
+      Departamento de Admisiones y Registro
+
+
+                       EXAMEN DE ADMISIÓN
+                         SEMESTRE 2008-01
+
+                           Jornada 2B: Lunes p.m.
+
+    No abra el cuadernillo hasta que el docente acompañante lo autorice.
+
+
+    El examen consta de 80 preguntas: 40 de razonamiento lógico, 40 de competencia lectora.
+
+    Al finalizar el examen devuelva el tema, en caso de no hacerlo, aquél le será anulado.
+
+    Marque en la tarjeta de respuestas una opción por pregunta solamente.
+
+
+                                                                                              1
+   Marque en la tarjeta de respuestas la opción correspondiente, rellenando los círculos:
+
+    a, b, c ó d.
+
+                                  Razonamiento Lógico
+
+
+                                                                                             2
+Preguntas del 1 al 3.                                                  Sean, P: La suma de los términos que ocupan los lugares
+                                       b b                                     49 y 51 de la secuencia.
+                                              a                                Q: La suma de los términos que ocupan los
+               D                                                               lugares 50 y 52 de la secuencia.
+                                                                         Entonces de las siguientes afirmaciones, la única
+                                                                        verdadera es:
+
+                                                                       A.    P>Q
+                            C                                          B.    Q>P
+               E                                                       C.    Q=P
+                                       A                               D.    Se requiere más información para relacionar P y Q.
+
+                                                                  Preguntas 5 y 6.
+                                B
+                                                                  Un supermercado necesita organizar en su sección de
+                                                                  verduras, 5 clases de vegetales, designados por B, T, A, P, F;
+     Con bloques paralelepípedos rectangulares iguales y          los cuales deben colocarse en una fila de 5 estantes
+     sólidos, con las dimensiones que se indican en la figura,    consecutivos, no necesariamente en este orden.            Las
+     se han construido las dos paredes escalonadas de a una       influencias que unos de ellos tienen sobre los otros
+     sola hilada de bloques en la base de cada pared (BA y        acelerando su maduración y las condiciones internas de
+     BE respectivamente).                                         presentación, exigen que se cumplan las siguientes
+                                                                  condiciones para su ubicación, así:
+1.   La altura a la que se encuentra el punto D con respecto          B y T no pueden ocupar posiciones contiguas.
+     al nivel del piso es:                                            P y B ocupan posiciones contiguas.
+                                                                      P no está ubicado en un extremo y no está contiguo a F
+      A.                                                              A no está contiguo a T ni contiguo a F.
+      B.
+                                                                  5.   De las situaciones que se describen a continuación, la
+      C.
+                                                                       única que no es posible es:
+      D.
+                                                                       A.    T está entre P y F.
+2.   Si se coloca un cable partiendo de A y siguiendo el perfil        B.    F está en un extremo.
+     de la escala pasa por C y continuando por el perfil llega         C.    A está en un extremo.
+     a D, entonces su longitud es:                                     D.    B está entre F y A.
+
+       A.                                                         6.   De los ordenamientos que se indican, el único que
+       B.                                                              satisface todas las condiciones establecidas es:
+       C.
+                                                                        A.   B, P, T, A, F.
+       D.
+                                                                        B.   F, B, P, T, A.
+                                                                        C.   A, B, P, T, F.
+3.   Si se quiere que las dos paredes tengan forma
+                                                                        D.   A, F, B, P, T.
+     rectangular, de la misma altura, manteniendo el mismo
+     número de bloques en las bases (AB y BE) que en la
+                                                                  7.   Un estudiante debe responder 3 de 5 preguntas en un
+     figura inicial, entonces una opción que registra la forma
+                                                                       examen. El número de selecciones distintas que puede
+     de lograrlo es:
+                                                                       hacer el estudiante es:
+
+      A.    Reacomodar 4 bloques y agregar 2 bloques
+                                                                        A. 5
+            nuevos.
+                                                                        B. 10
+      B.    Reacomodar 3 bloques y agregar 4 bloques
+                                                                        C. 15
+            nuevos.
+                                                                        D. 20
+      C.    Reacomodar 6 bloques.
+      D.    Reacomodar 3 bloques.
+                                                                  Preguntas 8 y 9.
+
+4.    1, 2, –3, –4, 1, 2, –3, – 4, . . .
+                                                                  Un juego consta de 4 movimientos así:
+     La secuencia de arriba comienza con 1 y repite el patrón
+                                                                  N: No moverse.
+     1, 2, –3, – 4 indefinidamente.
+                                                                  A: Cuarto de giro a la izquierda.
+                                                                  B: Cuarto de giro a la derecha.
+C:    Medio giro.                                                     B         3          Y                     0
+                                                                      C                    1                     2
+8.    Se emplea el signo  para unir dos movimientos                   E                   Z           2
+      sucesivos.                                                    PJ: Partidos jugados, PG: Partidos ganados, PP: partidos
+       A  B significa que el movimiento B se realiza a            perdidos, PE: Partidos empatados.
+       continuación del movimiento A.
+       De las siguientes secuencias de movimientos, la que          Se sabe que A le ganó a E y B perdió con C.
+       equivale a N es:
+                                                               12. El número de partidos que se jugaron en la eliminatoria
+      A. A  A                                                     fue:
+      B. B  B
+      C. C  C                                                     A.       3
+      D. A  B  C                                                 B.       4
+                                                                   C.       5
+9.    De las siguientes igualdades, la única verdadera es:         D.       6
+
+      A. A  N  B = A  C                                     13. Los números que ocupan las posiciones X, Y, Z de la
+      B. C  A  N = C  C                                         tabla son respectivamente:
+      C. A  A = B  B
+      D. B  C = A  B                                             A.       0, 2, 1
+                                                                   B.       1, 2, 1                          Credencial 24782
+10. En una bolsa opaca hay 15 pelotas, algunas son rojas y         C.       1, 1, 0
+    otras son azules. El número de pelotas rojas es uno más        D.       0, 1, 0
+    que el de azules. La probabilidad de sacar de la bolsa
+    una pelota azul es:                                        14. En el partido entre A y B
+
+                                                                   A.       Ganó A
+      A. 1/15
+                                                                   B.       Ganó B
+      B. 7/15
+                                                                   C.       A empató con B
+      C. 8/15
+                                                                   D.       No puede determinarse con los datos conocidos.
+      D. 1/2
+                                                               15. El número de partidos que perdió B es:
+11.
+                                                                   A.       0
+                                                                   B.       1
+                                                                   C.       2
+                                                                   D.       3
+            1             2        3         4
+                                                               Preguntas 16 y 17.
+      Los cuadrados representados en las 4 figuras son
+      iguales. Si se quiere completar cada cuadrado con        Juan, Sara, Rosa, Luís y María viven en la misma parcelación
+      figuras similares a la respectiva región sombreada sin   (en diferentes parcelas) y son amigos.
+      que se den traslapes y sin partir las regiones           El siguiente es un mapa de la parcelación; se consideran
+      sombreadas entonces, ello no es posible en el cuadrado   vecinos aquellos cuyas parcelas lindan en más de un punto
+      de la figura:                                            (comparten un segmento). Las parcelas se identifican con
+                                                               los números que aparecen en el gráfico.
+      A. 1
+      B. 2                                                              1 2            3   4   5
+      C. 3                                                                                 7
+                                                                          6                8
+      D. 4
+                                                                        9             10   11 12
+Preguntas del 12 al 15.
+                                                               Se sabe que:
+La tabla siguiente muestra algunos resultados obtenidos en      Rosa tiene únicamente como vecinos a sus cuatro amigos
+una eliminatoria de futbol donde participaron los equipos A,    Juan es quien más vecinos tiene en la parcelación.
+B, C, E y además jugaran todos contra todos:                    Luís es vecino de Juan y Rosa pero no de Sara.
+                                                                Sara tiene cinco familias vecinas.
+                    PJ        PG        PP          PE
+        A           3          2                    X
+16. De las siguientes afirmaciones, la única de cúal se tiene
+    certeza es:                                                   20. Si en la gráfica situamos el centro del pueblo en el
+                                                                      origen, entonces la gráfica que representa a un vehículo
+    A.   Rosa vive en la parcela 3                                    que viaja hacia el centro del pueblo al límite de la
+    B.   Juan vive en la parcela 6                                    velocidad en cada tramo es:
+    C.   Rosa vive en la parcela 10
+    D.   María es vecina de Juan.                               Velocidad                            Velocidad
+                                                                120                                  120
+
+17. Si se sabe además que María y Luís tienen el mismo                A                                    B
+    número de vecinos, entonces, las parcelas de Juan, Sara,     60                                   60
+    Rosa, Luís y María son respectivamente las marcadas          40                                   40
+
+    con los números:                                             20
+                                                                 12
+                                                                                                      20
+                                                                                                      12
+                                                                      1
+                                                                          /5 ¼ 1/3    ½       1 km         /5 ¼ 1/3
+                                                                                                           1
+                                                                                                                      ½       1 km
+    A.   6, 7, 3, 2, 4
+    B.   8, 7, 6, 3, 4                                                                             Velocidad
+    C.   6, 8, 10, 9, 11                                        Velocidad
+                                                                120                                  120
+
+    D.   7, 8, 10, 11, 9                                              C                                    D
+                                                                60                                    60
+18. En un estudio realizado a una población estudiantil se       40                                   40
+    tomaron aleatoriamente 100 estudiantes y se encontró         20
+                                                                 12
+                                                                                                      20
+                                                                                                      12
+    que 56 estudiantes tiene el peso adecuado para su                     1
+                                                                           /5 ¼ /31
+                                                                                      ½        1 km                   ½        1 km
+    estatura y 25 mujeres tienen sobrepeso.
+    El número de hombres con sobrepeso es:
+
+    A. 17                                                             A.      A
+    B. 19                                                             B.      B
+    C. 25                                                             C.      C
+    D. 44                                                             D.      D
+19. Aceptando      como      verdaderas    las    siguientes
+    proposiciones:                                                21. La distancia recorrida por el vehículo (en kilometros)
+                                                                      desde el primero hasta el último aviso es:
+        La ciudad A ha sufrido un sismo de 7 grados en la
+         escala de Richter.                                           A.      1/5
+        No todos los edificios de la ciudad A son sismo-             B.      2/3
+         resistentes.                                                 C.      3/4
+        Sólo los edificios sismo-resistentes soportan sin            D.      4/5
+         daño alguno un sismo de 7 grados en la escala de
+         Richter.                                                 22. El tiempo que se gasta en viajar en el tramo por el cúal
+                                                                      va a 120 km/h es:
+    De las afirmaciones siguientes, la única que se puede
+    concluir lógicamente de las proposiones anteriores es:            A.      La mitad del tiempo total invertido desde el primer
+                                                                              aviso hasta detenerse
+    A.   Todos los edificios de la ciudad A no son sismo              B.      Un cuarto del tiempo total invertido en el viaje
+         resistentes.                                                         desde el primer aviso hasta detenerse
+    B.   Ningún edificio de la ciudad A sufrió daño alguno            C.      Igual a la suma de los tiempos en que viaja a 40
+         en el sismo de 7 grados en la escala de Richter.                     km/h y 20 km/h.
+    C.   Al menos un edificio de la ciudad A sufrió daños en          D.      Mayor que en el tramo en el que viaja a 12 km/h.
+         el sismo de 7 grados en la escala de Richter.
+    D.   Muchos edificios de la ciudad A sufrieron daños en       23. Una mezcla de 15 partes de A, 7 de B y 9 de C pesa 93
+         el sismo de 7 grados en la escala de Richter.                onzas. Si cada parte de A, B o C tiene el mismo peso,
+                                                                      entonces, las onzas de B que hay en la mezcla son:
+Preguntas del 20 al 22.
+                                                                      A.      27.12
+Un pueblo tiene un extraño conjunto de límites de velocidad.          B.      25
+A 1 km del centro del pueblo hay un aviso que dice 120                C.      21
+km/h, a ½ km del centro un aviso dice 40km/h, a 1/3 km hay            D.      20.5
+un aviso que dice 20 km/h, a ¼ km el aviso dice 12 km/h y a
+1/5 km hay un aviso que dice “detenga el vehículo”                Preguntas 24 y 25.
+    Cecilia, Diego, Fabio, Gloria y Mario tienen diferentes   29. Se define la operación        entre los números reales m, q
+    cantidades de dinero. Ni Gloria ni Cecilia tienen tanto
+    dinero como Fabio. Tanto Cecilia como Diego tienen              así                        , entonces q q es igual a:
+    más dinero que Mario. Gloria tiene más dinero que
+    Mario, pero menos que Cecilia.
+                                                                    A.    – q2 /2
+                                                                    B.    q3
+24. El que tiene la menor cantidad de dinero es:
+                                                                    C.    q2/2
+                                                                    D.    -q3
+    A.   Mario
+    B.   Gloria
+                                                              30.    27A
+    C.   Diego
+                                                                   x B7
+    D.   Cecilia
+                                                                  35.772
+                                                              En la multiplicación señalada, A y B representan dígitos.
+25. Si adicionalmente se sabe que Diego no tiene tanto
+                                                              Entonces los valores de A y B son respectivamente:
+    dinero como Gloria, entonces el orden decreciente en el
+    cual esta distribuido el dinero entre estas cinco
+                                                                    A.    5y8
+    personas es:
+                                                                    B.    6y9
+                                                                    C.    6y7
+    A.   Fabio, Gloria, Cecilia, Mario, Diego
+                                                                    D.    7y5
+    B.   Gloria, Fabio, Diego, Cecilia, Mario
+    C.   Gloria, Fabio, Cecilia, Mario, Diego
+                                                              Preguntas 31 y 32.
+    D.   Fabio, Cecilia, Gloria, Diego, Mario
+                                                              En una microempresa de muebles se ha encontrado que si
+26. En una elección uno de los candidatos obtuvo el 65% de
+                                                              se produce menos de cierta cantidad de muebles por mes,
+    los votos y sacó 1500 votos más que el otro candidato.
+                                                              entonces se genera un sobrecosto de producción (en
+    Entonces el número de votos fue:
+                                                              dólares) para dichas cantidades de muebles. Por encima de
+                                                              dicho número se produce una ganancia, también en dólares.
+    A.   4000
+                                                              Se sabe además que la relación de sobrecosto ó ganancia (y)
+    B.   4500
+                                                              como función de la cantidad de muebles producidos por
+    C.   5000
+                                                              mes (x) está dada por la ecuación 3x + 4y = 96.
+    D.   5500
+
+27. Ana le dice a Lucy: “si yo te doy 6 de mis colores
+                                                              31. El número mínimo de muebles que deben producirse
+    entonces quedaría con 2/3 de la cantidad tuya” . Lucy
+                                                                  por mes para que no se presente sobrecosto de
+    replica “si yo te doy 10 de los mios entonces quedaría
+                                                                  produción es:
+    con 1/2 de los tuyos”.
+    Las cantidades de colores que tienen Ana y Lucy
+                                                                    A.    24
+    respectivamente son:
+                                                                    B.    32
+                                                                    C.    60
+    A. 18, 16
+                                                                    D.    96
+    B. 30, 30
+    C. 15, 25
+                                                              32. Si se producen 76 muebles al mes, la única afirmación
+    D. 25, 30
+                                                                  verdadera con respecto al sobrecosto ó ganancia es:
+28. En un estanque experimental se han sembrado dos
+    especies de peces designadas como A y B
+                                                                    A.    Hay un sobrecosto de 33 dólares
+    respectivamente. Al cabo exactamente de un año se ha
+                                                                    B.    El sobrecosto es de 0 dólares
+    hecho un censo de ambas especies y se encontró que
+                                                                    C.    Hay una ganancia de 33 dólares
+    mientras la población de A se incrementó en el 20%, la
+                                                                    D.    No es posible determinar si hay ganancia ó
+    población de B disminuyó en el 10% y el número de
+                                                                          sobrecosto.
+    peces de ambas especies resultó al final igual.
+    Entonces la razón entre las poblaciones iniciales de la
+                                                              33. El resultado de la suma: 1 + 2 - 3 + 4 - 5 + 6 - 7 + 8 - . . . . .
+    especie A, con relacion a la especie B es:
+                                                                  . - 99 + 100 es:
+
+    A.   1/2                                                                                                    Credencial 24782
+                                                                    A.    70
+    B.   3/4
+                                                                    B.    52
+    C.   5/6
+                                                                    C.    0
+    D.   8/9
+      D.   -50
+                                                                  38.
+34.                      largo
+      ancho
+      o
+                                           altura
+
+
+      Se tiene una caja de caras rectangulares cuyo volumen             El número total de triángulos diferentes en la figura es:
+      es igual a 1000 cm3. Si el largo es cuatro veces el ancho
+      y la altura es el doble del ancho, entonces, el área              A. 9
+      superficial de la caja en cm2 es:                                 B. 10
+                                                                        C. 13
+      A.   1000                                                         D. 15
+      B.   800
+      C.   700                                                    39. Un estudio realizado a una máquina productora de
+      D.   500                                                        tornillos ha establecido que de cada 4 tornillos
+                                                                      producidos, 1 es defectuoso. Si se requiere cubrir un
+35. Se desea cercar un terreno retangular de 100m 2 de área           pedido de 48 tornillos, entonces de las siguientes
+    y luego dicha región se va dividir en dos porciones               afirmaciones la única verdadera es:
+    iguales con una cerca paralela a uno de sus lados, como
+    lo muestra la figura:                                               A. Basta con producir 60 tornillos.
+                                                                        B. Es necesario producir 64 tornillos.
+                                                                        C. Es suficiente producir 56 tornillos o más.
+                                                                        D. Es necesario producir más de 64 tornillos.
+
+                                                                  40. Los dígitos 1, 2, 3, 4 y 9 son usados una sola vez para
+                                                                      formar el más pequeño número par de 5 cifras. El
+                                 x                                    dígito en el lugar de las decenas es:
+      La longitud total “L” de la cerca necesaria para hacer el
+      trabajo se puede escribir en términos de “x” como:                A.   2
+                                                                        B.   3
+      A.   L = (203 / 100) x                                            C.   4
+      B.   L = (201 / 100) x                                            D.   9
+      C.   L = 2x + ( x / 300)
+      D.   L = 2x + (300 / x)
+
+36. La razón entre el área sombreada y el área total de la
+    figura es:
+
+
+      A.   1/3
+      B.   1/2
+      C.   3/8
+      D.   2/5
+
+
+37. Si los ángulos de un triángulo tienen por medida
+    números enteros consecutivos, entonces la medida del
+    menor del los ángulos es:
+
+      A.   58°
+      B.   59°
+      C.   60°
+      D.   61°
+                                                      Competencia Lectora
+Preguntas del 41 al 50                                                    D. Quien siembra vientos, recoge tempestades
+                                                                     46. Según el texto, se puede inferir que el narrador:
+Cuando llego a mi casa la encuentro impávida y burlona, me
+saluda con gritos que son una algarabía que a veces no                    A.                                       Credencial
+                                                                                Deambula por las calles antes de llegar a su24782
+                                                                                                                              casa
+aguanto. A veces no quisiera llegar a la casa, más bien salir del         B.    Camina por la ciudad sin rumbo fijo hasta llegar a su
+trabajo, deambular por las calles, caminar por mi ciudad sin                    casa
+rumbo fijo; pero reflexiono, sé que ella me necesita, ella en mis         C.    Nunca llega a su casa después de salir del trabajo
+soledades me hace mucha falta.                                            D.    Siempre llega a su casa después de salir del trabajo
+
+Sé soportar sus ruidos, sus desatinos, su parlanchina lengua,        47. Un título adecuado al anterior relato, sería:
+sus groseras palabras y lenguaje burdo y descarado... No sé
+cómo la soporto, llevamos cinco años juntos y desde entonces              A. Crónica de una muerte anunciada
+es así. No he podido corregirla un momento; cuando llevo                  B. La dulce habladora
+amigos a mi casa está ella presente para atraer la conversación           C. La vecina habladora
+o más bien para distraerla.                                               D. El hombre impaciente
+
+Hay días en que me levanto contento, sucede pocas veces,             48. La lora de la que se habla en el relato es:
+quisiera cantar, reír, gritar; pero sé que al pronunciar algo ella
+está presta a responderme, burlándose de lo que yo diga.                  A. Un ave (animal vertebrado y ovíparo)
+                                                                          B. Una mujer charlatana, histérica y habladora
+Quisiera seguirla soportando, pero mi paciencia tiene límite.             C. La esposa del narrador
+Estoy a punto de enloquecer, de perder la razón, sé que la                D. Una vecina impertinente
+culpa de todo la tiene ella. Algún día tomaré medidas en el
+asunto y ese día será definitivo, ese día todo acabará de            49. De lo expresado por el narrador a lo largo del relato se
+manera trágica; terminaré rompiendo en mil pedazos su frágil y           puede decir que la muerte de la lora es:
+delicado cuello.
+                                                                          A. Segura
+No cabe la menor duda, tengo ganas de matar esa maldita lora.             B. Probable
+                                                                          C. Más que segura
+41. El narrador de la historia:                                           D. Poco probable
+
+     A. Es casado                                                    50. El personaje de la historia es:
+     B. Vive solo y tiene una vecina que parece una lora
+     C. Tiene una lora                                                    A. Seguro a la hora de tomar decisiones
+     D. Vive solo y la vecina tiene una lora insoportable                 B. Insoportable
+                                                                          C. Indeciso
+42. Impávida significa en el texto:                                       D. Asertivo a la hora de tomar decisiones
+
+     A. Imperturbable                                                Preguntas del 51 al 73
+     B. Imperfecta
+     C. Con pávido                                                   La actual Yabayl, en la costa oriental mediterránea y al norte de
+     D. Sin pavezno                                                  Beirut, es la ciudad habitada más antigua del mundo; es la
+                                                                     heredera de la milenaria Gubla de los textos ugaríticos, la
+43. Según lo que dice el texto, la lora saluda al narrador con:      denostada Gebal de los escritos bíblicos y la mercantil Byblos
+                                                                     de los griegos.
+     A. Palabras soeces                                              Al parecer, su origen se remonta al milenio V a.C., cuando una
+     B. Expresiones amables                                          comunidad de pescadores, de la que quedan algunos vestigios
+     C. Una algarabía                                                de sus viviendas y la imagen lítica de una divinidad, eligió este
+     D. Palabras dulces                                              lugar para instalar un pequeño puerto. Los semitas cananeos,
+                                                                     que se establecieron en el país hacia el 3500 a.C., cambiaron
+44. Del texto se infiere que el narrador:                            las costumbres locales, tal como se aprecia en la necrópolis de
+                                                                     la época, en la que se han hallado los cadáveres encorvados y
+     A.    Aguanta los gritos de la lora, pero no la soporta         acompañados de bienes y recipientes con alimentos.
+           porque es grosera                                         A principios del milenio III a.C., se estableció en el país de
+     B.    No aguanta los gritos de la lora, pero la soporta         Canaán el pueblo fenicio, de oscuro origen, que potenció el
+           porque se siente solo                                     comercio de Biblos. Los fenicios, que habían destruido la
+     C.    Tiene paciencia con la lora porque algún día le           primitiva ciudad cananea, reconstruyeron Biblos rodeándola de
+           romperá el cuello                                         murallas. Dentro del recinto amurallado se estableció un plano
+     D.    No tiene paciencia con la lora porque vive amargado       urbano a partir de una estrecha calle principal, que descendía
+                                                                     hasta el puerto y en la cual confluían numerosas calles
+45. Una verdad que no se discute, que se aplica al texto, es:        secundarias flanqueadas de casas y templos. Entre estos
+                                                                     últimos se construyeron, hacia el 2800 a.C., el consagrado a
+     A. Es mejor estar mal acompañado que solo                       Baalat Gebal, diosa tutelar de Biblos, y otro en forma de L a una
+     B. Perro que ladra no muerde                                    divinidad masculina, que posiblemente fue Baal, dios principal
+     C. Es mejor estar solo que mal acompañado                       del panteón fenicio heredado de la cultura cananea.
+Biblos, al igual que las otras ciudades fenicias, como Tiro,         58. Puede decirse que hubo colonización en Biblos, porque
+Sidón, Trípoli y Akka, entre otras, alcanzó una gran prosperidad         estos colonos:
+económica, hecho del que dan fe los tesoros acumulados en las
+tumbas de los grandes señores. Sin embargo, los fenicios no                  A. Tuvieron hijos con los pobladores
+articularon sus dominios en una organización política y                      B. Entraron destruyéndolo todo
+administrativa y cada ciudad mantuvo su autonomía y una                      C. Modificaron sus costumbres e impulsaron su desarrollo
+aguda rivalidad con las demás. Esta circunstancia facilitó su                     económico y civil
+sometimiento a vasallaje por parte de los egipcios a partir del              D. Impusieron sus leyes y gobiernos
+milenio II a.C., pero no impidió las relaciones con los egeos.
+Serían precisamente los pueblos del mar quienes liberarían a         59. La llegada de los semitas cananeos al puerto fundado es
+las ciudades fenicias de la tutela faraónica hacia el 1200 a.C.          semejante a la que ocurrió cuando:
+Asirios, babilonios, persas y finalmente helenos ocuparon el
+país fenicio en el curso de los siglos y afectaron gravemente su             A. Los Hunos al mando de Atila arrasaban poblaciones a
+economía. En el 333 a.C., Alejandro el Magno, tras la batalla de                 sangre y fuego
+Issos, arrebató Biblos a los persas y la helenizó. Tras el dominio           B. Los españoles colonizaron a América
+griego y un período anárquico, los romanos incorporaron Biblos,              C. Los blancos llegan como colonos a las poblaciones
+en el 64 a.C., a la provincia de Siria, y construyeron numerosos                 indígenas del Amazonas
+templos y edificios públicos.                                                D. EE.UU. coloniza con su idioma el sur de México
+
+51. La actual Yabayl está situada, según el texto al:                60. Desde el punto de vista político y administrativo, los fenicios
+                                                                         se oponen a los:
+     A. Este de China
+     B. Oeste de América
+                                                                             A. De Gebal
+     C. Este del mar Mediterráneo
+                                                                             B. Egipcios
+     D. Oeste del mar Mediterráneo
+                                                                             C. Pescadores
+                                                                             D. Cananeos
+52. Si es la ciudad habitada más antigua del mundo, es porque:
+     A. Fue la que primero se habitó                                 61. Cronológicamente, Biblos perteneció a:
+     B. Las demás ciudades antiguas están deshabitadas
+     C. De las habitadas antiguamente, es la más habitada.                   A. Egipto, Persia, Grecia y Roma
+     D. De las más antiguas que están habitadas, es la más                   B. Fenicia, Egipto, algunos pueblos del mar y Roma
+         antigua                                                             C. Ugaria, Grecia, Roma y Siria
+                                                                             D. Fenicia, algunos pueblos del mar y Siria
+53. Necrópolis significa, según el texto, ciudad de los:
+                                                                     62. De lo que encontraron los arqueólogos en la necrópolis se
+     A. Pescadores                                                       puede inferir que, en sus orígenes, la población de Biblos:
+     B. Semitas cananeos
+     C. Muertos                                                              A. No enterraba a sus muertos
+     D. Cementerios                                                          B. Enterraba a sus muertos en posición fetal
+                                                                             C. Enterraba a sus muertos con sus pertenencias
+54. Puede decirse que los semitas cananeos, según el texto                   D. Enterraba a sus muertos sin sus pertenencias
+    eran, menos:
+                                                                     63. También se infiere que la manera de enterrar los muertos
+     A. Descendientes de Sem, uno de los hijos de Noé                    indica si un pueblo cree o no en:
+     B. Inmigrantes que fundaron Canaán
+     C. Los primeros que cambiaron las costumbres nativas                    A. Un dios
+     D. Los sucesores de los pescadores que fundaron Biblos                  B. La existencia de un más allá
+                                                                             C. La reencarnación
+55. Biblos era un puerto:                                                    D. El regreso de los muertos
+     A. Fluvial                                                      64. Los fenicios heredaron de los cananeos, menos:
+     B. Marítimo
+     C. Marítimo y fluvial                                                   A. El dios lítico
+     D. Un puerto en la desembocadura de un río                              B. La manera de enterrar a los muertos
+                                                                             C. La diosa baalat gebal
+56. Según el texto, los fundadores de Biblos son:                            D. El puerto
+     A. Los de gubla                                                     |
+     B. Los ugaríticos                                               65. En el texto, las siguientes expresiones hacen referencia al
+     C. Una comunidad de pescadores                                      mismo pueblo:
+     D. Los de gebal
+                                                                             A. Egeos, pueblos del mar, romanos
+57. Los primeros colonos que llegaron a Biblos, lo hicieron                  B. Helenos, egeos, griegos
+    después de:                                                              C. Asirios, babilonios, persas
+                                                                             D. Tirios, sidones y tirios
+     A. 3.000 años
+     B. 2.000 años
+     C. 2.200 años
+     D. 1.500 años
+66. El texto permite afirmar que:                                   Preguntas del 74 al 80
+
+     A.   La Biblos fenicia fue la mercantil Byblos de los          Un hombre del pueblo de Neguá, en la costa de Colombia, pudo
+          griegos                                                   subir al alto cielo. A la vuelta, contó. Dijo que había
+     B.   Gubla, Gebal y Beirut son la misma ciudad                 contemplado, desde allá arriba, la vida humana. Y dijo que
+     C.   Tiro, Sidón, Trípoli y Akka eran parte de Biblos          somos un mar de fueguitos.
+     D.   Egipto, Asiria, Babilonia, Persia, Grecia y Roma eran     —El mundo es eso –reveló–. Un montón de gente, un mar de
+          los pueblos del mar                                       fueguitos. Cada persona brilla con luz propia entre todas las
+                                                                    demás. No hay dos fuegos iguales. Hay fuegos grandes y
+67. Los nombres de Yabayl, cronológicamente han sido, según         fuegos chicos; y fuegos de todos los colores. Hay gente de
+    el texto:                                                       fuego sereno, que ni se entera del viento; y gente de fuego loco,
+                                                                    que llena el aire de chispas. Algunos fuegos, fuegos bobos, no
+     A.   Gubla, Gebal, Byblos, Canaán, Fenicia, Siria, Yabayl      alumbran ni queman. Pero otros arden la vida con tantas ganas,
+     B.   Gubla, Gebal, Canaán, Biblos, Byblos, Yabayl              que no se puede mirarlos sin parpadear; y quien se acerca, se
+     C.   Gubla, Canaán, Biblos, Gebal, Byblos, Siria, Yabayl       enciende.
+     D.   Gubla, Ugaria, Canaán, Fenicia, Byblos, Yabayl
+                                                                    74. Los fuegos, según el texto, se clasifican en:
+68. La helenización a la que se refiere el texto que llevó a cabo
+    Alejandro el Magno en Biblos quedó registrada por:                   A. Serenos, locos, bobos y quemantes
+                                                                         B. Grandes, chicos y coloridos
+     A. su prosperidad mercantil                                         C. Grandes, chicos, bobos y quemantes
+     B. su liberación de los egipcios                                    D. Serenos, locos, grandes y chicos
+     C. la “y” en la escritura de su nombre: Byblos
+     D. el cambio en el nombre de sus dioses                        75. Los colores de los fuegos “de todos los colores” son los del:
+
+69. Por un período anárquico se entiende un período sin:                 A. Amanecer
+     A. Gobierno                                                         B. Espectro
+     B. Orden                                                            C. Arco iris
+     C. Monarquía                                                        D. Atardecer
+     D. Dios ni ley
+                                                                    76. Los fuegos locos, tal como se describen en el texto, son:
+70. El título más adecuado para el texto es:
+                                                                         A. Llamativos y refulgentes
+     A.   Biblos                                                         B. Enceguecedores y contraindicados
+     B.   Yabayl                                                         C. Atractivos y repelentes
+     C.   La ciudad más antigua del mundo                                D. Indeterminados y herméticos
+     D.   Colonización e imperio
+
+71. Del texto se deduce que:                                        77. Del texto se infiere que:
+
+     A. La rivalidad va contra el progreso económico                     A. El fuego produce luz
+     B. La falta de gobierno estimula el progreso económico              B. Pueden encontrarse fuegos iguales
+     C. La autonomía y la competencia            promueven el            C. No hay gente sin luz
+          desarrollo económico                                           D. El fuego se hereda
+     D. El poder de un imperio es garantía de progreso
+          económico                                                 78. El mejor título para el texto sería:
+
+72. Según el texto, “la denostada Gebal de los escritos bíblicos”        A. Desde el alto cielo
+    quiere decir que:                                                    B. Tejas arriba
+                                                                         C. La vida humana
+     A.   Se llamó así a la ciudad en honor a la diosa Gebal de          D. Humanidad policromática
+          los fenicios
+     B.   La Biblia aprecia a la diosa como lo hará después         79. Para el narrador son evidentes la predilección y admiración
+          con la Virgen María                                           por la gente de fuego:
+     C.   Los escritos bíblicos se refieren a la diosa como al
+          becerro de oro que adoraban los israelitas cuando              A. Colorido
+          Moisés bajó con las tablas de la ley                           B. Sereno
+     D.   La Biblia se refiere a la ciudad fenicia como una              C. Loco
+          ciudad de idólatras                                            D. Ardiente
+
+73. Según el texto, el último nombre de Biblos se debe a que el     80. La categoría de “fuego bobo” se debe a:
+    pueblo que reside en ella actualmente es:
+                                                                         A. No tienen poder de convicción
+     A. Israelita                                                        B. No cumplen las funciones inherentes
+     B. Musulmán                                                         C. Como ciertas heces, no huelen ni hieden
+     C. Cristiano                                                        D. Tienen la chispa retardada.
+     D. Protestante
+Credencial 24782

@@ -1,0 +1,361 @@
+Módulos 5 al 11
+I.    Integración por sustitución
+
+      1.    En los ejercicios a-i escriba la integral a la que se transforma la integral dada después del cambio de variable
+            sugerido (f es una función continua dada).
+
+
+            a.      ∫ f ( x + 2) dx,                            haciendo u = x + 2.
+
+            b.      ∫ f (4 x + 1) dx,                           haciendo t = 4x + 1.
+
+            c.      ∫ xf (3x + 1) dx,                           haciendo 3x + 1 = t.
+
+                    ∫ f (x )x                                   haciendo t = x −1.
+                                 −1       −3
+            d.                                 dx,
+
+            e.      ∫ f ( x + 1) dx,                            haciendo t = x + 1.
+
+                    ∫ f ( 2 x + 3) dx,                          haciendo u = 3 2 x + 3.
+                             3
+            f.
+
+                    ∫ f (e + 1) dx,                             haciendo u = e + 1.
+                                 x                                               x
+            g.
+
+                    ∫ x f (1 − x ) dx,                          haciendo x = sen θ .
+                         2                 2
+            h.
+
+                    ∫ xf (4 + x ) dx,                           haciendo x = 2 senh θ .
+                                          2
+            i.
+
+      2.    En los ejercicios a-d calcule la integral dada realizando la sustitución indicada.
+
+
+            a.      ∫ x 3x − 1 dx,                              haciendo u 2 = 3x − 1.
+
+                    ∫x           x + 2 dx,                      haciendo t 2 = x + 2.
+                         2
+            b.
+
+
+                    ∫ x + 1 + 2 dx,                             haciendo x + 1 = t 2 .
+                                 1
+            c.
+
+
+                    ∫ ( x + 3) dx,                              haciendo x + 3 = u.
+                             2x
+            d.                        4
+
+
+II.   Integración de potencias de funciones trigonométricas
+
+      1.    En los ejercicios a-j calcule la integral indicada.
+
+
+                    ∫ sen x cos x dx.                                           ∫ sen x ⋅ cos x dx.
+                             3                                                        3      2
+            a.                                                         b.
+
+                    ∫ sen 3x ⋅ cos 3x dx.                                       ∫ sen 4x ⋅ cos 4 x dx.
+                             3                  3                                            3
+            c.                                                         d.
+
+
+                                              Capítulo 2: Métodos
+                                                              Elementos de     integración
+                                                                        básicos de cálculo integral y series 109
+                    ∫ cos 2 x dx.                                                   ∫ e sen e dx.
+                           4                                                            x       5   x
+             e.                                                             f.
+
+
+                    ∫ cos ⎜⎝ 2 ⎟⎠ sen ⎜⎝ 2 ⎟⎠ dw.
+                               ⎛ w⎞            ⎛ w⎞
+                                                                                    ∫ cot 2 x dx.
+                           4               2                                                4
+             g.                                                             h.
+
+
+                    ∫ csc 3 y dy.                                                   ∫ sec 7 x dx.
+                         4                                                                  4
+             i.                                                             j.
+
+III.   Sustituciones trigonométricas
+
+
+       1.    En los ejercicios a-p use la sustitución trigonométrica apropiada para calcular las integrales indicadas.
+
+
+                    ∫ 1 + x 2 dx.                                  ∫ 1 + x2 dx.                              ∫ 1 + x2 dx.
+                         x                                             x2                                        x3
+             a.                                       b.                                                c.
+
+
+                    ∫ (4 + x 2 )2 dx.                              ∫ 1 − x dx.                               ∫ 1 − x dx.
+                          x2                                           x3                                       x3
+             d.                                       e.                     2                          f.           2
+
+
+                                                                   ∫ x 2 dx.
+                                                                    (4 − x 2 )3 2
+                    ∫
+                        4 − x2
+                                                                                                             ∫ ( x − 4)
+                                                                                                                 2        32
+             g.                dx.                    h.                                                i.                     dx.
+                         x2
+
+                    ∫ 7 − x dx.                                    ∫
+                                                                       x2 − 9
+                                                                                                             ∫ 5 − 4 x − x dx.
+                           1
+                                                                                                                               2
+             j.                    2                  k.                      dx.                       l.
+                                                                        x
+
+                    ∫ 4x − x .                                     ∫ 16 + 6 x − x .                          ∫u +u+2
+                           dx                                               dx                                       du
+             m.                        2              n.                            2                   o.      2
+
+
+                                           dθ
+             p.     ∫ 2 cos θ + sen θ cos θ + sen θ
+                               2                      2
+
+
+             Encuentre el valor de la integral ∫
+                                                          x3 dx
+                                                          9 + x2
+       2.                                                          mediante las sustituciones
+
+
+                    u = 9 + x 2 , u 2 = 9 + x 2 , 2u du = 2 x dx.
+
+
+             Encuentre ∫
+                               4 − x2
+       3.                             dx mediante:
+                                 x
+
+             a.     La sustitución u = 4 − x 2 .
+
+             b.     Una sustitución trigonométrica.
+
+             Compare después las respuestas.
+
+
+   Ejercicios de los módulos 5 al 11
+IV.   Integración por partes
+
+
+      1.    Use integración por partes para calcular las integrales indicadas en los ejercicios a-t.
+
+
+                     ∫ (3x + 7 x + 1)e dx.                                             ∫ ( x − 5x + 1)e
+                             2                                                                  2             −x
+             a.
+                                                      x
+                                                                               b.                                  dx.
+
+                     ∫x e                                                              ∫x e
+                        3 2x                                                                3 x −1
+             c.                  dx.                                           d.                     dx.
+
+                     ∫ ( x − 1) e                                                      ∫ (4 x + 3) cos 3x dx.
+                                 3       x −1
+             e.                                 dx.                            f.
+
+                     ∫ x cos 6 x dx.                                                   ∫ x sen x dx.
+                        2                                                                   2         2
+             g.                                                                h.
+
+                     ∫ x cos x dx.                                                     ∫ x ln 2 x dx.
+                        2        2
+             i.                                                                j.
+
+                     ∫ (ln 2 x) dx.                                                    ∫e
+                                     2                                                      −2 x
+             k.                                                                l.                   cos 4 x dx.
+
+                     ∫ e sen 3x dx.                                                    ∫ x cos 4 x dx.
+                        x                                                                   2
+             m.                                                                n.
+
+                     ∫ e sen bx dx.                                                    ∫ e cos bx dx.
+                        ax                                                                  ax
+             o.                                                                p.
+
+                     ∫ xe sen x dx.                                                    ∫ xe cos x dx.
+                             x                                                                  x
+             q.                                                                r.
+
+
+                     ∫ sec x dx.                                                       ∫ (1 + x )
+                                                                                             earctan x
+             s.
+                          5
+                                                                               t.                    2 32
+                                                                                                            dx.
+
+
+      2.    Deduzca la fórmula de reducción:
+
+
+                     ∫ cos x dx =                                        n ∫
+                                                  cos n −1 x ⋅ sen x   n −1
+                          n
+                                                                     +       cos n − 2 x dx.
+                                                           n
+
+       3.    Una función g ( x) satisface las siguientes condiciones:
+
+
+             i.      g ( x) está definida en todo x.
+             ii.     g ′′( x) es continua.
+             iii.    g (0) = g (2) .
+             iv.     g ′(2) = 3 .
+
+
+             Demuestre que ∫ 0 x ⋅ g ′′( x) dx = 6.
+                                          2
+
+
+      4.    Deduzca las fórmulas de reducción de las preguntas básicas.
+
+
+                                                Capítulo 2: Métodos de integración
+V.     Integración de funciones racionales
+
+       1.     En los ejercicios a-o use descomposición en fracciones simples antes de efectuar la integral indicada.
+
+
+                             ∫ x − 6 x + 8 dx.                             ∫ 2 x +5x + 2 dx.
+                                     4 x − 10                                   7x + 8
+              a.                     2                          b.              2
+
+
+                             ∫ x3 − 3x 2 + 2x dx.                          ∫ x3 − 6x 2 + 5x dx.
+                                     1                                       2 x 2 + 3x − 1
+              c.                                                d.
+
+
+                             ∫ ( x 2 − 1)2 dx.                             ∫ x( x 2 + 4) dx.
+                              5 x 2 − 6x + 5                                 x 2 − 3x − 1
+              e.                                                f.
+
+
+                                                                           ∫ ( x 2 + 9)2 dx.
+                                                                                x3 + 2
+                             ∫ x 4 + 3x 2 + 2 dx.
+                                     1
+              g.                                                h.
+
+
+                             ∫ x3 − 4 x dx.                                ∫ ( x − 1) ( x + 2).
+                              x5 + x 4 − 8                                          x 4 dx
+              i.                                                j.                       2
+
+
+                             ∫ ( x − 1)2 ( x 2 + 1)2 dx.
+                                    (8 x 2 − 4)
+                                                                           ∫ x3 + 1 dx.
+                                                                              3x 4
+              k.                                                l.
+
+                                      sen θ
+                             ∫ cos 2 θ + cos θ − 2 dθ .                    ∫ e 2 t + 3e t + 2 .
+                                                                                    et dt
+              m.                                                n.
+
+
+                             ∫ 1 − ex dx.
+                               1 + ex
+              o.
+
+
+VI.    Diversas sustituciones
+
+       En las integrales a-l efectúe una sustitución apropiada para convertir el integrando en una función racional y de
+       esta manera poder calcular más fácilmente la integral:
+
+
+              ∫ x + x dx                                                                               ∫ x + 1 dx
+                            x +1
+                                                                ∫ 1+ x ⋅ x
+                                                                     1 − x dx
+                       6
+                                                                                                                 x
+       a.          6    7        4       5                 b.                   2                 c.    4    3
+
+
+              ∫ x + x + x +1                                    ∫
+                                 x +2                                x3 − 3 x
+                                                                                                       ∫ 1+ x ⋅ x
+                             3
+                                                                                                            1 − x dx
+       d.          6         3
+                                                dx         e.          4
+                                                                                    dx            f.
+                                                                      6 x
+
+
+              ∫                                                 ∫ 5 − 3 cos x                          ∫ 4 − 5 sen x
+                       2 + 3x                                          dx                                        dx
+                        x −3
+       g.                     dx                           h.                                     i.
+
+
+              ∫ 1 + sen x .                                     ∫ 2 + cos x .                          ∫ sen 2 x cos 3x dx.
+                        dx                                             dx
+       j.                                                  k.                                     l.
+
+
+112   Ejercicios de los módulos 5 al 11
+VII.   Integración de los binomios diferenciales
+
+       En los ejercicios a-j calcule la integral de los binomios diferenciales dados:
+
+
+              ∫
+                  1+ 3x
+                                 dx.
+                                                                  ∫ x (2 + x )
+                                                                          13            23 14
+       a.             3
+                                                           b.                                   dx.
+                          x2
+
+
+              ∫ x (1 + x ) .                                      ∫ (1 + x ) dx.
+                          dx                                                        12 3
+       c.         2            2 32                        d.         4
+
+
+              ∫                                                   ∫ 1 − x dx.
+                  2− 3 x                                                      x3
+       e.             3
+                                 dx.                       f.                       2
+                          x
+
+
+              ∫ 1 + x dx.                                         ∫x           4 + x 2 dx.
+                      x                                                   5
+       g              3
+                                                           h.
+
+
+              ∫                                                   ∫
+                          1                                                    x3
+                      x − 4 x3                                                4 + x2
+       i.                             dx.                  j.                            dx.
+                                                                          3
+
+
+                                            Capítulo 2: Métodos          dede cálculo integral
+                                                          Elementos básicos    integración     y series 113

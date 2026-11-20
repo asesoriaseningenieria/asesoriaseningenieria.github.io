@@ -1,0 +1,322 @@
+⎡x⎤                                                         ⎡ x+ y ⎤
+                                                   ⎡x − y + z⎤                                  ⎡ x⎤
+                  3
+                      →   2
+                              tal que T1 ⎢⎢ y ⎥⎥ = ⎢                     2
+                                                                             →   3
+                                                                                     tal que T2 ⎢ ⎥ = ⎢⎢ x − 4 y ⎥⎥ .
+                                                     x + 2 z ⎥⎦
+27.   Sean T1 :                                                 y T2 :
+                                         ⎢⎣ z ⎥⎦   ⎣                                            ⎣ y⎦ ⎢
+                                                                                                       ⎣ x − y ⎥⎦
+      Determine (T1 T2 ) y (T2 T1 ).
+
+
+                                                                                                        Álgebra lineal elemental y aplicaciones 163
+Ejercicios del capítulo 3 (módulo 12)
+
+
+En los ejercicios 1 a 7 encuentre núcleo, imagen, rango y nulidad de la transforrmación lineal dada:
+
+
+                                          ⎡ x ⎤ ⎡ x + y⎤
+1.     T:    2
+                 →       2   ,           T⎢ ⎥=⎢        ⎥.
+                                          ⎣ y⎦ ⎣ x − y ⎦
+
+                                                 ⎡ x+ y ⎤
+                                           ⎡x⎤ ⎢
+2.     T:    2
+                 →       3
+                             ,           T ⎢ ⎥ = ⎢5x + 5 y ⎥⎥ .
+                                           ⎣ y⎦ ⎢
+                                                 ⎣ x − y ⎥⎦
+
+                                            ⎡ x ⎤ ⎡ x + y⎤
+3.     T:    3
+                 →       3   ,           T ⎢⎢ y ⎥⎥ = ⎢⎢ x + z ⎥⎥ .
+                                            ⎢⎣ z ⎥⎦ ⎢⎣ y + z ⎥⎦
+
+4.     T : P3฀ → P2 , T ( a0 + a1 x + a2 x 2 + a3 x3 ) = a0 + a1 + a2 x + a3 x 2 .
+
+
+5.     T : P2 → P3 , T ( p) = xp.
+
+6.     T : M 3×3 → , T ( A) = tr A.
+
+7.     T : C [0, 1] → , T ( f ) = f (1).
+
+
+8.     Sea D : P → P (P es el espacio vectorial de todos los polinomios) dada por D( p ) = p ' (la derivada del polinomio
+       p). Describa el núcleo de D.
+
+9.     Sea T : 2 → 2 la transformación lineal tal que T (1, 1) = (0, 0) y T (0, 1) = (1, 1). Demuestre que tanto el núcleo
+       como la imagen de T son rectas en el plano xy que pasan por el origen. Encuentre las ecuaciones de estas rectas.
+
+10.    Sea T :    3
+                         →       2
+                                     una transformación lineal tal que T (1, 1, 0) = T (0, 2, 1) = (0, 0) y T (−1, 2, 4) = v ≠ 0. Demuestre
+                                                                3
+       que el núcleo de T es un plano en                             que pasa por el origen. Encuentre su ecuación.
+
+11.    Sea T :     → m la transformación lineal T (X) = AX, donde A es una matriz m × n. ¿Qué relación guardan el núcleo
+                     n
+
+
+       de T y el espacio solución del sistema homogéneo de ecuaciones lineales AX = 0?
+
+
+                                                                                  ⎡0 1⎤
+12.    Sea T : M 2× 2 → M 2×2 la transformación lineal T ( A) = AB − BA donde B = ⎢   ⎥ . Describa el núcleo de T.
+                                                                                  ⎣0 0⎦
+13.    Encuentre una transformación lineal T de                            3
+                                                                               →   3
+                                                                                       tal que nu T = {( x, y, z ) : 2 x − y + z = 0} .
+
+
+                                                                                                                        Álgebra lineal elemental y aplicaciones 173
+14.   Demuestre el teorema 3.
+
+
+                                                     ⎡ x ⎤ ⎡2 0⎤ ⎡ x1 ⎤
+15.   Muestre que T :   2
+                            →   2
+                                    , definida por T ⎢ 1 ⎥ = ⎢  ⎥ ⎢ ⎥ , transforma el círculo unitario x1 + x2 = 1 en una
+                                                                                                         2    2
+
+                                                     ⎣ x2 ⎦ ⎣0 3⎦ ⎣ x2 ⎦
+      elipse.
+
+
+174
+Ejercicios del capítulo 3 (módulo 13)
+
+
+1.   Sea T :     2
+                         →   2
+                                 definida como T ( x, y ) = ( x − 2 y , x + 2 y ) . Sean B1 la base estándar de         2
+                                                                                                                            y B2 = {(1, − 1), (0, 1)} .
+     Determine la matriz que representa a T respecto a:
+
+     a.        B1.
+     b.        B1 y B2 .
+     c.        B2 y B1.
+     d.        B2.
+     e.     Calcule T (2, − 1) empleando la definición de T y las matrices obtenidas en a, b, c y d.
+
+
+2.   Sea T :         3
+                         →   3
+                                 definida como T ( x, y , z ) = ( x + 2 y + z , 2 x − y , 2 y + z ) . Sea B1 la base natural para                 3
+                                                                                                                                                      y
+     B2 = {(1, 0, 1), (0, 1, 1), (0, 0, 1)} otra base para          3
+                                                                        . Determine la matriz de T respecto a:
+
+
+     a.        B1.
+     b.        B1 y B2 .
+     c.        B2 y B1.
+     d.        B2.
+     e.     Calcule T (1, 1, − 2) empleando la definición de T y las matrices obtenidas en a, b, c, d.
+
+
+                                                 ⎡ x⎤
+                                                 ⎢ ⎥ ⎡x + y⎤
+                 3
+                         →   2
+                                 definida como T ⎢ y ⎥ = ⎢                                                          3          2
+
+                                                           y − z ⎥⎦
+3.   Sea T :                                                        . Sean B1 y B2 las bases naturales de               y          , respectivamente;
+                                                 ⎢⎣ z ⎥⎦ ⎣
+
+
+                     ⎧ ⎡1 ⎤ ⎡ 0⎤ ⎡ −1⎤ ⎫
+                     ⎪⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎪               ⎧⎪ ⎡ −1⎤ ⎡ 1 ⎤ ⎫⎪
+                 B ′
+     además, sean 1 ⎨ ⎢1 ⎥ , ⎢1 ⎥ , ⎢ 1 ⎥ ⎬ y B2′ ⎨ ⎢ ⎥ , ⎢ ⎥ ⎬ bases para               3
+                                                                                             y   2
+                                                                                                     , respectivamente. Determine la matriz
+                     ⎪ ⎢0 ⎥ ⎢ 0⎥ ⎢ 1 ⎥ ⎪           ⎪⎩ ⎣ 1 ⎦ ⎣ 2 ⎦ ⎪⎭
+                     ⎩⎣ ⎦ ⎣ ⎦ ⎣ ⎦ ⎭
+     de T respecto a:
+
+     a.        B1 y B2 .
+     b.        B1′ y B2′.
+
+                       ⎡1 ⎤
+     c.     Calcule T ⎢⎢ 2⎥⎥ utilizando la definición de T y las matrices obtenidas en a y b.
+                       ⎢⎣ 3⎥⎦
+
+
+                                                                                                          Álgebra lineal elemental y aplicaciones 191
+16.   La transformación realiza una reflexión con respecto al eje x (al eje y) cuando la coordenada y (x) de cada
+      pareja (x, y) se cambia por –y (–x).
+
+      a.     Defina, en cada caso, la transformación lineal.
+
+      b.     Determine, en cada caso, la matriz de la transformación lineal.
+
+      c.     Represente en el plano x, y el rectángulo de vértices (0, 0), (5, 0), (5, 2), (0, 2). Realice gráficamente una reflexión
+             con respecto al eje x (al eje y).
+
+17.   La transformación realiza una reflexión con respecto a la recta y = x cuando cada pareja (x, y) se cambia por la
+      pareja (y, x).
+
+      a.     Defina esta transformación lineal.
+
+      b.     Determine la matriz de esta transformación lineal.
+
+      c.     Represente en el plano x, y el rectángulo de vértices (0, 0), (5, 0), (5, 2), (0, 2). Realice gráficamente una reflexión
+             respecto a la recta y = x.
+
+18.   La transformación realiza un corte a lo largo del eje x [o del eje y] cuando cada pareja (x, y) se transforma en la pareja
+      (x + Cy, y) [o en la pareja (x, y + Cx)], respectivamente, donde C es un constante que puede ser positiva o negativa.
+
+      a.     Defina esta transformación lineal.
+
+      b.     Represente en el plano x, y el rectángulo de vértices (0, 0), (5, 0), (5, 2), (0, 2). Realice gráficamente un corte a
+             lo largo del eje x (y) para un valor de C = 2.
+
+19.   Demuestre que toda matriz elemental E de 2 × 2 es uno de los siguientes casos:
+
+      a.     La representación matricial de un expansión a lo largo del eje x o y.
+
+      b.     La representación matricial de una compresión a lo largo del eje x o y.
+
+      c.     La representación matricial de una reflexión respecto del eje x o y.
+
+      d.     La representación matricial de una reflexión respecto a la recta y = x.
+
+      e.     La representación matricial de un corte a lo largo del eje x o y.
+
+      f.     El producto de la representación matricial de una reflexión respecto al eje x o y y la representación matricial de
+             una expansión o compresión.
+
+20.   Sea T : 2 → 2 tal que su representación matricial es invertible. Demuestre que T se puede obtener como una
+      sucesión de expansiones, compresiones, cortes y reflexiones.
+
+
+                                                                                               Álgebra lineal elemental y aplicaciones 195
+Ejercicios del capítulo 3 (módulo 14)
+
+
+1.    Dé un ejemplo de una TL T : V → W que sea:
+
+      a.      Uno a uno pero no sobre.
+      b.      Sobreyectiva pero no uno a uno.
+      c.      Uno a uno y sobreyectiva.
+
+
+                          mn → M ฀
+                                 nm definida por T ( A) = A es un isomorfismo.
+                                                           T
+2.    Demuestre que T : M ฀
+
+                                                                                         n
+3.    Encuentre un isomorfismo entre Dn , matrices diagonales de orden n, y                  .
+
+
+                                                 ⎡ x ⎤ ⎡1 0 1 ⎤ ⎡ x ⎤
+4.    Sea T :      3
+                       →     3
+                                 definida como T ⎢ y ⎥ = ⎢0 1 1 ⎥ ⎢ y ⎥ . Determine si T es un isomorfismo.
+                                                 ⎢ ⎥ ⎢           ⎥⎢ ⎥
+                                                 ⎢⎣ z ⎥⎦ ⎢⎣1 0 2⎥⎦ ⎢⎣ z ⎥⎦
+
+
+5.    Para cada una de las siguientes transformaciones determine si es un isomorfismo a partir de la información dada.
+
+      a.        T:     4
+                           →      4
+                                      , ρ(T ) = 4.
+      b.        T:     4
+                           →      4
+                                      , ν (T ) = 2.
+      c.        T : P 2฀ → P 2฀, ν (T ) = 1.
+      d.        T : P3 → P3 , ρ(T ) = 4.
+
+
+6.    Sea V = P4 y W = { p ∈ P5 : p(0) = 0} . Demuestre que V ≅ W .
+
+
+7.    Sea T : P n฀ → Pn tal que Tp ( x ) = xp '( x). Determine si T es un isomorfismo.
+
+8.    Demuestre que si T : V → W es un isomorfismo, entonces existe un isomorfismo L : W → V tal que L(T ( v)) = v. A
+      L se le llama transformación inversa de T y se denota T −1 .
+
+9.    Demuestre que si T : R n → R n está definido por T ( x) = Ax y T es un isomorfismo, entonces T −1 está dado por
+      T −1 ( x ) = A −1x .
+
+                                                   ⎡ x ⎤ ⎡2x + 4 y − 6z ⎤
+10.   Sea T :      3
+                       →     3
+                                 una TL dada por T ⎢ y ⎥ = ⎢ 5 y − 2 z ⎥ .
+                                                   ⎢ ⎥ ⎢                ⎥
+                                                   ⎢⎣ z ⎥⎦ ⎢⎣   9z      ⎥⎦
+
+      Demuestre que T es un isomorfismo y determine T −1 .
+
+11.   Sea T : M n฀× n → M n฀×n la transformación lineal dada por T ( A) = BA, donde B es una matriz fija de orden n. Demues-
+      tre que T es un isomorfismo si y sólo si B es una matriz invertible. En tal caso, describa T −1 .
+
+
+208
+Ejercicios del capítulo 3 (módulo 15)
+
+
+1.   Sea T :     2
+                      →   2
+                              una transformación lineal tal que:
+
+
+                ⎛ 1   1 ⎞ ⎛ 1     1 ⎞
+               T⎜   ,   ⎟=⎜   , −   ⎟,
+                ⎝ 2    2⎠ ⎝ 2      2⎠
+
+                 ⎛ 1    1 ⎞ ⎛ 1    1 ⎞
+               T ⎜−   ,    ⎟=⎜   ,   ⎟.
+                 ⎝  2    2 ⎠ ⎝ 2    2⎠
+
+     Demuestre que T es una isometría.
+
+2.   Considere la transformación lineal T : M 2฀×2 → M 2฀× 2 para la cual:
+
+
+                ⎡1 0 ⎤ ⎡1 2 1 2 ⎤                            ⎡0 1 ⎤ ⎡ 1 2  12⎤
+               T⎢    ⎥=⎢        ⎥,                          T⎢    ⎥ =⎢          ⎥,
+                ⎣0 0 ⎦ ⎣1 2 1 2 ⎦                            ⎣0 0 ⎦ ⎣ −1 2 −1 2 ⎦
+
+                ⎡0 0 ⎤ ⎡1 2 −1 2 ⎤                           ⎡0 0 ⎤ ⎡ 1 2 −1 2 ⎤
+               T⎢    ⎥=⎢         ⎥,                         T⎢     ⎥=⎢          ⎥.
+                ⎣1 0 ⎦ ⎣1 2 −1 2 ⎦                           ⎣ 0 1 ⎦ ⎣ −1 2 1 2 ⎦
+
+     Compruebe que T es una isometría.
+
+
+3.   Determine el vector (a, b) ∈              2
+                                                   tal que la transformación T :         2
+                                                                                             →   2
+                                                                                                     para la cual T (1, 0) = ⎡⎣1         2, − 1   2 ⎤⎦ ,
+
+     T (0,1) = (a, b) sea una isometría.
+
+
+4.   Sea B = { v1 , v2 , v3 } una base ortonormal de          3
+                                                                  . Determine una isometría T :           3
+                                                                                                              →    3
+                                                                                                                       , para la cual:
+
+                         1                                  1
+               T ( v1 ) = (2v1 + v 2 + 2 v 3 ), T ( v 2 ) =    ( v1 − v3 ).
+                         3                                   2
+
+                                                                     2        2
+5.   Dé un ejemplo de una transformación lineal de                       en       que preserve los ángulos y no sea una isometría.
+
+6.   Sea T :      n
+                      →       n
+                                  una isometría y sea T ( x ) = A x. Demuestre que S ( x ) = A − 1 x es una isometría.
+
+
+                                                                                                              Álgebra lineal elemental y aplicaciones 217

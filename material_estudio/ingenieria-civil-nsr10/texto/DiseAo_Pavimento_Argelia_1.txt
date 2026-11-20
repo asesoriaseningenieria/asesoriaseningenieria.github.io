@@ -1,0 +1,967 @@
+MEJORAMIENTO DE VÍAS URBANAS EN EL MUNICIPIO DE ARGELIA, ANTIOQUIA
+
+
+                                     DISEÑO DE PAVIMENTO
+
+
+                           Calle 29 entre las carreras 30 y 31
+
+                           Carrera 27 entre las calles 31 y 32
+
+                                   Carrera 31 con la calle 32
+
+
+                                                 ABRIL 2023
+
+
+          Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+            Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                       Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                        1.    Web: www.argelia-antioquia.gov.co
+CONTENIDO
+1.     INTRODUCCIÓN ..................................................................................................................................................4
+2.     OBJETIVOS ..........................................................................................................................................................4
+3.     ALCANCE .............................................................................................................................................................4
+4.     DISEÑO DE PAVIMENTO RÍGIDO.........................................................................................................................4
+     4.1      METODOLOGÍA DE DISEÑO PCA .................................................................................................................4
+       4.1.1          PARÁMETROS DE DISEÑO ...................................................................................................................5
+       4.1.2          ESTIMACIÓN DEL ESPESOR DE LA LOSA DE CONCRETO ...................................................................13
+       4.1.3          ESQUEMA ESTRUCTURA DE CONCRETO ...........................................................................................16
+     4.2      MÉTODO DEL MANUAL DE DISEÑO DE PAVIMENTOS DE CONCRETO INVIAS ..........................................16
+       4.2.1          SELECCIÓN DE VARIABLES ................................................................................................................16
+       4.2.2          ESPESOR DE LOSA DE CONCRETO .....................................................................................................18
+     4.3      COMPARACIÓN ENTRE LOS MÉTODOS DE DISEÑO ..................................................................................19
+     4.4      DIMENSIONES DE LA LOSA DE CONCRETO ...............................................................................................19
+     4.5      SISTEMAS DE TRANSFERENCIA DE CARGA ...............................................................................................22
+       4.5.1          PASADORES DE CARGA (DOVELAS)...................................................................................................22
+       4.5.2          BARRAS DE ANCLAJE .........................................................................................................................23
+     4.6      JUNTAS......................................................................................................................................................24
+       4.6.1          JUNTAS DE EXPANSIÓN ....................................................................................................................24
+       4.6.2          JUNTAS LONGITUDINALES ................................................................................................................25
+       4.6.3          JUNTAS TRANSVERSALES ..................................................................................................................26
+       4.6.4          CORTE DE JUNTAS .............................................................................................................................26
+       4.6.5          SELLO DE JUNTAS ..............................................................................................................................27
+     4.7      LLAVE DE CONFINAMIENTO .....................................................................................................................28
+5.     BORDILLO..........................................................................................................................................................28
+6.     CONCLUSIONES Y RECOMENDACIONES ...........................................................................................................29
+7.     BIBLIOGRAFÍA ...................................................................................................................................................31
+
+
+                                 Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                                   Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                              Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                                  1.    Web: www.argelia-antioquia.gov.co
+LISTADO DE ILUSTRACIONES
+Ilustración 1. Relación entre la clasificación del suelo, los valores de CBR y k. ..........................................................6
+Ilustración 2. Interface software BS - PCA ................................................................................................................13
+Ilustración 3. Cargas y repeticiones en BS – PCA ......................................................................................................14
+Ilustración 4. Interface software BS - PCA ................................................................................................................15
+Ilustración 3. Cargas y repeticiones en BS – PCA ......................................................................................................15
+Ilustración 6. Detalle de pavimento método PCA.....................................................................................................16
+Ilustración 7. Detalle de pavimento método invias. .................................................................................................19
+Ilustración 8. Juntas de expansión alrededor de elementos incorporados dentro del pavimento ..........................25
+Ilustración 9. Juntas de expansión en las intersecciones y cerca de algún obstáculo ..............................................25
+Ilustración 10. Junta longitudinal para pavimento vaciado carril por carril .............................................................26
+Ilustración 11. Detalle corte de junta. ......................................................................................................................27
+Ilustración 12. Detalle de sello de juntas. .................................................................................................................27
+Ilustración 13. Detalle llave de confinamiento .........................................................................................................28
+Ilustración 14. Esquema de bordillo .........................................................................................................................28
+
+
+LISTADO DE TABLAS
+Tabla 1. Resistencia a flexión que debe alcanzar el concreto ....................................................................................5
+Tabla 2. Valores de resistencias del concreto a flexotracción ....................................................................................5
+Tabla 3. Influencia del espesor de la base granular en el valor de K ..........................................................................6
+Tabla 4. Categorías de subrasante..............................................................................................................................7
+Tabla 5. Distribución porcentual vehículos comerciales carrera 31 ...........................................................................8
+Tabla 6. Distribución porcentual vehículos comerciales carrera 28 ...........................................................................8
+Tabla 7. Factor de distribución por carril ....................................................................................................................8
+Tabla 8. Número de ejes comerciales por día por carril .............................................................................................9
+Tabla 9. Número de ejes comerciales por día por carril .............................................................................................9
+Tabla 10. Número de ejes comerciales por día por carril p/c 1000 vehículos. .........................................................10
+Tabla 11. Número de ejes comerciales por día por carril p/c 1000 vehículos. .........................................................10
+Tabla 12. Configuración de la carga por eje. ............................................................................................................11
+Tabla 13. Número de ejes en carril de diseño/periodo de diseño. ..........................................................................11
+Tabla 14. Número de ejes en carril de diseño/periodo de diseño. ..........................................................................12
+Tabla 15. Factores de seguridad ...............................................................................................................................12
+Tabla 16. Categorías de tránsito ...............................................................................................................................17
+Tabla 17. Clasificación de la subrasante de acuerdo con su resistencia...................................................................17
+Tabla 18. Denominación del sistema de transferencia de carga y confinamiento lateral........................................17
+Tabla 19. Clasificación de los materiales de soporte. ...............................................................................................18
+Tabla 20. Valores de resistencias del concreto a flexotracción ................................................................................18
+Tabla 21. Espesores de losa de concreto (cm) para To.............................................................................................18
+Tabla 22. Dimensiones y tramos calle 31 .................................................................................................................20
+Tabla 23. Recomendaciones para la selección de pasadores. ..................................................................................23
+Tabla 24. Recomendaciones para barras de anclajes. ..............................................................................................24
+
+                               Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                                 Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                            Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                              1.   Web: www.argelia-antioquia.gov.co
+                                                       1. INTRODUCCIÓN
+En el presente informe se reportan los resultados obtenidos del diseño de pavimento rígido para las calles
+establecidas en el municipio de Argelia (ver plano de localización). En este se incluyen los parámetros de diseño y
+procesamiento de la información correspondiente al TPD obtenido del estudio de tránsito realizado, insumos
+necesarios para dicho diseño.
+
+El diseño de pavimento debe tener en cuenta factores como la calidad del suelo de apoyo de la estructura y
+posibles mejoras al mismo (estos componentes se determinarán en estudios de suelos realizados con anterioridad
+en las vías en estudio), el estudio de tránsito se realiza con la finalidad de conocer las condiciones actuales de
+operación y demanda de tráfico, para lo cual se hace necesaria la toma de información de campo mediante aforos
+vehiculares. Con esta información se realizarán proyecciones de tránsito lo cual se tendrá en cuenta para
+determinar las cargas de diseño.
+
+Se plantean dos alternativas de pavimento, un pavimento rígido diseñado con el método de la PCA para el cálculo
+de los espesores y otro pavimento diseñado con el método de diseño explicado el manual de diseño de pavimentos
+de concreto para vías con bajos, medios y altos volúmenes de tránsito (INVIAS).
+
+                                                            2. OBJETIVOS
+    •   Determinar los espesores de las capas de la estructura de pavimento que servirá de soporte al tránsito
+        de vehículos o a cargas de ejes futuras.
+
+    •   Determinar la mejor alternativa para la pavimentación.
+
+                                                              3. ALCANCE
+El diseño aquí presentado se encuentra sujeto a las condiciones (parámetros) presentes encontradas y
+determinadas en los estudios previos realizados (suelos y tránsito), por lo tanto, los resultados obtenidos son
+solamente para el proyecto en cuestión.
+
+                                      4. DISEÑO DE PAVIMENTO RÍGIDO
+En este apartado se describen los factores a considerar en el diseño de pavimentos rígidos.
+
+4.1 METODOLOGÍA DE DISEÑO PCA
+Para el diseño de la estructura se plantea la metodología de la PCA – 84 para pavimentos rígidos con la cual se
+define el espesor de la losa de concreto y de la base granular tomando información sobre el tipo y cantidad de
+vehículos que circulan por la vía detallando las cargas de cada uno, la capacidad de soporte de la subrasante, la
+calidad de los materiales a utilizar y la opción de utilización de otros componentes como sistema de transferencia
+de carga y una capa de subbase granular.
+
+Mediante este método se controlan dos criterios de diseño: el responsable de controlar el agrietamiento de la
+losa (fatiga), y el responsable de controlar el desgaste del suelo de soporte (erosión), el espesor de la losa
+seleccionado se considera inadecuado si en alguno de los valores calculados se supera el 100%. La evaluación de
+las estructuras analizadas se realizó mediante el software BS - PCA desarrollado por la Universidad del Cauca.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.    Web: www.argelia-antioquia.gov.co
+4.1.1   PARÁMETROS DE DISEÑO
+4.1.1.1 PERÍODO DE DISEÑO (n)
+Se considera un periodo de diseño de 20 años para todos los análisis estructurales, el cual bajo premisas teóricas
+debe coincidir como mínimo con la vida útil del pavimento, en el caso que exista una buena certidumbre en el
+análisis de las variables de diseño y su respectiva proyección [6].
+
+4.1.1.2 MÓDULO DE ROTURA DEL CONCRETO (MR)
+Este parámetro es aplicado a pavimentos rígidos debido a que los esfuerzos a compresión que resultan en la
+superficie de contacto entre las llantas de un vehículo y el pavimento son sumamente bajos.
+
+Por lo tanto, no es la resistencia a la compresión el factor determinante de la calidad del concreto para
+pavimentos, sino la resistencia a la flexión (módulo de rotura) por el paso de vehículos. En la práctica lo que se
+hace es diseñar el espesor del pavimento de forma tal que los esfuerzos de flexión causados por el paso de
+vehículos sean inferiores a la capacidad máxima a flexión de las placas.
+                                    Tabla 1. Resistencia a flexión que debe alcanzar el concreto.
+
+El concreto establecido para el pavimento es de 40 kg/cm2.
+                                    Tabla 2. Valores de resistencias del concreto a flexotracción.
+
+
+                                   Fuente. Manual de diseño de pavimentos de concreto INVIAS.
+
+4.1.1.3 BASE GRANULAR
+Las principales funciones de esta capa son las de dar soporte uniforme y constante al apoyo de losas, controlar las
+variaciones volumétricas de la subrasante y aumentar la capacidad de soporte de la fundación.
+
+La base Granular debe cumplir con las características que se estipulan en las normas del Instituto Nacional de Vías
+mediante sus especificaciones técnicas establecidas en el Artículo INV 330 – 13.
+
+Se asumirá un espesor de base de 15 cm para las vías a intervenir.
+
+4.1.1.4 MÓDULO DE REACCIÓN DE LA SUBRASANTE (k)
+Es la capacidad de soporte del suelo de subrasante y se puede determinar mediante correlación con el CBR de
+diseño. En figura 1 se muestran los valores de las correlaciones.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.    Web: www.argelia-antioquia.gov.co
+                           Ilustración 1. Relación entre la clasificación del suelo, los valores de CBR y k.
+
+
+                                   Fuente. Manual de diseño de pavimentos en concreto. INVIAS
+
+
+Una vez se ha determinado el (k) de la subrasante se deberá determinar el (K) de la combinación subrasante –
+base granular en caso de que la estructura del pavimento contemple una capa de base granular, para esto se tiene
+la tabla 3 la cual relaciona el (k) de la subrasante y el espesor de base que se haya asumido para el diseño.
+                                Tabla 3. Influencia del espesor de la base granular en el valor de K.
+
+
+                                   Fuente. Manual de diseño de pavimentos en concreto. INVIAS
+
+Se toma como CBR de diseño 1,6% para las vías, carrera 28, carrera 26, carrera 27, calle 30, carrera 25, calle 31
+(ver estudio de suelos). Con base en la tabla 3 se determina la categoría de la subrasante y su comportamiento.
+Como el CBR es menor que 3% se sugiere implementar una capa de material seleccionado como mejoramiento
+de la subrasante de 21 cm, dicho material deberá cumplir con un CBR recomendado del 4% (ver estudio de suelos).
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.    Web: www.argelia-antioquia.gov.co
+Se toma como CBR de diseño 1,1% para las vías, calle 29, calle 32, carrera 30, carrera 32, carrera 31, carrera 33
+(ver estudio de suelos). Con base en la tabla 3 se determina la categoría de la subrasante y su comportamiento.
+Como el CBR es menor que 3% se sugiere implementar una capa de material seleccionado como mejoramiento
+de la subrasante de 28 cm, dicho material deberá cumplir con un CBR recomendado del 4% (ver estudio de suelos).
+                                                   Tabla 4. Categorías de subrasante.
+
+
+                         Fuente. Proyecto tipo selección de alternativa de mejoramiento para vías DNP.
+
+Para realizar el diseño de pavimentos se tomará el CBR del 4%, por lo tanto, de la ilustración 1 se tiene un (k) de
+la subrasante de 34 MPa. Como la estructura del pavimento contempla una capa de base granular asumida de 15
+cm de la tabla 2 se tiene que el (K) de la combinación subrasante – base granular es de 42 MPa/m.
+
+Para el cálculo de (K) de la combinación subrasante – base granular se utilizó el método de interpolación el cual
+se realiza con la siguiente expresión:
+                                                         𝑋 − 𝑋1 ) ∗ (𝑌2 − 𝑌1)]
+                                             𝑌 = 𝑌1 + [(
+                                                        𝑋2 − 𝑋1
+Siendo:
+
+Para la base de 15 cm. X = 34; X1 = 20; X2 = 40; Y1 = 26; Y2 = 49; K = 42 MPa/m
+
+
+4.1.1.5 TRÁNSITO DE DISEÑO
+Para la estimación del tránsito de diseño se utilizarán los resultados del aforo. Para el tránsito de diseño se harán
+dos agrupaciones, para las vías con un número de ejes equivalentes mayor a 100.000 se determinará un tránsito
+de diseño y para las vías con un número de ejes equivalentes menor a 100.000 se determinará otro tránsito de
+diseño.
+
+Para la estimación del tránsito de diseño para las vías con ejes equivalentes mayores a 100.000 se utilizará el
+resultado del aforo obtenido para la carrera 31, siendo este el más representativo.
+
+Para la estimación del tránsito de diseño para las vías con ejes equivalentes menores a 100.000 se utilizará el
+resultado del aforo obtenido para la carrera 28, siendo este el más representativo.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.    Web: www.argelia-antioquia.gov.co
+Según el estudio de tránsito realizado se obtuvieron los siguientes volúmenes y distribuciones porcentuales de
+vehículos:
+                                 Tabla 5. Distribución porcentual vehículos comerciales carrera 31.
+
+                            DISTRIBUCIÓN PORCENTUAL DE VEHÍCULOS COMERCIALES
+                                            AFORO DE VEHÍCULOS
+                                           Camiones
+                 Buses                                              Total Vehículos
+                              C2P      C2G      C3   C4 C5 C6
+                   10          21       21       7    0   0   0
+                                                                          135
+                  7.4%       15.6%    15.6%    5.2% 0% 0% 0%
+                                                         Fuente. Elaboración propia.
+
+
+                                 Tabla 6. Distribución porcentual vehículos comerciales carrera 28.
+
+                            DISTRIBUCIÓN PORCENTUAL DE VEHÍCULOS COMERCIALES
+                                            AFORO DE VEHÍCULOS
+                                          Camiones
+                  Buses                                            Total Vehículos
+                              C2P    C2G      C3   C4 C5 C6
+                    0          8       5       0    0   0    0
+                                                                          84
+                  0.0%       9.5%    6.0%    0.0% 0% 0% 0%
+                                                         Fuente. Elaboración propia.
+
+
+De acuerdo a los parámetros anteriores se realizó el proceso de cálculo descrito a continuación para obtener el
+tránsito discriminado por carga de eje de las configuraciones de cada vehículo.
+
+
+    ❖ NÚMERO DE VEHÍCULOS COMERCIALES DIARIOS EN EL CARRIL DE DISEÑO.
+Este se determina teniendo en cuenta la composición de los vehículos comerciales, la distribución direccional de
+los vehículos: Fd=0,75 (ver estudio de tránsito) y el factor de distribución por carril: Fca=1.0, considerando que
+hay un carril por sentido.
+                                                Tabla 7. Factor de distribución por carril.
+
+                                   Número de carriles en                 Fca
+                                   una sola dirección
+                                               1                                      1.00
+                                               2                                   0.80 – 1.00
+                                               3                                   0.60 – 0.80
+                                               4                                   0.50 – 0.75
+                                Fuente. Guía de diseño de estructuras de pavimento, AASHTO 1993
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.     Web: www.argelia-antioquia.gov.co
+El número de vehículos comerciales en el carril de diseño se calcula con la siguiente expresión:
+
+                                                    𝑁 = 𝑇𝑃𝐷 ∗ %𝑉 ∗ 𝐹𝑑 ∗ 𝐹𝑐𝑎
+En la tabla 8 y 9 se muestran los resultados para cada tipo de vehículo comercial.
+
+
+                                       Tabla 8. Número de ejes comerciales por día por carril.
+
+
+                    Tipo de                  TPDs                Porcentaje         Número de ejes comerciales
+                    vehículo                                      vehículo              por día por carril
+                  Bus                                               7.4%                        2
+                  C-2P                                             15.6%                        3
+                  C-2G                                             15.6%                        3
+                  C3                           22                   5.2%                        2
+                  C4                                                 0%                         0
+                  C5                                                 0%                         0
+                  C6                                                 0%                         0
+                                             Total                                             10
+                                                          Fuente. Elaboración propia.
+
+
+                                       Tabla 9. Número de ejes comerciales por día por carril.
+
+
+                    Tipo de                  TPDs                Porcentaje         Número de ejes comerciales
+                    vehículo                                      vehículo              por día por carril
+                  Bus                                               0.0%                        0
+                  C-2P                                              9.5%                        1
+                  C-2G                                              6.0%                        1
+                  C3                           14                   0.0%                        0
+                  C4                                                 0%                         0
+                  C5                                                 0%                         0
+                  C6                                                 0%                         0
+                                             Total                                              2
+                                                          Fuente. Elaboración propia.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                     1.     Web: www.argelia-antioquia.gov.co
+    ❖ DISTRIBUCIÓN DE LOS VEHÍCULOS COMERCIALES POR DÍA/CARRIL DE DISEÑO Y POR CADA 1000
+      VEHÍCULOS COMERCIALES.
+
+Se determina la cantidad de cada tipo de vehículo para una muestra de 1000 vehículos comerciales con la siguiente
+expresión:
+                                                                    1000 ∗ 𝑁
+                                                             𝑁′ =
+                                                                      ∑𝑁
+
+
+En la tabla 10 y 11 se muestran los resultados para cada tipo de vehículo comercial.
+                           Tabla 10. Número de ejes comerciales por día por carril p/c 1000 vehículos.
+
+                                    Número de ejes
+                    Tipo de                                    Número de ejes comerciales por día por
+                                    comerciales por
+                    vehículo                                   carril p/c 1000 vehículos
+                                    día por carril
+                  Bus                       2                                              200
+                  C-2P                      3                                              300
+                  C-2G                      3                                              300
+                  C3                        2                                              200
+                  C4                        0                                                0
+                  C5                        0                                                0
+                  C6                        0                                                0
+                  Total                    10                                              1000
+                                                         Fuente. Elaboración propia.
+
+
+                           Tabla 11. Número de ejes comerciales por día por carril p/c 1000 vehículos.
+
+                                    Número de ejes
+                    Tipo de                                    Número de ejes comerciales por día por
+                                    comerciales por
+                    vehículo                                   carril p/c 1000 vehículos
+                                    día por carril
+                  Bus                       0                                                0
+                  C-2P                      1                                              500
+                  C-2G                      1                                              500
+                  C3                        0                                                0
+                  C4                        0                                                0
+                  C5                        0                                                0
+                  C6                        0                                                0
+                  Total                     2                                              1000
+                                                         Fuente. Elaboración propia.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.     Web: www.argelia-antioquia.gov.co
+    ❖ DISTRIBUCIÓN DEL NÚMERO DE EJES POR CADA 1000 VEHÍCULOS COMERCIALES POR CARGA Y TIPO DE
+      EJE.
+
+Con el número de ejes equivalentes de 8,2 ton esperados en el carril de diseño en el periodo de diseño estimado
+(ver estudio de tránsito) se distribuyen los ejes por cada 1000 vehículos comerciales de acuerdo al siguiente cuadro
+de configuraciones de carga.
+                                              Tabla 12. Configuración de la carga por eje.
+
+
+                 Fuente. Proyecto tipo construcción de pavimento rígido en vías urbanas de bajo tránsito INVIAS.
+
+El número de ejes por cada 1000 vehículos comerciales por carga y tipo de eje se calcula con la siguiente expresión:
+                                                                 𝐸𝐸8,2𝑡𝑜𝑛 ∗ 𝑁′
+                                                         𝑁𝐸 =
+                                                                        1000
+En la tabla 13 y 14 se muestran los resultados para cada tipo de vehículo comercial.
+                                  Tabla 13. Número de ejes en carril de diseño/periodo de diseño.
+
+
+                                                          Ejes p/c
+                                 Cargas                                   Número de ejes en carril de
+                                                            1000
+                                                                           diseño/periodo de diseño
+                                                         vehículos
+                                    KN
+                                                              Ejes simples
+                                   89.3                     300                           60026
+                                   82.4                     200                           40018
+                                   58.9                     200                           40018
+                                    51                      300                           60026
+                                   48.1                     300                           60026
+                                   39.5                     200                           40018
+                                   27.5                     300                           60026
+                                                              Ejes tándem
+                                  192.3                     200                           40018
+                                                         Fuente. Elaboración propia.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.     Web: www.argelia-antioquia.gov.co
+                                   Tabla 14. Número de ejes en carril de diseño/periodo de diseño.
+
+
+                                                           Ejes p/c
+                                  Cargas                                   Número de ejes en carril de
+                                                             1000
+                                                                            diseño/periodo de diseño
+                                                          vehículos
+                                     KN
+                                                               Ejes simples
+                                    89.3                     500                           25284
+                                    82.4                      0                              0
+                                    58.9                      0                              0
+                                     51                      500                           25284
+                                    48.1                     500                           25284
+                                    39.5                      0                              0
+                                    27.5                     500                           25284
+                                                          Fuente. Elaboración propia.
+
+
+4.1.1.6 FACTOR DE SEGURIDAD Y MAYORACIÓN DE CARGA
+En el proceso de diseño, las cargas por ejes determinadas son multiplicadas por un factor de seguridad de carga
+(LSF). Se recomiendan los siguientes factores:
+                                                     Tabla 15. Factores de seguridad.
+
+
+                                                  Fuente. Método de diseño de la PCA.
+
+Para las calles de interés se selecciona un valor de LSF = 1,0.
+
+4.1.1.7 CRITERIO POR FATIGA
+Se utiliza para mantener los esfuerzos inducidos a la losa de concreto dentro de límites aceptables. Se deben
+definir los valores de esfuerzos equivalentes para cada grupo de ejes (simple, tándem, tridem), estos valores son
+calculados automáticamente por el software BS – PCA.
+
+El número permisible de repeticiones de carga de un grupo de cargas dado en función de la relación entre el
+esfuerzo flexionante actuante y la resistencia a la flexión a los 28 días es conocido como relación de esfuerzos. La
+relación de esfuerzos es calculada automáticamente por el software BS – PCA.
+
+                       Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                         Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                    Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                     1.     Web: www.argelia-antioquia.gov.co
+4.1.1.8 CRITERIO POR EROSIÓN
+Para limitar los efectos de la deflexión del pavimento en las zonas críticas, orillas y esquinas, inducida por
+erosionabilidad de la capa de apoyo en esquinas y orillas. Este enfoque también se introduce para limitar
+problemas de fracturamiento en zona de juntas, especialmente en pavimentos sin dovelas. Se deberán determinar
+para el diseño los factores de erosión correspondientes a cada tipo de eje, dichos valores son calculados
+automáticamente por el software BS – PCA.
+
+4.1.2   ESTIMACIÓN DEL ESPESOR DE LA LOSA DE CONCRETO
+Con la ayuda del software BS - PCA y de acuerdo a los anteriores parámetros, se define un espesor de la losa de
+20 cm y de la base de 15 cm con los que se obtiene los porcentajes de fatiga y de erosión menores de 100% (ver
+ilustración 2), por lo que los espesores definidos son los adecuados de acuerdo al tránsito considerado y
+resistencia de la capa de apoyo.
+
+Carrera 31
+                                              Ilustración 2. Interface software BS - PCA.
+
+
+                                                        Fuente. Software BS – PCA.
+
+
+                     Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                       Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                  Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                   1.     Web: www.argelia-antioquia.gov.co
+                     Ilustración 3. Cargas y repeticiones en BS – PCA.
+
+
+                                   Fuente. Software BS – PCA.
+
+
+Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+  Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+             Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                              1.     Web: www.argelia-antioquia.gov.co
+Con la ayuda del software BS - PCA y de acuerdo a los anteriores parámetros, se define un espesor de la losa de
+19 cm y de la base de 15 cm con los que se obtiene los porcentajes de fatiga y de erosión menores de 100% (ver
+ilustración 2), por lo que los espesores definidos son los adecuados de acuerdo al tránsito considerado y
+resistencia de la capa de apoyo.
+
+Carrera 28
+                                              Ilustración 4. Interface software BS - PCA.
+
+
+                                                        Fuente. Software BS – PCA.
+
+                                          Ilustración 5. Cargas y repeticiones en BS – PCA.
+
+
+                                                        Fuente. Software BS – PCA.
+
+
+                     Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                       Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                  Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                   1.     Web: www.argelia-antioquia.gov.co
+4.1.3   ESQUEMA ESTRUCTURA DE CONCRETO
+Se muestran a continuación los esquemas de las estructuras de pavimentos diseñadas:
+                                           Ilustración 6. Detalle de pavimento método PCA.
+
+
+                                                         Fuente. Elaboración propia.
+
+
+4.2 MÉTODO DEL MANUAL DE DISEÑO DE PAVIMENTOS DE CONCRETO INVIAS
+En el manual se propone la siguiente metodología, la selección del espesor se hace seleccionando en primer lugar
+el tránsito (T#), luego se escoge el tipo de suelo (S#) a partir de la capacidad de soporte de la subrasante, a
+continuación, se define si el pavimento tendrá dovelas (D) o no (No D) y bermas laterales (B) o (No B), hasta este
+punto los datos se presentan en las columnas.
+
+Luego se escoge el tipo de soporte sobre el que se desea construir el pavimento (SN, BG, o BEC) y finalmente se
+escoge la calidad del concreto (MR#) y en la casilla en donde coincidan todas las variables escogidas se lee el
+espesor en centímetros, que debe tener la losa, que cumple con las condiciones fijadas.
+
+Se presentan a continuación las variables a seleccionar en forma tabulada.
+
+4.2.1   SELECCIÓN DE VARIABLES
+
+
+4.2.1.1 CATEGORÍA DEL TRÁNSITO
+Para la selección de la categoría del tránsito se tiene en cuenta el número de ejes equivalentes estimado en el
+estudio de tránsito que han de pasar por la vía durante el periodo de diseño.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.     Web: www.argelia-antioquia.gov.co
+                                                    Tabla 16. Categorías de tránsito.
+
+
+                                   Fuente. Manual de diseño de pavimentos de concreto INVIAS.
+
+Teniendo en cuenta la tabla 16 se determina que la categoría de del tránsito que circular por estas vías es To, ya
+que el número de ejes equivalentes es menor que 1’000.000 de ejes.
+
+4.2.1.2 CLASIFICACIÓN DE LA SUBRASANTE
+La clasificación se hace con base en el CBR.
+                              Tabla 17. Clasificación de la subrasante de acuerdo con su resistencia.
+
+
+                                   Fuente. Manual de diseño de pavimentos de concreto INVIAS.
+
+
+Como se mencionó anteriormente la subrasante tendrá una capa de material de mejoramiento que contará con
+un CBR de 4%, por lo tanto, dicha subrasante será tipo S2.
+
+4.2.1.3 TRANSFERENCIA DE CARGAS ENTRE LOSAS Y CONFINAMIENTO LATERAL
+Para el presente proyecto se contempla el uso de dovelas (D) como sistema de transferencia de cargas entre las
+losas de concreto y para el confinamiento lateral no se utilizarán bermas (No B).
+                     Tabla 18. Denominación del sistema de transferencia de carga y confinamiento lateral.
+
+
+                                   Fuente. Manual de diseño de pavimentos de concreto INVIAS.
+
+4.2.1.4 SOPORTE PARA EL PAVIMENTO DE CONCRETO
+Para el presente proyecto se tiene contemplado el uso de base granular (BG) para el soporte del pavimento de
+concreto.
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.    Web: www.argelia-antioquia.gov.co
+El manual de diseño sugiere que la base granular tengo un espesor de 15 cm.
+                                         Tabla 19. Clasificación de los materiales de soporte.
+
+
+                                   Fuente. Manual de diseño de pavimentos de concreto INVIAS.
+
+4.2.1.5 MODULO DE ROTURA DEL CONCRETO
+El concreto establecido para el pavimento es de 40 kg/cm2, por lo tanto, el concreto se clasifica como MR2.
+                                   Tabla 20. Valores de resistencias del concreto a flexotracción.
+
+
+                                   Fuente. Manual de diseño de pavimentos de concreto INVIAS.
+
+
+4.2.2   ESPESOR DE LOSA DE CONCRETO
+Finalmente habiendo establecido los parámetros necesarios para la selección del espesor del pavimento se
+procede a escoger con ayuda de la tabla 21 dicho espesor. En la casilla en donde coincidan todas las variables
+escogidas se lee el espesor en centímetros, que debe tener la losa, que cumple con las condiciones fijadas.
+                                        Tabla 21. Espesores de losa de concreto (cm) para To.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.    Web: www.argelia-antioquia.gov.co
+                                    Fuente. Manual de diseño de pavimentos de concreto INVIAS.
+
+Entonces la estructura diseñada queda con los siguientes espesores:
+
+Losa de concreto: 25 cm
+
+Base granular: 15 cm
+
+Se muestra el esquema de la estructura diseñada.
+                                           Ilustración 7. Detalle de pavimento método invias.
+
+
+                                                          Fuente. Elaboración propia.
+
+4.3 COMPARACIÓN ENTRE LOS MÉTODOS DE DISEÑO
+Ambos métodos de diseño son apropiados para la determinación de los espesores de pavimentos rígidos, sin
+embargo, el método de la PCA hace intervenir un mayor número de variables que nos ayuda a modelar de mejor
+manera las condiciones del proyecto al momento de estar diseñando su espesor. Los resultados del método del
+manual de diseño de pavimentos en concreto para vías con bajos volúmenes de tránsito de INVIAS son adecuados
+a pesar de que no se puedan tomar en cuenta algunas variables importantes como el módulo de reacción de la
+subrasante. Por lo que para el presente proyecto se escogerá el diseño arrojado por la metodología de la PCA.
+
+
+4.4 DIMENSIONES DE LA LOSA DE CONCRETO
+El criterio para definir la longitud de losas rectangulares utilizado es mediante la relación de esbeltez con la
+siguiente expresión:
+                                                  𝐿𝑎𝑟𝑔𝑜
+                                         𝑅𝐸 =           𝐷𝑜𝑛𝑑𝑒 𝑅𝐸 𝑑𝑒𝑏𝑒 𝑠𝑒𝑟 < 1.25
+                                                  𝐴𝑛𝑐ℎ𝑜
+
+
+                       Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                         Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                    Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                     1.     Web: www.argelia-antioquia.gov.co
+Debido a que se van a intervenir varias calles y éstas presentan un ancho variable se optó por definir tramos
+homogéneos con anchos promedios para determinar las dimensiones de losas. En las siguientes tablas se
+presentan los tramos y las dimensiones establecidas.
+                                               Tabla 22. Dimensiones y tramos calle 31.
+
+                            Cra 27
+                  ancho total promedio de la vía                      5.00           m
+                          ancho de losa                               2.50           m                           0+000
+                                                                                                  Tramo 1
+                           largo de losa                              2.50           m
+                                 RE                                   1.00         cumple                        0+293
+                            Cra 27 parte 2
+                  ancho total promedio de la vía                     5.00            m
+                          ancho de losa                              2.50            m                           0+293
+                                                                                                  Tramo 1
+                          largo de losa                              3.00            m
+                                 RE                                  1.20          cumple                        0+343
+                                                         Fuente. Elaboración propia.
+
+
+4.5 SISTEMAS DE TRANSFERENCIA DE CARGA
+4.5.1   PASADORES DE CARGA (DOVELAS)
+Se utilizarán barras de acero cortas y lisas con un límite de fluencia (fy) mínimo de 280 MPa (2800 kg/cm2 o 60000
+psi), de acuerdo con el Artículo INV 500-13 y el Artículo INV 640-13, metidas dentro del concreto fresco. Los
+pasadores se instalan en las juntas transversales de tal manera que les permitan a las losas separarse y unirse
+entre sí, pero no desplazarse verticalmente, y su función es, entonces, absorber los esfuerzos, generados por las
+cargas del tránsito al cruzar las juntas y transmitir a la losa adyacente.
+
+En cuanto a las dimensiones, espaciamiento y longitud de los pasadores, la práctica se ha reducido a la aplicación
+de los criterios indicados en la Tabla 23.
+                                    Tabla 23. Recomendaciones para la selección de pasadores.
+
+
+                                   Fuente. Manual de diseño de pavimentos en concreto. INVIAS
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.     Web: www.argelia-antioquia.gov.co
+Se seleccionan las siguientes características para los pasadores:
+
+Diámetro del pasador, ɸ = 1”.
+
+Longitud del pasador = 0.35 m.
+
+Separación entre centros = 0.30 m.
+
+4.5.2   BARRAS DE ANCLAJE
+Cuando el pavimento que se construye no tiene confinamiento lateral, es necesario dotar las juntas longitudinales
+con barras de anclaje, para impedir el desplazamiento de las losas de un carril, respecto a las del otro. Los aceros,
+como se dijo deben cumplir con el Artículo INV 500-13 y lo que sea aplicable del Artículo 640-13, se admiten aceros
+con resistencia de 187,5 MPa (40000 psi) y 280 MPa (60000 psi). La selección del diámetro, separación, longitud y
+resistencia de las barras de anclaje, se puede hacer según los criterios indicados en la Tabla 24.
+                                          Tabla 24. Recomendaciones para barras de anclajes.
+
+
+                                    Fuente. Manual de diseño de pavimentos en concreto. INVIAS
+
+
+Se seleccionan las siguientes características para las barras de anclaje:
+
+Diámetro de la barra, ɸ = 1/2”.
+
+Acero de fy = 280 MPa (60000 psi).
+
+Longitud de la barra = 0.85 m.
+
+Separación entre centros = 1.20 m.
+
+4.6 JUNTAS
+En las losas que conforman un pavimento se dan esfuerzos como consecuencia del paso de los vehículos y de los
+movimientos de contracción y dilatación del concreto y a las diferencias en la temperatura, o en la humedad,
+                       Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                         Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                    Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                     1.    Web: www.argelia-antioquia.gov.co
+entre la cara superficial y la de soporte de la losa, estos esfuerzos se controlan con el diseño de las juntas.
+
+4.6.1   JUNTAS DE EXPANSIÓN
+Se deben hacer estas juntas dentro del pavimento para aislarlo de otras estructuras, de otros pavimentos, o
+cuando hay cambios bruscos de dirección.
+
+Estas juntas, generalmente tienen la forma de rombo, de círculo, de triángulo o de semicírculo, cuando su función
+es la de aislar un elemento ajeno al pavimento, como pueden ser los sumideros, las cajas de inspección o cualquier
+otro elemento que esté dentro del pavimento.
+
+                   Ilustración 8. Juntas de expansión alrededor de elementos incorporados dentro del pavimento.
+
+
+                                    Fuente. Manual de diseño de pavimentos en concreto. INVIAS
+
+                        Ilustración 9. Juntas de expansión en las intersecciones y cerca de algún obstáculo.
+
+
+                                    Fuente. Manual de diseño de pavimentos en concreto. INVIAS
+
+Las juntas de expansión alrededor de elementos incorporados dentro del pavimento, tales como sumideros,
+cámaras de inspección o cajas, deben estar como mínimo a 300 mm de los bordes de dichos elementos y su forma
+deber ser poligonal, circular, o semicircular. El espesor de estas juntas debe ser del orden de 10 a 15 mm.
+
+4.6.2   JUNTAS LONGITUDINALES
+Como se trata de vías transitadas en ambas direcciones y el ancho del pavimento es menor que 7,60 m, se debe
+construir una junta longitudinal para dividir el pavimento en dos carriles de igual ancho. Las juntas longitudinales
+de permiten controlar las fisuras longitudinales ocasionadas por el fenómeno de retracción. Como el extendido
+del concreto se realiza carril por carril la junta longitudinal será coincidente con la junta de construcción, por lo
+cual no será necesario inducir la fisuración por medio de cortes.
+
+
+                       Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                         Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                    Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                     1.    Web: www.argelia-antioquia.gov.co
+                            Ilustración 10. Junta longitudinal para pavimento vaciado carril por carril.
+
+
+                Fuente. Nociones sobre métodos de diseño de estructuras de pavimentos para carreteras.
+
+4.6.3   JUNTAS TRANSVERSALES
+El diseño de las juntas transversales se realiza, con el fin de controlar las fisuras del concreto por contracción y
+alabeo; por lo tanto, el espaciamiento entre ellas, debe ser menor que 6 metros.
+
+Cuando la construcción del pavimento se realiza por carriles, las juntas transversales de cada carril deben ser
+coincidentes con las del otro carril y nunca podrán ir alternadas para evitar que se propaguen las fisuras entre
+carriles.
+
+4.6.4   CORTE DE JUNTAS
+El corte de las juntas transversales o longitudinales, se puede realizar introduciendo un perfil metálico hasta la
+tercera o cuarta parte del espesor de la losa, en estado plástico, cuando su consistencia sea tal que al retirar el
+perfil los bordes de la junta no se vuelvan a poner en contacto.
+
+También se pueden cortar las juntas cuando el concreto haya endurecido, con un equipo dotado con sierras
+(discos) para tal fin. En este caso es necesario esperar el tiempo suficiente para que el concreto sea capaz de
+soportar el peso del equipo, pero debe realizarse antes de que se presente la fisuración espontánea del concreto.
+
+Independientemente del proceso utilizado para hacer el corte de la junta se debe hacer una caja superficial con
+un ancho de 5 mm como mínimo y en una profundidad de al menos 30 mm con el fin de generar un espacio
+suficiente para alojar el producto utilizado en el sellado de la junta. Los cortes de las juntas se deben hacer a
+medida que se va construyendo el pavimento.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.    Web: www.argelia-antioquia.gov.co
+                                                  Ilustración 11. Detalle corte de junta.
+
+
+                Fuente. Nociones sobre métodos de diseño de estructuras de pavimentos para carreteras.
+
+4.6.5   SELLO DE JUNTAS
+Las juntas se deben llenar con un material adecuado con el fin de impedir la penetración de agua, al interior del
+pavimento, o de partículas duras, al interior de las juntas y que pueden restringir el libre movimiento de las losas.
+
+El espacio de la junta a sellar ha de estar seco y completamente limpio, lo que se puede lograr con lavado, barrido
+y luego soplado con compresor. Para sellar las juntas se emplean llenantes elastómericas autonivelantes a base
+de poliuretanos o siliconas vaciadas en frio.
+
+Los sellantes pueden ser vaciados en el sitio, o premoldeados; en Colombia los más usados son los primeros debido
+a su menor costo.
+                                                Ilustración 12. Detalle de sello de juntas.
+
+
+                Fuente. Nociones sobre métodos de diseño de estructuras de pavimentos para carreteras.
+
+
+                      Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                        Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                   Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                    1.    Web: www.argelia-antioquia.gov.co
+4.7 LLAVE DE CONFINAMIENTO
+Las llaves de confinamiento serán de concreto sin refuerzo con dimensiones 15 x 40 cm. La resistencia del
+concreto será de 210 Kg/cm2.
+                                             Ilustración 13. Detalle llave de confinamiento.
+
+
+                                                          Fuente. Elaboración propia.
+
+
+                                                            5. BORDILLO
+El bordillo a utilizar será prefabricado y tendrá las siguientes especificaciones.
+                                                   Ilustración 14. Esquema de bordillo.
+
+
+                                Fuente. Normas y Especificaciones Generales de Construcción EPM.
+
+
+                       Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                         Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                    Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                     1.     Web: www.argelia-antioquia.gov.co
+                           6. CONCLUSIONES Y RECOMENDACIONES
+
+Se concluye que ambos métodos de diseño son apropiados para la determinación de los espesores de pavimentos
+rígidos, sin embargo, el método de la PCA hace intervenir un mayor número de variables que nos ayuda a modelar
+de mejor manera las condiciones del proyecto al momento de estar diseñando su espesor. Los resultados del
+método del manual de diseño de pavimentos en concreto para vías con bajos volúmenes de tránsito de INVIAS
+son adecuados a pesar de que no se puedan tomar en cuenta algunas variables importantes como el módulo de
+reacción de la subrasante. Por lo que para el presente proyecto se escogerá el diseño arrojado por la metodología
+de la PCA.
+
+Teniendo en cuenta los resultados arrojados por el software BS – PCA se puede concluir que los porcentajes de
+consumo de esfuerzo (10,01% y 15.93) y erosión (2,44 y 0.39%) son aceptables ya que no superan el 100%, por lo
+que los espesores establecidos para la conformación de la estructura de pavimento rígido cumplen con las
+solicitaciones a las que estará sometidas durante el período de diseño.
+
+                                                                    ESPESORES (CM)
+                                   VÍA
+                                                      LOSA             BASE     MEJORAMIENTO
+                            CARRERA 31                 20                15          28
+                            CARRERA 27                 20                15          21
+                            CALLE 29                   19                15          28
+
+Se presenta entonces el esquema de la estructura de pavimento seleccionada.
+
+
+                     Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                       Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                  Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                   1.    Web: www.argelia-antioquia.gov.co
+Los diseños establecidos en este informe corresponden a las condiciones particulares del proyecto y
+específicamente para el tramo establecido, en el municipio de Argelia (ver plano de localización).
+
+Se recomienda seguir lo dispuesto en las Especificaciones Generales de Construcción de Carreteras del Instituto
+Nacional de Vías del año 2013 para un nivel de tránsito NT1 a la hora de la construcción de la estructura de
+pavimento.
+
+Se recomienda que la calidad y construcción de los materiales considerados en la estructura de pavimento,
+cumplan a cabalidad con las Especificaciones Generales de Construcción de Carreteras emitidas por el Instituto
+Nacional de Vías en el año 2013.
+
+
+                     Municipio de Argelia Antioquia Cra 30 Nº 30-20. Palacio Municipal Antonio Díaz García. Oficina 201.
+                       Cód. Postal 054830. Conmutador:(57) (4)8650077 / (57)(4)8650106 / (57)(4)8650159. Ext. 11
+                                  Telefax: (57) (4)8650163 ext. 12 E-mail: alcaldía@argelia-antioquia.gov.co
+
+                                                   1.    Web: www.argelia-antioquia.gov.co
+                                                                        Certificado de vigencia y antecedentes disciplinarios
+                                                                                                        CVAD-2020-220288
+
+
+                              CONSEJO PROFESIONAL NACIONAL DE INGENIERÍA
+                                               COPNIA
+
+                                                      EL DIRECTOR GENERAL
+
+
+                                                                CERTIFICA:
+
+1. Que LUIS FRANCISCO SOTO ROJAS, identificado(a) con CEDULA DE CIUDADANIA 1066518533,
+se encuentra inscrito(a) en el Registro Profesional Nacional que lleva esta entidad, en la profesión
+de INGENIERIA CIVIL con MATRICULA PROFESIONAL 05202-348262 desde el 30 de Diciembre de
+2016, otorgado(a) mediante Resolución Nacional 1707.
+
+2. Que el(la) MATRICULA PROFESIONAL es la autorización que expide el Estado para que el titular
+ejerza su profesión en todo el territorio de la República de Colombia, de conformidad con lo
+dispuesto en la Ley 842 de 2003.
+
+3. Que el(la) referido(a) MATRICULA PROFESIONAL se encuentra VIGENTE
+
+4. Que el profesional no tiene antecedentes disciplinarios ético-profesionales.
+
+5. Que la presente certificación se expide en Bogotá, D.C., a los doce (12) días del mes de Junio del
+año dos mil veinte (2020).
+
+
+                                                  Rubén Dario Ochoa Arbeláez
+
+
+                                                                                                                       Firmal del titular (*)
+
+(*)Con el fin de verificar que el titular autoriza su participación en procesos estatales de selección de contratistas. La falta de firma del titular
+no invalida el Certificado
+El presente es un documento público expedido electrónicamente con firma digital que garantiza su plena validez jurídica y probatoria según lo
+establecido en la Ley 527 de 1999. Para verificar la firma digital, consulte las propiedades del documento original en formato .pdf.
+Para      verificar     la   integridad      e      inalterabilidad    del    presente     documento       consulte      en      el    sitio     web
+https://tramites.copnia.gov.co/Copnia_Microsite/CertificateOfGoodStanding/CertificateOfGoodStandingStart indicado el número del certificado
+que se encuentra en la esquina superior derecha de este documento.

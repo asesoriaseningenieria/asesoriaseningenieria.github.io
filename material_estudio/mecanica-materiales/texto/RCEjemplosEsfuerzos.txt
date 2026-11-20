@@ -1,0 +1,1191 @@
+01-Hibbeler    28/8/56   5:04 AM      Página 11
+
+
+                                                                       SECCIÓN 1.2 Equilibrio de un cuerpo deformable                         •       11
+
+
+              E J E M P L O               1.1
+              Determine las cargas internas resultantes que actúan sobre la sección
+              transversal en C de la viga mostrada en la figura 1-4a.
+
+
+                           270 N/m
+
+
+                           A                                           B
+                                                C
+                                     3m                        6m
+
+                                                      (a)
+
+                                                    Fig. 1-4
+
+
+              Solución
+              Reacciones en el soporte. Este problema puede ser resuelto de la ma-
+              nera más directa considerando el segmento CB de la viga, ya que en-
+              tonces las reacciones en A no tienen que ser calculadas.
+              Diagrama de cuerpo libre. Si hacemos un corte imaginario perpen-                               540 N
+              dicular al eje longitudinal de la viga, obtenemos el diagrama de cuer-              180 N/m
+              po libre del segmento CB mostrado en la figura 1-4b. Es importante
+                                                                                             MC
+              mantener la carga distribuida exactamente donde está sobre el seg-
+              mento hasta después que el corte se ha hecho. Sólo entonces debe es-      NC             C                                          B
+              ta carga reemplazarse por una sola fuerza resultante. Note que la in-
+                                                                                                  VC
+              tensidad de la carga distribuida en C se determina por triángulos                            2m                   4m
+              semejantes, esto es, de la figura 1-4a, w/6 m  (270 N/m)/9 m, w 
+              180 N/m. La magnitud de la carga distribuida es igual al área bajo la
+                                                                                                                        (b)
+              curva de carga (triángulo) y actúa a través del centroide de esta área.
+              Así, F  12 (180 N/m)(6 m)  540 N, que actúa a 1/3 (6 m)  2 m de C,
+              como se muestra en la figura 1-4b.
+              Ecuaciones de equilibrio. Aplicando las ecuaciones de equilibrio ob-
+              tenemos
+               + © F = 0;
+               :                            -NC = 0
+                    x                                                                                                   540 N
+                                                                                                                135 N
+                                             NC = 0                            Resp.                90 N/m
+                                                                                                                                    180 N/m
+              +q © Fy = 0;               VC - 540 N = 0                                                                              MC
+                                                                                                  1215 N
+                                           VC = 540 N                          Resp.
+                                                                                                                A               C             NC
+              d+ © MC = 0;            -MC - 540 N12 m2 = 0                               3645 Nm
+                                        MC = - 1080 N # m                      Resp.                                       1.5 m VC
+                                                                                                                1m
+                                                                                                                         0.5 m
+              El signo negativo indica que MC actúa en dirección opuesta a la mos-
+              trada en el diagrama de cuerpo libre. Trate de resolver este problema
+              usando el segmento AC, obteniendo primero las reacciones en el so-
+              porte A, que son dadas en la figura 1-4c.
+01-Hibbeler        28/8/56         5:04 AM           Página 12
+
+
+     12   •     CAPÍTULO 1 Esfuerzo
+
+
+       E J E M P L O                           1.2
+                                                                    Determine las cargas internas resultantes que actúan sobre la sección
+                                                                    transversal en C de la flecha de la máquina mostrada en la figura 1-5a.
+                                                                    La flecha está soportada por chumaceras en A y B, que ejercen sólo
+                                                                    fuerzas verticales sobre la flecha.
+
+
+                                                                                                                (800 N/m)(0.150 m) = 120 N
+                                                                                 225 N
+                                                       800 N/m                                                                                   225 N
+
+
+                        A                                                    B           D                                                   B
+                                                               C
+                                                                                                              0.275 m
+                                      200 mm                                                                                  0.125 m    0.100 m
+                                                           100 mm          100 mm
+                                                                                                        Ay                              By
+                                                50 mm              50 mm                                                (b)
+                                                       (a)
+                                                                                             Fig. 1-5
+
+
+                                                                    Solución
+                                                                    Resolveremos este problema usando el segmento AC de la flecha.
+                                                                    Reacciones en el soporte. En la figura 1-5b se muestra un diagrama
+                                                                    de cuerpo libre de toda la flecha. Como el segmento AC va a ser con-
+                                       40 N                         siderado, sólo la reacción en A tiene que ser considerada. ¿Por qué?
+              18.75 N
+
+                                                                    d+ © MB = 0; -A y10.400 m2 + 120 N10.125 m2 - 225 N10.100 m2 = 0
+                                                          NC                                 A y = - 18.75 N
+                                         C
+               A                                     MC
+                                                                    El signo negativo para Ay indica que ésta actúa en sentido opuesto al
+                              0.025 m          VC
+                                                                    mostrado sobre el diagrama de cuerpo libre.
+                            0.250 m
+                                                                    Diagrama de cuerpo libre. Si realizamos un corte imaginario perpen-
+                                                                    dicular al eje de la flecha por C, obtenemos el diagrama de cuerpo li-
+                             (c)                                    bre del segmento AC mostrado en la figura 1-5c.
+                                                                    Ecuaciones de equilibrio.
+                                                                    :+ © F = 0;                              NC = 0                     Resp.
+                                                                              x
+                                                                    +q © Fy = 0;                  - 18.75 N - 40 N - VC = 0
+                                                                                                        VC = - 58.8 N                   Resp.
+                                                                    d+ © MC = 0;              MC + 40 N10.025 m2 + 18.75 N10.250 m2 = 0
+                                                                                                        MC = - 5.69 N # m               Resp.
+                                                                    ¿Qué indican los signos negativos de VC y MC? Como ejercicio, calcu-
+                                                                    le la reacción en B y trate de obtener los mismos resultados usando el
+                                                                    segmento CBD de la flecha.
+01-Hibbeler    28/8/56    5:04 AM           Página 13
+
+
+                                                                                                   SECCIÓN 1.2 Equilibrio de un cuerpo deformable   •   13
+
+
+              E J E M P L O                   1.3
+              El montacargas en la figura 1-6a consiste en la viga AB y en las poleas
+              unidas a ella, en el cable y en el motor. Determine las cargas internas
+              resultantes que actúan sobre la sección transversal en C si el motor es-
+              tá levantando la carga W de 500 lb con velocidad constante. Desprecie
+              el peso de las poleas y viga.
+
+
+                                           4 pies                  6 pies                 2 pies
+                         0.5 pie
+                                                                                                   B
+                                      A              C                      0.5 pie
+                                                                                      D
+
+
+                                   W                        (a)
+
+
+                                           0.5 pie                500 lb
+                             A                                     NC
+                                                      C       MC
+                                          4.5 pies
+                                                            VC
+
+
+                                                                              Fig. 1-6
+
+
+                             500 lb                  (b)
+
+
+              Solución
+              La manera más directa de resolver este problema es seccionar el cable
+              y la viga en C y luego considerar todo el segmento izquierdo.
+              Diagrama de cuerpo libre.                  Vea la figura 1-6b.
+              Ecuaciones de equilibrio.
+              :+ © F = 0; 500 lb + N = 0          NC = - 500 lb     Resp.
+                     x                  C
+              +q © Fy = 0; -500 lb - VC = 0        VC = - 500 lb    Resp.
+              d+ © MC = 0; 500 lb (4.5 pies)-500 lb (0.5 pies)+MC=0
+                             MC = - 2000 lb # ft
+                                              pie                   Resp.
+                Como ejercicio, trate de obtener esos mismos resultados consideran-
+              do el segmento de viga AC, es decir, retire la polea en A de la viga y
+              muestre las componentes de la fuerza de 500 lb de la polea actuando
+              sobre el segmento de viga AC.
+01-Hibbeler         28/8/56              5:04 AM                  Página 14
+
+
+     14       •   CAPÍTULO 1 Esfuerzo
+
+
+       E J E M P L O                                         1.4
+                                                                              Determine las cargas internas resultantes que actúan sobre la sección
+                                                                              transversal en G de la viga de madera mostrada en la figura 1-7a. Supon-
+                                                                              ga que las juntas en A, B, C, D y E están conectadas por pasadores.
+
+
+                                                                                     C                                                                          FBC = 6200 lb
+                                         B
+                                                                                              1500 lb
+          1500 lb                                                                                                                                      3 pies
+                                                                                     3 pies
+                             G                          D                     E                                                                                 Ex = 6200 lb
+
+          A                                                                                                                                            Ey = 2400 lb
+
+
+                                                                                                         6 pies                  2 (6 pies) = 4 pies
+                           300 lb/pie                                                                                            3
+                  2 pies     2 pies                                6 pies                                         1 (6 pies)(300 lb/pie) = 900 lb
+                                                                                                                  2
+                                                       (a)                                                              (b)
+
+
+                                             B                                Solución
+                                                                  6200 lb
+                               5                                              Reacciones en los soportes. Consideraremos el segmento AG para el
+                                         3
+                                 4                                            análisis. Un diagrama de cuerpo libre de toda la estructura se muestra
+                                                                              en la figura 1-7b. Verifique las reacciones calculadas en E y C. En par-
+       FBA = 7750 lb                                                          ticular, note que BC es un miembro de dos fuerzas ya que sólo dos fuer-
+                                   FBD = 4650 lb
+                                                                              zas actúan en él. Por esta razón la reacción en C debe ser horizontal tal
+                                                 (c)                          como se muestra.
+                                                                                 Como BA y BD son también miembros de dos fuerzas, el diagrama
+                                                                              de cuerpo libre de la junta B es como se muestra en la figura 1.7c. De
+                                                                              nuevo, verifique las magnitudes de las fuerzas calculadas FBA y FBD.
+                     1500 lb                     7750 lb                      Diagrama de cuerpo libre. Usando el resultado para FBA, la sección
+                                     5
+                                             3
+                                                                              izquierda AG de la viga se muestra en la figura 1-7d.
+                                     4
+                                                             NG               Ecuaciones de equilibrio. Aplicando las ecuaciones de equilibrio al
+                    A                    G
+                                                        MG
+                                                                              segmento AG, tenemos
+                            2 pies
+                                                   VG                         + © F = 0;
+                                                                              :    x              7750 lb A 45 B + NG = 0 NG = - 6200 lb                              Resp.
+                                                 (d)                          +q © Fy = 0;        - 1500 lb + 7750 lb 35      A B - VG = 0
+                                                                                                          VG = 3150 lb                                                Resp.
+                               Fig. 1-7
+                                                                              d+ © MG = 0;        MG - 17750 lb2 35    A B (2
+                                                                                                                           12 ft2 + 1500 lb 12
+                                                                                                                              pies)+1500       ft2 = 0
+                                                                                                                                            lb(2 pies)=0
+                                                                                                          MG = 6300 lb # ft
+                                                                                                                         pie                                          Resp.
+
+                                                                                Como ejercicio, calcule esos mismos resultados usando el segmen-
+                                                                              to GE.
+01-Hibbeler    28/8/56      5:04 AM       Página 15
+
+
+                                                                                      SECCIÓN 1.2 Equilibrio de un cuerpo deformable                           •       15
+
+
+              E J E M P L O                 1.5
+              Determine las cargas internas resultantes que actúan sobre la sección
+              transversal en B del tubo mostrado en la figura 1-8a. El tubo tiene una
+              masa de 2 kg/m y está sometido a una fuerza vertical de 50 N y a un
+              par de momento de 70 N  m en su extremo A. El tubo está empotra-
+              do en la pared en C.
+                                                                                                                    C                         0.75 m
+              Solución
+              El problema se puede resolver considerando el segmento AB, que no                                                               B            0.5 m
+              implica las reacciones del soporte en C.                                                                                                       D
+
+                                                                                                                               50 N
+              Diagrama de cuerpo libre. Los ejes x, y, z se fijan en B y el diagra-
+              ma de cuerpo libre del segmento AB se muestra en la figura 1-8b. Las                                                                1.25 m
+              componentes de fuerza y momento resultantes en la sección se supo-
+              ne que actúan en las direcciones coordenadas positivas y que pasan por                                            A
+                                                                                                              70 Nm
+              el centroide del área transversal en B. El peso de cada segmento de tu-                                           (a)
+              bo se calcula como sigue:
+                            WBD = 12 kg>m210.5 m219.81 N>kg2 = 9.81 N
+                          WAD = 12 kg>m211.25 m219.81 N>kg2 = 24.525 N
+              Estas fuerzas actúan por el centro de gravedad de cada segmento.
+              Ecuaciones de equilibrio. Aplicando las seis ecuaciones escalares de
+              equilibrio, obtenemos*
+
+              © Fx = 0;                             1FB2x = 0                                   Resp.                                     z
+              © Fy = 0;                             1FB2y = 0                                   Resp.
+                                                                                                                                              (FB)z
+              © Fz = 0;         1FB2z - 9.81 N - 24.525 N - 50 N = 0                                                             (MB)z
+                                                                                                                        (FB)y
+                                                  1FB2z = 84.3 N
+                                                                                                                                                  9.81 N
+                                                                                                Resp.                       (MB)y                  0.25 m
+              ©1MB2x = 0; 1MB2x + 70 N # m - 50 N 10.5 m2 - 24.525 N 10.5 m2                                               (MB)x         B              0.25 m
+
+                                                                         - 9.81 N 10.25 m2 = 0
+                                                                                                                   (FB)x            24.525 N
+
+                                            1MB2x = - 30.3 N # m
+                                                                                                                        50 N                       0.625 m         y
+                                                                                                Resp.
+                                                                                                          x
+              ©1MB2y = 0; 1MB2y + 24.525 N 10.625 m2 + 50 N 11.25 m2 = 0                                                              0.625 m
+
+                                            1MB2y = - 77.8 N # m                                Resp.     70 N·m
+                                                                                                                         A
+
+              ©1MB2z = 0;                           1MB2z = 0                                   Resp.                          (b)
+
+                                                                                                                           Fig. 1-8
+              ¿Qué indican los signos negativos de (MB)x y (MB)y? Note que la fuer-
+              za normal NB  (FB)y  0, mientras que la fuerza cortante es
+              VB = 21022 + 184.322 = 84.3 N. Además, el momento torsionante
+              es TB  (MB)y  77.8 N  m y el momento flexionante es MB 
+              (3
+                0.3
+                   )2
+                       (0
+                        ) 1/2  30.3 N  m.
+
+              *La magnitud de cada momento respecto a un eje es igual a la magnitud de cada fuer-
+              za por la distancia perpendicular del eje a la línea de acción de la fuerza. La dirección
+              de cada momento es determinada usando la regla de la mano derecha, con momentos
+              positivos (pulgar) dirigidos a lo largo de los ejes coordenados positivos.
+01-Hibbeler     28/8/56         5:05 AM       Página 28
+
+
+     28   •    CAPÍTULO 1 Esfuerzo
+
+
+       E J E M P L O                     1.6
+                                                          La barra en la figura 1-16a tiene un ancho constante de 35 mm y un es-
+                                                          pesor de 10 mm. Determine el esfuerzo normal promedio máximo en
+                                                          la barra cuando ella está sometida a las cargas mostradas.
+
+
+                                                                          A           B     9 kN         C    4 kN         D
+                                                          12 kN                                                                     22 kN
+
+                                                                                            9 kN              4 kN
+                                                                              35 mm
+                                                                                               (a)
+
+
+                                                           12 kN                           PAB = 12 kN
+
+                                                                                           9 kN
+                                                           12 kN                                             PBC = 30 kN
+                                                                                           9 kN
+
+                                                                                          PCD = 22 kN                              22 kN
+
+                                                                     P(kN)                    (b)
+
+
+                                                                     30
+                                                                     22
+                                                                     12
+                                                                                                                               x
+                                                                                               (c)
+
+
+                                                          Solución
+                      10 mm                               Carga interna. Por inspección, las fuerzas axiales internas en las re-
+                                                          giones AB, BC y CD son todas constantes pero tienen diferentes mag-
+                                              30 kN       nitudes. Usando el método de las secciones, esas cargas son determina-
+                                                          das en la figura 1-16b; y el diagrama de fuerza normal que representa
+              35 mm                85.7 MPa               esos resultados gráficamente se muestra en la figura 1-16c. Por inspec-
+                          (d)                             ción, la carga máxima está en la región BC, donde PBC  30 kN. Como
+                                                          el área transversal de la barra es constante, el esfuerzo normal máximo
+                       Fig. 1-16                          promedio también ocurre dentro de esta región de la barra.
+                                                          Esfuerzo normal promedio. Aplicando la ecuación 1-6, obtenemos
+                                                                              PBC        3011032N
+                                                                                    10.035 m210.010 m2
+                                                                     sBC =        =                    = 85.7 MPa                    Resp.
+                                                                               A
+
+                                                             La distribución de los esfuerzos que actúan sobre una sección trans-
+                                                          versal arbitraria de la barra dentro de la región BC se muestra en la
+                                                          figura 1-16d. Gráficamente el volumen (o “bloque”) representado por
+                                                          esta distribución de esfuerzos es equivalente a la carga de 30 kN; o sea,
+                                                          30 kN  (85.7 MPa)(35 mm)(10 mm).
+01-Hibbeler    28/8/56    5:05 AM       Página 29
+
+
+                                                      SECCIÓN 1.4 Esfuerzo normal promedio en una barra cargada axialmente                         •   29
+
+
+              E J E M P L O              1.7
+              La lámpara de 80 kg está soportada por dos barras AB y BC como se
+              muestra en la figura 1-17a. Si AB tiene un diámetro de 10 mm y BC tie-
+              ne un diámetro de 8 mm, determine el esfuerzo normal promedio en
+              cada barra.
+
+
+                                                                                                           y
+                              A                                  C
+                                                                                                  FBA                              FBC
+
+
+                                                         5                                                               5
+                                                             3                                                                 3
+                                                         4                                                               4
+                                                                                                    60°        B
+                                                                                                                                         x
+                                  60°     B
+
+
+                                                                                                               80(9.81) = 784.8 N
+                                                (a)                                                                      (b)
+
+                                                                              Fig. 1-17
+
+
+              Solución
+              Carga interna. Debemos primero determinar la fuerza axial en cada
+              barra. En la figura 1-17b se muestra un diagrama de cuerpo libre de la
+              lámpara.Aplicando las ecuaciones de equilibrio de fuerzas, obtenemos
+               + © F = 0;
+               :    x                          FBC A 45 B - FBA cos 60° = 0
+              +q © Fy = 0;    FBC A 35 B + FBA sin
+                                               sen 60°
+                                                   60° - 784.8 N = 0
+                               FBC = 395.2 N,                FBA = 632.4 N
+
+              Por la tercera ley de Newton, la acción es igual pero opuesta a la reac-
+              ción, estas fuerzas someten a las barras a tensión en toda su longitud.                                        8.05 MPa
+                                                                                                        8.05 MPa
+              Esfuerzo normal promedio. Aplicando la ecuación 1-6, tenemos
+
+                                        FBC      395.2 N
+                             sBC =           =             = 7.86 MPa                     Resp.
+                                        A BC   p10.004 m22
+                                        FBA      632.4 N
+                             sBA =           =             = 8.05 MPa                     Resp.
+                                        A BA   p10.005 m22                                                                               632.4 N
+
+                La distribución del esfuerzo normal promedio que actúa sobre una                                   (d)                   (c)
+              sección transversal de la barra AB se muestra en la figura 1-17c, y en
+              un punto sobre esta sección transversal, un elemento de material está
+              esforzado como se muestra en la figura 1.17d.
+01-Hibbeler    28/8/56    5:05 AM     Página 30
+
+
+     30   •   CAPÍTULO 1 Esfuerzo
+
+
+       E J E M P L O                1.8
+                                                  La pieza fundida mostrada en la figura 1-18a está hecha de acero con
+                                                  peso específico de ac  490 lb/pie3. Determine el esfuerzo de compre-
+                                                  sión promedio que actúa en los puntos A y B.
+                                          z
+                                                                                    Wac
+                         0.75 pie
+
+
+                                                  2.75 pies
+                                                                                               2.75 pies
+
+                                                0.4 pie
+                         0.75 pie               B
+                                                                                           B
+
+                             A                     0.75 pie
+                                                                                A
+                                                              y
+                                                                                      P
+                                                                                                       9.36 lb/pulg2
+
+                              x
+                                                                                    (b)                         (c)
+                                          (a)
+
+                                                                    Fig. 1-18
+
+                                                  Solución
+                                                  Carga interna. En la figura 1-18b se muestra un diagrama de cuerpo
+                                                  libre del segmento superior de la pieza fundida donde la sección pasa
+                                                  por los puntos A y B. El peso de este segmento es Wac  acVac. La fuer-
+                                                  za axial interna P en la sección es entonces
+
+                                                  +q  Fz = 0;              P - Wac = 0
+                                                                P - 1490 lb>pie 3212.75 pies2p10.75 pie22 = 0
+                                                          P = 2381 lb
+
+                                                  Esfuerzo de compresión promedio. El área transversal en la sección
+                                                  es A  (0.75 pie)2, y el esfuerzo de compresión promedio es en-
+                                                  tonces
+                                                            P       2381 lb
+                                                          s= =
+                                                            A     p10.75 pie22
+                                                           =1347.5 lb>pie 2=1347.5 lb>pie 2 11 pie 2>144 pulg22
+                                                           =9.36 lb>pulg2                                              Resp.
+                                                     El esfuerzo mostrado en el elemento de volumen de material en la
+                                                  figura 1-18c es representativo de las condiciones en A o B. Note que
+                                                  este esfuerzo actúa hacia arriba sobre el fondo o cara sombreada del
+                                                  elemento ya que esta cara forma parte del área de la superficie del fon-
+                                                  do de la sección cortada, y sobre esta superficie, la fuerza interna re-
+                                                  sultante P empuja hacia arriba.
+01-Hibbeler    28/8/56       5:06 AM   Página 31
+
+
+                                                      SECCIÓN 1.4 Esfuerzo normal promedio en una barra cargada axialmente   •   31
+
+
+              E J E M P L O             1.9
+              El miembro AC mostrado en la figura 1-19a está sometido a una fuer-
+              za vertical de 3 kN. Determine la posición x de esta fuerza de modo que
+              el esfuerzo de compresión promedio en el soporte liso C sea igual al
+              esfuerzo de tensión promedio en el tirante AB. El tirante tiene un área
+              en su sección transversal de 400 mm2 y el área de contacto en C es de
+              650 mm2.
+
+
+                         B
+
+
+                                        3 kN                                             FAB         3 kN
+
+                                   x                                                             x
+
+
+                      A                                                              A
+
+                                                                     C
+
+                                             200 mm                                                   200 mm
+
+                                               (a)                                                          (b)
+                                                                                                                      FC
+                                                                         Fig. 1-19
+              Solución
+              Carga interna. Las fuerzas en A y C pueden ser relacionadas consi-
+              derando el diagrama de cuerpo libre del miembro AC, figura 1-19b. Se
+              tienen tres incógnitas que son FAB, FC y x. En la solución de este pro-
+              blema usaremos unidades de newtons y milímetros.
+
+              +q © Fy = 0;               FAB + FC - 3000 N = 0                             (1)
+              d+ © MA = 0;        -3000 N1x2 + FC 1200 mm2 = 0                             (2)
+
+              Esfuerzo normal promedio. Puede escribirse una tercera ecuación
+              necesaria que requiere que el esfuerzo de tensión en la barra AB y el
+              esfuerzo de compresión en C sean equivalentes, es decir,
+
+                                                FAB             FC
+                                       s =              2
+                                                            =
+                                              400 mm    650 mm2
+                                              FC = 1.625FAB
+
+              Sustituyendo esto en la ecuación 1, despejando FAB y FC, obtenemos
+
+                                              FAB = 1143 N
+                                               FC = 1857 N
+
+              La posición de la carga aplicada se determina con la ecuación 2,
+
+                                               x = 124 mm                                Resp.
+
+              Note que 0  x  200 mm, tal como se requiere.
+01-Hibbeler    28/8/56   5:06 AM    Página 36
+
+
+     36   •   CAPÍTULO 1 Esfuerzo
+
+
+       E J E M P L O           1.10
+                                                La barra mostrada en la figura 1-24a tiene una sección transversal cua-
+                                                drada de 40 mm. Si se aplica una fuerza axial de 800 N a lo largo del
+                                                eje centroidal del área transversal de la barra, determine el esfuerzo
+                                                normal promedio y el esfuerzo cortante promedio que actúan sobre el
+                                                material a lo largo (a) del plano a-a y (b) del plano b-b.
+
+
+                                                                           a                       b     20 mm
+
+
+                                                  800 N
+
+                                                                                                   60°
+                                                                                              b          20 mm
+                                                                           a
+                                                                                    (a)
+
+
+                                                                                                                   500 kPa
+
+
+                                                800 N                             P = 800 N
+
+                                                                 (b)
+                                                                                                               500 kPa
+
+
+                                                                                                         (c)
+
+
+                                                                                Fig. 1-24
+
+
+                                                Solución
+                                                Parte (a)
+                                                Carga interna. La barra es seccionada, figura 1-24b, y la carga inter-
+                                                na resultante consiste sólo en una fuerza axial P  800 N.
+
+                                                Esfuerzo promedio. El esfuerzo normal promedio se determina con
+                                                la ecuación 1-6.
+
+                                                                       P         800 N
+                                                                           10.04 m210.04 m2
+                                                               s =       =                  = 500 kPa                    Resp.
+                                                                       A
+
+                                                No existe esfuerzo cortante sobre la sección, ya que la fuerza cortante
+                                                en la sección es cero.
+
+                                                                                 prom  0                               Resp.
+
+                                                  La distribución del esfuerzo normal promedio sobre la sección trans-
+                                                versal se muestra en la figura 1-24c.
+01-Hibbeler    28/8/56    5:06 AM       Página 37
+
+
+                                                                                    SECCIÓN 1.5 Esfuerzo cortante promedio   •   37
+
+
+                                             y
+
+
+                                                          x
+                                                    30°
+                                                                    V
+                          30°
+                  800 N                                                         800 N
+                                                                    60°
+                                                                            N
+                                                                 60°
+                                                 (d)
+
+
+              Parte (b)
+              Carga interna. Si la barra es seccionada a lo largo de b-b, el diagra-
+              ma de cuerpo libre del segmento izquierdo es como se muestra en la
+              figura 1-24d. Aquí actúan una fuerza normal (N) y una fuerza cortan-
+              te (V) sobre el área seccionada. Usando ejes x, y, se requiere
+
+              :+ © F = 0;            -800 N + N sin   60° + V cos 60° = 0
+                                                  sen 60°
+                    x
+              +q © Fy = 0;           V sin 60° - N cos 60° = 0
+                                       sen 60°
+
+              o más directamente, usando ejes x′, y′,
+
+              +Ω© Fx¿ = 0;               N - 800 N cos 30° = 0
+              +˚© Fy¿ = 0;               V - 800 N sin
+                                                   sen 30°
+                                                       30° = 0
+
+              Resolviendo cualquier conjunto de ecuaciones,
+
+                                             N  692.8 N
+                                              V  400 N
+
+              Esfuerzos promedio. En este caso el área seccionada tiene un espe-
+              sor de 40 mm y una profundidad de 40 mm/sen 60°  46.19, respecti-
+              vamente, figura 1-24a. El esfuerzo normal promedio es entonces
+                                     N         692.8 N
+                                         10.04 m210.04619 m2
+                            s =        =                     = 375 kPa              Resp.                              375 kPa
+                                     A
+
+              y el esfuerzo cortante promedio es
+                                     V          400 N
+                          tprom
+                                         10.04 m210.04619 m2
+                             avg =     =                     = 217 kPa              Resp.                    217 kPa
+                                     A
+                                                                                                           375 kPa
+              La distribución de esfuerzo se muestra en la figura 1-24e.                             (e)
+01-Hibbeler    28/8/56                  5:06 AM        Página 38
+
+
+     38   •   CAPÍTULO 1 Esfuerzo
+
+
+       E J E M P L O                            1.11
+                                                                   El puntal de madera mostrado en la figura 1-25a está suspendido de
+                                                                   una barra de acero de diámetro de 10 mm, que está empotrada a la pa-
+                                         c                         red. Si el puntal soporta una carga vertical de 5 kN, calcule el esfuerzo
+                                                                   cortante promedio en la barra en la pared y a lo largo de los dos pla-
+                              b                                    nos sombreados del puntal, uno de los cuales está indicado como abcd.
+                                                       20 mm
+                                                                   Solución
+                                         d
+                                  a                    40 mm       Cortante interno. Como se muestra en el diagrama de cuerpo libre
+                                                                   en la figura 1-25b, la barra resiste una fuerza cortante de 5 kN donde
+                                                                   ella está empotrada a la pared. En la figura 1-25c se muestra un diagra-
+                                                                   ma de cuerpo libre del segmento seccionado del puntal que está en con-
+                                                                   tacto con la barra. Aquí la fuerza cortante que actúa a lo largo de ca-
+                                                                   da plano sombreado es de 2.5 kN.
+                               5 kN
+                                (a)                                Esfuerzo cortante promedio. Para la barra,
+
+                                                                                                V     5000 N
+                                                                                     tprom
+                                                                                        avg =     =             = 63.7 MPa            Resp.
+                                                                                                A   p10.005 m22
+                                                                   Para el puntal,
+       fuerza del puntal
+         sobre la barra                                                                     V        2500 N
+                                                                               tprom
+                                                                                                10.04 m210.02 m2
+                                                                                  avg =       =                  = 3.12 MPa           Resp.
+                              5 kN                                                          A
+                                         V = 5 kN
+                                                                     La distribución del esfuerzo cortante promedio sobre la barra sec-
+                                                                   cionada y el segmento de puntal se muestran en las figuras 1-25d y
+                                                                   1-25e, respectivamente. Se muestra también con esas figuras un ele-
+                                                                   mento de volumen típico del material en un punto localizado sobre la
+                                                                   superficie de cada sección. Observe cuidadosamente cómo el esfuerzo
+                                  (b)                              cortante debe actuar sobre cada cara sombreada de esos elementos y
+                                                                   sobre las caras adyacentes de los mismos.
+
+
+                    V = 2.5 kN
+                         V = 2.5 kN
+                                  c
+                                                                       5 kN
+
+                b                                                                      63.7 MPa
+
+
+                                        fuerza de la
+                               d
+                                        barra sobre
+                    a
+                                        el puntal                                                             5 kN
+                    5 kN                                                                                                       3.12 MPa
+                        (c)                                             (d)                                    (e)
+
+                                                                                Fig. 1-25
+01-Hibbeler    28/8/56    5:06 AM       Página 39
+
+
+                                                                                            SECCIÓN 1.5 Esfuerzo cortante promedio                       •    39
+
+
+              E J E M P L O                 1.12
+              El miembro inclinado en la figura 1-26a está sometido a una fuerza de
+              compresión de 600 lb. Determine el esfuerzo de compresión promedio
+              a lo largo de las áreas lisas de contacto definidas por AB y BC, y el es-
+              fuerzo cortante promedio a lo largo del plano horizontal definido por                                                              600 lb
+              EDB.                                                                                                                   5       4
+                                                                                                                                         3
+                                                                                 600 lb
+                                                                     5       4
+                                                                         3
+
+
+                                                                                                         FAB
+                                                      A
+                                                                C
+                               1 pulg                                                                                FBC
+                                        E                 B                                                                  (b)
+                                               D
+                                                                2 pulg
+                              1.5 pulg                3 pulg                     (a)      Fig. 1-26
+
+              Solución                                                                                                                360 lb
+
+              Cargas internas. El diagrama de cuerpo libre del miembro inclinado
+              se muestra en la figura 1-26b. Las fuerzas de compresión que actúan
+                                                                                                          V
+              sobre las áreas de contacto son                                                                              (c)
+
+               + © F = 0;
+               :    x            FAB - 600 lb A 35 B = 0            FAB = 360 lb                                                                     600 lb
+              +q© Fy = 0;        FBC - 600 lb 45     A B =0         FBC = 480 lb                                                         5       4
+                                                                                                                                             3
+
+              También, del diagrama de cuerpo libre del segmento superior del miem-
+              bro del fondo, figura 1-26c, la fuerza cortante que actúa sobre el plano
+              horizontal seccionado EDB es
+               + © F = 0;
+               :                                   V = 360 lb
+                    x                                                                                 240 lb/pulg2
+
+              Esfuerzo promedio. Los esfuerzos de compresión promedio a lo lar-
+              go de los planos horizontal y vertical del miembro inclinado son                                                     160 lb/pulg2
+                                     360 lb
+                          AB=  =240 lb/pulg2                                             Resp.                             (d)
+                               (1 pulg)(1.5 pulg)
+                                     480 lb
+                          BC=  =160 lb/pulg2                                             Resp.
+                               (2 pulg)(1.5 pulg)
+                                                                                                                                     360 lb
+              Estas distribuciones de esfuerzo se muestran en la figura 1-26d.
+                El esfuerzo cortante promedio que actúa sobre el plano horizontal
+              definido por EDB es                                                                                          80 lb/pulg2
+                                       360 lb
+                          prom=  =80 lb/pulg2                                            Resp.                      (e)
+                                 (3 pulg)(1.5 pulg)
+              Este esfuerzo se muestra distribuido sobre el área seccionada en la figu-
+              ra 1-26e.
+01-Hibbeler    28/8/56       5:13 AM       Página 53
+
+
+                                                                                                         SECCIÓN 1.7 Diseño de conexiones simples   •   53
+
+
+              E J E M P L O                1.13
+              Los dos miembros están unidos por pasadores en B como se muestra
+              en la figura 1-31a. Se muestran también en la figura dos vistas superio-
+              res de las conexiones por pasador en A y B. Si los pasadores tienen un
+              esfuerzo cortante permisible perm  12.5 klb/pulg2 y el esfuerzo per-
+              misible de tensión de la barra CB es (t)perm  16.2 klb/pulg2, deter-
+              mine el diámetro más pequeño, con una aproximación a 116 pulg, de los
+              pasadores A y B y el diámetro de la barra CB, necesarios para sopor-
+              tar la carga.
+
+
+                     A
+
+                                                                                                         C
+
+
+                                                                                     5
+                                                                                             3
+                                                  3 klb
+                                                                                     4
+
+
+                    A
+                                                                        B                                       B
+
+                                 4 pies                   2 pies
+
+
+                                                              (a)
+
+                                                           Fig. 1-31
+
+
+              Solución
+              La barra CB es un miembro de dos fuerzas; el diagrama de cuerpo li-
+              bre del miembro AB, junto con las reacciones calculadas en A y B, se
+              muestran en la figura 1-31b. Como ejercicio, verifique los cálculos y no-
+              te que la fuerza resultante en A debe usarse para el diseño del pasador
+              A, ya que ésta es la fuerza cortante que el pasador resiste.
+
+
+                                                                                                     3.33 klb
+                                                                    3 klb
+                 2.85 klb          1 klb
+                                                                                                 5
+                                                                                                     3
+                         20.6°                                                                   4
+
+                 2.67 klb          A                                                     B
+                                                  4 pies                    2 pies
+                                                             (b)
+                                                                                                                                            Continúa
+01-Hibbeler    28/8/56   5:13 AM    Página 54
+
+
+     54   •   CAPÍTULO 1 Esfuerzo
+
+
+                                                     2.85 klb
+
+                                                                                                                3.33 klb
+                                                                          1.425 klb
+                                                                                                            3.33 klb
+                                                                   1.425 klb
+                                                                Pasador en A                               Pasador en B
+                                                                                      (c)
+
+
+                                                Diámetro de los pasadores. De la figura 1-31a y los diagramas de
+                                                cuerpo libre de la porción seccionada de cada pasador en contacto con
+                                                el miembro AB, figura 1-31c, vemos que el pasador A está sometido a
+                                                cortante doble, mientras que el pasador B está sometido a cortante sim-
+                                                ple. Entonces,
+
+                                                                         dA2
+                                                                                                         d =0.381 pulg
+                                           VA     1.425 klb
+                                      AA=  =        2 =0.1139 pulg2= 
+                                                                                                                A
+                                          Tperm 12.5 klb/pulg             4
+
+
+                                                                                                        d =0.583 pulg
+                                           VB     3.333 klb         dB2
+                                      AB=  =  2 =0.2667 pulg2=                                              B
+                                          Tperm 12.5 klb/pulg        4
+
+                                                Aunque estos valores representan los diámetros más pequeños permi-
+                                                sibles para los pasadores, deberá escogerse un tamaño de pasador co-
+                                                                                                               1
+                                                mercial. Escogeremos un tamaño mayor con una aproximación a   pulg
+                                                                                                              16
+                                                como se requiere.
+
+                                                                           dA=176 pulg=0.4375 pulg                            Resp.
+
+                                                                               dB=58 pulg=0.625 pulg                          Resp.
+
+
+                                                Díámetro de la barra. El diámetro requerido para la barra en su sec-
+                                                ción media es entonces:
+
+                                                                                                                            2
+
+                                                                                                                            
+                                                            P       3.333 klb              dBC
+                                                    ABC=  =           2 =0.2058 pulg2= 
+                                                                                           
+                                                         (t)perm 16.2 klb/pulg              4
+
+                                                    dBC=0.512 pulg
+
+                                                Escogeremos
+
+                                                                               dBC  196 pulg  0.5625 pulg                   Resp.
+01-Hibbeler    28/8/56    5:13 AM    Página 55
+
+
+                                                                                               SECCIÓN 1.7 Diseño de conexiones simples                         •   55
+
+
+              E J E M P L O           1.14
+              El brazo de control está sometido a la carga mostrada en la figura 1-32a.
+              Determine el diámetro requerido, con una aproximación de 41 pulg, para
+              el pasador de acero en C si el esfuerzo cortante permisible para el ace-
+              ro es perm  8 lb/pulg2. Advierta en la figura que el pasador está so-
+              metido a cortante doble.
+
+                                                       A                                           FAB
+                                      B
+
+
+                                                                                                        8 pulg
+                                          8 pulg
+
+
+                                                   C
+                             C                                                                     Cx        C
+                                                                                                                                                5
+                                                                                   5                                                        3
+                                      (a)                                  3                                          3 pulg 2 pulg             4
+                                                           3 pulg 2 pulg       4                                                                     5 klb
+                                                                                       5 klb
+                                                                                                                 Cy        3 klb
+                                                                3 klb
+                                                                                                                           (b)
+              Solución
+              Fuerza cortante interna. Un diagrama de cuerpo libre del brazo se
+              muestra en la figura 1-32b. Por equilibrio tenemos,
+              d+ © MC = 0;        FAB(8 pulg)-3 klb(3 pulg)-5 klp(35)(5 pulg)=0
+                                          FAB=3 klb
+               + © F = 0;
+               :    x             3 klb-Cx+5 klb(45)=0                      Cx=1 klb                                  6.082 klb
+                                                                   3
+              +q© Fy = 0;           Cy-3 klb-5 klb( )=0            
+                                                                   5
+                                                                               Cy=6 klb
+                                                                                                                                                    3.041 klb
+              El pasador en C resiste la fuerza resultante en C. Por lo tanto,                                                         3.041 klb
+                                                                                                                                 Pasador en C
+                             FC=(1
+                                   )2+
+                                    klb  (6
+                                            )2=6.082 klb
+                                             klb
+                                                                                                                                      (c)
+
+              Como el pasador está sometido a cortante doble, una fuerza cortante                                                  Fig. 1-32
+              de 3.041 klb actúa sobre su área transversal entre el brazo y cada ho-
+              ja de soporte para el pasador, figura 1-32c.
+              Área requerida. Tenemos
+                                 V    3.041 klb
+                            A=  = 2 =0.3802 pulg2
+                               perm 8 klb/pulg
+
+
+                                             
+                                        d 2
+                                        =0.3802 pulg2
+                                        2
+                                               d=0.696 pulg
+
+              Usaremos un pasador con diámetro de
+
+                                          d  34 pulg  0.750 pulg                            Resp.
+01-Hibbeler    28/8/56   5:13 AM    Página 56
+
+
+     56   •   CAPÍTULO 1 Esfuerzo
+
+
+       E J E M P L O           1.15
+                                                La barra colgante está soportada en su extremo por un disco circular
+                                                empotrado a ella, como se muestra en la figura 1-33a. Si la barra pasa
+                                                por un agujero con diámetro de 40 mm, determine el diámetro míni-
+                                                mo requerido de la barra y el espesor mínimo del disco necesario pa-
+                                                ra soportar la carga de 20 kN. El esfuerzo normal permisible para la
+                                                barra es perm  60 MPa y el esfuerzo cortante permisible para el dis-
+                                                co es perm  35 MPa.
+
+                                                                    40 mm                 t                           40 mm
+
+
+                                                                                                                A              perm
+
+
+                                                                                  d                                      20 kN
+
+                                                                                                                       (b)
+                                                                             20 kN
+
+                                                                        (a)
+                                                                                                  Fig. 1-33
+
+                                                Solución
+                                                Diámetro de la barra. Por inspección, la fuerza axial en la barra es
+                                                de 20 kN. El área transversal requerida para la barra es entonces
+                                                                                      2011032 N
+                                                                                                   = 0.3333110-32 m2
+                                                                    P
+                                                                                  6011062 N>m2
+                                                           A =                =
+                                                                  
+                                                                  sperm
+                                                                    allow
+
+                                                De manera que
+                                                                                  d2
+                                                                     A = pa          b = 0.3333110-22 m2
+                                                                                  4
+                                                                             d = 0.0206 m = 20.6 mm                           Resp.
+
+                                                Espesor del disco. Como se muestra en el diagrama de cuerpo libre
+                                                de la sección del núcleo del disco, figura 1-33b, el material en el área
+                                                seccionada debe resistir esfuerzos cortantes para impedir el movimien-
+                                                to del disco a través del agujero. Si se supone que este esfuerzo cortan-
+                                                te está uniformemente distribuido sobre el área seccionada, entonces,
+                                                como V  20 kN, tenemos:
+                                                                                      2011032 N
+                                                                                                   = 0.571110-32 m2
+                                                                     V
+                                                                                  3511062 N>m2
+                                                            A =               =
+                                                                   tperm
+                                                                     allow
+
+                                                Como el área seccionada A  2(0.02 m)(t), el espesor requerido del
+                                                disco es:
+                                                                 0.5714110-32 m2
+                                                           t =                   = 4.55110-32 m = 4.55 mm                     Resp.
+                                                                   2p10.02 m2
+01-Hibbeler    28/8/56         5:13 AM   Página 57
+
+
+                                                                                    SECCIÓN 1.7 Diseño de conexiones simples        •   57
+
+
+              E J E M P L O               1.16
+              Una carga axial sobre la flecha mostrada en la figura 1-34a es resistida
+              por el collarín en C que está unido a la flecha y localizado a la derecha
+              del cojinete en B. Determine el máximo valor de P para las dos fuer-
+              zas axiales en E y F, de manera que el esfuerzo en el collarín no exce-
+              da un esfuerzo de aplastamiento permisible en C de (b )perm  75 MPa
+              y que el esfuerzo normal promedio en la flecha no exceda un esfuerzo
+              de tensión permisible de (t)perm  55 MPa.
+
+
+                                     A                         60 mm   B   20 mm
+                                                           P
+                      2P                                                    80 mm
+                                F                                                                                P
+                                                       E                   C        2P                                         3P
+
+                                                 (a)                                                (b)
+
+
+                                                       Carga
+                                                       axial                                         Fig. 1-34
+
+
+                                                       3P
+                                                       2P
+                                                                                         Posición
+                                                                           (c)
+
+              Solución
+              Para resolver el problema determinaremos P para cada condición po-
+              sible de falla. Luego escogeremos el valor más pequeño. ¿Por qué?
+              Esfuerzo normal. Usando el método de las secciones, vemos que la
+              carga axial dentro de la región FE de la flecha es 2P, mientras que la car-
+              ga axial máxima, 3P, ocurre dentro de la región EC, figura 1-34b. La
+              variación de la carga interna se ve claramente en el diagrama de fuer-
+              za normal, figura 1-34c. Como el área transversal de toda la flecha es
+              constante, la región EC estará sometida al esfuerzo normal promedio
+              máximo. Aplicando la ecuación 1-11, tenemos:
+
+                                         5511062 N>m2 =
+                         P                                   3P
+              allow
+              s perm =
+                         A                               p10.03 m22
+                                                    P = 51.8 kN
+              Esfuerzo de aplastamiento. Como se muestra en el diagrama de cuer-                          3P
+              po libre en la figura 1-34d, el collarín en C debe resistir la carga de 3P,                                  C
+              que actúa sobre un área de apoyo de Ab  [ (0.04 m)2   (0.03 m)2]                                  (d)
+              2.199(103) m2. Entonces,
+
+                                         7511062 N>m2 =
+                      P                                          3P
+                                                           2.199110-32 m2
+              A =          ;
+                    allow
+                    s perm
+
+                                                       P = 55.0 kN
+              En comparación, la carga máxima que puede aplicarse a la flecha es
+              P  51.8 kN, ya que cualquier carga mayor que ésta ocasionará que el
+              esfuerzo normal permisible en la flecha se exceda.
+01-Hibbeler    28/8/56   5:13 AM    Página 58
+
+
+     58   •   CAPÍTULO 1 Esfuerzo
+
+
+       E J E M P L O           1.17
+                                                La barra rígida AB mostrada en la figura 1-35a está soportada por una
+                                                barra de acero AC que tiene un diámetro de 20 mm y por bloque de alu-
+                                                minio que tiene un área transversal de 1800 mm2. Los pasadores de
+                                                diámetro de 18 mm en A y C están sometidos a cortante simple. Si el
+                                                esfuerzo de falla para el acero y el aluminio son (ac)falla  680 MPa y
+                                                (al)falla  70 MPa, respectivamente, y el esfuerzo cortante de falla pa-
+                                                ra cada pasador es falla  900 MPa, determine la carga máxima P que
+                                                puede aplicarse a la barra. Aplique un factor de seguridad FS de 2.
+
+                                                Solución
+                                                Usando las ecuaciones 1-9 y 1-10, los esfuerzos permisibles son
+                                                                                1sacst)2falla
+                                                                               (
+                                                             1sstac2)allow
+                                                                                         fail    680 MPa
+                                                              (        falla =                 =          = 340 MPa
+                                                                                   FS
+                                                                                  F.S.               2
+                                                                                1salal)2falla
+                                                                               (
+                                                              (alal2)allow
+                                                             1s
+                                                                                         fail    70 MPa
+                                                                       falla =                 =         = 35 MPa
+                                                                                   FS
+                                                                                  F.S.              2
+                                                                               tfalla        900 MPa
+                                                                   tallow
+                                                                                  fail
+                                                                       falla =           =             = 450 MPa
+                                                                                 FS
+                                                                                F.S.              2
+                                                  El diagrama de cuerpo libre para la barra se muestra en la figura
+                                                1-35b. Se tienen tres incógnitas. Aplicaremos aquí las ecuaciones de
+                                                equilibrio para expresar FAC y FB en términos de la carga P aplicada.
+                                                Tenemos
+                                                d+ © MB = 0;          P11.25 m2 - FAC12 m2 = 0                       (1)
+                                                d+ © MA = 0;            FB12 m2 - P10.75 m2 = 0                      (2)
+                                                 Determinaremos ahora cada valor de P que genera el esfuerzo per-
+                                                misible en la barra, bloque y pasadores, respectivamente.
+                                                Barra AC. Se requiere
+                                                  FAC = (1sst2
+                                                          ac  perm1A AC2 = 340110 2 N>m [p10.01 m2 ] = 106.8 kN
+                                                              )allow              6     2          2
+
+
+                                                                           1106.8 kN212 m2
+                                                Usando la ecuación 1,
+                                                                    P =                      = 171 kN
+                                                                               1.25 m
+                                                Bloque B. En este caso,
+                                                =(1salal2)allow
+                                            FFBB =          permAB = 35110 2 N>m [1800 mm 110 2 m >mm ] = 63.0 kN
+                                                                          6     2        2   -6  2   2
+
+
+                                                                           163.0 kN212 m2
+                                                Usando la ecuación 2,
+                                                                    P =                      = 168 kN
+                                                                               0.75 m
+                                                Pasador A o C.      Aquí
+                                                               allowA = 450110 2 N>m [p10.009 m2 ] = 114.5 kN
+                                                   V = FAC = tperm           6     2           2
+
+                                                De la ecuación 1,
+                                                                           114.5 kN12 m2
+                                                                     P =                = 183 kN
+                                                                            1.25 m
+                                                  Por comparación, cuando P alcanza su valor más pequeño (168 kN),
+                                                se genera el esfuerzo normal permisible en el bloque de aluminio. Por
+                                                consiguiente,
+                                                                              P  168 kN                       Resp.

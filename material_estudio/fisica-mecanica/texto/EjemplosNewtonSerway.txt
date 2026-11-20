@@ -1,0 +1,1525 @@
+58     CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+
+     ■ EJEMPLO 3.1          De paseo
+OB JET I VO Hallar la suma de dos vectores utilizando                                                     y (km)
+una gráfica.                                                                                                             N
+
+                                                                                                    S
+                                                                                                                40   O        E
+PROBLEMA Un automóvil recorre 20.0 km hacia                                                         B
+el norte y después 35.0 km en una dirección 60° al                                                      60.0            S
+
+noroeste, como en la figura 3.6. Utilizando una grá-                                                            20
+                                                                                                    S
+fica, determine la magnitud y dirección de un vector      Figura 3.6 (Ejemplo 3.1) Un               R
+                                                                                                                S
+simple que proporciona el efecto neto del viaje del       método gráfico para buscar el vector             b A
+automóvil. A este vector se le conoce como desplaza-      de desplazamiento resultante                               x (km)
+                                                          S   S     S
+                                                          R 5 A 1 B.                             20       0
+miento resultante del automóvil.
+ESTR ATEGI A Dibuje una gráfica y represente los
+vectores de desplazamiento como flechas. Ubique gráficamente el vector resultante de la suma de los dos vectores de despla-
+zamiento. Mida su longitud y ángulo con respecto a la vertical.
+
+SOLUCIÓN
+    S                                                                            S
+Sean A que representa el primer vector de desplazamiento, 20.0 km al norte y B el segundo S
+                                                                                              vector de desplazamiento, exten-
+                                                                                                                           S
+dido al noroeste. Con cuidado grafique
+                                S
+                                       los  dos vectores, dibujando un  vector resultante R con su base tocando la base de A y
+extendiendo hacia la punta de B . Mida la longitud de este vector, que es de casi 48 km. El ángulo b, se mide con un transpor-
+tador, es de casi 39° noroeste.
+
+COMENTAR IOS Observe que en este caso la aritmética normal no funciona: ¡la respuesta correcta de 48 km no es igual a
+20.0 km 1 35.0 km 5 55.0 km!
+PREGUNTA 3.1 Considere la suma de dos vectores. ¿Bajo qué condiciones la suma de las magnitudes de los vectores igua-
+laría la magnitud del vector resultante?
+E JERCICIO 3.1 Determine gráficamente la magnitud y dirección del desplazamiento si un hombre camina 30.0 km 45°
+noreste y después camina hacia el este 20.0 km.
+RESPUESTA 46 km, 27° noreste.
+60      CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+     ■ EJEMPLO 3.2            ¡Ayuda en camino!
+OB JET I VO Hallar las componentes de un vector, conocida
+                                                                                                                  y
+una magnitud y dirección y viceversa.
+PROBLEMA a) Halle los componentes horizontal y vertical                                                                            x
+                                                                                                                      30.0
+del desplazamiento de d 5 1.00 3 10 m de un superhéroe
+                                        2
+
+que vuela desde la parte superior de un edificio alto a lo                                                             d
+largo de la trayectoria que se muestra en la figura 3.11a.
+b) Suponga que el superhéroe sale en
+                                  S
+                                     la otra dirección a lo largo
+de un vector de desplazamiento B hacia la parte superior de
+un asta bandera donde las componentes del desplazamiento
+                                                                                                         a
+están dadas mediante Bx 5 225.0 m y By 5 10.0 m. Halle la
+magnitud y dirección del vector de desplazamiento.                                                                y
+
+ESTR ATEGI A a) El triángulo formado por el desplaza-
+miento y sus componentes se muestran en la figura 3.11b.                                                                      Ax
+                                                                                                                                       x
+Trigonometría simple proporciona los componentes con                                                                       30.0
+                                                                                                                               S
+respecto al sistema coordenado x y y estándar: Ax 5 A cos u                                                  Ay                A
+y Ay 5 A sen u (ecuaciones 3.2). Observe que u 5 230.0°, es
+negativo porque se mide en la dirección de las manecillas
+del reloj desde el eje x positivo. b) Aplique las ecuaciones 3.3
+y 3.4 para hallar la magnitud y dirección del vector.               Figura 3.11 (Ejemplo 3.2)            b
+
+
+SOLUCIÓN
+                                            S
+a) Halle los componentes del vector de A a partir de su
+magnitud y su dirección.
+Aplique las ecuaciones 3.2S para hallar los componentes del         Ax 5 A cos u 5(1.00 3 102 m) cos (230.0°) 5 186.6 m
+vector de desplazamiento A :
+                                                                    Ay 5 A sen u 5 (1.00 3 102 m) sen (230.0°) 5 250.0 m
+b) HalleSla magnitud y dirección del vector de desplaza-
+miento B a partir de sus componentes.
+                                                                    B 5 "Bx2 1 By2 5 " 1 225.0 m 2 2 1 1 10.0 m 2 2 5 26.9 m
+                          S
+Calcule la magnitud de B a partir del teorema de Pitágoras:
+
+                                                                                  By
+                                                                    u 5 tan21 a        b 5 tan21 a         b 5 221.8°
+                         S                                                                           10.0
+Calcule la dirección de B y utilice la tangente inversa
+                                                                                  Bx                 225.0
+recordando sumar 180° a su respuesta en la pantalla de
+su calculadora, porque el vector se encuentra en el segundo         u 5 158°
+cuadrante:
+
+COMENTAR IOS En el inciso a), observe que cos(2u) 5 cos u; sin embargo, sen(2u) 5 2sen u. El signo negativo de Ay
+refleja el hecho de que el desplazamiento en la dirección y es hacia abajo.
+PREGUNTA 3. 2 ¿Qué otras funciones, si existe alguna, se pueden utilizar para hallar el ángulo en el inciso b)?
+E JERCICIO 3. 2 a) Considere al superhéroe que ha volado 150 m en un ángulo de 120° con respecto al eje x positivo. Halle
+los componentes del vector de desplazamiento. b) Suponga que el superhéroe sale con un desplazamiento que tiene una
+componente x de 32.5 m y una componente y de 24.3 m. Encuentre la magnitud y dirección del vector de desplazamiento.
+RESPUESTAS a) Ax 5 275 m, Ay 5 130 m b) 40.6 m, 36.8°
+                                                                                                               3.2 | Componentes de un vector          61
+
+
+   ■ EJEMPLO 3.3              Tome un paseo
+OB JET I VO Sumar vectores algebraicamente y deter-                                    N
+minar el vector resultante.
+                                                                               O             E
+PROBLEMA Un excursionista inicia un viaje                          y (km)              S                             y (km)
+caminando primero 25.0 km 45.0° al sureste
+desde su base. Al segundo día camina 40.0 km en                    20                                                20
+                                                                                                       Torre
+                                                                                   S                                             S
+una dirección 60.0° al noreste, en cuyo punto des-                              R                  S                             R
+                                                                   10                                                10                      R y = 16.9 km
+cubre la torre del guardabosque. a) Establezca los                                                 B
+componentes de los desplazamientos del excursio-                     0                                               0          u
+                                                                                                           x (km)                                 x (km)
+                                                              Base                                                   O        10 20 30       40
+nista en el primero y segundo días. b) Calcule los                          45.0 20        30     40
+                                                                                                                              Rx = 37.7 km
+componentes del desplazamiento total del excur-                   10    S                                          10
+                                                                         A                 60.0
+sionista para el viaje. c) Determine la magnitud y
+                                                                  20                                               20
+dirección del desplazamiento desde la base.
+ESTR ATEGI A Este problema es simplemente                a                                       b
+una aplicación de la suma vectorial utilizando com-
+ponentes, ecuaciones 3.5. Se indican los vectores    Figura 3.12 (Ejemplo 3.3) a) La trayectoria del excursionista y el vector resul-
+de desplazamiento
+           S     S
+                     en el primero y segundo días tante. b) Componentes del desplazamiento desde la base.
+mediante A y B , respectivamente. Utilizando la
+base como origen de las coordenadas, se obtienen
+los vectores que se muestran en la figura 3.12a. Después de hallar los componentes x y y para cada   S
+                                                                                                         vector, se suman “en la
+forma de componentes”. Por último, se determina la magnitud y dirección del vector resultante R, utilizando el teorema de
+Pitágoras y la función tangente inversa.
+
+SOLUCIÓN
+                               S
+a) Halle los componentes de A .
+                                                                     S
+Aplique las ecuaciones 3.2 para hallar las componentes de A :                Ax 5 A cos (245.0°) 5 (25.0 km)(0.707) 5 17.7 km
+                                                                             Ay 5 A sen (245.0°) 5 2(25.0 km)(0.707) 5 217.7 km
+                                   S
+Encuentre los componentes de B :                                             Bx 5 B cos 60.0° 5 (40.0 km)(0.500) 5 20.0 km
+                                                                             By 5 B sen 60.0° 5 (40.0 km)(0.866) 5 34.6 km
+                                                      S       S      S
+b) Calcule los componentes del vector resultante, R 5 A 1 B .
+                                                  S       S
+Para encontrar R x sume los componentes x de A y B :                         R x 5 Ax 1 Bx 5 17.7 km 1 20.0 km 5 37.7 km
+                                             S   S
+Para hallar R y sume los componentes y de A y B :                            Ry 5 Ay 1 By 5 217.7 km 1 34.6 km 5 16.9 km
+                                       S
+c) Halle la magnitud y dirección de R.
+Aplique el teorema de Pitágoras para obtener la magnitud:                    R 5 "Rx2 1 Ry2 5 " 1 37.7 km 2 2 1 1 16.9 km 2 2 5 41.3 km
+                         S
+Calcule la dirección de R utilizando la función tangente
+                                                                             u 5 tan21 a                 b 5 24.1°
+                                                                                                 16.9 km
+inversa:                                                                                         37.7 km
+                                                                                                       S
+COMENTAR IOS La figura 3.12b muestra un esquema de los componentes de R y sus direcciones en el espacio. Del mismo
+modo, se puede calcular además la magnitud y dirección de la resultante.
+
+                                                                                                                                              (continúa)
+62    CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+PREGUNTA 3. 3 Un segundo excursionista sigue la misma trayectoria el primer día, pero después camina 15.0 km al
+este en el segundo día antes de regresar y alcanzar la torre del guardabosque. ¿El vector de desplazamiento resultante del
+segundo excursionista es el mismo que el del primer excursionista o es diferente?
+E JERCICIO 3. 3 Un barco deja un puerto recorriendo 50.0 km 45.0° al noroeste y después 70.0 km en una dirección 30.0°
+al noreste. Hallar a) el vector de desplazamiento del barco y b) la magnitud y dirección del vector de desplazamiento.
+RESPUESTA a) R x 5 25.3 km, Ry 5 70.4 km b) 74.8 km, 70.2° noreste
+
+
+ S
+Dr
+       CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+  ■ EJEMPLO 3.4             Movimiento de proyectil con diagramas
+                                                                                                   S
+OB JET I VO Aproximar respuestas en el movimiento de proyec-                                       v
+tiles utilizando un diagrama de movimiento.
+                                                                                                  S
+PROBLEMA Se dispara una bala de tal manera que sus compo-                                         a
+nentes vertical y horizontal de velocidad son 40 y 20 m/s, respec-
+tivamente. Utilice un diagrama de movimiento para evaluar el
+tiempo total de vuelo de la bala y la distancia que recorre antes
+de golpear la superficie de la tierra.
+ESTR ATEGI A Utilice el diagrama, evaluando la aceleración
+de la gravedad como 210 m/s2. Por simetría, sube y regresa a la
+superficie de la tierra con la misma velocidad y que cuando salió,
+excepto por el signo opuesto. Con esto en mente y el hecho de
+que la aceleración de la gravedad disminuye la velocidad en la
+dirección 1y en 10 m/s cada segundo, podemos encontrar el            Figura 3.18 (Ejemplo 3.4) Diagrama de movimiento de un
+tiempo total de vuelo y después el alcance horizontal.               proyectil.
+
+SOLUCIÓN
+En el diagrama de movimiento que se muestra en la figura 3.18, todos los vectores de aceleración son los mismos, apuntando
+hacia abajo con magnitud casi de 10 m/s2. Por simetría, se sabe que la bala golpeará la superficie de la tierra con la misma
+rapidez en la dirección y como cuando fue lanzada, de tal modo que la velocidad en la dirección y va desde 40 hasta
+240 m/s en etapas de 210 m/s cada segundo; por lo tanto, transcurren casi 8 segundos durante el movimiento.
+    El vector velocidad cambia de dirección de manera constante, pero la velocidad horizontal jamás varía porque la acelera-
+ción en la dirección horizontal es cero. Debido a eso, el desplazamiento de la bala en la dirección x se conoce por la ecuación
+3.13b, )x < v 0xt 5 (20 m/s)(8 s) 5 160 m.
+
+COMENTARIOS Este ejemplo destaca la independencia de los componentes x y y en los problemas de movimiento de proyectil.
+PREGUNTA 3.4 ¿La magnitud del vector velocidad en el impacto es mayor que, menor que, o bien igual a la magnitud del
+vector velocidad inicial? ¿Por qué?
+E JERCICIO 3.4 Evalúe la altura máxima en este mismo problema.
+RESPUESTA 80 m
+
+
+                                     ■ Examen rápido
+
+                                     3.6 Suponga que lleva una pelota y corre con rapidez constante, quiere lanzarla y atra-
+                                     parla cuando caiga. ¿Podría a) lanzar la pelota en un ángulo de casi 45° sobre la hori-
+                                     zontal y mantener la misma rapidez, b) lanzar la pelota con una trayectoria recta hacia
+                                     arriba en el aire y disminuir su velocidad hasta atrapar la pelota, o bien, c) lanzar la
+                                     pelota en una trayectoria recta hacia arriba en el aire y mantener la misma rapidez?
+                                     3.7 Cuando un proyectil se mueve en su trayectoria parabólica, los vectores de veloci-
+                                     dad y aceleración son perpendiculares entre sí a) en todas partes a lo largo de la tra-
+                                     yectoria del proyectil, b) en el pico de su trayectoria, c) en ningún lugar a lo largo de
+                                     su trayectoria, o bien, d) no se proporciona suficiente información.
+                                                                                       3.4 | Movimiento en dos dimensiones           67
+
+   ■ EJEMPLO 3.5             Exploradores sin recursos
+OB JET I VO Resolver un problema de movimiento de un proyectil en dos dimensiones en el                     y
+que un objeto tiene una velocidad inicial horizontal.                                                               40.0 m/s
+                                                                                                                     x
+PROBLEMA Un avión de rescate en Alaska deja caer un paquete de provisiones de emer-
+gencia a unos excursionistas sin recursos, como se muestra en la figura 3.19. El avión viaja
+horizontalmente a 40.0 m/s con una altura de 1.00 3 102 m sobre de la superficie de la tierra.
+a) ¿Dónde golpea el paquete la superficie de la tierra con respecto al punto en que éste fue
+                                                                                                         100 m
+liberado? b) ¿Cuáles son los componentes horizontal y vertical de la velocidad del paquete
+justo antes de que golpee la superficie de la tierra? c) Encuentre el ángulo de impacto.
+ESTR ATEGI A En este caso, sólo se toman las ecuaciones 3.13 y 3.14, con las cantidades
+conocidas y resolviendo para las cantidades desconocidas que quedan. Dibuje el problema
+utilizando un sistema coordenado como en la figura 3.19. En el inciso a), ajuste el compo-
+nente y de las ecuaciones de desplazamiento igual a 21.00 3 102 m —el nivel de la superficie
+de la tierra donde aterrizó el paquete— y resuelva para el tiempo que le toma al paquete             Figura 3.19 (Ejemplo 3.5)
+                                                                                                     Desde el punto de vista de un
+en alcanzar la superficie de la tierra. Para determinar el alcance, sustituya este tiempo en         observador sobre la superficie
+la ecuación de desplazamiento para el componente x. En el inciso b), sustituya el tiempo             del suelo, se libera un paquete
+encontrado en el inciso a) en las componentes de velocidad. Observe que la velocidad ini-            desde el avión de rescate que
+cial sólo tiene un componente x, lo que simplifica la matemática. La solución al inciso c)           viaja a lo largo de la trayectoria
+requiere la función inversa de la tangente.                                                          que se muestra.
+
+
+SOLUCIÓN
+a) Determine el alcance del paquete.
+Utilice la ecuación 3.14b para calcular el desplazamiento y:      Dy 5 y 2 y0 5 v 0y t 2 12g t 2
+
+Sustituya y 0 5 0 y v 0y 5 0, haga y 5 21.00 3 102 m —la          y 5 2(4.90 m/s2)t 2 5 21.00 3 102 m
+posición vertical final del paquete con respecto a la nave—       t 5 4.52 s
+y resuelva para el tiempo:
+
+Aplique la ecuación 3.13b para hallar el desplazamiento x:        Dx 5 x 2 x 0 5 v 0xt
+Sustituya x 0 5 0, v 0x 5 40.0 m/s y el tiempo:                   x 5 (40.0 m/s)(4.52 s)5 181 m
+
+b) Determine los componentes de la velocidad del paquete
+en el impacto:
+Encuentre el componente x de la velocidad en el tiempo del        vx 5 v 0 cos u 5 (40.0 m/s) cos 0° 5 40.0 m/s
+impacto:
+Determine el componente y de la velocidad en el tiempo de         vy 5 v 0 sen u 2 gt 5 0 2 (9.80 m/s2) (4.52 s) 5 244.3 m/s
+impacto:
+c) Determine el ángulo de impacto.
+                                                                            vy       244.3 m/s
+Escriba la ecuación 3.4 y sustituya valores:                      tan u 5        5             5 21.11
+                                                                            vx       40.0 m/s
+
+Aplique las funciones inversas de la tangente en ambos            u 5 tan21 (21.11) 5 248.0°
+lados:
+
+COMENTAR IOS Observe cómo el movimiento en la dirección x y el movimiento en la dirección y se manejan por separado.
+PREGUNTA 3. 5 Despreciando los efectos de fricción del aire, ¿qué trayectoria recorre el paquete cuando es observado por
+el piloto? ¿Por qué?
+E JERCICIO 3. 5 Un cantinero desliza un tarro con cerveza a 1.50 m/s hacia un cliente en el extremo de una barra sin
+fricción que tiene 1.20 m de alto. El cliente se prepara para atrapar el tarro y falla, el tarro abandona el extremo de la barra.
+a) ¿A qué distancia desde el final de la barra el tarro golpea el piso? b) ¿Cuáles son la rapidez y dirección del tarro en el
+impacto?
+RESPUESTAS a) 0.742 m b) 5.08 m/s, u 5 272.8°
+68     CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+     ■ EJEMPLO 3.6          Salto de longitud
+OB JET I VO Resolver un problema
+de movimiento en dos dimensiones
+que involucra un objeto que inicia
+y finaliza a la misma altura.
+PROBLEMA Un saltador de lon-
+gitud (figura 3.20) deja la super-
+ficie de la tierra en un ángulo de
+20.0° con la horizontal y con una
+
+
+                                       technotr/¡Stockphoto.com
+rapidez de 11.0 m/s. a) ¿Cuánto
+tiempo le toma alcanzar su altu-
+ra máxima? b) ¿Cuál es su altura
+máxima? c) ¿Qué distancia saltó?
+(Considere que su movimiento
+es equivalente al de una partícula,
+no considere el movimiento de sus                                 Figura 3.20 (Ejemplo 3.6) Esta fotografía de exposición múltiple de un saltador de longitud
+brazos y piernas.) d) Aplique la                                  muestra que, en realidad, el movimiento no es equivalente al movimiento de una partícula.
+ecuación 3.14c para hallar la altura                              El centro de masa del saltador sigue una parábola, más para extender la longitud del salto antes
+                                                                  del impacto, el saltador tira de sus pies por lo que golpea el suelo después de lo que de lo hubiera
+máxima que logra.
+                                                                  hecho de otro modo.
+ESTR ATEGI A Una vez más, con-
+sidere las ecuaciones de un proyectil, complete las cantidades conocidas y resuelva para las incógnitas. En la altura máxima,
+la velocidad en la dirección y es cero, de este modo ajustando la ecuación 3.14a igual a cero y resolviendo proporciona el
+tiempo que le toma para alcanzar su altura máxima. Por simetría, teniendo en cuenta que su trayectoria inicia y termina a la
+misma altura, duplicando este tiempo se conoce el tiempo total del salto.
+
+SOLUCIÓN
+
+máxima.                            www.elsolucionario.org
+a) Determine el tiempo tmáx que le toma alcanzar la altura
+
+
+Haga vy 5 0 en la ecuación 3.14a y resuelva para tmáx:                                                 vy 5 v 0 sen u0 2 gtmáx 5 0
+                                                                                                               v0 sen u 0
+                                                                                              (1)    tmáx 5
+                                                                                                                   g
+                                                                                                               1 11.0 m/s 2 1sen 20.0°2
+                                                                                                           5                                5 0.384 s
+                                                                                                                      9.80 m/s2
+b) Determine la altura máxima que logra.
+Sustituya el tiempo tmáx en la ecuación 3.14b para el                                         ymáx 5 1 v0 sen u 0 2 tmáx 2 12g 1 tmáx 2 2
+desplazamiento y:                                                                            y máx 5 (11.0 m/s)(sen 20.0°)(0.384 s)
+                                                                                                       2 12 1 9.80 m/s2 2 1 0.384 s 2 2
+                                                                                              y máx 5 0.722 m
+c) Encuentre la distancia horizontal que salta.
+Primero encuentre el tiempo para el salto, que es dos veces                                   t 5 2tmáx 5 2(0.384 s) 5 0.768 s
+tmáx:
+Sustituya este resultado en la ecuación para el                                               (2)    Dx 5 (v 0 cos u0)t
+desplazamiento x:                                                                                        5 (11.0 m/s)(cos 20.0°)(0.768 s) 5 7.94 m
+d) Aplique otro método para determinar la altura máxima.
+Aplique la ecuación 3.14c, resolviendo para )y:                                                vy2 2 v 0y2 5 22g Dy
+                                                                                                                v y 2 2 v 0y 2
+                                                                                                        Dy 5
+                                                                                                                   22g
+
+                                                                                                     0 2 3 1 11.0 m/s2 sen 20.0 4 2
+Sustituya vy 5 0 en la altura máxima y el hecho de que                                        Dy 5                                   5 0.722 m
+v 0y 5 (11.0 m/s) sen 20.0°:                                                                                22 1 9.80 m/s2 2
+                                                                                         3.4 | Movimiento en dos dimensiones                        69
+
+COMENTAR IOS Aunque la representación del movimiento del saltador de longitud como la de un proyectil es una simpli-
+ficación exagerada, los valores que se obtienen son razonables.
+PREGUNTA 3.6 Verdadero o Falso: Debido a que el componente x del desplazamiento no depende de manera explícita de
+g, la distancia horizontal recorrida no depende de la aceleración de gravedad.
+E JERCICIO 3.6 Un saltamontes salta una distancia horizontal de 1.00 m a partir del reposo, con una velocidad inicial en un
+ángulo de 45.0° con respecto a la horizontal. Determine a) la rapidez inicial del saltamontes y b) la altura máxima que alcanza.
+RESPUESTAS a) 3.13 m/s b) 0.250 m
+
+
+   ■ EJEMPLO 3.7                La ecuación de alcance
+OB JET I VO Hallar una ecuación para el desplazamiento horizontal máximo de un proyectil disparado desde el nivel de la
+superficie de la tierra.
+PROBLEMA Un atleta que participa en una competencia de salto de longitud, salta en el aire con una velocidad v 0 en un
+ángulo u0 con la horizontal. Obtenga una expresión para la distancia del salto en términos de v 0, u0 y g.
+ESTR ATEGI A Utilice los resultados del ejemplo 3.6, eliminando el tiempo t de las ecuaciones (1) y (2).
+
+SOLUCIÓN                                                                          2v 0 sen u 0
+Aplique la ecuación (1) del ejemplo 3.6 para hallar el             t 5 2t máx 5
+                                                                                       g
+tiempo de vuelo, t:
+                                                                                                                 2v0 sen u 0
+Sustituya esta expresión para t en la ecuación (2) del              Dx 5 1 v0 cos u 0 2 t 5 1 v0 cos u 0 2 a                 b
+                                                                                                                      g
+ejemplo 3.6:
+                                                                           2v02 cos u 0 sen u 0
+Simplifique:                                                        Dx 5
+                                                                                   g
+                                                                                   v 0 2 sen 2u0
+Sustituya la identidad 2 cos u0 sen u0 5 sen 2u0 para reducir      (1)     Dx 5
+                                                                                          g
+la expresión anterior a una función trigonométrica simple:
+
+COMENTAR IOS El uso de una identidad trigonométrica en la etapa final no es necesario, pero hace más fácil responder a
+la pregunta 3.7.
+PREGUNTA 3.7 ¿Qué ángulo u0 produce el salto más largo?
+E JERCICIO 3.7 Obtenga una expresión para el desplazamiento máximo del atleta en la dirección vertical, )y máx, en térmi-
+nos de v 0, u0 y g.
+                           v 0 2 sen2 u 0
+RESPUESTA Dy máx 5
+                                  2g
+
+
+   ■ EJEMPLO 3.8                Esto sí que es un brazo
+                                                                                                            y
+OB JET I VO Resolver un problema de cinemática en dos dimensiones con una                                       v0  20.0 m/s
+velocidad inicial no horizontal, iniciando y terminando en diferentes alturas.                     (0, 0)         30.0                 x
+PROBLEMA Se lanza una piedra hacia arriba desde la parte superior de
+un edificio en un ángulo de 30.0° con la horizontal y con una rapidez ini-
+cial de 20.0 m/s, como en la figura 3.21. El punto de liberación está a 45.0 m
+sobre la superficie de la tierra. a) ¿Cuánto tiempo le toma a la piedra golpear
+la superficie de la tierra? b) Determine la rapidez de la piedra en el impacto.            45.0 m
+c) Encuentre el alcance horizontal de la piedra. Omita la resistencia del aire.
+ESTR ATEGI A Elija coordenadas como en la figura, con el origen en el punto
+de liberación. a) Complete las constantes de la ecuación 3.14b para el despla-
+zamiento y y ajuste el desplazamiento igual a 245.0 m, el desplazamiento y                                                           (x, –45.0 m)
+cuando la piedra golpea la superficie de la tierra. Aplique la fórmula cuadrá-
+tica, resuelva para el tiempo. Para solucionar el inciso b), sustituya el tiempo del                                             x
+inciso a) en los componentes de la velocidad y sustituya el mismo tiempo en la
+ecuación del desplazamiento x para resolver el inciso c).                                  Figura 3.21 (Ejemplo 3.8)
+                                                                                                                                        (continúa)
+70     CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+SOLUCIÓN
+a) Determine el tiempo de vuelo.
+Determine los componentes x y y de la velocidad inicial:          v 0x 5 v 0 cos u0 5 (20.0 m/s)(cos 30.0°) 5 117.3 m/s
+                                                                   v 0y 5 v 0 sen u0 5 (20.0 m/s)(sen 30.0°) 5 110.0 m/s
+Calcule el desplazamiento y tomando y 0 5 0, y 5 245 .0 m         Dy 5 y 2 y0 5 v 0y t 2 12g t 2
+y v 0y 5 10.0 m/s:                                                      245.0 m 5 (10.0 m/s)t 2 (4.90 m/s2)t 2
+Reordene la ecuación en la forma estándar y aplique la fórmula    t 5 4.22 s
+cuadrática (véase el apéndice A) para hallar la raíz positiva:
+
+b) Halle la rapidez en el impacto.
+Sustituya el valor de t encontrado en el inciso a) dentro de      vy 5 v 0y 2 gt 5 10.0 m/s 2 (9.80 m/s2)(4.22 s)
+la ecuación 3.14a para determinar la componente y de la              5 231.4 m/s
+velocidad en el impacto:
+Utilice este valor de vy, el teorema de Pitágoras y el hecho      v 5 "v x 2 1 v y 2 5 " 1 17.3 m/s 2 2 1 1 231.4 m/s 2 2
+de que vx 5 v 0x 5 17.3 m/s para calcular la rapidez de la          5 35.9 m/s
+piedra en el impacto:
+c) Calcule el alcance horizontal de la piedra.
+Sustituya el tiempo de vuelo en la ecuación del alcance:          Dx 5 x 2 x 0 5 (v 0 cos u)t 5 (20.0 m/s)(cos 30.0°)(4.22 s)
+                                                                      5 73.1 m
+
+COMENTAR IOS El ángulo en el cual se lanza la piedra afecta el vector velocidad en todo el movimiento consecutivo, pero
+no afecta la rapidez en una altura determinada. Ésta es una consecuencia de la conservación de energía, que se describe en
+el capítulo 5.
+PREGUNTA 3.8 Verdadero o Falso: Con las condiciones previas sin cambio, si la piedra se lanza con la mitad de cierta rapi-
+dez, ésta viajará la mitad de la distancia.
+E JERCICIO 3.8 Suponga que la piedra se lanza desde la misma altura como en el ejemplo en un ángulo de 30.0° abajo de
+la horizontal. Si golpea la superficie de la tierra 57.0 m más allá, encuentre a) el tiempo de vuelo, b) la rapidez inicial y
+c) la rapidez y el ángulo del vector velocidad con respecto a la horizontal en el impacto. (Sugerencia: para el inciso a), aplique
+la ecuación para el desplazamiento x para eliminar v 0t de la ecuación para el desplazamiento y.)
+RESPUESTAS a) 1.57 s b) 41.9 m/s c) 51.3 m/s, 245.0°
+
+
+     ■ EJEMPLO 3.9          El cohete
+OB JET I VO Resolver un problema que involucra aceleración en dos direcciones.                                   v0x = 1.00  102 m/s
+
+PROBLEMA Un avión de reacción viaja horizontalmente con 1.00 3 102 m/s y deja
+caer un cohete desde una altura considerable. (Véase la figura 3.22.) Inmediatamente el
+cohete enciende sus motores acelerando a 20.0 m/s2 en la dirección x mientras va cayendo
+bajo la influencia de la gravedad en la dirección y. Cuando el cohete ha caído 1.00 km,             y  1.00  103 m
+halle a) su velocidad en la dirección y, b) su velocidad en la dirección x y c) la magnitud
+y dirección de su velocidad. Omita la fricción con el aire y la aerodinámica de elevación.
+ESTR ATEGI A Ya que el cohete mantiene una orientación horizontal (es decir, a través
+de un giroscopio), los componentes x y y de la aceleración son independientes entre sí.            Figura 3.22 (Ejemplo 3.9)
+                                                                                                        3.5 | Velocidad relativa    71
+
+    Aplique la ecuación independiente del tiempo para la velocidad en la dirección y para encontrar la componente y de la veloci-
+    dad después de que el cohete cae 1.00 km. A continuación calcule el tiempo de la caída y utilícelo para encontrar la velocidad
+    en la dirección x.
+
+    SOLUCIÓN
+    a) Halle la velocidad en la dirección y.
+    Aplique la ecuación 3.14c:                                       vy2 5 v 0y2 2 2g Dy
+    Sustituya v 0y 5 0, g 5 29.80 m/s2 y )y 5 21.00 3 103 m          vy2 2 0 5 2(29.8 m/s2)(21.00 3 103 m)
+    y resuelva para vy:                                                   vy 5 21.40 3 102 m/s
+
+    b) Halle la velocidad en la dirección x.
+    Encuentre el tiempo que tarda en caer el cohete                                   vy 5 v 0y 1 ayt
+    1.00 3 103 m, utilice el componente y de la velocidad:           21.40 3 10 m/s 5 0 2(9.80 m/s2)t
+                                                                                 2
+                                                                                                               S t 5 14.3 s
+    Sustituya t, v 0 y ax en la ecuación 3.11a para encontrar la     vx 5 v 0x 1 axt 5 1.00 3 10 m/s 1 (20.0 m/s2)(14.3 s)
+                                                                                                 2
+
+    velocidad en la dirección x:                                       5 386 m/s
+    c) Calcule la magnitud y dirección de la velocidad.
+    Encuentre la magnitud aplicando el teorema de Pitágoras          v 5 "v x 2 1 v y 2 5 " 1 21.40 3 102 m/s 2 2 1 1 386 m/s 2 2
+    y los resultados de los incisos a) y b):                          5 411 m/s
+                                                                                vy           21.40 3 102 m/s
+    Aplique la función tangente inversa para calcular el ángulo:     u 5 tan21 a b 5 tan21 a                 b 5 219.9°
+                                                                                vx               386 m/s
+
+
+    COMENTAR IOS Observe la analogía: las ecuaciones de cinemática para las direcciones x y y se manejan exactamente de
+    la misma manera. Se tiene una aceleración diferente de cero en la dirección x sin incrementar de manera considerable la
+    dificultad del problema.
+    PREGUNTA 3.9 Verdadero o Falso: Omita la fricción del aire, un proyectil con una aceleración horizontal permanece en
+    el aire más que un proyectil en caída libre.
+    E JERCICIO 3.9 Considere una motocicleta impulsada por un cohete que es lanzada horizontalmente desde el reposo por
+    encima de un cañón de 1.00 km de ancho. a) ¿Qué aceleración constante, mínima, deben proporcionar los motores en la
+    dirección x de tal modo que la motocicleta cruce con seguridad si el lado opuesto está 0.750 km más abajo que el punto de
+    partida? b) ¿Con qué rapidez aterriza la motocicleta si se mantiene constante esta componente horizontal de la aceleración?
+    Desprecie la fricción con el aire, pero recuerde que la gravedad todavía actúa en la dirección y negativa.
+    RESPUESTAS a) 13.1 m/s2 b) 202 m/s
+
+
+  ■ EJEMPLO 3.10            Practique lanzamientos en el tren
+OB JET I VO Resolver un problema de velocidad relativa en una dimensión.
+PROBLEMA Un tren viaja con una rapidez de 15.0 m/s relativa a la Tierra. Un pasajero de pie en el fondo del tren lanza
+una pelota con una rapidez de 15.0 m/s relativa desde el extremo posterior del tren, en la dirección opuesta al movimiento
+del mismo. a) ¿Cuál es la velocidad de la pelota relativa a la Tierra? b) ¿Cuál es la velocidad de la pelota con respecto a la
+Tierra si se tira a la misma velocidad en la dirección opuesta?
+                                                                                                     3.5 | Velocidad relativa           73
+
+ESTR ATEGI A Resuelva estos problemas colocando los                para la pelota. La segunda oración pregunta la velocidad
+                                                                                                      S
+subíndices adecuados en las velocidades y reordene como            de la pelota relativa a la Tierra, vBTi. El resto del problema
+en la ecuación 3.16. En la primera oración del enunciado           puede resolverse identificando las componentes correctas
+del problema, se informa que el tren viaja a “15.0 m/s rela-       de las cantidades conocidas y resolviendo para las incógni-
+                                    S
+tiva a la Tierra”. Esta cantidad es vTi, con T para tren y Ti      tas, aplicando una ecuación semejante a la 3.16. El inciso b)
+para Tierra. El pasajero lanza la pelota a “15.0 m/s relativa      sólo requiere un cambio de signo.
+                                              S
+al tren”, de tal modo que esta cantidad es vBT, donde B es
+
+SOLUCIÓN
+a) ¿Cuál es la velocidad de la pelota, relativa a la Tierra?
+                                                                    S
+Escriba los componentes x de las cantidades conocidas:             (vT Ti)x 5 115 m/s
+                                                                    S
+                                                                   (vBT)x 5 215 m/s
+
+                                                                         S       S         S
+Siga la ecuación 3.16:                                             (1) (vBT)x 5 (vBTi)x 2 (vT Ti)x
+
+                                                                                 S
+Sustituya los valores conocidos y resuelva:                        215 m/s 5 (vBTi)x 2 15 m/s
+                                                                        S
+                                                                        (vBTi)x 5 0
+b) ¿Cuál es la velocidad de la pelota relativa a la Tierra si se
+tira a la misma la velocidad en la dirección opuesta?
+           S                                                                     S
+Sustituya (vBT)x 5 115 m/s en la ecuación (1):                     115 m/s 5 (vBT)x 2 15 m/s
+                                                                        S
+                S                                                       (vBT)x 5 13.0 3 101 m/s
+Resuelva para (vBT)x:
+
+PREGUNTA 3.10 Describa el movimiento de la pelota como lo vería un observador en la superficie del suelo.
+E JERCICIO 3.10 Un tren está viajando a 27 m/s relativa a la Tierra y un pasajero de pie en el tren lanza una pelota a 15 m/s
+con respecto al tren en la misma dirección con la que éste se mueve. a) Halle la rapidez de la pelota con respecto a la Tie-
+rra. b) Repita el ejercicio si la pelota es lanzada en dirección opuesta.
+RESPUESTA a) 212 m/s b) 242 m/s
+
+
+   ■ EJEMPLO 3.11               Cruzando un río
+OB JET I VO Resolver un problema de movimiento relativo simple en dos dimensiones.
+PROBLEMA El bote en la figura 3.24 se dirige hacia el norte cuando cruza un río ancho con
+                                                                                                                             S
+una velocidad de 10.0 km/h relativa al agua. El río tiene una velocidad uniforme de 5.00 km/h                                v RT
+hacia el este. Calcule la velocidad del bote con respecto a un observador ubicado en la rivera.
+                                                                                                                                    S
+ESTR ATEGI A Una vez más, vea frases clave. “El bote (tiene)... una velocidad de 10.0 km/h                                          v BT
+                            S                                                                                     S
+relativa al agua” dada por vBR. “El río tiene una velocidad uniforme de 5.00 km/h hacia el este”                  v BR
+           S
+dada por vRE, porque esto involucra velocidad con respecto a la Tierra. El observador en la rivera                       u
+                                                                                                              N
+está en un marco de referencia en reposo con respecto a la Tierra. Ya que se busca la velocidad
+                                                                           S
+del bote con respecto a ese observador, esta última velocidad se designa vBT. Tome como el este           O        E
+la dirección 1x y como el norte la dirección 1y.                                                              S
+
+
+                                                                                                        Figura 3.24 (Ejemplo 3.11)
+
+SOLUCIÓN
+                                                                   S         S   S
+Ordene las tres ecuaciones dentro de la ecuación de                vBR 5 vBT 2 vRT
+velocidad relativa apropiada:
+
+
+                                                                                                                             (continúa)
+74     CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+Escriba los vectores de velocidad en términos de sus compo-              Vector        Componente x (km/h)              Componente y (km/h)
+nentes. Por conveniencia, éstos se organizan en la tabla que               S
+sigue:                                                                     vBR                           0                             10.0
+                                                                           S
+                                                                           vBT                          vx                              vy
+                                                                           S
+                                                                           vRT                         5.00                             0
+
+Encuentre la componente x de la velocidad:                           0 5 vx 2 5.00 km/h S vx 5 5.00 km/h
+Halle la componente y de la velocidad:                               10.0 km/h 5 vy 2 0 S vy 5 10.0 km/h
+
+                                                                     v BT 5 "v x 2 1 v y 2
+                         S
+Calcule la magnitud de vBT:
+                                                                           5 " 1 5.00 km/h 2 2 1 1 10.0 km/h 2 2 5 11.2 km/h
+
+
+                                                                     u 5 tan21 a b 5 tan21 a          b5
+                             S                                                  vx           5.00 m/s
+Determine la dirección de vBT:                                                                                                  26.6°
+                                                                                vy           10.0 m/s
+
+COMENTAR IOS El bote viaja con una rapidez de 11.2 km/h en la dirección 26.6° al noreste con respecto a la Tierra.
+PREGUNTA 3.11 Si la rapidez del bote relativa al agua se incrementa, ¿qué le sucede al ángulo?
+E JERCICIO 3.11 Considere que el río fluye hacia el este a 3.00 m/s, y el bote está viajando al sur a 4.00 m/s con respecto a
+la rivera. Determine la rapidez y la dirección del bote relativas a la Tierra.
+RESPUESTA 5.00 m/s, 53.1° al sureste
+
+
+     ■ EJEMPLO 3.12          Opuesto a la corriente
+OB JET I VO Resolver un problema complejo
+de movimiento relativo en dos dimensiones.
+PROBLEMA Si el capitán del bote del ejem-                                                              S
+                                                                                                       vRT
+plo 3.11 se mueve con la misma rapidez de
+10.0 km/h relativa al agua, pero ahora quiere                                                                                   608
+                                                                                                                 S
+                                                                                                                 v BT                 458
+viajar hacia el norte, como en la figura 3.25a,
+¿en qué dirección se dirige? ¿Cuál es la rapidez                                                   S
+                                                                                                   vBR
+del bote, de acuerdo con un observador en la                                           N                     u              N
+                                                                                                                                S
+                                                                                                                                 vBR
+                                                                                                                                              S
+                                                                                                                                              v BT
+rivera? El río está fluyendo al este a 5.00 km/h.
+                                                                                 O             E                        O        E
+ESTR ATEGI A Proceda como en el ejemplo                                                                                                       S
+                                                                                       S                                    S                 vRT
+anterior. En esta situación, se debe encontrar       Figura 3.25
+la orientación del bote y su velocidad con res-      a) (Ejemplo 3.12)
+                                                     b) (Ejercicio 3.12)           a                                    b
+pecto al agua, utilizando el hecho de que el
+bote viaja hacia el norte.
+
+SOLUCIÓN
+                                                                     S         S           S
+Ordene las tres cantidades, como antes:                              vBR 5 vBT 2 vRT
+
+
+Organice una tabla de componentes de velocidad:                          Vector        Componente x (km/h)              Componente y (km/h)
+                                                                           S
+                                                                           vBR             2(10.0 km/h) sen u               (10.0 km/h) cos u
+                                                                           S
+                                                                           vBT                      0                               v
+                                                                           S
+                                                                           vRT                 5.00 km/h                            0
+
+La componente x de la ecuación de velocidad relativa                 2(10.0 m/s)sen u 5 0 2 5.00 km/h
+puede ser utilizada para hallar u:                                                                       5.00 km/h   1.00
+                                                                                           sen u 5                 5
+                                                                                                         10.0 km/h   2.00
+                                                                                       1.00
+Aplique la función seno inverso y encuentre u, que es la             u 5 sen21              5 30.0°
+                                                                                       2.00
+orientación del bote, noreste:
+                                                                                                                   | Resumen
+
+
+  La componente y de la ecuación de velocidad relativa se            (10.0 km/h) cos u 5 v S v 5 8.66 km/h
+  puede utilizar para calcular v:
+
+  COMENTAR IOS De la figura 3.25, vemos que este problema se puede resolver con el teorema de Pitágoras, porque el pro-
+  blema incluye un triángulo rectángulo: el componente x de la velocidad del bote cancela exactamente la velocidad del río.
+  Cuando éste no es el caso, es necesaria una técnica más general, como se muestra en el ejercicio siguiente. Observe que en
+  el componente x de la ecuación de velocidad relativa se ha incluido un signo menos en el término 2(10.0 km/h)sen u por-
+  que el componente x de la velocidad del bote con respecto a la rivera es negativo.
+  PREGUNTA 3.1 2 La rapidez en este ejemplo es la misma que en el ejemplo 3.11. ¿Por qué el ángulo no es el mismo que
+  antes?
+  E JERCICIO 3.1 2 Considere que el río fluye hacia el este a 5.00 km/h, y el bote viaja a 45.0° al sureste con respecto a la
+  Tierra. Determine a) la rapidez del bote con respecto a la Tierra y b) la rapidez del bote con respecto a la rivera si la orien-
+  tación del bote es 60.0° al sureste. (Véase la figura 3.25b.) Tendrá que resolver dos ecuaciones con dos incógnitas. (Como
+  alternativa, puede utilizar la ley de senos.)
+  RESPUESTAS a) 16.7 km/h b) 13.7 km/h
+
+
+   ■ EJEMPLO 4.1             Aerobote
+OB JET I VO Aplicar la segunda ley de Newton en una dimensión, junto con las ecuaciones de cinemática.
+PROBLEMA Un aerobote con masa 3.50 3 102 kg, incluyendo pasajeros, tiene un motor que produce una fuerza horizontal
+neta de 7.70 3 102 N después de considerar las fuerzas de resistencia (véase la figura 4.6). a) Hallar la aceleración del aerobote.
+                                                                                                4.3 | Segunda ley de Newton
+
+b) Partiendo desde el reposo, ¿cuánto tiempo le toma al aerobote alcanzar                                       S
+                                                                                Propela                         Fpropulsión
+una rapidez de 12.0 m/s? c) Después de alcanzar esta rapidez, el piloto
+apaga el motor, y el aerobote se desliza hasta detenerse en una distancia de
+50.0 m. Encontrar la fuerza de resistencia, suponiendo que es constante.
+ESTRATEGIA En el inciso a), aplique la segunda ley de Newton para                                                S
+hallar la aceleración, y en el inciso b) utilice esta aceleración en la ecua-                                    Fresistencia
+ción cinemática en una dimensión para la velocidad. Cuando se apaga el
+motor en el inciso c), sólo las fuerzas de resistencia actúan en el bote, de
+tal modo que su aceleración neta puede ser encontrada a partir de v2 2
+                                                                                Figura 4.6 (Ejemplo 4.1)
+v02 5 2a )x. En tal caso la segunda ley de Newton proporciona la fuerza
+de resistencia.
+
+SOLUCIÓN
+a) Halle la aceleración del aerobote.
+                                                                                             Fneta   7.70 3 102 N
+Aplique la segunda ley de Newton y resuelva para la                ma 5 Fneta   S       a5         5
+aceleración:
+                                                                                              m      3.50 3 102 kg
+                                                                                                 5 2.20 m/s2
+b) Encuentre el tiempo necesario para alcanzar una rapidez
+de 12.0 m/s.
+Aplique la ecuación de velocidad cinemática:                       v 5 at 1 v 0 5 (2.20 m/s2)t 5 12.0 m/s               S t 5 5.45 s
+c) Halle la fuerza de resistencia después de apagar el
+motor.
+Utilizando la cinemática, determine la aceleración neta            v 2 2 v 02 5 2a Dx
+debido a las fuerzas de resistencia:                               0 2 (12.0 m/s)2 5 2a(50.0 m)            S a 5 21.44 m/s2
+Sustituya la aceleración en la segunda ley de Newton,              F resistencia 5 ma 5 (3.50 3 102 kg)(21.44 m/s2) 5 2504 N
+encontrando la fuerza de resistencia:
+
+COMENTAR IOS El propulsor ejerce una fuerza en el aire, empujándolo detrás del bote.
+Al mismo tiempo, la fuerza del aire ejerce una fuerza en los impulsores y, en consecuen-              Tip 4.3 La segunda ley
+                                                                                                      de Newton es una ecuación
+cia, en el aerobote. Las fuerzas siempre vienen en pares de esta clase, las cuales se forma-
+                                                                                                      vectorial
+lizan en la siguiente sección como la tercera ley de movimiento de Newton. La respuesta
+negativa para la aceleración en el inciso c) significa que el aerobote está disminuyendo              Al aplicar la segunda ley de
+                                                                                                      Newton, suma todas las fuerzas
+su velocidad.                                                                                         sobre el objeto como vectores y
+PREGUNTA 4.1 ¿Qué otras fuerzas actúan en el aerobote? Descríbalas.                                   entonces determine el vector de
+                                                                                                      aceleración resultante al dividir
+E JERCICIO 4.1 Considere que el piloto, iniciando desde el reposo, abre parcialmente                  entre m. No encuentre las magni-
+el estrangulamiento. Con una aceleración constante, el aerobote cubre una distancia de                tudes individuales de las fuerzas y
+60.0 m en 10.0 s. Determine la fuerza neta que actúa en el bote.                                      las sume como escalares.
+
+RESPUESTA 4.20 3 102 N
+
+
+   ■ EJEMPLO 4.2             Caballos jalando una barcaza
+                                                                                                  y
+OB JET I VO Aplicar la segunda ley de Newton en un problema
+de dos dimensiones.
+                                                                                                      S
+PROBLEMA Dos caballos están jalando una barcaza con                                                   F1
+masa de 2.00 3 10 kg a lo largo de un canal, como se mues-
+                    3
+                                                                                                           u1
+                                                                                                                                            x
+tra en la figura 4.7. El cable conectado al primer caballo hace                                            u2
+                                                                                                      S
+un ángulo de u1 5 30.0° con respecto a la dirección del canal,                                        F2
+mientras que el cable conectado al segundo caballo hace un
+ángulo de u2 5 45.0°. Determine la aceleración inicial de la
+barcaza, empezando desde el reposo, si cada caballo ejerce
+una fuerza de magnitud 6.00 3 102 N sobre la barcaza. Despre-
+cie las fuerzas de resistencia en la barcaza.
+ESTR ATEGI A Aplicando trigonometría, determine el vector             Figura 4.7 (Ejemplo 4.2)
+fuerza ejercido por cada caballo sobre la barcaza. Sume las                                                                     (continúa)
+       CAPÍTULO 4 | Leyes de movimiento
+
+componentes x juntas para obtener la componente x de la fuerza resultante y después haga lo mismo con la componente y.
+Divida entre la masa de la barcaza para obtener la aceleración en las direcciones x y y.
+
+SOLUCIÓN
+Determine los componentes x de las fuerzas ejercidas por        F 1x 5 F 1 cos u1 5 (6.00 3 102 N) cos (30.0°) 5 5.20 3 102 N
+los caballos.
+                                                                F 2x 5 F 2 cos u2 5 (6.00 3 102 N) cos (245.0°) 5 4.24 3 102 N
+Encuentre la fuerza total en la dirección x, sumando las        Fx 5 F 1x 1 F 2x 5 5.20 3 102 N 1 4.24 3 102 N
+componentes x:
+                                                                                      5 9.44 3 102 N
+Determine las componentes y de las fuerzas ejercidas por        F 1y 5 F 1 sen u1 5 (6.00 3 102 N) sen 30.0° 5 3.00 3 102 N
+los caballos:
+                                                                F 2y 5 F 2 sen u2 5 (6.00 3 102 N) sen (245.0°)
+                                                                                      5 24.24 3 102 N
+Encuentre la fuerza total en la dirección y sumando las         F y 5 F 1y 1 F 2y 5 3.00 3 102 N 2 4.24 3 102 N
+componentes y:
+                                                                                      5 21.24 3 102 N
+
+                                                                        Fx   9.44 3 102 N
+Determine los componentes de la aceleración, dividiendo          ax 5      5               5 0.472 m/s2
+los componentes de la fuerza entre la masa:
+                                                                        m    2.00 3 103 kg
+                                                                        Fy        21.24 3 102 N
+                                                                 ay 5        5                  5 20.062 0 m/s2
+                                                                        m         2.00 3 103 kg
+
+Halle la magnitud de la aceleración:                            a 5 "a x 2 1 a y 2 5 " 1 0.472 m/s2 2 2 1 1 20.062 0 m/s2 2 2
+                                                                                        5 0.476 m/s2
+
+                                                                             ay       20.062 0 m/s2
+Determine la dirección de la aceleración:                       tan u 5           5                 5 20.131
+                                                                             ax        0.472 m/s2
+                                                                    u 5 tan21(20.131) 5 27.46°
+
+COMENTAR IOS Observe que el ángulo está en el cuarto cuadrante, en el rango de la función tangente inversa; así que no
+es necesario sumar 180° a la respuesta. Los caballos ejercen una fuerza sobre la barcaza a través de la tensión en los cables,
+mientras la barcaza ejerce una fuerza igual y opuesta en los caballos, una vez más a través de los cables. Si esto no fuera
+cierto, los caballos se moverían fácilmente hacia adelante, como si no tuvieran carga. Este ejemplo es otra ilustración de
+fuerzas que actúan en pares.
+PREGUNTA 4. 2 Verdadero o Falso: En general, la aceleración neta siempre está dirigida hacia los caballos que ejercen la
+fuerza de mayor magnitud.
+E JERCICIO 4. 2 Repita el ejemplo 4.2, pero considere que el caballo de arriba jala en un ángulo de 40.0°, y el caballo de
+abajo, a 20.0°.
+RESPUESTA 0.520 m/s2, 10.0°
+       CAPÍTULO 4 | Leyes de movimiento
+
+
+   ■ EJEMPLO 4.3              Fuerzas de mundos distantes
+OB JET I VO Calcular la magnitud de una fuerza gravitacional, utilizando la ley de gravitación de Newton.
+PROBLEMA a) Halle la fuerza gravitatoria ejercida por el Sol sobre un hombre de 70.0 kg situado en el Ecuador de la
+Tierra al mediodía, cuando el hombre está más cercano al Sol. b) Calcule la fuerza gravitatoria del Sol sobre el hombre
+a la medianoche, cuando está más alejado del Sol. c) Calcule la diferencia en la aceleración del Sol, entre el mediodía y la
+medianoche. (Para valores, véase la tabla 7.3 en la página 223.)
+ESTR ATEGI A Para obtener la distancia del Sol al hombre al mediodía, reste el radio de la Tierra de la distancia al Sol. A la
+medianoche, agregue el radio de la Tierra. Mantenga suficientes cifras para que el redondeo no elimine la pequeña diferen-
+cia entre las dos respuestas. Para el inciso c), reste la respuesta de b) de a) y divida entre la masa del hombre.
+
+SOLUCIÓN
+a) Halle la fuerza gravitatoria ejercida por el Sol sobre
+el hombre en el Ecuador de la Tierra al mediodía.
+                                                                                          mMSG      mMSG
+                                                                                      5        5
+                                                                                                 1 rS 2 R T2 2
+Escriba la ley de la gravitación, ecuación 4.5, en términos          (1)   F mediodía
+                                                                             Sol
+de la distancia desde el Sol a la Tierra, rS , y del radio de la                           r2
+Tierra, RT :
+                                                                                  1 70.0 kg 2 1 1.991 3 1030 kg 2 1 6.67 3 10211 kg21m3/s2 2
+                                                                              5
+                                                                                            1 1.496 3 1011 m 2 6.38 3 106 m 2 2
+Sustituya valores en la ecuación (1) y mantenga                    F mediodía
+                                                                     Sol
+dos dígitos extra:
+                                                                            5 0.415 19 N
+b) Calcule la fuerza gravitatoria del Sol sobre el hombre a la
+medianoche.
+                                                                                          mMSG    mMSG
+Escriba la ley de la gravitación, sumando esta vez el radio          (2) F mediodía
+                                                                           Sol      5          5
+de la Tierra:                                                                              r2    rS 1 R T 2
+
+
+                                                                                  1 70.0 kg 2 1 1.991 3 1030 kg 2 1 6.67 3 10211 kg21m3/s2 2
+                                                                              5
+                                                                                           1 1.496 3 1011 m 1 6.38 3 106 m 2 2
+Sustituya valores en la ecuación (2):                              F mediodía
+                                                                     Sol
+
+
+                                                                             5 0.415 12 N
+
+c) Calcular la diferencia en la aceleración solar del hombre,
+entre el mediodía y la medianoche.
+                                                                           F mediodía
+                                                                             Sol      2 F medianoche
+                                                                                          Sol          0.415 19 N 2 0.415 12 N
+Escriba una expresión para la diferencia en la aceleración           a5                              5
+                                                                                       m                        70.0 kg
+y sustituya valores:
+                                                                        > 1 3 1026 m/s2
+
+
+COMENTAR IOS La atracción gravitacional entre el Sol y los objetos sobre la Tierra se mide fácilmente y se le ha sacado
+provecho en experimentos, para establecer si la atracción gravitacional depende de la composición del objeto. Como el
+ejercicio lo muestra, la fuerza gravitacional sobre la Tierra debido a la Luna es mucho más débil que la fuerza gravitacional
+sobre la Tierra debido al Sol. Paradójicamente, los efectos de la Luna en las mareas son dos veces más que del Sol, ya que
+las mareas dependen de las diferencias en la fuerza gravitacional a través de la Tierra, y aquellas diferencias son más grandes
+para la fuerza gravitacional de la Luna debido a que la Luna está más cerca de la Tierra que del Sol.
+PREGUNTA 4. 3 Marte se encuentra a 1.5 veces más lejos del Sol que la Tierra. Sin realizar algún cálculo explícito, para
+una cifra significativa, cuál es la fuerza gravitacional del Sol en un hombre de 70.0 kg, de pie sobre Marte.
+E JERCICIO 4. 3 Durante la luna nueva, la Luna se encuentra directamente sobre la cabeza al mediodía. a) Determine la
+fuerza ejercida por la Luna sobre un hombre de 70.0 kg en el Ecuador de la Tierra al mediodía. b) Calcule la fuerza gravi-
+tacional de la Luna sobre el hombre a la medianoche. c) Calcule la diferencia entre la aceleración del hombre debida a la
+Luna entre el mediodía y la medianoche. Nota: La distancia de la Tierra a la Luna es 3.84 3 108 m. La Luna tiene una masa
+de 7.36 3 1022 kg.
+RESPUESTAS a) 2.41 3 1023 N b) 2.25 3 1023 N c) 2.3 3 1026 m/s2
+                                                                                           4.4 | Tercera ley de Newton     95
+
+  ■ EJEMPLO 4.4             Peso en el Planeta X
+OB JET I VO Comprender el efecto de la masa y el radio de un planeta sobre el peso de un objeto, en la superficie del mismo.
+PROBLEMA Un astronauta en una misión espacial aterriza sobre un planeta con tres veces la masa y dos veces el radio de
+la Tierra. ¿Cuál es su peso wX en este planeta como un múltiplo de su peso en la Tierra wT ?
+ESTR ATEGI A Escriba MX y rX , la masa y el radio del planeta, en términos de MT y RT, la masa y radio de la Tierra, respecti-
+vamente, y sustituya en la ley de la gravitación.
+
+SOLUCIÓN
+A partir del enunciado del problema, se tiene la correspon-     MX 5 3MT     rX 5 2RT
+dencia que sigue:
+
+                                                                         MXm      3MT m        3 MT m   3
+                                                                wX 5 G      2 5 G          2 5      2 5
+                                                                                  1      2
+Sustituya las expresiones anteriores en la ecuación 4.5 y                                       G         w
+                                                                         rX         2R T       4 RT     4 T
+simplifique, asocie algebraicamente los términos que dan
+el peso sobre la Tierra:
+
+COMENTAR IOS Este problema muestra la influencia recíproca entre la masa y el radio de un planeta al determinar el
+peso de objetos sobre su superficie. Debido al radio mucho más pequeño de la Tierra, el peso de un objeto en Júpiter es sólo
+2.64 veces su peso en la Tierra, a pesar del hecho de que Júpiter tiene más de 300 veces más masa.
+PREGUNTA 4.4 Un volumen de piedra tiene una masa aproximada de tres veces un volumen similar de hielo. Considere
+que un mundo está hecho de hielo, mientras que otro con el mismo radio está hecho de roca. Si g es la aceleración de la gra-
+vedad en la superficie del mundo de hielo, ¿cuál es la aceleración aproximada de gravedad en el mundo de roca? (Sugerencia:
+Establezca la masa de una roca en términos de la masa de un cubo de hielo que tiene el mismo tamaño.)
+E JERCICIO 4.4 Un astronauta aterriza en Ganímedes, una luna gigante de Júpiter que es más grande que Mercurio.
+Ganímedes tiene una cuadragésima parte de la masa de la Tierra y dos quintos de su radio. Determine el peso del astron-
+auta de pie en Ganímedes en términos de su peso en la Tierra w T.
+RESPUESTA wG 5 (5/32)w T
+98     CAPÍTULO 4 | Leyes de movimiento
+
+E JERCICIO 4. 5 Un astronauta de 148 kg de masa total en el espacio ejerce una fuerza de 265 N en un satélite de libre flo-
+tación de masa 635 kg, empujándolo en la dirección x positiva. a) ¿Cuál es la fuerza de reacción ejercida por el satélite sobre
+el astronauta? Calcule las aceleraciones de b) el astronauta y c) el satélite.
+RESPUESTAS a) 2265 N b) 21.79 m/s2 c) 0.417 m/s2
+100     CAPÍTULO 4 | Leyes de movimiento
+
+
+   ■ EJEMPLO 4.6             Semáforos en reposo
+                                                                                                            S                           S
+OB JET I VO Aplicar la segunda ley a un problema de equilibrio                                              T3               y          T2
+que necesita dos diagramas de cuerpo libre.                                 37.0     53.0
+                                                                                                                 S
+                                                                                                                 T1
+PROBLEMA Un semáforo pesa 1.00 3 10 N cuelga de un
+                                               2
+                                                                              T1           T2
+cable vertical atado a otros dos que están unidos a un soporte,
+                                                                                                                     37.0           53.0
+como en la figura 4.14a. Los cables superiores forman un                                                                                     x
+                                                                                      T3
+ángulo de 37.0° y 53.0° con la horizontal. Determine la tensión
+en cada uno de los tres cables.
+ESTRATEGI A Existen tres incógnitas, de tal manera que nece-
+                                                                                                            S
+sitamos generar tres ecuaciones que las relacionen, que después                                             Fg                   S
+                                                                                                                                 T3
+podamos resolver. Se puede obtener una ecuación aplicando
+la segunda ley de Newton al semáforo, que tiene fuerzas sólo            a                               b            c
+en la dirección y. Dos ecuaciones más se pueden determinar al
+aplicar la segunda ley en el nudo que une los cables: una ecua-       Figura 4.14 (Ejemplo 4.6) a) Un semáforo suspendido
+                                                                      mediante cables. b) Diagrama de cuerpo libre para el semáforo.
+ción para la componente x y otra para la componente y.
+                                                                      c) Diagrama de cuerpo libre para el nudo en la unión de los cables.
+
+
+SOLUCIÓN
+Encuentre T3 a partir de la figura 4.14b, utilizando la condi-   o Fy 5 0      S    T3 2 Fg 5 0
+ción de equilibrio:
+                                                                 T3 5 Fg 5 1.00 3 102 N
+
+Utilizando la figura 4.14c, resuelva las tres tensiones en las
+componentes y, por conveniencia, construya una tabla:            Fuerza              Componente x                 Componente y
+                                                                  S
+                                                                 T1                   2T1 cos 37.0°                   T1 sen 37.0°
+                                                                 S
+                                                                 T2                    T2 cos 53.0°                   T2 sen 53.0°
+                                                                 S
+                                                                 T3                             0                 21.00 3 102 N
+
+
+Aplique la condición de equilibrio para el nudo, utilizando      (1) o Fx 5 2T1 cos 37.0° 1 T2 cos 53.0° 5 0
+las componentes en el cable:
+                                                                 (2) o F y 5 T1 sen 37.0° 1 T2 sen 53.0° 2 1.00 3 102 N 5 0
+
+
+                                                                 T2 5 T1 a              b 5 T1 a       b 5 1.33T1
+                                                                              cos 37.0°          0.799
+Existen dos ecuaciones y dos incógnitas. Resuelva la
+                                                                              cos 53.0°          0.602
+ecuación (1) para T2:
+
+
+Sustituya el resultado para T2 en la ecuación (2):               T1 sen 37.0° 1 (1.33T1)(sen 53.0°) 2 1.00 3 102 N 5 0
+                                                                 T1 5 60.1 N
+                                                                 T2 5 1.33T1 5 1.33(60.1 N) 5 79. 9 N
+
+
+COMENTAR IOS Es muy fácil tener errores de signo en esta clase de problemas. Una manera de evitarlos es medir siempre
+el ángulo de un vector desde la dirección x positiva. En tal caso
+                                                              S
+                                                                  las funciones trigonométricas del ángulo automáticamente
+darán el signo correcto para los componentes. Por ejemplo, T 1 forma un ángulo de 180° 2 37° 5 143° con respecto al eje x
+positivo y su componente x, T1 cos 143°, es negativo, como debe ser.
+PREGUNTA 4.6 ¿Cómo cambiaría la respuesta si un segundo semáforo se une debajo del primero?
+E JERCICIO 4.6 Considere que el semáforo está colgado de tal manera que las tensiones T1 y T2 son iguales a 80.0 N.
+Hallar los nuevos ángulos que se forman con respecto al eje x. (Por simetría, estos ángulos serán los mismos.)
+RESPUESTA Los dos ángulos son de 38.7°.
+                                                                                       4.5 | Aplicaciones de las leyes de Newton             101
+
+   ■ EJEMPLO 4.7              Trineo sobre una colina sin fricción
+OB JET I VO Utilizar la segunda ley de Newton y la
+fuerza normal en un problema de equilibrio.
+PROBLEMA Un trineo es atado a un árbol sobre una
+colina cubierta de nieve, sin fricción, como se muestra                                                                 y
+en la figura 4.15a. Si el trineo pesa
+                                   S
+                                       77.0 N, determine                                                                 S                   x
+                                                                                                                         n
+la fuerza ejercida por la cuerda T y la magnitud de la                                                                                      S
+       S                                                                                                                                    T
+fuerza n ejercida por la colina sobre el trineo.                                                                 2mg sen u
+                                                                                                                                    u 5 30.08
+ESTRATEGI A Cuando un objeto está sobre la pen-
+                                                                                                                                        2mg cos u
+diente, es conveniente usar coordenadas inclinadas,
+como en la figura 4.15b, de tal modo que la fuerza   S
+                                                          nor-                                                               S
+     S                                                                                                                             S
+mal n está en la dirección y y la fuerza de tensión T está en                                                                Fg 5 m g
+                                                                           u  30.08
+la dirección x. En ausencia de fricción, la colina no ejercerá
+fuerza sobre el trineo en la dirección x. Como el trineo
+está en reposo, aplique las condiciones para el equilibrio,        a                                             b
+o Fx 5 0 y oF y 5 0, que proporcionan dos ecuaciones
+para las dos incógnitas, la tensión y la fuerza normal.          Figura 4.15 (Ejemplo 4.7) a) Un trineo atado a un árbol sobre una
+                                                                 colina sin fricción. b) Un diagrama de cuerpo libre para el trineo.
+SOLUCIÓN
+                                                     S                    S    S       S   S
+Aplique la segunda ley de Newton al trineo, con a 5 0:                 a F 5 T 1 n 1 Fg 5 0
+
+
+Extraiga la componente x de esta ecuación para encontrar               a Fx 5 T 1 0 2 mg sen u 5 T 2 1 77.0 N 2 sen 30.0 5 0
+T. La componente x de la fuerza normal es cero y se propor-
+                                                                          T 5 38.5 N
+ciona el peso del trineo mediante mg 5 77.0 N.
+
+Escriba la segunda ley de Newton para la componente y.                 a Fy 5 0 1 n 2 mg cos u 5 n 2 1 77.0 N 2 1 cos 30.0 2 5 0
+La componente y de la tensión es cero, de tal modo que esta
+                                                                           n 5 66.7 N
+ecuación proporcionará la fuerza normal.
+
+COMENTAR IOS A diferencia de su valor sobre una superficie horizontal, n es menor que el peso del trineo cuando éste se
+encuentra sobre la pendiente. Esto es sólo en parte a causa de la fuerza de gravedad (la componente x) que actúa jalando el
+trineo hacia abajo de la pendiente. La componente y de la fuerza de gravedad equilibra la fuerza normal.
+PREGUNTA 4.7 Considere el mismo escenario en una colina con una pendiente muy pronunciada. ¿La magnitud de la
+tensión en la cuerda tiene que ser más grande, más pequeña o permanecer igual que antes? ¿Cómo se afectaría la fuerza
+normal?
+E JERCICIO 4.7 Suponga que un niño de peso w sube al trineo. Si la fuerza de tensión que se observa es de 60.0 N, deter-
+mine el peso del niño y la magnitud de la fuerza normal que actúa sobre el trineo.
+RESPUESTAS w 5 43.0 N, n 5 104 N
+
+
+ ■ Examen rápido
+
+ 4.6 Para la chica que está siendo jalada hacia adelante en el trineo, figura 4.16, la
+ magnitud de la fuerza normal ejercida por la tierra sobre el trineo es a) ¿igual al peso
+ total de la chica más el trineo, b) mayor que el peso total, c) menor que el peso total,
+ o bien d) posiblemente mayor o menor que el peso total, dependiendo del tamaño del
+ peso relativo a la tensión en la cuerda?
+102     CAPÍTULO 4 | Leyes de movimiento
+
+
+  ■ EJEMPLO 4.8             Cómo mover una caja
+                                                                                                            S
+OB JET I VO Aplicar la segunda ley de movimiento para un sistema que no está en equili-                     n
+brio, junto con una ecuación cinemática.
+                                                                                                                            S
+                                                                                                                            F
+PROBLEMA El peso combinado de la caja y la carretilla en la figura 4.17 es 3.00 3 102 N.
+Si el hombre jala de la cuerda con una fuerza constante de 20.0 N, ¿cuál es la aceleración
+del sistema (caja más carretilla) y qué distancia recorrerá en 2.00 s? Considere que el
+sistema inicia desde el reposo y que no existen fuerzas de fricción que se opongan al
+movimiento.
+                                                                                                                S
+ESTR ATEGI A Puede determinar la aceleración del sistema a partir de la segunda ley                             Fg
+de Newton. Ya que la fuerza ejercida en el sistema es constante, su aceleración es cons-
+tante. Por lo tanto, puede aplicarse una ecuación cinemática para determinar la distan-            Figura 4.17 (Ejemplo 4.8)
+cia recorrida en 2.00 s.
+
+SOLUCIÓN
+                                                                     w   3.00 3 102 N
+Determine la masa del sistema de la definición de peso,         m5     5              5 30.6 kg
+w 5 mg:
+                                                                     g     9.80 m/s2
+
+                                                                       Fx   20.0 N
+Encuentre la aceleración del sistema de acuerdo con la          ax 5      5         5 0.654 m/s2
+                                                                       m    30.6 kg
+segunda ley:
+
+Aplique la cinemática para hallar la distancia recorrida en     Dx 5 12 a x t 2 5 12 1 0.654 m/s2 2 1 2.00 s 2 2 5 1.31 m
+2.00 s, con v 0 5 0:
+
+COMENTAR IOS Observe que la fuerza constante aplicada de 20.0 N se supone que actúa en el sistema todo el tiempo
+durante su movimiento. Si la fuerza fuera retirada en algún momento, el sistema continuaría moviéndose con velocidad
+constante y, en consecuencia, la aceleración es cero. En este caso, se puede omitir el efecto de las ruedas.
+PREGUNTA 4.8 ¿Qué efecto tiene duplicar el peso sobre la aceleración y el desplazamiento?
+E JERCICIO 4.8 Un hombre jala una caja de 50.0 kg horizontalmente desde el reposo mientras ejerce una fuerza horizon-
+tal constante, desplazando la caja 3.00 m en 2.00 s. Encuentre la fuerza que el hombre ejerce sobre la caja. (Desprecie la
+fricción.)
+RESPUESTA 75.0 N
+
+
+  ■ EJEMPLO 4.9             Automóvil sin control
+OB JET I VO Aplicar la segunda ley y las ecuaciones                                                                             y
+de cinemática a un problema que involucra un objeto
+moviéndose sobre un plano inclinado.                                                                                   S
+                                                                                                                        n
+PROBLEMA a) Un automóvil de masa m está sobre
+un camino cubierto de hielo inclinado en un ángulo
+u 5 20.0°, como en la figura 4.18a. Determine la acele-
+ración del automóvil, suponiendo que no hay fricción                                                                        mg sen u
+en el plano. b) Si la longitud del camino es de 25.0 m
+y el automóvil inicia desde el reposo en la parte supe-
+                                                                                u
+rior, ¿cuánto tiempo le toma llegar hasta la parte infe-                                       x        mg cos u u                     x
+                                                                                                                        S           S
+rior? c) ¿Cuál es la rapidez del automóvil en la parte                                                                  Fg  mg
+inferior?
+ESTR ATEGI A Seleccione coordenadas inclinadas              a                                   b
+como en la figura 4.18b de tal modo que la fuerza nor-
+     S
+mal n esté en la dirección y positiva, perpendicular Figura 4.18 (Ejemplo 4.9)
+al camino y el eje x positivo hacia abajoS en la pen-
+diente. En tal caso la fuerza de gravedad F g tiene una
+componente x, mg sen u y una componente y, 2mg cos u. La segunda ley de Newton en términos de las componentes forma
+un sistema de dos ecuaciones y dos incógnitas para la aceleración cuesta abajo en la pendiente, ax , la fuerza normal. Los
+incisos b) y c) pueden resolverse con las ecuaciones de cinemática.
+                                                                                      4.5 | Aplicaciones de las leyes de Newton          103
+
+
+SOLUCIÓN
+a) Determine la aceleración del automóvil.
+                                                                      S          S     S      S
+Aplique la segunda ley de Newton:                                   ma 5 a F 5 F g 1 n
+Extraiga las componentes x y y de la segunda ley:                   (1) max 5 o Fx 5 mg sen u
+                                                                    (2)       0 5 o F y 5 2mg cos u 1 n
+Divida la ecuación (1) entre m y sustituya los valores              ax 5 g sen u 5 (9.80 m/s2) sen 20.0° 5 3.35 m/s2
+conocidos:
+b) Determine el tiempo que le toma al automóvil alcanzar
+la parte inferior de la pendiente.
+Utilice la ecuación 3.11b para el desplazamiento, con v 0x 5 0:     Dx 5 12 a x t 2    S      2 1 3.35 m/s 2 t 5 25.0 m
+                                                                                              1           2 2
+
+
+                                                                                                           t 5 3.86 s
+c) Determine la rapidez del automóvil en la parte inferior
+del camino.
+Utilice la ecuación 3.11a para la velocidad, una vez más con        vx 5 axt 5 (3.35 m/s2)(3.86 s) 5 12.9 m/s
+v 0x 5 0:
+
+COMENTAR IOS Observe que la respuesta final para la aceleración depende sólo de g y el ángulo u, no de la masa. La
+ecuación 2), que proporciona la fuerza normal, en este caso no es útil, pero es esencial cuando la fricción se hace presente.
+PREGUNTA 4.9 Si el automóvil está estacionado sobre una pendiente más moderada, ¿cómo se afectará el tiempo reque-
+rido para que se deslice hasta la parte inferior de la colina? Explique.
+E JERCICIO 4.9 a) Considere un disco de hockey que se desliza hacia abajo en una rampa sin fricción con una aceleración
+de 5.00 m/s2. ¿Qué ángulo forma la rampa con la horizontal? b) Si la rampa tiene un longitud de 6.00 m, ¿cuánto tiempo le
+toma al disco alcanzar la parte inferior de la misma? c) Ahora suponga que se duplica la masa del disco. ¿Cuál es la nueva
+aceleración del disco hacia abajo en la rampa?
+RESPUESTA a) 30.7° b) 1.55 s c) Sin cambio, 5.00 m/s2
+
+
+   ■ EJEMPLO 4.10            Pesando un pescado en un elevador
+OB JET I VO Explore el efecto de la aceleración en el peso                Cuando el ascensor acelera        Cuando el ascensor acelera
+aparente de un objeto.                                                    hacia arriba, la balanza de       hacia abajo, la balanza de
+                                                                          resorte lee un valor mayor que    resorte lee un valor menor
+PROBLEMA Una mujer pesa un pescado con una balanza                        el peso de los peces.             que el peso de los peces.
+de resorte unida al techo de un elevador, como se muestra en
+las figuras 4.19a y 4.19b. Mientras el elevador está en reposo,
+                                                                          S
+observa un peso de 40.0 N. a) ¿Qué peso se lee en la escala si            a
+                                                                                                                 S
+el elevador acelera hacia arriba a 2.00 m/s2? b) ¿Cuál es la lec-                                                a
+tura en la escala si el elevador acelera hacia abajo a 2.00 m/s2,
+como en la figura 4.19b? c) Si se rompe el cable del elevador,
+¿cuál es la lectura en la escala?                                                                     S
+                                                                                            0         T                        0
+                                                                                          90 10                             90 10
+                                                                                        80      20                        80      20
+ESTR ATEGI A Escriba S
+                     la segunda ley de Newton para el pes-                              70      30                        70      30     S
+                                                                                         60 50 40                          60 50 40      T
+cado, incluya la fuerza T ejercida por la balanza y la fuerza
+                S
+de gravedad, mg . La balanza no mide el peso verdadero, ésta
+mide la fuerza T que ejerce sobre el pescado, de tal modo que
+cada caso se resuelve para esta fuerza, que es el peso aparente
+que se mide en la balanza.
+
+SOLUCIÓN
+a) Halle la lectura en la escala cuando el elevador acelera                                           S                                   S
+                                                                                                     mg                                mg
+hacia arriba como en la figura 4.19a.
+                                                                          a                                  b
+
+                                                                      Figura 4.19 (Ejemplo 4.10)
+                                                                                                                                 (continúa)
+104     CAPÍTULO 4 | Leyes de movimiento
+
+Aplique la segunda ley de Newton al pescado, considere la       ma 5 o F 5 T 2 mg
+dirección positiva hacia arriba como:
+Resuelva para T:                                                T 5 ma 1 mg 5 m(a 1 g)
+                                                                     w     40.0 N
+Encuentre la masa del pescado a partir de su peso de            m5     5            5 4.08 kg
+40.0 N:
+                                                                     g   9.80 m/s 2
+
+Calcule el valor de T, sustituyendo a 5 12.00 m/s2:             T 5 m(a 1 g) 5 (4.08 kg)(2.00 m/s2 1 9.80 m/s2)
+                                                                               5 48.1 N
+b) Determine la lectura en la escala cuando el elevador ace-
+lera hacia abajo, como en la figura 4.19b.
+El análisis es el mismo, el único cambio es la aceleración,     T 5 m(a 1 g) 5 (4.08 kg)(22.00 m/s2 1 9.80 m/s2)
+que ahora es negativa: a 5 22.00 m/s2.                                         5 31.8 N
+c) Determine la lectura en la escala después de que el cable
+del elevador se rompe.
+Ahora a 5 29.80 m/s2, la aceleración debido a la gravedad:      T 5 m(a 1 g) 5 (4.08 kg)(29.80 m/s2 1 9.80 m/s2)
+                                                                               5 0N
+
+COMENTAR IOS ¡Dese cuenta de lo importante que es tener los signos correctos en este problema! La aceleración puede
+aumentar o disminuir el peso aparente de un objeto. Los astronautas experimentan cambios muy grandes en el peso apa-
+rente, desde varias veces su peso normal durante el ascenso hasta la ingravidez en caída libre.
+PREGUNTA 4.10 Iniciando desde el reposo, un elevador acelera hacia arriba, después alcanza y mantiene una velocidad
+constante hasta llegar al piso deseado, cuando inicia la disminución de su velocidad. Describa la lectura de la escala durante
+este tiempo.
+E JERCICIO 4.10 Halle la aceleración inicial de un cohete si los astronautas a bordo experimentan ocho veces su peso
+normal durante el ascenso vertical inicial. (Sugerencia: En este ejercicio, la fuerza en la balanza se sustituye por la
+fuerza normal.)
+RESPUESTA 68.6 m/s2
+
+
+  ■ EJEMPLO 4.11            Máquina de Atwood
+OB JET I VO Aplicar la segunda ley de Newton para resolver simbólica-
+mente un problema simple de dos cuerpos.
+PROBLEMA Dos objetos de masa m1 y m 2, con m 2 . m1, están conecta-                                            S
+                                                                                                               T
+dos mediante una cuerda ligera, inextensible y colgada sobre una polea                                                  S
+                                                                                     S                                  T
+sin fricción, como en la figura activa 4.20a. Tanto la cuerda como la                 a1
+polea tienen masas despreciables. Hallar la magnitud de la aceleración                     m1                 m1
+del sistema y la tensión en la cuerda.
+                                                                                                               S
+                                                                                                  m2         m 1g       m2
+ESTR ATEGI A La masa más pesada, m 2, acelera hacia abajo, en la
+                                                                                                       S
+dirección y negativa. Debido a que la cuerda no se puede deformar,                                     a2
+la aceleración en las dos masas es igual en magnitud, pero opuesta
+en dirección, de tal modo que a1 es positiva ySa 2 es negativa y a 2 5                                              m 2g
+                                                                                                                        S
+2a1. En cada masa actúa una fuerza de tensión T en la dirección hacia
+                                                                                           a                   b
+arriba y una fuerza de gravedad en la dirección hacia abajo. La figura
+activa 4.20 muestra los diagramas de cuerpo libre para las dos masas.       Figura activa 4.20 (Ejemplo 4.11) Máquina de
+La segunda ley de Newton para cada masa, junto con la ecuación que          Atwood. a) Dos objetos colgados unidos mediante una
+relaciona las aceleraciones, constituye un conjunto de tres ecuaciones      cuerda ligera que pasa sobre una polea sin fricción.
+para las tres incógnitas: a1, a 2 y T.                                      b) Diagramas de cuerpo libre para los objetos.
+
+
+SOLUCIÓN
+Aplique individualmente la segunda ley para cada una de         (1) m1a1 5 T 2 m1g              (2) m 2a 2 5 T 2 m 2g
+las dos masas:
+                                                                                                     4.6 | Fuerzas de fricción             105
+
+  Sustituya a 2 5 2a1 en la ecuación (2) y multiplique ambos       (3) m 2a1 5 2T 1 m 2g
+  lados por 21:
+
+  Sume las ecuaciones (1) y (3) y resuelva para a1:                (m1 1 m 2)a1 5 m 2g 2 m1g
+                                                                                      m2 2 m1
+                                                                            a1 5 a              bg
+                                                                                      m1 1 m2
+
+
+  Sustituya este resultado en la ecuación (1) para encontrar
+                                                                   T5 a              bg
+                                                                           2m 1m 2
+  T:
+                                                                          m1 1 m2
+
+
+  COMENTAR IOS La aceleración del segundo bloque es la misma que para el primero, pero negativa. Cuando m 2 compa-
+  rada con m1 es muy grande, la aceleración del sistema se aproxima a g, como se esperaba, ya que m 2 está cayendo casi libre-
+  mente bajo la influencia de la gravedad. En realidad, m 2 está sólo un poco restringida por lo ligero de m1.
+  PREGUNTA 4.11 ¿Cómo se podría utilizar por una persona esta máquina simple para levantar objetos muy pesados?
+  E JERCICIO 4.11 Considere en el mismo arreglo Atwood otra cuerda que está unida en la parte inferior de m1 y es apli-
+  cada una fuerza constante f, retrasando el movimiento hacia arriba de m1. Si m1 5 5.00 kg y m 2 5 10.00 kg, ¿qué valor de f
+  reducirá la aceleración del sistema en 50%?
+  RESPUESTA 24.5 N
+
+
+  ■ EJEMPLO 4.12            Un bloque sobre una rampa
+                                                                                                                               y
+OB JET I VO Aplicar el concepto de fricción estática a un objeto en reposo sobre un
+plano inclinado.
+                                                                                                                           S
+PROBLEMA Suponga que un bloque con una masa de 2.50 kg está en reposo sobre                                 S              n
+                                                                                                             fs
+una rampa. Si el coeficiente de fricción estática entre el bloque y la rampa es 0.350, ¿qué
+ángulo máximo puede formar la rampa con la horizontal antes que el bloque inicie el                                    mg sen u
+deslizamiento hacia abajo?                                                                           mg cos u
+                                                                                                                  u            u
+ESTR ATEGI A Ésta es una aplicación de la segunda ley de Newton que involucra un                                      S
+                                                                                                                      Fg                   x
+objeto en equilibrio. Elija coordenadas inclinadas, como en la figura activa 4.23. Utilice
+el hecho de que el bloque se desliza más o menos cuando la fuerza estática tiene su valor
+máximo, fs 5 msn.                                                                               Figura activa 4.23 (Ejemplo
+                                                                                                4.12)
+
+SOLUCIÓN
+Escriba las leyes de Newton para un sistema en reposo en         (1) o Fx 5 mg sen u 2 msn 5 0
+la forma de componentes. La fuerza de gravedad tiene dos
+                                                                 (2) o F y 5 n 2 mg cos u 5 0
+componentes, precisamente como en los ejemplos 4.7 y 4.9.
+Reordene la ecuación (2) para obtener una expresión para         n 5 mg cos u
+la fuerza normal n:
+
+                                                                                                                                   (continúa)
+108     CAPÍTULO 4 | Leyes de movimiento
+
+Sustituya la expresión para n en la ecuación 1) y resuelva         o Fx 5 mg sen u 2 msmg cos u 5 0            S       tan u 5 ms
+para tan u:
+Aplique la función tangente inversa para obtener la                tan u 5 0.350        S   u 5 tan21 (0.350) 5 19.3°
+respuesta:
+
+COMENTAR IOS Es interesante que el resultado final sólo depende del coeficiente de fricción estática. Además, observe
+la similitud de las ecuaciones (1) y (2) con las ecuaciones desarrolladas en los ejemplos 4.7 y 4.9. Reconocer tales patrones es la
+clave para resolver con éxito los problemas.
+PREGUNTA 4.1 2 ¿Qué tanto afectaría el coeficiente de fricción estática al ángulo máximo?
+E JERCICIO 4.1 2 La rampa en el ejemplo 4.12 es rugosa hacia arriba y se repite el experimento. a) ¿Cuál es el nuevo coefi-
+ciente de fricción estática si el ángulo máximo que resulta es 30.0°? b) Determine la fuerza de fricción estática máxima que
+actúa sobre el bloque.
+RESPUESTA a) 0.577        b) 12.3 N
+
+
+   ■ EJEMPLO 4.13            El disco de hockey que se desliza
+OB JET I VO Aplicar el concepto de fricción cinética.                                             y
+                                                                                                                         S
+                                                                                                                         n       Movimiento
+PROBLEMA El disco de hockey en la figura 4.24, al ser golpeado por un bastón, le pro-
+                                                                                                           x
+porciona una rapidez inicial de 20.0 m/s sobre un estanque congelado. El disco perma-
+nece sobre el hielo y se desliza 1.20 3 102 m, disminuyendo su velocidad constantemente            S
+hasta detenerse. Determine el coeficiente de fricción cinética entre el disco y el hielo.             fk
+
+ESTR ATEGI A El disco se desliza lentamente “de manera constante”, lo cual significa
+que la aceleración es constante. En consecuencia, podemos utilizar la ecuación cinemá-
+tica v 2 5 v 02 1 2a )x para encontrar a, la aceleración en la dirección x. Las componentes                        S
+                                                                                                                   Fg  m g
+                                                                                                                             S
+
+x y y de la segunda ley de Newton proporcionan entonces dos ecuaciones y dos incógnitas
+para el coeficiente de fricción cinética, mk, y la fuerza normal n.                              Figura 4.24 (Ejemplo 4.13) Des-
+                                                                                                 pués de proporcionarle al disco una
+                                                                                                 velocidad inicial hacia la derecha, las
+                                                                                                 fuerzas externas que actúan sobre
+                                                                                                                                S
+                                                                                                 él son la fuerza de gravedad, F g, la
+                                                                                                                 S
+                                                                                                 fuerza normal n y la fuerza de fric-
+                                                                                                                S
+                                                                                                 ción cinética, f k .
+SOLUCIÓN
+Resuelva la ecuación cinemática independiente del tiempo           v 2 5 v 02 1 2a Dx
+para la aceleración a:                                                  v 2 2 v0 2
+                                                                   a5
+                                                                           2Dx
+                                                                        0 2 1 20.0 m/s 2 2
+Sustituya v 5 0, v 0 5 20.0 m/s y )x 5 1.20 3 102 m. Observe       a5                      5 21.67 m/s2
+                                   S              S
+el signo negativo en la respuesta: a es opuesto a v:                    2 1 1.20 3 102 m 2
+
+Determine la fuerza normal a partir de la componente y de          o F y 5 n 2 Fg 5 n 2 mg 5 0
+la segunda ley:
+                                                                   n 5 mg
+Obtenga una expresión para la fuerza de fricción cinética y        f k 5 mkn 5 mkmg
+sustitúyala en la componente x de la segunda ley:
+                                                                   ma 5 o Fx 5 2f k 5 2mkmg
+
+                                                                            a   1.67 m/s2
+Resuelva para mk y sustituya valores:                              mk 5 2     5           5 0.170
+                                                                            g   9.80 m/s2
+
+COMENTA R IOS Observe que el problema se divide en tres partes: cinemática, segunda ley de Newton en la dirección y
+y después la segunda ley de Newton en la dirección x.
+PREGUNTA 4.1 3 ¿Cómo se afectaría la respuesta si el disco es golpeado por un astronauta sobre una porción de hielo en
+Marte, donde la aceleración de la gravedad es 0.35g, con todas las cantidades restantes dadas iguales?
+                                                                                                4.6 | Fuerzas de fricción                  109
+
+E JERCICIO 4.1 3 Un cohete experimental aterriza sobre patines en el lecho de un lago seco. Si está viajando a 80.0 m/s
+cuando desciende, ¿qué distancia se desliza antes de llegar al reposo? Considere que el coeficiente de fricción cinética entre
+los patines y el lecho del lago es 0.600.
+RESPUESTA 544 m
+
+
+El enfoque de sistema
+A menudo los problemas de dos cuerpos se pueden tratar como objetos simples y resol-
+verse planteando un sistema. Cuando los objetos están unidos de manera rígida, es decir,
+mediante una cuerda de masa despreciable que no se estira, esta aproximación puede
+simplificar considerablemente el análisis. Cuando los dos cuerpos se consideran juntos,
+una o más fuerzas terminarán convirtiéndose en fuerzas internas del sistema, en lugar de
+fuerzas externas que afectan cada uno de los cuerpos. Los dos planteamientos se utilizan
+en el ejemplo 4.14.
+
+
+   ■ EJEMPLO 4.14           Objetos unidos
+OBJETIVO Utilizar el método general y el planteamiento de un sistema para                                                      S
+                                                                                                                               n
+resolver un problema de dos cuerpos unidos que involucran gravedad y fricción.                  m1
+                                                                                                                          m1
+PROBLEMA a) Un bloque con masa m1 5 4.00 kg y una pelota con masa                                                S                          S
+                                                                                                                                            T
+m 2 5 7.00 kg están conectados mediante una cuerda ligera que pasa sobre una                                     fk
+polea sin fricción, como se muestra en la figura 4.25a. El coeficiente de fric-
+                                                                                                                                       S
+ción cinética entre el bloque y la superficie es 0.300. Encuentre la aceleración                            m2                     m 1g
+de los dos objetos y la tensión en la cuerda. b) Verifique la respuesta para la
+                                                                                                a
+aceleración aplicando el planteamiento de un sistema.                                                                              S
+                                                                                                                                   T
+ESTR ATEGI A Los objetos unidos se manejan aplicando la segunda ley de
+                                                                                                      y                             m2
+Newton separadamente para cada objeto. Los diagramas de cuerpo libre para
+el bloque y la pelota se muestran en la figura 4.25b, con la dirección 1x hacia
+la derecha y la dirección 1y hacia arriba. La magnitud de la aceleración para                               x                      m 2g
+                                                                                                                                       S
+
+los dos objetos tiene el mismo valor, |a1| 5 |a 2| 5 a. El bloque con masa m1
+se mueve en la dirección x positiva, y la pelota con masa m 2 se mueve en la                                          b
+dirección y negativa, de tal modo que a1 5 2a 2. Utilizando la segunda ley         Figura 4.25 (Ejemplo 4.14) a) Dos objetos
+de Newton, se pueden desarrollar dos ecuaciones que incluyen las incógnitas        conectados por una cuerda ligera que pasa sobre
+T y a que se pueden resolver de manera simultánea. En el inciso b), considere      una polea sin fricción. b) Diagramas de cuerpo
+las dos masas como un simple objeto, con la fuerza de gravedad en la pelota        libre para los objetos.
+aumentando la rapidez de los objetos combinados y la fuerza de fricción en el
+bloque haciéndola disminuir. Entonces las fuerzas de tensión se convierten en
+internas y no aparecen en la segunda ley.
+
+SOLUCIÓN
+a) Determine la aceleración de los objetos y la tensión en la
+cuerda.
+Escriba los componentes de la segunda ley de Newton para         o Fx 5 T 2 f k 5 m1a1 o F y 5 n 2 m1g 5 0
+el bloque de masa m1:
+La ecuación para la componente y resulta n 5 m1g. Susti-         (1) T 2 mkm1g 5 m1a1
+tuya este valor para n y f k 5 mkn en la ecuación para la com-
+ponente x:
+Aplique la segunda ley de Newton a la pelota; recuerde que       o F y 5 T 2 m 2g 5 m2a 2 5 2m2a1
+a 2 5 2a1:
+                                                                 (2)    T 2 m 2g 5 2m 2a1
+
+Reste la ecuación (2) de la ecuación (1), eliminando T y         m 2g 2 mkm1g 5 (m1 1 m 2)a1
+dejando una ecuación que pueda ser resuelta para a1:                            m 2g 2 mkm 1g
+                                                                           a1 5
+                                                                                  m1 1 m2                                  (continúa)
+       CAPÍTULO 4 | Leyes de movimiento
+
+
+                                                                            1 7.00 kg 2 1 9.80 m/s2 2 2 1 0.300 2 1 4.00 kg 2 1 9.80 m/s2 2
+                                                                  a1 5
+                                                                                                      1 4.00 kg 1 7.00 kg 2
+Sustituya los valores conocidos para obtener la aceleración:
+
+                                                                        5   5.17 m/s2
+
+Sustituya los valores para a1 en la ecuación (1) para encon-      T 5 32.4 N
+trar la tensión T:
+b) Determine la aceleración utilizando el planteamiento de
+un sistema, donde el sistema consiste en los dos bloques.
+Aplique la segunda ley de Newton para el sistema y resuelva       (m1 1 m 2)a 5 m 2g 2 mkn 5 m 2g 2 mkm1g
+para a:                                                                                  m 2g 2 mkm 1g
+                                                                                a5
+                                                                                             m1 1 m2
+
+COMENTAR IOS Aunque el planteamiento de un sistema parece rápido y fácil, sólo puede ser aplicado en casos especiales
+y no puede dar información alguna acerca de las fuerzas internas, como la tensión. Para determinar la tensión, debe consi-
+derar el diagrama de cuerpo libre de uno de los bloques por separado como lo hizo en el inciso a) del ejemplo 4.14.
+PREGUNTA 4.14 Si se incrementa la masa m 2, ¿la aceleración del sistema aumenta, disminuye o permanece igual? ¿La ten-
+sión aumenta, disminuye o permanece igual?
+E JERCICIO 4.14 ¿Qué sucedería si se une una masa adicional a la pelota en el ejemplo 4.14? ¿Qué tan grande debe ser
+esta masa para incrementar la aceleración descendente en 50%? ¿Por qué no es posible sumar la masa suficiente para dupli-
+car la aceleración?
+RESPUESTA 14.0 kg. Duplicar la aceleración a 10.3 m/s2 simplemente no es posible al suspender más masa debido a que
+todos los objetos, independientemente de su masa, tienen caída libre a 9.8 m/s2 cerca de la superficie de la Tierra.
+
+
+   ■ EJEMPLO 4.15           Dos bloques y una cuerda
+OB JET I VO Aplicar la segunda ley de Newton y la fricción estática
+en un sistema de dos cuerpos.                                                                             m
+
+                                                                                                          M
+PROBLEMA Un bloque de masa de m 5 5.00 kg viaja sobre la parte                                                                  x
+superior de un segundo bloque de masa de M 5 10.0 kg. Una persona
+                                                                                                                      S
+ata una cuerda al bloque de abajo y jala el sistema horizontalmente                      S    S
+                                                                                                                      n1
+                                                                                     n1      n2                          S
+a lo largo de una superficie sin fricción, como en la figura 4.26a. La          S                                          fs
+                                                                               fs                                                      m
+fricción entre los dos bloques mantiene al bloque de 5.00 kg sin des-                                    S
+                                                                                                         T       S                      M
+lizarse. Si el coeficiente de fricción estática es 0.350, a) ¿qué fuerza                                      mg
+máxima se puede ejercer mediante la cuerda en el bloque de 10.0 kg                                                                            x
+                                                                                                  S
+sin ocasionar que el bloque de 5.00 kg se deslice? b) Aplique el enfo-                        Mg
+que de sistema para calcular la aceleración.
+                                                                                     a                                              b
+ESTR ATEGI A Trace un diagrama de cuerpo libre para cada blo-
+que. La fuerza de fricción estática causa que el bloque superior se       Figura 4.26 a) (Ejemplo 4.15) b) (Ejercicio 4.15)
+mueva horizontalmente, y el máximo de tal fuerza corresponde a
+fs 5 msn. Esta misma fricción estática retrasa el movimiento del blo-
+que inferior. Mientras que el bloque superior no se desliza, la aceleración de los dos bloques es igual. Escriba la segunda ley
+de Newton para cada bloque y elimine la aceleración a por sustitución, resolviendo para la tensión T. Una vez que conozca la
+tensión, use el enfoque de sistema para calcular la aceleración.
+
+SOLUCIÓN
+a) Determine la fuerza máxima ejercida por la cuerda.
+Escriba las dos componentes de la segunda ley de Newton           Componente x: ma 5 msn1
+para el bloque superior:                                          Componente y: 0 5 n1 2 mg
+Resuelva la componente y para n1, sustituya el resultado en       n1 5 mg       S        ma 5 msmg           S       a 5 ms g
+la componente x y después resuelva para a:
+Escriba el componente x de la segunda ley de Newton para          (1)       Ma 5 2msmg 1 T
+el bloque inferior:
+                                                                                             4.6 | Fuerzas de fricción
+
+
+Sustituya la expresión para a 5 ms g en la ecuación (1)        Mmsg 5 T 2 msmg     S   T 5 (m 1 M)ms g
+y resuelva para la tensión T:
+Ahora evalúe para obtener la respuesta:                        T 5 (5.00 kg 1 10.0 kg)(0.350)(9.80 m/s2) 5 51.5 N
+b) Aplique el enfoque de sistema para calcular la
+aceleración.
+Escriba la segunda ley para la componente x de la fuerza       (m 1 M)a 5 T
+en el sistema:
+                                                                     T          51.5 N
+Resuelva para la aceleración y sustituya valores:              a5       5                   5 3.43 m/s2
+                                                                    m1M   5.00 kg 1 10.0 kg
+
+COMENTAR IOS Observe que la componente y para el bloque de 10.0 kg no fue requerida debido a que no existe fricción
+entre esos bloques y la superficie subyacente. Además, es interesante observar que el bloque superior fue acelerado por la
+fuerza de fricción estática. La aceleración del sistema también podría haber sido calculada con a 5 ms g. ¿El resultado con-
+cuerda con la respuesta encontrada por el enfoque de sistema?
+PREGUNTA 4.1 5 ¿Qué sucedería si la fuerza de tensión excediera de 51.5 N?
+E JERCICIO 4.1 5 Suponga que la cuerda está unida al bloque superior en el ejemplo 4.15 (véase la figura 4.26b). Determine
+la fuerza máxima que puede ejercer la cuerda en el bloque sin ocasionar que el bloque se deslice.
+RESPUESTA 25.7 N

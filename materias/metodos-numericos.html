@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Métodos Numéricos | Asesorías en Ingeniería</title>
-  <meta name="description" content="Aproximación numérica, ecuaciones diferenciales (Euler y Runge-Kutta), interpolación polinómica, filtro de Kalman e implementación en código.">
+  <meta name="description" content="Solución numérica de ecuaciones diferenciales (Euler, Runge-Kutta), interpolación polinómica y de Hermite, raíces y filtro de Kalman (UKF).">
 
   <link rel="icon" href="../favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/brand/favicon-32x32.png">
@@ -23,7 +23,7 @@
         <img src="../assets/img/brand/logo-badge.png" alt="Logo Asesorías en Ingeniería">
         <div class="brand-text">
           Asesorías en Ingeniería
-          <span>Base de materias</span>
+          <span>Portal Interactivo</span>
         </div>
       </a>
 
@@ -37,8 +37,11 @@
       </nav>
 
       <div class="nav-actions">
+        <a href="https://wa.me/573004083940" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-sm">
+          <span>WhatsApp 300 408 3940</span>
+        </a>
         <a href="https://www.facebook.com/eulerasesoriaspagina" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
-          <span class="btn-text-hide">Escribir por Facebook</span>
+          <span class="btn-text-hide">Facebook</span>
         </a>
         <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -63,59 +66,58 @@
           <div>
             <span class="section-kicker">Matemáticas Aplicadas</span>
             <h1>Métodos Numéricos</h1>
-            <p>Aproximación numérica, ecuaciones diferenciales (Euler y Runge-Kutta), interpolación polinómica, filtro de Kalman e implementación en código.</p>
+            <p>Solución numérica de ecuaciones diferenciales (Euler, Runge-Kutta), interpolación polinómica y de Hermite, raíces y filtro de Kalman (UKF).</p>
           </div>
         </div>
       </div>
     </section>
 
     <section class="container subject-layout">
-      <div class="topics-panel">
-        <div class="topics-panel-head">
-          <h2>Temas en orden sugerido y material</h2>
-          <div class="search-box" style="max-width:260px;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-            <input id="topic-search" type="search" placeholder="Filtrar tema..." aria-label="Filtrar tema">
-          </div>
+      <div id="learning-workspace" class="topics-panel" data-subject-id="metodos-numericos">
+        <div class="subject-tabs" role="tablist" aria-label="Módulos interactivos de aprendizaje">
+          <button type="button" class="subject-tab-btn active" data-tab="teoria">📖 Teoría Básica</button>
+          <button type="button" class="subject-tab-btn" data-tab="lab">🧮 Laboratorio Interactivo</button>
+          <button type="button" class="subject-tab-btn" data-tab="material">📚 Material PDF y Texto (12)</button>
+          <button type="button" class="subject-tab-btn" data-tab="quiz">✅ Autoevaluación</button>
         </div>
 
-        <div class="topic-group-title">Temas y código numérico</div><ul class="topic-list"><li class="topic-item">
-                  <div class="topic-title-wrap">
-                    <span class="topic-order">01</span>
-                    <div>
-                      <span class="topic-name">Ecuaciones diferenciales (Método de Euler)</span>
-                      <span class="topic-note">Carpeta Google Drive</span>
-                    </div>
-                  </div>
-                  <a href="https://drive.google.com/drive/folders/1waKMK5pXAa-0Nkhcqoq48Ba8nXqi2KOY?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Abrir recurso →</a>
-                </li><li class="topic-item">
-                  <div class="topic-title-wrap">
-                    <span class="topic-order">02</span>
-                    <div>
-                      <span class="topic-name">Interpolación polinómica y Filtro de Kalman</span>
-                      <span class="topic-note">Carpeta Google Drive</span>
-                    </div>
-                  </div>
-                  <a href="https://drive.google.com/drive/folders/1Mteh1rBhzweXxY8qfEFx5hSRLPvHderd" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Abrir recurso →</a>
-                </li><li class="topic-item">
-                  <div class="topic-title-wrap">
-                    <span class="topic-order">03</span>
-                    <div>
-                      <span class="topic-name">Solución de raíces (Bisección, Newton-Raphson) e integración numérica</span>
-                      <span class="topic-note">Prácticas en Python y MATLAB bajo asesoría</span>
-                    </div>
-                  </div>
-                  <a href="../contacto.html?materia=metodos-numericos" class="topic-badge">Solicitar en asesoría</a>
-                </li></ul>
+        <div class="tab-panel active" data-panel="teoria">
+          <div class="learning-intro">Fundamentos extraídos de trabajoModuloDos.txt, trabajoModuloTres.txt, trabajoModulo4.txt, Hermite_interpolation_es.txt y Hernando_LeytonV._2009.txt.</div>
+          <div id="theory-container" class="theory-stack"></div>
+        </div>
+
+        <div class="tab-panel" data-panel="lab">
+          <div class="learning-intro">Experimenta en tiempo real cambiando parámetros para visualizar el comportamiento de las fórmulas y verificar tus propios ejercicios.</div>
+          <div id="lab-container"></div>
+        </div>
+
+        <div class="tab-panel" data-panel="material">
+          <div class="topics-panel-head">
+            <h2>Biblioteca local descargada y texto extraído</h2>
+            <div class="search-box" style="max-width:260px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              <input id="topic-search" type="search" placeholder="Filtrar archivo..." aria-label="Filtrar archivo">
+            </div>
+          </div>
+          <div id="local-docs-container" class="topic-list"></div>
+        </div>
+
+        <div class="tab-panel" data-panel="quiz">
+          <div class="learning-intro">Pon a prueba tu comprensión con preguntas tipo parcial y revisa la explicación paso a paso al instante.</div>
+          <div id="quiz-container" class="quiz-stack"></div>
+        </div>
       </div>
 
       <aside class="subject-sidebar">
         <div class="side-card">
           <h3>¿Necesitas ayuda con Métodos Numéricos?</h3>
-          <p>Agenda una clase particular presencial u online, o solicita acompañamiento en tu taller o parcial.</p>
-          <a href="../contacto.html?materia=metodos-numericos" class="btn btn-gold" style="width:100%; margin-bottom:0.65rem;">Solicitar asesoría</a>
+          <p>Agenda una clase particular presencial u online, o solicita acompañamiento en tu taller o parcial con el Ing. Oscar Fernando Valencia.</p>
+          <a href="https://wa.me/573004083940" target="_blank" rel="noopener noreferrer" class="btn btn-gold" style="width:100%; margin-bottom:0.65rem;">WhatsApp: 300 408 3940</a>
+          <a href="../contacto.html?materia=metodos-numericos" class="btn btn-outline" style="width:100%; margin-bottom:0.65rem;">Armar solicitud detallada</a>
           <a href="https://www.facebook.com/eulerasesoriaspagina" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%;">Escribir por Facebook</a>
         </div>
+
+        
 
         <div class="side-card">
           <h3>Otras asignaturas</h3>
@@ -139,12 +141,14 @@
 
   <footer class="site-footer">
     <div class="container footer-bottom">
-      <span>&copy; 2008–<span id="current-year">2026</span> <strong>Asesorías en Ingeniería</strong>.</span>
+      <span>&copy; 2008–<span id="current-year">2026</span> <strong>Asesorías en Ingeniería</strong> • Cel: 300 408 3940.</span>
       <a href="../index.html#materias">← Volver al catálogo de materias</a>
     </div>
   </footer>
 
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/data-teoria-materias.js"></script>
+  <script src="../assets/js/learning-interactive.js"></script>
 </body>
 
 </html>

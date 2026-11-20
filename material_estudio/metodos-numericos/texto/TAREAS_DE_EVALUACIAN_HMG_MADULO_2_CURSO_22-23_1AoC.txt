@@ -1,0 +1,94 @@
+PRIMERA CONVOCATORIA CURSO 2022-2023
+
+
+          TAREA DE EVALUACIÓN DEL MÓDULO 2
+
+
+Esta tarea es un trabajo individual, su entrega se realizará a través de la plataforma Studium,
+antes de la fecha programada, en un único documento en formato pdf. Dicho documento
+debe incluir las soluciones a todas las cuestiones planteadas debidamente etiquetadas y, en caso
+de ser necesarias, las salidas gráficas (con los comentarios que se consideren oportunos). Es
+imprescindible, explicar, detallar y justificar todos los pasos que realizáis en cada apartado. Es
+suficiente escribir las soluciones con letra legible y escanearlas o hacer una foto con un
+dispositivo móvil y los archivos del programa informático utilizado (en caso de ser necesarios).
+
+Observación: para hacer los cómputos os podéis ayudar de cualquier software como Geogebra,
+Maxima, Matlab, Mathemtica, etc. o páginas web como Wolfram Alpha o
+https://matrixcalc.org/, etc.
+
+
+Apartado A:
+
+1.- Dada la siguiente tabla de valores de una función f
+
+                                      xi       1     2    3   4
+                                    f (xi )   12     6    4   3
+
+
+            a) Calcula el polinomio interpolador que pasa por todos los puntos ( xi , f ( x i ) )
+               usando todos los métodos que conozcas. Demuestra algebraicamente si los
+               polinomios obtenidos son todos iguales o no ¿existe un resultado teórico que
+               respalde el resultado que has obtenido?
+            b) Encuentra el spline cúbico natural asociado a los datos de la tabla, y comprueba
+               después que el spline obtenido satisface los requisitos que le definen. Por último,
+               compruébalo también utilizando la función csape de Matlab.
+            c) Para una función que satisfaga los datos de la tabla y, además, cumpla que
+                f (1) = −2 y f  ( 4 ) = 4 , ¿existe un spline cúbico agrupado? En caso
+               afirmativo, calcúlalo y comprueba el resultado utilizando la función csape de
+               Matlab.
+            d) Dibuja en una misma gráfica todos los polinomios y todos los splines calculados.
+
+
+2.- Queremos usar nodos equiespaciados para construir el polinomio de orden 3 de
+interpolación para la función f ( x ) = x2 ln x2 , en el intervalo [6,9]. Encuentra la distancia h
+entre nodos para que el error cometido en valor absoluto sea seguro menor o igual que 6 10−4 .
+3.- Dados dos nodos cualesquiera x0 y x1 distintos, se desea construir un polinomio de grado
+menor o igual que 4, que cumpla las siguientes condiciones:
+
+                            f ( x 0 ) = 1,        f  ( x 0 ) = 2.
+                           f (x1 ) = 1,          f  ( x 1 ) = 0,         f (x1 ) = −2.
+
+Observación: no se deben sustituir x0 y x1 por valores concretos hay que hacerlo en general.
+
+a)     Encuentra, usando el método de coeficientes indeterminados, su expresión en la forma:
+
+                a 0 + a1 ( x − x 0 ) + a 2 ( x − x 0 ) + a 3 ( x − x 0) + a 4 ( x − x 0) .
+                                                   2                  3                4
+
+
+Los coeficientes  a 0 ,a1 ,a 2 ,a3 ,a4  se escriben de forma más sencilla en función de la distancia
+entre los nodos, a la que podemos llamar h, por lo tanto h = x1 − x0 . Una vez calculado
+comprueba que se satisfacen las condiciones.
+
+b)     Construye el polinomio osculador, usando el método de Newton generalizado, los
+cálculos resultan más sencillos al igual que en el apartado anterior, si se sustituye x1 − x0 por
+h. Una vez calculado comprueba que se satisfacen las condiciones.
+
+c)     ¿Coinciden los polinomios de los apartados anteriores? Da argumentos teóricos que
+respalden la respuesta.
+
+
+Apartado B
+
+Sobre la misma tabla de valores del ejercicio 1 del Apartado A:
+
+a)       Construye el polígono de control y la curva de Bézier asociados a los puntos de control
+𝑄i = (𝑥i, 𝑓(𝑥i)), 𝑖 = 0,.. ,3, mediante (i) los polinomios de Bernstein, (ii) la forma matricial y
+(iii) el algoritmo de De Casteljau. Comprueba que los resultados obtenidos mediante los
+distintos métodos coinciden.
+
+b)     Haz una gráfica del polígono y la curva obtenida (puedes utilizar Matlab o GeoGebra,
+por ejemplo). Anota las observaciones que consideres relevantes.
+
+c)     Dada la transformación lineal 𝐹(𝑥, 𝑦) con matriz
+
+                                                       1
+                                               𝐴=       (1           1)
+                                                       2 —1          1
+
+i) Calcula la curva de Bézier con puntos de control 𝑄i ∗ = 𝐹(𝑥i, 𝑓(𝑥i)), 𝑖 = 0,.. ,3.
+ii) Por otro lado, calcula la imagen mediante la transformación 𝐹 de la curva de Bézier obtenida
+en el apartado a). Comenta los resultados obtenidos.
+
+d)     Utilizando el método que consideres más adecuado, construye, a partir de todos los
+puntos de control del apartado a), una curva de Bézier cerrada en 𝑄0 = (𝑥0, 𝑓(𝑥0)).

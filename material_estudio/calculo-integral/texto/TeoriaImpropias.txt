@@ -1,0 +1,1049 @@
+Capítulo 3: Integral definida
+longitud afectaba el tiempo de la oscilación
+(periodo de vibración). Esta observación
+                                                16.1 Primer teorema fundamental del cálculo:
+condujo al invento del péndulo, usado en            derivada de una integral
+los relojes y otros instrumentos para medir
+con precisión el tiempo. Leyó las obras de
+Arquímedes y usó las matemáticas para           Antes de mostrar dicha relación estudiaremos algunos resultados previos.
+probar algunos de los experimentos de este
+último con líquidos y aleaciones.               Sea f una función integrable en el intervalo [a, b]. Por la propiedad iv del teorema 1
+Creó el concepto de la aceleración que se       del módulo 14, f es también integrable sobre el intervalo [a, x] con a ≤ x ≤ b, y
+
+                                                puesto que para cada x de [a, b] el valor de la integral ∫ f (t ) dt es único, entonces
+usa en la física moderna y el concepto
+                                                                                                               x
+moderno de la fricción y la inercia con
+respecto a los objetos en movimiento.                                                                          a
+Analizó los componentes de la fuerza,           podemos definir la siguiente función:
+demostrando, por ejemplo, que las fuerzas
+
+
+                                                        F ( x) = ∫ f (t ) dt con x en [a, b].
+que afectan a la trayectoria de una bala son
+hacia abajo y hacia adelante, de tal manera                       x
+que pueden medirse sistemáticamente.                             a
+Estos experimentos, iniciados antes de
+
+                                                Según vimos antes, si f ( x) ≥ 0 en [a, b], entonces la función F ( x) definida ante-
+1590, fueron perfeccionados y publicados
+en 1638 en su obra Diálogos sobre dos
+nuevas ciencias (movimiento y mecánica).
+La obra de Galileo, que inició la comprensión   riormente representa geométricamente el área de la región comprendida entre a y x
+de estas ciencias, llevó a la formulación de
+                                                y bajo la curva de la función f (figura 16.1).
+las leyes de movimiento de Newton, más
+precisas, y al perfeccionamiento que de
+esas leyes hicieron más tarde otros             Obsérvese que
+científicos.
+
+
+                                                        F (a) = ∫ f (t ) dt = 0 y F (b) = ∫ f (t ) dt.
+Estableció un taller para fabricar instrumen-                     a                         b
+tos como brújulas magnéticas, termó-                             a                          a
+metros y telescopios. También llegó a ser
+un experto en la construcción de
+fortificaciones militares. A principios del
+siglo XVII escuchó que un óptico holandés
+había logrado unir una lente cóncava y otra
+convexa, de tal manera que hacía que los
+objetos distantes parecieran más cercanos.
+Usando esa idea construyó un telescopio
+que ampliaba los objetos treinta veces, y
+en 1609 dio una demostración pública de
+su uso. Cuando Galileo volvió su telescopio
+hacia el cielo, por la noche, abrió nuevos
+campos de conocimiento que describió en
+su libro Mensajero de las estrellas. En él
+dice: «Doy gracias a Dios, que ha tenido a
+bien hacerme el primero en observar las
+maravillas ocultas a los siglos pasados. Me
+he cerciorado de que la Luna es un cuerpo
+semejante a la Tierra... He contemplado una                                            Figura 16.1
+multitud de estrellas fijas que nunca antes
+se observaron... Pero la mayor maravilla
+de todas ellas es el descubrimiento de cuatro
+                                                Teorema 1
+nuevos planetas (cuatro satélites de
+Júpiter). He observado que se mueven            Si f es integrable en [a, b] y F está definida por
+alrededor del Sol».
+
+                                                        F ( x) = ∫ f (t ) dt , con x en [a, b], entonces F es continua en [a, b].
+                                                                  x
+Descubrió que la Vía Láctea consistía en
+una miríada de estrellas; que el Universo                        a
+no era fijo ni inmutable, como creían sus
+contemporáneos, pues aparecían ante su
+vista nuevas estrellas que luego desapare-      Demostración
+cían; y que los planetas Venus y Mercurio
+se movían también alrededor del Sol y que
+                                                Sea C un punto cualquiera de (a, b) y h tal que a ≤ C + h ≤ b. Demostraremos que
+                                                F es continua en C, es decir, demostraremos que lim F (C + h) = F (C ).
+el Sol mismo giraba sobre su eje. Su libro
+Diálogo sobre los dos principales sistemas
+del mundo es una brillante sátira que                                                                    h→0
+
+
+156
+                                                                                            Módulo 16: Los teoremas fundamentales del cálculo
+Por la definición de F se tiene que
+                                                                                                               demostraba por medio del diálogo las fallas
+
+
+        F (C + h) = ∫         f (t ) dt y F (C ) = ∫ f (t ) dt.
+                                                                                                               del sistema geocéntrico tolomeico en
+                        C+h                                 C                                                  comparación con el sistema heliocéntrico
+                        a                                   a                                                  copernicano.
+
+                                                                                                               El trabajo experimental y teórico de Galileo
+Luego                                                                                                          sobre el movimiento de los cuerpos, junto
+                                                                                                               con los trabajos de Kepler y René Descartes,
+
+
+        F (C + h) − F (C ) = ∫            f (t ) dt − ∫ f (t ) dt = ∫          f (t ) dt + ∫ f (t ) dt
+                                                                                                               fue el inicio de la mecánica clásica
+                                   C+h                  C               C +h                a                  desarrollada por Sir Isaac Newton. Galileo
+
+
+                              =∫
+                                   a                    a               a                  C                   fue el pionero, al menos en la tradición
+                                   C +h
+                                                                                                               europea, en desarrollar experimentos
+                                          f (t ) dt .                                                          rigurosos insistiendo en la descripción
+                                   C
+                                                                                                               matemática de las leyes de la naturaleza.
+                                                                                                               Entre sus aportes fundamentales están la
+                                                                                                               transformación de Galileo entre sistemas
+                                                                                                               de referencia inerciales y el desarrollo del
+Es decir,                                                                                                      concepto de inercia.
+
+
+        F (C + h) − F (C ) = ∫
+                                   C+h
+                                                                                                               Uno de los mitos más famosos sobre Galileo
+                                          f (t ) dt (figura 16.2).                                             es aquel en que tira objetos de diferentes
+                                   C                                                                           masas desde lo alto de la Torre de Pisa, con
+                                                                                                               el fin de demostrar que la velocidad de
+Puesto que f es acotada en [a, b] (por ser f integrable), entonces existe M ≥ 0 tal
+                                                                                                               descenso era independiente de la masa.
+                                                                                                               Esto contradecía el pensamiento de
+que f (t ) ≤ M para todo t de [a, b].
+                                                                                                               Aristóteles de que los objetos pesados
+                                                                                                               caerán más rápido que los ligeros, en forma
+                                                                                                               directamente proporcional a su peso. La
+                                                                                                               historia de la torre aparece en una biografía
+Luego
+                                                                                                               de uno de sus alumnos, Vicenzo Viviani,
+
+        − M ≤ f (t ) ≤ M .
+                                                                                                               pero es considerada falsa. En realidad Galileo
+                                                                                                         (1)   nunca realizó, que se sepa, este experimento
+                                                                                                               de esta forma y de haberlo hecho su
+                                                                                                               resultado sería el opuesto, como él sabía.
+                                                                                                               La fuerza de resistencia del aire depende no
+                                                                                                               sólo de la forma del objeto sino indirecta-
+                                                                                                               mente también en parte de su masa, de
+                                                                                                               donde se originó la idea aristotélica. Sin
+                                                                                                               embargo, Galileo realizó experimentos que
+                                                                                                               implicaban el deslizamiento de objetos sobre
+                                                                                                               planos inclinados, para hacer más lenta la
+                                                                                                               caída, reduciendo los efectos de la
+                                                                                                               resistencia del aire que dependen de la
+                                                                                                               velocidad, aislando así la acción de la
+                                                                                                               gravedad y probando que la caída o
+                                                                                                               deslizamiento «libres» son acelerados
+                                                                                                               independientemente de la masa.
+
+                                                                                                               Sobre los años 1606-1607 (posiblemente
+                                                                                                               antes), Galileo construyó un termómetro
+                                                                                                               usando la expansión y contracción del aire
+                                                                                                               en un recipiente de cristal para mover el
+                                              Figura 16.2
+                                                                                                               agua de un tubo adjunto. Y en 1609 estuvo
+
+Analicemos dos casos: cuando h ≥ 0 y cuando h < 0.
+                                                                                                               entre los primeros en usar el telescopio
+                                                                                                               refractor como instrumento para observar
+                                                                                                               las estrellas, planetas y lunas. En 1610 utilizó
+                                                                                                               un telescopio como microscopio com-
+Primer caso                                                                                                    puesto, e hizo mejoras en los microscopios
+                                                                                                               de 1623 en adelante.
+
+Si h ≥ 0, entonces, aplicando en (1) el teorema 1 módulo14 (observación iv),                                   Lamentablemente, a la edad de 74 años,
+obtenemos:                                                                                                     Galileo quedó ciego. Cuando murió,
+                                                                                                               venerado por los ciudadanos y muchos
+                                                                                                               hombres principales de la Iglesia y de los
+                                                                                                               seglares, la Inquisición se negó a permitir la
+                                                                                                               realización de un funeral público
+
+
+                                                                                                Elementos básicos de cálculo integral y series 157
+Capítulo 3: Integral definida
+
+                                               ∫          − M dt ≤ ∫               f (t ) dt ≤ ∫
+                                                   C +h                     C +h                   C+h
+                                                                                                         M dt
+
+                                               − Mh ≤ ∫
+                                                   C                     C                         C
+
+
+                                                                     f (t ) dt ≤ Mh.
+                                                              C +h
+
+                                                             C
+
+
+                                       O sea que
+
+                                               − Mh ≤ F (C + h) − F (C ) ≤ Mh.
+      Escuche el audio En un tono
+      menos serio: el problema del
+      pintor matemático en su multi-
+      media de Elementos básicos de
+      cálculo integral y series.       Si tomamos límite a esta expresión cuando h tiende a cero por la derecha, obtene-
+                                       mos:
+
+                                               lim (− Mh) ≤ lim+ [ F (C + h) − F (C )] ≤ lim+ ( Mh),
+                                               h → 0+                 h →0                                      h →0
+
+
+                                       y puesto que lim+ ( − Mh) = 0 y lim+ ( Mh) = 0 , se concluye, por el teorema del
+                                                            h →0                           h →0
+
+                                       sánduche, que
+
+                                               lim [ F (C + h) − F (C )] = 0,
+                                               h → 0+
+
+
+                                       y por tanto hlim   F (C + h) = F (C ).                                          (2)
+                                                     → 0+
+
+
+                                       Segundo caso
+
+                                                                                                                             −M
+                                       Si h < 0, entonces C + h < C , luego aplicando a (1) el teorema 2 del módulo 14
+                                       (observación iv) se obtiene:
+
+
+                                               − M ( − h) ≤ ∫               f (t ) dt ≤ M (−h) .
+                                                                     C
+
+                                                                     C +h
+
+
+                                       Entonces:
+
+
+                                               Mh ≤ −∫               f (t ) dt ≤ − Mh.
+                                                             C +h
+
+                                                             C
+
+
+                                       Al multiplicar esta desigualdad por (−1) resulta:
+
+
+                                       Es decir,
+                                               − Mh ≥ F (C + h) − F (C ) ≥ Mh.
+
+                                       Si tomamos límite a esta última expresión cuando h tiende a 0 por la izquierda,
+                                       obtenemos por el teorema del sánduche que
+
+
+158
+                                                                                             Módulo 16: Los teoremas fundamentales del cálculo
+Sea x un punto fijo de [a, b], luego:
+
+
+        F ( x + h) − F ( x ) = ∫            f (t ) dt − ∫ f (t ) dt = ∫
+                                      x+h               x                 x+h
+                                                                                f (t ) dt.            (1)
+                                      a                 a                 x
+
+
+Entonces, por ser f continua se tiene por el TVM que existe un punto c entre x y
+x + h tal que:
+
+
+        ∫         f (t ) dt = f (c) h
+            x+h
+
+            x
+                                            (h puede ser positivo o negativo)                         (2)
+
+
+Entonces, de (1) y (2) se tiene que F ( x + h) − F ( x) = f (c)h , de donde
+
+
+        F ( x + h) − F ( x )
+                             = f (c).                                                                 (3)
+                 h
+
+Ahora, lim f (c) = f ( x) ya que f es continua y c → x ⇔ h → 0 (figura 16.4).
+        h→0
+
+
+                                                                                                              Teorema fundamental del cálculo
+
+                                                                                                              El «teorema fundamental del cálculo»,
+                                                                                                              que se atribuye a Isaac Newton y
+                                                                                                              Gottfried Leibniz, marca el comienzo del
+                                                                                                              cálculo como disciplina unificada.
+                                                                                                              Newton desarrolló su cálculo a finales
+                                                                                                              del año 1660, pero no publicó sus
+                                                                                                              resultados hasta 1687. Leibniz los
+                                                                                                              redescubrió a mediados de 1670, pero
+                                                 Figura 16.4                                                  los publicó antes que Newton, en 1684
+                                                                                                              y 1686. La notación y terminología de
+
+Por tanto, tomando límite en (3) cuando h → 0 , obtenemos:
+                                                                                                              Leibniz (en buena parte todavía en uso)
+                                                                                                              es mejor que la de Newton. (Newton se
+                                                                                                              refería a las derivadas e integrales como
+
+                F ( x + h) − F ( x )
+                                                                                                              fluxiones y fluyentes. ) Sin embargo,
+
+                                     = lim f (c) = f ( x).
+                                                                                                              Newton desarrolló las nociones básicas
+        lim
+        h→0                            c→ x
+                                                                                                              antes que Leibniz. A raíz de un cruce de
+                         h                                                                                    cartas entre ambos, surgió una tensa
+                                                                                                              controversia sobre quién debía ser
+                                                                                                              considerado el creador del cálculo. La
+                   F ( x) = f ( x) para todo x en [a, b].
+                d                                                                                             disputa degeneró en una auténtica
+
+
+                                  (               )
+O sea que
+                dx                                                                                            guerra entre los matemáticos de
+
+
+                                  ∫
+                                                                                                              Inglaterra y los del resto de Europa. La
+
+                                      f (t ) dt = f ( x), igualdad que indica que la derivada
+                               d    x                                                                         comunicación entre las dos comunida-
+O, lo que es lo mismo,                                                                                        des matemáticas quedó en suspenso
+                               dx a                                                                           durante un siglo, hecho que ejerció
+                                                                                                              influencia innegable en el desarrollo de
+«deshace» la acción de la integral de la función f (t ) .                                                     las matemáticas en el siglo XVIII.
+
+
+                                                                                             Elementos básicos de cálculo integral y series 161
+Capítulo 3: Integral definida
+
+
+                Corolario 1
+
+                Sea h una función continua en [c, d], V ( x) una función derivable en [a, b] y
+                 c ≤ V ( x) ≤ d .
+
+                Si F ( x) = ∫                                                       = h(V ( x)).
+                                  V ( x)                                    dF ( x)              dV
+                                           h(t ) dt , entonces                                      .
+                                 c                                           dx                  dx
+
+
+                En efecto, sea G (V ) = ∫ h(t ) dt.
+                                                          V
+
+                                                          c
+
+
+                                                                                                                = h(V ) y además
+                                                                                                        dG (V )
+                Por el teorema anterior, G es derivable respecto a V, luego
+                                                                                                         dV
+                 F ( x) = (G V )( x).
+
+
+                Entonces:
+
+
+                           =      = h(V ).
+                         dF dG dV          dV
+                              .               .
+                         dx dV dx          dx
+
+                Es decir,
+
+
+                            ∫     h(t ) dt = h(V ( x))
+                         d V ( x)                      dV
+                                                          .
+                         dx  c                         dx
+
+
+                Corolario 2
+
+                Sea h continua en [c, d ], U ( x) y V ( x) derivables en [a, b] con c ≤ U ( x) ≤ d
+                c ≤ V ( x) ≤ d .
+
+
+                Si F ( x) = ∫
+                                V ( x)
+                                         h(t ) dt , entonces
+                                U ( x)
+
+
+                         dx ∫ U ( x )
+                                      h(t ) dt = h(V ( x))    − h(U ( x))
+                         d V ( x)                          dV             dU
+                                                                             .
+                                                           dx             dx
+
+                Para la demostración basta aplicar el colorario 1 a la expresión
+
+
+                        F ( x) = ∫                  h(t ) dt − ∫
+                                           V ( x)                  u( x)
+                                                                           h(t ) dt.
+                                           c( x)                   c
+
+
+162
+Capítulo 3: Integral definida
+                                16.2 Segundo teorema fundamental del cálculo
+                                Teorema 3 : Segundo teorema fundamental del cálculo
+
+                                Sea f una función continua en un intervalo cerrado [a, b] y F una función tal que
+                                F ′( x) = f ( x) para todo x en [a, b]. Entonces,
+
+
+                                        ∫ f (t ) dt = F (b) − F (a).
+                                          b
+
+                                          a
+                                                                                                                        (1)
+
+
+                                Demostración
+
+
+                                Como f es integrable en [a, b], sea G ( x) = ∫ f (t ) dt , a ≤ x ≤ b. En consecuencia,
+                                                                                  x
+
+                                                                                 a
+
+                                G ′( x) = f ( x), y como por hipótesis F ′( x) = f ( x), entonces F y G difieren en una
+                                constante, es decir, G ( x) = F ( x) + C. Esto es,
+
+
+                                        G ( x) = ∫ f (t ) dt = F ( x) + C
+                                                   x
+
+                                                  a
+
+
+                                Por tanto,
+
+
+                                        G (a) = ∫ f (t ) dt = 0 = F (a) + C ,
+                                                   a
+
+                                                  a
+
+
+                                de donde F (a) = −C.
+
+                                Además,
+
+
+                                        G (b) = ∫ f (t ) dt = F (b) + C = F (b) − F (a).
+                                                  b
+
+                                                  a
+
+
+                                Luego
+
+
+                                        ∫ f (t ) dt = F (b) − F (a).
+                                          b
+
+                                          a
+
+
+                                Observaciones
+
+
+                                        En el trabajo con integrales, la expresión F (b) − F (a) se denota por [ F ( x ) ]b ,
+                                                                                                                          a
+                                i.
+                                        que se lee: « F ( x) entre a y b».
+
+                                        Con esta notación podemos escribir entonces ∫ a f (t ) dt = [ F ( x)]a , siendo
+                                                                                              b                   b
+
+
+                                        F ( x) una primitiva de f.
+
+
+166
+                                                                      Módulo 16: Los teoremas fundamentales del cálculo
+ii.         En muchas aplicaciones la conclusión del segundo teorema fundamental
+
+            del cálculo se escribe en la forma siguiente:
+
+
+                    ∫ f ′(t ) dt = f (b) − f (a).
+                     b
+
+                     a
+
+
+            Si al evaluar ∫ a f (t ) dt no podemos encontrar en forma directa una primiti-
+                               b
+iii.
+
+            va F ( x) de f, la regla de sustitución puede emplearse en este caso en la
+            forma siguiente:
+
+            Si u = g ( x), donde g ( x) y g ′( x) son continuas en el intervalo
+
+            [ g (a), g (b)] , y si f ( g ( x)) está definida y es continua en [ g (a), g (b)],
+            entonces
+
+
+                    ∫ f ( g ( x) ) g ′( x)dx = ∫
+                     b                             g (b )
+                                                            f (u ) du.
+                     a                             g (a)
+
+
+            Nótese que al calcular la integral definida por la fórmula anterior no necesa-
+            riamente regresamos a la variable original sino que se halla una primitiva
+            de f (u ) y la evaluamos desde g (a) hasta g (b).
+
+iv.         La fórmula de integración por partes también puede usarse para el cálculo de
+            integrales definidas. En este caso se tiene que si U ( x) y V ( x) son dos
+            funciones derivables en [a, b], entonces:
+
+
+                    ∫ U ⋅ dV = [U ( x) ⋅V ( x)] − ∫ V ⋅ dU .
+                     b                               b        b
+
+                     a                               a        a
+
+
+      16.3 Algunas propiedades que ayudan a simplificar los
+           cálculos en algunas integrales
+      El conocimiento de la simetría que presenta el integrando en un intervalo de longi-
+      tud 2a ayuda a simplificar los cálculos, como se muestra a continuación.
+
+      i.      Si f es una función par ( f (− x) = f ( x)) , esto es, si f es simétrica con
+              respecto al eje y, entonces
+
+
+                         ∫ f ( x) dx = 2∫ f ( x) dx (figura 16.6a).
+                          a               a
+
+                          −a             0
+
+
+      ii.     Si f es una función impar ( f (− x) = − f ( x)), esto es, si f es simétrica con
+              respecto al origen, entonces
+
+
+                         ∫ f ( x) dx = 0 (figura 16.6b).
+                          a
+
+                          −a
+
+
+                                                                                 Elementos básicos de cálculo integral y series 167
+                                                                                                                   Módulo 17: Integrales impropias
+17.1 Integrales impropias tipo I
+Definiciones
+
+
+       Sea f una función integrable en [ a , + ∞ ). Si lim ∫ f ( x) dx existe, se dice
+                                                                                        ∈
+i.
+                                                                                ∈→+∞
+
+
+       que la integral impropia ∫
+                                                                                        a
+
+                                                +∞
+                                                            f ( x) dx es convergente y en este caso se
+                                                a
+
+       escribe:
+
+
+                   ∫        f ( x) dx = lim ∫ f ( x) dx.
+                       +∞                               ∈
+
+                       a                 ∈→+∞           a
+
+
+       Si el límite no existe, se dice que la integral impropia es divergente.
+
+
+       Sea f una función integrable en (−∞, b]. Si lim ∫ f ( x) dx existe, se dice
+                                                                                        b
+ii.
+                                                                                ∈→−∞    ∈
+
+
+       que la integral impropia ∫−∞ f ( x) dx es convergente y en este caso se
+                                                    b
+
+
+       escribe:
+
+
+                   ∫ f ( x) dx = lim ∫ f ( x) dx.
+                       b                            b
+
+                    −∞                  ∈→−∞        ∈
+
+
+       Si el límite no existe, se dice que la integral impropia es divergente.
+
+
+iii.   Si f es integrable en (−∞, +∞) , y c ∈ ℜ, entonces
+
+
+                   ∫        f ( x) dx = ∫       f ( x) dx + ∫
+                       +∞                   c                         +∞
+                                                                           f ( x) dx.
+                       −∞                 −∞                          c
+
+
+Observaciones
+
+i.     El significado de la definición iii es el siguiente: si las integrales impropias
+
+       ∫        f ( x) dx y ∫
+           c                    +∞
+
+        −∞
+                                     f ( x) dx son convergentes, siendo c cualquier número
+
+       real, entonces la integral impropia ∫ −∞ f ( x) dx es convergente y su valor es
+                                c
+
+                                                                 +∞
+
+
+       la suma de las dos integrales impropias; pero si al menos una de las dos
+       integrales impropias de la derecha es divergente, entonces la integral
+
+       ∫
+           +∞
+                f ( x ) dx es divergente.
+        −∞
+
+
+       Cuando f ( x) ≥ 0 y la integral impropia ∫
+                                                                            +∞
+ii.                                                                              f ( x) dx es convergente, en-
+                                                                            a
+
+       tonces el valor de dicha integral corresponde al área de la región acotada
+       por la curva y = f (x), el eje x y la recta x = a.
+
+
+                                                                                                 Elementos básicos de cálculo integral y series 175
+Capítulo 3: Integral definida
+                                3.      Si p < 1, entonces
+
+
+                                        ∫            dx = lim ∫ p dx = lim       (∈1− p − 1) = + ∞, puesto que
+                                            +∞   1              ∈ 1          1
+                                            1    x p      ∈→+∞ 1  x    ∈→+∞ 1− p
+
+
+                                        lim ∈1− p = + ∞ . (Como p < 1 , 1 − p > 0 y ∈1− p → +∞ , cuando ∈ → +∞)
+                                        ∈→+∞
+
+
+                                Del análisis anterior se puede concluir que la integral impropia ∫
+                                                                                                                   +∞   1
+                                                                                                                           dx converge
+                                                                                                                   1    xp
+                                para p >1, y en los demás casos diverge.
+
+                                El siguiente teorema y su corolario, que se enuncian sin demostración, son útiles
+                                porque en muchos casos permiten decidir si una integral impropia es convergente o
+                                no.
+
+                                Teorema 1
+
+                                Sean f y g dos funciones integrables en su dominio, tales que 0 ≤ f ( x) ≤ g ( x)
+                                para todo x ≥ a. Por tanto,
+
+
+                                       Si ∫            g ( x) dx converge, entonces ∫
+                                                 +∞                                          +∞
+                                1.                                                                f ( x) dx también converge, y ade-
+
+                                       más ∫ a f ( x) dx ≤ ∫ a g ( x) dx.
+                                                 a                                           a
+
+                                                      +∞             +∞
+
+
+                                       Si ∫           f ( x) dx diverge, entonces ∫
+                                                 +∞                                     +∞
+                                2.                                                           g ( x) dx también diverge.
+                                                 a                                      a
+
+
+                                La parte 1 de este teorema puede interpretarse geométricamente así: si el área de la
+                                región bajo la gráfica de g(x) es un valor finito, también tomará un valor finito el área
+                                de la región bajo la gráfica de f (x).
+
+                                Corolario
+
+                                Sean f y g dos funciones integrables en su dominio, tales que f ( x) ≥ 0 , g ( x) ≥ 0
+
+                                para todo x ≥ a, y además lim                       = C. Entonces:
+                                                                             f ( x)
+                                                                     x →+∞   g ( x)
+
+
+                                       Si C ≠ 0, las integrales ∫                 f ( x) dx y ∫
+                                                                             +∞                     +∞
+                                1.                                                                       g ( x) dx ambas convergen o
+                                                                             a                      a
+
+                                       ambas divergen.
+
+
+                                       Si C = 0 y la integral ∫            g ( x) dx converge, entonces la integral ∫ a f ( x) dx
+                                                                      +∞                                                    +∞
+                                2.
+                                                                      a
+
+                                       también converge.
+
+
+178
+Capítulo 3: Integral definida
+
+                                                                            xs+2
+                                       Si s ≤ −2, entonces xlim                  = 0.
+                                                             →+∞             ex
+
+                                                                                         xs+2                             ∞
+                                       Si s > −2, entonces el límite xlim
+                                                                                                                          ∞
+                                                                       →+∞
+                                                                                              es de la forma indeterminada .
+                                                                                          ex
+
+                                Como s + 2 es un real fijo, se puede aplicar reiteradamente la regla de L´Hopital
+                                hasta que el exponente de x sea negativo o cero. En ese momento el numerador es
+                                una constante y el denominador tiende a infinito. En consecuencia,
+
+
+                                              xs+2
+                                        lim        = 0.                                                                  (2)
+                                        x →+∞ e x
+
+
+                                De (1) y (2) se concluye que
+
+                                                         = 0.
+                                                  f ( x)
+                                        lim
+                                        x →+∞     g ( x)
+                                Además,
+
+                                        ∫        g ( x) dx = ∫        x −2 dx = ∫
+                                                                                dx = 1 (convergente),
+                                            +∞                   +∞          1      +∞
+
+                                            1                    1          x2      1
+
+                                y por el corolario del teorema 1 (parte 2) se puede concluir finalmente que la integral
+
+                                impropia ∫1 e x dx es convergente para todo s ∈ ℜ.
+                                                 +∞
+                                             −x 5
+
+
+                                A continuación se definirá el segundo tipo de integrales impropias.
+
+                                La particularidad de este tipo de integrales es la discontinuidad infinita que presen-
+                                ta el integrando en algún punto del intervalo cerrado [a, b].
+
+
+                                17.2 Integrales impropias tipo II
+
+                                A este tipo pertenecen integrales de la forma ∫ f ( x) dx, donde f (x) presenta una
+                                                                                             b
+
+                                                                                             a
+
+                                discontinuidad infinita en [a, b], es decir, f (x) se hace infinita en algún punto del
+                                intervalo [a, b].
+
+                                Se presentan varios casos, dependiendo del punto donde el integrando se hace
+                                discontinuo.
+
+                                Caso 1. La función f presenta discontinuidad infinita en x = a ⇔ lim+ f ( x ) = ∞
+                                                                                                               x→a
+
+                                (figura 17.1a) .
+
+
+180
+                                                                                                              Módulo 17: Integrales impropias
+
+
+                                                       Figura 17.1
+Definición
+
+
+Si lim+ ∫ f ( x) dx = lim+ ∫
+              b                             b
+                                                   f ( x) dx existe, se dice que la integral impropia
+      ∈→ a    ∈              ∈→ 0           a +∈
+
+
+∫ f ( x) dx es convergente, y en este caso se puede escribir:
+  b
+
+ a
+
+
+             ∫ f ( x) dx = lim ∫ f ( x) dx = lim ∫
+              b                     b                               b
+                                                                            f ( x) dx.
+              a           ∈→ a +    ∈                    ∈→ 0+      a +∈
+
+
+Si el límite no existe, se dice que la integral impropia es divergente.
+
+
+Caso 2. La función f presenta discontinuidad infinita en x = b ⇔ lim− f ( x) = ∞
+                                                                                         x →b
+
+(figura 17.1b) .
+
+
+Definición
+
+
+ Si lim− ∫ f ( x) dx = lim+ ∫
+                                                                                                           Precaución sobre integrales
+                  ∈                     b −∈                                                               impropias
+                                                   f ( x) dx existe, se dice que la integral impropia
+       ∈→b                  ∈→ 0
+
+                                                                                                           No siempre ∫−∞ f ( x) dx = εlim
+                                                                                                                                        →∞ ∫− ε
+∫ f ( x) dx es convergente, y en este caso se puede escribir:
+                  a                     a
+                                                                                                                          +∞                    ε
+  b                                                                                                                                             f ( x) dx
+ a                                                                                                         aunque es muy tentador escribirlo. En
+                                                                                                           algunas ocasiones el límite de la derecha
+
+
+             ∫ f ( x) dx = lim ∫ f ( x) dx = lim ∫
+                                                                                                           existe para algunas integrales impropias
+              b                     ∈                                b −∈
+                                                                                                           divergentes como sucede por ejemplo
+                                                                            f ( x) dx.
+                          ∈→b   −
+                                                         ∈→ 0   +                                          con la función f (x) = x.
+
+                                                                                                                                 →∞ ∫− ε
+              a                     a                               a
+
+                                                                                                                                         x dx = 0,
+                                                                                                                                            ε
+                                                                                                           Se puede probar que εlim
+Si el límite no existe, se dice que la integral impropia es divergente.
+                                                                                                           sin embargo la integral impropia ∫−ε x dx
+                                                                                                                                                    ε
+
+
+                                                                                                           diverge.
+Caso 3. La función f presenta discontinuidad infinita en x = a y en
+x = b ⇔ lim+ f ( x ) = ∞ ∧ lim− f ( x ) = ∞ (figura 17.2a).                                                (Tomado de «La precaución sobre
+              x→a                   x →b                                                                   integrales impropias», página 526 del
+                                                                                                           texto Cálculo de Smith y Minton)
+
+
+                                                                                           Elementos básicos de cálculo integral y series 181
+Capítulo 3: Integral definida
+                                En este caso, y de acuerdo con las propiedades de la integral definida, la integral
+
+                                impropia ∫ a f ( x) dx puede escribirse en la forma:
+                                             b
+
+
+                                        ∫ f ( x) dx = ∫ f ( x) dx + ∫ f ( x) dx ,
+                                         b                 c          b
+
+                                         a                 a         c
+                                                                                                                  (1)
+
+
+                                siendo c un número real tal que a < c < b, transformando así la integral inicial en la
+                                suma de dos integrales impropias cuya convergencia o divergencia corresponde,
+                                respectivamente, a las definiciones de los casos 1 y 2 inmediatamente anteriores.
+
+                                Si alguna de las integrales impropias de la derecha de (1) es divergente, entonces la
+
+                                integral impropia ∫ f ( x) dx es divergente.
+                                                       b
+
+                                                       a
+
+
+                                                                          Figura 17.2
+
+
+                                Caso 4. La función f presenta discontinuidad infinita en x = c, con c ∈ ℜ, tal que
+                                a < c < b ⇔ lim f ( x) = ∞ (figura 17.2b).
+                                                 x→c
+
+
+                                En este caso, y de acuerdo con las propiedades de la integral definida, la integral
+
+                                impropia ∫ a f ( x) dx puede escribirse en la forma:
+                                             b
+
+
+                                        ∫ f ( x) dx = ∫ f ( x) dx + ∫ f ( x) dx,
+                                         b                 c             b
+
+                                         a                 a          c
+                                                                                                                  (2)
+
+
+                                transformando así la integral inicial en la suma de dos integrales impropias cuya
+                                convergencia o divergencia corresponde, respectivamente, a las definiciones de
+                                los casos 2 y 1 inmediatamente anteriores.
+
+                                Si alguna de las integrales impropias de la derecha de (2) es divergente, se dice
+
+                                entonces que la integral impropia ∫ f ( x) dx es divergente.
+                                                                             b
+
+                                                                             a
+
+
+182
+                                                                                                             Módulo 17: Integrales impropias
+
+Observación
+
+Si la función f presenta un número finito de discontinuidades infinitas en los pun-
+tos c1 , c2 ,   , cn −1 , cn , donde a < c1 < c2 <       < cn −1 < cn < b, entonces la integral im-
+
+propia ∫ f ( x) dx se transforma en una suma finita de integrales impropias, a sa-
+            b
+
+            a
+
+ber:
+
+
+          ∫ f ( x) dx = ∫ f ( x) dx + ∫          f ( x) dx +   +∫          f ( x) dx + ∫ f ( x) dx, (3)
+            b               c1              c2                      cn                 b
+
+            a              a               c1                       cn−1               nc
+
+
+cuya convergencia o divergencia se analiza de acuerdo con el caso 1, 2, 3 y 4 que
+corresponda de los mencionados anteriormente.
+
+Si al menos una de las integrales impropias de la derecha de (3) es divergente, se
+
+dice entonces que la integral impropia ∫ f ( x) dx es divergente.
+                                                     b
+
+                                                     a
+
+
+                                                                                           Elementos básicos de cálculo integral y series 183
+     39.   Teorema de Pitágoras para integrales definidas
+
+           Sean f, g y h tres funciones que satisfacen las siguientes condiciones:
+
+                                a ⎛c ⎞             b ⎛c ⎞
+                   g ( x) =      f ⎜ x ⎟ y h( x ) = f ⎜ x ⎟ ,
+                                c ⎝a ⎠             c ⎝b ⎠
+
+
+           siendo a, b, c enteros positivos que cumplen a 2 + b 2 = c 2 .
+
+           Demuestre que:
+
+
+                   ∫ g ( x) dx + ∫ h( x) dx = ∫ f ( x) dx.
+                       a                      b    c
+
+                       0                     0     0
+
+
+           Esto indica que las áreas de regiones similares construidas en dos catetos de un triángulo rectángulo es
+           igual al área construida sobre la hipotenusa.
+
+           Geométricamente es como se muestra en la figura 1:
+
+
+                                                             Figura 1
+
+V.   Integrales impropias
+
+     1.    Analice la convergencia o divergencia de las siguientes integrales impropias (a-n). Para las convergentes
+           determine su valor.
+
+
+                   ∫                                         ∫                              ∫
+                       +∞                                        +∞                             −2
+                            x 2 e− x dx.                              xe− x dx.
+                                                                               2                     dx
+           a.                                          b.                              c.               .
+                       1                                         4                              −∞   x5
+
+                   ∫                                         ∫ e dx.                        ∫
+                       +∞     x dx                               0                              +∞    dx
+                              9+ x
+           d.                            .             e.
+                                                                      3x
+                                                                                       f.                   .
+                       3             2                           −∞                             1
+                                                                                                       3x
+
+
+                   ∫                                         ∫                              ∫
+                       +∞      dx                                +∞     dx                      0        dx
+                                                                                                     (2 x − 1)3
+                                                                                                                .
+           g.       2       x(ln x) 2                  h.     2       x(ln x)          i.       −∞
+
+
+                   ∫                                         ∫                              ∫
+                       +∞                                        +∞                             +∞
+                                x                                         x                              1
+                              x +4                                    ( x + 9) 2                     x + 2x + 5
+                                             dx.                                 dx.                            dx.
+           j.          −∞       2                      k.        −∞        2           l.       −∞     2
+
+
+                   ∫                                         ∫
+                       +∞                                        +∞
+           m.               e − x sen x dx.            n.             ( x sen x) dx.
+                       0                                         0
+
+
+                                                            Capítulo    3:básicos de
+                                                                  Elementos Integral            definida
+                                                                                     cálculo integral y series 197

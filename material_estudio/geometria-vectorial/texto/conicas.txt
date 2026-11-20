@@ -1,0 +1,3792 @@
+Capítulo 9
+                                                                                                                                           Las cónicas: un
+                                                                                                                                                 enfoque
+                                                                                                                                                                 9
+                                                                                                                                               cartesiano
+
+
+                                                                                                                                       Contenido breve
+                                                                                                                                         Módulo 29
+                                                                                                                                         La circunferencia
+
+                                                                                                                                         Ejercicios
+                                                                                                                                         Módulo 29
+
+                                                                                                                                         Módulo 30
+                                                                                                                                         La parábola
+Apolonio de Perga (263 a. C.) fue conocido como el «Gran geómetra». Estudió en Alejandría y después visitó Pérgamo en donde habían
+                                                                                                                                         Ejercicios
+sido construidas una biblioteca y una universidad semejantes a las de Alejandría. Mientras Apolonio estuvo en Pérgamo, escribió la
+primera edición de su famoso libro Secciones cónicas, en el cual introdujo los términos parábola, elipse e hipérbola. Fue uno de los     Módulo 30
+fundadores de la astronomía matemática griega, la cual usó modelos geométricos para explicar la teoría planetaria.
+                                                                                                                                         Módulo 31
+                                                                                                                                         La elipse
+Presentación                                                                                                                             Ejercicios
+                                                                                                                                         Módulo 31
+Desde unos cuatro siglos antes de nuestra era los griegos conocían la existencia de
+las cónicas, cuyo nombre genérico se debe a que resultan de la intersección de un                                                        Módulo 32
+plano y una superficie cónica. Apolonio fue el primero en hacer un estudio detalla-                                                      La hipérbola
+do de estas curvas planas y en demostrar algunas de sus más relevantes propieda-
+des.                                                                                                                                     Ejercicios
+                                                                                                                                         Módulo 32
+Entre los resultados más interesantes y útiles que obtuvo Apolonio acerca de las
+cónicas están las llamadas propiedades de reflexión o propiedades ópticas: si se
+construyen espejos con la forma de una curva cónica que gira alrededor de su eje, se
+obtienen los llamados espejos elípticos, parabólicos o hiperbólicos. El geómetra grie-
+go demostró que si se pone una fuente de luz en el foco de un espejo elíptico, entonces
+la luz reflejada en el espejo se concentra en el otro foco. Si se recibe luz de una fuente
+lejana con un espejo parabólico, de manera que los rayos incidentes sean paralelos al
+eje del espejo, entonces la luz reflejada por el espejo se concentra en el foco. Esta
+propiedad permite encender un papel si se ubica en el foco de un espejo parabólico y
+el eje del espejo apunta hacia el Sol. En el caso de los espejos hiperbólicos, la luz
+proveniente de uno de los focos se refleja como si viniera del otro foco; esta propiedad
+se utiliza en los grandes estadios para lograr mejor iluminación.
+                                                                                                                                              Geometría vectorial y analítica 483
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                 Adicionalmente, las cónicas son de suma importancia en la Física por el hecho de
+                                                 que las órbitas de los planetas alrededor del Sol son elipses y que, en general, la
+                                                 trayectoria de cualquier cuerpo sometido a una fuerza gravitatoria es una curva
+                                                 cónica.
+
+                                                 En este capítulo se hace un estudio matemático de las cónicas con el uso de la
+                                                 geometría analítica, construida por Descartes a comienzos del siglo XVII.
+
+
+484
+      La circunferencia
+                                                  29
+Introducción
+La circunferencia es uno de los elementos de la geometría más importantes y útiles
+en la vida del ser humano y está presente en casi todas las actividades que éste
+desarrolla: la música, el sistema horario, la fabricación de armas, los deportes, etc.
+Un buen ejemplo de su utilidad es la rueda, cuya invención dio inicio, durante la        Cuando el hombre comienza a desplazarse, ya sea para comer,
+prehistoria, al desarrollo de todo tipo de transporte terrestre.                         conquistar nuevos mundos o por mera curiosidad, se ve en
+                                                                                         la necesidad de depender de algún medio de locomoción.
+
+La circunferencia es una curva de las llamadas cónicas, pues se obtiene al cortar        Los primeros vehículos eran trineos de madera, posiblemente
+una superficie cónica circular con un plano perpendicular al eje de la superficie.       utilizados por tribus de todo el mundo. Para transportar
+                                                                                         cargas pesadas se usaban troncos a modo de rodillos;
+                                                                                         finalmente lo construyeron de una sola pieza, al unir los
+En este módulo se estudia la circunferencia desde el punto de vista analítico como       troncos con maderas transversales y atar todo el conjunto
+un lugar geométrico en términos de distancias. De esta manera se pueden estudiar         con tiras de cuero.
+con mucha facilidad la ecuación general de la circunferencia y los conceptos de
+rectas tangente y normal a la curva.                                                     Cuando se inventó la rueda (uno de los más maravillosos
+                                                                                         inventos de la historia), se inició el desarrollo de todo tipo
+                                                                                         de transportes terrestres. La rueda fue creada en el Neolítico
+                                                                                         y mejorada en la edad de los metales.
+Objetivos del módulo
+                                                                                         El antecesor de la rueda fue un rodillo y su principal aplicación
+1. Presentar el concepto general de sección cónica como intersección de dos super        se dio en los carros. La invención de la rueda ocurrió a partir
+                                                                                         de la observación de que un tronco cilíndrico facilitaba
+  ficies.                                                                                considerablemente el transporte de cuerpos pesados. La
+2. Estudiar la circunferencia como lugar geométrico definido en términos de dis          rueda ha sufrido numerosos cambios a través de los tiempos
+   tancia a un punto.                                                                    hasta alcanzar la perfección de hoy.
+
+
+Preguntas básicas
+1. ¿Qué es una circunferencia?
+2. ¿Cómo se obtiene la ecuación de una circunferencia?
+3. ¿Qué significado tienen las constantes que intervienen en la ecuación de una
+  circunferencia?
+4. ¿Cualquier ecuación de segundo grado en x e y representa una circunferencia?
+5. ¿Cómo se obtienen ecuaciones para rectas tangentes a una circunferencia?
+
+Contenidos del módulo
+29.1 Conceptos básicos
+       29.1.1 Superficie cónica
+       29.1.2 Cónica
+29.2 La circunferencia
+       29.2.1 Definición de circunferencia
+       29.2.2 Ecuación de la circunferencia
+       29.2.3 Problemas modelo acerca de la circunferencia                                           Vea el módulo 29 del programa de
+                                                                                                     televisión Geometría vectorial y analítica
+       29.2.4 Forma general de la ecuación de la circunferencia
+
+
+                                                                                                        Geometría vectorial y analítica 485
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                  29.1 Conceptos básicos
+                                                  29.1.1 Superficie cónica
+
+                                                  Una superficie cónica de dos mantos es la superficie generada por dos rectas que se
+                                                  cortan, al rotar una alrededor de la otra.
+       Vea la animación Generación de secciones
+       cónicas en su multimedia de Geometría      La recta fija se llama eje de la superficie cónica. La recta que rota se denomina
+       vectorial y analítica.                     generatriz.
+
+                                                  En este estudio tendremos en cuenta únicamente el caso en que la generatriz rota de
+                                                  modo que cada punto suyo en movimiento describe una circunferencia. Se trata de
+                                                  la superficie cónica circular.
+
+                                                  En la figura 29.1 se muestran el eje y una generatriz. El resultado de la rotación de esa
+                                                  generatriz alrededor del eje es el cono circular recto de dos mantos que se muestra
+                                                  en la figura 29.2.
+
+
+                                                                                         Figura 29.1
+
+
+                                                                                                       ±¯³
+                                                  En la figura 29.2, V es el vértice del cono; la recta AB es una generatriz. En general,
+                                                                         ±¯³
+                                                  cualquier recta como A2B2 es una generatriz de la superficie cónica. Cada una de las
+                                                  dos partes en las que el vértice V separa la superficie se denomina manto del cono.
+
+
+                                                                                         Figura 29.2
+
+
+486
+                                                                                              Módulo 29: La circunferencia
+23.1.2 Cónica
+
+Una cónica es una curva que se obtiene al intersecarse un plano con una superficie
+cónica.
+      Si el plano es perpendicular al eje del cono y no pasa por V, la curva es una
+       circunferencia (figura 29.3).
+
+      Si el plano es paralelo a una de las generatrices del cono, se obtiene una
+       parábola (figura 29.4).
+
+      Si el plano sólo se interseca con un manto del cono y no es paralelo al eje
+       ni a las generatrices, la curva es una elipse (figura 29.5).
+
+      Si el plano es paralelo al eje del cono, pero no lo contiene, se obtiene una
+       curva de dos ramas llamada hipérbola (figura 29.6).
+
+
+                                     Figura 29.3
+
+
+                                       Figura 29.4
+
+
+                                                                                       Geometría vectorial y analítica 487
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+       Escuche el audio Apolonio y las cónicas en su
+       multimedia de Geometría vectorial y
+       analítica.
+
+
+                                                                                      Figura 29.5
+
+
+                                                                                              Figura 29.6
+
+                                                       La anterior es una descripción geométrica de las cónicas. Para un estudio más
+                                                       detallado desde la geometría analítica, se recurre a una definición algebraica de las
+                                                       cónicas como lugares geométricos.
+
+                                                       En lo que sigue haremos un estudio introductorio de las cuatro cónicas: circunfe-
+                                                       rencia, parábola, elipse e hipérbola.
+
+
+                                                       29.2 La circunferencia
+                                                       29.2.1 Definición de circunferencia
+
+                                                       Sean C un punto del plano y r un real positivo. Se llama circunferencia de centro C
+                                                       y radio r al lugar geométrico de los puntos del plano cuya distancia a C es constante
+                                                       e igual a r.
+                                                       En la figura 29.7 se tiene una circunferencia de centro C; el radio de ésta es r = CP.
+                                                       Se entiende aquí CP como la longitud del segmento CP. Convencionalmente, todo
+
+
+488
+                                                                                                      Módulo 29: La circunferencia
+segmento con un extremo en el centro C y el otro en la circunferencia recibe también
+el nombre de radio, pero en términos estrictos CP es un segmento radial.
+
+
+                                           Figura 29.7
+
+
+29.2.2 Ecuación de la circunferencia
+
+Si se tiene un sistema bidimensional de coordenadas cartesianas, es sencillo en-
+contrar una ecuación para la circunferencia.
+
+Supongamos que el centro tiene coordenadas ( h, k ); esto es, C (h, k ). Sea P( x, y )
+un punto del plano. El punto P pertenece a la circunferencia si d ( P, C ) = r ; esto
+es, si PC = r. Esto significa que PC2 = r 2 .
+
+Según la figura 29.8,
+
+
+        ( x 2 h) 2 + ( y 2 k ) 2 = r 2 .
+
+Esta es la forma canónica de la ecuación de una circunferencia.
+
+
+                                           Figura 29.8
+Como caso particular se tiene la circunferencia de centro en el origen de coordena-
+das y radio r (figura 29.9).                                                             Vea la animación La rueda en su multimedia
+                                                                                         de Geometría vectorial y analítica.
+
+
+                                                                                             Geometría vectorial y analítica 489
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                                                           Figura 29.9
+
+                                                 En este caso, la ecuación se reduce a:
+
+
+                                                         x2 + y2 = r 2 .
+
+
+                                                 29.2.3 Problemas modelo acerca de la circunferencia
+
+                                                 1.     Encuentre la ecuación de la circunferencia de centro C (22, 3) y que pasa
+                                                        por el punto A(4, 2 1) . Encuentre el radio de la curva.
+
+                                                        Solución
+
+                                                                CA = r ; es decir, CA2 = r 2 .
+                                                                r 2 = (22 2 4) 2 + (3 + 1) 2
+                                                                   = 62 + 42
+                                                                   = 52.
+
+
+                                                        La ecuación de la circunferencia es:
+
+                                                                ( x + 2) 2 + ( y 2 3) 2 = 52.
+
+
+                                                        El radio de la circunferencia es r = 52 = 2 13.
+
+                                                 2.     Una circunferencia tiene diámetro AB, con A(4, 2 1) y B(23, 5). En-
+                                                        cuentre la ecuación y el radio de la circunferencia.
+
+                                                        Solución
+
+                                                        El centro C es el punto medio de AB .
+                                                                  4 2 3 21 + 5 ¿               »1 ¿
+                                                        Pero C »¿      ,       ¿ ; es decir, C ¿ 2 , 2 ¿ .
+                                                                ¿ 2       2 £                  ¿       £
+
+
+490
+                                                                                            Módulo 29: La circunferencia
+                          1
+     El radio es r =        ( AB).
+                          2
+
+                  1             1
+             r2 =   AB 2 ; r 2 = ££(23 2 4) 2 + (5 + 1) 2 §§
+                  4             4
+                 1
+                = (49 + 36)
+                 4
+                 85
+                = .
+                  4
+
+                          1
+     El radio es r =        85. La ecuación de la circunferencia es:
+                          2
+                      2
+             »    1¿             85
+             ¿ x 2 ¿ + ( y 2 2) = .
+                               2
+
+             ¿    2 £             4
+
+3.   Encuentre la ecuación y el radio de la circunferencia cuyo centro es el punto
+     C (21, 2 4) y es tangente a la recta de ecuación 2 x + 3 y 2 12 = 0.
+
+     Solución
+
+     Hagamos un dibujo ilustrativo, sin la precisión de las coordenadas (figura
+     29.10).
+
+
+                                     Figura 29.10
+
+     En la figura, l es la recta tangente y A el punto de tangencia. Hallemos las
+     coordenadas de A( x0 , y0 ) .
+
+     Como A está en la recta, entonces:
+
+             2 x0 + 3 y0 2 12 = 0.                                            (1)
+
+
+                                         y0 + 4
+     La pendiente de AC es mAC =                .
+                                         x0 + 1
+
+     Pero l § AC ; por tanto, ( ml )( m AC ) = 21.
+
+
+                                                                                     Geometría vectorial y analítica 491
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                                      2
+                                                             ml = 2     (¿ por qué ?).
+                                                                      3
+                                                                        2 y +4
+                                                      En consecuencia, 2 . 0     = 21.
+                                                                        3 x0 + 1
+                                                             2( y0 + 4) = 3( x0 + 1),
+                                                             3x0 2 2 y0 2 5 = 0.                                        (2)
+
+                                                      Resolviendo simultáneamente las ecuaciones (1) y (2), se obtiene:
+
+                                                             x0 = 3, y0 = 2 .
+
+                                                      Las coordenadas de A son: (3, 2).
+
+                                                      Se deja al lector la deducción de la ecuación de la curva.
+
+                                                 4.   Los vértices del triángulo ABC tienen coordenadas así:
+
+                                                              A(22, 4), B(22, 2 4), C (4, 0) .
+
+                                                      Encuentre la ecuación de la circunferencia circunscrita al triángulo.
+
+                                                      Solución (figura 29.11)
+
+
+                                                                                        Figura 29.11
+
+                                                      La circunferencia circunscrita (que pasa por los vértices A, B y C) tiene su
+                                                      centro D en la mediatriz de AB , es decir, en el eje x (¿por qué?). El centro
+                                                      tiene coordenadas D(h, 0).
+
+                                                      El punto D equidista de A y C. Por tanto,
+
+
+492
+                                                                                              Módulo 29: La circunferencia
+
+                 DA2 = DC 2 ,
+                (h + 2) 2 + (0 2 4) 2 = (h 2 4) 2 + 02 ,
+                (h 2 4) 2 2 (h + 2) 2 = 16,
+                212(h 2 1) = 16.
+
+                                          1
+       Se obtiene así que h = 2             .
+                                          3
+
+              » 1 ¿
+       Así, D ¿ 2 , 0 ¿ es el centro de la circunferencia circunscrita al triángulo
+              ¿ 3 £
+       ABC.
+                                 1 13
+       El radio es r = DC = 4 +    = .
+                                 3    3
+       La ecuación de la circunferencia es:
+                          2
+                » 1¿        169
+                ¿x2 ¿ + y =
+                         2
+                                .
+                ¿  3 £       9
+
+29.2.4 Forma general de la ecuación de la circunferencia
+
+Partamos de la ecuación canónica centro-radio:
+
+       ( x 2 h) 2 + ( y 2 k ) 2 = r 2 .                                          (1)
+
+Desarrollando los cuadrados y reordenando se obtiene:
+
+       x 2 + y 2 2 2hx 2 2ky + h 2 + k 2 2 r 2 = 0.
+
+
+Hagamos D = 22h; E = 22k ; F = h 2 + k 2 2 r 2 .
+
+La ecuación anterior adquiere la forma:
+
+
+        x 2 + y 2 + Dx + Ey + F = 0.                                             (2)
+
+Esta es la llamada forma general de la ecuación de una circunferencia.
+
+Cabe preguntarse en este momento: ¿si una ecuación tiene esta forma general,
+representa una circunferencia?
+
+Partamos ahora de la ecuación general (2) y tratemos de llegar a la forma canónica:
+
+       ( x 2 + Dx ) + ( y 2 + Ey ) = 2 F .
+
+Completemos cuadrados en las expresiones en x y en y:
+
+
+                       D2 + E 2 2 4F
+                  2               2
+       »  D¿ »    E¿
+       ¿x+ ¿ +¿ y+ ¿ =               .                                           (3)
+       ¿  2£ ¿    2£         4
+
+                                                                                       Geometría vectorial y analítica 493
+      Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                 Para que (3) sea la ecuación canónica de una circunferencia, se requiere que:
+
+                                                        D2 + E 2 2 4F > 0.
+
+                                                 La expresión D 2 + E 2 2 4 F se denomina discriminante. En este caso, el radio de la
+                                                 circunferencia es:
+
+                                                             1
+                                                        r=     D2 + E 2 2 4F .
+                                                             2
+
+                                                 Las coordenadas del centro de la curva son:
+
+
+                                                          » D    E¿
+                                                        C ¿ 2 , 2 ¿.
+                                                          ¿  2   2£
+
+
+494
+Ejercicios propuestos
+
+1.    Una circunferencia tiene centro C (0, 2 2) y es tangente a la recta de ecuación 5x 2 12 y + 2 = 0. Halle la ecuación de
+      la circunferencia.
+
+2.    Cierta circunferencia tiene ecuación canónica ( x + 4) 2 + ( y 2 3) 2 = 36. Para cada uno de los puntos A(25, 2) y B(1, 2 4)
+      averigüe si es interior o exterior a la circunferencia.
+
+3.    Una cuerda de la circunferencia x 2 + y 2 = 25 está sobre la recta de ecuación x 2 7 y + 25 = 0. Halle la longitud de la
+      cuerda.
+
+4.    Los vértices del triángulo ABC tienen coordenadas A(21, 0), B (2, 9 / 4), C (5, 0). Halle la ecuación de la circunferencia:
+
+      a.      Circunscrita al triángulo.
+      b.      Inscrita en el triángulo.
+      c.      Que pasa por los puntos medios de los lados del triángulo.
+
+5.    Halle la ecuación de la circunferencia cuyo centro está sobre el eje x y que pasa por los puntos A(4, 6) y B (1, 3).
+
+
+6.    Cierta circunferencia tiene ecuación ( x 2 4) 2 + ( y 2 3) 2 = 20. Halle la ecuación de la recta tangente a la curva en el
+      punto E(6, 7) .
+
+7.    Para la circunferencia anterior, encuentre las ecuaciones de las rectas tangentes a ella y que pasan por el origen.
+
+8.    Para cada una de las dos ecuaciones siguientes determine si se trata de una circunferencia. En caso afirmativo,
+      encuentre el radio y las coordenadas del centro:
+
+      a.      4 x 2 + 4 y 2 2 8 x + 28 y + 53 = 0.
+      b.      2 x 2 + 2 y 2 2 6 x + 10 y + 7 = 0.
+
+
+9.    Demuestre que las circunferencias 4 x 2 + 4 y 2 2 16 x + 12 y + 13 = 0 y 12 x 2 + 12 y 2 2 48 x + 36 y + 55 = 0 son concéntricas.
+
+
+10.   Demuestre que las circunferencias x 2 + y 2 + 4 x + 6 y 2 23 = 0 y x 2 + y 2 2 8 x 2 10 y + 25 = 0 son tangentes. ¿Lo
+      son interior o exteriormente? Encuentre las coordenadas del punto de tangencia.
+
+11.   Encuentre la ecuación, el radio y las coordenadas del centro de la circunferencia que pasa por los puntos dados:
+
+      a.      A(22, 2), B (4, 2 1), C (6, 4).
+      b.      A(21, 4), B (27, 0), C (23, 2 2).
+
+
+12.   La ecuación de una circunferencia es 4 x 2 + 4 y 2 2 16 x 2 20 = 0. Halle la ecuación de la circunferencia concéntrica
+      con la primera y que es tangente a la recta 5 x 2 12 y = 1 .
+
+
+498
+13.   Halle la ecuación de la circunferencia que pasa por el punto (4, 1) y es tangente a la circunferencia x 2 + y 2 + 2 x + 6 y + 5 = 0
+      en el punto (1, 22).
+
+
+14.   Cierta circunferencia tiene ecuación x 2 + y 2 + 4 x 2 6 y + 6 = 0. ¿Puede una recta que pase por el punto (21, 5) ser
+      tangente a la circunferencia? ¿Por qué?
+
+15.   Encuentre el valor de la constante k para que la recta 2 x + 3 y + k = 0 sea tangente a la circunferencia de ecuación
+      x2 + y 2 + 6 x + 4 y = 0 .
+
+
+                                                                                                         Geometría vectorial y analítica 499
+      La elipse
+                                                   31
+Introducción
+La elipse es otra de las curvas conocidas con el nombre genérico de secciones
+cónicas, como se indicó en la presentación del capítulo 9. La elipse es la curva que
+se obtiene al intersecarse una superficie cónica y un plano que no es paralelo a
+                                                                                          Johannes Kepler (1571-1630) estableció las leyes por las
+ninguna generatriz de aquélla, ni paralelo al eje de la superficie.                       cuales se rige el movimiento de los astros en la actual
+                                                                                          concepción del universo. La primera de dichas leyes puede
+La elipse, como la parábola, tiene muchas propiedades que la hacen de gran utilidad       enunciarse así: «Los planetas describen órbitas elípticas, con
+en diferentes ramas de la ciencia. Como en la parábola, sus propiedades ópticas han       uno de los focos ocupados por el Sol».
+permitido desarrollar muchas aplicaciones en la rama de la Física conocida como
+óptica.
+
+En este módulo presentaremos la elipse como un lugar geométrico en términos de
+distancias; obtendremos su ecuación canónica general y estudiaremos algunas de
+sus propiedades más importantes, entre ellas las de las rectas tangente y normal, y
+la conocida como propiedad óptica.
+
+Objetivo del módulo
+1. Presentar la elipse como lugar geométrico en términos de distancias a dos puntos
+   fijos y analizar su propiedad óptica.
+
+Preguntas básicas
+1. ¿Cuál es la ecuación canónica de una elipse?
+2. ¿Qué representan las constantes que intervienen en la ecuación de una elipse?
+3. ¿Cuántas clases de elipses hay según su ubicación con respecto a los ejes
+   coordenados?
+4. ¿Qué condición debe satisfacer una ecuación de segundo grado para que represente una
+   elipse?
+5. ¿Cuál es la propiedad óptica de la elipse?
+6. ¿Cómo se obtienen las ecuaciones para las rectas tangente y normal a una elipse?
+
+
+                                                                                                      Vea el módulo 31 del programa de
+                                                                                                      televisión Geometría vectorial y analítica
+
+
+                                                                                                        Geometría vectorial y analítica 539
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                 Contenidos del módulo
+                                                 31.1 Caracterización de la elipse
+                                                        31.1.1 Definición de elipse
+                                                        31.1.2 Propiedades básicas de la elipse
+                                                        31.1.3 Elementos de la elipse
+                                                 31.2 Ecuación de la elipse
+                                                        31.2.1 Elipse con centro en el origen y focos en el eje x
+                                                        31.2.2 Elipse con centro en el origen y focos en el eje y
+                                                 31.3 Rectas tangente y normal a la elipse
+                                                 31.4 Elipse con centro fuera del origen y ejes paralelos a los ejes coordenados
+                                                        31.4.1 Elipse horizontal con centro C(h, k)
+                                                        31.4.2 Elipse vertical con centro C(h, k)
+                                                 31.5 Rectas tangente y normal a la elipse con centro distinto al origen de
+                                                      coordenadas
+                                                 31.6 Forma general de la ecuación de la elipse
+
+
+540
+                                                                                                                  Módulo 31: La elipse
+31.1 Caracterización de la elipse
+31.1.1 Definición de elipse
+
+Sean F1 , F2 puntos diferentes en el plano y a un real positivo. Se llama elipse de
+focos F1 y F2 al lugar geométrico de los puntos del plano cuya suma de distancias
+                                                                                            Vea la animación La elipse en su multimedia
+a los focos es igual a 2a .                                                                 de Geometría vectorial y analítica.
+
+
+31.1.2 Propiedades básicas de la elipse
+
+Sea f la recta que contiene los dos focos de la curva (figura 31.1).
+
+
+                                       Figura 31.1
+
+Llamemos 2c a la distancia entre los focos. Es claro que c < a; en efecto, si c = a,
+la curva se reduciría a los focos; si c > a, el lugar geométrico sería vacío.
+
+Sean V1 y V2 dos puntos en la recta f tales que F1 está entre V1 y F2 , y F2 está
+entre F1 y V2. Es fácil probar que si la distancia de V1 a F1 es ( a 2 c ) y la distancia
+de V2 a F2 es ( a 2 c ) , entonces V1 y V2 son puntos de la curva. Además, V1 y V2
+son los únicos puntos de la curva sobre la recta f.
+
+Sean ahora v1 y v2 las rectas del plano perpendiculares a f en V1 y V2 , respectiva-
+mente (figura 31.2).
+
+
+                                       Figura 31.2
+
+
+Sea Q un punto del plano cuya proyección sobre f es Q' y tal que V2 está entre F2
+y Q'. Puede probarse fácilmente que:
+
+
+        QF1 + QF2 > 2a.
+
+Por tanto, Q no puede pertenecer a la elipse. Similarmente ocurre con puntos del
+plano cuya proyección sobre f sea tal que V1 está entre dicha proyección y F1 . Lo
+anterior significa que la curva está comprendida entre las dos rectas v1 y v2 .
+
+
+                                                                                                Geometría vectorial y analítica 541
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Sea ahora b la recta perpendicular a f en el punto medio C de F1 F2 (figura 31.3).
+
+
+                                                                                       Figura 31.3
+
+
+                                                 Existen sobre b, a uno y otro lado de f, con respecto a C, dos puntos B1 y B2 tales
+                                                 que B1 F1 = B1 F2 = a y B2 F1 = B2 F2 = a . De este modo, B1 y B2 pertenecen a la
+                                                 elipse.
+
+                                                 Llamemos 2b la distancia entre B1 y B2 ; esto es, B1 B2 = 2b. Puede deducirse fácil-
+                                                 mente que:
+
+                                                         b2 + c 2 = a 2 .
+
+                                                 En consecuencia, b < a .
+
+                                                 De lo analizado hasta ahora puede deducirse que las rectas f y b son ejes de simetría
+                                                 de la curva, y por ende el punto C, punto medio de V1V 2 y B1B2 , es centro de
+                                                 simetría de la elipse.
+
+                                                 La elipse es, entonces, una curva cerrada, con dos ejes de simetría ortogonales
+                                                 entre sí y un centro de simetría, como se muestra en la figura 31.4.
+
+
+                                                                                       Figura 31.4
+
+
+                                                 La curva es similar al corte transversal de una pelota de rugby, achatada en B1 y B2
+
+                                                 (V1V2 > B1 B2 ).
+
+
+542
+                                                                                                         Módulo 31: La elipse
+
+31.1.3 Elementos de la elipse
+
+La elipse tiene unos elementos básicos que la identifican, y que se ilustran en la
+figura 31.5.
+
+
+                                       Figura 31.5
+
+
+      Focos: F1 y F2 (la distancia entre ellos es 2c).
+      Vértices: V1 y V2 (la distancia entre los dos es 2a).
+      Eje focal: la recta f que pasa por los vértices y los focos.
+      Eje mayor: el segmento V1V 2 contenido en el eje focal. Su longitud es 2a.
+      Centro: el punto medio C de los segmentos F1F2, V1V2 y B1B2.
+      Eje normal: la recta n que pasa por el centro y es perpendicular al eje focal de
+       la elipse.
+      Eje menor: el segmento B1 B2 contenido en el eje normal. Su longitud es 2b.
+      Cuerda: cualquier segmento que une dos puntos de la elipse. En la figura
+       31.5, PQ , V1V 2 y B1 B2 son cuerdas.
+      Cuerda focal: cualquier cuerda que pasa por uno de los focos. En la figura
+       31.5, MN y RS son cuerdas focales.
+      Lado recto: cada una de las dos cuerdas focales perpendiculares al eje
+       focal. En la figura 31.5, RS es un lado recto.
+      Diámetro: cualquier cuerda que pase por el centro. En la figura 31.5, LE ,
+       V1V 2 y B1 B2 son diámetros.
+      Radio vector: si Q es un punto de la elipse, entonces los segmentos QF1 y
+
+        QF2 son radios vectores del punto Q.
+
+Entre los números a, b y c que identifican la elipse, existe la relación:
+
+        b2 + c 2 = a 2 .
+
+
+                                                                                          Geometría vectorial y analítica 543
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 31.2 Ecuación de la elipse
+
+                                                 31.2.1 Elipse con centro en el origen y focos en el eje x
+
+                                                 En este caso, el eje x es el eje focal y el eje y es el normal. Sean F1 (2c, 0) y F2 (c, 0)
+                                                 los focos de la curva (figura 31.6).
+
+
+                                                                                                     Figura 31.6
+
+
+                                                 Además, V1 (2a, 0), V2 (a, 0), B1 (0, 2b), B2 (0, b).
+                                                 Sea P ( x, y ) un punto de la elipse. P debe satisfacer:
+
+
+                                                          d ( P, F1 ) + d ( P, F2 ) = 2a.
+                                                             ¯³          ¯³
+
+                                                 Es decir, F1 P + F2 P = 2a.
+                                                                      ¯³      ¯³                             ¯³     ¯³
+                                                 Determinemos F1P y F2 P; en consecuencia, F1 P µ ( x + c, y) y F2 P µ ( x 2 c, y), y de-
+                                                 terminando estas magnitudes y sustituyendo en la ecuación se tiene:
+
+                                                            ( x + c ) 2 + y 2 + ( x 2 c ) 2 + y 2 = 2a,
+                                                            ( x + c ) 2 + y 2 = 2a 2 ( x 2 c ) 2 + y 2 .
+
+                                                 Elevando al cuadrado y simplificando se obtiene:
+
+
+                                                          a ( x 2 c ) 2 + y 2 = a 2 2 cx.
+
+                                                 Elevando ahora al cuadrado y reordenando:
+
+                                                          ( a 2 2 c 2 ) x 2 + a 2 y 2 = a 2 ( a 2 2 c 2 ).
+
+
+                                                 Pero, a2 2 c2 = b2 .
+
+                                                 Por tanto, b2 x 2 + a 2 y 2 = a 2b2 .
+
+                                                 De aquí se obtiene:
+
+
+544
+                                                                                                          Módulo 31: La elipse
+
+         x2 y2
+           +   = 1.
+         a2 b2
+
+Esta es la ecuación canónica de la elipse de centro en el origen y que tiene al eje x
+como eje focal.
+
+De la ecuación se deduce:
+
+        2 a f x f a,
+        2b f y f b.
+
+En consecuencia, el gráfico de la elipse está contenido en el rectángulo de vértices
+
+ A(a, b), B (2a, b), C (2 a, 2 b), D(a, 2 b) (figura 31.7).
+
+Por el hecho de que el eje focal de esta elipse es paralelo al eje x, la llamamos elipse
+horizontal.
+
+
+                                       Figura 31.7
+
+De la ecuación puede deducirse además que la elipse no tiene asíntotas; se trata de
+una curva cerrada.
+
+Es fácil deducir que la curva en estudio es simétrica con respecto a: el eje focal (el
+eje x en este caso), el eje normal (el eje y) y el centro (el origen).
+
+Por otra parte, si R1 R2 es el lado recto correspondiente al foco F1 (figura 31.7),
+entonces R1 y R2 tienen abscisa –c. Por tanto,
+
+        c2 y 2
+           + = 1.
+        a 2 b2
+
+Teniendo en cuenta que b2 + c 2 = a 2 , se obtiene:
+
+              b2
+        y=±      .
+              a
+
+
+                                                                                           Geometría vectorial y analítica 545
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Así,
+
+                                                            »      b2 ¿    »    b2 ¿
+                                                         R1 ¿ 2c, 2 ¿ y R2 ¿ 2c, ¿ ,
+                                                            ¿      a £     ¿    a £
+                                                                      b2 » b2 ¿
+                                                         R1 R2 =        2¿2 ¿
+                                                                      a ¿ a £
+                                                                    2b 2
+                                                                =        .
+                                                                     a
+
+                                                 En síntesis, la longitud de cada lado recto de la elipse es:
+                                                              2b2
+                                                         Ã=       .
+                                                               a
+
+                                                 La elipse puede ser más «redonda» o menos «redonda», según el grado de cercanía
+                                                 entre los focos y el centro. Se llama excentricidad de la elipse, denotada e, al
+                                                 cociente entre c y a:
+                                                          c
+                                                        e= .
+                                                          a
+
+                                                 Por lo estudiado, 0 < e < 1 .
+
+                                                 Una excentricidad cercana a cero indica que los focos están muy próximos al centro,
+                                                 lo que significa que la curva es «cercana» a una circunferencia, mientras que una
+                                                 excentricidad cercana a 1 (uno) corresponde a una elipse muy «achatada» o «alar-
+                                                 gada», o «delgada» (figuras 31.8, 31.9 y 31.10).
+
+
+                                                                                  Figura 31.8. Elipse «media»
+
+
+                                                                                  Figura 31.9. Elipse «redonda»
+
+
+546
+                                                                                                     Módulo 31: La elipse
+
+
+                                  Figura 31.10. Elipse «alargada»
+
+
+31.2.2 Elipse con centro en el origen y focos en el eje y
+
+A esta elipse la denominaremos vertical. En este caso, el eje focal es el eje y,
+mientras que el eje normal es el eje x. Los focos tienen coordenadas así:
+
+       F1 (0, 2 c), F2 (0, c).
+
+
+Sea, como antes, 2a la constante que define la elipse; esto es, si P ( x, y ) es un
+punto de la curva, entonces:
+
+       d ( P, F1 ) + d ( P, F2 ) = 2a.
+
+          ¯³        ¯³
+esto es, F1 P + F2 P = 2a.
+
+
+Como en el caso anterior, c < a. Definimos b de modo que:
+
+       b2 + c 2 = a 2 .
+
+En este caso (figura 31.11), la ecuación canónica de la elipse es:
+
+
+        x2 y 2
+          + = 1.
+        b2 a 2
+
+
+                                                                                      Geometría vectorial y analítica 547
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                                                      Figura 31.11
+
+
+                                                 Las coordenadas de los vértices son V1 (0, 2 a), V2 (0, a ). Además, B1 ( 2b, 0) y
+                                                 B2 (b, 0).
+
+
+                                                 V1V2 es el eje mayor y mide 2a, en tanto que B1 B2 es el eje menor y mide 2b. La
+                                                 excentricidad de la elipse continúa siendo:
+                                                          c
+                                                        e= .
+                                                          a
+
+                                                 La excentricidad tiene el mismo significado que en el caso de la elipse horizontal.
+
+                                                 Es fácil deducir que en este caso la longitud de cada lado recto es, también,
+                                                              2b2
+                                                         Ã=       .
+                                                               a
+
+                                                 Ilustración 6
+
+                                                 La ecuación canónica de una elipse es:
+                                                         x2 y 2
+                                                           +    = 1.
+                                                         25 36
+
+                                                 Encuentre para esta curva:
+
+                                                 1.     El eje focal.
+                                                 2.     Las coordenadas de los focos.
+                                                 3.     Las coordenadas de los vértices.
+                                                 4.     La longitud del eje mayor.
+                                                 5.     La longitud del eje menor.
+                                                 6.     Las coordenadas de los extremos del diámetro PQ tal que Q tiene ordenada 3.
+                                                 7.     La excentricidad.
+
+
+548
+                                                                                                         Módulo 31: La elipse
+8.    Las coordenadas de los extremos de los dos lados rectos.
+9.    La longitud de cada lado recto.
+
+Solución
+
+1.    En la ecuación de la curva, el denominador de x 2 (25) es menor que el de
+       y 2 (36). Por tanto, la curva tiene como eje focal al eje y (es una elipse
+      vertical); en consecuencia, el eje normal es el eje x, y los focos y los vértices
+      están en el eje y.
+
+2.    Teniendo en cuenta que a 2 = b2 + c 2 , y que a 2 = 36, b 2 = 25 , se tiene que:
+
+
+             a = 6, b = 5 y c = 11.
+
+
+      Las coordenadas de los focos son: F1 (0, 2 11) y F2 (0, 11).
+
+3.    Las coordenadas de los vértices son: V1 (0, 2 6) y V2 (0, 6).
+
+4.    La longitud del eje mayor es 2a = 12 .
+
+5.    La longitud del eje menor es 2b = 10 .
+
+6.    Para y = 3 :
+
+              x2 9
+                + = 1.
+              25 36
+
+                     5 3
+      Luego x = ±        .
+                      2
+
+      Hay, pues, dos puntos de la curva con ordenada y = 3 (esto se debe a las
+      simetrías de la elipse). Tomemos sólo el caso en que x > 0 .
+
+
+             »5 3 ¿
+      Sea Q ¿¿    , 3 ¿¿ un extremo del diámetro. El otro extremo, P, es el simétrico
+             ¿ 2       £
+      de Q con respecto al origen. Por tanto,
+
+
+                 » 5 3        ¿
+              P ¿¿ 2   , 2 3 ¿¿ .
+                 ¿ 2          £
+
+      ¿Cuál es la longitud del diámetro PQ ?
+
+7.    La excentricidad de la elipse es:
+
+
+                   c   11
+              e=     =    j 0,553.
+                   a   6
+
+                                                                                          Geometría vectorial y analítica 549
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                 8.   Sean R1 y R2 los extremos del lado recto que pasa por F2 . Ambos tienen
+
+                                                      ordenada c = 11 . Por tanto,
+
+
+                                                              x2 11
+                                                                + = 1.
+                                                              25 36
+
+
+                                                                                 25
+                                                      De aquí se obtiene x = ±      .
+                                                                                 6
+                                                      En consecuencia,
+
+
+                                                                 » 225      ¿      » 25   ¿
+                                                              R1 ¿     , 11 ¿ y R2 ¿ , 11 ¿ .
+                                                                 ¿ 6        £      ¿ 6    £
+
+                                                 9.   La longitud del lado recto es:
+
+                                                                   25 » 25 ¿ 25
+                                                              Ã=     2¿2 ¿ = .
+                                                                   6 ¿ 6£ 3
+
+                                                                          b2
+                                                      Nótese que Ã = 2       .
+                                                                          a
+
+                                                      En la figura 31.12 se aprecia la gráfica de la curva.
+
+
+                                                                                        Figura 31.12
+
+
+550
+                                                                                                          Módulo 31: La elipse
+31.3 Rectas tangente y normal a la elipse
+Enunciaremos, sin demostración, un teorema que permite hallar las ecuaciones de
+las rectas tangente y normal a una elipse en un punto dado de ella.
+
+Teorema 1
+
+a.     Si una elipse horizontal tiene centro en el origen y P( x0 , y0 ) es un punto de
+       la curva, diferente de los vértices, entonces la pendiente de la recta tangente
+       a la curva en P es:
+                  b2 x
+               m=2 2 0 ,
+                  a y0
+
+       y la pendiente de la recta normal (siempre que P no esté en el eje normal) es:
+                      a2 y0
+               mn =         .
+                      b2 x0
+
+
+b.     Si una elipse vertical tiene centro en el origen y P( x0 , y0 ) es un punto de la
+       curva que no esté en el eje normal, entonces la pendiente de la recta tangente
+       a la curva en P es:
+                  a2 x
+               m=2 2 0 ,
+                  b y0
+
+       y la pendiente de la recta normal (siempre que P no sea uno de los vértices) es:
+                      b2 y0
+               mn =         .
+                      a2 x0
+
+       La elipse tiene una propiedad óptica (también llamada propiedad focal) que
+       se enuncia así:
+
+Teorema 2
+
+La recta normal a una elipse en un punto cualquiera diferente de los vértices es
+bisectriz del ángulo formado por los radios vectores de ese punto.
+
+Demostración
+
+Consideremos el caso de la elipse horizontal de centro en el origen (figura 31.13).
+
+
+                                      Figura 31.13                                         Geometría vectorial y analítica 551
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                 En la figura 31.13, t y n son las rectas tangente y normal, respectivamente, a la elipse
+                                                 en P. El ángulo entre n y la recta que contiene al radio focal PF1 es ³ , y el ángulo
+
+                                                 entre n y el radio focal PF2 es ³ .
+
+                                                                    mn 2 mPF
+                                                         tan ³ =                1
+
+                                                                   1 + mn ç mPF
+                                                                                    1
+
+
+                                                                    a 2 y0     y
+                                                                            2 0
+                                                                    b x0 x0 + c
+                                                                      2
+                                                                 =                  .
+                                                                        a 2 y0 y0
+                                                                   1+ 2
+                                                                        b x0 x0 + c
+
+                                                 Reordenando y simplificando se obtiene:
+
+                                                                   y0 c
+                                                         tan ³ =        .
+                                                                   b2
+
+                                                 Por otra parte,
+
+                                                                     mPF 2 mn
+                                                         tan ³ =            2
+
+                                                                   1 + mn ç mPF
+                                                                                    2
+
+
+                                                                    y0    a2 y
+                                                                        2 2 0
+                                                                   x 2 c b x0
+                                                                 = 0 2           .
+                                                                     a y0 y0
+                                                                  1+ 2
+                                                                     b x0 x0 2 c
+
+                                                 Simplificando se llega a:
+                                                                   y0 c
+                                                         tan ³ =        .
+                                                                   b2
+
+                                                                                                                               n
+                                                 Por tanto, tan ³ = tan ³ . Luego ³ = ³ y, por ende, n es bisectriz del ángulo F      .
+                                                                                                                                1 PF2
+
+                                                 Este teorema se conoce como propiedad focal de la elipse.
+
+                                                 Nota: en los puntos B1 y B2 de la elipse, la recta tangente es horizontal, y la recta
+                                                                                                                         n
+                                                 normal es el eje y, el cual es, evidentemente, bisectriz de los ángulos F        y
+                                                                                                                          1 B1 F2
+
+                                                 n
+                                                 F        .
+                                                  1 B2 F2
+
+
+                                                 Ilustración 7
+
+                                                 Una elipse tiene vértices (0, –5) y (0, 5) y excentricidad 3/5. Encuentre para la curva:
+
+                                                 1.      Las coordenadas de los focos.
+
+                                                 2.      La ecuación canónica.
+
+                                                 3.      Las ecuaciones de las rectas tangente y normal a la curva en los puntos de
+
+552
+                                                                                                       Módulo 31: La elipse
+       abscisa 2. Además, demuestre que las dos rectas tangentes se intersecan en
+       el eje x, al igual que las dos rectas normales.
+
+4.     Las ecuaciones de las rectas tangente y normal a la curva en los vértices y en
+       los extremos del eje menor.
+
+Solución
+
+Dado que los vértices están sobre el eje y, la elipse es vertical.
+
+1.     V1 (0, 2 5) y V2 (0, 5). Por tanto, 2a = 10; a = 5 .
+                    c
+               e=     .
+                    a
+              3 c
+       Así,    = .
+              5 5
+
+       Por tanto, c = 3 .
+
+       Los focos son: F1 (0, 2 3) y F2 (0, 3) .
+
+
+2.      a 2 = b 2 + c 2 ; pero a = 5 y c = 3 . Por tanto, b = 4 .
+
+       Como los focos están en el eje y, y el centro es el origen (¿por qué?), la
+       ecuación es:
+
+
+               x2 y 2
+                 + = 1.
+               16 25
+
+3.     En los puntos de abscisa 2, x = 2 :
+               4 y2
+                 + = 1.
+             16 25
+       De aquí se obtiene:
+                      5
+                y=±     3.
+                      2
+
+       Hay dos puntos de abscisa 2 (figura 31.14):
+                   »      5 ¿        » 5 ¿
+                P1 ¿ 2, 2   3 ¿ y P2 ¿ 2, 3 ¿.
+                   ¿      2 £        ¿ 2 £
+
+
+                                                                                        Geometría vectorial y analítica 553
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                                                Figura 31.14
+
+
+                                                 Las pendientes de las rectas tangente y normal en el punto P( x0 , y0 ) son,
+                                                 respectivamente:
+
+                                                            a2 x
+                                                         m=2 2 0 .
+                                                            b y0
+                                                                  b2 y0
+                                                         mn =           .
+                                                                  a2 x0
+
+                                                 Para P1 :
+
+                                                                   25    2
+                                                         m=2
+                                                                   16 » 5 ¿
+                                                                      ¿2   3¿
+                                                                      ¿ 2 £
+                                                                 5 3
+                                                             =       .
+                                                                  12
+                                                 La ortogonalidad entre las rectas tangente y normal nos lleva a:
+                                                                    4 3
+                                                         mn = 2         .
+                                                                     5
+                                                 Para P2 :
+
+                                                                    5 3
+                                                             m=2        .
+                                                                     12
+
+                                                             4 3
+                                                         mn =     .
+                                                              5
+                                                 Las ecuaciones de las rectas son:
+
+                                                 Para P1 :
+
+
+554
+                                                                                                   Módulo 31: La elipse
+       Recta tangente:
+
+                   5 3 5 3
+                y+     =     ( x 2 2),
+                    2    12
+                   5 3    10 3
+                y=     x2        .                                           (1)
+                    12      3
+       Recta normal:
+
+                  5 3     4 3
+                y+     =2     ( x 2 2),
+                   2       5
+                    4 3    9 3
+                y=2     x2      .                                            (2)
+                     5      10
+
+Se deja al lector la obtención de las ecuaciones para las rectas tangente y
+normal a la curva en P2 :
+
+       Recta tangente:
+                    5 3    10 3
+                y=2     x+      .                                            (3)
+                     12      3
+       Recta normal:
+                     4 3    9 3
+                y=       x+     .                                            (4)
+                      5      10
+
+Hallemos la intersección de las rectas tangentes a la elipse en P1 y P2 . Para
+ello resolvamos simultáneamente las ecuaciones (1) y (3):
+Igualando las ordenadas, se tiene:
+
+
+        5 3    10 3    5 3    10 3
+            x2      =2     x+      .
+         12      3      12      3
+                      3
+Multiplicando por          :
+                     5 3
+        x        x
+          2 2 = 2 + 2.
+        4        4
+Se obtiene así:
+
+        x =8.
+
+Sustituyendo x en (1):
+
+            5 3    10 3
+        y=      82
+             12      3
+          = 0.
+
+En consecuencia, las dos tangentes se intersecan en el punto (8, 0). Similarmente
+puede probarse que las dos rectas normales se intersecan en el punto
+
+
+                                                                                    Geometría vectorial y analítica 555
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 » 9 ¿
+                                                 ¿ 2 , 0 ¿.
+                                                 ¿ 8 £
+
+                                                 4.     En los vértices, las rectas tangentes son horizontales. Por tanto,
+
+                                                                Tangente en V1 : y = 25.
+                                                                Tangente en V2 : y = 5.
+
+                                                        En ambos casos la recta normal es el eje y: x = 0 .
+                                                        En los puntos B1 y B2 , las rectas tangentes son verticales:
+
+                                                                 x = 24; x = 4.
+
+                                                        Las rectas normales son en ambos casos el eje x: y = 0.
+
+
+                                                 31.4 Elipse con centro fuera del origen y ejes paralelos a los ejes
+                                                      coordenados
+                                                 Mantendremos la notación utilizada en los casos iniciales:
+
+                                                 2a:    distancia entre los vértices V1 y V2 .
+                                                 2c:    distancia entre los focos F1 y F2 .
+                                                 2b:    distancia entre los extremos del eje menor.
+
+                                                 Además, b2 + c2 = a2 . Como el eje es paralelo a un eje, debemos considerar dos
+                                                 casos:
+
+                                                       Elipse horizontal: eje mayor paralelo al eje x.
+
+                                                       Elipse vertical: eje mayor paralelo al eje y.
+
+                                                 31.4.1 Elipse horizontal con centro C (h, k)
+
+                                                 En este caso ( figura 31.15), el eje focal es la recta y = k , mientras que el eje normal
+                                                 es la recta x = h.
+
+
+556
+                                                                                                                Módulo 31: La elipse
+
+
+                                             Figura 31.15
+                                                               ¯³
+Hagamos una traslación de ejes definida por el vector OC, teniendo en cuenta la
+                G G
+                     { }
+base ortonormal i, j para el espacio de los vectores libres en el plano.
+
+El punto C es el origen del nuevo sistema de coordenadas: x' 2 y' .
+
+Las coordenadas de P (un punto cualquiera en el plano) son:
+
+        P ( x, y ) en el sistema original x 2 y .
+        P( x ', y ') en el sistema nuevo x' 2 y' .
+        ¯³      ³      ³
+        OP = x i + y j .
+        ¯³       ³     ³
+        OC = h i + k j .
+        ¯³       ³         ³
+        CP = x' i + y' j .
+
+                               JJJG   JJJG   JJJG
+Teniendo en cuenta que OP = OC + CP, se obtienen las relaciones:
+
+
+        x = x' + h «
+                   ¯                                                                       (1)
+        y = y' + k ¯
+y
+        x' = x 2 h «
+                   ¯                                                                       (2)
+        y' = y 2 k ¯
+
+
+Estas relaciones, como se sabe del módulo anterior, permiten pasar de un sistema
+coordenado al otro.
+
+Si P ( x, y ) es un punto de la elipse, entonces en el sistema nuevo P( x' , y' ) . Como
+además el centro C es el origen del sistema nuevo, en éste se cumple:
+
+        C (0, 0), F1 (2c, 0), F2 (c, 0), V1 (2a, 0), V2 (a, 0), B1 (0, 2 b) y B2 (0, b).
+
+
+                                                                                                 Geometría vectorial y analítica 557
+Capítulo 9: Las cónica: un enfoque cartesiano
+
+                                                La ecuación de la elipse, en el nuevo sistema, es:
+                                                        ( x' ) 2 ( y' ) 2
+                                                                + 2 = 1.
+                                                          a2       b
+
+                                                En el sistema original, esta ecuación se transforma en:
+
+
+                                                        ( x 2 h) 2 ( y 2 k ) 2
+                                                                  +            =1
+                                                            a2         b2
+
+                                                Esta es la ecuación canónica de la elipse horizontal con centro fuera del origen.
+
+                                                En el sistema original se tiene:
+
+                                                       Centro: C (h, k ) .
+                                                       Focos: F1 (h 2 c, k ); F2 (h + c, k ).
+                                                       Vértices: V1 (h 2 a, k ); V2 ( h + a, k ) .
+                                                       Extremos del eje menor: B1 (h, k 2 b); B2 (h, k + b).
+
+                                                       Los ejes de la elipse son:
+
+                                                                  Eje focal: la recta y = k.
+                                                                  Eje normal: la recta x = h.
+
+                                                                                                     c
+                                                La excentricidad de la curva sigue siendo e =          , y la longitud de cada lado recto es
+                                                                                                     a
+
+                                                             2b2 .
+                                                        Ã=
+                                                              a
+                                                31.4.2 Elipse vertical con centro C (h, k)
+
+                                                Este caso se ilustra en la figura 31.16.
+
+                                                Haciendo, como en el caso anterior, una traslación de ejes mediante el vector
+                                                 ¯³     ³     ³
+                                                OC = h i + k j , se obtiene la ecuación canónica de la curva:
+
+                                                        ( x 2 h) 2 ( y 2 k ) 2
+                                                                  +            =1
+                                                            b2         a2
+
+                                                Coordenadas de los puntos principales:
+
+                                                       Centro: C (h, k ).
+                                                       Focos: F1 (h, k 2 c); F2 (h, k + c).
+                                                       Vértices: V1 (h, k 2 a ); V2 (h, k + a ).
+
+
+558
+                                                                                                           Módulo 31: La elipse
+
+       Extremos del eje menor: B1 (h 2 b, k ); B2 (h + b, k ).
+
+
+                                        Figura 31.16
+
+
+31.5 Rectas tangente y normal a la elipse con centro distinto al
+     origen de coordenadas
+Recurriendo al teorema 1 y al concepto de traslación de ejes puede obtenerse el
+siguiente resultado: si una elipse tiene centro C (h, k ), y P ( x0 , y0 ) es un punto de
+ella, entonces:
+
+Elipse horizontal
+
+Si P no es un vértice:
+
+      Pendiente de la recta tangente:
+                  b2 ( x 2 h)
+               m=2 2 0         .
+                  a ( y0 2 k )
+
+
+      Pendiente de la recta normal (siempre que P no esté en el eje normal):
+
+
+                      a2 ( y0 2 k )
+               mn =                 .
+                      b2 ( x0 2 h)
+
+
+                                                                                            Geometría vectorial y analítica 559
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                                                                                                              Elipse vertical
+
+
+             Pendiente de la
+                                                                                                                                              Si P no está en el eje normal:
+
+
+                                           P( x0 , y0 ) : mN
+                                                               a2 ( y0 2 k )                            b2 ( y0 2 k )                               Pendiente de la recta tangente:
+                                                                 .                                        .
+                                                               b2 ( x0 2 h)                             a2 ( x0 2 h)
+             recta normal en
+                                                                                                                                                                   a2 ( x 2h)
+                                                                                                                                                                m=2 2 0 .
+                                                                                                                                                                   b ( y0 2k)
+
+
+              Pendiente de la
+                                           P ( x0 , y0 ) : m
+                                                                                                                                                     Pendiente de la recta normal:
+                                                                                                         a2 ( x 2 h)
+                                                                                                                                              
+
+                                                                b ( x 2 h)                                                                                             b2 ( y0 2 k )
+                                                               2 2. 0                                   2 2 . 0                                                 mn =                 .
+                                                                a ( y0 2 k )                             b ( y0 2 k )
+                                                                                                                                                                       a2 ( x0 2 h)
+             recta tangente en
+                                                                 2
+
+
+                                                                                                                                              En la tabla 31.1 se resumen algunos elementos de la elipse de centro C ( h, k ) :
+
+
+                                                                  ( x 2 h) 2 ( y 2 k ) 2                 ( x 2 h) 2 ( y 2 k ) 2
+
+
+                       Ecuación canónica
+                                                                                                                                              En todos los casos se conservan algunos valores, sin importar si la elipse es hori-
+
+
+                                                                            +            =1                        +            =1
+                                                                                                                                              zontal o vertical:
+
+                                                                                                                                                     Distancia entre los vértices: 2a.
+
+                                                                      a2         b2                          b2         a2
+                                                                                                                                              
+
+
+                                                                                                                                                    Distancia entre los focos: 2c.
+
+                                                                                                                                                    Longitud del eje menor: 2b.
+
+
+                     Coordenadas de los
+                                                                                                                                                    Relación entre estas tres cantidades: a2 = b2 + c2 .
+
+
+                                                                B1 (h, k 2 b)         B2 (h, k + b)       B1 (h 2 b, k )     B2 (h + b, k )
+                                                                                                                                                                       c
+                                                                                                                                                    Excentricidad: e = .
+                                                                                                                                                                       a
+
+                    extremos (eje menor)
+                                                                                                                                                                                                    2b 2
+                                                                                                                                                    Longitud de cada lado recto: Ã =                    .
+                                                                                                                                                                                                     a
+
+
+                    Coordenadas de
+                                                                                                                                              31.6 Forma general de la ecuación de la elipse
+                                                                 V1 (h 2 a, k )        V2 (h + a, k )     V1 (h, k 2 a)      V2 (h, k + a)    Transformemos la ecuación canónica de la elipse horizontal:
+
+                     los vértices                                                                                                                    ( x 2 h) 2 ( y 2 k ) 2
+                                                                                                                                                                +               = 1.
+                                                                                                                                                          a2           b2
+
+
+                       Eje normal
+                                                                                                                                                     b 2 ( x 2 h) 2 + a 2 ( y 2 k ) 2 = a 2 b 2 .
+
+                                                                   Ve r t i c a l :                      Horizontal:
+                                                                                      x=h                                    y=k              De aquí se llega a:
+
+                                                                                                                                                     b 2 x 2 + a 2 y 2 2 2hb 2 x 2 2ka 2 y + (b 2 h 2 + a 2 k 2 2 a 2 b 2 ) = 0.    (1)
+
+
+                       Eje focal                                   Horizontal:                            Ve r t i c a l :
+                                                                                                                                              Similarmente, de la ecuación canónica de la elipse de eje vertical se obtiene:
+                                                                                      y=k                                    x=h
+Tabla 31.1                                                                                                                                           a 2 x 2 + b 2 y 2 2 2ha 2 x 2 2kb 2 y + ( a 2 h 2 + b 2 k 2 2 a 2 b 2 ) = 0.   (2)
+
+
+560
+                                                                                                            Módulo 31: La elipse
+
+Las ecuaciones (1) y (2) tienen la misma forma general:
+
+        Ax 2 + Cy 2 + Dx + Ey + F = 0.                                                 (3)
+
+
+En esta forma general, A y C, coeficientes respectivos de x 2 y y 2 , son ambos
+positivos y distintos entre sí.
+
+¿Qué sucede con una ecuación como la (3)? ¿Se trata de la ecuación de una elipse?
+
+Partiendo de la ecuación (3), con A y C positivos, podemos escribir:
+
+          »      D ¿      »      E ¿
+        A ¿ x 2 + x ¿ + C ¿ y 2 + y ¿ + F = 0,
+          ¿      A £      ¿      C £
+          »     D   D2 ¿     »      E     E 2 ¿ D2 E 2
+        A ¿ x2 + x + 2 ¿ + C ¿ y 2 + y +      ¿=   +   2 F,
+          ¿     A   4A £     ¿      C    4C 2 £ 4 A 4C
+                                  CD 2 + AE 2 2 4 ACF
+                      2              2
+         »     D¿     »     E ¿
+        A¿ x +    ¿ +C¿ y+    ¿ =                     .
+         ¿     2A £   ¿    2C £          4 AC
+
+Dividiendo por AC (positivo):
+                  2              2
+        »   D¿ »      E ¿
+        ¿x+    ¿ ¿y+    ¿   CD 2 + AE 2 2 4 ACF
+        ¿   2A £ ¿
+                +
+                     2C £
+                          =                     .                                      (4)
+           C         A            4 A2 C 2
+Sea S = CD 2 + AE 2 2 4 ACF .
+
+S es un discriminante que permite identificar el carácter del lugar geométrico defini-
+do por la ecuación (3):
+
+      Si S > 0, el lugar geométrico es una elipse.
+                                                          » D     E ¿
+       En este caso, el centro es el punto de coordenadas ¿ 2  ,2   ¿ . Para
+                                                          ¿ 2 A 2C £
+
+       obtener la forma canónica basta dividir por          S
+                                                                  . La dirección del eje
+                                                         4 A2 C 2
+       focal (horizontal o vertical) depende de la relación entre A y C : si A < C , se
+       trata de una elipse horizontal; si C < A, la elipse es vertical.
+
+      Si S = 0, el lugar se reduce a un punto. ¿Cuál?
+
+      Si S < 0, la ecuación no tiene solución real para las variables x, y; por tanto, el
+       lugar es vacío.
+
+Nótese que en el primer caso, si A = C , el lugar es una circunferencia.
+
+
+                                                                                             Geometría vectorial y analítica 561
+Ejercicios propuestos
+
+1.    Encuentre la longitud de la cuerda focal de la parábola x 2 + 8 y = 0 que es paralela a la recta 3x + 4 y 2 7 = 0.
+
+2.    Encuentre la ecuación de la circunferencia que pasa por el vértice y los extremos del lado recto de la parábola
+      x2 2 4 y = 0 .
+
+
+3.    Una circunferencia cuyo centro es el punto (4, –1) pasa por el foco de la parábola x 2 + 16 y = 0. Demuestre que la
+      circunferencia es tangente a la directriz de la parábola.
+
+4.    Encuentre la ecuación de la parábola cuyo vértice es V(–4, 3) y cuyo foco es F(–1, 3). Halle además las ecuaciones de
+      la directriz y el eje de la curva.
+
+5.    Una parábola tiene por directriz la recta x + 5 = 0 y como vértice V(0, 3). Encuentre la ecuación canónica de la parábola.
+
+6.    Para cada una de las dos ecuaciones siguientes haga la reducción a la forma canónica y determine para la parábola:
+      las coordenadas del vértice y el foco, las ecuaciones de la directriz y el eje, y la longitud del lado recto.
+
+      a.      4 y 2 + 48 x + 12 y 2 159 = 0 .
+      b.      y = ax 2 + bx + c ( a b 0).
+
+
+7.    Cierta parábola tiene ecuación y = ax 2 + bx ( a b 0). Halle la ecuación canónica de la curva, sabiendo que ésta
+      pasa por (2, 8) y (–1, 5).
+
+8.    Halle la ecuación de la parábola de vértice V(4, –1) que pasa por el punto (3, –3) y cuyo eje es la recta y + 1 = 0 .
+
+
+9.    Demuestre que si una parábola tiene ecuación ( y 2 k ) 2 = 4 p ( x 2 h), entonces la longitud del radio vector de
+
+      cualquier punto P( x0 , y0 ) de la curva es x0 2 h + p .
+
+
+10.   Encuentre la longitud del radio vector del punto de la parábola y 2 + 4 x + 2 y 2 19 = 0 cuya ordenada es 3.
+
+11.   Halle las ecuaciones de las rectas tangente y normal de cada una de las parábolas siguientes en el punto dado.
+
+      a.      x 2 2 6 x + 5 y 2 11 = 0, en el punto de abscisa –2.
+      b.      y 2 + 5 x 2 6 y 2 11 = 0, en el punto de ordenada –2.
+
+
+12.   Halle la ecuación de la recta tangente a la parábola x 2 + 4 x + 12 y 2 8 = 0 que es paralela a la recta 3x + 9 y 2 11 = 0 .
+13.   Encuentre la ecuación de la recta tangente a la parábola y 2 2 2 x + 2 y + 3 = 0 que es perpendicular a la recta
+      2x + y + 7 = 0 .
+
+
+536
+14.   Halle las ecuaciones de las rectas tangentes trazadas desde el punto P(–3, 3) a la parábola y 2 2 3 x 2 8 y + 10 = 0 .
+      Encuentre además el ángulo entre las dos rectas.
+
+15.   Demuestre que las parábolas x 2 2 4 x + 8 y 2 20 = 0 y x 2 2 4 x 2 4 y + 4 = 0 son ortogonales entre sí en sus puntos
+      de corte.
+
+16.   Por un punto P de un parábola (P distinto del vértice) se traza una recta tangente a la curva. Sea Q el punto de
+      intersección de la recta tangente en P y la recta tangente en el vértice. Demuestre que el segmento FQ es perpendicular
+      a la tangente en P. Aquí, como en el resto del módulo, F es el foco.
+
+17.   Demuestre que cualquier recta tangente a una parábola, excepto la tangente en el vértice, corta a la directriz y a la
+      recta que contiene al lado recto en puntos equidistantes del foco.
+
+18.   En un punto arbitrario P de una parábola, distinto del vértice, se trazan las rectas tangente y normal a la curva, las
+      cuales cortan al eje de la curva en A y B, respectivamente. Demuestre que A, B y P equidistan del foco de la parábola.
+
+19.   Demuestre que si una circunferencia tiene por diámetro una cuerda focal de una parábola, entonces dicha circunferencia
+      es tangente a la directriz de la curva.
+
+20.   Si desde un punto P exterior a una parábola se trazan tangentes a la curva, el segmento que une los puntos de
+      tangencia se llama cuerda de contacto de P en la curva. Para la parábola ( x + 3) 2 = 4( y 2 2), encuentre las coordena-
+      das de los extremos de la cuerda de contacto del origen. Encuentre además la longitud de dicha cuerda.
+
+
+                                                                                                 Geometría vectorial y analítica 537
+      La parábola
+                                                   30
+Introducción
+En la presentación del capítulo 9 se mencionó la parábola como una de las seccio-
+nes cónicas: aquella que se obtiene al intersecarse una superficie cónica y un plano
+paralelo a una sola generatriz. No obstante, en este módulo se estudiará la parábola      Cuando las ondas (por ejemplo la luz, el sonido, las ondas de
+                                                                                          radio y la televisión, etc.) chocan contra un obstáculo
+desde un punto de vista cartesiano.
+                                                                                          experimentan un cambio de dirección o de sentido y vuelven
+                                                                                          al mismo medio del que proceden. A esta propiedad se le
+La parábola tiene muchas propiedades que la hacen de gran utilidad en diversas            llama reflexión.
+ramas de la ciencia (a manera de ejemplo: si un objeto se lanza con una dirección
+                                                                                          La dirección de propagación de una onda se representa
+oblicua, su trayectoria es una parábola). Algunas de ellas son sus propiedades
+                                                                                          mediante líneas que se denominan rayos, y según la forma
+ópticas, que han permitido desarrollar la rama de la Física conocida como óptica.         de la superficie en la que inciden así será la dirección de los
+                                                                                          rayos reflejados. Cuando la forma de dicha superficie es
+En este módulo presentaremos la parábola como un lugar geométrico en términos             parabólica, todos los rayos que llegan paralelos al eje de la
+                                                                                          parábola se reflejan pasando por un mismo punto, llamado
+de distancias, deduciremos su ecuación canónica general y estudiaremos algunas
+                                                                                          foco de la parábola. Esta es la propiedad fundamental en
+de las propiedades más relevantes de esta curva, entre ellas las de las rectas tan-       que se basan todos los ingenios parabólicos.
+gente y normal, y la conocida como propiedad óptica.
+                                                                                          Esta propiedad de reflexión en la parábola se utiliza en la
+                                                                                          construcción de antenas parabólicas para recepción de señales
+Objetivos del módulo                                                                      de televisión, en radares, radiotelescopios, etc.
+
+
+1. Estudiar la parábola como un lugar geométrico definido en términos de distan
+   cias a un punto y una recta dados, y estudiar su propiedad óptica.
+
+
+Preguntas básicas
+1. ¿Cómo se hace una traslación de un sistema de coordenadas?
+2. ¿Cuál es la ecuación canónica de una parábola?
+3. ¿Qué significado tienen las constantes que intervienen en la ecuación de una
+    parábola?
+4. ¿Cuántas clases de parábolas hay según su ubicación con respecto a los ejes
+    coordenados?
+5. ¿Qué condición debe satisfacer una ecuación de segundo grado para que represente una
+    parábola?
+6. ¿Cuál es la propiedad óptica de la parábola?
+7. ¿Cómo se obtienen las ecuaciones de las rectas tangente y normal a una parábo-
+   la?
+
+
+                                                                                                      Vea el módulo 30 del programa de
+                                                                                                      televisión Geometría vectorial y analítica
+
+
+                                                                                                        Geometría vectorial y analítica 501
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Contenidos del módulo
+                                                 30.1 Traslación de ejes
+                                                 30.2 Elementos básicos de la parábola
+                                                        30.2.1 Definición de parábola
+                                                        30.2.2 Ecuación de la parábola
+                                                        30.2.3 Rectas tangente y normal a la parábola
+                                                        30.2.4 Propiedad óptica de la parábola
+                                                 30.3 Parábola con vértice distinto del origen y eje focal diferente de los ejes
+                                                      coordenados
+                                                 30.3.1 Parábola horizontal
+                                                        30.3.2 Parábola vertical
+                                                 30.4 Forma general de la ecuación de la parábola
+
+
+502
+                                                                                                      Módulo 30: La parábola
+30.1 Traslación de ejes
+Antes de abordar el estudio de la parábola introduzcamos el tema de la traslación de
+ejes, de gran importancia para comprender mejor las propiedades de esta curva, así
+como de la elipse y de la hipérbola.
+
+Supongamos definido en el plano un sistema de coordenadas cartesianas x-y, al
+cual llamaremos «sistema original» (SO). A partir de éste construiremos otro sistema
+al que llamaremos «sistema nuevo» (SN), mediante el movimiento del plano conoci-
+do como «traslación».
+
+Una traslación es una transformación del plano en la cual cada punto «recorre» el
+                                      ³
+camino definido por un vector libre a .
+
+
+                                       Figura 30.1
+
+En la figura 30.1 se tiene el SO de origen O y el SN de origen O’. El vector que define
+la traslación es:
+
+        ³    ¯³
+        a = OO2 .
+
+Si el punto O’ tiene en el SO coordenadas ( x0 , y0 ), entonces:
+
+        ³    ¯³       ³      ³
+        a = OO 2 = x0 i + y0 j .
+
+Un punto P del plano tiene coordenadas en cada sistema:
+
+
+                                                                                          Geometría vectorial y analítica 503
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                        P( x, y ) en el SO y P( x2, y 2) en el SN.
+                                                         ¯³       ³       ³
+                                                        OP = x i + y j .
+                                                         ¯³          ³        ³
+                                                        O2P = x2 i + y 2 j .
+                                                         ¯³           ³        ³
+                                                        OO 2 = x0 i + y0 j .
+
+                                                       ¯³       ¯³        ¯³
+                                                 Pero O 2P = OP 2 OO2 .
+
+                                                 Por tanto:
+                                                            ³     ³           ³    ³        ³          ³
+                                                        x2 i + y 2 j = ( x i + y j ) 2 ( x0 i + y0 j ),
+                                                            ³     ³                ³             ³
+                                                        x2 i + y 2 j = ( x 2 x0 ) i + ( y 2 y0 ) j .
+
+                                                 En consecuencia,
+
+
+                                                         x ' = x 2 x0
+                                                         y ' = y 2 y0 .                                                           (1)
+
+
+                                                 Este sistema (1) permite hallar las coordenadas de un punto del plano en el «sistema
+                                                 nuevo», conocidas sus coordenadas en el «sistema original».
+
+                                                 Nota: como las traslaciones transforman rectas en rectas paralelas, los nuevos ejes
+                                                 x ', y ' son respectivamente paralelos a los ejes originales x, y.
+
+                                                 Ilustración 1
+
+                                                 Consideremos un triángulo ABC que tiene vértices con coordenadas en un sistema
+                                                 cartesiano así: A(23, 2), B (4, 2 1) y C (22, 2 3).
+                                                                                                           ³   ³   ³
+                                                 Si hacemos una traslación de ejes mediante el vector a = 23 i + j , tendremos:
+
+                                                 El origen O’ del SN tiene coordenadas en el SO así:
+
+                                                        O '(23, 1) .
+
+                                                 El sistema de transformación de coordenadas es:
+                                                        x ' = x + 3,
+                                                         y ' = y 2 1.
+
+                                                 Hallemos las coordenadas de A, B y C en el SN:
+
+                                                        Para A : x ' = 23 + 3 = 0,
+                                                                     y ' = 2 2 1 = 1.
+
+
+                                                        Para B : x ' = 4 + 3 = 7,
+                                                                 y ' = 21 2 1 = 22.
+
+504
+                                                                                                     Módulo 30: La parábola
+       Para C : x ' = 22 + 3 = 1,
+                  y ' = 3 2 1 = 24.
+
+Las coordenadas de los vértices del triángulo en el SN son:
+
+        A(0, 1), B (7, 2 2), C (1, 2 4).
+
+Nótese que tanto en el sistema original como en el nuevo las longitudes de los
+lados son:
+
+
+         AB = 58;         BC = 40; CA = 26.
+
+
+Lo anterior significa que la traslación de ejes no altera las distancias ni las formas
+(figura 30.2).
+
+
+                                           Figura 30.2
+
+Del sistema (1) se puede pasar a:
+        x = x '+ x0
+        y = y '+ y0 .                                                             (2)
+
+
+En síntesis, se puede pasar del sistema original al sistema nuevo mediante (1), o del
+nuevo al original mediante (2).
+
+Con una traslación adecuada de los ejes coordenados es posible en muchos casos
+simplificar la ecuación de una curva.
+
+Ilustración 2
+
+Cierta curva C tiene, en un sistema cartesiano x-y, la ecuación:
+
+        x 3 2 3 x 2 2 y 2 + 3x + 4 y 2 5 = 0.
+
+
+                                                                                         Geometría vectorial y analítica 505
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Si hacemos una traslación de ejes al origen O '(1, 2), se tiene:
+                                                         x ' = x 2 1,
+                                                         y ' = y 2 2.
+
+                                                 Es decir,
+
+                                                         x = x '+ 1,
+                                                         y = y '+ 2.
+
+                                                 La ecuación se transforma así:
+
+                                                         ( x '+ 1)3 2 3( x '+ 1) 2 2 ( y '+ 2) 2 + 3( x '+ 1) + 4( y '+ 2) 2 5 = 0.
+
+                                                 Esta ecuación se simplifica así:
+
+                                                         ( x ')3 2 ( y ') 2 = 0.
+
+
+                                                 30.2 Elementos básicos de la parábola
+                                                 30.2.1 Definición de parábola
+
+                                                 Sean · una recta en el plano y F un punto del mismo y fuera de · . El lugar geomé-
+                                                 trico de los puntos del plano cuya distancia a · es igual a su distancia a F se
+                                                 denomina parábola de foco F y directriz · . En la figura 30.3 se ilustra esta defini-
+                                                 ción.
+
+
+                                                                                               Figura 30.3
+
+
+                                                 El punto V, punto medio de V ' F , pertenece a la curva. El punto A está en la parábola
+
+       Vea la animación La parábola en su        porque AA ' g AF .
+       multimedia de Geometría vectorial y
+       analítica.
+
+
+506
+                                                                                                    Módulo 30: La parábola
+Mediante un análisis cuidadoso de la definición pueden descubrirse algunas pro-
+piedades. Entre ellas:
+
+     El punto V es el punto de la curva más cercano a la directriz. V se llama
+      vértice de la parábola.
+
+     El foco F no pertenece a la curva.
+
+     La recta e que pasa por V y F es un eje de simetría de la curva; e se llama eje
+      de la parábola.
+
+     La curva se extiende indefinidamente en el semiplano determinado por · y
+      que contiene a F.
+
+Adicionalmente podemos definir otros elementos de la parábola:
+
+     Un segmento que une dos puntos de la curva se denomina cuerda. En la
+      figura 30.4, AB y RR ' son cuerdas de la parábola.
+
+
+                                     Figura 30.4
+
+     Una cuerda que pasa por el foco se llama cuerda focal.
+     Una cuerda focal perpendicular al eje (paralela a la directriz) se llama lado
+      recto de la parábola. En la figura 30.4, RR ' es el lado recto de la parábola.
+
+     Un segmento que une el foco con un punto de la curva se denomina radio
+      focal o radio vector del punto de la parábola. En la figura 30.4, FA , FB,
+       FR son radios focales de la parábola.
+
+
+30.2.2 Ecuación de la parábola
+
+Consideraremos dos casos: parábola con eje paralelo al eje x, y parábola con eje
+paralelo al eje y. A la primera la llamamos parábola horizontal y a la segunda
+parábola vertical.
+
+
+                                                                                        Geometría vectorial y analítica 507
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                 a.     Parábola horizontal
+
+                                                 Aquí distinguiremos dos posibilidades: el eje x es el eje de la curva, y el eje x no es
+                                                 el eje pero es paralelo a éste.
+
+                                                 Parábola horizontal con vértice en el origen de coordenadas
+
+                                                 El foco tiene coordenadas así: F ( p, 0). La abscisa p puede ser positiva o negativa
+                                                 (no puede ser nula). La directriz · es la recta (paralela al eje y) de ecuación x = 2 p .
+
+                                                 Si p > 0, la curva «abre» hacia la derecha (figura 30.5).
+
+
+                                                                                        Figura 30.5
+
+                                                 Si p < 0, la curva «abre» hacia la izquierda (figura 30.6).
+
+
+                                                                                        Figura 30.6
+
+                                                 También se dice que la parábola es «cóncava» hacia la derecha (figura 30.5) o es
+                                                 «cóncava» hacia la izquierda (figura 30.6).
+
+
+508
+                                                                                                      Módulo 30: La parábola
+Sea P(x, y) un punto sobre la parábola.
+
+Llamemos P ' el punto proyección de P sobre la directriz · . P '(2 p, y ).
+              ¯³      ¯³
+Determinemos P ' P y FP
+        ¯³                                                         ¯³
+        P ' P es la distancia de P a la directriz, en tanto que    FP es la distancia
+
+de P al foco de la parábola.
+        ¯³                    ¯³                     ¯³
+       P ' P µ ( x + p, 0); FP µ ( x 2 p, y ); P ' P = ( x + p ) 2 ;
+        ¯³
+        FP = ( x 2 p ) 2 + y 2 .
+
+Obsérvese que todo lo anterior es válido, independientemente de la concavidad de
+la curva (a izquierda o derecha).
+
+Por la definición de parábola:
+         ¯³        ¯³
+        P ' P = FP .
+
+         ( x + p)2 = ( x 2 p)2 + y 2 .
+Elevando ambos miembros al cuadrado se tiene:
+
+        ( x + p)2 = ( x 2 p)2 + y 2 ,
+        ( x + p)2 2 ( x 2 p)2 = y 2 ,
+        ( x + p + x 2 p )( x + p 2 x + p ) = y 2 .
+
+Finalmente:
+             y 2 = 4 px .                                                          (1)
+
+
+Esta es la ecuación canónica de la parábola horizontal con vértice en el origen.
+
+Nótese, en (1), que si p > 0, x sólo toma valores reales no negativos: x * [0, + >). Es
+el caso de la parábola cóncava hacia la derecha. En cambio, si p < 0, x * (2>, 0]. Se
+trata de la parábola cóncava hacia la izquierda.
+
+Los puntos R y R2 (figura 30.7) determinan el lado recto de la parábola. RR ' pasa
+por el foco F de la parábola y es perpendicular al eje x (eje de la curva).
+
+        R( p, y0 ) y R '( p, 2 y0 ).
+
+De la ecuación (1) se obtiene:
+
+
+        y0 = 4 p 2 ; y0 = 2 p .
+
+
+ RR ' es la longitud del lado recto de la parábola. En adelante lo denotaremos Ã.
+En consecuencia:
+
+
+                                                                                          Geometría vectorial y analítica 509
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                         Ã=4 p .
+
+
+                                                                                        Figura 30.7
+
+
+                                                 b.     Parábola vertical
+
+                                                 Como en la parábola horizontal, debemos distinguir dos casos: el eje y es el eje de la
+                                                 curva y el eje y no lo es.
+
+                                                 Parábola vertical con vértice en el origen de coordenadas
+
+                                                 El foco tiene coordenadas así: F (0, p ) . Si la ordenada p es positiva, la parábola es
+                                                 cóncava hacia arriba (figura 30.8); si p es negativa, la parábola es cóncava hacia
+                                                 abajo (figura 30.9).
+
+                                                 En este caso, la directriz es paralela al eje x; se trata de la recta · de ecuación:
+
+                                                         y = 2p.
+
+                                                 Si P(x, y) es un punto de la curva, mediante análisis similar al caso anterior se
+                                                 obtiene que la ecuación canónica de la parábola de vértice en el origen, foco (0, p) y
+                                                 directriz y = 2 p, es:
+
+
+                                                         x 2 = 4 py .                                                                   (2)
+
+
+                                                 En este caso, si p > 0, y * [0, + >); si p < 0, y * (2>, 0].
+
+
+510
+                                                                                               Módulo 30: La parábola
+
+
+                                   Figura 30.8
+
+
+                                   Figura 30.9
+
+30.2.3 Rectas tangente y normal a la parábola
+
+Consideremos en primer lugar la parábola con vértice en el origen y con el eje x
+como eje focal (figuras 30.10 y 30.11).
+
+
+                                   Figura 30.10
+
+
+                                                                                   Geometría vectorial y analítica 511
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                                                         Figura 30.11
+
+
+                                                 Recuérdese que la parábola tiene foco F ( p, 0) y ecuación:
+
+
+                                                         y 2 = 4 px.
+
+
+                                                 Sea P( x0 , y0 ) un punto de la curva distinto del vértice. Llamemos t a la recta tan-
+                                                 gente a la curva en P, y n a la recta normal a la curva en el mismo punto. Las rectas
+                                                 t y n son perpendiculares.
+
+                                                 Si m es la pendiente de la recta tangente a la curva en P, puede probarse que:
+
+                                                              2p
+                                                         m=      .
+                                                              y0
+
+                                                 Nótese que en el caso de la parábola cóncava hacia la derecha (p > 0), si P está
+                                                 encima del eje x, la recta tangente tiene pendiente positiva; si P está por debajo del
+                                                 eje x, la recta tangente tiene pendiente negativa. Análisis similar puede hacerse para
+                                                 el caso de la parábola cóncava hacia la izquierda (p < 0).
+
+                                                 La pendiente de la recta normal n a la curva en P es:
+
+                                                                  y0
+                                                         mn = 2      .
+                                                                  2p
+
+                                                 Aplicando la ecuación punto-pendiente para la recta se obtiene:
+
+                                                                                     2p
+                                                        Recta tangente: y 2 y0 =        ( x 2 x0 ).
+                                                                                     y0
+
+                                                                                     y0
+                                                        Recta normal: y 2 y0 = 2        ( x 2 x0 ).
+                                                                                     2p
+                                                 En el caso del vértice de la parábola, V(0, 0), la recta tangente es el eje y ( x = 0), y la
+                                                 recta normal a la curva es el eje x ( y = 0).
+
+
+512
+                                                                                                   Módulo 30: La parábola
+
+Analicemos ahora el caso de la parábola con vértice en el origen y con el eje y como
+eje focal (figuras 30.12 y 30.13).
+
+El foco de la parábola es F(0, p) y la ecuación de la curva es:
+
+        x2 = 4 py.
+
+
+                                     Figura 30.12
+
+
+                                     Figura 30.13
+
+
+Si el punto P ( x0 , y0 ) de tangencia es diferente del origen puede demostrarse que
+la pendiente de la recta tangente t en P es:
+            x0
+       m=      .
+            2p
+
+En este caso la pendiente de la recta normal en P es:
+                2p
+       mn = 2      .
+                x0
+
+
+                                                                                       Geometría vectorial y analítica 513
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Las ecuaciones son, en consecuencia:
+                                                                                 x0
+                                                        Recta tangente: y 2 y0 = 2 p ( x 2 x0 ).
+
+                                                                                    2p
+                                                        Recta normal: y 2 y0 = 2       ( x 2 x0 ).
+                                                                                    x0
+
+
+                                                 En el vértice de la parábola, V(0, 0), la recta tangente es el eje x ( y = 0) y la recta
+                                                 normal es el eje y ( x = 0).
+
+                                                 Ilustración 3
+
+                                                 Una parábola cuyo vértice está en el origen y cuyo eje focal es el eje x pasa por el
+                                                 punto A(22, 4). Encuentre:
+
+                                                 a.     La ecuación canónica de la curva.
+                                                 b.     Las coordenadas del foco.
+                                                 c.     La ecuación de la directriz.
+                                                 d.     La longitud del lado recto.
+                                                 e.     Las ecuaciones de las rectas tangente y normal a la curva en A.
+
+                                                 Haga además un esbozo de la gráfica.
+
+                                                 Solución
+
+                                                 a.     La ecuación es de la forma y 2 = 4 px.
+                                                        Como A(22, 4) pertenece a la curva, se tiene:
+                                                                 42 = 4 p ( 22).
+                                                        Por tanto, p = 22 .
+
+                                                        La ecuación de la curva es:
+
+                                                                 y 2 = 28 x .
+
+
+                                                 b.     Las coordenadas del foco son F (22, 0). Significa que la curva es cóncava
+                                                        hacia la izquierda.
+
+                                                 c.     La directriz es la recta vertical x = 2 .
+                                                 d.     La longitud del lado recto es Ã = 4 p .
+
+                                                                 Ã = 4(22) = 8.
+
+
+514
+                                                                                                   Módulo 30: La parábola
+e.     En A(22, 4), la pendiente de la recta tangente es:
+
+                    2 p 2( 22)
+               m=      =       .
+                    y0     4
+                 = 21.
+
+
+       La pendiente de la recta normal en A es:
+               mn = 1.
+
+       Por tanto, las ecuaciones son:
+              Recta tangente: y 2 4 = 21( x + 2),
+                              y = 2 x + 2.
+
+              Recta normal: y 2 4 = 1( x + 2),
+                            y = x + 6.
+
+       Esbozo de la gráfica (figura 30.14):
+
+
+                                     Figura 30.14
+
+
+30.2.4 Propiedad óptica de la parábola
+
+La parábola tiene una interesante propiedad de aplicación en la Física.
+
+Si por un punto de la parábola, distinto del vértice, se trazan el radio vector del
+punto y una paralela l al eje de la curva, entonces la recta normal a la curva en el
+punto es bisectriz del ángulo formado por el radio vector y la paralela l.
+
+Demostremos esta propiedad (figura 30.15):
+
+
+                                                                                       Geometría vectorial y analítica 515
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                                                              Figura 30.15
+
+                                                 En la figura 30.15, n es la recta normal a la parábola en el punto T; t es la recta
+                                                 tangente; l es una recta paralela al eje focal y pasa por T; r es el radio focal de T; »1
+                                                 es el ángulo entre r y n; » 2 , el ángulo entre n y l.
+
+
+                                                         T ( x0 , y0 ); F ( p, 0).
+                                                                  y0           y
+                                                         mr =          ; mn = 2 0 ; ml = 0.
+                                                                x0 2 p         2p
+
+                                                 Se sabe que:
+
+                                                                    mn 2 mr
+                                                         tan »1 =
+                                                                    1 + mn mr
+                                                                        y0     y0
+                                                                         2 2
+                                                                       2 p x0 2 p
+                                                                =
+                                                                     » y ¿ » y0 ¿
+                                                                  1+ ¿ 2 0 ¿¿         ¿
+                                                                     ¿ 2 p £ ¿ x0 2 p £
+                                                                                x0 + p
+                                                                = 2 y0                        .
+                                                                         2 p ( x0 2 p ) 2 y02
+
+                                                 Pero
+                                                         y02 = 4 px0 ,
+
+                                                                            x0 + p
+                                                         tan »1 = y0
+                                                                         2 px0 + 2 p 2
+                                                                    y0
+                                                                =      .                                                              (1)
+                                                                    2p
+                                                 Por otra parte,
+
+
+516
+                                                                                                        Módulo 30: La parábola
+
+                    ml 2 mn
+        tan » 2 =
+                    1 + ml mn
+                           y0
+                       0+
+                           2p
+                =
+                          » 2y ¿
+                  1 + (0) ¿ 0 ¿                                                      (2)
+                          ¿ 2p £
+                    y0
+                =      .
+                    2p
+
+De (1) y (2) se sigue que »1 = »2 . En consecuencia, la recta normal n es bisectriz del
+ángulo formado por r y l.
+
+Por lo anterior, y por propiedades de la luz al reflejarse, si se instala una fuente
+luminosa en el foco de una parábola los rayos inciden en ésta y se reflejan siguien-
+do direcciones paralelas al eje de la curva (figura 30.16).
+
+
+                                       Figura 30.16
+
+Ilustración 4
+
+Cierta parábola vertical tiene vértice en el origen. La curva pasa por el punto (26, 23).
+Demuestre que las rectas normales a la curva en los extremos del lado recto forman
+con éste ángulos de 45º y además concurren en el eje y, y son perpendiculares entre
+sí.
+
+Solución
+
+La ecuación de la curva es de la forma:
+
+        x 2 = 4 py .
+
+Por lo tanto,
+
+
+        (26) 2 = 4 p (23),
+        p = 23.
+
+
+                                                                                            Geometría vectorial y analítica 517
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                 La parábola tiene foco F (0, 23) y abre hacia abajo (figura 30.17).
+
+
+                                                                                        Figura 30.17
+
+                                                 La ecuación canónica de la curva es:
+
+                                                         x 2 = 212 y.
+
+
+                                                 Los extremos ( R ' y R) del lado recto están alineados con el foco y forman un
+                                                 segmento ( R ' R) perpendicular al eje focal. Por tanto, R ' y R tienen ordenada p.
+
+                                                 Así,
+
+
+                                                         x2 = 4 p2 ,
+                                                         x = ±2 p ; x = ±6.
+
+                                                 Por tanto,
+
+                                                         R '(26, 2 3) y R (6, 2 3).
+
+
+                                                 Se sabe que en un punto P ( x0 , y0 ) de la curva, distinto del vértice, la pendiente de
+                                                 la normal es:
+
+                                                                  2p
+                                                         mn = 2      .
+                                                                  x0
+
+                                                 Llamemos n’ y n a las rectas normales a la curva en R’ y R, respectivamente.
+
+
+518
+                                                                                                        Módulo 30: La parábola
+
+               2(23)
+        mn ' = 2      ;     mn ' = 21.
+                 26
+               2(23)
+        mn = 2       ;      mn = 1.
+                 6
+Lo anterior significa que n ' y n forman con el eje x ángulos de 45º.
+
+Las ecuaciones de las dos rectas normales son:
+
+        n':        y = 2 x 2 9.
+        n:         y = x 2 9.
+
+Hallemos la intersección de las dos rectas:
+
+        2 x 2 9 = x 2 9,
+        x = 0,
+        y = 29.
+
+Las dos rectas coinciden, en consecuencia, en el punto (0, 29), el cual está en el eje y.
+
+Además, por las pendientes se puede deducir que las dos rectas son perpendicula-
+res entre sí.
+
+30.3 Parábola con vértice distinto del origen y eje focal diferente
+     de los ejes coordenados
+30.3.1 Parábola horizontal
+
+Consideremos la parábola de vértice V(h, k) y que tiene como eje focal la recta
+y = k (figura 30.18).
+
+
+                                         Figura 30.18
+
+
+Hagamos una traslación de ejes de modo que el nuevo origen, O ', sea el vértice V.
+
+
+                                                                                            Geometría vectorial y analítica 519
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 De esta manera, en el sistema x ', y ', V (0, 0).
+
+                                                 Supongamos que en el nuevo sistema, F(p, 0). Según lo estudiado en este módulo,
+                                                 la ecuación de la curva en el nuevo sistema es:
+
+                                                         ( y ') 2 = 4 px '.                                                             (1)
+
+                                                 La relación entre el sistema nuevo y el sistema original es:
+
+                                                         x ' = x 2 h.
+                                                         y ' = y 2 k.
+
+                                                 Así, en el sistema original la ecuación canónica general de la parábola es:
+
+
+                                                         ( y 2 k ) 2 = 4 p ( x 2 h) .                                                   (2)
+
+
+                                                 En el sistema nuevo, F(p, 0). Por ello, en el sistema original:
+
+                                                         F (h + p, k ).                                                                 (3)
+
+                                                 En el sistema nuevo, la ecuación de la directriz es:
+
+                                                         x ' = 2 p.
+
+                                                 En el sistema original la ecuación de esta recta es:
+
+                                                         x = h2 p.                                                                      (4)
+                                                 Nótese que p es la distancia entre el vértice y el foco de la parábola.
+
+                                                 Como antes, si p > 0, la parábola abre hacia la derecha; si p < 0, abre hacia la
+                                                 izquierda.
+
+
+                                                 30.3.2 Parábola vertical
+
+                                                 Sea V(h, k) el vértice de la curva; x = h, la ecuación del eje focal (figura 30.19).
+
+                                                 Procediendo como en el caso anterior, se obtiene:
+
+                                                 Ecuación canónica general de la parábola:
+
+
+                                                         ( x 2 h) 2 = 4 p ( y 2 k ) .
+
+
+520
+                                                                                                     Módulo 30: La parábola
+Coordenadas del foco: F (h, k + p).
+Ecuación de la directriz: y = k 2 p.
+
+
+Como antes, p es la distancia entre el foco y el vértice de la curva.
+
+Hallemos, para los dos casos, la pendiente de la recta tangente a la curva en un
+punto dado P( x0 , y0 ) distinto del vértice.
+
+
+                                       Figura 30.19
+
+Caso de la parábola horizontal
+
+Con la traslación de ejes, la pendiente de la recta tangente en P es:
+               2p
+         m=         .
+               y0 '
+
+
+Aquí, y0 ' es la ordenada del foco en el nuevo sistema.
+Pero y0 ' = y0 2 k. Por tanto, en el sistema original la pendiente de la tangente es:
+
+                2p
+         m=           .
+               y0 2 k
+
+Caso de la parábola vertical
+
+Similarmente, para la parábola vertical, la pendiente de la recta tangente en un punto
+P ( x0 , y0 ) es:
+
+
+               x0 2 h
+         m=           .
+                2p
+
+Todo lo visto acerca de la parábola se resume en la tabla 30.1, en cuya última
+columna se lee la pendiente de la recta tangente a la curva en un punto (x0, y0).
+
+
+                                                                                         Geometría vectorial y analítica 521
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Nótese que si h = k = 0, se tiene el caso de la parábola con vértice en el origen y
+                                                 cuyo eje focal es uno de los ejes coordenados.
+
+
+Tabla 30.1
+
+
+                                    Vértice           Foco             Directriz         Eje         Ecuación canónica             Pendiente
+
+  Parábola horizontal              V ( h, k )    F ( h + p, k )        x = h2 p         y=k          ( y 2 k ) 2 = 4 p ( x 2 h)   2 p ( y0 2 k )
+
+  Parábola vertical                V ( h, k )    F (h, k + p)         y=k2p             x=h          ( x 2 h) 2 = 4 p ( y 2 k )   ( x0 2 h) 2 p
+
+
+                                                 30.4 Forma general de la ecuación de la parábola
+                                                 Consideremos la ecuación canónica general de una parábola horizontal:
+
+                                                          ( y 2 k ) 2 = 4 p ( x 2 h).
+
+                                                 Esta ecuación puede transformarse en:
+
+                                                             y 2 2 4 px 2 2ky + ( k 2 + 4 ph) = 0.
+
+
+                                                 Llamemos: C = 1; D = 24 p; E = 22k ; F = k 2 + 4 ph.
+
+                                                 La ecuación pasa a ser:
+
+                                                          Cy 2 + Dx + Ey + F = 0.
+
+                                                 Procediendo similarmente, la ecuación canónica general de una parábola vertical
+                                                 adquiere la forma Ax2 + Dx + Ey + F = 0. Las dos ecuaciones obtenidas son casos
+                                                 particulares de la ecuación general: Ax2 + Cy2 + Dx + Ey + F = 0.
+
+                                                 Ahora bien, dada una ecuación de la forma Ax 2 + Cy 2 + Dx + Ey + F = 0, se obten-
+                                                 drá la ecuación canónica de una parábola bajo las siguientes condiciones:
+
+                                                 a.      Si A = 0, C b 0, D b 0, se trata de una parábola horizontal.
+                                                 b.      Si A b 0, C = 0, E b 0, se tiene una parábola vertical.
+
+                                                 Veamos el primer caso:
+
+                                                 La ecuación original es:
+
+                                                          Cy 2 + Dx + Ey + F = 0.
+
+
+522
+                                                                                                      Módulo 30: La parábola
+Sean:
+               D       E      F
+        D1 =     ; E1 = ; F1 = .
+               C       C      C
+
+La ecuación es ahora:
+
+        y 2 + D1 x + E1 y + F1 = 0.
+
+        »              »E ¿ ¿ »
+                            2
+                                              E2 ¿
+        ¿ y 2 + E1 y + ¿ 1 ¿ ¿ + ¿ D1 x + F1 2 1 ¿ = 0,
+        ¿              ¿ 2 £ ¿£ ¿              4 £
+        ¿
+                       »     F1 E12 ¿
+                   2
+        »     E1 ¿
+        ¿   +      +  1¿   +   2     ¿ = 0,
+              2 ¿£
+          y          D   x
+        ¿              ¿     D1 4 D1 £
+                         »     F1 E12 ¿
+                   2
+        »     E1 ¿
+        ¿ y + 2 ¿ = 2 D1 ¿ x + D 2 4 D ¿ .
+        ¿        £       ¿      1     1 £
+
+
+                   E1                    E2 F
+Hagamos k = 2         ; 4 p = 2 D1 ; h = 1 2 1 .
+                   2                    4 D1 D1
+
+Se obtiene la ecuación:
+
+        ( y 2 k ) 2 = 4 p ( x 2 h),
+
+que es la ecuación canónica de una parábola horizontal.
+
+Similarmente puede procederse con el segundo caso.
+
+Debe aclararse que no es necesario memorizar fórmulas como las aquí obtenidas. En
+cada caso basta usar el procedimiento descrito.
+
+La ecuación Ax 2 + Cy 2 + Dx + Ey + F = 0 se denomina forma general de la ecua-
+ción de la parábola (si se cumplen las condiciones dadas en a en b).
+
+Ilustración 5
+
+Considere la ecuación 4 y 2 2 24 x 2 20 y + 97 = 0.
+
+a.      Pruebe que se trata de una parábola horizontal.
+
+b.      Encuentre las coordenadas del vértice y del foco y la ecuación de la directriz.
+
+c.      Halle, además, la longitud del lado recto de la curva.
+
+
+                                                                                          Geometría vectorial y analítica 523
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                 Solución
+
+                                                 a.     Debe empezarse por hacer que y 2 tenga coeficiente uno (1). Para ello dividi-
+                                                        mos por 4:
+                                                                                  97
+                                                                y2 2 5 y 2 6x +      = 0,
+                                                                                   4
+
+                                                                 » 2         »5¿ ¿
+                                                                                2
+                                                                                           97 25
+                                                                ¿¿ y 2 5 y + ¿ ¿ ¿¿ = 6 x 2 + ,
+                                                                 ¿           ¿2£ £          4 4
+                                                                        2
+                                                                »    5¿
+                                                                ¿ y 2 ¿ = 6 x 2 18,
+                                                                ¿    2£
+                                                                        2
+                                                                »    5¿
+                                                                ¿ y 2 ¿ = 6( x 2 3).
+                                                                ¿    2£
+
+                                                 En consecuencia, se trata de la ecuación de una parábola horizontal.
+
+
+                                                                                                             » 5¿        3
+                                                 b.     Según este resultado, el vértice de la parábola es V ¿ 3, ¿ ; p = ; el foco
+                                                                                                             ¿ 2£        2
+
+                                                             »    3 5¿               »9 5¿                                     5
+                                                        es F ¿ 3 + , ¿ ; es decir, F ¿ , ¿ . El eje de la curva es la recta y = ,
+                                                             ¿    2 2£               ¿2 2£                                     2
+
+                                                                                                        3             3
+                                                        mientras que la directriz es la recta x = 3 2     ; o sea, x = .
+                                                                                                        2             2
+
+
+                                                        El lado recto es un segmento R ' R cuyos extremos están en la curva que
+                                                        pasa por el foco y es perpendicular al eje de la parábola:
+
+
+                                                                    »9     ¿     »9     ¿
+                                                                R ' ¿ , y1 ¿ y R ¿ , y2 ¿ .
+                                                                    ¿2     £     ¿2     £
+                                                                                                          9
+                                                        Sustituyendo en la ecuación de la curva x =         , se tiene:
+                                                                                                          2
+
+                                                                        2
+                                                               »     5¿      »9    ¿
+                                                               ¿ y 2 ¿ = 6¿ 2 3¿
+                                                               ¿     2£      ¿2 £
+                                                                            »3¿
+                                                                        = 6 ¿ ¿ = 9,
+                                                                            ¿2£
+                                                                    5
+                                                               y 2 = ±3
+                                                                    2
+                                                                     5
+                                                               y = ± 3,
+                                                                     2
+                                                                     5         1
+                                                               y1 = 2 3 = 2 ;
+                                                                     2         2
+                                                                      5       11
+                                                               y2 = + 3 =        .
+                                                                      2        2
+
+524
+                                                                                          Módulo 30: La parábola
+Los extremos del lado recto son los puntos:
+
+
+           »9   1¿     » 9 11 ¿
+        R '¿ , 2 ¿ y R ¿ , ¿.
+           ¿2   2£     ¿2 2 £
+
+                 11 » 1 ¿
+        R'R =      2¿2 ¿ ,
+                  2 ¿ 2£
+        Ã = 6.
+
+Esta es la longitud del lado recto de la parábola. Recuérdese que Ã = 4 p .
+
+En la figura 30.20 se observa la gráfica de la curva.
+
+
+                                      Figura 30.20
+
+
+                                                                              Geometría vectorial y analítica 525
+Ejercicios propuestos
+1.    Demuestre que la longitud del eje menor de una elipse es media proporcional entre las longitudes del eje mayor y el
+      lado recto de la curva.
+
+2.    Demuestre que en toda elipse el semieje menor es media proporcional entre los dos segmentos del eje mayor determinados por
+      uno de los focos.
+
+3.    Encuentre e identifique la ecuación del lugar geométrico de los puntos medios de las ordenadas de los puntos de la
+      circunferencia x 2 + y 2 = 9 .
+
+4.    Los focos de una elipse son los puntos ( 24, 22 ) y ( 24, 26 ). Sabiendo que la longitud de cada lado recto de la curva es 6,
+      encuentre:
+
+      a.     La ecuación canónica de la curva.
+      b.     La forma general de la ecuación de la curva.
+      c.     Las coordenadas de los vértices.
+      d.     Las coordenadas de los extremos del eje menor.
+      e.     Las coordenadas de los extremos de cada lado recto.
+      f.     Las ecuaciones de las rectas tangentes a la curva en cada uno de los extremos de los dos lados rectos.
+      g.     Las ecuaciones de las rectas normales a la curva en cada uno de los extremos de los dos lados rectos.
+
+      Grafique la curva.
+
+5.    Los vértices de una elipse son los puntos (1, 2 6) y (9, 2 6) . Cada lado recto de la curva tiene longitud 9 2.
+      Encuentre la ecuación canónica y la ecuación en forma general de la curva.
+
+6.    Una elipse tiene centro en el punto ( 22, 2 1) y uno de sus vértices es el punto (3, 2 1) . Sabiendo que la longitud de cada
+      lado recto es 4, encuentre la ecuación canónica de la curva y todo lo pedido en el ejercicio 4.
+
+7.    Una elipse tiene centro en (22, 4); además, el vértice y el foco de un mismo lado del centro son, respectivamente, los
+      puntos (22, 2 4) y (22, 2 2). Encuentre todo lo pedido en el ejercicio 4.
+
+8.    Para cada una de las ecuaciones de segundo grado dadas a continuación determine si se trata de una elipse, un
+      punto único o un conjunto vacío. En caso de que sea una elipse encuentre la ecuación canónica y las coordenadas
+      del centro y las ecuaciones del eje focal y el eje normal.
+
+      a.      x 2 + 4 y 2 2 6 x + 16 y + 21 = 0.
+      b.      4 x 2 + y 2 + 16 x 2 6 y + 25 = 0.
+      c.      9 x 2 + 4 y 2 2 8 x 2 32 = 0.
+      d.      4 x 2 + 5 y 2 2 8 x + 6 = 0.
+
+                                                                                                       »         3¿
+9.    Encuentre la ecuación canónica de una elipse que pasa por los puntos (1, 3), (21, 4), (23, 3) y ¿¿ 0, 3 2 2 ¿¿ .
+                                                                                                       ¿           £
+10.   Una ecuación como 4 x 2 + 9 y 2 + dx + gy 2 11 = 0 representa una familia de elipses. Habrá tantas elipses como valores
+      adecuados se den a d y g. Encuentre la ecuación canónica de la elipse de la familia que pasa por los puntos (2, 3) y (5, 1).
+
+
+570
+11.   La ecuación de una familia de elipses es nx 2 + 4 y 2 + 6 x 2 8 y 2 5 = 0. Encuentre las ecuaciones de los elementos de
+      la familia que tienen excentricidad igual a 1 2.
+
+
+12.   Encuentre las longitudes de los radios vectores del punto (2, 1) de la elipse 9 x 2 + y 2 2 18 x 2 2 y + 1 = 0.
+
+
+13.   Cierta cuerda de la elipse x 2 + 4 y 2 2 6 x 2 8 y 2 3 = 0 tiene como punto medio (5, 2). Encuentre la ecuación de la recta
+      que contiene a dicha cuerda.
+
+14.   Encuentre e identifique la ecuación del lugar geométrico de un punto que se mueve de modo que su distancia al eje
+      y es igual al doble de su distancia al punto (3, 2).
+
+15.   Encuentre las ecuaciones de las rectas tangentes trazadas desde el punto (3, 2 1) a la elipse 2 x 2 + 3 y 2 + x 2 y 2 5 = 0.
+
+
+16.   Encuentre el ángulo agudo de intersección de las elipses 3 x 2 + 4 y 2 2 43 = 0 y 4 x 2 + y 2 2 32 x + 56 = 0, en uno de
+      los puntos comunes a las dos curvas.
+
+17.   Demuestre que las rectas tangentes a una elipse trazadas en los extremos de un diámetro son paralelas entre sí.
+
+18.   Demuestre que la pendiente de una elipse en cualquiera de los extremos de un lado recto tiene como valor absoluto
+      la excentricidad de la curva.
+
+
+                                                                                                    Geometría vectorial y analítica 571
+      La hipérbola
+                                                  32
+Introducción
+La cuarta de las secciones cónicas es la hipérbola, la cual se obtiene al intersecarse
+                                                                                         Los cometas se pueden describir como «bolas de nieve sucia».
+una superficie cónica y un plano paralelo al eje de aquélla, pero que no contiene a      Se cree que se originan en la región conocida como nube de
+dicho eje.                                                                               Oort, localizada aproximadamente a un año luz de distancia
+                                                                                         del Sol.
+Como sucede con las demás secciones cónicas, la hipérbola es rica en propiedades
+                                                                                         Están constituidos por un núcleo que aparece como un punto
+que la hacen de gran utilidad en muchas ramas de la ciencia. Como la parábola y la       brillante, rodeado de una nube de apariencia circular,
+elipse, la hipérbola tiene propiedades ópticas que han permitido desarrollar muchas      transparente y débilmente luminosa, denominada coma
+aplicaciones en la rama de la Física conocida como óptica.                               (cabellera): cuando un cometa se acerca al Sol, parte del
+                                                                                         núcleo se evapora para formarla. Muchos cometas exhiben
+                                                                                         también una cola en forma de un largo haz luminoso,
+En este módulo presentaremos la hipérbola como un lugar geométrico en términos           orientado siempre en dirección contraria al Sol.
+de distancias, obtendremos su ecuación canónica general y estudiaremos algunas
+de las propiedades más importantes de la curva, entre ellas las de las rectas tangen-    A veces, los cometas se ven expulsados de la nube de Oort
+te y normal, y la conocida como propiedad óptica.                                        y caen hacia el Sol. La atracción gravitacional de un planeta
+                                                                                         puede atraparlo en una órbita muy elíptica que lo llevará
+                                                                                         periódicamente a la proximidad del Sol (es el caso del
+La hipérbola se distingue de las otras secciones cónicas por el hecho de que es la       conocido cometa Halley, que tiene un periodo de 76 años).
+única que tiene asíntotas, esto es, rectas con las cuales tiende a confundirse la        Otros cometas pueden alcanzar órbitas parabólicas abiertas
+curva cuando la variable independiente crece indefinidamente.                            o hiperbólicas y pasarán una vez cerca del Sol para perderse
+                                                                                         para siempre fuera del Sistema Solar.
+
+
+Objetivo del módulo
+1. Estudiar la hipérbola como un lugar geométrico en términos de distancias a dos
+  puntos dados y analizar su propiedad óptica.
+
+Preguntas básicas
+1. ¿Cuál es la ecuación canónica de una hipérbola?
+2. ¿Qué representan las constantes que intervienen en la ecuación de una hipérbo
+   la?
+3. ¿Cuántas clases de hipérbolas hay según su ubicación con respecto a los ejes
+    coordenados?
+4. ¿Cuál es la propiedad óptica de la hipérbola?
+5. ¿Cómo se obtienen las ecuaciones de las rectas tangente y normal a una hipérbo
+   la?
+6. ¿Qué es una hipérbola equilátera?
+7. ¿Qué son hipérbolas conjugadas?
+8. ¿Cómo se obtienen las ecuaciones de las asíntotas de una hipérbola?
+                                                                                                     Vea el módulo 32 del programa de
+                                                                                                     televisión Geometría vectorial y analítica
+
+
+                                                                                                       Geometría vectorial y analítica 573
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Contenidos del módulo
+                                                 32.1 Caracterización de la hipérbola
+                                                        32.1.1 Definición de hipérbola
+                                                        32.1.2 Propiedades básicas de la hipérbola
+                                                        32.1.3 Elementos de la hipérbola
+                                                 32.2 Ecuación de la hipérbola
+                                                        32.2.1 Hipérbola con centro en el origen y focos en el eje x
+                                                        32.2.2 Hipérbola con centro en el origen y focos en el eje y
+                                                 32.3 Hipérbola equilátera
+                                                 32.4 Hipérbolas conjugadas
+                                                 32.5 Rectas tangente y normal a una hipérbola
+                                                 32.6 Hipérbola con centro distinto al origen
+                                                        32.6.1 Hipérbola horizontal
+                                                        32.6.2 Hipérbola vertical
+                                                 32.7 Forma general de la ecuación de la hipérbola
+                                                 32.8 Propiedad focal de la hipérbola
+
+
+574
+                                                                                                          Módulo 32: La hipérbola
+32.1 Caracterización de la hipérbola
+32.1.1 Definición de hipérbola
+
+Sean F1 y F2 puntos diferentes en el plano; a, un real positivo. Se llama hipérbola
+de focos F1 y F2 al lugar geométrico de los puntos del plano cuya diferencia de
+distancias a los focos es 2a.
+
+
+32.1.2 Propiedades básicas de la hipérbola
+
+Sea f la recta que contiene los focos (figura 32.1).
+
+
+                                      Figura 32.1
+
+
+Llamemos 2c la distancia entre los focos. Claramente, a < c, puesto que si c = a, la
+curva se reduciría a los focos, y si c < a, el lugar sería vacío.
+
+Sean V1 y V2 dos puntos de la recta f tales que V1 está entre F1 y V2 , y V2 entre V1
+y F2 .
+
+
+                                  1 1 = V2 F2 = c 2 a, y V1V2 = 2 a, entonces
+Puede probarse fácilmente que si FV
+V1 y V2 son puntos del lugar geométrico. Además, V1 y V2 son los únicos puntos de
+la curva sobre la recta f.
+
+Sean v1 y v2 las rectas del plano perpendiculares a f en V1 y V2 , respectivamente
+(figura 32.2).
+
+Sea Q un punto del plano, comprendido entre las rectas v1 y v2 . Puede probarse que
+Q no puede pertenecer a la hipérbola, pues QF1 2 QF2 < 2a.
+
+
+                                                                                        Vea la animación La hipérbola en su
+                                                                                        multimedia de Geometría vectorial y
+                                                                                        analítica.
+                                      Figura 32.2
+
+
+                                                                                           Geometría vectorial y analítica 575
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Lo anterior significa que la hipérbola está formada por dos ramas: una, en el semiplano
+                                                 de borde v1 y que contiene a F1 , y la otra en el semiplano de borde v2 y que
+                                                 contiene a F2 .
+
+                                                 Puede demostrarse además que:
+
+                                                       La recta f es eje de simetría de la curva.
+                                                       La recta perpendicular a f en el punto medio de F1 F2 es otro eje de simetría
+                                                        de la curva.
+                                                       El punto medio del segmento F1 F2 es centro de simetría de la hipérbola.
+
+
+                                                 32.1.3 Elementos de la hipérbola
+
+                                                 La hipérbola tiene los siguientes elementos básicos (figura 32.3).
+
+
+                                                                                          Figura 32.3
+
+
+                                                       Focos: son los puntos F1 y F2 (la distancia entre ellos es 2c).
+
+
+                                                       Vértices: son los puntos V1 y V2 de la curva sobre f (la distancia entre ellos es 2a).
+
+                                                       Eje focal: la recta f que pasa por los focos y los vértices.
+
+                                                       Eje transverso: el segmento V1V2 (su longitud es 2a).
+
+                                                       Centro: el punto medio C del eje transverso (su distancia a cada foco es c).
+
+                                                       Eje normal: la recta n perpendicular al eje focal en el centro de la curva.
+
+
+576
+                                                                                                            Módulo 32: La hipérbola
+       Eje conjugado: el segmento B1 B2 perpendicular al eje focal y cuyo punto
+        medio es C. Su longitud es 2b y se define así:
+
+                a 2 + b 2 = c 2 (recuérdese que c > a).
+
+       Cuerda: todo segmento que une dos puntos de la hipérbola: V1V2 , MN y
+
+        PQ son cuerdas.
+
+
+       Cuerda focal: es una cuerda que pasa por un foco. MN y S Q son cuerdas
+        focales.
+
+       Lado recto: cada una de las dos cuerdas focales perpendiculares al eje focal.
+        MN y M ´N´ son los dos lados rectos de la hipérbola.
+
+
+       Diámetro: toda cuerda que pase por el centro C. V1V2 y HL son diámetros.
+
+       Radio vector: cada segmento que une un punto de la hipérbola con un foco.
+        QF1 y QF2 son los radios vectores del punto Q. Cada punto de la hipérbola
+        tiene dos radios vectores. V1 F1 y V1F2 son los radios vectores del vértice V1 .
+
+
+32.2 Ecuación de la hipérbola
+
+32.2.1 Hipérbola con centro en el origen y focos en el eje x
+
+En este caso, el eje focal es el eje x, en tanto que el eje y es el eje normal (figura 32.4).
+Por el hecho de que el eje focal es horizontal, a esta curva la denominaremos hipér-
+bola horizontal.
+
+
+                                         Figura 32.4
+
+
+Sean F1 (2c, 0) y F2 (c, 0) los focos de la curva.
+
+
+                                                                                                Geometría vectorial y analítica 577
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                 Si P( x, y ) es un punto del plano, entonces P pertenece a la curva si y sólo si
+                                                             ¯³        ¯³
+                                                            F1 P 2 F2 P = 2a.
+
+                                                 Determinemos
+                                                            ¯³    ¯³    ¯³                    ¯³
+                                                        F1 P y F2 P; F1 P µ ( x + c, y ); F2 P µ ( x 2 c, y ).
+                                                            ¯³                           ¯³
+                                                            F1 P = ( x + c) 2 + y 2 ; F2 P = ( x 2 c) 2 + y 2 .
+
+
+                                                 Sustituyendo en la ecuación se tiene:
+                                                             ¯³        ¯³
+                                                            F1 P 2 F2 P = 2a.
+
+
+                                                 Esto es,
+
+                                                             ( x + c) 2 + y 2 2 ( x 2 c) 2 + y 2 = 2a.                              (1)
+
+
+                                                 Esta ecuación es equivalente a:
+
+
+                                                            ( x + c ) 2 + y 2 2 ( x 2 c ) 2 + y 2 = 2a, o                           (2)
+
+                                                            ( x + c) 2 + y 2 2 ( x 2 c) 2 + y 2 = 22a.                              (3)
+
+                                                 Nótese que se trata de la disyunción entre las expresiones (2) y (3).
+
+                                                 La primera ecuación es equivalente a:
+
+
+                                                            ( x + c ) 2 + y 2 = ( x 2 c ) 2 + y 2 + 2a.
+
+                                                 Elevando al cuadrado:
+                                                        ( x + c) 2 + y 2 = ( x 2 c) 2 + y 2 + 4a 2 + 4a ( x 2 c) 2 + y 2 .
+
+                                                 De aquí que:
+
+
+                                                        2( a 2 2 cx) = a ( x 2 c) 2 + y 2 .
+
+                                                 Elevando nuevamente al cuadrado y reorganizando:
+
+                                                        c2 x2 2 a2 x2 2 a2 y 2 = a2c2 2 a4 .                                        (4)
+
+                                                 La segunda de las dos ecuaciones en que se descompone (1) conduce a este mismo
+                                                 resultado. En síntesis, la ecuación (1) conduce a (4).
+
+
+578
+                                                                                                  Módulo 32: La hipérbola
+De (4) se obtiene:
+
+        (c 2 2 a 2 ) x 2 2 a 2 y 2 = a 2 (c 2 2 a 2 ).
+
+
+Teniendo en cuenta que a 2 + b 2 = c 2 , se pasa a:
+
+
+        b2 x 2 2 a 2 y 2 = a 2b2 .
+
+
+Dividiendo por a 2 b 2 :
+
+         x2 y2
+            2   = 1.                                                           (5)
+         a 2 b2
+
+Esta es la ecuación canónica de la hipérbola con centro en el origen de coordenadas
+y con el eje x como eje focal.
+
+Hagamos un breve análisis de esta ecuación:
+
+      Interceptos con los ejes:
+
+                 Eje x: V1 (2 a, 0) y V2 (a, 0).
+                 Eje y: la curva no tiene puntos en el eje y (¿por qué?).
+
+      Dominio y rango:
+
+                          b 2
+                  y=±       x 2 a2 .
+                          a
+       De aquí que x f 2a o x g a .
+       Es decir, el dominio es: { x * R : x * (2>, a] o x * [a, + >)} .
+
+       Esto significa que en la porción del plano separada por las rectas x = 2 a y
+       x = a (sin incluirlas) no hay puntos de la hipérbola.
+
+       Por otra parte,
+
+                          a
+                  x=±          y 2 + b2 .
+                          b
+       Por tanto, el rango es: { y * R } = (2>, + >). La curva se extiende pues,
+       indefinidamente, hacia arriba y hacia abajo.
+
+
+                                                                                      Geometría vectorial y analítica 579
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                    Lado recto:
+
+                                                     Sea R1 R2 el lado recto de la hipérbola, correspondiente al foco F2 (figura 32.5).
+
+
+                                                                                                     b2
+                                                     R1 y R2 tienen abscisa c. Por tanto, y = ±         .
+                                                                                                     a
+
+
+                                                                                      Figura 32.5
+
+
+                                                             »     b2 ¿    » b2 ¿
+                                                     Así, R1 ¿ c, 2 ¿ y R2 ¿ c, ¿ .
+                                                             ¿     a £     ¿ a £
+
+                                                     La longitud del lado recto es, por tanto,
+
+
+                                                                   2b2
+                                                             Ã=        .
+                                                                    a
+
+                                                     Nótese la similitud con la longitud del lado recto de la elipse.
+
+                                                    Excentricidad:
+                                                               c
+                                                             e= .
+                                                               a
+
+                                                     Teniendo en cuenta que c > a, se deduce que:
+
+                                                             e > 1.
+
+                                                    Asíntotas:
+                                                                      b          b
+                                                     Las rectas y =     x e y = 2 x son asíntotas de la curva. En efecto, consideremos
+                                                                      a          a
+                                                                                                              b
+                                                     la rama derecha superior de la curva y la recta y =        x:
+                                                                                                              a
+
+
+580
+                                                                                                    Módulo 32: La hipérbola
+
+        La ecuación de la rama superior derecha es:
+
+                        b 2
+                 y=       x 2 a2 .
+                        a
+                         b 2        b
+        Sea F ( x ) =      x 2 a 2 2 x.
+                         a          a
+
+                              b
+                 lim F ( x) =    lim £ x 2 2 a 2 2 x §
+                 x ³+>        a x ³+> £               §
+                              b       £ x 2a 2x §
+                                         2    2     2
+                             = lim £                  §
+                              a x ³+> £ x 2 2 a 2 + x §
+                                 b       £    2a 2  §
+                             =      lim £           §
+                                     ³+>
+                                 a       £ x 2a + x§
+                                   x        2     2
+
+
+                                      £    a2    §
+                                      £ 2        §
+                              b
+                            = lim £         x    §
+                              a x ³+> £    a2    §
+                                      £ 1 2 2 + 1§
+                                      £    x     §
+                            = 0.
+
+        Esto prueba que al crecer x, la rama derecha superior de la hipérbola y la
+                  b
+        recta y =   x tienden a confundirse (figura 32.6). Por ello se dice que dicha
+                  a
+        recta es una asíntota de la hipérbola.
+
+
+                                          Figura 32.6
+
+
+Hagamos un breve análisis de la excentricidad de la hipérbola, partiendo del hecho
+de que a 2 + b 2 = c 2 .
+
+
+                                                                                        Geometría vectorial y analítica 581
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                 Supongamos c fijo (fijos los focos). Sabemos que
+                                                           c
+                                                         e= .
+                                                           a
+
+                                                 Si e es cercano a 1 (uno), entonces a es cercano a c y por ende b es próximo a cero.
+                                                                              b
+                                                 En este caso, la asíntota y =   x tiene pendiente muy pequeña, lo que significa que
+                                                                              a
+                                                 dicha recta es muy poco inclinada. Esto hace que cada rama de la hipérbola sea
+                                                 bastante aplanada. En caso contrario, esto es, una excentricidad muy alejada de 1
+                                                 (uno), la hipérbola es poco aplanada. En la figura 32.7 se aprecia una hipérbola con
+                                                 excentricidad próxima a 1 (uno), en tanto que en la figura 32.8 se observa una
+                                                 hipérbola de excentricidad muy superior a 1.
+
+
+                                                                                         Figura 32.7
+
+
+                                                                                         Figura 32.8
+
+
+                                                 32.2.2 Hipérbola con centro en el origen y focos en el eje y
+
+                                                 Ahora el eje focal es el eje y, mientras que el eje normal es el eje x. En adelante, a esta
+                                                 hipérbola la llamaremos vertical (figura 32.9).
+
+                                                 Sean F1 (0, 2 c) y F2 (0, c) los dos focos de la hipérbola.
+
+
+                                                 Un punto P( x, y ) del plano pertenece a la curva si
+
+
+582
+                                                                                                  Módulo 32: La hipérbola
+          ¯³      ¯³
+          PF2 2 PF1 = 2a.
+
+
+Es decir, P está en la hipérbola si
+
+
+          x 2 + ( y 2 c) 2 2 x 2 + ( y + c) 2 = 2a.
+Un tratamiento similar al de la hipérbola horizontal conduce a la ecuación canónica
+de la curva:
+
+         y 2 x2
+            2   = 1.
+         a2 b2
+
+Las constantes a, b, c tienen el mismo significado que en la hipérbola horizontal:
+Los vértices son V1 (0, 2 a) y V2 (0, a) . Además:
+        a2 + b2 = c2 .
+
+
+                                          Figura 32.9
+
+Analicemos la ecuación canónica de la hipérbola vertical.
+
+      Interceptos con los ejes:
+
+       Eje x: la curva no tiene puntos en el eje x (¿por qué?).
+       Eje y: V1 (0, 2 a) y V2 (0, a) .
+
+      Dominio y rango:
+
+       Dominio: { x * R} = (2>, + >). La curva se extiende indefinidamente a
+       izquierda y derecha.
+       Rango: { y * R : y * (2>, 2 a] o y * [a, + >)} . Se desprende que las dos
+       ramas de la curva están separadas por las rectas y = 2a, y = a.
+
+      Lado recto: su longitud es, como en el caso anterior:
+
+                                                                                      Geometría vectorial y analítica 583
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                                     2b2
+                                                                Ã=       .
+                                                                      a
+                                                                           c
+                                                       Excentricidad: e =    . La excentricidad tiene interpretación similar a la de la
+                                                                           a
+                                                        hipérbola horizontal.
+
+                                                       Asíntotas: son las rectas
+                                                                     a         a
+                                                                y=     x; y = 2 x.
+                                                                     b         b
+
+                                                 32.3 Hipérbola equilátera
+                                                 Una hipérbola es equilátera si sus ejes transverso y conjugado tienen igual longi-
+                                                 tud; es decir, si a = b.
+
+                                                 La ecuación canónica de una hipérbola equilátera es:
+
+
+                                                        x 2 2 y 2 = a 2 (hipérbola horizontal).
+                                                         y 2 2 x 2 = a 2 (hipérbola vertical).
+
+                                                 En ambos casos las asíntotas son las rectas:
+
+                                                         y = x; y = 2 x.
+
+                                                 Debido a que estas rectas son perpendiculares entre sí, a la hipérbola equilátera se
+                                                 le llama también «rectangular». Recuérdese que dichas rectas son, respectivamen-
+                                                 te, bisectriz del primero y tercer cuadrantes y bisectriz del segundo y cuarto cua-
+                                                 drantes. En la figura 32.10 se muestra una hipérbola equilátera vertical.
+
+
+                                                                                        Figura 32.10
+
+                                                 Puede probarse fácilmente que toda hipérbola equilátera tiene excentricidad
+
+                                                        e=    2 j 1, 4142.
+
+
+584
+                                                                                                      Módulo 32: La hipérbola
+32.4 Hipérbolas conjugadas
+Dos hipérbolas son conjugadas si cada una tiene por eje transverso el eje conjuga-
+do de la otra. En este caso se dice que cada hipérbola es la conjugada de la otra.
+
+Es claro que si dos hipérbolas son conjugadas y una es vertical, entonces la otra es
+horizontal.
+
+Si la ecuación de una hipérbola es
+        x2 y 2
+           2   = 1,
+        a 2 b2
+
+entonces la ecuación de su conjugada es:
+        y2   x2
+           2    = 1.
+        b2   a2
+
+Estas dos hipérbolas tienen las mismas asíntotas: las rectas
+             a         a
+        y=     x, y = 2 x .
+             b         b
+
+En la figura 32.11 se muestran dos hipérbolas conjugadas. Los vértices de la horizontal
+son V1 (2 a, 0) y V2 (a, 0). Los vértices de la conjugada son B1 (0, 2b) y B2 (0, b) .
+
+
+                                       Figura 32.11
+
+
+32.5 Rectas tangente y normal a una hipérbola
+Para la hipérbola existe un teorema similar al que se enunció para la elipse y que
+permite determinar las pendientes de las rectas tangente y normal a la curva en un
+punto dado.
+
+Teorema 1
+
+Sea P( x0 , y0 ) un punto de un hipérbola de centro en el origen.
+
+a.     Si la hipérbola es horizontal y P no es un vértice, entonces las pendientes de
+
+
+                                                                                          Geometría vectorial y analítica 585
+Capítulo 9: Las cónicas: un enfoque cartesiano
+                                                         las rectas tangente y normal a la curva en P son, respectivamente,
+                                                                       b2 x0
+                                                                 m=          .
+                                                                       a2 y0
+
+                                                                       a2 y
+                                                                 mN = 2 2 0 .
+                                                                       b x0
+
+                                                 b.     Si la hipérbola es vertical entonces la pendiente de la recta tangente es
+                                                                       a 2 x0
+                                                                 m=           ,
+                                                                       b 2 y0
+
+                                                        y si además P no es un vértice, entonces la pendiente de la recta normal es
+                                                                          b2 y0
+                                                                 mN = 2          .
+                                                                          a 2 x0
+
+
+                                                 32.6 Hipérbola con centro distinto al origen
+
+                                                 Consideremos ahora una hipérbola de centro C (h, k ) .
+
+                                                 32.6.1 Hipérbola horizontal
+
+                                                 En este caso, la recta y = k es el eje focal, en tanto que la recta x = h es el eje normal
+                                                 (figura 32.12).
+
+
+                                                                                        Figura 32.12
+
+
+                                                                                                   ¯³
+                                                 Una traslación de ejes mediante el vector OC conduce a que si en el sistema
+                                                 original P( x, y ) y en el sistema nuevo P ( x´, y´), entonces:
+
+
+                                                         x = x2 + h,
+                                                         y = y2 + k.
+                                                 Esto lleva a que en el sistema nuevo el centro tiene coordenadas C (0, 0) y el eje x´
+                                                 es el eje focal, por lo cual la ecuación canónica es:
+
+
+586
+                                                                                                     Módulo 32: La hipérbola
+
+
+        ( x' ) 2 ( y' )2
+                2 2 = 1.
+          a2       b
+
+En consecuencia, en el sistema original la ecuación canónica es:
+
+
+        ( x 2 h) 2 ( y 2 k ) 2
+                  2            = 1.
+            a2         b2
+
+En el sistema original, los vértices y los focos tienen coordenadas así:
+
+       Focos: F1 (h 2 c, k ), F2 (h + c, k ).
+       Vértices: V1 (h 2 a, k ), V2 (h + a, k ).
+
+Las dos asíntotas son, como antes, dos rectas que pasan por el centro C (el origen
+del nuevo sistema) y sus pendientes respectivas son:
+
+              b         b
+       m1 =     ; m2 = 2 .
+              a         a
+
+De este modo, las ecuaciones de las asíntotas, en el sistema original, son:
+
+                   b
+       ( y 2 k) =    ( x 2 h),
+                   a
+                     b
+       ( y 2 k ) = 2 ( x 2 h).
+                     a
+
+
+32.6.2 Hipérbola vertical
+
+Ahora la recta x = h es el eje focal y la recta y = k es el eje normal (figura 32.13).
+Un tratamiento similar al de la hipérbola horizontal conduce a que la ecuación
+canónica de la curva es:
+
+
+        ( y 2 k ) 2 ( x 2 h) 2
+                   2           = 1.
+            a2          b2
+
+
+                                                                                         Geometría vectorial y analítica 587
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+
+                                                                                         Figura 32.13
+
+                                                 Los focos y los vértices tienen, en el sistema original, coordenadas así:
+
+                                                        Focos: F1 (h, k 2 c), F2 (h, k + c).
+                                                        Vértices: V1 (h, k 2 a ), V2 (h, k + a ).
+
+                                                 Las dos asíntotas son, como en los casos anteriores, dos rectas que pasan por el
+                                                 centro C (el origen en el sistema x '2 y ' ) y sus respectivas pendientes son:
+                                                                a         a
+                                                         m1 =     ; m2 = 2 .
+                                                                b         b
+
+                                                 Así, las ecuaciones de las asíntotas, en el sistema original, son:
+
+                                                                    a
+                                                        ( y 2 k) =    ( x 2 h),
+                                                                    b
+                                                                      a
+                                                        ( y 2 k ) = 2 ( x 2 h).
+                                                                      b
+                                                 El teorema sobre las rectas tangente y normal a la hipérbola puede extenderse así:
+
+                                                 Teorema 3
+
+                                                 Sea P ( x0 , y0 ) un punto de una hipérbola de centro C (h, k ) .
+
+                                                 a.     Si la hipérbola es horizontal y P no es un vértice, entonces las pendientes de
+                                                        las rectas tangente y normal a la curva en P son, respectivamente,
+                                                                   b2 ( x 2 h)
+                                                                 m= 2 0         ,
+                                                                   a ( y0 2 k )
+
+                                                                       a2 ( y 2 k )
+                                                                 mN = 2 2 0         .
+                                                                       b ( x0 2 h)
+
+
+                                                 b.     Si la hipérbola es vertical, entonces la pendiente de la recta tangente en P es:
+
+
+588
+                                                                                                                                                                                                                           Tabla 32.1
+                                                                                                                                                          Horizontal
+                                                                                                            Vertical
+                                                                                                                                                                                              Eje focal
+                      a2 ( x0 2 h )
+                 m=                 ,
+                      b2 ( y0 2 k )
+
+
+       y si además P no es un vértice, entonces la pendiente de la recta normal en P
+                                                                                                                                                                                Coordenadas
+                                                                                                            C (h, k )                                    C (h, k )
+       es:
+                          b2 ( y0 2 k )
+                                                                                                                                                                                 del centro
+                 mN = 2                  .
+                          a 2 ( x0 2 h )
+
+
+                                                                                                                                                                                Coordenadas
+                                                                                           F2 (h, k + c)            F1 (h, k 2 c)       F2 (h + c, k )        F1 (h 2 c, k )
+Tanto para la hipérbola horizontal, como para la vertical, la longitud del lado recto
+continúa siendo:
+
+                                                                                                                                                                                de los focos
+             2b2
+        Ã=       ,
+              a
+                                                                                                                                                                                 Coordenadas
+                                                                                          V2 (h , k + a )          V1 ( h , k 2 a )    V2 (h + a , k )       V1 ( h 2 a , k )
+y la excentricidad es:
+
+                                                                                                                                                                                 de los vértices
+         c
+       e= .
+
+
+                                                                                                ( y 2 k )2 ( x 2 h)2                          ( x 2 h)2 ( y 2 k )2
+         a
+
+
+                                                                                                          2          =1                                2           =1
+La excentricidad tiene la misma interpretación que se hizo antes.
+
+Resumamos en la tabla 32.1 las propiedades básicas de la hipérbola.                                                                                                                         Ecuación
+
+
+Tanto en la hipérbola horizontal como en la vertical se tiene:                                      a2         b2                                 a2        b2
+
+       Longitud del eje transverso: 2a.                                                                                                                                           Ecuación
+                                                                                                     x=h                                                  y=k
+       Longitud del eje conjugado: 2b.
+
+                                                                                                                                                                                  del eje focal
+                 a 2 + b2 = c 2 .
+
+                                                                                                                                                                                   Ecuación del
+                         c
+       Excentricidad: e = .
+                         a                                                                          y=k                                                   x=h
+                                             2b 2                                                                                                                                   eje normal
+       Longitud de cada lado recto: Ã =           .
+                                              a
+
+
+                                                                                                                                                                                Pendiente de la Pend. de la Pend. de las
+                                                                                        a 2 ( x0 2 h)
+                                                                                                                                                     b 2 ( x0 2 h)
+                                                                                        b 2 ( y0 2 k )                                y0 b k
+32.7 Forma general de la ecuación de la hipérbola                                         y0 b k                                                     a 2 ( y0 2 k )
+
+Hemos visto que si una hipérbola tiene centro C (h, k ), entonces tiene por ecua-
+                                                                                                               2                                             2
+ción canónica:
+                                                                                                   b 2 ( y0 2 k )                                    a 2 ( y0 2 k )
+        ( x 2 h) 2   ( y 2 k )2                                                         x0 b h                                        x0 b h
+
+
+                                                                                                                                                                                recta tangente recta normal asíntotas
+            a2
+                   2
+                         b2
+                                =1             (hipérbola horizontal)                              a 2 ( x0 2 h)                                     b 2 ( x0 2 h)
+o
+
+                                                                                               a       ±                                             b     ±
+                                                                                               b                                                     a
+
+
+                                                                                                                        Geometría vectorial y analítica 589
+Capítulo 9: Las cónicas: un enfoque cartesiano
+
+                                                         ( y 2 k )2   ( x 2 h) 2
+                                                               2
+                                                                    2            =1            (hipérbola vertical).
+                                                             a            b2
+
+                                                 Cualquiera de las dos ecuaciones puede llevarse a la forma cuadrática general:
+
+                                                         Ax 2 + Cy 2 + Dx + Ey + F = 0,                                               (1)
+
+                                                 en la cual A y C tienen signos opuestos.
+
+                                                 Ahora bien, si se tiene una ecuación de la forma (1), con A y C de signos contrarios,
+                                                 ella puede llevarse a la forma
+
+                                                         A( x 2 h) 2 + C ( y 2 k ) 2 = ³ .                                            (2)
+
+                                                 Un breve análisis de la ecuación (2) conduce a lo siguiente:
+
+                                                 a.     Si ³ = 0, la ecuación (2) representa dos líneas rectas.
+                                                 b.     Si ³ > 0 , entonces:
+                                                                Si A > 0, la curva es una hipérbola horizontal de centro C (h, k ) .
+                                                                Si A < 0, la curva es una hipérbola vertical de centro C (h, k ) .
+
+
+                                                 32.8 Propiedad focal de la hipérbola
+                                                 La hipérbola, como la parábola y la elipse, tiene una propiedad focal que se enuncia
+                                                 así:
+
+                                                 Teorema 4
+
+                                                 La recta tangente a una hipérbola en cualquier punto es bisectriz del ángulo forma-
+                                                 do por los radios vectores de dicho punto.
+
+                                                 La prueba es similar a la hecha para la elipse y se deja al lector.
+
+
+590
+                         2 x0
+      es decir, me = 2        .                                                                                       (1)
+                          y0
+
+
+                                                               x2
+      La ecuación canónica de la hipérbola es: y 2 2              = 1.
+                                                               4
+      Esta hipérbola es también vertical, y para ella: a = 1; b = 2.
+
+
+                                                                                            a 2 x0
+      En un punto ( x0 , y0 ) de la hipérbola, la pendiente de la recta tangente es: mh =          ,
+                                                                                            b 2 y0
+
+
+                        x0
+      es decir, mh =        .                                                                                         (2)
+                       4 y0
+
+      Hallemos las intersecciones de la elipse y la hipérbola. Para ello resolvamos simultáneamente las ecuaciones:
+
+
+             2 x 2 + y 2 = 10,
+             4 y 2 2 x2 = 4.
+
+      Se obtienen los siguientes puntos comunes:
+
+              P1 (2, 2); P2 (2, 2 2); P3 (22, 2); P4 (22, 2 2).
+
+      En el punto de intersección P1 , la pendiente de la recta tangente es:
+
+                                      2(2)              4
+             Para la elipse: me = 2          ; me = 2          .
+                                        2                2
+
+                                        2                2
+             Para la hipérbola: mh =          ; mh =       .
+                                       4 2              4
+
+
+      Claramente, me ç mh = 21. Por tanto, en P1 las curvas son ortogonales entre sí.
+
+
+      Similarmente puede procederse para los puntos restantes: P2 , P3 y P4 .
+
+
+598
+Ejercicios propuestos
+1.    A continuación se dan las ecuaciones de dos hipérbolas. Para cada una encuentre las coordenadas del centro, los
+      vértices y los focos. Encuentre además las longitudes de los ejes transverso y conjugado, así como la excentricidad
+      y la longitud de cada lado recto. Dibuje la curva.
+
+      a.      4 x 2 2 9 y 2 = 36.
+      b.      y 2 2 4 x 2 = 4.
+
+
+2.    Cierta hipérbola tiene por vértices V1 (22, 0) y V2 (2, 0) y como focos F1 (23, 0) y F2 (3, 0) . Halle la ecuación canónica
+      y la excentricidad de la curva.
+
+3.    Una hipérbola tiene centro en el origen, y su eje conjugado está sobre el eje x. La hipérbola pasa por el punto (21, 2)
+      y cada uno de sus lados rectos mide 2/3. Halle la ecuación canónica de la curva.
+
+4.    A continuación se describen tres hipérbolas mediante algunos de sus elementos. Encuentre la ecuación canónica de
+      cada curva.
+
+      a.      Focos: (27, 3), (21, 3); longitud del eje transverso: 4.
+      b.      Vértices: (1, 4), (5, 4); longitud del lado recto: 5.
+      c.      Vértices: (3, 4), (3, 2 2); excentricidad: 2.
+
+5.    Demuestre que en toda hipérbola la longitud del eje conjugado es media proporcional entre las longitudes del eje
+      transverso y del lado recto.
+
+6.    Sea P ( x0 , y0 ) un punto cualquiera de la hipérbola b 2 x 2 2 a 2 y 2 = a 2 b 2 . Demuestre que los radios vectores de P
+
+      miden ex0 + a y ex0 2 a ; e es la excentricidad de la curva.
+
+
+7.    La base de un triángulo tiene por extremos los puntos E (3, 0) y G (23, 0). El vértice opuesto a EG es variable y se
+      denota H. Halle e identifique la ecuación del lugar geométrico del punto H, sabiendo que el producto de las pendientes
+      de EH y GH es siempre igual a 4.
+
+8.    El punto Q ( x1 , y1 ) está sobre la parte inferior de la rama derecha de la hipérbola b 2 x 2 2 a 2 y 2 = a 2 b 2 . Demuestre que
+      la recta bx + ay = 0 es asíntota de la rama derecha.
+
+
+9.    Encuentre los puntos de intersección de la recta 2 x 2 9 y + 12 = 0 con las asíntotas de la hipérbola 4 x 2 2 9 y 2 = 11 .
+
+10.   Demuestre que si las asíntotas de una hipérbola son perpendiculares entre sí, entonces la hipérbola es equilátera.
+
+11.   Demuestre que en toda hipérbola equilátera el producto de las distancias de un punto cualquiera de la curva
+      a las asíntotas es constante.
+
+12.   Demuestre que si dos hipérbolas son conjugadas, entonces sus focos están sobre una circunferencia.
+
+
+                                                                                                        Geometría vectorial y analítica 599
+13.   La hipérbola b 2 x 2 2 a 2 y 2 = a 2 b 2 tiene excentricidad e. Si su hipérbola conjugada tiene excentricidad e2 , demuestre
+      que:
+              e1 b
+                = .
+              e2 a
+
+
+14.   Demuestre que si e1 y e2 son las respectivas excentricidades de dos hipérbolas conjugadas, entonces:
+
+
+              e12 + e22 = e12 e22 .
+
+
+15.   Cierta hipérbola tiene como vértices los puntos V1 (22, 2 4) y V2 (22, 2). Su lado recto mide 2. Encuentre la ecuación
+      canónica de la curva, así como las coordenadas del centro y de los focos. Encuentre además la excentricidad de la
+      curva y las ecuaciones de sus asíntotas.
+
+16.   Para cierta hipérbola los focos son los puntos F1 (4, 2 8) y F2 (4, 2 2) y su eje transverso mide 4. Halle la ecuación
+      canónica de la curva, las coordenadas del centro y las de los vértices. Halle además la longitud del eje conjugado de
+      la curva.
+
+17.   A continuación se dan tres ecuaciones de segundo grado. Determine, en cada caso, si se trata de una hipérbola. En
+      caso afirmativo, encuentre la ecuación canónica y las coordenadas del centro, los vértices y los focos. Encuentre
+      además la excentricidad y las ecuaciones de las asíntotas.
+
+      a.      4 x 2 2 9 y 2 + 32 x + 36 y + 64 = 0 .
+      b.      4 y 2 2 9 x 2 + 36 x + 32 y + 28 = 0 .
+      c.      x 2 2 9 y 2 2 4 x + 36 y 2 41 = 0.
+
+18.   Encuentre la ecuación canónica de la hipérbola que pasa por el punto (4, 6), tiene eje focal paralelo al eje x y sus
+      asíntotas son las rectas 2 x + y 2 3 = 0 y 2 x 2 y 2 1 = 0 .
+
+19.   Encuentre e identifique la ecuación del lugar geométrico del punto del plano que se mueve de modo que:
+
+      a.      Su distancia al punto (3, 2) es tres veces su distancia a la recta y + 1 = 0.
+      b.      Su distancia al punto (2, 21) es el doble de su distancia a la recta x + 2 = 0.
+
+20.   A continuación se dan las ecuaciones de dos hipérbolas y un punto P de cada una. En cada caso encuentre las
+      ecuaciones de las rectas tangente y normal a la curva en P.
+
+      a.      2 y 2 2 3 x 2 2 6 y 2 4 x + 12 = 0; P (2, 4).
+      b.      3 x 2 2 2 y 2 + 3 x 2 4 y 2 12 = 0; P (2, 1).
+
+
+21.   Encuentre las ecuaciones de las rectas tangentes a la hipérbola x 2 2 2 y 2 + 4 x 2 8 y 2 6 = 0 que son paralelas a la
+      recta 4 x 2 4 y + 11 = 0 .
+
+
+22.   Demuestre que la elipse x 2 + 3 y 2 = 6 y la hipérbola x 2 2 3 y 2 = 3 tienen los mismos focos. Dos curvas como estas
+      se llaman «cónicas homofocales».
+
+
+600
+ Ejercicios de resumen. Lugares geométricos y cónicas
+
+1.     Halle la ecuación correspondiente al conjunto de puntos que se describe en cada caso.
+
+       a.     Conjunto de puntos del plano que equidistan del punto (5, 2 2) y de la recta de ecuación y = 6.
+       b.     Conjunto de puntos del plano tales que la suma de sus distancias de cada punto a (4, 7) y a (4, 10) es igual a 9.
+       c      Conjunto de puntos del plano tales que la distancia de cada punto a (6, 0) es la mitad de su distancia al eje y.
+       d.     Conjunto de puntos del plano tales que la distancia de cada punto a (4, 6) es 3/7 de su distancia a la recta x = 2 3.
+       e.     Conjunto de puntos del plano tales que la distancia de cada punto a (4, 3) sea 5/3 de su distancia a y = 2 2.
+       f.     Conjunto de puntos del plano tales que la diferencia de las distancias de cada punto a (22, 6) y a (22, 21)
+              es igual a 2.
+
+2.     Indique el lugar geométrico representado por las siguientes ecuaciones e inecuaciones, especificando en las cónicas
+       los elementos básicos que las identifican: foco(s), centro, vértice(s), excentricidad, etc.
+
+       a.      2 x2 2 5x 2 x2 = 8 + x2 .
+       b.      2 x 2 2 3 y 2 2 6 x 2 4 y + 12 = 0 .
+       c.      x 2 + 10 y + y 2 2 2 x + 25 = 0 .
+       d.     3x2 25x + y =28 + 3x2 2 4z .
+       e.      x 2 + y 2 + 10 y 2 2 x = 10 y 2 5 .
+       f.     5 x 2 + 5 y 2 + 10 x 2 40 y + 75 f 0 .
+       g.      y 2 + 2 y 2 4 x + 13 = 0 .
+       h.      x 2 + y 2 + z 2 2 x 2 6 y + 9 = 23 /10 .
+       i.      4 y 2 2 x2 + 8 y + 6x 2 9 = 0 .
+       j.      x2 + y2 + z2 + 2x 2 2z + 7 = 0 .
+       k.      x2 + y2 + z2 2 6z + 6 f 0 .
+       l.      x2 + y 2 + z 2 2 4 x + 6 y + 9 = 0 .
+       m.     16 x 2 2 9 y 2 2 32 x + 16 = 0 .
+       n.     9 x 2 + y 2 218 x 2 2 y + 1 = 0 .
+       o.      x 2 2 8 x + 3 y + 10 = 0 .
+       p.      x 2 + 2 y 2 4 x + 13 = 0 .
+
+
+Nota: en el ejercicio anterior el lector encontrará lugares que no corresponden necesariamente a secciones cónicas, pero que
+se pueden determinar con los elementos teóricos expuestos en el texto. Se busca de esta forma ejercitar las actividades de
+análisis y el establecimiento de relaciones.
+
+
+                                                                                                    Geometría vectorial y analítica 601

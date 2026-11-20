@@ -1,0 +1,762 @@
+| Preguntas de opción múltiple   155
+
+
+■ PREGUNTAS DE OPCIÓN MÚLT IPLE
+
+
+            Las preguntas de opción múltiple en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+1. Un trabajador empuja una carretilla 5.0 m a lo largo de                2. ¿Qué potencia mecánica promedio debe ser liberada
+   una superficie a nivel, ejerciendo una fuerza horizontal                  por los músculos de un escalador de montaña de 70.0 kg
+   constante de 50.0 N. Si una fuerza de fricción de 43 N                    quien sube una cumbre de 325 m de altura en 95.0 min?
+   actúa en la carretilla con una dirección opuesta a la del                 Nota: Debido a las deficiencias en la conversión de ener-
+   trabajador, ¿qué trabajo neto se hace sobre la carretilla?                gía química a energía mecánica la cantidad calculada en
+   a) 250 J b) 215 J c) 35 J d) 15 J e) 45 J                                 este caso es sólo una fracción de la potencia que debe ser
+156                                     CAPÍTULO 5 | Energía
+
+      producida por el cuerpo del escalador. Véase el capítulo                                                  bajo. c) David hace más trabajo que Jorge. d) Ninguno
+      12. a) 39.1 W b) 54.6 W c) 25.5 W d) 67.0 W e) 88.4 W                                                     de estos enunciados necesariamente es verdadero ya que
+ 3. Una caja de 40.0 N inicia deslizándose desde el reposo                                                      se desconoce el ángulo de inclinación. e) Ninguno de es-
+    hacia abajo sobre una rampa rugosa de 6.00 m de longi-                                                      tos enunciados necesariamente es verdadero porque no
+    tud, inclinada a 30.0° con la horizontal. La magnitud de                                                    se proporciona la masa en ningún bloque.
+    la fuerza de fricción entre la caja y la rampa es 6.0 N.                                               8. Si se duplica la rapidez de una partícula, ¿qué le sucede a su
+    ¿Cuál es la rapidez de la caja en la parte inferior del pla-                                              energía cinética? a) Será cuatro veces más grande. b) Será
+    no? a) 1.60 m/s b) 3.32 m/s c) 4.5 m/s d) 6.42 m/s                                                        dos veces más grande. c) Será 2 veces más grande.
+    e) 7.75 m/s                                                                                               d) No cambia. e) Será la mitad.
+ 4. En un salto un esquiador sale a 15.0 m/s con un ángulo                                                 9. Cierta camioneta tiene dos veces la masa de un automó-
+    u. ¿Con qué velocidad está viajando en su altura máxima                                                   vil. Ambos se mueven con la misma rapidez. Si la energía
+    de 4.50 m sobre el nivel del extremo del salto? (Omita la                                                 cinética de la camioneta es K, ¿cuál es la energía cinética
+    fricción del aire.) a) 11.7 m/s b) 16.3 m/s c) 12.2 m/s                                                   del automóvil? a) K/4 b) K/2 c) 0.71K d) K e) 2K
+    d) 8.55 m/s e) 17.4 m/s                                                                              10. Una atleta salta verticalmente sobre un trampolín dejan-
+ 5. El trabajo necesario para acelerar un objeto sobre una                                                   do la superficie con una velocidad de 8.5 m/s hacia arriba.
+    superficie sin fricción desde una rapidez v hasta 2v es                                                  ¿Qué altura máxima alcanza? a) 13 m b) 2.3 m c) 3.7 m
+    a) igual al trabajo requerido para acelerar el objeto                                                    d) 0.27 m e) No se pueden establecer las respuestas debi-
+    desde v 5 0 hasta v, b) dos veces el trabajo requerido                                                   do a que no se proporciona la masa de la atleta.
+    en acelerar el objeto desde v 5 0 hasta v, c) tres veces                                             11. Si el trabajo neto realizado en una partícula es cero, ¿cuál
+    el trabajo requerido para acelerar el objeto desde v 5 0                                                 de los siguientes enunciados debe ser verdadero? a) La ve-
+    hasta v, d) cuatro veces el trabajo requerido para acelerar                                              locidad es cero. b) La velocidad está disminuyendo. c) La
+    el objeto desde 2v hasta 3v, o bien e) no se puede saber                                                 velocidad no cambia. d) La velocidad no cambia. e) Es ne-
+    sin el conocimiento de la aceleración.                                                                   cesaria más información.
+ 6. Al sostener una honda con el brazo extendido, tira de                                                12. Un bloque de masa m se deja caer desde el cuarto piso de
+    la banda elástica ligera hacia atrás hasta su barbilla y la                                              un edificio de oficinas y posteriormente golpea la ban-
+    suelta para lanzar horizontalmente una piedra con una                                                    queta con una rapidez v. ¿Desde qué piso se deja caer la
+    velocidad de 200 cm/s. Con el mismo procedimiento, se                                                    masa para duplicar la rapidez de impacto? a) el sexto piso
+    lanza un frijol con una velocidad de 600 cm/s. ¿Cuál es                                                  b) el octavo piso c) el décimo piso d) el décimo segundo
+    la relación de la masa del frijol a la masa de la piedra? a)                                             piso e) el décimo sexto piso
+    1/9 b) 1/3 c) 1 d) 3 e) 9
+                                                                                                         13. Un automóvil acelera de manera uniforme desde el re-
+ 7. Jorge y David están cargando bloques de cemento idén-                                                    poso. ¿Cuándo requiere la máxima energía? a) cuando el
+    ticos en la camioneta de David. Jorge levanta su bloque                                                  auto primero acelera a partir del reposo b) el momento
+    verticalmente desde la superficie del piso hasta la camio-                                               en que alcanza su máxima rapidez c) cuando el automó-
+    neta, mientras que David desliza su bloque sobre rodillos                                                vil alcanza la mitad de su rapidez máxima. d) La pregun-
+    sin fricción ni masa, hacia arriba por una rampa. ¿Cuál                                                  ta es engañosa a causa de que la energía que se necesita
+    enunciado es verdadero? a) Jorge hace más trabajo que                                                    es constante. e) Se requiere más información.
+    David. b) Jorge y David hacen la misma cantidad de tra-
+
+
+ ■ PREGUNTAS CONCEPTUALES
+
+
+                                             Las preguntas conceptuales en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+ 1. Piense en una lucha con cuerda como en la figura P5.1,                                                      dad de modo que ningún movimiento toma lugar. ¿Se
+    en la que dos grupos jalan de una cuerda y están en igual-                                                  hace trabajo en la cuerda? ¿En los competidores? ¿Sobre
+                                                                                                                la superficie del piso? ¿Se realiza trabajo en algo?
+                                                                                                           2.         Durante una prueba de esfuerzo de un sistema cardio-
+                                                                                                                vascular, un paciente camina y corre sobre una caminadora.
+                                                                                                                a) La energía gastada por el paciente es equivalente a la
+                                                                                                                energía al caminar y correr sobre la superficie de la tierra?
+                                                                                                                Explique. b) ¿Qué efecto tiene, si existe alguno, la camina-
+
+
+       Arthur Tilley/FPG/Getty Images
+                                                                                                                dora inclinándola hacia arriba? Analice.
+                                                                                                           3. a) Si la elevación de una pista de patinaje se mantiene
+                                                                                                              constante, ¿la longitud de la pista o si tiene protuberan-
+                                                                                                              cias harán una diferencia en la rapidez final del niño que
+                                                                                                              juega en ella? Suponga que la pista es lo suficientemente
+                                                                                                              lisa para considerarse sin fricción. b) Repita el inciso a),
+                                                                                                              suponiendo fricción en la pista.
+                                                         Figura PC5.1
+                                                                                                                              | Problemas        157
+
+ 4. a) ¿La energía cinética puede ser negativa? b) ¿La ener-                      ¿Qué le sucede a la energía cinética del automóvil con-
+    gía potencial gravitacional de un sistema puede ser nega-                     forme llega al reposo?
+    tiva? Explique.                                                           11. Se conecta una pesa a un resorte que está suspendido
+ 5. Los caminos que van montaña arriba se forman en zig-                          verticalmente del techo. Si la pesa se desplaza hacia abajo
+    zag, con los caminos entrelazados de un lado a otro a lo                      desde su posición de equilibrio y se libera, oscilará ha-
+    largo de la superficie de la pendiente en tal forma que                       cia arriba y hacia abajo. a) Si se omite la resistencia del
+    existe sólo un ascenso gradual en cualquier parte del                         aire, ¿se conservará la energía mecánica total del sistema
+    camino. ¿Con esta configuración un automóvil necesita                         (la pesa más Tierra más resorte)? b)¿Cuántas formas de
+    hacer menos trabajo para subir la montaña, comparado                          energía potencial existen para esta situación?
+    con un recorrido en un camino recto hacia arriba de la                    12. En la mayor parte de las situaciones encontradas en este
+    pendiente? ¿Por qué se utilizan las vías en zigzag?                           capítulo, las fuerzas de fricción tienden a reducir la ener-
+ 6. Una bola de boliche se cuelga desde el                                        gía cinética de un objeto. Sin embargo, algunas veces las
+    techo de una sala de lectura con una                                          fuerzas de fricción incrementan la energía cinética de un
+    cuerda firme. Se retira la bola desde                                         objeto. Describa algunas situaciones en que la fricción
+    su posición de equilibrio y se libera                                         origina un incremento en la energía cinética.
+    desde el reposo en la punta de la nariz                                   13. Suponga que está regresando libros a su estante en una
+    de la demostradora, como se muestra                                           biblioteca. Levanta un libro desde el piso hasta la parte
+    en la figura PC5.6. a) Si la demostra-                                        superior del estante. La energía cinética del libro sobre
+    dora permanece quieta, explique por                                           el piso fue cero, y la energía cinética del mismo en la
+    qué la bola no la golpea en su regreso                                        parte superior del estante es cero, de tal manera que no
+    de la oscilación. ¿Esta demostradora                                          existe cambio de energía cinética. A pesar de que hizo
+    estaría segura si a la bola le fuera dado                                     trabajo al levantar el libro. ¿Deja de cumplirse el teorema
+    un empujón desde la posición inicial                  Figura PC5.6            de trabajo-energía?
+    en su nariz?
+                                                                              14. Los pies de una persona de masa m en posición vertical
+ 7. Cuando un péndulo simple oscila de un lado a otro, las                        ejercen una fuerza igual a mg sobre el piso, y éste ejerce
+    fuerzas que actúan en el objeto suspendido son la fuerza de                   una fuerza igual y opuesta hacia arriba sobre los pies, que
+    gravedad, la tensión en la cuerda de soporte y la resistencia                 se llama la fuerza normal. Durante la fuerza de exten-
+    del aire. a) ¿Cuál de estas fuerzas, si existe alguna, no hace                sión de un salto vertical (véase la página 151), los pies
+    trabajo en el péndulo? b) ¿Cuál de estas fuerzas realiza tra-                 ejercen una fuerza sobre el piso que es mayor que mg, de
+    bajo negativo todo el tiempo durante el movimiento del                        tal modo que la fuerza normal es mayor que mg. Como
+    péndulo? c) Describa el trabajo que se hace por la fuerza                     aprendió en el capítulo 4, se puede utilizar este resultado
+    de gravedad mientras el péndulo está oscilando.                               y la segunda ley de Newton para calcular la aceleración
+ 8. Analice si se realiza algún trabajo por cada uno de los                       del saltador:
+    agentes que siguen y, de ser así, si el trabajo es positivo o
+                                                                                                   a 5 Fneta/m 5 (n 2 mg)/m.
+    negativo: a) un pollo rasca la superficie de la tierra, b) una
+    persona estudiando, c) una grúa levanta una cubeta de                         Aplicando ideas de energía, se sabe que el trabajo se
+    concreto, d) la fuerza de gravedad en la cubeta del inciso                    realiza en el saltador al proporcionarle energía cinéti-
+    c), e) los músculos de las piernas de una persona en el                       ca. Pero en este caso la fuerza normal no puede realizar
+    acto de sentarse.                                                             trabajo alguno a causa de que los pies no experimentan
+ 9. Cuando un jugador patea el balón, ¿hace algo de trabajo                       desplazamiento alguno. ¿Cómo se transfiere la energía
+    en el balón mientras el dedo de su pie está en contacto con                   al saltador?
+    él? ¿Está haciendo algo de trabajo en la pelota después de                15. Un satélite terrestre está en órbita circular con una alti-
+    que pierde contacto con su dedo? ¿Algunas fuerzas están                       tud de 500 km. Explique por qué el trabajo realizado por
+    haciendo trabajo en la pelota mientras está en vuelo?                         la fuerza gravitacional que actúa en el satélite es cero.
+10. El conductor de un automóvil aplica los frenos para evi-                      Aplicando el teorema trabajo-energía, ¿qué puede decir
+    tar una colisión con los ciervos que cruzan la autopista.                     acerca de la velocidad del satélite?
+
+
+ ■ PROBLEMAS
+
+
+                Los problemas para este capítulo se pueden asignar en línea     1. denota problemas asignados con más frecuencia en Enhanced
+   en Enhanced WebAssign. Los problemas seleccionados también tienen                WebAssign
+   soluciones en los videos Watch It.                                               denota problemas biomédicos
+1. denota problemas sencillos, 2. denota problema intermedio,                       denota problemas guiados
+3. denota problema de alto reto
+                                                                                    denota tutorial Master It disponible en Enhanced WebAssign
+1. denota solución completa disponible en Student Solutions                         denota petición de razonamiento cuantitativo y conceptual
+   Manual/Study Guide
+                                                                                    denota problema de razonamiento simbólico
+158       CAPÍTULO 5 | Energía
+
+5.1 Trabajo                                                                    cuerda? b) ¿Cuánto trabajo es realizado por la cuerda en
+ 1. Un levantador de pesas levanta un conjunto de pesas de                     el trineo? c) ¿Cuál es la energía mecánica perdida a causa
+    350 N desde el nivel del suelo hasta una posición sobre su                 de la fuerza de fricción?
+    cabeza, una distancia vertical de 2.00 m. ¿Cuánto trabajo             8.        Un bloque de masa m 5          S
+                                                                                                                   F
+    hace el levantador de pesas, suponiendo que mueve las                      2.50 kg se empuja una dis-        u
+    pesas con rapidez constante?                                               tancia d 5 2.20 m a lo lar-
+                                                                                                                        m
+ 2. En 1990 Walter Arfeuille de Bélgica levantó un objeto de                   go de una mesa horizontal
+    281.5 kg a lo largo de una distancia de 17.1 cm utilizando                 sin fricción mediante una
+                                                                               fuerza constante F 5 16.0 N                      d
+    sólo sus dientes. a) ¿Cuánto trabajo hizo Arfeuille sobre
+    el objeto? b) ¿Cuál es la magnitud de la fuerza que ejerce                 dirigida en un ángulo u 5
+                                                                                                                        Figura P5.8
+    sobre el objeto durante el levantamiento, considerando                     25.0° debajo de la horizon-
+    que es constante?                                                          tal como se muestra en la fi-
+                                                                               gura P5.8. Establezca el trabajo realizado por a) la fuerza
+ 3. El número récord de levantamiento de botes, que inclu-
+                                                                               aplicada, b) la fuerza normal ejercida por la mesa, c) la
+    ye la lancha y 10 miembros de su tripulación, fue lograda
+                                                                               fuerza de gravedad y d) la fuerza neta en el bloque.
+    por Sami Heinonen y Juha Räsänen de Suecia en el 2000.
+    Levantaron una masa total de 653.2 kg aproximadamen-                 5.2 Energía cinética y el teorema trabajo-energía
+    te 4 pulg del suelo un total de 24 veces. Evalúe el trabajo
+                                                                          9. Un mecánico empuja un automóvil de 2.50 3 103 kg des-
+    mecánico total llevado a cabo por los dos hombres al le-
+                                                                             de el reposo hasta una rapidez v, realizando 5 000 J de
+    vantar 24 veces el bote, considere que aplicaron la misma
+                                                                             trabajo en el proceso. En ese tiempo, el automóvil se tras-
+    fuerza al bote durante cada elevación. (Desprecie cual-
+                                                                             lada 25.0 m. Despreciando la fricción entre el automóvil
+    quier trabajo que pudieron haber realizado al permitir
+                                                                             y el camino, determine a) v y b) la fuerza horizontal ejer-
+    que el barco cayera al suelo.)
+                                                                             cida en el automóvil.
+ 4.          Una clienta en un supermercado empuja un carro
+                                                                         10. Una bola de boliche de 7.00 kg se mueve a 3.00 m/s. ¿Qué
+      con una fuerza de 35 N dirigida en un ángulo de 25° por
+                                                                             tan rápido debe moverse una pelota de ping-pong de tal
+      debajo de la horizontal. La fuerza sólo es suficiente para
+                                                                             manera que las dos tengan la misma energía cinética?
+      cubrir diferentes fuerzas de fricción, de tal modo que
+      se traslade el carro con rapidez constante. a) Determine el        11. Un corredor de 65.0 kg tiene una velocidad de 5.20 m/s
+      trabajo realizado por la clienta cuando se traslada 50.0 m             en un instante durante un evento de larga distancia.
+      a lo largo del pasillo. b) ¿Cuál es el trabajo neto realizado en       a) ¿Cuál es la energía cinética del corredor en ese instan-
+      el carro? ¿Por qué? c) La clienta va al pasillo que sigue,             te? b) Si duplica su velocidad para llegar a la meta, ¿por
+      empujando horizontalmente y manteniendo la misma                       qué factor hace que su energía cinética cambie?
+      rapidez que antes. Si el trabajo hecho por la fuerza de            12.         Un trabajador que empuja una caja de madera de
+      fricción no cambia, ¿la fuerza aplicada por la clienta sería             35.0 kg con una rapidez constante para 12.0 m a lo largo
+      más grande, más pequeña, o es la misma? ¿Qué hay acer-                   de un piso de madera realiza 350 J de trabajo al aplicar
+      ca del trabajo realizado sobre el carro por la clienta?                  una fuerza horizontal constante de magnitud F 0 sobre la
+ 5.          Partiendo del reposo, un bloque de 5.00 kg se des-                caja. a) Establezca el valor de F 0. b) Si ahora el trabajador
+      liza 2.50 m hacia abajo sobre un plano rugoso inclinado                  aplica una fuerza mayor que F 0, describa el movimiento
+      30.0°. El coeficiente de fricción cinética entre el bloque               consecutivo de la caja. c) Describa qué le sucedería a la
+      y el plano es mk 5 0.436. Determine a) el trabajo realiza-               caja si la fuerza aplicada es menor que F0.
+      do por la fuerza de gravedad, b) el trabajo realizado por          13. Un jugador de béisbol de 70 kg inicia su deslizamiento
+      fricción entre el bloque y el plano inclinado y c) el tra-             sobre la segunda base cuando se mueve con una rapidez
+      bajo realizado por la fuerza normal. d) Cualitativamente,              de 4.0 m/s. El coeficiente de fricción entre su uniforme y la
+      ¿cómo cambiarían las respuestas si se utiliza una rampa                superficie de la tierra es 0.70. Se desliza de tal modo que su
+      corta en un ángulo muy pronunciado para atravesar las                  rapidez es cero al momento que alcanza la base. a) ¿Cuánta
+      mismas alturas verticales?                                             energía mecánica se pierde debido a la fricción que actúa
+ 6. Se aplica una fuerza horizontal de 150 N para empujar                    sobre el jugador? b) ¿Cuál es la distancia que se desliza?
+    una caja de 40.0 kg una distancia de 6.00 m sobre una                14. Un guepardo de 62 kg en carrera alcanza una velocidad
+    superficie horizontal rugosa. Si la caja se traslada con ra-             máxima de 32 m/s. a) ¿Cuál es la máxima energía cinéti-
+    pidez constante, determine a) el trabajo que invierte la                 ca del guepardo? b) Encuentre la velocidad del guepardo
+    fuerza de 150 N y b) el coeficiente de fricción cinética                 cuando su energía cinética es la mitad del valor hallado
+    entre la caja y la superficie.                                           en el inciso a).
+ 7. Un trineo cargado con ladrillos tiene una masa total de              15. Una bala de 7.80 g que se mueve a 575 m/s penetra el
+    18.0 kg y se jala con velocidad constante mediante una                   tronco de un árbol hasta una profundidad de 5.50 cm.
+    cuerda inclinada 20.0° arriba de la horizontal. El trineo                a) Aplique consideraciones de trabajo y energía para
+    se traslada una distancia de 20.0 m sobre una superficie                 encontrar la fuerza de fricción promedio que detiene la
+    horizontal. El coeficiente de fricción cinética entre el tri-            bala. b) Suponiendo que la fuerza de fricción es constan-
+    neo y la superficie es 0.500. a) ¿Cuál es la tensión en la               te, determine cuánto tiempo transcurre entre el momento
+                                                                                                                  | Problemas      159
+
+    en que la bala entra al árbol y el momento en que se                   mente vibraciones del deslizamiento del objeto. Cuando
+    interrumpe su movimiento.                                              se somete a una aceleración continua de 0.800g, el objeto
+16. Una partícula de 0.60 kg tiene una rapidez de 2.0 m/s en               debe estar localizado a 0.500 cm desde su posición de
+    el punto A y una energía cinética de 7.5 J en el punto B.              equilibrio. Determine la constante de fuerza que se nece-
+    ¿Cuál es a) su energía cinética en A? b) ¿Cuál en el punto             sita para el resorte.
+    B? c) ¿Cuál es el trabajo total realizado en la partícula        22.        Una atleta de 60.0 kg salta en el aire verticalmente
+    conforme se traslada desde A hasta B?                                  hacia arriba desde un trampolín con una rapidez inicial
+17. Un enorme crucero con una masa de 6.50 3 107 kg tiene                  de 9.0 m/s. El objetivo de este problema es encontrar
+    una velocidad de 12.0 m/s en un instante. a) ¿Cuál es la               la altura máxima que alcanza y su rapidez a la mitad de
+    energía cinética de la nave en este momento? b) ¿Cuánto                dicha altura. a) ¿Cuáles son los objetos que interactúan y
+    trabajo se requiere para detenerlo? c) ¿Cuál es la mag-                cómo lo hacen? b) Seleccione la altura en la que la rapi-
+    nitud de la fuerza constante para detenerlo, si tiene un               dez de la atleta es 9.0 m/s cuando y 5 0. ¿Cuál es su ener-
+    desplazamiento de 2.50 kilómetros?                                     gía cinética en este punto? ¿Cuál es la energía potencial
+                                                                           gravitacional asociada con la atleta? c) ¿Cuál es su energía
+18. Un hombre que empuja una caja de masa m 5 92.0 kg
+                                                                           cinética en la altura máxima? ¿Cuál es la energía potencial
+    a una velocidad v 5 0.850 m/s se encuentra con una su-
+                                                                           gravitacional asociada con la atleta? d) Escriba una ecua-
+    perficie horizontal rugosa de longitud l 5 0.65 m como
+                                                                           ción general para la conservación de energía en este caso
+    en la figura P5.18. Si el coeficiente de fricción cinética en-
+                                                                           y resuelva para la altura máxima. Sustituya y obtenga la
+    tre la caja y la superficie áspera es 0.358 y se ejerce una
+                                                                           respuesta numérica. e) Escriba la ecuación general de
+    fuerza horizontal constante de 275 N en la caja, encuen-
+                                                                           conservación de energía y resuelva para la velocidad a
+    tre a) la magnitud y la dirección de la fuerza neta sobre
+                                                                           la mitad de la altura máxima. Sustituya y obtenga una
+    la caja mientras está en la superficie rugosa, b) el trabajo
+                                                                           respuesta numérica.
+    neto realizado en la caja mientras se está en la superficie
+    rugosa y c) la velocidad de la caja cuando llega al final        23.        Se utiliza un martinete de 2 100 kg para enterrar una
+    de la superficie rugosa.                                               viga de acero dentro del suelo. El martinete cae 5.00 m
+                                                                           antes de tener contacto con la parte superior de la viga
+                                  S
+                                  v                                        y enterrarla 12.0 cm más allá de la superficie de la tie-
+                                                                           rra y llegar al reposo. Aplicando consideraciones de ener-
+                                                                           gía, calcule la fuerza promedio que la viga ejerce en el
+                                  m
+                                                                           martinete mientras éste llega al reposo.
+                                                                     24.       Dos bloques están conectados por una cadena lige-
+                                                ,                          ra que pasa por dos poleas sin fricción, como en la figura
+                                                                           P5.24. El bloque de masa m2 está unido a un resorte de
+                                                                           fuerza constante k y m1 .
+                          Figura P5.18                                     m2. Si el sistema se suelta
+                                                                           desde el reposo y el re-
+5.3 Energía potencial gravitacional                                        sorte en un principio no
+5.4 Energía potencial en resortes                                          se estira o se comprime,
+                                                                           encuentre una expresión           m1
+19. Una piedra de 0.20 kg se mantiene a 1.3 m del borde                                                                       m2
+                                                                           para el máximo desplaza-
+    superior de un pozo de agua y luego se deja caer en él.
+                                                                           miento d de m2.
+    El pozo tiene una profundidad de 5.0 m. Tomando y 5 0 en                                                                      k
+    el borde superior del pozo, ¿cuál es la energía potencial        25. Un acróbata sale del
+    gravitatoria del sistema piedra-Tierra a) antes de que la pie-       extremo de una rampa
+    dra se libere y b) cuando llegue al fondo del pozo? c) ¿Cuál         en una motocicleta con
+    es el cambio en la energía potencial gravitatoria del sistema        una rapidez de 35.0 m/s                  Figura P5.24
+    desde la liberación hasta que llega al fondo del pozo?               como en la figura P5.25.
+                                                                         Si su rapidez es de 33.0 m/s cuando alcanza el pico de la
+20. Cuando un objeto de 2.50 kg cuelga verticalmente de
+                                                                         trayectoria, ¿cuál es la altura máxima que alcanza? Des-
+    cierto resorte ligero que se describe mediante la ley
+                                                                         precie la fricción y la resistencia del aire.
+    de Hooke, el resorte se estira 2.76 cm. a) ¿Cuál es la cons-
+    tante de fuerza del resorte? b) Si el objeto de 2.50 kg                                                                  33.0 m/s
+    es retirado, ¿qué distancia se estira el resorte si un bloque                                 35.0 m/s
+    de 1.25 kg se cuelga de él? c) ¿Cuánto trabajo debe hacer
+                                                                                                                         h
+    un agente externo para estirar el mismo resorte 8.00 cm
+    desde su posición sin estirar?
+21. Un acelerómetro en un sistema de control consiste en un
+    objeto de 4.70 g deslizándose sobre un riel horizontal. Se
+    conecta un resorte de masa pequeña entre el objeto y un
+    reborde en un extremo del riel. La grasa en el riel hace
+    despreciable la fricción estática, pero amortigua rápida-                                   Figura P5.25
+160       CAPÍTULO 5 | Energía
+
+26. Con frecuencia las suspensiones de un camión tienen                                  se realiza sobre el proyectil debido a la fricción del aire?
+    “resortes de soporte” que se emplean con cargas pesadas.                             c) ¿Cuál es la velocidad del proyectil inmediatamente an-
+    En tales arreglos es un muelle con un resorte en una bo-                             tes de golpear la superficie si la fricción del aire hace una
+    bina de soporte montado en el eje, como se muestra en                                y media veces trabajo sobre el proyectil al bajar que el
+    la figura P5.26. Cuando se comprime el muelle principal                              realizado al subir?
+    en distancia y0, se emplea el resorte de soporte y entonces                    30.        Se dispara un proyectil de masa m horizontalmente
+    ayuda a soportar cualquier carga adicional. Suponga que                              con una velocidad inicial de v0 desde una altura h sobre
+    la constante del muelle es 5.25 3 105 N/m, la del resorte                            una superficie desértica y plana. Omitiendo la fricción
+    de soporte es 3.60 3 105 N/m y y0 5 0.500 m. a) ¿Cuál es                             del aire, en el instante antes que el proyectil golpee la
+    la compresión del muelle para una carga de 5.00 3 105                                superficie, determine lo siguiente en términos de m, v 0,
+    N? b) ¿Cuánto trabajo se realiza en la compresión del                                h y g: a) el trabajo realizado por la fuerza de gravedad en
+    resorte?                                                                             el proyectil, b) el cambio de energía cinética del proyec-
+                                                                                         til desde que fue disparado y c) la energía cinética final
+                                                                                         del proyectil. d) ¿Cambian algunas de las respuestas si se
+                                                                                         modifica el ángulo inicial?
+                                Carrocería
+                       Hoja del      y0                                            31.         Un resorte horizontal unido a un muro tiene una cons-
+                       resorte              Resorte                                      tante de fuerza de 850 N/m. Se une un bloque de 1.00 kg
+                       principal            de apoyo                                     de masa al resorte y oscila libremente en una superficie sin
+                                        Eje                                              fricción, horizontal como en la figura 5.20. El objetivo ini-
+                                                                                         cial de este problema es encontrar la velocidad en el punto
+                                                                                         de equilibrio después de que se libera el bloque. a) ¿Qué
+                                                                                         objetos constituyen el sistema y a través de qué fuerzas
+                                Figura P5.26                                             interactúan? b) ¿Cuáles son los dos puntos de interés?
+                                                                                         c) Determine la energía almacenada en el resorte cuando
+                                                                                         la masa es estirada 6.00 cm desde el equilibrio y una vez
+27.         Los chin-ups son un ejercicio que se puede utilizar                          más cuando la masa pasa a través del equilibrio después de
+      para reforzar el músculo del bíceps. Este músculo puede                            liberarla desde el reposo. d) Escriba la ecuación de con-
+      ejercer una fuerza de casi 800 N cuando se contrae una                             servación de energía para esta situación y resuelva a favor
+      distancia de 7.5 cm en un hombre de 75 kg.3 ¿Cuánto                                de la rapidez de la masa cuando pasa por el equilibrio.
+      trabajo pueden realizar los bíceps de los músculos (uno en                         Sustituya para obtener un valor numérico. e) ¿Cuál es la
+      cada brazo) en una sola contracción? Compare la cantidad                           rapidez en el punto a la mitad del camino? ¿Por qué no
+      de trabajo con la energía que necesita para elevar 40 cm                           está a la mitad la rapidez en el equilibrio?
+      una persona de 75 kg mediante chin-up. ¿Piensa que el
+      músculo del bíceps es el único músculo involucrado al                        5.5 Sistemas y conservación de energía
+      levantar la barbilla?                                                        32. Una saltadora de 50 kg corre con garrocha a 10 m/s para
+28.       Una pulga es capaz de saltar casi 0.5 m. Se ha dicho                         saltar sobre la barra. Su rapidez cuando está por encima
+    que si la pulga fuera tan grande como un humano, ¡sería                            de ésta es 1.0 m/s. Despreciando la resistencia del aire,
+    capaz de saltar sobre un edificio de 100 pisos! Cuando un                          así como cualquier cantidad de energía absorbida por la
+    animal salta, convierte el trabajo que realiza al contraer                         garrocha, determine su altitud cuando cruza la barra.
+    los músculos en energía potencial gravitacional (con al-                       33. Un pequeño y un trineo con una masa combinada de
+    gunas etapas en medio). La fuerza máxima ejercida por                              50.0 kg se desliza hacia abajo por una pendiente. Si
+    un músculo es proporcional a su área de sección trans-                             el trineo inicia desde el reposo y tiene una rapidez de
+    versal, y el trabajo realizado por el músculo es esta fuer-                        3.00 m/s al final, ¿cuál es la altura de la colina?
+    za por la longitud de la contracción. Si ampliamos una
+                                                                                   34. Cierto resorte ligero de 35.0 cm de longitud sin estirar se
+    pulga en un factor de 1000, la sección transversal de su
+                                                                                       describe mediante la ley de Hooke. Cuando un extremo
+    músculo se incrementaría en 10002 y la longitud de la
+                                                                                       está unido en la parte superior del marco de una puerta y
+    contracción se incrementaría en 1000. ¿Qué tan alto se-
+                                                                                       un objeto de 7.50 kg cuelga del otro extremo, la longitud
+    ría capaz de saltar esta “superpulga”? (No se le olvide que
+                                                                                       del resorte es 41.5 cm. a) Determine la constante del re-
+    la masa de la “superpulga” también se incrementa.)
+                                                                                       sorte. b) La carga y el resorte son retirados. Dos personas
+29. Se dispara un proyectil de 50.0 kg en un ángulo de 30.0°                           jalan en direcciones opuestas en los extremos del resorte,
+    por encima de la horizontal con una velocidad inicial de                           cada una con una fuerza de 190 N. Determine la longitud
+    1.20 3 102 m/s desde la parte superior de un risco a 142 m                         del resorte en esta situación.
+    sobre el nivel del suelo, donde la superficie se toma como                     35.         A lo largo de una pista horizontal, un bloque de
+    y = 0. a) ¿Cuál es la energía mecánica total inicial del pro-                        0.250 kg tiene una rapidez de 1.50 m/s inmediatamente antes
+    yectil? b) Suponga que el proyectil está viajando a 85.0                             de colisionar con un resorte ligero de constante de fuerza
+    m/s en su altura máxima de y 5 427 m. ¿Cuánto trabajo                                4.60 N/m ubicado en el extremo de la pista. a) ¿Cuál es la
+                                                                                         compresión máxima del resorte si la pista es sin fricción?
+3
+  G. P. Pappas et al., “Nonuniform shortening in the biceps brachii during elbow         b) Si la pista no es sin fricción, ¿la compresión máxima
+flexion,” Journal of Applied Physiology 92, 2381, 2002.
+                                                                                                                            | Problemas      161
+
+      del resorte sería más grande que, menor que o igual al                        máxima, b) determine la constante del resorte y determi-
+      valor que se obtiene en el inciso a)?                                         ne la rapidez cuando éste se mueve a través del punto de
+36. Un bloque de masa m = 5.00 kg se libera desde el punto                          equilibrio del resorte (donde x 5 0), como se muestra en
+     y se desliza hacia abajo de la pista sin fricción mostra-                     la figura P5.39b.
+    do en la figura P5.36. Establezca a) la rapidez de la esfera              40.        a) Se jala un bloque de masa m a lo largo de una
+    en los puntos  y  y b) el trabajo neto realizado por la                       superficie horizontal Spor una distancia x mediante
+    fuerza de gravedad en el movimiento de la esfera desde                          una fuerza constante F en un ángulo u con respecto a
+     hasta .                                                                      la horizontal. El coeficiente de fricción cinética entre el
+                                                                                    bloque y la mesa es mk. ¿La fuerza ejercida por fricción es
+                                                                                   igual a mkmg? Si no es así, ¿cuál es la fuerza ejercida por
+                       m
+                                                                                    fricción? b) ¿Cuánto
+                                                                                                      S
+                                                                                                           trabajo se realiza mediante la fuerza
+                                                                                   de fricción y por F ? (No olvide los signos.) c) Identifique
+                                                                                    todas las fuerzas que no hacen trabajo sobre el bloque.
+                                         
+                5.00 m                                                              d) Asigne m 5 2.00 kg, x 5 4.00 m, u 5 37.0°, F 5 15.0 N y
+                               3.20 m                                               mk 5 0.400 y encuentre las respuestas de los incisos a) y b).
+                                        2.00 m
+                                                                              41.         a) Una pequeña se desliza hacia abajo sobre un
+                                                                                    tobogán con agua en un parque de diversiones desde
+                                                                                    una altura inicial h. Se puede considerar el tobogán sin
+                            Figura P5.36                                            fricción debido a que en él circula agua hacia abajo. ¿Se
+                                                                                    puede aplicar la ecuación de conservación de energía
+                                                                                    mecánica en la pequeña? b) La masa de la pequeña es un
+37. Tarzán se columpia de una liana de 30.0 m de largo incli-                       factor para determinar la rapidez en la parte inferior del
+    nada al inicio en un ángulo de 37.0° con la vertical. ¿Cuál                     tobogán? c) La pequeña se deja caer de manera directa,
+    es su velocidad en la parte inferior de la oscilación a) si                     en lugar de seguir la curva de la rampa del tobogán. ¿En
+    inicia desde el reposo? b) ¿Si se impulsa con una veloci-                       cuál caso viajará más rápido hasta el nivel del piso? d) Si
+    dad de 4.00 m/s?                                                                se presenta fricción, ¿cómo se modificaría la ecuación de
+38.        Dos bloques están conectados                                             conservación de energía? e) Determine la rapidez máxi-
+      por una cadena ligera que pasa por                                            ma de la pequeña cuando el tobogán es sin fricción si la
+      encima de una polea sin fricción                                              altura inicial del tobogán es 12.0 m.
+      como en la figura P5.38. El sistema                                     42.         Un avión de 1.50 3 104 kg de masa se mueve a
+      se libera desde el reposo mientras                                            60.0 m/s. A continuación el piloto incrementa el empuje
+      m2 está en el suelo y m1 está a una                                           del motor hasta 7.50 3 104 N. La fuerza resistiva ejercida
+      distancia h por encima del suelo.                                             por el aire sobre el avión tiene una magnitud de 4.00 3
+      a) Suponiendo que m1 . m2, en-                                                104 N. a) ¿El trabajo realizado por el motor en el avión
+                                                           m1
+      cuentre una expresión para la velo-                                           es igual al cambio en la energía cinética del mismo des-
+      cidad de m1 sólo al llegar al suelo. b)                                       pués de que recorre cierta distancia a través del aire? ¿Se
+      Tomando m1 5 6.5 kg, m2 5 4.2 kg                     h                        conserva la energía mecánica? Explique. b) Determine
+      y h 5 3.2 m, evaluar su respuesta a                                m2         la rapidez del avión después de que ha recorrido 5.00 3
+      los incisos a) y c) encuentre la velo-                                        102 m. Suponga que el avión está en vuelo nivelado du-
+      cidad de cada bloque cuando m1 ha                                             rante todo el movimiento.
+      caído una distancia de 1.6 m.                       Figura P5.38
+                                                                              43. El sistema mostrado en la figura
+39.        El mecanismo de lanzamien-                                             P5.43 se utiliza para levantar un                    T3
+                                                                     S
+                                                                     v
+      to de un arma de juguete consiste                                           objeto de masa m 5 76.0 kg. Una
+      en un resorte de constante des-                                                                                       T1
+                                                                                  fuerza descendente constante de                           S
+      conocida como se muestra en la                                                                                                        F
+                                                                                  magnitud F es aplicada al extremo
+      figura P5.39a. Si el resorte se com-                                        suelto de la cuerda de tal manera
+      prime una distancia de 0.120 m, y                                           que el objeto que cuelga se mueve          T2
+      el arma se dispara de manera ver-                   x 0                    hacia arriba a velocidad constante.
+                                                 x               x                                                               m
+      tical como se muestra, el arma                                              Despreciando las masas de la cuer-
+      puede lanzar un proyectil de 20.0 g                                         da y poleas, encuentre a) el valor de
+      desde el reposo hasta una altura                                            F, b) las tensiones T1, T2, y T3, y c) el    Figura P5.43
+      máxima de 20. 0 m por arriba del                                            trabajo realizado por la fuerza apli-
+      punto de partida del proyectil.                                             cada en la elevación del objeto a una distancia de 1.80 m.
+      Omitiendo todas las fuerzas resis-
+                                                                              44. Una pequeña de 25.0 kg en un columpio de 2.00 m de
+      tivas, a) describa las transforma-
+                                                                                  largo se libera desde el reposo cuando las cuerdas del
+      ciones de energía mecánica que
+                                                                                  columpio forman un ángulo de 30.0° con la vertical.
+      se presentan desde el momento                  a               b            a) Despreciando la fricción, determine la rapidez de la
+      en que se dispara el arma hasta
+                                                                                  pequeña en la posición más baja. b) Si la rapidez verda-
+      que el proyectil alcanza su altura                 Figura P5.39
+162       CAPÍTULO 5 | Energía
+
+      dera de la pequeña en la posición más baja es 2.00 m/s,                za en el suelo? b) ¿Piensa usted que el paracaidista se las-
+      ¿cuál es la energía mecánica que se pierde debido a la                 timará? Explique. c) ¿Desde qué altura abre el paracaídas
+      fricción?                                                              de tal manera que su rapidez final cuando toca el suelo
+45. Un automóvil de 2.1 3 103 kg inicia desde el reposo en la                es de 5.00 m/s? d) ¿Qué tan realista es el supuesto de que
+    parte superior de una calzada de 5.0 m de largo que está                 la fuerza de retraso sea constante? Explique.
+    inclinada a 20° con la horizontal. Si una fuerza de fric-          5.6 Potencia
+    ción promedio de 4.0 3 103 N dificulta el movimiento,
+                                                                       50. Un cable impulsado por un motor levanta por una pen-
+    determine la rapidez del automóvil en la parte inferior
+                                                                           diente a un esquiador de 70 kg de masa. a) ¿Cuánto tra-
+    de la calzada.
+                                                                           bajo se necesita para jalarlo 60 m hacia arriba por una
+46.             Una niña de masa m inicia desde el reposo y se             pendiente de 30° (sin fricción) con una rapidez constan-
+      desliza sin fricción desde una altura h a lo largo de un to-         te de 2.0 m/s? b) ¿Qué potencia debe tener un motor
+      bogán con agua (figura P5.46). Se lanza desde una altura             para realizar esta tarea?
+      h/5 en la piscina. a) ¿Se conserva la energía mecánica?
+                                                                       51. Un piano de 3.50 kN es levantado por tres trabajadores
+      ¿Por qué? b) Proporcione la energía potencial gravita-
+                                                                           con rapidez constante hasta un departamento a 25.0 m so-
+      cional asociada con la pequeña y su energía cinética en
+                                                                           bre el nivel de la calle utilizando un sistema de polea soste-
+      términos de mgh en las posiciones que siguen: la parte
+                                                                           nido en el techo del edificio. Cada trabajador es capaz de
+      superior del tobogán, el punto de lanzamiento y el punto
+                                                                           entregar 165 W de potencia, y la eficiencia de las poleas es
+      donde ella acuatiza en la piscina. c) Determine su rapidez
+                                                                           de 75.0% (de tal modo que 25.0% de la energía mecánica
+      inicial v0 en el punto de lanzamiento en términos de g y h.
+                                                                           se pierde debido a la fricción en la polea). Despreciando
+      d) Establezca la altura máxima en el aire ymáx en términos
+                                                                           la masa de la polea, determine el tiempo requerido para
+      de h, g y la rapidez horizontal en esa altura, v0x. e) Utilice
+                                                                           levantar el piano desde la calle hasta el departamento.
+      la componente x de la respuesta al inciso c) para eliminar
+      v0 a partir de la respuesta al inciso d), conocida la altura     52.         Mientras una persona corre, disipa casi 0.60 J de
+      ymáx en términos de g, h y el ángulo de lanzamiento u.                 energía mecánica por cada paso por kilogramo de masa
+      f) ¿Su respuesta sería la misma si el tobogán con agua                 en el cuerpo. Si una persona de 60 kg desarrolla una po-
+      fuera con fricción? Explique.                                          tencia de 70 W durante una carrera, ¿qué tan rápido está
+                                                                             corriendo la persona? (Considere un paso de carrera de
+                                                                             1.5 m de longitud.)
+                                                                       53. El motor eléctrico de un tren a escala lo acelera desde el
+                                                                           reposo hasta 0.620 m/s en 21.0 ms. La masa total del tren
+  h                                                                        es 875 g. Determine la potencia promedio entregada al
+                                           u
+                                                                           tren durante su aceleración.
+                                                 y máx
+                                           h/5                         54. Cuando un automóvil se traslada con rapidez constan-
+                                                                           te en una autopista, la mayor parte de la potencia desa-
+                                                                           rrollada por el motor se utiliza para compensar debido a
+                            Figura P5.46                                   pérdidas de energía mecánica causadas por las fuerzas de
+                                                                           fricción ejercidas sobre el automóvil por el aire y el cami-
+47. Un esquiador parte del reposo en la parte superior de                  no. Si la potencia desarrollada por un motor es 175 hp,
+    una colina que está inclinada 10.5° con respecto a la hori-            evalúe la fuerza de fricción total que actúa en el automóvil
+    zontal. El flanco de la colina es de 200 m de largo, y el co-          cuando se está moviendo con una rapidez de 29 m/s. Un
+    eficiente de fricción entre la nieve y el patín es 0.0750 0.           caballo de fuerza es igual 746 W.
+    En la parte inferior de la colina, la nieve está a nivel, y el     55. Un automóvil clásico acelera desde 0 hasta una rapidez
+    coeficiente de fricción no cambia. ¿Hasta dónde se des-                v en 10 s. Un reciente y poderoso deportivo de la misma
+    liza el esquiador a lo largo de la parte horizontal de la              masa acelera desde 0 hasta 2v en el mismo periodo de
+    nieve antes de llegar al reposo?                                       tiempo. Suponiendo que la energía que viene del motor
+48. En una función de circo, un mono está atado a un tri-                  sólo aparece como energía cinética del automóvil, com-
+    neo y a los dos se les proporciona una rapidez inicial de              pare la potencia de los dos automóviles.
+    4.0 m/s hacia arriba de una pista inclinada 20°. La masa           56. Cierta nube a una altitud de 1.75 km contiene 3.20 3 107 kg
+    combinada del mono y el trineo es de 20 kg, y el coeficien-            de vapor de agua. ¿Qué tiempo le tomaría a una bom-
+    te de fricción cinética entre el trineo y el plano inclinado           ba de 2.70 kW elevar la misma cantidad de agua desde la
+    es 0.20. ¿Qué distancia recorren hacia arriba del plano el             superficie de la Tierra hasta la posición de la nube?
+    mono y el trineo?                                                  57. Un automóvil de 1.50 3 103 kg inicia desde el reposo y
+49. Un paracaidista de 80.0 kg salta desde un globo a una                  acelera de manera uniforme hasta 18.0 m/s en 12.0 s.
+    altitud de 1000 m y abre el paracaídas a una altitud de                Suponga que la resistencia del aire permanece constante
+    200.0 m. a) Considerando que la fuerza de retraso to-                  en 400 N durante este tiempo. Determine a) la potencia
+    tal en el paracaidista es constante de 50.0 N con el para-             promedio desarrollada por el motor y b) la potencia de
+    caídas cerrado y de 3 600 N constante con el paracaídas                salida instantánea del motor en t 5 12.0 s, precisamente
+    abierto, ¿cuál es la rapidez del paracaidista cuando aterri-           antes que el automóvil detenga su aceleración.
+                                                                                                                  | Problemas     163
+
+58. Un elevador de 650 kg inicia desde el reposo y se mueve         64.        Un chico inicia en el reposo y se desliza hacia abajo
+    hacia arriba por 3.00 s con aceleración constante hasta               en una resbaladilla sin fricción como en la figura P5.64.
+    que alcanza su rapidez de crucero, 1.75 m/s. a) ¿Cuál                 La parte inferior de la resbaladilla está a una altura h so-
+    es la potencia promedio del motor del elevador durante                bre el nivel del suelo. Después el chico deja la resbaladi-
+    este periodo? b) ¿Cómo se compara esta cantidad de po-                lla horizontalmente, llegando al suelo a una distancia d
+    tencia con la desarrollada durante un viaje ascendente                como se muestra. Aplicando métodos de energía, deter-
+    con rapidez constante?                                                mine la altura inicial H del chico en términos de h y d.
+5.7 Trabajo realizado por una fuerza variable
+59.        La fuerza que actúa en una partícula varia como en
+      la figura P5.59. Determine el trabajo que realiza la fuerza
+      cuando la partícula se traslada a) desde x 5 0 hasta x 5                  H
+      8.00 m, b) desde x 5 8.00 m hasta x 5 10.0 m y c) desde
+      x 5 0 hasta x 5 10.0 m.                                                                     h
+                  Fx (N)                                                                                      0     d
+
+                   6                                                                           Figura P5.64
+                   4
+                                                                    65. El vagón de una montaña rusa de 1.50 3 103 kg inicial-
+                   2                                                    mente está en la parte superior de una elevación en el
+                                                x (m)                   punto . A continuación se mueve 35.0 m en un ángulo
+                           2   4   6   8   10                           de 50.0° por debajo de la horizontal hasta un punto in-
+                  2
+                                                                        ferior . a) Encuentre la energía potencial del sistema
+                                                                        cuando el vagón está en los puntos  y  y el cambio de
+                               Figura P5.59
+                                                                        energía potencial cuando el vagón se traslada desde el
+60. Un objeto de 3.00 kg de masa se somete a una fuerza Fx              punto  hasta el punto , suponiendo y 5 0 en el punto
+    que varía con la posición como en la figura P5.60. Deter-           . b) Reproduzca el inciso a), esta vez eligiendo y 5 0 en
+    mine el trabajo que se realiza mediante la fuerza sobre el          el punto , que es otro punto 15.0 m hacia abajo de la
+    objeto cuando éste se traslada a) desde x 5 0 hasta x 5             misma pendiente desde el punto .
+    5.00 m, b) desde x 5 5.00 m hasta x 5 10.0 m y c) desde         66. Una bola de masa m 5 1.80 kg se libera desde el reposo
+    x 5 10.0 m hasta x 5 15.0 m. d) Si el objeto tiene una              a una altura h 5 65.0 cm por encima de un resorte ligero
+    rapidez de 0.500 m/s en x 5 0, determine su rapidez en              vertical de fuerza constante k como en la figura P5.66a.
+    x 5 5.00 m y su rapidez en x 5 15.0 m.                              La bola golpea la parte
+                                                                                                          m
+                                                                        superior del resorte y lo
+             Fx (N)
+                                                                        comprime una distancia
+              3                                                         d 5 9.00 cm como en la        h
+              2                                                         figura P5.66b. Despre-
+                                                                        ciando todas las pérdi-                       d m
+              1
+                                                                        das de energía durante          k
+                                                     x (m)              la colisión, encuentre                          k
+              0       2    4   6   8   10 12 14 16
+                                                                        a) la velocidad de la bola
+                               Figura P5.60                             en el momento que toca
+                                                                        el resorte y b) la constan-   a               b
+61. La fuerza que actúa sobre un objeto se conoce mediante              te de fuerza del resorte.           Figura P5.66
+    Fx 5 (8x 2 16) N, donde x está en metros. a) Trace una
+                                                                    67. Un arquero jala la cuer-
+    gráfica de esta fuerza en función de x desde x 5 0 hasta
+                                                                        da de su arco 0.400 m ejerciendo una fuerza que se in-
+    x 5 3.00 m. b) A partir de su gráfica, encuentre el trabajo
+                                                                        crementa de manera uniforme desde cero hasta 230 N.
+    neto que se lleva a cabo mediante la fuerza cuando el
+                                                                        a) ¿Cuál es la constante del resorte equivalente del arco?
+    objeto se traslada desde x 5 0 hasta x 5 3.00 m.
+                                                                        b) ¿Cuánto trabajo hace el arquero al jalar el arco?
+Problemas adicionales                                               68. Un bloque de 12.0 kg de masa se desliza hacia abajo so-
+62. Un jugador lanza una pelota de béisbol de 0.150 kg a                bre un plano inclinado 35.0° sin fricción y es detenido
+    una velocidad de 40.0 m/s y un ángulo inicial de 30.0°.             por un rígido resorte con k 5 3.00 3 104 N/m. El bloque se
+    ¿Cuál es la energía cinética de la pelota en el punto más           desliza 3.00 m desde el punto en que se libera hasta el punto
+    alto de su movimiento?                                              donde llega al reposo contra el resorte. Cuando el bloque
+63. Una persona levanta 700 N mediante chin-ups, únicamen-              llega al reposo, ¿cuánto se comprime el resorte?
+    te con los brazos. Durante los primeros 25.0 cm del levan-      69.        a) Un hombre de 75 kg camina por fuera de una
+    tamiento, cada brazo ejerce una fuerza hacia arriba de                ventana y cae (desde el reposo) 1.0 m hacia una acera.
+    355 N en el torso. Si el movimiento hacia arriba inicia desde         ¿Cuál es su rapidez justo antes de que sus pies golpeen el
+    el reposo, ¿cuál es la velocidad de la persona en ese punto?          pavimento? b) Si el hombre cae con sus rodillas y tobillos
+164       CAPÍTULO 5 | Energía
+
+      trabados, el único amortiguador para su caída es el que        74.         La partícula descrita en el problema 73 (figura
+      le dan los cojines de sus pies de aproximadamente 0.50               P5.73) se libera desde el punto A en el reposo. Su rapidez
+      cm. Calcule la fuerza promedio ejercida en él por el piso            en B es 1.50 m/s. a) ¿Cuál es su energía cinética en B?
+      en esta situación. Esta fuerza promedio es suficiente para           b) ¿Cuánta energía mecánica se pierde como un resulta-
+      causarle daño a los cartílagos en las articulaciones o rom-          do de la fricción cuando la partícula va desde A hasta B?
+      perle los huesos                                                     c) ¿Es posible determinar de una manera simple m a par-
+70. Un arma de juguete utiliza un resorte para proyectar                   tir de estos resultados? Explique.
+    horizontalmente una esfera de goma suave de 5.3 g. La            75. Un resorte ligero con constante elástica de 1.20 3 103 N/m
+    constante de resorte es 8.0 N/m, el cañón del arma es de             cuelga desde un soporte elevado. De su extremo inferior cuel-
+    15 cm de longitud y existe una fuerza de fricción constan-           ga un segundo resorte ligero que tiene una constante elás-
+    te de 0.032 N entre el cañón y el proyectil. ¿Si se compri-          tica de 1.80 3 103 N/m. Un objeto de 1.50 kg cuelga en
+    me el resorte 5.0 cm, ¿con qué rapidez sale el proyectil             reposo desde el extremo inferior del segundo resorte. a)
+    del cañón para este lanzamiento?                                     Determine la distancia de extensión total del par de re-
+71. Dos objetos están conectados                                         sortes. b) Encuentre la constante elástica efectiva del par
+    mediante un resorte ligero que                                       de resortes como un sistema. Estos resortes se describen
+    pasa sobre una polea ligera                                          como estando en serie. Sugerencia: Considere por separado
+    sin fricción, como en la figu-                                       las fuerzas en cada resorte.
+    ra P5.71. El objeto de 5.00 kg                                   76.        Versión simbólica del problema 75. Un resorte ligero con
+    se libera desde el reposo en                 m1                        constante elástica k1 cuelga de un soporte elevado, de su
+    un punto 4.00 m arriba del                                             extremo inferior cuelga un segundo resorte ligero, que
+    piso. a) Determine la rapi-                                            tiene una constante elástica k2. Del extremo inferior del
+                                                      h
+    dez de cada objeto cuando se                                           segundo resorte cuelga un objeto de masa m en reposo.
+                                            m2
+    cruzan entre sí. b) Determine                                          a) Encuentre la distancia total de la extensión x del par
+    la rapidez de cada objeto en                                           de resortes en términos de los dos desplazamientos x1
+    el momento en que el objeto                                            y x2. b) Determine la constante elástica efectiva del par
+    de 5.00 kg incide en el piso.          Figura P5.71                    de resortes como un sistema. Estos resortes se describen
+    c) Después que el objeto de 5.00 kg golpea el piso, ¿qué               como en serie.
+    tan alto viaja el objeto de 3.00 kg?                             77.         En términos de ahorro de energía, montar en bi-
+72.          En una biopsia con aguja, se extrae una tira estre-           cicleta o caminar son los medios mucho más eficientes
+      cha de tejido de un paciente. Mientras es empujada con               de transporte que el viajar en automóvil. Por ejemplo,
+      la mano para asegurar un corte limpio, la aguja puede                cuando se pasea a 10.0 mi/h, un ciclista usa energía del
+      ser disparada dentro del cuerpo del paciente mediante                alimento en una proporción de casi 400 kcal/h sobre la
+      un resorte. Suponga que la masa de la aguja es 5.60 g, el            que utilizaría si estuviera solamente sentado. (En fisio-
+      resorte ligero tiene una constante de fuerza de 375 N/m              logía del ejercicio, la potencia usualmente se mide en
+      y está en principio comprimido 8.10 cm para proyectar la             kcal/h, en lugar de watts. En este caso, 1 kcal 5 1 Caloría
+      aguja horizontalmente sin fricción. En este caso la punta            nutricionista 5 4 186 J.) Caminando a 3.00 mi/h necesi-
+      de la aguja se traslada por 2.40 cm de piel y tejido suave,          ta casi 220 kcal/h. Es interesante comparar estos valores
+      que ejerce una fuerza resistiva en ella de 7.60 N. A conti-          con los consumos de energía que se requieren para viajar
+      nuación, la aguja corta 3.50 cm dentro de un órgano, que             en automóvil. La gasolina produce casi 1.30 3 108 J/ga-
+      ejerce una fuerza hacia atrás de 9.20 N en ella. Determine           lón. Encuentre el ahorro en combustible en millas por
+      a) la rapidez máxima de la aguja y b) la rapidez con la cual         cada galón equivalente para una persona a) caminando y
+      una brida en el extremo posterior de la aguja corre hasta            b) en bicicleta.
+      un tope, para ajustar el límite de penetración a 5.90 cm.      78.         La energía formalmente se mide en Calorías así
+73. Una partícula de 2.00 3 102 g se libera desde el reposo                como en joules. En nutrición una Caloría es 1 kcal que
+    en el punto A en el interior de un tazón hemisférico de                se define en el capítulo 11 como 1 kcal 5 4 186 J. Me-
+    radio R 5 30.0 cm (figura P5.73). Calcule a) su energía                tabolizar un gramo de grasa puede liberar 9.00 kcal.
+    potencial gravitacional en A relativa a B, b) su energía ci-           Un estudiante decide intentar perder peso mediante el
+    nética en B, c) su rapidez en B, d) su energía potencial en            ejercicio. Planea correr subiendo y bajando las escaleras
+    C relativa a B y e) su energía cinética en C.                          de un estadio de fútbol tan rápido como pueda y tantas
+                                                                           veces como sea necesario. ¿Por sí mismo es esto una ma-
+                                                                           nera práctica de perder peso? Para evaluar el programa
+                      A                                                    suponga que sube un tramo de 80 escalones, cada uno
+                                                                           de 0.150 m de alto, en 65.0 s. Por simplicidad, ignore la
+                          R              C                                 energía que utiliza al bajar (que es muy pequeña). Consi-
+                                 B                                         dere que una eficiencia representativa para los músculos
+                                              2R/3
+                                                                           de un humano es de 20.0%. Esto significa que cuando
+                                                                           su cuerpo convierte 100 J a causa de la metabolización
+                              Figura P5.73                                 de grasa, 20 J se utilizan al realizar trabajo mecánico (en
+                                                                                                                   | Problemas       165
+
+      este caso, subiendo escaleras). El resto en energía inter-    83. En el peligroso “deporte” del salto bungee, un osado es-
+      na. Suponga que la masa del estudiante es de 50.0 kg.             tudiante salta desde un globo de aire caliente con una
+      a) ¿Cuántas veces debe subir el tramo de escaleras para           cuerda especialmente diseñada atada a su cintura. La
+      perder 1 libra de grasa? b) ¿Cuál es la potencia de salida        longitud de la cuerda sin estirar es 25.0 m, el estudiante
+      promedio, en watts y en caballos de fuerza, cuando está           pesa 700 N, y el globo está a 36.0 m encima de la super-
+      subiendo las escaleras?                                           ficie de un río. Calcule la constante de fuerza necesaria de
+79. Una esquiadora inicia desde el reposo 50.0 m arriba del             la cuerda si el estudiante se detiene con seguridad a 4.00 m
+    nivel del suelo sobre una pista sin fricción y vuela sobre la       sobre el río.
+    pista en un ángulo de 45.0° por encima de la horizontal y       84.         Las masas de la jabalina, disco y bala son 0.80 kg, 2.0
+    con una altura de 10.0 m sobre el nivel del suelo. Omita              y 7.2 kg, respectivamente, y los registros de lanzamiento
+    la resistencia del aire. a) ¿Cuál es su velocidad cuando              en los eventos de pista correspondientes son aproxima-
+    deja la pista? b) ¿Cuál es la altitud máxima que alcanza              damente 98, 74 y 23 m, respectivamente. Ignorando la re-
+    después de abandonar la pista? c) ¿Dónde aterriza en re-              sistencia del aire, a) calcule las energías cinéticas iniciales
+    lación al extremo de la pista?                                        mínimas que producirían estos lanzamientos y b) evalúe
+80. Se empuja un bloque de 5.0 kg y                                       la fuerza promedio ejercida sobre cada objeto durante
+    3.0 m hacia arriba de una pared                                       el lanzamiento, suponiendo que la fuerza actúa en una
+    vertical con rapidez constante me-                                    distancia de 2.0 m. c) ¿Sus resultados sugieren que la re-
+    diante una fuerza constante de              u
+                                                                          sistencia del aire es un factor importante?
+    magnitud F aplicada en un ángulo         S                      85. Una camioneta viaja colina arriba con velocidad constan-
+                                             F
+    de u 5 30° con la horizontal, como                                  te por una autopista con 7.0° de pendiente. Un paquete
+    se muestra en la figura P5.80. Si el                                de 50 kg se sitúa en el piso posterior de la camioneta y no
+                                               Figura P5.80
+    coeficiente de fricción cinética en-                                se desliza, debido a la fuerza de fricción estática. Durante
+    tre el bloque y la pared
+                           S
+                             es 0.30, determine el trabajo que          un intervalo en que la camioneta viaja 340 m, ¿cuál es el
+    se hace mediante a) F , b) la fuerza de gravedad y c) la            trabajo neto que se realiza en el paquete? ¿Cuál es el tra-
+    fuerza normal entre el bloque y la pared. d) ¿Por cuánto            bajo neto que se ejerce sobre el paquete mediante la fuer-
+    se incrementa la energía potencial gravitacional durante            za de gravedad, la fuerza normal y la fuerza de fricción?
+    el movimiento del bloque?                                       86. Un acróbata quiere saltar con bungee desde un globo
+81. El pogo saltarín de un pequeño                                     con aire caliente 65.0 m arriba de un carnaval situado a
+    (figura P5.81) almacena ener-                                       mitad del camino. Utilizará una pieza de cuerda elástica
+    gía en un resorte (k 5 2.50 3                                      no uniforme unida a un arnés alrededor de su cuerpo
+    104 N/m). En la posición  (xi 5                                   para detener su caída en un punto 10.0 m sobre el suelo.
+    20.100 m), la compresión del                                        Represente el cuerpo de este individuo como una partí-
+    resorte es un máximo y momen-                                       cula y la cuerda que tiene masa despreciable y una fuerza
+    táneamente el pequeño está en                                       de tensión descrita por la ley de fuerza de Hooke. En una
+    reposo. En la posición  (x 5 0),                    x2             prueba preliminar, colgado en reposo desde una longi-
+    el resorte está relajado y el pe-    x1                             tud de cuerda de 5.00 m, el saltador encuentra que el
+    queño se mueve hacia arriba.                                        peso de su cuerpo la estira en 1.50 m se deja caer desde
+    En la posición , momentánea-                                       el reposo en el punto donde el extremo superior de una
+    mente una vez más el pequeño                                        sección extensa de la cuerda está unida a un globo inmó-
+    está en reposo en la parte supe-         Figura P5.81               vil. a) ¿Qué longitud de cuerda utiliza? b) ¿Qué acelera-
+    rior del salto. Suponiendo que                                      ción máxima experimentará?
+    la masa combinada del pequeño y el pogo saltarín es             87.        Un vagón cargado de mineral tiene una masa de
+    25.0 kg, a) calcule la energía total del sistema si ambas             950 kg y pasa sobre rieles con fricción despreciable. Ini-
+    energías potencial son cero en x 5 0, b) determine x2,                cia desde el reposo y es jalado hacia arriba por el pozo
+    c) calcule la rapidez del pequeño en x 5 0, d) calcule el             de una mina mediante un cable unido a un montacar-
+    valor de x para el cual la energía cinética del sistema               gas. El pozo está inclinado a 30.0° por arriba de la hori-
+    es un máximo y e) obtenga la rapidez máxima ascendente                zontal. El vagón acelera de manera uniforme hasta una
+    del pequeño.                                                          rapidez de 2.20 m/s en 12.0 s y después continúa con
+82.          Un colibrí es capaz de flotar debido a que como              rapidez constante. a) ¿Qué potencia debe proporcionar
+      las alas se mueven hacia abajo, ejercen una fuerza des-             el motor del montacargas cuando el vagón se está mo-
+      cendente en el aire. La tercera ley de Newton dice que              viendo con rapidez constante. b) ¿Qué potencia máxima
+      el aire ejerce una fuerza igual y opuesta (ascendente) en           debe proporcionar el motor? c) ¿Qué energía total trans-
+      las alas. El promedio de esta fuerza debe ser igual al peso         fiere el motor por trabajo durante el tiempo que el vagón se
+      del ave cuando flota. Si las alas se mueven por una distan-         mueve al extremo del riel, que tiene longitud de 1250 m?
+      cia de 3.5 cm con cada movimiento y aletea 80 veces por       88.        Un objeto de masa m está colgado desde la parte supe-
+      segundo, determine el trabajo realizado por las alas en             rior del carrito mediante una cuerda de longitud L, como
+      el aire durante un minuto si la masa del colibrí es de 3.0          en la figura P5.88a (página 166). El carrito y el objeto ini-
+      gramos.                                                             cialmente se están moviendo a la derecha con una rapidez
+166       CAPÍTULO 5 | Energía
+
+      constante v0. El carrito llega al reposo después de chocar y              to en reposo sobre una superficie horizontal. El resorte
+      unirse a un amortiguador, como en la figura P5.88b, y el                  ejerce una fuerza en cada bloque, que tiende a separar-
+      objeto colgado oscila del principio a fin de un ángulo                    los. Los bloques son soltados al mismo tiempo desde el
+      u. a) Muestre que la rapidez inicial es v 0 5 2gL 1 1 2 cos u 2 .         reposo. Encontrar la aceleración con la que cada bloque
+      b) Si L 5 1.20 m y u 5 35.0°, determine la rapidez inicial                comienza a moverse, dado que el coeficiente de fricción
+      del carrito. (Sugerencia: La fuerza ejercida mediante la                  cinética entre cada bloque y la superficie es a) 0, b) 0.100,
+      cuerda en el objeto no realiza trabajo en el mismo.)                      y c) 0.462.
+
+          S
+                                                                          91.         Montada en bicicleta para ejercicio aeróbico, una
+          v0                                                                    mujer desea que su ritmo cardiaco esté entre 136 y 166
+                                                                                latidos por minuto. Considere que su ritmo cardiaco es
+               L                                         u                      directamente proporcional a su potencia de salida me-
+                m                                                               cánica. Omita todas las fuerzas en el sistema mujer más
+                                                                                bicicleta, excepto por la fricción estática para impulsar
+                                                                                las ruedas de la bicicleta y una fuerza de resistencia del
+                                                                                aire proporcional al cuadrado de la rapidez de la ciclista.
+      a                                b                                        Cuando su rapidez es 22.0 km/h, su ritmo cardiaco es
+                                                                                90.0 latidos por minuto. ¿En qué límites está su rapidez
+                             Figura P5.88                                       de tal manera que su ritmo cardiaco estará en el intervalo
+                                                                                que quiere?
+89. Tres objetos con masas m1 5 5.0 kg, m2 5 10 kg y m3 5                 92. Dos bloques, A y B (con una masa de 50 y 100 kg, res-
+    15 kg, respectivamente, están unidos mediante una cuer-                   pectivamente), están conectados por una cadena, como
+    da sobre poleas sin fricción como se indica en la figura                  se muestra en figura P5.92. La polea es sin fricción y de
+    P5.89. La superficie horizontal ejerce una fuerza de fric-                masa insignificante. El coeficiente de fricción cinética
+    ción de 30 N en m2. Si se libera el sistema desde el reposo,              entre el bloque A y el plano inclinado es mk 5 0.25. De-
+    utilice conceptos de energía para encontrar la rapidez de                 termine el cambio en la energía cinética del bloque A
+    m3 después de que se movió hacia abajo 4.0 m.                             conforme se mueve hacia arriba, desde  hasta , una
+                                                                              distancia de 20 metros por el plano inclinado (y el bloque
+                                                                              B cae hacia abajo una distancia de 20 m) si el sistema par-
+                                  m2
+                                                                              te del reposo.
+
+                m1
+                                                    m3
+                                                                                                                       B 100 kg
+                                                                                                   50 kg         
+                                                                                                    A
+                             Figura P5.89
+                                                                                                        
+                                                                                                  378
+90. Un resorte ligero con una fuerza constante 3.85 N/m se
+    comprime por 8.00 cm, está entre un bloque de 0.250 kg
+    a la izquierda y un bloque de 0.500 kg a la derecha, tan-                                           Figura P5.92

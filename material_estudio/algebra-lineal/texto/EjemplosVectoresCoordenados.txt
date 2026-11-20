@@ -1,0 +1,596 @@
+Capítulo 1: Espacios vectoriales
+
+                             Ejemplo 1
+                                                                                               ⎛1⎞         ⎛ 0⎞
+                             En
+                                   2
+                                       , la base canónica está compuesta por los vectores e1 = ⎜ ⎟ y e 2 = ⎜ ⎟ ,
+                                                                                               ⎝0⎠         ⎝1⎠
+                                                               2                                     2
+                             pero dos vectores de                  LI también forman una base para       , así: los vectores
+
+                                   ⎛1⎞         ⎛ 3⎞
+                              v1 = ⎜ ⎟ y v 2 = ⎜ ⎟ forman otra base de                   2
+                                                                                             .
+                                   ⎝ 2⎠        ⎝5⎠
+
+                                     ⎛ −1 ⎞
+                             Sea x = ⎜ ⎟ ; entonces, x = −1e1 − 1e 2 .
+                                     ⎝ −1 ⎠
+
+                                                                      ⎛ −1 ⎞
+                             Si B1 = {e1 , e 2 } ; entonces, (x) B1 = ⎜ ⎟ .
+                                                                      ⎝ −1 ⎠
+
+                             Cuando no se dice explícitamente en qué base está expresado x, se asume que el
+                             vector está en la base estándar.
+
+                                      ⎧⎪⎛ 1 ⎞ ⎛ 3 ⎞ ⎫⎪ x = 2 ⎛⎜ ⎞⎟ − 1 ⎛⎜ ⎞⎟
+                                                                1        3
+                             Sea B2 = ⎨⎜ ⎟ , ⎜ ⎟ ⎬ ,          ⎝ 2⎠ ⎝5⎠
+                                       ⎪⎩⎝ 2 ⎠ ⎝ 5 ⎠ ⎪⎭
+                                                        x = 2 v1 − 1v 2
+
+                                            ⎛2⎞
+                             luego (x) B2 = ⎜ ⎟ (figura 7.1).
+                                            ⎝ −1 ⎠
+
+
+                                       ⎡1       1       1      3⎤   ⎡1      1 1          3⎤
+                                       ⎢                          ⎥ ⎢                       ⎥
+                                       ⎢1       0       1      2⎥→⎢0        −1 0         −1⎥
+                                       ⎢⎣ 0    −1       1      1 ⎥⎦ ⎢⎣ 0    0    1       2 ⎥⎦
+
+                                       ⎡1     0     1       2⎤   ⎡1     0   0   0⎤
+                                       ⎢                       ⎥ ⎢                 ⎥
+                                       ⎢0     1     0       1⎥ → ⎢0     1   0   1⎥
+                                                                                     ,
+                                       ⎢⎣ 0   0     1       2 ⎥⎦ ⎢⎣ 0   0   1   2 ⎥⎦
+
+
+                            luego c1 = 0, c2 = 1 y c3 = 2,
+                            así que:
+                                       3 + 2 x + x 2 = 0(1 + x ) + (1 − x 2 ) + 2(1 + x + x 2 ),
+
+                                                     ⎡0⎤
+                                       [ P( x)]B2 = ⎢⎢1 ⎥⎥ .
+                                                     ⎢⎣ 2 ⎥⎦
+
+
+ 90
+Capítulo 1: Espacios vectoriales
+
+
+            Ejemplo 3
+
+
+                                     ⎧⎛ 1 ⎞ ⎛ 0 ⎞ ⎛ 0 ⎞ ⎫            ⎧⎛ 1 ⎞ ⎛ 1 ⎞ ⎛ 1⎞ ⎫
+                                     ⎪⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎪                  ⎪⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎪
+            En
+                     3
+                         , sean B1 = ⎨⎜ 0 ⎟ , ⎜ 1 ⎟ , ⎜ 0 ⎟ ⎬ y B2 = ⎨⎜ 0 ⎟ , ⎜ 1 ⎟ , ⎜ 1⎟ ⎬ .
+                                     ⎪⎜ 0 ⎟ ⎜ 0 ⎟ ⎜ 1 ⎟ ⎪            ⎪⎜ 0 ⎟ ⎜ 0 ⎟ ⎜ 1⎟ ⎪
+                                     ⎩⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎭                  ⎩⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎭
+
+                                  ⎛ x⎞
+            Expresemos el vector ⎜⎜ y ⎟⎟ ∈                   3
+                                                                 en términos de la base B2 .
+                                  ⎜z⎟
+                                  ⎝ ⎠
+
+
+                ⎡0          5      1             2 ⎤ operaciones elementales ⎡ 1      0      2       17 ⎤
+                                                   ⎥ ⎯⎯⎯⎯⎯⎯⎯                →⎢
+                                                                                                 5        15
+                ⎢                                                                                       ⎥
+                ⎣3         −1      1             3⎦                          ⎣0       1      1
+                                                                                                 5    5 ⎦
+                                                                                                      2
+
+
+                                                                                           ↓         ↓
+                                                                                          ⎛1⎞ ⎛ 2 ⎞
+                                                                                          ⎜ ⎟ ⎜ ⎟
+                                                                                          ⎝1⎠ B2 ⎝ 3 ⎠ B2
+
+      Luego:
+                       ⎡ 25             17
+                                                  ⎤
+            PB2 ← B1 = ⎢
+                                                15
+                                                  ⎥.
+                       ⎣ 15                 2
+                                                5 ⎦
+
+      Entonces:
+
+                         ⎡25           17
+                                              ⎤⎡ 2 ⎤
+                (x) B2 = ⎢
+                                            15
+                                              ⎥⎢ ⎥
+                         ⎣ 15               5 ⎦ ⎣ −1⎦
+                                       2
+
+
+                             ⎡ 13 ⎤
+                           = ⎢ ⎥.
+                             ⎣0⎦
+
+
+      Podemos observar que para obtener la matriz de transición de B1 a B2 hacemos lo
+      siguiente:
+
+                ⎡⎣ B2      B1 ⎦⎤ ⎯⎯⎯⎯⎯⎯⎯
+                                  operaciones elementales
+                                                          → ⎡⎣ I      PB2 ← B1 ⎤⎦ .
+
+
+ 94
+Capítulo 2: Ortogonalidad
+
+
+                       Ejemplo 1
+
+                       Sean a = (1, 3, 0) , b = (3, − 1, 1) y c = (3, − 1, 10) ; entonces {a, b, c} es un con-
+                       junto ortogonal en       3
+                                                    ya que a · b = a · c = b · c = 0.
+
+
+                                a = 10 , b = 11 y c = 110 .
+
+                       Los vectores:
+                              a   1                   b   1                     c  1
+                       u1 =     =    (1, 3, 0), u 2 =   =    (3, − 1, 1) y u 3 = =     (3, − 1, 10)
+                              a   10                  b   11                    c  110
+
+                       son vectores unitarios en las direcciones de a, b y c, luego {u1 , u 2 , u 3 } es un
+                       conjunto ortonormal.
+
+                       Además, gen {a, b, c} = gen {u1 , u 2 , u3 } .
+
+
+108
+Capítulo 2: Ortogonalidad
+                            Paso 1
+
+                            Construcción de un vector unitario en la dirección de v1, v1 ≠ 0, ya que { v1 , v2 ,..., vk }
+                            es linealmente independiente.
+                                        v1
+                            Sea u1 =       .
+                                        v1
+
+                            Paso 2
+
+                            Construcción de un vector ortogonal a u1.
+
+                            Sea:
+
+                                     v′2 = v2 − proyu1 v2 .
+
+                                                    ( v 2 · u1 )
+                                     proyu1 v 2 =           2
+                                                                   u1 ;
+                                                       u1
+
+                            como u1 = 1,
+
+
+                                     v ′2 = v 2 − ( v 2 · u1 )u1 .
+
+
+                            Veamos que v ′2 es ortogonal a u1:
+
+
+                                     v ′2 ⋅ u1 = v 2 ⋅ u1 − ( v 2 ⋅ u1 ) u1 ⋅ u1 = 0.
+                                                                          1
+
+
+                            Lo anterior se representa en la figura 8.1.
+
+
+                                                                              Figura 8.1
+
+                            Paso 3
+
+                            Construcción de un vector unitario en la dirección de v′2 .
+                                         v ′2
+                            Sea u 2 =         .
+                                         v ′2
+
+                            Entonces, {u1 , u 2 } es un conjunto ortonormal.
+
+110
+                                                                                                                                                                          n
+                                                                                                                      Módulo 8: Bases ortonormales y proyecciones en
+
+
+Supongamos que se ha construido {u1 , u 2 ,..., u p } ; p < k un conjunto ortonormal.
+Veamos cómo agregar un nuevo vector al conjunto, de modo que siga siendo
+ortonormal.
+
+Paso 4
+
+
+Construcción de un vector ortogonal a {u1 , u 2 ,..., u p } .
+
+Sea v ′p +1 = v p +1 − ( v p +1 · u1 )u1 − ... − ( v p +1 · u i )u i − ... − ( v p +1 · u p )u p .
+
+
+v ′p + 1 se construye quitándole al vector v p+1 sus proyecciones ortogonales sobre
+los vectores del conjunto ortonormal construido. Este vector es ortogonal a todos
+los vectores del conjunto. Veámoslo:
+v ′p +1 ·u i = v p +1 ·ui − ( v p +1 ·u1 ) (u1 ·u i )... − ( v p +1 ·u i ) (ui ·u i ) − ... − ( v p +1 ·u p ) (u p ·u i )
+                                                0                               1                                 0
+
+           = 0.
+
+Paso 5
+
+Construcción de un vector unitario en la dirección de v ′p+1 .
+
+                  v ′p +1
+Sea u p +1 =                .
+                  v ′p +1
+
+
+El proceso continúa hasta completar los k vectores de la base ortonormal.
+
+
+  Ejemplo 2
+
+          ⎧⎛ x ⎞                   ⎫
+          ⎪⎜ ⎟                     ⎪
+  Sea W = ⎨⎜ y ⎟ : x − y + 2 z = 0 ⎬ un subespacio en                          3
+                                                                                   .
+          ⎪⎜ z ⎟                   ⎪
+          ⎩⎝ ⎠                     ⎭
+
+  i.         Determine una base y la dimensión de W.
+  ii.        Determine una base ortonormal para W.
+
+
+                                                                                                                              Álgebra lineal elemental y aplicaciones
+                                                                                                                                                                        111
+Capítulo 2: Ortogonalidad
+
+                                          ⎛2⎞
+                                          ⎜ ⎟
+                            iii.   Si a = ⎜ 1 ⎟ ∈    3
+                                                         , determine proyW a.
+                                          ⎜ −1⎟
+                                          ⎝ ⎠
+                            Solución
+
+
+                                   ⎛ x⎞       ⎛ x ⎞ ⎛ y − 2z ⎞  ⎛ 1 ⎞ ⎛ −2 ⎞
+                                   ⎜ ⎟        ⎜ ⎟ ⎜          ⎟  ⎜ ⎟ ⎜ ⎟
+                            i.     ⎜ y ⎟ ∈W ⇔ ⎜ y ⎟ = ⎜ y ⎟ = y ⎜ 1 ⎟ + z ⎜ 0 ⎟ .
+                                   ⎜z⎟        ⎜z⎟ ⎜ z ⎟         ⎜0⎟ ⎜ 1 ⎟
+                                   ⎝ ⎠        ⎝ ⎠ ⎝          ⎠  ⎝ ⎠ ⎝ ⎠
+
+
+                                           ⎧⎛ 1 ⎞ ⎛ −2 ⎞ ⎫
+                                           ⎪⎜ ⎟ ⎜ ⎟ ⎪
+                                   W = gen ⎨⎜ 1 ⎟ , ⎜ 0 ⎟ ⎬ . Como los vectores son LI, entonces:
+                                           ⎪⎜ 0 ⎟ ⎜ 1 ⎟ ⎪
+                                           ⎩⎝ ⎠ ⎝ ⎠ ⎭
+
+                                   ⎧      ⎛1⎞           ⎛ −2 ⎞ ⎫
+                                   ⎪      ⎜ ⎟           ⎜ ⎟⎪
+                                   ⎨ v1 = ⎜ 1 ⎟ , v 2 = ⎜ 0 ⎟ ⎬ es una base para W . dim W = 2.
+                                   ⎪      ⎜0⎟           ⎜ 1 ⎟⎪
+                                   ⎩      ⎝ ⎠           ⎝ ⎠⎭
+
+                                   A partir de esta base, podemos construir una base ortonormal para W.
+
+                            ii.    Designemos {u1 , u 2 } la base ortonormal.
+
+                                                           ⎛1⎞
+                                                  v1   1 ⎜ ⎟
+                                   1.      u1 =      =      1 .
+                                                  v1    2 ⎜⎜ ⎟⎟
+                                                           ⎝0⎠
+
+
+                                   2.     v ′2 = v 2 − ( v 2 ·u1 ) u1
+
+
+                                               ⎛ −2 ⎞ ⎡⎛ −2 ⎞ ⎛ 1 2 ⎞ ⎤ ⎛ 1 2 ⎞ ⎛ −1⎞
+                                               ⎜ ⎟ ⎢⎜ ⎟ ⎜             ⎟⎥ ⎜      ⎟ ⎜ ⎟
+                                             = ⎜ 0 ⎟ − ⎢⎜ 0 ⎟ . ⎜ 1 2 ⎟ ⎥ ⎜ 1 2 ⎟ = ⎜ 1 ⎟ .
+                                               ⎜ 1 ⎟ ⎢⎜ 1 ⎟ ⎜ 0 ⎟ ⎥ ⎜ 0 ⎟ ⎜ 1 ⎟
+                                               ⎝ ⎠ ⎣⎝ ⎠ ⎝             ⎠⎦ ⎝      ⎠ ⎝ ⎠
+
+                                                          ⎛ −1⎞
+                                               v ′2   1 ⎜ ⎟
+                                   3.     u2 =      =       1 .
+                                               v ′2    3 ⎜⎜ ⎟⎟
+                                                          ⎝1⎠
+
+                                                                 ⎧⎛ 1 2 ⎞ ⎛ −1 3 ⎞ ⎫
+                                                                 ⎪⎜     ⎟ ⎜       ⎟⎪
+                                          Base ortonormal de W = ⎨⎜ 1 2 ⎟ , ⎜ 1 3 ⎟ ⎬ .
+                                                                 ⎪⎜ 0 ⎟ ⎜ 1 ⎟ ⎪
+                                                                 ⎩⎝     ⎠ ⎝ 3 ⎠⎭
+
+
+112
+                                                                                                                                                n
+                                                                                            Módulo 8: Bases ortonormales y proyecciones en
+iii.       proyW a = (a ·u1 )u1 + (a ⋅ u 2 )u 2 .
+
+                        ⎡⎛ 2 ⎞ ⎛ 1 2 ⎞ ⎤ ⎛ 1 2 ⎞ ⎡⎛ 2 ⎞ ⎛ −1 3 ⎞ ⎤ ⎛ −1 3 ⎞ ⎛ 13 6 ⎞
+                       ⎢ ⎜ ⎟ ⎜ 1 ⎟ ⎥ ⎜ 1 ⎟ ⎢⎜ ⎟ ⎜ 1 ⎟ ⎥ ⎜ 1 ⎟ ⎜ 5 ⎟
+                     = ⎢ ⎜ 1 ⎟ . ⎜ 2 ⎟ ⎥ ⎜ 2 ⎟ + ⎢⎜ 1 ⎟ . ⎜ 3 ⎟ ⎥ ⎜ 3 ⎟ = ⎜ 6 ⎟ .
+                       ⎢⎣⎜⎝ −1⎟⎠ ⎜⎝ 0 ⎟⎠ ⎥⎦ ⎜⎝ 0 ⎟⎠ ⎢⎜⎝ −1⎟⎠ ⎜ 1 3 ⎟ ⎥ ⎜ 1 3 ⎟ ⎜⎝ −2 3 ⎟⎠
+                                                    ⎣        ⎝     ⎠⎦ ⎝      ⎠
+
+
+                                               Figura 8.2
+
+
+Los vectores u1 y u 2 forman una base ortonormal para el plano generado por los
+vectores v1 y v2 (figura 8.2).
+
+Calcular las coordenadas de un vector relativas a una base puede ser un problema
+relativamente difícil; ahora, si la base es ortonormal, esto es bastante sencillo, como
+se ve en el siguiente teorema.
+
+       Ejemplo 5
+
+       En el plano del ejemplo 2 determinamos la base ortonormal:
+
+
+                  ⎧⎛ 1 2 ⎞ ⎛ −1 3 ⎞ ⎫
+                  ⎪⎜     ⎟ ⎜       ⎟⎪
+              B = ⎨⎜ 1 2 ⎟ , ⎜ 1 3 ⎟ ⎬
+                  ⎪⎜     ⎟ ⎜ 1 ⎟⎪
+                  ⎩⎝ 0 ⎠ ⎝ 3 ⎠ ⎭
+
+                  ⎛2⎞                         ⎛ 13 6 ⎞
+                  ⎜   ⎟                       ⎜ ⎟
+       y para a = ⎜ 1 ⎟ encontramos proyW a = ⎜ 5 6 ⎟ .
+                  ⎜ −1⎟                       ⎜ −2 ⎟
+                  ⎝ ⎠                         ⎝ 3⎠
+
+       Podemos expresar a como la suma de dos vectores p y q tales que:
+
+              p = proyW a y q = proyW ⊥ a,
+
+                                                                                                    Álgebra lineal elemental y aplicaciones
+                                                                                                                                              113
+                                                                                                                                       n
+                                                                                   Módulo 8: Bases ortonormales y proyecciones en
+
+       a = p + q ⇒ q = a − p = a − proyW a,
+           ⎛ 2 ⎞ ⎛ 13 6 ⎞ ⎛ −1 6 ⎞
+           ⎜ ⎟ ⎜ ⎟ ⎜ ⎟
+       q = ⎜ 1 ⎟ − ⎜ 5 6 ⎟ = ⎜ 1 6 ⎟ = proyW ⊥ a,
+           ⎜ −1⎟ ⎜ −2 ⎟ ⎜ −3 ⎟
+           ⎝ ⎠ ⎝ 3⎠ ⎝ 3⎠
+           ⎧⎛ x ⎞                   ⎫
+           ⎪⎜ ⎟                     ⎪
+       W = ⎨⎜ y ⎟ : x − y + 2 z = 0 ⎬ .
+           ⎪⎜ z ⎟                   ⎪
+           ⎩⎝ ⎠                     ⎭
+
+dim W = 2; como dim W + dim W ⊥ = 3, entonces dim W ⊥ = 1 . Luego el vector
+
+                                q
+q puede ser una base para W ⊥ y q una base ortonormal para W⊥.
+
+              1
+        q=         ,
+               6
+entonces:
+
+              ⎛ −1 6 ⎞ ⎛ −1 6 ⎞
+        q     ⎜ ⎟ ⎜           ⎟
+          = 6 ⎜ 16 ⎟ = ⎜ 1 6 ⎟ .
+        q     ⎜ −1 ⎟ ⎜ −2 ⎟
+              ⎝ 3⎠ ⎝ 6⎠
+
+                              ⎧⎛ −1 6 ⎞ ⎫
+                              ⎪⎜ ⊥    ⎟⎪
+       Base ortonormal de W = ⎨⎜ 1 6 ⎟ ⎬ .
+                              ⎪⎜ −2 ⎟ ⎪
+                              ⎩⎝ 6 ⎠ ⎭
+                                                                      ⊥
+No es necesario averiguar el valor de q para determinar la base de W . De la ecua-
+ción de W sabemos que (1, –1, 2) es un vector normal a W; por lo tanto, pertenece a
+W⊥.
+
+                               ⎧⎛ 1 ⎞ ⎫                             ⎧⎛ 1 6 ⎞ ⎫
+Luego, una base de W puede ser ⎨ −1 ⎬ y una base ortonormal de W = ⎪⎨⎜⎜ −1 6 ⎟⎟ ⎪⎬ .
+                       ⊥       ⎪⎜   ⎟ ⎪
+                                ⎜ ⎟
+                               ⎪⎜ 2 ⎟ ⎪                             ⎪⎜ 2 ⎟ ⎪
+                               ⎩⎝ ⎠ ⎭                               ⎩⎝ 6 ⎠ ⎭
+
+
+                                                                                           Álgebra lineal elemental y aplicaciones
+                                                                                                                                     117
+Capítulo 2: Ortogonalidad
+
+
+                 Ejemplo 1
+
+                 Encuentre la recta que da el mejor ajuste para los datos (2, 1), (3, 2), (4, 3), (5, 2).
+
+                 En este caso:
+
+
+                                ⎡1     2⎤       ⎡1 ⎤
+                                ⎢1      ⎥       ⎢2⎥
+                                       3⎥                   ⎛b⎞
+                              A=⎢         , Y = ⎢ ⎥,      X=⎜ ⎟
+                                ⎢1     4⎥       ⎢3⎥         ⎝m⎠
+                                ⎢       ⎥       ⎢ ⎥
+                                ⎣1     5⎦       ⎣2⎦
+
+                              AT AX = AT Y
+
+                            La propiedad v del producto escalar se convierte en propiedad conmutativa, ya que
+                            ( y ⋅ x ) = ( y ⋅ x ) debido a que el producto escalar es un número real.
+
+                            Del mismo modo, la propiedad vii del producto interno queda integrada con la
+                            propiedad vi, ya que los escalares son números reales y α (x ⋅ y ) = α (x ⋅ y ) .
+
+
+126
+Capítulo 2: Ortogonalidad
+
+
+                            Ejemplo 2
+
+                                  n
+                            En        , espacio vectorial de n-tuplas ordenadas de números complejos, puede
+                            definirse un producto interno como (x, y ) = x1 y1 + x2 y2 + ... + xn yn , con:
+
+
+                                       x = ( x1 , x2 ,..., xn ) e y = ( y1 , y2 ,..., yn ) .
+
+
+                            i.         (x, x) ≥ 0, ya que:
+
+                                       (x, x) = x1 x1 + x2 x2 + ... + x j x j + ... + xn xn
+                                                                             ⇓
+                                                                 (a j + b j i) (a j − b j i)
+                                                                 a 2j − b 2j i 2 (i 2 = −1)
+                                                                                     2
+                                                                 a 2j + b 2j = x j
+
+                                                                                2
+                                                 = x1 + x2 + ... + x j + ... + xn ≥ 0.
+                                                        2        2                             2
+
+
+                            ii.        (x , x) = 0 ⇔ x = 0.
+
+                            Las condiciones iii y iv se deducen del hecho de que z1 ( z2 + z3 ) = z1 z2 + z1 z3 para
+                            cualesquier números complejos z1 , z2 , z3 .
+
+                            Veamos la condición v.
+
+                                       (y , x) = y 1 x1 + y 2 x2 + .... + yn xn
+                                                = y1 x1 + y2 x2 + .... + yn xn
+                                                = y1 x1 + y2 x2 + .... + yn xn
+                                                = y1 x1 + y2 x2 + .... + yn xn
+                                                = x1 y1 + x2 y2 + .... + xn yn = (x, y ).
+
+
+                            La condición vi se deduce inmediatamente.
+
+                            Para vii, tenemos:
+
+
+136
+Capítulo 2: Ortogonalidad
+                                  Ejemplo 6
+
+                                  En C[ 0,1 ] , sean:
+
+                                              f (t ) = t 2 + 3,
+                                              g (t ) = 2t 2 − t.
+                                  Entonces:
+                                                            1
+                                              ( f , g ) = ∫ (t 2 + 3)(2t 2 − t ) dt
+                                                            0
+                                                            1
+                                                      = ∫ (2t 4 − t 3 + 6t 2 − 3t ) dt
+                                                            0
+                                                                                           1
+                                                            t5 t 4   t3 t2 ⎤ 13
+                                                      = 2     −    +6 −3 ⎥ =    .
+                                                            5   4    3  2 ⎦0 20
+
+
+                                   Ejemplo 7
+
+                                   En     2
+                                              , sea x = (2 + i, − 1 + 3i ). Calculemos x .
+
+
+                                                x =      ( x, x) ,
+                                               (x, x) = (2 + i )(2 − i ) + (−1 + 3i )(−1 − 3i ) = 15,
+
+                                                x =      15 .
+
+                                   Ejemplo 8
+
+                                   En     [0, 2π ] las funciones sen t y cos t son ortogonales. Veámoslo:
+
+                                                                                                                                      2π
+                                                                     2π             1 2π             cos 2t
+                                               (sen t , cos t ) = ∫ sen t cos t dt = ∫ sen 2t dt = −                                       = 0.
+                                                                   0                2 0                4 0
+
+
+                            Ejemplo 9
+
+                                  En     [0, 2π ] encontremos cos t .
+
+                                                                                                                              1
+                                                                                                     ⎡ 2π (1 + cos 2t ) ⎤
+                                                                                           1
+                                                                          2π
+                                                                                                                                  2
+
+                                                   (cos t , cos t ) = ⎡ ∫ cos 2 t dt ⎤
+                                                                                               2
+
+                                   cos t =                                                         = ⎢∫                dt ⎥
+                                                                      ⎢⎣ 0           ⎥⎦              ⎣ 0        2         ⎦
+                                                                          1
+                                                           2π
+                                            ⎛1⎛    sen 2t ⎞ ⎞
+                                                                              2
+
+
+                                          = ⎜ ⎜t +        ⎟ ⎟                     =   π.
+                                            ⎜2⎝      2 ⎠0 ⎟⎠
+                                            ⎝
+
+
+138
+                                                                                     Módulo 10: Espacios con producto interno
+
+
+Ejemplo 10
+
+Construyamos una base ortonormal en P2 [−1, 1]. Podemos partir de la base
+
+estándar {1, x, x } ; como todo polinomio es una función continua, P2 [ −1, 1] es
+                 2
+
+
+un subespacio de C [−1, 1] ; por lo tanto, emplearemos el producto interno defini-
+do en funciones continuas.
+
+
+Por lo tanto, una base ortonormal en P2 [−1, 1] ,es:
+
+
+           ⎧⎪ 1          3      5 2         ⎫⎪
+       B = ⎨     ,         x,     (3 x − 1) ⎬ .
+            ⎪⎩ 2         2      8            ⎪⎭
+
+
+       Ejemplo 1
+
+       La función f : → , tal que f (x) = mx analizada en la introducción es una trans-
+       formación lineal.
+
+       Ejemplo 11
+
+       Sea T : M mn → M nm tal que para A , T ( A) = AT . Como ( A + B )T = AT + BT y
+                                              m×n
+
+
+       (α A) = α A , T es lineal y se llama operador de transposición.
+             T       T
+
+
+                                                                                Álgebra lineal elemental y aplicaciones
+                                                                                                                          139

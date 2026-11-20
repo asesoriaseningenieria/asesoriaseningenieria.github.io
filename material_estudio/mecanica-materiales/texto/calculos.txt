@@ -1,0 +1,17 @@
+Parámetro             Valor o característica
+a                                0.8 m
+b                                2.7 m
+h                                1.7 m
+Longitud de las barras AD y BC   3.7 m
+Carga del motor                  359 kg
+Carga del rotor                  259 kg
+Velocidad de giro                1659 rpm
+Potencia                         15.7 hp
+
+
+x (m)                            3,29
+Peso del motor (N)               3.521,79
+Peso del rotor (N)               2.540,79
+Frecuencia angular (rad/s)
+Potencia (Nm/s)
+Momento de rotación (Nm)         67,39

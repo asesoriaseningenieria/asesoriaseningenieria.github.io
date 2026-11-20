@@ -1,0 +1,1102 @@
+CAPÍTULO 1 | Introducción
+
+
+                                       Longitud
+                                       En 1799 el metro se convirtió en el patrón legal de longitud en Francia, definido como
+                                       una diezmillonésima de la distancia a partir del Ecuador hasta el Polo Norte. Hasta 1960,
+                                       la longitud autorizada del metro fue la distancia entre dos líneas en una barra específica de
+                                       una aleación de platino-iridio almacenado bajo condiciones controladas. Este modelo fue
+                                       abandonado por varios motivos; el principal es que la medida de la separación entre las lí-
+                                       neas no son lo suficientemente precisas. En 1960 el metro fue definido como 1 650 763.73
+                                       veces la longitud de onda de la luz rojo anaranjada emitida por una lámpara de kriptón-86.
+           Definición de metro c       En octubre de 1983 esta definición también fue abandonada y el metro se redefinió como
+                                       la distancia recorrida por la luz en el vacío durante el intervalo de tiempo de 1/299 792 458
+                                       segundos. Esta última definición establece la rapidez de la luz en 299 792 458 metros por
+                                       cada segundo.
+
+
+                                       Masa
+      Definición de kilogramo c        La unidad de masa en el SI, el kilogramo, se define como la masa de un cilindro específico
+                                       de aleación de platino-iridio que se guarda en la International Bureau of Weights and Mea-
+ Tip 1.1 Ninguna coma                  sures en Sèvres, Francia (parecido al que se muestra en la figura 1.1a). Como se verá en el
+ en números con muchos                 capítulo 4, la masa es una cantidad que se utiliza para medir la resistencia a un cambio en
+ dígitos                               el movimiento de un objeto. Es más difícil provocar una alteración en el movimiento de un
+ En la ciencia, los números con        objeto de masa considerable, que un objeto con una masa más pequeña.
+ más de tres dígitos son escritos
+ en grupos de tres, separados por
+ un espacio, en lugar de comas;        Tiempo
+ de tal modo que 10 000 es la
+ misma que la notación común           Antes de 1960, el estándar de tiempo se definió en términos de la extensión promedio de
+ americana 10,000. De la misma         un día solar en el año 1900. (Un día solar es el tiempo entre las apariciones consecutivas
+ manera, p 5 3.14159265 se             del Sol en el punto más alto que logra en el cielo cada día.) La unidad básica de tiempo, el
+ rescribe como 3.141 592 65.           segundo, se define como (1/60)(1/60)(1/24) 5 1/86 400 del promedio del día solar. En
+                                       1967 el segundo fue definido una vez más al tomar ventaja de la alta precisión lograda con
+                                       un reloj atómico, que aplica la frecuencia característica de la luz emitida a causa del átomo
+        Definición de segundo c        de cesio-133 como su “reloj de referencia”. Ahora el segundo se define como 9 192 631 700
+                                       veces el periodo de oscilación de radiación a causa del átomo de cesio. El tipo de reloj
+                                       atómico de cesio más reciente se muestra en la figura 1.1b.
+
+
+Figura 1.1 a) El kilogramo están-
+dar nacional núm. 20, una copia fiel
+del kilogramo estándar internacio-
+nal que se guarda en Sèvres, Francia
+se aloja bajo una doble campana
+en una bóveda del National Institute
+of Standards and Technology.
+b) El reloj atómico de cesio; este
+reloj funcionará de manera exacta
+durante 20 millones de años.
+
+
+                                                  Cortesía de National Institute of Standards and Technology,
+
+
+                                                                                                                    © 2005 Fotografía de Geoffrey Wheeler
+                                                  U.S. Dept. of Commerce
+
+
+                                                                                                                a                                           b
+                                                                                           1.1 | Estándares de longitud, masa y tiempo
+
+Tabla 1.1 Valores aproximados de algunas longitudes observadas                                             Tabla 1.2 Valores aproximados
+                                                                                                           de algunas masas
+                                                                                          Longitud (m)
+                                                                                                                                 Masa (kg)
+Distancia de la Tierra al cuásar conocido más alejado                                       1 3 1026
+Distancia de la Tierra a las galaxias normales conocidas más alejadas                       4 3 1025       Universo observable   1 3 1052
+Distancia de la Tierra a la galaxia cercana más grande (M31, la galaxia                     2 3 1022       Galaxia Vía Láctea    7 3 1041
+de Andrómeda)                                                                                              Sol                   2 3 1030
+Distancia de la Tierra a la estrella más cercana (Próxima Centauri)                         4 3 1016       Tierra                6 3 1024
+Un año luz                                                                                  9 3 1015       Luna                  7 3 1022
+Radio orbital promedio de la Tierra alrededor del Sol                                       2 3 1011       Tiburón               1 3 102
+Distancia promedio de la Tierra hacia la Luna                                               4 3 108        Humano                7 3 101
+Radio promedio de la Tierra                                                                 6 3 106        Rana                  1 3 1021
+Altitud representativa de satélites orbitando la Tierra                                     2 3 105        Mosquito              1 3 1025
+Longitud de un campo de fútbol                                                              9 3 101        Bacteria              1 3 10215
+Longitud de una mosca doméstica                                                             5 3 1023       Átomo de hidrógeno    2 3 10227
+Tamaño de las partículas de polvo más pequeñas                                              1 3 1024       Electrón              9 3 10231
+Tamaño de las células de la mayoría de los seres vivos                                      1 3 1025
+Diámetro del átomo de hidrógeno                                                             1 3 10210
+Diámetro del núcleo atómico                                                                 1 3 10214
+Diámetro del protón                                                                         1 3 10215
+
+
+Valores aproximados de longitud, masa e intervalos de tiempo
+Los valores aproximados de algunas longitudes, masas e intervalos de tiempo se mencio-
+nan en las tablas 1.1, 1.2 y 1.3, respectivamente. Observe la amplia escala de valores. Es-
+tudie estas tablas para tener una idea de un kilogramo de masa (este libro tiene una masa
+de casi dos kilogramos), un intervalo de tiempo de 1010 segundos (un siglo es casi 3 3 109
+segundos) o dos metros de longitud (la altura aproximada de un delantero en el equipo
+de basquetbol). En el apéndice A revise la notación en potencias de 10, tal como la expre-
+sión del número 50 000 en la forma 5 3 104.
+    Los sistemas de unidades usualmente utilizados en física son el Système International,
+en el cual las unidades de longitud, masa y tiempo son el metro (m), kilogramo (kg) y se-
+gundo (s); el sistema cgs o gaussiano, en el que las unidades de longitud, masa y tiempo
+son los centímetros (cm), gramos (g) y segundos (s); y el sistema acostumbrado en Estados
+Unidos en el que las unidades de longitud, masa y tiempo son el pie (pie), slug y segundo.
+Las unidades SI son casi universalmente aceptadas en la ciencia y en la industria y serán
+aplicadas en todas las partes del texto. Se harán aplicaciones limitadas de las unidades
+gaussianas y de las que se acostumbran en Estados Unidos.
+    En la tabla 1.4 se mencionan algunos de los prefijos “métricos” (SI y cgs) que se utilizan
+con más frecuencia representados en potencias de 10 y sus abreviaciones. Por ejemplo,                      Tabla 1.4 Algunos prefijos para
+                                                                                                           potencias de 10 aplicados con
+                                                                                                           unidades “métricas” (SI y cgs)
+Tabla 1.3 Valores aproximados de algunos intervalos de tiempo                                              Potencia   Prefijo Abreviatura
+
+                                                                                 Intervalo de tiempo (s)    10218     ato-          a
+                                                                                                            10215     femto-        f
+Edad del Universo                                                                      5 3 1017             10212     pico-        p
+Edad de la Tierra                                                                      1 3 1017             1029      nano-        n
+Edad promedio del estudiante universitario                                             6 3 108              1026      micro-       m
+Un año                                                                                 3 3 107              1023      mili-        m
+Un día                                                                                 9 3 104              1022      centi-        c
+Tiempo entre pulsos normales del corazón                                               8 3 1021             1021      deci-        d
+Periodoa de ondas sonoras audibles                                                     1 3 1023             101       deca-        da
+Periodoa de ondas de radio representativas                                             1 3 1026             103       kilo-        k
+Periodoa de vibración del átomo en un sólido                                           1 3 10213            106       mega-        M
+Periodoa de ondas de luz visible                                                       2 3 10215            109       giga-        G
+Duración de una colisión nuclear                                                       1 3 10222            1012      tera-        T
+Tiempo necesario para que la luz viaje a través de un protón                           3 3 10224            1015      peta-        P
+a
+    Un periodo se define como el tiempo necesario para una vibración completa.                              1018      exa-         E
+                                                                     1.4    Incertidumbre en la medición y cifras signiﬁcativas
+
+
+  1.4 Incertidumbre en la medición
+      y cifras significativas
+La física es una ciencia en la que las leyes matemáticas son probadas a través de experimen-
+tos. Ninguna cantidad física puede ser determinada con precisión íntegra porque nuestros
+sentidos están físicamente limitados, incluso cuando los extendemos con microscopios,
+ciclotrones y otros mecanismos. En consecuencia, es importante desarrollar métodos para
+determinar la exactitud de las mediciones.
+    Todas las mediciones tienen incertidumbres asociadas con ellas, aunque no sean es-
+tablecidas explícitamente. La exactitud de una medición depende de la sensibilidad del
+aparato, la habilidad de la persona que realiza la medición y el número de veces que se
+repita la medición. Una vez que se conocen las mediciones, junto con sus incertidumbres,
+sucede que los cálculos deben realizarse utilizando estas mediciones. Supongamos que dos
+mediciones se multiplican. Cuando se utiliza una calculadora para obtener este producto,
+este puede aparecer con ocho dígitos en la pantalla de la calculadora, pero a menudo
+sólo dos o tres de esos números tienen un significado. El resto no tienen ningún valor,
+ya que implica una mayor precisión de la que en realidad se había logrado en las medi-
+ciones originales. En el trabajo experimental, para determinar la cantidad de números a
+conservar se requiere de la aplicación de estadística matemática y la propagación de las
+incertidumbres. En un libro de texto no es práctico aplicar herramientas sofisticadas en
+los numerosos cálculos, así que se utiliza un método sencillo, llamado cifras significativas,
+para indicar el número aproximado de dígitos que debe mantenerse al final de un cálculo.
+A pesar de que el método no es matemáticamente riguroso, es fácil de aplicar y funciona
+bastante bien.
+    Considere que en un laboratorio se mide con una regla el área de una placa rectan-
+gular. Considere que la precisión a la cual se puede medir una dimensión particular de la
+placa es 60.1 cm. Si la longitud de la placa se observa que es 16.3 cm, es posible afirmar
+que sólo se encuentra en algún lugar entre 16.2 y 16.4 cm. En este caso, se dice que el va-
+lor observado tiene tres cifras significativas. De la misma manera, si se mide el ancho de la
+placa que es 4.5 cm, el valor real se encuentra entre 4.4 y 4.6 cm. Este valor observado sólo
+tiene dos cifras significativas. Los valores observados se podrían escribir como 16.3 6 0.1 cm y
+4.5 6 0.1 cm. En general, una cifra significativa es un dígito conocido con seguridad (dife-
+rente al cero que se aplica para localizar un punto decimal). Tenga en cuenta que en cada
+caso, el número final tiene cierto grado de incertidumbre asociado con él y, por lo tanto
+no es 100% fiable. A pesar de la incertidumbre, ese número es mantenido y se considera
+importante, ya que nos transmite alguna información.
+     CAPÍTULO 1 | Introducción
+
+                                         Suponga que se quiere hallar el área de la placa multiplicando los dos valores observa-
+                                     dos. El valor final puede estar entre (16.3 2 0.1 cm)(4.5 2 0.1 cm) 5 (16.2 cm)(4.4 cm) 5
+                                     71.28 cm2 y (16.3 1 0.1 cm)(4.5 1 0.1 cm) 5 (16.4 cm) (4.6 cm) 5 75.44 cm2. Afirmando
+                                     saber algo de la centésima o incluso de la décima, no tiene sentido, porque es claro que
+                                     incluso no se puede estar seguro de los lugares de los elementos, si es 1 en 71, el 5 en 75
+                                     o en alguna parte entre ellos. Sin duda las décimas y las centésimas no son significativas. Se
+                                     tiene alguna información acerca del lugar de los elementos, de tal modo que la cifra es signi-
+                                     ficativa. Multiplicando las cifras en medio del intervalo de incertidumbre resulta (16.3 cm)
+                                     (4.5 cm) 5 73.35 cm2, que también está en medio del intervalo de incertidumbre. Ya que
+                                     las centésimas y décimas no son significativas, se omiten y se toma la respuesta de 73 cm2,
+                                     con una incertidumbre de 62 cm2. Observe que la respuesta tiene dos cifras significativas,
+                                     el mismo número de cifras que la cantidad conocida menos precisa que se está multipli-
+                                     cando, el ancho de 4.5 cm.
+                                         Los cálculos realizados en el párrafo anterior pueden indicar el número correcto de
+                                     cifras significativas, pero consumen mucho tiempo. En su lugar, se pueden aplicar dos
+                                     reglas de oro. La primera, acerca de la multiplicación y la división, es como sigue. En la
+                                     multiplicación (división) de dos o más cantidades, el número de cifras significativas en el
+                                     producto final (cociente) es el mismo que el número de cifras significativas en el menos
+                                     exacto de los factores que se están combinando, donde el menos exacto significa que tiene el
+                                     menor número de cifras significativas.
+                                         Al obtener el número final de cifras significativas, por lo general es necesario hacer al-
+                                     gún redondeo. Si el último dígito que se omite es menor que 5, simplemente se excluye el
+                                     dígito. Si el último dígito omitido es mayor que o igual que 5, se asciende este último dígito
+                                     retenido en uno.1
+                                         Es posible que los ceros sean o no cifras significativas. Los ceros utilizados para la posi-
+                                     ción del punto decimal en tales números como 0.03 y 0.007 5 no son significativos (pero
+Tip 1.2 Cómo utilizar
+                                     son útiles en evitar errores). Por lo tanto, 0.03 tiene una cifra significativa y 0.007 5 tiene dos.
+calculadoras
+                                         Cuando se colocan ceros después de otros dígitos en un número entero existe una
+Las calculadoras fueron diseña-
+                                     posibilidad de interpretación falsa. Por ejemplo, considere que la masa de un objeto se
+das por ingenieros para producir
+tantos dígitos como el chip de       da como 1 500 g. Este valor es confuso, porque no sabemos si los dos últimos ceros se están
+memoria de la calculadora lo         aplicando para localizar el punto decimal o si representan cifras significativas en la medida.
+permita, de tal modo que es              Aplicando la notación científica para indicar el número de cifras significativas se retira
+seguro redondear la respuesta        esta confusión. En este caso, la masa se expresa como 1.5 3 103 g si existen dos cifras signi-
+final al número correcto de cifras   ficativas en el valor observado, 1.50 3 103 g si existen tres cifras significativas y 1.500 3 103 g
+significativas.                      si existen cuatro. De la misma manera, 0.000 15 se expresa en notación científica como
+                                     1.5 3 1024 si tiene dos cifras significativas o como 1.50 3 1024 si tiene tres cifras significati-
+                                     vas. Los tres ceros entre el punto decimal y el dígito 1 en el número 0.000 15 no se cuentan
+                                     como cifras significativas porque únicamente localizan el punto decimal. En este libro, la
+                                     mayoría de los ejemplos numéricos y problemas de fin de capítulo producirán respuestas
+                                     que tienen dos o tres cifras significativas.
+                                         Para la suma y la resta, es mejor concentrarse en el número de cifras decimales en
+                                     las cantidades involucradas antes que en el número de cifras significativas. Cuando los
+                                     números son sumados (restados), el número de cifras decimales en el resultado es igual
+                                     al número más pequeño de cifras decimales de cualquier término en la suma (diferencia).
+                                     Por ejemplo, si queremos calcular 123 (cero cifras decimales) 1 5.35 (dos cifras decima-
+                                     les), la respuesta es 128 (cero cifras decimales) y no 128.35. Si calculamos la suma 1.000 1
+                                     (cuatro cifras decimales) 1 0.000 3 (cuatro cifras decimales) 5 1.000 4, el resultado tiene
+                                     el número correcto de cifras decimales, específicamente, cuatro. Observe que las reglas
+                                     para multiplicar cifras significativas no funciona en este caso porque la respuesta tiene cin-
+                                     co cifras significativas, incluso aunque uno de los términos en la suma 0.000 3, tiene
+                                     sólo una cifra significativa. De la misma manera, si realizamos la resta 1.002 2 0.998 5
+                                     0.004, el resultado tiene tres cifras decimales porque cada término en la resta tiene tres
+                                     cifras decimales.
+
+
+                                     1
+                                      Algunos prefieren redondear al dígito par más cercano cuando el último dígito es 5, lo que tiene la ventaja
+                                     de redondear 5 hacia arriba la mitad de las veces y hacia abajo la otra mitad. Por ejemplo, 1.55 se redondea a 1.6,
+                                     pero 1.45 podría redondearse a 1.4. Debido a que la cifra final importante es sólo un representante de una serie
+                                     de valores dados por la incertidumbre, este refinamiento es muy pequeño y no se utiliza en este texto.
+                                                                                                                            El poseedor del récord actual
+                                                                                                                            absoluto de velocidad en
+                                                                                                                            tierra es el diseño británico
+                                                                                                                            ThrustSSC, un coche con
+                                                                                                                            motor turbofan gemelo que
+                                                                                                                            alcanzó 763 millas por hora
+                                                                                                                            (1 228 km/h) para la milla
+                                                                                                                            (1.6 km), rompiendo la barrera
+                                                                                                                            del sonido. El coche fue
+                                                                                                                            conducido por Andy Green
+                                                                                                                            (Reino Unido) el 15 de octubre
+                                                                                                                            de 1997 en el desierto Black
+                                                                                                                            Rock en Gerlach, Nevada.
+
+
+AP Photo/Ben Margot
+
+
+                                                               Movimiento
+                                                          en una dimensión                                                                    2
+                      La vida es movimiento. Nuestros músculos coordinan microscópicamente el movimiento que                2.1 Desplazamiento
+                      nos permite caminar y desplazarnos. Nuestros corazones bombean sin descanso por décadas,
+                                                                                                                            2.2 Velocidad
+                      moviendo la sangre a través de nuestros cuerpos. Los mecanismos de las paredes de la célula
+                      mueven de manera selectiva átomos y moléculas hacia adentro y hacia afuera de las mismas.             2.3 Aceleración
+                      Desde la persecución prehistórica del antílope a través de la sabana, hasta el seguimiento de
+                                                                                                                            2.4 Diagramas de movimiento
+                      satélites en el espacio, el dominio del movimiento ha sido crucial para la sobrevivencia y éxito
+                      nuestros como especie.                                                                                2.5 Movimiento en una dimensión
+                           Al estudio del movimiento y de los conceptos físicos como la fuerza y la masa se le conoce           con aceleración constante
+                      como dinámica. La parte de la dinámica que describe el movimiento sin importar sus causas se
+                                                                                                                            2.6 Objetos en caída libre
+                      le conoce como cinemática. En este capítulo, el enfoque es sobre la cinemática en una dimen-
+                      sión: movimiento a lo largo de una línea recta. Esta clase de movimiento y, en realidad cualquier
+                      movimiento, involucra los conceptos de desplazamiento, velocidad y aceleración. Aquí se utilizan
+                      para estudiar el movimiento de objetos que se someten a una aceleración constante. En el capítulo
+                      3 se reproducirá esta explicación para objetos moviéndose en dos dimensiones.
+                           La primera evidencia registrada del estudio de la mecánica puede ser atribuida a la gente de
+                      la antigua Sumeria y Egipto, quienes estuvieron interesados principalmente en comprender los
+                      movimientos de los cuerpos celestes. Los primeros estudios más sistemáticos y detallados del cielo
+                      fueron realizados por los griegos desde el año 300 a.C. hasta el 300 d.C. Los antiguos científicos
+                      y la gente común consideraron a la Tierra como el centro del Universo. Este modelo geocéntrico
+                      fue extensamente aceptado por personajes notables como Aristóteles (384-322 a.C.) y Claudio
+                      Ptolomeo (hacia 140 d.C.) y, debido a la autoridad de Aristóteles, el modelo geocéntrico fue la
+                      teoría del Universo aceptada hasta el siglo XVII.
+                           Hacia el año 250 a.C. el filósofo griego Aristarco trabajó los detalles de un modelo del Sis-
+                      tema solar en términos de una Tierra esférica que gira en su eje y revoluciona alrededor del Sol.
+                      Propuso que el cielo parece girar desde el Oeste porque la Tierra estaba girando hacia el Este. A
+                      este modelo no se le dio mucha importancia porque se creía que una Tierra girando generaría
+                      vientos poderosos que se mueven a través del aire. Ahora se sabe que la Tierra transporta el aire
+                      y diferentes cosas con ella mientras se mueve.
+                           Al astrónomo polaco Nicolás Copérnico (1473-1543) se le acredita como el iniciador de
+                      la revolución que finalmente sustituye el modelo geocéntrico. En su sistema, conocido como
+                      modelo heliocéntrico, la Tierra y los otros planetas giran en órbitas circulares alrededor del Sol.
+               CAPÍTULO 2 | Movimiento en una dimensión
+
+                                                     Este conocimiento inicial formó los fundamentos para el trabajo de Galileo Galilei (1564-
+                                                 1642), a quien se le reconoce como el principal facilitador de la entrada de la física en la era
+                                                 moderna. En 1609 se convierte en uno de los primeros en hacer observaciones astronómicas con
+                                                 un telescopio. Observó montañas en la Luna, los grandes satélites de Júpiter, manchas en el Sol
+                                                 y las fases de Venus. Las observaciones de Galileo lo convencieron de la certeza de la teoría de
+                                                 Copérnico. Su estudio cuantitativo del movimiento configuró los fundamentos del trabajo revo-
+                                                 lucionario de Newton en el siglo siguiente.
+
+
+                                                    2.1 Desplazamiento
+                                                 El movimiento involucra el desplazamiento de un objeto desde un lugar en el espacio y
+                                                 tiempo hacia otro. Describir el movimiento requiere algún sistema coordenado conve-
+                                                 niente y un origen específico. Un marco de referencia es una elección de ejes coordenados
+                                                 que definen el punto de inicio para medir cualquier cantidad, una primera etapa esencial
+                                                 en la solución implícita de cualquier problema en mecánica (figura 2.1). Por ejemplo, en
+                                                 la figura activa 2.2a, un automóvil se traslada a lo largo del eje x. Las coordenadas del auto
+                                                 en cualquier momento describen su posición en el espacio y lo más importante, su despla-
+                                                 zamiento en algún tiempo de interés dado.
+
+Definición de desplazamiento c                       El desplazamiento )x de un objeto se define como su cambio de posición y está dado por
+                                                                                             )x ; xf 2 xi                               [2.1]
+                                                     donde la posición inicial del auto se marca con xi y la posición final xf . (Los índices
+                                                     i y f establecen el inicio y el final, respectivamente.)
+                                                     Unidad SI: metro (m)
+
+                                                 Utilizaremos la letra griega delta, ), para indicar un cambio en cualquier cantidad física. A
+Tip 2.1 ¡Un desplazamiento                       partir de la definición de desplazamiento, vemos que )x (se lee “delta equis”) es positiva si
+no es una distancia!                             xf es mayor que xi y es negativa si xf es menor que xi. Por ejemplo, si el auto se mueve desde
+                                                 el punto  hasta el punto  de tal modo que la posición inicial es xi 5 30 m y la posición
+El desplazamiento de un objeto
+no es lo mismo que la distancia                  final es xf 5 52 m, el desplazamiento es )x 5 xf 2 xi 5 52 m 2 30 m 5 122 m. Sin embargo,
+que recorre. Arroje una pelota                   si el automóvil se mueve desde el punto  hasta el punto , en tal caso la posición inicial
+de tenis hacia arriba y atrápela.                es xi 5 38 m y la posición final es xf 5 253 m, y el desplazamiento es )x 5 xf 2 xi 5 253 m
+La pelota recorre una distancia                  2 38 m 5 291 m. Una respuesta positiva indica un desplazamiento en la dirección x posi-
+igual a dos veces la altura máxima               tiva, mientras que una respuesta negativa indica desplazamiento en la dirección x negativa.
+que alcanza, pero su desplaza-                   La figura activa 2.2b despliega la representación gráfica de la posición del automóvil como
+miento es cero.
+                                                 una función del tiempo.
+
+
+  NASA/USGS
+
+
+                a
+
+
+                                                                                              NASA/USGS
+              Figura 2.1 a) ¿Qué tan grande es el cañón? Sin un marco de referencia,
+              es difícil decirlo. b) El cañón es Valles Marineris en Marte, y con un marco
+              de referencia proporcionado por un esquema superpuesto de los Estados
+              Unidos, su tamaño es fácil de entender.                                                     b
+                                                                                                                             2.2 | Velocidad
+
+
+                                                  El auto se mueve a la
+                                                  derecha entre las
+                                                  posiciones  y .
+
+                                                                                       x (m)
+                                                                                        60            
+                                                                               x (m)
+                                                                                        40                 x    
+60 50 40 30 20 10            0    10   20      30    40    50       60
+                                                                                        
+                                                                                        20       t
+                                                       
+                                                                                         0
+                                                                                                                         
+                                                                               x (m)
+60 50 40 30 20 10            0    10   20      30    40    50       60           20
+                          El auto se mueve a la                                                                                    
+                                                                                       40
+                          izquierda entre las                                                                                           
+                          posiciones  y .                                            60                                                     t (s)
+                                                                                             0        10        20      30        40     50
+
+  a                                                                                     b
+
+Figura activa 2.2
+a) Un automóvil se mueve de atrás hacia adelante a lo largo de una línea recta que se toma como el eje
+x. Debido a que estamos interesados sólo en la traslación del automóvil, podemos representarlo como
+un partícula. b) Gráfica de posición en términos del tiempo para el movimiento de la “partícula”.
+
+
+    Debido a que el desplazamiento tiene una magnitud (tamaño) y una dirección, es una
+                                                                                                                 Tip 2.2 Los vectores tienen
+cantidad vectorial, como lo son la velocidad y la aceleración. En general, una cantidad
+                                                                                                                 tanto una magnitud como
+vectorial se caracteriza por tener una magnitud y una dirección. En contraste, una canti-                        una dirección
+dad escalar tiene magnitud, pero no dirección. Las cantidades escalares como la masa y
+                                                                                                                 Los escalares tienen tamaño. Los
+la temperatura se especifican por completo mediante un valor numérico con unidades                               vectores, también, tienen tamaño,
+adecuadas; no se involucra dirección alguna.                                                                     pero además indican una
+    Las cantidades vectoriales frecuentemente se indican en negritas con una flecha en-                          dirección.
+                                                    S                        S
+cima de la parte superior de la letra. Por ejemplo, v representa velocidad y a indica una
+aceleración, ambas cantidades vectoriales. No obstante, en este capítulo no es necesario
+utilizar esa notación porque en el movimiento en una dimensión un objeto sólo puede
+moverse en una de dos direcciones, y estas direcciones se especifican fácilmente mediante
+los signos más y menos.
+
+
+  2.2 Velocidad
+En el uso cotidiano, los términos rapidez y velocidad son intercambiables. Sin embargo, en
+física existe una distinción evidente entre ellos: rapidez es una cantidad escalar, sólo tiene
+magnitud, mientras que la velocidad es un vector, pues tiene magnitud y dirección.
+     ¿Por qué la velocidad es un vector? Si se quiere ir a una ciudad a 70 km de distancia en
+el tiempo de una hora, no es suficiente conducir con una rapidez de 70 km/h; también
+necesita viajar en la dirección correcta. Esto es evidente, pero muestra que la velocidad
+proporciona considerablemente más información que la rapidez, como se hará más preci-
+so en la definición formal.
+
+   La rapidez promedio de un objeto en un intervalo de tiempo determinado es la                                 b Definición de rapidez
+   distancia total recorrida dividida entre el tiempo total transcurrido:                                         promedio
+
+                                                           distancia total
+                             Rapidez promedio ;
+                                                            tiempo total
+   Unidades SI: metros por segundo (m/s)
+CAPÍTULO 2 | Movimiento en una dimensión
+
+                             Simbólicamente, esta ecuación se podría rescribir v 5 d/t, con la letra v en el enten-
+                         dido de que es la rapidez promedio (no una velocidad), d representa la longitud de la
+                         trayectoria y t el tiempo trascurrido durante el movimiento. La longitud del trayecto es
+                         llamada a menudo “distancia total”, pero puede ser engañoso, porque la distancia tiene
+                         un diferente y preciso significado matemático basado en las diferencias en las coordenadas
+                         entre los puntos iniciales y los puntos finales. La distancia (despreciando la curvatura de
+                         la superficie) está dada por el teorema de Pitágoras, Ds 5 1 xf 2 xi 2 2 1 1 yf 2 yi 2 2 , que
+                         depende sólo de los criterios de valoración, (xi, yi) y (xf, yf), y no en lo que sucede en el
+                         medio. La misma ecuación da la magnitud de un desplazamiento. La distancia en línea
+                         recta de Atlanta, Georgia, a San Petersburgo, Florida, por ejemplo, es de unas 500 millas.
+                         Si alguien conduce un coche esa distancia en 10 h, la velocidad media del vehículo es de
+                         500 mi/10 h 5 50 mi/h, aunque la velocidad del coche varía mucho durante el viaje. Sin
+                         embargo, si el conductor toma desvíos escénicos de la ruta directa a lo largo del camino, o
+                         se regresa, aumenta la longitud del desplazamiento, mientras que la distancia entre las dos
+                         ciudades se mantiene igual. Un viaje a Jacksonville, Florida, por ejemplo, podría añadir
+                         100 millas a la longitud del viaje, por lo que la velocidad media del coche entonces sería
+                         de 600 mi/10 h 5 60 mi/h. La magnitud de la velocidad media, sin embargo, siguen siendo
+                         50 mi/h.
+                                                                                                            2.2 | Velocidad         29
+
+    A diferencia de la rapidez promedio, la velocidad promedio es una cantidad vectorial,
+que tiene una magnitud y una dirección. Considere una vez más el automóvil de la figura 2.2,
+moviéndose a lo largo del camino (el eje x). Haga que la posición del automóvil sea xi en
+algún tiempo ti y xf en un tiempo posterior tf. En el intervalo de tiempo )t 5 tf 2 ti el des-
+plazamiento del automóvil es )x 5 xf 2 xi.
+
+   La velocidad promedio v] durante un intervalo de tiempo )t es el desplazamiento )x            b Definición de velocidad
+   dividido entre )t:                                                                              promedio
+
+                                        Dx   xf 2 x i
+                                  v ;      5                                           [2.2]
+                                        Dt   tf 2 ti
+   Unidades SI: metros por segundo (m/s)
+
+    A diferencia de la rapidez promedio, que siempre es positiva, la velocidad promedio de       Tabla 2.1 Posición del
+un objeto en una dimensión puede ser positiva o negativa, dependiendo del signo del des-         automóvil en diferentes
+plazamiento. (El intervalo de tiempo )t siempre es positivo.) Por ejemplo, en la figura 2.2a     tiempos
+la velocidad promedio del automóvil es positiva en la ilustración superior, un signo positivo
+                                                                                                 Posición         t (s)        x (m)
+indica movimiento a la derecha a lo largo del eje x. De la misma manera, una velocidad
+promedio negativa para el automóvil, en la ilustración inferior de la figura, indica que se                       0               30
+mueve a la izquierda a lo largo del eje x.                                                                       10               52
+    Como ejemplo, se puede utilizar la información de la tabla 2.1 para determinar la velo-                      20               38
+cidad promedio en el intervalo de tiempo desde el punto  hasta el punto  (considere                            30                0
+dos cifras significativas):                                                                                      40              237
+                                                                                                                 50              253
+                                   Dx   52 m 2 30 m
+                              v5      5             5 2.2 m/s
+                                   Dt    10 s 2 0 s
+Además de metros por segundo, otras unidades comunes para la velocidad promedio son
+pies por segundo (pies/s) en el sistema acostumbrado en Estados Unidos y centímetro por
+segundo (cm/s) en el sistema cgs.
+    Para explicar más ampliamente la diferencia entre rapidez y velocidad, considere que                                          x
+está viendo una carrera desde un pequeño dirigible. En una carrera vemos un automóvil                 xi                     xf
+seguir la trayectoria en línea recta desde  hasta    como se muestra en la figura 2.3 du-
+rante el intervalo de tiempo )t, y en una segunda carrera un auto sigue la trayectoria curva     Figura 2.3 Una carrera de veloci-
+                                                                                                 dad vista desde un pequeño dirigi-
+durante el mismo intervalo. De la definición en la ecuación 2.2, los dos autos tienen la
+                                                                                                 ble. Un auto sigue la trayectoria en
+misma velocidad promedio porque tienen el mismo desplazamiento )x 5 xf 2 xi durante              línea recta roja desde  hasta ,
+el mismo intervalo de tiempo )t. De cualquier modo, el auto que toma el camino curvo             y un segundo auto sigue la trayecto-
+recorrió una distancia mayor y tuvo la rapidez promedio más alta.                                ria curva azul.
+
+
+ ■ Examen rápido
+
+ 2.1 La figura 2.4 muestra la trayectoria
+ inusitada de un confundido jugador de
+ fútbol. Después de recibir el balón en su
+ propia meta, corre hacia el campo contra-
+ rio cerca de la zona de anotación, invierte
+ la dirección y corre de regreso hasta que
+ es atrapado en la ubicación exacta donde
+ en principio atrapó el balón. Durante esta
+ corrida, que le tomó 25 segundos, ¿cuál             0 yd             50 yd             100 yd
+ es a) la distancia total que viajó, b) su des-   Figura 2.4 (Examen rápido 2.1) La trayecto-
+ plazamiento y c) su velocidad promedio           ria de un confundido jugador de fútbol.
+ en la dirección x? d) ¿Cuál es su rapidez
+ promedio?
+
+
+Interpretación gráfica de la velocidad
+Si un automóvil se mueve a lo largo del eje x desde  hasta  y luego hasta , y así suce-
+sivamente, se pueden dibujar las posiciones de estos puntos como una función del tiempo
+transcurrido desde el inicio del movimiento. El resultado es una representación gráfica
+30      CAPÍTULO 2 | Movimiento en una dimensión
+
+Figura activa 2.5
+                                                                                                              La velocidad media entre los dos
+a) Gráfica de la posición vs.
+                                                                                                              puntos es igual a la pendiente de la
+tiempo para el movimiento
+                                                                                                              línea azul que conecta los puntos.
+de un automóvil moviéndose
+a lo largo del eje x con velo-           x (m)                                                        x (m)
+cidad constante. b) Gráfica             60                                                           60         
+de la posición vs. tiempo
+para el movimiento de un                40
+                                                                                                    40                   
+automóvil con velocidad                                                                              
+cambiante, utilizando la                20                                                           20
+información de la tabla 2.1.
+                                            0                                                         0                            
+                                                         
+                                       –20                                                          20
+                                                
+                                                                                                                                            
+                                       –40                                                          40
+                                                                                                                                                     
+                                       –60                                                  t (s)   60                                                t (s)
+                                                0       10      20     30      40      50                 0     10       20       30       40        50
+
+                                            a                                                         b
+
+
+                                                    posición vs. tiempo parecida a la figura activa 2.5. En la figura 2.5a, la gráfica es una línea
+ Tip 2.3 Pendientes
+                                                    recta porque el automóvil se mueve con velocidad constante. El mismo desplazamiento )x
+ de gráficas
+                                                    se presenta en cada intervalo de tiempo )t. En este caso, la velocidad promedio siempre es
+ Con frecuencia la palabra pen-
+                                                    la misma y es igual a )x/)t. La figura 2.5b es una gráfica de la información de la tabla 2.1.
+ diente se utiliza en referencia a las
+ gráficas de datos físicos. Indepen-                Aquí, la gráfica posición vs. tiempo no es una línea recta ya que la velocidad del auto está
+ dientemente de la clase de datos,                  cambiando. No obstante, entre dos puntos cualesquiera se puede dibujar una línea recta
+ la pendiente se conoce mediante                    justo como en la figura 2.5a, y la pendiente de esa recta es la velocidad promedio )x/)t en
+                cambio en el eje vertical           ese intervalo de tiempo. En general, la velocidad promedio de un objeto durante el inter-
+ Pendiente 5
+               cambio en el eje horizontal          valo de tiempo )t es igual a la pendiente de la línea recta que une los puntos inicial y final
+ La pendiente tiene unidades.                       en una gráfica de la posición del objeto en términos del tiempo.
+                                                         A partir de la información de la tabla 2.1 y la gráfica en la figura 2.5b, se ve que el
+                                                    automóvil se mueve en la dirección x positiva cuando viaja desde  hasta , alcanza una
+ Tip 2.4 Velocidad promedio                         posición de 52 m en el tiempo t 5 10 s, después invierte la dirección y se dirige de regreso.
+ vs. rapidez promedio                               En los primeros 10 s de su movimiento, conforme el automóvil viaja desde  hasta , su
+                                                    velocidad promedio es 2.2 m/s, como se calculó de manera previa. En los primeros 40
+ La velocidad promedio no es lo
+ mismo que rapidez promedio. Si                     segundos, a medida que el auto va desde  hasta , su desplazamiento es )x 5 237 m 2
+ usted corre desde x 5 0 m hasta                    (30 m) 5 267 m. De tal modo que la velocidad promedio en este intervalo, la cual es igual
+ x 5 25 m y regresa a su punto de                   a la pendiente de la recta azul en la figura 2.5b desde  hasta , es v] = )x/)t 5 (267 m)/
+ partida en un intervalo de tiempo                  (40 s) 5 21.7 m/s. En general, existirá una velocidad promedio diferente entre pares de
+ de 5 s, la velocidad promedio es                   puntos distintos cualesquiera.
+ cero, mientras que la rapidez pro-
+ medio es 10 m/s.
+                                                    Velocidad instantánea
+                                                    La velocidad promedio no considera los detalles de lo que sucede durante un intervalo
+                                                    de tiempo. Por ejemplo, en un viaje en automóvil, usted puede aumentar o disminuir su
+                                                    velocidad tantas veces en respuesta al tráfico y a las condiciones del camino e incluso en
+                                                    rara ocasión por infracción de un oficial de policía con respecto a su velocidad. Lo más
+                                                    importante para la policía (y para su propia seguridad) es la rapidez de su auto y la direc-
+                                                    ción en la que se dirige en un instante particular del tiempo, que juntos determinan la
+                                                    velocidad instantánea del automóvil.
+                                                        Así, al conducir un automóvil entre dos puntos, la velocidad promedio debe calcularse
+                                                    en un intervalo de tiempo, pero la magnitud de la velocidad instantánea puede leerse en
+                                                    el velocímetro del automóvil.
+
+       Definición de velocidad c                       La velocidad instantánea v es el límite de la velocidad promedio conforme el inter-
+                   instantánea                         valo de tiempo )t se hace infinitesimalmente pequeño:
+                                                                                                    Dx
+                                                                                        v ; lím                                                 [2.3]
+                                                                                               Dt S0 Dt
+
+                                                       Unidades SI: metro por segundo (m/s)
+                                                                                                                       2.2 | Velocidad         31
+
+Tabla 2.2 Posición de un                         Tabla 2.3 Valores calculados de los intervalos de tiempo,
+automóvil con instantes                          desplazamiento y velocidades promedio para el automóvil
+de tiempo específicos                            de la tabla 2.2
+      t (s)               x (m)                      Intervalo de tiempo (s)           Dt (s)     Dx (m)          v] (m/s)
+     1.00                  5.00                            1.00 a 3.00                 2.00       47.5              23.8
+     1.01                  5.47                            1.00 a 2.00                 1.00       29.7              29.7
+     1.10                  9.67                            1.00 a 1.50                 0.50       21.3              42.6
+     1.20                 14.3                             1.00 a 1.20                 0.20        9.30             46.5
+     1.50                 26.3                             1.00 a 1.10                 0.10        4.67             46.7
+     2.00                 34.7                             1.00 a 1.01                 0.01        0.470            47.0
+     3.00                 52.5
+
+
+   La notación lím significa que la relación )x/)t se evalúa de manera reiterada para
+                      Dt S0
+intervalos de tiempo )t cada vez más pequeños. Conforme )t es extremadamente cercana
+a cero, la relación )x/)t se aproxima cada vez más a un número fijo, que se define como
+la velocidad instantánea.
+    Para comprender mejor la definición formal, considere la información que se obtie-
+ne del vehículo por radar (tabla 2.2). En t 5 1.00 s, el automóvil está en x 5 5.00 m y en
+t 5 3.00 s, esto es en x 5 52.5 m. La velocidad promedio calculada para este intervalo )x/)t 5
+(52.5 m 2 5.00 m)/(3.00 s 2 1.00 s) 5 23.8 m/s. Este resultado podría ser utilizado como
+una evaluación para la velocidad en t 5 1.00 s, pero no sería muy exacto ya que los cam-
+bios de rapidez son considerables en el intervalo de tiempo de 2 segundos. Utilizando el resto
+de la información, se puede construir la tabla 2.3. Cuando el intervalo de tiempo es más
+pequeño, la velocidad promedio es más cercana y se aproxima a la velocidad instantánea.
+Utilizando el intervalo final de sólo 0.0100 s se determina que la velocidad promedio es
+v] 5 )x/)t 5 0.470 m/0.0100 s 5 47.0 m/s, ya que 0.0100 s es un intervalo de tiempo muy
+breve, probablemente la velocidad instantánea real es muy cercana a esta última velocidad
+promedio, conocidos los límites en la capacidad del automóvil en acelerar. Por último,
+utilizando el factor de conversión del interior de la cubierta frontal del libro, se ve que es
+105 millas/h, una violación probable del límite de velocidad.
+    Como se puede ver en la figura 2.6, las cuerdas formadas por las líneas azules gradual-
+mente se aproximan a una recta tangente conforme el intervalo de tiempo se hace más
+pequeño. La pendiente de la recta tangente a la curva posición vs. tiempo en un “tiempo
+determinado” se define como la velocidad instantánea en ese tiempo.
+    La rapidez instantánea de un objeto, que es una cantidad escalar, se define como la                    b Definición de rapidez
+magnitud de la velocidad instantánea. Similar a la rapidez promedio, la rapidez instantá-                    instantánea
+nea (que por lo general llamaremos, simplemente “rapidez”) no tiene dirección asociada
+
+
+                                                                                                           Figura 2.6 Representación gráfica
+                                  La pendiente de la recta azul representa la
+                                                                                                           del movimiento del automóvil a par-
+                                  velocidad promedio que se aproxima a
+                                                                                                           tir de la información de la tabla 2.2.
+                                  la pendiente de la recta tangente verde.
+              x (m)
+
+
+        50.0
+
+        40.0
+
+        30.0
+
+        20.0
+
+        10.0
+
+                                                                                          t (s)
+              1.00            1.50            2.00           2.50               3.00
+                                                www.elsolucionario.org
+
+                                                                                                           2.3 | Aceleración       33
+
+                                                                                                      ti                  tf
+  2.3 Aceleración                                                                                            vi                   vf
+
+
+Desplazándose de un lugar a otro en su automóvil, rara vez viaja distancias considerables
+con velocidad constante. La velocidad del automóvil se incrementa cuando pisa firme el
+pedal del acelerador y disminuye cuando aplica los frenos. Además, la velocidad también         Figura 2.8 Un automóvil se mueve
+cambia cuando rodea una curva, alterando su dirección de movimiento. El cambio de ve-           a la derecha acelerando desde una
+locidad de un objeto al transcurrir el tiempo se le conoce como aceleración.                    velocidad de vi hasta una velocidad
+                                                                                                de vf en el intervalo de tiempo
+Aceleración promedio                                                                            Δt 5 tf 2 ti .
+
+Un automóvil se mueve a lo largo de una autopista recta como en la figura 2.8. En el mo-
+mento ti tiene una velocidad de vi y en el momento tf su velocidad es vf , con )v 5 vf 2 vi
+y )t 5 tf 2 ti.
+
+   La aceleración promedio a] durante el intervalo de tiempo )t es el cambio en la ve-          b Definición de aceleración
+   locidad )v dividida entre )t:                                                                  promedio
+                                        Dv    vf 2 vi
+                                   a;       5                                   [2.4]
+                                        Dt     tf 2 ti
+   Unidades SI: metros por segundo por segundo (m/s2)
+    Por ejemplo, considere el automóvil que se muestra en la figura 2.8 que acelera des-
+de una velocidad inicial de vi 5 110 m/s hasta una velocidad final vf 5 120 m/s en un
+intervalo de tiempo de 2 s. (Ambas velocidades están hacia la derecha, elegida como la
+dirección positiva.) Estos valores pueden ser insertados en la ecuación 2.4 para determinar
+la aceleración promedio:
+                               Dv     20 m/s 2 10 m/s
+                         a5       5                       5 15 m/s2
+                               Dt              2s
+    La aceleración es una cantidad vectorial que tiene dimensiones de longitud dividida
+entre el tiempo al cuadrado. Las unidades comunes de aceleración son metros por segun-
+do por segundo ((m/s)/s, que por lo general se rescribe m/s2) y pies por segundo por
+segundo (pies/s2). Una aceleración promedio de 15 m/s2 significa que, en promedio, el
+automóvil incrementa su velocidad en 5 m/s cada segundo en la dirección x positiva.
+    Para el caso de movimiento en una línea recta, la dirección de la velocidad de un ob-
+jeto y la dirección de su aceleración están relacionadas como sigue: cuando la velocidad y       Tip 2.5 Aceleración negativa
+aceleración de un objeto están en la misma dirección, la rapidez de un objeto se incremen-       La aceleración negativa no
+ta con el tiempo. Cuando la velocidad y la aceleración de un objeto están en direcciones         necesariamente significa que
+opuestas, la rapidez del objeto disminuye con el tiempo.                                         un objeto esté disminuyendo su
+                                                                                                 velocidad. Si la aceleración es
+    Para aclarar este punto, considere la velocidad de un automóvil que cambia desde
+                                                                                                 negativa y la velocidad también
+210 m/s hasta 220 m/s en un intervalo de tiempo de 2 s. El signo menos indica que las            es negativa, ¡el objeto está
+velocidades del automóvil están en la dirección x negativa; ¡ello no significa que el auto-      aumentando su velocidad!
+móvil esté disminuyendo su velocidad! La aceleración promedio del automóvil en este
+intervalo de tiempo es
+                            Dv    220 m/s 2 1 210 m/s 2
+                       a5      5                             5 25 m/s2
+                            Dt                2s
+El signo menos indica que el vector aceleración también está en la dirección x negativa. De-     Tip 2.6 Desaceleración
+bido a que los vectores velocidad y aceleración están en la misma dirección, la rapidez del
+                                                                                                 La palabra desaceleración significa
+automóvil debe aumentar conforme se mueve a la izquierda. Aceleración positiva y negativa        una reducción en la rapidez, una
+especifican direcciones relativas a los ejes elegidos, no “aumento” o bien “disminución” de      disminución de velocidad. La
+velocidad. Los términos aumento de velocidad o bien disminución de velocidad se refieren a un    confusión está con la aceleración
+aumento y a una disminución en la rapidez, respectivamente.                                      negativa, que en ocasiones puede
+                                                                                                 aumentar. (Véase el tip 2.5.)
+
+
+ ■ Examen rápido
+
+ 2.2 ¿Verdadero o Falso? a) Un automóvil debe tener siempre una aceleración en la
+ misma dirección que su velocidad. b) Es posible para un automóvil que disminuye su
+ velocidad tener una aceleración positiva. c) Un objeto con una aceleración constante
+ diferente de cero nunca puede detenerse y permanecer en reposo.
+34         CAPÍTULO 2 | Movimiento en una dimensión
+
+                                                     Un objeto con una aceleración no cero puede tener una velocidad de cero, pero sólo
+                                                 de forma instantánea. Cuando una pelota se lanza hacia arriba, su velocidad es cero cuan-
+                                                 do alcanza su la altura máxima. Sin embargo, la gravedad acelera incluso la bola en ese
+                                                 punto; de lo contrario, no caería.
+
+
+                                                 Aceleración instantánea
+                                                 Con frecuencia el valor de la aceleración promedio es diferente en intervalos de tiempo
+                                                 diferentes, de tal manera que es útil definir la aceleración instantánea, que es semejante a
+                                                 la velocidad instantánea explicada en la sección 2.2.
+
+         Definición de aceleración c                La aceleración instantánea a es el límite de la aceleración promedio conforme el
+                      instantánea                   intervalo de tiempo )t tiende a cero:
+                                                                                               Dv
+                                                                                       a ; lím Dt                                     [2.5]
+                                                                                          Dt S0
+
+                                                    Unidades SI: metros por segundo por segundo (m/s2)
+
+                                                 En este caso una vez más, la notación lím significa que la relación )v/)t se evalúa
+                                                                                             Dt S0
+          El coche se mueve                      para valores de )t cada vez más pequeños. En el límite, )t tiende a cero y el límite tiende
+          con diferentes                         hacia un valor fijo, que es la aceleración instantánea.
+          velocidades en los                         La figura 2.9, una gráfica de velocidad vs. tiempo, traza la velocidad de un objeto en
+          puntos  y .                           términos del tiempo. Por ejemplo, la gráfica podría representar el movimiento de un au-
+                                                 tomóvil a lo largo de una calle con mucho tráfico. La aceleración promedio del automóvil
+                                                 entre los tiempos ti y tf se puede hallar mediante la determinación de la pendiente de la
+                                                recta que une los puntos  y . Si pensamos que el punto se acerca más y más al pun-
+                                             x
+   ti                             tf             to , la recta se aproxima cada vez más y se convierte en tangente en . La aceleración
+v  vi                         v  vf            instantánea de un objeto en un tiempo determinado es igual a la pendiente de la recta tan-
+                                                 gente a la gráfica velocidad vs. tiempo en ese tiempo. Desde ahora, se utilizará el término
+  a                                              aceleración para referirnos a “aceleración instantánea”.
+                                                     En el caso especial para el que la gráfica velocidad vs. tiempo del movimiento de un
+      La pendiente de la recta verde             objeto es una línea recta, la aceleración instantánea de un objeto en cualquier punto es
+      es la aceleración instantánea del          igual a su aceleración promedio. Esto también significa que la recta tangente de la gráfica se
+      coche en el punto      (Ec. 2.5).          sobrepone a la misma gráfica. En ese caso, se dice que la aceleración del objeto es uniforme,
+     v                                           lo que significa que tiene un valor constante. Los problemas de aceleración constante son
+                                                 importantes en cinemática y se estudiarán extensamente en este capítulo y en el que sigue.
+
+vf
+                                    v            ■ Examen rápido
+          
+vi
+                                                  2.3 Los incisos a), b) y c) de la figura 2.10 representan tres gráficas de las velocidades
+                    t                            de diferentes objetos moviéndose en trayectorias de línea recta como funciones del
+                                                  tiempo. Las aceleraciones posibles de cada objeto como función del tiempo se
+                                         t
+           ti                  tf                 muestran en los incisos d), e) y f). Empareje cada una de las gráficas velocidad vs.
+                                                  tiempo con la gráfica aceleración vs. tiempo que describa mejor el movimiento.
+          La pendiente de la
+          recta de conexión azul
+           y es el promedio                     Figura activa 2.10                      v                   v                  v
+          la aceleración del coche               (Examen rápido 2.3) Empareje cada
+          durante el intervalo de                gráfica velocidad vs. tiempo con su
+          tiempo t  tf  ti                    correspondiente gráfica aceleración
+          (Ec. 2.4).                             vs. tiempo.
+                                                                                                      t                   t                    t
+  b
+                                                                                                  a                b                   c
+Figura 2.9 a) Un automóvil,                                                              a                   a                  a
+modelado como una partícula,
+moviéndose a lo largo del eje x desde
+ hasta , tiene velocidad vxi en
+t 5 ti y la velocidad vxf en t 5 tf.
+b) gráfica de velocidad vs. tiempo
+para un objeto en movimiento en                                                                       t                   t                    t
+línea recta.                                                                                      d                e                   f
+                                                                                            2.4 | Diagramas de movimiento
+
+
+  2.4 Diagramas de movimiento
+Algunas veces son confundidas velocidad y aceleración una con otra, pero son conceptos
+diferentes, que se pueden explicar con la ayuda de diagramas de movimiento. La figura
+activa 2.12 (página 36) es la representación de un diagrama de movimiento de un objeto en
+intervalos de tiempo consecutivo, con vectores de velocidad y aceleración dibujados en cada
+posición, rojo para los vectores de velocidad y púrpura para los vectores de aceleración.
+Los intervalos de tiempo entre posiciones adyacentes en el diagrama de movimiento son
+considerados iguales.
+    Un diagrama de movimiento es parecido a las imágenes que resultan de una fotografía
+estroboscópica de un objeto en movimiento. Cada imagen está hecha como el destello de luz
+de un flash estroboscópico. La figura 2.12 representa tres conjuntos de fotografías estroboscó-
+picas de automóviles en movimiento a lo largo de un camino recto de izquierda a derecha. Los
+intervalos de tiempo entre destellos del estroboscopio son iguales en cada diagrama.
+    En la figura activa 2.12a, las imágenes del automóvil están igualmente espaciadas:
+el automóvil se mueve la misma distancia en cada intervalo de tiempo. Esto significa que el
+automóvil se mueve con velocidad constante positiva y tiene aceleración cero. Todas las flechas
+rojas tienen la misma longitud (velocidad constante) y no existen flechas púrpura (acele-
+ración cero).
+    En la figura activa 2.12b, las imágenes del automóvil cada vez están más separadas con-
+forme avanza el tiempo y se incrementa el vector velocidad con el tiempo, porque el des-
+plazamiento del automóvil entre posiciones adyacentes crece con el avance del tiempo. El
+36           CAPÍTULO 2 | Movimiento en una dimensión
+
+Figura activa 2.12
+                                          Este automóvil se mueve               v
+Diagramas de movimiento de un
+                                          con velocidad constante
+vehículo en movimiento a lo largo                                          a
+                                          (aceleración cero).
+de una carretera recta en una sola
+dirección. La velocidad en cada ins-
+tante se indica con una flecha roja,      Este automóvil se somete a            v
+y la aceleración constante se indica      aceleración constante en la
+por una flecha púrpura.                                                    b
+                                          dirección de su velocidad.
+                                                                                a
+
+                                          Este automóvil se somete a            v
+                                          una aceleración constante        c
+                                          en la dirección opuesta de la
+                                          velocidad en cada instante.           a
+
+
+                                         automóvil se está moviendo con una velocidad positiva y una aceleración positiva constante.
+                                         Las flechas rojas en cada imagen están consecutivamente más largas, y las flechas púrpura
+                                         apuntan a la derecha.
+                                             En la figura activa 2.12c, conforme el automóvil se mueve hacia la derecha disminuye su
+                                         velocidad porque su desplazamiento entre posiciones adyacentes disminuyen con el tiem-
+                                         po. En este caso, el automóvil se mueve desde el principio hacia la derecha con aceleración
+                                         constante negativa. El vector velocidad disminuye con el tiempo (las flechas rojas cada vez
+                                         son más cortas) y, por último, alcanzan el cero, lo que sucedería al aplicar los frenos. Obser-
+                                         ve que los vectores aceleración y velocidad no están en la misma dirección. El automóvil se
+                                         mueve con una velocidad positiva, pero con una aceleración negativa.
+                                             Intente construir sus propios diagramas para diferentes problemas que involucran
+                                         cinemática.
+
+                                          ■ Examen rápido
+
+                                          2.4 Las tres gráficas en la figura activa 2.13 representan la posición vs. tiempo para
+                                          objetos que se mueven a lo largo del eje x. ¿Cuál de estas gráficas, si existe alguna,
+                                          no es físicamente posible?
+                                          2.5 La figura 2.14a es el diagrama de una imagen de múltiples destellos de un disco de
+                                          aire que se mueve hacia la derecha sobre una superficie horizontal. Las imágenes
+                                          delineadas están separadas por intervalos de tiempo iguales, y las imágenes primera y
+                                          última muestran el disco en reposo. a) En la figura 2.14b, ¿cuál gráfica de color muestra
+                                          mejor la posición del disco como una función del tiempo? b) En la figura 2.14c, ¿cuál
+a                                         gráfica de color muestra mejor la velocidad como una función del tiempo? c) En la
+                                          figura 2.14d, ¿cuál gráfica de color muestra mejor la aceleración del disco como una
+         x                                función del tiempo?
+
+     +                                                    x                         x                   x
+b
+                                     t
+     O
+         v
+
+     +                                                                      t                       t                  t
+c
+                                     t
+     O                                                        a                         b                   c
+     –
+         a
+                                         Figura activa 2.13
+                                         (Examen rápido 2.4) ¿Qué curva posición vs. tiempo es imposible?
+
+     +
+d
+     O
+                                     t     2.5 Movimiento en una dimensión
+     –                                         con aceleración constante
+Figura 2.14 (Examen rápido 2.5)          Muchas aplicaciones en mecánica involucran objetos móviles con aceleración constante. Esta
+Seleccione las gráficas correctas.       clase de movimiento es importante porque se aplica a numerosos objetos en la naturaleza, tal
+                                                                2.5 | Movimiento en una dimensión con aceleración constante                 37
+
+como un objeto en caída libre cerca de la superficie de la Tierra (suponiendo que se                   a
+puede omitir la resistencia del aire). Una gráfica de aceleración en función del tiempo
+con aceleración constante se muestra en la figura activa 2.15a. Cuando un objeto se mueve con
+                                                                                                               Pendiente  0
+aceleración constante, la aceleración instantánea en cualquier punto en un intervalo de
+tiempo es igual al valor de la aceleración promedio en el intervalo completo de tiempo.
+En consecuencia, la velocidad se incrementa o disminuye con la misma relación en todo el                                           a
+movimiento, y una gráfica de v en términos de t proporciona una línea recta con pendien-
+                                                                                                                                            t
+tes ya sea positiva, cero, o bien, negativa.                                                                                   t
+    Ya que la aceleración promedio es igual a la aceleración instantánea cuando a es cons-             a
+tante, se puede eliminar de la ecuación la barra utilizada para denotar valores promedio
+que la define para aceleración, escribiendo a] 5 a, de tal modo que la ecuación 2.4 es                 v
+                                                 v f 2 vi
+                                           a5                                                               Pendiente  a
+                                                  tf 2 ti
+                                                                                                                                   at
+El encargado de registrar el tiempo del movimiento siempre tiene la libertad de elegir el         v0                                    v
+tiempo inicial, así, por conveniencia, sea ti 5 0 y tf cualquier tiempo arbitrario t. Además,                                      v0
+sea vi 5 v0 (la velocidad inicial en t 5 0) y vf 5 v (la velocidad en cualquier tiempo arbitra-                                             t
+rio t). Con esta notación, se puede expresar la aceleración como                                                               t
+
+                                                  v 2 v0                                               b
+                                           a5
+                                                    t
+                                                                                                       x
+o bien
+                                                                                                                 Pendiente  v
+                           v 5 v 0 1 at        (para a constante)                        [2.6]
+La ecuación 2.6 establece que la aceleración a cambia constantemente la velocidad inicial
+v0 en una cantidad at. Por ejemplo, si un automóvil inicia con una velocidad de 12.0 m/s          x0
+hacia la derecha y acelera en la misma dirección con a 5 16.0 m/s2, tendrá una veloci-                     Pendiente  v0
+                                                                                                                                            t
+dad de 114 m/s después de 2.0 s transcurridos:                                                                                 t
+                 v 5 v0 1 at 5 1 2.0 m/s 1 (6.0 m/s2)(2.0 s) 5 114 m/s                                 c
+
+La interpretación gráfica de v se muestra en la figura activa 2.15b. La velocidad varía lineal-   Figura activa 2.15
+mente con el tiempo de acuerdo con la ecuación 2.6, tal como para aceleración constante.          Una partícula se mueve a lo largo
+    Debido a que la velocidad es creciente o disminuye uniformemente con el tiempo, se puede      del eje x con aceleración constante a.
+expresar la velocidad promedio en cualquier intervalo de tiempo como el promedio arit-            a) aceleración vs. gráfica de tiempo
+mético de la velocidad inicial v0 y la velocidad final v:                                         b) gráfica de velocidad vs. tiempo
+                                                                                                  y c) grafica de posición vs. tiempo.
+                                v0 1 v
+                          v5                   (para a constante)                        [2.7]
+                                   2
+Recuerde que esta expresión es válida sólo cuando la aceleración es constante, en cuyo
+caso la velocidad se incrementa de manera uniforme.
+    Ahora podemos utilizar este resultado junto con la ecuación que define la velocidad
+promedio, ecuación 2.2, para obtener una expresión para el desplazamiento de un objeto
+como una función del tiempo. Una vez más, se elige ti 5 0 y tf 5 t y, por conveniencia, se
+escribe )x 5 xf 2 xi 5 x 2 x0. Esto resulta en
+                                                 v0 1 v
+                                 Dx 5 vt 5 a            bt
+                                                    2
+                        Dx 5 12 1 v0 1 v 2 t      (para a constante)                     [2.8]
+
+   Podemos obtener otra expresión útil para el desplazamiento al sustituir la ecuación
+para v (ecuación 2.6) en la ecuación 2.8:
+                                  Dx 5 12 1 v0 1 v0 1 at 2 t
+                            Dx 5 v0t 1 12at2     (para a constante)                      [2.9]
+
+Esta ecuación también se puede rescribir en términos de la posición x, a partir de )x 5
+x 2 x0. La figura 2.15c muestra una gráfica de x en función de t para la ecuación 2.9, la
+cual se relaciona con la gráfica de velocidad vs. tiempo: el área bajo la curva en la figura
+activa 2.15b es igual a v0t 5 12 at 2 que es igual al desplazamiento )x. De hecho, el área bajo
+la gráfica v en términos de t para cualquier objeto es igual al desplazamiento )x del objeto.
+38    CAPÍTULO 2 | Movimiento en una dimensión
+
+                                      Tabla 2.4 Ecuaciones para el movimiento en línea recta bajo
+                                      aceleración constante
+                                      Ecuación                      Información proporcionada por la ecuación
+                                      v 5 v 0 1 at                  Velocidad como una función del tiempo
+                                      Δx 5 v 0t 1 12 at 2           Desplazamiento como una función del tiempo
+                                      v 2 5 v 02 1 2aΔx             Velocidad como una función del desplazamiento
+                                      Nota: El movimiento es a lo largo del eje x. En t 5 0, la velocidad de la partícula es v 0.
+
+
+                                          Finalmente, podemos obtener una expresión que no contenga al tiempo para poder
+                                      resolver la ecuación 2.6 para t y sustituirla en la ecuación 2.8, lo que resulta en
+                                                                                               v 2 v0    v2 2 v02
+                                                                     Dx 5 12 1 v 1 v0 2 a             b5
+                                                                                                 a          2a
+                                                                       v 2 5 v 02 1 2aDx           (para a constante)               [2.10]
+
+                                      Las ecuaciones 2.6 y 2.9 juntas pueden resolver cualquier problema de movimiento en
+                                      una dimensión con aceleración constante, pero las ecuaciones 2.7, 2.8 y especialmente
+                                      2.10 algunas veces son convenientes. Las tres ecuaciones más útiles —2.6, 2.9 y 2.10— se
+                                      mencionan en la tabla 2.4.
+                                          La mejor manera de ganar confianza en el uso de estas ecuaciones es trabajar una can-
+                                      tidad de problemas. Por lo general, existe más de una manera para resolver un problema
+                                      determinado, dependiendo de qué ecuaciones son elegidas y qué cantidades se proporcio-
+                                      nan. La diferencia se encuentra principalmente en el álgebra.
+
+                                        ■ ESTRATEGI A PARA LA SOLUCIÓN DE PROBLEMAS
+
+                                      Movimiento en una dimensión a una aceleración constante
+                                      Se recomienda el siguiente procedimiento para la solución de problemas que involucran movimiento
+                                      acelerado.
+                                      1. Lea el problema.
+                                      2. Trace un diagrama, seleccione un sistema coordenado, etiquete puntos inicial y final e
+                                         indique con flechas las direcciones de las velocidades y aceleraciones.
+                                      3. Etiquete todas las cantidades, circulando las incógnitas. Convierta las unidades
+                                         como se necesite.
+                                      4. Ecuaciones, puede seleccionarlas de la tabla 2.4. Todos los problemas de cinemática
+                                         en este capítulo pueden resolverse con las primeras dos ecuaciones, y con frecuencia
+                                         la tercera es conveniente.
+Tip 2.7 Los cerdos no vuelan          5. Resuelva para las incógnitas. Hacerlo de esta manera con frecuencia involucra la
+Después de resolver un problema,         solución de dos ecuaciones para dos incógnitas. Por lo general, es más conveniente
+piense con respecto a su respuesta       sustituir todos los valores conocidos, antes de resolver.
+y decida si parece razonable. Si no   6. Verifique su respuesta, aplicando sentido común y cálculos estimativos.
+es así busque el error.
+
+                                      La mayoría de estos problemas se reduce al escribir las ecuaciones cinemáticas de la tabla
+                                      2.4 y después sustituir los valores correctos en las constantes a, v0 y x0 a partir de la informa-
+                                      ción que se conoce. Hacer esto genera dos ecuaciones, una lineal y otra cuadrática, para
+                                      dos cantidades desconocidas.
+                                                                                                      2.6 | Objetos en caída libre                         43
+
+
+  2.6 Objetos en caída libre
+Cuando se omite la resistencia del aire, todos los objetos caen bajo la influencia de la gra-
+vedad a la superficie de la Tierra cayendo hacia ella con la misma aceleración constante.
+Hoy esta idea puede parecer evidente, pero ésta no fue aceptada hasta cerca del año 1600.
+Antes de ese tiempo, las enseñanzas del gran filósofo Aristóteles (384-322 a.C.) sostenían
+que los objetos pesados caían más rápido que los ligeros.
+     De acuerdo con la leyenda, Galileo descubrió la ley de caída libre de objetos al observar
+que dos pesas diferentes se dejaban caer de manera simultánea desde la Torre inclinada de
+Pisa golpeando la superficie de la Tierra aproximadamente en el mismo tiempo. Aunque
+es improbable que este experimento se haya llevado a cabo, se sabe que Galileo realizó mu-
+
+
+                                                                                                  North Wind Archive
+chos experimentos sistemáticos con objetos móviles sobre planos inclinados. En sus experi-
+mentos rodó bolas cuesta abajo en un plano levemente inclinado y midió la distancia que
+cubrían en intervalos de tiempo consecutivos. El propósito del plano inclinado fue reducir
+la aceleración y permitirle a Galileo hacer medidas precisas de los intervalos. (Alguna
+gente se refiere a este experimento como “dilución de la gravedad”.) De manera gradual                                 Galileo Galilei
+fue aumentando la pendiente del plano inclinado y finalmente fue capaz de formular con-                                Físico y astrónomo italiano
+clusiones matemáticas acerca de los objetos en caída libre, dado que un proyectil en caída                             (1564-1642)
+libre es equivalente a un proyectil en marcha cuesta abajo en un plano inclinado vertical.                             Galileo formuló las leyes que gobiernan
+Los logros de Galileo en la ciencia de la mecánica preparan el camino para Newton en el                                el movimiento de objetos en caída libre.
+desarrollo de las leyes de movimiento, que se estudiarán en el capítulo 4.                                             Además, investigó el movimiento de un
+     Intente el siguiente experimento. Deje caer simultáneamente un martillo y una pluma                               objeto sobre un plano inclinado, esta-
+desde la misma altura. El martillo golpea primero el piso porque la fricción con el aire tie-                          bleció el concepto de movimiento rela-
+ne un gran efecto sobre la pluma que es más ligera. El 2 de agosto de 1971, este mismo ex-                             tivo, inventó el termómetro y descubrió
+                                                                                                                       que el movimiento de un péndulo
+perimento fue conducido en la Luna por el astronauta David Scott, y el martillo y la pluma
+                                                                                                                       oscilante podría utilizarse para medir
+cayeron exactamente con la misma aceleración, como se esperaba, golpeando la superficie                                intervalos de tiempo. Después diseñó
+lunar al mismo tiempo. Al caso idealizado del movimiento donde se omite la resistencia del                             y construyó su propio telescopio, des-
+aire, se le conoce como caída libre.                                                                                   cubrió cuatro de las lunas de Júpiter,
+     La expresión objeto en caída libre no necesariamente se refiere a un objeto que se deja                           encontró que la superficie de nuestra
+caer desde el reposo. Un objeto en caída libre es cualquier objeto moviéndose libremente                               Luna es rugosa, descubrió manchas
+bajo la influencia sólo de la gravedad, independientemente de su movimiento inicial. Los                               solares y las fases de Venus y demostró
+objetos que se lanzan hacia arriba o bien hacia abajo y aquellos liberados desde el reposo                             que la Vía Láctea está constituida por
+son considerados en caída libre.                                                                                       un gran número de estrellas. Galileo
+     Se indica la magnitud de la aceleración en caída libre mediante el símbolo g. El valor                            defendió públicamente la afirmación
+                                                                                                                       de Nicolás Copérnico de que el Sol está
+de g disminuye con el aumento de la altitud y también varía ligeramente con la latitud.
+                                                                                                                       en el centro del Universo (el sistema
+En la superficie de la Tierra, el valor de g es aproximadamente 9.80 m/s2. A menos que                                 heliocéntrico). Publicó Diálogo acerca
+se establezca otra situación, utilizaremos este valor para g en la realización de los cálculos.                        de los sistemas de dos mundos nuevos
+Para estimaciones rápidas, utilice g ~ 10 m/s2.                                                                        para apoyar el modelo de Copérnico,
+     Si se pasa por alto la resistencia del aire y se supone que la aceleración en caída libre                         una perspectiva que la Iglesia consi-
+no varía con la altitud en una distancia vertical corta, entonces el movimiento de un objeto                           deró herejía. Después de ser hecho pri-
+en caída libre es el mismo que el movimiento en una dimensión bajo aceleración constan-                                sionero en Roma en 1633 con cargo de
+te. Esto significa que pueden ser aplicadas las ecuaciones cinemáticas desarrolladas en la                             herejía, fue sentenciado a prisión
+sección 2.6. Esto es convencional para definir hacia “arriba” como la dirección y positiva, y                          y después confinado a su villa en Arce-
+utilizaremos a y como la variable posición. En este caso la aceleración es a 5 2g 5 29.80 m/s2.                        tri, cerca de Florencia, donde murió
+                                                                                                                       en 1642.
+En el capítulo 7, se estudia la variación en g con la altitud.
+
+ ■ Examen rápido
+
+ 2.6 Un jugador de tenis efectúa el saque lanzando la pelota verticalmente hacia arriba.
+ Mientras la pelota está en caída libre, ¿su aceleración a) se incrementa, b) disminuye,
+ c) aumenta y después disminuye, d) disminuye y después aumenta, o bien e) perma-
+ nece constante?
+ 2.7 Conforme la pelota de tenis del examen rápido 2.6 viaja a través del aire,
+ ¿su velocidad a) aumenta, b) disminuye, c) disminuye y después aumenta,
+ d) aumenta y después disminuye, o bien e) permanece la misma?
+ 2.8 Un paracaidista salta de un helicóptero que está suspendido en el aire. Pocos segundos
+ después, salta otro paracaidista, de tal manera que ambos caen con la misma acelera-
+ ción a lo largo de la misma línea vertical con respecto al helicóptero. ¿La distancia ver-
+ tical entre ellos a) aumenta, b) disminuye, o bien c) permanece igual? ¿La diferencia
+ en sus velocidades d) aumenta, e) disminuye, o bien f) permanece igual? (Considere g
+ constante.)
+                                                                                                                      | Resumen
+
+
+  ■ RESUMEN
+
+
+ 2.1 Desplazamiento                                                                               Dx   xf 2 x i
+                                                                                           v ;       5                             [2.2]
+El desplazamiento de un objeto moviéndose sobre el eje x se                                       Dt   tf 2 ti
+define como el cambio en la posición del objeto,
+                                                                     La velocidad promedio es igual a la pendiente de la recta que
+                         )x ; xf 2 xi                       [2.1]    une los puntos inicial y final de una gráfica de la posición del
+                                                                     objeto en función del tiempo.
+donde xi es la posición inicial del objeto y xf la posición final.
+                                                                         La pendiente de la recta tangente a la curva de posición
+    Una cantidad vectorial se caracteriza por tener una magni-
+                                                                     contra el tiempo en algún punto es igual a la velocidad instan-
+tud y una dirección. Una cantidad escalar sólo tiene magnitud.
+                                                                     tánea en ese tiempo. La rapidez instantánea de un objeto se
+                                                                     define como la magnitud de la velocidad instantánea.
+ 2.2 Velocidad
+La rapidez promedio de un objeto se conoce mediante                   2.3 Aceleración
+                                       distancia total               La aceleración promedio a] de un objeto que se somete a un
+            Rapidez promedio ;                                       cambio en la velocidad )v durante un intervalo de tiempo
+                                       tiempo total
+                                                                     )t es
+La velocidad promedio v] durante un intervalo de tiempo )t                                  Dv     vf 2 vi
+es el desplazamiento )x dividido entre )t.                                              a;      5                         [2.4]
+                                                                                            Dt     tf 2 ti
+
+
+La aceleración instantánea de un objeto en cierto tiempo es          Todos los problemas pueden resolverse sólo con las dos pri-
+igual a la pendiente de la recta tangente a una gráfica veloci-      meras ecuaciones; la última es conveniente cuando el tiempo
+dad vs. tiempo en ese instante.                                      no es una entrada explícita en el problema. Después de que
+                                                                     las constantes son identificadas de manera apropiada, la ma-
+2.5 Movimiento en una dimensión                                      yoría de los problemas se reducen a una o dos ecuaciones con
+                                                                     una o dos incógnitas respectivamente.
+    con aceleración constante
+Las ecuaciones más útiles que describen el movimiento de
+un objeto móvil con aceleración constante a lo largo del eje         2.6 Objetos en caída libre
+x son las siguientes:                                                Un objeto en caída libre en presencia de la gravedad de la Tie-
+                                                                     rra exhibe una aceleración dirigida hacia el centro del plane-
+                        v 5 v 0 1 at                       [2.6]     ta. Si se omite la resistencia del aire y si la altura del objeto en
+                                                                     caída libre es pequeña al compararla con el radio de la Tierra,
+                     Dx 5 v0t 1 12at 2                               entonces podemos suponer que la aceleración en caída libre
+                                                           [2.9]
+                                                                     g 5 9.8 m/s2 es constante en el intervalo del movimiento. Las
+                                                                     ecuaciones 2.6, 2.9 y 2.10 se aplican con a 5 2g.
+                     v 2 5 v 02 1 2aDx                   [2.10]

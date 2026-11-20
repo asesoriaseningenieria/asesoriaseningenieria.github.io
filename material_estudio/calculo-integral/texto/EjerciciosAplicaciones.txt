@@ -1,0 +1,639 @@
+Módulos 18 al 25
+
+I.   Áreas entre curvas
+
+     En las figuras 1 a 8 que aparecen a continuación elija el elemento diferencial de área más apropiado y luego calcule
+     el área de la región.
+
+
+            Figura 1                                                                Figura 2
+
+
+            Figura 3                                                                Figura 4
+
+
+        Capítulo 4: Aplicaciones de    labásicos de
+                                 Elementos integral            definida
+                                                    cálculo integral y series 303
+             Figura 5                                                                     Figura 6
+
+
+             Figura 7                                                                     Figura 8
+
+
+9.    Calcule las áreas de las regiones de las figuras 3, 8 tomando diferenciales de área perpendiculares al eje x.
+
+10.   Calcule las áreas de las regiones de las figuras 4, 6 tomando diferenciales de área paralelos al eje x.
+
+11.   En los ejercicios a-s dibuje la región limitada por las gráficas de las ecuaciones dadas, construya el diferencial de
+      área más apropiado y luego use una integral para calcular el valor del área.
+
+      a.      y = 2 x 2 , y = x 2 + 1.                    b.      y = 4 x − x 2 , y = 0, entre x = 1 y x = 3.
+
+      c.      y = x − 4, y = 0 y x = 8.                   d.      y = x 2 − 4 x + 3, x − y − 1 = 0.
+      e.      y = x 2 − 2, y = 2 x 2 + x − 4.             f.      x = − y 2 + y + 2 , x = 0.
+      g.      x = y 2 − 3 y , x + y − 2 = 0.              h.      y 2 − 2 x = 0, y 2 + 4 x − 12 = 0.
+      i.      y = 2 − x 2 , y = x, y = − x.               J.      y = 3 − x 2 , y = 2 x, y = −2 x.
+      k.      y = x 2 , y = 3.                            l.      x = y 2 , x = 2, x = 4.
+      m.      x 2 − y − 9 = 0, y − x + 3 = 0.             n.      y = x 3 − x, y = 0.
+
+
+ Ejercicios de los módulos 18 al 25
+      o.      y 2 = x − 3, y 2 = 9 − x considerando primero elementos verticales de área y luego elementos horizonta-
+             les.
+
+      p.      y 2 = 4 − x, 3 y − 2 x − 9 = 0, 9 y − x − 3 = 0.
+
+                                           −3
+              y = − x 3 + x 2 − 2 x, x =      , x=
+                                                   3
+      q.                                             y el eje x.
+                                           2       4
+      r.      y 2 − 2 y + 4 x − 7 = 0, y = − x.
+      s.      x = y 2 , x = 1.
+
+12.   Calcule por integración el área del triángulo determinado por las rectas y = x, y = 2 x, y = 3x − 2.
+
+13.   Calcule por integración el área del trapecio determinado por las rectas y = 3x , y = x − 8 , y = 3 y el eje x.
+
+
+14.   Encuentre el área de la región que está por encima de la parábola x 2 = py e interna al triángulo formado por las
+      rectas y = x + 3 p, y = 3 p − x y el eje x .
+
+                                                         ⎛          dA ⎞
+      Encuentre la razón de cambio de A con respecto a m ⎜ esto es,    ⎟ , si A es el área comprendida por la parábola
+                                                         ⎝             ⎠
+15.
+                                                                    dm
+       y 2 = x y la recta y = mx.
+
+
+16.   Use el cálculo integral para demostrar que si S es un sector circular limitado por la circunferencia x 2 + y 2 = a 2 y
+
+      ángulo central α , 0 < α < π / 2 , entonces el área de S viene dada por A( s ) = 12 αa 2 (ayuda: considere la figura 9).
+
+
+                                                                Figura 9
+
+
+      17.    Encuentre el área de la región limitada por la curva y = e − x y la recta que pasa por lo puntos (0, 1) y (1, 1/ e) .
+
+
+      18.    Sea R la región acotada por x = 0, y = e x y la recta tangente a y = e x que pasa por el origen. Determine
+             el área de R.
+
+      19.    Encuentre el área de la región limitada por la curva y = ln x, el eje x y la recta x = e.
+
+
+            Capítulo 4: Aplicaciones de la integral definida
+             Encuentre el área de la región limitada por el eje de las x, la curva y =
+                                                                                                          18
+                                                                                                          x2 + 9
+       20.                                                                                                         y las rectas
+                                                                                                      2
+                                                                                                  x
+
+              x = 3 y x = 3 3.
+
+
+             Encuentre el área de la región limitada por y =               , y = 0, x = −6 y x = 0.
+                                                                    x
+                                                                ( x − 1) 2
+       21.
+
+
+             Encuentre el área de la región bajo la curva y =
+                                                                  2
+                                                                4x −1
+       22.                                                       2
+                                                                        a la derecha de x = 1 (ayuda: use fracciones parciales).
+
+
+              Encuentre el área de la región bajo la curva y =
+                                                                   1
+                                                                 x2 + x
+       23.                                                              a la derecha de x = 1.
+
+
+             Pruebe que el área de la región bajo la curva y =      , el eje x, en el intervalo [1, +∞) es infinita.
+                                                                  1
+       24.
+                                                                  x
+
+
+       25.   Halle por integración el área del cuadrilátero, determinado por las rectas 3x − 8 y + 21 = 0, 2 x + y − 24 = 0
+             y el eje x.
+
+
+II.     Volúmenes de sólidos por secciones planas
+
+       1.    Encuentre el volumen de un sólido que tiene base circular de radio r, y todas las secciones planas perpendi-
+             culares a un diámetro fijo de la base son triángulos equiláteros.
+
+       2.    Encuentre el volumen de un sólido que tiene base circular de radio r, y todas las secciones planas perpen-
+             diculares a un diámetro fijo de la base son triángulos rectángulos isósceles que tienen la hipotenusa en el
+             plano de la base.
+
+       3.    Encuentre el volumen de un tetraedro que tiene tres caras mutuamente perpendiculares si las tres aristas
+             mutuamente perpendiculares tienen medidas a, b y c.
+
+       4.    Dos cilindros circulares rectos de radio 3 cm cada uno se intersecan en ángulo recto. Encuentre el volumen
+             del sólido común a los dos cilindros.
+
+       5.    Se corta una cuña en un cono circular recto por medio de un plano perpendicular al eje del cono y otro plano
+             que forma un ángulo de 60° con el primero y lo corta a lo largo de un diámetro de la sección plana circular que
+             resulta de la intersección del primer plano y el cono. Halle el volumen de la cuña si el cono tiene 6 m de altura
+             y el radio de la base es de 2 m.
+
+       6.    Un sólido tiene como base la región acotada por las curvas y = e x , y = e − x y la recta x = 1. Si toda
+             sección plana perpendicular al eje x es un cuadrado, encuentre el volumen del sólido.
+
+       7.    Un sólido tiene como base la región acotada por las curvas y = 3x , y = 3− x y la recta x = 1. Si toda sección
+             plana perpendicular al eje x es un semicírculo, encuentre el volumen del sólido.
+
+       8.    La base de un sólido es el conjunto de ordenadas de una función no negativa f en el intervalo [0, a].
+             Todas las secciones perpendiculares a ese intervalo son cuadrados. El volumen del sólido formado viene
+
+
+      Ejercicios de los módulos 18 al 25
+               dado por V = a 3 − 2a cos a + (2 − a 2 ) sen a, para todo a ≥ 0. Suponiendo que f es continua en [0, a],
+               calcule f (a ) .
+
+
+III.   Volúmenes de sólidos de revolución
+
+       1.      Encuentre por integración el volumen del como circular recto de altura h y radio de la base a.
+
+
+       2.      Encuentre el volumen de la esfera obtenida al rotar alrededor del eje x el área del semicírculo y = R 2 − x 2 .
+
+       3.      Encuentre el volumen del sólido generado al rotar alrededor de la recta x = −4 la región limitada por esta
+               recta y la parábola x = 4 + 6 y − 2 y 2 .
+
+
+       4.      Encuentre el volumen del sólido generado al rotar la región limitada por las curvas y 2 = 4 x e y = x alrede-
+               dor del eje x.
+
+       5.      Un tanque esférico de radio 3 m está lleno de agua hasta una altura de 1,5 m. Calcule por integración el
+               volumen de agua que contiene.
+
+       6.      Encuentre el volumen del sólido obtenido al rotar el triángulo de vértices (0, 0), (2, 2) y (2, 1) alrededor del
+               eje y.
+
+       7.      Encuentre por integración el volumen de un tronco de cono de altura h y radios R y r.
+
+       8.      Halle el volumen del paraboloide obtenido al rotar alrededor del eje y la región encerrada por la parábola
+                y = x 2 y la recta y = 5.
+
+En los ejercicios 9 a 17 utilice el método de la corteza cilíndrica.
+
+
+       9.      Encuentre el volumen del sólido generado al rotar, alrededor del eje x, la región limitada por la parábola
+                y = x 2 y la recta y = 4.
+
+
+       10.     Encuentre el volumen del sólido generado al rotar el triángulo comprendido por las rectas y = x, y = 2 x e y = 3 x − 2
+               alrededor de: a) el eje x, b) el eje y.
+
+       11.     Encuentre el volumen del sólido generado al rotar la región comprendida por la recta y = x + 2 y la parábola
+                y = x 2 − 4 x alrededor de: a) la recta x = −1, b) la recta y = −4 .
+
+
+       12.     Encuentre el volumen del sólido generado al rotar la región comprendida por las parábolas y = − x 2 , y = x 2 − 6 x
+               alrededor del eje x. Tome elementos de área paralelos al eje de giro.
+
+       13.     Encuentre el volumen generado al rotar, alrededor del eje y, la región comprendida por la parábola y 2 = x − 3
+               y la recta y = x − 5 .
+
+
+        Capítulo 4: Aplicaciones de la integral definida
+      14.    Demuestre que el volumen del sólido generado al rotar alrededor del eje y la región comprendida por los
+
+             ejes coordenados y la recta que pasa por los puntos (R, 0) y (0, H) está dado por V = π R 2 H .
+                                                                                                  1
+                                                                                                  3
+
+      15.    Encuentre el volumen generado al rotar el rectángulo cuyos vértices son (0, 0), (R, 0), (0, H), (R, H),alrede-
+             dor del eje y.
+
+      16.    Encuentre el volumen de la esfera generada al rotar la semicircunferencia superior al eje x, que tiene 5 cm de
+             radio y centro en (0, 0), alrededor del eje x.
+
+      17.    a.     Encuentre el volumen del sólido resultante si al sólido del ejercicio 8 se le hace un orificio de 2 cm
+                    de radio, a lo largo del eje x.
+
+             b.     Encuentre el volumen del orificio.
+
+      18.    En los literales a-h calcule el volumen del sólido de revolución generado al rotar la región plana dada
+             alrededor del eje dado.
+
+            a.      La región plana de la figura del ejercicio 1, sección 1, alrededor del eje x.
+
+            b.      La región anterior alrededor de la recta x = 2.
+
+            c.      La región plana de la figura del ejercicio 2, sección 1, alrededor del eje x.
+
+            d.      La región plana de la figura del ejercicio 3, sección 1, alrededor del eje x y alrededor del eje y.
+
+             e.     La región plana de la figura del ejercicio 4, sección 1, alrededor de: x = 1, y = 2, x = 2.
+                                                                                                π      5π
+             f.     La región plana del ejercicio 6, sección 1, alrededor de: el eje y, x =       , x=    , y = 1.
+                                                                                                4       4
+
+             g.     La región plana de la figura del ejercicio 7, sección 1, alrededor de: el eje x, el eje y, x = 3.
+
+             h.     La región plana de la figura del ejercicio 8, sección 1, alrededor de: x = 1, y = −1, y = 2.
+
+
+      19.    La región plana limitada por la curva y = f ( x) = e − x y el eje x gira alrededor del eje x. Determine el volumen
+             del sólido generado.
+
+      20.    El mismo ejercicio anterior, girando alrededor del eje y.
+
+
+             La región plana limitada por la curva y = f ( x ) =
+                                                                   1
+      21.                                                            , el eje x y la recta x = 1 gira alrededor del eje x. Determine
+                                                                   x
+             su volumen.
+
+
+             Bosqueje la región R del plano limitada por y =      , x = 1, x = 3 e y = 0. Formule (pero no evalúe) integrales
+                                                               1
+      22.
+                                                               x3
+             para cada uno de los literales a-d:
+
+            a.      Área de R.
+
+
+ Ejercicios de los módulos 18 al 25
+308
+       b.      Volumen del sólido generado al rotar R alrededor al eje y.
+
+       c.      Volumen del sólido generado al rotar R alrededor al eje y = – 1.
+
+       d.      Volumen del sólido generado al rotar R alrededor al eje x = 4.
+
+23.     En una esfera sólida de radio b se perfora un hoyo redondo de radio a (b > a) pasando por el centro.
+        Encuentre el volumen que queda del sólido.
+
+24.     Formule la integral (usando cortezas cilíndricas) del volumen del toro generado al rotar la región interior
+        del círculo x 2 + y 2 = a 2 alrededor del recta x = b (b > a).
+
+
+25.     La región sombreada (figura 10) entre un arco de y = sen x, 0 ≤ x ≤ π y la recta y = k , 0 ≤ k ≤ 1 se gira
+        alrededor de la recta y = k, generando un sólido V. Determine el valor de k para que:
+
+       a.      V sea un volumen máximo.
+
+       b.      V sea un volumen mínimo.
+
+
+                                                     Figura 10
+
+
+26.     La gráfica de la región limitada por y = x + sen x, y = 0, x = π, gira alrededor del eje de las x. Encuentre el
+        volumen del sólido resultante.
+
+
+                                                                  π
+27.     La región acotada por y = (sen x 2 ) 2 , y = 0 y x =        se gira alrededor del eje y. Encuentre el volumen del
+                                                                 2
+        sólido resultante.
+
+28.     Sea R la región del primer cuadrante bajo la curva y = x −2 / 3 y a la izquierda de x = 1.
+
+        a.     Demuestre que el área de R es finita y encuentre su valor.
+
+        b.     Demuestre que el volumen del sólido generado al rotar R alrededor del eje x es infinito.
+
+
+        La región limitada por y = e − x , y = 0, x = 0 y x = 1 gira alrededor del eje y. Encuentre el volumen del
+                                         2
+29.
+        sólido resultante.
+
+
+      Capítulo 4: Aplicaciones de    labásicos de
+                               Elementos integral            definida
+                                                  cálculo integral y series 309
+       30.   Sea R la región acotada por x = 0, y = e x y la recta tangente a y = e x que pasa por el origen. Encuentre:
+
+             a.     El área de R.
+
+             b.     El volumen del sólido obtenido cuando R gira alrededor del eje x.
+
+
+IV.    Momentos, centros de masa y los teoremas de Pappus
+
+
+       1.    Un conjunto de masas de 5, 10, 15 y 20 g están situadas sobre el eje x en los puntos de abscisas –3, –2, 0 y 5 cm,
+             respectivamente. Halle el centro de masa del sistema.
+
+       2.    Halle el centro de masa de un conjunto de masas de 5, 10 y 50 kg situadas sobre el eje y en los puntos cuyas
+             ordenadas son –3, 0 y 10 m, respectivamente.
+
+       3.    La longitud de una varilla es de 50 cm y la densidad lineal a una distancia x de uno de los extremos es
+             (3x + 1) g/cm. Encuentre la masa total de la varilla y su centro de masa.
+
+       4.    Una varilla mide 2 m y su densidad lineal en cada punto es proporcional al cubo de la distancia de ese punto
+             a uno de sus extremos, siendo la densidad máxima de 16 kg/m. Encuentre la masa total de la varilla y su centro
+             de masa.
+
+       5.    La longitud de una varilla es L cm y el centro de masa está situado a 3 / 4 del extremo izquierdo. Si la
+             medida de la densidad lineal en un punto es proporcional a una potencia de su distancia al extremo
+             izquierdo y la densidad lineal en el extremo derecho es de 20 g/cm, encuentre la densidad en cualquier
+             punto de la varilla y su masa total.
+
+       6.    Demuestre que si la masa total de una varilla de longitud L y densidad lineal uniforme se coloca en su punto
+             medio, el momento respecto a cualquiera de los extremos es igual al de la varilla respecto al mismo extremo.
+
+       7.    Una varilla de longitud 60 cm tiene una densidad lineal δ1 ( x ) = kx 2 (la densidad varía proporcionalmen-
+             te al cuadrado de la distancia x de uno de sus extremos). Si la densidad en el extremo más pesado es de
+             7200 g/cm, halle la masa total y el centro de masas de la varilla.
+
+       8.    La longitud de una varilla es de 50 cm y la densidad lineal a una distancia x de uno de sus extremos
+             es δ1 ( x) = (3 x + 1) g/cm. Determine su masa y el centro de masas.
+
+
+       9.    En los ejercicios a-i encuentre el centroide ( x , y ) de la región limitada por las curvas dadas. Esboce la
+             gráfica de la región y use la simetría cuando sea posible.
+
+             a.      y = 4 − x 2 e y = 0.
+             b.     La parábola x = y − y 2 y el eje y.
+
+                     y=     x , y = 0 y x = 4.
+                          1 2
+             c.
+                          2
+             d.     La curva y = 2 x 3 y la recta y = 2 x en el primer cuadrante.
+
+
+310   Ejercicios de los módulos 18 al 25
+        e.      El semicírculo y = 1 − x 2 y el eje x.
+
+        f.      Las curvas y = x 2 − 4 e y = 2 x − x 2 .
+        g.      y = x 2 y la recta y = x + 2.
+        h.      x = y 2 − 3 y − 4 y la recta x = − y − 1.
+        i.      y = x 3 , y = 0 y x = 2.
+
+10.     Use el teorema de Pappus para encontrar el volumen del sólido generado al rotar la región del ejercicio del
+        literal ianterior alrededor del eje y. Resuelva el volumen del sólido por cortezas cilíndricas para verificar su
+        respuesta.
+
+11.     Use el teorema de Pappus y la conocida fórmula del volumen de una esfera para encontrar el centroide de
+        una región semicircular de radio a.
+
+12.     Use el teorema de Pappus para encontrar el volumen del toro obtenido cuando la región interior del círculo
+         x 2 + y 2 = a 2 gira en torno a la recta x = 2a.
+
+13.     Considere el triángulo T de la figura 11.
+
+
+                                                      Figura 11
+
+
+                Pruebe que y =
+                               h
+        a.                       (y, por tanto, que el centroide del triángulo está en la intersección de las medianas).
+                               3
+        b.      Encuentre el volumen del sólido obtenido cuando T se gira alrededor de y = k (use el teorema de
+                Pappus).
+
+
+14.     Use el teorema de Pappus para demostrar que el volumen del sólido obtenido mediante la rotación de la
+        región R limitada por y = sen x, x = 0, y = 0, x = π alrededor del eje y es 2π2 .
+
+15.     Encuentre el centro de masa de tres partículas de 1, 3 y 5 g, situadas en los puntos (–1, 0), (2, 3) y (4,–2).
+
+16.     Demuestre que el centro de masa de un sistema formado por tres partículas de igual masa está situado en
+        el punto de intersección de las medianas del triángulo formado por los puntos donde están localizadas las par-
+        tículas.
+
+17.     Pruebe que la distancia del centroide de un triángulo a cualquiera de los lados es igual a un tercio de la
+        longitud de la altura sobre dicho lado.
+
+
+      Capítulo 4: Aplicaciones de   labásicos de
+                               Elementos integral          definida
+                                                 cálculo integral y series 311
+       18.    Encuentre el centro de masa de la lámina limitada por la parábola 2 y 2 = 18 − 3 x y el eje y, si la densidad de
+
+              superficie en cualquier punto ( x, y ) es   6 − x g/cm 2 .
+
+       19.    Utilice el teorema de Pappus para calcular el volumen del toro generado al rotar un círculo de radio a alrededor
+              de una recta situada en su mismo plano a una distancia b de su centro (b > a).
+
+       20.    Utilice el teorema de Pappus para encontrar el centroide de la región limitada por un semicírculo y su diámetro.
+
+       21.    Utilice el teorema de Pappus para encontrar el volumen de una esfera de radio a.
+
+
+En los ejercicios 22 a 32 encuentre el centroide del sólido generado al rotar la región plana alrededor de la recta dada.
+
+       22.    La región acotada por la parábola y = x 2 y la recta x = 4, alrededor del eje x. Tome elementos de área
+              perpendiculares al eje de revolución.
+
+       23.    La región del ejercicio 22, tomando elementos de área paralelos al eje de revolución.
+
+       24.    La región acotada por 2 y 2 = 3 x 3 y la recta x = 3, alrededor del eje x. Tome elementos de área paralelos
+              al eje de revolución.
+
+       25.    La región del ejercicio 22, alrededor del eje y. Tome elementos de área paralelos al eje de revolución.
+
+       26.    La región acotada por la recta y = x + 2 y la parábola y = x 2 − 4 x, alrededor de la recta x = −1. Tome elemen-
+              tos de área perpendiculares el eje de revolución.
+
+       27.    La región del ejercicio 26, tomando elementos de área paralelos al eje de revolución.
+
+       28.    La región acotada por la parábola y 2 = x − 3 y la recta y = x − 5, alrededor del eje y. Tome elementos de área
+              perpendiculares al eje.
+
+       29.    La región del ejercicio 28, tomando elementos de área paralelos al eje de revolución.
+
+       30.    La región acotada por x 4 y = 1 y y = 4, alrededor del eje y. Tome elementos de área paralelos al eje de giro.
+
+       31.    La región del ejercicio 30, alrededor del eje x.
+
+       32.    La región acotada por los ejes coordenados y la recta que pasa por los puntos ( R, 0) y (0, H ), alrededor
+              del eje x. Tome elementos de área paralelos al eje (la densidad varía proporcionalmente a la distancia a la
+              base).
+
+
+312Ejercicios de los módulos 18 al 25
+          33.     Encuentre el centroide del sólido que resulta al rotar la semicircunferencia superior con centro en (0, 0) y
+                  radio 2 cm, alrededor del eje x.
+
+          34.     Demuestre que el centroide de un cono de altura h y radio de la base a está a 2/3 de la distancia del vértice
+                  a la base.
+
+          35.     Halle el centro de masa de una semiesfera sólida homogénea de radio r, si la densidad en cada punto P es
+                  proporcional a la distancia de P a la base del hemisferio.
+
+V.        Longitud de arco y área de superficie
+
+          1.      En los ejercicios a-f establezca y simplifique la integral que proporciona la longitud del arco de curva
+                  suave de la función dada (no evalúe la integral).
+
+                  a.      y = x 2 ; 0 ≤ x ≤ 1.                                   b.   y = x 5 / 2 ; 1 ≤ x ≤ 3.
+                  c.      y = 2 x 3 − 3 x 2 ; 0 ≤ x ≤ 2.                         d.   y = x 4 / 3 ; − 1 ≤ x ≤ 1.
+                  e.      x = 4 y − y 2 ; 0 ≤ y ≤ 1.                             f.   xy = 1; 1 ≤ x ≤ 2.
+
+          2.      En los ejercicios a-h establezca y simplifique la integral que da el área de la superficie de revolución generada
+                  al girar el arco de curva suave alrededor del eje dado. No evalúe la integral.
+
+                  a.      y = x 2 , 0 ≤ x ≤ 4, alrededor del eje x.
+                  b.      y = x 2 , 0 ≤ x ≤ 4, alrededor del eje y.
+                  c.      y = x − x 2 , 0 ≤ x ≤ 1, alrededor del eje x.
+                  d.      y = x 2 , 0 ≤ x ≤ 1, alrededor de la recta y = 4.
+
+                  e.      y = x , 1 ≤ x ≤ 4, alrededor del eje x.
+                  f.      y = x , 1 ≤ x ≤ 4, alrededor del eje y.
+                  g.      y = x 3 2 , 1 ≤ x ≤ 4, alrededor de la recta y = –2.
+                  h.      y = x 5 2 , 1 ≤ x ≤ 4, alrededor de la recta x = –1.
+
+     3.           En los ejercicios a-e determine la longitud de los arcos suaves dados.
+
+
+                          y=     ( x + 1)3 2 , de x = 0 a x = 2.
+                               2 2
+                  a.
+                               3
+
+                          x=     ( y − 1)3 2 , de y = 1 a y = 5.
+                               2
+                  b.
+                               3
+
+                          y=     x + , de x = 1 a x = 3.
+                               1 3 1
+                  c.
+                               6    2x
+
+                          x=     y + 2 , de y = 1 a y = 2.
+                               1 4   1
+                  d.
+                               8    4y
+
+                  e.      y 3 = 8 x 2 , de (1, 2) a (8, 8).
+
+
+                Capítulo 4: Aplicaciones de   labásicos de
+                                         Elementos integral          definida
+                                                           cálculo integral y series 313
+       4.    En los ejercicios a-e determine el área de la superficie de revolución generada al girar la curva dada alrededor
+             del eje dado.
+
+             a.      y = x ; 0 ≤ x ≤ 1 , alrededor del eje x.
+             b.      y = x 3 ; 1 ≤ x ≤ 2 , alrededor del eje x.
+
+                     y=     x +        ; 1 ≤ x ≤ 2; alrededor del eje y.
+                          1 5     1
+             c.
+                          5     12 x 3
+             d.      y 3 = 3x; 0 ≤ x ≤ 9, alrededor del eje y.
+
+                     y=     x ; 0 ≤ x ≤ 8, alrededor del eje x.
+                          2 3/ 2
+             e.
+                          3
+
+       5.    Use integración para calcular la longitud de una circunferencia de radio a.
+
+       6.    Use integración para calcular el área superficial de un cono de altura h y radio de la base a.
+
+       7.    Use integración para calcular el área superficial de una esfera de radio a.
+
+       8.    Determine el perímetro de la hipocicloide de cuatro cúspides x 2 3 + y 2 3 = 1 (figura 12).
+
+
+                                                              Figura 12
+
+       9.    Determine el área de la superficie generada al girar la hipocicloide del ejercicio 8 alrededor del eje y.
+
+
+VI.    Trabajo mecánico y presión de fluidos
+
+
+       1.    Un resorte tiene una longitud natural de 4 pulgadas. Si una fuerza de 5 lb lo estira 1 pulgada, encuentre el
+             trabajo realizado para estirarlo 4 pulgadas.
+
+       2.    Un resorte tiene una longitud de 87 pulgadas. Si una fuerza de 1000 lb comprime el resorte media pulgada,
+             encuentre el trabajo necesario para comprimir el resorte 1 pulgada.
+
+       3.    Cuál es el trabajo necesario para bombear el agua de un recipiente lleno que tiene forma cilíndrica de radio
+             2P y altura h pulgadas, hasta 1 pulgada por encima del recipiente.
+
+
+      Ejercicios de los módulos 18 al 25
+4.     Un tanque de forma semiesférica de radio 5 m se llena de agua hasta una altura de 3 m. ¿Cuál es el trabajo
+       necesario para bombear el agua hasta la superficie del tanque?
+
+       La fuerza de repulsión entre dos cargas Q1 y Q2 esta dada por F = k
+                                                                           Q1Q2
+5.                                                                                , donde r es la distancia entre
+                                                                             r2
+       ambas. ¿Cuál es el trabajo necesario para separar las cargas desde una distancia de 1 cm entre sus centros
+       hasta una distancia de 5 cm?
+
+6.     La fuerza gravitatoria ejercida por la Tierra, de masa M, sobre un cuerpo de masa m situado a una distancia
+
+       x de su centro está dada por F =
+                                      RmM
+                                             , en donde R es la constante de gravitación universal. Halle el trabajo
+                                        x2
+       realizado al mover una masa m desde la superficie de la Tierra hasta una altura h, sabiendo que el radio de la
+       Tierra es r.
+
+7.     Un balde que pesa 5 lb y que contiene 10 lb de arena es amarrado al extremo inferior de una cadena que mide
+       20 pulgadas y peso 8 lb y que está colgada en un pozo. Encuentre el trabajo necesario para subir el balde al
+       borde del pozo.
+
+8.     Una lámina rectangular de 100 cm de ancho por 80 cm de alto se sumerge verticalmente en un tanque con
+       agua de tal manera que el borde de 100 cm queda a ras del agua. Encuentre la fuerza total ejercida por el
+       agua sobre cada cara de la lámina.
+
+9.     Resuelva el problema anterior cuando el borde superior queda a 200 cm por debajo del nivel del agua.
+
+10.    Una lámina en forma de triángulo rectángulo de catetos 30 y 40 cm se sumerge verticalmente en un líquido
+       de w = 5 g/ cm 3 de tal manera que el cateto mayor coincide con la superficie del líquido. Encuentre la fuerza
+       total ejercida por el líquido sobre una de las caras de la lámina.
+
+11.    La cara en contacto con el agua en una presa es vertical y tiene la forma de un trapecio en donde la base
+       superior mide 50 m, la inferior 30 m y la altura entre las dos es de 10 m. Halle la fuerza total ejercida por el agua
+       sobre la cara expuesta al agua si el nivel del agua coincide con la base superior.
+
+12.    Resuelva el problema anterior cuando el nivel del agua ha bajado 30 m.
+
+13.    Un tanque tiene la forma de un cilindro circular recto de radio 1 m y está colocado con su eje horizontal. Si
+       se llena con aceite de w = 800 kg / m 3 , ¿cuál será la fuerza sobre cada una de las caras circulares?
+
+14.    Resuelva el problema anterior:
+
+       a.     Si el cilindro se llena solamente hasta la mitad.
+
+       b.     Si se llena hasta una altura de 1,5 m.
+
+15.    La cara en contacto con el agua en una presa forma un ángulo de 30° con la vertical. La forma de la cara es
+       rectangular, con 30 m de ancho y 20 m de profundidad. Halle la fuerza total que ejerce el agua sobre la presa
+       cuando ésta se encuentra llena de agua.
+
+16.    Resuelva el problema anterior cuando la forma de la cara es un trapecio de base superior 50 m, base inferior
+       30 m y altura 10 m.
+
+
+      Capítulo 4: Aplicaciones de la integral definida
+      17.   Un tanque lleno de agua tiene una compuerta vertical en forma de círculo de 60 cm de radio con su centro
+            a una profundidad de 3 m. Halle la fuerza total ejercida por el agua sobre la compuerta.
+
+      18.   Calcule la fuerza total ejercida por el agua sobre la superficie de área A y limitada por el eje x, la curva
+            y = f ( x) y las rectas x = a y x = b (figura 13). Demuestre que la fuerza total es la misma que resultaría si
+            la placa se colocara horizontalmente a una profundidad x , siendo x la abscisa de su centroide.
+
+
+                                                       Figura 13
+
+
+  Ejercicios de los módulos 18 al 25
+316

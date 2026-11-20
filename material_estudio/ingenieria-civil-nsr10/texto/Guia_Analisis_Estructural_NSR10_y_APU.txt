@@ -1,0 +1,56 @@
+================================================================================
+GUÍA DE ANÁLISIS ESTRUCTURAL, NORMA SISMORRESISTENTE NSR-10 Y PRESUPUESTOS APU
+Asesorías en Ingeniería — Ing. Oscar Fernando Valencia (Cel: 300 408 3940)
+Portal Web: https://asesoriaseningenieria.github.io
+================================================================================
+
+1. CARGAS Y COMBINACIONES DE DISEÑO (TÍTULO B NSR-10)
+--------------------------------------------------------------------------------
+- Cargas Muertas (D): Peso propio de elementos estructurales (concreto 24 kN/m³,
+  acero 78.5 kN/m³), losas, acabados, muros divisorios y cubierta.
+- Cargas Vivas (L): Sobrecarga reglamentaria por uso (ej. residencial 1.8 kN/m²,
+  escaleras 3.0 kN/m², cubiertas livianas 0.35–0.50 kN/m²).
+- Combinaciones básicas LRFD (B.2.4.2 NSR-10):
+    U1 = 1.4 D
+    U2 = 1.2 D + 1.6 L + 0.5 (Lr o G)
+    U3 = 1.2 D + 1.0 L ± 1.0 E   (con sismo de diseño reducido E = Fs/R)
+
+2. PARÁMETROS SÍSMICOS Y ESPECTRO ELÁSTICO (TÍTULO A NSR-10)
+--------------------------------------------------------------------------------
+- Parámetros de amenaza sísmica por municipio (Apéndice A-4, ej. Medellín:
+  Aa = 0.15, Av = 0.20; Oriente Antioqueño según municipio).
+- Coeficientes de amplificación por perfil de suelo (A, B, C, D, E): Fa y Fv.
+- Coeficiente de importancia (I): 1.00 para edificaciones de ocupación normal.
+- Períodos límite del espectro:
+    Tc = 0.48 * (Av * Fv) / (Aa * Fa)
+    TL = 2.4 * Fv
+- Aceleración espectral de diseño Sa(T):
+    Para T <= Tc:       Sa = 2.5 * Aa * Fa * I
+    Para Tc < T <= TL:  Sa = 1.2 * Av * Fv * I / T
+    Para T > TL:        Sa = 1.2 * Av * Fv * TL * I / T^2
+- Cortante basal sísmico reducido: Vs = (Sa * W) / R
+- Límite de deriva máxima entrepisos (A.6.4 NSR-10): Δmax <= 1.0% de h_piso
+  (0.5% para muros de mampostería estructural).
+
+3. DISEÑO EN CONCRETO REFORZADO (TÍTULO C), MAMPOSTERÍA (TÍTULO D/E) Y ACERO (TÍTULO F / AISC 360)
+--------------------------------------------------------------------------------
+- Concreto reforzado a flexión:
+    a = As * fy / (0.85 * f'c * b)
+    φMn = 0.90 * As * fy * (d - a / 2)
+    Cuantía mínima ρ_min = max(0.25 * sqrt(f'c) / fy, 1.4 / fy).
+- Viviendas de 1 y 2 pisos (Título E NSR-10): Mampostería confinada con
+  columnetas y vigas de amarre continuas, longitud mínima de muros confinados
+  en cada dirección principal.
+- Acero estructural (Título F / AISC 360): Verificación de perfiles HSS y W
+  por fluencia en tracción, pandeo flexional/torsional en compresión y pandeo
+  local (secciones compactas vs esbeltas) y diseño de placas base y soldaduras.
+
+4. PRESUPUESTOS DE OBRA Y ANÁLISIS DE PRECIOS UNITARIOS (APU)
+--------------------------------------------------------------------------------
+- Estructura de un APU por ítem constructivo:
+  1) Materiales (con factor de desperdicio: concreto, acero figurado, ladrillo,
+     geotextil, tubería, agregados).
+  2) Mano de obra (cuadrilla Oficial + Ayudante, rendimiento en m²/día, ml/día
+     o kg/día, prestaciones sociales).
+  3) Equipos y herramienta menor (formaleta, vibrador, mezcladora, transporte).
+  4) Costo Directo + AIU (Administración, Imprevistos, Utilidad).

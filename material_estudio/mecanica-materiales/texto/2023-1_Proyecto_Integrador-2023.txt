@@ -1,0 +1,136 @@
+Plataforma de ascenso y sistema de
+      transmisión de potencia
+
+
+           Proyecto integrador
+
+
+          Resistencia de Materiales
+   Instituto Tecnológico Metropolitano, ITM
+             Medellín, Colombia
+                   2023-1
+     1. Introducción
+En la vida profesional como futuros ingenieros electromecánicos se enfrentará a un sin número de proyectos,
+problemas y/o metas que deben cumplir, superar y/o lograr; para esto, es necesario comenzar a prepararse de la
+mejor manera en estos aspectos. Actualmente, existe la metodología de Aprendizaje Basado en Problemas (ABP)
+que es ampliamente empleada a nivel mundial, este es un método de enseñanza-aprendizaje que es centrado en el
+estudiante que adquiere conocimientos, habilidades y actitudes a través de situaciones de la vida real.
+El ITM en su desarrollo pedagógico evalúa constantemente sus metodologías y programas curriculares para estar a
+la vanguardia de los procesos educativos, para el curso de resistencia de materiales se determina que es pertinente
+utilizar la metodología ABP en uno de sus porcentajes evaluativos y se establece que para el semestre en curso el
+problema a desarrollar es una plataforma de elevación.
+
+     2. Definición
+
+A diario se presentan necesidades que involucran el diseño de un sistema de transmisión de potencia mecánico
+eficiente para el accionamiento de equipos industriales y/o domésticos. Se requiere un diseño adecuado para
+accionar una máquina con características técnicas particulares. Adicionalmente una plataforma de ascenso para la
+correcta disposición del sistema de transmisión de potencia.
+
+     3. Objetivo
+
+Diseñar a nivel de detalle una plataforma de ascenso y sistema de transmisión de potencia que cumpla los
+parámetros de diseño establecidos, promoviendo el aprendizaje basado en problemas como metodología para la
+aplicación del conocimiento adquirido en el transcurso de la asignatura.
+
+     4. Modalidad de desarrollo
+
+Este proyecto será realizado de forma grupal, los grupos estarán conformados por máximo 4 integrantes, y se
+realizarán dos entregas según las fechas establecidas en el compromiso académico.
+
+
+     5. Parámetros de diseño
+
+Los parámetros de diseño son los requerimientos que debe cumplir el diseño de la plataforma de ascenso y el
+sistema de transmisión de potencia, se empleará los últimos dígitos del documento de identidad. En la Figura 1 se
+muestra el detalle del problema a solucionar que consiste en una plataforma de ascenso. En la Tabla 1 se
+especifican los parámetros de diseño de acuerdo con su documento de identificación.
+
+
+                                                                                                                      2
+                                b
+                      a
+                                Rotor                 Motor
+
+
+                                        Figura 1. Plataforma de ascenso.
+
+                                       Tabla 1. Parámetros de diseño.
+                              Parámetro                           Valor o característica
+                                    a                                     0.8 m
+                                    b                                     2.X m
+                                    h                                     1.X m
+                     Longitud de las barras AD y BC                       3.X m
+                            Carga del motor                              3XX kg
+                             Carga del rotor                             2XX kg
+                           Velocidad de giro                           16XX rpm
+                                Potencia                                 15.X hp
+               Notas:
+               • X es el promedio del último número del documento de identidad.
+               • XX es el promedio de los dos últimos números del documento de identidad.
+
+    6. Entregas
+
+El proyecto se encuentra dividido en dos (2) entregas, de las cuales el entregable final (entrega 2) debe estar
+completamente digitalizado, es decir, para la entrega 1 se permiten entregas parcial o totalmente manuscritas
+(escritas a mano, manteniendo una excelente presentación), mientras que para la entrega final no se recibirán
+trabajos manuscritos, salvo en el caso especial en el cual el grupo de estudiantes demuestre que no cuentan con
+ningún dispositivo para la realización de las entregas en computadora y que vive en un lugar sin acceso a
+cualquier tipo de dispositivos de esta índole. Las entregas se realizarán por la plataforma Cvirtual, siendo
+redactadas como informe (trabajo escrito) con las debidas normas de presentación, teniendo en cuenta que
+cada entrega irá complementando la anterior, es decir, que cada entrega deberá contener la(s) anterior(es).
+
+Es responsabilidad de cada grupo de estudiantes del curso subir solo un archivo en formato PDF que permita
+la adecuada visualización del trabajo realizado (sólo lo sube un integrante del grupo), y la validación del
+archivo desde la misma plataforma (que sea el documento correcto, que haya adjuntado adecuadamente, que no
+esté corrupto, la calidad de la presentación y visualización del trabajo enviado, entre otras).
+
+
+                                                                                                              3
+ Los contenidos de las entregas y las fechas con la hora de estas se especifican en la Tabla 2, las entregas
+ realizadas posterior a la fecha y hora establecidas se recibirán, pero tendrán las penalizaciones especificadas en
+ la Tabla 3. La calificación es por competencias y por tanto en la entrega siguiente se podrá mejorar la nota
+ obtenida en la(s) entrega(s) anterior(es), realizando un promedio entre las entregas.
+          “Todas las entregas deberán ser sustentadas a través de un vídeo de una duración
+                                      máxima de 8 minutos”
+
+                              Tabla 2. Requerimientos, fecha y hora de las entregas.
+
+        Entrega                                Requerimientos                          Fecha
+                           Diseño y dimensionamiento plataforma de
+                                  ascenso, carrera del cilindro
+                              Planos 2D (Para esta entrega solo es
+             I                     necesario el plano general)                 16/04/2023, 23:55 hr
+                               Cálculos de reacciones y/o apoyos
+                                      Vídeo sustentación
+                       Selección de perfiles (cálculo de resistencia de los
+                                           elementos)
+                               Cálculo y selección de pasadores
+                                Selección comercial del cilindro
+            II                   Cálculo y selección de los ejes               28/05/2023, 23:55 hr
+                               Planos 2D y 3D (Todos los planos,
+                                ensamble, detalles, explosionado,
+                                        isométricos, …)
+                                      Vídeo sustentación
+
+                                         Tabla 3. Penalización de entregas.
+
+                     Tiempo de retraso (días)       Penalización     Base de calificación
+                                   0                       0                  5.0
+                                 (0,1]                    0.5                 4.5
+                                 (1,3]                    1.0                 4.0
+                                 (3,5]                    1.5                 3.5
+                                 (+5)                No se recibe             0.0
+
+
+     7. Asesorías y acompañamiento del proyecto
+
+Arley Johany Cardona Vargas
+Se asigna la asesoría según la previa solicitud del estudiante.
+
+Nota: Esta es la versión 1.0 de la guía del proyecto integrador, esta puede ser actualizada para mejorar la
+compresión o incluir datos importantes para el desarrollo del proyecto, la última versión siempre estará disponible
+en la plataforma virtual. Todos los cambios serán notificados en la plataforma virtual.
+
+
+                                                                                                                      4

@@ -1,0 +1,836 @@
+Capítulo 1: Espacios vectoriales
+
+
+                                   1.3 Ejemplos
+                                          n
+                                   1.     , con las operaciones de suma y producto por un escalar definidas usual-
+                                        mente, tiene estructura de espacio vectorial.
+
+
+                                        Sea V = Pn = { P / p ( x ) = an x + an −1 x                                          } el conjunto
+                                                                                           n −1
+                                   2.
+                                                                               n
+                                                                                                  + ... + a1 x + a0 , ai ∈
+                                        de los polinomios de grado menor o igual que n.
+
+                                        El elemento 0 (neutro) en Pn es 0( x ) = 0 x n + 0 x n −1 + ... + 0 x + 0.
+
+
+                                        Si P ( x) = an x n + an −1 x n −1 + ... + a1 x + a0 y
+                                           Q ( x ) = bn x n + bn −1 x n −1 + ... + b1 x + b0 ,
+
+                                        entonces
+
+                                                 ( P + Q) ( x) = P ( x) + Q( x) =
+                                                 ( an + bn ) x n + (an −1 + bn −1 ) x n −1 + ... + ( a1 + b1 ) x + (a0 + b0 ).
+
+                                        Se ve claramente que la suma de dos polinomios de grado menor o igual que
+                                        n es otro polinomio de grado menor o igual que n. Se pueden comprobar las
+                                        propiedades ii y v a x con:
+
+
+                                                 (α p) ( x) = α [ p( x)]
+                                                              = α an x n + α an −1 x n −1 + ... + α a1 x + α a0 , α p ∈ Pn .
+
+                                                 − p ( x) = − an x n − an −1 x n −1 + ... − a1 x − a0
+
+
+                                                  p ( x) + [ − p ( x) ] = 0 ( x).
+
+
+ 28
+                                                                                                  Módulo 1: Definición y propiedades del espacio vectorial
+3.   Si V = M m , n (conjunto de matrices m por n) con la suma y la multiplicación
+     escalar usuales, es fácil verificar que M m , n es un espacio vectorial con 0
+     como la matriz cero de M m , n . Si A = ( aij ) ( m , n ) , entonces − A = (− aij ) ( m , n ) ,
+     − A ∈ M m,n .
+
+
+4.   Sea S3 el conjunto de matrices invertibles de 3 × 3 . Se define la suma
+      A ⊕ B por A ⊕ B = AB. Si A y B son invertibles, entonces AB es invertible
+     y se cumple i.
+
+     El axioma ii es la ley asociativa para la multiplicación de matrices. Los
+     axiomas iii y iv se satisfacen con 0 = Ι 3 y − A = A−1 . Sin embargo, AB ≠ BA y
+     el axioma v no se cumple; por lo tanto, S3 no es un espacio vectorial.
+
+5.   Sea V = C[a, b] = conjunto de funciones continuas de valores reales
+     definidas en el intervalo [a, b] . Se define:
+
+              ( f + g ) ( x) = f ( x) + g ( x) y (α f )( x) = α [ f ( x)].
+
+     Como la suma de funciones continuas es continua, el axioma i se cumple; de
+     la misma forma el producto de un escalar por una función continua también
+     es una función continua (propiedad vi). Los otros axiomas se verifican
+     fácilmente con 0, la función 0 y (–f)(x) = –f (x). Luego C[a, b], con las
+     operaciones definidas, tiene estructura de espacio vectorial.
+
+6.   Sea V el conjunto de los números reales ( ) con las operaciones
+      x ⊕ y = x − y (⊕ es la resta ordinaria) y la multiplicación por un esca
+     lar como la multiplicación ordinaria. Veamos si V es un espacio vectorial.
+
+     x ⊕ y y α x son números reales, lo cual verifica las condiciones i y vi
+     de la definición.
+
+     Veamos qué pasa con la propiedad conmutativa.
+
+     Sea x = 2 y y = 3.
+
+              x ⊕ y = 2 − 3 = − 1,
+              y ⊕ x = 3 − 2 = 1,
+     luego:
+
+              x ⊕ y ≠ y ⊕ x.
+
+     Además, las propiedades ii, iii y iv tampoco se cumplen. Las propiedades
+     vii, ix y x se cumplen, pero la propiedad viii no; veamos por qué:
+
+     Sea α = 2, β = 3, x = 4.
+
+                                                                                                            Álgebra lineal elemental y aplicaciones 29
+Capítulo 1: Espacios vectoriales
+                                                 (α + β ) x = (2 + 3)4 = 5 × 4 = 20,
+
+                                        pero:
+                                                 α x ⊕ β x = 2 × 4 − 3 × 4 = 8 − 12 = − 4.
+
+                                   7.   Sea V = {( x, y, z ): ax + by + c z = 0, a, b, c ∈         }.
+
+                                        Esto es, V es el conjunto de puntos en 3 que están en el plano con vector
+                                        normal (a, b, c) y que pasa por el origen.
+
+                                        Veamos si se cumplen las dos propiedades de cerradura, es decir, i y vi.
+
+                                        Sean ( x1 , y1 , z1 ) y ( x2 , y2 , z2 ) elementos de V; veamos si
+
+
+                                                 ( x1 + x2 , y1 + y2 , z1 + z2 ) ∈ V .
+
+
+                                        Como ( x1 , y1 , z1 ) ∈ V ,                                                (1)
+
+
+                                                 ax1 + by1 + cz1 = 0.
+
+                                        De igual forma,
+
+                                                 ax2 + by2 + cz2 = 0.                                              (2)
+
+                                        Al sumar y factorizar (1) y (2) obtenemos:
+
+                                                 a( x1 + x2 ) + b( y1 + y2 ) + c( z1 + z2 ) = 0.
+
+
+                                        Esta expresión significa que ( x1 + x2 , y1 + y2 , z1 + z2 ) ∈ V .
+
+
+                                        Ahora observemos qué sucede con α ( x1 , y1 , z1 ), α ∈ .
+
+                                                 a x1 + b y1 + c z1 = 0,
+                                                 α (a x1 + b y1 + c z1 ) = α 0 = 0,
+                                                 a α x1 + b α y1 + c α z1 = 0.
+
+                                        Por lo tanto:
+
+                                                 (α x1 , α y1 , α z1 ) ∈ V ,
+
+                                        esto es:
+
+                                                   α ( x1 , y1 z1 ) ∈ V .
+                                        Además, si α = 0, se tiene que (0, 0, 0) ∈ V , y con α = − 1 tenemos
+                                        que:
+
+
+ 30
+                                                                                    Módulo 1: Definición y propiedades del espacio vectorial
+             − ( x1 , y1 z1 ) ∈ V ,
+
+     con lo cual verificamos las propiedades iii y iv. Las demás propiedades se
+     comprueban fácilmente aplicando las propiedades de los números reales.
+
+8.   El siguiente ejemplo nos muestra que no necesariamente la suma vectorial
+     ha de estar relacionada con la suma ordinaria, y que el vector cero, 0, no
+     tiene que relacionarse con el número real 0.
+
+     Sea V = {x / x∈ , x > 0} . La suma y la multiplicación escalar se definen así:
+            x⊕y = xy           y α    x = xα , α ∈ .
+
+     Veamos que V, junto con estas operaciones, es un espacio vectorial. Com-
+     probemos inicialmente las dos propiedades de cerradura i y vi.
+
+     Sean x, y ∈ V ; entonces, x ⊕ y = x y ∈ V . El producto de dos reales positi-
+     vos es un real positivo.
+
+     Ahora, sean α ∈       y x ∈ V ; entonces, α x = xα . Como x es un real
+     positivo, al elevarlo a cualquier potencia real se obtiene un número real
+     positivo.
+
+     Ejemplifiquemos algunas sumas y multiplicaciones escalares en V.
+
+                                                2           3 = 32 = 9
+            3 ⊕ 4 = 3 × 4 = 12
+                                                ↓           ↓
+            4 ⊕ 8 = 32...
+                                                Escalar     Vector
+
+                                                1                          1    1
+                                               −            4 = 4−1 2 =    12
+                                                                              =
+                                                2                         4     2
+                                                ↓           ↓
+                                               Escalar      Vector
+
+           Comprobemos la propiedad asociativa. Sean x, y, z, en V. Entonces,
+
+
+                      (x ⊕ y ) ⊕ z = (x y )z = x(y z ) = x ⊕ (y ⊕ z ).
+                                   ↓          ↓
+                        Definición de       Propiedad asociativa
+                        la operación       del producto entre reales
+
+
+           Idéntico aditivo:
+
+            Encuentre 0 ∈ V tal que
+                      x ⊕ 0 = x,
+                         x 0 = x.
+
+
+                                                                                              Álgebra lineal elemental y aplicaciones 31
+Capítulo 1: Espacios vectoriales
+                                                               Luego 0 = 1; es decir, el número real positivo 1 es el idéntico aditivo
+                                                               o «cero» para este espacio.
+
+                                                              Inverso aditivo.
+
+                                                               Para todo x∈V , − x debe satisfacer que
+
+                                                                       x ⊕ (−x) = 0,
+
+
+                                                               luego x(−x) = 1.
+                                                                                  1
+                                                                Así que − x =       .
+                                                                                  x
+                                                                               1
+                                                               Como x > 0,       > 0 ; por lo tanto,
+                                                                               x
+                                                                       −x ∈ V .
+
+                                                        Las demás propiedades las dejamos como ejercicio.
+
+
+                                   2.2 Ejemplos
+
+                                   1.   Sea H = {( x, y) / y = mx, m es un real fijo y x∈      }.
+
+                                                H ⊂     2
+                                                            y H ≠ ∅.
+
+
+                                        Sean (x1 , y1 ) y (x2 y2 ) elementos de H; entonces,
+
+
+ 32
+                                                                                                                        Módulo 2: Subespacios
+               (x1 , y1 ) = ( x1 , m x1 ) y (x2 , y2 ) = ( x2 , m x2 ).
+              ( x1 + x2 , y1 + y2 ) = ( x1 + x2 , mx1 + mx2 )
+                                         = ( x1 + x2 , m ( x1 + x2 )).
+     Luego:
+
+              ( x1 + x2 , y1 + y2 )∈ H .
+
+
+     Ahora, sea ( x , y ) ∈ H y veamos si α ( x , y ) ∈ H .
+
+                 ( x, y ) = ( x, m x),
+                 α ( x, y ) = α ( x, mx) = (α x, α mx) = (α x, m(α x) ) ,
+                 (α x, m(α x))∈ H .
+
+
+     Por lo tanto:
+              α ( x, y ) ∈ H .
+
+     En consecuencia, el conjunto de puntos del plano que están sobre una recta
+                                                                               2
+     que pasa por el origen forma un subespacio de                                 .
+
+
+     Sea H = {( x, y ) ∈            / y = mx + b} , H ⊂                    , H ≠∅
+                                2                                      2
+2.
+
+                                                       2
+     Veamos si H es un subespacio de                       .
+
+     H está formado por los puntos sobre una recta de pendiente m e intercepto
+     con el eje y igual a b; es decir, una recta que no pasa por el origen.
+
+     Sean (x1 , y1 ) y (x2 , y2 ) elementos de H. Veamos si (x1 , y1 ) + (x2 , y2 )∈ H .
+
+               (x1 , y1 ) = ( x1 , m x1 + b), (x2 , y2 ) = ( x2 , m x2 + b).
+
+
+              (x1 , y1 ) + (x2 , y2 ) = ( x1 + x2 , y1 + y2 ) = (x1 + x2 , m x1 + b + mx2 + b)
+                                          = (x1 + x2 , m ( x1 + x2 ) + 2b).
+
+
+     Luego (x1 , y1 ) + (x2 , y2 )∉ H ; por lo tanto, H no es un subespacio de              2
+                                                                                                .
+
+
+     Sea H = {( x, y, z ) ∈             / x = at , y = bt , z = ct ; a, b, c, t ∈      }.
+                                    3
+3.
+     H es el conjunto de puntos de 3 que están sobre una recta del espacio que
+     pasa por el origen. Comprobemos para H las dos reglas de cerradura.
+
+     Sean ( x1 , y1 , z1 ) y ( x2 , y2 , z2 )∈ H ; entonces,
+
+
+              ( x1 , y1 , z1 ) = (at1 , bt1 , ct1 ), t1 ∈      ,
+              ( x2 , y2 , z2 ) = (at2 , bt2 , ct2 ), t2 ∈          ,
+
+
+                                                                                                    Álgebra lineal elemental y aplicaciones 39
+Capítulo 1: Espacios vectoriales
+                                                  ( x1 , y1 , z1 ) + ( x2 , y2 , z2 ) = (at1 + at2 , bt1 + bt2 , ct1 + ct2 )
+                                                                             = (a(t1 + t2 ), b(t1 + t2 ), c(t1 + t2 )), (t1 + t2 ) ∈ .
+                                        Luego (( x1 , y1 , z1 ) + ( x2 , y2 , z2 ))∈ H y
+
+
+                                                  α ( x1 , y1 , z1 ) = (α (at1 ), α (bt1 ), α (ct1 ))
+                                                                  = (a(α t1 ), b(α t1 ), c(α t1 ))∈ H , (α t1 ∈ ).
+
+                                                                                       3
+                                        Así que H es un subespacio de                      .
+
+                                              2                                                                                   2
+                                        En        tenemos los siguientes subespacios: los subespacios triviales                       y
+                                        {0} , y un subespacio propio, las rectas que pasan por el origen.
+
+                                                                                 3
+                                        Los subespacios propios de                   son las rectas y los planos que pasan por el
+                                        origen.
+
+                                   4.   Sabemos que todo polinomio es una función continua, así que el conjunto
+                                        de polinomios de grado menor o igual que n en el intervalo cerrado
+                                        [ a, b], Pn [ a, b] es un subconjunto del conjunto de funciones continuas
+                                        dentro del mismo intervalo.
+
+                                                  Pn [a, b] ⊂ C [a, b].
+
+                                        Como Pn es un espacio vectorial para todo entero n, entonces es un
+                                        subespacio de C[a, b] .
+
+
+                                   5.   Sea C ′[a, b] el conjunto de funciones con primera derivada continua,
+                                        definidas en [a, b] .
+
+
+                                        Como toda función derivable es continua, entonces C ′ [a, b] ⊂ C [ a, b]. Ade-
+                                        más, la suma de funciones diferenciables es una función diferenciable, y un
+                                        múltiplo constante de una función diferenciable es diferenciable. Se ve
+                                        entonces que C ′ [a, b] es un subespacio propio de C [a, b] , ya que no toda
+                                        función continua es diferenciable.
+
+
+ 40
+                                                                                                         Módulo 2: Subespacios
+
+
+Ejemplo
+
+H1 = {( x, y )∈    2
+                       / y = x} .
+
+H 2 = {( x, y )∈   2
+                       / y = 2 x} .
+
+(1, 1) ∈ H1 y (1, 2) ∈ H 2 .
+
+Entonces:
+
+        (1, 1) ∈ ( H1 ∪ H 2 ) y (1, 2) ∈ H1 ∪ H 2 .
+
+Pero (1, 1) + (1, 2) = (2, 3) ∉ ( H1 ∪ H 2 ) ya que (2, 3)∉ H1 y (2, 3) ∉ H 2 . Así que
+H1 ∪ H 2 no es cerrado bajo la suma ; por lo tanto, no es un subespacio.
+
+
+                                                                                     Álgebra lineal elemental y aplicaciones 41
+Capítulo 1: Espacios vectoriales
+
+
+                                   Ejemplos
+
+                                                                                     2       3
+                                   1.    La figura 3.1 muestra un vector v en            o       como combinación lineal de
+                                         los vectores v1 y v2 .
+
+
+                                                                        Figura 3.1
+
+
+                                              →   →                        → →                            →       →
+                                   2.    Si a y b son vectores libres, Pr ( a / b ), la proyección de a sobre b, es una
+                                                                  →       → →                                         →
+                                         combinación lineal de b, y Pr ( b/ a ) es una combinación lineal de a.
+
+
+46
+                                                                                             Módulo 3: Combinación lineal y subespacio generado
+
+                 ⎛ −5 ⎞                                           ⎛ 4⎞   ⎛ 1⎞
+                 ⎜ ⎟                                              ⎜ ⎟    ⎜ ⎟
+3.   En    3
+               , ⎜ −2 ⎟ es una combinación lineal de los vectores ⎜1 ⎟ y ⎜ 0 ⎟ ya que:
+                 ⎜ −7 ⎟                                           ⎜ 2⎟   ⎜ −1⎟
+                 ⎝ ⎠                                              ⎝ ⎠    ⎝ ⎠
+
+      ⎛ −5 ⎞       ⎛ 4⎞     ⎛ 1⎞
+      ⎜ ⎟          ⎜ ⎟      ⎜ ⎟
+      ⎜ −2 ⎟ = − 2 ⎜1 ⎟ + 3 ⎜ 0 ⎟ .
+      ⎜ −7 ⎟       ⎜ 2⎟     ⎜ −1⎟
+      ⎝ ⎠          ⎝ ⎠      ⎝ ⎠
+
+
+4.   En     2
+                , sean v1 = (2, 1) y v 2 = (−4, − 2). Veamos si v = (6, 3) es una
+     combinación lineal de v1 y v2 .
+
+     Debemos entonces determinar si existen escalares a1 y a2 tales que
+
+                 v = a1 v1 + a2 v 2 .
+                (6, 3) = a1 (2,1) + a2 (−4, − 2)
+
+     Luego
+                6 = 2a1 − 4 a2 ,
+                3 = a1 − 2a2 ,
+                ⎡ 2 − 4 ⎤ ⎡ a1 ⎤ ⎡6 ⎤
+                ⎢1 − 2 ⎥ ⎢ a ⎥ = ⎢3 ⎥ .
+                ⎣       ⎦ ⎣ 2⎦ ⎣ ⎦
+
+
+     La matriz aumentada es:
+
+
+                 ⎡ 2    −4       6 ⎤ operaciones elementales ⎡ 1   −2   3 ⎤
+                 ⎢                 ⎥ ⎯⎯⎯⎯⎯⎯⎯                →⎢            ⎥.
+                 ⎣1     −2       3⎦        se reduce a
+                                                             ⎣ 0    0   0 ⎦
+
+
+     El sistema tiene infinitas soluciones dadas por a1 = 3 + 2 a2 y a2 ∈ . Por
+     ejemplo, si a2 = 1, a1 = 5 y (6, 3) = 5(2, 1) + (−4, − 2); pero si hacemos
+      a2 = 0, a1 = 3 y (6, 3) = 3(2, 1) + 0(−4, − 2), etc.
+
+     De modo que v es una combinación lineal de v1 y v2 de muchas maneras.
+
+     Podemos entonces observar que si un vector v es una combinación lineal
+     de v1, v2,..., vk , entonces esa combinación lineal puede no ser única.
+
+
+5.   En P3 , sea A = {−1 + x, 1 + x 2 , 2 x + x 3 } . Veamos si Q ( x ) = 3 + x 2 + x 3 es
+     una combinación lineal de A.
+
+     Expresemos a Q ( x ) como una combinación lineal de los polinomios de A.
+
+
+                                                                                                    Álgebra lineal elemental y aplicaciones 47
+Capítulo 1: Espacios vectoriales
+                                                3 + x 2 + x 3 = a1 (−1 + x ) + a2 (1 + x 2 ) + a3 (2 x + x 3 ).
+
+                                        Al igualar los coeficientes de los términos del mismo grado en ambos lados
+                                        de la igualdad, tenemos:
+
+                                               (1)       3 = −a1 + a2 .
+                                               (2)       0 = a1 + 2a3 .
+                                               (3)       1 = a2.
+                                               (4)      1 = a3.
+
+
+                                        Con el valor a2 = 1 en (1), 3 = −a1 + 1, entonces a1 = − 2.
+
+
+                                        Con a1 = − 2 y a3 = 1, la ecuación (2) se expresa como 0 = –2 + 2(1).
+
+
+                                        Por lo tanto, hemos determinado escalares a1 , a2 , a3 tales que:
+
+
+                                                3 + x 2 + x 3 = − 2(−1 + x ) + (1 + x 2 ) + (2 x + x 3 ).
+
+
+                                   Ejemplos
+
+
+                                                        ⎛1 ⎞  ⎛0⎞                         2
+                                   6.      Los vectores ⎜ ⎟ y ⎜ ⎟ generan                     .
+                                                        ⎝ ⎠
+                                                         0    ⎝1 ⎠
+
+                                                        ⎛ 2⎞      ⎛1 ⎞ ⎛ 0 ⎞
+                                           Por ejemplo, ⎜ 4 ⎟ = 2 ⎜ 0 ⎟ + 4 ⎜1 ⎟ ,
+                                                        ⎝ ⎠       ⎝ ⎠ ⎝ ⎠
+
+                                                          ⎛1 ⎞ ⎛ 0 ⎞ ⎛ 0 ⎞
+                                                          ⎜ ⎟ ⎜ ⎟ ⎜ ⎟                             3
+                                           y los vectores ⎜ 0 ⎟ , ⎜1 ⎟ , ⎜ 0 ⎟ generan                .
+                                                          ⎜ 0 ⎟ ⎜ 0 ⎟ ⎜1 ⎟
+                                                          ⎝ ⎠ ⎝ ⎠ ⎝ ⎠
+
+
+ 48
+Ejemplos
+
+9.    En    , sea A = {1} .
+
+      gen A = { x x = a ·1, a ∈           }= .
+
+      {1} es generador para           .
+
+
+10.   En    3
+                , sea A = {(1, − 2, 0), (3, 1, − 1)} .
+
+      gen ( A) = {( x, y, z ) / ( x, y, z ) = a1 (1, − 2, 0) + a2 (3, 1, − 1); a1 , a2 ∈   }.
+
+      Determinemos una relación entre x, y , z.
+
+                 ( x, y , z ) = (a1 + 3a2 , − 2a1 + a2 , − a2 ),
+                 x = a1 + 3a2 ,
+                 y = − 2a1 + a2 ,
+                 z = − a2 .
+
+
+                                                                                                Álgebra lineal elemental y aplicaciones 49
+Capítulo 1: Espacios vectoriales
+
+                                                                                                     ⎡                           ⎤
+                                    ⎡ 1 3 x⎤              ⎡1                   3   x     ⎤           ⎢1      3      x            ⎥
+                                    ⎢        ⎥R → R + 2 R ⎢                                   1
+                                                                                         ⎥R2 → R2 ⎢                              ⎥
+                                    ⎢ −2 1 y⎥ 2     2
+                                                          ⎢
+                                                         1 0                   7   y + 2x⎥    7      ⎢0            y + 2x        ⎥
+                                                                                                              1
+                                    ⎢        ⎥R3 → − R3   ⎢                              ⎥
+                                    ⎣ 0 −1 z ⎦            ⎣0                   1   − z ⎦R3 → R3 − R2⎢⎢               7           ⎥
+                                                                                                     ⎢0                 y + 2 x ⎥⎥
+                                                                                                             0    −z−
+                                                                                                     ⎢⎣                   7 ⎥⎦
+                                             Luego, los elementos de gen (A) deben satisfacer
+
+                                                             ( y + 2 x)
+                                                      −z −              = 0,
+                                                                 7
+                                             o sea:
+
+                                                      2 x + y + 7 z = 0.
+
+
+                                             gen ( A) = {( x, y, z ) / 2 x + y + 7 z = 0} (plano que pasa por el origen).
+
+                                                                                                     3
+                                    Nota: el espacio generado por dos vectores no nulos en               y que no sean paralelos
+
+
+                                   Ejemplo
+
+
+                                                                                                         ⎧⎪⎛ 1 ⎞ ⎛ 0 ⎞ ⎫⎪
+                                   El espacio vectorial       2
+                                                                  puede ser generado por el conjunto A = ⎨⎜ ⎟ , ⎜ ⎟ ⎬ .
+                                                                                                          ⎪⎩⎝ 0 ⎠ ⎝ 1 ⎠ ⎪⎭
+
+                                                                                         ⎧⎪⎛ 1 ⎞ ⎛ 0 ⎞ ⎛ 1⎞ ⎫⎪
+                                   También puede ser generado por un conjunto mayor A′ = ⎨⎜ ⎟ , ⎜ ⎟ , ⎜ ⎟ ⎬ .
+                                                                                          ⎪⎩⎝ 0 ⎠ ⎝ 1 ⎠ ⎝ 1⎠ ⎪⎭
+
+
+ 50
+                                                                                                         Módulo 4: Independencia lineal
+
+
+Ejemplos
+
+1.    En   3
+               , sea A = {(1, 7, − 2), (−1, 1, 0), (3, 5, − 2)} . Veamos si A es LD o LI.
+
+
+      Solución
+
+      Comenzamos planteando la ecuación
+
+                c1 (1, 7, − 2) + c2 (−1, 1, 0) + c3 (3, 5, − 2) = (0, 0, 0),
+
+      la cual, al igualar los componentes en ambos lados de la ecuación, nos lleva
+      al siguiente sistema homogéneo de ecuaciones:
+
+
+                   c1 − c2 + 3c3 = 0                           ⎡ c1 ⎤
+                  7c1 + c2 + 5c3 = 0         A x = 0,     x = ⎢⎢ c2 ⎥⎥ .
+                −2c1          − 2c3 = 0                        ⎢⎣ c3 ⎥⎦
+
+                                            ⎡ 1 −1 3 ⎤
+                                            ⎢7 1 5⎥
+      La matriz de coeficientes del sistema ⎢           ⎥ se reduce por medio de
+                                            ⎢⎣ −2 0 −2 ⎥⎦
+
+
+                                              ⎡1 0 1 ⎤
+                                              ⎢0 1 −2⎥
+                    operaciones elementales a ⎢        ⎥ . El sistema equivalente es:
+                                              ⎢⎣0 0 0 ⎥⎦
+
+                            c1 = −c3 .
+                            c2 = 2c3 .
+                            c3 = c3 .
+
+                    La fila nula de esta matriz nos indica que el sistema tiene infinitas solucio-
+                    nes, es decir, hay soluciones con x ≠ 0 (c3 ≠ 0) ; por lo tanto, A es LD.
+
+
+                                                                                            Álgebra lineal elemental y aplicaciones 55
+Capítulo 1: Espacios vectoriales
+
+
+                                   2.   En P2 , sea B = {−1 + x 2 , 2 + x, x 2 } . ¿Es B LD o LI?
+
+                                        Solución
+
+                                        Dada la ecuación
+
+                                                c1 ( −1 + x 2 ) + c2 (2 + x ) + c3 x 2 = 0 + 0 x + 0 x 2 ,
+
+
+                                        veamos cómo son c1 , c2 , c3 .
+                                               (1) −c1 + 2c2 = 0.
+                                               (2) c2 = 0.
+                                               (3) c1 + c3 = 0.
+                                               (2) en (1), −c1 = 0, o sea c1 = 0 (4).
+                                               (4) en (3), c3 = 0.
+
+
+                                                c =c =c =0                          B es LI.
+
+
+ 56
+Capítulo 1: Espacios vectoriales
+
+
+                                   Ejemplos
+
+                                   1.    Los vectores e1 = (1, 0) y e 2 = (0,1) forman una base de                      2
+                                                                                                                            . Los vectores
+
+                                         e1 = (1,0,0), e2 = (0,1,0), e3 = (0, 0,1) forman una base de
+                                                                                                                             3
+                                                                                                                                 y, en gene-
+                                         ral, los vectores
+
+                                                      ⎛1⎞        ⎛ 0⎞           ⎛ 0⎞           ⎛ 0⎞
+                                                      ⎜ ⎟        ⎜ ⎟            ⎜ ⎟            ⎜ ⎟
+                                                      ⎜ ⎟0       ⎜ ⎟1           ⎜ ⎟0           ⎜ 0⎟
+                                                      ⎜ ⎟        ⎜ 0⎟           ⎜ ⎟            ⎜ ⎟
+                                                 e1 = ⎜ ⎟ , e2 = ⎜ ⎟ ,..., ei = ⎜ ⎟ ,..., en = ⎜ ⎟
+                                                      ⎜ ⎟        ⎜ ⎟            ⎜ 1⎟           ⎜ ⎟
+                                                      ⎜ ⎟        ⎜ ⎟            ⎜ ⎟            ⎜ 0⎟
+                                                      ⎜⎜ ⎟⎟      ⎜⎜ ⎟⎟          ⎜⎜ ⎟⎟          ⎜⎜ ⎟⎟
+                                                       ⎝ 0⎠       ⎝ 0⎠           ⎝ 0⎠           ⎝ 1⎠
+                                                                    n
+                                         forman una base para           . Cada uno de estos conjuntos recibe el nombre de
+                                                                                         2       3       n
+                                         base natural, estándar o canónica para              ,       y       , respectivamente.
+
+                                                                                                                  n                       n
+                                         Ya sabemos que todo conjunto de n vectores LI en                             genera a                ; por
+                                                                                                 n                                n
+                                         lo tanto, todo conjunto de n vectores LI en                 es una base de                   .
+
+
+                                         En Pn la base estándar está formada por el conjunto {1, x, x ,..., x } . ¿Por qué?
+                                                                                                     2       n
+                                   2.
+
+                                                                         ⎧⎪⎛ 1 0 ⎞ ⎛ 0 1 ⎞ ⎛ 0 0 ⎞ ⎛ 0 0 ⎞ ⎫⎪
+                                   3.    En M 22 el conjunto de matrices ⎨⎜ 0 0 ⎟ , ⎜ 0 0 ⎟ , ⎜ 1 0 ⎟ , ⎜ 0 1 ⎟ ⎬ es una
+                                                                          ⎪⎩⎝    ⎠ ⎝      ⎠ ⎝       ⎠ ⎝       ⎠ ⎭⎪
+                                         base para el espacio vectorial M 22 . Ésta es la base estándar o canónica.
+
+                                                 ⎧⎛ x ⎞                     ⎫
+                                                 ⎪⎜ ⎟                       ⎪
+                                   4.    Sea Π = ⎨⎜ y ⎟ : 3 x − 2 y + z = 0 ⎬ un subespacio de               3
+                                                                                                                 . Vamos a determinar
+                                                 ⎪⎜ z ⎟                     ⎪
+                                                 ⎩⎝ ⎠                       ⎭
+                                         una base para Π.
+
+
+64
+Capítulo 1: Espacios vectoriales
+
+                                   Ejemplo 1
+
+
+                                           ⎡1          −1          2⎤
+                                   Sea A = ⎢
+                                                                   0 ⎥⎦
+                                                                        .
+                                           ⎣3           1
+
+                                   Determine el espacio nulo de A.
+
+                                   Solución
+
+                                   La matriz A es la matriz de coeficientes del sistema homogéneo Ax = 0 . Hacemos
+                                   operaciones elementales de renglón para hallar las soluciones de este sistema.
+
+
+                                              ⎡1      −1      2⎤               ⎡1                −1    2⎤      1 ⎡ 1    −1    2 ⎤
+                                              ⎢3               ⎥ R2 → R2 − 3R1 ⎢                         ⎥ R2 → R2 ⎢
+                                              ⎣        1      0⎦               ⎣0                4    −6 ⎦     4 ⎣ 0    1    − 3 2 ⎥⎦
+
+                                                                                                             1
+                                                                                                      x1 = − x3
+                                                                                                             2
+                                                           ⎡1                0          1
+                                                                                             ⎤
+                                              R1 → R1 + R2 ⎢
+                                                                                            2
+                                                                                    −3       ⎥             3
+                                                                                                      x2 = x3
+                                                           ⎣0                1              2⎦
+                                                                                                           2
+                                                                                                      x3 = x3
+
+                                                        ⎧⎛ − 1 2 ⎞ ⎫
+                                                        ⎪⎜       ⎟⎪
+                                              N A = gen ⎨⎜ 3 2 ⎟ ⎬
+                                                                     , υ = 1.
+                                                        ⎪⎜ 1 ⎟ ⎪ ( A )
+                                                        ⎩⎝       ⎠⎭
+
+                                   Definición 2
+
+
+                                             ⎡ a11          a12             a1n ⎤
+                                             ⎢a             a22             a2 n ⎥⎥
+                                   Sea m× n ⎢
+                                           =    21
+                                        A                                           .
+                                             ⎢                                    ⎥
+                                             ⎢                                    ⎥
+                                             ⎣ am1          am 2            amn ⎦
+      i.        El espacio generado por los renglones de A,
+
+                        r1 = (a11 , a12 ,..., a1n ), r2 = (a21 , a22 ,..., a2 n ) ,..., rm = (am1 , am 2 ,..., amn ),
+
+                                               n
+                es un subespacio de                llamado espacio renglón de A y se denota RA.
+
+      ii.       El espacio generado por las columnas de A
+
+                               ⎡ a11 ⎤        ⎡ a12 ⎤            ⎡ a1n ⎤
+                               ⎢a ⎥           ⎢a ⎥               ⎢a ⎥
+                          c1 = ⎢ 21 ⎥ , c 2 = ⎢ 22 ⎥ ,..., c n = ⎢ 2 n ⎥
+                               ⎢ ⎥            ⎢ ⎥                ⎢ ⎥
+                               ⎢ ⎥            ⎢ ⎥                ⎢ ⎥
+                               ⎣ am1 ⎦        ⎣ am 2 ⎦           ⎣ amn ⎦
+                                              m
+                es un subespacio de                llamado espacio columna de A y se denota C A .
+
+
+ 76
+Ejemplo 2
+
+
+        ⎧⎛ 2 ⎞ ⎛ 4 ⎞ ⎛ −10 ⎞ ⎛ −8 ⎞ ⎫
+        ⎪⎜ ⎟ ⎜ ⎟ ⎜              ⎟ ⎜      ⎟⎪
+        ⎪⎜ −3 ⎟ ⎜ −6 ⎟ ⎜ 15 ⎟ ⎜ 12 ⎟ ⎪
+        ⎪                                  ⎪
+Sea S = ⎨⎜ 4 ⎟ , ⎜ 5 ⎟ , ⎜ −14 ⎟ , ⎜ −10 ⎟ ⎬ .
+          ⎜
+        ⎪ 1    ⎟  ⎜     ⎟  ⎜    ⎟  ⎜     ⎟
+                              3 ⎟ ⎜ 4 ⎟⎪
+        ⎪⎜ ⎟ ⎜ ⎟ ⎜
+                     3
+                                           ⎪
+        ⎪⎩⎜⎝ 2 ⎟⎠ ⎜⎝ −4 ⎟⎠ ⎜⎝ 7 ⎟⎠ ⎜⎝ 9 ⎟⎠ ⎪⎭
+
+Determine una base para gen S.
+
+
+       Solución
+
+       Tomamos los vectores de S como renglones de una matriz A y por medio de opera-
+       ciones elementales obtenemos una matriz equivalente B en forma escalonada. Los
+       renglones no nulos de B serán LI y formarán una base para RB , que es el mismo RA.
+       Estos vectores tomados como columnas serán una base para gen S.
+
+
+               ⎡ 2        −3    4 2⎤  1                           ⎡1   −3
+                                                                            2   2   1
+                                                                                        2    1⎤
+               ⎢ 4                  ⎥
+                         −6 5 3 −4 ⎥ operaciones elementales      ⎢0   0        1   −1       8   ⎥
+             A=⎢                      ⎯⎯⎯⎯⎯⎯⎯                →B = ⎢                              ⎥.
+                                                                                         3     3
+
+               ⎢ −10     15 −14 3 7 ⎥                             ⎢0   0        0   1        1 ⎥
+                                                                                              10
+               ⎢                    ⎥                             ⎢                              ⎥
+               ⎣ −8      12 10 4 9 ⎦                              ⎣0   0        0   0        0⎦
+
+
+                         ⎧⎛ 1 ⎞ ⎛ 0 ⎞ ⎛ 0 ⎞ ⎫
+                         ⎪⎜ 3 ⎟ ⎜         ⎟ ⎜ ⎟⎪
+                         ⎪⎜ − 2 ⎟ ⎜ 0 ⎟ ⎜ 0 ⎟ ⎪
+                         ⎪                             ⎪
+       Base para gen S = ⎨⎜ 2 ⎟ , ⎜ 1 ⎟ , ⎜ 0 ⎟ ⎬ .
+                         ⎪ 1⎜    ⎟  ⎜      ⎟  ⎜      ⎟
+                                      −1        1 ⎪
+                         ⎪⎜ 2 ⎟ ⎜ 3 ⎟ ⎜ ⎟ ⎪
+                         ⎪⎩⎜⎝ 1 ⎟⎠ ⎜⎝ 8 3 ⎟⎠ ⎜⎝ 110 ⎟⎠ ⎪⎭
+
+
+                                                                                              Vea en su multimedia de Álgebra lineal el
+                                                                                              código fuente en MATLAB para ilustrar
+                                                                                              «Espacio de renglones y columnas».
+
+
+                                                                                     Álgebra lineal elemental y aplicaciones 77
+                                                                                Módulo 6: Subespacios asociados con una matriz
+
+
+Ejemplo 4
+
+Veamos si el sistema
+         x+ y−z = 7
+         6 x + y + 3 z = 20
+         4 x − y + 5z = 4
+
+tiene solución.
+
+Solución
+
+
+  ⎡1       1    −1    7 ⎤    ⎡ 1          1     −1     7 ⎤    ⎡ 1     1    −1     7 ⎤
+  ⎢                       ⎥  ⎢                             ⎥  ⎢                      ⎥
+  ⎢6       1      3   20 ⎥ → ⎢ 0         −5      9    −22 ⎥ → ⎢ 0     −5   9     −22 ⎥
+  ⎢⎣ 4     −1     5    4 ⎥⎦  ⎢⎣ 0        −5      9    −24 ⎥⎦  ⎢⎣ 0    0    0     −2 ⎥⎦
+
+          ⎡ 1          1      −1        7 ⎤
+          ⎢                                 ⎥ ρ
+         →⎢ 0          1      −9       22
+                                          5 ⎥   (A) = 2
+                                   5
+                                                           , b ∉ CA
+          ⎢⎣ 0         0           0    1 ⎥⎦ ρ ( A b ) = 3
+
+
+El sistema no tiene solución.
+
+
+                                                                                   Álgebra lineal elemental y aplicaciones 83

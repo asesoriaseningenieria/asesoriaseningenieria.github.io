@@ -1,0 +1,392 @@
+Módulo 10: Espacios con producto interno
+
+
+Ejemplo 10
+
+Construyamos una base ortonormal en P2 [−1, 1]. Podemos partir de la base
+
+estándar {1, x, x } ; como todo polinomio es una función continua, P2 [ −1, 1] es
+                 2
+
+
+un subespacio de C [−1, 1] ; por lo tanto, emplearemos el producto interno defini-
+do en funciones continuas.
+
+
+Por lo tanto, una base ortonormal en P2 [−1, 1] ,es:
+
+
+           ⎧⎪ 1          3      5 2         ⎫⎪
+       B = ⎨     ,         x,     (3 x − 1) ⎬ .
+            ⎪⎩ 2         2      8            ⎪⎭
+
+
+       Ejemplo 1
+
+       La función f : → , tal que f (x) = mx analizada en la introducción es una trans-
+       formación lineal.
+
+       Ejemplo 11
+
+       Sea T : M mn → M nm tal que para A , T ( A) = AT . Como ( A + B )T = AT + BT y
+                                              m×n
+
+
+       (α A) = α A , T es lineal y se llama operador de transposición.
+             T       T
+
+
+                                                                                Álgebra lineal elemental y aplicaciones
+                                                                                                                          139
+Ejemplo 12
+
+Sea T : M 22 → M 22 definida por:
+
+
+          ⎛ ⎛ a b ⎞ ⎞ ⎛ 1 0 ⎞⎛ a b ⎞
+        T ⎜⎜      ⎟⎟= ⎜      ⎟⎜     ⎟.
+          ⎝ ⎝ c d ⎠ ⎠ ⎝ −1 2 ⎠⎝ c d ⎠
+
+Veamos que T es una transformación lineal.
+
+
+        ⎛⎛a b ⎞ ⎛ e      f ⎞⎞    ⎛⎛ a + e b + f ⎞⎞
+i.    T ⎜⎜     ⎟+⎜         ⎟⎟= T ⎜⎜             ⎟⎟
+        ⎝⎝ c d ⎠ ⎝ g     h ⎠⎠    ⎝⎝c + g d + h⎠⎠
+
+
+          ⎛ 1 0 ⎞⎛ a + e b + f ⎞ ⎛ 1 0 ⎞ ⎛ ⎡ a b ⎤      ⎡e f ⎤⎞
+        = ⎜      ⎟⎜             ⎟=⎜      ⎟⎜ ⎢      ⎥ + ⎢      ⎥⎟
+          ⎝ −1 2 ⎠⎝ c + g d + h ⎠ ⎝ −1 2 ⎠ ⎝ ⎣ c d ⎦    ⎣g h ⎦ ⎠
+                                  ⎡ 1 0⎤ ⎡a b ⎤       ⎡ 1 0⎤ ⎡ e        f⎤
+                                 =⎢      ⎥ ⎢     ⎥  + ⎢      ⎥⎢
+                                  ⎣ −1 2 ⎦ ⎣ c d ⎦    ⎣ −1 2 ⎦ ⎣ g      h ⎥⎦
+                                     ⎡a b ⎤       ⎡e f ⎤
+                                 =T⎢       ⎥  + T⎢       ⎥.
+                                     ⎣c d ⎦       ⎣g h ⎦
+
+
+        ⎛ ⎡a b ⎤ ⎞     ⎡⎛ α a α b ⎞ ⎤ ⎡ 1 0 ⎤ ⎡α a      αb ⎤
+      T ⎜α ⎢   ⎥ ⎟ = T ⎢⎜          ⎟⎥ = ⎢     ⎥⎢        α d ⎦⎥
+ii.
+        ⎝ ⎣c d ⎦ ⎠     ⎣ ⎝ α c α d ⎠ ⎦ ⎣ −1 2 ⎦ ⎣ α c
+                       ⎡ 1 0⎤ ⎡ a b ⎤            ⎡1     0 ⎤ ⎡a b ⎤
+                    = ⎢        ⎥ α⎢       ⎥ = α⎢
+                       ⎣ −1 2⎦ ⎣ c d ⎦           ⎣ −1   2⎥⎦ ⎢⎣ c d ⎥⎦
+                            ⎡a b ⎤
+                       = αT ⎢    ⎥.
+                            ⎣c d ⎦
+
+
+                                                                               Álgebra lineal elemental y aplicaciones 157
+                                                               Módulo 11: Definiciones, ejemplos y álgebra de las transformaciones lineales
+
+
+ Ejemplo 13
+
+ Sean T1 : P2 → P1 definida por T1 ( a + bx + cx 2 ) = b + cx, T2 : P2 → P1 definida
+ por T2 ( a + bx + cx 2 ) = c − ax. Evalúe T1 + T2 y 5T1 .
+
+
+Por lo tanto, (w1 + w2 ) ∈ imagen T.
+
+
+Además, α w1 = α T ( v1 ) = T (α v1 ), es decir, α w1 ∈ imagen T y, en conse-
+cuencia, imagen T es un subespacio de W.
+
+
+                                  Figura 12.1
+
+
+    Ejemplo 2
+
+    Sea T :     3
+                    →   2
+                            dada por:
+
+                ⎛ x⎞
+                ⎜ ⎟ ⎛ x + 2y + z ⎞
+              T ⎜ y⎟ = ⎜            ⎟.
+                ⎜ z ⎟ ⎝ −x + 3y + z ⎠
+                ⎝ ⎠
+
+
+    Determine nu T, imagen T, ν (T ) y ρ (T ).
+
+    Solución
+
+                                                          3
+    Para hallar el conjunto de vectores (x, y, z) de          tales que T (x, y, z) = (0, 0),
+    debemos resolver el sistema homogéneo
+
+
+              x + 2y + z = 0
+              −x + 3 y + z = 0
+                                                                 x = −1/ 5z
+              ⎡ 1 2 1⎤ operaciones elementales ⎡ 1 0 1/ 5⎤
+              ⎢ −1 3 1⎥ ⎯⎯⎯⎯⎯⎯⎯               →⎢          ⎥      y = −2 / 5 z
+              ⎣       ⎦                        ⎣ 0 1 2 / 5⎦
+                                                                   z=z
+
+
+    si z = 5, x = −1, y = −2 .
+
+
+                                                                                              Álgebra lineal elemental y aplicaciones 159
+                                                             Módulo 13: El problema de la representación matricial de las transformaciones lineales
+
+
+Ejemplo 1
+
+Sea T :     3
+                →   2
+                        una transformación lineal definida por:
+
+         ⎛ x⎞
+         ⎜ ⎟ ⎡ x+ y ⎤
+       T ⎜ y⎟ = ⎢       ⎥.
+         ⎜ z ⎟ ⎣ y − 2z ⎦
+         ⎝ ⎠
+
+Encontremos la matriz A que representa la transformación referida a las bases estándar:
+
+
+                    ⎛1⎞
+                    ⎜ ⎟ ⎡ 1 + 0 ⎤ ⎡1 ⎤
+       T (e1 ) = T ⎜ 0 ⎟ = ⎢       ⎥ = ⎢ ⎥ = Col1 ( A),
+                    ⎜ 0 ⎟ ⎣0 − 2.0 ⎦ ⎣0⎦
+                    ⎝ ⎠
+                    ⎛0⎞
+                    ⎜ ⎟ ⎡ 0 + 1 ⎤ ⎡1⎤
+       T (e 2 ) = T ⎜ 1 ⎟ = ⎢      ⎥ = ⎢ ⎥ = Col 2 ( A),
+                    ⎜ 0 ⎟ ⎣1− 2.0 ⎦ ⎣1⎦
+                    ⎝ ⎠
+                    ⎛0⎞
+                    ⎜ ⎟ ⎡ 0+0 ⎤ ⎡ 0 ⎤
+       T (e 3 ) = T ⎜ 0 ⎟ = ⎢      ⎥ = ⎢ ⎥ = Col3 ( A).
+                    ⎜ 1 ⎟ ⎣ 0 − 2.1⎦ ⎣−2 ⎦
+                    ⎝ ⎠
+
+Por lo tanto:
+          ⎡1 1 0 ⎤
+       A= ⎢       ⎥.
+          ⎣0 1 −2 ⎦
+Así que:
+
+         ⎛ x⎞           ⎡ x⎤
+         ⎜ ⎟ ⎡1 1 0 ⎤ ⎢ ⎥      ⎡ x+ y ⎤
+       T ⎜ y⎟ = ⎢     ⎥ ⎢ y⎥ = ⎢       ⎥.
+         ⎜ z ⎟ ⎣0 1 −2⎦ ⎢ z ⎥  ⎣ y − 2z⎦
+         ⎝ ⎠            ⎣ ⎦
+
+
+                                                                                                     Álgebra lineal elemental y aplicaciones 179
+                                                               Módulo 13: El problema de la representación matricial de las transformaciones lineales
+
+
+Ejemplo 2
+
+Sea T :      3
+                 →        2
+                              la transformación lineal definida en el ejemplo 1 y sean:
+
+
+          B1 = {v1 , v 2 , v 3 } y B2 = {w1 , w 2 } bases de              3
+                                                                              y    2
+                                                                                       , respectivamente, con
+
+               ⎡1 ⎤                 ⎡0 ⎤             ⎡1⎤
+                                                                    ⎡1 ⎤               ⎡ 2⎤
+          v1 = ⎢⎢0 ⎥⎥ ,       v 2 = ⎢⎢1 ⎥⎥ ,   v 3 = ⎢⎢1⎥⎥ ,   w1 = ⎢ ⎥ ,         w2 = ⎢ ⎥ .
+                ⎢⎣1 ⎥⎦               ⎢⎣1 ⎥⎦           ⎢⎣1⎥⎦         ⎣ 2⎦               ⎣0 ⎦
+
+
+                                                                                                       Álgebra lineal elemental y aplicaciones 181
+                                                                Módulo 13: El problema de la representación matricial de las transformaciones lineales
+
+
+Ejemplo 5
+
+
+                                       ⎡ x ⎤ ⎡ −2 x − 2 y ⎤
+Sea T =     2
+                →   2
+                        definida por T ⎢ ⎥ = ⎢            ⎥.
+                                       ⎣ y ⎦ ⎣ −5 x + y ⎦
+
+La matriz de T referida a la base estándar se obtiene así:
+
+
+         ⎡ 1 ⎤ ⎡ −2 ⎤ ⎡ 0⎤  ⎡ −2 ⎤
+      T ⎢ ⎥ = ⎢ ⎥ y T ⎢ ⎥ = ⎢ ⎥,
+         ⎣ 0 ⎦ ⎣ −5 ⎦ ⎣1 ⎦  ⎣1⎦
+entonces:
+            ⎡ −2 −2 ⎤
+       CT = ⎢       ⎥.
+            ⎣ −5 1 ⎦
+
+
+         ⎧⎪⎡1⎤ ⎡ 2 ⎤ ⎫⎪
+Sea B1 = ⎨⎢ ⎥ , ⎢ ⎥ ⎬ otra base para         2
+                                                 y obtengamos la matriz de T referida a la
+          ⎪⎩⎣1⎦ ⎣−5⎦ ⎪⎭
+base B1 .
+
+             ⎡⎛ ⎡1⎤ ⎞ ⎛ ⎡ 2 ⎤ ⎞ ⎤
+        AT = ⎢⎜ T ⎢ ⎥ ⎟ ⎜ T ⎢ ⎥ ⎟ ⎥ ,
+                             −5
+             ⎣⎢⎝ ⎣ ⎦ ⎠ B1 ⎝ ⎣ ⎦ ⎠ B1 ⎦⎥
+                   1
+
+         ⎡1⎤ ⎡−4⎤            ⎡ 2⎤  ⎡ 6⎤
+       T ⎢ ⎥ = ⎢ ⎥,         T⎢ ⎥ = ⎢    ⎥.
+         ⎣1⎦ ⎣−4⎦             −
+                             ⎣ ⎦
+                               5   ⎣ −15⎦
+
+Expresemos estas transformaciones en B1:
+
+
+        ⎡1 2 −4    6⎤                          ⎡1 0 −4 0 ⎤
+        ⎢1 −5 −4 −15 ⎥ operaciones elementales ⎢0 1  0 3 ⎥⎦
+                                                            .
+        ⎣            ⎦                         ⎣
+
+La matriz de T referida a B1 es:
+
+             ⎡ −4 0 ⎤
+        AT = ⎢      ⎥.
+             ⎣ 0 3⎦
+
+
+Por el álgebra matricial sabemos que, en ciertas operaciones, los cálculos son más
+
+
+                                                                                                        Álgebra lineal elemental y aplicaciones 187
+Capítulo 3: Transformaciones lineales
+
+
+                                        Ejemplo 4
+
+                                        Sea T : Pn → Pn tal que T ( p ) = p + p '. Veamos que T es un isomorfismo.
+
+                                        Encontremos la matriz AT de la transformación lineal respecto a la base estándar.
+
+                                                   T (1) = 1+ (1)' = 1+ 0 = 1
+                                                   T ( x) = x + ( x)' = x +1
+                                                   T ( x 2 ) = x 2 + ( x 2 )' = x 2 + 2 x
+
+
+                                                   T ( x n ) = x n + ( x n )' = x n + nx n −1.
+
+
+                                                                       ⎡1    1 0        0⎤
+                                                                       ⎢0    1 2        0 ⎥⎥
+                                                                       ⎢
+                                                                       ⎢     0 1        0⎥
+                                                          A          = ⎢                   ⎥ , det A = 1 ≠ 0.
+                                                   ( n +1) × ( n +1)
+                                                                       ⎢                   ⎥
+                                                                       ⎢                n⎥
+                                                                       ⎢                   ⎥
+                                                                       ⎢⎣0   0   0      1⎥⎦
+
+                                        A es invertible, luego T es un isomorfismo.
+
+                                        Ejemplo 5
+
+
+                                        Los espacios vectoriales M    , P3 y                4
+                                                                                                 son isomorfos, ya que todos tienen dimen-
+                                                                 2× 2
+
+                                        sión 4. Establezcamos entre ellos transformaciones lineales que sean isomorfismos.
+
+                                        T1 : M → P3 definida por:
+                                            2× 2
+
+
+206
+                                                                                                                   Módulo 15: Isometrías
+Ejemplo 1
+
+Los vectores
+
+
+⎡ 2 / 3⎤ ⎡ 1/ 3 ⎤ ⎡ −2 / 3⎤
+⎢ 1/ 3 ⎥ , ⎢ 2 / 3 ⎥ , ⎢ 2 / 3 ⎥
+⎢        ⎥ ⎢         ⎥ ⎢        ⎥ forman una base ortonormal de        3
+                                                                           (verifíquelo),
+⎢⎣ 2 / 3⎥⎦ ⎢⎣ −2 / 3⎥⎦ ⎢⎣ 1/ 3 ⎥⎦
+
+                      ⎡ 2 / 3 1/ 3 −2 / 3⎤
+                      ⎢                    ⎥
+así que la matriz Q = ⎢ 1/ 3 2 / 3 2 / 3⎥ es ortogonal.
+                      ⎢⎣ 2 / 3 −2 / 3 1/ 3⎥⎦
+
+
+Podemos verificarlo haciendo QT Q:
+
+
+              ⎡ 2 / 3 1/ 3 2 / 3⎤              ⎡2 / 3    1/ 3 −2 / 3⎤ ⎡ 1 0 0⎤
+       Q Q = ⎢⎢ 1/ 3 2 / 3 −2 / 3⎥⎥
+         T                                     ⎢ 1/ 3 2 / 3 2 / 3⎥ = ⎢0 1 0⎥ .
+                                               ⎢                    ⎥ ⎢       ⎥
+              ⎢⎣−2 / 3 2 / 3 1/ 3⎥⎦            ⎢⎣ 2 / 3 −2 / 3 1/ 3⎥⎦ ⎢⎣0 0 1⎥⎦
+
+
+       Ejemplo 2
+
+       Sea T :    3
+                      →    3
+                               una transformación definida por T (x) = Ax, donde:
+
+
+                      ⎡sen θ          cos θ   0⎤
+                 A = ⎢⎢ cos θ      −sen θ     0⎥⎥ .
+                      ⎢⎣ 0              0     1⎥⎦
+
+
+       Veamos que T es una isometría. Para esto basta con demostrar que A es una matriz
+       ortogonal y esto lo comprobamos realizando el producto A AT.
+
+
+                 ⎡sen θ         cos θ    0⎤ ⎡sen θ       cos θ   0⎤ ⎡ 1 0 0⎤
+                 ⎢ cos θ       −sen θ    0⎥⎥ ⎢⎢ cos θ   −sen θ   0⎥⎥ = ⎢⎢0 1 0⎥⎥
+                 ⎢                                                               .
+                 ⎢⎣ 0             0      1⎥⎦ ⎢⎣ 0          0     1⎥⎦ ⎢⎣0 0 1⎦⎥
+
+
+                                                                                                 Vea en su multimedia de Álgebra lineal el
+                                                                                                 código fuente en MATLAB para ilustrar
+                                                                                                 «Isometrías».
+
+
+                                                                                            Álgebra lineal elemental y aplicaciones 211
+Capítulo 3: Transformaciones lineales
+
+
+                   Ejemplo 3
+
+                   Sea T : 2 →          2
+                                            una isometría. Veamos que T preserva los ángulos entre los
+                   vectores.
+
+                                            2
+                   Sean x e y en
+
+                                                         −1   x ·y
+                             ángulo entre x e y = cos              ,                              (1)
+                                                              x y
+
+                                                                    −1   T (x) · T (y )
+                             ángulo entre T ( x ) y T ( y ) = cos                       .         (2)
+                                                                         T ( x) T ( y )
+
+
+                   Como T es isometría, x · y = T (x) ⋅ T (y ) y x = T (x ) , y = T ( y ) ;
+
+                   por lo tanto, (1) = (2).
+
+
+216

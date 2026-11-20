@@ -1,0 +1,1637 @@
+| Preguntas de opción múltiple
+
+
+■ PREGUNTAS DE OPCIÓN MÚLT IPLE
+
+
+             Las preguntas de opción múltiple en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+1. Encuentre la velocidad angular de la Tierra alrededor                       za gravitacional sobre él es a) mayor, b) exactamente la
+   del Sol en radianes por segundo. a) 2.22 3 1026 rad/s                       misma, c) menor, d) cercana, pero no exactamente igual
+   b) 1.16 3 1027 rad/s c) 3.17 3 1028 rad/s d) 4.52 3 1027                    a cero, e) exactamente cero.
+   rad/s e) 1.99 3 1027 rad/s                                              6. Considere un objeto sobre un disco en rotación a una dis-
+2. Un objeto de 0.400 kg atado al extremo de una cuerda                       tancia r del centro, sostenido en el lugar sobre el disco por
+   de 0.500 m de longitud se hace girar en una trayectoria                    la fricción estática. ¿Cuál de las siguientes afirmaciones
+   circular en un plano vertical. Si se mantiene a una veloci-                relacionadas con el objeto no es correcta? a) Si la veloci-
+   dad angular constante de 8.00 rad/s, ¿cuál es la tensión                   dad angular es constante, el objeto debe tener una ve-
+   en la cuerda cuando el objeto está en la parte superior                    locidad angular constante. b) Si la velocidad angular es
+   de la trayectoria circular? a) 8.88 N b) 10.5 N c) 12.8 N                  constante, el objeto no está acelerado. c) El objeto tiene
+   d) 19.6 N e) Ninguno de éstos                                              una aceleración tangencial sólo si el disco tiene una acele-
+3. Un ciclista se desplaza en una bicicleta con ruedas de radio               ración angular. d) Si el disco tiene una aceleración angular,
+   0.500 m, a través de un campo. Un pedazo de plástico en                    el objeto tiene tanto aceleración centrípeta como acelera-
+   el borde delantero de la rueda hace un sonido cada vez que                 ción tangencial. e) El objeto siempre tiene una aceleración
+   pasa a través de la horquilla. Si el ciclista cuenta 320 clicks            centrípeta, excepto cuando la rapidez angular es cero.
+   entre su departamento y la cafetería, ¿qué tanto se ha despla-          7. Un carrusel gira con velocidad angular constante. Cuan-
+   zado? a) 0.50 km b) 0.80 km c) 1.0 km d) 1.5 km e) 1.8 km                  do un paseante se mueve desde el borde del carrusel hacia
+4. Una rueda de pulir aumenta de velocidad angular de                         el centro, ¿qué pasa con la magnitud de la fuerza centrí-
+   4.00 rad/s a 12.00 rad/s en 4.00 s. ¿Qué ángulo barre du-                  peta total que debe ejercerse sobre él? a) Aumenta. b) No
+   rante ese tiempo si la aceleración angular es constante?                   es cero. c) Disminuye. d) Siempre es cero. e) Aumenta o
+   a) 8.00 rad b) 12.0 rad c) 16 rad d) 32.0 rad e) 64.0 rad                  disminuye dependiendo de la dirección de rotación.
+5. La fuerza gravitacional ejercida en un astronauta sobre                 8. Un objeto está localizado sobre un planeta esférico de
+   la superficie terrestre es 650 N hacia abajo. Cuando se                    masa M y radio R. La velocidad de escape del planeta no
+   encuentra en la Estación Espacial Internacional, la fuer-                  depende de a) M b) la densidad del planeta c) R d) la
+226       CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+      aceleración debida a la gravedad sobre el planeta, e) la             12. ¿Cuáles de las siguientes afirmaciones relacionadas con
+      masa del objeto.                                                         un objeto que orbita la Tierra son ciertas? a) Si la órbita
+ 9. Un satélite se mueve en una órbita circular con una veloci-                es circular, la fuerza de gravedad es perpendicular a la
+    dad constante alrededor de la Tierra. ¿Cuál de las siguien-                velocidad del objeto. b) Si la órbita es elíptica, la fuerza
+    tes afirmaciones es cierta? a) Ninguna fuerza actúa sobre el               de gravedad es perpendicular al vector velocidad sólo en
+    satélite. b) El satélite se mueve con una velocidad constante              los puntos más cercanos y más lejanos. c) Si la órbita no
+    y, por consiguiente, no se acelera. c) El satélite tiene una               es circular, la velocidad es mayor cuando el objeto está
+    aceleración dirigida hacia fuera de la Tierra. d) El satélite              más alejada de la Tierra. d) La fuerza de gravedad sobre
+    tiene una aceleración dirigida hacia la Tierra. e) El trabajo              el objeto siempre tiene componentes paralelas y perpen-
+    es realizado sobre el satélite por la fuerza de gravedad.                  diculares a la velocidad del objeto. e) Todas estas afirma-
+                                                                               ciones son ciertas.
+10. Un sistema consiste en cuatro partículas. ¿Cuántos tér-
+    minos aparecen en la expresión para la energía poten-                  13. El cometa Halley tiene un periodo de aproximadamen-
+    cial gravitacional total del sistema? a) 4 b) 6 c) 10 d) 12                te 76 años y se mueve en una órbita elíptica en la cual
+    e) Ninguno de éstos                                                        su distancia del Sol en la aproximación más cercana es
+                                                                               una pequeña fracción de su distancia máxima. Estime la
+11. ¿Cuál es la aceleración gravitacional cerca de la superfi-
+                                                                               máxima distancia del cometa al Sol en unidades astro-
+    cie de un planeta que tiene dos veces la masa y dos veces
+                                                                               nómicas UA (la distancia del Sol a la Tierra). a) 3 UA
+    el radio de la Tierra? Responda en términos de múltiplos de
+                                                                               b) 6 UA c) 10 UA d) 18 UA e) 36 UA
+    la aceleración gravitacional g, cerca de la superficie de la
+    Tierra. a) 0.25g b) 0.5g c) g d) 2g e) 4g
+
+
+ ■ PREGUNTAS CONCEPTUALES
+
+
+               Las preguntas conceptuales en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+ 1. En una carrera como la de Indianápolis 500, un piloto                      Se mueve desde su punto inicial A a través de un punto B
+    corre en círculos por la pista, en sentido contrario al mo-                y alcanza su velocidad máxima en el punto C. a) ¿En qué
+    vimiento de las manecillas del reloj, y siente que su cabe-                momento la borla tiene aceleración radial cero y la acele-
+    za es jalada hacia su hombro. Para aliviar sus músculos                    ración tangencial cero? ¿Cuál es la dirección de su ace-
+    del cuello por tener que mantener la cabeza erguida, el                    leración total en este momento? b) ¿En qué momento la
+    piloto sujeta una correa a una pared del auto y la otra a                  borla tiene aceleración tangencial cero y aceleración ra-
+    su casco. La longitud de la correa se ajusta para mante-                   dial cero? ¿Cuál es la dirección de su aceleración total en
+    ner vertical su cabeza. a) ¿Hacia cuál hombro tiende a                     este momento? c) ¿En qué momento la borla tiene tanto
+    inclinarse su cabeza? b) ¿Qué fuerza o fuerzas producen                    la aceleración tangencial como la radial en cero? ¿Cuál
+    la aceleración centrípeta cuando no hay correa? c) ¿Qué                    es la dirección de su aceleración total en ese momento?
+    fuerza o fuerzas lo hacen cuando hay correa?                            6. Debido a la rotación de la Tierra alrededor de su eje, una
+ 2. Si alguien le dijera que los astronautas no tienen peso en                 persona pesa ligeramente menos en el Ecuador que en
+    órbita terrestre, ya que están más allá de la fuerza de gra-               los polos. Explique.
+    vedad, ¿aceptaría la declaración? Explique.                             7. Se ha sugerido colocar en el espacio, como colonias, ci-
+ 3. Si las llantas de un automóvil son remplazadas por otras                   lindros giratorios de unas 10 millas de largo y 5 millas de
+    de mayor diámetro, ¿cambiará la lectura del velocímetro?                   diámetro. El propósito de su rotación es simular grave-
+    Explique.                                                                  dad para los habitantes. Explique el concepto que hay
+                                                                               detrás de esta propuesta.
+ 4. En la noche, usted está más lejos del Sol que durante el
+    día. Lo que es más, por la noche la fuerza ejercida por                 8. Describa la trayectoria de un objeto móvil en el caso de
+    el Sol sobre usted es hacia abajo como si intentara sumer-                 que su aceleración sea de magnitud constante en todo
+    girlo en la Tierra, y hacia arriba con dirección al cielo                  momento y a) perpendicular a su velocidad, b) paralela
+    durante el día. Si tuviéramos una báscula de baño sufi-                    a su velocidad.
+    cientemente sensible, ¿parecería                                        9. Usted puede dar vueltas a una cubeta con agua en una
+    que pesamos más en la noche que                                            trayectoria circular sin que haya derrames. ¿Por qué con-
+    durante el día?                                                            tinúa el agua en la cubeta aun cuando ésta se encuentre
+ 5. Un péndulo está formado por un                                             bocabajo sobre su cabeza?
+    pequeño objeto llamado borla que                                       10. Utilice la segunda ley de Kepler para convencerse de que
+    cuelga de un cable de luz de lon-                                          la Tierra se mueve más rápido en su órbita durante el in-
+    gitud fija, con el extremo superior                                        vierno del hemisferio norte, cuando está más cerca del
+    de la cuerda fija, como se represen-                                       Sol, que durante el verano, cuando está más lejos del Sol.
+                                                 A
+    ta en la figura PC7.5. La borla se               B     C               11. ¿Es posible que un automóvil se desplace en una trayecto-
+    mueve sin fricción, balanceándo-                                           ria circular de manera que tenga aceleración tangencial,
+    se igualmente alto en ambos lados.               Figura PC7.5              pero no aceleración centrípeta?
+                                                                                                                               | Problemas         227
+
+12. Un niño está practican-                                                         nes de semicirculares, como se muestra en la vista aérea de
+    do para una carrera de                             B                            la figura PC7.12. a) ¿Cuáles son las direcciones de su veloci-
+    BMX. Su velocidad se                        N
+                                                                                    dad en los puntos A, B y C ? Para cada punto elija una: norte,
+    mantiene constante a                                                 A          sur, este, oeste, o no existen? b) ¿Cuáles son las direcciones
+    medida que avanza en               C   O          E                             de su aceleración en los puntos A, B y C ?
+    sentido contrario a las                      S                            13. Un objeto se ejecuta un movimiento circular con velo-
+    manecillas del reloj al-               D              E                       cidad constante cada vez que una fuerza neta de magni-
+    rededor de una pista de                                                       tud constante actúa perpendicular a la velocidad. ¿Qué
+    nivel con dos secciones                      Figura PC7.12                    pasa con la velocidad si la fuerza no es perpendicular a
+    casi rectas y dos seccio-                                                     la velocidad?
+
+
+ ■ PROBLEMAS
+
+
+                Los problemas para este capítulo se pueden asignar en línea     1. denota problemas asignados con más frecuencia en Enhanced
+   en Enhanced WebAssign. Los problemas seleccionados también tienen                  WebAssign
+   soluciones en los videos Watch It.                                                 denota problemas biomédicos
+1. denota problemas sencillos, 2. denota problema intermedio,                         denota problemas guiados
+3. denota problema de alto reto
+                                                                                      denota tutorial Master It disponible en Enhanced WebAssign
+1. denota solución completa disponible en Student Solutions                           denota petición de razonamiento cuantitativo y conceptual
+      Manual/Study Guide
+                                                                                      denota problema de razonamiento simbólico
+
+
+7.1 Velocidad angular y aceleración angular                                    7.         Una parte de una máquina rota a una velocidad an-
+                                                                                    gular de 0.06 rad/s; después, su velocidad es incrementada
+ 1.         a) Encuentre la velocidad angular de la rotación de                     a 2.2 rad/s con una aceleración angular de 0.70 rad/s2.
+      la Tierra alrededor de su eje. b) ¿Cuál es el efecto de esta                  a) Encuentre el ángulo recorrido por la parte mecánica
+      rotación sobre la forma de la Tierra?                                         antes de alcanzar su velocidad final. b) En general, si las
+ 2. Una llanta tiene radio de 4.1 m. ¿Qué distancia (longitud                       velocidades angulares inicial y final se duplican con la
+    de la trayectoria) recorre un punto sobre su superficie                         misma aceleración angular, ¿qué factor cambia el despla-
+    si la rueda gira ángulos de a) 30°, b) 30 rad y c) 30 rev,                      zamiento angular? ¿Por qué? Sugerencia: Vea la forma de
+    respectivamente?                                                                la ecuación 7.9.
+ 3. Las llantas de un automóvil compacto nuevo tienen un                       8.         Una bicicleta se co-
+    diámetro de 2.0 pies y están garantizadas por 60 000 millas.                    loca ruedas arriba a fin
+                                                                                                                   h
+    a) Determine el ángulo (en radianes) que gira una de estas                      de que su propietario
+    llantas durante el periodo de garantía. b) ¿Cuántas revolucio-                  pueda reparar una llanta.               A
+    nes de la llanta son equivalentes a su respuesta en el inciso a)?               Un amigo hace girar la
+                                                                                    otra rueda y observa que
+ 4.         Un torno de alfarero se mueve uniformemente des-
+                                                                                    las gotas del agua salen
+      de el reposo hasta una velocidad angular de 1.00 rev/s en
+                                                                                    volando tangencialmen-
+      30.0 s. a) Encuentre la aceleración angular en radianes
+                                                                                    te. Él mide las alturas
+      por segundo en cada segundo. b) Al duplicar la acelera-
+                                                                                    alcanzadas por las gotas
+      ción angular durante el periodo dado, ¿se duplicaría la
+                                                                                    que se mueven en forma          Figura P7.8 (Problemas 8 y 69.)
+      velocidad angular final?
+                                                                                    vertical. Una gota que
+7.2 Movimiento rotatorio con aceleración angular                                    sale verticalmente del neumático en una subida al dar la
+    constante                                                                       vuelta alcanza 54.0 cm sobre el punto de tangencia. El ra-
+                                                                                    dio de la rueda es 0.381 m. a) ¿Por qué la primera gota
+7.3 Relaciones entre cantidades angulares                                           sube más arriba que la segunda? b) Despreciando la fric-
+    y lineales                                                                      ción con el aire y utilizando sólo las alturas observadas y el
+ 5. El taladro de un dentista enciende desde el reposo. Des-                        radio de la rueda, encuentre la aceleración angular de la
+    pués de 3.20 s de aceleración angular constante, gira a                         rueda (suponiendo que es constante).
+    razón de 2.51 3 104 rev/min. a) Encuentre la aceleración                   9. Los diámetros del rotor principal y del rotor de cola de
+    angular del taladro. b) Determine el ángulo (en radia-                        un helicóptero de un solo motor miden 7.60 y 1.02 m,
+    nes) que recorre el taladro durante ese periodo.                              respectivamente. Las velocidades rotacionales respectivas
+ 6. Una centrifugadora de un laboratorio médico gira con una                      son de 450 rev/min y 4 138 rev/min. Calcule las velocidades
+    rapidez angular de 3 600 rev/min. Cuando se apaga gira                        de las puntas de ambos rotores. Compare esta velocidad
+    a 50.0 revoluciones antes de detenerse por completo. En-                      con la del sonido, 343 m/s.
+    cuentre la aceleración angular constante (en rad/s2) de                   10. La tina de una lavadora entra en un ciclo de secado por
+    la centrifugadora.                                                            rotación; es decir, arranca desde el reposo y alcanza una
+228       CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+      velocidad angular de 5.0 rev/s en 8.0 s. En ese punto, la           disco se mueve desde el reposo con una velocidad angu-
+      persona que hace el lavado abre la tapa de la máquina y             lar de 78.0 rev/min en 3.00 s? b) Cuando el disco alcan-
+      un interruptor de seguridad la apaga. La tina reduce su             za su velocidad final, ¿cuál es la velocidad tangencial del
+      velocidad hasta detenerse en 12 s. ¿Cuántas revoluciones            insecto? Un segundo después que el insecto arranca des-
+      da la tina durante este intervalo de 20 s? Suponga que la           de el reposo, ¿cuáles son sus aceleraciones, c)tangencial,
+      aceleración angular es constante mientras arranca y se              d) centrípeta y e) total?
+      detiene por completo.
+                                                                    18. Un arqueólogo aventurero (m 5 85.0 kg) trata de cruzar
+11. Un automóvil que viaja inicialmente a 29.0 m/s experi-              un río por el balanceo de una liana. Ésta es de 10.0 m de
+    menta una aceleración negativa constante de magnitud                largo, y la velocidad de la oscilación en la parte inferior
+    1.75 m/s2 después de aplicar los frenos. a) ¿Cuántas re-            es de 8.00 m/s. El arqueólogo no sabe que la liana tiene
+    voluciones hace cada llanta antes de que el automóvil se            una resistencia a la rotura de 1 000 N. ¿Podrá atravesar el
+    detenga, suponiendo que el automóvil no se patina y que             río, sin caer en él?
+    los neumáticos tienen radios de 0.330 m? b) ¿Cuál es la
+    velocidad angular de las ruedas cuando el automóvil ha          19.          Uno de los extremos de una cuer-
+    recorrido la mitad de la distancia total?                             da fija está conectado a un pequeño ob-
+                                                                          jeto de 0.500 kg al otro extremo, donde
+12. Un disco de diámetro de 45.0 cm rota con una acelera-
+                                                                          oscila en una sección de circunferencia            u
+    ción angular constante de 2.50 rad/s2. Empieza desde el                                                                           S
+                                                                                                                                      v
+                                                                          vertical de radio 2.00 m, como se mues-
+    reposo en t 5 0, y una línea recta dibujada desde el centro
+                                                                          tra en la figura P7.19. Cuando u 5 20.0°,
+    del disco a un punto P sobre el borde forma un ángulo de
+                                                                          la velocidad del objeto es de 8.00 m/s.
+    57.3° con el eje x positivo en ese tiempo. En t 5 2.30 s, en-                                                         Figura P7.19
+                                                                          En este instante, encuentre a) la tensión
+    cuentre a) la velocidad angular del disco, b) la velocidad
+                                                                          en la cuerda, b) los componentes tan-
+    lineal y la aceleración tangencial de P y c) la posición de
+                                                                          gencial y radial de la aceleración y c) la aceleración total.
+    P (en grados con respecto al eje x positivo).
+                                                                          d) ¿Su respuesta cambia si el objeto se está moviendo ha-
+13.       Una rueda girando requiere 3.00 s para rotar 37.0 re-           cia abajo, hacia su punto más bajo, en lugar de pivotar
+      voluciones. Su velocidad angular al final del intervalo de          hacia arriba? e) Explique su respuesta al inciso d).
+      tiempo de 3.00 s es de 98.0 rad/s. ¿Cuál es la aceleración
+      angular (en rad/s2) constante de la rueda?                    20.         Una moneda se coloca a 15.0 cm del centro de un
+                                                                          tocadiscos. El coeficiente de fricción estática entre la
+14. Un motor eléctrico que mueve una rueda esmeril de un                  moneda y el plato del tocadiscos es 0.350. El tocadiscos
+    taller a razón de 1.00 3 102 rev/min se desconecta. Su-               empieza desde el reposo en t = 0 y rota con una acelera-
+    ponga que la rueda tiene una aceleración angular nega-                ción angular constante de 0.730 rad/s2. a) Una vez que
+    tiva constante de magnitud 2.00 rad/s2. a) ¿Cuánto tarda              el tocadiscos empieza a rotar, ¿qué fuerza causa la acele-
+    en detenerse la rueda esmeril? b) ¿Cuántos radianes ha                ración centrípeta cuando la moneda está estacionaria en
+    girado la rueda durante el intervalo encontrado en a)?                relación con el tocadiscos? b) ¿Después de qué tiempo
+7.4 Aceleración centrípeta                                                empezará a resbalar la moneda por el tocadiscos?
+15. Un automóvil inicialmen-            y                           21. Una patinadora sobre hielo, de 55.0 kg de peso, se mueve
+    te viajando hacia el este                                           a 4.00 m/s cuando se sujeta a un extremo suelto de una
+    gira hacia el norte, des-                                           cuerda, cuyo extremo opuesto está atado a un poste. Ella
+    plazándose en una tra-                                              se mueve en un círculo de 0.800 m de radio alrededor
+    yectoria circular a una ve-                             x           del poste. a) Determine la fuerza ejercida por la cuerda
+                                      O     35.0      C
+    locidad uniforme, como                                              horizontal sobre sus brazos. b) Compare esta fuerza con
+    se muestra en la figura                          B                  su peso.
+    P7.15. La longitud del
+                                                                    22.        Un niño de 40.0 kg se mece en un columpio sopor-
+    arco ABC es de 235 m, y           A                                   tado por dos cadenas, cada una de 3.00 m de largo. La
+    el automóvil completa la
+                                                                          tensión en cada cadena en el punto más bajo es de 350 N.
+    vuelta en 36.0 s. a) De-
+                                          Figura P7.15                    Calcule: a) la velocidad del niño en el punto más bajo y
+    termine la velocidad del
+                                                                          b) la fuerza ejercida por el asiento en el niño en el punto
+    automóvil. b) ¿Cuál es la
+                                                                          más bajo. (Omita la masa del asiento.)
+    magnitud y la dirección de la aceleración cuando el auto-
+    móvil está en el punto B ?                                      23. Un camión ligero puede rodear una curva plana de 150 m
+16. Se ha sugerido que se pueden colocar cilindros rotato-              de radio a una velocidad máxima de 32.0 m/s. ¿Con qué ve-
+    rios en el espacio, con cerca de 10 millas de largo y 5.0           locidad máxima puede rodear una curva de 75.0 de radio?
+    millas de diámetro para ser usados como colonias. ¿Cuál         24.         Una muestra de sangre se coloca en una centrifuga-
+    es la velocidad angular que deben tener estos cilindros               dora de 15.0 cm de radio. La masa de una célula roja en
+    para que la aceleración centrípeta en su superficie sea               la sangre es 3.0 3 10216 kg y la magnitud de la fuerza que
+    igual a la aceleración en caída libre en la Tierra?                   actúa sobre ella para que se sedimente en el plasma es
+17. a) ¿Cuál es la aceleración tangencial de un insecto posa-             4.0 3 10211 N. ¿A cuántas revoluciones por segundo debe
+    do en el borde de un disco de 10.0 pulg de diámetro, si el            ser operada la centrifugadora?
+                                                                                                                    | Problemas      229
+
+25. Un niño de 50.0 kg está de pie en el borde de un carrusel                un pequeño agujero en el centro de la mesa, y un objeto
+    de 2.00 m de radio que gira con una velocidad angular de                 de masa m2 es atado a él (figura P7.27). El objeto suspen-
+    3.00 rad/s. a) ¿Cuál es la aceleración centrípeta del niño?              dido permanece en equilibrio mientras el disco sobre la
+    b) ¿Cuál es la fuerza mínima entre sus pies y el piso del                mesa está girando. a) Encuentre una expresión simbóli-
+    carrusel necesaria para que se mantenga en la trayectoria                ca para la tensión en la cuerda en términos de m2 y g.
+    circular? c) ¿Qué coeficiente mínimo de fricción estática                b) Escriba la segunda ley de Newton para el disco, usan-
+    se requiere? ¿Encuentra usted su respuesta razonable? Es                 do las variables m1, v, R y T. c) Elimine la tensión T de la
+    decir, ¿es probable que el niño permanezca en el carrusel?               expresión encontrada en las partes a) y b) y encuentre
+26.        Un lugar habitable para largos viajes espaciales con-             una expresión para la velocidad del disco en términos de
+      siste en dos cabinas conectadas por un cable a un eje                  m1, m2, g y R. d) Verifique sus respuestas sustituyendo los
+      central, como se muestra en la figura P7.26. Las cabinas               valores del problema 27 y compare los resultados con las
+      están girando en conjunto alrededor del eje, las cua-                  respuestas para este problema.
+      les están conectadas al resto de la nave espacial para ge-       29.         Una mujer deja su cartera en el asiento trasero de
+      nerar gravedad artificial. a) ¿Qué fuerzas están actuando              su vehículo. Mientras conduce al trabajo, el automóvil
+      sobre un astronauta en una de las cabinas? b) Escriba la               franquea una curva sin peralte en el camino que se pue-
+      segunda ley de Newton para un astronauta cayendo sobre                 de mirar como el arco de circunferencia de radio de 62.0 m.
+      el “suelo” de una de las cabinas, relacionando la masa                 Mientras está en la curva, el velocímetro del automóvil
+      m del astronauta, su velocidad v, su distancia radial desde            marca 15.0 m/s en el instante en que la cartera comienza
+      el tubo r y la fuerza normal n. c) ¿A qué tendría que ser              a resbalar a lo largo del asiento trasero hacia el costado
+      igual n si un astronauta de 60.0 kg debe experimentar                  del auto. a) ¿Qué fuerza causa la aceleración centrípeta
+      la mitad de su peso normal en la Tierra? d) Calcule la                 de la cartera cuando está quieta en relación con el auto-
+      velocidad tangencial necesaria de la cabina a partir de                móvil? ¿Bajo qué condiciones la cartera empieza a moverse
+      la segunda ley de Newton. e) Halle la velocidad angular                en relación con el automóvil? b) ¿Cuál es el coeficiente
+      a partir de la velocidad tangencial. f) Encuentre el perio-            de fricción estática entre la cartera y la superficie del
+      do de rotación a partir de la velocidad angular. g) Si el              asiento?
+      astronauta está parado ¿su cabeza se mueve más rápido,           30.         Un cubo de agua es rotado en trayectoria circular
+      más lento o a la misma velocidad que sus pies? ¿Por qué?               vertical de radio 1.00 m. a) ¿Cuáles son las dos fuerzas
+      Calcule la velocidad tangencial en la parte superior de su ca-         externas que actúan sobre el agua en el cubo? b) ¿Cuál
+      beza si su estatura es de 1.80 m.                                      de las dos fuerzas es la principal causante de que el agua
+                                                             v               se mueva en círculo? c) ¿Cuál es la velocidad mínima del
+                                                                             cubo en la parte superior de la trayectoria circular para que
+                                                                             no haya derrame de agua? d) Si la velocidad hallada para
+                                                                             el cubo en c) desapareciera de repente en la parte supe-
+                                                                             rior de la trayectoria, describa el movimiento que tendría
+                                                                             el agua. ¿Diferiría del movimiento de un proyectil?
+                                                10.0 m                 31.        Una niña de 40.0 kg pasea en una “rueda de la for-
+                                                                             tuna” que da cuatro vueltas por minuto y que tiene un
+                              Figura P7.26
+                                                                             diámetro de 18.0 m. a) ¿Cuál es la aceleración centrípeta
+27. Un disco de masa m1 5 0.25 kg se ata a una cuerda y se                   de la niña? b) ¿Qué fuerza (magnitud y dirección) ejerce
+    hace girar en un círculo de radio R 5 1.0 m sobre una                    el asiento sobre la niña en el punto más bajo de la vuelta?
+                                                  S
+    mesa horizontal sin fric-                     v                          c) ¿Qué fuerza ejerce el asiento sobre la niña en el pun-
+    ción. El otro extremo de                                                 to más alto de la vuelta? d) ¿Qué fuerza ejerce el asiento
+                                                         m1
+    la cuerda pasa por un                                                    sobre la niña cuando ella está a la mitad entre las partes
+                                                  R
+    agujero ubicado en el                                                    superior e inferior?
+    centro de la mesa, y una                                           32. Un carro de una montaña rusa tiene una masa de 500 kg
+    masa m2 5 1.0 kg se ata                                                cuando está completamente cargado con pasajeros (figura
+    a él (figura P7.27). La
+    masa suspendida perma-                    m2
+                                                                                                                    
+    nece en equilibrio mien-
+    tras gira el disco sobre
+    la mesa. a) ¿Cuál es la      Figura P7.27 (Problemas 27 y 28.)                             10 m                     15 m
+    tensión sobre la cuerda?
+    b) ¿Cuál es la fuerza ho-                                                                    
+    rizontal que actúa sobre el disco? c) ¿Cuál es la velocidad
+    del disco?
+28.        Un disco de masa m1 es atada a una cuerda y se hace
+      girar en un círculo de radio R sobre una mesa horizontal
+      sin fricción. El otro extremo de la cuerda pasa a través de                                  Figura P7.32
+230       CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+      P7.32). a) Si el carro tiene una velocidad de 20.0 m/s               riodo de la órbita, b) la velocidad del satélite y c) la ace-
+      en , ¿cuál es la magnitud de la fuerza que ejerce la vía            leración del satélite. Sugerencia: Modifique la ecuación
+      sobre el carro en ese punto? b) ¿Cuál es la máxima veloci-           7.23 para adecuarla a los objetos que orbitan la Tierra,
+      dad que el carro puede tener en  para que la gravedad               en lugar del Sol.
+      lo mantenga sobre la vía?                                      42. Un satélite artificial rodea la Tierra en una órbita circu-
+7.5 Gravitación newtoniana                                               lar, la cual completa en 110 minutos. a)Determine la al-
+                                                                         tura del satélite. b) ¿Cuál es el valor de g en la ubicación
+33. La distancia promedio de separación entre la Tierra y la
+                                                                         de este satélite?
+    Luna es de 384 000 km. Utilice los datos de la tabla 7.3
+    para encontrar la fuerza gravitacional neta ejercida por         43. El satélite de Marte Foebus tiene un radio orbital de 9.4
+    la Tierra y la Luna sobre una nave espacial de masa 3.00             3 106 m y un periodo orbital de 2.8 3 104 s. Suponiendo
+    3 104 kg ubicada a la mitad del camino entre ellas.                  que la órbita es circular, determine la masa de Marte.
+34. Un satélite tiene una masa de 100 kg y está localizado a         44. Un satélite de 600 kg está en una órbita circular alrede-
+    2.00 3 106 m de la superficie de la Tierra. a) ¿Cuál es la           dor de la Tierra, a una altura igual al radio promedio de
+    energía potencial asociada con el satélite en ese lugar?             ésta. Encuentre a) la velocidad orbital del satélite, b) el
+    b) ¿Cuál es la magnitud de la fuerza gravitacional sobre             periodo de su revolución y c) la fuerza gravitacional que
+    el satélite?                                                         actúa sobre él.
+35. Se construye un sistema de coordenadas (en metros) so-           45. Dos satélites describen órbitas circulares alrededor de la
+    bre la superficie de una mesa de billar y se colocan tres            Tierra. Un satélite A está a una altura igual al radio de
+    objetos sobre la mesa como sigue: un objeto de 2.0 kg en             la Tierra, mientras que el satélite B está a una altura igual
+    el origen, un objeto de 3.0 kg en (0, 2.0) y un objeto de            a dos veces el radio de la Tierra. ¿Cuál es la razón de sus
+    4.0 kg en (4.0, 0). Encuentre la fuerza gravitacional resul-         periodos, TB/TA?
+    tante ejercida por los otros dos objetos sobre el que está
+    en el origen.                                                    Problemas adicionales
+36. Después de que el Sol agote su combustible nuclear, su           46. Un satélite síncrono, que siempre mantiene su posición
+    último destino puede ser el colapso hacia un estado de               en relación con el ecuador de un planeta, es puesto en
+    enana blanca. En ese estado, tendría aproximadamente la              órbita circular alrededor de Júpiter para estudiar su fa-
+    misma masa que la que ahora tiene, pero su radio sería               mosa mancha roja. Júpiter rota una vez cada 9.84 h. Uti-
+    casi igual al de la Tierra. Calcule a) la densidad prome-            lice los datos de la tabla 7.3 para encontrar la altura del
+    dio de la enana blanca, b) la aceleración en caída libre             satélite.
+    sobre su superficie y c) la energía potencial gravitacional
+                                                                     47. a) Una de las lunas de Júpiter, llamada Io, tiene un perio-
+    asociada con un objeto de 1.00 kg en la superficie de la
+                                                                         do orbital de 1.77 días y un radio orbital de 4.22 3 108 m.
+    enana blanca.
+                                                                         Suponiendo que la órbita es circular, determine la masa
+37. Objetos con masas de 200 y 500 kg están separados a una              de Júpiter. b) La mayor de las lunas de Júpiter, Ganímedes,
+    distancia de 0.400 m. a) Encuentre la fuerza gravitacional           tiene un radio orbital de 1.07 3 109 m y un periodo de 7.16
+    neta ejercida por ellos sobre un objeto de 50.0 kg colocado          días. Con estos datos, calcule la masa de Júpiter. c) ¿Son
+    a medio camino entre ellos. b) ¿En qué posición (que no              consistentes sus resultados de los incisos a) y b)? Explique.
+    sea infinitamente remota) se puede colocar un objeto de
+                                                                     48. Las estrellas de neutrones son objetos extremadamente
+    50.0 kg para que experimente una fuerza neta cero?
+                                                                         densos formados por remanentes de explosiones de su-
+38. Utilice los datos de la tabla 7.3 para hallar el punto entre         pernovas. Muchas de ellas rotan muy rápido. Suponga
+    la Tierra y el Sol en el que un objeto se puede colocar              que la masa de una cierta estrella de neutrones de for-
+    de modo que la fuerza gravitacional neta, ejercida por la            ma esférica es dos veces la masa del Sol y su radio es de
+    Tierra y el Sol sobre este objeto, sea cero.                         10.0 km. Determine la mayor velocidad angular posible
+39. Un proyectil se dispara verticalmente hacia arriba desde             que la estrella de neutrones debe tener para que la mate-
+    la superficie de la Tierra en el Polo Sur con una velocidad          ria de su superficie sobre el ecuador se sostenga apenas
+    inicial igual a un tercio la velocidad de escape. a) Hacien-         por la fuerza gravitacional.
+    do caso omiso de la resistencia del aire, determine a qué        49.          Un método de lanzamiento en el softball se llama el
+    distancia del centro de la Tierra está el proyectil antes              “serpenteo”, en el cual el brazo del lanzador rota aproxi-
+    de detenerse por un momento. b) ¿Cuál es la altura del                 madamente 360° en un plano vertical antes de que la
+    proyectil en este instante?                                            bola de 198 gramos se lance en el punto más bajo del
+40. Dos objetos se atraen uno al otro con una fuerza gravita-              movimiento circular. Un experimentado lanzador puede
+    cional de magnitud 1.00 3 1028 N cuando están separa-                  tirar una bola con una velocidad de 98.0 mi/h. Suponga
+    dos 20.0 cm. Si el total de la masa de los objetos es 5.00 kg,         que la aceleración angular es uniforme durante el movi-
+    ¿cuál es la masa de cada uno?                                          miento de lanzamiento y tome la distancia entre la bola
+                                                                           y el hombro como de 74.2 cm. a) Determine la veloci-
+7.6 Leyes de Kepler
+                                                                           dad angular del brazo en rev/s en el instante de soltarla.
+41.       Un satélite está en una órbita circular alrededor de             b) Encuentre el valor de la aceleración angular en rev/s2
+      la Tierra a una altura de 2.80 3 106 m. Calcule: a) el pe-           y las aceleraciones radial y tangencial de la bola justo en
+                                                                                                                 | Problemas       231
+
+      el momento de soltarla. c) Determine la fuerza ejercida            to en los polos no experimenta aceleración centrípeta.
+      sobre la bola por la mano del lanzador (componentes                a) Demuestre que en el Ecuador la fuerza gravitacional
+      radiales y tangenciales) justo antes de soltarla.                  sobre un objeto (el verdadero peso) debe ser mayor que
+50. Un disco compacto de audio digital lleva datos con cada              el peso aparente del objeto. b) ¿Cuáles son los pesos apa-
+    BIT ocupando 0.6 mm, a lo largo de una pista espiral                 rentes de una persona de 75.0 kg en el Ecuador y en los
+    continua desde la circunferencia interior del disco hacia            polos? (Suponga que la Tierra es una esfera uniforme y
+    el borde exterior. Un aparato reproductor de CD hace                 tome g 5 9.800 m/s2.)
+    girar el disco para llevar la pista en sentido contrario a     58. Un pequeño bloque de masa m 5 0.50 kg se dispara con
+    las manecillas del reloj, sobre una lente a una velocidad          una velocidad inicial de v0 5 4.0 m/s a lo largo de una
+    constante de 1.30 m/s. Encuentre la velocidad angular              sección de vía horizontal sin fricción, como se muestra
+    necesaria a) al comienzo de la grabación, donde la espi-           en la figura P7.58. El bloque se mueve a lo largo de una
+    ral tiene un radio de 2.30 cm y b) al final de la grabación,       vía vertical semicircular sin fricción, de radio R 5 1.5 m.
+    donde la espiral tiene un radio de 5.80 cm. c) Una gra-            a) Determine la fuerza ejercida por la vía sobre el bloque
+    bación de larga duración es de 74 min 33 s. Encuentre la           en los puntos  y . b) La parte inferior de la vía consta
+    aceleración angular media del disco. d) Si se supone que           de una sección (L 5 0.40 m) con fricción. Determine el
+    la aceleración es constante, determine el desplazamien-            coeficiente de fricción cinética entre el bloque y esa par-
+    to angular total del disco cuando reproduce el sonido.             te inferior de la vía si el bloque apenas llega al punto 
+    e) Encuentre la longitud total de la pista.                        en el primer viaje. (Sugerencia: Si el bloque apenas llega al
+51. Un atleta hace girar una pelota de 5.00 kg horizontal-             punto , la fuerza de contacto ejercida por la vía sobre el
+    mente en el extremo de una cuerda. La pelota se mueve              bloque en ese punto debe ser cero.)
+    en una circunferencia de 0.800 m de radio a una veloci-                            S
+    dad angular de 0.500 rev/s. ¿Cuáles son a) la velocidad                           v0
+
+    tangencial de la pelota y b) su aceleración centrípeta? c)                              m
+    Si la tensión máxima que la cuerda puede resistir antes
+                                                                                R                                     R
+    de romperse es de 100 N, ¿cuál es la velocidad tangencial                                    S
+    máxima que puede tener la pelota?
+                                                                                                 g                               
+52. Un automóvil toma una curva peraltada donde el radio
+    de curvatura del camino es R, el ángulo de peralte es u                                          L
+    y el coeficiente de fricción estática es m. a) Determine el
+                                                                                                     mk
+    intervalo de velocidades que el automóvil puede tener                                                           
+    sin patinar en ambas direcciones del camino. b) ¿Cuál es
+                                                                                                Figura P7.58
+    el intervalo de velocidades posible si R 5 100 m, u 5 10° y
+    m 5 0.10 (condiciones de camino resbaloso)?                    59. En la obra de Robert Heinlein, La Luna es una áspera patro-
+53. El satélite solar Maximun Mission fue puesto en órbita             na, los colonizadores de nuestro satélite natural amenazan
+    circular a 150 millas sobre la Tierra. Determine a) la ve-         con lanzar rocas hacia la Tierra si no se les da la indepen-
+    locidad orbital del satélite y b) el tiempo necesario para         dencia (o por lo menos una representación). Suponiendo
+    completar una revolución.                                          que un cañón pudiera lanzar una piedra de masa m al do-
+                                                                       ble de la velocidad de escape lunar, calcule la velocidad
+54. El disco de un péndulo de 0.400 kg pasa por la parte más
+                                                                       de la roca cuando entre en la atmósfera terrestre.
+    baja de su trayectoria a una velocidad de 3.00 m/s. a) ¿Cuál
+    es la tensión en el cable del péndulo en ese punto si el       60.         El carro de una montaña rusa se mueve en una tra-
+    péndulo mide 80.0 cm de largo? b) Cuando el péndulo                  yectoria circular en un plano vertical. a) Identifique las
+    llega a su punto más alto, ¿qué ángulo forma el cable con            fuerzas sobre un pasajero en la parte alta de un rizo que
+    la vertical? c) ¿Cuál es la tensión del cable del péndulo            causan todas las fuerzas. b) Identifique las fuerzas sobre
+    cuando éste llega a su punto más alto?                               el pasajero en la parte inferior del rizo que producen ace-
+                                                                         leración centrípeta; muéstrelas en un dibujo. c) Con base
+55.          Un auto se desplaza a una velocidad v para cruzar
+                                                                         en las respuestas en a) y b), ¿en qué punto, alto o del fondo,
+      un puente construido en forma de arco circular de ra-
+                                                                         debe el asiento ejercer la máxima fuerza sobre el pasaje-
+      dio r. a) Encuentre una expresión para la fuerza normal
+                                                                         ro? d) Suponga que la velocidad del carro de la montaña
+      que actúa sobre el auto cuando está en la parte alta del
+                                                                         rusa es de 4.00 m/s en lo alto del rizo, cuyo radio es de
+      arco. b) ¿A qué velocidad mínima la fuerza normal será
+                                                                         8.00 m. Encuentre la fuerza ejercida por el asiento sobre un
+      cero (donde parece que los ocupantes del auto no tienen
+                                                                         pasajero de 70.0 kg en la parte superior del rizo. Después,
+      peso) si r 5 30.0 m?
+                                                                         suponga que la velocidad permanece igual en la parte
+56.        Demuestre que la velocidad de escape de la superfi-           baja del rizo y encuentre la fuerza ejercida por el asiento
+      cie de un planeta de densidad uniforme, es directamente            sobre el pasajero en ese punto. ¿Son congruentes sus res-
+      proporcional al radio del planeta.                                 puestas con su elección de respuestas en a) y b)?
+57.         Debido a la rotación de la Tierra alrededor de su      61. En un secador de ropa casero, una tina cilíndrica que
+      eje, un punto sobre el Ecuador experimenta una acele-            contiene la ropa mojada se gira constantemente alrede-
+      ración centrípeta de 0.034 0 m/s2, mientras que un pun-          dor de un eje horizontal, como se muestra en la figura
+232       CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+      P7.61. Conforme la ropa se seca de manera uniforme,                   otras estructuras. Un contenedor cilíndrico rota rápida y
+      se le hace caer. La velocidad de rotación de la tina de               constantemente sobre un eje horizontal, como se ve en
+      paredes lisas se elige de manera que un pequeño pedazo                la figura P7.64. El metal fundido se vierte en el cilindro
+      de tela pierde el contacto con la tina cuando la tela se en-          que rota y después se enfría formando el producto final.
+      cuentra en un ángulo de u 5 68.0° sobre la horizontal. Si             Girar el cilindro a una alta tasa de rotación expulsa fuer-
+      el radio de la tina es r 5 0.330 m, ¿qué velocidad de giro            temente al exterior el metal de solidificación. Cualquier
+      se necesita en revoluciones por segundo?                              burbuja es desplazada hacia el eje de modo que los vacíos
+                                                                            indeseados no estén presentes en el contenedor.
+                                                                                 Suponga que se debe echar una manga de cobre de
+                                                                            radio interno 2.10 cm y de radio externo 2.20 cm. Para
+                                                                            eliminar burbujas y dar una alta integridad estructural, la
+                                  r                                         aceleración centrípeta se debe aplicar a cada pedacito de
+                                                                            metal de 100g. ¿Qué tasa de rotación se requiere? Indi-
+                                 u                                          que la respuesta en revoluciones por minuto.
+
+                                                                                  Placa de acero precalentada
+
+
+                                                                                                                     Eje de rotación
+
+                             Figura P7.61
+
+62.        Un modelo de avión de masa 0.750 kg vuela a una velo-             Metal fundido
+      cidad de 35.0 m/s en una circunferencia horizontal en el
+                                                                                                  Figura P7.64
+      extremo de un cable de control de 60.0 m, como se mues-
+      tra en la figura P7.62a. Las fuerzas ejercidas sobre el avión   65. Suponga que un coche de                          S
+                                                                                                                            v
+      se muestran en la figura P7.62b, la tensión en el cable de          1 800 kg pasa sobre un tope
+      control, u 5 20.0° hacia el interior de la vertical. Calcule        en un camino siguiendo
+      la tensión en el cable, suponiendo que forma un ángulo              un arco de circunferencia
+      constante de u 5 20.0° con la horizontal.                           de radio 20.4 m, como se                Figura P7.65
+
+                                              S
+                                                                          muestra en la figura P7.65. a) ¿Qué fuerza ejerce el camino
+               Trayectoria circular           Fasc                        sobre el coche cuando éste pasa por el punto más alto del
+               del avión
+                                              u                           tope si viaja a 8.94 m/s? b) ¿Cuál es la velocidad máxima
+                                                                          que el coche puede tener sin perder contacto con el camino
+             Cable                                                        cuando pasa por el punto más alto?
+                                          u
+                                          S           S               66. Un “doble” de cine, de masa igual a 70 kg, oscila des-
+                                          T          mg
+                                                                          de el extremo de una cuerda de 4.0 m de largo en un
+              a                       b                                   arco de circuferencia vertical. Si se supone que el “doble”
+                                                                          arranca desde el reposo cuando la cuerda está horizon-
+                             Figura P7.62                                 tal, determine las tensiones necesarias en la cuerda para
+                                                                          hacerle seguir su trayectoria circular a) al comienzo de su
+63.       Un esquiador arranca desde el reposo en lo alto de              movimiento, b) a una altura de 1.5 m sobre la parte baja
+      una colina hemisférica (figura P7.63). Olvidando la fric-           del arco circular y c) en la parte baja del arco.
+      ción, demuestre que el esquiador saldrá de la colina y
+                                                                      67.         Una mínima energía orbital externa de un planeta
+      volará una distancia de h 5 R/3 hacia debajo de la cima
+                                                                            consiste en poner una nave espacial en una trayectoria
+      de la colina. Sugerencia: en este punto, la fuerza normal se
+                                                                            elíptica con el planeta haciendo corresponder el punto
+      reduce a cero.)
+                                                                            de partida con el perihelio de la elipse, o del punto más
+                                                                            cercano al Sol, y la llegada al planeta con el afelio de la
+                                                                            elipse, o del punto más lejano del Sol. a) Utilice la tercera
+                                                                            ley de Kepler para calcular cuánto tiempo tomaría para ir
+                                                                            de la Tierra a Marte en tal órbita. b) ¿Se puede empren-
+                                                                            der esta órbita en cualquier momento? Explique.
+                             R
+                                                                      68.         El piloto de un avión ejecuta maniobras describien-
+                                                                            do rizos a una velocidad constante, en círculos verticales
+                             Figura P7.63
+                                                                            como se ve en la figura 7.15b. La velocidad del avión
+                                                                            es 2.00 3 102 m/s, y el radio del círculo es 3.20 3 103 m.
+64. Un contenedor de metal fundido es importante en mu-                     a) ¿Cuál es el peso aparente del piloto en el punto más bajo
+    chos procesos industriales. Un contenedor centrífugo se                 de la trayectoria circular si su peso real es 712 N? b) ¿Cuál
+    utiliza para la fabricación de pipas, cojinetes y muchas                es el peso aparente en la parte alta? c) Describa cómo el
+                                                                                                                           | Problemas   233
+
+      piloto podría experimentar pérdida de peso si el radio y la         10 m/s, ¿cuál es el máximo ángulo de abatimiento que
+      velocidad variaran. Nota: Su peso aparente es igual a la mag-       permite al murciélago permanecer en un plano horizon-
+      nitud de la fuerza ejercida por el asiento sobre su cuerpo.         tal? c) ¿Cuál es el radio de circunferencia de su vuelo cuando
+      ¿Bajo qué condiciones eso ocurre? d) ¿Cuál es la velocidad          el murciélago vuela a su velocidad máxima? d) ¿Puede el
+      que tiene el avión en la parte superior de la trayectoria           murciélago dar vuelta con un radio más pequeño volando
+      si en ese punto el piloto experimenta pérdida de peso?              más lentamente?
+69.       Una pieza de barro está inicialmente en el punto A
+      sobre el borde de una rueda de bicicleta de radio R, ro-
+      tando en sentido contrario a las manecillas del reloj, alre-                             FA cos u              S
+      dedor de un eje horizontal a una velocidad angular cons-                                                u       FA
+      tante v (figura P7.8). El barro es desplazado del punto
+                                                                                                                  FA sen u
+      A cuando el diámetro formado con A es horizontal. El
+      barro es lanzado verticalmente hacia arriba y regresa al                                                             u
+      punto A. a) Encuentre una expresión simbólica en térmi-
+      nos de R, v y g para el tiempo total que el barro permane-
+      ce en el aire y regresa al punto A. b) Si la rueda hace una
+                                                                                                          S
+      revolución completa en el tiempo que le toma al barro                                          Mg
+      regresar al punto A, encuentre una expresión para la ve-                                   Figura P7.72
+      locidad angular v de la rueda, en términos de p, g y R.
+70.          Una bola de 0.275 kg está                                 73. a) Un carrusel de equipaje en un aeropuerto que tiene
+      girando en una trayectoria circular                                  la forma de una sección de un gran cono permanece gi-
+      vertical sobre una cuerda de 0.850 m                                 rando alrededor de un eje vertical. Su superficie metálica
+      de longitud como se ve en la figu-                                   se inclina hacia afuera en un ángulo de 20.0° con la ho-
+                                                               L           rizontal. Una pieza de equipaje de 30.0 kg se pone en el
+      ra P7.70. a) ¿Cuáles son las fuerzas
+      que actúan sobre la bola en cual-                                    carrusel a 7.46 m del eje de rotación. La maleta da una
+      quier punto a lo largo de esta tra-                        m         vuelta en 38.0 s. Calcule la fuerza de fricción estática entre
+      yectoria? b) Dibuje un diagrama de                                   la maleta y el carrusel. b) El motor impulsor se ajusta de
+                                                     Figura p7.70
+      cuerpo libre para la bola cuando                                     manera que dé vuelta al carrusel a la más alta razón cons-
+      ésta se encuentra en la parte baja de la trayectoria y en            tante de rotación, y una pieza de equipaje se coloca en
+      la parte alta. c) Si la velocidad es 5.20 m/s en la parte alta       una posición a 7.94 m del eje de rotación. La maleta está
+      de la trayectoria, ¿cuál es la tensión sobre la cuerda ahí?          en el borde de deslizamiento cuando circunda una vez
+      d) Si la cuerda se rompe cuando su tensión excede 22.5 N,            cada 34 s. Calcule el coeficiente de fricción estática entre
+      ¿cuál es la velocidad máxima que                                     la maleta y el carrusel.
+      la bola puede tener en la parte                                  74. Una bola de 0.50 kg se ata al extre-
+      baja de la trayectoria antes de que                                  mo de una ligera cuerda de 1.5 m y
+      la cuerda se rompa?                                    2.00 m        se hace girar en un plano horizon-               u
+71. Un objeto de 4.00 kg está atado a                                      tal, formando un ángulo de 30° con
+    una vara vertical por dos cuerdas           3.00 m            m        la vertical (véase la figura P7.74). a)
+    como se muestra en la figura P7.71.                                    Determine la velocidad de la bola. b)
+    El objeto rota en una circunfe-                          2.00 m        Si, de otro modo, la bola es revolucio-
+    rencia horizontal a una velocidad                                      nada con una velocidad de 4.0 m/s,           Figura P7.74
+    constante de 6.00 m/s. Encuentre                                       ¿qué ángulo forma la cuerda con
+    la tensión en a) la cuerda superior y                                  la vertical? c) Si la cuerda puede estirarse a una tensión
+    b) la cuerda inferior.                         Figura P7.71            máxima de 9.8 N, ¿cuál es la velocidad máxima a la que la
+                                                                           bola puede moverse?
+72.        La máxima fuerza que levanta a un murciélago es
+      proporcional al cuadrado de su velocidad de vuelo v. Para        75. Un juego mecánico muy
+      el murciélago cano (Lasiurus cinereus), la magnitud de su            popular de un parque de
+      fuerza de ascenso está dada por:                                     diversiones es un cilindro gi-
+                                                                           ratorio de 3.00 m de radio,
+                     FA # (0.018 N ? s2/m2)v 2                             que se pone en rotación a
+                                                                           una velocidad angular de
+      El murciélago puede volar en una circunferencia hori-                5.00 rad/s, como se ve en la
+                                                                                                                    R
+      zontal batiendo sus alas en un ángulo u, como se muestra             figura P7.75. En algún mo-
+      en la figura P7.72. En esta situación, la magnitud de la             mento, el piso cae y deja a las
+      componente vertical de la fuerza de ascenso debe ser igual           personas suspendidas contra
+      a la del peso del murciélago. La componente horizontal de            la pared en una posición ver-
+      la fuerza provee la aceleración centrípeta. a) ¿Cuál es la ve-       tical. ¿Cuál es el mínimo co-             Figura P7.75
+      locidad mínima que el murciélago puede tener si su masa              eficiente de fricción entre la ropa de una persona y la pared
+      es 0.031 kg? b) Si la velocidad máxima del murciélago es             necesario para evitar que la persona resbale? (Sugerencia:
+234       CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+      Recuerde que la magnitud de la máxima fuerza de fricción        nas llegue al punto C. (Sugerencia: La fuerza ejercida por
+      estática es igual a msn, donde n es la fuerza normal, en este   la vía sobre el bloque será cero si el bloque apenas da la
+      caso la fuerza que ocasiona la aceleración centrípeta.)         vuelta al aro.)
+76. Un resorte sin masa de constante k 5 78.4 N/m está fijo
+    en el lado izquierdo de una vía a nivel. Un bloque de
+                                                                                                                    C
+    masa m 5 0.50 kg se presiona contra el resorte y lo com-
+    prime una distancia d, como se ve en la figura P7.76. El
+    bloque (inicialmente en reposo) se suelta y se mueve ha-                                                    R
+    cia un aro circular de radio R 5 1.5 m. Toda la vía y el aro                     d
+    carecen de fricción, excepto por la sección de vía entre                 k
+    los puntos A y B. Dado que el coeficiente de fricción ciné-                  m               mk
+    tica entre el bloque y la vía a lo largo de AB es mk 5 0.30, y                       A                  B
+    que la longitud de AB es 2.5 m, determine la compresión
+    mínima d del resorte que haga posible que el bloque ape-                                 Figura P7.76
+262     CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+
+ ■ PREGUNTAS DE OPCIÓN MÚLT IPLE
+
+
+              Las preguntas de opción múltiple en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+ 1. ¿Cuál es la magnitud de la aceleración angular de un                        y con eje horizontal. ¿Cuándo el carrete tiene una mayor
+    disco de 25.0 kg de radio 0.800 m cuando se le aplica                       magnitud de la aceleración angular? a) Cuando el cable
+    un torque de 40.0 N ? m? a) 2.50 rad/s2 b) 5.00 rad/s2                      se tira hacia abajo con una fuerza constante de 50 N. b)
+    c) 7.50 rad/s2 d) 10.0 rad/s2 e) 12.5 rad/s2                                Cuando un objeto de peso 50 N se cuelga de la cuerda y
+ 2. Un tablón horizontal de 4.00 m de largo y de masa de                        es puesto en libertad. c) Las aceleraciones angulares en
+    20.0 kg descansa sobre dos pivotes, el primero en el ex-                    a) y b) son iguales. d) Es imposible de determinar.
+    tremo izquierdo y el segundo a 1.00 m del extremo dere-                 5. Dos fuerzas están actuando sobre un objeto. ¿Cuáles de
+    cho. Encuentre la magnitud de la fuerza ejercida en el ta-                 las siguientes declaraciones son correctas? a) El objeto
+    blón por el segundo pivote. a) 32.0 N b) 45.2 N c) 112 N                   está en equilibrio si las fuerzas son iguales en magnitud
+    d) 131 N e) 98.2 N                                                         y dirección opuesta. b) El objeto está en equilibrio si el
+3. Se utiliza una llave de 0.500 m de largo con una fuerza                     torque neto sobre el objeto es cero. c) El objeto está en
+   de 80.0 N para aflojar una tuerca. Debido al estrecho                       equilibrio si las fuerzas actúan en el mismo punto del ob-
+   espacio, la fuerza se debe ejer-                                            jeto. d) El objeto está en equilibrio si la fuerza neta y el
+   cer hacia arriba en un ángulo de                                            torque neto sobre el objeto son ambos cero. e) El objeto
+   60.0° con respecto a una línea que                                          no puede estar en equilibrio porque más de una fuerza
+   va desde el perno hasta el extremo                                          actúa sobre él.
+   de la llave. ¿Cuánto torque se apli-                                     6. Un bloque resbala por una rampa sin fricción mientras
+   ca a la tuerca? a) 34.6 N ? m b) 4.56                                       una esfera hueca y una bola sólida ruedan sin deslizarse
+   N ? m c) 11.8 N ? m d) 14.2 N ? m                                           hacia abajo de una segunda rampa con la misma altura
+   e) 20.0 N ? m                                                               y pendiente. Ordene los tiempos de llegada de los ob-
+ 4. Como se muestra en la figura                                               jetos a la parte baja de la rampa, del más corto al más
+    POM8.4, un cable se enrolla en un                                          largo: a) esfera, bola, bloque, b) bola, bloque, esfera,
+    carrete cilíndrico fijo, sin fricción                                      c) bola, esfera, bloque, d) bloque, esfera, bola, e) bloque,
+                                                   Figura POM8.4               bola, esfera
+                                                                                                             | Preguntas conceptuales   263
+
+ 7. Un torque constante neto distinto de cero se ejerce so-                     contrario a las manecillas del reloj porque conserva el
+    bre un objeto. ¿Cuáles de las siguientes cantidades no pue-                 momento angular. e) Gira en sentido contrario a las ma-
+    den ser constantes para este objeto? Más de una respuesta                   necillas del reloj porque la energía mecánica se conserva.
+    puede ser correcta: a) aceleración angular, b) velocidad
+                                                                           12. Considere dos esferas uniformes, sólidas, una esfera gran-
+    angular c) momento de inercia d) centro de masa, e) mo-
+                                                                               de, masiva y una esfera más pequeña, más ligera. Se suel-
+    mento angular
+                                                                               tan simultáneamente a partir del reposo desde la parte
+ 8. Un disco rota en relación con un eje fijo que es perpen-                   superior de una colina y ruedan hacia abajo sin deslizarse.
+    dicular al disco y que pasa por su centro. En cualquier                    ¿Cuál de ellas alcanza primero la parte de abajo de la coli-
+    instante, ¿cada punto del disco tiene la misma a) acele-                   na? a) La esfera grande, b) la esfera pequeña, c) la esfera
+    ración centrípeta, b) velocidad angular, c) aceleración                    con la densidad más grande, d) las esferas llegan al mismo
+    tangencial, d) velocidad lineal o e) aceleración total?                    tiempo, e) la respuesta depende de los valores de las ma-
+ 9. Un disco sólido y un aro se sueltan simultáneamente a                      sas y de los radios de las esferas.
+    partir del reposo desde la parte superior de una rampa y
+                                                                           13. Los coches en una carrera no tienen motor; simplemente
+    ruedan hacia abajo sin deslizarse. ¿Qué objeto alcanza pri-
+                                                                               van cuesta abajo. ¿Cuál de los siguientes criterios de diseño
+    mero la parte inferior de la rampa? a) El que tiene la masa
+                                                                               es el mejor desde un punto de vista competitivo? Las rue-
+    más grande. b) El que tiene el radio más grande. c) El aro.
+                                                                               das de coche deben a) tener grandes momentos de iner-
+    d) El disco. e) El aro y el disco llegan al mismo tiempo.
+                                                                               cia, b) ser enormes, c) tener ruedas en aro más bien que
+10. Un cilindro sólido de masa M y de radio R rueda hacia                      discos sólidos, d) tener ruedas grandes más bien que rue-
+    abajo de una pendiente sin deslizarse. Su momento de                       das pequeñas o e) tener momentos de inercia pequeños.
+    inercia sobre un eje a través de su centro de masa es
+    MR 2/2. En cualquier instante de su movimiento, su ener-               14. Dos caballos pequeños (o ponis) de igual masa están ini-
+    gía cinética rotatoria sobre su centro de la masa tiene una                cialmente en puntos diametralmente opuestos en el bor-
+    fracción de su energía cinética total de a) 12 b) 14 c) 13 d) 25           de de una plataforma rotatoria horizontal de gran tama-
+    e) ninguno de éstos                                                        ño que gira libremente sobre un eje vertical, sin fricción
+                                                                               a través de su centro. Los ponis al mismo tiempo comien-
+11. Un ratón está inicialmente en descanso sobre un disco
+                                                                               zan a caminar uno hacia el otro a través de la platafor-
+    giratorio horizontal en reposo montado en un eje verti-
+                                                                               ma giratoria. i) Cuando los ponies caminan, ¿qué ocurre
+    cal sin fricción. Cuando el ratón comienza a caminar en
+                                                                               con la velocidad angular de la plataforma? a) aumenta.
+    el sentido de las manecillas del reloj alrededor del perí-
+                                                                               b) disminuye. c) se mantiene constante. Considere el sis-
+    metro, ¿cuál de las declaraciones siguientes debe ser cier-
+                                                                               tema de ponies-plataforma giratoria en este proceso, y
+    ta en relación con el disco giratorio? a) Gira en sentido
+                                                                               responda si o no a las siguientes preguntas. ii) ¿La ener-
+    a las manecillas del reloj. b) Gira en sentido contrario a
+                                                                               gía mecánica del sistema se conserva? iii) ¿El impulso del
+    las manecillas del reloj con la misma velocidad angular
+                                                                               sistema se conserva? iv) ¿El momento angular del sistema
+    que el ratón. c) Permanece inmóvil. d) Gira en sentido
+                                                                               se conserva?
+
+ ■ PREGUNTAS CONCEPTUALES
+
+
+               Las preguntas conceptuales en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+ 1. ¿Por qué no puede usted poner sus talones firmemente                        tando mantener la puerta cerrada. Si el paleontólogo
+    contra una pared y después doblarse sin caer?                               está presionando en el centro de la puerta y la botáni-
+ 2. Explique por qué cambiar el eje de rotación de un objeto                    ca está presionando en el borde cerca de 8 cm de la bi-
+    cambia su momento de inercia.                                               sagra, estime hasta dónde el paleontólogo tendría que
+                                                                                recolocarse para tener un mayor efecto de mantener la
+ 3. Si usted ve un objeto en rotación, ¿hay necesariamente
+                                                                                puerta cerrada que el que están obteniendo al empujar
+    un torque neto que actúa sobre él?
+                                                                                desde sus posiciones originales. (La pregunta 6 es corte-
+ 4. a) ¿Es posible calcular el torque que actúa sobre un obje-                  sía de Edward F. Redish. Para más preguntas de este tipo,
+    to rígido sin especificar un origen? b) ¿Es el torque inde-                 véase www.physics.umd.edu/perg/.)
+    pendiente de la ubicación del origen?
+                                                                             7. En algunas carreras de motocicletas, los conductores
+ 5. ¿Por qué una larga vara ayuda a un equilibrista a mante-
+                                                                                manejan sobre pequeñas colinas donde las motocicletas
+    ner el equilibrio?
+                                                                                llegan a volar por un corto tiempo. Si el conductor de la
+ 6. En la película Parque jurásico, hay una escena en la que al-                motocicleta acelera mientras abandona la colina y entra
+    gunos miembros del grupo de visitantes quedan atrapados                     al aire, la nariz de la motocicleta tiende a levantarse. ¿Por
+    en la cocina, con los dinosaurios afuera. El paleontólogo                   qué sucede esto?
+    está presionando contra el centro de la puerta, inten-
+    tando mantener a los dinosaurios en el otro lado. La bo-                 8. Si usted lanza un libro de texto al aire, rotándolo cada
+    tánica se lanza contra la puerta en el borde cerca de la                    vez en relación con tres ejes perpendiculares a él, verá
+    bisagra. Un punto importante en la película es que ella                     que no girará suavemente alrededor de uno de esos ejes
+    no puede alcanzar un arma en el piso porque está inten-                     (inténtelo, pero coloque una fuerte liga alrededor del
+                                                                                        www.elsolucionario.org
+
+264       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+      libro antes de lanzarlo de modo que permanezca cerra-                                            tinamente, la cinta es jalada por una fuerza muy grande
+      do). La rotación del libro es estable en relación con esos                                       ¿es más probable que la cinta se rompa cuando el carrete
+      ejes que tienen los momentos de inercia más grandes y                                            está casi lleno o está casi vacío?
+      más pequeños, pero inestable en relación con el eje del                                    12. a) Dé un ejemplo en el cual la fuerza neta que actúa so-
+      momento intermedio. Intente esto para encontrar el eje                                         bre un objeto sea cero, con torque neto distinto de cero.
+      que tiene este momento de inercia intermedio.                                                  b) Dé un ejemplo en el cual el torque neto que actúa
+ 9. Las estrellas se originan de grandes cuerpos de gas que                                          sobre un objeto sea cero, con la
+    giran lentamente. Debido a la gravedad, estos gases se                                           fuerza neta distinta de cero.
+    contraen con lentitud. ¿Qué sucede con la rapidez angu-                                      13. Una escalera se apoya inclinada
+    lar de una estrella mientras ésta se contrae? Explique.                                          contra una pared. ¿Usted se sen-
+10. Si un competidor de                                                                              tiría más seguro al subir por la
+    salto de altura coloca co-                                                                       escalera si le dijeran que el piso
+
+
+                                        Mark Dadswell/Getty Images
+    rrectamente su cuerpo al                                                                         no tiene fricción, pero la pared
+    pasar la barra, el centro                                                                        es áspera, o que la pared no tiene
+    de gravedad del atleta                                                                           fricción, pero que el piso es áspe-
+
+
+                                                                                                                                                     Biosphoto/Labat J-M & Roquette F./Peter Arnold. Inc.
+    puede pasar realmente                                                                            ro? Justifique su respuesta.
+    debajo de la barra. (Véa-                                                                    14. Un gato aterriza generalmente
+    se la figura PC8.10.) Ex-                                                                        en sus patas sin importar la posi-
+    plique cómo es posible                                                   Figura PC8.10
+                                                                                                     ción de la cual se deje caer. Una pe-
+    esto.                                                                                            lícula en cámara lenta de un gato
+11. En una grabadora de cinta, el mecanismo hace pasar la                                            cayendo muestra que la mitad
+    cinta por cabezas de lectura/grabación con una rapidez                                           superior de su cuerpo se tuerce
+    constante. Considere el carrete del que se tira la cinta:                                        en una dirección mientras que
+    a medida que sale, el radio del rollo de la cinta restan-                                        la mitad inferior tuerce en la di-
+    te disminuye. ¿Cómo cambia el torque en el carrete con                                           rección opuesta. (Véase la figura
+    tiempo? ¿Cómo cambia la rapidez angular del carrete                                              PC8.14.) ¿Por qué ocurre este
+    con tiempo? ¿Si el mecanismo de la cinta se activa repen-                                        tipo de rotación?                                                                                      Figura PC8.14
+
+
+ ■ PROBLEMAS
+
+
+                Los problemas para este capítulo se pueden asignar en línea                        1. denota problemas asignados con más frecuencia en Enhanced
+   en Enhanced WebAssign. Los problemas seleccionados también tienen                                     WebAssign
+   soluciones en los videos Watch It.                                                                    denota problemas biomédicos
+1. denota problemas sencillos, 2. denota problema intermedio,                                            denota problemas guiados
+3. denota problema de alto reto
+                                                                                                         denota tutorial Master It disponible en Enhanced WebAssign
+1. denota solución completa disponible en Student Solutions                                              denota petición de razonamiento cuantitativo y conceptual
+   Manual/Study Guide
+                                                                                                         denota problema de razonamiento simbólico
+
+
+8.1 Torque                                                                                             gulo 37.0° por debajo de la horizontal? La fuerza es apli-
+ 1. La caña de pescar en la figura P8.1 forma un ángulo de                                             cada en un punto de 2.00 m de las manos del pescador.
+    20.0° con la horizontal. ¿Cuál es la magnitud del torque                                      2.       Encuentre el torque neto en la rueda de la figura
+    ejercido por el pescado sobre un eje perpendicular a la                                            P8.2 sobre el eje O perpendicular a la página, teniendo
+    página y que pasa por la mano del pescador  si el pez tira                                         a 5 10.0 cm y b 5 25.0 cm.
+                                         S
+    de la línea de pesca con una fuerza F 5 100 N en un án-
+
+                                                                                                                                                10.0 N
+                          m            20.08
+                     2.00
+                                     37.08
+                         20.08
+                                                                                                                          30.08         a
+                                                                     100 N
+                                                                                                                                    O
+                                                                                                                 12.0 N
+                                                                                                                                     b
+                                                                                                                                                           9.00 N
+
+
+                                 Figura P8.1                                                                                      Figura P8.2
+                                                                                                                                              | Problemas            265
+
+ 3. Calcule el torque neto                                                   25 N          9.         Un cocinero sostiene con
+    (magnitud y dirección)                                       308
+                                                                                                la mano un envase de leche
+    en la viga en la figura                                                                     2.00 kg, con el brazo extendido
+                                                                                                                             S
+    P8.3 en relación con                           O                                            (figura P8.9). ¿Qué fuerza F B
+                                                                                    208
+    a) un eje en O perpendi-              458          2.0 m C                                  debe ejercer el bíceps? (Haga                 d
+    cular a la página y b) un                                                    10 N           caso omiso del peso del ante-
+    eje en C perpendicular a                                4.0 m                               brazo.)
+                                        30 N                                                                                                               ᐉ
+    la página.
+                                                       Figura P8.3
+ 4.         Una banda de acero ejerce                                                                                                                  Figura P8.8
+      una fuerza horizontal de 80.0 N
+                                                                 48.08       Encía
+      sobre un diente en el punto B de
+      la figura P8.4. ¿Cuál es el torque                                     A
+                                                       S                                                    Leche
+      en la raíz del diente en relación                F    B          1.20 cm
+      con el punto A?
+ 5.          Un péndulo simple se com-        Figura P8.4                                                                             75.08       S
+      pone de un pequeño objeto de                                                                                                                FB
+      masa 3.0 kg cuelga en el extremo de una cuerda ligera
+                                                                                                            S          25.0 cm
+      de 2.0 m de largo que se conecta a un punto de giro.                                                  Fg                      8.00 cm
+      a) Calcule la magnitud del torque (debido a la fuerza de
+      gravedad) de este punto de giro cuando la cuerda forma                                                               Figura P8.9
+      un ángulo de 5.0° con la ver-
+                                                        Fy
+      tical. b) ¿El torque aumenta
+      o disminuye a medida que el                                                         10. Una báscula se equilibra cuando el fulcro de la pesa
+                                             ᐉ               Fx                               deslizante está en la marca de 49.7 cm. Cuando se une
+      ángulo aumenta? Explique.
+                                                            Ry                                una masa de 50.0 g en la marca de 10.0 cm, el fulcro
+ 6.       Escriba las ecuaciones de                                                           se debe mover a la marca de 39.2 cm para balancearla.
+      equilibrio necesarias del obje-                             u                           ¿Cuál es la masa de la pesa deslizante?
+                                                  Rx
+      to mostrado en la figura P8.6.                    O                                 11. Encuentre las coordenadas x y y del centro de gravedad de
+      Tome el origen de la ecuación                                     S
+                                                                        Fg                    una hoja uniforme de madera, de 4.00 pies por 8.00 pies,
+      de torque con respecto a un eje
+                                                                                              cuando se ha recortado como se muestra en la figura P8.11.
+      perpendicular a la página a
+                                                            Figura P8.6                       Sugerencia: La masa de cualquier segmento de la hoja de
+      través del punto O.
+                                                                                              madera es proporcional a la superficie de ese segmento.
+8.2 Torque y las dos condiciones de equilibrio                                                              y (pies)
+8.3 El centro de gravedad                                                                            4.00
+
+8.4 Ejemplos de objetos en equilibrio
+ 7.         El brazo en la figura P8.7 pesa 41.5 N. La fuerza                                        2.00
+      de la gravedad sobre el brazo actúa a través del punto S
+      A. Determine las magnitudes de la fuerza S
+                                                  de tensión F t                                        0                                              x (pies)
+      en el músculo deltoideo y de la fuerza F s , ejercida por                                             0      2.00      4.00     6.00    8.00
+      el hombro sobre el húmero (hueso superior del brazo)
+      para sostener el brazo en la posición mostrada.                                                                     Figura P8.11
+
+
+ S
+                                                                                          12.        Una viga de L 5 6.00 m de longitud y masa M 5
+ Ft                                                                                             90.0 kg descansa sobre dos pivotes. El pivote bajo el ex-
+                12                      A                                                      tremo izquierdo ejerce una fuerza normal n1 sobre la
+         O         u                                                                            viga, y el segundo pivote está a una distancia , 5 4.00
+               S                                                                                m del extremo izquierdo y ejerce una fuerza normal n2.
+               Fs                            S
+                                             Fg                                                 Una mujer de masa m 5 55.0 kg comienza a caminar des-
+             0.080 m                                                                            de el extremo izquierdo de la viga hacia la derecha como
+                       0.290 m
+                                                                                                se ve en la figura P8.12. La meta es encontrar la posición
+                                 Figura P8.7                                                    de la mujer cuando la viga comienza a inclinarse. a) Bos-
+                                                                                                queje un diagrama de cuerpo libre, etiquetando las fuer-
+ 8. Una viga uniforme de 35.0 kg y de longitud , 5 5.00 m                                       zas normales y la gravitacional que actúan en la viga y que
+    está sostenida por una cuerda vertical situada a d 5 1.20 m                                 ponen a la mujer x metros a la derecha del primer pivote,
+    de su extremo izquierdo como se muestra en la figura                                        tomado como origen. b) ¿Dónde está la mujer cuando la
+    P8.8. El extremo derecho de la viga se apoya en una co-                                     fuerza normal n1 es la más grande? c) ¿Cuál es n1 cuando
+    lumna vertical. Calcule: a) la tensión en la cuerda y b) la fuer-                           la viga está cerca de inclinarse? d) Utilice la ecuación de
+    za que ejerce la columna en el extremo derecho de la viga.
+266       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+      equilibrio de fuerzas para encontrar el valor del n2 cuan-
+      do la viga está a punto de inclinarse. e) Con el resultado
+      del inciso c) y de la ecuación de equilibrio de torque, con                                  barra
+                                                                                               brazo
+      los torques calculados alrededor del segundo punto pivo-
+                                                                                           torso
+      te, encuentre la posición de la mujer cuando la viga está a
+      punto de inclinarse. f) Compruebe la respuesta del inciso                    muslo
+      e) calculando los torques alrededor del primer punto pi-                pierna
+      vote. A excepción de posibles diferencias de redondeo,
+      ¿las respuestas son iguales?
+                                  L                                       a                                  b                            c
+
+                              m                                                                            Figura P8.15
+                  x
+
+                                      M
+                                                                    16.         Con los datos dados en el problema 15 y el siste-
+                                                                          ma de coordenadas que se muestra en la figura P8.16b,
+                                                                          calcule la posición del centro de gravedad del gimnasta
+                                                                          de la figura P8.16a. Ponga especial atención a la defini-
+                                                                          ción de rcg en la tabla.
+                  Figura P8.12 (Problemas 12 y 14)                                                                      y
+
+13. Considere la siguiente distribución de masa, donde las co-                                                                      muslo
+    ordenadas x y y se dan en metros: 5.0 kg en (0.0, 0.0) m,                                                               brazo                pierna
+    3.0 kg en (0.0, 4.0) m y 4.0 kg en (3.0, 0.0) m. ¿Dónde                                       608                                      608
+                                                                                                                                                          x
+    debería ponerse un cuarto objeto de 8.0 kg de modo que                                                                      torso
+    el centro de gravedad del arreglo con el cuarto objeto
+    esté en (0.0, 0.0) m?                                             a                                             b
+
+14.        Una viga de longitud L y masa M está en reposo so-                                              Figura P8.16
+      bre dos pivotes. El primer pivote está en el extremo iz-
+      quierdo, tomado como el origen, y el segundo pivote está      17.         Una persona que se dobla hacia adelante para le-
+      a una distancia , del extremo izquierdo. Una mujer de               vantar una carga “con la espalda” (figura P8.17a) más
+      masa m empieza a caminar del extremo izquierdo al de-               bien que “con sus rodillas” puede dañarse por las gran-
+      recho, como se ve en la figura P8.12. Cuando la viga está           des fuerzas ejercidas sobre los músculos y las vértebras. La
+      a punto de inclinarse, encuentre la expresión simbólica             espina dorsal gira principalmente en la quinta vértebra
+      para a) la fuerza normal ejercida por el segundo pivote             lumbar, con la fuerza de soporte principal proporciona-
+      en términos de M, m y g, y b) la posición de la mujer en            da por el músculo espinal que se ubica en la espalda. Para
+      términos de M, m, L y ,. c) Encuentre el valor mínimo de            ver la magnitud de las fuerzas implicadas y para entender
+      l que permite que la mujer alcance el extremo de la viga            por qué los problemas en la espalda son comunes entre
+      sin que ésta se incline.                                            los seres humanos, considere el modelo mostrado en la
+                                                                          figura P8.17b de una persona que se dobla hacia adelante
+15.         Muchos de los ejercicios que se hacen en una barra            para levantar un objeto de 200 N. La espina dorsal y el
+      horizontal pueden ser modelados representando al gim-               cuerpo superior se representan como una barra horizon-
+      nasta por cuatro segmentos que consisten en los brazos, el          tal uniforme de peso 350 N, que gira en la base de la espi-
+      torso (incluyendo cabeza), muslos y las piernas bajas, se-          na dorsal. El músculo espinal erector unido en un punto
+      gún las indicaciones de la figura P8.15a. Los parámetros de         a dos tercios encima de la espina dorsal, mantiene la po-
+      inercia para un gimnasta particular se muestran en la tabla         sición de espalda. El ángulo entre la espina dorsal y este
+      siguiente:                                                          músculo es 12.0°. Encuentre la tensión en el músculo de
+      Segmento Masa (kg) Longitud (m) rcg (m) I (kg ? m2)                 la espalda y la fuerza de compresión en la espina dorsal.
+      Brazos           6.87       0.548         0.239   0.205                              Músculo de la espalda
+      Torso           33.57       0.601         0.337   1.610
+      Muslos          14.07       0.374         0.151   0.173
+      Piernas          7.54         —           0.227   0.164                                                        Ry
+                                                                                                                                S
+                                                                                 Pivote                                         T 12.08
+      Observe que en la figura P8.15a rcg es la distancia al cen-
+      tro de gravedad medido desde el empalme más cerca-                                                                  Rx
+      no a la barra y las masas para los brazos, los muslos y                                                                                 200 N
+      las piernas incluyen ambas cosas. I es el momento de                                                                         350 N
+      inercia de cada segmento en relación con su centro de
+      gravedad. Determine la distancia de la barra al centro                           a                                    b
+      de gravedad del gimnasta para las dos posiciones mos-
+      tradas en las figuras P8.15b y P8.15c.                                                               Figura P8.17
+                                                                                                                    | Problemas     267
+
+18.          Cuando una persona está parada de puntillas (una             el extremo (figura P8.22). La
+      posición vigorosa), la posición del pie está como se ve en          viga es uniforme, pesa 200 N y
+      la figura
+           S
+                 P8.18a. La fuerza gravitacional total en el cuer-        mide 6.00 m de largo; los dul-
+                                           S
+      po, F g , es soportada por la fuerza n ejercida por el piso         ces pesan 80.0 N. a) Dibuje un
+                                                                                                                    x
+      sobre los dedos del pie. Un modelo mecánico   S
+                                                       de la situa-       diagrama de cuerpo libre de la
+      ción se muestra en la figura P8.18b, donde T es la Sfuerza          viga. b) Cuando el oso está en
+      ejercida por el tendón de Aquiles sobre el pie y R es la            x 5 1.00 m, encuentre la ten-
+      fuerza ejercida por la tibia sobre el pie. Encuentre los            sión en el alambre y los compo-                        u
+      valores de T, R y u cuando Fg 5 700 N.                              nentes de la fuerza de reacción
+                                                                          en la bisagra. c) Si el alambre                 Dulces
+                              Tendón                          u           puede resistir una tensión máxi-
+                                                              S   S                                                 Figura P8.22
+            Tibia             de Aquiles                      R   T       ma de 900 N, ¿cuál es la distan-
+                                                                          cia máxima que el oso puede ca-
+                                                   15.0
+                                                                          minar antes de que el alambre
+                                                                          se rompa?
+                                                                      23.      La figura P8.23 muestra
+                                                     18.0 cm                                                             k
+                                                        25.0 cm           una viga uniforme de masa
+                                           S                              m que gira en su extremo
+                                           n
+                                                                          inferior, con un resorte ho-
+        a                                      b                          rizontal conectado entre su                             m
+                                                                          extremo superior y una pa-
+                                                                                                                                  u
+                               Figura P8.18                               red vertical. La viga forma
+                                                                          un ángulo u con la horizon-
+19.       Un anuncio rectangular uniforme                                                                         Figura P8.23
+                                                                          tal. Encontrar expresiones
+      de 500 N y 4.00 m de ancho por 3.00 m                               para a) la distancia d que el
+      de altura se suspende de una barra ho-               T              resorte se extiende desde el equilibrio y b) los compo-
+      rizontal uniforme de 6.00 m de largo            30.08               nentes de la fuerza ejercida por el eje de la viga.
+      y de 100 N según lo indicado en la fi-
+                                                                      24.        Un puntal de longitud L 5 3.00 m y masa m 5 16.0 kg
+      gura P8.19. El extremo izquierdo de
+                                                         Tienda de          está sostenido por un cable formando un ángulo de u 5
+      la barra está apoyado por una bisagra               helados
+                                                                            30.0° con respecto a la horizontal según se ve en la figura
+      y el extremo derecho está soportado
+                                                                            P8.24. a) Bosqueje un diagrama de cuerpo libre, indican-
+      por un cable formando un ángulo de
+                                                                            do todas las fuerzas y su colocación en el puntal. b) ¿Por
+      30.0° con la vertical. a) Encuentre la      Figura P8.19
+                                                                            qué es la bisagra un buen lugar a utilizar para calcular los
+      tensión T en el cable. b) Encuentre las
+                                                                            torques? c) Escriba simbólicamente la condición para el
+      componentes horizontal y vertical de la fuerza ejercida
+                                                                            equilibrio rotatorio, calculando los torques en relación
+      en el extremo izquierdo de la barra por la bisagra.
+                                                                            con la bisagra. d) Utilice la ecuación del torque para cal-
+20. Un lavador de ventanas está parado en un andamio apo-                   cular la tensión en el cable. e) Escriba las componentes x
+    yado por una cuerda vertical en cada extremo. El an-                    y y de la segunda ley del Newton para el equilibrio. f) Uti-
+    damio pesa 200 N y tiene 3.00 m de largo. ¿Cuál es la                   lice la ecuación de la fuerza para encontrar las compo-
+    tensión en cada cuerda cuando el trabajador de 700 N                    nentes x y y de la fuerza sobre la bisagra. g) Si se supone
+    está parado a 1.00 m de un extremo?                                     que la posición del puntal seguirá siendo la misma, ¿sería
+21. Un tablón uniforme de 2.00 m de longitud y masa de                      ventajoso unir el cable más arriba en la pared? Explique
+    30.0 kg está soportado por tres cuerdas, según lo indica-               la ventaja en términos de la fuerza sobre la bisagra y la
+    do por los vectores azules en la figura P8.21. Encuentre                tensión en el cable.
+    la tensión en cada cuerda cuando una persona de 700 N
+    está a 0.500 m del extremo izquierdo.
+                                                                                                                u
+
+
+                     S
+                     T2                        S
+                                               T1
+                                                      40.08                                      Figura P8.24
+                     S    d
+                     T3          2.00 m
+                                                                      25.       Un refrigerador de ancho w y altura h se descansa en
+                               Figura P8.21                                 una áspera pendiente, como en la figura P8.25 (página
+                                                                            268). Encuentre una expresión para el valor máximo que
+22. Un hambriento oso de 700 N camina hacia fuera de una                    puede tener u antes de que el refrigerador vuelque. Tenga
+    viga en un intento por tomar unos dulces que cuelgan en                 en cuenta que el punto de contacto entre el refrigerador
+268       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+      y la inclinación cambia a medida que aumenta u y consi-         28. Una viga uniforme de 1200
+      dere al refrigerador como una caja uniforme.                        N a f 5 65° con la horizon-
+                                                                          tal está sostenida por un ca-                 u
+                             w
+                                                                          ble en un ángulo u 5 25.0°                      3 ,
+                                                                          con la horizontal, como se                        ,      w
+                                                                                                                          4
+                                                                          ve en la figura P8.28. La viga
+                                                                                                                                 f
+                                                                          gira sobre una bisagra en
+                         h                                                                                                Bisagra
+                                                                          la parte inferior, y un peso
+                                                                          w 5 2 000 N cuelga de su
+                                                                          parte superior. Encuentre              Figura P8.28
+                             u                                            a) la tensión en el cable de
+                                                                          soporte y b) las componentes de la fuerza de reacción
+                                                                          ejercida sobre la viga por la bisagra.
+                             Figura P8.25
+                                                                      29.         El cuádriceps mayor     Cuadríceps
+26.              Una viga uniforme                                          del muslo termina en su                          Tendón
+      de longitud L y de masa m,                                            extremo inferior en un                               Tibia
+      mostrada en la figura P8.26,                                          tendón unido al extremo
+      forma un ángulo u con la ho-                         L                superior de la tibia (figura
+      rizontal. Su extremo superior                                         P8.29a). Las fuerzas sobre
+      está conectado a una pared                         u                  la pierna inferior cuando la   a
+      por una cuerda y su extre-                                            pierna está extendida se
+                                                                                                                        S
+      mo inferior está sobre una                                            modelan como en Sla figu-            25.08 T
+      superficie horizontal áspera.            Figura P8.26                 ra P8.29b, donde T es la
+                                                                                                       S
+      El coeficiente de fricción estática entre la viga y la su-            tensión en el tendón, w
+      perficie es ms. Suponga que el ángulo es tal que la fuerza            es la fuerza de gravedad                     u
+      de fricción estática está en su valor máximo. a) Dibuje               que actúa Ssobre la pierna
+      un diagrama de cuerpo libre para la viga. b) Con la con-              inferior y F es elSpeso del                    S
+                                                                                                                           w
+      dición del equilibrio rotatorio, encuentre una expresión              pie. Encuentre T cuando                            S
+                                                                                                                               F
+      para la tensión T sobre la cuerda en términos de m, g y               el tendón está en un ángu-
+      u. c) Con la segunda ley de Newton para el equilibrio,                lo de 25.0° con la tibia, su-  b
+      encuentre una segunda expresión para T en términos                    poniendo que w 5 30.0 N,
+      de ms, m y g. d) Usando los resultados previos, obtenga               F 5 12.5 N y la pierna está          Figura P8.29
+      una relación que involucre solamente a ms y al ángulo u.              extendida en un ángulo
+      e) ¿Qué sucede si disminuye el ángulo? ¿Esta ecuación es              u de 40.0° con la vertical.
+      válida para todos los valores de u? Explique.                         Suponga que el centro de gravedad de la pierna inferior
+27.         El músculo de masticación, llamado masetero,                    está en su centro y que el tendón se une a ella en un
+      es uno de los más fuertes del cuerpo humano. Se une                   punto ubicado a un quinto de la distancia de la pierna.
+      a la mandíbula inferior como se ve en la figura P8.27a.         30. Un extremo de una va-
+      La mandíbula hace pivote alrededor de un hueco justo                rilla uniforme de 4.0 m
+      frente al canal auditivo. Las fuerzas que actúan sobre la           de largo y de peso w está
+      mandíbula son equivalentesSa las que actúan en la barra             sostenido por un cable.
+      curvada de la figura P8.27b. F m es la fuerza ejercidaSpor el       El otro extremo se apo-
+      alimento que es masticado contra la      mandíbula, T es la         ya en la pared, donde es
+                                            S                                                                                  u
+      fuerza de la tensión del masetero y R es la fuerza   ejercida       sostenido por la fricción.        A                        B
+                                                        S    S
+      por el hueco sobre la mandíbula. Encuentre T y R para               (Véase la figura P8.30.)             x
+      una persona que muerde un pedazo de filete con una                  El coeficiente de fricción                 w
+      fuerza de 50.0 N.                                                   estática entre la pared
+                                                                          y la varilla es ms 5 0.50.
+                                                          S                                                     Figura P8.30
+                                                S         R               Determine la mínima
+                                                T
+                                 S                                        distancia x desde el pun-
+                                 FC                 3.50 cm
+                                                                          to A en el que un peso adicional w (igual al peso de la
+                                                                          varilla) se puede colgar sin hacer que la varilla resbale en
+                                      7.50 cm
+                                                                          el punto A.
+
+                    Masetero                                          8.5 Relación entre el torque
+        Mandíbula                                                         y la aceleración angular
+                                                                      31. Cuatro objetos están sostenidos en los vértices de un rec-
+          a                      b
+                                                                          tángulo por varillas ligeras como se ve en la figura P8.31.
+                             Figura P8.27                                 Encuentre el momento de inercia del sistema en relación
+                                                                                                                                 | Problemas            269
+
+      con a) el eje x, b) el eje y, y                             y                       expresión simbólica para la aceleración a en términos de
+      c) un eje que pasa por 0                      3.00 kg           2.00 kg             m, M, g, r y R. h) ¿Cuál es el valor numérico para la ace-
+      y que es perpendicular a la                                                         leración del sistema? i) ¿Cuál es la tensión en la cuerda?
+      página.                                                                             j) ¿Cuánto tiempo toma al sistema caer 1.00 m a partir
+                                                                           6.00 m         del reposo?
+32. Si el sistema mostrado en
+                                                                           x
+    la figura P8.31 se pone en                                O                     35.         Una cuerda de masa insignificante se enrolla al-
+    rotación sobre cada uno de                                                            rededor de un cilindro sólido de 225 kg y radio de 0.400
+    los ejes mencionados en el              2.00 kg                                       m. El cilindro se sujeta a varios metros del suelo con su
+    problema 31, encuentre                                                4.00 kg         eje orientado horizontalmente y gira sobre este eje sin
+                                                          4.00 m
+    el torque que producirá                                                               fricción. a) Si un hombre de 75.0 kg toma el extremo
+    una aceleración angular de                         Figura P8.31                       libre de la cuerda y se deja caer bajo la fuerza de grave-
+    1.50 rad/s2 en cada caso.                       (Problemas 31 y 32)                   dad, ¿cuál es su aceleración? b) ¿Cuál es la aceleración
+33. Una gran rueda usada para moler en forma de cilindro                                  angular del cilindro? c) Si la masa de la cuerda no fuera
+    sólido de radio 0.330 m rota libremente en un eje vertical                            despreciada ¿qué le sucedería a la aceleración angular del
+    sin fricción. Una fuerza tangencial constante de 250 N se                             cilindro cuando cae el hombre?
+    aplica en el borde causando en la rueda una aceleración                         36. La rueda de un alfarero, de radio 0.50 m y un momento
+    angular de 0.940 rad/s2. a) ¿Cuál es el momento de iner-                            de la inercia de 12 kg ? m2, está girando libremente a
+    cia de la rueda? b) ¿Cuál es la masa de la rueda? c) Si la                          50 rev/min. El alfarero puede detener la rueda en 6.0 s
+    rueda parte del reposo, ¿cuál es su velocidad angular des-                          presionando un trapo mojado contra el borde y ejercien-
+    pués de 5.00 s transcurridos, suponiendo que la fuerza                              do radialmente hacia el centro una fuerza de 70 N. En-
+    actúa durante ese tiempo?                                                           cuentre el coeficiente efectivo de fricción cinética entre
+34.        Un yo-yo de gran tamaño se hace con dos discos só-                           la rueda y el trapo mojado.
+      lidos idénticos cada uno de masa M 5 2.00 kg y radio                          37. Un modelo de aeroplano con una masa de 0.750 kg es
+      R 5 10.0 cm. Los dos discos son ensamblados por un                                atado con un cable de modo que vuele en un círculo de
+      cilindro sólido de radio r 5 4.00 cm y masa m 5 1.00 kg                           30.0 m de radio. El motor del aeroplano proporciona
+      como en la figura P8.34. Tome el centro del cilindro                              un empuje neto de 0.800 N perpendicular al cable de
+      como el eje del sistema, con los torques positivos dirigi-                        amarre. a) Encuentre el torque que produce el empuje
+      dos a la izquierda a lo largo de este eje. Todos los tor-                         neto alrededor del centro del círculo. b) Determine la
+      ques y variables angulares son calculados en relación                             aceleración angular del aeroplano cuando está en vuelo
+      con este eje. La cuerda ligera se enrolla alrededor del                           llano. c) Encuentre la aceleración lineal del aeroplano
+      cilindro y después se deja caer el sistema a partir del re-                       tangente a su trayectoria de vuelo.
+      poso. a) ¿Cuál es el momento de inercia del sistema?                          38. Una rueda de bicicleta tiene un diámetro de 64.0 cm
+      Dé una respuesta simbólica. b) ¿Qué torque ejerce la                              y una masa de 1.80 kg. Suponga que la rueda es un aro
+      gravedad sobre el sistema con respecto al eje dado? c)                            con toda la masa concentrada en el radio exterior. La
+      Tome como negativa la coordenada en la dirección de                               bicicleta se coloca en un soporte estacionario y se aplica
+      la caída. Según lo representado en la figura P8.34, ¿el                           una fuerza resistiva de 120 N tangente al borde del neu-
+      torque ejercido por la tensión es positivo o negativo? ¿La                        mático. a) ¿Qué fuerza debe ser aplicada por una cadena
+      aceleración angular es positiva o negativa? ¿Qué hay de                           que pasa sobre una rueda dentada de 9.00 cm de diáme-
+      la aceleración de translación? d) Escriba una ecuación                            tro para dar a la rueda una aceleración de 4.50 rad/s2?
+      para la aceleración angular a en términos de la acelera-                          b) ¿Qué fuerza se requiere si usted cambia a una rueda
+      ción de translación a y radio r. (¡Cuidado con el signo                           dentada de 5.60 cm de diámetro?
+      en la ecuación!) e) Escriba la segunda ley del Newton
+      para el sistema en términos de m, M, a, T y g. f) Escriba                     39.       Un carrusel de 150 kg y 1.50 m de radio en forma de
+      la segunda ley del Newton para la rotación en términos                              disco horizontal, sólido y uniforme, se pone en movimien-
+      de I, a, T y r. g) Elimine ~ de la segunda ley rotatoria con                        to cuando se enrolla una cuerda alrededor del borde del
+      la expresión encontrada en la parte d) y encuentre una                              disco y se tira de la cuerda. ¿Qué fuerza constante se debe
+                                                                                          ejercer sobre la cuerda para llevar el carrusel desde el re-
+                                                                                          poso a una rapidez angular de 0.500 rev/s en 2.00 s?
+                                                                                    40.             Una máquina de Atwood
+                                                                                          consiste en bloques de masas                 M       r
+                                                R
+                                                                                          m 1 5 10.0 kg y m2 5 20.0 kg uni-
+                        R                                                                 dos por una cuerda que está sobre
+                                        m
+                                                                                          una polea, como se ve en la figura          T1
+                                            r                                             P8.40. La polea es un cilindro sóli-                     T2
+                                                                                          do con masa M 5 8.00 kg y radio         S    m1
+                                             M                                            r 5 0.200 m. El bloque de masa m2       a
+                        M                                                                                                                                 S
+                                                                                          se deja caer, y la cuerda da vuelta                  m2         a
+                                                                                          a la polea sin deslizarse. a) ¿Por
+                             Figura P8.34                                                 qué debe la tensión T2 ser mayor            Figura P8.40
+270       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+      que la tensión T1? b) ¿Cuál es la aceleración del sistema,            de longitud, que forma un ángulo de 15.0° con la hori-
+      suponiendo que no hay fricción en el eje de la polea? c)              zontal. Si el disco parte del reposo desde la parte superior
+      Encuentre las tensiones T1 y T2.                                      de la rampa. Encuentre a) la rapidez del centro de masa
+41. Un avión de pasajeros aterriza con una velocidad de                     del disco cuando llega a la parte baja de la rampa y b) la
+    50.0 m/s. Cada rueda del avión tiene un radio de 1.25 m                 rapidez angular del disco en la parte baja de la rampa.
+    y de un momento de inercia de 110 kg ? m2. En el mo-              48.                Una esfera uniforme sólida de la masa m y del
+    mento del aterrizaje, las ruedas comienzan a girar por la               radio R rueda sin deslizarse por una pendiente de altu-
+    acción de la fricción. Cada rueda soporta un peso de 1.40               ra h. a) ¿Qué formas de energía mecánica se asocian a
+    3 104 N y las ruedas alcanzan su rapidez angular en 0.480 s             la esfera en cualquier punto a lo largo de la pendiente
+    rodando sin deslizarse. ¿Cuál es el coeficiente de fricción             cuando su velocidad angular es v? Responda con pala-
+    cinética entre las ruedas y la pista? Suponga que la rapi-              bras y simbólicamente en términos de las cantidades m, g,
+    dez del avión es constante.                                             y, I, v y v. b) ¿Qué fuerza actúa sobre la esfera haciéndola
+                                                                            rodar, más que deslizarse hacia abajo, por la pendiente?
+8.6 Energía cinética rotatoria                                              c) Determine la razón de la energía cinética rotatoria de
+42. Un automóvil está diseñado para obtener su energía                      la esfera a su energía cinética total en cualquier instante.
+    de un volante de inercia con un radio de 2.00 m y una
+                                                                      49. El trompo de la figura P8.49                        A9
+    masa de 500 kg. Antes de un viaje, el volante se conecta a
+                                                                          tiene un momento de iner-
+    un motor eléctrico que proporciona al volante una rapi-
+                                                                          cia de 4.00 3 1024 kg ? m2 y          S
+    dez rotatoria de 5 000 rev/min. a) Encuentre la energía                                                     F
+                                                                          está inicialmente en reposo.
+    cinética almacenada en el volante. b) Si éste debe pro-
+                                                                          Es libre de girar sobre un
+    veer energía al automóvil como lo haría un motor de
+                                                                          eje inmóvil AA'. Una cuerda
+    10.0 caballos de fuerza, encuentre el tiempo que el auto-
+                                                                          enrollada alrededor de una
+    móvil podría funcionar antes de que el volante de nercia
+                                                                          clavija a lo largo del eje del                        A
+    tenga que volverlo a acelerar.
+                                                                          trompo se tira de tal manera
+43. Un carrusel horizontal de 800 N con 1.50 m de radio em-               que se mantiene una tensión               Figura P8.49
+    pieza a moverse a partir del reposo, debido a una fuerza              constante de 5.57 N en la
+    horizontal constante de 50.0 N aplicada tangencialmen-                cuerda. Si la cuerda no resbala al enrollarla alrededor de
+    te. Encuentre la energía cinética del carrusel después de             la clavija, ¿cuál es la rapidez angular del trompo después
+    3.00 s. (Suponga que es un cilindro sólido.)                          de que 80.0 cm de cuerda han sido jalados de la clavija?
+44.         Cuatro objetos, un aro, un cilindro sólido, una esfe-         Sugerencia: Considere el trabajo que se realiza.
+      ra sólida y una cáscara esférica delgada tienen una masa        50. Un torque constante de 25.0 N ? m se aplica a una piedra
+      de 4.80 kg y un radio de 0.230 m cada uno. a) Encuen-               esmeril cuyo momento de inercia es 0.130 kg ? m2. Utili-
+      tre el momento de inercia para cada objeto cuando rota              zando principios de la energía y despreciando la fricción,
+      sobre los ejes mostrados en la tabla 8.1. b) Suponga que            encuentre la rapidez angular después de que la piedra
+      cada objeto está rodado hacia abajo de una rampa. Orde-             esmeril ha dado 15.0 revoluciones. Sugerencia: El equiva-
+      ne la rapidez de traslación de cada objeto de la más alta a         lente angular de Wneto 5 FDx 5 12 mv 2f 2 12 mv 2i es Wneto 5
+      la más baja. c) Ordene las energías cinéticas rotatorias de         tDu 5 12 Iv2f 2 Iv2i. Usted debe convencerse de que esta
+      los objetos de mayor a menor cuando los objetos ruedan              relación es correcta.
+      hacia abajo en la rampa.                                        51. Un cilindro de 10.0 kg rueda sin resbalarse sobre una
+45. Una varilla ligera de 1.00 m de                  y                    superficie rugosa. En un instante cuando su centro de
+    longitud , rota alrededor de un eje                  S
+                                                         v                gravedad tiene una rapidez de 10.0 m/s, determine a) la
+    perpendicular a su longitud y que                                     energía cinética de translación de su centro de gravedad,
+                                                           m2
+    pasa a través de su centro como se                                    b) la energía cinética rotatoria alrededor de su centro de
+    ve en la figura P8.45. Dos partícu-                                   gravedad y c) su energía cinética total.
+                                                                  x
+    las de masas 4.00 kg y 3.00 kg están                 ,            52. Utilice la conservación de la ener-                    5.00 kg
+    conectadas en los extremos de la           m1                         gía para determinar la rapidez
+    varilla. a) Despreciando la masa                                      angular del carrete mostrado en
+                                                 S
+    de la varilla, ¿cuál es la energía            v
+                                                                          la figura P8.52 después de que un
+    cinética del sistema cuando su ra-                                    balde de 3.00 kg ha caído 4.00 m, a                 0.600 m
+    pidez angular es de 2.50 rad/s? b)          Figura P8.45
+                                             (Problemas 45 y 57).
+                                                                          partir del reposo. La cuerda ligera
+    Repita el problema, suponiendo                                        unida al balde se enrolla alrededor
+    que la masa de la varilla es de 2.00 kg.                              del carrete y no se desliza mientras
+46. Una esfera de radio 0.20 m y 240 N rueda cuesta abajo                 se desenrolla.
+    6.0 m sin resbalar por una rampa que está inclinada a 37°
+                                                                      53.         Un látigo gigante en un par-
+    con la horizontal. ¿Cuál es la velocidad angular de la esfera
+                                                                            que de atracciones consiste en un                  3.00 kg
+    en la parte inferior de la pendiente si parte del reposo?
+                                                                            brazo uniforme de 365 kg y 10.0 m
+47. Un disco sólido uniforme de radio 0.250 m y masa de                     de largo, con dos asientos de masa          Figura P8.52
+    55.0 kg rueda cuesta abajo por una rampa de 4.50 m                      despreciable en el extremo inferior
+                                                                                                                           | Problemas   271
+
+      del brazo (figura P8.53). a) ¿Qué tan lejos está el centro        57. Una barra rígida ligera de 1.00 m de longitud , rota alre-
+      de masa del brazo del extremo superior? b) La energía                 dedor de un eje perpendicular a su longitud y que pasa
+      potencial gravitacional del brazo es igual como si toda su            a través de su centro, según las indicaciones de la figura
+      masa fuera concentrada en el centro de masa. Si el brazo              P8.45. Dos partículas de masas 4.00 kg y 3.00 kg están
+      se levanta con un ángulo 45.0°, encuentre la energía po-              conectadas con los extremos de la barra. ¿Cuál es el mo-
+      tencial gravitacional, donde el nivel cero se toma 10.0 m             mento angular del sistema si la rapidez de cada partícula
+      debajo del eje. c) El brazo cae a partir del reposo desde la          es 5.00 m/s? (Desprecie la masa de la barra.)
+      posición descrita en la parte b). Encuentre la energía po-        58. El cometa Halley se mueve alrededor del Sol en una órbi-
+      tencial gravitacional del sistema cuando alcanza la orien-            ta elíptica, con su mayor acercamiento al Sol a 0.59 uni-
+      tación vertical. d) Encuentre la rapidez de los asientos en           dades astronómicas y su mayor distancia a 35 unidades
+      el fondo de la oscilación.                                            astronómicas (1 unidad astronómica es la distancia del
+                                                                            Sol de la Tierra). Si la rapidez del cometa en el punto
+                                                                            más cercano es 54 km/s, ¿cuál es su rapidez cuando es-
+                                                                            tá más alejado del Sol? Usted puede despreciar cualquier
+                                                                            cambio en la masa del cometa y suponer que su momen-
+                                                                            to angular alrededor del Sol se conserva.
+                                             10.0 m                     59.        Una barra rígida, sin masa, tiene acopladas tres par-
+                                                                              tículas con masas iguales, como se muestra en la figura
+                                                                              P8.59. La barra puede girar libremente en un plano ver-
+                                                                              tical alrededor de un eje perpendicular a ella sin fricción
+                                                                              a través del punto P y se libera a partir del reposo en
+                                                                              posición horizontal en el instante t 5 0. Suponiendo que
+                            Figura P8.53                                      se conoce m y d, encontrar a) el momento de inercia del
+                                                                              sistema (la barra más partículas) sobre el eje, b) el torque
+                                                                              que actúa sobre el sistema en el instante t 5 0, c) la ace-
+8.7 Momento angular                                                           leración angular del sistema en t 5 0, d) la aceleración
+                                                                              lineal de la partícula 3 a t 5 0, e) la energía cinética máxi-
+54. Cada uno de los objetos siguientes tiene un radio de                      ma del sistema, f) la velocidad angular máxima alcanzada
+    0.180 m y una masa de 2.40 kg, y cada uno rota sobre                      por la barra, g) el máximo momento angular del sistema
+    un eje que pasa través de su centro (como en la tabla                     y h) la velocidad máxima de traslación alcanzada por la
+    8.1) con una rapidez angular de 35.0 rad/s. Encuentre                     partícula 2.
+    la magnitud del momento angular de cada objeto: a) un
+    aro, b) un cilindro sólido, c) una esfera sólida y d) una
+                                                                                                                            2d
+    cáscara esférica hueca.                                                                                                 3
+                                                                                                                   P
+55. a) Calcule el momento angular de la Tierra que se pre-                            m                     m                        m
+    senta de su movimiento de rotación sobre su eje, tratan-                      1                     2                        3
+    do a la Tierra como esfera sólida uniforme. b) Calcule                                     d                       d
+    el momento angular de la Tierra que se presenta de su
+    movimiento orbital alrededor del Sol, tratando a la Tie-                                        Figura P8.59
+    rra como partícula.
+                                                              Bisagra   60.        Una mujer de 60.0 kg está parada en el borde de una
+56.          Una bala de 0.005 00 kg viaja
+                                                                              plataforma horizontal que tiene un momento de inercia
+      horizontalmente con una rapidez
+                                                                              de 500 kg ∙ m2 y un radio de 2.00 m. La plataforma gira-
+      de 1.00 3 103 m/s encajándose a
+                                                      18.0 kg                 toria está inicialmente en reposo y libre para rotar alrede-
+      10.0 cm de la bisagra de una puerta
+                                                                              dor de un eje vertical sin fricción que pasa por su centro.
+      de 18.0 kg, como se ve en la figura
+                                                                              La mujer comienza a caminar alrededor del borde en el
+      P8.56. La puerta de 1.00 m de ancho
+                                                                              sentido de las manecillas del reloj (visto desde arriba del
+      está libre para girar alrededor de sus    0.005 00 kg
+                                                                              sistema) a una rapidez constante de 1.50 m/s en relación
+      bisagras. a) Antes de que golpee la
+                                                                              con la Tierra. a) ¿En qué dirección y con qué rapidez
+      puerta, ¿tiene la bala momento an-
+                                                                              angular gira la plataforma? b) ¿Cuánto trabajo hace la
+      gular relativo al eje de rotación de      Figura P8.56 Vista            mujer para ponerse en movimiento ella misma y la plata-
+      la puerta? Explique. b) ¿La energía         aérea de una bala
+                                                   impactando una
+                                                                              forma?
+      mecánica se conserva en esta coli-
+      sión? Responda sin hacer un cálculo.             puerta.          61. Un cilindro sólido horizontal de masa 10.0 kg y radio
+      c) ¿A qué rapidez angular la puerta                                   1.00 m rota con una rapidez angular de 7.00 rad/s alre-
+      gira inmediatamente después de la colisión? (La puerta                dedor de un eje vertical fijo que pasa por su centro. Un
+      tiene el mismo momento de inercia que una barra con                   pedazo de masilla de 0.250 kg que se deja caer vertical-
+      eje en un extremo.) d) Calcule la energía del sistema                 mente sobre el cilindro en un punto a 0.900 m del cen-
+      puerta-bala y determine si es menor o igual a la energía              tro de rotación se pega al cilindro. Determine la rapidez
+      cinética de la bala antes de la colisión.                             angular final del sistema.
+272       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+62. Un estudiante que se sienta en una silla giratoria sostiene     66.       Una partícula de masa 0.400 kg se une a la marca de
+    dos objetos de 3.0 kg. Cuando sus brazos están extendidos             100 cm de una regla de un metro y masa de 0.100 kg. La
+    horizontalmente, los objetos están a 1.0 m del eje de rota-           regla gira sobre una mesa horizontal, sin fricción con una
+    ción y él rota con una rapidez angular de 0.75 rad/s. El mo-          velocidad angular de 4.00 rad/s. Calcular el momento
+    mento de inercia del estudiante más la silla es 3.0 kg ∙ m2           angular del sistema cuando la regla se gira alrededor de
+    y se supone constante. El estudiante entonces jala los                un eje (a) perpendicular a la mesa a través de la marca
+    objetos horizontalmente a 0.30 m del eje de rotación.                 de 50.0 cm y b) perpendicular a la mesa a través de la
+    a) Encuentre la nueva rapidez angular del estudiante.                 marca de 0 cm.
+    b) Encuentre la energía cinética del estudiante antes y des-
+    pués de que los objetos sean acercados al eje de rotación.      Problemas adicionales
+63. El disco de la figura P8.63                                     67.        Una hélice típica de una            m
+    tiene una masa de 0.120 kg.                                           turbina para generar electri-
+    Su distancia original del cen-                                        cidad a partir del viento se                       L
+    tro de rotación es 40.0 cm y                   m                      compone de tres hojas como
+    se mueve con una rapidez de                                           se muestra en la figura P8.67.          1208
+    80.0 cm/s. La cuerda se jala                                          Cada hoja tiene una longi-
+    15.0 cm hacia abajo a través                                          tud de L 5 35 m y una masa
+    del agujero en la tabla sin                                           m 5 420 kg. La hélice gira
+    fricción. Determine el trabajo                                        a una velocidad de 25 rev/
+    hecho sobre el disco. Sugeren-                  Figura P8.63          min. a) Convertir la veloci-             Figura P8.67
+    cia: Considere el cambio en la                                        dad angular de la hélice a las
+    energía cinética del disco.                                           unidades de rad/s. Buscar b) el momento de inercia de
+64. Una estación espacial en                                              la hélice sobre el eje de rotación y c) la energía cinética
+    forma de una rueda gi-                                                total de la hélice.
+                                                     r
+    gante tiene un radio de                                         68. La figura P8.68 muestra un mar-                            S
+    100 m y un momento                                                  tillo de uña utilizándose para                             F
+    de inercia de 5.00 3 108                                            sacar un clavo de una tabla ho-
+    kg ∙ m2. Una tripulación                                            rizontal. Si se ejerce una fuerza
+    de 150 personas vive en                                             de magnitud 150 N horizon-
+    el borde y la estación                                              talmente como se muestra, en-                       30.0 cm
+    está rotando de modo                                                cuentre a) la fuerza ejercida por
+    que el equipo experi-                                               el martillo sobre el clavo y b) la
+    mente una aceleración               Figura P8.64                    fuerza ejercida por la superficie
+    aparente de lg (figura                                              sobre el punto de contacto con                      Punto único
+    P8.64). Cuando 100 personas se trasladan al centro de               la cabeza del martillo. Suponga                     de contacto
+                                                                                                                30.08
+    la estación para una reunión, la rapidez angular cam-               que la fuerza que ejerce el mar-
+    bia. ¿Qué aceleración aparente experimentan quienes                 tillo sobre el clavo es paralela a        5.00 cm
+    se quedan en el borde? Suponga una masa promedio de                 éste y perpendicular al vector
+    65.0 kg para los miembros de la tripulación.                                                                    Figura P8.68
+                                                                        de posición desde el punto de
+65.             Un cilindro con momento de inercia I1 rota              contacto.
+      con velocidad angular v0 alrededor de un eje vertical sin     69.         Un niño de 40.0 kg está parado en un extremo de
+      fricción. Un segundo cilindro con momento de inercia I2             un bote de 70.0 kg y de 4.00 m de largo (figura P8.69). El
+      que inicialmente no gira, cae sobre el primer cilindro (fi-         bote está inicialmente a 3.00 m del embarcadero. El niño
+      gura P8.65). Dado que las superficies son ásperas, los dos          ve a una tortuga en una roca más allá del extremo lejano
+      cilindros alcanzan finalmente la misma rapidez angular              del bote y procede a caminar para atrapar a la tortuga.
+      v. a) Calcule v. b) Demuestre que la energía cinética se            a) Despreciando la fricción entre el bote y el agua, des-
+      pierde en esta situación y calcule la razón entre la ener-          criba el movimiento del sistema (niño-bote). b) ¿Dónde
+      gía cinética final y la inicial.
+
+                                                                                    3.00 m          4.00 m
+
+
+                      I2
+
+                                   v0               v
+                 I1
+
+
+                           Antes              Después
+
+                               Figura P8.65                                                    Figura P8.69
+                                                                                                                | Problemas       273
+
+      estará el niño en relación con el embarcadero cuando                ma tratando a los astronautas como partículas. b) Calcule
+      alcanza el extremo lejano del bote? c) ¿Atrapará la tortu-          la energía rotatoria del sistema. Al tirar de la cuerda, los
+      ga? (Suponga que él puede alcanzar 1.00 m hacia fuera               astronautas acortan la distancia entre ellos a d/2.
+      del extremo del bote.)                                              c) ¿Cuál es la nueva cantidad de movimiento angular del
+70. Un objeto de masa M                              S                    sistema? d) ¿Cuáles son sus nuevas rapideces? e) ¿Cuál es
+                                  r                  a
+    5 12.0 kg se ata a una                                                la nueva energía rotatoria del sistema? f) ¿Cuánto trabajo
+    cuerda que se enrolla                                                 es hecho por los astronautas al acortar la cuerda?
+                                               M
+    alrededor de una rueda                                          74. Dos lavadores de ventanas, Roberto y José, están en un
+    de radio r 5 10.0 cm (fi-                                           andamio de 3.00 m de largo y 345 N sostenido por dos
+    gura P8.70). La acelera-                                            cables unidos a sus extremos. Roberto pesa 750 N y está
+    ción medida del objeto                          u                   parado a 1.00 m del extremo izquierdo, como se muestra
+    hacia abajo por la pen-                                             en la figura P8.74. A 2 m del extremo izquierdo está el
+    diente sin fricción es de                                           equipo de lavado, cuyo peso es de 500 N. José está a 0.500
+    a 5 2.00 m/s2, y el plano            Figura P8.70                   m del extremo derecho y pesa 1 000 N. Dado que el an-
+    inclinado forma un án-                                              damio está en equilibrio rotatorio y de traslación, ¿cuáles
+    gulo u 5 37.0° con la horizontal. Si se supone que el eje           son las fuerzas en cada cable?
+    de la rueda es sin fricción, determine a) la tensión en la
+    cuerda, b) el momento de inercia de la rueda y c) la rapi-
+    dez angular de la rueda 2.00 s después de que comience
+    a rotar, a partir del reposo.
+71. Una escalera uniforme de longitud L y de peso w está
+    inclinada contra una pared vertical. El coeficiente de fric-                                                 José
+                                                                                            Roberto
+    ción estática entre la escalera y el piso es igual que entre
+    la escalera y la pared. Si este coeficiente de fricción está-
+    tica es ms 5 0.500, determine el ángulo más pequeño que
+    la escalera puede formar con el piso sin deslizarse.
+72. Dos astronautas (figura P8.72), cada uno de masa 75.0
+    kg, están conectados por una cuerda de 10.0 m con masa
+    insignificante. Están aislados en el espacio, moviéndose
+    en círculos alrededor del punto medio entre ellos a una                        1.00 m
+    rapidez de 5.00 m/s. Tratando a los astronautas como                                     2.00 m                     0.500 m
+                                                                                                      3.00 m
+    partículas, calcule a) la magnitud de la cantidad de mo-
+    vimiento angular y b) la energía rotatoria del sistema.                                      Figura P8.74
+    Cuando tiran de la cuerda, los astronautas acortan la dis-
+    tancia entre ellos a 5.00 m. c) ¿Cuál es la nueva cantidad
+    de movimiento angular del sistema? d) ¿Cuáles son sus           75. Una barra uniforme de lon-
+    nuevas rapideces? e) ¿Cuál es la nueva energía rotatoria            gitud , 5 1.30 m y 2.35 kg
+    del sistema? f) ¿Cuánto trabajo es hecho por los astronau-          se mantiene en una posi-             S
+                                                                                                             Fs
+    tas al acortar la cuerda?                                           ción horizontal por tres                   ,
+                                                                        resortes verticales como            x
+                                                                        se muestra en la figura S                                S
+                                                                                                     F1                          F2
+                                                                        P8.75. Los dos resortes
+                                                                        de abajo se comprimen y
+                                  CG                                    ejercen fuerzas hacia arri-
+                                                                        ba de magnitud F1 5 6.80              Figura P8.75
+                                   d
+                                                                        N y F2 5 9.50 N, respecti-
+                                                                        vamente, sobre la barra. Encuentre a) la fuerza Fs ejercida
+                                                                        por el muelle superior de la barra y b) la posición x del
+                                                                        resorte superior que mantener la barra en equilibrio.
+
+                  Figura P8.72 (Problemas 72 y 73)
+                                                                    76.              Una barra ligera de longitud 2L está libre de
+                                                                          rotar en un plano vertical sobre un pivote sin fricción
+                                                                          que pasa por su centro. Una partícula de masa m1 está
+73.        Esta es una versión simbólica del problema 72. Dos             unida en un extremo de la barra, y una masa m2 está en
+      astronautas (figura P8.72), cada uno de masa M, están               el extremo opuesto, donde m1 . m2. A partir del repo-
+      conectados por una cuerda de longitud d y masa desprecia-           so, el sistema se saca de su posición vertical como se
+      ble. Están aislados en el espacio, moviéndose en círculos           muestra en la figura P8.76a (página 274) y en un tiem-
+      alrededor del punto medio entre ellos a una rapidez v.              po después el sistema está rotando en la posición mos-
+      a) Calcule la magnitud de movimiento angular del siste-             trada en la figura P8.76b. Tome el punto de referencia
+274       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+      de la energía potencial gravitacional en el pivote. a)               volante, como se muestra en la figura P8.78. El volante
+      Encuentre una expresión para la energía mecánica to-                 es un disco uniforme, con una masa de 80.0 kg y un radio
+      tal del sistema en la posición vertical. b) Encuentre una            R 5 0.625 m. Este gira en un eje sin fricción. Su polea tie-
+      expresión para la energía mecánica total en la posición              ne una masa mucho más pequeña y un radio r 5 0.230 m.
+      rotada mostrada en la figura P8.76b. c) Usando el he-                La tensión Tu en la parte superior (tensa) del segmento
+      cho de que la energía mecánica del sistema se conserva,              de la banda es de 135 N y el volante tiene una aceleración
+      ¿cómo determinaría usted la rapidez angular v del sis-               angular horaria de 1.67 rad/s2. Determine la tensión en
+      tema en la posición rotada? d) Encuentre la magnitud                 la parte inferior (holgura) del segmento de la banda.
+      del torque sobre el sistema en la posición vertical y en       79.         En fisiología del                  2.00 m
+      la posición rotada. ¿Es constante el torque? Explique lo             ejercicio a veces es im-
+      que implican estos resultados con respecto al momento                portante determinar la
+      angular del sistema. e) Encuentre una expresión para la              localización del centro
+      magnitud de la aceleración angular del sistema en la po-             de gravedad de una                  Fg1          Fg2
+      sición rotada. ¿Su resultado tiene sentido cuando la barra           persona. Esto puede
+      es horizontal? ¿Cuándo es vertical? Explique.                        hacerse con el arreglo
+                                                                           mostrado en la figura
+                                                                           P8.79. Un tablón ligero               Figura P8.79
+                      m1                                                   se apoya en dos básculas
+                                                     m1                    que indican Fg1 5 380 N y Fg2 5 320 N. Las básculas están
+                  L                                                        separadas a una distancia de 2.00 m. ¿A qué distancia de
+                                               u
+                                                                           los pies de la mujer está su centro de gravedad?
+                  L                                                  80.        Una varilla delgada
+                                          m2                               y uniforme de longitud         O
+                      m2                                                                                                          M
+                                                                           L y masa M puede girar
+              a                      b                                     libremente sobre un eje L/2
+                                                                           sin fricción que pasa por
+                           Figura P8.76                                    uno de sus extremos (fi-          CG
+                                                                           gura P8.80). La varilla se
+                                                                           libera desde el reposo
+77.          Un cable de la luz pasa por una po-                           en posición horizontal.
+      lea ligera sin fricción. Un extremo se suje-                         a) ¿Cuál es la velocidad
+      ta a un racimo de plátanos de masa M y un                            de su centro de grave-               Figura P8.80
+      mono de masa M se aferra al otro extremo                             dad cuando la barra
+      (figura P8.77). El mono se sube la cuerda                            alcanza su posición más baja? b) ¿Cuál es la velocidad
+      en un intento por llegar a las bananas.                              tangencial del punto más bajo de la barra cuando está en
+                                                               M
+      a) Trate el sistema como un conjunto de                              posición vertical?
+      mono, plátanos, cuerda y polea, encuen-
+                                                                     81.        Un cilindro sólido uniforme
+      tre el torque neto del sistema alrededor
+                                                      M
+                                                                           de masa M y radio R gira sobre un
+      del eje de la polea. b) Usando el resul-                                                                           M
+                                                                           eje horizontal sin fricción (figu-
+      tado del inciso a), determine el momen-                                                                     R
+                                                                           ra P8.81). Dos objetos con masas
+      to angular total sobre el eje de la polea y
+                                                                           iguales m cuelgan de las cuerdas                  m
+      describa el movimiento del sistema. c) ¿El
+                                                                           ligeras enrrolladas alrededor del            m
+      mono alcanza las bananas antes de que se        Figura P8.77
+                                                                           cilindro. Si el sistema parte del re-
+      atoren en la polea?
+                                                                           poso, encuentre a) la tensión en
+                                                                                                                  Figura P8.81
+78. Un motor eléctrico gira un volante de inercia por medio                cada cuerda y b) la aceleración
+    de una correa de transmisión que une a una polea en                    de cada objeto después de que han descendido una dis-
+    el motor con una polea que está rígidamente unida al                   tancia h.
+                                                                     82.              Un pintor sube una escalera que se inclina
+                                                                           contra una pared lisa. A cierta altura, la escalera está a
+                                                                           punto de deslizarse. a) Explique por qué la fuerza ejer-
+                                     Tu                                    cida por la pared vertical sobre la escalera es horizontal.
+                       R
+                                                                           b) Si la escalera de longitud L se inclina en ángulo u con
+                           r
+                                                                           la horizontal, ¿cuál es el brazo de palanca para esta fuerza
+                                                                           horizontal con el eje de la rotación tomado en la base de
+                                                                           la escalera? c) Si la escalera es uniforme, ¿cuál es el brazo
+                                                                           de palanca para la fuerza de la gravedad que actúa sobre
+                                                                           la escalera? d) Si la masa del pintor es 80 kg, L 5 4.0 m, la
+                           Figura P8.78                                    masa de la escalera de 30 kg, u 5 53° y el coeficiente de
+                                                                                                                            | Problemas   275
+
+      fricción entre el suelo y la escalera es 0.45, encuentre la
+      distancia máxima que el pintor puede subir encima de
+      la escalera.
+
+
+                                                                                     © Ed Bock/CORBIS
+83. Un lobo guerrero o catapulta, es un dispositivo usado duran-
+    te la edad media para lanzar rocas a los castillos y ahora
+    usado a veces para bajar pianos. Una catapulta simple se
+    muestra en la figura P8.83. Modélela como una barra rígi-                                           a
+    da de masa insignificante de 3.00 m de largo y partículas
+    acopladas de masas m1 5 0.120 kg y m2 5 60.0 kg en sus
+    extremos. Puede girar sobre un eje horizontal sin fric-
+    ción perpendicular a la barra y a 14.0 cm de la partícula
+    de masa más grande. La barra se lanza a partir del repo-                                                                     375 N
+                                                                                  Empalme                      S
+    so en una orientación horizontal. Encuentre la rapidez                        del hombro                   Fs
+    máxima que alcanza el objeto de masa más pequeña.
+                                                                                   4.0 cm
+                                                                                                                    L
+                                                                                        45.0
+                                                                                                        S
+                                                                                                        Fm
+
+                 m1                        m2
+                                                                                    b
+
+                             3.00 m                                                                          Figura P8.85
+
+
+                                                                      86.         En una situación de emer-
+                                                                            gencia, una persona con un
+                            Figura P8.83                                    brazo roto ata una correa desde
+                                                                            su mano para engancharla de su
+                                                                            hombro como se muestra en la
+                                                                            figura P8.86. Su antebrazo de
+                                                                            1.60 kg permanece en una po-                u          S
+                                                                                                                                   R
+84. Una cuerda se enrolla alrededor de
+    un cilindro uniforme de masa M y                                        sición horizontal y la correa for-
+    de radio R. El cilindro se suelta a par-                                ma un ángulo de u 5 50.0° con
+                                                                                                                               ,
+                                                  h                         la horizontal. Supongamos que
+    tir del reposo, con la cuerda vertical
+    y su extremo superior atado a una                                       el antebrazo es uniforme, tiene
+                                                           R                                                        Figura P8.86
+    barra fija (figura P8.84). Demuestre                         M          una longitud , 5 0.320 m, su-
+    que a) la tensión en la cuerda es un                                    ponga además, que el músculo bíceps se relaja e ignore la
+    tercio del peso del cilindro, b) la mag-                                masa y la longitud de la mano. Calcule: a) la tensión en
+                                                    Figura P8.84
+    nitud de la aceleración del centro de                                   la correa y b) los componentes de la fuerza de reacción
+    gravedad es 2g/3 y c) la rapidez del centro de gravedad                 ejercida por el húmero en el antebrazo.
+    es (4gh/3)1/2 después de que el cilindro ha descendido            87. Una masa m1 5 4.00 kg está co-                      T2
+    la distancia h. Verifique su respuesta en el inciso c) con el                                                       m2
+                                                                          nectada por una cuerda ligera
+    enfoque de la energía.                                                con otra masa m2 5 3.00 kg so-                           T1
+85.         El cristo Cuando un gimnasta que pesa 750 N eje-              bre una superficie lisa (figura
+      cuta “el cristo” como en la figura P8.85a, los músculos             P8.87). La polea rota sobre un                         m1
+      primarios involucrados para soportar esta posición son              eje sin fricción y tiene un mo-
+      los dorsales y los pectorales mayores (“mascotas”). Los             mento de inercia de 0.500 kg ?            Figura P8.87
+      anillos ejercen una fuerza ascendente sobre los brazos y            m2 y un radio de 0.300 m. Si se
+      soportan el peso del gimnasta. La fuerza ejercida      por el       supone que la cuerda no se desliza en la polea, halle a) la
+                                                     S
+      empalme de los hombros y sobre el brazo es S   F s mientras         aceleración de las dos masas y b) las tensiones T1 y T2.
+      que los dos músculos ejercen una fuerza Stotal F m , sobre el   88.         Un mono de 10.0 kg sube una escalera uniforme
+      brazo. Estime la magnitud de la fuerza F m . Observe que              con un peso w 5 1.20 3 102 N y longitud L 5 3.00 m
+      un anillo soporta la mitad del peso del gimnasta, que es              según las indicaciones de la figura P8.88. (página
+      de 375 N segúnS lo indicado en la figura P8.85b. Suponga              276). La escalera se reclina contra la pared en un ángulo
+      que la fuerza F m , actúa en un ángulo de 45° debajo de               u 5 60.0°. Los extremos inferiores y superiores de la esca-
+      la horizontal a una distancia de 4.0 cm del empalme del               lera descansan sobre superficies sin fricción, con el extremo
+      hombro. En su estimación, tome la distancia del empal-                inferior sujetado a la pared por una cuerda horizontal que
+      me del hombro a la mano como de L 5 70 cm y no haga                   puede soportar una tensión máxima de 80.0 N. a) Dibuje
+      caso del peso del brazo.                                              un diagrama de cuerpo libre para la escalera. b) Encuentre
+276      CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+      la fuerza normal ejercida por la par-                       89. Una esfera de 3.2 kg está sus-               k
+      te baja de la escalera. c) Encuentre                            pendida de una cuerda que
+      la tensión en la cuerda cuando el                               pasa sobre una polea de 1.8 kg
+      mono está a dos tercios encima de                               y 3.8 cm de radio. La cuerda
+      la escalera. d) Encuentre la distan-                            está conectada a un resorte cuya                       m
+                                                      L
+      cia máxima d que el mono puede                                  constante de fuerza es k 5 86
+      subir encima de la escalera antes                               N/m, como en la figura P 8.89.           Figura P8.89
+                                                  u Cuerda
+      de que la cuerda se rompa. e) Si la                             Suponga que la polea es un disco sólido. a) Si la esfera
+      superficie horizontal fuera áspera y                            se suelta desde el reposo con el resorte sin estirar, qué
+      se quitara la cuerda, ¿cómo cambia-      Figura P8.88           distancia cae la esfera antes de detenerse? b) Determine
+      ría usted su análisis del problema y                            la velocidad de la esfera después de haber caído 25 cm.
+      qué otra información necesitaría para contestar a los in-
+      cisos c) y d)?

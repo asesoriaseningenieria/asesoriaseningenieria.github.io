@@ -1,0 +1,1816 @@
+Dave el Hombre bala Smith,
+   se precipita a través del aire
+   a lo largo de una trayectoria
+   parabólica, dependiendo de
+   la velocidad inicial correcta
+   y el ángulo del cañón para
+   enviarlo a salvo sobre la cerca
+   de la frontera entre Estados
+   Unidos y México y caer en
+   una red.
+
+
+                                                                         AP Photo/Denis Poroy
+
+
+                                        3                       Vectores y movimiento
+                                                                en dos dimensiones
+   3.1 Vectores y sus propiedades                                                               En nuestra explicación del movimiento en una dimensión en el capítulo 2, se utilizó el concepto de
+                                                                                                vectores sólo a un nivel limitada. En estudios posteriores del movimiento, la manipulación de las can-
+   3.2 Componentes de un vector
+                                                                                                tidades vectoriales se hará cada vez más importante, de tal manera que gran parte de este capítulo
+   3.3 Desplazamiento, velocidad                                                                está dedicado a técnicas vectoriales. En tal caso se aplicarán estas herramientas matemáticas
+       y aceleración en dos dimensiones                                                         para el movimiento en dos dimensiones, especialmente la de proyectiles y para la comprensión
+                                                                                                del movimiento relativo.
+   3.4 Movimiento en dos dimensiones
+   3.5 Velocidad relativa
+
+
+                                                                                                  3.1 Vectores y sus propiedades
+
+Jon Feingersh/Stone/Getty Images
+                                                                                                Cada una de las cantidades físicas que se encuentran en este libro puede ser clasificada
+                                                                                                como una cantidad vectorial o una cantidad escalar. Como se observa en el capítulo 2, un
+                                                                                                vector tiene dirección y magnitud (tamaño). Un escalar se puede especificar íntegramente
+                                                                                                mediante su magnitud con unidades adecuadas; no tiene dirección. Un ejemplo de cada
+                                                                                                tipo de cantidad se muestra en la figura 3.1.
+                                                                                                    Como se describió en el capítulo 2, desplazamiento, velocidad y aceleración son canti-
+                                   Figura 3.1 Un vector, como la                                dades vectoriales. La temperatura es un ejemplo de una cantidad escalar. Si la temperatura
+                                   velocidad, tiene una magnitud que                            de un objeto es 25 °C, esa información específica por completo la temperatura del objeto,
+                                   se muestra en el velocímetro del                             no se necesita dirección alguna. También la masa, intervalos de tiempo y volumen son
+                                   auto de carreras, y una dirección                            escalares. Las cantidades escalares pueden ser manipuladas con las reglas de la aritmética
+                                   que se manifiesta en el parabrisas
+                                                                                                ordinaria. Los vectores se pueden sumar y restar entre sí y multiplicarse, pero existe un
+                                   delantero. La masa del coche es
+                                   una cantidad escalar, como lo es el
+                                                                                                número de diferencias importantes, como se verá en las secciones que siguen.
+                                   volumen de la gasolina en su tan-                                Cuando seSescribe una cantidad vectorial, con frecuencia se representa con una flecha
+                                   que de combustible.                                          sobre la letra (A ). Como se mencionó en la sección 2.1, en este libro una cantidad vectorial
+                                                                                                                                                                                          S
+                                                                                                                                                                                              será
+                                                                                                representada por el tipo negrita con una flecha en la parte superior (por ejemplo, A ). La
+
+
+   56
+                                                                                                     3.1 | Vectores y sus propiedades             57
+
+                                                                                                                           S
+      y                                                                                                                    A
+
+
+                                                                           S
+                                                                        S B                     S
+                                                                    S A
+                                                                                                 B              S
+                                                                               S
+                                                                    R          B                             S A
+                                                                                                          S B
+                                                                                                          R
+  O                     x
+                                                            S
+                                                            A
+Figura 3.2 Estos cuatro vectores                    a                                        b
+son iguales porque tienen longitudes
+iguales y apuntan en la misma                   Figura activa 3.3 S                      S                     S
+dirección.                                      a) Cuando el vector B se suma al vector A , el vector suma R es el vector
+                                                                           S                     S
+                                                que va desde el extremo de A hacia la punta de B . b) En este caso la resul-
+                                                                             S                     S
+                                                tante va desde el extremo de B hacia la punta de A . Estas construcciones
+                                                                   S   S   S   S
+                                                comprueban que A 1 B 5 B 1 A .
+
+
+                        S
+magnitud del vector A será representada en cursivas, como A. Éstas, además se utilizarán
+para representar escalares.
+                                                                                                              Tip 3.1 Suma vectorial vs.
+                                                S       S                                                     suma escalar
+Igualdad de dos vectores Dos vectores A y B son iguales si tienen la misma magnitud                           S        S       S
+                                                                                                              A 1 B 5 C es muy diferente de
+y la misma dirección. Esta propiedad permite trasladar un vector paralelo a sí mismo en                       A 1 B 5 C. La primera es una
+un diagrama, sin afectarlo. En realidad, para la mayoría de los propósitos cualquier vector                   suma vectorial, que se debe mane-
+se puede trasladar paralelo a sí mismo sin ser afectado. (Véase la figura 3.2.)                               jar gráficamente o con compo-
+                                                                                                              nentes, mientras que la segunda
+Suma de vectores Cuando dos o más vectores se suman, todos deben tener las mismas                             es una simple suma aritmética de
+unidades. Por ejemplo, no tiene sentido sumar un vector velocidad, que tiene unidades de                      números.
+metros por segundo, a un vector de desplazamiento, que tiene unidades sólo de metros.                                                   S
+                                                                                                                                        D
+Los escalares obedecen las mismas reglas. De la misma manera, no tendría sentido sumar
+temperaturas a volúmenes o masas a intervalos de tiempo.                                                      R  S
+     Los vectores se pueden sumar geométrica y algebraicamente.
+                                                           S            S
+                                                                          (Esta última se explica                A  S
+                                                                                                                                                 S
+al final de la siguiente
+                     S
+                           sección.) Para sumar el vector B  al vector  A  en forma geométrica,                     B  S                        C
+primero se dibuja A sobre una hoja de papel para el trazado de gráficas con alguna escala,
+como 1 cm 5 1 m, de modo que su dirección           se especifique con respecto a un sistema                           C  S
+                                                  S
+coordenado. A Scontinuación dibuje el vector B en la misma    S
+                                                                  escala con el extremo inicial            S              D
+                                                                                                                                             S
+en la punta de A , como en la figura activa 3.3a. El vector B debe  S
+                                                                        dibujarse a lo largo de
+                                                                                              S
+                                                                                                la                                           B
+dirección
+S     S
+            que  hace  el ángulo  adecuado  con respecto  al vector
+                                                                 S
+                                                                    A . El vector  resultante R 5
+                                                                                                S
+                                                                                                                               S
+                                                                                                                               A
+A 1 B es el vector que se dibuja desde el extremo inicial de A hacia el extremo final de B .
+Este procedimiento se conoce como el método del triángulo de la suma.                            S         Figura 3.4 Una construcción geomé-
+   S
+     Cuando
+         S
+              dos
+              S
+                   vectores se suman, su adición es independiente del orden de la suma: A                  trica para la suma de cuatro vectores.
+                                                                                                                                S
+1 B 5 B 1 A . Esta correspondencia puede verse desde la construcción geométrica en la                      El vector resultante R es el vector que
+figura activa 3.3b y se le conoce como la ley conmutativa de la suma.                                      complementa el polígono.
+     Además, este mismo planteamiento general se puede utilizar para sumar más de dos
+vectores
+S     S
+           como
+            S    S
+                  se hace
+                       S
+                            en la figura 3.4 para cuatro vectores. El vector suma resultante                    Podríamos dibujar
+                                                                                                                  S
+R 5 A 1 B 1 C 1 D es el vector que se dibuja desde el extremo inicial del primer vector                         a B aquí si lo
+                                                                                                                             S              S
+hacia el extremo final del último. Una vez más, el orden en el cual los vectores se sumen                       sumamos a A.                B
+poco importa.                                                                                                                  S
+                                                                                                                               A
+                                                                S
+Negativo de un vector
+                   S
+                      El negativo de un S
+                                        vector SA se define como el vector que da
+                                                                                                                                    S
+cero cuando se suma a A . Esto significa que A y 2A tienen la misma magnitud, pero                         S       S               B
+direcciones opuestas.                                                                                      AB
+                                                                                                                                            S    S
+                                                                                                                                   Sumar 2B a A
+                                                                                                                                   es equivalente
+Resta de vectores La restaSde vectores
+                              S
+                                       hace uso de
+                                                 S
+                                                   la definición del negativo de un
+                                                                     S
+                                                                                                                                            S    S
+                                                                                                                                   a restar B de A.
+vector. Se define la operación A 2 B como el vector 2B se suma al vector A :
+                                       S   S    S           S                                              Figura 3.5 Esta construcción S
+                                       A 2 B 5 A 1 (2B )                                         [3.1]
+                                                                                                           muestra cómo se resta el vector B
+                                                                                                                      S              S
+                                                                                                           del vector A . El vector 2B tiene la
+                                                                                                                                            S
+En realidad la resta vectorial es un caso especial de suma de vectores como se muestra en                  misma magnitud que el vector B ,
+la figura 3.5.                                                                                             pero apunta en la dirección opuesta.
+58     CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+                                     Multiplicación o división de un vector mediante un escalar Al multiplicar S
+                                                                                                               o
+                                     dividir un vector mediante un escalar proporciona un vector. Por ejemplo,
+                                                                                                            S
+                                                                                                                    si el vector A
+                                     se multiplica por el número escalar
+                                                                   S
+                                                                          3, el resultado, rescrito como   3A , es un  vector
+                                                                                                                         S
+                                                                                                                               con
+                                     una magnitud tres veces la de A y apuntando en la misma
+                                                                                           S
+                                                                                                dirección. Si el vector A  se mul-
+                                     tiplica por el
+                                                 S
+                                                    número escalar 23, el resultado es 23A , un vector con una magnitud tres
+                                     veces la de A y apuntando en dirección opuesta (debido al signo negativo).
+
+
+                                          ■ Examen rápido
+                                                                            S   S
+                                          3.1 La magnitud de dos vectores A y B son 12 unidades y 8 unidades, respectivamen-
+                                          te. ¿Cuáles son losSvalores
+                                                                  S
+                                                                      más
+                                                                      S
+                                                                          grande y más pequeño posibles para la magnitud del
+                                          vector resultante R 5 A 1 B ? a) 14.4 y 4 b) 12 y 8 c) 20 y 4 d) ninguno de éstos.
+
+
+           y
+                tan u
+                         Ay
+                         Ax                    3.2 Componentes de un vector
+                                             Un método de la adición vectorial hace uso de la proyección de un vector a lo largo de
+                   S                         los ejes de un sistema coordenado rectangular. Estas proyecciones se conocen como com-
+      Ay           A
+                                             ponentes. Cualquier vector S
+                                                                          puede ser descrito íntegramente mediante sus componentes.
+               u
+                                                 Considere
+                                                         S
+                                                             un  vector A en un sistema coordenado rectangular,
+                                                                                                            S
+                                                                                                                como se muestra en Sla
+                                     x       figura 3.7. A se puede expresar como la suma de dos vectores; A x, paralelo al eje x, y A y
+       O           Ax
+                                             paralelo al eje y. Matemáticamente,
+                                 S                                                  S    S    S
+     Figura 3.7 Cualquier vector A que                                              A 5 Ax 1 Ay
+     se encuentra en el plano se puede              S    S                                    S                     S
+     representar mediante sus componen-      donde A x y A y son los vectores componentes de
+                                                                                          S
+                                                                                             A . La proyección
+                                                                                                             S
+                                                                                                               de A a lo largo del eje
+     tes rectangulares Ax y Ay .             x, Ax, se le conoce como el componente x de A y la proyección A a lo largo del eje y, Ay,
+                                                                                                   3.2 | Componentes de un vector                   59
+
+                       y                                                 y                               Figura 3.8 No siempre se necesita
+                                                                                                         definir el ángulo u con respecto
+                                                                             Ax = A sen u                al eje x positivo.
+
+                           S       Ay = A sen u
+                           A                              Ay = A cos u
+                                                                                 S
+                                                                             u   A
+                               u
+                                                  x                                         x
+                     0 A = A cos u                                   0
+                        x                                                                                 Tip 3.2 Componentes
+                                                                                                          xyy
+             a                                              b
+                                                                                                          La ecuación 3.2 para los compo-
+                                                                                                          nentes x y y de un vector asocia
+                                                                                                          el coseno con el componente x
+                                                                                                          y el seno con el componente y como
+                                             S
+se le conoce como el componente y de A . Estos componentes pueden ser ya sea números                      en la figura 3.8a. Esta asociación
+positivos o bien negativos con unidades. A partir de la definición de seno y coseno, vemos                se debe al hecho de que se elije el
+                                                                       S                                  ángulo u con respecto al eje posi-
+que cos u 5 Ax /A y sen u 5 A y /A y de este modo los componentes de A son
+                                                                                                          tivo x. Si el ángulo fuera medido
+                                                                                                          con respecto al eje y, como en
+                                            Ax 5 A cos u                                        [3.2a]    la figura 3.8b, los componentes
+                                                                                                          serían proporcionados por
+                                            Ay 5 A sen u                                        [3.2b]    Ax 5 A sen u y Ay 5 A cos u.
+
+Estos componentes forman dos lados de un triángulo rectángulo que tiene una hipote-
+                                                                  S
+nusa con magnitud A. Esto surge de que la magnitud y dirección de A están relacionadas a sus
+                                                                                                          Tip 3.3 Tangentes inversas
+componentes a través del teorema de Pitágoras y la definición de la tangente:                             en calculadoras: la mitad
+                                                                                                          a la vez
+                                        A5            A x2 1 A y 2                               [3.3]
+                                                                                                          La función tangente inversa en las
+                                                           Ay                                             calculadoras devuelve un ángulo
+                                             tan u 5                                  [3.4]               entre 290° y 190°. Si el vector se
+                                                Ax                                                        encuentra en el segundo o tercer
+Al resolver para el ángulo u, que se mide por convención desde el eje positivo x, se puede                cuadrantes, el ángulo, se mide
+escribir la ecuación 3.4 en la forma:                                                                     desde el eje x positivo, será el
+                                                                                                          ángulo que devuelve su calcula-
+                                                            Ay                                            dora más 180°.
+                                          u 5 tan21
+                                                            Ax
+
+¡Esta fórmula proporciona la respuesta correcta sólo la mitad de las veces! La función tan-              y9
+gente inversa sólo proporciona valores desde 290° hasta 190°, de tal modo que la respues-
+ta en la pantalla de su calculadora sólo será correcta si el vector que resulta se encuentra
+en el primero o cuarto cuadrantes. Si se encuentra en el segundo o tercer cuadrantes, al                                     S                      x9
+sumar 180° al número en la pantalla de la calculadora siempre le proporcionará la res-                                       B
+puesta correcta. El ángulo en la ecuación 3.2 y 3.4 debe medirse desde el eje x positivo.
+                                                                                                                      By 9
+Son posibles otras elecciones de línea de referencia, pero en tal caso se deben hacer ciertos                                        u9
+                                                                                                                                          Bx9
+ajustes. (Véanse tip 3.2 y figura 3.8.)
+    Si se elije un sistema coordenado diferente del que se muestra en la figura 3.7, deben                                   O9
+modificarse los componentes del vector. En muchas aplicaciones es más conveniente ex-
+presar los componentes de un vector en un sistema coordenado que tenga ejes que       S
+                                                                                          no             FiguraS 3.9 Los componentes del
+sean horizontales o verticales, sino perpendiculares entre sí. Considere un vector B que                 vector B en un sistema coordenado
+forma un ángulo
+             S
+                    u9 con el eje x9 que se define en la figura 3.9. Los componentes rectan-             inclinado.
+gulares de B a lo largo de los ejes de la figura se conocen mediante Bx9 5 B Scos u9 y By9 5
+B sen u9, como en las ecuaciones 3.2. Por lo tanto la magnitud y dirección de B se obtienen                                      y
+de expresiones equivalentes a las ecuaciones 3.3 y 3.4.
+                                                                                                                      S
+                                                                                                                      A
+                                                                                                                                                x
+
+ ■ Examen rápido
+                                                                                                                                     S
+                                                                                                                                     B
+ 3.2 La figura 3.10 muestra dos vectoresS que
+                                            S
+                                               se
+                                                S
+                                                  encuentran
+                                                     S
+                                                             en el plano xy. Establezca
+ los signos de las componentes x y y de A , B y A 1 B .
+ 3.3 ¿Qué vector tiene un ángulo con respecto al eje x positivo que está en el rango de                  Figura 3.10 (Exámenes rápidos
+ la función tangente inversa?                                                                            3.2 y 3.3)
+CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+
+                        Álgebra de la suma vectorial
+                        El método gráfico de la suma vectorial es valioso para la comprensión de cómo se pueden
+                        manejar los vectores, pero la mayoría
+                                                        S
+                                                              de lasS veces se suman algebraicamente en términos
+                                                              S
+                        de sus componentes.
+                                 S
+                                              Considere R 5   A 1 B . En este caso los componentes del vector re-
+                        sultante R están dados por
+                                                              Rx 5 Ax 1 Bx                                [3.5a]
+                                                              R y 5 Ay 1 By                               [3.5b]
+62            CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+
+                                                3.3 Desplazamiento, velocidad y aceleración
+                                                    en dos dimensiones
+                                              En un movimiento en una dimensión, como se explicó en el capítulo 2, la dirección de
+              El desplazamiento del
+     y                             S
+              objeto es el vector r.
+                                              una cantidad vectorial como la velocidad o bien la aceleración puede ser tomada en cuen-
+                                              ta al especificar la cantidad ya sea positiva o negativa. Por ejemplo, la velocidad de un
+                                              cohete es positiva si éste va hacia arriba y negativa si va hacia abajo. Esta solución simple
+                    Sr                      no está disponible en dos o tres dimensiones. En cambio, se debe hacer uso completo del
+              ti
+                           tf                 concepto vectorial.
+         S
+         ri                                        Considere un objeto que se mueve a través del espacio como se muestra en la figura
+                                Trayectoria
+                    S
+                    rf           del objeto   3.13. Cuando el objeto está en algún punto  en el tiempo ti, su posición se describe me-
+                                                                            S
+                                        x
+                                              diante el vector de posición r i, dibujado desde el origen hasta . Cuando el objeto se ha
+                                                                                                                             S
+ O                                            movido hacia algún otro punto en el tiempo tf , su vector de posición es r f . Del diagrama
+                                              vectorial en la figura 3.13, el vector de posición final es la suma del vector de posición
+                                                                            S S      S      S
+Figura 3.13 Un objeto se mueve                inicial y el desplazamiento Dr : r f 5 r i 1 Dr . A partir de esta correspondencia, se obtienen
+a lo largo de una trayectoria curva           las siguientes:
+entre los puntos  y . El vector de
+                  S
+desplazamiento Dr es la diferencia
+de los vectores de posición:                     El desplazamiento de un objeto se define como el cambio en su vector de posición,
+  S    S    S
+Dr 5 rf 2 ri .                                   o bien
+                                                                                           S    S       S
+                                                                                       Dr ; r f 2 r i                               [3.6]
+                                                 Unidad SI: metro (m)
+
+                                                 Ahora se presentan varias generalizaciones de las definiciones de velocidad y acelera-
+                                              ción expuestas en el capítulo 2.
+
+                    Velocidad promedio c         La velocidad promedio de un objeto durante un intervalo de tiempo )t es su despla-
+                                                 zamiento dividido entre )t:
+                                                                                       S             DrS
+                                                                                       v prom ;                                     [3.7]
+                                                                                                     Dt
+                                                 Unidades SI: metros por segundo (m/s)
+
+                                              Debido a que el desplazamiento es una cantidad vectorial y el intervalo de tiempo es una
+                                              cantidad escalar, se concluye que la velocidad promedio es una cantidad vectorial dirigida
+                                                             S
+                                              a lo largo de Dr .
+                                                                           S
+               Velocidad instantánea c           La velocidad instantánea v de un objeto es el límite de su velocidad promedio cuan-
+                                                 do )t tiende a cero:
+                                                                                   S            DrS
+                                                                                   v ; lím                                          [3.8]
+                                                                                           Dt S 0 Dt
+
+                                                 Unidades SI: metros por segundo (m/s)
+
+                                              La dirección del vector velocidad instantánea es el recorrido a lo largo de una línea que es
+                                              tangente a la trayectoria del objeto y en la dirección de su movimiento.
+                                                                                                   3.4 | Movimiento en dos dimensiones
+
+   La aceleración promedio de un objeto durante un intervalo de tiempo )t es el cam-                          b Aceleración promedio
+                        S
+   bio en su velocidad )v dividido entre )t, o bien
+                                                             S
+                                                 S          Dv
+                                                 a prom ;                                          [3.9]
+                                                            Dt
+   Unidades SI: metro por segundo cuadrado (m/s2)
+                                           S
+   El vector aceleración instantánea a de un objeto es el límite de su vector aceleración                     b Aceleración instantánea
+   promedio conforme )t tiende a cero:
+                                                   S
+                                       S          Dv
+                                       a ; lím                                     [3.10]
+                                           Dt S 0 Dt
+
+   Unidades SI: metro por segundo cuadrado (m/s2)
+
+     Es importante reconocer que un objeto puede acelerar en diferentes formas. Primero,
+la magnitud del vector velocidad (la rapidez) puede cambiar con el tiempo. Segundo, la
+dirección del vector velocidad puede cambiar con el tiempo, incluso si la rapidez es cons-
+tante, como puede suceder a lo largo de una trayectoria curva. Tercero, tanto la magnitud
+y la dirección del vector velocidad pueden cambiar al mismo tiempo.
+
+
+ ■ Examen rápido
+
+ 3.4 ¿Cuál de los objetos que siguen no puede estar acelerando? a) Un objeto móvil
+ con rapidez constante; b) un objeto móvil con una velocidad constante; c) un objeto
+ móvil a lo largo de una curva.
+ 3.5 Considere los siguientes controles en un automóvil: pedal para acelerar, freno,
+ volante. Los controles en esta lista que ocasionan una aceleración del automóvil son
+ a) los tres controles, b) el pedal de aceleración y el freno, c) sólo el freno, o bien
+ d) sólo el pedal de aceleración.
+
+
+  3.4 Movimiento en dos dimensiones
+En el capítulo 2 se estudió el movimiento de objetos a lo largo de trayectorias en línea
+recta, como el eje x. En este capítulo, examinamos objetos que se mueven en las dos direc-
+ciones x y y de manera simultánea bajo aceleración constante. Un caso especial importante
+de este movimiento en dos dimensiones se le conoce como movimiento de un proyectil.                           b Movimiento de un proyectil
+    Cualquiera que haya lanzado alguna clase de objeto en el aire ha observado un movi-
+miento de un proyectil. Si se omiten los efectos de la resistencia del aire y la rotación de la
+Tierra, la trayectoria del proyectil dentro del campo de gravedad de la Tierra es una curva
+en forma de parábola, como se muestra en la figura activa 3.14.
+    La dirección x positiva es horizontal y hacia la derecha, y la dirección y es vertical
+y positiva hacia arriba. El hecho experimental más importante acerca del movimiento
+
+
+                                                                                                              Figura activa 3.14
+                       La componente y de la
+                                                                                                              Trayectoria parabólica de una par-
+                       velocidad es cero en el
+                   y                                                                                          tícula que deja el origen con una
+                       pico de la trayectoria.                                                                               S               S
+                                                                                                              velocidad de v0. Observe que v
+                                                                                                              cambia con el tiempo. Sin embargo,
+                                 S
+                                       vy  0    v0x
+                                                             S
+                                                             g           La componente x de la                la componente x de la velocidad, vx ,
+                                 v
+                            vy                                           velocidad permanece                  permanece constante en el tiempo,
+                                                             v0x         constante en el tiempo.
+                       S         u                                                                            igual que su velocidad inicial v 0x .
+                       v0                                                                                     Además, vy 5 0 en el pico de la tra-
+                                 v0x                         u
+             v0y                                       vy        S
+                                                                   v                                          yectoria, pero la aceleración siempre
+                                                                                                              es igual a la aceleración en caída
+                       u0                                                  v0x                                libre y actúa verticalmente hacia
+                                                                                    x                         abajo.
+                       v0x
+                                                                           u0
+                                                                                S
+                                                                   v0y          v
+        CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+Figura activa 3.15 Se lanza un                               y (m)
+proyectil desde el origen con una                           150
+rapidez inicial de 50 m/s en diferen-                                                     vi  50 m/s                                         Los valores
+                                                                      75
+tes ángulos de proyección.                                                                                                                    complementarios del
+                                                            100                                                                               ángulo inicial u dan como
+                                                                             60                                                              resultado el mismo valor de
+                                                                               45                                                            R (el alcance del proyectil).
+                                                            50
+                                                                                   30
+                                                                                    15
+                                                                                                                                                                x (m)
+                                                                        50           100                            150                      200      250
+
+
+                                              de un proyectil en dos dimensiones es que los movimientos horizontal y vertical son com-
+                                              pletamente independientes entre sí. Esto significa que el movimiento en una dirección
+                                              no tiene efecto sobre el movimiento en la otra dirección. Si una pelota es lanzada en una
+                                              trayectoria parabólica, como en la figura activa 3.14, el movimiento en la dirección y se
+                                              verá muy semejante al de una pelota lanzada en una trayectoria recta hacia arriba bajo
+                                              la influencia de la gravedad. La figura activa 3.15 muestra el efecto de diferentes ángulos
+                                              iniciales; observe que los ángulos complementarios dan el mismo alcance horizontal.
+                                                   La figura 3.16 es un experimento que ilustra la independencia del movimiento horizon-
+                                              tal y vertical. La pistola apunta directamente a la bola objetivo y es disparada en el instante
+                                              en que ésta es liberada. En ausencia de gravedad, el proyectil daría en el blanco porque el
+                                              objetivo no se movería. Sin embargo, el proyectil aún da en el blanco en presencia de la
+                                              gravedad. Eso significa que el proyectil está cayendo con el mismo desplazamiento vertical
+                                              que el objetivo, a pesar de su movimiento horizontal. El experimento también funciona
+                                              iniciando como en la figura 3.17, cuando la velocidad inicial es la componente vertical.
+                                                   En general, las ecuaciones de aceleración constante desarrolladas en el capítulo 2 vie-
+ Tip 3.4 Aceleración
+                                              nen por separado para la dirección x y la dirección y. Una diferencia importante es que
+ en el punto más alto
+                                              ahora la velocidad tiene dos componentes, no precisamente una como en ese capítulo.
+ La aceleración en la dirección                                                                                               S
+                                              Suponga que en t 5 0 el proyectil deja el origen con una velocidad inicial v0. Si el vector
+ y no es cero en la parte superior
+ de la trayectoria del proyectil. Sólo        velocidad forma un ángulo u0 con la horizontal, donde a u0 se le conoce como ángulo de
+ la componente y de la velocidad              proyección, entonces, a partir de las definiciones de las funciones coseno y seno y la figura
+ es cero. Si la aceleración también           3.14, se tiene
+ fuera cero, ¡el proyectil jamás
+ llegaría abajo!                                                             v 0x 5 v 0 cos u0                                           y         v 0y 5 v 0 sen u0
+                                              donde v0x es la velocidad inicial (en t 5 0) en la dirección x y v0y es la velocidad inicial en
+                                              la dirección y.
+
+
+                                                                                                                                      La velocidad del proyectil (flechas
+                                                                                                                                      rojas) cambia de dirección y magnitud,
+                                                                                                                                      pero su aceleración (flechas moradas)
+                             y                                                                                                        se mantiene constante.
+               Arma
+                                 S                   Objetivo
+                                 v0   Línea visual
+
+
+                                                                                              . Charles D. Winters/Cengage Learning
+                                                 Punto de
+                         0                       colisión
+                                                                  x
+
+
+              Figura 3.16 Una bala se dispara a un obje-                           Figura 3.17 Fotografía multiflash de la demostración proyectil-
+              tivo en el mismo instante en que el objetivo es                      objetivo. Si el arma se dirige directamente al objetivo y se dispara
+              liberado. Ambos caen verticalmente a la misma                        en el mismo instante en que el objetivo empieza a caer, el proyectil
+              velocidad y colisionan.                                              dará en el blanco.
+                                                                                      3.4 | Movimiento en dos dimensiones
+
+    Ahora, las ecuaciones 2.6, 2.9 y 2.10 desarrolladas en el capítulo 2 para el movimiento
+con aceleración constante en una dimensión llevan hacia el caso en dos dimensiones;
+existe un conjunto de tres ecuaciones para cada dirección con las velocidades iniciales
+modificadas como ya se explicó. En la dirección x, con ax constante, se tiene
+                                       vx 5 v 0x 1 axt                                [3.11a]
+
+                                     Dx 5 v 0x t 1 12a x t 2                          [3.11b]
+
+                                    vx2 5 v 0x2 1 2ax Dx                              [3.11c]
+
+donde v0x 5 v0 cos u0. En la dirección y, se tiene
+                                       vy 5 v 0y 1 ayt                                [3.12a]
+
+                                     Dy 5 v 0y t 1 12a y t 2                          [3.12b]
+
+                                    vy2 5 v 0y2 1 2ay Dy                              [3.12c]
+
+donde v0y 5 v0 sen u0 y ay es contante. La rapidez del objeto v puede ser calculada a partir de
+los componentes de la velocidad aplicando el teorema de Pitágoras:
+
+                                       v5       vx 2 1 vy 2
+El ángulo que forma el vector velocidad con el eje x se conoce por
+                                                       vy
+                                        u 5 tan21
+                                                       vx
+Esta fórmula para u, como se estableció previamente, se debe aplicar con precaución, por-
+que la función tangente inversa sólo proporciona valores entre 290° y 190°. Es necesario
+sumar 180° para vectores que se encuentran en el segundo o el tercer cuadrantes.
+    Las ecuaciones de cinemática son fáciles de adaptar y simplificar para proyectiles cerca
+de la superficie de la Tierra. En ese caso, suponiendo que la fricción del aire es despre-
+ciable, la aceleración en la dirección x es 0 (porque se omite la resistencia del aire). Esto
+significa que ax 5 0 y el componente de velocidad del proyectil a lo largo de la dirección
+x permanece constante. Si el valor inicial de la componente de velocidad en la dirección x
+es v0x 5 v0 cos u0, entonces éste también es el valor de v en cualquier tiempo posterior, así
+                             vx 5 v 0x 5 v 0 cos u0 5 constante                       [3.13a]
+mientras que el desplazamiento horizontal es simplemente
+
+                                  Dx 5 v 0xt 5 (v 0 cos u0)t                          [3.13b]
+
+Para el movimiento en la dirección y, se hace la sustitución ay 5 2g y v 0y 5 v 0 sen u0 en las
+ecuaciones 3.12, lo que proporciona
+                                    vy 5 v 0 sen u0 2 gt                              [3.14a]
+
+                                 Dy 5 v 0 sen u0 t 2 12gt 2                           [3.14b]
+
+                                 vy2 5 (v 0 sen u0)2 2 2g Dy                          [3.14c]
+
+   Los hechos importantes del movimiento de un proyectil se pueden resumir como sigue:
+
+   1. Siempre que se omita la resistencia del aire, la componente horizontal de la ve-
+      locidad vx permanece constante porque no existe componente horizontal de la
+      aceleración.
+   2. La componente vertical de la aceleración es igual a la aceleración en caída libre 2g.
+   3. La componente vertical de la velocidad vy y el desplazamiento en la dirección y son
+      idénticos a los de un cuerpo en caída libre.
+   4. El movimiento de proyectil puede describirse como una sobreposición de dos mo-
+      vimientos independientes en las direcciones x y y.
+72        CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+      y                  A                  estar viajando a 60 mi/h, pero para un observador viajando en un camión en la misma
+                                            dirección a 50 mi/h, el automóvil aparecería estar sólo viajando a 10 mi/h.
+                                                Así, la medición de la velocidad depende del marco de referencia del observador. Los
+                                            marcos de referencia son simplemente sistemas coordenados. La mayoría de las veces uti-
+            T
+          rAS
+                     S       S   S
+                                            lizamos un marco de referencia estacionario con respecto a la superficie de la tierra, pero
+                     rAB  rAT  rBT        ocasionalmente usaremos un marco de referencia móvil asociado con un autobús, auto-
+                                            móvil o avión moviéndose con velocidad constante relativa a la superficie de la Tierra.
+            S
+                                        x
+  E         rB                                  Los cálculos de la velocidad relativa en dos dimensiones pueden ser confusos, de tal
+                T
+                    B                       manera que es importante y útil un planteamiento sistemático. Sea T un observador, con-
+                                            siderado fijo con respecto a la superficie de la Tierra. Considere dos automóviles etiqueta-
+                                            dos como A y B e introduzca la siguiente notación (véase la figura 3.23):
+                                               S
+                                               r AT 5 posición del automóvil A como lo observa T (en un sistema coordenado fijo con
+Figura 3.23 La posición del auto-                     respecto a la tierra).
+móvil A relativo al automóvil B se             S
+puede hallar mediante resta de vec-            r BT 5 posición del automóvil B como lo observa T.
+                                               S
+tores. La razón de cambio del vector           r AB 5 posición del automóvil A como se observa desde el automóvil B.
+resultante con respecto al tiempo
+es la ecuación de velocidad relativa.
+                                            De acuerdo con la notación anterior, la primera letra nos señala hacia dónde apunta el
+                                            vector, la segunda letra nos indica dónde inicia el vector de posición. Los vectores de
+                                                                                                      S      S
+                                            posición del automóvil A y del automóvil B relativos a E, r AT y r BT se muestran en la figura.
+                                                                   S
+                                            ¿Cómo determinamos r AB, la posición del automóvil A visto desde el automóvil B? Simple-
+                                            mente se dibuja una flecha apuntando a partir del automóvil B hacia el automóvil A, la
+                                                                            S       S
+                                            cual se puede obtener al restar r BT de r AT:
+                                                                                   S      S      S
+                                                                                   r AB 5 r AT 2 r BT                              [3.15]
+                                            Ahora, la razón de cambio de estas cantidades con el tiempo nos proporciona la corres-
+                                            pondencia entre las velocidades asociadas:
+                                                                                   S      S      S
+                                                                                   vAB 5 vAT 2 vBT                                  [3.16]
+                                            El sistema coordenado del observador E no necesita estar fijo a la Tierra, aunque frecuen-
+                                            temente lo está. Tome nota cuidadosamente del diseño de los subíndices; en lugar de
+                                            memorizar la ecuación 3.16 es mejor estudiar la deducción breve a partir de la figura 3.23.
+                                            Además observe que la ecuación no funciona para observadores viajando a una fracción
+                                            considerable de la rapidez de la luz, que es cuando la teoría de Einstein de la relatividad
+                                            especial entra en juego.
+
+                                             ■ ESTRATEGI A PARA LA SOLUCIÓN DE PROBLEMAS
+
+                                            Velocidad relativa
+                                            1. Marque cada objeto que se incluye (por lo general tres) con una letra que le
+                                               recuerde qué es (por ejemplo, T para la Tierra).
+                                            2. Vea a través del problema por medio de frases como “La velocidad de A relativa a B”
+                                                                               S
+                                               y escriba las velocidades como vAB. Cuando se menciona una velocidad, pero no se
+                                               establece claramente como relativa a algo, casi siempre es relativa a la Tierra.
+                                            3. Tome las tres velocidades que encontró y arme una ecuación parecida a la ecuación
+                                               3.16, con subíndices en un orden similar.
+                                            4. Existirán dos componentes desconocidos. Resuelva para ellos con los componentes
+                                               x y y de la ecuación desarrollada en la etapa 3.
+                                                                                                                        | Resumen
+
+
+ ■ RESUMEN
+
+
+3.1 Vectores y sus propiedades                                           En la ecuación (3.4), u 5 tan21(Ay /Ax ) da el vector correcto
+        S            S
+Dos vectores A y B se pueden sumar geométricamente con                   sólo para vectores con 290°, u , 90°. Si el vector tiene un
+el método del triángulo. Los dos vectores se dibujan a escala            componente x negativo, se debe agregar 180° a la respuesta
+en un papel para graficar, con el extremo inicial del segundo            en la pantalla
+                                                                                S    S
+                                                                                        de Sla calculadora.
+vector ubicado en el extremo final del primero. El vector re-                     5 A 1 B , entonces los componentes del vector re-
+                                                                             Si R S
+sultante es el vector que se dibuja desde el extremo inicial del         sultante R son
+primer vector hacia el extremoSfinal del segundo.                                                R x 5 Ax 1 B x                     [3.5a]
+    El negativo Sde un vector A es un vector con la misma
+magnitud que A , pero apuntando en la dirección opuesta.                                         Ry 5 Ay 1 By                       [3.5b]
+Se puede multiplicar un vector por un escalar, cambiando su
+magnitud y su dirección si el escalar es negativo.
+                                                                         3.3 Desplazamiento, velocidad y aceleración
+                                                                             en dos dimensiones
+3.2 Componentes
+      S
+                de un vector                                             El desplazamiento de un objeto en dos dimensiones se define
+Un vector A puede separarse en dos componentes: uno                      como el cambio en el vector de posición del objeto:
+apuntando en la dirección x y el otro en la dirección y. Estos
+                                                                                                     S     S        S
+componentes forman dos lados de un triángulo rectángulo                                           Dr ; r f 2 r i                     [3.6]
+que tiene una hipotenusa con magnitud A y están dados por
+                                                                         La velocidad promedio de un objeto durante el intervalo de
+                            Ax 5 A cos u                        [3.2a]   tiempo Dt es
+                                                                                               S        DrS
+                            Ay 5 A sen u                        [3.2b]                         v prom ;                       [3.7]
+                                                                                                        Dt
+        y             Ay                                                 Tomando arbitrariamente el límite de esta expresión como
+             tan u                                                                                                        S
+                      Ax                                                 un pequeño Dt, obtenemos la velocidad instantánea v:
+                                                                                                 S              DrS
+                                                                                                               
+                                                                                                 v ; lím                             [3.8]
+                S                                                                                        Dt S 0 Dt
+   Ay           A
+                                              Un vector puede escri-
+                                                                         La dirección del vector de velocidad instantánea es a lo largo
+                                              birse en términos de
+            u                                                            de la recta tangente a la trayectoria del objeto y en la direc-
+                                     x        componentes en las
+   O            Ax                            direcciones x y y.         ción de su movimiento.
+                                                                             La aceleración promedio de un objeto con una velocidad
+                                                                                      S
+                                 S                                       cambiante Dv en el intervalo de tiempo Dt es
+La magnitud y dirección de A se relacionan con sus compo-                                                   S
+                                                                                                  S        Dv
+nentes a través del teorema de Pitágoras y la definición de la                                    a prom ;                        [3.9]
+tangente:                                                                                                  Dt
+
+                           A5   A x2 1 A y2                      [3.3]   Tomando arbitrariamente el límite de esta expresión como
+                                                                                                                                   S
+                                                                         un pequeño Dt obtenemos el vector aceleración instantánea a:
+                                         Ay                                                                S
+                            tan u 5                              [3.4]                        S           Dv
+                                         Ax                                                   a ; lím                         [3.10]
+                                                                                                   Dt S 0 Dt
+76        CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+3.4 Movimiento en dos dimensiones                                                      Las ecuaciones en la dirección horizontal, o bien x, son
+Las ecuaciones generales de cinemática en dos dimensiones                                              vx 5 v 0x 5 v 0 cos u0 5 constante               [3.13a]
+para objetos con aceleración constante son, para la dirección x,
+                                                                                                                 Dx 5 v 0xt 5 (v 0 cos u0)t             [3.13b]
+                             vx 5 v 0x 1 axt                                 [3.11a]
+                                                                                       mientras que las ecuaciones para el movimiento en la direc-
+                           Dx 5 v 0x t 1 12a x t 2                           [3.11b]   ción vertical, o bien y, son
+
+                          vx2 5 v 0x2 1 2ax Dx                               [3.11c]                                vy 5 v 0 sen u0 2gt                 [3.14a]
+
+donde v0x 5 v0 cos u0, y para la dirección y                                                                     Dy 5 v 0 sen u 0 t 2 12g t 2           [3.14b]
+                              vy 5 v 0y 1 ayt                                [3.12a]                         vy2 5 (v 0 sen u0)2 2 2g Dy                [3.14c]
+                           Dy 5 v 0y t 1 12a y t 2                           [3.12b]       Los problemas son resueltos mediante la manipulación
+                                                                                       algebraica de una o más de estas ecuaciones, que frecuente-
+                           vy2 5 v 0y2 1 2ay Dy                              [3.12c]   mente reduce el sistema a dos ecuaciones con dos incógnitas.
+donde v0y 5 v0 sen u0. La rapidez v del objeto en cualquier
+instante puede calcularse a partir de los componentes de ve-                           3.5 Velocidad relativa
+locidad en ese instante utilizando el teorema de Pitágoras:                            Sea T un observador fijo y B un segundo observador viajando
+                                                                                                     S
+                               v5        v x2 1 v y 2                                  con velocidad vBT como lo observa T. Si T mide la velocidad de
+                                                                                                          S
+                                                                                       un objeto A como vAT, entonces B medirá la velocidad de A
+El ángulo que el vector velocidad forma con el eje x se conoce                         como
+mediante                                                                                                             S        S       S
+                                     vy                                                                               vAB 5 vAT 2 vBT                    [3.16]
+                         u 5 tan21
+                                     vx
+                                                                                           La ecuación 3.16 puede deducirse a partir de la posición
+Los movimientos horizontal y vertical de un proyectil son                              relativa entre Dt y tomando el límite cuando Dt tiende a cero.
+completamente independientes uno del otro.
+
+          La gravedad cambia                                                                                 y                        A
+          el componente y de
+      y   la velocidad.
+                                                              El componente x
+                                                              de la velocidad
+                    S
+                          vy  0   v0x
+                                                 S
+                                                 g                                                                 rAST
+                    v                                         permanece                                                           S       S     S
+               vy                                             constante en                                                        rAB  rAT  rBT
+                                                 v0x
+          S         u                                         el tiempo.
+          v0
+                    v0x                          u                                                                     S                            x
+v0y                                      vy          S                                                   E             rB
+                                                       v                                                                  T
+                                                                                                                                  B
+          u0                                                    v0x
+                                                                         x
+          v0x
+                                                                u0
+                                                                     S
+                                                        v0y          v                  La razón de cambio de la diferencia de los dos vectores de posición
+                                                                                        S      S
+                                                                                        r AT y r BT al transcurrir el tiempo da como resultado la ecuación de
+ La gravedad actúa sobre el componente y de la velocidad y no tiene                     velocidad relativa, ecuación 3.16.
+ ningún efecto en el componente x, lo que demuestra la indepen-
+ dencia del movimiento horizontal y vertical de los proyectiles.                          La solución de problemas de velocidad relativa incluye
+                                                                                       identificar las velocidades adecuadas y marcarlas correcta-
+  Las ecuaciones cinemáticas se adaptan y simplifican fácil-                           mente, sustituyendo en la ecuación 3.16 y después resolver
+mente para proyectiles cercanos a la superficie de la Tierra.                          para las cantidades desconocidas.
+Por la aplicación de forma
+intuitiva de las leyes de
+Newton de movimiento, estos
+dos borregos cimarrones
+compiten para ser el macho
+dominante. Cada uno de ellos
+ejerce fuerzas contra la Tierra a
+
+
+                                    © Suzann Julien. Utilizado bajo licencia de Shutterstock.com
+través de esfuerzos musculares
+de sus piernas, con la ayuda de
+las fuerzas de fricción que les
+impiden el deslizamiento.
+Las fuerzas de reacción de la
+Tierra actúan de nuevo en los
+borregos y hacen que se lancen
+hacia adelante y se den un tope.
+El objetivo es forzar al borrego
+oponente a perder el equilibrio.
+
+
+       4 Leyes de movimiento                                                                       La mecánica clásica describe la relación entre el movimiento de objetos encontrados en nues-
+                                                                                                   tro mundo cotidiano y las fuerzas que actúan en ellos. Siempre y cuando el sistema bajo estudio no
+4.1 Fuerzas                                                                                        involucre objetos comparables en tamaño a un átomo o viajando casi con la rapidez de la luz, la
+4.2 Primera ley de Newton                                                                          mecánica clásica proporciona una excelente descripción de la naturaleza.
+                                                                                                       Este capítulo introduce las tres leyes de movimiento de Newton y de la gravedad. Las tres
+4.3 Segunda ley de Newton                                                                          leyes son naturales y razonables. La primera ley establece que debe aplicarse una fuerza a un
+4.4 Tercera ley de Newton                                                                          objeto con la finalidad de cambiar su velocidad. Cambiar la velocidad de un objeto significa ace-
+                                                                                                   lerarlo, lo que da a entender una correspondencia entre fuerza y aceleración. Ésta, la segunda ley,
+4.5 Aplicaciones de las leyes                                                                      establece que la fuerza neta sobre un objeto es igual a la masa del objeto por su aceleración. Por
+    de Newton                                                                                      último, la tercera ley menciona que tan pronto como se empuja algo, este impulso regresa con
+4.6 Fuerzas de fricción                                                                            igual fuerza en la dirección opuesta. En pocas palabras, éstas son las tres leyes.
+                                                                                                       Las tres leyes de Newton, junto con su invención del cálculo, abren rutas de investigación
+                                                                                                   y descubrimiento que se aplican habitualmente hoy en día en todas las áreas de las matemáti-
+                                                                                                   cas, ciencias, ingeniería y la tecnología. La teoría de la gravitación universal de Newton tiene
+                                                                                                   un impacto parecido, inicia una revolución en la mecánica del espacio y en la astronomía que
+                                                                                                   continúa hasta nuestros días. Con el surgimiento de esta teoría, podrían ser calculadas con gran
+                                                                                                   precisión las órbitas de todos los planetas y comprender las mareas. Incluso la teoría conduce a
+                                                                                                   la predicción de “estrellas negras”, ahora conocidos como hoyos negros, se observó hace más
+                                                                                                   de dos siglos antes de cualquier evidencia de su existencia.1 Las tres leyes de movimiento de
+                                                                                                   Newton, junto con su ley de la gravitación, se consideran entre los logros más grandes de la
+                                                                                                   mente humana.
+
+
+                                                                                                   1
+                                                                                                     En 1783, John Michell combinó la teoría de Newton de la luz y la teoría de la gravitación, vaticinando la existencia de
+                                                                                                   “estrellas negras” de las que la luz misma no podría escapar.
+                                                                                                                                          4.1 | Fuerzas
+
+
+  4.1 Fuerzas
+Usualmente imaginamos una fuerza como empujar o jalar un objeto, tal vez rápidamente,
+como cuando se golpea una pelota de tenis con una raqueta. (Véase la figura 4.1.) Pode-
+mos golpear la pelota, con diferentes magnitudes de velocidad, y dirigirla a diferentes
+partes de la cancha del oponente. Esto significa que se puede controlar la magnitud de la
+fuerza aplicada y también su dirección, de tal manera que la fuerza es una cantidad vecto-
+rial, parecida a la velocidad y aceleración.
+     Si usted jala un resorte (figura 4.2a), el resorte se deforma. Si jala un carro lo suficiente
+(figura 4.2b), éste se mueve. Cuando patea un balón (figura 4.2c), se deforma por corto
+
+
+                                                                                                     Juergen Hasenkopf/Alamy
+tiempo y se pone en movimiento. Todos éstos son ejemplos de fuerzas de contacto, llama-
+das así porque resultan del contacto físico entre dos objetos.
+     Otra clase de fuerzas no implica contacto físico directo alguno. Los primeros cientí-
+ficos, incluido Newton, se inquietaron con el concepto de fuerzas que actúan entre dos
+objetos desconectados. Con todo, Newton aplicó el concepto “acción a distancia” en su
+ley de la gravedad, mientras que una masa con determinada ubicación, por ejemplo el
+Sol, afecta el movimiento de un objeto distante, como la Tierra, a pesar de que no existe                                      Figura 4.1 Una jugadora de
+conexión física evidente entre los dos objetos. Para vencer la dificultad conceptual aso-                                      tenis aplica una fuerza de con-
+ciada con la acción a distancia, Michael Faraday (1791-1867) introduce el concepto de                                          tacto de la bola con la raqueta,
+                                                                                                                               acelerando y dirigiendo la pelota
+campo. Las fuerzas correspondientes se conocen como campos de fuerza. De acuerdo con
+                                                                                                                               hacia la cancha.
+este planteamiento, un objeto de masa M, como el Sol, crea una influencia invisible que
+se extiende en todo el espacio. Un segundo objeto de masa m, como la Tierra, interactúa
+con el campo del Sol, no directamente con el Sol mismo. De esta manera la fuerza de atrac-
+ción gravitacional entre los dos objetos, que se ilustra en la figura 4.2d, es un ejemplo de
+un campo de fuerza. La fuerza de gravedad mantiene objetos unidos a la Tierra, además
+de originar lo que conocemos como peso de esos objetos.
+     Otro ejemplo común de un campo de fuerza es la fuerza eléctrica que ejerce una carga
+eléctrica sobre otra (figura 4.2e). Un tercer ejemplo es la fuerza ejercida por un imán de
+barra en una pieza de hierro (figura 4.2f).
+     Todas las fuerzas fundamentales conocidas en la naturaleza son campos de fuerza.
+Éstas son, en orden de intensidad decreciente, 1) la fuerza nuclear fuerte entre partículas
+subatómicas, 2) las fuerzas electromagnéticas entre cargas eléctricas, 3) la fuerza nuclear
+débil que surge en ciertos procesos de decaimiento radiactivo y 4) la fuerza gravitacional
+entre objetos. La fuerza fuerte mantiene el núcleo de un átomo en vuelo separado debido
+a la fuerza eléctrica repulsiva de los protones. La fuerza débil se incluye en la mayoría de
+los procesos radiactivos y juega un papel importante en las reacciones nucleares que gene-
+ra la emisión energética del Sol. Las fuerzas fuerte y débil funcionan sólo a escala nuclear,
+con un alcance muy corto del orden de 10215 m. Fuera de este alcance, no tienen influen-
+cia. De cualquier modo, la física clásica sólo se relaciona con las fuerzas gravitacional y
+electromagnética, que tienen un alcance infinito.
+
+
+           Fuerzas de contacto                                                                         Figura 4.2 Ejemplo de fuerzas
+                                                                                                       aplicadas a diferentes objetos. En
+                                                                                                       cada caso, una fuerza actúa en el
+                                                                                                       objeto al que rodea la línea disconti-
+                                                                                                       nua. Algo en el ambiente externo al
+                                                                                                       área en la caja ejerce la fuerza.
+
+
+    a                                 b                              c
+
+
+        Campos de fuerza
+
+    m                 M               q               Q            Hierro           N     S
+
+
+   d                                  e                              f
+88      CAPÍTULO 4 | Leyes de movimiento
+
+                                            Las fuerzas ejercidas en un objeto pueden cambiar la forma del mismo. Por ejemplo,
+                                        el golpear una pelota de tenis con una raqueta, como en la figura 4.1, deforma la pelota
+                                        en cierto grado. Incluso objetos que por lo general se consideran rígidos e inflexibles se
+                                        deforman bajo la acción de fuerzas externas. Con frecuencia las deformaciones son per-
+                                        manentes, como el caso de un choque entre automóviles.
+
+
+                                          4.2 Primera ley de Newton
+                                        Considere un libro sobre una mesa. Es evidente que el libro permanece en reposo si se
+                                        deja solo. Ahora piense que lo empuja con una fuerza horizontal lo suficientemente gran-
+                                        de para vencer la fuerza de fricción entre el libro y la mesa, poniendo el libro en mo-
+                                        vimiento. Ya que la magnitud de la fuerza aplicada supera la magnitud de la fuerza de
+                                        fricción, el libro acelera. Cuando la fuerza aplicada es retirada, en breve la fricción retrasa
+                                        el libro hasta detenerlo.
+                                             Ahora piense en empujar el libro a lo largo de un piso suave y encerado. Una vez más
+                                        el libro llega al reposo una vez que la fuerza deja de aplicarse, pero no tan rápido como
+                                        antes. Por último, si el libro se mueve sobre una superficie sin fricción horizontal (figura
+                                        4.3b), continúa moviéndose en una línea recta con velocidad constante hasta que golpea
+                                        una pared o algún otro obstáculo.
+                                             Antes del año 1600, los científicos pensaban que el estado natural de la materia era
+                                        el estado de reposo. No obstante, Galileo concibió experimentos (como un objeto móvil
+                                        sobre una superficie sin fricción, recién descrito) y concluyó que no es la naturaleza de
+                                        un objeto detenerse, una vez que se pone en movimiento, sino que continúa en su estado
+                                        original de movimiento. Este planteamiento después se formalizó como la primera ley de
+                                        movimiento de Newton:
+
+        Primera ley de Newton c            Un objeto se mueve con una velocidad que es constante en magnitud y en dirección,
+                                           a no ser que actúe en él una fuerza resultante diferente de cero.
+
+                                        La fuerza neta sobre un objeto se define como la suma vectorial de todas las fuerzas ex-
+                                        ternas ejercidas sobre el objeto. Las fuerzas externas vienen del ambiente del objeto. Si
+                                        una velocidad del objeto no está cambiando ya sea en magnitud o dirección, entonces la
+                                        aceleración y la fuerza neta que actúan sobre él deben ser cero.
+                                            Las fuerzas internas se originan dentro del objeto mismo y no pueden cambiar la ve-
+                                        locidad del objeto (aunque pueden alterar la rapidez de rotación, como se describe en el
+
+
+Figura 4.3 La primera ley del
+                                                                     Primera ley: cuando una fuerza neta
+movimiento. a) Un libro se mueve a
+                        S                                            es aplicada, la velocidad cambia.
+una velocidad inicial v en una super-
+ficie de fricción. Debido a que hay                                        S
+una fuerza de fricción en dirección         S                              v
+                                               f        Física                      Física                     Física        Física
+horizontal, el libro se desacelera
+hasta el reposo. b) Un libro se mueve
+                  S
+a una velocidad v sobre una super-
+ficie sin fricción. En la ausencia de
+una fuerza neta, el libro se sigue
+moviendo a una velocidad v.
+
+
+                                           a
+
+
+                                                                            Primera ley: no hay fuerza neta,
+                                                                            no hay cambio en la velocidad.
+
+                                                                           S
+                                                                           v
+                                                        Física                      Física                          Física
+
+
+                                           b
+                                                                                              4.3 | Segunda ley de Newton
+
+capítulo 8). Como resultado, las fuerzas internas no están incluidas en la segunda ley de
+Newton. En realidad no es posible que se “jale usted mismo hacia arriba sin ayuda”.
+    Una consecuencia de la primera ley es la factibilidad de viajar en el espacio. Después
+de unos momentos de potentes impulsos, la nave se desliza por meses o años, su velocidad
+sólo disminuye cambiando con el tiempo bajo la influencia relativamente débil del Sol y
+los planetas distantes.
+
+
+Masa e inercia
+
+
+                                                                                                  Studio Lévy and Sons
+Piense que golpea una pelota de golf desde el punto de partida, con un palo de golf. Si es
+un buen golfista, la pelota viajará más de 200 yardas sobre el campo de golf. Ahora piense en
+levantar una bola de boliche y golpearla con el mismo palo (un experimento que no se reco-
+mienda). Probablemente el palo se rompa, podría dislocarse la muñeca, y la bola de boliche,
+en el mejor de los casos, caería del soporte de la pelota, medio girará y llegará al reposo.
+    A partir de este experimento mental, concluimos que aunque ambas pelotas resisten                                    A no ser que actúe una fuerza
+                                                                                                                         externa en él, un objeto en reposo
+cambios en su estado de movimiento, la bola de boliche ofrece mucha más resistencia efec-                                permanecerá en reposo y un
+tiva. La tendencia de un objeto a continuar en su estado original de movimiento o reposo                                 objeto en movimiento continuará
+se conoce como inercia.                                                                                                  en movimiento con velocidad
+    Aunque la inercia es la tendencia de un objeto a continuar su movimiento en ausencia de                              constante. En este caso, la pared
+una fuerza, la masa es una medida de la resistencia de un objeto a cambiar en su movimiento                              del edificio no ejerció una fuerza
+debido a una fuerza. A mayor masa de un cuerpo, menor es la aceleración bajo la acción                                   lo suficientemente grande sobre
+                                                                                                                         el tren en movimiento para
+de una fuerza aplicada determinada. La unidad SI de la masa es el kilogramo. Masa es una
+                                                                                                                         detenerlo.
+cantidad escalar que obedece las reglas de la aritmética ordinaria.
+    La inercia se puede usar para explicar la operación de una clase de cinturón de segu-
+ridad. En un accidente, el propósito del cinturón de seguridad es mantener de manera                APLICACIÓN
+firme al pasajero en el lugar relativo al automóvil, para evitar lesiones serias. La figura 4.4     Cinturón de seguridad
+explica cómo funciona una clase de tirantes de sujeción. Bajo condiciones normales, la
+rueda dentada da vueltas libremente, lo que permite que la montura se enrolle o desenro-            Cinturón
+lle desde la polea cuando se mueve el pasajero. En un accidente, el automóvil se somete a           de
+una aceleración considerable y rápidamente llega al reposo. Debido a su inercia, el bloque          seguridad
+grande bajo el asiento continua deslizándose hacia adelante a lo largo del carril. El pasa-
+dor de unión entre el bloque y la varilla ocasiona que ésta gire alrededor de su centro y
+encajar la rueda dentada. En este punto, la rueda dentada se traba en el lugar, y la montura                                          Polea
+no se desenrolla.
+                                                                                                                                              Varilla
+
+                                                                                                    Rueda                                     Pivote
+
+  4.3 Segunda ley de Newton                                                                         dentada
+                                                                                                                                                        Carril
+                                                                                                   Pasador
+La primera ley de Newton explica qué le sucede a un objeto que no tiene fuerza neta que            de unión
+actúe en él, ya sea que el objeto permanezca en reposo o continúe moviéndose en línea                Bloque
+recta con rapidez constante. La segunda ley de movimiento de Newton responde a la pre-               grande
+gunta de qué le sucede a un objeto que tiene una fuerza neta que actúa en él.
+    Piense en empujar un bloque de hielo a lo largo de una superficie horizontal sin fric-
+ción. Cuando ejerce una fuerza horizontal sobre el bloque, éste se mueve con una acele-            Figura 4.4 Un arreglo mecánico
+ración de, digamos, 2 m/s2. Si aplica una fuerza dos veces más grande, la aceleración se           para un cinturón de seguridad de
+                                                                                                   un automóvil.
+duplica a 4 m/s2. Empujando tres veces tan firme, triplica la aceleración, y así sucesivamen-
+te. De tales observaciones, se concluye que la aceleración de un objeto es directamente
+proporcional a la fuerza neta que actúa en él.
+    La masa también afecta a la aceleración. Suponga que coloca bloques idénticos de                               Tip 4.1 La fuerza ocasiona
+hielo uno sobre otro mientras empuja con fuerza constante la pila de ellos. Si la fuerza                           cambios en el movimiento
+aplicada a un bloque produce una aceleración de 2 m/s2, entonces la aceleración cae a                              El movimiento se puede presentar
+la mitad de ese valor, 1 m/s2, cuando dos bloques son empujados; a un tercio de su valor                           incluso en ausencia de fuerzas.
+inicial cuando son empujados tres bloques, y así sucesivamente. Podemos concluir que la                            Éstas ocasionan cambios en el
+aceleración de un objeto es inversamente proporcional a su masa. Estas observaciones son                           movimiento.
+resumidas en la segunda ley de Newton:
+                   S
+   La aceleración a de un objeto es directamente proporcional a la fuerza neta que                  b Segunda ley de Newton
+   actúa en él e inversamente proporcional a su masa.
+                                            CAPÍTULO 4 | Leyes de movimiento
+
+                                                                                                                                                                    S
+                                                                                            Figura 4.5 La segunda ley delSmovimiento. Para el blo-                   a
+                                                                                                                                                           m               S
+                                                                                            que de masa m, la fuerza neta SF actúa sobre el bloque es                     F
+                                                                                            igual a la de masa m multiplicada por la aceleración de un
+                                                                                                   S
+                                                                                            vector a.
+
+                                                                               La constante de proporcionalidad es igual a uno; de este modo, en términos matemáticos
+                                                                               el enunciado anterior puede ser rescrito
+                                                                                                                                       S
+                                                                                                                                   oF
+
+
+Bridgeman-Giraudon/Art Resource, NY
+                                                                                                                            S
+                                                                                                                            a5
+                                                                                                                                    m
+                                                                                      S                                                     S
+                                                                               donde a es la aceleración del objeto, m es la masa y o F es la suma vectorial de todas las
+                                                                               fuerzas que actúan en él. Multiplicando por m, se tiene
+                                                                                                                             S      S
+                                                                                                                          oF 5 ma                                        [4.1]
+                                                                                    Generalmente los físicos se refieren a esta ecuación como ‘F 5 ma’. La figura 4.5 mues-
+                                                                               tra la relación entre la masa, la aceleración y la fuerza neta. La segunda ley es una ecuación
+                                      Isaac Newton                             vectorial, equivalente a las tres ecuaciones por componente siguientes:
+                                      Físico y matemático inglés
+                                      (1642-1727)                                                      o Fx 5 max        o F y 5 may       o Fz 5 maz                    [4.2]
+                                      Newton fue uno de los más talen-
+                                      tosos científicos. Antes de cumplir          Cuando no existe fuerza neta en un objeto, su aceleración es cero, lo que significa que
+                                      30 años, estableció los conceptos        la velocidad es constante.
+                                      básicos y las leyes de la mecánica,
+                                      descubrió la ley de la gravitación
+                                      universal e inventó los métodos          Unidades de fuerza y masa
+                                      matemáticos del cálculo. Como una
+                                      consecuencia de sus teorías, Newton      La unidad SI de la fuerza es el newton. Cuando 1 newton de fuerza actúa sobre un objeto
+                                      fue capaz de explicar los movimien-      que tiene una masa de 1 kg, produce una aceleración de 1 m/s2 en el objeto. A partir de
+                                      tos de los planetas, el retroceso y      esta definición y la segunda ley de Newton, se ve que el newton puede expresarse en térmi-
+                                      flujo de las mareas y muchas caracte-    nos de las unidades básicas de masa, longitud y tiempo como
+                                      rísticas especiales de los movimien-
+                                      tos de la Luna y la Tierra. Además,                                            1 N ; 1 kg ? m/s2                                   [4.3]
+                                      interpretó muchas observaciones
+                                      fundamentales relacionadas con la            En el sistema estandarizado de Estados Unidos, la unidad de fuerza es la libra. La con-
+                                      naturaleza de la luz. Sus contribucio-   versión de newtons a libras está dada por
+                                      nes a las teorías físicas dominaron el
+                                      pensamiento científico por dos siglos
+                                                                                                                      1 N 5 0.225 lb                                     [4.4]
+                                      y siguen siendo importantes hoy.            Las unidades de masa, aceleración y fuerza en el SI y el sistema estandarizado en Esta-
+                                                                               dos Unidos se resumen en la tabla 4.1.
+
+                                                 S
+                              Tip 4.2 ma no es una fuerza                       ■ Examen rápido
+
+                              La ecuación 4.1 no dice que
+                                            S                                   4.1 ¿Cuál de los enunciados que siguen son verdaderos? a) Un objeto puede moverse
+                              el producto ma es una fuerza.
+                              Todas las fuerzas ejercidas en un
+                                                                                incluso cuando ninguna fuerza actúa sobre él. b) Si un objeto no está en movimiento,
+                              objeto se suman como vectores                     ninguna fuerza externa actúa en él. c) Si una fuerza simple actúa en un objeto, el
+                              para generar la fuerza neta del                   objeto acelera. d) Si un objeto acelera, una fuerza está actuando en él. e) Si un objeto
+                              lado izquierdo de la ecuación.                    no está acelerando, ninguna fuerza externa está actuando en él. f) Si la fuerza neta
+                              En este caso esta fuerza neta es                  que actúa en un objeto está en la dirección x positiva, el objeto sólo se mueve en la
+                              igual al producto de la masa y la                 dirección x positiva.
+                              aceleración resultante del objeto.
+                                                        S
+                              No incluye una “fuerza ma ” en su
+                              análisis.                                        Tabla 4.1 Unidades de masa, aceleración y fuerza
+                                                                               Sistema                                   Masa               Aceleración        Fuerza
+                                                                               SI                                          kg                    m/s 2
+                                                                                                                                                            N 5 kg ? m/s2
+                                                                               Habitual en Estados Unidos                 slug                  pies/s2   lb 5 slug ? pies/s2
+                                                                                                4.3 | Segunda ley de Newton
+
+distancia entre ellas. Si las partículas tienen masas m1 y m2 y están separadas mediante una
+                                                                                                                                          S
+distancia r, como en la figura 4.8, la magnitud de la fuerza gravitacional, Fg, es                                                      Fg
+                                                                                                                                 S
+                                               m 1m 2                                                                            Fg                m2
+                                      Fg 5 G        2                                  [4.5]
+                                                r
+                                                                                                                                              r
+donde G 5 6.67 3 10211 N ? m2/kg2 es la constante de gravitación universal. La fuerza de
+                                                                                                                           m1
+gravitación la estudiaremos en más detalle en el capítulo 7.
+
+                                                                                                    Figura 4.8 La fuerza gravitacional
+Peso                                                                                                entre dos partículas es de atracción.
+   La magnitud de la fuerza gravitacional que actúa en un objeto de masa m cerca de la
+   superficie de la Tierra se le conoce como peso, w, del objeto, dada por
+                                          w 5 mg                                    [4.6]
+   donde g es la aceleración de la gravedad.
+   Unidades SI: newton (N)
+
+   De la ecuación 4.5, otra definición del peso de un objeto con masa m puede ser rescrita
+como
+                                             MT m
+                                     w5G                                               [4.7]
+                                              r2
+
+donde MT es la masa de la Tierra y r es la distancia desde el objeto al centro de la Tierra.
+Si el objeto está en reposo sobre la superficie de la Tierra, entonces r es igual al radio de
+la Tierra R T. Ya que r 2 está en el denominador de la ecuación 4.7, el peso disminuye
+conforme r aumenta. De tal modo que el peso de un objeto en la parte superior de una
+montaña es menor que el peso del mismo objeto a nivel del mar.
+    Al comparar las ecuaciones 4.6 y 4.7, vemos que
+                                               MT
+                                      g5G                                              [4.8]
+                                               r2
+    A diferencia de la masa, el peso no es una propiedad inherente de un objeto a causa
+de que puede tomar valores diferentes, dependiendo del valor de g en una ubicación de-
+terminada. Por ejemplo, si un objeto tiene una masa de 70.0 kg, entonces su peso en una
+ubicación donde g 5 9.80 m/s2 es mg 5 686 N. En un globo a una gran altura, donde g
+podría ser 9.76 m/s2, el peso del objeto sería 683 N. Además el valor de g varía ligeramente
+
+
+                                                                                                   NASA/Eugene Cernan
+debido a la densidad de la materia en un lugar determinado. En este texto, a menos que
+se indique lo contrario, el valor de g se entiende que es 9.80 m/s2, su valor cerca de la
+superficie de la Tierra.
+    La ecuación 4.8 es un resultado general que se puede utilizar para calcular la acelera-
+ción de un objeto cayendo cerca de la superficie de cualquier objeto pesado si el radio y la                            La unidad de soporte de vida
+masa del objeto más pesado son conocidos. Utilizando los valores en la tabla 7.3 (página                                atada a la espalda del astronauta
+223) se puede demostrar que gSol 5 274 m/s2 y g Luna 5 1.62 m/s2. Un hecho importante es                                Harrison Schmitt pesaba 300 lb
+que, para cuerpos esféricos, las distancias son calculadas desde los centros de los objetos,                            en la Tierra y tenía una masa de
+una consecuencia de la ley de Gauss (se explica en el capítulo 15), que se cumple para                                  136 kg. Durante su entrenamiento,
+                                                                                                                        se utilizó una maqueta de 50 libras
+ambas fuerzas gravitacional y eléctrica.
+                                                                                                                        con una masa de 23 kg. Aunque la
+                                                                                                                        maqueta tenía el mismo peso que
+                                                                                                                        la unidad real tendría en la Luna, la
+ ■ Examen rápido
+                                                                                                                        menor masa significaba que tam-
+ 4.2 ¿Qué tiene mayor valor, un newton de oro pesado en la Tierra o un newton de oro                                    bién tendría una baja inercia.
+                                                                                                                        El peso de la unidad es causado
+ pesado en la Luna? a) El newton de oro en la Tierra. b) El newton de oro en la Luna.
+                                                                                                                        por la aceleración del campo de
+ c) El valor es el mismo, a pesar de todo.                                                                              gravedad local, pero el astronauta
+ 4.3 Responda a cada declaración, con Verdadero o Falso: a) Ninguna fuerza de                                           también debe acelerar todo lo
+ gravedad actúa sobre un astronauta en una estación espacial en órbita. b) A una                                        que transporta a fin de moverlo.
+                                                                                                                        En consecuencia, la unidad real
+ distancia de tres radios terrestres a partir del centro de La Tierra, la aceleración de
+                                                                                                                        utilizada en la Luna, con el mismo
+ la gravedad es 1/9 de su valor superficial. c) Si dos planetas son idénticos, cada                                     peso, pero una mayor inercia, fue
+ uno con gravedad de superficie g y volumen V, se unen formando un planeta con                                          más difícil de manejar para el
+ volumen 2V y gravedad superficial 2g. d) Un kilogramo de oro puede tener mayor                                         astronauta que la maqueta de la
+ valor en la Tierra que en la Luna.                                                                                     unidad en la Tierra.
+                                                                                                      4.4 | Tercera ley de Newton
+
+
+  4.4 Tercera ley de Newton
+En la sección 4.1 determinamos que se ejerce una fuerza sobre un objeto cuando se pone
+en contacto con algún otro. Por ejemplo, considere la tarea de introducir un clavo dentro
+de un bloque de madera, como se ilustra en la figura 4.9a (página 96). Para acelerar el
+clavo y conducirlo hacia dentro del bloque, el martillo debe ejercer una fuerza neta sobre
+el clavo. De cualquier modo, Newton se dio cuenta que una sola fuerza aislada (como
+la fuerza que ejerce el martillo sobre el clavo) no podría existir. Más bien, las fuerzas en la
+naturaleza siempre existen en pares. De acuerdo con Newton, cuando el clavo es impulsa-
+do dentro del bloque por la fuerza ejercida por el martillo, éste disminuye su velocidad y
+se detiene por la fuerza ejercida por el clavo.
+    Newton describe tales pares de fuerzas con su tercera ley:
+                                                          S
+   Si interactúan el objeto 1 y el objeto 2, la fuerza F 12 ejercida por elSobjeto 1 en el            b Tercera ley de Newton
+   objeto 2 es igual en magnitud, pero opuesta en dirección a la fuerza F 21 ejercida por
+   el objeto 2 en el objeto 1.
+                                                                                                       Tip 4.4 Pares
+    Esta ley que se ilustra Sen la figura 4.9b: establece que no puede existir una simple
+                                                                                                       acción-reacción
+fuerza aislada. La fuerza F 12 ejercida por elSobjeto 1 sobre el objeto 2 en ocasiones es
+                                                                                                       Al aplicar la tercera ley de
+denominada fuerza de acción, y la otra fuerza F 21 ejercida por el objeto 2 sobre el objeto 1
+                                                                                                       Newton, recuerde que una fuerza
+es conocida como fuerza de reacción. En realidad, la fuerza puede ser etiquetada por cual-             de acción y su fuerza de reac-
+quiera de las dos fuerzas de acción o de reacción. La fuerza de acción es igual en magnitud            ción actúan siempre en diferentes
+a la fuerza de reacción y opuesta en dirección. En todos los casos, las fuerzas de acción y            objetos. Dos fuerzas externas
+reacción actúan en diferentes objetos. Por ejemplo, la fuerza queSactúa en un proyectil en             actuando en el mismo objeto,
+caída libre es la fuerza ejercida por la Tierra     sobre el proyectil, F g , y la magnitud de esta    incluso si son de igual magnitud
+                                                S
+fuerza es  el peso  mg. La reacción a la fuerza F   es la fuerza ejercida por el proyectil sobre la    y en dirección opuesta, no pueden
+        S       S                          S      g
+                                                                                                       ser un par acción-reacción.
+Tierra, F g9 2 F g. La fuerza de reacción F g9 puede acelerar la Tierra hacia el proyectil justo
+96      CAPÍTULO 4 | Leyes de movimiento
+
+Figura 4.9 La tercera ley de
+                                                                                                                S
+Newton. a) La fuerza ejercida por                                                                         S     Fnh
+el martillo sobre el clavo es igual en                                                                    Fhn
+magnitud y opuesta en dirección a
+la fuerza ejercida por el clavo sobre
+                          S
+el martillo. b) La fuerza F 12 ejercida
+
+
+                                               Jim Gillmoure/corbisstockmarket.com
+por el objeto 1 sobre el objeto 2 es
+igual en magnitud y opuesta en                                                                                                           S      S
+                       S                                                                                                                 F12  F21
+dirección a la fuerza F 21 ejercida por                                                                                   2
+el objeto 2 sobre el objeto 1.                                                                                                     S
+                                                                                                                                   F12         S
+                                                                                                                                               F21
+
+
+                                                                                                                                                      1
+
+                                                                                     a                                b
+
+                                                                                         S
+                                          como la fuerza de acción F g acelera al proyectil hacia la Tierra. De cualquier modo, a causa
+                                          de que la Tierra tiene mucho más masa, su aceleración debido a su fuerza de reacción es
+                                          insignificantemente pequeña.
+                                               La tercera ley de Newton afecta continuamente nuestras actividades cotidianas. Sin
+                                          ella, ninguna clase de locomoción sería posible, ya fuera a pie, en una bicicleta o en un
+                                          vehículo motorizado. Por ejemplo, al caminar se ejerce una fuerza de fricción contra la su-
+                                          perficie de la tierra. La fuerza de reacción de la superficie de la tierra contra nuestros pies
+                                          nos impulsa hacia adelante. De la misma manera, los neumáticos de una bicicleta ejercen
+                                          una fuerza de fricción contra la superficie de la tierra, y la reacción de ésta empuja a la
+                                          bicicleta hacia adelante. Como se verá brevemente, la fricción juega un papel principal en
+                                          tales fuerzas de reacción.
+                    APLICACIÓN                 Como otro ejemplo de la tercera ley de Newton, considere los helicópteros. La mayo-
+            Vuelo de un helicóptero       ría de ellos tiene un conjunto de grandes aspas giratorias en un plano horizontal arriba
+                                          del cuerpo del aparato y otro conjunto giratorio más pequeño en un plano vertical en la
+                                          cola del mismo. Otros helicópteros tienen dos conjuntos de grandes aspas arriba del cuerpo
+                                          girando en direcciones opuestas. ¿Por qué los helicópteros siempre tienen dos conjuntos
+                                          de aspas? En la primera clase de helicóptero, el motor aplica una fuerza a las aspas, ocasio-
+ Tip 4.5 Igual y opuesta                  nando que cambien su movimiento rotacional. Sin embargo, de acuerdo con la tercera ley
+ pero no es una fuerza                    de Newton las aspas deben ejercer una fuerza en el motor de igual magnitud y en dirección
+ de reacción                              opuesta. Esta fuerza ocasionaría que el cuerpo del helicóptero dé vueltas en la dirección con-
+ Un error común en la figura              traria a las aspas. Un helicóptero rotatorio sería imposible de controlar, de tal modo que
+ 4.10b es considerar la fuerza            se utiliza un segundo conjunto de aspas. Las aspas pequeñas en la cola del aparato propor-
+ normal sobre el objeto como la
+                                          cionan una fuerza opuesta a la que tiende a girar al cuerpo del helicóptero, manteniendo
+ fuerza de reacción a la fuerza de
+ la gravedad, porque en este caso,        el aparato dirigido en una posición estable. En helicópteros con dos conjuntos de grandes
+ estas dos fuerzas son iguales en         aspas que giran en sentidos opuestos, los motores aplican fuerzas en direcciones opuestas,
+ magnitud y opuestas en dirección.        de tal modo que no existe fuerza neta rotatoria del helicóptero.
+                                                                                                   S
+ Sin embargo, esto es imposible,               Como ya se mencionó, la Tierra ejerce una fuerza F g sobre cualquier objeto. Si el obje-
+ debido a que actúan en el mismo          toSes un monitor en reposo sobre una mesa, como en laSfigura 4.10a, la fuerza de reacción
+ objeto.                                  a F g es la fuerza que ejerce el monitor sobre la Tierra, F g9. El monitor no se acelera hacia
+
+
+                                                                                                 S                        S
+Figura 4.10 Cuando se coloca un                                                                  n                        n
+monitor sobre una mesa, las fuer-
+zas que actúan en el aparato son la
+                  S
+fuerza normal n ejercida por la mesa
+                          S
+y la fuerza de gravedad, F g , como se
+                              S
+ilustra en b). La reacción a n es la
+fuerza ejercida por el monitor sobre
+          S                 S
+la mesa, n 9. La reacción a F g es la                                                                S
+                                                                                                     Fg
+fuerza ejercida por el monitor sobre                                                                                          S
+           S
+la Tierra, F g 9.                                                                                                             Fg
+                                                                                             S
+                                                                                             n
+                                                                                                     S
+                                                                                                     Fg
+
+
+                                                                                         a                            b
+                                                                                                   4.4 | Tercera ley de Newton   97
+                                                                                       S
+abajo ya que la sostiene la mesa. Por lo tanto, la mesa ejerce una fuerza hacia arriba n , cono-
+cida como la fuerza normal, sobre el monitor. (Normal, un término técnico de matemáticas,
+que en este contexto significa “perpendicular”.) La fuerza normal es una fuerza elásti-
+ca que surge a causa de la cohesión de la materia y es de origen electromagnético. Equilibra
+la fuerza de gravitación que actúa sobre el monitor, evitando que este caiga a través de la
+mesa y puede tener cualquier valor necesario, hasta el punto de romper la mesa. La reac-
+       S                                                       S
+ción a n es la fuerza ejercida por el monitor sobre la mesa, n . Debido a eso,
+                                S       S             S      S
+                                F g 5 2F g9     y     n 5 2n 9
+            S    S                                     S
+Las fuerzas n y n 9 tienenS
+                              la misma magnitud que F g . Observe que las fuerzas de acción
+                              S
+sobre Sel monitor son F g y n , como se muestra en la figura 4.10b. Las dos fuerzas de reac-
+             S
+ción, F g9 y n 9, son ejercidas por el monitor en objetos diferentes a este. Recuerde que las
+dos fuerzas en un par acción-reacción siempre actúan en dos objetos diferentes.
+                                                                              S
+    Debido a que el monitor no está acelerando   S
+                                                    en ninguna dirección (a 5 0), de la se-
+                                        S             S
+gunda ley de Newton tenemos que ma 5 0 5 F g 1 n . Sin embargo, Fg 5 2mg, así que n 5
+mg, un resultado útil.
+
+
+ ■ Examen rápido                                                                                     APLICACIÓN
+                                                                                                     Colisión de vehículos
+ 4.4 Un pequeño automóvil deportivo colisiona de frente contra un camión. La enorme
+ fuerza de impacto (en magnitud) actúa sobre a) el automóvil, b) el camión, c) ninguno,
+ la fuerza es la misma en ambos. ¿Cuál es el vehículo que se somete a la mayor acelera-
+ ción en magnitud? d) el automóvil, e) el camión, f) las aceleraciones son las mismas.
+98       CAPÍTULO 4 | Leyes de movimiento
+
+
+ S                                    S
+ T9                                   T
+
+Figura 4.11 La segunda ley de                  4.5 Aplicaciones de las leyes de Newton
+Newton aplicada a una cuerda pro-
+porciona T 2 T 9 5 ma. Sin embargo,          Esta sección aplica las leyes de Newton a objetos en movimiento bajo la influencia de
+si m 5 0, entonces T 5 T 9. Así, la          fuerzas externas constantes. Suponemos que los objetos se comportan como partículas,
+tensión en una cuerda sin masa es la         de manera que no es necesario considerar la posibilidad de movimiento rotacional. Ade-
+misma en todos los puntos en la cuerda.      más, despreciamos cualquier efecto de la fricción y las masas de cualquier cuerda o lazo
+                                             incluidos. Con estas aproximaciones, la magnitud de la fuerza ejercida a lo largo de una
+                                             cuerda, conocida como tensión, es la misma en todos los puntos  S    S
+                                                                                                                    en la cuerda. Esto se acla-
+                                             ra por la cuerda en la figura 4.11, que muestra las fuerzas T y T 9 que actúan en ella. Si la
+                                             cuerda tiene masa m, entonces la segunda ley de Newton aplicada a la cuerda proporciona
+                                             T 2 T 9 5 ma. De cualquier modo, si despreciamos la masa m, como en los próximos ejem-
+                                             plos, entonces T 5 T 9.
+                                                  Cuando se aplican las leyes de Newton a un objeto, sólo nos interesan aquellas fuerzas
+           a
+                                             que actúan sobre el objeto. Por ejemplo,
+                                                                                 S
+                                                                                        en la figura 4.10b, las únicas fuerzasS
+                                                                                                                                  externas que
+                                                                              S                                         S
+               S
+                n
+                                             actúan sobre el monitor son n y F g . Las reacciones a estas fuerzas, n 9 y F g9, actúan sobre
+                          y                  la mesa y sobre la Tierra, respectivamente, y no aparecen aplicadas en la segunda ley de
+                                             Newton para el monitor.
+                      S
+                                 x
+                                                  Considere una caja que se está jalando a la derecha sobre una superficie horizontal,
+                      T
+                                             sin fricción, como en la figura 4.12a. Suponga que quiere encontrar la aceleración de la
+                                             caja y la fuerza que ejerce la superficie en ella. La fuerza horizontal ejercida sobre la caja
+               S                             actúa
+                                             S
+                                                    a través de la cuerda. La fuerza que la cuerda ejerce sobre S
+                                                                                                                    la caja se indica mediante
+               Fg                            T (debido a que es una fuerza de tensión). La magnitud de T es igual a la tensión en la
+           b
+                                             cuerda. Lo que se intenta mediante las palabras “tensión en la cuerda” es precisamente
+                                             la fuerza leída en una balanza de resorte cuando la cuerda en el problema ha sido cortada
+Figura 4.12 a) Una caja está                 e insertada la balanza entre los extremos que se cortaron. Se dibuja una circunferencia
+siendo jalada hacia la derecha sobre         discontinua alrededor de la caja en la figura 4.12a, para destacar la importancia de aislar
+una superficie sin fricción. b) El           la caja de sus alrededores.
+diagrama de cuerpo libre que repre-               Ya que nos interesa sólo el movimiento de la caja, se debe tener la capacidad para iden-
+senta las fuerzas ejercidas sobre la caja.
+                                             tificar todas las fuerzas que actúan sobre
+                                                                                     S
+                                                                                           ella. Estas fuerzas se ilustran en la figura 4.12b.
+                                             Además de laSexhibición de la fuerza T , el diagrama de fuerza para la caja incluye la fuerza
+                                                                                                           S
+ Tip 4.6 Diagramas                           de gravedad F g ejercida por la Tierra y la fuerza normal n ejercida por el piso. Tal diagra-
+ de cuerpo libre                             ma de fuerza se conoce como diagrama de cuerpo libre ya que el ambiente se sustituye
+ La etapa más importante en la solu-         por una serie de fuerzas relacionadas en un cuerpo libre de otra manera. La construcción
+ ción de un problema por medio de            correcta de un diagrama de cuerpo libre es una fase esencial en la aplicación de las leyes
+ la segunda ley de Newton es dibu-           de Newton. ¡Un diagrama inexacto muy probablemente nos conducirá a respuestas inco-
+ jar el diagrama de cuerpo libre             rrectas!
+ correcto. Incluya sólo aquellas                  Las reacciones a las fuerzas que hemos mencionado —específicamente, la fuerza ejer-
+ fuerzas que actúan directamente             cida mediante la cuerda en la mano que está jalando, la fuerza ejercida por la caja sobre
+ sobre el objeto bajo estudio.
+                                             la Tierra y la fuerza ejercida por la caja sobre el piso— no se incluyen en el diagrama de
+                                             cuerpo libre debido a que actúan en otros objetos, y no sobre la caja. En consecuencia, no
+ Tip 4.7 Una partícula                       influyen directamente en el movimiento de ésta. Sólo se incluyen las fuerzas que actúan
+ en equilibrio                               directamente sobre ella.
+ Una fuerza neta igual a cero                     Ahora apliquemos la segunda ley de Newton a la caja. Primero, elegimos un sistema
+ sobre una partícula no signi-               coordenado adecuado. En este caso es conveniente utilizar uno que se muestra en la figura
+ fica que la partícula no se esté            4.12b, con el eje x horizontal y el eje y vertical. Se puede aplicar la segunda ley de Newton
+ moviendo. Significa que la partí-           en la dirección x, en la dirección y, o en ambas, dependiendo de lo que se esté pidiendo
+ cula no se está acelerando. Si la par-      determinar en el problema. La segunda ley de Newton aplicada a la caja en las direcciones
+ tícula tiene una velocidad inicial
+                                             x y y produce las dos ecuaciones siguientes:
+ diferente de cero y una fuerza neta
+ igual a cero está actuando sobre
+                                                                             max 5 T       may 5 n 2 mg 5 0
+ ella, continúa moviéndose con la
+ misma velocidad.
+                                                                                   4.5 | Aplicaciones de las leyes de Newton       99
+
+A partir de estas ecuaciones, tenemos que la aceleración en la dirección x es constante,
+proporcionada por ax 5 T/m y que la fuerza normal está dada por n 5 mg. Ya que la ace-
+leración es constante, las ecuaciones de cinemática pueden ser aplicadas para obtener
+información adicional acerca de la velocidad y el desplazamiento del objeto.
+
+
+ ■ ESTRATEGI A PARA LA SOLUCIÓN DE PROBLEMAS
+
+Segunda ley de Newton
+Los problemas que involucran la segunda ley de Newton pueden ser muy complejos. El siguiente
+protocolo rompe el proceso de solución en objetivos intermedios, más pequeños:
+1. Lea el problema esmeradamente por lo menos una vez.
+2. Trace una imagen del sistema, identifique el objeto de interés básico e indique las
+   fuerzas con flechas.
+3. Etiquete cada fuerza en la imagen de cierta manera que inducirá a pensar lo que
+   las cantidades físicas representan (digamos, T para la tensión).
+4. Trace un diagrama de cuerpo libre del objeto de interés, en función de la imagen
+   etiquetada. Si se incluyen objetos adicionales, dibuje diagramas de cuerpo libre por
+   separado para ellos. Elija coordenadas convenientes para cada objeto.
+5. Aplique la segunda ley de Newton. Los componentes x y y de la segunda ley de
+   Newton se toman de la ecuación vectorial y se rescriben individualmente. Esto por
+   lo general da como resultado dos ecuaciones y dos incógnitas.
+6. Resuelva para la cantidad desconocida deseada y sustituya los números.
+
+
+En el caso especial de equilibrio, el proceso anterior se simplifica ya que la aceleración
+es cero.
+
+
+Objetos en equilibrio
+Los objetos que están ya sea en reposo o moviéndose con velocidad constante se dice
+                                S
+que están en equilibrio. Ya que a 5 0, al aplicar la segunda ley de Newton a un objeto en
+equilibrio, tenemos
+                                              S
+                                           aF50                                           [4.9]
+
+Este enunciado establece que la suma vectorial de todas las fuerzas (la fuerza neta) que
+actúa sobre un objeto en equilibrio es cero. La ecuación 4.9 es equivalente al conjunto de
+ecuaciones por componente dadas por
+
+                                a Fx 5 0             a Fy 5 0                           [4.10]
+                                               y                                                    i
+
+En este libro no se consideran problemas en tres dimensiones, pero la extensión de la
+ecuación 4.10 para un problema de este tipo puede hacerse mediante la adición de una
+tercera ecuación: o F z 5 0.
+
+
+ ■ Examen rápido
+
+ 4.5 Piense en las dos situaciones que se muestran en la figura 4.13 en las que no existe           ii
+ aceleración. En ambos casos el hombre jala con una fuerza de magnitud F. La lectura
+ en la balanza del inciso i) de la figura a) ¿es mayor que, b) menor que, o bien c) igual a       Figura 4.13 (Examen rápido 4.5)
+ la lectura en el inciso ii)?                                                                     i) Una persona jala una balanza de
+                                                                                                  resorte unida a un muro con una
+                                                                                                  fuerza de magnitud F. ii) Dos per-
+                                                                                                  sonas jalan una balanza de resorte
+                                                                                                  colocada entre dos cuerdas con fuer-
+                                                                                                  zas de magnitud F en direcciones
+                                                                                                  opuestas.
+                                                                                  4.5 | Aplicaciones de las leyes de Newton          101
+
+
+ ■ Examen rápido
+
+ 4.6 Para la chica que está siendo jalada hacia adelante en el trineo, figura 4.16, la
+ magnitud de la fuerza normal ejercida por la tierra sobre el trineo es a) ¿igual al peso
+ total de la chica más el trineo, b) mayor que el peso total, c) menor que el peso total,
+ o bien d) posiblemente mayor o menor que el peso total, dependiendo del tamaño del
+ peso relativo a la tensión en la cuerda?
+
+
+Objetos con aceleración y la segunda ley de Newton
+Cuando una fuerza neta actúa sobre un objeto, el objeto acelera, y podemos aplicar la
+segunda ley de Newton para estudiar el movimiento.                                                 Figura 4.16 (Examen rápido 4.6)
+
+Sustituya a 2 5 2a1 en la ecuación (2) y multiplique ambos      (3) m 2a1 5 2T 1 m 2g
+lados por 21:
+
+Sume las ecuaciones (1) y (3) y resuelva para a1:               (m1 1 m 2)a1 5 m 2g 2 m1g
+                                                                                    m2 2 m1
+                                                                          a1 5 a              bg
+                                                                                    m1 1 m2
+
+
+Sustituya este resultado en la ecuación (1) para encontrar
+                                                                T5 a              bg
+                                                                        2m 1m 2
+T:
+                                                                       m1 1 m2
+                                                        www.elsolucionario.org
+
+                                                                                                          4.6 | Fuerzas de fricción   105
+
+
+  4.6 Fuerzas de fricción
+Un objeto en movimiento sobre una superficie o bien a través de un medio viscoso como
+aire o agua encuentra resistencia cuando interactúa con sus alrededores. Esta resistencia
+se conoce como fricción. Las fuerzas de fricción son esenciales en nuestra vida diaria. La
+fricción hace posible tomar y sostener cosas, conducir un automóvil, caminar y correr.
+Incluso estar de pie en un sitio es imposible sin la fricción, el menor cambio le ocasionaría
+al instante deslizarse y caerse.
+      Imagine que ha llenado un bote de plástico con desechos y quiere arrastrar el bote           S
+                                                                                                      a
+través de la superficie de su patio de concreto. Si aplica una fuerza horizontal externa F al
+bote, que actúe hacia la derecha S
+                                         como se muestra en la figura activa    S
+                                                                                   4.21a (página 106),
+el bote permanece fijo si F es pequeña. La fuerza que contrarresta    S
+                                                                             a  F e impide que el bote
+se traslade, actúa hacia S
+                              la izquierda, opuesta a la dirección de F
+                                                                      S
+                                                                          y se le
+                                                                                S
+                                                                                  conoce
+                                                                                       S
+                                                                                            como fuerza
+de
+S
+     fricción  estática, f s. Mientras  el bote no se esté
+                                                      S
+                                                           moviendo,
+                                                                   S
+                                                                      f s 5   2F  . Si F se incrementa,
+f s también aumenta. De la misma manera, si F disminuye, f s también lo hace. Los experi-
+mentos demuestran que la fuerza de fricción surge de la naturaleza de las dos superficies.
+Debido a su rugosidad, el contacto seShace en unos cuantos puntos.
+      Si se incrementa la magnitud de F , como en la figura activa 4.21b, el bote finalmente
+se desliza. Cuando el bote está en el límite del deslizamiento, fs es un máximo, como se
+muestra en la figura activa 4.21c. Cuando F excede fs,máx, el bote se acelera hacia la dere-
+cha. Cuando el bote está en movimiento, la fuerza de fricción es menor que fs,máx (figura
+4.21c). A la fuerza   S
+                         de fricción para un objeto en movimiento se le denomina fuerza de
+fricción cinética, f k. La fuerza neta F 2 fk en la dirección x que produce una aceleración
+a la derecha, de acuerdo a la segunda ley de Newton. Si F 2 fk, la aceleración es cero y el
+bote se mueve hacia la derecha con velocidad constante. Si se retira la fuerza aplicada, la
+fuerza de fricción actúa hacia la izquierda proporcionando una aceleración del bote en
+la dirección x negativa y, por último, llega al reposo, una vez más compatible con la segun-
+da ley de Newton.
+      Experimentalmente, para una buena aproximación, las dos fs,máx y fk para un objeto
+sobre una superficie son proporcionales a la fuerza normal ejercida por la superficie sobre
+el objeto. Las observaciones experimentales pueden resumirse de la siguiente manera:
+106       CAPÍTULO 4 | Leyes de movimiento
+
+Figura activa 4.21 a) y b) Al jalar
+un bote de basura, la dirección de                                                                             Cuando la magnitud de
+                         S                                           Para pequeñas                             la fuerza aplicada es
+la fuerza de fricción (f s en el inciso
+     S                                                               fuerzas aplicadas, la                     superior a la magnitud
+a) y f k en el inciso b)) entre el bote
+y la superficie rugosa, es opuesta a                                 magnitud de la fuerza                     de la fuerza máxima de
+                                      S                              de la fricción estática                   fricción estática, el bote
+la dirección de la fuerza aplicada F .
+c) Una gráfica de la magnitud de la                                  es igual a la magnitud                    de basura se libera y se
+fuerza de fricción en función de                                     de la fuerza aplicada.                    acelera hacia la derecha.
+la fuerza aplicada. Observe que
+fs ,máx . fs
+
+                                                                                      S                                  S
+                                                                                      n                                  n
+                                                                                                                                  Movimiento
+                                                                             S                      S               S                    S
+                                                                             fs                     F               fk                   F
+
+
+                                                                                                S                             S
+                                                                                            mg                               mg
+
+                                                                a                                              b
+                                                                         S
+                                                                     |f |
+                                                               fs,máx
+
+                                                                                                F
+                                                                                            
+                                                                                       fs
+                                                                                                                         fk  mkn
+
+                                                                                                                                     F
+                                                                     O            Región estática              Región cinética
+
+                                                                 c
+
+
+                                             ■   La magnitud de la fuerza de fricción estática entre dos superficies cualesquiera en
+                                                 contacto puede tener los valores
+                                                                                                        fs # msn                               [4.11]
+ Tip 4.8 Utilice signo de
+                                               donde la constante adimensional ms se le conoce como el coeficiente de fricción es-
+ igualdad en situaciones
+                                               tática, y n es la magnitud de la fuerza normal ejercida por una superficie sobre otra.
+ límite
+                                               Además la ecuación 4.11 se cumple para fs 5 fs,máx ; msn cuando un objeto está en
+ En la ecuación 4.11 el signo de la
+                                               el límite del deslizamiento. Esta situación se le conoce como movimiento inminente. El
+ igualdad se utiliza sólo cuando las
+ superficies están más o menos por             sentido estricto de la desigualdad se cumple cuando el componente paralelo de la
+ romperse libremente y se inicia               fuerza aplicada a la superficie es menor que msn.
+ el deslizamiento. No caiga en la            ■ La magnitud de la fuerza de fricción cinética que actúa entre dos superficies es
+ trampa común de utilizar fs 5 msn
+ en toda situación en reposo o en                                                                       f k 5 mkn                              [4.12]
+ equilibrio.
+                                               donde mk es el coeficiente de fricción cinética.
+                                             ■ Los valores de mk y ms dependen de la naturaleza de las superficies, pero mk por lo
+                                               general es menor que ms. La tabla 4.2 menciona algunos valores reportados.
+                                             ■ La dirección de la fuerza de fricción ejercida por una superficie sobre un objeto es
+
+                                               opuesta al movimiento presente (fricción cinética) o bien el movimiento inminente
+                                               (fricción estática) del objeto relativo a la superficie.
+                                             ■ Los coeficientes de fricción son casi independientes del área de contacto entre las
+
+                                               superficies.
+
+                                              Aunque el coeficiente de fricción cinética varía con la rapidez del objeto, Desprecie
+                                          cualquier variación. Con facilidad se demuestra la naturaleza aproximada de las ecuacio-
+                                          nes 4.11 y 4.12 al intentar deslizar un objeto hacia abajo de un plano inclinado con ace-
+                                          leración constante. En especial con rapidez baja, es probable caracterizar el movimiento
+                                          mediante episodios alternos de parar y deslizar.
+                                                                                                  4.6 | Fuerzas de fricción    107
+
+Tabla 4.2 Coeficientes de friccióna
+
+                                                ms            mk
+Acero sobre acero                             0.74           0.57
+Aluminio sobre acero                          0.61           0.47
+Cobre sobre acero                             0.53           0.36
+Caucho sobre concreto                         1.0            0.8
+Madera sobre madera                         0.25–0.5         0.2
+Vidrio sobre vidrio                           0.94           0.4
+Madera encerada sobre nieve húmeda            0.14           0.1
+Madera encerada sobre nieve seca               —             0.04
+Metal sobre metal (lubricada)                 0.15           0.06
+Hielo sobre hielo                             0.1            0.03
+Teflón sobre teflón                           0.04           0.04
+Uniones sinoviales en humanos                 0.01           0.003
+a
+Todos los valores son aproximados.
+
+
+    ■ Examen rápido
+                                                                                                                         30
+    4.7 Si presiona con su mano un libro plano contra una pared vertical, ¿en qué direc-                                   S
+                                                                                                                           F
+    ción se ejerce la fuerza de fricción de la pared sobre el libro? a) hacia abajo, b) hacia
+    arriba, c) fuera de la pared, d) hacia dentro de la pared
+    4.8 Una caja está colocada sobre la plataforma de una camioneta. Cuando ésta acelera            a
+    hacia el este, la caja se mueve con ella, sin deslizarse sobre la plataforma de la camio-
+    neta. ¿En qué dirección se ejerce la fuerza de fricción de la plataforma de la camioneta
+    sobre la caja? a) Hacia el oeste. b) Hacia el este. c) No existe fuerza de fricción, debido                      S
+    a que la caja no se desliza.                                                                                     F
+
+    4.9 Suponga que su amiga está sobre un trineo y le pide que la traslade a través de una                          30
+    superficie horizontal y plana. Tiene que elegir de a) empujar desde atrás aplicando
+    una fuerza hacia abajo sobre sus hombros a 30° debajo de la horizontal (figura 4.22a)          b
+    o bien b) atando una cuerda al frente del trineo y jalar con una fuerza a 30° sobre la
+    horizontal (figura 4.22b). ¿Qué opción le sería más fácil y por qué?                          Figura 4.22 (Examen rápido 4.9)
+                                                                                                                                           4.6 | Fuerzas de fricción
+
+
+ El enfoque de sistema
+ A menudo los problemas de dos cuerpos se pueden tratar como objetos simples y resol-
+ verse planteando un sistema. Cuando los objetos están unidos de manera rígida, es decir,
+ mediante una cuerda de masa despreciable que no se estira, esta aproximación puede
+ simplificar considerablemente el análisis. Cuando los dos cuerpos se consideran juntos,
+ una o más fuerzas terminarán convirtiéndose en fuerzas internas del sistema, en lugar de
+ fuerzas externas que afectan cada uno de los cuerpos. Los dos planteamientos se utilizan
+ en el ejemplo 4.14.
+
+
+aumenta. La suma vectorial de la fuerza de gravedad y la
+fuerza de resistencia del aire proporciona una fuerza total
+                                                                                                                                                           S
+que disminuye con el tiempo, de tal modo que su acelera-
+
+
+                                                                   Guy Sauvage/Photo Researchers, Inc.
+                                                                                                                                                           R
+ción disminuye. Una vez que las dos fuerzas se equilibran
+entre sí, la fuerza neta es cero, de igual manera la acelera-                                                    S
+                                                                                                                 vt
+ción es cero, y ella alcanza una rapidez terminal.
+    Incluso la rapidez terminal por lo general es lo suficiente-                                                                                            S
+                                                                                                                                                           mg
+mente alta que un impacto es fatal, aunque existen historias
+sorprendentes de supervivencia. En un caso, un hombre cayó
+de espalda sobre un terreno recién arado y sobrevivió. (De
+cualquier modo, virtualmente se fracturó todos los huesos
+                                                                                                         Figura 4.28 (Aplicación de la física 4.2)
+de su cuerpo.) En otro caso, un asistente de vuelo sobrevivió
+a una caída desde 30 000 pies sobre un banco de nieve. En                                                más aire, creando un arrastre del aire mayor, de manera que
+ningún caso la persona habría tenido alguna oportunidad de                                               la rapidez terminal es inferior.
+sobrevivir sin el efecto del arrastre del aire.                                                              El arrastre del aire también es importante en los viajes
+    Los paracaídas y las alas flexibles crean una fuerza de                                              espaciales. Sin él, el regreso a la Tierra necesitaría una gran
+arrastre mucho más grande debido a la extensión de su área                                               cantidad de combustible. El arrastre del aire ayuda a retardar
+y pueden reducir la rapidez terminal a sólo algunos metros                                               las cápsulas y naves espaciales, y se han propuesto técnicas de
+por segundo. Incluso algunos aficionados de este deporte                                                 aerocaptura para los viajes a otros planetas. Estas técnicas re-
+han desarrollado juegos especiales con alas, permitiendo                                                 ducen de manera significativa las necesidades de combustible
+deslizamientos prolongados hasta la superficie de la tierra.                                             al utilizar el arrastre del aire para retardar la caída de la nave
+En cada caso, un área de sección transversal mayor intersecta                                            espacial. ■
+      CAPÍTULO 4 | Leyes de movimiento
+
+ ■ RESUMEN
+
+
+4.1 Fuerzas                                                                   La ley de la gravitación universal de Newton es
+En la naturaleza existen cuatro fuerzas fundamentales:                                                         m 1m 2
+1) la fuerza nuclear fuerte entre partículas subatómicas; 2) las                                    Fg 5 G                                   [4.5]
+                                                                                                                r2
+fuerzas electromagnéticas entre cargas eléctricas; 3) la fuerza
+nuclear débil, que surge de ciertos procesos de decaimiento ra-            El peso w de un objeto es la magnitud de la fuerza de grave-
+diactivo y 4) la fuerza gravitacional entre objetos. Éstas en con-         dad ejercida sobre ese objeto y se conoce mediante
+junto se conocen como campo de fuerzas. La física clásica se                                           w 5 mg                                [4.6]
+relaciona sólo con las fuerzas de gravedad y electromagnética.
+     Fuerzas como la fricción o aquellas que caracterizan el               donde g 5 Fg/m es la aceleración de la gravedad.
+golpe a una pelota con un bate se les conoce como fuerzas de                   La solución de problemas                     S
+                                                                           con la segunda ley de Newton               S Fg
+contacto. Una o más fuerzas de contacto, a nivel fundamen-                                                            Fg           m2
+tal, tienen una naturaleza electromagnética.                               implica encontrar todas las fuer-
+                                                                           zas que actúan en un sistema y                    r
+                                                                                                                    m1
+                                                                           escribir la ecuación 4.1 para las
+4.2 Primera ley de Newton                                                  componentes x y y por separa-      La fuerza de gravedad
+La primera ley de Newton establece que un objeto se mueve                  do. Entonces estas ecuaciones      entre cualquiera de los dos
+con velocidad constante, a menos que actúe una fuerza sobre él.                                               objetos es proporcional a
+                                                                           se resuelven algebraicamente       las masas e inversamente
+    La tendencia para que un objeto mantenga su estado                     para las cantidades desconoci-     proporcional al cuadrado
+original de movimiento o reposo se le conoce como inercia.                 das.                               de la distancia entre ellos.
+Masa es la cantidad física que mide la resistencia de un objeto
+a los cambios en su velocidad.
+                                                          S
+                                                          a                4.4 Tercera ley de Newton
+                                                 m                S
+                                                               F          La tercera ley de Newton esta-
+4.3 Segunda ley                                                            blece que si dos objetos    inte-                          S
+                                                                                              S                                 S
+    de Newton                                                 S
+                                            Una fuerza neta o F
+                                                                           ractúan, la fuerza F 12 que ejer-                    Fhn    Fnh
+
+La segunda ley de Newton estable-           actuando sobre una
+                                                                           ce el objeto 1 sobre el objeto
+ce que la aceleración de un objeto          masa m crea una ace-           2 es igual en magnitud y opues-
+                                                                                                         S
+es directamente proporcional a su           leración proporcional          ta en dirección a la fuerza F 21
+masa. La fuerza neta que actúa so-          a la fuerza e inversa-         que ejerce el objeto 2 sobre el           La tercera ley de Newton
+                                            mente proporcional a           objeto 1:                                 en acción: el martillo dirige
+bre un objeto es igual al producto
+                                            la masa.                                 S        S
+                                                                                                                     al clavo dentro de la pared
+de su masa por su aceleración:                                                       F 12 5 2F 21                    y el clavo lleva a la cabeza
+                                                                                                                     del martillo lentamente al
+                             S        S
+                                                                           En la naturaleza jamás se puede           reposo con una fuerza igual
+                   oF 5 ma                 [4.1]                           presentar una fuerza aislada.             y opuesta.
+   4.5 Aplicaciones de las leyes de Newton                                   donde ms es el coeficiente de fricción estática. Cuando un
+  Un objeto en equilibrio no tiene una fuerza externa neta que               objeto se desliza sobre una superficie, la dirección de la fuer-
+                                                                                                      S
+  actúe en él, y la segunda ley, en la forma de componentes,                 za de fricción cinética, f k , sobre el objeto es opuesto a la di-
+  implica que oFx 5 0 y oFy 5 0 para tal objeto. Estas dos ecua-             rección del movimiento del objeto relativo a la superficie y
+  ciones son útiles para la solución de problemas en estática,               proporcional a la magnitud de la fuerza normal. La magnitud
+                                                                                S
+  en los cuales el objeto está en reposo o en movimiento con                 de f k es
+  velocidad constante.                                                                                   f k 5 mkn                            [4.12]
+      Un objeto bajo aceleración necesita las mismas dos ecua-
+  ciones, pero con el término aceleración incluido: oFx 5 max                donde mk es el coeficiente de fricción cinética. En general,
+  y oFy 5 may . Cuando la aceleración es constante, las ecuacio-             mk , ms .
+  nes de cinemática pueden complementar la segunda ley de                        La solución de problemas que implican fricción es la ra-
+  Newton.                                                                    zón para utilizar estas dos fuerzas de fricción en la segunda
+                                                                             ley de Newton. La fuerza de fricción estática debe manejarse
+                                                                             con cuidado porque se refiere a una fuerza máxima, la cual
+   4.6 Fuerzas de fricción
+                                                                             no siempre se menciona en un problema determinado.
+  La magnitud de la fuerza máxima de fricción estática, fs,máx,
+  entre un objeto y una superficie es proporcional a la magni-
+  tud de la fuerza normal que actúa sobre el objeto. Esta fuerza
+  máxima se presenta cuando el objeto está en el límite del
+  deslizamiento. En general,
+                                 fs # msn                         [4.11]

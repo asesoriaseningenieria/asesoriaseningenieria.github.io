@@ -1,0 +1,43 @@
+--- page-1.png ---
+1-I8.
+
+The shaft is supported at its ends by two bearings
+A and B and is subjected to the forces applied to the pulleys
+fixed to the shaft. Determine the resultant internal loadings
+acting on the eross seetion at point C.The 400-N forces act
+in the —z direction and the 200-N and 80-N forces act in the
+y direction. The journal bearings at A and B exert only y
+and z components of force on the shaft.
+
+--- page-2.png ---
+1-28.
+
+Determine the resultant internal loadings acting on the
+Cross section a points B and C of the curved member.
+
+--- page-3.png ---
+*1-32.
+
+Determine the largest intensity w of the uniform loading that
+can be applied to the frame without causing either the average
+normal stress or the average shear stress at section D- to
+exceed ' - 15 MPa and 7 - 16 MPa, respectively. Member
+CB has a sguare cross section of 30 mm on each side.
+
+--- page-4.png ---
+1-53.
+
+The bar has a cross-sectional area of 400(1076) m2. If it is
+subjected to a uniform axial distributed loading along its
+length of 9 kN /m, and to two concentrated loads as shown,
+determine the average normal stress in the bar as a function
+ofxforO.6m sxs 1Sm.
+
+--- page-5.png ---
+1-70.
+
+The lever is attached to the shaft A using a key that has
+a width d and length of 25 mm. If the shaft is fixed and a
+vertical force of 200 N is applied perpendicular to the
+handle, determine the dimension d if the allowable shear
+stress for the key is T. 7 35 MPa.

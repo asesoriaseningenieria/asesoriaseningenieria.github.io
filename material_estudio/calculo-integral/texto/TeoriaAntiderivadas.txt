@@ -1,0 +1,474 @@
+Capítulo 1: Integral indefinida
+                                          1.1 Función primitiva o antiderivada
+
+                                          Definición
+
+                                          Sea f una función definida en un intervalo I. Una función F (x) se llama primitiva o
+                                          antiderivada de f (x) en I si F es diferenciable y F ′( x) = f ( x) para todo x en I.
+
+       Vea el módulo 1 del programa
+       de televisión Elementos básicos    Ejemplo 1
+       de cálculo integral y series
+                                          Sea f ( x ) = 4 x 3 + 8 x 2 − 4 x + 5.
+
+                                          Son primitivas de f (x) las siguientes funciones:
+
+
+                                                   F1 ( x) = x 4 + x 3 − 2 x 2 + 5 x − 6 , F2 ( x) = x 4 + x 3 − 2 x 2 + 5 x + 4.
+                                                                  8                                       8
+                                                                  3                                       3
+
+                                          En efecto,
+
+
+                                                   F1′ ( x) = F2′ ( x) = 4 x3 + 8 x 2 − 4 x + 5 = f ( x).
+
+
+                                Observación
+
+                                En los ejemplos anteriores es fácil ver que si una función dada f (x) tiene función
+                                primitiva F(x) ésta no es única. Así, en el ejemplo 1 las funciones F1(x) y F2(x)
+                                figuran como funciones primitivas de f (x), o en general, cualquier función de la
+
+
+                           1.2 Teorema 1
+                           Si F1(x) y F2(x) son dos funciones primitivas de f (x) en un intervalo I, entonces la
+                           diferencia entre ellas es una constante.
+
+                         Observación
+
+                         Del teorema anterior se deduce que si F(x) es una primitiva de f (x), entonces
+                         G ( x) = F ( x) + C también lo es, y G(x) así definida se denomina primitiva más
+                         general de f.
+
+
+ 24
+Capítulo 1: Integral indefinida
+cada una actúa como estímulo y ayuda para
+                                                2.1 Integral indefinida
+la otra y forman en conjunto una única y
+bien definida línea de pensamiento.             Definición
+Arquímedes fue además un genio de la
+
+
+                                                indefinida de la función f (x) y se denota por el símbolo ∫ f ( x) dx. Esto es:
+mecánica. Entre sus inventos más célebres       Si F(x) es una función primitiva de f (x), la expresión F(x) + C se llama integral
+se encuentra el «tornillo de Arquímedes»,
+utilizado en muchos países, entre ellos
+España, para extraer agua de los pozos.
+
+                                                        ∫ f ( x)dx = F ( x) + C.
+Construyó también planetarios que, pese a
+la lejanía en el tiempo, eran tan populares
+como lo son en la actualidad.
+
+Sin embargo, no fueron sólo los inventos        En este caso f (x) se llama integrando (o función bajo el signo de integral), C se llama
+«pacíficos» los que dieron a Arquímedes         constante de integración y dx indica que la variable de integración es la letra x.
+su gran fama en la antigüedad, sino también
+su contribución a la defensa de Siracusa
+contra los romanos. Este matemático había
+dotado al ejército de dicha ciudad de armas     Observaciones
+muy modernas, las cuales causaron el
+desconcierto total entre los soldados
+romanos. Los historiadores de la época          1.     El significado geométrico de la integral indefinida es una familia de curvas,
+no describen los «espejos ustorios»                    una para cada valor de C.
+(espejos cóncavos que, puestos de frente
+al Sol, reflejan sus rayos y los reúnen en el
+punto llamado foco, produciendo un calor        2.     Toda función continua f (x) en el intervalo [ a, b] tiene una función primitiva
+capaz de quemar, fundir y hasta volatilizar            y por consiguiente una integral indefinida. Sin embargo, no siempre es po-
+los cuerpos allí colocados), pero sí lo hacen
+los posteriores. Fueron mencionados por
+                                                       sible encontrar la integral indefinida (primitiva más general) de una función
+primera vez por Galeno (el más destacado
+                                                       continua en [ a, b] como sucede por ejemplo con la función f ( x) = 1 + x 4 .
+médico de aquellos tiempos, después de
+Hipócrates). Si realmente existieron, debió
+tratarse de alguna especie de espejo                   Más adelante estudiaremos métodos que permiten determinar las funciones
+parabólico. Según cuenta la leyenda,
+durante el asedio de las tropas romanas a              primitivas (y por consiguiente las integrales indefinidas) de ciertas clases de
+Siracusa, en el año 213 a.C., fueron                   funciones.
+capaces de concentrar los rayos de sol en
+una zona muy reducida, que de esta forma,       3.     De la definición anterior podemos deducir lo siguiente:
+dirigidos hacia la armada romana,
+provocaron el incendio de las naves.
+Arquímedes los situó de forma que los                  a.      La derivada de una integral indefinida es igual al integrando. Es decir,
+rayos llegaran paralelos al eje y que, una
+
+
+                                                                        dx ∫
+vez concentrados, apuntaran a las velas de
+                                                                             f ( x ) dx = f ( x),
+los barcos enemigos. Muy pronto los                                     d
+romanos vieron atónitos cómo las velas de
+sus barcos ardían como por arte de magia.
+
+                                                               o también,
+
+
+                                                                          (           )
+                                                                        d ∫ f ( x)dx = f ( x)dx.
+
+
+                                                       b.      Como F ′( x) = f ( x), entonces dF ( x) = f ( x)dx.
+
+                                                               Por tanto, ∫ dF ( x) = F ( x) + C.
+
+                                                De acuerdo con la observación 3, podemos obtener fórmulas de integración a partir
+                                                de las fórmulas de diferenciación. Usaremos las siguientes fórmulas que aparecen
+                                                en el teorema 1 y cuya igualdad podemos comprobar mediante la derivación; es
+                                                decir, se puede verificar que la derivada del segundo miembro es igual a la derivada
+                                                del primer miembro.
+
+
+ 28
+                                                                                                            Módulo 2: Integral indefinida
+2.2 Primeras fórmulas de integración                                                                El ejército de Siracusa fue así capaz de
+                                                                                                    destruir la armada de los invasores.
+
+Teorema 1                                                                                           Experimentalmente se ha demostrado que
+                                                                                                    la leyenda es creíble, como probó en 1747
+
+        ∫ dx = x + C.
+                                                                                                    el conde de Bufón (Georges Louis Leclerc,
+ F1 :                                                                                               1707-1788, naturalista francés, autor de
+
+
+        ∫ af ( x)dx = a ∫ f ( x)dx, siendo a una constante.
+                                                                                                    uno de los primeros tratados globales de
+ F2 :                                                                                               historia de la biología y la geología no
+
+
+        ∫ [ f ( x) + f ( x)] dx = ∫ f ( x)dx + ∫ f ( x)dx.
+                                                                                                    basados en la Biblia). Sin embargo, Siracusa
+                                                                                                    cayó en manos romanas a causa de una
+ F3 :      1        2               1             2                                                 traición y Arquímedes fue asesinado. El
+                                                                                                    general romano Marcelo, a modo de
+                                                                                                    desagravio, mandó erigir para Arquímedes
+          Generalización:                                                                           una tumba sobre la cual se veía una esfera
+
+
+                   ∫ [ f ( x) + f ( x) + … + f ( x)] dx = ∫ f ( x)dx + … + ∫ f ( x)dx.
+                                                                                                    circunscrita por un cilindro que simbolizaba,
+                                                                                                    de acuerdo con sus deseos, su teorema
+                          1     2             n               1                   n                 favorito sobre los volúmenes del cono, el
+                                                                                                    cilindro y la esfera. Cuando Cicerón visitó
+                                                                                                    Sicilia pudo ver todavía el monumento que
+
+
+        ∫ x dx = n + 1 + C, si n ≠ −1 y n real.
+                  xn +1
+                                                                                                    se ha perdido para la historia.
+ F4 :      n
+                                                                                                    Aunque no de una manera explícita,
+                                                                                                    Arquímedes contribuyó a la aplicación de
+                                                                                                    las matemáticas. En efecto, en su obra
+El ejemplo siguiente ilustra la manera de usar las fórmulas anteriores en el proceso                Equilibrio trató el problema de la palanca,
+de integración.                                                                                     que, junto a la cuña, el plano inclinado, el
+                                                                                                    rodillo y la polea, componía la colección de
+                                                                                                    las sencillas máquinas utilizadas en la
+                                                                                                    antigüedad para construcciones tan
+3.1 Teorema 1: Regla de sustitución o cambio de variable                                            asombrosas como las pirámides de Egipto,
+                                                                                                    los templos griegos y los acueductos
+                                                                                                    romanos. Se sirvió libremente de la noción
+Sea u = g(x) una función diferenciable cuyo rango es un intervalo I, y sea f una                    de baricentro o centro de gravedad de un
+función definida en I y F una primitiva de f en I. Entonces:                                        cuerpo como si la conociese y le fuese
+
+
+         ∫ f ( g ( x)) g ′( x) dx = ∫ f (u ) du = F (u ) + C = F ( g ( x)) + C.
+                                                                                                    familiar. Casi dieciocho siglos más tarde
+                                                                                                    Galileo Galilei y el matemático holandés
+                                                                                                    Simón Stevin construyeron la teoría de la
+                                                                                                    estática, esto es, una teoría del equilibrio
+                                                                                                    para complicados sistemas mecánicos.
+    Observación
+
+    La regla de sustitución es uno de los métodos más importantes del cálculo de
+    integrales indefinidas. Inclusive, cuando se utiliza cualquier otro método por lo
+    general en los pasos intermedios recurrimos a la regla de sustitución.
+
+
+                                                                                      Elementos básicos de cálculo integral y series 29
+Capítulo 1: Integral indefinida
+                                                  4.1 Algunas aplicaciones de la integral indefinida
+y premio Nobel Edgard Victor Appleton.
+
+A pesar de que casi todos los primeros            4.1.1 Aplicaciones a las ecuaciones diferenciales de primer orden
+trabajos de Heaviside fueron ignorados, lo
+que acentuó su amargura y retraimiento,
+
+                                                                    = f ( x ) o al diferencial dy = f ( x)dx se le llama ecuación dife-
+sus valiosas contribuciones fueron                               dy
+reconocidas finalmente, cuando fue elegido        A la ecuación
+miembro de la Royal Society de Londres
+                                                                 dx
+en 1891. El último volumen de su Teoría           rencial de primer orden.
+electromagnética, que no había llegado a
+
+                                                  Resolver una ecuación diferencial es encontrar todas las funciones y = G ( x) que
+publicarse, fue destrozado por unos
+ladrones, y sólo sabemos en la actualidad
+que Heaviside trató de describir en el            satisfagan la ecuación diferencial.
+volumen perdido una teoría unificada de
+los campos, en la que combinaba
+electromagnetismo y gravitación.
+                                                  Si y = F(x) es una primitiva de f (x), también lo es F(x) + C.
+Heaviside quedó fascinado al leer el Tratado
+sobre electricidad y magnetismo de
+Maxwell. Comenzó a desarrollar sus propias        Entonces podemos decir que todas las funciones que satisfacen la ecuación dife-
+
+                                                               = f ( x ), cuando F es la primitiva de f, son de la forma:
+ideas sobre el tema y logró simplificar las                 dy
+ecuaciones que proponía este famoso físico        rencial
+usando un método de cálculo operacional                     dx
+que él mismo desarrolló (de hecho, lo que
+hoy llamamos ecuaciones de Maxwell son
+la versión simplificada propuesta por
+                                                            y = F(x) + C.                                                            (1)
+Heaviside). Sin embargo, los métodos de
+Heaviside causaron gran controversia
+entre sus contemporáneos y su validez             Esta ecuación se llama solución general de la ecuación diferencial.
+tardó algún tiempo en ser demostrada.
+
+                                                  En los problemas que incluyen ecuaciones diferenciales frecuentemente se desea
+                                                  encontrar soluciones particulares y para ello se dan unas condiciones llamadas
+                                                  condiciones iniciales o condiciones de frontera.
+
+
+                                               4.1.2 Aplicaciones a la física: movimiento rectilíneo
+
+                                               En el módulo 20 del texto Elementos básicos de cálculo diferencial vimos que
+                                               cuando la ecuación de movimiento de un móvil está dada por s = f (t ), la velocidad
+
+                                               instantánea está dada por v =           = f ′(t ), y la aceleración instantánea por
+                                                                                    ds
+                                                                                    dt
+
+                                                      a=          =   = f ′′(t ).
+                                                             d 2 s dv
+                                                             dt 2 dt
+
+                                           Teniendo en cuenta aquel desarrollo, veamos ahora que es posible encontrar la
+                                           ecuación de movimiento de un móvil dada la velocidad o la aceleración.
+
+
+ 36
+Capítulo 2: Métodos de integración
+
+logaritmo y sus propiedades y en el sexto
+                                               5.1 Primera tabla de integrales
+calculó las cuadraturas de curvas utilizando
+unas tablas triangulares y la teoría de        Esta primera tabla que se incluye es pequeña. Su memorización permitirá adquirir
+cuasiproporciones.
+                                               habilidad para calcular muchas otras integrales.
+Ya en las primeras páginas de esta obra
+Mengoli afirmaba que su método era una
+conjunción de los métodos conocidos hasta
+                                                               ⎧ u n +1
+                                                                        + C , n ≠ −1
+entonces: «Ambas geometrías, la antigua
+
+                                                      ∫ u du = ⎨ n + 1
+de Arquímedes y la nueva de los indivisibles
+                                                               ⎪
+                                                               ⎪ln u + C , n = −1
+de Bonaventura Cavalieri (preceptor mío),       1.        n
+
+
+                                                               ⎩
+así como también el álgebra de Viète, han
+sido tratadas con bastante acierto por
+personas cultas; de ellas, ni confusamente
+
+
+                                                      ∫ a du = au + C
+ni como si fuese una mezcla, sino por una                 (Aquí y en las fórmulas siguientes C designa una constante arbitraria)
+perfecta conjunción, se obtiene una nueva,
+                                                2.
+
+                                                      ∫ du = u + C
+la especie propia de nuestro trabajo, que
+no podrá desagradar a nadie».
+                                                3.
+
+                                                      ∫ e du = e + C
+                                                          u         u
+                                                4.
+
+
+                                                      ∫ a du = ln a a + C
+                                                          u         1    u
+                                                5.
+
+        Vea el módulo 5 del programa            6.    ∫ sen u du = − cos u + C
+                                                      ∫ cos u du = sen u + C
+        de televisión Elementos básicos
+        de cálculo integral y series
+                                                7.
+
+                                                8.    ∫ tan u du = − ln cos u + C
+                                                9.    ∫ cot u du = ln sen u + C
+                                                10. ∫ sec u du = tan u + C
+                                                              2
+
+
+                                                11. ∫ csc u du = − cot u + C
+                                                              2
+
+
+                                                12. ∫ sec u ⋅ tan u du = sec u + C
+
+                                                13. ∫ csc u ⋅ cot u du = − csc u + C
+
+                                                14. ∫ sec u du = ln sec u + tan u + C
+
+                                                15. ∫ csc u du = ln csc u − cot u + C
+
+                                                                        ⎧ −1 u
+                                                                        ⎪⎪sen a + C
+                                                      ∫                =⎨
+                                                               du
+                                                              a 2 − u 2 ⎪− cos −1 u + C
+                                                16.                                     , siendo a una constante positiva.
+
+                                                                         ⎪⎩       a
+
+                                                            ⎧1
+                                                            ⎪⎪ a tan a + C
+                                                                    −1 u
+
+
+                                                17. ∫ 2    =⎨
+                                                        du
+                                                     a + u2 ⎪ 1
+                                                                              , siendo a una constante positiva.
+                                                               − cot  −1 u
+                                                                           +C
+                                                             ⎪⎩ a        a
+
+                                                                ⎧1
+                                                                ⎪ a sec a + C
+                                                                       −1 u
+
+
+                                                18. ∫
+                                                                ⎪
+                                                               =⎨
+                                                         du
+                                                      u u −a    ⎪− 1 csc −1 u + C
+                                                                                  , siendo a una constante positiva.
+                                                                ⎪⎩ a
+                                                         2   2
+
+
+ 50                                                                         a
+                                                                                   Módulo 5: Tabla preliminar de integrales indefinidas
+
+
+     19. ∫ senh u du = cosh u + C
+
+     20. ∫ cosh u du = senh u + C
+
+     21. ∫ sech udu = tanh u + C
+               2
+
+
+     22. ∫ csch udu = − coth u + C
+               2
+
+
+     23. ∫ sech u ⋅ tanh udu = − sech u + C
+
+     24. ∫ csch u ⋅ coth udu = − csch u + C
+
+
+Observaciones
+
+1.        En el cuadro general de derivadas (sección 19.1, módulo 19, del texto Elemen-
+          tos básicos de cálculo diferencial) no aparecen fórmulas que correspondan
+          a las fórmulas 8, 9, 14 y 15; sin embargo, es fácil verificarlas mediante
+          derivación.
+
+          Así por ejemplo, en el caso particular de la fórmula 8 se tiene:
+
+
+                           ⎧cos u                  cos u > 0
+                   cos u = ⎨
+                                           si
+                           ⎩− cos u        si      cos u < 0
+
+          De esta forma,
+
+                     − ln cos u = − ln (cos u ) si cos u > 0,
+                                = − ln (− cos u ) si cos u < 0.
+
+          Así que,
+
+                   Dx (− ln cos u ) = − Dx (ln (cos u ))
+
+                                    =−        (− sen u ) ⋅
+                                          1                du
+                                        cos u              dx
+                                    = tan u ⋅ , si cos u > 0.
+                                             du
+                                             dx
+
+
+                   Dx (− ln cos u ) = − Dx (ln (− cos u ))
+
+                                    =−           (sen u ) ⋅
+                                           1                du
+                                        − cos u             dx
+                                    = tan u ⋅     si cos u < 0.
+                                              du
+                                              dx
+          En cualquiera de los casos,
+
+                   Dx ( − ln cos u ) = tan u ⋅      ⇔ d (− ln cos u ) = tan u ⋅ du ,
+                                                 du
+                                                 dx
+
+                                                                                       Elementos básicos de cálculo integral y series 51
+Capítulo 2: Métodos de integración
+
+                                          y de aquí se deduce la fórmula 8.
+
+                                          De manera análoga pueden deducirse las fórmulas 9, 14 y 15, las cuales se
+                                          dejan como ejercicio para el lector.
+
+                                          Las fórmulas dadas en 17, 18 y 19 pueden igualmente deducirse de manera
+                                          análoga; sin embargo, se deducen también usando sustituciones trigonométricas,
+                                          como lo veremos en el módulo 8 de este mismo capítulo.
+
+                                     2.   Durante el cálculo de integrales indefinidas es útil tener en cuenta las si-
+                                          guientes reglas que se deducen fácilmente usando derivación y que son de
+                                          frecuente uso en el resto del texto.
+
+
+                                          Si ∫ f ( x)dx = F ( x) + C , entonces:
+
+                                                 (1). ∫ f (ax) dx = 1 F (ax) + C, a ≠ 0.
+
+                                                 (2). ∫ f ( x + b) dx = F ( x + b) + C.
+                                                                    a
+
+
+                                                 (3). ∫ f (ax + b) dx =     F (ax + b) + C , a ≠ 0.
+                                                                          1
+                                                                          a
+
+                                          Así por ejemplo,
+
+
+                                                  ∫ sen 5 x dx = − 5 cos 5 x + C (regla 1 anterior y fórmula 6).
+                                                                    1
+
+
+                                                  ∫ 5 − 3x = − 3 ln 5 − 3x + C.
+                                                      dx       1
+
+
+                                                  ∫ e dx = 4 e + C.
+                                                     4x      1 4x
+
+
+ 52

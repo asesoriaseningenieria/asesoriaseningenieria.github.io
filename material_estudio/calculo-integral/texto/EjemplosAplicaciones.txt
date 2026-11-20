@@ -1,0 +1,3007 @@
+Capítulo 4: Aplicaciones de la integral definida
+
+
+                                         18.2 Ejemplos resueltos de áreas entre curvas
+                                         Ejemplo 1
+
+                                         Encuentre el área de la región limitada por la recta y = x + 2 , la parábola
+                                          y = x 2 − 4 x y las rectas x = 1 y x = 3.
+
+                                         Solución
+
+                                         La figura 18.2 ilustra la región definida.
+
+
+                                                                                Figura 18.2
+
+
+206
+                                                                                           Módulo 18: Área de una región plana
+Tomemos el rectángulo i-ésimo de altura [ f (ti ) − g (ti )] y ancho Δxi .
+
+Un valor aproximado del área A pedida estará dado por
+
+        A ≈ ∑ [ f (ti ) − g (ti )]Δxi .
+                   n
+
+
+                  i =1
+
+Luego
+
+        A = lim ∑ [ f (ti ) − g (ti )]Δxi
+                          n
+
+              P →0
+                         i =1
+
+
+y por tanto
+
+
+        A = ∫ [ f ( x ) − g ( x)] dx
+               3
+
+
+           = ∫ [ x + 2 − ( x 2 − 4 x)] dx
+              1
+
+               3
+
+              1
+
+
+             ⎡ x2            ⎤ 46
+           = ⎢ + 2x − + 2 x2 ⎥ = .
+                                       3
+                     x3
+             ⎣2      3       ⎦1 3
+
+Ejemplo 2
+
+Encuentre el área de la región comprendida entre la curva y = x 3 − x 2 − 6 x y el
+eje x.
+
+Solución
+
+La región se ilustra en la figura 18.3. Puesto que la función es positiva en el
+subintervalo [−2, 0] y negativa en [0,3], es necesario dividir la región en dos
+subregiones R1 y R2 .
+
+
+Llamaremos A1 al área de R1 y A2 al área de R2. Entonces,
+
+
+                                            Figura 18.3
+
+                                                                             Elementos básicos de cálculo integral y series 207
+Capítulo 4: Aplicaciones de la integral definida
+
+                                         A1 = lim ∑ f (ti ) Δxi = ∫ f ( x) dx
+                                                         n               0
+
+                                               P →0                     −2
+                                                        i =1
+
+
+                                                                     ⎡ x 4 x3   ⎤
+                                             = ∫ ( x − x − 6 x) dx = ⎢ − − 3x 2 ⎥
+                                                                                           0
+                                                    0
+
+
+                                                                     ⎣4 3       ⎦ −2
+                                                             3      2
+                                                −2
+
+
+                                                ⎡ (−2) 4 (−2)3           ⎤ 16
+                                             = −⎢       −      − 3(−2) 2 ⎥ = ,
+                                                ⎣ 4        3             ⎦ 3
+
+                                         y
+
+                                         A2 = lim ∑ [ − f (ti )] Δxi = − ∫ f ( x) dx
+                                                               n              3
+
+                                                   P →0
+                                                             i =1
+                                                                              0
+
+
+                                                                          ⎡ x 4 x3      ⎤
+                                             = − ∫ ( x3 − x 2 − 6 x) dx = ⎢ − + + 3 x 2 ⎥
+                                                                                                3
+                                                  3
+
+                                                  0
+                                                                          ⎣ 4 3         ⎦0
+
+                                             =−       + 9 + 27 = .
+                                                   81           63
+                                                   4            4
+
+                                         Por tanto, A = A1 + A2 =          +   =
+                                                                        16 63 253
+                                                                                    .
+                                                                         3   4   12
+
+                                         Ejemplo 3
+
+                                         Encuentre el área de la región comprendida entre la curva y = x 2 − 6 x, las rectas
+                                         x = 2, x = 4 y el eje x.
+
+                                         Solución
+
+                                         La figura 18.4 corresponde a la gráfica de una parábola que pasa por los puntos
+                                         (0, 0) y (6, 0) y tiene vértice en (3, −9) .
+
+
+                                                                                  Figura 18.4
+
+
+208
+                                                                                            Módulo 18: Área de una región plana
+En el intervalo [2, 4], g ( x ) = x − 6 x < 0. Luego, para encontrar el valor del área de
+                                       2
+
+
+la región señalada, se procede de acuerdo con la observación ii, y por tanto:
+
+                                  ⎡ x3      ⎤
+        A = − ∫ ( x − 6 x) dx = − ⎢ − 3 x 2 ⎥ = .
+                                                         4
+                        4                      52
+                                  ⎣3        ⎦2 3
+                            2
+               2
+
+
+Ejemplo 4
+
+Encuentre el área de la región comprendida entre las parábolas y = − x 2 e y = x 2 − 6 x.
+
+
+                                                 Figura 18.5
+
+Solución
+
+La región se ilustra en la figura 18.5. Para encontrar los puntos de intersección de
+las dos curvas, resolvemos simultáneamente las ecuaciones que las representan;
+esto es, y = − x 2 e y = x 2 − 6 x, cuyas soluciones son (0, 0) y (3, −9) .
+
+El área de un elemento rectangular como el que se muestra en la figura está dada
+
+        ΔAi = [ f (ti ) − g (ti )] Δxi ,
+por
+
+
+y el área de la región por
+
+
+        A = ∫ [ f ( x) − g ( x)] dx
+                3
+
+                0
+
+
+             = ∫ ⎡⎣ − x 2 − ( x 2 − 6 x) ⎤⎦ dx
+                    3
+
+                 0
+
+
+               ⎡ x3 x3      ⎤
+             = ⎢ − − + 3x 2 ⎥ =    = 9.
+                                      3
+                                27
+               ⎣  3 3       ⎦0 3
+
+Ejemplo 5
+
+Encuentre el área de la región comprendida entre la parábola y 2 = x − 3 y la recta
+y = x − 5.
+
+                                                                              Elementos básicos de cálculo integral y series 209
+Capítulo 4: Aplicaciones de la integral definida
+
+                                         Solución
+
+                                         La región se ilustra en la figura 18.6. La gráfica corresponde a una parábola con
+                                         vértice en (3,0), abierta hacia la derecha, y la recta que pasa por los puntos (5,0) y
+                                         (0, −5) .
+
+
+                                                                                   Figura 18.6
+
+
+                                         Para encontrar los puntos de intersección de las curvas se resuelven
+                                         simultáneamente las ecuaciones y 2 = x − 3 e y = x − 5 cuyas soluciones son
+                                         (4, −1) y (7, 2) .
+
+                                         Si se analizan los rectángulos verticales de la figura 18.6, encontramos lo siguiente:
+                                         los situados en la región R1 (a la izquierda de la recta x = 4) están limitados por las
+                                         dos ramas de la parábola; en cambio, en la región R2 (a la derecha de la recta x = 4),
+                                         están limitados por la rama superior de la parábola y la recta.
+
+                                         Cuando esta situación se presenta es necesario dividir la región en subregiones y
+                                         resolver un problema de área para cada una de ellas. En nuestro caso, sea
+                                          f ( x) = x − 3 la rama superior de la parábola, y g ( x) = − x − 3 la rama inferior.
+                                         En la región R1 el rectángulo i-ésimo (figura 18.7) tendrá un área ΔAi dada por
+                                         ΔAi = [ f (ti ) − g1 (ti )] Δxi .
+
+
+                                         Luego,
+
+
+                                                   A1 = ∫ [ f ( x) − g ( x)] dx = ∫ ⎣⎡ x − 3 − (− x − 3) ⎦⎤ dx
+                                                           4                       4
+
+                                                          3                        3
+
+
+                                                       = 2∫
+                                                                              ⎡4              ⎤
+                                                                   x − 3 dx = ⎢ ( x − 3)3 / 2 ⎥ = .
+                                                                                            4
+                                                               4                                 4
+                                                               3
+                                                                              ⎣3              ⎦3 3
+
+
+210
+                                                                                   Módulo 18: Área de una región plana
+En la región R2 el rectángulo i-ésimo (figura 18.8) tendrá un área
+ΔAi = [ f (ti ) − h(ti )] Δxi con f ( x) = x − 3 y h( x ) = x − 5.
+
+
+                                       Figura 18.7
+
+
+Luego
+
+
+        A2 = ∫ ⎡⎣ x − 3 − ( x − 5) ⎤⎦ dx
+               7
+
+               4
+
+
+              ⎡2                    ⎤
+            = ⎢ ( x − 3)3 2 − + 5 x ⎥
+                                           7
+                             x2
+              ⎣ 3            2      ⎦4
+
+              ⎡2                 ⎤ ⎡2                    ⎤ 19
+            = ⎢ (7 − 3)3 2 − + 35⎥ − ⎢ (4 − 3)3 2 − + 20 ⎥ = .
+                            49                     16
+              ⎣3             2   ⎦ ⎣3               2    ⎦ 6
+
+
+                                       Figura 18.8
+
+
+El valor del área pedida es por tanto A = A1 + A2 =
+                                                        9
+                                                          .
+                                                        2
+
+
+                                                                     Elementos básicos de cálculo integral y series 211
+Capítulo 4: Aplicaciones de la integral definida
+                                         Ejemplo 6
+
+                                         Resuelva el ejemplo anterior utilizando elementos horizontes de área.
+
+                                         Solución
+
+                                         En la figura 18.9 se presenta la región cuya área se quiere calcular. Para resolver un
+                                         problema de área por elementos horizontales, se deben conocer las ecuaciones de
+                                         las curvas que limitan la región, en la forma x = f ( y ) , esto es, la x como variable
+                                         dependiente y la y como independiente.
+
+                                         En nuestro caso tenemos:
+
+                                                   x = f ( y) = y + 5 y x = g ( y) = y 2 + 3 .
+
+                                         En la figura se observa que cualquier elemento horizontal de área está siempre
+                                         limitado por la recta y la parábola; por tanto, no es necesario subdividir la región.
+
+                                         El área del i-ésimo elemento (figura 18.9) será:
+
+                                                   ΔAi = [ f (ti ) − g (ti ) ] Δyi = ⎡⎣ (ti + 5) − (ti2 + 3) ⎤⎦ Δyi
+
+                                         Luego el área será:
+
+                                                   A = lim ∑ ⎡⎣(ti + 5) − (ti2 + 3) ⎤⎦ Δyi = ∫ ⎡⎣( y + 5) − ( y 2 + 3) ⎤⎦ dy
+                                                                 n                                   2
+
+                                                         P →0                                       −1
+                                                                i =1
+
+
+                                                     ⎡⎛ y 2    y3 ⎞⎤
+                                                   = ⎢⎜ + 2 y − ⎟ ⎥ = .
+                                                                             2
+                                                                        9
+                                                     ⎣⎝ 2      3 ⎠ ⎦ −1 2
+
+
+                                                                                        Figura 18.9
+
+                                         Observaciones
+
+                                         Un procedimiento práctico para calcular la medida del área de una región plana
+                                         determinada se tiene desarrollando los siguientes pasos:
+
+                                         i.        Graficar las funciones hallando los puntos de intersección y determinando
+                                                   la región cuya área se quiere calcular.
+
+
+212
+                                                                                             Módulo 18: Área de una región plana
+ii.    Se debe tener en cuenta que cualquier elemento rectangular esté limitado
+       siempre por el mismo par de curvas. Si esto no se cumple, se divide la región
+       en subregiones apropiadas.
+
+iii.   Determinar los límites de integración correspondientes a la región o
+       subregiones y evaluar las integrales resultantes.
+
+En lo sucesivo, en muchas aplicaciones adoptaremos, para simplificar, el siguiente
+método informal. Tomaremos:
+
+       dA en lugar de ΔAi .
+       dx o dy en lugar de Δxi o Δyi .
+
+Ejemplo 7
+
+Encuentre el área limitada por las curvas y = 2 − x , y = ex+1 , el eje x y la recta
+x = 1.
+
+Solución
+
+Puesto que
+
+       2− x = e − x ln 2 y x + 1 > − x ln 2 cuando x ≥ 0,
+
+entonces por ser la función exponencial de base e creciente,
+
+       e x +1 > e− x ln 2 ⇔ e x +1 > 2− x cuando x ≥ 0 ( figura 18.10).
+
+
+                                         Figura 18.10
+
+El área del elemento diferencial que aparece en la figura viene dado por:
+
+
+       dA = ( y1 − y2 ) dx = (e x +1 − 2− x ) dx ⇒ A = ∫ (e x +1 − 2− x ) dx
+                                                          1
+
+                                                         0
+
+
+               ⎡         2− x ⎤
+             = ⎢e x +1 +      ⎥ = e (e − 1) −
+                              1
+                                               1
+               ⎣         ln 2 ⎦ 0
+                                                   .
+                                              ln 4
+
+
+                                                                               Elementos básicos de cálculo integral y series 213
+Capítulo 4: Aplicaciones de la integral definida
+
+                                         En el módulo 14 del texto Elementos básicos de cálculo diferencial las preguntas
+                                         básicas estaban encaminadas a establecer una primera analogía entre las funciones
+                                         trigonométricas y las funciones hiperbólicas. Si aún no ha dado la respuesta a
+                                         ellas, aquí está la solución. Las funciones x = cosh t y y = senh t se identifican
+                                         con los puntos (x, y) de la rama derecha de la hipérbola unitaria x 2 − y 2 = 1
+                                         (figura18.11).
+
+
+                                                                            Figura 18.11
+
+                                         Otra analogía importante que nos proponemos demostrar es la que establece que
+                                         la variable t en ambos casos está relacionada con el área A por la fórmula t = 2 A .
+
+                                         Ejemplo 8
+
+                                         Demuestre que el área sombreada R de la figura 18.12a viene dada por R =
+                                                                                                                      t
+                                                                                                                        .
+                                                                                                                      2
+
+
+                                                                            Figura 18.12
+
+
+214
+                                                                                                       Módulo 18: Área de una región plana
+Solución
+
+De acuerdo con la figura 18.12 se tiene:
+
+        Rsombreada = A OPQ − Asector APQ
+
+Pero,
+
+        A OPQ = senh t ⋅ cosh t , y Asector APQ = ∫        x 2 − 1 ⋅ dx
+               1                                    cosh t
+
+               2                                    1
+
+
+De esta forma,
+
+        Rsombreada =        senh t ⋅ cosh t − ∫        x 2 − 1 ⋅ dx.
+                          1                     cosh t
+
+                          2                     1
+
+
+La integral ∫ x 2 − 1 ⋅ dx se resuelve haciendo la sustitución x = sec θ y
+
+dx = sec θ tan θ dθ , y en la cual después de simplificar se obtiene:
+
+
+        ∫
+                                     ⎡x 2                       ⎤
+                      x 2 − 1 ⋅ dx = ⎢   x − 1 − ln x + x 2 − 1 ⎥
+                                                                       cosh t
+            cosh t                              1
+                                     ⎣                          ⎦1
+                                                                                .
+            1                          2        2
+
+De esta forma:
+
+
+                                 ⎡x 2                      ⎤
+  Rsombreada = senh t ⋅ cosh t − ⎢  x − 1 − ln x + x 2 − 1 ⎥
+                                                                                cosh t
+              1                            1
+              2                  ⎣2        2               ⎦1
+
+
+                                    ⎡ cosh t                                            ⎤
+                = senh t ⋅ cosh t − ⎢        cosh 2 t − 1 − ln cosh t + cosh 2 t − 1 − 0⎥
+                 1                                         1
+                 2                  ⎣   2                  2                            ⎦
+
+
+                = senh t ⋅ cosh t − senh t ⋅ cosh t + ln cosh t + senh t = ln et
+                 1                 1                 1                    1
+                 2                 2                 2                    2
+
+                =      ln et = t.
+                     1        1
+                     2        2
+
+En las últimas igualdades se han utilizado las identidades con funciones hiperbólicas
+presentadas en el teorema 4 del módulo 14 del texto Elementos básicos de cálculo
+diferencial.
+
+Ejemplo 9
+
+Usando integración, demuestre que el área de un sector circular de radio a y ángulo
+central α (0 < α ≤ 2π ) viene dada por
+
+        A=         a α.
+                 1 2
+                 2
+
+
+                                                                                         Elementos básicos de cálculo integral y series 215
+Capítulo 4: Aplicaciones de la integral definida
+                                        Solución
+
+                                        En la figura 18.13 hemos indicado el sector circular determinado por la porción del
+                                        circulo de radio a, x 2 + y 2 = a 2 y la recta y = (tan α ) x que pasa por el origen
+                                        formando un ángulo α con el eje x.
+
+
+                                                                                Figura 18.13
+
+
+                                        En primer lugar, las coordenadas ( x, y ) del punto Q vienen dadas por
+
+                                                   x = a cos α ,
+
+                                                   y = a sen α .
+
+                                        Ahora
+
+                                                   dA = [ xC − xR ] dy                                                   (1)
+
+                                        Donde
+
+                                                   xR : es el x en términos de y, de la recta .
+
+                                        Esto es,
+
+                                                   xR = (cot α ) y,
+
+
+                                                   xC : es el x en términos de y, de la circunferencia x 2 + y 2 = a 2
+
+                                        Esto es,
+
+
+                                                   xC = a 2 − y 2 .
+
+                                        Sustituyendo en (1) estos dos valores, se tiene:
+
+
+216
+                                                                                                     Módulo 18: Área de una región plana
+
+        dA = ⎡ a 2 − y 2 − (cot α ) y ⎤ dy ⇒ A = ∫         ⎡ a 2 − y 2 − (cot α ) y ⎤ dy.
+                                                   a sen α
+
+             ⎣                        ⎦           0        ⎣                        ⎦
+
+Pero,
+
+
+        ∫              a 2 − y 2 dy =      [α + sen α cos α ]
+            a sen α                     a2
+                                                                   (verifique haciendo la
+            0                           2
+                                                                    sustitución y = a sen α )
+
+También,
+
+                                              y2 ⎤
+        ∫
+                                                    a sen α
+
+                      (cot α ) y dy = (cot α ) ⎥
+            a sen α
+
+            0                                 2 ⎦0
+
+                                   =      (cot α ) ⋅ ( a 2 sen 2 α ) = a 2 sen α cos α .
+                                        1                             1
+                                        2                             2
+Por tanto,
+
+
+        A=          [α + sen α cos α ] − sen α cos α = α .
+                 a2                     a2            a2
+                 2                      2             2
+
+Esto es,
+
+
+        A=        a α.
+                1 2
+                2
+
+
+                                                                                       Elementos básicos de cálculo integral y series 217
+Capítulo 4: Aplicaciones de la integral definida
+
+                                         Ejemplo 1
+
+
+                                         plano perpendicular al eje del cilindro y otro intersecando al primero con un ángulo α
+                                         Calcule el volumen de la cuña determinada por un cilindro recto de radio r, un
+
+                                         a lo largo de un diámetro de la sección plana circular (figura 19.2).
+
+      Vea la animación Volúmenes de
+      sólidos por secciones planas en
+      su multimedia de Elementos
+      básicos de cálculo integral y
+      series
+
+
+                                                                                   Figura 19.2
+
+                                         Solución
+
+                                         Tomemos el plano xy perpendicular el eje del cilindro y el origen O sobre este eje.
+                                         La ecuación de la circunferencia C, que resulta de intersecar el cilindro con el plano
+                                         perpendicular a su eje, tiene como ecuación                                              txi 2 +
+
+
+                                         Toda sección plana del sólido perpendicular al eje x y formando un ángulo α en
+
+                                         la abscisa          es un triángulo rectángulo de base yi = r 2 − ti2 y altura
+
+                                         hi = yi tan α = r 2 − ti2 tan α .
+
+                                         Por tanto su área será:
+
+
+                                                     r − ti . r 2 − ti2 tan α
+                                                   1 2 2
+                                                   2
+
+                                         y en consecuencia su volumen estará dado por:
+
+
+                                                   V = lim ∑ ⎜
+                                                                 ⎛1 2 2                       ⎞
+                                                                     r − ti . r 2 − ti2 tan α ⎟ Δxi
+                                                              n
+
+
+                                                            i =1 ⎝                            ⎠
+                                                       P →0        2
+
+
+                                                          ∫   (r − x 2 ) tan α dx = ⎜ tan α ⎟ ⋅ 2 ∫ (r 2 − x 2 ) dx
+                                                                                    ⎛1      ⎞
+                                                     =
+                                                         1 r 2
+                                                                                    ⎝2      ⎠
+                                                                                                    r
+
+                                                         2 −r                                      0
+
+
+                                                            ⎡        x3 ⎤
+                                                    = tan α ⎢ r 2 x − ⎥ = r 3 tan α .
+                                                                          r
+                                                                          2
+                                                            ⎣        3 ⎦0 3
+
+
+222
+                                                                     Módulo 19: Volúmenes de sólidos por secciones transversales
+Ejemplo 2
+
+Halle el volumen de una pirámide recta de altura h y una base cuadrada de lado a.
+
+Solución
+
+Tomemos el plano xy perpendicular al plano de la base y pasando por el eje principal
+de la pirámide (figura 19.3).
+
+
+                                         Figura 19.3
+
+
+Toda sección plana perpendicular al eje y es un cuadrado. Para calcular su lado,
+consideramos los triángulos semejantes AMN y AOB. Tenemos entonces,
+
+
+                 =
+           MN        AM
+                                                                                              (1)
+           OB        AO
+
+
+             α
+Pero OB =        , AO = h y AM = AO − MO = h − ti .
+             2
+                                                                      ( h − ti ) a
+Reemplazando en (1) y despejando MN obtenemos: MN =                                .
+                                                                          2h
+                                                                                  ( h − ti ) a
+Por tanto el lado del cuadrado que estamos buscando será 2 MN =                                y el
+                                                                                       h
+volumen se escribirá así:                                                                             Pirámides de Gizeh
+
+
+       V = lim ∑ ⎢                    ⋅ Δyi = ∫ ⎢
+                     ⎡ ( h − ti ) a ⎤           h ⎡ (h − y )a ⎤
+                                                                                                      Una pirámide es un poliedro limitado por
+                                   2                         2
+                                                                                                      una base que puede ser un polígono
+                                    ⎥                         ⎥ dy
+                     n
+
+
+                i =1 ⎣      h ⎦                   ⎣ h ⎦
+                                                                                                      cualquiera (es decir, un triángulo, un
+           P →0                                0
+                                                                                                      cuadrilátero, un pentágono, etc.), y cuyas
+
+              ⎛ a2 ⎞ h
+            = ⎜ 2 ⎟ ∫ (h 2 − 2hy + y 2 ) dy = a 2 h.
+                                                                                                      caras, tantas en número como los lados de
+                                             1                                                        aquél, son triángulos que se juntan en un
+
+              ⎝h ⎠
+                                                                                                      solo punto o vértice. Las pirámides de Giseh,
+                     0                       3                                                        cerca de El Cairo (Egipto), tienen base
+                                                                                                      cuadrada y fueron construidas para albergar
+                                                                                                      la tumba de los faraones Keops, Kefrén y
+                                                                                                      Mikerinos.
+
+
+                                                                                   Elementos básicos de cálculo integral y series 223
+                                                                          Módulo 20: Volúmenes de sólidos de revolución
+
+
+Ejemplo 1
+
+Encuentre el volumen del sólido de revolución obtenido al rotar alrededor del eje x
+la región comprendida por la parábola y = x 2 , el eje x y las rectas x = 1 y x = 3
+(figura 20.4).
+
+
+                                    Figura 20.4
+
+Solución
+
+El volumen del disco que resulta al rotar el i-ésimo rectángulo estará dado por
+
+
+       Δvi = π ⎡⎣ti2 ⎤⎦ Δxi .
+                      2
+
+
+                                                                       Elementos básicos de cálculo integral y series 229
+Capítulo 4: Aplicaciones de la integral definida
+
+                                         Luego, de (4):
+
+                                                   V = lim ∑ π ti4 Δxi = π ∫ x 4 dx
+                                                                n           3
+
+                                                        p →0
+                                                               i =1
+                                                                           1
+
+
+                                                        ⎡ x5 ⎤ 242π
+                                                     = π⎢ ⎥ =
+                                                                      3
+      Vea la animación La paradoja de
+
+                                                        ⎣ ⎦1
+      la trompeta de Gabriel en su                                  .
+      multimedia de Elementos básicos                     5      5
+      de cálculo integral y series
+
+                                         Ejemplo 2
+
+                                         Halle el volumen del sólido de revolución obtenido al rotar sobre el eje x la región
+
+                                         limitada por la curva y = x 2 y las rectas y =     , x = 1 y x = 2 (figuras 20.5 y 20.6).
+                                                                                          x
+                                                                                          2
+
+
+                                                                                Figura 20.5
+
+
+                                                                                Figura 20.6
+
+
+230
+                                                                                           Módulo 20: Volúmenes de sólidos de revolución
+             Solución
+
+             Al rotar el i-ésimo rectángulo resulta un disco hueco con radio exterior ti2 , radio
+
+
+                           , altura Δxi y volumen
+                        ti
+             interior                                                            . El volumen V del
+                        2
+             sólido resultante estará dado, según la expresión (3), por
+
+                     V = lim ∑ π ⎢ti4 − i ⎥ Δxi
+                                n
+                                   ⎡   t2 ⎤
+                         p →0
+                              i =1 ⎣    4⎦
+
+                                2⎛     x2 ⎞
+                          = π ∫ ⎜ x 4 − ⎟ dx
+                               1
+                                 ⎝     4 ⎠
+
+                            ⎡ x5 x3 ⎤
+                         =π ⎢ − ⎥
+                                       2
+
+
+                            ⎣ 5 12 ⎦1
+
+                         =     − =
+                             31 7 337
+                                      .
+                             5 12 60
+
+             Ejemplo 3
+
+             Halle el volumen del sólido generado al rotar sobre el eje x = −1 la región encerrada
+             por la parábola x = y 2 y la recta x = 2 y (figuras 20.7 y 20.8).
+
+        ⎡ 2 2 ⎛ ti ⎞ 2 ⎤
+Δvi = π ⎢(ti ) − ⎜ ⎟ ⎥ Δxi
+        ⎢⎣       ⎝ 2 ⎠ ⎥⎦
+
+
+                                                    Figura 20.7
+
+             Solución
+
+             Comencemos por hallar los puntos de intersección entre la parábola y la recta, para
+             lo cual resolvemos simultáneamente y 2 = x y x = 2 y.
+
+             Los puntos de intersección son entonces (0, 0) y (4, 2).
+
+
+                                                                                        Elementos básicos de cálculo integral y series 231
+Capítulo 4: Aplicaciones de la integral definida
+                                         Al rotar el i-ésimo rectángulo alrededor de la recta x = −1, el disco hueco que
+                                       genera tiene por radio exterior (2ti + 1), por radio interior (ti2 + 1) y por altura Δyi .
+
+                                       Su volumen será                                                  y el volumen del sólido de
+                                       revolución generado estará dado por:
+
+                                                V = lim π ∑ ⎡⎣(2ti + 1)2 − (ti2 + 1)2 ⎤⎦ Δyi
+                                                                     n
+
+                                                      p →0
+                                                                   i =1
+
+
+                                                    = π ∫ ⎣⎡(2 y + 1)2 − ( y 2 + 1) 2 ⎦⎤ dy = π ∫ (− y 4 + 2 y 2 + 4 y ) dy
+                                                          2                                        2
+
+                                                          0                                        0
+
+
+                                                        ⎡ y 5 2 y 3 4 y 2 ⎤ 104π
+                                                    = π ⎢− +       +      ⎥ =
+                                                                                 2
+
+
+                                                        ⎣ 5          2 ⎦1
+                                                                                 .
+                                                               3              15
+
+
+                                                                                                                                     Δvi
+
+
+                                                                                     Figura 20.8
+
+                                       Ejemplo 4
+
+                                       Calcule el volumen del sólido de revolución generado al rotar alrededor del eje x la
+                                       región del plano limitada por las curvas y = sen x, y = cos x y las rectas x = 0 y
+                                            π
+                                       x=       .
+                                            4
+
+                                       Solución
+
+                                       En la figura 20.9 aparece sombreada la región que se va a rotar y el elemento
+                                       rectangular de área apropiado.
+
+                                       Al rotar dicho rectángulo alrededor del eje x se genera un disco cuyo radio exterior
+                                       es cos ti y radio interior sen ti .
+
+                                       El volumen V del sólido resultante estará dado por :
+
+
+                                                V = lim ∑ π [cos 2 ti − sen 2 ti ] Δxi
+                                                               n
+
+                                                      P →0
+                                                              i =1
+
+
+232
+                                                                                                 Módulo 20: Volúmenes de sólidos de revolución
+                                                                          π                      π
+          =π∫         (cos 2 x − sen 2 x) dx = π ∫
+                                                                                      ⎤
+                                                                                       π 4
+
+                                                           cos 2 x dx =                      =
+                π 4                                  π 4
+                                                                              sen 2 x ⎥
+                                                                                      ⎦0
+                                                                                                     .
+                0                                    0                    2                      2
+
+
+                                                                                                              La trompeta de Gabriel
+
+                                                                                                              La trompeta de Gabriel (también
+                                                                                                              llamada trompeta de Torricelli) es una
+                                                                                                              figura ideada por el físico y matemático
+                                                                                                              italiano Evangelista Torricelli (1608-
+                                          Figura 20.9                                                         1647), que tiene la característica de
+                                                                                                              poseer una superficie infinita pero un
+                                                                                                              volumen finito.
+Ejemplo 5
+
+
+Sea f ( x) =    la función definida en [1, +∞). Determine si es posible asignar un
+              1
+              x
+valor real al volumen del sólido de revolución generado al rotar alrededor del eje x
+                                                                                                              Cuando la curva y = 1/x en [1, +∞ ) se
+la región comprendida entre la curva, el eje x y la recta x = 1(figura 20.10).
+                                                                                                              hace girar alrededor del eje x (ejemplo
+                                                                                                              5) se genera un sólido de revolución
+                                                                                                              denominado trompeta de Gabriel, del
+                                                                                                              cual se puede afirmar que:
+
+                                                                                                              1. Su volumen V es finito.
+                                                                                                              2. Su área A es infinita.
+
+                                                                                                              Al poner estos resultados en la práctica
+                                                                                                              parecen decir que la trompeta puede
+                                                                                                              llenarse con una cantidad finita de
+                                                                                                              pintura, y que aun así no hay suficiente
+                                                                                                              pintura para cubrir la región que
+                                                                                                              generó el sólido. De allí surge la
+                                                                                                              paradoja.
+
+                                                                                                              La trompeta de Gabriel se llama así en
+                                                                                                              alusión al arcángel Gabriel, que según
+                                                                                                              el Nuevo Testamento anunció a María
+                                                                                                              que ella iba a ser la madre de Jesús. La
+                                                                                                              escena de la anunciación ha sido
+                                                                                                              representada por pintores tan famosos
+                                                                                                              como los italianos Fra Angelico,
+                                                                                                              Leonardo da Vinci y Sandro Botticelli, y
+                                                                                                              por el alemán Matthias Grünewald, y
+                                                                                                              en ella se muestra a Gabriel portando
+                                                                                                              un lirio, una flor o la trompeta que
+                                                                                                              sonará para anunciar la segunda venida
+                                                                                                              de Cristo.
+                                                                                                              (1Ts 4:16)
+                                         Figura 20.10
+
+
+                                                                                           Elementos básicos de cálculo integral y series 233
+Capítulo 4: Aplicaciones de la integral definida
+
+                                         Solución
+
+                                         De ser posible asignar un volumen V al sólido resultante, éste debe ser el valor de
+                                         la integral impropia:
+
+
+                                                   V =∫            π [ f ( x)]2 dx, siempre y cuando sea convergente.
+                                                              +∞
+
+                                                             1
+
+                                         Pero,
+
+                                                   ∫        π [ f ( x)]2 dx = ∫        π⋅       dx = lim ∫ π 2 dx
+                                                       +∞                         +∞        1              ∈ 1
+                                                       1                          1         x 2     ∈→+∞  1  x
+
+                                                                                                         ⎡ 1⎤
+                                                                                                               ∈
+
+                                                                                                 = lim π ⎢ − ⎥
+                                                                                                  ∈→+∞
+                                                                                                         ⎣ x ⎦1
+
+                                                                                                           ⎡ 1⎤
+                                                                                                 = π ⋅ lim ⎢1 − ⎥ = π .
+                                                                                                      ∈→+∞
+                                                                                                           ⎣ ∈⎦
+
+                                         Como la integral impropia converge al real π, se sigue entonces que el volumen V
+                                         del sólido resultante es V = π .
+
+
+234
+                                                                                           Módulo 20: Volúmenes de sólidos de revolución
+
+
+Ejemplo 4
+
+Encuentre el volumen generado al rotar alrededor del eje y la región comprendida
+por la parábola y = x 2 − 4 x, la recta y = x + 2 y las rectas x = 1 y x = 3. Tome
+elementos de área paralelos al eje y.
+
+Solución
+
+La figura 20.14 nos muestra la región que genera el sólido y el elemento rectangular
+de área, y la figura 20.15 muestra el sólido de revolución generado y la corteza
+correspondiente al elemento rectangular.
+
+
+                                          Figura 20.14
+
+
+El volumen de la corteza cilíndrica generada por el rectángulo i-ésimo está dado
+por:
+
+       Δvi = 2π ti [ f (ti ) − g (ti ) ] Δxi = 2π ti ⎡⎣ti + 2 − (ti2 − 4ti ) ⎤⎦ Δxi .
+
+
+                                                                                        Elementos básicos de cálculo integral y series 237
+Capítulo 4: Aplicaciones de la integral definida
+                                         Por tanto el volumen del sólido es:
+
+                                               V = lim ∑ 2π ti ⎣⎡5ti − ti2 + 2 ⎦⎤ Δxi .
+                                                            n
+
+                                                    P →0
+                                                           i =1
+
+                                        Entonces,
+
+                                                                                 ⎛ 5x3 x 4   ⎞ ⎤ 188
+                                               V = 2π ∫ x(5 x − x 2 + 2) dx = 2π ⎜    − + x2 ⎟⎥ =    π.
+                                                                                                  3
+                                                        3
+
+                                                       1
+                                                                                 ⎝ 3   4     ⎠ ⎦1 3
+
+
+                                                                                Figura 20.15
+
+                                        Ejemplo 5
+
+                                        La región acotada por la recta y = x, el eje x y las rectas x = 2 y x = 4 es rotada
+                                        alrededor de la recta x = −2 . Tomando elementos rectangulares paralelos al eje y,
+                                        encuentre el volumen del sólido generado.
+
+                                        Solución
+
+                                        La figura 20.16 indica la región que genera al sólido y el elemento rectangular de
+                                        área, y la figura 20.17 muestra el sólido de revolución y la corteza cilíndrica
+                                        correspondiente al elemento rectangular.
+
+
+                                                                                Figura 20.16
+
+
+238
+                                                                            Módulo 20: Volúmenes de sólidos de revolución
+
+
+                                           Figura 20.17
+
+
+El volumen de la corteza cilíndrica correspondiente al rectángulo i-ésimo está dado
+por:
+
+         Δvi = 2π ri f (ti ) Δxi , puesto que g ( x) = 0,
+
+
+y como ri = 2 + ti , entonces
+
+
+         Δvi = 2π (2 + ti ) f (ti )Δxi .
+
+Luego
+
+        V = lim ∑ 2π [2 + ti ] f (ti ) Δxi = lim ∑ 2π [2 + ti ] ti Δxi
+                      n                                 n
+
+              P →0                              P →0
+                     i =1                              i =1
+
+
+                                       ⎛      x 3 ⎞ ⎤ 184
+           = 2π ∫ (2 x + x 2 ) dx = 2π ⎜ x 2 + ⎟ ⎥ =      π.
+                                                            4
+                  4
+
+                 2
+                                       ⎝      3 ⎠⎦2    3
+
+
+Ejemplo 6
+
+
+La región comprendida por las rectas y = x, y = 2 x y x = 3 gira alrededor del eje
+x. Encuentre el volumen del sólido generado.
+
+     a. Tomando el i-ésimo elemento de área paralelo al eje x (método de la corteza).
+
+     b. Tomando el i-ésimo elemento de área perpendicular al eje x (método del
+        disco).
+
+
+Solución
+
+
+a.   La figura 20.18 ilustra la situación cuando se toma el elemento i-ésimo de área
+     paralelo al eje x.
+
+
+                                                                         Elementos básicos de cálculo integral y series 239
+Capítulo 4: Aplicaciones de la integral definida
+
+
+                                                                                   Figura 20.18
+
+
+                                        En la figura 20.18 se observan dos elementos rectangulares limitados a derecha e
+                                        izquierda por funciones diferentes. Por tanto, es necesario dividir la región que se
+                                        va a rotar en dos regiones R1 y R2 . La primera, comprendida por las rectas
+                                         y = x, y = 2 x y y = 3, y la otra, comprendida por las rectas y = 2 x, y = 3 y x = 3.
+
+                                        Para cada caso se toma un elemento rectangular paralelo al eje x, que al rotarlo
+                                        alrededor de éste genera una corteza cilíndrica.
+
+                                        El volumen correspondiente a la corteza cilíndrica generada por el elemento de área
+                                        de la región R1 (figura 20.19) está dado por:
+
+                                                   Δvi = 2π ti h1 ⋅ Δyi , donde h1 = ti − i .
+                                                                                         t
+                                                                                          2
+                                        Luego
+
+                                                   V1 = lim ∑ 2π ti ⎜ ti − i ⎟ Δyi
+                                                               n
+                                                                    ⎛     t ⎞
+                                                        P →0
+                                                             i =1   ⎝      2⎠
+
+                                                                           π y3 ⎤
+                                                     = ∫ 2π y ⎜ y − ⎟ dy =
+                                                              ⎛    y⎞
+                                                                                ⎥ = 9π .
+                                                                                        3
+                                                         3
+
+                                                        0
+                                                              ⎝    2⎠       3 ⎦0
+                                        El volumen correspondiente a la corteza cilíndrica generada por el elemento de área
+                                        de la región R2 (figura 20.19) está dado por:
+
+
+                                                                                   Figura 20.19
+
+
+240
+                                                                                 Módulo 20: Volúmenes de sólidos de revolución
+
+        Δvi = 2π ti h2 .Δyi ,                 donde h2 = 3 − i .
+                                                            t
+                                                             2
+Luego
+
+        V2 = lim ∑ 2π ti ⎜ 3 − i ⎟ Δyi
+                    n
+                         ⎛    t ⎞
+             P →0
+                  i =1   ⎝     2⎠
+
+                                    ⎛ 3 y 2 y3 ⎞⎤
+           = ∫ 2π y ⎜ 3 − ⎟ dy = 2π ⎜
+                    ⎛    y⎞
+                                           − ⎟ ⎥ = 18π .
+                                                                          6
+                  6
+
+              3
+                    ⎝    2⎠         ⎝ 2     6 ⎠⎦3
+
+
+Por tanto el volumen total generado por las rectas dadas es igual a
+
+        V = V1 + V2 = 27π .
+
+Calculemos ahora el volumen tomando un elemento de área perpendicular al eje x
+(figura 20.20). Para este caso se utiliza el método del disco.
+
+
+                                                           Figura 20.20
+
+El volumen del disco generado por el elemento de área esta dado por:
+
+
+                      (
+        Δvi = π [ f (ti )] − [ g (ti )] Δxi .
+                                      2            2
+                                                       )
+
+                                  (                                  )
+Luego
+
+        V = lim ∑ π [ f (ti )] − [ g (ti )] Δxi
+                              n
+                                               2                 2
+
+
+                          (                                ) dx
+              P →0
+                          i =1
+
+
+          = ∫ π [ f ( x ) ] − [ g ( x) ]
+               3                          2            2
+              0
+
+
+          = ∫ π (4 x 2 − x 2 ) dx = π x3 ⎤⎦ = 27π .
+               3                                             3
+
+              0                                              0
+
+
+                                                                              Elementos básicos de cálculo integral y series 241
+                                        Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+       Asociar el diferencial de longitud de arco ds con la hipotenusa del triángulo
+       que aparece en la figura 21.3 y cuyos catetos son dx y dy.
+
+
+                                       Figura 21.3
+
+
+       Usando el teorema de Pitágoras, se tiene:
+
+
+                                            ⎛ ⎛ dy ⎞ ⎞
+               (ds ) 2 = (dx) 2 + (dy ) 2 = ⎜1 + ⎜ ⎟ ⎟ (dx) 2
+                                                     2
+
+
+                                            ⎜ ⎝ dx ⎠ ⎟
+                                            ⎝        ⎠
+                                                                               (7)
+
+       (sacando factor común (dx) 2 )
+
+                                      ⎛ ⎛ dx ⎞ 2 ⎞
+                                    = ⎜ 1 + ⎜ ⎟ ⎟ (dy ) 2
+                                      ⎜ ⎝ dy ⎠ ⎟
+                                      ⎝          ⎠
+                                                                               (8)
+
+       (sacando factor común (dy ) 2 )
+
+
+       De (7): ds = 1 + ⎜ ⎟ dx ⇒ s = ∫ 1 + ⎜ ⎟ dx .
+                        ⎛ dy ⎞             ⎛ dy ⎞
+                                2                           2
+
+
+                        ⎝ dx ⎠             ⎝ dx ⎠
+                                      b
+
+                                      a
+
+
+       De (8): ds = 1 + ⎜ ⎟ dy ⇒ s = ∫ 1 + ⎜ ⎟ dy .
+                        ⎛ dx ⎞             ⎛ dx ⎞
+                                2                           2
+                                       d
+
+
+                        ⎝ dy ⎠        c
+                                           ⎝ dy ⎠
+
+iii.   Las fórmulas (5) y (6) para la longitud de arco, a pesar de ser simples, se
+       pueden calcular en forma exacta sólo para muy pocas funciones. Casi siempre
+       hay que recurrir a métodos numéricos para calcularla en forma aproximada.
+       Por esta razón en los ejercicios propuestos al final del capítulo se pide
+       únicamente escribir, sin calcular, la integral que representa la longitud de
+       arco para la función dada y en el intervalo dado.
+
+Ejemplo 1
+
+Use integración para calcular la longitud de una circunferencia de radio a.
+
+Solución
+
+Para simplificar, considere la ecuación
+
+        x2 + y2 = a2 ,                                                         (1)
+
+que representa una circunferencia centrada en el origen y radio a (figura 21.4a).
+
+                                                                      Elementos básicos de cálculo integral y series 247
+Capítulo 4: Aplicaciones de la integral definida
+
+
+                                        Una de las funciones que genera la ecuación anterior es y = a 2 − x 2 con
+                                         x ∈ [−2, 2] (figura 21.4b).
+
+
+                                                                                              Figura 21.4
+
+
+                                        Si denotamos por s1 la longitud del arco de la figura 21.4b, entonces la longitud
+                                        total s de la circunferencia es s = 2 s1 .
+
+
+                                        Ahora,
+
+                                                   s1 = ∫
+                                                                    ⎛ dy ⎞
+                                                                1 + ⎜ ⎟ ⋅ dx .
+                                                                             2
+
+
+                                                                    ⎝ dx ⎠
+                                                            a
+
+                                                        −a
+                                                                                                                                           (2)
+
+
+                                        Pero
+
+                                                      = −
+                                                   dy     x
+                                                   dx     y (usando derivación implícita en (1)).
+
+                                        Así que
+
+
+                                                       ⎛ dy ⎞   ⎛ x⎞                            x2 + y 2
+                                                    1+ ⎜ ⎟ = 1+ ⎜ − ⎟ =                                  =
+                                                                 2                    2
+                                                                                                                 a
+                                                       ⎝ ⎠      ⎝ y⎠                                           a − x2
+                                                                                                                        .
+                                                         dx                                        y2           2
+
+
+                                        Luego
+
+
+                                                   s1 = ∫                    ⋅ dx = 2 ∫                 ⋅ dx (por ser el integrando una función
+                                                            2        a                    2         a
+                                                        −2
+                                                                a −x
+                                                                 2       2            0
+                                                                                              a − x2
+                                                                                                2
+
+
+                                                                                                             par).
+
+
+248
+                                                          Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+           Al evaluar la última integral usando la sustitución x = a sen θ y dx = a cos θ dθ ,
+           se obtiene
+                    s1 = π a,
+
+           y en consecuencia,
+
+                    s = 2s1 = 2π a,
+
+           fórmula que coincide con la usada en geometría para la longitud de la circunferencia.
+
+           Ejemplo 2
+
+           Determine el perímetro de la hipocicloide de cuatro cúspides (figura 21.5a)
+           x2 3 + y 2 3 = 1                                                                      (1)
+
+           Solución
+
+
+s1 = 4s1
+
+
+                                                       Figura 21.5
+
+           Una de las funciones que genera la ecuación anterior es y = (1 − x 2 3 )3 , con
+           x ∈ [−1,1] (figura 21.5b).
+
+           Pero
+                          (1 − x 2 3 )1 2
+                       =−                 = −
+                    dy                        y1 3
+                                                   .
+                    dx        x1 3            x1 3
+
+           Note que la derivada de la función no existe en x = 0 (allí la tangente a la curva es
+           vertical), pero esto no es impedimento para determinar la longitud.
+
+           Si denotamos por la longitud de la mitad del arco de la figura 21.5b, entonces la
+           simetría de la figura permite deducir que la longitud total s de la hipocicloide es
+                    .
+
+           Ahora,
+
+                    s1 = ∫
+                                     ⎛ dy ⎞
+                                 1 + ⎜ ⎟ ⋅ dx .
+                                         2
+                             1
+
+                                     ⎝ dx ⎠
+                             0
+                                                                                                 (2)
+
+
+                                                                                        Elementos básicos de cálculo integral y series 249
+Capítulo 4: Aplicaciones de la integral definida
+                                         De otro lado,
+
+
+                                                       ⎛ dy ⎞   ⎛ y1 3 ⎞                 x2 3 + y2 3
+                                                    1+ ⎜ ⎟ = 1+ ⎜ − 1 3 ⎟ =                          = 1 3 = x −1 3 .
+                                                             2                   2
+                                                                                                       1
+                                                       ⎝ dx ⎠   ⎝ x ⎠                        x2 3     x
+
+      Escuche el audio Historia del
+      puente de Occidente «José María      Luego
+      Villa» en su multimedia de
+
+
+                                                   s1 = ∫ x −1 3 dx = ⎢ x 2 3 ⎥ = .
+                                                                      ⎡3      ⎤
+      Elementos básicos de cálculo                                           1
+      integral y series. (Adaptado, con                  1                       3
+                                                                      ⎣       ⎦0 2
+      autorización, del trabajo que el
+      profesor Jaime Chica E. hizo sobre
+                                                         0              2
+      esta obra de ingenieria.)
+
+                                           Por tanto, s = 4s1 = 6.
+
+
+                                           21.2 Cálculo de la longitud de los cables en el puente de
+                                                Occidente
+                                           Consideremos ahora un cable flexible de peso despreciable y que lleva una carga
+                                           horizontal uniformemente distribuida de intensidad w. Si suponemos que C y E
+                                           están a la misma altura (figura 21.6), entonces la distancia horizontal CE se llamará
+                                           cuerda o luz del cable (c).
+
+                                           La profundidad del punto más bajo del cable respecto a la horizontal que pasa por
+                                           C y E se llama flecha (f).
+
+                                           Con respecto a los ejes x e y de la figura 21.6, f es la ordenada del punto de
+                                           suspensión.
+                                                       c
+                                           La relación f se llama relación de flecha.
+
+
+                                                                                     Figura 21.6
+
+                                           Llamemos O el punto más bajo del cable y pasemos por O un eje horizontal x y un
+                                           eje vertical y.
+
+                                           Sea A(x, y) un punto del cable.
+
+
+250
+                                               Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+
+Consideremos el equilibrio del tramo OA del cable. Como el cable es flexible, la
+única fuerza que puede transmitir es una tensión T que es tangente al cable en cada
+punto. Llamemos T0 la tensión en el punto más bajo. El tramo OA de cable soporta
+una carga vertical de intensidad wx y está en equilibrio bajo la acción de tres
+fuerzas:
+
+       T0 , T y la carga vertical wx.
+
+
+Como T0 y T se cortan en C, punto medio de OA′, se tendrá que la carga vertical wx
+está aplicada en C.
+
+
+                                            Figura 21.7
+
+
+Del diagrama de cuerpo libre para el tramo OA (figura 21.7):
+
+
+       ∑ F = 0, de donde T = T ,                                                      (1)
+
+       ∑ F = 0, de donde T = wx,
+             x                   x      0
+
+
+             y                   y                                                    (2)
+
+       ∑ M = 0, de donde −wx ⎜⎝ 2 ⎟⎠ − yT + xT = 0.
+                                        ⎛x⎞
+                 0                                  x     y                           (3)
+
+
+Reemplazando (1) y (2) en (3),
+
+
+       −        − yT0 + wx 2 = 0,
+           wx 2
+            2
+
+de donde
+
+          ⎛ w ⎞ 2         ⎛ w ⎞
+       y =⎜     ⎟ x , con ⎜ 2T ⎟ constante,
+          ⎝ 2T0 ⎠         ⎝ 0⎠
+                                                                                      (4)
+
+
+                                                                             Elementos básicos de cálculo integral y series 251
+Capítulo 4: Aplicaciones de la integral definida
+
+                                        ecuación que nos demuestra que la curva que adopta el cable es una parábola de la
+
+                                        forma y = Qx 2 con Q = 2T .
+                                                                w
+                                                                          0
+
+
+                                        Vamos ahora a ver que Q =
+                                                                              4f
+                                                                                 .
+                                                                              c2
+
+                                        En (4), si x = , y = f . Entonces
+                                                      c
+                                                      2
+
+                                                   f =          =
+                                                           w c 2 wc 2
+                                                                      ,
+                                                          2T0 4   8T0
+                                        de donde
+
+                                                   T0 =
+                                                          wc 2
+                                                          8f
+                                        y por tanto
+
+                                                   Q=         =          = 2 .
+                                                           w        w     4f
+                                                                       2
+                                                          2T0       wc    c
+                                                                  2
+                                                                    8f
+                                        La ecuación de la curva es entonces:
+                                                                        ⎡ c c⎤
+                                                    y=        x con x ∈ ⎢− , ⎥ .
+                                                          4f 2
+                                                          c 2
+                                                                        ⎣ 2 2⎦
+
+                                        Ahora, como vimos en el módulo 14 del texto Elementos básicos del cálculo
+                                        diferencial, un cable colgante apoyado en extremos que están a la misma altura
+                                        adopta la forma de una catenaria de ecuación:
+                                                                    ⎛δ ⎞
+                                                   y=         cos h ⎜ x ⎟ ,
+                                                          δ
+                                                          H
+                                                                    ⎝H ⎠
+
+                                        donde
+
+                                                   H: tensión en el punto más bajo
+                                                   δ : densidad del cable (libras/pie).
+
+                                        Pero cuando un cable está suficientemente tenso, es decir, cuando f es pequeño
+                                        comparado con c, se puede apreciar que s, longitud del cable, es ligeramente mayor
+                                        que la cuerda c y se puede asumir en estos casos que el peso del cable se halla
+                                        distribuido uniformemente a lo largo de la luz c.
+
+                                        Tal es el caso en el puente colgante de Occidente «José María Villa» de Santafé de
+                                        Antioquia, donde
+
+
+                                                                                ⎫
+                                                   c = 956′ (pulgadas) ≈ 291m.⎪
+                                                                                ⎪
+                                                   f = 35′ (pulgadas) ≈ 10.5 m. ⎬
+                                                                                ⎪
+                                                                                ⎪
+                                                                                                                      (5)
+                                                      = 0.0366 = n.
+                                                    f
+                                                   c                            ⎭
+
+252
+                                                        Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+Ejemplo 3
+
+Determine la longitud de uno de los cables en el puente de Occidente. Es decir,
+determine la longitud de arco de curva y = Qx 2 , donde
+
+                                  ⎡ c c⎤
+        Q=                  y x ∈ ⎢− , ⎥ .
+                 4f
+                 c2               ⎣ 2 2⎦
+
+Solución
+
+Si llamamos s el largo de cada uno de los cables comprendidos entre las torres
+soportes, entonces
+
+        s = ∫
+                                ⎛ dy ⎞
+                            1 + ⎜ ⎟ dx .
+                                            2
+                  c 2
+
+                 −c 2
+                                ⎝ dx ⎠
+
+Como y = Qx 2 , entonces dy = 2Qx.
+                         dx
+
+Así que
+
+        s=∫             1 + 4Q 2 x 2 dx
+              c2
+
+             −c 2
+
+
+           =∫                            + x 2 dx
+                 c 2                 1
+                        2Q
+              −c 2                  4Q 2
+
+
+           = 4Q ∫                        + x 2 dx
+                        c2           1
+                                                        (por ser el integrando una función par).
+                        0           4Q 2
+
+Ahora, la integral ∫                      + x 2 dx puede escribirse en la forma:
+                                      1
+                                     4Q 2
+
+
+        ∫ 4Q + x dx = ∫ a + x dx.
+              1                 2               2   2
+                  2
+
+
+donde a 2 =
+                  1
+                      .
+                 4Q 2
+
+Pero,
+
+        ∫ a + x dx = 2 ⎡⎣ x a + x + a ln ( x + a + x ⎤⎦ + c. (Vea la fórmula 28
+             2          2             1         2   2     2           2   2
+
+
+        de la tabla de integrales del Apéndice III)
+                                                                                                             Consulte el apéndice III «Tabla
+
+Tomando como a =
+                  1                                                                                          de integrales» al final de este
+                            2
+                      , se tiene:                                                                            texto.
+                 4Q 2
+
+               ⎡                      ⎛                 ⎞⎤
+        s = 2Q ⎢x      + x2 +      ln ⎜⎜ x +      + x 2 ⎟⎟ ⎥
+                                                                           c 2
+                   1           1              1
+               ⎢⎣ 4Q                   ⎝                 ⎠ ⎥⎦ 0
+                     2           2              2
+                              4Q             4Q
+
+
+                                                                                        Elementos básicos de cálculo integral y series 253
+Capítulo 4: Aplicaciones de la integral definida
+
+                                                          ⎡c                      ⎛c          c2 ⎞          1 ⎤
+                                                     = 2Q ⎢         +    +        ⎜  +      +    ⎟−           ⎥
+                                                                1     c2   1            1           1
+                                                          ⎢⎣ 2 4Q                 ⎜2          4 ⎟⎠ 4Q      2Q ⎥
+                                                                               ln                       ln
+                                                                                  ⎝                           ⎦
+                                                                  2          2            2           2
+                                                                      4 4Q             4Q
+
+
+                                                                       1 ⎛c          c2 ⎞ 1
+                                                     = Qc          + +  ln ⎜ +      + ⎟−
+                                                               1    c2          1              1
+                                                                    4 2Q ⎜⎝ 2        4 ⎟⎠ 2Q 2Q
+                                                                 2                2
+                                                                                            ln   .
+                                                              4Q               4Q
+
+
+                                        Si se sustituye Q =
+                                                                 4f
+                                                                    se obtiene luego de las simplificaciones necesarias:
+                                                                 c2
+
+
+                                                                               4cf + c c 2 + 16 f 2
+                                                   s =      c + 16 f 2 +
+                                                          1 2            c2
+                                                                            ln                      .
+                                                          2              8f            c2
+
+
+                                        Como n =
+                                                          f
+                                                            es la relación de flecha, y por tanto f = nc, se tiene que
+                                                          c
+
+                                                                                    ⎡ 4c( nc) + c c 2 + 16n 2 c 2 ⎤
+                                                   s=      c + 16n 2 c 2 +       ln ⎢                             ⎥,
+                                                         1 2                c2
+                                                         2                 8(nc)    ⎢⎣           c2               ⎥⎦
+
+
+                                        esto es,
+
+
+                                                   s=      1 + 16n 2 + ln ⎡ 4n + 1 + 16n 2 ⎤ ,
+                                                                      8n ⎣                 ⎦
+                                                         c             c
+                                                         2
+
+                                        y se tiene así que s = f (c, n). Es decir, la longitud s es una función de c y n.
+
+                                        En particular, al sustituir los valores de c y n que aparecen en (5) se obtiene el valor
+                                        de s:
+
+                                                   s ≈ 960 pies.
+
+                                        Observación
+
+                                        Existe otro procedimiento de cálculo para encontrar la longitud de cada cable usando
+                                        la serie binomial que aparece en el módulo 31 (vea el ejemplo 13 del módulo 31).
+
+
+254
+                                            Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+
+
+Ejemplo 4
+
+Use integración para hallar el área de la superficie de una esfera de radio a.
+
+Solución
+
+La superficie de la esfera se genera por rotación alrededor del eje x, del arco
+superior de x 2 + y 2 = a 2 , es decir, y = a 2 − x 2 en el intervalo [−a, a] (figura 21.14 a).
+
+
+                                        Figura 21.14
+
+Al girar alrededor del eje x la ds, se genera la dS (diferencial de área de superficie),
+franja de área sombreada que aparece en la figura 21.14b.
+
+Al contar y desarrollar la dS se obtiene el rectángulo de la figura 21.15 con las
+especificaciones allí dadas.
+
+
+                                        Figura 21.15
+
+De acuerdo con la figura:
+
+           dS = 2π a 2 − x 2 ⋅            dx = 2π a dx.
+                                    a2
+                                  a2 − x2
+
+
+                                                                                 Elementos básicos de cálculo integral y series 259
+Capítulo 4: Aplicaciones de la integral definida
+                                        Entonces
+
+                                                   S = ∫ 2π a dx = 2∫ 2π a dx = [ 4π ax ]0
+                                                          a                 a                    a
+                                                          −a                0
+
+
+                                                     = 4π a 2 .
+
+                                        Es decir, el área de la superficie de una esfera es cuatro veces el área de su sección
+                                        transversal.
+
+                                        Ejemplo 5
+
+                                        Determine el área de la superficie de revolución generada al rotar alrededor del eje
+                                        y la porción de la hipocicloide x 2 3 + y 2 3 = 1 en [0,1] y considerando:
+
+                                        a. Variable de integración x.
+
+                                        b. Variable de integración y.
+
+
+                                        Solución
+
+                                        El área de superficie se genera al rotar alrededor del eje y la porción de curva que
+                                        aparece en la figura 21.16.
+
+                                        En cualquier caso:
+
+                                                   dS = 2π x ds.
+
+                                        a.         Ahora, si escogemos como variable de integración a la x, entonces:
+
+                                                                         ⎛ dy ⎞
+                                                           dS = 2π x 1 + ⎜ ⎟ dx .
+                                                                                  2
+
+
+                                                                         ⎝ dx ⎠
+
+                                                                   ⎛ dy ⎞
+                                                               1 + ⎜ ⎟ = x −1/ 3 (ejemplo 2, sección 21.1).
+                                                                       2
+
+
+                                                                   ⎝ dx ⎠
+                                                   Pero
+
+
+                                                   Luego dS = 2π x ⋅ x −1 3 dx = 2π x 2 3 dx .
+
+                                                   Así que
+
+                                                                                                 6π
+                                                               S = 2π ∫ x 2 3 dx = 2π ⎢ x5 3 ⎥ =
+                                                                                      ⎡3     ⎤
+                                                                                            1
+                                                                       1
+
+                                                                                      ⎣5     ⎦0
+                                                                                                    .
+                                                                       0                          5
+                                             b. Si escogemos como variable de integración a y, entonces:
+
+                                                                             ⎛ dy ⎞
+                                                               dS = 2π x 1 + ⎜ ⎟ dy
+                                                                                      2
+
+
+                                                                             ⎝ dx ⎠
+                                                                                                                          (7)
+
+
+260
+                                   Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+
+Como la variable de integración es y, debemos expresar x de la función en
+términos de y. Esto es, si x 2 3 + y 2 3 = 1, entonces
+
+        x = (1 − y 2 3 )
+                           32
+                                                                          (8)
+
+
+                                Figura 21.16
+
+También,
+
+
+            ⎛ dy ⎞
+         1+ ⎜ ⎟ = 1 3 .
+                    2
+                    1
+            ⎝ dx ⎠
+                                                                          (9)
+                   y
+
+
+                                                                 Elementos básicos de cálculo integral y series 261
+Capítulo 4: Aplicaciones de la integral definida
+
+                                                   Sustituyendo (8) y (9) en (7) se puede escribir
+
+                                                          dS = 2π (1 − y 2 3 )
+                                                                                 32    1
+                                                                                          dy
+                                                                                      y1 3 .
+                                                   De aquí,
+
+                                                          S = 2π ∫ 2π
+                                                                     1    (1 − y 2 3 )3 2
+                                                                                          dy .
+                                                                     0         y1 3
+
+                                                   La última integral puede evaluarse haciendo la sustitución:
+
+
+                                                          u = (1 − y 2 3 ) ⇒ du = −       y dy = − 1 3
+                                                                                        2 −1 3    2dy
+                                                                                        3         3y
+
+                                                                          ⇒       = − du.
+                                                                              dy     3
+                                                                               13
+                                                                              y      2
+                                                   De esta forma:
+
+
+                                                          S = 2π ∫                     dy = 2π ⎜ − ⎟ ∫ u 3 2 du
+                                                                     1 (1 − y 2 3 )3 2         ⎛ 3⎞ 0
+                                                                                               ⎝ 2⎠ 1
+                                                                     0       13
+                                                                            y
+                                                                    ⎡2      ⎤       ⎡ 2⎤ 6
+                                                              = −3π ⎢ u 5 2 ⎥ = −3π ⎢ 0 − ⎥ = π .
+                                                                              0
+
+
+                                                                    ⎣5      ⎦1      ⎣ 5⎦ 5
+
+
+262
+                                                                                     Módulo 22: Momentos y centros de masa
+
+
+Ejemplo 1
+
+Cuatro masas de 3, 5, 6 y 8 gramos están colocadas sobre el eje x en las abscisas
+–2, 3, 5 y –4, respectivamente. Halle el centro de masa del sistema.
+
+Solución
+
+              ∑m x
+               4
+
+                                 3(−2) + 5.3 + 6.5 + 8(−4) 7
+         x = i =14           =                            = .
+               ∑m
+                       i i
+
+
+                                       3+5+ 6+8            22
+                i =1
+                        i
+
+
+Caso continuo
+
+Consideremos ahora una varilla rígida de diámetro pequeño y longitud L colocada
+sobre el eje x de tal modo que uno de sus extremos coincide con el origen 0 (figura
+22.1). Supongamos además que la densidad lineal (unidades de masa por unidad
+de longitud) es una función δ1 ( x), integrable en [0, L ] .
+
+
+Si hacemos una partición P de la varilla en n segmentos de longitud Δxi = xi − xi −1 ,
+una aproximación a la masa del i-ésimo intervalo será δ1 (ti )Δxi , en donde ti es un
+punto de [ xi −1 , xi ] y Δxi su longitud, una aproximación a su momento con respecto
+al origen será tiδ (ti )Δxi .
+                                                                                               Vea el módulo 22 del programa
+                                                                                               de televisión Elementos básicos
+                                                                                               de cálculo integral y series
+
+
+                                                                          Elementos básicos de cálculo integral y series 265
+Capítulo 4: Aplicaciones de la integral definida
+
+
+                                                                                            Figura 22.1
+
+
+                                         La masa total m estará dada por:
+
+                                                   m = lim ∑ δ1 (ti )Δxi = ∫ δ1 ( x) dx .
+                                                                     n              L
+
+                                                        P →0
+                                                                                                                         (1)
+                                                                 i =1
+                                                                                    0
+
+
+                                         El momento de masa total M será:
+
+                                                   M = lim ∑ tiδ1 (ti )Δxi = ∫ xδ1 ( x) dx.
+                                                                      n                 L
+
+                                                         P →0
+                                                                                                                         (2)
+                                                                     i =1
+                                                                                        0
+
+
+                                         El centro de masa estará dado por:
+
+                                                      ∫ xδ ( x) dx .
+                                                         L
+
+
+                                                   x=
+                                                       ∫ δ ( x) dx
+                                                         0       1
+
+                                                             L                                                           (3)
+                                                            0    1
+
+
+                                         Ejemplo 2
+
+                                         Halle el centro de masa de una varilla de diámetro pequeño, longitud L y densidad
+                                         uniforme (constante) δ1 ( x) = k .
+
+                                         Solución
+
+                                         De acuerdo con la fórmula (3) tenemos que:
+
+                                                                                       ⎡ x2 ⎤
+                                                     ∫ 0 xδ1 ( x) dx = ∫ 0 x ⋅ k dx = ⎢⎣ 2 ⎥⎦ 0 = L
+                                                                                                          L
+                                                         L                  L
+                                                                                     k
+                                                   x= L
+                                                                                      k [ x ]0
+                                                        ∫ δ1 ( x) dx        ∫
+                                                                                                    .
+                                                                           L
+                                                                             k dx
+                                                                                             L
+                                                                                                  2
+                                                             0                  0
+
+
+                                         Este resultado confirma la propiedad bien conocida de que si una varilla de densidad
+                                         uniforme se suspende de su punto medio, queda en equilibrio.
+
+                                         Ejemplo 3
+
+                                         Una varilla de longitud 60 cm tiene una densidad lineal que varía proporcionalmente
+                                         al cuadrado de su distancia a uno de los extremos. Si la densidad en el extremo más
+                                         pesado es de 7200 g/cm, halle su masa total y el centro de masa.
+
+
+266
+                                                                                   Módulo 22: Momentos y centros de masa
+Solución
+
+Coloquemos la varilla sobre el eje x con su extremo más liviano en el origen 0 (figura
+22.2).
+
+La densidad lineal será δ1 ( x ) = Rx 2 , de tal modo que cuando x = 60, P(60) = 7200,
+luego R ⋅ 602 = 7200 , de donde obtenemos R = 2, y por tanto δ1 ( x ) = 2 x 2 .
+
+
+                                          Figura 22.2
+
+Para hallar la masa m utilizamos la fórmula (1) y para el centro de masa la (3).
+
+
+Entonces:
+
+
+                        ⎡ x3 ⎤
+       m = ∫ 2 x dx = 2 ⎢ ⎥ = 144 000 g
+                                60
+              60
+
+
+                        ⎣ 3 ⎦0
+                    2
+            0
+
+
+y
+
+                            ⎡ x4 ⎤
+           2 ∫ x ⋅ x dx
+                                     60
+
+                            ⎢4⎥
+                            ⎣ ⎦0
+               60
+                          2
+        x=              =          = 45 cm.
+                    2
+              0
+
+                m         144 000
+
+
+Este último resultado nos indica que para que la varilla quede en equilibrio debe
+suspenderse de un punto a 45 cm del extremo más liviano.
+
+
+                                                                         Elementos básicos de cálculo integral y series 267
+Capítulo 4: Aplicaciones de la integral definida
+
+
+                                         Ejemplo 4
+
+
+                                         Se tienen masas de 5, 10 y 20 kg situadas en los puntos (1, 1), ( − 3, 1) y (0, 3),
+                                         respectivamente. Halle los momentos de masa respecto a los ejes coordenados y el
+                                         centro de masa.
+
+                                         Solución
+
+
+                                                   My = ∑ mi xi = 5 ⋅1 + 10(−3) + 20.0 = −25 kg-m.
+                                                              3
+
+
+                                                            i =1
+
+
+                                                   m = ∑ mi = 5 + 10 + 20 = 35 kg.
+                                                        3
+
+
+                                                       i =1
+
+
+268
+                                                                                          Módulo 22: Momentos y centros de masa
+             My −25 −5
+        x=     =    =   m.
+             m   35   7
+
+        y=     =  =
+             Mx 75 15
+                      m.
+             m 35 7
+
+Caso continuo
+
+Consideremos ahora una placa delgada con densidad de superficie
+δ 2 ( x, y ) = k (constante) en todos sus puntos y limitada por las curvas
+y = f ( x) , y = g ( x) ( f ( x) y g ( x) integrables en [a, b ]) y las rectas x = a y x = b.
+
+Supongamos además que f ( x) ≥ g ( x) para todo x en [a, b] (figura 22.4).
+
+
+                                             Figura 22.4
+
+
+La masa Δmi del i-ésimo rectángulo que resulta al efectuar una partición P sobre
+[a,b] será el producto de la densidad k por el área, esto es,
+
+        Δmi = k [ f (ti ) − g (ti )] Δxi ,
+
+
+en donde ti es un punto cualquiera de [ xi −1 , xi ] .
+
+
+dado aproximadamente por ti ⋅ Δmi = ti k [ f (ti ) − g (ti )] Δxi y el momento de masa
+El momento de masa correspondiente al i-ésimo elemento, respecto al eje y, estará
+
+
+total por:
+
+
+        My = lim ∑ kti [ f (ti ) − g (ti )] Δxi = ∫ kx [ f ( x) − g ( x)] dx.
+                        n                              b
+
+                P →0
+                                                                                         (1)
+                       i =1
+                                                      a
+
+
+                                                                                Elementos básicos de cálculo integral y series 269
+                                                                                   Módulo 22: Momentos y centros de masa
+
+ii.    Si en las fórmulas (1) y (2) se elimina la densidad k (o mejor, se hace igual a
+       1), los valores resultantes los llamaremos los momentos de la región respecto
+       a los ejes coordenados.
+
+       Al hacer k = 1 en la fórmula (3), la masa coincide numéricamente con el área
+       de la región.
+
+Ejemplo 5
+
+
+Encuentre el centroide de la región limitada por la rama de parábola y = x , el eje
+x y la recta x = 4 (figura 22.5).
+
+
+                                        Figura 22.5
+
+Solución
+
+En la figura 22.5 aparece el i-ésimo rectángulo indicando el punto medio en el cual
+se asume que se concentra la masa total. El momento respecto al eje x del i-ésimo
+rectángulo es el producto de su área por la distancia del punto medio al eje x. Esto
+es,
+
+          ti ⋅ ti Δxi .
+        1
+        2
+
+Entonces, el momento total Mx será:
+
+
+        Mx = lim ∑ ⎜ ⎟ ti . ti Δxi
+                    n
+                       ⎛1⎞
+                  i =1 ⎝ 2 ⎠
+             P →0
+
+
+                             1 ⎡ x2 ⎤
+                 2 ∫0
+             =             =   ⎢ ⎥ = 4.
+                                    4
+                 1 4
+                             2 ⎣ 2 ⎦0
+                      x dx
+
+
+Similarmente, el momento respecto al eje y del i-ésimo rectángulo es el producto de
+su área por la distancia al eje y. Esto es,
+
+
+                                                                        Elementos básicos de cálculo integral y series 271
+Capítulo 4: Aplicaciones de la integral definida
+
+                                                   ti ti Δxi .
+
+                                         Entonces, el momento total respecto al eje y, My, será:
+
+
+                                                   My = lim ∑ ti ti Δxi = ∫ x x dx = ∫ x3 2 dx = ⎢ x 5 2 ⎥ = .
+                                                                                                 ⎡2      ⎤
+                                                                                                                4
+                                                               n            4          4                    64
+                                                        P →0
+                                                             i =1
+                                                                           0          0
+                                                                                                 ⎣5      ⎦0 5
+
+                                         El área de la región está dada por:
+
+
+                                                   A=∫
+                                                                       2 3 2 ⎤ 16
+                                                              x dx =     x ⎥ = .
+                                                                           4
+                                                          4
+
+                                                         0             3     ⎦0 3
+
+                                         Las coordenadas x e y del centroide serán entonces:
+
+                                                           64
+                                                   x=    = 5 =    ; y=   =   = .
+                                                      My       12      Mx 4 3
+                                                      A    16   5      A 16 4
+                                                            3              3
+
+
+                                         Ejemplo 6
+
+                                         Halle el centroide de la región limitada por la curva y = x 2 y la recta y = x + 2 (figura
+                                         22.6).                                                                                       (2, 4
+
+
+                                                                                Figura 22.6
+
+
+                                         Solución
+
+                                         Los puntos de intersección de la parábola y la recta son (−1,1) y                    y se
+                                         obtienen resolviendo simultáneamente las dos ecuaciones.
+
+
+272
+                                                                                             Módulo 22: Momentos y centros de masa
+
+El momento respecto al eje x del i-ésimo rectángulo se obtiene multiplicando su
+área por la distancia de su punto medio al eje x.
+
+Entonces el momento total será:
+
+        Mx = lim ∑ ⎜ ⎟ ((ti + 2) + ti2 )((ti + 2) − ti2 ) Δxi
+                    n
+                       ⎛1⎞
+                  i =1 ⎝ 2 ⎠
+             P →0
+
+
+                2 ∫−1
+            =         (( x + 2) + x 2 )(( x + 2) − x 2 ) dx = ∫ ( x 2 + 4 x + 4 − x 4 ) dx = .
+                1 2                                          1 2                            36
+                                                             2 −1                            5
+
+El momento respecto al eje y es:
+
+         My = lim ∑ (ti )((ti + 2) − ti2 ) Δxi = ∫ x(( x + 2) − x) dx
+                          n                            2
+
+                  P →0                               −1
+                         i =1
+
+
+                = ∫ ( x 2 + 2 x − x3 ) dx = .
+                    2                      9
+                   −1                      4
+
+El área de la región es:
+
+        A = ∫ ( x + 2 − x 2 ) dx = .
+              2                   9
+             −1                   2
+
+Por tanto las coordenadas del centroide serán:
+              9                            36
+        x=   = = ;                 y=    = 5 = .
+           My 4 1                     Mx      8
+           A  9 2                     A     9 5
+              2                             2
+
+Ejemplo 7
+
+Demuestre que la figura plana A (figura 22.7), simétrica respecto al eje x, tiene su
+centroide sobre dicho eje.
+
+
+                                         Figura 22.7
+
+
+                                                                                 Elementos básicos de cálculo integral y series 273
+Capítulo 4: Aplicaciones de la integral definida
+
+                                        Solución
+
+                                        Como la figura A está limitada superiormente por la curva y = f ( x) , entonces,
+                                        dada la simetría respecto al eje x, la curva que la limita inferiormente debe ser
+                                         y = − f ( x).
+                                        Para calcular la ordenada y del centroide utilicemos la fórmula (5) dada al comienzo
+                                        de esta sección en donde g ( x) es la función y = − f ( x). Por tanto,
+
+
+                                                     1 ∫ a ⎡⎣( f ( x)) − (− f ( x)) ⎤⎦ dx
+                                                            b
+
+
+                                                   y= ⋅                                   = 0,
+                                                                        2             2
+
+
+                                                     2
+                                                                ∫ [ f ( x) − g ( x)] dx
+                                                                b
+
+                                                                    a
+
+
+                                        y en consecuencia el centroide está sobre el eje x, o sea que está localizado sobre
+                                        el eje de simetría.
+
+
+                                        Observación
+
+
+                                        De manera similar puede demostrarse fácilmente que si la región plana es simétrica
+                                        con respecto al eje y, su centroide estará localizado sobre dicho eje.
+
+
+                                        Ejemplo 8                                                                               y=
+
+                                        Demuestre que el centroide de un círculo se encuentra en su centro.
+
+                                        Solución
+
+                                        Cualquier diámetro que se trace es un eje de simetría en el círculo. En consecuencia,
+                                        por el resultado del ejemplo 7, el centroide se debe encontrar localizado sobre
+                                        dicho eje. Si trazamos dos diámetros diferentes, el centroide pertenece
+                                        simultáneamente a los dos, luego pertenece a su intersección, que en este caso
+                                        coincide con el centro.
+
+                                        Ejemplo 9
+
+                                        Determine el centro de masa de un alambre delgado de densidad constante δ1 y
+                                        que tiene forma de una semicircunferencia de radio a.
+
+                                        Solución
+
+
+                                        Supongamos que el alambre tiene la forma de la semicircunferencia
+                                        que aparece en la figura 22.8a.
+
+
+274
+                                                                                               Módulo 22: Momentos y centros de masa
+
+
+                                                            Figura 22.8
+
+        Como el alambre es homogéneo, la distribución de masa es simétrica con respecto
+        al eje y; en consecuencia, x = 0 .
+
+        Ahora
+
+                                                                                             (1)
+
+        Pero
+
+                                    ⎛ dy ⎞
+                dm = δ1 ds = δ1 1 + ⎜ ⎟ dx = δ1
+                                                    2
+                                                  a
+                                    ⎝ dx ⎠      a2 − x 2
+                                                         dx (ejemplo 4, sección 21.3).
+
+
+        Luego
+
+                m=∫
+                                 δ1a
+                                          dx = πδ1a (masa de media circunferencia).
+y= x.
+                       a
+
+
+                                a2 − x2
+  M                   −a
+                                                                                              (2)
+   m
+
+        También, si denotamos por dM x el diferencial de momento con respecto al eje x,
+        del diferencial ds, entonces:
+
+
+                dM x = ( dm) ⋅ (distancia al eje x ) = δ1 ds ⋅ y = δ1 a 2 − x 2 ds.
+
+        Luego
+
+                M x = ∫ δ1 a 2 − x 2
+                           a                        a
+                                               a − x2
+                                                              dx
+                           −a                   2
+
+
+                     = 2aδ1 ∫ dx = 2aδ1 [ x ]0 = 2a 2 δ1 .
+                                  a                     a
+                                  0
+                                                                                              (3)
+
+
+        Sustituyendo (2) y (3) en (1) se obtiene:
+
+
+                     2a 2 δ1 2a
+                y=          =
+                     πaδ1     π
+                                .
+
+
+                                                                                  ⎛ 2a ⎞
+        Por tanto, el centroide ( x , y ) del alambre está localizado en el punto ⎜ 0, ⎟ (figura
+                                                                                  ⎝ π ⎠
+        22.8b).
+
+
+                                                                                      Elementos básicos de cálculo integral y series 275
+Capítulo 4: Aplicaciones de la integral definida
+
+                                        Note que el centroide no está sobre el alambre sino sobre el eje de simetría.
+
+
+                                        Ejemplo 10
+
+                                        Determine el centro de masa de la lámina delgada de densidad constante δ 2 y que
+                                        tiene la forma de un semicírculo de radio a.
+
+                                        Solución
+
+
+                                        Supongamos que la lámina tiene la forma de la región plana limitada por
+                                        y el eje x (figura 22.9a).
+
+
+                                                                                      Figura 22.9
+
+
+                                                                                                                              y=
+                                        Como la lámina es homogénea, la distribución de masa es simétrica con respecto al
+                                        eje y, y en consecuencia x = 0 .
+
+                                        Ahora,
+
+                                                   y=
+                                                        Mx
+                                                           .                                                            (1)
+                                                        m
+
+                                        Pero
+
+                                                   dm = δ2 dA = δ2 [ f ( x)] dx = δ 2 a 2 − x 2 dx .
+
+                                        Luego
+
+                                                   m = ∫ δ 2 a 2 − x 2 dx = 2 ∫ δ 2 a 2 − x 2 dx =
+                                                         a                        a                    πa 2 δ 2
+                                                                                                                .       (2)
+                                                         −a                       0                      2
+
+                                        También, si denotamos dM x el diferencial de momento con respecto al eje x, del
+                                        diferencial de área dA, entonces:
+
+                                                   dM x = (dm) ⋅ (distancia al eje x)
+                                                                    y δ2           δ
+                                                        = δ2 dA ⋅    =   y ⋅ y dx = 2 (a 2 − x 2 ) dx.
+                                                                    2 2             2
+
+
+276
+                                                                                      Módulo 22: Momentos y centros de masa
+Luego
+
+
+        Mx = ∫         ( a − x 2 ) dx = δ 2 ∫ ( a 2 − x 2 ) dx = δ 2 a 3 .
+                 a   δ2 2                     a                 2
+               −a
+                                                                                     (3)
+                     2                       0                  3
+
+Sustituyendo (2) y (3) en (1) se obtiene:
+
+
+             δ2 a3
+           2
+        y=         =
+           3         4a
+           πa 2 δ 2 3π
+                        .
+
+              2
+
+
+Por tanto, el centroide ( x , y ) de la lámina semicircular y homogénea está localizado
+
+            ⎛ 4a ⎞
+en el punto ⎜ 0, ⎟ (figura 22.9b).
+            ⎝ 3π ⎠
+
+
+                                                                             Elementos básicos de cálculo integral y series 277
+                                                                                               Módulo 22: Momentos y centros de masa
+      Ejemplo 11
+
+      Encuentre el centro de masa del sólido de revolución generado al rotar alrededor
+
+      del eje x la región limitada por la parábola y =
+                                                             1 2
+                                                               x , el eje x y la recta     .
+                                                             2
+
+      Solución
+
+      La figura 22.14 muestra la región y el elemento rectangular de área. La figura 22.15
+      muestra el sólido de revolución y el elemento de volumen.
+
+
+                                              Figura 22.14
+
+
+x=4
+
+
+                                              Figura 22.15
+
+
+      Como la región gira alrededor del eje x, el centro de masa es de la forma C ( x , 0, 0),
+
+      donde x =
+                   Myz
+                       .
+                    m
+
+      El momento con respecto al plano yz está dado por:
+
+              Myz = lim ∑ kπ ti [ f (ti )] Δxi
+                              n
+                                          2
+
+                      P →0
+                             i =1
+
+
+                                                                kπ 4 5       kπ 46 45
+                   = ∫ kπ x [ f ( x)] dx = ∫ kπ ⋅ x ⋅
+                                                                 4 ∫0
+                                                           dx =            =      = kπ .
+                       b            2          4        x4
+                                                                      x dx
+                      a                       0         4                     4 6  6
+
+
+                                                                                     Elementos básicos de cálculo integral y series 281
+Capítulo 4: Aplicaciones de la integral definida
+                                         La masa del sólido es:
+
+
+                                                   m = lim ∑ kπ [ f (ti ) ] Δxi = ∫ kπ
+                                                                                                 k π 45 k π 4
+                                                                                            dx =       =
+                                                                n
+                                                                         2         4     x4
+                                                                                                           4.
+                                                        P →0
+                                                               i =1                      4        4 5    5
+                                                                                   0
+
+
+                                        De donde
+
+
+                                                x=      = ,
+                                                     Myz 10
+                                                      m   3
+
+                                                                                                  ⎛ 10     ⎞
+                                        y por tanto el centro de masa está localizado en el punto ⎜ , 0, 0 ⎟ .
+                                                                                                  ⎝ 3      ⎠
+
+                                        Ejemplo 12
+
+                                        Encuentre el centro de masa del sólido de revolución del ejemplo 11, tomando el
+                                        elemento rectangular de área paralelo al eje x.
+
+                                        Solución
+
+                                        La figura 22.16 muestra el elemento rectangular de área y el centro del mismo. El
+                                        centroide del sólido está en el punto ( x , 0, 0) (figura 22.17).
+
+
+                                                                              Figura 22.16
+
+
+                                                                                  Figura 22.17
+
+
+                                        Para calcular x se requiere conocer el momento con respecto al plano yz. Puesto
+                                        que se va a utilizar el método de la corteza cilíndrica, el centroide de cada corteza
+
+
+282
+                                                                                   Módulo 22: Momentos y centros de masa
+                                             ⎛ 1                ⎞
+está en el centro de ella, o sea en el punto ⎜ 0, (4 + 2ti ), 0 ⎟ . Luego,
+                                             ⎝ 2                ⎠
+
+        Myz = lim ∑ (4 + 2ti )2π ti (4 − 2ti ) Δyi
+                     n
+                        k
+              P →0
+                   i =1 2
+
+
+             =∫          (4 + 2 y )2π y (4 − 2 y ) dy
+                   8   k
+                   0   2
+
+                                          ⎛         2 y3 ⎞⎤
+             = kπ ∫ (16 − 2 y ) y dy = kπ ⎜ 8 y 2 −
+                                                           8
+
+                                                         ⎟⎥
+                            8
+
+                   0
+                                          ⎝          3 ⎠⎦0
+
+                  ⎛     2 ⎞ kπ 83
+             = kπ ⎜ 83 − 83 ⎟ =
+                  ⎝     3 ⎠
+                                  .
+                                3
+
+
+Ahora, la masa del sólido esta dada por:
+
+
+        m = lim ∑ k ⋅ 2π ti (4 − 2ti )Δyi
+                        n
+
+              P →0
+                       i =1
+
+
+                                            ⎛          2 2 5 2 ⎞⎤
+           = ∫ k ⋅ 2π y (4 − 2 y ) dy = 2kπ ⎜⎜ 2 y 2 −
+                                                                    8
+
+                                                          y ⎟⎟ ⎥
+               8
+
+
+                                             ⎝          5      ⎠ ⎥⎦ 0
+              0
+
+
+                  ⎛          2 2 5⎞          ⎛                        ⎞
+           = 2kπ ⎜⎜ 2 ⋅ 82 −     8 ⎟⎟ = 2kπ ⎜⎜ 2 ⋅ 82 −    ⋅ 8 ⋅ 2 2 ⎟⎟
+                                                        2 2 2
+                  ⎝           5     ⎠        ⎝           5            ⎠
+
+                   ⎛         83 ⎞            ⎛ 2 ⎞ 4kπ 8
+           = 2 k π ⎜ 2 ⋅ 82 − ⎟ = 2 k π ⋅ 82 ⎜ ⎟ =
+                                                         2
+
+
+                   ⎝         5⎠              ⎝5⎠
+                                                           .
+                                                     5
+
+Por tanto,
+
+                 kπ 83
+        x=     = 3 2 = .
+                       10
+                4kπ 8
+           Myz
+            m           3
+                   5
+
+Ejemplo 13
+
+Encuentre el centroide del sólido de revolución del ejemplo 11, si la región gira
+alrededor del eje y.
+
+Solución
+
+La figura 22.18 muestra el elemento rectangular de área y el centro del mismo. La
+figura 22.19 muestra el elemento de volumen, el cual es una corteza. El centroide del
+sólido está en el punto (0, y ,0).
+
+
+                                                                          Elementos básicos de cálculo integral y series 283
+Capítulo 4: Aplicaciones de la integral definida
+
+
+                                                                                      Figura 22.18
+
+
+                                                                                      Figura 22.19
+
+
+                                        Para calcular y es necesario encontrar el momento con respecto al plano xz.
+
+                                                                                      ⎛ 1 2 ⎞
+                                        El centroide de cada corteza está en el punto ⎜ 0, ti , 0 ⎟ . Luego,
+                                                                                      ⎝ 2         ⎠
+
+                                                   Mxz = lim ∑ k ⋅ ti2 ⋅ 2π ti f (ti )Δxi
+                                                                n
+                                                                   1
+                                                         P →0
+                                                              i =1 2
+
+                                                        =∫           x ⋅ 2π x f ( x) dx
+                                                               4   k 2
+                                                             0     2
+
+                                                                        kπ x 6 ⎤   kπ 46
+                                                        = kπ ∫ x ⋅ dx =          =
+                                                                                          4
+
+                                                                               ⎥
+                                                                  x2    4
+
+                                                                         12 ⎦ 0
+                                                                            3
+                                                                                         .
+                                                              0   2                 12
+
+                                        Ahora, la masa del sólido es:
+
+
+                                                   m = lim ∑ k ⋅ 2π ti f (ti )Δxi
+                                                                   n
+
+                                                        P →0
+                                                                 i =1
+
+
+                                                                                                     kπ x 4 ⎤
+                                                     = ∫ k ⋅ 2π ⋅ x ⋅ f ( x)dx = 2π k ∫       x dx =        ⎥ = kπ ⋅ 4 .
+                                                                                                            4
+                                                         4                                  1 3
+                                                                                              4
+
+                                                                                                       4 ⎦0
+                                                                                                                      3
+                                                         0                                0 2
+
+
+                                        Luego
+                                                           kπ ⋅ 46
+                                                   y=     = 12 3 =   =
+                                                                   43 16 .
+                                                           kπ ⋅ 4
+                                                      Mxz
+                                                       m           12 3
+
+
+284
+                                                                                          Módulo 23: Los teoremas de Pappus
+
+De (2) se deduce que ∫ a y ds = y ⋅ s.
+                         b
+                                                                                   (3)
+
+
+Sustituyendo (3) en (1) se obtiene finalmente:
+
+        S = 2π y s.
+
+Ejemplo 1
+
+Use el primer teorema de Pappus para determinar el área de la superficie de una
+esfera de radio a.
+
+Solución
+
+Como lo demostramos en el ejemplo 9 del módulo 22, el centroide de un alambre
+delgado homogéneo en forma de una semicircunferencia de radio a es el punto
+               ⎛ 2a ⎞
+sobre el eje y ⎜ 0, ⎟ (vea la figura 22.8b).
+               ⎝ π ⎠
+
+Ahora, el área de la superficie de una esfera se genera al rotar alrededor del eje x la
+semicircunferencia de la figura 22.8a cuya longitud es s = πa.
+
+Así que de acuerdo al teorema de Pappus,
+
+
+                      ⎛ 2a ⎞
+        S = 2πys = 2π ⎜ ⎟ πa = 4πa 2 ,
+                      ⎝ π ⎠
+
+resultado que coincide con el del ejemplo 4 de la sección 21.3.
+Ejemplo 2
+
+Use el segundo teorema de Pappus para determinar el volumen de una esfera de
+radio a.
+
+Solución
+
+Como se demostró en el ejemplo 10 del módulo 22, el centroide de la lámina homogénea
+                                              ⎛ 4a ⎞
+y semicircular de radio a está en el punto ⎜ 0,       ⎟ sobre el eje y (figura 22.9b).
+                                              ⎝ 3π ⎠
+Ahora, el volumen de la esfera se genera al rotar alrededor del eje x el semicírculo de
+                                     πa 2
+la figura 22.9b y cuya área es A =        .
+                                      2
+
+
+                                                                                                Vea el módulo23 del programa
+                                                                                                de televisión Elementos básicos
+                                                                                                de cálculo integral y series
+
+
+                                                                         Elementos básicos de cálculo integral y series 287
+                                                                                      Módulo 23: Los teoremas de Pappus
+                                                                 4a
+                                                                 3π
+De otro lado, el centroide recorre una circunferencia de radio      .
+
+
+Así que la longitud que recorre el centroide es 2π ⎛⎜ ⎞⎟ = a .
+                                                      4a   8
+                                                    ⎝ 3π ⎠ 3
+Por tanto,
+          8 πa 2 4 3
+       V = a⋅   = πa ,
+          3   2  3
+
+que corresponde al volumen de una esfera de radio a.
+
+
+Ejemplo 3
+
+Determine el volumen del sólido de revolución generado al rotar alrededor de la
+recta y = x − 2 la lámina homogénea limitada por la semicircunferencia
+
+y = 4 − x 2 y el eje x.
+
+Solución
+
+En la figura 23.3 aparece sombreada la región y el eje de giro escrito en su forma
+general.
+
+
+                                   Figura 23.3
+
+Los elementos teóricos dados en el módulo 21 serían insuficientes para determinar
+el volumen del sólido. Sin embargo, el teorema 2 de Pappus nos permite determinar
+el volumen exacto del sólido generado.
+
+En primer término, de acuerdo con el ejemplo 10 del módulo 22, el centroide de la
+                        ⎛ 8 ⎞
+lámina está en el punto ⎜ 0, ⎟ (figura 23.3).
+                        ⎝ 3π ⎠
+
+
+                                                                        Elementos básicos de cálculo integral y series 289
+Capítulo 4: Aplicaciones de la integral definida
+
+                                        Al girar la región semicircular sombreada alrededor de la recta x − y − 2 = 0, el
+                                        centroide recorre una circunferencia de radio d. Esto es, si l denota la longitud de
+                                        dicha circunferencia, entonces
+
+                                                   l = 2πd .                                                                   (1)
+
+                                                                         ⎛ 8 ⎞
+                                        Pero d es la distancia del punto ⎜ 0, ⎟ a la recta de ecuación:
+                                                                         ⎝ 3π ⎠
+                                                   x− y−2 = 0.
+
+                                                             1 ⋅ (0) + (−1)      + (−2)
+                                                                               8
+                                                                              3π
+                                        Así que d =
+                                                                      12 + (−1) 2
+                                                                                          (vea «Distancia de un punto a una recta»,
+
+                                        sección 2.5, Apéndice II del texto Elementos básicos de cálculo diferencial)
+
+
+                                                             −       −2
+                                                                  8
+                                                                 3π       8 + 6π .
+                                                         =              =
+                                                                          3 2π
+                                                                                                                               (2)
+                                                                    2
+
+                                        Es decir,
+                                                          ⎛ 8 + 6π ⎞
+                                                   l = 2π ⎜        ⎟=   (4 + 3π).
+                                                                      4
+                                                          ⎝ 3 2π ⎠ 3 2
+
+                                        También el área del semicírculo de radio 2 es A = 2π.
+
+                                        Por tanto, de acuerdo con el teorema 2 de Pappus, el volumen del sólido viene dado
+                                        por:
+
+                                                   V = l ⋅ A = 2π ⋅           (4 + 3π)
+                                                                         4
+                                                                       3 2
+
+                                                     =       π (4 + 3π).
+                                                         4 2
+                                                          3
+
+                                        Ejemplo 4
+
+                                        Utilice el teorema de Pappus para sólidos de revolución para calcular el volumen
+                                        del toro (dona) generado al rotar un círculo de radio a, alrededor de una recta l
+                                        situada en su mismo plano y a una distancia b de su centro (b > a).
+
+                                        Solución
+
+                                        La figura 23.4 ilustra la situación en la cual asumimos que el círculo de radio a gira
+                                        alrededor del eje y.
+
+                                        Ahora, el centroide del círculo que está en su centro (ejemplo 8, módulo 22), al girar
+                                        alrededor del eje y, recorre una circunferencia de radio b. Entonces la longitud
+                                        recorrida por el centroide es
+
+
+290
+                                                                                       Módulo 23: Los teoremas de Pappus
+       l = 2πb.                                                                 (1)
+
+De otro lado, el área del círculo es
+
+        A = πa 2 .                                                              (2)
+
+De acuerdo con el teorema 2 de Pappus:
+
+       V = l ⋅ A.                                                               (3)
+
+Sustituyendo (1) y (2) en (3) se obtiene finalmente:
+
+       V = 2π 2 a 2 b ,
+
+que corresponde al volumen pedido.
+
+
+                                       Figura 23.4
+
+Se invita al estudiante a desarrollar el ejercicio anterior usando el método de la
+corteza cilíndrica descrito en el módulo 21, para que note la ventaja del teorema de
+Pappus frente a cualquier otro método para determinar el volumen de un sólido de
+revolución.
+
+
+                                                                       Elementos básicos de cálculo integral y series 291

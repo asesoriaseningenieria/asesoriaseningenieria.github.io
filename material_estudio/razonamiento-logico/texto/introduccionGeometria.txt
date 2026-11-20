@@ -1,0 +1,253 @@
+Geometría
+La geometría (del latín geometrĭa, y este del griego γεωμετρία de γῆ gē, ‘tierra’,
+y μετρία metría, ‘medida’) es una rama de las matemáticas que se ocupa del
+estudio de las propiedades de las figuras en el plano o el espacio,1 incluyendo:
+puntos, rectas, planos, politopos (que incluyen paralelas, perpendiculares,
+curvas, superficies, polígonos, poliedros, etc).
+
+Es la base teórica de la geometría descriptiva o del dibujo técnico. También da
+fundamento a instrumentos como el compás, el teodolito, el pantógrafo o el
+sistema de posicionamiento global (en especial cuando se la considera en
+combinación con el análisis matemático y sobre todo con las ecuaciones
+diferenciales).
+
+Sus orígenes se remontan a la solución de problemas concretos relativos a
+medidas. Tiene su aplicación práctica en física aplicada, mecánica, arquitectura,
+geografía, cartografía, astronomía, náutica, topografía, balística etc. Y es útil en
+la preparación de diseños e incluso en la fabricación de artesanía.
+
+
+  Índice                                                                               Alegoría de la geometría
+
+  Historia
+  Axiomas, definiciones y teoremas
+      Axiomas
+  Topología y geometría
+  Tipos de geometría
+      Geometrías según el tipo de espacio
+      Geometrías asociadas a transformaciones
+      Geometría según el tipo de representación
+      Aplicaciones geométricas
+  Enseñanza y aprendizaje de la geometría
+  Véase también
+  Referencias
+      Bibliografía
+      Enlaces externos
+
+
+Historia
+La geometría es una de las ciencias más antiguas. Inicialmente está constituida en un cuerpo de conocimientos prácticos en
+relación con las longitudes, áreas y volúmenes. La civilización babilónica fue una de las primeras culturas en incorporar el
+estudio de la geometría. La invención de la rueda abrió el camino al estudio de la circunferencia y posteriormente al
+descubrimiento del número π (pi); También desarrollaron el sistema sexagesimal, al conocer que cada año cuenta con 365 días,
+además implementaron una fórmula para calcular el área del trapecio rectángulo.2 En el Antiguo Egipto estaba muy desarrollada,
+según los textos de Heródoto, Estrabón y Diodoro Sículo. Euclides, en el siglo III a. C. configuró la geometría3 en forma
+axiomática y constructiva, tratamiento que estableció una norma a seguir
+durante muchos siglos: la geometría euclidiana descrita en Los Elementos.
+
+El estudio de la astronomía y la cartografía, tratando de determinar las
+posiciones de estrellas y planetas en la esfera celeste, sirvió como
+importante fuente de resolución de problemas geométricos durante más de
+un milenio. René Descartes desarrolló simultáneamente el álgebra de
+ecuaciones y la geometría analítica, marcando una nueva etapa, donde las
+figuras geométricas, tales como las curvas planas, podrían ser                    Fragmentos de los Elementos de Euclides
+representadas analíticamente, es decir, con funciones y ecuaciones. La            en los Papiros de Oxirrinco.
+geometría se enriquece con el estudio de la estructura intrínseca de los
+entes geométricos que analizan Euler y Gauss, que condujo a la creación
+de la topología y la geometría diferencial.
+
+
+Axiomas, definiciones y teoremas
+La geometría se propone ir más allá de lo alcanzado por la intuición. Por ello, es necesario un
+método riguroso, sin errores; para conseguirlo se han utilizado históricamente los sistemas
+axiomáticos. El primer sistema axiomático lo establece Euclides, aunque era incompleto. David
+Hilbert propuso a principios del siglo XX otro sistema axiomático, este ya completo. Como en
+todo sistema formal, las definiciones, no solo pretenden describir las propiedades de los objetos,
+o sus relaciones. Cuando se axiomatiza algo, los objetos se convierten en entes abstractos
+ideales y sus relaciones se denominan modelos.
+
+Esto significa que las palabras "punto", "recta" y "plano" deben perder todo significado                 Un teorema
+material. Cualquier conjunto de objetos que verifique las definiciones y los axiomas cumplirá            descubierto y probado
+también todos los teoremas de la geometría en cuestión, y sus relaciones serán virtualmente              por Arquímedes: una
+idénticas al del modelo «tradicional».                                                                   esfera tiene 2⁄3 del
+                                                                                                         volumen de su cilindro
+                                                                                                         circunscrito.
+Axiomas
+En geometría euclidiana, los axiomas y postulados son proposiciones que relacionan conceptos,
+definidos en función del punto, la recta y el plano. Euclides planteó cinco postulados y fue el quinto
+(el postulado de paralelismo) el que siglos después —cuando muchos geómetras lo cuestionaron al
+analizarlo— originará nuevas geometrías: la elíptica (geometría de Riemann) o la hiperbólica de
+Nikolái Lobachevski.
+
+En geometría analítica, los axiomas se definen en función de ecuaciones de puntos, basándose en el
+análisis matemático y el álgebra. Adquiere otro nuevo sentido hablar de puntos, rectas o planos. f(x)       La geometría
+                                                                                                            esférica es un
+puede definir cualquier función, llámese recta, circunferencia, plano, etc.
+                                                                                                            ejemplo de
+                                                                                                            geometría no
+Topología y geometría                                                                                       euclidiana
+
+El campo de la topología, que tuvo un gran desarrollo en el siglo XX, es en sentido técnico un tipo
+de geometría transformacional, en que las transformaciones que preservan las propiedades de las figuras son los homeomorfismos
+(por ejemplo, esto difiere de la geometría métrica, en que las transformaciones que no alteran las propiedades de las figuras son
+las isometrías). Esto ha sido frecuentemente expresado en la forma del dicho: "la topología es la geometría de la página de goma".
+Tipos de geometría
+Desde los antiguos griegos, ha existido numerosas contribuciones a la geometría, particularmente a
+partir del siglo XVIII. Eso ha hecho que proliferen numerosas subramas de la geometría con
+enfoques muy diferentes. Para clasificar los diferentes desarrollos de la geometría moderna se
+pueden recurrir a diferentes enfoques:                                                                         El nudo de trébol
+
+
+Geometrías según el tipo de espacio
+Los antiguos griegos manejaban un único tipo de geometría, a saber, la geometría euclídea, hábilmente codificada en los
+Elementos de Euclides por una escuela alejandrina encabezada por Euclides. Este tipo de geometría se basó en un estilo formal de
+deducciones a partir de cinco postulados básicos. Los cuatro primeros fueron ampliamente aceptados y Euclides los usó
+extensivamente, sin embargo, el quinto postulado fue menos usado y con posterioridad diversos autores trataron de demostrarlo a
+partir de los demás, la imposibilidad de dicha deducción llevó a constatar que junto con la geometría euclídea existían otros tipos
+de geometrías en que el quinto postulado de Euclídes no participaba. De acuerdo a las modificaciones introducidas en ese quinto
+postulado se llega a familias diferentes de geometrías o espacios geométricos diferentes entre ellos:
+
+     La geometría absoluta, que es el conjunto de hechos geométricos derivables a partir únicamente de los primeros
+     cuatro postulados de Euclides.
+     La geometría euclídea, que es la geometría particular que se obtiene de aceptar como axioma también el quinto
+     postulado. Los griegos consideraron dos variantes de geometría euclídea:
+
+         Geometría euclídea del plano
+         Geometría euclídea del espacio
+     La geometría clásica es una recopilación de resultados para las geometrías euclídeas.
+A partir del siglo XIX se llegó a la conclusión de que podían definirse geometrías no euclídeas entre ellas:
+
+     La geometría elíptica
+     La geometría esférica
+     La geometría finita
+     La geometría hiperbólica
+     La geometría riemanniana
+
+
+Geometrías asociadas a transformaciones
+En el siglo XIX, Klein desarrolló el denominado Programa de Erlange que establecía otra forma de enfocar los conceptos
+geométricos: estudiar bajo qué diferentes tipos de transformaciones matemáticas se verificaban invarianzas. Así se identificaron
+grupos dotados de diversas operaciones y se plantearon subdisciplinas en base a cuales eran los tipos particulares de
+transformaciones bajo las cuales se registraban invarianzas. Este estudio permitió la siguiente clasificación geométrica:
+
+     Geometría afín
+     Geometría conforme
+     Geometría convexa
+     Geometría discreta
+     Geometría de incidencia
+     Geometría ordenada
+     Geometría proyectiva
+
+
+Geometría según el tipo de representación
+Si bien Euclides básicamente se restringió a conceptos geométricos representables mediante figuras (puntos, líneas, círculos, etc.)
+el desarrollo de otras ramas de las matemáticas no conectadas inicialmente con la geometría propiamente dicha, llevó a poder
+aplicar las herramientas de otras ramas a problemas propiamente geométricos así nacieron:
+
+     La geometría algebraica
+     La geometría analítica
+     La geometría descriptiva
+     La Topología geométrica
+     La geometría diferencial que engloba como ramas a:
+
+         Geometría diferencial discreta
+         La geometría de curvas y superficies
+
+             La Geometría diferencial de curvas
+             La Geometría diferencial de superficies
+         La Geometría diferencial de hipersuperficies
+         Geometría diferencial de variedades
+         La geometría de Riemann
+     La Geometría fractal
+     Geometría sintética
+
+
+Aplicaciones geométricas
+Además de las subramas propiamente dichas modernamente han surgido numerosas aplicaciones prácticas de la geometría entre
+ellas:
+
+
+         Geometría computacional
+         Geometría constructiva de sólidos
+         Geometría molecular
+
+
+Enseñanza y aprendizaje de la geometría
+El aprendizaje de la geometría implica el desarrollo de habilidades visuales y de argumentación.
+
+Para que el aprendizaje de la geometría no carezca de sentido, es importante que el grupo docente se preocupe por buscar un
+equilibrio entre la asociación de habilidades de visualización y argumentación, pues ambas habilidades son fundamentales dentro
+del proceso formativo del individuo. Es decir, no se trata sólo de enseñar contenidos como una “receta” o por cumplir con lo
+estipulado en el currículo sino que se pretende que con la enseñanza de la geometría el estudiantado aprenda a pensar
+lógicamente.4
+
+El ser humano, desde su infancia, crea representaciones del mundo físico que le rodea. Estas le generan una necesidad (teórica y
+práctica) para lograr el entendimiento de ese mundo. El hemisferio derecho del cerebro resulta ser el más beneficiado ante la
+presencia de estímulos visuales, a diferencia del hemisferio izquierdo, que tiene la responsabilidad de desarrollar las capacidades
+verbales. El estudio de la geometría contribuye significativamente al desarrollo de esas necesidades espaciales de visualización;
+sin embargo, hasta una época histórica reciente, que data a partir de la década de los años 50, es cuando educadores matemáticos
+se interesaron por el estudio de dicho campo, al vincular la capacidad matemática con la capacidad espacial.5
+
+Respecto a las dificultades que las estudiantes y los estudiantes presentan al estudiar geometría se encuentran: resolver un
+problema algebraicamente; calcular perímetros, áreas y volúmenes, debido a que no identifican cuál fórmula aplicar y dificultad
+para interpretar qué es lo que dice un problema. Al realizar el análisis por nivel, se puede observar que en el ciclo diversificado
+(décimo y undécimo año) la principal dificultad que presentan es interpretar lo que dice un problema. La principal dificultad de
+las alumnas y alumnos de séptimo, octavo y noveno año, es, respectivamente, comprender las fórmulas del perímetro, áreas y
+volúmenes y aprender las definiciones; resolver una situación problema algebraicamente y dificultad para extraer información de
+un dibujo geométrico.6
+
+
+Véase también
+         Portal:Matemática. Contenido relacionado con Matemática.
+         Portal:Álgebra. Contenido relacionado con Álgebra.
+
+
+Referencias
+ 1. Rica, Editorial Grupo Fénix de Costa. MATEMÁTICA 10: Un enfoque con base en la resolución de problemas (htt
+    ps://books.google.es/books?id=BIG1BQAAQBAJ&pg=PA9&dq=geometr%C3%ADa+rama+de+la+matem%C3%A
+    1tica&hl=es&sa=X&ved=0ahUKEwj5ybyXv7TZAhUFPRQKHXglDykQ6AEIQjAG#v=onepage&q=geometr%C3%A
+    Da%20rama%20de%20la%20matem%C3%A1tica&f=false). Editorial Grupo Fénix CR. ISBN 9789930949610.
+    Consultado el 20 de febrero de 2018.
+ 2. Baldor, Gaaplex (2014). Geometría plana y del espacio y trigonometría. México: publicaciones cultural. ISBN 978-
+    8435700788.
+ 3. Wolchover, Natalie (17 de septiembre de 2013). «Physicists Discover Geometry Underlying Particle Physics |
+    Quanta      Magazine»     (https://www.quantamagazine.org/20130917-a-jewel-at-the-heart-of-quantum-physics/).
+    Quanta Magazine. Consultado el 20 de febrero de 2017.
+ 4. Gamboa-Araya, Ronny; Ballestero-Alfaro, Esteban (2010). «The Students’ Perspective of Geometry Teaching
+    and Learning in High School» (http://www.revistas.una.ac.cr/index.php/EDUCARE/article/view/906). Revista
+    Electrónica Educare 14 (2): 125-142. ISSN 1409-4258 (https://www.worldcat.org/issn/1409-4258). Consultado el 28 de
+    julio de 2017.
+ 5. Gamboa-Araya, Ronny; Ballestero-Alfaro, Esteban (2010). «The Students’ Perspective of Geometry Teaching
+    and Learning in High School» (http://www.revistas.una.ac.cr/index.php/EDUCARE/article/view/906). Revista
+    Electrónica Educare 14 (2): 125-142. ISSN 1409-4258 (https://www.worldcat.org/issn/1409-4258). Consultado el 28 de
+    julio de 2017.
+ 6. Gamboa-Araya, Ronny; Ballestero-Alfaro, Esteban (2010). «The Students’ Perspective of Geometry Teaching
+    and Learning in High School» (http://www.revistas.una.ac.cr/index.php/EDUCARE/article/view/906). Revista
+    Electrónica Educare 14 (2): 125-142. ISSN 1409-4258 (https://www.worldcat.org/issn/1409-4258). Consultado el 28 de
+    julio de 2017.
+
+
+Bibliografía
+    Boyer, C. B. (1991) [1989]. A History of Mathematics (Second edition, revised by Uta C. Merzbach edición).
+    Nueva York: Wiley. ISBN 0-471-54397-7.
+    Nikolai I. Lobachevsky, Pangeometry, translator and editor: A. Papadopoulos, Heritage of European Mathematics
+    Series, Vol. 4, European Mathematical Society, 2010.
+    Jay Kappraff, A Participatory Approach to Modern Geometry (http://www.worldscientific.com/worldscibooks/10.11
+    42/8952), 2014, World Scientific Publishing, ISBN 978-981-4556-70-5.
+    Leonard Mlodinow, Euclid's Window – The Story of Geometry from Parallel Lines to Hyperspace, UK edn. Allen
+    Lane, 1992.
+
+
+Enlaces externos
+        Wikimedia Commons alberga una categoría multimedia sobre Geometría.
+         Wikiversidad alberga proyectos de aprendizaje sobre Geometría.
+       Wikiquote alberga frases célebres de o sobre Geometría.
+         Wikcionario tiene definiciones y otra información sobre geometría.
+Obtenido de «https://es.wikipedia.org/w/index.php?title=Geometría&oldid=118660938»
+
+
+Esta página se editó por última vez el 29 ago 2019 a las 00:26.
+
+El texto está disponible bajo la Licencia Creative Commons Atribución Compartir Igual 3.0; pueden aplicarse
+cláusulas adicionales. Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad.
+Wikipedia® es una marca registrada de la Fundación Wikimedia, Inc., una organización sin ánimo de lucro.

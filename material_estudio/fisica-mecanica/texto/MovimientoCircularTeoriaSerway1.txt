@@ -1,0 +1,1924 @@
+La Estación Espacial
+Internacional en caída libre
+alrededor de la Tierra a miles
+de metros por segundo,
+que se mantiene en órbita
+por la fuerza centrípeta
+proporcionada por la gravedad.
+
+
+                                                  NASA
+
+
+       7                      Movimiento rotatorio
+                              y la ley de gravedad
+7.1 Velocidad angular y aceleración   El movimiento rotatorio es una parte importante de nuestra vida diaria. La rotación de la Tierra
+    angular                           crea el ciclo del día y la noche, la rotación de las ruedas posibilitan el movimiento de los vehículos, y la
+                                      tecnología moderna depende del movimiento circular en una gran variedad de contextos, desde
+7.2 Movimiento rotatorio con
+    aceleración angular constante     los minúsculos engranajes de un reloj suizo hasta la operación de tornos y de otras maquinarias. Los
+                                      conceptos de velocidad angular, aceleración angular y aceleración centrípeta son centrales para
+7.3 Relaciones entre cantidades       entender una gran cantidad de fenómenos, desde el movimiento de un móvil alrededor de una
+    angulares y lineales              pista hasta el de un cúmulo de galaxias orbitando un centro común.
+7.4 Aceleración centrípeta                 El movimiento rotatorio, combinado con la ley de Newton de gravitación universal y sus
+                                      leyes de movimiento, pueden explicar ciertos hechos relacionados con los viajes espaciales y el
+7.5 Gravitación newtoniana            movimiento de satélites, como dónde colocar un satélite de manera que mantenga una posición
+7.6 Leyes de Kepler                   fija con respecto a la Tierra. La generalización de la energía potencial gravitacional y la conser-
+                                      vación de la energía ofrece una fácil explicación para tales hechos, como la velocidad a la que se
+                                      alcanza el escape planetario. Finalmente, se presentan las tres leyes de Kepler del movimiento
+                                      planetario, a partir del enfoque newtoniano de la gravedad.
+
+
+                                        7.1 Velocidad angular y aceleración angular
+                                      En el estudio del movimiento rectilíneo, los conceptos importantes son el desplazamiento
+                                      )x, la velocidad v y la aceleración a. Cada uno de estos conceptos tiene su analogía en el
+                                      movimiento rotatorio: desplazamiento angular )u, velocidad angular v y aceleración angular a.
+                                          El radián, una unidad de medida angular, es esencial para entender estos conceptos.
+                                      Recuerde que la distancia s alrededor de un círculo está dada por s 5 2pr, donde r es el
+                                      radio del círculo. Dividiendo ambos lados de esta ecuación entre r resulta en s/r 5 2p, lo
+                                      cual no tiene dimensiones porque s y r tienen dimensiones de longitud, pero el valor 2p
+                                      corresponde al desplazamiento alrededor de un círculo. La mitad de un círculo daría p, la
+
+
+198
+                                                                              7.1 | Velocidad angular y aceleración angular                              199
+
+cuarta parte, p/2. Los números 2p, p y p/2 corresponden a ángulos de 360°, 180° y 90°,                                            y
+respectivamente, así que se puede introducir una nueva medida angular, el radián, con
+180° 5 p como una relación entre grados y radianes.
+    El ángulo u subtendido por una longitud de arco s a lo largo de una circunferencia de
+radio r, medido en radianes en sentido contrario al movimiento de las manecillas del reloj                                            r            s=r
+a partir del eje positivo de x, es
+                                                                                                                                          u
+                                                 s                                                                                                         x
+                                              u5                                          [7.1]
+                                                 r
+El ángulo u en la ecuación 7.1 es realmente un desplazamiento angular a partir del eje x
+positivo, y s corresponde al desplazamiento a lo largo del arco circular, otra vez, medido
+desde el eje x positivo. La figura 7.1 ilustra el tamaño de un radián, aproximadamente 57°.                                           u = 1 rad ⬇ 57.38
+Convertir grados a radianes requiere multiplicar los grados por la razón (p rad/180°). Por
+ejemplo, 45° (p rad/180°) 5 (p/4) rad.                                                             Figura 7.1 Para un círculo de
+    En física, generalmente las cantidades angulares deben expresarse en radianes. Asegú-          radio r, un radián es el ángulo
+rese de que su calculadora esté en el modo de radianes, para evitar errores que normal-            subtendido por una longitud
+mente ocurren al realizar operaciones con medidas angulares.                                       de arco igual a r.
+    Con el concepto de radián como medida, ahora podemos estudiar conceptos angulares
+en física. En la figura 7.2a se muestra un disco compacto rotando. Este disco es un ejemplo
+de un “cuerpo rígido”, en el que cada parte de éste está en posición fija, en relación con
+todas las otras partes del cuerpo. Cuando un cuerpo rígido rota un ángulo dado, todas las
+                                                                                                                              r
+partes del cuerpo rotan el mismo ángulo al mismo tiempo. Para el disco compacto, el eje                            O                  P        Recta de
+de rotación está en el centro del disco, O. Un punto P sobre el disco está a una distancia r del                                              referencia
+origen y se mueve alrededor de O en una circuferencia de radio r. Elijamos una recta de
+referencia fija, como se muestra en la figura 7.2a y supongamos que en el tiempo t 5 0 el
+                                                                                                       a
+punto P está sobre la recta de referencia. Después de transcurrir un intervalo )t, P ha avan-
+zado a una nueva posición (figura 7.2b). En este intervalo, la recta OP ha descrito el ángulo
+u con respecto a la recta de referencia. Al ángulo u, medido en radianes, se le conoce como                               P
+posición angular y es análoga a la variable x usada en el movimiento rectilíneo. Asimismo,                              r u s
+P ha descrito una longitud de arco s medida a lo largo de la circunferencia del círculo.
+                                                                                                                   O                           Recta de
+    En la figura 7.3, al moverse un punto en el disco que rota de  a  en el tiempo Dt,
+                                                                                                                                              referencia
+empieza en un ángulo ui y termina en un ángulo uf . La diferencia uf 2 ui es llamada des-
+plazamiento angular.
+                                                                                                       b
+
+   El desplazamiento angular de un objeto, )u, es la diferencia de los ángulos final e             Figura 7.2 a) El punto P sobre un
+   inicial:                                                                                        disco compacto rotando en t 5 0.
+                                                                                                   b) Cuando el disco rota, P se mueve
+                                         )u 5 uf 2 ui                                  [7.2]       a través de un arco de longitud s.
+
+   Unidades SI: radianes (rad)
+
+Por ejemplo, si un punto sobre un disco está a ui 5 4 rad y rota a una posición angular uf 5             y
+7 rad, el desplazamiento angular es Du 5 uf 2 ui 5 7 rad 2 4 rad 5 3 rad. Note que usamos
+variables angulares para describir la rotación del disco porque cada punto en el disco ex-
+                                                                                                                  tf
+perimenta la misma desviación angular en cualquier tiempo dado.
+    Usando la definición de la ecuación 7.2, la ecuación 7.1 puede escribirse más gene-
+ralmente como Du 5 )s/r, donde )s es un desplazamiento a lo largo del arco circular                                                        ti
+                                                                                                             r
+subtendido por el desplazamiento angular. Contando con la definición de desplazamiento
+angular, se dispone de manera natural de la definición de velocidad angular:                                                 uf
+                                                                                                                        ui
+   La velocidad angular promedio vprom de un cuerpo rígido en rotación, durante el                                                                         x
+   tiempo Dt, es el desplazamiento angular Du dividido entre Dt:                                     O
+
+                                              uf 2 ui       Du                                     Figura 7.3 Conforme un punto
+                                   v prom ;             5                              [7.3]
+                                              tf 2 ti       Dt                                     sobre el disco compacto se mueve
+                                                                                                   de  a , el disco rota a través del
+   Unidades SI: radianes por segundo (rad/s)                                                       ángulo )u 5 uf 2 ui .
+200     CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+                                   Para intervalos cada vez más cortos, la velocidad angular promedio se aproxima a la velo-
+Tip 7.1 Recuerde el radián
+                                   cidad angular instantánea, justamente como en el caso lineal.
+La ecuación 7.1 utiliza ángulos
+medidos en radianes. Los ángulos
+expresados en términos de gra-        La velocidad angular instantánea v de un cuerpo rígido en rotación es el límite de la
+dos primero se deben convertir a      velocidad promedio Du/Dt conforme el intervalo Dt se aproxima a cero:
+radianes. Además, asegúrese de
+comprobar si su calculadora se                                                      Du
+                                                                         v ; lím                                     [7.4]
+encuentra en el modo de grados                                                Dt S 0 Dt
+o radianes en la solución de
+problemas relacionados con la         Unidades SI: radianes por segundo (rad/s)
+rotación.
+                                   Consideramos v como positiva cuando u sea creciente (movimiento en sentido contrario
+                                   al giro de las manecillas del reloj) y negativa cuando u sea decreciente (en el sentido del
+                                   giro de las manecillas del reloj). Cuando la velocidad angular es constante, la velocidad
+                                   angular instantánea es igual a la velocidad angular promedio.
+
+
+                                       ■ Examen rápido
+
+                                       7.1 Un cuerpo rígido está girando en sentido contrario al de las manecillas del reloj,
+                                       alrededor de un eje fijo. Cada uno de los siguientes pares de cantidades representa
+                                       una posición angular inicial y final de un cuerpo rígido. ¿Cuál de los pares puede
+                                       ocurrir sólo si el cuerpo rígido gira más de 180°? a) 3 rad, 6 rad; b) 21 rad, 1 rad;
+                                       c) 1 rad, 5 rad.
+                                                                                7.1 | Velocidad angular y aceleración angular
+
+                                ti                                 tf                                Figura 7.4 Al acelerar, una rueda
+                                                                                                     de bicicleta gira con a) una velo-
+                                                                                                     cidad angular vi en un tiempo ti y
+                                                                                                     b) una velocidad angular vf en el
+                                                                                                     tiempo tf .
+                                         vi                             vf
+
+
+                      a                                  b
+
+
+ ■ Examen rápido
+
+ 7.2 Suponga que el cambio en la posición angular para cada par de valores del
+ examen rápido 7.1 ocurre en 1 s. ¿Qué opción representa la velocidad angular prome-
+ dio más baja?
+
+
+    La figura 7.4 muestra una bicicleta con las ruedas hacia arriba a la que se ha de reparar
+la rueda trasera. Los pedales de la bicicleta se hacen girar para que, en un tiempo ti, la rueda
+tenga una velocidad angular vi (figura 7.4a) y en un tiempo tf después alcance una velo-
+cidad angular vf (figura 7.4b). Dado que un cambio de velocidad conlleva el concepto de
+aceleración, un cambio de velocidad angular conduce al concepto de aceleración angular.
+
+   La aceleración angular promedio aprom de un objeto, durante un intervalo de tiempo Dt,            b Aceleración angular
+   es el cambio de su velocidad angular )v dividido entre Dt:                                          promedio
+
+                                               vf 2 vi        Dv
+                                     aprom ;             5                              [7.5]
+                                               tf 2 ti        Dt
+   Unidades SI: radianes por segundo al cuadrado (rad/s2)
+
+Al igual que en la velocidad angular, la aceleración angular positiva está en dirección con-
+traria al sentido en el que giran las manecillas del reloj, y es negativa si lo hace en el sentido
+en el que giran las manecillas. Si la velocidad angular cambia de 15 rad/s a 9.0 rad/s en 3.0 s,
+la aceleración angular promedio durante este intervalo de tiempo es
+                                Dv   9.0 rad/s 2 15 rad/s
+                      aprom 5      5                      5 22.0 rad/s2
+                                Dt           3.0 s
+El signo negativo indica que la aceleración angular ocurre en el sentido que giran las ma-
+necillas del reloj (pero la velocidad angular, aunque más lenta, sigue teniendo la dirección
+en el sentido contrario al giro de las manecillas del reloj). También hay una versión de la
+aceleración angular instantánea:
+
+   La aceleración angular instantánea a es el límite de la aceleración angular promedio              b Aceleración angular
+   Dv/Dt conforme el intervalo Dt se aproxima a cero:                                                  instantánea
+
+                                                         Dv
+                                          a ; lím                                        [7.6]
+                                                Dt S 0   Dt
+   Unidades SI: radianes por segundo al cuadrado (rad/s2)
+
+Cuando un cuerpo rígido gira alrededor de un eje fijo, como lo hace la rueda de la bici-
+cleta, cada parte del objeto tiene la misma velocidad angular y aceleración angular. Este
+hecho es lo que hace que estas variables sean tan útiles en la descripción de un movimiento
+rotatorio. En contraste, la velocidad tangencial (lineal) y la aceleración lineal del ob-
+jeto toman diferentes valores dependiendo de la distancia del punto en consideración
+al eje de rotación.
+CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+
+                            7.2 Movimiento rotatorio con aceleración
+                                angular constante
+                          Hay un paralelismo entre las ecuaciones para movimientos rotatorios y para los lineales.
+                          Por ejemplo, compare la ecuación definida para la velocidad angular promedio
+                                                                          uf 2 ui       Du
+                                                               v prom ;             5
+                                                                          tf 2 ti       Dt
+                          con la ecuación para la rapidez lineal promedio
+                                                                          xf 2 xi       Dx
+                                                               vprom ;              5
+                                                                          tf 2 ti       Dt
+                          En estas ecuaciones, v toma el lugar de v y u, el lugar de x, así que las ecuaciones difieren
+                          sólo en el nombre de las variables. Del mismo modo, cada cantidad lineal encuentra su
+                          correspondiente “gemelo” en el movimiento rotatorio.
+                              El procedimiento utilizado en la sección 2.5 al desarrollar las ecuaciones de la cinemá-
+                          tica para el movimiento lineal con aceleración constante puede ser usado para obtener
+                          un conjunto similar de ecuaciones para el movimiento rotatorio con aceleración angular
+                          constante. Las ecuaciones resultantes de la cinemática rotatoria, dada la comparación con
+                          las ecuaciones para el movimiento lineal, son las siguientes:
+
+                               Movimiento lineal con a constante            Movimiento rotatorio alrededor de un eje
+                                      (variables: x y v)                     fijo con a constante (variables: u y v)
+                                           v 5 vi 1 at                                        v 5 vi 1 at         [7.7]
+                                         Dx 5 vit 1 12 at 2                                  Du 5 vit 1 12 at 2   [7.8]
+                                         v 2 5 vi2 1 2aDx                                    v2 5 vi2 1 2aDu      [7.9]
+
+
+                          Observe que cada término en una ecuación lineal dada tiene un término correspondiente
+                          en la ecuación rotatoria análoga.
+
+
+                           ■ Examen rápido
+
+                           7.3 Considere otra vez los pares de posiciones angulares del cuerpo rígido del examen
+                           rápido 7.1. Si el objeto parte del reposo de la posición angular inicial moviéndose en
+                           sentido contrario a las manecillas del reloj con aceleración angular constante, y llega a
+                           la posición angular final con la misma velocidad angular en los tres casos, ¿en cuál de
+                           estos pares se da la aceleración angular máxima?
+                                                                        7.3 | Relaciones entre cantidades angulares y lineales
+
+
+                                                                                                                   y
+
+
+  7.3 Relaciones entre cantidades                                                                                      S
+                                                                                                                       v
+
+      angulares y lineales                                                                                                      P
+                                                                                                                       r            s
+Las variables angulares están muy relacionadas con aquellas lineales. Considere el objeto                                  u
+de forma arbitraria de la figura activa 7.5, que gira alrededor del eje z por el punto O.                                                x
+                                                                                                               O
+Suponga que el objeto recorre un ángulo Du y, por lo tanto, el punto P se mueve por la
+longitud de arco )s en el intervalo Dt. De la ecuación que define la medida para un radián
+se sabe que:
+                                                  Ds
+                                          Du 5                                                      Figura activa 7.5
+                                                  r                                                 Rotación de un objeto alrededor
+                                                                                                    de un eje que pasa por O (eje z), y
+Dividiendo ambos lados de esta ecuación entre )t, el tiempo durante el cual la rotación
+                                                                                                    que es perpendicular al plano de la
+ocurre, se tiene que:                                                                               figura. Note que un punto P sobre el
+                                          Du   1 Ds                                                 objeto describe una circunferencia
+                                             5                                                      de radio r, centrada en O.
+                                          Dt   r Dt
+Cuando )t es muy pequeño, el ángulo Du que describe el objeto al girar también es muy
+pequeño, por lo que la razón Du/)t es muy cercana a la rapidez angular instantánea v. Del
+mismo modo, la razón Ds/)t se aproxima a la rapidez lineal instantánea v para valores muy
+pequeños de )t. Por lo tanto, cuando )t es arbitrariamente pequeño, la ecuación anterior
+es equivalente a:
+                                                  v
+                                             v5
+                                                  r
+    En la figura activa 7.5, el punto P viaja una distancia Ds a lo largo de un arco circular
+durante el intervalo de tiempo Dt con una rapidez lineal v. La dirección de P en cada pun-
+                                      S                                                         S
+to está dada por el vector velocidad v, y es tangente a la trayectoria circular. La magnitud de v
+es la rapidez lineal v 5 vt, y se conoce como la rapidez tangencial de una partícula que se
+mueve sobre una trayectoria circular. Esto se escribe como:
+                                           vt 5 rv                                        [7.10]    b Rapidez tangencial
+        CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+                                        La velocidad tangencial de un punto sobre un objeto en rotación es igual a la distancia del
+                                    punto al eje de rotación multiplicada por la velocidad angular. La ecuación 7.10 muestra
+                                    que la velocidad lineal de un punto sobre un objeto que rota crece cuando el punto se
+                                    mueve hacia fuera, desde el centro de rotación hacia el borde, como intuitivamente podría es-
+                                    perarse. Sin embargo, cada punto sobre el objeto en rotación tiene la misma velocidad angular.
+                                        La ecuación 7.10, obtenida utilizando la ecuación que define la medida de un radián,
+                                    es válida sólo cuando v es medida en radianes por unidades de tiempo. Otras unidades de
+                                    velocidad angular, como los grados por segundo y revoluciones por segundo, podrían no
+                                    dar respuestas correctas.
+                                        Para encontrar una segunda ecuación que relacione cantidades lineales con angulares,
+                                    recurra otra vez a la figura activa 7.5 y suponga que el objeto en rotación cambia su veloci-
+                                    dad angular en Dv en tiempo Dt. Al final de este intervalo, la velocidad de un punto sobre
+                                    el objeto, como P, ha cambiado una cantidad )vt. De la ecuación 7.10 se tiene:
+                                                                              Dvt 5 rDv
+                                    Dividiendo por )t da:
+                                                                             Dvt    Dv
+                                                                                 5r
+                                                                             Dt     Dt
+                                    Cuando el intervalo )t se toma arbitrariamente pequeño, Dv/)t se aproxima a la acelera-
+                                    ción angular instantánea. En el lado izquierdo de la ecuación, observe que la razón )vt /Dt
+                                    tiende a la aceleración lineal instantánea, también llamada aceleración tangencial en este
+                                    punto, y que está dada por:
+       Aceleración tangencial c                                               at 5 ra                                       [7.11]
+
+                                    Así, la aceleración tangencial de un punto sobre un objeto en rotación es igual a la distancia
+                                    de ese punto al eje de rotación multiplicada por la aceleración angular. Otra vez, deben
+                                    usarse unidades en radianes para la aceleración angular en esta ecuación.
+                                        Hay una ecuación más que relaciona cantidades lineales con angulares, pero se verá
+                                    en la siguiente sección.
+
+
+                                     ■ Examen rápido
+
+                                     7.4 Andrea y José están paseando en un carrusel. Andrea monta un caballo en el
+                                     borde externo de la plataforma circular, dos veces más lejos del centro de la plata-
+                                     forma circular que el caballo más interno que monta José. Cuando el carrusel
+                                     está girando con una velocidad angular constante, la velocidad angular de Andrea es
+                                     a) dos veces la de José b) la misma que la de él c) la mitad de la de él d) imposible de
+                                     determinar.
+                                     7.5 Cuando el carrusel del examen rápido 7.4 está girando a una velocidad angular
+                                     constante, la velocidad tangencial de Andrea es a) dos veces la de José b) la misma que
+                                     la de él c) la mitad de la de él d) imposible de determinar.
+
+
+  ■   FÍSICA APLICADA 7.1               Sitio de lanzamiento ESA
+¿Por qué el sitio de lanzamientos de la Agencia Espacial Euro-    dor. Esta velocidad tangencial es constantemente reducida
+pea (ESA) no está en Europa sino en Sudamérica?                   cuando se está cerca del norte porque la distancia al eje de
+                                                                  la rotación está disminuyendo, por lo que sería cero en el
+E XPL ICACIÓN Para colocar un satélite en órbita se nece-         Polo Norte. Lanzar cohetes hacia el este desde el Ecuador,
+sita una gran velocidad tangencial, la cual se logra con un       permite aprovechar la rotación terrestre, ya que ésta propor-
+sistema de propulsión que aportan los cohetes. Debido a su        ciona una velocidad tangencial inicial de 1 700 m/s, mien-
+rotación, la superficie terrestre se mueve hacia el este con      tras que lanzarlos desde Europa provee aproximadamente la
+una velocidad tangencial cercana a 1 700 m/s en el Ecua-          mitad de esta velocidad (dependiendo de la latitud exacta). ■
+                                                                         Relaciones entre cantidades angulares y lineales
+
+
+    Antes de que el MP3 se convirtiera en el medio de elección de la música grabada,
+los discos compactos y los fonógrafos eran populares. Hay semejanzas y diferencias entre         APLICACIÓN
+el movimiento rotatorio de los discos de fonógrafo y los actuales discos compactos. Por          Discos fonográficos y compactos
+ejemplo, un disco fonográfico gira con una velocidad angular constante, y las velocidades
+más utilizadas eran las 33 13 rev/min para álbumes de larga duración o LP, 45 rev/min para
+“sencillos” y 78 rev/min usadas en las primeras grabaciones de hace muchos años. En el
+borde exterior del disco, el movimiento de la aguja ocurría sobre el material de vinilo con
+una velocidad tangencial mayor que en las cercanías del centro. Así, la información audi-
+tiva se comprimía en una pista de longitud más pequeña cerca del centro del disco que en
+las proximidades del borde.
+    Los discos compactos están diseñados de manera que se muevan frente a un lector
+láser a una velocidad tangencial constante. Debido a que el lector se mueve radialmente
+siguiendo las pistas de información, se requiere que la velocidad angular del disco compacto
+
+
+           varíe coordinadamente con la posición radial del láser. Dado que la velocidad tangencial
+           es fija, la densidad de información (por longitud de pista) en cualquier parte del disco es la
+           misma. El ejemplo 7.4 muestra los cálculos numéricos para ambos tipos de discos.
+                                                                                              7.4 | Aceleración centrípeta
+
+
+    7.4 Aceleración centrípeta                                                                                                        r
+La figura 7.6a muestra un automóvil desplazándose con una velocidad lineal constante v, en                                                               S
+                                                                                                                                                         v
+                                                                                                                            O
+una trayectoria circular. Aun cuando el automóvil se mueve con una velocidad constante,                                    Vista
+experimenta una aceleración. Para entender esto, considere la ecuación que define a la                                   superior
+aceleración promedio:
+                                            S
+                                   S
+                                            vf 2 S
+                                                 vi
+                                   a prom 5                                        [7.12]               a
+                                            tf 2 ti                                                                 S
+                                                                                                                    vi
+                                                                        S    S
+El numerador representa la diferencia entre los vectores velocidad vf y vi. Estos vectores                                                    Sv
+                                                                                                                                                     f
+pueden tener la misma magnitud, correspondiente a la misma velocidad, pero si tienen
+diferentes direcciones, su diferencia no puede ser cero. La dirección de la velocidad del
+automóvil cambia continuamente debido a que se mueve por una trayectoria circular,                              r                         r
+como se ve en la figura 7.6b. Para un movimiento circular con velocidad constante, el vec-                                   u
+tor aceleración siempre apunta hacia el centro del círculo y se le conoce como aceleración
+centrípeta (que busca el centro). La magnitud de esta aceleración está dada por:                                         O
+                                                         2                                              b
+                                                    v
+                                             ac 5                                       [7.13]
+                                                     r                                            Figura 7.6 a) Movimiento circular
+                                                                                                  de un automóvil con rapidez cons-
+    Para obtener la ecuación 7.13, considere la figura 7.7a. Un objeto se encuentra prime-
+                                      S                                                           tante. b) Cuando el automóvil se
+ro en el punto  con una velocidad vi en el tiempo ti y, después en el punto , con una           desplaza a lo largo de la trayectoria
+          S                                             S    S
+velocidad vf en un tiempo después tf . Suponemos que vi y vf difieren sólo en dirección, y        circular de  a , la dirección de su
+sus magnitudes son las mismas (vi 5 vf 5 v). Para calcular la aceleración, empezamos con          vector velocidad cambia sometién-
+la ecuación 7.12,                                                                                 dose a una aceleración centrípeta.
+                                             S      S
+                                  S
+                                             vf 2 vi              S
+                                                                 Dv
+                                  a prom 5                   5                          [7.14]
+                                              tf 2 ti            Dt
+         S   S     S
+donde Dv 5 vf 2 vi es el cambio de velocidad. Cuando )t es muy pequeño, Ds y Du tam-
+                                 S                     S               S
+bién lo son. En la figura 7.7b vf es casi paralelo a vi, y el vector Dv es casi perpendicular a
+ellos, apuntando hacia el centro del círculo. En el caso límite cuando )t sea sumamente
+             S
+pequeño, Dv apuntará exactamente hacia el centro del círculo, y la aceleración promedio
+S                                                    S                       S    S
+a prom se convertirá en la aceleración instantánea a . De la ecuación 7.14, a y Dv apuntan en
+la misma dirección (en este límite), así que la aceleración instantánea apuntará hacia el
+centro del círculo.
+     El triángulo en la figura 7.7a, con lados Ds y r, es semejante al formado por los vectores
+de la figura 7.7b, así que las razones entre sus lados son iguales:
+                                         Dv   Ds
+                                            5                                           [7.15]                      S
+                                                                                                                    vi
+                                         v    r                                                                                                Sv
+                                                                                                         
+                                                                                                                                                 f
+o                                                                                                                        s
+                                                    v
+                                        Dv 5          Ds                                [7.16]                  r                     r
+                                                    r
+                                                                                                                         u
+Sustituyendo el resultado de la ecuación 7.15 en aprom 5 )v/Dt se obtiene:
+                                                     v Ds                                                                O
+                                        aprom 5
+                                                     r Dt                                                   a
+
+Pero )s es la distancia recorrida a lo largo del arco de circunferencia en el tiempo )t y,                                    S
+                                                                                                                              vf
+en el caso límite, cuando )t es muy pequeño, )s/)t se aproxima al valor instantáneo de la                       v
+                                                                                                                    S
+                                                                                                                              u
+velocidad tangencial, v. Al mismo tiempo, la aceleración promedio aprom se aproxima a ac,                                         S
+                                                                                                                             vi
+la aceleración instantánea centrípeta, así que la ecuación 7.16 se reduce a la ecuación 7.13:
+                                                                                                            b
+                                                     v2
+                                             ac 5                                                 Figura 7.7 a) Conforme la
+                                                     r
+                                                                                                  partícula se mueve de  a , la
+Debido a que la velocidad tangencial está relacionada con la velocidad angular por medio          dirección de su vector velocidad
+                                                                                                             S   S
+de la relación vt 5 rv (ecuación 7.10), una forma alternativa de la ecuación 7.13 es:             cambia de vi a vf . b) Construcción
+                                                                                                  para determinar la dirección del
+                                             r 2v 2                                                                       S
+                                                                                                  cambio de velocidad Dv, dirigida
+                                      ac 5          5 r v2                              [7.17]
+                                                r                                                 hacia el centro del círculo.
+208      CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+                                     Dimensionalmente, [r] 5 L y [v] 5 1/T, así que las unidades de la aceleración centrípeta
+                                     son L/T2, como debe esperarse. Esto es un resultado geométrico de relacionar la acelera-
+                                     ción centrípeta con la velocidad angular, pero físicamente una aceleración puede ocurrir
+                                     solamente si una fuerza está presente. Por ejemplo, si un automóvil viaja en trayectoria
+                                     circular plana, la fuerza de fricción estática entre las llantas y el suelo provee la fuerza cen-
+                                     trípeta necesaria para mantener al automóvil en su trayectoria.
+                                         Observe que ac en las ecuaciones 7.13 y 7.17 representa sólo la magnitud de la acelera-
+                                     ción centrípeta. La aceleración misma está siempre dirigida hacia el centro de rotación.
+                                         Las derivaciones precedentes se refieren al movimiento circular con velocidad constante.
+                                     Cuando un objeto se mueve en una circunferencia acelerando o desacelerando, se presen-
+                                     ta una componente de la aceleración tangencial, at 5 r a. Debido a que las componentes
+                                     de la aceleración, tangencial y centrípeta, son perpendiculares entre sí, es posible hallar la
+                                     magnitud de la aceleración total con el uso del teorema de Pitágoras:
+
+             Aceleración total c                                           a5      at2 1 ac2                                  [7.18]
+
+
+                                      ■ Examen rápido
+
+                                      7.6 Una pista de carreras se construye de manera tal que dos arcos de radios de 80 m
+                                      en  y 40 m en  están unidos por dos tramos rectos como se muestra en la figura
+                                      7.8. En una carrera de prueba, un piloto conduce con una rapidez constante de 50 m/s
+     40 m             80 m          para completar una vuelta.
+                                        1. La razón de la aceleración tangencial en  a  es
+                                            a) 12 b) 14 c) 2 d) 4 e) La aceleración tangencial es cero en ambos puntos.
+                                        2. La razón de la aceleración centrípeta en  a  es
+Figura 7.8 (Examen rápido 7.6)              a) 12 b) 14 c) 2 d) 4 e) La aceleración centrípeta es cero en ambos puntos.
+                                        3. La velocidad angular es mayor en
+                                            a)  b)  c) Es la misma en  y .
+                                      7.7 Un objeto se mueve con una velocidad constante v, en una trayectoria circular.
+                                      ¿Cuál de las siguientes afirmaciones concernientes al objeto es cierta? a) Su velocidad
+                                      es constante, pero su aceleración está cambiando. b) Su aceleración es constante, pero
+                                      su velocidad está cambiando. c) Su velocidad y aceleración están cambiando. d) Su
+                                      velocidad y aceleración permanecen constantes.
+                                                                                                7.4 | Aceleración centrípeta
+
+
+                                        S                                                           Figura 7.9 a) Regla de la mano
+                                        v
+                                                                              S
+                                                                              v                     derecha para determinar la direc-
+                                                                                                                                       S
+                                                                                                    ción del vector velocidad angular v.
+                                                                                                                        S
+                                                                                                    b) La dirección de v está en la direc-
+                                                                                                    ción en la que avanza un tornillo
+                                                                                                    derecho.
+
+
+                a                                       b
+
+
+Las cantidades angulares son vectores
+Cuando analizamos el movimiento lineal en el capítulo 2, enfatizamos que el desplaza-                       Cuando el disco gira
+miento, la velocidad y la aceleración son cantidades vectoriales. En la descripción del mo-                 en el sentido de las
+vimiento rotatorio, el desplazamiento angular, la velocidad angular y la aceleración angu-                  manecillas del reloj,
+                                                                                                            S
+lar son también cantidades vectoriales.                                                                     v apunta hacia arriba.
+                                                     S
+     La dirección del vector velocidad angular v puede determinarse por la regla de
+la mano derecha, como se ve en la figura 7.9a. Para esto, sujete el eje de rotación con su
+                                                                                                                         S
+mano derecha de manera que sus dedos se cierren en la dirección de la rotación. El pulgar                               v
+                                    S                               S
+extendido indica la dirección de v. La figura 7.9b muestra que v también está en la direc-
+ción en la que avanza un tornillo derecho.
+     Es posible aplicar esta regla a un disco giratorio visto a lo largo del eje de rotación,
+figura 7.10. Cuando el disco rota en el sentido de las manecillas del reloj (7.10a), la regla                a
+                                                S
+de la mano derecha muestra la dirección de v entrando perpendicularmente hacia arriba.
+Cuando el disco rota en el sentido contrario a las manecillas del reloj (figura 7.10b), la                Cuando el disco gira en
+                S
+dirección de v está hacia abajo.                                                                          sentido contrario al de
+                                                             S                        S
+     Finalmente, las direcciones de la aceleración angular a a y la velocidad angular v son las           las manecillas del reloj,
+                                                                                                          S
+                                                  S                                                       v  apunta hacia abajo.
+mismas si la rapidez angular v (la magnitud de v) está creciendo con el tiempo y son opues-
+tas si la rapidez angular está decreciendo con el tiempo.
+
+
+Fuerzas causantes de la aceleración centrípeta
+                                                                                                                         S
+                                                                                                                        v
+Un objeto puede tener una aceleración centrípeta sólo si alguna fuerza externa actúa sobre
+él. Para una bola girando en círculo debido a que está atada al extremo de una cuerda, la
+                                                                                                             b
+fuerza es la tensión de ésta. En el caso de un automóvil que se mueve a lo largo de una pista
+circular plana, la fuerza es la fricción entre el auto y la pista. Un satélite en órbita circular   Figura 7.10 La dirección de
+                                                                                                                                    S
+alrededor de la Tierra tiene una aceleración centrípeta debida a la fuerza gravitacional            la velocidad angular del vector v
+entre el satélite y la Tierra.                                                                      depende de la dirección de rotación.
+210      CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+              S                                    Algunos autores utilizan el término “fuerza centrípeta”, lo cual da la errónea impresión
+  La tensión T es la
+  fuerza centrípeta                           de que se trata de una nueva fuerza natural. Éste no es el caso: el adjetivo “centrípeta” en
+  que mantiene el                             “fuerza centrípeta” significa simplemente que la fuerza en cuestión actúa hacia el centro.
+  disco en una                                La fuerza gravitacional y la fuerza de tensión en la cuerda de un yo-yo girando en circun-
+  trayectoria circular.               m       ferencia son ejemplos de fuerzas centrípetas, como es la fuerza gravitacional sobre un
+                          S
+                          T           S       satélite que circunda la Tierra.
+                                          v
+                                                   Considere un disco de masa m, atado a una cuerda de longitud r y que se hace girar
+                          r
+                                              con velocidad constante en una trayectoria circular horizontal, como se ve en la figura 7.11.
+                                              Su peso está apoyado en una tabla sin fricción. ¿Por qué el disco se mueve en una trayec-
+                                              toria circular? Por su inercia, es decir, la tendencia del disco a moverse en línea recta; sin
+                                              embargo, la cuerda previene un movimiento a lo largo de una línea recta ejerciendo una
+                                              fuerza radial sobre
+                                                               S
+                                                                   el disco —fuerza de tensión— que hace que siga una trayectoria circu-
+                                              lar. La tensión T está dirigida a lo largo de la cuerda hacia el centro del círculo, como se ve
+                                              en la figura.
+                                                   En general, aplicando la segunda ley de Newton a lo largo de la dirección radial, se ob-
+Figura 7.11 Un disco atado a una
+cuerda de longitud r, girando con             tiene la ecuación que relaciona la fuerza centrípeta neta Fc —la suma de las componentes
+velocidad constante sobre un plano            radiales de todas las fuerzas que actúan sobre un objeto— con la aceleración centrípeta.
+horizontal.                                   La magnitud de la fuerza centrípeta neta es igual a la masa multiplicada por la magnitud
+                                              de la aceleración centrípeta:
+ Tip 7.2 La fuerza centrípeta                                                                      v2
+ es un tipo de fuerza, no una                                                       Fc 5 mac 5 m                                      [7.19]
+                                                                                                   r
+ fuerza en sí misma
+ La ”fuerza centrípeta” es una cla-
+                                              Una fuerza neta causa una aceleración centrípeta que actúa hacia el centro de la trayectoria
+ sificación que involucra fuerzas             circular y provoca cambios en la dirección del vector velocidad. Si esta fuerza desaparece,
+ actuando hacia un punto central,             el objeto abandonaría su trayectoria circular y se movería a lo largo de una trayectoria recta
+ como la tensión de una cuerda                tangente a la circunferencia en el punto donde la fuerza desapareció.
+ debido a una pelota atada en su
+ extremo o de la gravedad sobre
+ un satélite. Una fuerza centrípeta
+ debe ser suministrada por alguna
+ fuerza física real.
+
+
+   ■   FÍSICA APLICADA 7.2                        Gravedad artificial
+Los astronautas pasan largos periodos en el espacio experi-                 terrestre artificial para los habitantes. Estos mundos artifi-
+mentando una gran cantidad de efectos negativos debidos                     ciales podrían permitir el transporte seguro en un viaje de
+a la pérdida de peso, como debilidad muscular y pérdida                     varios miles de años a otro sistema estelar. ■
+de calcio en los huesos. Estos efectos dificultan el regreso al
+usual entorno terrestre. ¿Cómo podría generarse gravedad
+artificial en el espacio para superar tales complicaciones?
+SOLUCIÓN Un cilindro rotando en la estación espacial crea
+un entorno de gravedad artificial. La fuerza normal de las                                                           S
+                                                                                                                     n
+paredes rígidas provee la fuerza centrípeta que mantiene a
+los astronautas moviéndose en trayectoria circular (figura 7.12).
+Para un astronauta, la fuerza normal no puede distinguirse                                               S
+                                                                                                         n
+fácilmente de una fuerza gravitacional mientras el radio de
+la estación sea grande comparado con la estatura del astro-                                                          S
+                                                                                                                     n
+nauta (de otro modo, hay efectos desagradables en el oído
+interno). Este mismo principio es usado en ciertos parques
+de atracciones, en los que los pasajeros son presionados con-
+tra las paredes de cilindros en rotación con inclinaciones en
+varias direcciones. El visionario físico Gerard O’Neill pro-
+puso crear una colonia espacial gigante de kilómetros de                    Figura 7.12 La gravedad artificial dentro de un cilindro giratorio
+radio que rote lentamente creando, en su interior gravedad                  es proporcionada por la fuerza normal.
+214        CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+
+ Tip 7.3 Fuerza centrífuga              Fuerzas ficticias
+ Una supuesta fuerza centrífuga         Cualquier persona que ha paseado en un carrusel cuando era niño (o cualquier juego
+ es, a menudo, sólo la posible          giratorio en un parque de diversiones) ha experimentado la sensación de una fuerza que
+ ausencia de una fuerza centrípeta
+                                        lo hace “huir del centro”. Al intentar ir hacia el centro del carrusel sosteniéndose en el
+ adecuada, presentándose por
+ fenómenos que se miden en un           pasamano, se siente como si se caminara por una colina escarpada.
+ marco de referencia no inercial            En realidad, ésta es una fuerza ficticia a la que se llama fuerza centrífuga. Realmente,
+ (acelerado), como un carrusel.         el niño que está girando en un carrusel está ejerciendo una fuerza centrípeta sobre su
+                                        cuerpo con sus manos y brazos. Además, una pequeña fuerza centrípeta es ejercida por la
+                                        fricción estática entre sus pies y la plataforma. Si el paseante pierde el control, se deslizaría
+                                        alejándose radialmente, para después salir en línea recta tangente en el punto donde se
+                                        soltó del pasamano. El paseante aterrizaría en un punto lejos del centro, pero no “huyen-
+                                        do del centro” a lo largo de una línea radial. En lugar de eso, viajaría perpendicularmente
+                                        a una línea radial, barriendo un desplazamiento angular mientras aumenta su desplaza-
+                                        miento radial (véase la figura 7.16).
+
+
+                                          7.5 Gravitación newtoniana
+                                        Antes de 1686, ya se contaba con una gran cantidad de información relacionada con los
+                                        movimientos de la Luna y los planetas, pero no había un claro entendimiento de las fuerzas
+                                        que hacen que estos cuerpos celestes se muevan como lo hacen. En ese año, Isaac Newton
+                                        dio la clave que abrió los secretos de los cielos. Basándose en su primera ley, Newton sabía
+Figura 7.16 Un estudiante divir-        que una fuerza neta tenía que estar actuando sobre la Luna porque, de no ser así, ésta se
+tiéndose en un carrusel pierde el
+control y cae a lo largo de una línea
+                                        movería en una trayectoria recta, en lugar de la órbita casi circular que describe alrededor
+tangente al borde exterior.             de la Tierra. Newton razonó que esta fuerza debía surgir como resultado de una atracción
+                                        entre la Luna y la Tierra, atracción a la que llamamos fuerza de gravedad, y que es del mis-
+                                        mo tipo de fuerza que atrae objetos, como manzanas, cercanos a la superficie de la Tierra.
+                       S
+                                            En 1687 Newton publicó su trabajo sobre la ley de gravitación universal:
+                       F12
+                                           Si dos partículas de masa m1 y m2 están separadas una distancia r, una fuerza gravita-
+        S
+        F21                                cional actúa a lo largo de la recta que los une, con una magnitud dada por:
+                             m2
+                                                                                         m 1m 2
+                   r                                                             F5G                                          [7.20]
+                                                                                          r2
+                                           donde G 5 6.673 3 10211 kg21 ? m3 ? s22 es una constante de proporcionalidad
+      m1
+                                           llamada constante de gravitación universal. La fuerza gravitacional es siempre de
+                                           atracción.
+Figura activa 7.17
+La fuerza gravitacional entre dos
+                                        Esta ley de la fuerza es un ejemplo de una ley de los cuadrados inversos, en el que la fuerza
+partículas es de atracción y actúa
+a lo largo de una línea recta que
+                                        varía en proporción inversa al cuadrado de la distancia que separa a las masas. Por Sla ter-
+une las partículas. Observe que,        cera ley de Newton se sabe que la fuerza ejercida por Sm1 sobre m 2, denotada por F 12 en
+de acuerdo con la tercera ley de        la figura activa 7.17, es igual en magnitud a la fuerza F 21 ejercida por m 2 sobre m1, pero
+          S       S
+Newton, F 12 5 2F 21.                   en sentido opuesto, formando un par acción-reacción.
+                                                                                           7.5 | Gravitación newtoniana                215
+
+    Otro importante hecho es que la fuerza gravitacional ejercida por una esfera unifor-        Tabla 7.1 Aceleración g en
+me sobre una partícula ubicada afuera de la esfera es la misma como si toda la masa de la       caída libre a varias altitudes
+esfera estuviera concentrada en su centro. A este hecho se le conoce como ley de Gauss,           Altitud (km)a             g (m/s2)
+después de que el matemático y astrónomo alemán Karl Friedrich Gauss la verificó tam-
+                                                                                                        1 000                 7.33
+bién para los campos eléctricos que encontraremos en el capítulo 15. La ley de Gauss es
+                                                                                                        2 000                 5.68
+un resultado matemático verdadero porque la fuerza decae de acuerdo con el cuadrado
+                                                                                                        3 000                 4.53
+inverso de la separación entre las partículas.
+                                                                                                        4 000                 3.70
+    Cerca de la superficie de la Tierra, la expresión F 5 mg es válida. Sin embargo, como               5 000                 3.08
+se ve en la tabla 7.1, la aceleración en caída libre g varía considerablemente con la altitud           6 000                 2.60
+sobre la Tierra.                                                                                        7 000                 2.23
+                                                                                                        8 000                 1.93
+                                                                                                        9 000                 1.69
+ ■ Examen rápido                                                                                       10 000                 1.49
+                                                                                                       50 000                 0.13
+ 7.8 Si una pelota cae al suelo, ¿cuáles afirmaciones son falsas? a) La fuerza que la
+                                                                                                a
+ pelota ejerce sobre la Tierra es igual en magnitud a la fuerza que la Tierra ejerce sobre        Todas las lecturas son distancias a partir
+                                                                                                de la superficie de la Tierra.
+ la pelota. b) La pelota experimenta la misma aceleración que la Tierra. c) La Tierra
+ ejerce una fuerza mucho mayor sobre la pelota que ésta sobre la Tierra, así que la
+ pelota cae mientras la Tierra permanece estacionaria.
+ 7.9 Un planeta tiene dos lunas con idéntica masa. La luna 1 está en una órbita circular         Las fuerzas de gravedad provocan
+ de radio r. La luna 2 está en una órbita circular de radio 2r. La magnitud de la fuerza         que la barra gire más alla de su
+ gravitacional ejercida por el planeta sobre la luna 2 es a) cuatro veces más grande             posición original (línea punteada).
+ b) dos veces más grande c) la misma d) la mitad e) la cuarta parte de la fuerza
+ gravitacional ejercida por el planeta sobre la luna 1.                                                            Espejo          Fuente
+                                                                                                                                   de luz
+
+
+Medición de la constante gravitacional
+                                                                                                      r
+La constante gravitacional G en la ecuación 7.20 fue medida en un importante experimen-                   m
+                                                                                                  M
+to por Henry Cavendish en 1798. Su aparato consistió en dos esferas, cada una de masa m,
+fijadas a los extremos de una barra horizontal ligera suspendida por un delgado alambre
+metálico, como se muestra en la figura 7.18. Otras dos esferas grandes, cada una de masa
+M, están colocadas cerca de las esferas pequeñas. La fuerza de atracción entre las esferas      Figura 7.18 Diagrama esquemá-
+pequeñas y las grandes provoca que la barra gire en un plano horizontal y que el alambre        tico del aparato de Cavendish para
+se tuerza. El ángulo de giro se midió con un rayo de luz reflejado por un espejo unido a        medir G. La atracción de las esferas
+la estructura de suspensión vertical. (Este punto móvil de luz es una técnica eficaz para       más pequeñas de masa m, por
+amplificar el movimiento.) El experimento fue repetido cuidadosamente con diferentes            las más grandes de masa M, provocan
+                                                                                                el giro de la barra describiendo un
+masas y diversas separaciones. Además de dar un valor de G, los resultados demostraron          pequeño ángulo. Con la ayuda de
+que la fuerza es de atracción, proporcional al producto mM, e inversamente proporcional         un rayo de luz reflejado por un
+al cuadrado de la distancia r. Actualmente hay formas modernas de llevar a cabo experi-         espejo sobre el aparato giratorio,
+mentos tendientes a determinar valores más precisos de G.                                       se mide el ángulo de rotación.
+Revisión de la energía potencial gravitacional
+En el capítulo 5 se introdujo el concepto de energía potencial gravitacional y se encontró
+                                                                                                                     La energía
+que la energía potencial asociada con el objeto se puede calcular con la ecuación EP 5 mgh,
+                                                                                                                     potencial
+donde h es la altura del objeto sobre o debajo de algún nivel de referencia. Esta ecuación,                          aumenta hasta
+sin embargo, es válida sólo cuando el objeto está cerca de la superficie de la Tierra. Para                PE        cero a medida
+objetos a grandes alturas, como los satélites, debe recurrirse a alguna alternativa porque g                         que r se
+varía con la distancia a la superficie, como se muestra en la tabla 7.1.                                      Tierra incrementa.
+                                                                                                 MT
+                                                                                                                   RT    m
+   La energía potencial gravitacional asociada con un objeto de masa m a una distancia                                               r
+   r del centro de la Tierra es:                                                                           O
+
+                                                   MT m
+                                        EP 5 2G                                     [7.21]           GMT m
+                                                    r                                            
+                                                                                                      RT
+   donde MT y R T son la masa y el radio de la Tierra, respectivamente, con r . R T .
+   Unidades SI: Joules (J)                                                                       Figura 7.20 Conforme una masa
+                                                                                                 m se mueve radialmente hacia fuera
+    Como antes, la energía potencial gravitacional es una propiedad de un sistema, en este       de la Tierra, la energía potencial
+caso el objeto de masa m y la Tierra. La ecuación 7.21, ilustrada en la figura 7.20, es válida   del sistema masa-Tierra, que es
+                                                                                                 EP 5 2G (Mgm/RT) en la superficie
+para el caso especial en el que el nivel cero para la energía potencial está a una distan-       terrestre, aumenta a un límite de
+cia infinita del centro de la Tierra. Recuerde que la energía potencial gravitacional asocia-    cero a medida que la masa m se aleja
+da con un objeto, no es más que el trabajo negativo realizado por la fuerza de gravedad          de la Tierra, como se muestra en el
+para mover al objeto. Si un objeto cae bajo la acción de la fuerza de gravedad desde una         gráfico.
+
+
+      gran distancia (prácticamente infinita), el cambio en la energía potencial gravitacional
+      es negativo, lo cual corresponde a la cantidad positiva de trabajo gravitacional realizado
+      sobre el sistema. Este trabajo positivo es igual al cambio (también positivo) de energía
+      cinética, como se muestra en el siguiente ejemplo.
+220       CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+
+Tabla 7.2 Velocidad de escape              Velocidad de escape
+para los planetas y la Luna                Si un objeto es lanzado hacia arriba desde la superficie terrestre con una velocidad sufi-
+Planeta                 v esc (km/s)       cientemente grande, podría internarse en el espacio exterior y no regresar. A esta rapidez
+Mercurio                      4.3          se le conoce como velocidad de escape (también suele llamársele velocidad de escape, pero
+Venus                        10.3          es más apropiado usar el término rapidez).
+Tierra                       11.2              La velocidad de escape de la Tierra puede encontrarse aplicando la ley de conserva-
+Luna                          2.3          ción de la energía. Suponga que un objeto de masa m es lanzado verticalmente hacia arriba
+Marte                         5.0          desde la superficie terrestre con una velocidad inicial vi . La energía mecánica inicial (ener-
+Júpiter                      60.0          gía cinética más energía potencial) del sistema objeto-Tierra está dada por
+Saturno                      36.0                                                                   GMT m
+Urano                        22.0                                           EC i 1 EPi 5 12mvi2 2
+Neptuno                      24.0                                                                    RT
+Plutóna                       1.1              Despreciamos la resistencia del aire y suponemos que la velocidad inicial es apenas
+ª En agosto de 2006 la Unión Astronómica   suficiente para permitir que el objeto llegue al infinito con una velocidad igual a cero.
+Internacional adoptó una definición de     Este valor de vi es la velocidad de escape vesc. Cuando el objeto está a una distancia infinita
+planeta que separó a Plutón de los otros
+                                           de la Tierra, su energía cinética es cero porque vf 5 0, y la energía potencial gravitacional
+ocho planetas. Actualmente a Plutón se
+le denomina “planeta enano” (como al       es también cero porque 1/r tiende a cero cuando r tiende al infinito. De aquí, la energía
+asteroide Ceres).                          mecánica total es cero, por lo que, de la ley de la conservación de la energía, se obtiene
+                                                                                          GMT m
+                                                                               2 mv esc 2       50
+                                                                               1    2
+                                                                                           RT
+                                           por lo que
+                                                                                           2GMT
+                                                                                  vesc 5                                            [7.22]
+                                                                                            RT
+
+                                           La velocidad de escape para la Tierra es aproximadamente de 11.2 km/s o bien cerca de
+                                           25 000 mi/h (véase el ejemplo 7.12). Observe que la expresión para vesc no depende de la
+                                           masa del objeto lanzado desde la Tierra, así que una nave espacial tiene la misma velocidad
+                                           de escape que una molécula. En la tabla 7.2 se enlista la correspondiente velocidad de es-
+                                           cape para cada planeta y para la Luna. La velocidad de escape y la temperatura determinan
+                                           en gran parte si un planeta posee o no una atmósfera y, si es así, cuáles son sus constituyentes.
+                                           Planetas con baja velocidad de escape, como Mercurio, generalmente no tienen atmósfera
+                                           porque el promedio de velocidad de sus moléculas de gas es muy cercana a la rapidez de
+                                           escape. Venus tiene una muy densa atmósfera, pero es casi enteramente dióxido de carbo-
+                                           no, un gas muy pesado. La atmósfera de la Tierra tiene muy poco hidrógeno y helio, pero
+                                           retiene moléculas de gases mucho más pesados como el nitrógeno y el oxígeno.
+                                                                                                  7.6 | Leyes de Kepler   221
+
+
+  7.6 Leyes de Kepler
+El movimiento de los planetas, estrellas y otros cuerpos celestes ha sido observado durante
+miles de años. En los primeros años de la Historia, los científicos consideraban a la Tierra
+como el centro del Universo. Este modelo geocéntrico fue desarrollado por el astrónomo
+griego Claudio Tolomeo en el siglo ii a.C. y fue ampliamente aceptado durante los siguien-
+tes 1400 años. En 1543 el astrónomo polaco Nicolás Copérnico (1473-1543) demostró que
+la Tierra y los demás planetas giraban en órbitas circulares alrededor del Sol (modelo
+heliocéntrico).
+    El astrónomo danés Tycho Brahe (1546-1601) hizo precisas mediciones astronómicas
+en un periodo de 20 años, proporcionando datos que fundamentarían el actualmente
+aceptado modelo del sistema solar. Las cuidadosas observaciones realizadas por Brahe de
+los planetas y 777 estrellas fueron llevadas a cabo con sólo un gran sextante y una brújula;
+el telescopio aún no se había inventado.
+    El astrónomo alemán Johannes Kepler, quien fue asistente de Brahe, se hizo de la
+información astronómica de su maestro y pasó cerca de 16 años tratando de construir un
+modelo matemático que describiera el movimiento de los planetas. Después de muchos
+y elaborados cálculos, encontró que los precisos datos de Brahe relacionados con el mo-
+vimiento de Marte alrededor del Sol proporcionaban la respuesta. Los análisis de Kepler
+demostraron, en primer lugar, que el concepto de órbitas circulares alrededor del Sol
+tenía que abandonarse. Además, descubrió que la órbita de Marte podría describirse con
+precisión mediante una elipse con el Sol en uno de los focos, para después generalizar
+este análisis al movimiento de todos los planetas. El análisis completo se resume en tres
+enunciados conocidos como leyes de Kepler:
+
+   1. Todos los planetas se mueven en órbitas elípticas con el Sol en uno de los focos.        b Leyes de Kepler
+   2. Una recta trazada desde el Sol a cualquiera de los planetas barre áreas iguales en
+      iguales intervalos de tiempo.
+   3. El cuadrado del periodo orbital de cualquier planeta es proporcional al cubo de
+      la distancia promedio del planeta al Sol.
+222        CAPÍTULO 7 | Movimiento rotatorio y la ley de gravedad
+
+
+       p               q                      Más tarde, Newton demostró que estas leyes son consecuencia de la fuerza gravitacional
+                                          que existe entre dos objetos cualesquiera. La ley de Newton de gravitación universal, junto
+    Foco                       Foco       con sus leyes de movimiento, provee las bases para una completa descripción matemática
+                                          del movimiento de los planetas y satélites.
+
+  a
+                                          Primera ley de Kepler
+                                          La primera ley surge como una consecuencia obvia de la naturaleza del cuadrado inverso
+                                          de la ley de gravitación universal de Newton. Cualquier objeto ligado a otro por una fuerza
+                               Sol        que varía de acuerdo con 1/r 2 se moverá en una órbita elíptica. Como se muestra en la
+Planeta                                   figura activa 7.22a, una elipse es una curva trazada de modo que las sumas de las distancias
+                                          desde cualquier punto sobre la curva a dos puntos internos llamados puntos focales, o focos,
+  b
+                                          es siempre la misma. Para la configuración Sol-planeta (figura activa 7.22b) el Sol es uno
+Figura activa 7.22 a) La suma             de los focos y el otro foco está vacío. Debido a que la órbita es una elipse, la distancia del
+p 1 q es la misma para cualquier          Sol al planeta cambia continuamente.
+punto sobre la elipse. b) En el sis-
+tema solar, el Sol es uno de los focos
+de la órbita elíptica de cada planeta;    Segunda ley de Kepler
+el otro foco está vacío.
+                                          La segunda ley establece que una recta trazada desde el Sol a cualquier planeta, barre
+                                          áreas iguales en intervalos de tiempo iguales. Considere un planeta en una órbita elípti-
+                                          ca alrededor del Sol, como en la figura activa 7.23. En un periodo dado )t, el planeta se
+                                          mueve del punto  al punto . El planeta se mueve más lentamente sobre este lado de la
+                                          órbita porque se encuentra más lejos del Sol. Sobre el lado opuesto de la órbita, el planeta
+                                          se mueve del punto  al punto  en el mismo tiempo, )t, moviéndose más rápido porque
+                       Sol                está más cerca del Sol. La segunda ley de Kepler dice que cualquier par de regiones formadas
+                                         como en la figura 7.23 siempre tendrán la misma área. Como se verá en el capítulo 8, la se-
+
+                           S              gunda ley de Kepler está relacionada con el principio físico conocido como conservación
+                                         del momento angular.
+                                      
+
+                                          Tercera ley de Kepler
+Figura activa 7.23 Las dos áreas
+barridas por el planeta en su órbita      La deducción de la tercera ley de Kepler es suficientemente sencilla para considerarla aquí,
+elíptica alrededor del Sol son iguales    llevándola al caso particular de una órbita circular. Considere un planeta de masa Mp mo-
+si el intervalo de tiempo entre los       viéndose alrededor del Sol, cuya masa es MS, en una órbita circular. Debido a que la órbita
+puntos  y  es igual al intervalo de     es circular, el planeta se mueve con una velocidad constante v. La segunda ley de Newton,
+tiempo entre los puntos  y .            la ley de gravitación y la aceleración centrípeta dan, entonces, la siguiente ecuación:
+                                                                                        Mpv 2       GMSMp
+                                                                              Mpa c 5           5
+                                                                                          r          r2
+                                          La velocidad v del planeta en su órbita es igual a la circunferencia de la órbita dividida
+                                          entre el tiempo requerido para una revolución, T, llamada el periodo del planeta, por lo
+                                          que v 5 2pr/T. Sustituyendo las anteriores expresiones resulta
+                                                                                GMS   1 2pr/T 2 2
+                                                                                    5
+                                                                                 r2       r
+
+                                                                                      4p2 3
+           Tercera ley de Kepler c                                           T2 5 a       b r 5 K Sr 3                           [7.23]
+                                                                                      GMS
+
+                                          donde KS es una constante dada por
+                                                                                4p2
+                                                                         KS 5       5 2.97 3 10219 s2 /m3
+                                                                                GMS
+                                             La ecuación 7.23 es la tercera ley de Kepler para una órbita circular. Las órbitas de la
+                                          mayoría de los planetas son muy cercanas a la forma circular. Sin embargo, usualmente los
+                                          cometas y asteroides tienen órbitas elípticas. Para estas órbitas, el radio r debe ser rempla-
+                                          zado por a, el semieje mayor, la distancia más grande a través de la órbita elíptica. (Ésta es
+                                          también la distancia promedio del cometa o asteroide al Sol.) Un cálculo más detallado
+                                          muestra que KS realmente depende de la suma de las masas del Sol y del planeta. Sin em-
+                                          bargo, la masa de los planetas es despreciable comparada con la del Sol, por lo que puede
+                                                                                                                7.6 | Leyes de Kepler   223
+
+Tabla 7.3 Datos planetarios útiles
+                                                                                        Distancia         T 2 219 s2
+                                               Radio promedio                          media desde           10  a 3b
+Cuerpo                        Masa (kg)              (m)             Periodo (s)        el Sol (m)
+                                                                                                          r3      m
+
+Mercurio                      3.18 3 10 23
+                                                  2.43 3 10  6
+                                                                      7.60 3 106        5.79 3 1010             2.97
+Venus                         4.88 3 1024         6.06 3 106          1.94 3 107        1.08 3 1011             2.99
+Tierra                        5.98 3 1024         6.38 3 106          3.156 3 107       1.496 3 1011            2.97
+Marte                         6.42 3 1023         3.37 3 106          5.94 3 107        2.28 3 1011             2.98
+Júpiter                       1.90 3 1027         6.99 3 107          3.74 3 108        7.78 3 1011             2.97
+Saturno                       5.68 3 1026         5.85 3 107          9.35 3 108        1.43 3 1012             2.99
+Urano                         8.68 3 1025         2.33 3 107          2.64 3 109        2.87 3 1012             2.95
+Neptuno                       1.03 3 1026         2.21 3 107          5.22 3 109        4.50 3 1012             2.99
+Plutóna                       1.27 3 1023         1.14 3 106          7.82 3 109        5.91 3 1012             2.96
+Luna                          7.36 3 1022         1.74 3 106                  —                 —                —
+Sol                           1.991 3 1030        6.96 3 108                  —                 —                —
+a
+  En agosto de 2006 la Unión Astronómica Internacional adoptó una definición de planeta que separó a Plutón de los otros
+ocho planetas. Actualmente a Plutón se le denomina “planeta enano” (como al asteroide Ceres).
+
+
+descartarse, lo cual significa que la ecuación 7.23 es válida para cualquier planeta del sis-
+tema solar. Si consideramos la órbita de un satélite como la Luna alrededor de la Tierra,
+entonces la constante tiene un valor diferente, con la masa del Sol remplazada por la masa
+de la Tierra. En este caso, KT es igual a 4p2/GMT.
+    La masa del Sol puede determinarse con la tercera ley de Kepler porque la constante
+KS de la ecuación 7.23 incluye la masa del Sol, y las otras variables y constantes pueden ser
+fácilmente medibles. El valor de esta constante se determina sustituyendo los valores del
+periodo de un planeta y su radio orbital, para después resolver para KS. La masa del Sol es
+entonces:
+                                                     4p2
+                                              MS 5
+                                                     GKS
+Este mismo proceso puede ser utilizado para calcular la masa de la Tierra (considerando
+el periodo y el radio orbital de la Luna) y la masa de otros planetas del sistema solar que
+posean satélites.
+    La última columna en la tabla 7.3 confirma que T 2/r 3 es muy cercano a una constante.
+Cuando el tiempo es medido en años terrestres y el semieje mayor está en unidades astro-
+nómicas (1 UA 5 distancia de la Tierra al Sol), la ley de Kepler toma la siguiente forma
+simple:
+                                               T 2 5 a3
+La ecuación puede verificarse fácilmente: la Tierra tiene un semieje mayor de una unidad
+astronómica (por definición) y le toma un año en circular al Sol. Esta ecuación, por su-
+puesto, es válida sólo para el Sol y sus planetas, asteroides y cometas.
+
+
+ ■ Examen rápido
+
+ 7.10 Suponga que un asteroide tiene un semieje mayor de 4 UA. ¿Cuánto le toma al
+ asteroide rodear completamente al Sol? a) 2 años b) 4 años c) 6 años d) 8 años
+ ■ RESUMEN
+
+
+7.1 Velocidad angular y aceleración angular                                    7.3 Relaciones entre cantidades angulares
+La velocidad angular promedio vprom de un objeto rígido está                       y lineales
+definido como la razón del desplazamiento angular )u al                        Cuando un objeto rota alrededor de un eje fijo, la velocidad
+tiempo )t, o bien                                                              angular y la aceleración angular están relacionadas con la ve-
+                             uf 2 ui   Du                                      locidad tangencial y la aceleración tangencial a través de las
+                    v prom ;         5                [7.3]                    siguientes relaciones:
+                             tf 2 ti   Dt
+                                                                                                             vt 5 rv                            [7.10]
+donde vprom está en radianes por segundo (rad/s).
+                                                                               y
+    La aceleración angular promedio aprom de un cuerpo en
+                                                                                                             at 5 r a                           [7.11]
+rotación se define como la razón del cambio de la velocidad
+angular )v al tiempo )t, o bien
+                           vf 2 vi    Dv                                       7.4 Aceleración centrípeta
+                   aprom ;          5                 [7.5]                    Cualquier objeto que se mueve en una trayectoria circular
+                            tf 2 ti   Dt
+                                                                               tiene una aceleración dirigida hacia el centro, llamada acele-
+donde aprom está en radianes por segundo por segundo (rad/                     ración centrípeta, cuya magnitud está dada por:
+s2).
+                                                                                                               v2
+                                                                                                        ac 5      5 r v2                        [7.13]
+                                                                                                               r
+7.2 Movimiento rotatorio con aceleración
+    angular constante                                                             Cualquier objeto moviéndose en una trayectoria circular
+Si un objeto se somete a un movimiento rotatorio alrededor                     debe tener una fuerza neta ejercida sobre él, que está dirigida
+de un eje fijo bajo una aceleración angular constante a, su                    hacia el centro. Algunos ejemplos de fuerzas que provocan
+movimiento puede describirse con el siguiente conjunto de                      aceleraciones centrípetas son la fuerza de gravedad (como
+ecuaciones:                                                                    en el movimiento de un satélite) y la fuerza de tensión en
+                        v 5 vi 1 at                   [7.7]                    una cuerda.
+                      Du 5 vit 1 12 at 2              [7.8]
+                      v2 5 vi2 1 2aDu                  [7.9]                   7.5 Gravitación newtoniana
+Los problemas se resuelven como los de la cinemática en una                    La ley de newton de gravitación universal establece que toda
+dimensión.                                                                     partícula en el Universo atrae a todas las otras partículas con
+
+
+una fuerza que es directamente pro-                             S              1. Todos los planetas se mueven en órbitas elípticas con el
+                                                                F12
+porcional al producto de sus masas                     S                          Sol ubicado en uno de los puntos focales.
+                                                       F21
+e inversamente proporcional al cua-                                   m2
+                                                                r
+drado de la distancia r entre ellas:
+                                                       m1
+                 m 1m 2                                                                                  Sol
+          F5G          2         [7.20]        La fuerza gravitacio-
+                   r                           nal es de atracción y
+                                                                                          Planeta                       Primera ley de Kepler
+                           211
+donde G 5 6.673 3 10 N ? m /          2        actúa a lo largo de la
+kg2 es la constante de gravitación             recta que une a las             2. Una recta trazada desde el Sol a cualquier planeta barre
+                                               partículas.
+universal. Una expresión general                                                  áreas iguales en intervalos de tiempos iguales.
+para la energía potencial gravita-
+cional es
+                                                       PE
+                                                                                                      Sol     
+             MT m                                                                                       S
+     EP 5 2G                 [7.21]           MT
+                                                            Tierra
+                                                                                          
+              r                                                                                                
+                                                                RT m                                                    Segunda ley de Kepler
+Esta expresión se reduce a EP 5                                            r
+                                                   O
+mgh cerca de la superficie terres-
+tre y para otros mundos a través              GMT m                            3. El cuadrado del periodo orbital de un planeta es propor-
+                                          
+del remplazo de la masa MT.                    RT                                 cional al cubo del promedio de distancia del planeta al
+Problemas como la determina-              La energía potencial gra-               Sol:
+ción de la velocidad de escape            vitacional se incrementa
+                                          hasta cero conforme r                                     4p2 3
+                                                                                         T2 5 a         br
+de la Tierra pueden resolverse                                                                                                                  [7.23]
+                                          aumenta.
+usando la ecuación 7.21 en la                                                                       GMS            Tercera ley de Kepler
+ecuación de la conservación de
+la energía.                                                                         La tercera ley puede ser aplicada a cualquier cuerpo y su
+                                                                               sistema de satélites, remplazando la masa del Sol con la masa
+ 7.6 Leyes de Kepler                                                           del cuerpo. En particular, puede ser usada para determinar
+Kepler obtuvo las tres siguientes leyes del movimiento pla-                    la masa del cuerpo central una vez que la distancia promedio
+netario:                                                                       a un satélite y su periodo se conocen.
+                                                                                                                                            El viento ejerce una fuerza
+                                                                                                                                            sobre las hélices de esta turbina
+                                                                                                                                            de viento, produciendo un
+                                                                                                                                            torque que hace que la turbina
+                                                                                                                                            gire. Este proceso convierte
+                                                                                                                                            la energía cinética del viento
+                                                                                                                                            en energía cinética de rotación,
+                                                                                                                                            que se transforma por la
+                                                                                                                                            inducción electromagnética
+                                                                                                                                            en energía eléctrica.
+
+
+Marnie Burkhart/Fancy/Jupiter Images
+
+
+                                                                          Equilibrio
+                                                              y dinámica rotatorios                                                                          8
+                                       En el estudio del movimiento lineal, los objetos fueron tratados como partículas sin estructura.     8.1 Torque
+                                       No importa dónde se aplica una fuerza, sino si se aplica o no.
+                                                                                                                                            8.2 Torque y las dos condiciones
+                                            La realidad es que el punto donde se aplica una fuerza sí importa. En fútbol americano,
+                                                                                                                                                de equilibrio
+                                       por ejemplo, si el corredor que lleva el balón es golpeado cerca de su diafragma, es posible que
+                                       continúe corriendo varias yardas antes de caer. Sin embargo, si es golpeado debajo de la línea de    8.3 Centro de gravedad
+                                       la cintura, su centro de masa rotará hacia el suelo y puede caer inmediatamente. El tenis propor-
+                                                                                                                                            8.4 Ejemplos de objetos
+                                       ciona otro buen ejemplo: si una pelota de tenis se impulsa con una gran fuerza horizontal que            en equilibrio
+                                       actúa a través de su centro de masa, puede viajar una gran distancia antes de caer al suelo, lejos
+                                       de los límites de la cancha. Por otro lado, la misma fuerza aplicada hacia arriba dando a la bola    8.5 Relación entre el torque
+                                       un efecto de giro puede hacer que ésta caiga en la zona del oponente.                                    y la aceleración angular
+                                            Los conceptos de equilibrio rotatorio y dinámica rotatoria son también muy importantes en       8.6 Energía cinética rotatoria
+                                       otras disciplinas. Por ejemplo, los estudiantes de arquitectura requieren el entendimiento de las
+                                       fuerzas que actúan en la construcción de edificios, y los estudiantes de biología, de la compren-    8.7 Momento angular
+                                       sión de cómo trabajan las fuerzas entre los huesos, músculos y articulaciones. Estas fuerzas crean
+                                       torques que nos dicen cómo se afecta el equilibrio de los objetos y su rotación.
+                                            Veremos que un objeto permanece en un estado de movimiento rotatorio uniforme bajo
+                                       la acción de un torque neto. Este principio es equivalente a la primera ley de Newton. Además, la
+                                       aceleración angular de un objeto es proporcional al torque neto que actúa sobre él, cosa aná-
+                                       loga a la segunda ley de Newton. Un torque neto actuando sobre un objeto provoca un cambio
+                                       de su energía rotatoria.
+                                            Finalmente, un torque aplicado a un objeto en un tiempo dado puede cambiar su momento
+                                       angular. En la ausencia de torques externos, se conserva el momento angular, lo que es una
+                                       propiedad que explica algunas de las misteriosas y formidables propiedades de los pulsares
+                                       —remanentes de explosiones de supernovas que rotan con una rapidez ecuatorial muy próxima
+                                       a la de la luz.
+
+
+                                                                                                                                                                             235
+236       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+
+      Bisagra                     S
+                                  F
+                                           8.1 Torque
+                                       Las fuerzas causan aceleraciones; los torques provocan aceleraciones angulares. Sin embar-
+ O               S
+                 r                     go, hay una definitiva relación entre ambos conceptos.
+                                           La figura 8.1 muestra una puerta, vista desde arriba, con una bisagra en el punto O.
+Figura 8.1 Vista superior de una       Desde esta perspectiva, la puerta gira libremente alrededorSde un eje perpendicular a la
+puerta con bisagra en el punto O,      página y que pasa por el punto O. Si se aplica una fuerza F , hay tres factores que deter-
+con una fuerza aplicada en dirección
+                                       minan la efectividad de la fuerza en la apertura de la puerta: la magnitud de la fuerza, la
+perpendicular a la puerta.
+                                       posición de la fuerza y el ángulo en el que es aplicada.
+                                           Por simplicidad,S
+                                                              restringiremos nuestra discusión a posiciones y fuerzas en el plano.
+                                       Cuando la fuerza F es perpendicular al borde exterior de la puerta, figura 8.1, la puerta
+                                       gira en sentido contrario a las manecillas del reloj con aceleración angular constante.
+                                       La misma fuerza perpendicular aplicada en un punto cercano a la bisagra aporta una
+                                       aceleración angular más pequeña. En general, una gran distancia radial r, entre la fuerza
+                                       aplicada y el eje de rotación resulta en una gran aceleración angular. Del mismo modo,
+                                       la aplicación de una gran fuerza provoca una gran aceleración angular. Estas consideraciones
+                                       motivan la definición de torque para los casos especiales de fuerzas perpendiculares al
+                                       vector de posición:
+                                                        S                                               S
+  Definición básica de torque c                Sea F una fuerza que actúa sobre un objeto y r unS vector de posición de un punto
+                                                                                                                    S
+                                               elegido O al punto de aplicación deSla fuerza, con F perpendicular a r . La magnitud
+                                                          S
+                                               del torque t ejercido por la fuerza F está dada por
+                                                                                               t 5 rF                               [8.1]
+                                               donde r es la longitud del vector de posición y F es la magnitud de la fuerza.
+                                               Unidades SI: Newton-metro (N ? m)
+                                                            S   S
+                                       Los vectores r y F están en el plano. La figura activa 8.2 muestra cómo el punto de aplica-
+                                       ción de la fuerza afecta la magnitud del torque. Como se analiza en detalle conjuntamente
+                                                                    S
+                                       con la figura 8.6, el torque t es entonces perpendicular a este plano. El punto O es usual-
+                                       mente elegido de manera que coincida con el eje alrededor del cual el objeto está rotan-
+                                       do, como la bisagra de la puerta o del tubo alrededor del que gira un carrusel (aunque
+                                       son posibles otras elecciones). En resumen, consideraremos sólo fuerzas que actúan en
+                                       el plano perpendicular del eje de rotación. Este criterio excluye, por ejemplo, una fuerza
+                                       con componente ascendente en el sentido de un pasamanos radial de un carrusel, que no
+                                       puede afectar la rotación de éste.
+                                           Bajo estas condiciones, un objeto puede rotar alrededor de un eje elegido en una de las
+                                       dos direcciones. Por convención, el sentido contrario del giro de las manecillas del reloj se
+                                       toma como dirección positiva, y negativa en el sentido del giro de las manecillas del reloj.
+                                       Cuando una fuerza aplicada causa un efecto de rotación en el sentido de las manecillas
+                                       del reloj, el torque sobre el objeto es negativo. Cuando una fuerza aplicada provoca que
+                                       un objeto gire en sentido contrario a las manecillas del reloj, el torque sobre el objeto es
+                                       positivo. Cuando la fuerza causa que el objeto gire en sentido horario, el torque sobre el
+                                       objeto es negativo. Cuando dos o más torques actúan sobre un objeto en reposo, se suman
+
+
+Figura activa 8.2 Conforme                          z                                  z                                    z
+la fuerza se aplica más hacia afuera                        S                                                           S
+                                                            F                      S                                    t
+de la llave, la magnitud del torque             S
+                                                t                                  t                    S
+                                                                                                        F
+aumenta.                                                                                                                              S
+                                               O                                   O                                    O             F
+                                                    S
+                                                    r                                      S
+                                                                                           r                                    S
+                                       x                                   x                                    x               r
+                                                                    y                                       y                        y
+
+
+                                           a                                   b                                    c
+                                                                                                   8.1 | Torque   237
+
+  los torques. Si el torque neto no es cero, el objeto empieza a rotar a una razón cada vez
+  mayor. Si el torque neto es cero, la razón de rotación del objeto no tiene cambio. Estas
+  consideraciones conducen a las rotaciones hacia una analogía con la primera ley: la razón
+  de rotación de un objeto no cambia, a menos que sobre el objeto actúe un torque neto.
+
+
+                                                                              S
+    La fuerza
+           S
+               aplicada no es siempre perpendicular al vector de posición r . Suponga que
+la fuerza F es ejercida sobre una puerta lejos del eje, como se ve en la figura 8.4a, digamos,
+por alguien que agarra la perilla de la puerta y que jala a la derecha. Ejerciendo la fuerza en
+esta dirección, es imposible abrir la puerta. Sin embargo, si la fuerza aplicada actúa for-
+mando un ángulo con la puerta, como en la figura 8.4b, la componente de la fuerza perpen-
+dicular a la puerta causará la rotación. Esta figura muestra que la componente de la fuerza
+                                                                                             S
+perpendicular
+           S
+                 a la puerta es F sen u, donde u es el ángulo entre el vector de posición r y
+la fuerza F . Cuando la fuerza es dirigida a lo largo del eje, u 5 0°, sen (0°) 5 0 y F sen (0°)
+5 0. Cuando la fuerza es dirigida hacia el eje, uS= 180° y F sen (180°) 5 0. El máximo valor
+                                                                         S
+absoluto de F sen u es atribuido sólo cuando F es perpendicular a r —esto es, cuando u
+5 90° o u 5 270°. Estas consideraciones motivan a una definición más general de torque:
+238       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+
+                                                                                   z                                            z
+      O            S                   S                                                                                    S
+                   r                   F                                                                                    t
+          a
+                                                                               S
+                                                                               t                                                               S
+                                                                                                                                               F
+                                       S                                       O                                            O
+                                       F                                                           S
+                                               F sen u                                 S                                            S
+                                           u                                           r           F                                r
+      O            S                                                   x                           30.08            x
+                   r
+          b                                                                                                y                                         y
+
+                                       S
+                                       F
+                                           u                               a                                            b
+      O            S
+                   r           u
+                                                                       Figura 8.5 Así como el ángulo entre el vector de posición y el vector fuerza
+d 5 r sen u
+                                                                       aumentan en los incisos a) y b), el torque ejercido por la llave aumenta.
+
+          c
+                                   S
+Figura 8.4 a) Una fuerza F que actúa en un
+ángulo u 5 0° ejerce un torque cero alrededor
+del pivote O. b) La parte de la fuerza perpen-
+dicular a la puerta, F sen u, ejerce un torque
+rF sen u alrededor de O. c) Una interpretación
+alterna del torque es en términos de un brazo
+de palanca d 5 r sen u.
+
+
+                                                         S                                          S
+ Definición general de torque c                    Sea F una fuerza que actúa sobre un objeto y r un vector de posición desde un punto
+                                                                                                                         S
+                                                   elegido OSal punto de aplicación de la fuerza. La magnitud del torque t ejercido por
+                                                   la fuerza F es
+                                                                                           t 5 rF sen u                                      [8.2]
+                                                   donde r esSla longitud del vector de posición, F la magnitud de la fuerza y u el ángulo
+                                                         S
+                                                   entre r y F .
+                                                   Unidades SI: Newton-metro (N ? m)
+                                                                      S    S
+                                               Otra vez, los vectores r y F están en el plano y, para nuestros propósitos, elegimos el punto
+                                               O correspondiendo a un eje de rotación perpendicular al plano. La figura 8.5 ilustra cómo
+                                               la magnitud del torque ejercido por una llave aumenta de la misma manera que el ángulo
+                                               entre el vector de posición y el vector fuerza se incrementa hasta 90°, donde el torque es
+                           u                   máximo.
+              S
+              F
+                                                    Un segundo modo de entender el factor sen u es asociándolo con la magnitud r del
+                                                                    S
+                                               vector de posición r . A la cantidad d = r sen u se le llama brazo de palanca, el cual es la dis-
+                  u9
+                                               tancia perpendicular desde el eje de rotación a la línea dibujada a lo largo de la dirección
+                       S
+                                               de la fuerza. Esta interpretación alterna se ilustra en la figura 8.4c.
+                       r
+                                                    Es importante recordar que el valor de t depende del eje de rotación elegido. Los
+                                               torques se pueden calcular alrededor de cualquier eje, sin importar si hay algún eje de
+                                               rotación físico real presente. Sin embargo, una vez que se elija el punto, debe ser perma-
+                                               nentemente utilizado a través de un problema dado.
+Figura 8.6 La regla de la mano                      El torque es un vector perpendicular al plano determinado por los vectores de posi-
+derecha: los dedos de su mano de-              ción y de fuerza, como se ilustra en la figura 8.6. La dirección puede ser determinada por
+                             S
+recha apuntan a lo largo de r y se
+                        S
+                                               la regla de la mano derecha:
+cierran en dirección a F . Su pulgar
+entonces señala en la dirección del                                                                                     S
+                                                   1. Apunte sus dedos de la mano derecha en direcciónSde r .
+torque (fuera de la página, en este
+caso). Tenga en cuenta que ya sea u
+                                                   2. Cierre su mano girando los dedos en dirección de F .
+o u9 puede utilizarse en la definición             3. Su pulgar apunta aproximadamente en dirección del torque, en este caso, fuera
+de torque.                                            de la página.
+
+                                                   Note las dos opciones de ángulo en la figura 8.6. El ángulo u es el ángulo real de entre
+                                               las direcciones de los dos vectores. El ángulo u9 está, literalmente, “entre” los dos vectores.
+                                                                       www.elsolucionario.org
+
+ 240                  CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+
+                                                      8.2 Torque y las dos condiciones de equilibrio
+                                                    Un objeto en equilibrio mecánico debe satisfacer las dos siguientes condiciones:
+                                                                                                          S
+                                                        1. La fuerza externa neta debe ser cero: a F 5 0
+                                                                                                          S
+                                                        2. El torque externo neto debe ser cero: a t 5 0
+
+                                                    La primera condición es una consecuencia del equilibrio de traslación: la suma de todas
+
+David Serway
+                                                    las fuerzas que actúan sobre un objeto debe ser cero, por lo que el objeto no tiene acelera-
+                                                                       S
+                                                    ción de traslación a 5 0. La segunda condición es una afirmación del equilibrio rotatorio:
+                                                    la suma de todos los torques sobre el objeto debe ser cero, por lo que el objeto no tiene
+                                                                          S
+                                                    aceleración angular a 5 0. Para que un objeto esté en equilibrio, debe moverse a través
+               Esta enorme roca que permanece
+               equilibrada en el Jardín de los      del espacio con una rapidez lineal y rapidez angular constantes.
+               Dioses en Colorado Springs, Colo-         Debido a que podemos elegir cualquier ubicación para calcular los torques, general-
+               rado, es un ejemplo de equilibrio    mente es mejor seleccionar un eje que haga por lo menos un torque igual a cero, a fin de
+               mecánico.                            simplificar la ecuación de torque neto.
+
+
+                   8.3 Centro de gravedad
+                 En el ejemplo del balancín de la sección anterior, conjeturábamos que el torque, debido a                       y
+                 la fuerza de la gravedad en el tablón, era igual a que si el peso de todo el tablón estuviera
+                 concentrado en su centro. Esto es una consideración general: para calcular el torque en
+                                                                                                                                                   (x2, y2)
+                 un cuerpo rígido debido a la fuerza de la gravedad, el peso entero del cuerpo se puede                          (x1, y1)
+                                                                                                                                                          S
+                 pensar como si estuviera concentrado en un solo punto. El problema entonces se reduce                                      S          m2 g
+                                                                                                                                         m1 g
+                 a localizar ese punto. Si el cuerpo es homogéneo (su masa se distribuye de manera unifor-
+                 me) y simétrico, es generalmente posible conjeturar la localización de ese punto, como en                                        CG
+                                                                                                                                     (xcg, ycg)        (x3, y3)
+                 el ejemplo 8.3. De otro modo, es necesario calcular la localización del punto, como se explica                                                 S
+                 en esta sección.                                                                                                                             m3 g
+                                                                                                                                                                     x
+                      Considere un objeto de forma arbitraria en el plano xy, como el de la figura 8.9. El                   O
+                 objeto se divide en una gran cantidad de partículas muy pequeñas de peso m1g, m2g,                                                S
+                                                                                                                                                  mg
+                 m3g, . . . con coordenadas (x1, y1), (x2, y2), (x3, y3), . . . Si el objeto rota libremente alrededor
+                 del origen, cada partícula contribuye con un torque sobre el origen que es igual a su peso
+                 multiplicado por su brazo de palanca. Por ejemplo, el torque debido al peso m1g es m1gx1,               Figura 8.9 El torque gravitacio-
+                 y así sucesivamente.                                                                                    nal neto en un objeto es cero si se
+                                                                                                                         calcula alrededor del centro de gra-
+                      Deseamos localizar el punto de aplicación de una sola fuerza de magnitud w 5 Fg 5
+                                                                                                                         vedad. El objeto estará balanceado
+                 Mg (el peso total del objeto), donde el efecto de rotación del objeto es el mismo que el de             si está apoyado en ese punto (o en
+                 las partículas individuales. Este punto se llama el centro de gravedad del objeto. Igualando            cualquier punto a lo largo de una
+                 el torque ejercido por w en el centro de gravedad con la suma de los torques que actúan                 línea vertical sobre o debajo de ese
+                 sobre cada una de las partículas individuales, se obtiene:                                              punto).
+
+                                (m1g 1 m 2 g 1 m 3 g 1 ? ? ?)x cg 5 m1gx 1 1 m 2 gx 2 1 m 3gx 3 1 ? ? ?
+242       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+                                         Suponemos que g es igual en todas partes del objeto (lo cual es cierto para todos los obje-
+ Tip 8.1 Especifique sus ejes
+                                         tos que encontraremos). Entonces en la ecuación siguiente g se cancela, quedando
+ Elija el eje de rotación y úselo
+ exclusivamente para un problema                                     m1x1 1 m2x2 1 m3x3 1 # # #   g mi xi
+                                                             xcg 5                      # # #   5                              [8.3a]
+ dado. El eje no necesita corres-                                      m1 1 m2 1 m3 1             g mi
+ ponder a un eje físico o a un
+ punto pivote. Cualquier punto           donde xcg es la componente x del centro de gravedad. Del mismo modo, las coordenadas
+ conveniente servirá.                    y y z del centro de gravedad están dadas por
+                                                                                      g mi yi
+                                                                              ycg 5                                            [8.3b]
+                                                                                      g mi
+                                         y
+                                                                                      g mi zi
+         La llave se cuelga                                                   zcg 5                                            [8.3c]
+         libremente a partir de
+                                                                                      g mi
+         dos diferentes pivotes,         Estas tres ecuaciones son idénticas a las ecuaciones para un concepto similar llamado cen-
+         A y C.
+                                         tro de masa. El centro de masa y el centro de gravedad de un objeto son exactamente
+                                         iguales cuando g no varía en forma significativa sobre el objeto.
+                                     C
+                                             A menudo es posible conjeturar la localización del centro de gravedad. El centro de
+                  A                      gravedad de un cuerpo homogéneo y simétrico debe estar en el eje de simetría. Por ejem-
+                                         plo, el centro de gravedad de una barra homogénea está situado a mitad del camino entre
+                   B                     los extremos de la barra, y el centro de gravedad de una esfera homogénea o de un cubo
+                             C           homogéneo que está en el centro geométrico de los objetos. El centro de gravedad de un
+                                         objeto de forma irregular, tal como una llave, puede ser determinado experimentalmente
+                                         suspendiendo la llave a partir de dos diversos puntos arbitrarios (figura 8.10). La llave
+                                         primero se cuelga del punto A y se dibuja una línea vertical AB (que se puede establecer
+                                         colgándola en forma vertical) cuando la llave está en equilibrio. Después, la llave se cuelga
+  La intersección
+                                         de otro punto C y se dibuja una segunda línea vertical CD. El centro de gravedad coincide
+  de las dos líneas      A
+  verticales, AB y CD,           B       con la intersección de estas dos rectas. De hecho, si la llave se cuelga libremente de cual-
+  localiza el centro                     quier punto, el centro de gravedad está siempre justo debajo del punto de apoyo; la línea
+  de gravedad.                           vertical a través de ese punto debe pasar por el centro de gravedad.
+                             D               Varios ejemplos en la sección 8.4 implican objetos homogéneos y simétricos donde
+                                         los centros de gravedad coinciden con sus centros geométricos. Un objeto rígido en un
+Figura 8.10 Una técnica                  campo gravitacional uniforme puede equilibrarse con una sola fuerza igual en magnitud
+experimental para determinar el          al peso del objeto mientras la fuerza se dirija hacia arriba a través del centro de gravedad
+centro de gravedad de una llave.         del objeto.
+244     CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+
+Tip 8.2 Movimiento
+rotatorio bajo torque cero
+                                      8.4 Ejemplos de objetos en equilibrio
+Si un torque neto cero se ejerce    Recuerde del capítulo 4 que cuando un objeto se trata como punto geométrico, el equili-
+sobre un objeto, continuará         brio requiere solamente que la fuerza neta en el objeto sea cero. En este capítulo hemos
+rotando una velocidad angular       demostrado que para objetos no puntuales se debe satisfacer una segunda condición para
+constante, no necesariamente        el equilibrio: el torque neto en el objeto debe ser cero. Para resolver problemas que impli-
+cero. Sin embargo, el torque cero
+                                    can objetos en equilibrio, se recomienda el siguiente procedimiento.
+implica que la aceleración angu-
+lar es cero.
+                                     ■ ESTRATEGI A PARA LA SOLUCIÓN DE PROBLEMAS
+
+                                    Objetos en equilibrio
+                                    1. Haga un diagrama del sistema incluyendo las coordenadas y elija un eje de rotación
+                                       conveniente para calcular el torque neto en el objeto.
+                                    2. Dibuje un diagrama de cuerpo libre del objeto de interés mostrando todas las fuer-
+                                       zas externas que actúan en él. Para los sistemas con más de un objeto, dibuje un
+                                       diagrama separado para cada objeto. (La mayoría de los problemas tendrán un solo
+                                       objeto de interés.)
+                                    3. Aplique o ti 5 0, la segunda condición de equilibrio. Esta condición tiene una sola
+                                       ecuación para cada objeto de interés. Si el eje de rotación se ha elegido cuidado-
+                                       samente, la ecuación tiene solamente una incógnita y se puede a menudo resolver
+                                       inmediatamente.
+                                    4. Aplique la primera condición del equilibrio oFx 5 0 y oF y 5 0. Esto tiene dos ecua-
+                                       ciones más para el objeto de interés.
+                                    5. Resuelva el sistema de ecuaciones. Para cada objeto, las dos condiciones de equilibrio
+                                       tienen tres ecuaciones, generalmente con tres incógnitas. Resuélvalas por sustitución.
+                                                                  8.5 | Relación entre el torque y la aceleración angular       247
+
+
+  8.5 Relación entre el torque
+      y la aceleración angular
+Cuando un objeto rígido está sujeto a un torque neto, experimenta una aceleración angu-
+lar directamente proporcional al torque neto. Este resultado, que es análogo a la segunda
+ley de Newton, se obtiene como sigue.
+    El sistema de la figura 8.16 consiste en un objeto de masa m unido a una barra muy
+ligera de longitud r. La barra gira alrededor del punto O, y su movimiento de rotación se
+confina a una tabla horizontal sin fricción. Suponga que una fuerza Ft actúa perpendicular-
+mente a la barra y, por lo tanto, es tangente a la trayectoria circular del objeto. Debido a
+que no hay fuerza opuesta a la fuerza tangencial, el objeto experimenta una aceleración
+tangencial at de acuerdo con la segunda ley del Newton:
+                                         F t 5 mat
+                                                                                                                   S
+Multiplicando ambos lados de esta ecuación por r:                                                                  Ft
+
+                                         F tr 5 mrat                                                                        m
+                                                                                                                        r
+                                                                                                               O
+Sustituyendo la ecuación at 5 r a que relaciona las aceleraciones angular y tangencial en
+la anterior ecuación, se obtiene:
+                                       F tr 5 mr 2a                                   [8.4]
+El lado izquierdo de la ecuación 8.4 es el torque que actúa sobre el objeto en relación con
+su eje de rotación, así que se puede rescribir como:
+                                        t 5 mr 2a                                     [8.5]    Figura 8.16 Un objeto de masa m
+                                                                                               unido a una barra ligera de longitud
+La ecuación 8.5 demuestra que el torque sobre el objeto es proporcional a la aceleración       r se mueve en una trayectoria circu-
+angular de éste, donde la constante de proporcionalidad mr 2 se reconoce como el momen-        lar en una superficie horizontal sin
+to de inercia del objeto de masa m. (Debido a que la barra es muy ligera, su momento de        fricción mientras una fuerza tangen-
+                                                                                                    S
+inercia puede despreciarse.)                                                                   cial F actúa sobre él.
+248        CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+Figura 8.17 a) Un disco sólido que
+rota alrededor de su eje. b) El disco                                                                 m3
+consiste en muchas partículas,                                                                                        m1
+                                                                                                           r3
+todas con la misma aceleración                                                                                   r1
+angular.
+                                                                                                           r2
+
+                                                                                                            m2
+
+
+                                                           a                                      b
+
+
+                                         ■ Examen rápido
+
+                                         8.1 Usando un destornillador, usted intenta quitar un tornillo de un mueble, pero
+                                         no puede conseguir darle vuelta. Para aumentar las posibilidades de éxito, usted debe
+                                         utilizar un destornillador a) más largo, b) más corto, c) con una manija más angosta o
+                                         d) con una manija más ancha.
+
+                                        Torque sobre un objeto en rotación
+                                        Considere un disco sólido que rota sobre su eje como se ve en la figura 8.17a. El disco con-
+                                        siste en muchas partículas a varias distancias del eje de la rotación. (Véase la figura 8.17b.)
+                                        El torque en cada una de estas partículas está dado por la ecuación 8.5. El torque neto sobre
+                                        el disco está dado por la suma de los torques individuales en todas las partículas:
+                                                                             o t 5 (o mr 2)a                                     [8.6]
+                                        Debido a que el disco es rígido, todas sus partículas tienen la misma aceleración angular,
+                                        así que a no está involucrada en la suma. Si las masas y las distancias de las partículas se
+                                        etiquetan con subíndices como en la figura 8.17b, entonces
+                                                                   o mr 2 5 m1r 12 1 m2r 22 1 m3r 32 1 ? ? ?
+                                        Esta cantidad es el momento de inercia, I, de todo el cuerpo:
+
+            Momento de inercia c                                                I ; o mr 2                                       [8.7]
+                                        El momento de inercia tiene unidades SI de kg ? m . Utilizando este resultado en la ecua-
+                                                                                              2
+
+                                        ción 8.6, vemos que el torque neto sobre un cuerpo rígido en rotación alrededor de un
+                                        eje fijo está dado por:
+         Análogo rotatorio a la c                                                ot 5 Ia                                         [8.8]
+       segunda ley de Newton
+                                        La ecuación 8.8 indica que la aceleración angular de un objeto rígido extendido es propor-
+                                        cional al torque neto que actúa sobre él. Esta ecuación es el análogo rotatorio de la segun-
+                                        da ley de Newton del movimiento, con el torque sustituyendo a la fuerza, el momento de
+                                        inercia que sustituye a la masa y la aceleración angular, a la aceleración lineal. Aunque el
+       A                                momento de inercia de un objeto se relaciona con su masa, hay una importante diferencia
+                                        entre ellos. La masa m depende solamente de la cantidad de materia en un objeto, mien-
+                                        tras que el momento de la inercia, I, depende de la cantidad de materia y de su distribu-
+                                        ción (con el término r 2 en I 5 omr 2) en el objeto rígido.
+
+                                         ■ Examen rápido
+
+                                         8.2 Un torque neto constante es aplicado a un objeto. ¿Cuál de las siguientes cantida-
+       B
+                                         des no es constante? a) la aceleración angular, b) la velocidad angular, c) el momento
+                                         de inercia o d) el centro de gravedad.
+                                         8.3 Los dos cuerpos rígidos que se muestran en la figura 8.18 tienen la misma masa,
+                                         radio y rapidez angular. Si se aplica un mismo torque de frenado a cada uno, ¿cuál se
+Figura 8.18 (Examen rápido 8.3)          detiene primero? a) A b) B c) se necesita más información.
+                                            El sistema de engranes de una bicicleta proporciona un ejemplo fácilmente visible de
+                                        la relación del torque con la aceleración angular. Considere primero un sistema de en-
+                    APLICACIÓN          granes de cinco velocidades en el que la cadena impulsora se puede ajustar alrededor de
+           Engranes de una bicicleta    cualquiera de los cinco engranes unidos a la rueda trasera (figura 8.19). Los engranes, con
+                                                                    8.5 | Relación entre el torque y la aceleración angular                                     249
+
+diversos radios, son concéntricos con la rueda. Cuando el ciclista comienza a pedalear par-
+
+
+                                                                                                 © Cengage Learning/George Semple
+tiendo del reposo, la cadena está unida al engrane más grande. Debido a que tiene el radio
+más grande, este engrane proporciona el torque más grande al rodillo impulsor. Inicialmente
+se requiere un gran torque, porque la bicicleta parte del reposo. A medida que la bicicleta se
+desplaza más rápidamente, la velocidad tangencial de la cadena aumenta llegando a ser de-
+masiado rápida para el ciclista, lo que le dificulta controlar los pedales. La cadena entonces
+se mueve a un engrane con un radio más pequeño, así que la cadena tiene una velocidad
+tangencial más pequeña que el ciclista puede mantener más fácilmente. Este engrane no
+proporciona tanto torque como el primero, así que el ciclista necesita acelerar a una rapi-
+dez algo más alta. Este proceso continúa mientras la bicicleta se mueva más y más rápido y                                          Figura 8.19 Rodillo impulsor
+                                                                                                                                    y engranajes de una bicicleta.
+el ciclista cambie de posición cada uno de los cinco engranes. El quinto engrane provee el
+torque más bajo, pero ahora la función principal de ese torque es contrarrestar el torque
+friccional debido al rodamiento de los neumáticos, que tiende a reducir la rapidez de la
+bicicleta. El pequeño radio del quinto engrane permite que el ciclista continúe con el mo-
+vimiento de la cadena empujando los pedales.
+    Una bicicleta de 15 velocidades tiene la misma estructura de engranaje en el rodillo
+impulsor, pero tiene tres engranes en el piñón conectado con los pedales. Combinando
+diversas posiciones de la cadena en los engranes de la parte posterior con los engranes del
+piñón, se tienen disponibles 15 diversos torques.
+
+Más sobre el momento de inercia
+Como hemos visto, un pequeño objeto (o una partícula) tiene un momento de inercia
+igual a mr2 en relación con un cierto eje. El momento de inercia de un objeto compuesto
+sobre un cierto eje es justo la suma de los momentos de inercia de los componentes del
+objeto. Por ejemplo, suponga los giros sucesivos de un bastón de mando como en la figura                                                            m
+8.20. Suponga que el bastón se puede modelar como una barra muy ligera de longitud 2,,
+con un objeto pesado en cada extremo. (La barra de un bastón de mando verdadero tiene
+                                                                                                                                                ,
+una masa significativa en sus extremos.) Debido a que despreciamos la masa de la barra, el
+momento de inercia del bastón de mando sobre un eje a través de su centro y perpendicu-
+lar a su longitud está dado por la ecuación 8.7:
+                                          I 5 omr2
+Debido a que este sistema consiste en dos objetos con igual masa, equidistantes del eje de
+rotación, r 5 , para cada objeto, la suma es
+                                                                                                                                           m
+                              I 5 omr 2 5 m,2 1 m,2 5 2m,2
+Si la masa de la varilla no se desprecia, tendríamos que incluir su momento de inercia para         Figura 8.20 Un bastón de mando
+encontrar el momento de inercia total del bastón.                                                   de longitud 2, y de masa 2m. (La
+                                                                                                    masa de la barra se desprecia.) El
+     Precisamos anteriormente que I es la contraparte rotatoria de m. Sin embargo, hay
+                                                                                                    momento de inercia alrededor del
+algunas distinciones importantes entre los dos. Por ejemplo, la masa es una característica          eje a través del centro del bastón y
+intrínseca del objeto y que no cambia, mientras que el momento de inercia de un sistema             perpendicular a su longitud es 2m,2.
+depende de cómo la masa se distribuye y de la ubicación del eje de rotación. El ejemplo
+250      CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+
+                                     Cálculo de momentos de inercia para objetos extendidos
+                                     El método usado para calcular momentos de inercia en el ejemplo 8.9 es simple cuando
+                    R
+                                     solamente algunos objetos pequeños rotan sobre un eje. Cuando el objeto es extendido,
+                                     tal como una esfera, un cilindro o un cono, se requieren a menudo técnicas del cálculo, a
+                                     menos que una cierta simetría esté presente. Uno de los objetos extendidos que favorecen
+                                     una solución simple es un aro que rota sobre un eje perpendicular a su plano y que pasa a
+                                     través de su centro, como se indica en la figura 8.23. (La rueda de la bicicleta, por ejemplo,
+                                m3   cabría aproximadamente en esta categoría.)
+                               m2         Para evaluar el momento de inercia del aro, podemos todavía utilizar la ecuación
+                          m1
+                                     I 5 omr2 e imaginarse que la masa del aro M está dividida en n pequeños segmentos de
+Figura 8.23 Un aro uniforme se       masas m1, m2, m3, ? ? ? , mn, como se ve en la figura 8.23, con M 5 m1 1 m2 1 m3 1 ? ? ? 1 mn.
+puede dividir en una gran cantidad   Este enfoque es justo una extensión del problema del bastón de mando descrito en los
+de segmentos pequeños equidistan-    ejemplos precedentes, salvo que ahora tenemos una gran cantidad de masas pequeñas en
+tes del centro.                      rotación, en vez de solamente cuatro.
+                                                                        8.5 | Relación entre el torque y la aceleración angular       251
+
+Tabla 8.1 Momentos de inercia para varios objetos rígidos de composición uniforme
+
+        Aro o cáscara                            Esfera sólida
+        cilíndrica delgada                           2
+        I 5 MR 2                      R          I 5 MR 2
+                                                     5
+
+                                                                               R
+
+
+        Cilindro sólido                          Cáscara esférica
+        o disco                                  delgada
+             1                        R              2
+        I 5 MR 2                                 I 5 MR 2
+             2                                       3
+                                                                               R
+
+
+        Varilla larga y delgada                  Varilla larga
+        con eje de rotación                      y delgada con eje
+        que pasa por el centro                   de rotación que pasa
+             1                                   por un extremo
+        I 5 ML2                      L
+            12                                        1                            L
+                                                 I5      ML2
+                                                      3
+
+
+   Podemos expresar I como la suma:
+
+                      I 5 omr 2 5 m1r 12 1 m 2r 22 1 m 3r 32 1 ? ? ? 1 mnrn2
+
+Todos los segmentos alrededor del aro están a la misma distancia R del eje de rotación, así
+que podemos usar subíndices en las distancias y factorizar R2 para obtener
+
+                          I 5 (m1 1 m 2 1 m 3 1 ? ? ? 1 mn)R 2 5 MR 2                       [8.9]
+
+Esta expresión se puede utilizar para el momento de inercia de cualquier objeto de forma
+anular, que rota sobre un eje a través de su centro y perpendicular a su plano. Observe
+que el resultado es estrictamente válido solamente si el grueso del anillo es pequeño en
+relación con su radio interno.
+    El aro que seleccionamos como ejemplo es único en el sentido que podemos encontrar
+                                                                                                      Tip 8.3 No hay un solo
+una expresión para su momento de inercia usando sólo álgebra simple. Desafortunadamente,
+                                                                                                      momento de inercia
+para objetos más extendidos el cálculo es mucho más difícil porque no todos los elementos de
+                                                                                                      El momento de inercia es análogo
+masa están situados a la misma distancia del eje, así que se requieren los métodos del cálculo
+                                                                                                      a la masa, pero hay diferencias.
+integral. Los momentos de inercia para algunas otras formas comunes se dan sin demostra-              La masa es una propiedad inhe-
+ción en la tabla 8.1. Usted puede utilizar esta tabla cuando necesite determinar el momento           rente al objeto. El momento de
+de inercia de un cuerpo que tiene las formas mencionadas.                                             inercia de un objeto depende de
+    Si los elementos de masa de un objeto están distribuidos paralelamente al eje de ro-              la forma del objeto, de su masa y
+tación, el momento de inercia del objeto no cambia. Por lo tanto, la expresión I 5 MR 2               de la elección del eje de rotación.
+puede utilizarse igualmente bien para encontrar el momento axial de inercia de un aro
+bordeado o de una gran tubería de alcantarillado. Asimismo, una puerta que gira sobre
+sus bisagras se describe por la misma expresión de momento de inercia, como la que está
+en la tabla para una larga y fina barra que rota alrededor de un eje en su extremo.
+254       CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+PREGUNTA 8.11 ¿Cómo cambiarían la aceleración y la tensión si la mayor parte de la masa del carrete estuviera en su
+borde?
+E JERCICIO 8.11 Un cilindro hueco de masa 0.100 kg y radio 4.00 cm tiene una cuerda enrollada varias veces alrededor
+de él, como en la figura 8.25d. Si la cuerda es atada a un soporte rígido y al cilindro, permitiendo la caída a partir del
+reposo, halle a) la aceleración del cilindro y b) la rapidez del cilindro cuando se ha desenrollado un metro de cuerda.
+RESPUESTAS a) 24.90 m/s2 b) 3.13 m/s
+
+
+                                          8.6 Energía cinética rotatoria
+             S
+             v
+
+         z axis
+                                        En el capítulo 5 definimos la energía cinética de una partícula que se movía a través del
+                                        espacio con una rapidez v dada por la cantidad 12 mv2. Análogamente, un objeto que rota
+                      S
+                                        con una rapidez sobre un cierto eje angular v tiene una energía cinética rotatoria dada
+                      v                 por 12 Iv2. Para probar esto, considere un objeto en forma de una placa rígida delgada que
+                          m             rota alrededor de un cierto eje perpendicular a su plano, como en la figura 8.26. La placa
+                  r                     consiste en muchas partículas pequeñas, cada una de masa m. Todas estas partículas rotan
+                                        en trayectorias circulares alrededor del eje. Si r es la distancia de una de las partículas al
+         O                              eje de rotación, la rapidez de esa partícula es v 5 rv. Debido a que la energía cinética total
+                                        de rotación de la placa es la suma de todas las energías cinéticas asociadas a sus partículas,
+                                        tenemos
+                                                             EC r 5 a 1 12mv 2 2 5 a 1 12mr 2v 2 2 5 12 1 a mr 2 2 v 2
+
+                                        En el último paso, el término v2 se factoriza porque es el mismo para cada partícula. Aho-
+Figura 8.26 Placa rígida girando        ra, la cantidad entre paréntesis a la derecha es el momento de inercia de la placa en el
+alrededor del eje z, con una rapidez
+tangencial v. La energía cinética de
+                                        límite, cuando las partículas llegan a ser muy pequeñas, así que
+una partícula de masa m es 12 mv 2.
+La energía cinética total de la placa                                            EC r 5 12Iv 2                                   [8.10]
+es 12 Iv 2.
+                                        donde I 5 omr2 es el momento de inercia de la placa.
+                                            Un sistema como una bola de boliche rodando hacia abajo de una rampa está des-
+                                        crito por tres tipos de energía: la energía potencial gravitacional EPg, la energía cinética
+                                        de translación ECt y la energía cinética rotatoria ECr . Todas estas formas de energía, más
+                                        las energías potenciales de cualquier otra fuerza conservativa, deben incluirse en nuestra
+                                        ecuación para la conservación de la energía mecánica de un sistema aislado:
+
+                   Conservación c                                 (ECt 1 ECr 1 EP)i 5 (ECt 1 ECr 1 EP)f                          [8.11]
+         de la energía mecánica
+                                        donde i y f se refieren a los valores inicial y final, respectivamente, y EP incluye las energías
+                                        potenciales de todas las fuerzas conservativas en un problema dado. Esta relación es cierta
+                                        sólo si omitimos las fuerzas disipativas, como la fricción. En este caso, es necesario recurrir
+                                        a una generalización del teorema del trabajo y la energía:
+             Teorema del trabajo c                                      Wnc 5 DECt 1 DECr 1 DEP                                  [8.12]
+         y la energía incluyendo
+              la energía rotatoria
+                                         ■ ESTRATEGI A PARA LA SOLUCIÓN DE PROBLEMAS
+
+                                        Métodos de energía y rotación
+                                        1. Elija dos puntos de interés, uno donde se dispone de toda la información necesaria
+                                           y el otro donde se desea obtener información.
+                                        2. Identifique las fuerzas conservativas y las no conservativas que actúan en el sistema
+                                           que está siendo analizado.
+                                        3. Escriba el teorema del trabajo y la energía, ecuación 8.12, o la ecuación general 8.11
+                                           si todas las fuerzas son conservativas.
+                                        4. Sustituya expresiones generales para los términos en la ecuación.
+                                        5. Utilice v 5 rv para eliminar v o v de la ecuación.
+                                        6. Resuelva para la incógnita.
+                                                                                                  8.7 | Momento angular           257
+
+                                                                                                                     S
+                                                                                                                     Fnet
+  8.7 Momento angular
+En la figura 8.29,S un objeto de masa m rota en una trayectoria circular de radio r, debido a                                 m
+una fuerza neta F neta. El torque neto resultante sobre el objeto aumenta su rapidez angular                             r
+de un valor v0 a un valor v en un intervalo de tiempo )t. Por lo tanto, podemos escribir
+
+                                   Dv      v 2 v0  Iv 2 Iv 0
+                      a t 5 Ia 5 I Dt 5 I a Dt b 5    Dt
+Si definimos el producto
+                                                                                                 Figura 8.29 Un objeto de masa
+                                               L ; Iv                                 [8.13]     m rotando en una trayectoria
+                                                                                                 circular, bajo la acción de un
+como el momento angular del objeto, entonces podemos escribir
+                                                                                                 torque constante.
+                            cambio del momento angular                DL
+                    at 5          intervalo de tiempo
+                                                                  5
+                                                                      Dt
+                                                                                       [8.14]
+
+La ecuación 8.14 es el rotatorio análogo a la segunda ley de Newton, la cual puede ser
+escrita en la forma F 5 )p/)t y establece que el torque neto que actúa sobre un objeto es
+igual a la razón de cambio del momento angular del objeto en un intervalo. Recordemos
+que esta ecuación es paralela al teorema del impulso-cantidad de mvimiento.
+    Cuando el torque neto externo (o t) que actúa sobre un sistema es cero, de la ecua-
+ción 8.14 se obtiene que )L/)t 5 0, que señala que la razón de cambio, al transcurrir el
+tiempo del momento angular del sistema es cero. Entonces se tiene el siguiente importante
+resultado:
+
+   Sean Li y Lf los momentos angulares de un sistema en dos diferentes tiempos y su-             b Conservación del momento
+   ponga que no hay torque externo neto, por lo que o t 5 0. Entonces                              angular
+
+                                               Li 5 Lf                             [8.15]
+   y el momento angular se conserva.
+
+     La ecuación 8.15 agrega una tercera ley de la conservación a nuestra lista: la conserva-
+ción del momento angular. Podemos ahora establecer que la energía mecánica, el momen-
+to lineal y el momento angular de un sistema aislado permanecen constantes.
+     Si el momento de inercia de un sistema aislado en rotación cambia, la rapidez angular
+del sistema también cambiará. La conservación del momento angular requiere entonces
+que:
+                               Ii vi 5 If vf     si      ot 5 0                        [8.16]
+    Observe que la conservación del momento angular se aplica a objetos macroscópicos,           APLICACIÓN
+como planetas y personas, así como a átomos y moléculas. Hay muchos ejemplos de con-             Patinadora artística
+servación del momento angular; uno de los más espectaculares son los giros que ejecuta
+una patinadora artística al final de su acto. En la figura 8.30a (página 258), la patinadora
+pone los brazos y las piernas cerca de su cuerpo, reduciendo la distancia al eje de rota-
+ción y, por lo tanto, también reduciendo su momento de inercia. En la conservación del
+momento angular, una reducción de su momento de inercia debe aumentar su velocidad
+angular. Saliendo de la vuelta en la figura 8.30b, ella necesita reducir su velocidad angular,
+así que extiende sus brazos y las piernas otra vez, aumentando su momento de inercia, y de
+ese modo retardar su rotación.
+    De modo semejante, cuando una clavadista desea hacer varios saltos mortales, jala sus        APLICACIÓN
+manos y pies hacia el tronco de su cuerpo para rotar a una mayor rapidez angular. En este        Salto mortal en el aire
+caso, la fuerza externa debido a la gravedad actúa a través de su centro de gravedad y, por
+lo tanto, no ejerce ningún torque sobre su eje de rotación, así que el momento angular so-
+bre su centro de gravedad se conserva. Por ejemplo, cuando una clavadista desea doblar su
+rapidez angular, debe reducir su momento de inercia a la mitad de su valor inicial.
+                                        CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+                                                                                                                    Figura 8.30 Eugeni
+                                                                                                                                                     Juntando los brazos y las                                     Al aterrizar extendiendo
+                                                                                                                    Plushensko varía su
+                                                                                                                                                     piernas, reduce su momento                                    los brazos y las piernas
+                                                                                                                    momento de inercia
+                                                                                                                                                     de inercia y aumenta su rapidez                               aumenta su momento de
+                                                                                                                    para cambiar su rapidez
+                                                                                                                                                     angular (índice de giro).                                     inercia para frenar el giro.
+                                                                                                                    angular.
+
+
+Action Plus/Stone/Getty Images
+                                                                                                                                              Clive Rose/Getty Images                      Al Bello/Getty Images
+
+
+                                 Enrollando su cuerpo, una clava-
+                                 dista disminuye su momento de             Un interesante ejemplo astrofísico de la conservación del momento angular ocurre
+                                 inercia, aumentando su rapidez
+                                                                      cuando una estrella masiva, al final de su curso de vida, utiliza todo su combustible y
+                                 angular.
+                                                                      colapsa bajo la influencia de la fuerza de gravedad, causando un arranque gigantesco de
+                                                                      energía llamado supernova. El ejemplo mejor estudiado de un remanente de la explosión
+                                                  APLICACIÓN          de una supernova es la Nebulosa del Cangrejo, una masa caótica de gas expandido (figura
+                                          Rotación de una estrella    8.31). En una supernova parte de la masa de la estrella se expulsa al espacio, donde con
+                                                    de neutrones      el tiempo se condensa en nuevas estrellas y planetas. La mayor parte de lo que deja detrás
+                                                                      usualmente se colapsa en una estrella de neutrones, una esfera de materia extremada-
+                                                                      mente densa con un diámetro de cerca de 10 kilómetros, reducida en gran medida del
+                                                                      diámetro de 106 km de la estrella original que contiene una gran fracción de la masa de la
+                                                                      estrella original. En una estrella de neutrones, las presiones llegan a ser tan grandes que
+                                                                      los electrones atómicos se combinan con los protones, resultando neutrones. Conforma
+                                                                      el momento de inercia del sistema disminuye durante el colapso, la rapidez rotatoria de la
+                                                                      estrella aumenta. Más de 700 estrellas de neutrones de rápida rotación se han identificado
+                                                                      desde su primer descubrimiento en 1967, con registros de periodos de rotación desde mi-
+                                                                      lisegundos a varios segundos. La estrella de neutrones es un sistema asombroso, un objeto
+                                                                      con una masa mayor que el Sol, que cabe perfectamente dentro del espacio de un peque-
+                                                                      ño condado y rotando tan rápidamente que la rapidez tangencial de la superficie se acerca
+                                                                      a una fracción importante de la velocidad de la luz.
+
+                                                                                        ■ Examen rápido
+
+                                                                                        8.5 Un disco horizontal con momento de inercia I1 gira con una rapidez angular v1
+                                                                                        alrededor de un eje vertical sin fricción. Un segundo disco horizontal que tiene un
+                                                                                        momento de inercia I2 cae sobre el primer disco, al principio sin rotar, pero compar-
+                                                                                        tiendo el mismo eje del primer disco. Debido a que sus superficies son ásperas los dos
+                                                                                        discos alcanzan con el tiempo la misma rapidez angular v. La razón v/v1 es igual a
+                                                                                        a) I1/I2 b) I2/I1 c) I1/(I1 + I2) d) I2/(I1 + I2)
+
+   Figura 8.31 a) La Nebulosa del
+
+
+                                                                                                                                                                                                                                          © Smithsonian Institute/Photo Researchers, Inc.
+   Cangrejo en la constelación de
+   Tauro. Esta nebulosa es un rema-
+
+
+                                                                     Max Planck Instituto para la Astronomía,
+   nente de una supernova vista desde
+   la Tierra en el año 1054. Se encuen-
+   tra a unos 6 300 años luz de distancia
+   y mide aproximadamente 6 años luz
+   de diámetro, todavía en expansión.
+
+
+                                                                     Heidelberg, Alemania
+   Un pulsar profundamente inmerso
+   en la nebulosa destella 30 veces cada
+   segundo. b) Pulsar apagado. c) Pulsar
+   encendido.
+                                                                                                                a                                              b                       c
+                                                                                                                     | Resumen    261
+
+
+                                                                                                                22
+
+
+ ■ RESUMEN
+
+
+8.1 Torque                                                              8.2 Torque y las dos condiciones
+    S
+Sea F una fuerza que actúa sobre un objeto, y sea r un vec-
+                                                            S
+                                                                            de equilibrio
+tor de posición desde un punto elegido O al punto de apli-              Un objeto en equilibrio mecánico debe satisfacer las siguien-
+                                                      S
+cación Sde la fuerza. Entonces la magnitud del torque t de la           tes dos condiciones:
+fuerza F está dado por                                                                                                  S
+                                                                           1. La fuerza externa neta debe ser cero: oF 5 0.
+                             t 5 rF sen u                       [8.2]
+                                                                           2. El torque externo neto debe ser cero: o t 5 0.
+                                                                                                                         S
+donde r es la longitud del vector de S S
+                                        posición, F la magni-
+tud de la fuerza y u el ángulo entre F y r .                            Estas dos condiciones, usadas para resolver problemas, invo-
+                         z                                              lucran la rotación en un plano, resultando tres ecuaciones
+                                                                        y tres incógnitas, dos de la primera condición (correspon-
+                                                                        dientes a las componentes x y y de la fuerza) y otra de la
+                     S                                                  segunda condición (torques). Estas tres ecuaciones deben
+                     t
+                     O                                                  resolverse simultáneamente.
+                             S              S
+                             r              F
+               x                            30.08
+                                                                        8.5 Relación entre el torque
+                                                                            y la aceleración angular
+                                                    y
+                                                                        El momento de inercia de un grupo de partículas es
+
+ El torque en O depende de la distancia hasta el punto de aplicación
+                                                                                                 I ; omr 2                       [8.7]
+              S
+ de la fuerza F y la magnitud y dirección de la fuerza.
+                                                                        Si un objeto rígido libre para rotar alrededor de un eje fijo,
+                                                    S                   tiene un torque externo neto ot actuando sobre él, entonces
+                                                    F
+                                                                        el objeto experimenta una aceleración angular a, donde
+                                                        u
+                    O            S
+                                 r   u                                                            ot 5 Ia                        [8.8]
+              d 5 r sen u
+                                                                        Esta ecuación es la equivalente rotatoria de la segunda ley de
+ Una interpretación alternativa de torque se refiere al concepto de     movimiento.
+ un brazo de palanca d 5 r sen u que es perpendicular a la fuerza.          Los problemas son resueltos usando la ecuación 8.8 junto
+                                                                        con la segunda ley de Newton y resolviendo simultáneamen-
+                                                                        te estas ecuaciones. La relación a 5 r a es a menudo la clave
+   La cantidad d 5 r sen u se llama brazo de palanca de la              para relacionar las ecuaciones de traslación con las ecuacio-
+fuerza.                                                                 nes rotatorias.
+262    CAPÍTULO 8 | Equilibrio y dinámica rotatorios
+
+
+ 8.6 Energía cinética rotatoria                                        donde i y f se refieren a los valores inicial y final, respecti-
+ Si un objeto rígido rota alrededor de un eje fijo con rapidez         vamente. Cuando hay fuerzas no conservativas, es necesario
+ angular v, su energía cinética rotatoria es                           usar una generalización del teorema del trabajo y la energía:
+                                                                                        Wnc 5 DECt 1 DECr 1 DEP                [8.12]
+                             EC r 5 12Iv 2                   [8.10]
+
+ donde I es el momento de inercia del objeto alrededor del
+ eje de rotación.                                                      8.7 Momento angular
+     Un sistema que involucra una rotación se describe con tres
+                                                                       El momento angular de un objeto en rotación está dado por
+ tipos de energía: la potencial EP, la energía cinética de tras-
+ lación ECt y la energía cinética rotatoria ECr . Todas estas                                      L ; Iv                      [8.13]
+ formas de energía deben incluirse en la ecuación de la con-
+                                                                       El momento angular está relacionado con el torque en la si-
+ servación de la energía mecánica para un sistema aislado:
+                                                                       guiente ecuación:
+            (ECt 1 ECr 1 EP)i 5 (ECt 1 ECr 1 EP)f            [8.11]
+                                                                                 cambio del momento angular          DL
+                     M                                                   at 5                intervalo
+                                                                                                                 5
+                                                                                                                     Dt
+                                                                                                                                [8.14]
+                         R
+                                                                       Si el torque externo neto que actúa sobre un sistema es cero,
+                                                                       el momento angular total del sistema es constante
+                                                                                                   Li 5 Lf                     [8.15]
+                 h
+                                                 S                     y se dice que se conserva. Para resolver problemas usualmen-
+                                   u             v
+                                                                       te se involucran sustituciones en la expresión
+                                                                                                 Ii vi 5 If vf                  [8.16]
+  Una pelota que rueda por una pendiente convierte la energía poten-
+  cial en traslación y en energía cinética en rotación.                y se resuelve para la incógnita.

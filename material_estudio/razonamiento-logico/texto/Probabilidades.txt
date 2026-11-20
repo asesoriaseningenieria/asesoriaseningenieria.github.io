@@ -1,0 +1,1013 @@
+1
+ INTRODUCCIÓN AL CÁLCULO DE PROBABILIDADES
+
+
+       1.- HISTORIA DE LA PROBABILIDAD
+
+        Los juegos de azar tienen una antigüedad de más de 40000 años; así por
+ejemplo, los dados se utilizaron tanto en el juego como en ceremonias religiosas. Las
+civilizaciones antiguas explicaban el azar mediante la voluntad divina. En el
+Renacimiento el abandono progresivo de explicaciones teológicas conduce a una
+reconsideración de los experimentos aleatorios.
+
+        Ya en el siglo XVI, los matemáticos italianos comenzaron a interpretar los
+resultados de experimentos aleatorios simples y a finales del siglo XVI, existía un
+análisis empírico de los resultados aleatorios.
+
+        El desarrollo del análisis matemático de los juegos de azar se produce
+lentamente durante los siglos XVI y XVII. El cálculo de probabilidades se consolida
+como disciplina independiente en el período que transcurre desde la segunda mitad del
+siglo XVII hasta comienzos del siglo XVIII. La historia de la probabilidad comienza en
+el siglo XVII cuando Fermat y Pascal tratan de resolver algunos problemas relacionados
+con los juegos de azar. Aunque algunos marcan sus inicios cuando Cardano (jugador
+donde los haya) escribió sobre 1520 El Libro de los Juegos de Azar (aunque no fue
+publicado hasta más de un siglo después, sobre 1660) no es hasta dicha fecha que
+comienza a elaborarse una teoría aceptable sobre los juegos.
+
+       La teoría de la probabilidad fue aplicada con buenos resultados a las mesas de
+juego y con el tiempo a otros problemas socioeconómicos.
+
+        Durante el siglo XVIII el cálculo de probabilidades se extiende a problemas
+físicos y actuariales (seguros marítimos). El factor principal impulsor es el conjunto de
+problemas de astronomía y física que surgen ligados a la contrastación empírica de la
+teoría de Newton. Estas investigaciones van a ser de importancia fundamental en el
+desarrollo de la Estadística.
+
+       La industria de los seguros, que nació en el siglo XIX, requería un conocimiento
+exacto del riesgo de perder pues de lo contrario no se podían calcular las pólizas.
+1_Apuntes de Estadística II                                                              2
+Posteriormente, se estudia la probabilidad como un instrumento que permitiría entender
+los fenómenos sociales.
+
+        La necesidad de comparar con exactitud los datos observados con la teoría
+requería un tratamiento riguroso del mismo, que va a dar lugar a la teoría de errores.
+Durante el siglo XVIII, debido muy particularmente a la popularidad de los juegos de
+azar, se publicaron varios documentos de este tipo. Jakob Bernouilli (1654-1705) Ars
+Conjectandi (publicado en 1713 aunque escrito sobre 1690) y Auguste De Moivre
+(1667-1754) contribuyeron de forma importante a este desarrollo.
+
+        Jacob Bernoulli proporciona la primera solución al problema de estimar una
+cantidad desconocida a partir de un conjunto de mediciones de su valor que, por el error
+experimental, presentan variabilidad. Fue pionero en la aplicación del cálculo
+infinitesimal al cálculo de probabilidades.
+
+      También, además de Abraham de Moivre, el reverendo Thomas Bayes y Joseph
+Lagrange inventaron fórmulas y técnicas de probabilidad.
+
+        El impulso fundamental proviene de la obra de Pierre Simon, Marqués de
+Laplace, publicó Théorie analytique des probabilités en el que expone un análisis
+matemático sobre los juegos de azar, y fue quien indujo la primera definición explícita
+de probabilidad. También desarrolló la ley normal como modelo para describir la
+variabilidad de los errores de medida, formuló y estimó el primer modelo explicativo
+estadístico. Por su parte, Gauss hizo su aportación en la estimación de modelos
+estadísticos.
+
+       Bravais, geólogo y astrónomo, es el primero en considerar la relación entre
+errores de medida dependientes entre sí; Benjamín Pierce propone el primer criterio
+para rechazar observaciones heterogéneas con el resto y S. Newcomb, el más famoso
+astrónomo americano del siglo XIX, introduce los primeros métodos de estimación
+cuando hay errores fuertes en algunos datos (Estimación Robusta).
+
+       Desde los orígenes la principal dificultad para poder considerar la probabilidad
+como una rama de la matemática fue la elaboración de una teoría suficientemente
+precisa como para que fuese aceptada como una forma de matemática. A principios del
+siglo XX el matemático ruso A. Kolmogorov la definió de forma axiomática y
+estableció una teoría más amplia como es la teoría de la medida.
+
+      En la actualidad la teoría matemática de la probabilidad constituye el
+fundamento de las aplicaciones estadísticas tanto en la investigación social como en la
+toma de decisiones.
+
+         La necesidad de sortear la incertidumbre nos lleva a estudiar y aplicar la teoría
+de la probabilidad. Para tener éxito en la toma de decisiones, se necesita la capacidad de
+tratar sistemáticamente con la incertidumbre misma mediante cuidadosas evaluaciones y
+aplicaciones de métodos estadísticos concernientes a las actividades de los negocios.
+
+       Las aplicaciones de métodos estadísticos en las diferentes áreas son numerosas.
+Introducción al cálculo de probabilidades                                           3
+
+       2.- INTRODUCCIÓN
+
+        En la vida cotidiana aparecen muchas situaciones en las que los resultados
+observados son diferentes aunque las condiciones iniciales en las que se produce la
+experiencia sean las mismas. Por ejemplo, al lanzar una moneda unas veces resultará
+cara y otras cruz. Estos fenómenos, denominados aleatorios, se ven afectados por la
+incertidumbre.
+
+        En el lenguaje habitual, frases como "probablemente...", "es poco probable
+que...", "hay muchas posibilidades de que..." hacen referencia a esta incertidumbre.
+
+        La teoría de la probabilidad pretende ser una herramienta para modelizar y
+tratar con situaciones de este tipo. Por otra parte, cuando aplicamos las técnicas
+estadísticas a la recogida, análisis e interpretación de los datos, la teoría de la
+probabilidad proporciona una base para evaluar la fiabilidad de las conclusiones
+alcanzadas y las inferencias realizadas.
+
+       El objetivo del Cálculo de Probabilidades es el estudio de métodos de análisis
+del comportamiento de fenómenos aleatorios.
+
+        Aunque desde sus orígenes siempre han estado ligadas, es cierto que existe un
+cierto paralelismo entre la estadística descriptiva y el cálculo de probabilidades, como
+se puede apreciar en la siguiente tabla:
+
+
+            ESTADÍSTICA                                      PROBABILIDAD
+                fi, Fi                                         Probabilidad
+
+        Variable Unidimensional                               Variable aleatoria
+
+         Variable Bidimensional                              Vectores aleatorios
+
+       Distribución de frecuencias         Distribución de Probabilidad (Función de distribución)
+
+           Medias, Momentos                                 Esperanza, Momentos
+
+       Independencia Estadística                          Independencia Estocástica
+
+           Series Temporales                                Procesos Estocásticos
+
+
+       En la actividad diaria nos encontramos con ciertos tipos de fenómenos que se
+pueden reproducir un gran número de veces, en condiciones similares dando lugar a un
+conjunto de dos o más posibles resultados. Estos fenómenos pueden ser de dos tipos:
+determinísticos y aleatorios.
+1_Apuntes de Estadística II                                                         4
+       2.1.- Conceptos básicos
+       Con ellos vamos a dar una serie de conceptos para poder desarrollar este tema y
+los sucesivos.
+
+   o Fenómeno determinístico.- Cuando al repetirlo bajo idénticas condiciones
+     iniciales se obtienen siempre los mismos resultados.
+
+   o Fenómeno aleatorio.- Cuando al repetirlo bajo idénticas condiciones iniciales
+     no se obtienen siempre los mismos resultados. Ejemplo: cuando lanzamos una
+     moneda al aire observando la sucesión de caras y cruces que presentan.
+
+   o Experimento aleatorio.- Operación que repetimos bajo idénticas condiciones
+     iniciales y no se obtienen siempre los mismos resultados. Ejemplo: lanzamiento
+     de un dado observando la sucesión de números que se presentan {1, 2, 3, 4, 5,6}.
+
+   o Suceso elemental.- Cada uno de los resultados posibles del experimento
+     aleatorio; luego un suceso elemental consta de un solo elemento del espacio
+     muestral (E). En el ejemplo del dado: {1}.
+
+
+                                          Suceso A= (2, 3,4)
+                         2       3
+                             4
+                                                      Suceso elemental
+                                            1         B= 1
+
+
+   o Espacio muestral.- Conjunto de todos los sucesos elementales del experimento
+     aleatorio y lo designaremos como (E). Ejemplo del dado: {1,2,3,4,5,6}
+
+   o Suceso.- Conjunto formado por uno o más sucesos elementales, es decir, un
+     subconjunto de resultados elementales del experimento aleatorio. Ejemplo del
+     dado: nos interesa saber si el resultado a sido un número impar A={1, 3,5}.
+
+   o Suceso seguro.- Coincide con el suceso elemental, ya que al realizar el
+     experimento aleatorio se obtendrá con seguridad uno de los posibles resultados o
+     sucesos elementales, y por tanto ocurrirá (E).
+
+   o Dos sucesos se dice que son iguales, cuando todo suceso elemental de uno está
+     en el otro, y viceversa.
+
+   o Suceso imposible.- Es el que no tiene ningún elemento del espacio muestral (E),
+     y por tanto no ocurrirá nunca, y se representa como ∅. Ejemplo: En el
+     lanzamiento del dado no puede darse el 7.
+Introducción al cálculo de probabilidades                                    5
+
+   o Suceso complementario a un suceso A: Es el suceso que se verifica si, como
+     resultado del experimento aleatorio, no se verifica A. Se acostumbra a denotar
+     con el símbolo Ā.
+
+   o Sucesos incompatibles: Los sucesos A y B son incompatibles o mutuamente
+     excluyentes si no pueden ocurrir simultáneamente.
+
+                                A = {a, b}, B = {d, e}
+
+
+              E             A                                    B
+
+
+                     a
+                                   b                c            d           e
+
+
+   o Si tenemos dos sucesos cualesquiera A, B: A está contenido en B, entonces B no
+     está contenido en A,
+
+                                   A⊂ B ⇒ B⊄A
+
+   o Si tenemos dos sucesos cualesquiera A, B: donde A está contenido en B y B está
+     contenido en A, entonces A = B.
+
+                         A, B / A ⊂ B ⇒     B⊂ A ⇒       A = B
+
+
+      2.2.- Operaciones con sucesos
+        Al ser los sucesos aleatorios nada más que subconjuntos de un conjunto E
+(espacio muestral), podemos aplicarles las conocidas operaciones con conjuntos, como
+son la unión, intersección y diferencia:
+
+o Suceso contenido en otro.- Un suceso A se dice que está contenido o inducido en
+  otro B si siempre que se verifica A se verifica B. Se representa A⊂B.
+1_Apuntes de Estadística II                                                        6
+
+
+    Ejemplo: Considerando el experimento aleatorio del lanzamiento de un dado, si
+designamos por:
+
+       A= que aparezca el 2 ó el 4 = {2,4}
+       B= que aparezca un número par: {2,4,6}
+
+       El suceso A ⊂ B, pues los resultados o sucesos elementales 2 y 4 de A,
+       pertenecen a B. Diremos también que A implica a B y lo denotaremos A ⇒ B.
+
+
+o Igualdad de sucesos.- Dados dos sucesos A y B, diremos que son iguales, si
+  siempre que ocurre el suceso A también ocurre el suceso B, y siempre que ocurre el
+  suceso B ocurre el suceso A, y lo indicaremos por A = B. Es decir, si se verifica:
+
+                                 A ⊂ B⎫
+                                      ⎬⇔ A=B
+                                 B ⊂ A⎭
+
+
+   Ejemplo: Sean los sucesos:
+
+       A = obtener un número par al lanzar un dado = {2,4,6}
+       B = obtener un múltiplo de 2 = {2}
+
+       Aquí se verifica que:
+
+                      A ⊂ B pues siempre que ocurre A ocurre B
+                      B ⊂ A pues siempre que ocurre B ocurre A
+
+       Luego A = B.
+
+
+o Diferencia de sucesos.- Dados dos sucesos aleatorios A, B ∈ E , se llama suceso
+  diferencia de A y B y se representa mediante A/B, o bien, A-B al suceso aleatorio
+  formado por todos los sucesos elementales que pertenecen a A, pero no a B.
+
+o Unión de sucesos.- Dados dos sucesos A y B se llama unión de A y B, y se
+  representa por A∪B, al suceso que se realiza cuando se realiza alguno de ellos, A o
+  B, es decir, a todos los elementos que están en A ó están en B.
+Introducción al cálculo de probabilidades                                        7
+
+
+   Ejemplo: Sean los sucesos:
+
+       A = obtener el lanzamiento de un dado un número impar = {1,3,5}
+       B = obtener un número mayor que 4 = {5,6}
+
+       El suceso unión será:
+
+       A ∪ B = {1,3,5} ∪ {5,6} = {1,3,5,6}
+
+       O sea, obtener un 1, un 3, un 5, ó un 6 en el lanzamiento del dado.
+
+
+o Intersección de sucesos.- Dados dos sucesos A y B, se llama suceso intersección
+  de A y B, y se representa por A ∩ B, al suceso que se realiza si y sólo si se realizan
+  simultáneamente A y B.
+
+
+   Ejemplo: Utilizando el ejemplo de la unión, la intersección viene dada por:
+
+
+o Sucesos Incompatibles.- Dos sucesos A y B cuya intersección es el suceso
+  imposible se llaman sucesos incompatibles. Obsérvese que un suceso y su contrario
+  son siempre incompatibles.
+
+                                       A∩ B =φ .
+
+o Sucesos Complementarios.- Dado un suceso A, se llama suceso contrario o
+  complementario de A, y se representa por Ā, al suceso que se realiza cuando no se
+  realiza A y recíprocamente.
+1_Apuntes de Estadística II                                                        8
+
+
+El suceso contrario de E es φ y recíprocamente.
+
+                                        Ā = E – A.
+
+Ejemplo:    E = {1,2,3,4,5,6}
+            A = {1,2} → A = {3,4,5,6}
+           B = {2,4,6} → B = {1,3,5}
+           C = {3,5} → C = {1,2,4,6}
+
+
+       2.3.- Propiedades de la unión e intersección de sucesos
+      Seguidamente se presentan una serie de propiedades que verifican tanto la unión
+como la intersección de dos o más sucesos. Tales propiedades son comunes a ambas,
+como se muestran en la siguiente tabla:
+
+
+                                   UNION                     INTERSECCION
+       1. Asociativa              (AUB)UC=AU(BUC)             (A∩B)∩C=A∩(B∩C)
+       2. Conmutativa                   AUB=BUA                  A∩B=B∩A
+       3. Idempotente                    AUA=A                    A∩A=A
+       4. Simplificativa                         AU(B∩A)=A
+                                                 A∩(BUA)=A
+       5. Distributiva                      AU(B∩C)=(AUB)∩(AUC)
+                                            A∩(BUC)=(A∩B)U(A∩C)
+                                                                           _
+       Todo suceso A del espacio de sucesos tiene otro llamado contrario, A tal
+       que:        _                                _
+                 AUA=E                               A∩A=φ
+
+       De estas propiedades surgen las siguientes consecuencias inmediatas:
+
+       i) AUφ=A , A∩φ=φ
+       ii) A∩E=A, AUE=E          _____ _ _      _____ _ _
+       iii) Leyes de Morgan:    A ∩ B = A U B, A U B = A ∩ B.
+
+Ejemplo: Sea un experimento aleatorio de lanzar un dado y definimos:
+Introducción al cálculo de probabilidades                                       9
+
+A = {par}
+B = {impar}
+C = {múltiplo de 3}
+
+Calcular:
+       a ) A U B = {1,2,3,4,5,6} = E
+
+       b) A U C = {1,3,4,6}
+
+       c) B U C = {1,3,5,6}
+
+       d ) A U B = {1,2,3,4,5,6} = E
+
+       e) A ∩ B = /0
+
+        f ) A ∩ C = {6}
+
+       g ) B ∩ C = {3}
+
+       h) B − C = B ∩ C = {1,5}
+
+       i ) ( A U B ) ∩ C = {3,6}
+
+
+       3.- CONCEPTO DE PROBABILIDAD
+       Para definir la probabilidad vamos a dar varias definiciones o conceptos de
+probabilidad. Con estas definiciones se pretende expresar de manera objetiva y precisa
+el grado de ocurrencia de ciertos resultados de un fenómeno aleatorio.
+
+       Concepto Frecuentista.- Dado un suceso A que se repite un número de veces, si
+observamos la frecuencia con que se repite ese suceso, obtendremos las probabilidades
+asociadas asignando la frecuencia relativa a cada suceso.
+
+        Se llama frecuencia absoluta de un suceso A al número de veces que se verifica
+A al realizar el experimento un número determinado de veces.
+        Se llama frecuencia relativa de un suceso A al cociente entre su frecuencia
+absoluta y el número de veces que se realiza el experimento, que viene dada por:
+
+                                               f a (A)
+                                   f r (A) =
+                                                   n
+
+ donde n el número de veces que se repite el experimento.
+
+       Definición de Laplace.- La probabilidad de cualquier suceso A es igual al
+cociente entre el número de resultados favorables o resultados que integran el suceso A
+y el número total de elementos o posibles resultados del espacio muestral E.
+1_Apuntes de Estadística II                                                           10
+                                      nº de casos favorables
+                             P(A) =
+                                       nº de casos posibles
+
+        Como hemos venido observando los sucesos los consideremos como conjuntos,
+siendo válido para los sucesos todo lo estudiado en la teoría de conjuntos. Para llegar a
+la construcción axiomática del Cálculo de Probabilidades, necesitamos dar unas
+estructuras algebraicas básicas construidas sobre los sucesos de la misma manera que
+con construían sobre los conjuntos.
+
+Todo fenómeno aleatorio lleva asociado un espacio muestral. Para medir el grado de
+ocurrencia de los sucesos, definimos el Álgebra de Boole, álgebra de sucesos o sigma
+álgebra, que verifica siguientes condiciones:
+
+       1.- El complementario de un suceso A que pertenece al Algebra también
+pertenece al algebra:
+                                A Є Ą →Ā Є Ą
+
+       2.- Si tenemos una serie de sucesos finitos (A1, A2,…..An) infinitos numerables,
+que pertenecen al Ą, la unión de todos ellos tiene que pertenecer a Ą.
+
+                   A1, A2, . . ., An Є Ą ⇒ A ∪ A2 ∪ ….. ∪ An Є Ą.
+
+       3.- El suceso imposible también pertenece al Ą,
+                                        φ Є Ą
+
+       Basándose en dicho álgebra, kolmogorov dio la definición axiomática de
+probabilidad que viene dada a continuación.
+
+        Se llama probabilidad asociada al álgebra de Boole a una aplicación Ą ÆR tal
+que, a cada valor de A le hace corresponder una probabilidad, que verifica los siguientes
+axiomas:
+
+                 Axioma 1: Siempre es positiva.
+
+
+                 Axioma 2: Siempre estará entre 0 y 1.
+
+                                        P[E ] = 1.
+
+                 Axioma 3: Sea A1 .... An sucesos tales que son disjuntos dos a dos (es
+                  decir, la intersección es Ø) Ai ∩ Aj = φ , la probabilidad es la suma
+                  de todas las probabilidades de sucesos.
+
+                                  P (∪ Ai ) = ∑ P ( Ai ).
+Introducción al cálculo de probabilidades                                                 11
+
+      Del tercer axioma se desprende que si que si A = A1 ∪ A2 ∪ ⋅ ⋅ ⋅ con
+Ai ∩ A j = φ , entonces P[ A] = P[A1 ] + P[A2 ] + ⋅ ⋅ ⋅ + P[ An ] , es decir Ρ(U Α i ) = ΣΡ(Α i ).
+
+
+Ejemplo: Calcula P ( A ∩ B ).
+
+
+    La solución es:
+
+                         P( A) = {1,3,5}
+                         P( B ) = {2,3,4,6}
+                         P(1,3,5) + P (2,3,4,6) − P (3)
+
+    Solo cuando P ( A ∩ B ) = 0 , es decir que son disjuntos.
+
+Ejemplo: Sea un experimento aleatorio que consiste en lanzar al aire los dados que no
+están cargados, y se considera espacio muestral el resultado de la suma de los valores
+obtenidos, calcular:
+
+1.- Espacio muestral: E = {2,3,4,5,6,7,8,9,10,11,12} = 11 elementos
+
+                                                          1
+2.- La probabilidad del suceso A = {2}        P ( A) =
+                                                         11
+
+                                                           6
+3.- La probabilidad del suceso B = {par} P(B ) =
+                                                          11
+
+                                                                    3
+4.- La probabilidad del suceso C = {10,11,12}            P(C ) =
+                                                                   11
+
+                                                                4
+5.- La probabilidad del suceso D = {4,5,6,7} P (D ) =
+                                                               11
+
+6.- P ( A U B ) = {2,4,6,8,10,12} = 6 / 11
+1_Apuntes de Estadística II                                                          12
+
+7.- P ( A U C ) = {2,10,11,12} = 4 / 11
+
+8.- P ( D U C ) = {2,3,8,9,10,11,12} = 7 / 11
+
+9.-    P ( B U D ) = {3,4,5,6,7,9,11} = 7 / 11
+
+10.- P ( A ∩ B ) = P ( A U B ) = {3,4,5,6,7,8,9,10,11,12} = 10 / 11
+
+11.- P ( B U C ) = {2,3,4,5,6,7,8,9,10,11,12} = 10 / 11
+
+12.- P ( B ∩ D ) = {4,6} = 2 / 11 .
+
+      3.1.- Espacio Probabilístico
+
+        Llamamos espacio probabilística a la terna formada por un espacio muestral, E;
+el álgebra de sucesos, Ą, y una probabilidad, P, es decir a ( E, Ą, P ).
+
+        Sus propiedades son:
+        1)    La probabilidad del complementario de A es 1 menos la probabilidad de
+              A:
+                                    Prob [Ā] = 1 - Prob [A].
+
+        2)      La probabilidad de la unión de A y B es igual a la probabilidad de A más
+                la probabilidad de B menos la probabilidad de la intersección de A y B:
+
+
+                        Prob [A U B] = Prob [A] + Prob [B] - Prob [A ∩ B].
+
+        3)      La probabilidad del suceso vacío es 0:
+
+                                                 Prob [O] = 0
+
+        4)      Si A contiene a B, entonces la probabilidad de A es menor o igual que la
+                probabilidad de B:
+
+                                      A ⊂ B → Prob [A] ≤ Prob [B]
+        5)      La probabilidad de A es menor o igual a 1:
+
+                                                 Prob [A] ≤ 1.
+
+        4.- PROBABILIDAD CONDICIONADA
+
+       Hasta ahora hemos visto el concepto de probabilidad partiendo de que la única
+información que tenemos sobre el experimento es el espacio muestral. Sin embargo, en
+ocasiones se conoce que un determinado suceso ha ocurrido. ¿Modificará esta
+información adicional la probabilidad de que ocurra otro suceso?. Veremos que
+Introducción al cálculo de probabilidades                                             13
+
+generalmente sí. A partir de esta idea surge la idea de probabilidad condicionada, que se
+define:
+
+        Sea un espacio probabilístico y un suceso B perteneciente al Algebra de Boole,
+tal que P(B) ≠ 0, entonces se define la probabilidad de que ocurra A si antes ha ocurrido
+B, como:
+
+                                       P( A ∩ B)
+                             P(B/A)=             si P(B) ≠ O.
+                                         P( A)
+
+       Análogamente podemos definir P(A/B) como
+
+                                       P ( A ∩ B)
+                             P(A/B)=              si P(A) ≠ O.
+                                          P( B)
+
+       De las definiciones anteriores se deducen claramente las relaciones siguientes:
+
+           o P(A∩B)=P(A) · P(B/A)
+
+           o P(A∩B)=P(B) · P(A/B)
+
+           o P(A/B). P(B)= P(B/A). P(A)
+
+               P( A / B) P( A)
+           o            =
+               P( B / A) P( B)
+
+           o   P ( A / A) = 1 .
+
+           o Si      A,     B       son     independientes       P ( A ∩ B ) = 0,   entonces:
+             P ( A / B ) = P ( B / A) = 0 .
+           o A esta expresión se le conoce como regla de la multiplicación, que en
+             general para un número k de sucesos viene dada por:
+               P (A1 ∩A2 ∩...∩Ak) = P (A1)P (A2/A1)....P (Ak/A1∩A2∩...∩Ak−1)
+
+
+Ejemplo: De una urna que contiene 9 bolas rojas y 5 negras, se extraen sucesivamente 2
+bolas. Calcular la probabilidad de los siguientes sucesos:
+        a) Que las dos sean negras
+        b) Que las dos sean rojas
+        c) Que la primera se roja y la segunda negra
+        d) Que la segunda se roja sabiendo que la primera fue negra
+
+       La solución en cada apartado es la siguiente.
+
+       a) Sea N1: Sacar la 1ª Negra
+              N2: Sacar la 2ª Negra
+1_Apuntes de Estadística II                                                                       14
+       P(N1∩N2) = P(N1) · P(N2/N1) = 5/14 · 4/13
+
+       b) Sea R1: Sacar la 1ª Roja
+              R2: Sacar la 2ª Roja
+
+       P(R1∩R2) = P(R1) · P(R2/R1) = 9/14 · 8/13
+
+       c) Sea R1: Sacar la 1ª Roja
+              N2: Sacar la 2ª Negra
+
+               P(R1∩N2) = P(R1) · P(N2/R1) = 9/14 · 5/13
+
+       d) Sea N1: La 1ª es Negra
+              R2: La 2ª es Roja
+
+               P(R2/N1) = 9/13 (quedan 13 bolas de las cuales 9 son rojas).
+
+Ejemplo: Sabiendo que al lanzar un dado ha salido un número par, hallar la
+probabilidad que este número haya sido un dos:
+
+                         1
+              P( A ∩ B)      1                                     1                          3
+P( A ∩ B) =             = 6=                      P ( A) = {2} =         P (B ) = {2,4,6} =
+                P( B)    3   3                                     6                          6
+                           6
+
+
+       5.- INDEPENDENCIA DE SUCESOS
+       Sean A y B dos sucesos del espacio muestral. El suceso A se dice independiente
+del suceso B si el conocimiento de la ocurrencia de B no modifica la probabilidad de
+aparición de A, es decir, si
+
+                           P (A/B) = P (A) o P(A) = P(A/B).
+
+
+Propiedad: Si dos sucesos A, B son independientes, entonces siempre se verifica:
+
+
+       De la definición y de esta propiedad se deduce que si los sucesos A y B son
+independientes, se verifica:
+
+   o   Los sucesos A y B son independientes.
+   o   Los sucesos A y B son independientes.
+   o   Los sucesos A y B son independientes.
+   o   Decimos que n sucesos son independientes si se verifica:
+
+                   P ( A1 ∩ A2 ∩ ... ∩ An ) = P( A1 ) ⋅ P( A2 ) ⋅ ... ⋅ P( An ) .
+Introducción al cálculo de probabilidades                                                        15
+
+Ejemplo: Se consideran dos sucesos, A y B, asociados a un experimento aleatorio con
+P(A)=0.7; P(B)=0.6; P(                  )=0.58. ¿Son independientes A y B?
+
+Para ver si son independientes, comprobaremos si P( A                    B ) = P( A ) · P( B )
+
+                              P(              ) = P[(A          B)c] = 1 - P(A    B)
+
+
+       Por tanto,          P(A     B) = 1 - P(                  ) = 1 -0.58 = 0.42
+
+       Por otro lado,            P( A ) · P( B ) = 0.7 · 0.6 = 0.42
+
+       Luego, A y B son independientes, pues                      P( A     B ) = P( A ) · P( B ) = 0.42
+
+Ejemplo: Sea un experimento aleatorio que consiste en lanzar un tetraedro regular cuyas
+caras están numeradas del 1 al 4, y se definen los sucesos:
+
+A = {1 ó 2}
+B = {2 ó 3}
+C = {2 ó 4}
+
+Calcular:
+       a ) P ( A) = 2 = 1
+                     4    2
+       b) P ( B ) = 2 = 1
+                     4    2
+       c) P(C ) = 2 = 1
+                   4    2
+
+       d) Probabilidad de obtener un 2
+
+       P ( 2) = P ( A ∩ B ) = P ( A ∩ C ) = P ( B ∩ C ) = 1 / 4
+
+       ¿Son independientes los sucesos A, B y C?
+
+       P ( A ∩ B ) = P ( A) ∗ P ( B ) = 1 / 2 ∗ 1 / 2 = 1 / 4
+       P ( A ∩ C ) = P ( A) ∗ P (C ) = 1 / 2 ∗ 1 / 2 = 1 / 4
+       P ( B ∩ C ) = P ( B ) ∗ P (C ) = 1 / 2 ∗ 1 / 2 = 1 / 4
+
+       Significa que A es independiente de B, que A es independiente de C, que B es
+       independiente de C.
+
+       P ( A ∩ B ∩ C ) = P ( A) ∗ P ( B ) ∗ P (C )
+       P ( A ∩ B ∩ C ) = P ( 2) = 1 / 4
+       P( A) ∗ P( B) ∗ P(C ) = 1 / 2 ∗ 1 / 2 ∗ 1 / 2 = 1 / 8
+       Luego, 1 / 4 /= 1 / 8
+1_Apuntes de Estadística II                                                            16
+       No se cumple la anterior condición, por lo que A, B y C no son independientes
+       entre sí, son independientes dos a dos.
+
+Ejemplo: En una baraja de cartas hemos suprimido varias de ellas, entre los que quedan
+se verifican las siguientes probabilidades:
+        - Probabilidad de obtener un rey: 0,15
+        - Probabilidad de obtener una carta que sea bastos: 0,30
+        - Probabilidad de obtener una carta que no sea ni rey ni bastos: 0,6
+        Calcular:
+        - ¿Está entre ellas el rey de bastos?, caso afirmativo indicar su probabilidad.-
+        - ¿Cuántas cartas hay en la baraja?
+
+
+                               (               )
+       P (ni Rey ni Bastos)= P Re y ∩ Bastos = 0,6 ⇒
+       P (Re y U Bastos ) = 1 − 0,6 = 0,4
+       P(Re y U Bastos) = P(Re y ) + P(Bastos ) − P(Re y I Bastos ) ⇒
+       0,4 = 0,15 + 0,3 − P(Re y ∩ Bastos) ⇒
+       P(Re y ∩ Bastos ) = 0,15 + 0,3 − 0,4 = 0,05
+       Por lo que al ser mayor que cero, indica que está el rey de bastos, con una
+probabilidad de 0,05.-
+
+       Se pasa 0,05 en forma de fracción:
+
+                 5   1
+       0,05 =      =
+                100 20
+
+        Lo que indica que si la probabilidad de sacar una carta (el rey de bastos) es de 1
+entre 20, quiere decir que el número total de cartas en la baraja es de 20 (por la
+definición de Laplace).
+
+
+       6.- TEOREMA DE LA PROBABILIDAD TOTAL
+
+       En primer lugar, antes de definir el teorema, es necesario definir que es un
+conjunto completo. Se dice que un conjunto de sucesos A1 , A2 ,..., An ∈ E forman un
+sistema completo si verifica:
+
+           o Son incompatibles dos a dos, es decir Ai ∩ A j ≠ 0, ∀ i , j
+
+           o Que la unión de todos ellos es el espacio muestral, es decir,
+             A1 ∪ A2 ∪ ... ∪ An = E.
+
+       Con todo esto se define el teorema de la Probabilidad Total como:
+
+       Sea A1,A2,...,An un sistema completo de sucesos tales que la probabilidad de
+cada uno de ellos es distinta de cero, y sea B un suceso para el que se conocen las
+probabilidades P(B/Ai) , entonces la probabilidad del suceso B viene dada por:
+Introducción al cálculo de probabilidades                                                           17
+
+
+                                                n
+                                      P(B ) = ∑ P( A i ) • P(B / A i ) .
+                                               i =1
+
+
+Figura: Si A1 , A2 , A3 , A4 , A5 forman un
+
+sistema completo, podemos calcular la
+
+probabilidad de B a partir de las cantidades
+
+P [B ∩ Ai ] , o lo que es lo mismo,
+
+P[B / Ai ] ⋅ P[Ai ]
+
+
+        La demostración del teorema es fácil de hacer como demostramos.
+
+        Si A1, A2, A3, A4 y A5 forman un sistema exhaustivo y excluyente de sucesos,
+podemos calcular la probabilidad de B a partir de las probabilidades de estos sucesos, es
+decir, a partir del suceso B se puede descomponer como:
+
+                            B = B ∪ E = B ∩ ( A1 ∪ A2 ∪ A3 ∪ ... ∪ An ),
+
+que aplicando las propiedades de los sucesos es fácil ver que todo esto es igual a
+
+                       B = (B ∩ A1 ) ∪ (B ∩ A2 ) ∪ (B ∩ A3 ) ∪ ... ∪ (B ∩ An ) .
+
+       Calcular la probabilidad de B es lo mismo que calcular la probabilidad de la
+expresión anterior, es decir
+
+                          P(B ) = P(B ∩ A1 ) + P(B ∩ A2 ) + ... + P(B ∩ An ) ,
+
+ya que al ser un sistema completo, las intersecciones son vacías. Además, como
+sabemos que
+
+
+                                     P( A ∩ B )
+                      P( A / B ) =              ⇒ P ( A ∩ B ) = P ( A / B ) ⋅ P (B ),
+                                       P (B )
+
+entonces la probabilidad de se puede descomponer como
+
+ P(B ) = P(B / A1 ) ⋅ P( A1 ) + P(B / A2 ) ⋅ P( A2 ) + ... + P(B / An ) ⋅ P( An ) = ∑ P( Ai ) ⋅ P(B / Ai ).
+1_Apuntes de Estadística II                                                            18
+                                                                                        ⁬
+
+Ejemplo 1: Se tienen dos urnas, la nº1 tiene 3 bolas blancas y 2 negras, la nº2 tiene 2
+bolas blancas y 3 negras. Se elige una urna al azar y de ella se extrae una bola. Calcular
+la probabilidad de que sea blanca.
+
+       Sea A1: “elegir la urna nº1”
+           A2: “elegir la urna nº2”
+           B: “extraer bola blanca”
+
+   P(B) = P(A1) · P(B/A1) + P(A2) · P(B/A2) = 1/2 · 3/5 + 1/2 · 2/5 = 1/2.
+
+
+Ejercicio 2: Una compañía dedicada al transporte público explota tres líneas de una
+ciudad, de forma que el 60% de los autobuses cubre el servicio de la primero línea, el
+30% cubre la segunda y el 10% cubre el servicio de la tercera línea. Se sabe que la
+probabilidad de que, diariamente, un autobús se averíe es del 2%, 4% y 1%,
+respectivamente, para cada línea. Determina la probabilidad de que, en un día, un
+autobús sufra una avería.
+
+Solución:
+
+Para obtener la solución definimos el suceso "sufrir una avería" (Av) puede producirse
+en las tres líneas, (L1, L2, L3). Según el teorema de la probabilidad total y teniendo en
+cuenta las probabilidades del diagrama de árbol adjunto, tenemos:
+
+P(Av) = P(L1) · P(Av/L1) + P(L2) · P(Av/L2) + P(L3) · P(Av/L3) =
+     = 0.6 · 0.02 + 0.3 · 0.04 + 0.1 · 0.01 =
+     = 0.012 + 0.012 + 0.001 = 0.025
+
+Ejercicio 3: Una empresa del ramo de la alimentación elabora sus productos en cuatro
+factorías: F1, F2, F3 y F4. El porcentaje de producción total que se fabrica en cada
+factoría es del 40%, 30%, 20% y 10%, respectivamente, y además el porcentaje de
+envasado incorrecto en cada factoría es del 1%, 2%, 7% y 4%. Tomamos un producto
+de la empresa al azar. ¿Cuál es la probabilidad de que se encuentre defectuosamente
+envasado?
+
+Solución:
+
+Llamando M = "el producto está defectuosamente envasado", se tiene que este producto
+puede proceder de cada una de las cuatro factorías y, por tanto, según el teorema de la
+probabilidad total y teniendo en cuenta las probabilidades del diagrama de árbol
+adjunto, tenemos:
+Introducción al cálculo de probabilidades                                        19
+
+
+P(M) = P(F1) · P(M/F1) + P(F2) · P(M/F2) + P(F3) · P(M/F3) + P(F4) · P(M/F4) =
+     = 0.4 · 0.01 + 0.3 · 0.02 + 0.2 · 0.07 + 0.1 · 0.04 =
+     = 0.004 + 0.006 + 0.014 + 0.004 = 0.028
+
+Ejercicio 4: Para realizar un experimento aleatorio, disponemos de una muestra de
+cinco concesionarios de coches, de los cuales dos concesionarios tienen 3 coches
+blancos y 5 azules, otros dos concesionarios tienes 2 coches blancos y 3 azules, y el
+último concesionario tiene 2 coches blancos y 1 azul. ¿Cuál es la probabilidad de elegir
+un coche azul?
+
+Suceso A: 3 blancos y 5 azules
+
+Como existen 2 sucesos A, entonces P(A)=2/5
+Probabilidad de escoger 1 azul en estos dos concesionarios P(azul/A)=5/8
+
+Suceso B: 2 blancos y 3 azules
+
+Como existen 2 sucesos B, entonces P(B)=2/5
+Probabilidad de escoger 1 azul en estos dos concesionarios P(azul/B)=3/5
+
+Suceso C: 2 blancos y 1 azul
+
+Como existe 1 suceso C, entonces P(C)=1/5
+Probabilidad de escoger 1 azul en este concesionario P(azul/C)=1/3
+
+P(azul)=P(A)*P(azul/A)+ P(B)*P(azul/B)+ P(C)*P(azul/C)
+
+             ⎛ 2 5 ⎞ ⎛ 2 3 ⎞ ⎛ 1 1 ⎞ 10 6   1
+P ( azul ) = ⎜ ∗ ⎟ + ⎜ ∗ ⎟ + ⎜ ∗ ⎟ =   +  +   = 0,25 + 0,24 + 0,06 = 0,55
+             ⎝ 5 8 ⎠ ⎝ 5 5 ⎠ ⎝ 5 3 ⎠ 40 25 15
+
+Si hubiésemos optado por hacerlos como 5 sucesos individuales:
+
+P(azul) =
+P(A)*P(azul/A)+P(A)*P(azul/A)+P(B)*P(azul/B)+P(B)*P(azul/B)+P(C)*P(azul/C)
+1_Apuntes de Estadística II                                                                      20
+
+
+            ⎛1 5⎞ ⎛1 5⎞ ⎛1 3⎞ ⎛1 3⎞ ⎛1 1⎞ 5             5   3   3   1
+P (azul ) = ⎜ ∗ ⎟ + ⎜ ∗ ⎟ + ⎜ ∗ ⎟ + ⎜ ∗ ⎟ + ⎜ ∗ ⎟ =   +   +   +   +   = 0,55
+            ⎝ 5 8 ⎠ ⎝ 5 8 ⎠ ⎝ 5 5 ⎠ ⎝ 5 5 ⎠ ⎝ 5 3 ⎠ 40 40 25 25 15
+
+
+        7.- TEOREMA DE BAYES
+
+       Sea A1, A2,..., An un sistema completo de sucesos tal que la probabilidad de
+cada uno de ellos es distinta de cero, y sea B un suceso cualquiera para el que se
+conocen las probabilidades P(B/Ai), entonces:
+
+                       P ( A i ) • P (B / A i )   P ( P ( A i ) • P (B / A i )
+        P( A i / B) = n                         =                              ,i = 1,2,..., n
+                                                             P( B)
+                     ∑ P ( A i ) • P (B / A i )
+                        i =1
+
+
+        Demostración :
+
+        P(Ai∩B) = P(Ai) ⋅ P(B/Ai) = P(B) ⋅ P(Ai/B) i=1,...,n
+
+despejando P(Ai/B) nos queda:
+
+                    P(A i ) • P(B / A i )
+        P(A i / B) =                        , i = 1,..., n
+                           P( B)
+y por el teorema de la probabilidad total :
+
+                           P(A i ) • P(B / A i )
+        P(A i / B) =      n                              , i = 1,..., n
+                        ∑ P(A ) • P(B / A )
+                        i=1
+                                  i             i
+
+
+Ejemplo: Basándonos en el ejercicio anterior, supongamos que realizada la extracción
+la bola extraída es blanca. Calcular la probabilidad de que sea de la urna nº1.
+
+Para resolverlo, tan sólo aplicar la fórmula,
+
+                                                                           1 3
+                                    P(A 1 ) • P(B / A 1 )                 2 • 5     3
+        P(A 1 / B) =                                                 = 1 3 1 2 = .
+                        P(A 1 ) • P(B / A 1 ) + P(A 2 ) • P(B / A 2 ) 2 • 5 + 2 • 5 5
+
+
+Ejercicio: Tenemos tres urnas: A con 3 bolas rojas y 5 negras, B con 2 bolas rojas y 1
+negra y C con 2 bolas rojas y 3 negras. Escogemos una urna al azar y extraemos una
+bola. Si la bola ha sido roja, ¿cuál es la probabilidad de haber sido extraída de la urna
+A?
+
+Solución:
+Introducción al cálculo de probabilidades                                        21
+
+Para obtener la solución, llamamos R= "sacar bola roja" y N= "sacar bola negra". En el
+diagrama de árbol adjunto pueden verse las distintas probabilidades de ocurrencia de los
+sucesos R o N para cada una de las tres urnas.
+
+
+La probabilidad pedida es P(A/R). Utilizando el teorema de Bayes, tenemos:
+
+
+Del ejemplo 4 anterior de los concesionarios, ¿cuál es la probabilidad de que el coche
+azul elegido sea del concesionario donde hay sólo 2 coches blancos y 1 azul?
+
+Sabíamos que
+                                               10 6   1
+                                P ( azul ) =     +  +   = 0,25 + 0,24 + 0,06 = 0,55
+                                               40 25 15
+
+
+entonces,
+
+                                                                         1 1
+                                                                           ∗
+                                 P(C ) ∗ P(azul C )                      5   3 = 0,10
+P(C azul ) =                                                           =
+             P( A) ∗ P(azul A) + P( B) ∗ P(azul B) + P(C ) ∗ P(azul C ) 0,55
+
+
+       8.- COMBINATORIA
+
+       El análisis combinatorio se ocupa de la ordenación de los objetos dentro de un
+conjunto. En este sentido nos facilitará métodos que serán útiles para determinar el
+1_Apuntes de Estadística II                                                                           22
+número de resultados posibles de un experimento. Veamos a continuación de una forma
+breve las formulas combinatorias:
+
+
+Variaciones sin repetición:
+
+      Se llaman Variaciones sin repetición de n elementos tomados en grupos de m, a
+cada uno de los subconjuntos de m elementos que se pueden formar con los n
+elementos, teniendo en cuenta el orden. (Importa el orden y no se pueden repetir).
+
+                                       V mn = n (n-1) ...... (n-m+1).
+
+Ejemplo: Sea un conjunto formado por las letras a, b, c. ¿Cuántos grupos de 2 letras se
+puede obtener, sin repetir los elementos, teniendo en cuenta el orden?
+
+       V32 = 3 ∗ (3 − 2 + 1) = 3 ∗ 2 = 6
+       {a, b, c} → (a, b), (b, c ), (b, a ), (c, b), (c, a ), (a, c ) → 6
+
+Variaciones con repetición:
+
+        Se llaman Variaciones con repetición de n elementos tomados en grupos de m, a
+cada uno de los subconjuntos de m elementos que se pueden formar con los n
+elementos, teniendo en cuenta el orden. Es la misma definición anterior pero pudiendo
+repetir los elementos que intervienen en el grupo.
+
+                                                  VR mn = n m
+
+        Siguiendo con el ejemplo anterior, ¿Cuántos grupos de 2 letras se puede obtener,
+repitiendo los elementos, teniendo en cuenta el orden?
+
+       V32 = 3 2 = 9
+       {a, b, c} → (a, b), (b, c ), (b, a ), (c, b), (c, a ), (a, c ), (a, a ), (b, b), (c, c ) → 9
+
+Permutaciones sin repetición:
+      Se llaman Permutaciones de n elementos a las variaciones sin repetición pero el
+número de elementos coincide con el número de grupo. (importa el orden y no se
+pueden repetir).
+
+                                                P n = V nn = n!
+
+        Siguiendo con el ejemplo, ¿Cuántos grupos de 3 letras se pueden obtener, sin
+repetir los elementos, teniendo en cuenta el orden?
+
+       P3 = 3! = 3 ∗ 2 ∗ 1 = 6
+Introducción al cálculo de probabilidades                                                       23
+
+       {a, b, c} → (a, b, c ), (b, c, a ), (c, b, a ), (a, c, b ), (b, c, a ), (c, a, b ) → 6
+
+Combinaciones sin repetición:
+
+      Se llaman Combinaciones sin repetición de n elementos tomados en grupos de
+m, a cada uno de los subconjuntos de m elementos que se pueden formar con los n
+elementos, sin tener en cuenta el orden. (No importa el orden ni se pueden repetir).
+
+                                                ⎛n⎞              n!
+                                        C mn = ⎜⎜ ⎟⎟ =
+                                                ⎝ m⎠       m! ( n − m)!
+
+       Siguiendo el primer ejemplo:
+
+            ⎛3⎞       3!        3 ∗ 2 ∗1 6
+       C = ⎜⎜ ⎟⎟ =
+         2
+                              =         = =3
+            ⎝ 2 ⎠ 2!∗(3 − 2 )! 2 ∗ 1 ∗ 1 2
+         3
+
+
+       {a, b, c} → (a, b), (a, c ), (b, c ) → 3 .
+Combinaciones con repetición:
+
+      Se llaman Combinaciones con repetición de n elementos tomados en grupos de
+m, a cada uno de los subconjuntos de m elementos que se pueden formar con los n
+elementos, sin tener en cuenta el orden. (No importa el orden pero se pueden repetir).
+
+                                              ⎛ n + m − 1⎞ (n + m − 1)!
+                                  CR mn = ⎜⎜             ⎟⎟ =
+                                              ⎝ m ⎠ m! (n − 1)!
+
+
+       Y por último, terminando el ejemplo
+
+       ⎛ 3+ 2 −1 ⎞ (3 + 2 − 1)!   4!   4 ∗ 3 ∗ 2 ∗ 1 24
+C 32 = ⎜ − ⎟ =                  =    =              =   =6
+       ⎝ 2 ⎠ 2!∗(3 − 1)! 2!∗2! 2 ∗ 1 ∗ 2 ∗ 1 4
+
+       {a, b, c} → (a, b), (a, c ), (b, c ), (a, a ), (b, b), (c, c ) → 6

@@ -1,0 +1,3330 @@
+{
+  "sources": [
+    {
+      "subject_id": "algebra-lineal",
+      "topic_name": "Espacios y subespacios vectoriales",
+      "url": "https://drive.google.com/drive/folders/1MIpDi3N4eohu9tSiTdZp187Cs95Girds?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1GFG4x_3F4XyeFGzG0oHF7i1UnXcrOvs8",
+          "title": "EjemplosEspaciosySubespacios.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/EjemplosEspaciosySubespacios.pdf",
+          "bytes": 12534766,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1GFG4x_3F4XyeFGzG0oHF7i1UnXcrOvs8/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "11UGQWYGLN968ADza8z2iKUPcXaqprYvp",
+          "title": "EjemplosVectoresCoordenados.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/EjemplosVectoresCoordenados.pdf",
+          "bytes": 20450393,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/11UGQWYGLN968ADza8z2iKUPcXaqprYvp/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1Js_7KjfSxbyNnTaCmMRGHOP7rAz76KeJ",
+          "title": "EjerciciosEspaciosyVectoresUdea.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosEspaciosyVectoresUdea.pdf",
+          "bytes": 4508061,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1Js_7KjfSxbyNnTaCmMRGHOP7rAz76KeJ/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1Mc6OLaCb4Z3Rk9i-CtDto5c_itp0VSDu",
+          "title": "EjerciciosEspaciosyVectoresUdea_backup.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosEspaciosyVectoresUdea_backup.pdf",
+          "bytes": 4480918,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1Mc6OLaCb4Z3Rk9i-CtDto5c_itp0VSDu/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1NOInM2HpAT_TTlqV9O2WLPuTXFYiI1pk",
+          "title": "EjerciciosVectoresUdea.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosVectoresUdea.pdf",
+          "bytes": 4477023,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1NOInM2HpAT_TTlqV9O2WLPuTXFYiI1pk/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "10-rMctXQx32U7U2ydzrruF4NZGfL9fiI",
+          "title": "EspaciosySubespaciosVectoriales.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/EspaciosySubespaciosVectoriales.pdf",
+          "bytes": 35133277,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/10-rMctXQx32U7U2ydzrruF4NZGfL9fiI/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1guwclDZbXDgtyejyuurj9oxps7rRsgd_",
+          "title": "VectoresCoordenadosyMatricesEquivalentes.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/VectoresCoordenadosyMatricesEquivalentes.pdf",
+          "bytes": 22957050,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1guwclDZbXDgtyejyuurj9oxps7rRsgd_/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "algebra-lineal",
+      "topic_name": "Transformaciones lineales",
+      "url": "https://drive.google.com/drive/folders/16j9LaQrmiKzMDbihzdB0I5faH28e54DL?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1tafXY1dRzU49kixDfiDwNDSkTd_BKLkm",
+          "title": "EjerciciosTransformaciones.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosTransformaciones.pdf",
+          "bytes": 9431722,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1tafXY1dRzU49kixDfiDwNDSkTd_BKLkm/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1d8_gSNN86CpoD4TI0FPDS-eyno4mfAQP",
+          "title": "EjerciciosTransformacionesUdea.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosTransformacionesUdea.pdf",
+          "bytes": 4476757,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1d8_gSNN86CpoD4TI0FPDS-eyno4mfAQP/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1s2r2u-s-WkSOuisbdION91nMx1GMi3-u",
+          "title": "TransformacionesLinealesTeoria.pdf",
+          "pdf_path": "material_estudio/algebra-lineal/pdfs/TransformacionesLinealesTeoria.pdf",
+          "bytes": 47886407,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1s2r2u-s-WkSOuisbdION91nMx1GMi3-u/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "calculo-diferencial",
+      "topic_name": "Funciones",
+      "url": "https://drive.google.com/file/d/1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn",
+          "title": "funciones.pdf",
+          "pdf_path": "material_estudio/calculo-diferencial/pdfs/funciones.pdf",
+          "bytes": 1201813,
+          "source_url": "https://drive.google.com/file/d/1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "calculo-diferencial",
+      "topic_name": "Límites y derivadas",
+      "url": "https://drive.google.com/file/d/1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8",
+          "title": "limitesyDerivadas.pdf",
+          "pdf_path": "material_estudio/calculo-diferencial/pdfs/limitesyDerivadas.pdf",
+          "bytes": 2083064,
+          "source_url": "https://drive.google.com/file/d/1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "calculo-diferencial",
+      "topic_name": "Carpeta general de Cálculo Diferencial",
+      "url": "https://drive.google.com/drive/folders/1imtBYmG2JhSHLPYGu2PWEDU8dA7edIXE?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1ksoLtsBq2imoFYffW9UBz0QDS9FYQ37C",
+          "title": "calculo-james-stewart-7ed.pdf",
+          "pdf_path": "material_estudio/calculo-diferencial/pdfs/calculo-james-stewart-7ed.pdf",
+          "bytes": 16918216,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1ksoLtsBq2imoFYffW9UBz0QDS9FYQ37C/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1o1I34bEmRbpAgPmef2LmPR2Kr10R7BUi",
+          "title": "calculoUPB.pdf",
+          "pdf_path": "material_estudio/calculo-diferencial/pdfs/calculoUPB.pdf",
+          "bytes": 865450,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1o1I34bEmRbpAgPmef2LmPR2Kr10R7BUi/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1PKrne22PSwWdcvZS3l6ShIKK7wjsziHU",
+          "title": "clase2UPB.pdf",
+          "pdf_path": "material_estudio/calculo-diferencial/pdfs/clase2UPB.pdf",
+          "bytes": 770725,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1PKrne22PSwWdcvZS3l6ShIKK7wjsziHU/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn",
+          "title": "funciones.pdf",
+          "pdf_path": "material_estudio/calculo-diferencial/pdfs/funciones.pdf",
+          "bytes": 1201813,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1jeDOUo2ESUxFeVKL2--1eEF6NlBLQG8b",
+          "title": "hiperbolicas4.pdf",
+          "pdf_path": "material_estudio/calculo-diferencial/pdfs/hiperbolicas4.pdf",
+          "bytes": 102961,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1jeDOUo2ESUxFeVKL2--1eEF6NlBLQG8b/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8",
+          "title": "limitesyDerivadas.pdf",
+          "pdf_path": "material_estudio/calculo-diferencial/pdfs/limitesyDerivadas.pdf",
+          "bytes": 2083064,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "calculo-integral",
+      "topic_name": "Antiderivadas",
+      "url": "https://drive.google.com/drive/folders/15HhJQrvUtXFQnsHU8cUV25Do__8U-Jfx?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1ZOatWbxR44mtbxSIdAVSpOKzR3au0Hft",
+          "title": "EjemplosAntiderivadas.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/EjemplosAntiderivadas.pdf",
+          "bytes": 1220753,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1ZOatWbxR44mtbxSIdAVSpOKzR3au0Hft/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1Kn6BpwJzC4STyjITEU6ZyAJEN5i0qrtP",
+          "title": "EjerciciosAntiderivadas.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/EjerciciosAntiderivadas.pdf",
+          "bytes": 75196,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1Kn6BpwJzC4STyjITEU6ZyAJEN5i0qrtP/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1pdfezivMg9Q79HQu8ewBc26_SAk-EZpj",
+          "title": "TeoriaAntiderivadas.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaAntiderivadas.pdf",
+          "bytes": 741829,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1pdfezivMg9Q79HQu8ewBc26_SAk-EZpj/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "calculo-integral",
+      "topic_name": "Sumas de Riemann",
+      "url": "https://drive.google.com/drive/folders/1NtK0qwkPK7My0WkCpJZXzC6BM0v7iH9b?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1315MSsbwg6xT_ksLUQr6w7leOkzvbM-x",
+          "title": "EjerciciosRieman.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/EjerciciosRieman.pdf",
+          "bytes": 149211,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1315MSsbwg6xT_ksLUQr6w7leOkzvbM-x/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1DQ20qMeirR6b9o3JtiPpmkxUbBWbx-u0",
+          "title": "TEjemplosRieman.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/TEjemplosRieman.pdf",
+          "bytes": 5307174,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1DQ20qMeirR6b9o3JtiPpmkxUbBWbx-u0/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1EZS7RxwvvH4Q-URgFqs2_Gnx_MX51lcz",
+          "title": "TeoriaRiemann.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaRiemann.pdf",
+          "bytes": 842582,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1EZS7RxwvvH4Q-URgFqs2_Gnx_MX51lcz/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "10a1HPCo0oPEKrvOIYnsUkmXqf0BA-GtY",
+          "title": "TeoriaRiemann_backup.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaRiemann_backup.pdf",
+          "bytes": 832239,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/10a1HPCo0oPEKrvOIYnsUkmXqf0BA-GtY/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1iBUBf19bTfcZkKlwS6jtke_XHUf2KKqM",
+          "title": "TeoriaSoloRiemanCompleta.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaSoloRiemanCompleta.pdf",
+          "bytes": 1044685,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1iBUBf19bTfcZkKlwS6jtke_XHUf2KKqM/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "calculo-integral",
+      "topic_name": "Métodos de Integración (sustitución, partes, trigonométricas, fracciones parciales)",
+      "url": "https://drive.google.com/drive/folders/1bmaLUxYthPh5oENtRHpsKmRrF5bWk6ZO?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1aUtr2S5isFap7ZhIptbF4ZfrvPDCJhXW",
+          "title": "EjemplosMetodos.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/EjemplosMetodos.pdf",
+          "bytes": 1194901,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1aUtr2S5isFap7ZhIptbF4ZfrvPDCJhXW/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1rs4yefZlmxx79GGf6n3UOrLmFwerJaLr",
+          "title": "EjerciciosMetodosIntegracion.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/EjerciciosMetodosIntegracion.pdf",
+          "bytes": 100130,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1rs4yefZlmxx79GGf6n3UOrLmFwerJaLr/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1O2R-xiA1JyF9eel55IuGSrCDwIKYtzD3",
+          "title": "TeoriaMetodosdeIntegracion.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaMetodosdeIntegracion.pdf",
+          "bytes": 2491427,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1O2R-xiA1JyF9eel55IuGSrCDwIKYtzD3/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "calculo-integral",
+      "topic_name": "Aplicaciones de la Integral (áreas, volúmenes y longitud de arco)",
+      "url": "https://drive.google.com/drive/folders/1LI-VKdNxrFIrdp2xGubghhL6GW4mc32r?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1os9B4L-Cs9qXhuXZG2Wrqb3Q_qSh-Sd5",
+          "title": "EjemplosAplicaciones.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/EjemplosAplicaciones.pdf",
+          "bytes": 1092207,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1os9B4L-Cs9qXhuXZG2Wrqb3Q_qSh-Sd5/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1Z9kKw4bw9iav8yQmvxDbr3ybVEHOLhUF",
+          "title": "EjerciciosAplicaciones.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/EjerciciosAplicaciones.pdf",
+          "bytes": 198768,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1Z9kKw4bw9iav8yQmvxDbr3ybVEHOLhUF/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1kX8XdE1eGag-clkpZX3i2xzCVXprgDgR",
+          "title": "TeoriaAplicaciones.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaAplicaciones.pdf",
+          "bytes": 2658573,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1kX8XdE1eGag-clkpZX3i2xzCVXprgDgR/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "calculo-integral",
+      "topic_name": "Integrales Impropias",
+      "url": "https://drive.google.com/drive/folders/1pL9idfgFfpTBaSIk61OhzB03bGyiPy60?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1WWyuyvC1Nu-Pi8lb6pu-h6ovKi-QxL4T",
+          "title": "EjemplosImpropias.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/EjemplosImpropias.pdf",
+          "bytes": 101373,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1WWyuyvC1Nu-Pi8lb6pu-h6ovKi-QxL4T/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "12YPB0QZgdby9-bNv-7cdI8Nb8W-uaqOS",
+          "title": "TeoriaImpropias.pdf",
+          "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaImpropias.pdf",
+          "bytes": 934914,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/12YPB0QZgdby9-bNv-7cdI8Nb8W-uaqOS/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "estatica",
+      "topic_name": "Centro de masa y centroides",
+      "url": "https://drive.google.com/drive/folders/183JD27v8AyoCm2RXjvkcoPjC6axL-enF?usp=sharing",
+      "files": [
+        {
+          "status": "non_pdf",
+          "file_id": "1gzkpz5xogdBwz8zHPIGxQtFZAsl_vySF",
+          "title": "areas.dxf",
+          "ext": ".dxf",
+          "bytes": 42467,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1gzkpz5xogdBwz8zHPIGxQtFZAsl_vySF/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1o0404r1mJy5-nphrkdj7dFYI_NdVJv8q",
+          "title": "areasAcotadas.dxf",
+          "ext": ".dxf",
+          "bytes": 40862,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1o0404r1mJy5-nphrkdj7dFYI_NdVJv8q/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1H9cNWFaJ2Qk6cd-qoooSNhf_pHhQHVMSc3wpV6xNKmI",
+          "title": "calculosCentroide.pdf",
+          "pdf_path": "material_estudio/estatica/pdfs/calculosCentroide.pdf",
+          "bytes": 335285,
+          "subfolder": "",
+          "source_url": "https://docs.google.com/document/d/1H9cNWFaJ2Qk6cd-qoooSNhf_pHhQHVMSc3wpV6xNKmI/edit?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1--0aDUzzM6eTz5UkT0PDM1y33AEUWBAYV8_3rYndMG8",
+          "title": "calculosCentroide.pdf",
+          "pdf_path": "material_estudio/estatica/pdfs/calculosCentroide.pdf",
+          "bytes": 335285,
+          "subfolder": "",
+          "source_url": "https://docs.google.com/document/d/1--0aDUzzM6eTz5UkT0PDM1y33AEUWBAYV8_3rYndMG8/edit?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1-aqXESyEs9FWSRL7HFxTMvywMl0uAtYn",
+          "title": "calculosCentroide.odt",
+          "ext": ".odt",
+          "bytes": 541454,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1-aqXESyEs9FWSRL7HFxTMvywMl0uAtYn/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1GyvHAEImnEPXQL3Ok9yomwoVvA9na_yJ",
+          "title": "modelo3D.FCStd",
+          "ext": ".fcstd",
+          "bytes": 33013,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1GyvHAEImnEPXQL3Ok9yomwoVvA9na_yJ/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "fisica-mecanica",
+      "topic_name": "Movimiento en 1 y 2 dimensiones",
+      "url": "https://drive.google.com/drive/folders/1P_2E2FURj1NNVkuRge5RfROhovEWtL3f?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1O7htBfWtvSuyvDPt0yt_KhLRxVqlEygQ",
+          "title": "EjemplosMovimiento1DireccionSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosMovimiento1DireccionSerway.pdf",
+          "bytes": 1203773,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1O7htBfWtvSuyvDPt0yt_KhLRxVqlEygQ/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1oOQed3YK_sJKgqc4K_hDlCDrMXqf1OYa",
+          "title": "EjerciciosMovimientoenDosDreccionesSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosMovimientoenDosDreccionesSerway.pdf",
+          "bytes": 579918,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1oOQed3YK_sJKgqc4K_hDlCDrMXqf1OYa/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "16ZdkUgxXK42e_2rtNqAbR3jeqGmxMosW",
+          "title": "EjerciciosMovimientoSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosMovimientoSerway.pdf",
+          "bytes": 306591,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/16ZdkUgxXK42e_2rtNqAbR3jeqGmxMosW/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1OPOa8NtKUKdgZaIesss7IEFx9sUSk4Wk",
+          "title": "MovimientoenUnaDreccionSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/MovimientoenUnaDreccionSerway.pdf",
+          "bytes": 1732281,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1OPOa8NtKUKdgZaIesss7IEFx9sUSk4Wk/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "fisica-mecanica",
+      "topic_name": "Movimiento circular",
+      "url": "https://drive.google.com/drive/folders/1V6ogOYVCeBVJGAW_ENWaSQK2CCIuiDsQ?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "19GPFyhv3IWSxnbQqz11BjlXmE9UvYQnn",
+          "title": "EjemplosMCircularSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosMCircularSerway.pdf",
+          "bytes": 10099004,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/19GPFyhv3IWSxnbQqz11BjlXmE9UvYQnn/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "17RlseWrGxjzwcivA5anWPXtOA26SGuh9",
+          "title": "EjerciciosMCircularSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosMCircularSerway.pdf",
+          "bytes": 1816405,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/17RlseWrGxjzwcivA5anWPXtOA26SGuh9/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1tfYm4Edv3um-7j6eQTORGcv10NoqbdAz",
+          "title": "MovimientoCircularTeoriaSerway1.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/MovimientoCircularTeoriaSerway1.pdf",
+          "bytes": 8767260,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1tfYm4Edv3um-7j6eQTORGcv10NoqbdAz/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "fisica-mecanica",
+      "topic_name": "Colisiones y cantidad de movimiento",
+      "url": "https://drive.google.com/drive/folders/12ljlh1yeKRlpzjmSB1c_VCd58OS3CJsm?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1ehwLEOxMRVa5s7WXh_DEFU5eMvTziKfT",
+          "title": "ColisionesTeoriaSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/ColisionesTeoriaSerway.pdf",
+          "bytes": 3827126,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1ehwLEOxMRVa5s7WXh_DEFU5eMvTziKfT/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1-0JoGhnfZB2r2UgqPmJi42x6Hn_SddfI",
+          "title": "EjemplosColisionesSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosColisionesSerway.pdf",
+          "bytes": 1218850,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1-0JoGhnfZB2r2UgqPmJi42x6Hn_SddfI/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "17eM2ni261uFyG_T0x7b7UQhn8ZJCLTLe",
+          "title": "EjemplosColisionesSerway_backup.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosColisionesSerway_backup.pdf",
+          "bytes": 1195166,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/17eM2ni261uFyG_T0x7b7UQhn8ZJCLTLe/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1FjWfaVljf0ozmFxYjIHXF33_pqytpqEA",
+          "title": "EjerciciosColisionesSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosColisionesSerway.pdf",
+          "bytes": 380630,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1FjWfaVljf0ozmFxYjIHXF33_pqytpqEA/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "fisica-mecanica",
+      "topic_name": "Leyes de Newton",
+      "url": "https://drive.google.com/drive/folders/1Ptk6jYh0Ksj3ET3cxl1sqzFxaS9_BXYg?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1U8DOd9pnl8a28o-NVq5EN7cbowtcAqDy",
+          "title": "EjemplosNewtonSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosNewtonSerway.pdf",
+          "bytes": 2455936,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1U8DOd9pnl8a28o-NVq5EN7cbowtcAqDy/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1OaooQvl3YBPWNWLWVp4tCSb1kPsoZbEm",
+          "title": "EjerciciosNewtonSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosNewtonSerway.pdf",
+          "bytes": 869785,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1OaooQvl3YBPWNWLWVp4tCSb1kPsoZbEm/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1T6yA4u7taSnRuITIZj0CGLnYq2FwiepO",
+          "title": "VectoresyLeyesdeNewtonSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/VectoresyLeyesdeNewtonSerway.pdf",
+          "bytes": 5293942,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1T6yA4u7taSnRuITIZj0CGLnYq2FwiepO/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "fisica-mecanica",
+      "topic_name": "Trabajo y Energía",
+      "url": "https://drive.google.com/drive/folders/1Q9sUnmvSuRX-HUHcyvj1n-qrXAlpcERb?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1GBJyL7ray8KhNKwuX2Zk0KfBcauwj36P",
+          "title": "EjeerciciosEnergiaSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjeerciciosEnergiaSerway.pdf",
+          "bytes": 572941,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1GBJyL7ray8KhNKwuX2Zk0KfBcauwj36P/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1IcfrQjEG7HqbIxlKeLungc3qgRyvysv4",
+          "title": "EjemplosEnergiaSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosEnergiaSerway.pdf",
+          "bytes": 3440344,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1IcfrQjEG7HqbIxlKeLungc3qgRyvysv4/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "14kXz1rB4YKOUlX433wEczIy6m205y_nn",
+          "title": "TrabajoyEnergiaSerway.pdf",
+          "pdf_path": "material_estudio/fisica-mecanica/pdfs/TrabajoyEnergiaSerway.pdf",
+          "bytes": 7023956,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/14kXz1rB4YKOUlX433wEczIy6m205y_nn/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "geometria-vectorial",
+      "topic_name": "Vectores geométricos",
+      "url": "https://drive.google.com/file/d/14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx",
+          "title": "vectoresGeometricos.pdf",
+          "pdf_path": "material_estudio/geometria-vectorial/pdfs/vectoresGeometricos.pdf",
+          "bytes": 5748883,
+          "source_url": "https://drive.google.com/file/d/14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "geometria-vectorial",
+      "topic_name": "Geometría analítica (rectas, planos y cónicas)",
+      "url": "https://drive.google.com/file/d/1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW",
+          "title": "conicas.pdf",
+          "pdf_path": "material_estudio/geometria-vectorial/pdfs/conicas.pdf",
+          "bytes": 1245922,
+          "source_url": "https://drive.google.com/file/d/1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "geometria-vectorial",
+      "topic_name": "Carpeta completa de Geometría Vectorial y Analítica",
+      "url": "https://drive.google.com/drive/folders/1W5c_xIMlJYO6kkfWfqIr8_8gZqIyHrO9?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW",
+          "title": "conicas.pdf",
+          "pdf_path": "material_estudio/geometria-vectorial/pdfs/conicas.pdf",
+          "bytes": 1245922,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1mqReHAUVoW7AOJmXUMzbj0krmFjBMGRz",
+          "title": "Ejercicioesfera.ggb",
+          "ext": ".ggb",
+          "bytes": 45266,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1mqReHAUVoW7AOJmXUMzbj0krmFjBMGRz/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1-Mbsxu9xSnj1CZmms012s_Fev--vqKMq",
+          "title": "Geometria_Vectorial_Jaramillo.pdf",
+          "pdf_path": "material_estudio/geometria-vectorial/pdfs/Geometria_Vectorial_Jaramillo.pdf",
+          "bytes": 6705986,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1-Mbsxu9xSnj1CZmms012s_Fev--vqKMq/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1OcP_WRDCTIGAXBWkX_y_3L9Jad8GGfgo",
+          "title": "unidad-6.lc3adneas-y-superficies-en-el-espacio-2020-10.pdf",
+          "pdf_path": "material_estudio/geometria-vectorial/pdfs/unidad-6.lc3adneas-y-superficies-en-el-espacio-2020-10.pdf",
+          "bytes": 1088353,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1OcP_WRDCTIGAXBWkX_y_3L9Jad8GGfgo/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx",
+          "title": "vectoresGeometricos.pdf",
+          "pdf_path": "material_estudio/geometria-vectorial/pdfs/vectoresGeometricos.pdf",
+          "bytes": 5748883,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "mecanica-materiales",
+      "topic_name": "Carpeta trabajo de plataforma hidráulica 2022",
+      "url": "https://drive.google.com/drive/folders/1S_UUHXxEmbBOWLVtTJL0-1-s4FiWoYXL?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1-LNrr90ciawvPSUotXdq4rQg5-2ThuVg",
+          "title": "1.ARGELIA CALLE  29  ENTRE CARRERAS 30 Y 31 LOCALIZACIÃN.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/1.ARGELIA_CALLE_29_ENTRE_CARRERAS_30_Y_31_LOCALIZACIAN.pdf",
+          "bytes": 176282,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1-LNrr90ciawvPSUotXdq4rQg5-2ThuVg/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1_8VOmcEJp_wosxRA6NcO-87Tm2lLzMp_",
+          "title": "1.ARGELIA CARRERA 27 ENTRE CALLES 31 Y 32 LOCALIZACIÃN.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/1.ARGELIA_CARRERA_27_ENTRE_CALLES_31_Y_32_LOCALIZACIAN.pdf",
+          "bytes": 430368,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1_8VOmcEJp_wosxRA6NcO-87Tm2lLzMp_/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1i_a2wMl7zD_salHWQ1F6A5zN-4qZgBxv",
+          "title": "1.ARGELIA CARRERA 31 CON CALLE 32 LOCALIZACION.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/1.ARGELIA_CARRERA_31_CON_CALLE_32_LOCALIZACION.pdf",
+          "bytes": 222831,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1i_a2wMl7zD_salHWQ1F6A5zN-4qZgBxv/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1tj05WeNTWKj0v1f6waLh1gJEfRu7SOie",
+          "title": "5.ARGELIA CALLE  29 ENTRE CARRERAS 30 Y 31 DETALLES.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/5.ARGELIA_CALLE_29_ENTRE_CARRERAS_30_Y_31_DETALLES.pdf",
+          "bytes": 336358,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1tj05WeNTWKj0v1f6waLh1gJEfRu7SOie/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1w9BmxnT2VHCdJToEozP3HXhgd1C1jXKH",
+          "title": "5.ARGELIA CARRERA 27 ENTRE CALLES 31 Y 32 DETALLES.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/5.ARGELIA_CARRERA_27_ENTRE_CALLES_31_Y_32_DETALLES.pdf",
+          "bytes": 336350,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1w9BmxnT2VHCdJToEozP3HXhgd1C1jXKH/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1FIBlpSH4X0jjIjzhYYoENtuk98N47XLO",
+          "title": "5.ARGELIA CARRERA 31 CON  CALLE 32 DETALLES.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/5.ARGELIA_CARRERA_31_CON_CALLE_32_DETALLES.pdf",
+          "bytes": 571210,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1FIBlpSH4X0jjIjzhYYoENtuk98N47XLO/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1ab0Lop_XhkjlP20YomX9wVAYlVtnoXE-",
+          "title": "8.ARGELIA CALLE  29 ENTRE CARRERAS 30 Y 31 DISEÃO GEOMETRICO.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/8.ARGELIA_CALLE_29_ENTRE_CARRERAS_30_Y_31_DISEAO_GEOMETRICO.pdf",
+          "bytes": 663547,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1ab0Lop_XhkjlP20YomX9wVAYlVtnoXE-/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1wv24mMBRBqUdlZIuNtnDGk0LPH9i5BwM",
+          "title": "8.ARGELIA CARRERA 27 ENTRE CALLES 31 Y 32 DISEÃO GEOMETRICO.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/8.ARGELIA_CARRERA_27_ENTRE_CALLES_31_Y_32_DISEAO_GEOMETRICO.pdf",
+          "bytes": 1496463,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1wv24mMBRBqUdlZIuNtnDGk0LPH9i5BwM/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1m2ztYmQh_EmVJ6MaBw7WqAGLFMPprqou",
+          "title": "8.ARGELIA CARRERA 32 CON CALLE 32 DISEÃO GEOMETRICO.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/8.ARGELIA_CARRERA_32_CON_CALLE_32_DISEAO_GEOMETRICO.pdf",
+          "bytes": 939706,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1m2ztYmQh_EmVJ6MaBw7WqAGLFMPprqou/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1XDId1lwgP47ZMUPwrxb1fJW538OC-x3A",
+          "title": "DiseÃ±o Pavimento Argelia (1).pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/DiseAo_Pavimento_Argelia_1.pdf",
+          "bytes": 1994723,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1XDId1lwgP47ZMUPwrxb1fJW538OC-x3A/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1GDFvZDPwpEJYaI4x9ejP515C2mk-MSHX",
+          "title": "DiseÃ±o Pavimento Argelia.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/DiseAo_Pavimento_Argelia.pdf",
+          "bytes": 3766542,
+          "subfolder": "planos",
+          "source_url": "https://drive.google.com/file/d/1GDFvZDPwpEJYaI4x9ejP515C2mk-MSHX/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "16-Ch4mOds36VmHXBX2gls2MDG9QCHlZk",
+          "title": "2023-1_Proyecto_Integrador-2023.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/2023-1_Proyecto_Integrador-2023.pdf",
+          "bytes": 244618,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/16-Ch4mOds36VmHXBX2gls2MDG9QCHlZk/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1pykaERmeFIvg8IOIljl0utWrB9JN_ZTj",
+          "title": "8.ARGELIA CALLE  29 ENTRE CARRERAS 30 Y 31 DISEÃO GEOMETRICO.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/8.ARGELIA_CALLE_29_ENTRE_CARRERAS_30_Y_31_DISEAO_GEOMETRICO.pdf",
+          "bytes": 663547,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1pykaERmeFIvg8IOIljl0utWrB9JN_ZTj/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1PtWP-f3LWHpTsK9SSVEcIvmsZUx1wkEj",
+          "title": "trabajoHidraulica.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/trabajoHidraulica.pdf",
+          "bytes": 534763,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1PtWP-f3LWHpTsK9SSVEcIvmsZUx1wkEj/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "mecanica-materiales",
+      "topic_name": "Carpeta trabajo de plataforma hidráulica 2023",
+      "url": "https://drive.google.com/drive/folders/1pjqVUAHscdNwyF1scDLICMvRDYPigsim?usp=share_link",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1hR70LneeX9vrAtyw4J8vjKiI8vzQjJRb",
+          "title": "2023-1_Proyecto_Integrador-2023.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/2023-1_Proyecto_Integrador-2023.pdf",
+          "bytes": 244618,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1hR70LneeX9vrAtyw4J8vjKiI8vzQjJRb/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1fBhoI58NxaTSCdN0NIPOMoufLTcDgfd5_oka7ZR9Mew",
+          "title": "calculos.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/calculos.pdf",
+          "bytes": 21641,
+          "subfolder": "",
+          "source_url": "https://docs.google.com/spreadsheets/d/1fBhoI58NxaTSCdN0NIPOMoufLTcDgfd5_oka7ZR9Mew/edit?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1RMhz0sOlRQRabGH1llo9xCbShf95Ekh4",
+          "title": "plataformaITM2023.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/plataformaITM2023.pdf",
+          "bytes": 221289,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1RMhz0sOlRQRabGH1llo9xCbShf95Ekh4/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1bxgKEpY2oyNlCtlQI-UEnx-u6up0sovK",
+          "title": "proyectoIntegrador.odt",
+          "ext": ".odt",
+          "bytes": 182921,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1bxgKEpY2oyNlCtlQI-UEnx-u6up0sovK/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1YU1oZYn2cJBAC_K58bER4H8vqvgW_N1Z",
+          "title": "Tu pasabordo.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/Tu_pasabordo.pdf",
+          "bytes": 82825,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1YU1oZYn2cJBAC_K58bER4H8vqvgW_N1Z/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "mecanica-materiales",
+      "topic_name": "Concepto de esfuerzo",
+      "url": "https://drive.google.com/drive/folders/13ygUQnQzQWtdfatT31yCyU6VMt7p5FUV",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1zDA7TkQMgNPe41CMR4qXy_xb_k0kRGgW",
+          "title": "Ejercicio2resuelto.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/Ejercicio2resuelto.pdf",
+          "bytes": 68674,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1zDA7TkQMgNPe41CMR4qXy_xb_k0kRGgW/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1S2gQD1k-nxzif_B_1a-ym0eFy4LPlH4C",
+          "title": "EjercicioNo1Resuelto.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/EjercicioNo1Resuelto.pdf",
+          "bytes": 114991,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1S2gQD1k-nxzif_B_1a-ym0eFy4LPlH4C/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1Mkid8aoFDAezgddkns6Endsc8gVP9Hny",
+          "title": "EjerciciosEsfuerzos.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/EjerciciosEsfuerzos.pdf",
+          "bytes": 1464208,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1Mkid8aoFDAezgddkns6Endsc8gVP9Hny/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1GfXrH01MPUbdp0r9WASdb_-BuLORT8eo",
+          "title": "EjerciciosEsfuerzosRC.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/EjerciciosEsfuerzosRC.pdf",
+          "bytes": 3828473,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1GfXrH01MPUbdp0r9WASdb_-BuLORT8eo/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "19oPPsdaH-yd-WB0S4ZB76Niq6VYRJSBn",
+          "title": "EjerciciosPropuestosEsfuerzos.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/EjerciciosPropuestosEsfuerzos.pdf",
+          "bytes": 199988,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/19oPPsdaH-yd-WB0S4ZB76Niq6VYRJSBn/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1zoHPBUJz_fi-BKpIj3oT5HGdZ7BFa3y6JiVSz53Oy28",
+          "title": "LEEME.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/LEEME.pdf",
+          "bytes": 17712,
+          "subfolder": "",
+          "source_url": "https://docs.google.com/document/d/1zoHPBUJz_fi-BKpIj3oT5HGdZ7BFa3y6JiVSz53Oy28/edit?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1LPXzLdCsDBeAo7Pdypd7MVyZsZUn-Mny",
+          "title": "RCEjemplosEsfuerzos.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/RCEjemplosEsfuerzos.pdf",
+          "bytes": 812009,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1LPXzLdCsDBeAo7Pdypd7MVyZsZUn-Mny/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1aIXnPkyyWwFjlO53V-3MUtkEhCEv06BH",
+          "title": "RCTeoriaEsfuerzos.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/RCTeoriaEsfuerzos.pdf",
+          "bytes": 5163424,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1aIXnPkyyWwFjlO53V-3MUtkEhCEv06BH/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "13ZZf2lJQGG2MXy9LVP9AvGx5VadgYWt-",
+          "title": "TarabajoViga.docx",
+          "ext": ".docx",
+          "bytes": 97156,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/13ZZf2lJQGG2MXy9LVP9AvGx5VadgYWt-/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1XxVZ3nej8CYnqUieusCsTFNOrMlPqqRk",
+          "title": "TeoriaEsfuerzosbeer.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/TeoriaEsfuerzosbeer.pdf",
+          "bytes": 7682100,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1XxVZ3nej8CYnqUieusCsTFNOrMlPqqRk/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "mecanica-materiales",
+      "topic_name": "Esfuerzos combinados",
+      "url": "https://drive.google.com/drive/folders/13XwZ7HJEZ3jM2EhuVNrvv0C3es7Iy-Vw?usp=share_link",
+      "files": [
+        {
+          "status": "non_pdf",
+          "file_id": "1CsRk8Ee7rGF9RfGd0NoElx4vM-CnkThd",
+          "title": "WhatsApp Image 2022-12-10 at 10.02.57 AM (1).jpeg",
+          "ext": ".jpeg",
+          "bytes": 286967,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1CsRk8Ee7rGF9RfGd0NoElx4vM-CnkThd/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1mKFvBakMChwZRHvlpbCFEm9I-37IUcIs",
+          "title": "WhatsApp Image 2022-12-10 at 10.02.57 AM (2).jpeg",
+          "ext": ".jpeg",
+          "bytes": 250158,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1mKFvBakMChwZRHvlpbCFEm9I-37IUcIs/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1YhkT9lO2xWGtORoQAO_BbfeSLSoEOLnN",
+          "title": "WhatsApp Image 2022-12-10 at 10.02.57 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 253956,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1YhkT9lO2xWGtORoQAO_BbfeSLSoEOLnN/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1Crpq6sGlY91LjQAau84HwQMVMsvUeTYZ",
+          "title": "WhatsApp Image 2022-12-10 at 10.02.58 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 199557,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1Crpq6sGlY91LjQAau84HwQMVMsvUeTYZ/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "11C1M0efa04yVNE0YdyMiQrolruukZh60",
+          "title": "WhatsApp Image 2022-12-10 at 10.05.01 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 74223,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/11C1M0efa04yVNE0YdyMiQrolruukZh60/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1vHsB8cOYYQ2KEqdAicnQtU7FvR9596fJ",
+          "title": "WhatsApp Image 2022-12-10 at 10.05.22 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 126994,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1vHsB8cOYYQ2KEqdAicnQtU7FvR9596fJ/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1wpOcln9p-xBAPLildtq3icmXaZqyWcVq",
+          "title": "WhatsApp Image 2022-12-10 at 10.08.02 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 163441,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1wpOcln9p-xBAPLildtq3icmXaZqyWcVq/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1ShIuviopkOPXS8y6_ZaJ-kzc7JDVXylR",
+          "title": "WhatsApp Image 2022-12-10 at 10.08.20 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 127722,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1ShIuviopkOPXS8y6_ZaJ-kzc7JDVXylR/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "12x2yw-dwrc_9VQoIOD7ZuTn9fSNhHby_",
+          "title": "WhatsApp Image 2022-12-10 at 10.18.27 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 122047,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/12x2yw-dwrc_9VQoIOD7ZuTn9fSNhHby_/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1vOX9oBaf6Hxt4_CEx5Yt-a2R6r29X9mj",
+          "title": "WhatsApp Image 2022-12-10 at 10.20.03 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 108434,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1vOX9oBaf6Hxt4_CEx5Yt-a2R6r29X9mj/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1cAmNp4xwfQnj1-oUPgqqrpCoT96i51h0",
+          "title": "WhatsApp Image 2022-12-10 at 10.48.44 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 250775,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1cAmNp4xwfQnj1-oUPgqqrpCoT96i51h0/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1Ekbs65RaKcAx_Ib3rGdrAsW9pTBsu11k",
+          "title": "WhatsApp Image 2022-12-10 at 11.13.57 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 214330,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1Ekbs65RaKcAx_Ib3rGdrAsW9pTBsu11k/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "19aIEpVLz4dBNa6lnVXjMeG7VCbdBPnkp",
+          "title": "WhatsApp Image 2022-12-10 at 11.37.38 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 182992,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/19aIEpVLz4dBNa6lnVXjMeG7VCbdBPnkp/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1jvItrYDHIGXKitEgEIdtDco6e-sNJ35a",
+          "title": "WhatsApp Image 2022-12-10 at 11.38.56 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 124304,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1jvItrYDHIGXKitEgEIdtDco6e-sNJ35a/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1VZRL1YvsyH0nERdz8XINWQridJeIScdt",
+          "title": "WhatsApp Image 2022-12-10 at 11.48.08 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 114876,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1VZRL1YvsyH0nERdz8XINWQridJeIScdt/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1teqdJ59GgHw6zNIYIeyeMH7l0N-BcHUO",
+          "title": "WhatsApp Image 2022-12-10 at 11.48.45 AM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 148517,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1teqdJ59GgHw6zNIYIeyeMH7l0N-BcHUO/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1GBKDk0SB0h-Udz9HediSMwUJonq2Aq5Q",
+          "title": "WhatsApp Image 2022-12-10 at 12.03.37 PM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 133924,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1GBKDk0SB0h-Udz9HediSMwUJonq2Aq5Q/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1pT-B6K4jmOfPUj8N3XlELXa4fNdC8-Yc",
+          "title": "WhatsApp Image 2022-12-10 at 12.04.16 PM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 162336,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1pT-B6K4jmOfPUj8N3XlELXa4fNdC8-Yc/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1cxVwil42XofbMZ9XqcsXj_iCVSqe1Xle",
+          "title": "WhatsApp Image 2022-12-10 at 12.08.39 PM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 222600,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1cxVwil42XofbMZ9XqcsXj_iCVSqe1Xle/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1KHDSt--CWejGtyTHS59aDSDAuYHfQkZc",
+          "title": "WhatsApp Image 2022-12-10 at 12.08.47 PM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 213964,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/1KHDSt--CWejGtyTHS59aDSDAuYHfQkZc/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "16KtoLEw17qo1Qo-EhfKPuG2oVou5CePa",
+          "title": "WhatsApp Image 2022-12-10 at 12.09.08 PM.jpeg",
+          "ext": ".jpeg",
+          "bytes": 202748,
+          "content_type": "image/jpeg",
+          "subfolder": "imagenes",
+          "source_url": "https://drive.google.com/file/d/16KtoLEw17qo1Qo-EhfKPuG2oVou5CePa/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1X6P-5CxFLu3MNZpKE_p0Zs3D4PeOrUQJpqp-I9IRbgc",
+          "title": "trabajoEsfuerzosCombinadosITM.pdf",
+          "pdf_path": "material_estudio/mecanica-materiales/pdfs/trabajoEsfuerzosCombinadosITM.pdf",
+          "bytes": 2133078,
+          "subfolder": "",
+          "source_url": "https://docs.google.com/document/d/1X6P-5CxFLu3MNZpKE_p0Zs3D4PeOrUQJpqp-I9IRbgc/edit?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "metodos-numericos",
+      "topic_name": "Ecuaciones diferenciales (Método de Euler)",
+      "url": "https://drive.google.com/drive/folders/1waKMK5pXAa-0Nkhcqoq48Ba8nXqi2KOY?usp=sharing",
+      "files": []
+    },
+    {
+      "subject_id": "metodos-numericos",
+      "topic_name": "Interpolación polinómica y Filtro de Kalman",
+      "url": "https://drive.google.com/drive/folders/1Mteh1rBhzweXxY8qfEFx5hSRLPvHderd",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1busdBZ2ckzFz3tI0cG3fUuCE-fcRK8HB",
+          "title": "Boukraa_Ahnin_Abderrahim_Prueba4 (2).pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/Boukraa_Ahnin_Abderrahim_Prueba4_2.pdf",
+          "bytes": 568112,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1busdBZ2ckzFz3tI0cG3fUuCE-fcRK8HB/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1TZdtyJNdDXk5L4UKTuFu9CK_dAv-Etv1",
+          "title": "espana.sh",
+          "ext": ".sh",
+          "bytes": 3293,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1TZdtyJNdDXk5L4UKTuFu9CK_dAv-Etv1/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1mIKB7ezOUS6gzpDkjI_A5xnJUa51F4Xb",
+          "title": "Hermite_interpolation_es.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/Hermite_interpolation_es.pdf",
+          "bytes": 73760,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1mIKB7ezOUS6gzpDkjI_A5xnJUa51F4Xb/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1ST67eAExQnrOUumxajlUCR_ju8QGKtM_",
+          "title": "Hernando_LeytonV._2009.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/Hernando_LeytonV._2009.pdf",
+          "bytes": 1313156,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1ST67eAExQnrOUumxajlUCR_ju8QGKtM_/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1kD9LG9IlcT3fEvwbicbpQMfNbyGOb8m3",
+          "title": "ModeloA21.rar",
+          "ext": ".rar",
+          "bytes": 1205,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1kD9LG9IlcT3fEvwbicbpQMfNbyGOb8m3/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1gIwgQWYfLusOFmQyjG8L6q1uVjNONfwD",
+          "title": "ModeloA3.rar",
+          "ext": ".rar",
+          "bytes": 979,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1gIwgQWYfLusOFmQyjG8L6q1uVjNONfwD/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "15vGjQwplyaHHSp2eZll_798J5inNe0rC",
+          "title": "Prueba_Evaluacion 2_Abderrahim_Boukraa_Ahin.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/Prueba_Evaluacion_2_Abderrahim_Boukraa_Ahin.pdf",
+          "bytes": 681122,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/15vGjQwplyaHHSp2eZll_798J5inNe0rC/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1t_6Gcr5-MixyfvwXYLqT4Lae_fdD37LS",
+          "title": "Prueba_Evaluacion 3_Abderrahim_Boukraa_Ahnin.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/Prueba_Evaluacion_3_Abderrahim_Boukraa_Ahnin.pdf",
+          "bytes": 810721,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1t_6Gcr5-MixyfvwXYLqT4Lae_fdD37LS/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1IA_XZY13UNmcVmvjCiBnI0r2Bj2wE_j5",
+          "title": "SIGGRAPH2001_CoursePack_08.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/SIGGRAPH2001_CoursePack_08.pdf",
+          "bytes": 776144,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1IA_XZY13UNmcVmvjCiBnI0r2Bj2wE_j5/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1xGINEDEb-Asarkd4VaAwVGm50deHScc1",
+          "title": "TAREAS DE EVALUACIÃN HMG  MÃDULO 2  CURSO 22-23  (1ÂºC).pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/TAREAS_DE_EVALUACIAN_HMG_MADULO_2_CURSO_22-23_1AoC.pdf",
+          "bytes": 75311,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1xGINEDEb-Asarkd4VaAwVGm50deHScc1/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1-A3ISqZBnUHMTafOLaY1761shq_c6yrz",
+          "title": "Tareas HMG MÃ³dulo 3 Curso 22-23.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/Tareas_HMG_MA3dulo_3_Curso_22-23.pdf",
+          "bytes": 195045,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1-A3ISqZBnUHMTafOLaY1761shq_c6yrz/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1MRQ7LXSVdznBS2rSBxs08Icdirv_opzM",
+          "title": "Tareas HMG MÃ³dulo 4 Curso 22-23.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/Tareas_HMG_MA3dulo_4_Curso_22-23.pdf",
+          "bytes": 338557,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1MRQ7LXSVdznBS2rSBxs08Icdirv_opzM/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "1iaittmA0NNaULnn4tZXszksEmltfrf0I",
+          "title": "trabajoModulo4.odt",
+          "ext": ".odt",
+          "bytes": 537741,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1iaittmA0NNaULnn4tZXszksEmltfrf0I/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1rdOOEkFnW-od5fVASEiK7JcAhn3LoK96",
+          "title": "trabajoModulo4.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/trabajoModulo4.pdf",
+          "bytes": 768023,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1rdOOEkFnW-od5fVASEiK7JcAhn3LoK96/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1VwSedH246Vh2a6I8hz4CdoYwCp20A-7F",
+          "title": "trabajoModuloDos.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/trabajoModuloDos.pdf",
+          "bytes": 1796999,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1VwSedH246Vh2a6I8hz4CdoYwCp20A-7F/view?usp=drive_web"
+        },
+        {
+          "status": "non_pdf",
+          "file_id": "19W__in5m-m94TFQJfn3ZhmYOwGXFHGOu",
+          "title": "trabajoModuloTres.odt",
+          "ext": ".odt",
+          "bytes": 94605,
+          "content_type": "application/octet-stream",
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/19W__in5m-m94TFQJfn3ZhmYOwGXFHGOu/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1AO7jYATdqWOIfc2cHOISQozrtGgXsrZb",
+          "title": "trabajoModuloTres.pdf",
+          "pdf_path": "material_estudio/metodos-numericos/pdfs/trabajoModuloTres.pdf",
+          "bytes": 308212,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1AO7jYATdqWOIfc2cHOISQozrtGgXsrZb/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Guía UdeA — Lógica Matemática",
+      "url": "https://ayura.udea.edu.co/logicamatematica/",
+      "files": []
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Lógica",
+      "url": "https://drive.google.com/drive/folders/14EdEnV9LNvispA6GudAcnG_Qy2WngPUJ?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "16mz6ss5aCVPavSnH65Amb4iIOI1Cvb4S",
+          "title": "introduccionLogica.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/introduccionLogica.pdf",
+          "bytes": 173328,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/16mz6ss5aCVPavSnH65Amb4iIOI1Cvb4S/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1UHHWPZPHou2ieZqZZYh9DHZYDn99Z9Py",
+          "title": "Logica Matematica.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Logica_Matematica.pdf",
+          "bytes": 314516,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1UHHWPZPHou2ieZqZZYh9DHZYDn99Z9Py/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1xJBTQp0ehnzFqidqnGY4tH5lMukY1_hg",
+          "title": "SOLIS_DAUN_JULIO_ERNESTO_Logica_Matematica.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/SOLIS_DAUN_JULIO_ERNESTO_Logica_Matematica.pdf",
+          "bytes": 15198684,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1xJBTQp0ehnzFqidqnGY4tH5lMukY1_hg/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Álgebra",
+      "url": "https://drive.google.com/drive/folders/1jDVe1DJCYd1OZIR8q4TazYEkciMTIeni?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "16GMV0BVtAkOiXzB7rgJ02WNCoSjRAhFU",
+          "title": "FACTORIZACION-Algebra.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/FACTORIZACION-Algebra.pdf",
+          "bytes": 26848,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/16GMV0BVtAkOiXzB7rgJ02WNCoSjRAhFU/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "19UlYyds5iYu__B8eCYZf9MIGxU7Oe2eD",
+          "title": "PotenciaciÃ³n-Algebra.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/PotenciaciA3n-Algebra.pdf",
+          "bytes": 24228,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/19UlYyds5iYu__B8eCYZf9MIGxU7Oe2eD/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1r2Y4p-009y9z8UziuglIIlVwvLDx7eOI",
+          "title": "teoremadePitÃ¡goras.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/teoremadePitAgoras.pdf",
+          "bytes": 531650,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1r2Y4p-009y9z8UziuglIIlVwvLDx7eOI/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Geometría",
+      "url": "https://drive.google.com/drive/folders/1h_MopBqM_7xwnr8q6_Q0AdvyvhWGfgQ1?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1ZQh6irYgmRKEU9rbK5yRWRBhhReHxZU0",
+          "title": "Geometria.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Geometria.pdf",
+          "bytes": 8505873,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1ZQh6irYgmRKEU9rbK5yRWRBhhReHxZU0/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1SkrE5jHY7RIeg8qQtCLh76QqNzSBfPvo",
+          "title": "introduccionGeometria.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/introduccionGeometria.pdf",
+          "bytes": 504268,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1SkrE5jHY7RIeg8qQtCLh76QqNzSBfPvo/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Probabilidad y estadística",
+      "url": "https://drive.google.com/drive/folders/1s83MQFYa_dvh-B3DA1OWhX3JvKY0isT0?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1SFcYz1RIzohaEGLo84UWmwAvqO11ZkBu",
+          "title": "estadisticaConceptosBasicos.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/estadisticaConceptosBasicos.pdf",
+          "bytes": 2938860,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1SFcYz1RIzohaEGLo84UWmwAvqO11ZkBu/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1nJjd67SLL80XGvY3uCz96TytuZojNmpA",
+          "title": "introducciomEstadistica.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/introducciomEstadistica.pdf",
+          "bytes": 1781752,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1nJjd67SLL80XGvY3uCz96TytuZojNmpA/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1KTvP9nR_Blml2z8eIaJ7OJ5EFOTR9lEK",
+          "title": "introduccionProbabilidad.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/introduccionProbabilidad.pdf",
+          "bytes": 164563,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1KTvP9nR_Blml2z8eIaJ7OJ5EFOTR9lEK/view?usp=drive_web"
+        },
+        {
+          "status": "ok",
+          "file_id": "1PUXJGAz9Rmu5H2tWhH0Abtyvr2d66jDS",
+          "title": "Probabilidades.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Probabilidades.pdf",
+          "bytes": 491214,
+          "subfolder": "",
+          "source_url": "https://drive.google.com/file/d/1PUXJGAz9Rmu5H2tWhH0Abtyvr2d66jDS/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Ejercicios #1",
+      "url": "https://drive.google.com/file/d/1-Fth_f3KF1kaWxozCdpmZK6aX8Oqfu60/view",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1-Fth_f3KF1kaWxozCdpmZK6aX8Oqfu60",
+          "title": "UDEA.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/UDEA.pdf",
+          "bytes": 224156,
+          "source_url": "https://drive.google.com/file/d/1-Fth_f3KF1kaWxozCdpmZK6aX8Oqfu60/view"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Ejercicios #2",
+      "url": "https://drive.google.com/file/d/1ukAi1VkKQIjo32lNi4le8_RD9EOd_Ejo/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1ukAi1VkKQIjo32lNi4le8_RD9EOd_Ejo",
+          "title": "EjeciciosLogicaNo2.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/EjeciciosLogicaNo2.pdf",
+          "bytes": 1522249,
+          "source_url": "https://drive.google.com/file/d/1ukAi1VkKQIjo32lNi4le8_RD9EOd_Ejo/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Simulacro Escolaria No. 1",
+      "url": "https://drive.google.com/file/d/1U3xBhpd0OCt0dCIpEpkozx0dXtv49uLK/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1U3xBhpd0OCt0dCIpEpkozx0dXtv49uLK",
+          "title": "Simulacro-NÂ°-1-Examen-de-Admision-UdeA-recopilado-por-Escolaria-Version-2.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Simulacro-NA-1-Examen-de-Admision-UdeA-recopilado-por-Escolaria-Version-2.pdf",
+          "bytes": 4214032,
+          "source_url": "https://drive.google.com/file/d/1U3xBhpd0OCt0dCIpEpkozx0dXtv49uLK/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Simulacro Escolaria No. 2",
+      "url": "https://drive.google.com/file/d/1xMDPgzZgATHNfQXkZRrHC1iOFZTJ6r22/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1xMDPgzZgATHNfQXkZRrHC1iOFZTJ6r22",
+          "title": "Simulacro-NÂ°-2-preparatorio-para-el-Examen-de-Admision-de-la-Universidad-de-Antioquia-recopilado-por-Escolaria.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Simulacro-NA-2-preparatorio-para-el-Examen-de-Admision-de-la-Universidad-de-Antioquia-recopilado-por-Escolaria.pdf",
+          "bytes": 6231502,
+          "source_url": "https://drive.google.com/file/d/1xMDPgzZgATHNfQXkZRrHC1iOFZTJ6r22/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Examen UdeA 2008 — Jornada 1",
+      "url": "https://drive.google.com/file/d/1ElzT8-V29pkvC0uVHVq3F_tV05W-NPFO/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1ElzT8-V29pkvC0uVHVq3F_tV05W-NPFO",
+          "title": "Examen-2008-Jornada-1-Examen-Admision-Universidad-de-Antioquia-UdeA-Blog-de-la-Nacho.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Examen-2008-Jornada-1-Examen-Admision-Universidad-de-Antioquia-UdeA-Blog-de-la-Nacho.pdf",
+          "bytes": 308697,
+          "source_url": "https://drive.google.com/file/d/1ElzT8-V29pkvC0uVHVq3F_tV05W-NPFO/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Examen UdeA 2008 — Jornada 2",
+      "url": "https://drive.google.com/file/d/1XR6Fk6xa4VDm0pQbcyS9MchWik8o-e1b/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1XR6Fk6xa4VDm0pQbcyS9MchWik8o-e1b",
+          "title": "Examen-2008-Jornada-2-Examen-Admision-Universidad-de-Antioquia.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Examen-2008-Jornada-2-Examen-Admision-Universidad-de-Antioquia.pdf",
+          "bytes": 312550,
+          "source_url": "https://drive.google.com/file/d/1XR6Fk6xa4VDm0pQbcyS9MchWik8o-e1b/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Examen UdeA 2008 — Jornada 3",
+      "url": "https://drive.google.com/file/d/1JteQl8ObSMDwkOWMLe8oTu91ERPfYMF6/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1JteQl8ObSMDwkOWMLe8oTu91ERPfYMF6",
+          "title": "Examen-2008-Jornada-3-Examen-Admision-Universidad-de-Antioquia.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Examen-2008-Jornada-3-Examen-Admision-Universidad-de-Antioquia.pdf",
+          "bytes": 327813,
+          "source_url": "https://drive.google.com/file/d/1JteQl8ObSMDwkOWMLe8oTu91ERPfYMF6/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "subject_id": "razonamiento-logico",
+      "topic_name": "Examen UdeA 2008 — Jornada 4",
+      "url": "https://drive.google.com/file/d/1sVUHNEv3nDMvPhLgGQQLpiF0HgNM2ujA/view?usp=sharing",
+      "files": [
+        {
+          "status": "ok",
+          "file_id": "1sVUHNEv3nDMvPhLgGQQLpiF0HgNM2ujA",
+          "title": "Examen-2008-Jornada-4-Examen-Admision-Universidad-de-Antioquia.pdf",
+          "pdf_path": "material_estudio/razonamiento-logico/pdfs/Examen-2008-Jornada-4-Examen-Admision-Universidad-de-Antioquia.pdf",
+          "bytes": 313128,
+          "source_url": "https://drive.google.com/file/d/1sVUHNEv3nDMvPhLgGQQLpiF0HgNM2ujA/view?usp=sharing"
+        }
+      ]
+    }
+  ],
+  "subjects": {
+    "algebra-lineal": [
+      {
+        "subject_id": "algebra-lineal",
+        "topic_name": "Espacios y subespacios vectoriales",
+        "url": "https://drive.google.com/drive/folders/1MIpDi3N4eohu9tSiTdZp187Cs95Girds?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1GFG4x_3F4XyeFGzG0oHF7i1UnXcrOvs8",
+            "title": "EjemplosEspaciosySubespacios.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/EjemplosEspaciosySubespacios.pdf",
+            "bytes": 12534766,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1GFG4x_3F4XyeFGzG0oHF7i1UnXcrOvs8/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "11UGQWYGLN968ADza8z2iKUPcXaqprYvp",
+            "title": "EjemplosVectoresCoordenados.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/EjemplosVectoresCoordenados.pdf",
+            "bytes": 20450393,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/11UGQWYGLN968ADza8z2iKUPcXaqprYvp/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1Js_7KjfSxbyNnTaCmMRGHOP7rAz76KeJ",
+            "title": "EjerciciosEspaciosyVectoresUdea.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosEspaciosyVectoresUdea.pdf",
+            "bytes": 4508061,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1Js_7KjfSxbyNnTaCmMRGHOP7rAz76KeJ/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1Mc6OLaCb4Z3Rk9i-CtDto5c_itp0VSDu",
+            "title": "EjerciciosEspaciosyVectoresUdea_backup.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosEspaciosyVectoresUdea_backup.pdf",
+            "bytes": 4480918,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1Mc6OLaCb4Z3Rk9i-CtDto5c_itp0VSDu/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1NOInM2HpAT_TTlqV9O2WLPuTXFYiI1pk",
+            "title": "EjerciciosVectoresUdea.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosVectoresUdea.pdf",
+            "bytes": 4477023,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1NOInM2HpAT_TTlqV9O2WLPuTXFYiI1pk/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "10-rMctXQx32U7U2ydzrruF4NZGfL9fiI",
+            "title": "EspaciosySubespaciosVectoriales.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/EspaciosySubespaciosVectoriales.pdf",
+            "bytes": 35133277,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/10-rMctXQx32U7U2ydzrruF4NZGfL9fiI/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1guwclDZbXDgtyejyuurj9oxps7rRsgd_",
+            "title": "VectoresCoordenadosyMatricesEquivalentes.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/VectoresCoordenadosyMatricesEquivalentes.pdf",
+            "bytes": 22957050,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1guwclDZbXDgtyejyuurj9oxps7rRsgd_/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "algebra-lineal",
+        "topic_name": "Transformaciones lineales",
+        "url": "https://drive.google.com/drive/folders/16j9LaQrmiKzMDbihzdB0I5faH28e54DL?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1tafXY1dRzU49kixDfiDwNDSkTd_BKLkm",
+            "title": "EjerciciosTransformaciones.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosTransformaciones.pdf",
+            "bytes": 9431722,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1tafXY1dRzU49kixDfiDwNDSkTd_BKLkm/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1d8_gSNN86CpoD4TI0FPDS-eyno4mfAQP",
+            "title": "EjerciciosTransformacionesUdea.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/EjerciciosTransformacionesUdea.pdf",
+            "bytes": 4476757,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1d8_gSNN86CpoD4TI0FPDS-eyno4mfAQP/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1s2r2u-s-WkSOuisbdION91nMx1GMi3-u",
+            "title": "TransformacionesLinealesTeoria.pdf",
+            "pdf_path": "material_estudio/algebra-lineal/pdfs/TransformacionesLinealesTeoria.pdf",
+            "bytes": 47886407,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1s2r2u-s-WkSOuisbdION91nMx1GMi3-u/view?usp=drive_web"
+          }
+        ]
+      }
+    ],
+    "calculo-diferencial": [
+      {
+        "subject_id": "calculo-diferencial",
+        "topic_name": "Funciones",
+        "url": "https://drive.google.com/file/d/1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn",
+            "title": "funciones.pdf",
+            "pdf_path": "material_estudio/calculo-diferencial/pdfs/funciones.pdf",
+            "bytes": 1201813,
+            "source_url": "https://drive.google.com/file/d/1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "calculo-diferencial",
+        "topic_name": "Límites y derivadas",
+        "url": "https://drive.google.com/file/d/1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8",
+            "title": "limitesyDerivadas.pdf",
+            "pdf_path": "material_estudio/calculo-diferencial/pdfs/limitesyDerivadas.pdf",
+            "bytes": 2083064,
+            "source_url": "https://drive.google.com/file/d/1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "calculo-diferencial",
+        "topic_name": "Carpeta general de Cálculo Diferencial",
+        "url": "https://drive.google.com/drive/folders/1imtBYmG2JhSHLPYGu2PWEDU8dA7edIXE?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1ksoLtsBq2imoFYffW9UBz0QDS9FYQ37C",
+            "title": "calculo-james-stewart-7ed.pdf",
+            "pdf_path": "material_estudio/calculo-diferencial/pdfs/calculo-james-stewart-7ed.pdf",
+            "bytes": 16918216,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1ksoLtsBq2imoFYffW9UBz0QDS9FYQ37C/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1o1I34bEmRbpAgPmef2LmPR2Kr10R7BUi",
+            "title": "calculoUPB.pdf",
+            "pdf_path": "material_estudio/calculo-diferencial/pdfs/calculoUPB.pdf",
+            "bytes": 865450,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1o1I34bEmRbpAgPmef2LmPR2Kr10R7BUi/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1PKrne22PSwWdcvZS3l6ShIKK7wjsziHU",
+            "title": "clase2UPB.pdf",
+            "pdf_path": "material_estudio/calculo-diferencial/pdfs/clase2UPB.pdf",
+            "bytes": 770725,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1PKrne22PSwWdcvZS3l6ShIKK7wjsziHU/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn",
+            "title": "funciones.pdf",
+            "pdf_path": "material_estudio/calculo-diferencial/pdfs/funciones.pdf",
+            "bytes": 1201813,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1rfv2K-aRRqYgOOq-irrtcMEFpf53ezNn/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1jeDOUo2ESUxFeVKL2--1eEF6NlBLQG8b",
+            "title": "hiperbolicas4.pdf",
+            "pdf_path": "material_estudio/calculo-diferencial/pdfs/hiperbolicas4.pdf",
+            "bytes": 102961,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1jeDOUo2ESUxFeVKL2--1eEF6NlBLQG8b/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8",
+            "title": "limitesyDerivadas.pdf",
+            "pdf_path": "material_estudio/calculo-diferencial/pdfs/limitesyDerivadas.pdf",
+            "bytes": 2083064,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1TWv3M4rvUFuvrqKCU7ujecEqDmcwvqW8/view?usp=drive_web"
+          }
+        ]
+      }
+    ],
+    "calculo-integral": [
+      {
+        "subject_id": "calculo-integral",
+        "topic_name": "Antiderivadas",
+        "url": "https://drive.google.com/drive/folders/15HhJQrvUtXFQnsHU8cUV25Do__8U-Jfx?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1ZOatWbxR44mtbxSIdAVSpOKzR3au0Hft",
+            "title": "EjemplosAntiderivadas.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/EjemplosAntiderivadas.pdf",
+            "bytes": 1220753,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1ZOatWbxR44mtbxSIdAVSpOKzR3au0Hft/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1Kn6BpwJzC4STyjITEU6ZyAJEN5i0qrtP",
+            "title": "EjerciciosAntiderivadas.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/EjerciciosAntiderivadas.pdf",
+            "bytes": 75196,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1Kn6BpwJzC4STyjITEU6ZyAJEN5i0qrtP/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1pdfezivMg9Q79HQu8ewBc26_SAk-EZpj",
+            "title": "TeoriaAntiderivadas.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaAntiderivadas.pdf",
+            "bytes": 741829,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1pdfezivMg9Q79HQu8ewBc26_SAk-EZpj/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "calculo-integral",
+        "topic_name": "Sumas de Riemann",
+        "url": "https://drive.google.com/drive/folders/1NtK0qwkPK7My0WkCpJZXzC6BM0v7iH9b?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1315MSsbwg6xT_ksLUQr6w7leOkzvbM-x",
+            "title": "EjerciciosRieman.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/EjerciciosRieman.pdf",
+            "bytes": 149211,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1315MSsbwg6xT_ksLUQr6w7leOkzvbM-x/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1DQ20qMeirR6b9o3JtiPpmkxUbBWbx-u0",
+            "title": "TEjemplosRieman.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/TEjemplosRieman.pdf",
+            "bytes": 5307174,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1DQ20qMeirR6b9o3JtiPpmkxUbBWbx-u0/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1EZS7RxwvvH4Q-URgFqs2_Gnx_MX51lcz",
+            "title": "TeoriaRiemann.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaRiemann.pdf",
+            "bytes": 842582,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1EZS7RxwvvH4Q-URgFqs2_Gnx_MX51lcz/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "10a1HPCo0oPEKrvOIYnsUkmXqf0BA-GtY",
+            "title": "TeoriaRiemann_backup.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaRiemann_backup.pdf",
+            "bytes": 832239,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/10a1HPCo0oPEKrvOIYnsUkmXqf0BA-GtY/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1iBUBf19bTfcZkKlwS6jtke_XHUf2KKqM",
+            "title": "TeoriaSoloRiemanCompleta.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaSoloRiemanCompleta.pdf",
+            "bytes": 1044685,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1iBUBf19bTfcZkKlwS6jtke_XHUf2KKqM/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "calculo-integral",
+        "topic_name": "Métodos de Integración (sustitución, partes, trigonométricas, fracciones parciales)",
+        "url": "https://drive.google.com/drive/folders/1bmaLUxYthPh5oENtRHpsKmRrF5bWk6ZO?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1aUtr2S5isFap7ZhIptbF4ZfrvPDCJhXW",
+            "title": "EjemplosMetodos.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/EjemplosMetodos.pdf",
+            "bytes": 1194901,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1aUtr2S5isFap7ZhIptbF4ZfrvPDCJhXW/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1rs4yefZlmxx79GGf6n3UOrLmFwerJaLr",
+            "title": "EjerciciosMetodosIntegracion.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/EjerciciosMetodosIntegracion.pdf",
+            "bytes": 100130,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1rs4yefZlmxx79GGf6n3UOrLmFwerJaLr/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1O2R-xiA1JyF9eel55IuGSrCDwIKYtzD3",
+            "title": "TeoriaMetodosdeIntegracion.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaMetodosdeIntegracion.pdf",
+            "bytes": 2491427,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1O2R-xiA1JyF9eel55IuGSrCDwIKYtzD3/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "calculo-integral",
+        "topic_name": "Aplicaciones de la Integral (áreas, volúmenes y longitud de arco)",
+        "url": "https://drive.google.com/drive/folders/1LI-VKdNxrFIrdp2xGubghhL6GW4mc32r?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1os9B4L-Cs9qXhuXZG2Wrqb3Q_qSh-Sd5",
+            "title": "EjemplosAplicaciones.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/EjemplosAplicaciones.pdf",
+            "bytes": 1092207,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1os9B4L-Cs9qXhuXZG2Wrqb3Q_qSh-Sd5/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1Z9kKw4bw9iav8yQmvxDbr3ybVEHOLhUF",
+            "title": "EjerciciosAplicaciones.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/EjerciciosAplicaciones.pdf",
+            "bytes": 198768,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1Z9kKw4bw9iav8yQmvxDbr3ybVEHOLhUF/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1kX8XdE1eGag-clkpZX3i2xzCVXprgDgR",
+            "title": "TeoriaAplicaciones.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaAplicaciones.pdf",
+            "bytes": 2658573,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1kX8XdE1eGag-clkpZX3i2xzCVXprgDgR/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "calculo-integral",
+        "topic_name": "Integrales Impropias",
+        "url": "https://drive.google.com/drive/folders/1pL9idfgFfpTBaSIk61OhzB03bGyiPy60?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1WWyuyvC1Nu-Pi8lb6pu-h6ovKi-QxL4T",
+            "title": "EjemplosImpropias.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/EjemplosImpropias.pdf",
+            "bytes": 101373,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1WWyuyvC1Nu-Pi8lb6pu-h6ovKi-QxL4T/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "12YPB0QZgdby9-bNv-7cdI8Nb8W-uaqOS",
+            "title": "TeoriaImpropias.pdf",
+            "pdf_path": "material_estudio/calculo-integral/pdfs/TeoriaImpropias.pdf",
+            "bytes": 934914,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/12YPB0QZgdby9-bNv-7cdI8Nb8W-uaqOS/view?usp=drive_web"
+          }
+        ]
+      }
+    ],
+    "estatica": [
+      {
+        "subject_id": "estatica",
+        "topic_name": "Centro de masa y centroides",
+        "url": "https://drive.google.com/drive/folders/183JD27v8AyoCm2RXjvkcoPjC6axL-enF?usp=sharing",
+        "files": [
+          {
+            "status": "non_pdf",
+            "file_id": "1gzkpz5xogdBwz8zHPIGxQtFZAsl_vySF",
+            "title": "areas.dxf",
+            "ext": ".dxf",
+            "bytes": 42467,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1gzkpz5xogdBwz8zHPIGxQtFZAsl_vySF/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1o0404r1mJy5-nphrkdj7dFYI_NdVJv8q",
+            "title": "areasAcotadas.dxf",
+            "ext": ".dxf",
+            "bytes": 40862,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1o0404r1mJy5-nphrkdj7dFYI_NdVJv8q/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1H9cNWFaJ2Qk6cd-qoooSNhf_pHhQHVMSc3wpV6xNKmI",
+            "title": "calculosCentroide.pdf",
+            "pdf_path": "material_estudio/estatica/pdfs/calculosCentroide.pdf",
+            "bytes": 335285,
+            "subfolder": "",
+            "source_url": "https://docs.google.com/document/d/1H9cNWFaJ2Qk6cd-qoooSNhf_pHhQHVMSc3wpV6xNKmI/edit?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1--0aDUzzM6eTz5UkT0PDM1y33AEUWBAYV8_3rYndMG8",
+            "title": "calculosCentroide.pdf",
+            "pdf_path": "material_estudio/estatica/pdfs/calculosCentroide.pdf",
+            "bytes": 335285,
+            "subfolder": "",
+            "source_url": "https://docs.google.com/document/d/1--0aDUzzM6eTz5UkT0PDM1y33AEUWBAYV8_3rYndMG8/edit?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1-aqXESyEs9FWSRL7HFxTMvywMl0uAtYn",
+            "title": "calculosCentroide.odt",
+            "ext": ".odt",
+            "bytes": 541454,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1-aqXESyEs9FWSRL7HFxTMvywMl0uAtYn/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1GyvHAEImnEPXQL3Ok9yomwoVvA9na_yJ",
+            "title": "modelo3D.FCStd",
+            "ext": ".fcstd",
+            "bytes": 33013,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1GyvHAEImnEPXQL3Ok9yomwoVvA9na_yJ/view?usp=drive_web"
+          }
+        ]
+      }
+    ],
+    "fisica-mecanica": [
+      {
+        "subject_id": "fisica-mecanica",
+        "topic_name": "Movimiento en 1 y 2 dimensiones",
+        "url": "https://drive.google.com/drive/folders/1P_2E2FURj1NNVkuRge5RfROhovEWtL3f?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1O7htBfWtvSuyvDPt0yt_KhLRxVqlEygQ",
+            "title": "EjemplosMovimiento1DireccionSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosMovimiento1DireccionSerway.pdf",
+            "bytes": 1203773,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1O7htBfWtvSuyvDPt0yt_KhLRxVqlEygQ/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1oOQed3YK_sJKgqc4K_hDlCDrMXqf1OYa",
+            "title": "EjerciciosMovimientoenDosDreccionesSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosMovimientoenDosDreccionesSerway.pdf",
+            "bytes": 579918,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1oOQed3YK_sJKgqc4K_hDlCDrMXqf1OYa/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "16ZdkUgxXK42e_2rtNqAbR3jeqGmxMosW",
+            "title": "EjerciciosMovimientoSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosMovimientoSerway.pdf",
+            "bytes": 306591,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/16ZdkUgxXK42e_2rtNqAbR3jeqGmxMosW/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1OPOa8NtKUKdgZaIesss7IEFx9sUSk4Wk",
+            "title": "MovimientoenUnaDreccionSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/MovimientoenUnaDreccionSerway.pdf",
+            "bytes": 1732281,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1OPOa8NtKUKdgZaIesss7IEFx9sUSk4Wk/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "fisica-mecanica",
+        "topic_name": "Movimiento circular",
+        "url": "https://drive.google.com/drive/folders/1V6ogOYVCeBVJGAW_ENWaSQK2CCIuiDsQ?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "19GPFyhv3IWSxnbQqz11BjlXmE9UvYQnn",
+            "title": "EjemplosMCircularSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosMCircularSerway.pdf",
+            "bytes": 10099004,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/19GPFyhv3IWSxnbQqz11BjlXmE9UvYQnn/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "17RlseWrGxjzwcivA5anWPXtOA26SGuh9",
+            "title": "EjerciciosMCircularSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosMCircularSerway.pdf",
+            "bytes": 1816405,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/17RlseWrGxjzwcivA5anWPXtOA26SGuh9/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1tfYm4Edv3um-7j6eQTORGcv10NoqbdAz",
+            "title": "MovimientoCircularTeoriaSerway1.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/MovimientoCircularTeoriaSerway1.pdf",
+            "bytes": 8767260,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1tfYm4Edv3um-7j6eQTORGcv10NoqbdAz/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "fisica-mecanica",
+        "topic_name": "Colisiones y cantidad de movimiento",
+        "url": "https://drive.google.com/drive/folders/12ljlh1yeKRlpzjmSB1c_VCd58OS3CJsm?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1ehwLEOxMRVa5s7WXh_DEFU5eMvTziKfT",
+            "title": "ColisionesTeoriaSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/ColisionesTeoriaSerway.pdf",
+            "bytes": 3827126,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1ehwLEOxMRVa5s7WXh_DEFU5eMvTziKfT/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1-0JoGhnfZB2r2UgqPmJi42x6Hn_SddfI",
+            "title": "EjemplosColisionesSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosColisionesSerway.pdf",
+            "bytes": 1218850,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1-0JoGhnfZB2r2UgqPmJi42x6Hn_SddfI/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "17eM2ni261uFyG_T0x7b7UQhn8ZJCLTLe",
+            "title": "EjemplosColisionesSerway_backup.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosColisionesSerway_backup.pdf",
+            "bytes": 1195166,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/17eM2ni261uFyG_T0x7b7UQhn8ZJCLTLe/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1FjWfaVljf0ozmFxYjIHXF33_pqytpqEA",
+            "title": "EjerciciosColisionesSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosColisionesSerway.pdf",
+            "bytes": 380630,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1FjWfaVljf0ozmFxYjIHXF33_pqytpqEA/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "fisica-mecanica",
+        "topic_name": "Leyes de Newton",
+        "url": "https://drive.google.com/drive/folders/1Ptk6jYh0Ksj3ET3cxl1sqzFxaS9_BXYg?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1U8DOd9pnl8a28o-NVq5EN7cbowtcAqDy",
+            "title": "EjemplosNewtonSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosNewtonSerway.pdf",
+            "bytes": 2455936,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1U8DOd9pnl8a28o-NVq5EN7cbowtcAqDy/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1OaooQvl3YBPWNWLWVp4tCSb1kPsoZbEm",
+            "title": "EjerciciosNewtonSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjerciciosNewtonSerway.pdf",
+            "bytes": 869785,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1OaooQvl3YBPWNWLWVp4tCSb1kPsoZbEm/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1T6yA4u7taSnRuITIZj0CGLnYq2FwiepO",
+            "title": "VectoresyLeyesdeNewtonSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/VectoresyLeyesdeNewtonSerway.pdf",
+            "bytes": 5293942,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1T6yA4u7taSnRuITIZj0CGLnYq2FwiepO/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "fisica-mecanica",
+        "topic_name": "Trabajo y Energía",
+        "url": "https://drive.google.com/drive/folders/1Q9sUnmvSuRX-HUHcyvj1n-qrXAlpcERb?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1GBJyL7ray8KhNKwuX2Zk0KfBcauwj36P",
+            "title": "EjeerciciosEnergiaSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjeerciciosEnergiaSerway.pdf",
+            "bytes": 572941,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1GBJyL7ray8KhNKwuX2Zk0KfBcauwj36P/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1IcfrQjEG7HqbIxlKeLungc3qgRyvysv4",
+            "title": "EjemplosEnergiaSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/EjemplosEnergiaSerway.pdf",
+            "bytes": 3440344,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1IcfrQjEG7HqbIxlKeLungc3qgRyvysv4/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "14kXz1rB4YKOUlX433wEczIy6m205y_nn",
+            "title": "TrabajoyEnergiaSerway.pdf",
+            "pdf_path": "material_estudio/fisica-mecanica/pdfs/TrabajoyEnergiaSerway.pdf",
+            "bytes": 7023956,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/14kXz1rB4YKOUlX433wEczIy6m205y_nn/view?usp=drive_web"
+          }
+        ]
+      }
+    ],
+    "geometria-vectorial": [
+      {
+        "subject_id": "geometria-vectorial",
+        "topic_name": "Vectores geométricos",
+        "url": "https://drive.google.com/file/d/14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx",
+            "title": "vectoresGeometricos.pdf",
+            "pdf_path": "material_estudio/geometria-vectorial/pdfs/vectoresGeometricos.pdf",
+            "bytes": 5748883,
+            "source_url": "https://drive.google.com/file/d/14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "geometria-vectorial",
+        "topic_name": "Geometría analítica (rectas, planos y cónicas)",
+        "url": "https://drive.google.com/file/d/1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW",
+            "title": "conicas.pdf",
+            "pdf_path": "material_estudio/geometria-vectorial/pdfs/conicas.pdf",
+            "bytes": 1245922,
+            "source_url": "https://drive.google.com/file/d/1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "geometria-vectorial",
+        "topic_name": "Carpeta completa de Geometría Vectorial y Analítica",
+        "url": "https://drive.google.com/drive/folders/1W5c_xIMlJYO6kkfWfqIr8_8gZqIyHrO9?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW",
+            "title": "conicas.pdf",
+            "pdf_path": "material_estudio/geometria-vectorial/pdfs/conicas.pdf",
+            "bytes": 1245922,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1LxjvmYe30mjfoULwmCAawbPKpcHUEaJW/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1mqReHAUVoW7AOJmXUMzbj0krmFjBMGRz",
+            "title": "Ejercicioesfera.ggb",
+            "ext": ".ggb",
+            "bytes": 45266,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1mqReHAUVoW7AOJmXUMzbj0krmFjBMGRz/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1-Mbsxu9xSnj1CZmms012s_Fev--vqKMq",
+            "title": "Geometria_Vectorial_Jaramillo.pdf",
+            "pdf_path": "material_estudio/geometria-vectorial/pdfs/Geometria_Vectorial_Jaramillo.pdf",
+            "bytes": 6705986,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1-Mbsxu9xSnj1CZmms012s_Fev--vqKMq/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1OcP_WRDCTIGAXBWkX_y_3L9Jad8GGfgo",
+            "title": "unidad-6.lc3adneas-y-superficies-en-el-espacio-2020-10.pdf",
+            "pdf_path": "material_estudio/geometria-vectorial/pdfs/unidad-6.lc3adneas-y-superficies-en-el-espacio-2020-10.pdf",
+            "bytes": 1088353,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1OcP_WRDCTIGAXBWkX_y_3L9Jad8GGfgo/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx",
+            "title": "vectoresGeometricos.pdf",
+            "pdf_path": "material_estudio/geometria-vectorial/pdfs/vectoresGeometricos.pdf",
+            "bytes": 5748883,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/14UJ8Qzpkur2tEJgw2DD1WTAU_LFY4TVx/view?usp=drive_web"
+          }
+        ]
+      }
+    ],
+    "mecanica-materiales": [
+      {
+        "subject_id": "mecanica-materiales",
+        "topic_name": "Carpeta trabajo de plataforma hidráulica 2022",
+        "url": "https://drive.google.com/drive/folders/1S_UUHXxEmbBOWLVtTJL0-1-s4FiWoYXL?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1-LNrr90ciawvPSUotXdq4rQg5-2ThuVg",
+            "title": "1.ARGELIA CALLE  29  ENTRE CARRERAS 30 Y 31 LOCALIZACIÃN.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/1.ARGELIA_CALLE_29_ENTRE_CARRERAS_30_Y_31_LOCALIZACIAN.pdf",
+            "bytes": 176282,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1-LNrr90ciawvPSUotXdq4rQg5-2ThuVg/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1_8VOmcEJp_wosxRA6NcO-87Tm2lLzMp_",
+            "title": "1.ARGELIA CARRERA 27 ENTRE CALLES 31 Y 32 LOCALIZACIÃN.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/1.ARGELIA_CARRERA_27_ENTRE_CALLES_31_Y_32_LOCALIZACIAN.pdf",
+            "bytes": 430368,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1_8VOmcEJp_wosxRA6NcO-87Tm2lLzMp_/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1i_a2wMl7zD_salHWQ1F6A5zN-4qZgBxv",
+            "title": "1.ARGELIA CARRERA 31 CON CALLE 32 LOCALIZACION.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/1.ARGELIA_CARRERA_31_CON_CALLE_32_LOCALIZACION.pdf",
+            "bytes": 222831,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1i_a2wMl7zD_salHWQ1F6A5zN-4qZgBxv/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1tj05WeNTWKj0v1f6waLh1gJEfRu7SOie",
+            "title": "5.ARGELIA CALLE  29 ENTRE CARRERAS 30 Y 31 DETALLES.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/5.ARGELIA_CALLE_29_ENTRE_CARRERAS_30_Y_31_DETALLES.pdf",
+            "bytes": 336358,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1tj05WeNTWKj0v1f6waLh1gJEfRu7SOie/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1w9BmxnT2VHCdJToEozP3HXhgd1C1jXKH",
+            "title": "5.ARGELIA CARRERA 27 ENTRE CALLES 31 Y 32 DETALLES.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/5.ARGELIA_CARRERA_27_ENTRE_CALLES_31_Y_32_DETALLES.pdf",
+            "bytes": 336350,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1w9BmxnT2VHCdJToEozP3HXhgd1C1jXKH/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1FIBlpSH4X0jjIjzhYYoENtuk98N47XLO",
+            "title": "5.ARGELIA CARRERA 31 CON  CALLE 32 DETALLES.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/5.ARGELIA_CARRERA_31_CON_CALLE_32_DETALLES.pdf",
+            "bytes": 571210,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1FIBlpSH4X0jjIjzhYYoENtuk98N47XLO/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1ab0Lop_XhkjlP20YomX9wVAYlVtnoXE-",
+            "title": "8.ARGELIA CALLE  29 ENTRE CARRERAS 30 Y 31 DISEÃO GEOMETRICO.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/8.ARGELIA_CALLE_29_ENTRE_CARRERAS_30_Y_31_DISEAO_GEOMETRICO.pdf",
+            "bytes": 663547,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1ab0Lop_XhkjlP20YomX9wVAYlVtnoXE-/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1wv24mMBRBqUdlZIuNtnDGk0LPH9i5BwM",
+            "title": "8.ARGELIA CARRERA 27 ENTRE CALLES 31 Y 32 DISEÃO GEOMETRICO.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/8.ARGELIA_CARRERA_27_ENTRE_CALLES_31_Y_32_DISEAO_GEOMETRICO.pdf",
+            "bytes": 1496463,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1wv24mMBRBqUdlZIuNtnDGk0LPH9i5BwM/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1m2ztYmQh_EmVJ6MaBw7WqAGLFMPprqou",
+            "title": "8.ARGELIA CARRERA 32 CON CALLE 32 DISEÃO GEOMETRICO.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/8.ARGELIA_CARRERA_32_CON_CALLE_32_DISEAO_GEOMETRICO.pdf",
+            "bytes": 939706,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1m2ztYmQh_EmVJ6MaBw7WqAGLFMPprqou/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1XDId1lwgP47ZMUPwrxb1fJW538OC-x3A",
+            "title": "DiseÃ±o Pavimento Argelia (1).pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/DiseAo_Pavimento_Argelia_1.pdf",
+            "bytes": 1994723,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1XDId1lwgP47ZMUPwrxb1fJW538OC-x3A/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1GDFvZDPwpEJYaI4x9ejP515C2mk-MSHX",
+            "title": "DiseÃ±o Pavimento Argelia.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/DiseAo_Pavimento_Argelia.pdf",
+            "bytes": 3766542,
+            "subfolder": "planos",
+            "source_url": "https://drive.google.com/file/d/1GDFvZDPwpEJYaI4x9ejP515C2mk-MSHX/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "16-Ch4mOds36VmHXBX2gls2MDG9QCHlZk",
+            "title": "2023-1_Proyecto_Integrador-2023.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/2023-1_Proyecto_Integrador-2023.pdf",
+            "bytes": 244618,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/16-Ch4mOds36VmHXBX2gls2MDG9QCHlZk/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1pykaERmeFIvg8IOIljl0utWrB9JN_ZTj",
+            "title": "8.ARGELIA CALLE  29 ENTRE CARRERAS 30 Y 31 DISEÃO GEOMETRICO.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/8.ARGELIA_CALLE_29_ENTRE_CARRERAS_30_Y_31_DISEAO_GEOMETRICO.pdf",
+            "bytes": 663547,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1pykaERmeFIvg8IOIljl0utWrB9JN_ZTj/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1PtWP-f3LWHpTsK9SSVEcIvmsZUx1wkEj",
+            "title": "trabajoHidraulica.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/trabajoHidraulica.pdf",
+            "bytes": 534763,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1PtWP-f3LWHpTsK9SSVEcIvmsZUx1wkEj/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "mecanica-materiales",
+        "topic_name": "Carpeta trabajo de plataforma hidráulica 2023",
+        "url": "https://drive.google.com/drive/folders/1pjqVUAHscdNwyF1scDLICMvRDYPigsim?usp=share_link",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1hR70LneeX9vrAtyw4J8vjKiI8vzQjJRb",
+            "title": "2023-1_Proyecto_Integrador-2023.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/2023-1_Proyecto_Integrador-2023.pdf",
+            "bytes": 244618,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1hR70LneeX9vrAtyw4J8vjKiI8vzQjJRb/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1fBhoI58NxaTSCdN0NIPOMoufLTcDgfd5_oka7ZR9Mew",
+            "title": "calculos.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/calculos.pdf",
+            "bytes": 21641,
+            "subfolder": "",
+            "source_url": "https://docs.google.com/spreadsheets/d/1fBhoI58NxaTSCdN0NIPOMoufLTcDgfd5_oka7ZR9Mew/edit?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1RMhz0sOlRQRabGH1llo9xCbShf95Ekh4",
+            "title": "plataformaITM2023.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/plataformaITM2023.pdf",
+            "bytes": 221289,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1RMhz0sOlRQRabGH1llo9xCbShf95Ekh4/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1bxgKEpY2oyNlCtlQI-UEnx-u6up0sovK",
+            "title": "proyectoIntegrador.odt",
+            "ext": ".odt",
+            "bytes": 182921,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1bxgKEpY2oyNlCtlQI-UEnx-u6up0sovK/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1YU1oZYn2cJBAC_K58bER4H8vqvgW_N1Z",
+            "title": "Tu pasabordo.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/Tu_pasabordo.pdf",
+            "bytes": 82825,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1YU1oZYn2cJBAC_K58bER4H8vqvgW_N1Z/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "mecanica-materiales",
+        "topic_name": "Concepto de esfuerzo",
+        "url": "https://drive.google.com/drive/folders/13ygUQnQzQWtdfatT31yCyU6VMt7p5FUV",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1zDA7TkQMgNPe41CMR4qXy_xb_k0kRGgW",
+            "title": "Ejercicio2resuelto.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/Ejercicio2resuelto.pdf",
+            "bytes": 68674,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1zDA7TkQMgNPe41CMR4qXy_xb_k0kRGgW/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1S2gQD1k-nxzif_B_1a-ym0eFy4LPlH4C",
+            "title": "EjercicioNo1Resuelto.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/EjercicioNo1Resuelto.pdf",
+            "bytes": 114991,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1S2gQD1k-nxzif_B_1a-ym0eFy4LPlH4C/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1Mkid8aoFDAezgddkns6Endsc8gVP9Hny",
+            "title": "EjerciciosEsfuerzos.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/EjerciciosEsfuerzos.pdf",
+            "bytes": 1464208,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1Mkid8aoFDAezgddkns6Endsc8gVP9Hny/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1GfXrH01MPUbdp0r9WASdb_-BuLORT8eo",
+            "title": "EjerciciosEsfuerzosRC.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/EjerciciosEsfuerzosRC.pdf",
+            "bytes": 3828473,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1GfXrH01MPUbdp0r9WASdb_-BuLORT8eo/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "19oPPsdaH-yd-WB0S4ZB76Niq6VYRJSBn",
+            "title": "EjerciciosPropuestosEsfuerzos.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/EjerciciosPropuestosEsfuerzos.pdf",
+            "bytes": 199988,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/19oPPsdaH-yd-WB0S4ZB76Niq6VYRJSBn/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1zoHPBUJz_fi-BKpIj3oT5HGdZ7BFa3y6JiVSz53Oy28",
+            "title": "LEEME.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/LEEME.pdf",
+            "bytes": 17712,
+            "subfolder": "",
+            "source_url": "https://docs.google.com/document/d/1zoHPBUJz_fi-BKpIj3oT5HGdZ7BFa3y6JiVSz53Oy28/edit?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1LPXzLdCsDBeAo7Pdypd7MVyZsZUn-Mny",
+            "title": "RCEjemplosEsfuerzos.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/RCEjemplosEsfuerzos.pdf",
+            "bytes": 812009,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1LPXzLdCsDBeAo7Pdypd7MVyZsZUn-Mny/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1aIXnPkyyWwFjlO53V-3MUtkEhCEv06BH",
+            "title": "RCTeoriaEsfuerzos.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/RCTeoriaEsfuerzos.pdf",
+            "bytes": 5163424,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1aIXnPkyyWwFjlO53V-3MUtkEhCEv06BH/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "13ZZf2lJQGG2MXy9LVP9AvGx5VadgYWt-",
+            "title": "TarabajoViga.docx",
+            "ext": ".docx",
+            "bytes": 97156,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/13ZZf2lJQGG2MXy9LVP9AvGx5VadgYWt-/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1XxVZ3nej8CYnqUieusCsTFNOrMlPqqRk",
+            "title": "TeoriaEsfuerzosbeer.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/TeoriaEsfuerzosbeer.pdf",
+            "bytes": 7682100,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1XxVZ3nej8CYnqUieusCsTFNOrMlPqqRk/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "mecanica-materiales",
+        "topic_name": "Esfuerzos combinados",
+        "url": "https://drive.google.com/drive/folders/13XwZ7HJEZ3jM2EhuVNrvv0C3es7Iy-Vw?usp=share_link",
+        "files": [
+          {
+            "status": "non_pdf",
+            "file_id": "1CsRk8Ee7rGF9RfGd0NoElx4vM-CnkThd",
+            "title": "WhatsApp Image 2022-12-10 at 10.02.57 AM (1).jpeg",
+            "ext": ".jpeg",
+            "bytes": 286967,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1CsRk8Ee7rGF9RfGd0NoElx4vM-CnkThd/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1mKFvBakMChwZRHvlpbCFEm9I-37IUcIs",
+            "title": "WhatsApp Image 2022-12-10 at 10.02.57 AM (2).jpeg",
+            "ext": ".jpeg",
+            "bytes": 250158,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1mKFvBakMChwZRHvlpbCFEm9I-37IUcIs/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1YhkT9lO2xWGtORoQAO_BbfeSLSoEOLnN",
+            "title": "WhatsApp Image 2022-12-10 at 10.02.57 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 253956,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1YhkT9lO2xWGtORoQAO_BbfeSLSoEOLnN/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1Crpq6sGlY91LjQAau84HwQMVMsvUeTYZ",
+            "title": "WhatsApp Image 2022-12-10 at 10.02.58 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 199557,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1Crpq6sGlY91LjQAau84HwQMVMsvUeTYZ/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "11C1M0efa04yVNE0YdyMiQrolruukZh60",
+            "title": "WhatsApp Image 2022-12-10 at 10.05.01 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 74223,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/11C1M0efa04yVNE0YdyMiQrolruukZh60/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1vHsB8cOYYQ2KEqdAicnQtU7FvR9596fJ",
+            "title": "WhatsApp Image 2022-12-10 at 10.05.22 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 126994,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1vHsB8cOYYQ2KEqdAicnQtU7FvR9596fJ/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1wpOcln9p-xBAPLildtq3icmXaZqyWcVq",
+            "title": "WhatsApp Image 2022-12-10 at 10.08.02 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 163441,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1wpOcln9p-xBAPLildtq3icmXaZqyWcVq/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1ShIuviopkOPXS8y6_ZaJ-kzc7JDVXylR",
+            "title": "WhatsApp Image 2022-12-10 at 10.08.20 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 127722,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1ShIuviopkOPXS8y6_ZaJ-kzc7JDVXylR/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "12x2yw-dwrc_9VQoIOD7ZuTn9fSNhHby_",
+            "title": "WhatsApp Image 2022-12-10 at 10.18.27 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 122047,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/12x2yw-dwrc_9VQoIOD7ZuTn9fSNhHby_/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1vOX9oBaf6Hxt4_CEx5Yt-a2R6r29X9mj",
+            "title": "WhatsApp Image 2022-12-10 at 10.20.03 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 108434,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1vOX9oBaf6Hxt4_CEx5Yt-a2R6r29X9mj/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1cAmNp4xwfQnj1-oUPgqqrpCoT96i51h0",
+            "title": "WhatsApp Image 2022-12-10 at 10.48.44 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 250775,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1cAmNp4xwfQnj1-oUPgqqrpCoT96i51h0/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1Ekbs65RaKcAx_Ib3rGdrAsW9pTBsu11k",
+            "title": "WhatsApp Image 2022-12-10 at 11.13.57 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 214330,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1Ekbs65RaKcAx_Ib3rGdrAsW9pTBsu11k/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "19aIEpVLz4dBNa6lnVXjMeG7VCbdBPnkp",
+            "title": "WhatsApp Image 2022-12-10 at 11.37.38 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 182992,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/19aIEpVLz4dBNa6lnVXjMeG7VCbdBPnkp/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1jvItrYDHIGXKitEgEIdtDco6e-sNJ35a",
+            "title": "WhatsApp Image 2022-12-10 at 11.38.56 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 124304,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1jvItrYDHIGXKitEgEIdtDco6e-sNJ35a/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1VZRL1YvsyH0nERdz8XINWQridJeIScdt",
+            "title": "WhatsApp Image 2022-12-10 at 11.48.08 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 114876,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1VZRL1YvsyH0nERdz8XINWQridJeIScdt/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1teqdJ59GgHw6zNIYIeyeMH7l0N-BcHUO",
+            "title": "WhatsApp Image 2022-12-10 at 11.48.45 AM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 148517,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1teqdJ59GgHw6zNIYIeyeMH7l0N-BcHUO/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1GBKDk0SB0h-Udz9HediSMwUJonq2Aq5Q",
+            "title": "WhatsApp Image 2022-12-10 at 12.03.37 PM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 133924,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1GBKDk0SB0h-Udz9HediSMwUJonq2Aq5Q/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1pT-B6K4jmOfPUj8N3XlELXa4fNdC8-Yc",
+            "title": "WhatsApp Image 2022-12-10 at 12.04.16 PM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 162336,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1pT-B6K4jmOfPUj8N3XlELXa4fNdC8-Yc/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1cxVwil42XofbMZ9XqcsXj_iCVSqe1Xle",
+            "title": "WhatsApp Image 2022-12-10 at 12.08.39 PM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 222600,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1cxVwil42XofbMZ9XqcsXj_iCVSqe1Xle/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1KHDSt--CWejGtyTHS59aDSDAuYHfQkZc",
+            "title": "WhatsApp Image 2022-12-10 at 12.08.47 PM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 213964,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/1KHDSt--CWejGtyTHS59aDSDAuYHfQkZc/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "16KtoLEw17qo1Qo-EhfKPuG2oVou5CePa",
+            "title": "WhatsApp Image 2022-12-10 at 12.09.08 PM.jpeg",
+            "ext": ".jpeg",
+            "bytes": 202748,
+            "content_type": "image/jpeg",
+            "subfolder": "imagenes",
+            "source_url": "https://drive.google.com/file/d/16KtoLEw17qo1Qo-EhfKPuG2oVou5CePa/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1X6P-5CxFLu3MNZpKE_p0Zs3D4PeOrUQJpqp-I9IRbgc",
+            "title": "trabajoEsfuerzosCombinadosITM.pdf",
+            "pdf_path": "material_estudio/mecanica-materiales/pdfs/trabajoEsfuerzosCombinadosITM.pdf",
+            "bytes": 2133078,
+            "subfolder": "",
+            "source_url": "https://docs.google.com/document/d/1X6P-5CxFLu3MNZpKE_p0Zs3D4PeOrUQJpqp-I9IRbgc/edit?usp=drive_web"
+          }
+        ]
+      }
+    ],
+    "metodos-numericos": [
+      {
+        "subject_id": "metodos-numericos",
+        "topic_name": "Ecuaciones diferenciales (Método de Euler)",
+        "url": "https://drive.google.com/drive/folders/1waKMK5pXAa-0Nkhcqoq48Ba8nXqi2KOY?usp=sharing",
+        "files": []
+      },
+      {
+        "subject_id": "metodos-numericos",
+        "topic_name": "Interpolación polinómica y Filtro de Kalman",
+        "url": "https://drive.google.com/drive/folders/1Mteh1rBhzweXxY8qfEFx5hSRLPvHderd",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1busdBZ2ckzFz3tI0cG3fUuCE-fcRK8HB",
+            "title": "Boukraa_Ahnin_Abderrahim_Prueba4 (2).pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/Boukraa_Ahnin_Abderrahim_Prueba4_2.pdf",
+            "bytes": 568112,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1busdBZ2ckzFz3tI0cG3fUuCE-fcRK8HB/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1TZdtyJNdDXk5L4UKTuFu9CK_dAv-Etv1",
+            "title": "espana.sh",
+            "ext": ".sh",
+            "bytes": 3293,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1TZdtyJNdDXk5L4UKTuFu9CK_dAv-Etv1/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1mIKB7ezOUS6gzpDkjI_A5xnJUa51F4Xb",
+            "title": "Hermite_interpolation_es.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/Hermite_interpolation_es.pdf",
+            "bytes": 73760,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1mIKB7ezOUS6gzpDkjI_A5xnJUa51F4Xb/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1ST67eAExQnrOUumxajlUCR_ju8QGKtM_",
+            "title": "Hernando_LeytonV._2009.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/Hernando_LeytonV._2009.pdf",
+            "bytes": 1313156,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1ST67eAExQnrOUumxajlUCR_ju8QGKtM_/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1kD9LG9IlcT3fEvwbicbpQMfNbyGOb8m3",
+            "title": "ModeloA21.rar",
+            "ext": ".rar",
+            "bytes": 1205,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1kD9LG9IlcT3fEvwbicbpQMfNbyGOb8m3/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1gIwgQWYfLusOFmQyjG8L6q1uVjNONfwD",
+            "title": "ModeloA3.rar",
+            "ext": ".rar",
+            "bytes": 979,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1gIwgQWYfLusOFmQyjG8L6q1uVjNONfwD/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "15vGjQwplyaHHSp2eZll_798J5inNe0rC",
+            "title": "Prueba_Evaluacion 2_Abderrahim_Boukraa_Ahin.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/Prueba_Evaluacion_2_Abderrahim_Boukraa_Ahin.pdf",
+            "bytes": 681122,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/15vGjQwplyaHHSp2eZll_798J5inNe0rC/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1t_6Gcr5-MixyfvwXYLqT4Lae_fdD37LS",
+            "title": "Prueba_Evaluacion 3_Abderrahim_Boukraa_Ahnin.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/Prueba_Evaluacion_3_Abderrahim_Boukraa_Ahnin.pdf",
+            "bytes": 810721,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1t_6Gcr5-MixyfvwXYLqT4Lae_fdD37LS/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1IA_XZY13UNmcVmvjCiBnI0r2Bj2wE_j5",
+            "title": "SIGGRAPH2001_CoursePack_08.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/SIGGRAPH2001_CoursePack_08.pdf",
+            "bytes": 776144,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1IA_XZY13UNmcVmvjCiBnI0r2Bj2wE_j5/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1xGINEDEb-Asarkd4VaAwVGm50deHScc1",
+            "title": "TAREAS DE EVALUACIÃN HMG  MÃDULO 2  CURSO 22-23  (1ÂºC).pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/TAREAS_DE_EVALUACIAN_HMG_MADULO_2_CURSO_22-23_1AoC.pdf",
+            "bytes": 75311,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1xGINEDEb-Asarkd4VaAwVGm50deHScc1/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1-A3ISqZBnUHMTafOLaY1761shq_c6yrz",
+            "title": "Tareas HMG MÃ³dulo 3 Curso 22-23.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/Tareas_HMG_MA3dulo_3_Curso_22-23.pdf",
+            "bytes": 195045,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1-A3ISqZBnUHMTafOLaY1761shq_c6yrz/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1MRQ7LXSVdznBS2rSBxs08Icdirv_opzM",
+            "title": "Tareas HMG MÃ³dulo 4 Curso 22-23.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/Tareas_HMG_MA3dulo_4_Curso_22-23.pdf",
+            "bytes": 338557,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1MRQ7LXSVdznBS2rSBxs08Icdirv_opzM/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "1iaittmA0NNaULnn4tZXszksEmltfrf0I",
+            "title": "trabajoModulo4.odt",
+            "ext": ".odt",
+            "bytes": 537741,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1iaittmA0NNaULnn4tZXszksEmltfrf0I/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1rdOOEkFnW-od5fVASEiK7JcAhn3LoK96",
+            "title": "trabajoModulo4.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/trabajoModulo4.pdf",
+            "bytes": 768023,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1rdOOEkFnW-od5fVASEiK7JcAhn3LoK96/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1VwSedH246Vh2a6I8hz4CdoYwCp20A-7F",
+            "title": "trabajoModuloDos.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/trabajoModuloDos.pdf",
+            "bytes": 1796999,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1VwSedH246Vh2a6I8hz4CdoYwCp20A-7F/view?usp=drive_web"
+          },
+          {
+            "status": "non_pdf",
+            "file_id": "19W__in5m-m94TFQJfn3ZhmYOwGXFHGOu",
+            "title": "trabajoModuloTres.odt",
+            "ext": ".odt",
+            "bytes": 94605,
+            "content_type": "application/octet-stream",
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/19W__in5m-m94TFQJfn3ZhmYOwGXFHGOu/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1AO7jYATdqWOIfc2cHOISQozrtGgXsrZb",
+            "title": "trabajoModuloTres.pdf",
+            "pdf_path": "material_estudio/metodos-numericos/pdfs/trabajoModuloTres.pdf",
+            "bytes": 308212,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1AO7jYATdqWOIfc2cHOISQozrtGgXsrZb/view?usp=drive_web"
+          }
+        ]
+      }
+    ],
+    "razonamiento-logico": [
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Guía UdeA — Lógica Matemática",
+        "url": "https://ayura.udea.edu.co/logicamatematica/",
+        "files": []
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Lógica",
+        "url": "https://drive.google.com/drive/folders/14EdEnV9LNvispA6GudAcnG_Qy2WngPUJ?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "16mz6ss5aCVPavSnH65Amb4iIOI1Cvb4S",
+            "title": "introduccionLogica.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/introduccionLogica.pdf",
+            "bytes": 173328,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/16mz6ss5aCVPavSnH65Amb4iIOI1Cvb4S/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1UHHWPZPHou2ieZqZZYh9DHZYDn99Z9Py",
+            "title": "Logica Matematica.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Logica_Matematica.pdf",
+            "bytes": 314516,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1UHHWPZPHou2ieZqZZYh9DHZYDn99Z9Py/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1xJBTQp0ehnzFqidqnGY4tH5lMukY1_hg",
+            "title": "SOLIS_DAUN_JULIO_ERNESTO_Logica_Matematica.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/SOLIS_DAUN_JULIO_ERNESTO_Logica_Matematica.pdf",
+            "bytes": 15198684,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1xJBTQp0ehnzFqidqnGY4tH5lMukY1_hg/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Álgebra",
+        "url": "https://drive.google.com/drive/folders/1jDVe1DJCYd1OZIR8q4TazYEkciMTIeni?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "16GMV0BVtAkOiXzB7rgJ02WNCoSjRAhFU",
+            "title": "FACTORIZACION-Algebra.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/FACTORIZACION-Algebra.pdf",
+            "bytes": 26848,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/16GMV0BVtAkOiXzB7rgJ02WNCoSjRAhFU/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "19UlYyds5iYu__B8eCYZf9MIGxU7Oe2eD",
+            "title": "PotenciaciÃ³n-Algebra.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/PotenciaciA3n-Algebra.pdf",
+            "bytes": 24228,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/19UlYyds5iYu__B8eCYZf9MIGxU7Oe2eD/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1r2Y4p-009y9z8UziuglIIlVwvLDx7eOI",
+            "title": "teoremadePitÃ¡goras.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/teoremadePitAgoras.pdf",
+            "bytes": 531650,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1r2Y4p-009y9z8UziuglIIlVwvLDx7eOI/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Geometría",
+        "url": "https://drive.google.com/drive/folders/1h_MopBqM_7xwnr8q6_Q0AdvyvhWGfgQ1?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1ZQh6irYgmRKEU9rbK5yRWRBhhReHxZU0",
+            "title": "Geometria.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Geometria.pdf",
+            "bytes": 8505873,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1ZQh6irYgmRKEU9rbK5yRWRBhhReHxZU0/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1SkrE5jHY7RIeg8qQtCLh76QqNzSBfPvo",
+            "title": "introduccionGeometria.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/introduccionGeometria.pdf",
+            "bytes": 504268,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1SkrE5jHY7RIeg8qQtCLh76QqNzSBfPvo/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Probabilidad y estadística",
+        "url": "https://drive.google.com/drive/folders/1s83MQFYa_dvh-B3DA1OWhX3JvKY0isT0?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1SFcYz1RIzohaEGLo84UWmwAvqO11ZkBu",
+            "title": "estadisticaConceptosBasicos.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/estadisticaConceptosBasicos.pdf",
+            "bytes": 2938860,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1SFcYz1RIzohaEGLo84UWmwAvqO11ZkBu/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1nJjd67SLL80XGvY3uCz96TytuZojNmpA",
+            "title": "introducciomEstadistica.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/introducciomEstadistica.pdf",
+            "bytes": 1781752,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1nJjd67SLL80XGvY3uCz96TytuZojNmpA/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1KTvP9nR_Blml2z8eIaJ7OJ5EFOTR9lEK",
+            "title": "introduccionProbabilidad.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/introduccionProbabilidad.pdf",
+            "bytes": 164563,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1KTvP9nR_Blml2z8eIaJ7OJ5EFOTR9lEK/view?usp=drive_web"
+          },
+          {
+            "status": "ok",
+            "file_id": "1PUXJGAz9Rmu5H2tWhH0Abtyvr2d66jDS",
+            "title": "Probabilidades.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Probabilidades.pdf",
+            "bytes": 491214,
+            "subfolder": "",
+            "source_url": "https://drive.google.com/file/d/1PUXJGAz9Rmu5H2tWhH0Abtyvr2d66jDS/view?usp=drive_web"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Ejercicios #1",
+        "url": "https://drive.google.com/file/d/1-Fth_f3KF1kaWxozCdpmZK6aX8Oqfu60/view",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1-Fth_f3KF1kaWxozCdpmZK6aX8Oqfu60",
+            "title": "UDEA.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/UDEA.pdf",
+            "bytes": 224156,
+            "source_url": "https://drive.google.com/file/d/1-Fth_f3KF1kaWxozCdpmZK6aX8Oqfu60/view"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Ejercicios #2",
+        "url": "https://drive.google.com/file/d/1ukAi1VkKQIjo32lNi4le8_RD9EOd_Ejo/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1ukAi1VkKQIjo32lNi4le8_RD9EOd_Ejo",
+            "title": "EjeciciosLogicaNo2.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/EjeciciosLogicaNo2.pdf",
+            "bytes": 1522249,
+            "source_url": "https://drive.google.com/file/d/1ukAi1VkKQIjo32lNi4le8_RD9EOd_Ejo/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Simulacro Escolaria No. 1",
+        "url": "https://drive.google.com/file/d/1U3xBhpd0OCt0dCIpEpkozx0dXtv49uLK/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1U3xBhpd0OCt0dCIpEpkozx0dXtv49uLK",
+            "title": "Simulacro-NÂ°-1-Examen-de-Admision-UdeA-recopilado-por-Escolaria-Version-2.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Simulacro-NA-1-Examen-de-Admision-UdeA-recopilado-por-Escolaria-Version-2.pdf",
+            "bytes": 4214032,
+            "source_url": "https://drive.google.com/file/d/1U3xBhpd0OCt0dCIpEpkozx0dXtv49uLK/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Simulacro Escolaria No. 2",
+        "url": "https://drive.google.com/file/d/1xMDPgzZgATHNfQXkZRrHC1iOFZTJ6r22/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1xMDPgzZgATHNfQXkZRrHC1iOFZTJ6r22",
+            "title": "Simulacro-NÂ°-2-preparatorio-para-el-Examen-de-Admision-de-la-Universidad-de-Antioquia-recopilado-por-Escolaria.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Simulacro-NA-2-preparatorio-para-el-Examen-de-Admision-de-la-Universidad-de-Antioquia-recopilado-por-Escolaria.pdf",
+            "bytes": 6231502,
+            "source_url": "https://drive.google.com/file/d/1xMDPgzZgATHNfQXkZRrHC1iOFZTJ6r22/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Examen UdeA 2008 — Jornada 1",
+        "url": "https://drive.google.com/file/d/1ElzT8-V29pkvC0uVHVq3F_tV05W-NPFO/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1ElzT8-V29pkvC0uVHVq3F_tV05W-NPFO",
+            "title": "Examen-2008-Jornada-1-Examen-Admision-Universidad-de-Antioquia-UdeA-Blog-de-la-Nacho.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Examen-2008-Jornada-1-Examen-Admision-Universidad-de-Antioquia-UdeA-Blog-de-la-Nacho.pdf",
+            "bytes": 308697,
+            "source_url": "https://drive.google.com/file/d/1ElzT8-V29pkvC0uVHVq3F_tV05W-NPFO/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Examen UdeA 2008 — Jornada 2",
+        "url": "https://drive.google.com/file/d/1XR6Fk6xa4VDm0pQbcyS9MchWik8o-e1b/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1XR6Fk6xa4VDm0pQbcyS9MchWik8o-e1b",
+            "title": "Examen-2008-Jornada-2-Examen-Admision-Universidad-de-Antioquia.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Examen-2008-Jornada-2-Examen-Admision-Universidad-de-Antioquia.pdf",
+            "bytes": 312550,
+            "source_url": "https://drive.google.com/file/d/1XR6Fk6xa4VDm0pQbcyS9MchWik8o-e1b/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Examen UdeA 2008 — Jornada 3",
+        "url": "https://drive.google.com/file/d/1JteQl8ObSMDwkOWMLe8oTu91ERPfYMF6/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1JteQl8ObSMDwkOWMLe8oTu91ERPfYMF6",
+            "title": "Examen-2008-Jornada-3-Examen-Admision-Universidad-de-Antioquia.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Examen-2008-Jornada-3-Examen-Admision-Universidad-de-Antioquia.pdf",
+            "bytes": 327813,
+            "source_url": "https://drive.google.com/file/d/1JteQl8ObSMDwkOWMLe8oTu91ERPfYMF6/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "subject_id": "razonamiento-logico",
+        "topic_name": "Examen UdeA 2008 — Jornada 4",
+        "url": "https://drive.google.com/file/d/1sVUHNEv3nDMvPhLgGQQLpiF0HgNM2ujA/view?usp=sharing",
+        "files": [
+          {
+            "status": "ok",
+            "file_id": "1sVUHNEv3nDMvPhLgGQQLpiF0HgNM2ujA",
+            "title": "Examen-2008-Jornada-4-Examen-Admision-Universidad-de-Antioquia.pdf",
+            "pdf_path": "material_estudio/razonamiento-logico/pdfs/Examen-2008-Jornada-4-Examen-Admision-Universidad-de-Antioquia.pdf",
+            "bytes": 313128,
+            "source_url": "https://drive.google.com/file/d/1sVUHNEv3nDMvPhLgGQQLpiF0HgNM2ujA/view?usp=sharing"
+          }
+        ]
+      }
+    ]
+  }
+}

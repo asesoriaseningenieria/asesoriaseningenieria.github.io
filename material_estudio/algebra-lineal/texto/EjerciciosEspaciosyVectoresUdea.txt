@@ -1,0 +1,544 @@
+Ejercicios del capítulo 1 (módulo 1)
+
+
+                                              n
+1.     Verifique con detalle que                  es un espacio vectorial.
+
+2.     Verifique con detalle que Pn es un espacio vectorial.
+
+3.     En el ejemplo 7, verifique los axiomas ii, v, vii, viii, ix y x de la definición de espacio vectorial.
+
+4.     Verifique con detalle que M mn es un espacio vectorial.
+
+5.     En el ejemplo 8 verifique el cumplimiento de los axiomas v, vii, viii, ix y x de la definición de espacio vectorial.
+
+
+En los ejercicios 6 a 16 determine si el conjunto dado, junto con las operaciones dadas, es un espacio vectorial. Si no lo es,
+mencione al menos un axioma de la definición que no se cumple.
+
+
+       Sea V = {( x, y , z ) ∈            / z = 0, x, y ∈   } con las operaciones usuales de
+                                      3                                                            3
+6.                                                                                                     .
+
+7.     Sea V = , con las operaciones ordinarias de suma y multiplicación en                    .
+
+8.     Sea V el conjunto de matrices simétricas reales de n × n con las operaciones matriciales usuales.
+
+9.     Sea V el conjunto de matrices antisimétricas reales de n × n con las operaciones matriciales usuales.
+
+10.    Sea V el conjunto de matrices invertibles n × n con las operaciones matriciales ordinarias.
+
+11.    Sea V el conjunto de matrices no invertibles n × n con las operaciones matriciales ordinarias.
+
+12.    Sea V = { An×n / AC = 0, C es una matriz constante de n × n} con las operaciones matriciales ordinarias.
+
+
+13.    Sea V el conjunto de todos los pares ordenados de números reales ( x, y ) con x ≤ 0, con las operaciones usuales
+             2
+       en        .
+
+14.    Sea V = {C} (un conjunto con un solo elemento) con las operaciones de suma y producto por un escalar definidas
+       por C + C = C y α C = C para todo α ∈ .
+
+                                  3
+15.    Sea V el conjunto              con la operación de suma usual y la operación producto por un escalar definida por:
+
+                     α   ( x, y, z ) = ( x,1, z ), α ∈ .
+
+
+ 34
+16.   Sea V el conjunto 3 con la operación de suma dada por ( x1 , y1 , z1 ) ⊕ ( x2 , y2 , z2 ) = ( x2 , y1 + y2 , z2 ) y la operación
+      producto por un escalar usual.
+
+17.   Demuestre las partes ii, iv y v del teorema 1.
+
+18.   Si x y y son vectores de un espacio vectorial V, demuestre que existe un vector único z ∈ V tal que x + z = y .
+
+
+                                                                                                Álgebra lineal elemental y aplicaciones 35
+Ejercicios del capítulo 1 (módulo 2)
+
+
+En los ejercicios 1 a 12 se dan un espacio V y un subconjunto W. Determine si W es un subespacio.
+
+1.     V=     2
+                  , W = {( x, y) : x = y} .
+
+2.     V = M nn , W = { A ∈ M nn : A es simétrica} .
+
+3.     V =    3
+                  , W = {( x, y , z ) ∈   3
+                                              : ( x, y , z ) es perpendicular a ( a, b, c)} .
+
+4.     V = P4 , W = { p ∈ P4 : p(0) = 0} .
+
+5.     V = P4 , W = { p ∈ P4 : p(0) = 1} .
+
+6.     V = P4 , W = { p ∈ P4 : grado de p = 4} .
+7.     La traza de una matriz An× n se define como:
+
+
+                  tr A = a11 + a22 + ... + ann .
+
+
+       Sean V = M nn y W = { A ∈ M nn : tr A = 0} .
+
+                      ⎧⎪               ⎡ a 0 ⎤ ⎫⎪
+8.     V = M 22 , W = ⎨ A ∈ M 22 : A = ⎢     ⎥ ⎬.
+                       ⎪⎩              ⎣ 0 b ⎦ ⎪⎭
+
+                      ⎪⎧               ⎡a b                 c⎤                   ⎫⎪
+9.     V = M 23 , W = ⎨ A ∈ M 23 : A = ⎢                     ⎥ , donde a = 2c + 1⎬ .
+                      ⎪⎩               ⎣d e                 f⎦                    ⎪⎭
+
+                      ⎧⎪               ⎡a b c⎤                   ⎫⎪
+10.    V = M 23 , W = ⎨ A ∈ M 23 : A = ⎢     ⎥ , donde b = a + c ⎬ .
+                       ⎪⎩              ⎣d 0 0⎦                    ⎪⎭
+
+11.    V = C [0, 1], W = { f ∈ C [0, 1] : f (0) = f (1) = 0} .
+
+12.    V = C[0, 1], W = { f ∈ C[0, 1] : f (0) = 1} .
+
+                            ⎧⎪               ⎡0 b                    c ⎤ ⎫⎪         ⎧⎪               ⎡a b c⎤               ⎫⎪
+       Sean V = M 23 , W1 = ⎨ A ∈ M 23 : A = ⎢                             ⎬ y W2 = ⎨ A ∈ M 23 : A = ⎢       con b = a + c ⎬ .
+                                                                     f ⎥⎦ ⎪⎭
+13.                                                                                                        ⎥
+                             ⎪⎩              ⎣d e                                    ⎪⎩              ⎣d e 0⎦                ⎪⎭
+       a.     Demuestre que W1 y W2 son subespacios.
+       b.     Describa el subconjunto W = W1 ∩ W2 y demuestre que es un subespacio.
+
+
+14.    Sea W = {x ∈         n
+                                : AX = 0, con A ∈ M m× n } .
+
+                                                             n
+       Demuestre que W es un subespacio de                       . W se llama espacio nulo de la matriz A.
+
+
+ 42
+15.   Sean x = (1, 2, 4) e y = (−3, 2, 0) dos vectores en          3
+                                                                       y sea
+
+
+             W = {u ∈     3
+                              : u = α x + β y , con α , β ∈   }.
+                                                     3
+      Demuestre que W es un subespacio de                .
+
+16.   Sean W1 y W2 subespacios de un espacio vectorial V.
+
+
+      Sea W1 + W2 = { v : v = v1 + v 2 con v1 ∈W1 y v 2 ∈W2 } .
+
+
+      Demuestre que W1 + W2 es un subespacio de V.
+
+
+                                                                               Álgebra lineal elemental y aplicaciones 43
+Ejercicios del capítulo 1 (módulo 3)
+
+
+En los ejercicios 1 a 3 determine si el vector dado w es combinación lineal de v1 y v2 . Si lo es, encuentre a1 y a2 tales que
+w = a1 v1 + a2 v 2 .
+
+
+1.      v1 = (2, − 1) y v 2 = (−4, 2) .
+
+
+        a.       w = (−6, 3).
+        b.       w = (1, 1).
+        c.       w = (0, 0).
+
+
+2.      v1 = (1, − 3) y v 2 = ( −2, 6).
+
+
+        a.       w = (−3, 9).
+        b.       w = (3, 6).
+        c.       w = (0, 3).
+
+
+             ⎡ 1 2⎤           ⎡ 3 2⎤
+3.      v1 = ⎢      ⎥ , v 2 = ⎢ −1 1 ⎥ .
+             ⎣ −2 1 ⎦         ⎣      ⎦
+
+
+                   ⎡1 0 ⎤
+        a.       w=⎢    ⎥.
+                   ⎣0 1 ⎦
+
+                   ⎡ −3 2 ⎤
+        b.       w=⎢      ⎥.
+                   ⎣ −4 1 ⎦
+
+                   ⎡ −13 −6 ⎤
+        c.       w=⎢        ⎥.
+                   ⎣ 1 −3 ⎦
+
+
+4.      Sean p1 = x + x 2 , p2 = x + x 3 y p3 = x + x 2 + x 3 .
+
+
+        Determine cuál o cuáles de los siguientes polinomios son combinación lineal de p1 , p2 y p3 .
+
+        a.       2x + x 2
+        b.       2 − 3x + 4 x 2 + x 3
+        c.       0
+        d.       x
+
+
+                                                                                            Álgebra lineal elemental y aplicaciones 51
+En los ejercicios 5 a 10 describa el espacio generado por los vectores dados.
+
+
+           ⎡1⎤
+5.     v = ⎢ ⎥.
+           ⎣1⎦
+
+             ⎡ 2⎤                  ⎡−1⎤
+       v1 = ⎢⎢1⎥⎥ ,          v2 = ⎢⎢ 3 ⎥⎥ .
+6.
+             ⎢⎣0⎥⎦                 ⎢⎣ 0 ⎥⎦
+
+             ⎡ 3⎤                   ⎡6⎤              ⎡7 ⎤
+       v1 = ⎢⎢0⎥⎥ ,          v 2 = ⎢⎢ 0 ⎥⎥ ,   v3 = ⎢⎢0⎥⎥ .
+7.
+             ⎢⎣1⎥⎦                  ⎢⎣−1⎥⎦           ⎢⎣ 2⎥⎦
+
+         ⎡3 0 ⎤                      ⎡ −2 0 ⎤
+8.     A=⎢    ⎥,                   B=⎢      ⎥.
+         ⎣0 −1⎦                      ⎣ 0 1⎦
+
+9.      p1 = 2 x + 3, p2 = −3 x − 5.
+
+
+10.     p1 = 3 x + 4 x 2 , p2 = 2 x − 5 x 2 , p3 = x + x 2 .
+
+
+En los ejercicios 11 a 14 determine si el conjunto dado de vectores genera el espacio vectorial dado.
+
+
+             2     ⎛ 1 ⎞ ⎛ −2 ⎞
+11.    En        ; ⎜ ⎟ , ⎜ ⎟.
+                   ⎝ 3⎠ ⎝ 0 ⎠
+
+             2     ⎛ 1 ⎞ ⎛ 2 ⎞ ⎛ −3 ⎞
+12.    En        ; ⎜ ⎟ , ⎜ ⎟ , ⎜ ⎟.
+                   ⎝ 2 ⎠ ⎝ 4 ⎠ ⎝ −6 ⎠
+
+                   ⎛ 1 ⎞ ⎛ −2 ⎞ ⎛ 0 ⎞
+             3     ⎜ ⎟ ⎜ ⎟ ⎜ ⎟
+13.    En        ; ⎜ 2 ⎟ , ⎜ 3 ⎟ , ⎜ 1 ⎟.
+                   ⎜ 0⎟ ⎜ 5 ⎟ ⎜ 3⎟
+                   ⎝ ⎠ ⎝ ⎠ ⎝ ⎠
+
+                   ⎛ 1⎞ ⎛ 2 ⎞ ⎛ 5 ⎞
+14.    En    3     ⎜ ⎟ ⎜ ⎟ ⎜ ⎟
+                 ; ⎜ 1⎟ , ⎜ 4 ⎟ , ⎜ 9 ⎟ .
+                   ⎜ 1⎟ ⎜ 1 ⎟ ⎜ 3 ⎟
+                   ⎝ ⎠ ⎝ ⎠ ⎝ ⎠
+                                                               3                        3
+15.    Muestre que un conjunto de dos vectores de                  no puede generar a       .
+
+16.    Demuestre que si u y v están en gen { v1 , v2 ,..., vk } , entonces u + v y α u están en gen { v1 , v2 ,..., vk } .
+
+
+ 52
+Ejercicios del capítulo 1 (módulo 4)
+
+
+En los ejercicios 1 a 4 muestre por inspección que los vectores son linealmente dependientes (LD).
+
+1.     u1 = (2, 3), u 2 = ( −4, − 6), en          2
+                                                      .
+2.     u1 = (5, 2, 3), u 2 = (0, 3, − 1), u 3 = (−1, 4, 0), u 4 = (5, 7, − 2), en                3
+                                                                                                     .
+
+                               1
+3.     P1 = −1 + 4 x, P2 =       − 2 x, en P1 .
+                               2
+            ⎡1 2 ⎤                ⎡0 1⎤                ⎡ 1 3⎤
+4.     A1 = ⎢    ⎥,          A2 = ⎢    ⎥,         A3 = ⎢    ⎥ , en M 22 .
+            ⎣0 −1⎦                ⎣ 4 2⎦               ⎣ 4 1⎦
+
+En los ejercicios 5 a 11 determine si el conjunto de vectores dado es LI o LD.
+
+5.     (2, − 1, 3), (3, 4, 1), (2, − 3, 4), en            3
+                                                              .
+                                                                  4
+6.     (3, 1, 4, 1), (1, 1, 0, 0), (0, 0, 2, 2), en                   .
+7.     (3, 0, 2, − 2), (5, 0, 3, − 1), (1, − 2, 1, 1), (0, 4, − 1, 1), en           4
+                                                                                        .
+8.     P1 ( x ) = 1 + x + x 2 , P2 ( x) = 2 − x + 3 x 2 , P3 ( x) = −1 + 5 x − 3 x 2 , en P2 .
+9.     P1 ( x ) = 1 + x, P2 ( x ) = x 2 + x 3 , P3 ( x ) = −2 − 2 x + 3 x 2 + 3 x 3 , en P3 .
+
+            ⎡ −1 3 2 ⎤                 ⎡0 6 4⎤                         ⎡1 0 0⎤
+10.    A1 = ⎢        ⎥,           A2 = ⎢     ⎥,                   A3 = ⎢     ⎥ , en M 23 .
+            ⎣ 0 0 0⎦                   ⎣4 6 2⎦                         ⎣2 3 1⎦
+
+       ⎡ −1 0 ⎤ ⎡ 0 1 ⎤ ⎡1 −1⎤ ⎡ 1 1 ⎤
+11.    ⎢ 3 1 ⎥ , ⎢1 0 ⎥ , ⎢ 0 6 ⎥ , ⎢ −1 2 ⎥ , en M 22 .
+       ⎣      ⎦ ⎣     ⎦ ⎣       ⎦ ⎣        ⎦
+12.    Si {u1 , u2 , u3 } es un conjunto LI, demuestre que {u1 , u 2 } , {u1 , u3 } , {u1} , {u2 } son LI.
+
+13.    Justifique las proposiciones 1, 2 y 3 de este módulo.
+
+14.    Construya argumentaciones para justificar los teoremas 2, 3 y 4.
+
+15.    Si {u1 ,..., u n } es LI, pruebe que cualquier subconjunto no vacío de este conjunto es LI.
+
+
+16.    Si {u1 ,..., un } es LD, pruebe que {u1 ,..., un , un +1 ,..., uk } también es LD.
+
+
+17.    Sea A una matriz cuadrada n × n, cuyas columnas son los vectores v1, v2 ,..., vn . Demuestre que v1 , v2 ,..., vn son LI si
+       y sólo si la forma escalonada reducida por renglones de A no contiene un renglón de ceros.
+
+
+                                                                                                         Álgebra lineal elemental y aplicaciones 61
+En los ejercicios 18 y 19 escriba la solución del sistema homogéneo dado en términos de uno o más vectores LI.
+
+
+18.      x1 − x2 + 7 x3 − x4 = 0
+       2 x1 + 3 x2 − 8 x3 + x4 = 0
+
+19.      x1 + 2 x2 − x3 = 0
+       2 x1 + 5 x2 + 4 x3 = 0
+
+
+20.    Demuestre que cualesquiera cuatro polinomios en P2 son LD.
+21.    Demuestre que cualesquiera n + 2 polinomios en Pn son LD.
+22.    Demuestre que cualesquiera siete matrices en M 32 son LD.
+23.    Sea { v1 , v2 ,..., vn } un conjunto LI.
+       Demuestre que los vectores v1 , v1 + v2 , v1 + v2 + v3 , ..., v1 + v2 + ... + vn son LI.
+24.    Suponga que { v1 , v2 ,..., vk } es un conjunto LI y que vk +1 no está en gen { v1 , v2 ,..., vk } . Demuestre que
+
+       {v1, v2 ,..., vk , vk +1} es un conjunto LI.
+25.    ¿Para cuáles valores de α son LD los vectores (−1, 0, − 1), (2, 1, 2) y (1, 1, α ) en          3
+                                                                                                          ?
+26.    ¿Para cuáles valores de λ son LD los vectores 3 + x y 2 + λ 2 + 2 x en P1 ?
+27.    Encuentre un conjunto de tres vectores LI en            3
+                                                                   que contenga los vectores (1, 2, 4), (−1, 0, 2).
+28.    Si u, v y w son tres vectores coplanares en
+                                                          3
+                                                              , demuestre que {u, v, w} es un conjunto LD.
+
+
+62
+Ejercicios del capítulo 1 (módulo 5)
+
+En los ejercicios 1 a 4 explique mediante inspección por qué los vectores dados no forman una base del espacio vectorial
+dado.
+
+                                                                   ฀
+1.     u1 = (3, 2),   u 2 = (−1, 2) , u 3 = (2, 4), para           2
+                                                                   .
+
+                                                                                    ฀
+2.     w1 = (8, 3, 5, 4), w 2 = (0, 5, 7, 1) , w 3 = (−1, 3, 2, 0), para            4
+                                                                                     .
+
+
+3.     P1 = 1 + 2 x + 3 x 2 , P2 = 2 x + x 2 , P3 = 5 − 3 x, P4 = 3 − 5 x + x 2 , para P2.
+
+
+            ⎡3 0 ⎤        ⎡ 5 7⎤         ⎡9 7 ⎤
+4.     M1 = ⎢    ⎥ , M2 = ⎢     ⎥ , M3 = ⎢    ⎥ , en M 22 .
+            ⎣0 2 ⎦        ⎣ −1 0⎦        ⎣2 5⎦
+
+En los ejercicios 5 a 11 determine cuándo los vectores dados forman una base del espacio vectorial dado.
+
+                                           ฀
+5.     u1 = (3, 5), u 2 = (4, 8), en       2
+                                            .
+
+                                                ฀
+6.     u1 = (1, 1), u 2 = (−2, − 2), en         2
+                                                .
+
+                                                                   ฀
+7.     u1 = (1, 1, 1), u 2 = (1, 1, 0), u3 = (1, 0, 0), en         3
+                                                                   .
+
+                                                                         ฀
+8.     u1 = (2, 1, 2), u 2 = (1, − 2, − 3), u3 = (5, 0, 1), en           3
+                                                                          .
+
+
+9.     P1 = 1 + x, P2 = 3 − x, para P1฀.
+
+
+10.    q1 = 1 + x + x 2 , q2 = x + 2 x 2 , q3 = 3 x 2 , para P2.
+
+
+            ⎡1 0 ⎤             ⎡1 1 ⎤                    ⎡1 1 ⎤             ⎡1 1⎤
+11.    M1 = ⎢    ⎥,       M2 = ⎢    ⎥,              M3 = ⎢    ⎥,       M4 = ⎢   ⎥ , en M 22 .
+            ⎣0 0⎦              ⎣0 0⎦                     ⎣1 0 ⎦             ⎣1 1⎦
+
+En los ejercicios 12 a 17 encuentre una base del espacio vectorial dado y determine su dimensión.
+
+                                   ฀
+                                   2
+12.    Todos los vectores en           cuyas componentes suman cero.
+
+13.    Todas las matrices simétricas de 3 × 3.
+
+14.    Todas las matrices antisimétricas de 3 × 3.
+
+                                   ฀
+15.    Todos los vectores de       3
+                                       que están en el plano 2 x − y − z = 0.
+
+                                   ฀
+16.    Todos los vectores de       3
+                                    que están en la recta x = 3t , y = −2t , z = t.
+
+
+                                                                                                Álgebra lineal elemental y aplicaciones 71
+17.    Todos los polinomios de P2 de la forma a0 + a1 x + a2 x 2 , con a0 = a2 − a1 .
+
+                                       ฀
+                                       3
+18.    Determine una base para             que incluya los vectores
+
+       a.      (1, 1, 2)
+       b.      (1, 1, 2), (3, 0, 1).
+
+                                       ฀
+19.    Determine una base para         4
+                                           que incluya a los vectores (1, 0, 1, 0) y (0, 1, − 1, 0).
+
+
+       Determine todos los valores de a para los cuales {( a , 0, 1), (0, a, 2), (1, 0, 1)} es una base para   ฀
+                                                                    2                                          3
+20.                                                                                                            .
+
+
+                                                                                  ฀
+                                                                                  4
+21.    Proporcione un ejemplo de un subespacio de dimensión dos de                 .
+
+
+En los ejercicios 22 a 25 encuentre una base para el espacio solución del sistema homogéneo dado.
+
+22.     x+ y−z =0
+        2x − y + 2z = 0
+
+
+23.     x− y =0
+        −3x + 3 y = 0
+
+
+24.    x − 3y + 2z = 0
+       −2 x + y + 3 z = 0
+       3x − 4 y + 5 z = 0
+
+
+25.    −x + 3 y − 2z = 0
+       −3 x + 9 y − 6 z = 0
+       2x − 6 y + 4z = 0
+
+26.    Elabore una argumentación que justifique el teorema 3.
+
+27.    Elabore una argumentación que justifique el teorema 5b.
+
+28.    Elabore una argumentación que justifique el teorema 6.
+
+
+72
+Ejercicios del capítulo 1 (módulo 6)
+
+
+En los ejercicios 1 a 3 se da una matriz en forma escalonada. Encuentre una base para su espacio renglón, una base para su
+espacio columna y determine su rango.
+
+
+1.      ⎡ 1 5 3 0 1⎤                                      2.   ⎡1   4   5⎤                   3.     ⎡1   4 0 5⎤
+        ⎢0 0 1 7 3⎥ .                                          ⎢0                                   ⎢0   1 3 0⎥⎥
+        ⎢           ⎥                                          ⎢    0   1⎥⎥                         ⎢
+                                                                            .                                    .
+        ⎢⎣0 0 0 0 1⎥⎦                                          ⎢0   0   0⎥                          ⎢0   0 1 0⎥
+                                                               ⎢          ⎥                         ⎢          ⎥
+                                                               ⎣0   0   0⎦                          ⎣0   0 0 1⎦
+
+
+En los ejercicios 4 a 9 encuentre bases para los espacios nulo, renglón y columna de la matriz dada. Determine, además, el
+rango y la nulidad, y verifique en cada caso que ρ( A) +ν( A) = n.
+
+
+4.     ⎡ 3    2 5⎤                                        5.   ⎡ 1 2 −3⎤                     6.     ⎡ 2 4 0 0⎤
+       ⎢ 4                                                     ⎢ 2 4 5⎥ .                           ⎢ 1 0 3 5⎥ .
+       ⎢      3 2⎥⎥                                            ⎢         ⎥                          ⎢         ⎥
+                    .
+       ⎢−1    7 8⎥                                             ⎢⎣−3 −6 0⎥⎦                          ⎢⎣2 6 4 0⎥⎦
+       ⎢          ⎥
+       ⎣ 0    6 1⎦
+
+
+7.     ⎡0 2 −3 1 2⎤                                       8.   ⎡1 4 −1          0⎤           9.     ⎡−1 −1 0         0⎤
+                                                               ⎢ 2 −2 3         1 ⎥⎥                ⎢0 0 2
+       ⎢0 −2 3 3 1⎥ .
+                                                               ⎢                                    ⎢                3⎥⎥
+       ⎢            ⎥                                                                .                                   .
+       ⎢⎣0 4 −6 6 7⎥⎦                                          ⎢1 6 0           2⎥                  ⎢ 4 0 −2         1⎥
+                                                               ⎢                   ⎥                ⎢                  ⎥
+                                                               ⎣2 8 9           0⎦                  ⎣ 3 −1 0         4⎦
+
+
+En los ejercicios 10 a 12 encuentre una base para el espacio generado por los conjuntos de vectores dados.
+
+10.    (2, 3, 5), (−1, 0, − 2), (5, 6, 12), (2, 1, 0).
+
+
+11.    ⎡2⎤         ⎡ 3⎤        ⎡1 ⎤        ⎡1⎤          ⎡5⎤
+       ⎢1 ⎥        ⎢ 2⎥        ⎢2⎥         ⎢1⎥          ⎢ 3⎥
+       ⎢ ⎥,        ⎢ ⎥,        ⎢ ⎥,        ⎢ ⎥,         ⎢ ⎥.
+       ⎢2⎥         ⎢ 3⎥        ⎢1 ⎥        ⎢1⎥          ⎢5⎥
+       ⎢ ⎥         ⎢ ⎥         ⎢ ⎥         ⎢ ⎥          ⎢ ⎥
+       ⎣1 ⎦        ⎣ 2⎦        ⎣2⎦         ⎣1⎦          ⎣ 3⎦
+
+
+12.    (−2, 6, 4, 1), (1, 0, − 3, 5), (0, 4, − 2, 1).
+
+En los ejercicios 13 a 15 determine si el sistema dado tiene solución.
+
+
+ 84
+13.   x+ y−z = 2                     14.     x+ y−z = 2                        15.       x − 2y + z + w = 2
+      x + 2 y + 2 z = −3                     x + 2 y + 2 z = −3                        3x   + 2 z − 2w = −8
+      2x + 3y + z = 1                        2 x + 3 y + z = −1                           4y − z − w =1
+                                                                                       5x    + 3z − w = −3
+
+16.   Sea A una matriz diagonal. Demuestre que ρ ( A ) es el número de componentes diferentes de cero en la diagonal.
+
+
+17.   Demuestre que para cualquier matriz A, ρ ( A ) = ρ ( A ') .
+
+
+18.   Sea A una matriz triangular n × n con ceros en la diagonal. Demuestre que ρ ( A ) < n .
+
+                                                                                                    ฀
+19.   Sea A una matriz n × n . Demuestre que ρ ( A ) < n si y sólo si existe un vector x ∈          n
+                                                                                                         tal que x ≠ 0 y Ax = 0.
+
+20.   ¿Los siguientes enunciados son verdaderos o falsos? Justifique su respuesta.
+
+      a.     Si A es una matriz de m × n, entonces R = C
+      b.     Si A es una matriz 5 × 3, entonces las columnas de A deben ser LI.
+      c.     Si A es una matriz 3 × 5 , las columnas de A no pueden ser LI.
+      d.     Si A es una matriz de m × n y las columnas de A son LI, entonces Ax = b puede o no tener solución. Pero si
+             tiene solución, ésta es única.
+
+21.   Sea A una matriz m × n.
+
+      a.     Si las columnas de A son LI, ¿cuál es el rango de A y cuál es la relación entre m y n?
+                                                 ฀
+                                                 m
+      b.     Si las columnas de A generan            , ¿cuál es el rango de A y cuál es la relación entre m y n?
+                                                               ฀
+                                                               m
+      c.     Si las columnas de A forman una base de               , ¿cuál es la relación entre m y n?
+
+
+                                                                                                Álgebra lineal elemental y aplicaciones 85

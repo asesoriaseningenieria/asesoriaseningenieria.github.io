@@ -1,0 +1,703 @@
+| Preguntas de opción múltiple   113
+
+
+■ PREGUNTAS DE OPCIÓN MÚLT IPLE
+
+
+             Las preguntas de opción múltiple en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+1. Se aplica una fuerza horizontal de 95.0 N a una caja de                 6. Una caja permanece inmóvil después de que se ha colo-
+   60.0 kg sobre una superficie a nivel y rugosa. Si se acelera               cado sobre una rampa inclinada en ángulo con la hori-
+   la caja a 1.20 m/s2, ¿cuál es la magnitud de la fuerza de                  zontal. ¿Cuáles de los siguientes enunciados deben ser
+   fricción cinética sobre la caja? a) 23.0 N b) 45.0 N c) 16.0 N             verdaderos acerca de la magnitud de la fuerza de fricción
+   d) 33.0 N e) 8.80 N                                                        que actúa sobre la caja? a) Es más grande que el peso de
+2. Si un bloque se desliza por un plano inclinado sin fric-                   la caja. b) Por lo menos es casi igual que el peso de la
+   ción, ¿cuál de las siguientes afirmaciones es verdadera? a)                caja. c) Es igual a msn. d) Es mayor que la componente de
+   La velocidad y aceleración aumentan. b) Su velocidad y                     la fuerza gravitacional que actúa hacia abajo de la rampa.
+   aceleración se mantienen constantes. c) Aumenta su velo-                   e) Es igual a la componente de la fuerza gravitacional
+   cidad y su aceleración se mantiene constante. d) Su ve-                    que actúa hacia abajo de la rampa.
+   locidad y aceleración disminuyen. e) Aumenta su veloci-                 7. En la fotografía de la página 89, una locomotora ha atra-
+   dad y su aceleración disminuye.                                            vesado el muro de una estación ferroviaria. Durante la coli-
+                                                                              sión, ¿qué puede decirse acerca de la fuerza ejercida por
+3. Si la masa y el radio de la Tierra se duplicaran repentina-
+                                                                              la locomotora sobre el muro? a) La fuerza ejercida por la
+   mente, ¿cuál sería el nuevo valor de la aceleración de la
+                                                                              locomotora sobre el muro fue mayor que la fuerza de éste
+   gravedad cerca de la superficie de la Tierra? a) 9.80 m/s2
+                                                                              contra la locomotora. b) La fuerza ejercida por la locomo-
+   b) 4.90 m/s2 c) 2.45 m/s2 d) 19.6 m/s2 e) 12.6 m/s2
+                                                                              tora sobre el muro fue la misma en magnitud que aque-
+4. Si una fuerza externa neta constante no nula actúa so-                     lla ejercida por el muro sobre la locomotora. c) La fuerza
+   bre un objeto durante un periodo determinado, ¿cuál de                     ejercida por la locomotora sobre el muro fue menor que
+   las siguientes afirmaciones debe ser verdad durante ese                    aquella ejercida por el muro sobre la locomotora. d) No
+   tiempo? a) El objeto se mueve. b) La magnitud de la velo-                  puede decirse que el muro "ejerza" alguna fuerza; después
+   cidad del objeto aumenta. (c) La aceleración del objeto                    de todo, se vino abajo.
+   es cada vez mayor. d) El objeto se acelera. e) La velocidad             8. Si un objeto de masa m se mueve con velocidad constante
+   del objeto se mantiene constante.                                          v, la fuerza neta sobre el objeto es a) mg b) mv c) ma d) 0
+5. Dos monos de igual masa se sujetan de una liana simple                     e) Ninguna de estas respuestas es correcta.
+                                                                                                                                  S
+   de masa despreciable que cuelga verticalmente de un ár-                 9. Cuatro fuerzasSactúan sobre un objeto, dadas
+                                                                                                                      S
+                                                                                                                           por A 5 40 N
+   bol, con un mono unos cuantos metros arriba del otro.                      hacia elSeste, B 5 50 N hacia el norte, C 5 70 N hacia el
+   ¿Cuál es la relación de la tensión en la liana sobre el mono               oeste y D 5 90 N hacia el sur. ¿Cuál es la magnitud de la
+   de arriba y la tensión en la liana entre los dos monos? a) 12              fuerza neta sobre el objeto? a) 50 N b) 70 N c) 131 N
+   b) 1 c) 1.5 d) 2 e) Se necesita más información.                           d) 170 N e) 250 N
+114    CAPÍTULO 4 | Leyes de movimiento
+
+10. Si un objeto está en equilibrio, ¿cuál de los siguientes                   la caja se acelere hacia adelante? a) la fuerza normal b) la
+    enunciados no es verdadero? a) La rapidez del objeto per-                  fuerza de gravedad c) la fuerza de fricción entre la caja y
+    manece constante. b) La aceleración del objeto es cero.                    la plataforma del camión d) la fuerza “ma” e) ninguna de
+    c) La fuerza neta que actúa sobre el objeto es cero. d) El                 éstas
+    objeto debe estar en reposo. e) La velocidad es constante.            14. Dos objetos están conectados mediante una cuerda que
+11. El administrador de un restaurante empuja horizontal-                     pasa sobre una polea sin fricción como en la figura 4.20,
+    mente una caja de melones con una fuerza de 150 N de                      donde m1 , m2 y a1 y a2 son las respectivas magnitudes de
+    magnitud. La caja se mueve a lo largo del piso con una                    las aceleraciones. ¿Cuál enunciado matemático es verda-
+    aceleración constante en la misma dirección que la fuer-                  dero con respecto a la magnitud de la aceleración a2 de la
+    za aplicada. ¿Cuál enunciado es más preciso con respecto                  masa m2? a) a2 , g b) a2 . g c) a2 5 g d) a2 , a1 e) a2 . a1
+    a la magnitud de la fuerza de fricción cinética que actúa             15. ¿Cuáles de los siguientes enunciados son verdaderos?
+    sobre la caja? a) Es mayor que 150 N. b) Es menor que                     a) El peso de un astronauta es el mismo sobre la Luna que
+    150 N. c) Es igual a 150 N. d) La fuerza de fricción ciné-                sobre la Tierra. b) La masa de un astronauta es la misma
+    tica está disminuyendo constantemente. e) La fuerza de                    en la Estación Espacial Internacional que sobre la Tierra.
+    fricción debe ser cero.                                                   c) La gravedad de la Tierra no tiene efecto en el astro-
+12. Un camión cargado con arena acelera a lo largo de una                     nauta dentro de la Estación Espacial Internacional. d) La
+    autopista. La fuerza impulsora sobre el camión permane-                   masa de un astronauta es mayor sobre la Tierra que sobre
+    ce constante. ¿Qué le sucede a la aceleración del camión                  la Luna. e) Ninguno de estos enunciados es verdadero.
+    cuando su remolque pierde arena a una proporción cons-                                                                           S
+                                                                          16. Un objeto de masa m se somete a una aceleración a ha-
+    tante a través de un orificio en su fondo? a) Disminuye                   cia abajo de un plano inclinado rugoso. ¿Cuáles de las si-
+    con una relación estable. b) Aumenta con una relación                     guientes fuerzas no aparecen en el diagrama de cuerpo
+    estable. c) Aumenta y después disminuye. d) Disminuye y                   libre para el objeto? Elija las respuestas correctas. a) la
+    después aumenta. e) Permanece constante.                                                          S
+                                                                              fuerza de gravedad b) ma c) la fuerza normal del plano in-
+13. Se coloca una gran caja de masa m en la parte posterior                   clinado sobre el objeto d) la fuerza de fricción hacia aba-
+    de un camión, pero sin atar. Conforme el camión acelera                   jo sobre el plano inclinado e) la fuerza de fricción hacia
+    hacia adelante con una aceleración a, la caja permanece                   arriba del plano inclinado f) la fuerza del objeto sobre el
+    en reposo relativo al camión. ¿Qué fuerza ocasiona que                    plano inclinado
+
+ ■ PREGUNTAS CONCEPTUALES
+
+
+              Las preguntas conceptuales en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+ 1. Una pasajera sentada en la parte posterior de un autobús                   sas, ¿qué le sucede a la lectura de la báscula? b) Suponga
+    reclama haber sido dañada cuando el conductor frenó,                       que es lo suficientemente fuerte para que en efecto lance
+    ocasionando que una maleta volara hacia ella desde el                      la barra con pesas hacia arriba. ¿Cómo varía la lectura
+    frente del autobús. Si usted fuera el juez de este caso,                   de la báscula ahora?
+    ¿qué mandato haría? ¿Por qué?                                           7. a) ¿Qué fuerzas causan que un automóvil se mueva? b) ¿Un
+ 2. Un explorador espacial se mueve a través del espacio más                   aeroplano de hélice? c) ¿Un bote de remos?
+    allá de cualquier planeta o estrella. Observa una gran                  8. Analice el movimiento de una roca que cayó en el agua en
+    roca, que considera una muestra de un planeta aliení-                      términos de velocidad y aceleración de la caída. Suponga
+    geno, flotando alrededor de la cabina de la nave. Para                     que una fuerza de resistencia está actuando sobre la roca y
+    almacenarla en el compartimiento, ¿debe empujar suave-                     aumenta a medida que se incrementa la velocidad de ésta.
+    mente o golpearla con el pie? ¿Por qué?                                 9. En la película It Happened One Night (Columbia Pictures,
+ 3. a) Si el oro se vende por peso, ¿lo compraría en Denver o                  1934), Clark Gable está de pie dentro de una estación de
+    en Death Valley? b) Si fuera vendido por masa, ¿en cuál                    autobuses frente a Claudette Colbert, quien está sentada.
+    de las dos ubicaciones preferiría comprar? ¿Por qué?                       Repentinamente el autobús inicia su movimiento hacia
+ 4. Si empuja una caja pesada que está en reposo, debe ejer-                   adelante, y Clark cae en el regazo de Claudette. ¿Por qué
+    cer alguna fuerza para iniciar su movimiento. De cualquier                 sucedió esto?
+    modo, una vez que la caja se desliza, usted aplica una fuer-          10. Explique el movimiento de una roca que se deja caer en
+    za más pequeña para mantener su movimiento. ¿Por qué?                     agua en términos de su rapidez y aceleración conforme
+ 5. Una persona sostiene una pelota con la mano, a) iden-                     está cayendo. Considere una fuerza resistiva que está ac-
+    tifique todas las fuerzas externas que actúan sobre la                    tuando sobre la roca la cual se incrementa conforme la
+    pelota y la reacción a cada una. b) Si se deja caer la pelo-              velocidad de la roca aumenta.
+    ta, ¿qué fuerza se ejerce sobre ella mientras está cayendo?           11. Identifique el par acción-reacción en las situaciones que
+    Identifique la fuerza de reacción en este caso. (Omita la                 siguen: a) el paso de un hombre, b) una bola de nieve
+    resistencia del aire.)                                                    golpea a una chica en la espalda, c) un jugador de béis-
+ 6. Una levantadora de pesas se coloca sobre una báscula.                     bol atrapa una pelota, d) una ráfaga de viento golpea una
+    a) Si levanta hacia arriba y hacia abajo una barra con pe-                ventana.
+                                                                                                                                | Problemas        115
+
+12. Trace un diagrama de cuerpo libre para cada uno de                              en la cuerda? Si la cuerda no se mueve, ¿qué fuerza hori-
+    los objetos que siguen: a) un proyectil en movimiento                           zontal ejerce cada atleta contra la superficie de la tierra?
+    en presencia de la resistencia del aire, b) un cohete que                 14. Suponga que está conduciendo un automóvil con gran
+    deja la plataforma de lanzamiento con sus motores fun-                        rapidez. ¿Por qué tiene que evitar el aplicar súbitamente
+    cionando, c) un atleta corriendo a lo largo de una pista.                     los frenos cuando quiere detenerse en una distancia cor-
+13. En un esfuerzo extraordinario entre dos atletas, cada uno                     ta? (Los automóviles recientes tienen frenos antibloqueo
+    jala la cuerda con una fuerza de 200 N. ¿Cuál es la tensión                   que evitan este problema.)
+
+ ■ PROBLEMAS
+
+
+                Los problemas para este capítulo se pueden asignar en línea     1. denota problemas asignados con más frecuencia en Enhanced
+   en Enhanced WebAssign. Los problemas seleccionados también tienen                  WebAssign
+   soluciones en los videos Watch It.                                                 denota problemas biomédicos
+1. denota problemas sencillos, 2. denota problema intermedio,                         denota problemas guiados
+3. denota problema de alto reto
+                                                                                      denota tutorial Master It disponible en Enhanced WebAssign
+1. denota solución completa disponible en Student Solutions                           denota petición de razonamiento cuantitativo y conceptual
+      Manual/Study Guide
+                                                                                      denota problema de razonamiento simbólico
+
+
+4.1 Fuerzas                                                                         cada cantidad que se menciona a continuación, indique
+                                                                                    si la cantidad es la misma, mayor, o menor en el caso de
+4.2 Primera ley de Newton                                                           E o en el de F. Explique la razón de su respuesta en cada
+4.3 Segunda ley de Newton                                                           caso. El listado es: a) la fuerza gravitacional, b) el tiempo
+                                                                                    que le llevará caer una cierta distancia en el aire, c) el
+4.4 Tercera ley de Newton                                                           tiempo que le llevará caer una cierta distancia en el vacío,
+ 1. El calamar gigante es el invertebrado más pesado, el cual                       d) la fuerza total sobre el objeto cuando cae en el vacío.
+    se estima que tiene un peso de casi 2 toneladas distribui-                 9.         Un pez salta verticalmente fuera del agua, suponga
+    dos en su longitud de 70 pies. ¿Cuál es su peso en newtons?                     que sólo dos fuerzas importantes actúan en él: una fuerza F
+ 2. Un jugador de fútbol acelera un balón desde el reposo                           ascendente ejercida por la cola del pez y la fuerza descenden-
+    hasta una rapidez de 10 m/s durante el tiempo en que su                         te debida a la gravedad. El registro de un salmón Chi-nook
+    pie está en contacto con el balón (casi 0.20 s). Si el balón                    tiene una longitud de 1.50 m y una masa de 61.0 kg. Este
+    tiene una masa de 0.50 kg, ¿qué fuerza promedio ejerce                          pez se mueve hacia arriba a 3.00 m/s cuando su cabeza
+    el jugador sobre el balón?                                                      rompe la superficie del agua, y tiene una velocidad as-
+                                                                                    cendente de 6.00 m/s después de que 2/3 de su longi-
+ 3. Un objeto de 6.0 kg se somete a una aceleración de 2.0
+                                                                                    tud han dejado el agua; suponga que la aceleración es
+    m/s2. a) ¿Cuál es la magnitud de la fuerza resultante que
+                                                                                    constante y determine a) la aceleración del salmón y
+    actúa en él? b) Si esta misma fuerza se aplica a un objeto
+                                                                                    b) la magnitud de la fuerza F durante este intervalo.
+    de 4.0 kg, ¿qué aceleración se produce?
+                                                                              10. Una bala de 5.0 g sale de la boquilla de un rifle con una
+ 4.         Se ejercen una o más fuerzas externas en cada obje-
+                                                                                  rapidez de 320 m/s. ¿Qué fuerza se ejerce (suponiéndola
+      to encerrado con línea discontinua como se muestra en
+                                                                                  constante) sobre la bala mientras está recorriendo el ba-
+      la figura 4.2. Identifique la reacción de cada una de estas
+                                                                                  rril del rifle de 0.82 m de longitud?
+      fuerzas.
+                                                                              11. Un bote se mueve a través del agua con dos fuerzas que
+ 5. Una bolsa de azúcar pesa 5.00 lb en la Tierra. ¿Cuánto
+                                                                                  actúan sobre él. Una es de 2 000 N empujando hacia ade-
+    pesaría en newtons sobre la Luna, donde la aceleración
+                                                                                  lante por el agua en la propela y la otra es una fuerza resis-
+    en caída libre es un sexto la de la Tierra? Reproduzca
+                                                                                  tiva de 1800 N debida al
+    para Júpiter, donde g es 2.64 veces que sobre la Tierra.
+                                                                                  agua que rodea la proa.
+    Halle la masa de la bolsa de azúcar en kilogramos en cada
+                                                                                  a) ¿Cuál es la acelera-
+    una de las tres ubicaciones.                                                                                              10
+                                                                                  ción del bote de 1000 kg?
+ 6. Un tren de carga tiene una masa de 1.5 3 107 kg. Si la lo-                    b) Si el bote parte del                         30
+    comotora puede ejercer un jalón constante de 7.5 3 105 N,                     reposo, ¿qué distancia                450 N         400 N
+    ¿cuánto tiempo le toma a la locomotora incrementar la                         se moverá en 10.0 s? c)
+    rapidez del tren desde el reposo hasta 80 km/h?                               ¿Cuál es su velocidad al
+ 7. Un hombre de 75 kg parado en un ascensor nota que a                           final de ese tiempo?
+    medida que sube el ascensor, en la escala se lee 825 N.                   12. Dos fuerzas son aplica-
+    ¿Cuál es la aceleración del ascensor?                                         das a un automóvil en
+ 8.        Considere una esfera metálica sólida (E) de unos                       un esfuerzo para mover-
+      cuantos centímetros de diámetro y una pluma (P). Para                       lo, como se muestra en                       Figura P4.12
+116      CAPÍTULO 4 | Leyes de movimiento
+
+      la figura P4.12. a) ¿Cuál es la resultante de estas dos fuer-         que tenga una magnitud de 18.0 N.
+      zas? b) Si el automóvil tiene una masa de 3 000 kg, ¿qué              Determine la magnitud de la fuer-             608          308
+      aceleración tiene? Omita la fricción.                                 za neta ejercida por el alambre so-
+13. Un automóvil de 970 kg parte del reposo en una carre-                   bre el diente torcido.
+    tera horizontal y acelera hacia el este por 5.00 s, cuando        19. Un alimentador de aves de 150 N
+    llega a un velocidad de 25.0 m/s. ¿Cuál es la fuerza pro-             está soportado por tres cables
+                                                                                                                          Comida
+    medio ejercida sobre el automóvil durante este tiempo?                como se muestra en la figura                     para
+
+14.        Un objeto de masa m se deja caer desde el techo de             P4.19. Determine la tensión en                   aves
+
+      un edificio de altura h. Mientras el objeto está cayendo, un        cada cable.
+      viento que sopla paralelo a la fachada del edificio ejerce      20.         La pierna y el vendaje enye-
+                                                                                                                      Figura P4.19
+      una fuerza F horizontal constante sobre el objeto. a) ¿Cuánto         sado en la figura P4.20 pesa 220 N
+      tiempo le toma al objeto golpear la superficie de la tie-             (w1). Determine el peso w2 y el ángulo a necesario de tal
+      rra? Exprese el tiempo t en función de g y h. b) Halle una            modo que la pierna más el vendaje no ejerzan una fuerza
+      expresión en términos de m y F para la aceleración ax del             en la unión de la cadera.
+      objeto en la dirección horizontal (tome como dirección
+      x positiva). c) ¿A qué distancia horizontal se desplaza el
+      objeto antes de golpear la superficie de la tierra? Respon-
+      da en términos de m, g, F y h. d) Halle la magnitud de la
+      aceleración del objeto mientras está cayendo, utilizando
+      las variables F, m y g.                                                                                       w2
+                                                                                    110 N 408              a
+15. Después de caer desde el reposo partiendo de una altura
+    de 30 m, una pelota de 0.50 kg rebota hacia arriba, lo-
+    grando una altura de 20 m. Si el contacto entre la pelota
+    y la superficie de la tierra dura 2.0 ms, ¿qué fuerza pro-                                  w1
+    medio se ejerció sobre la pelota?
+16.        La fuerza ejercida por el viento sobre las velas de un                                    Figura P4.20
+      barco es de 390 N hacia el norte. El agua ejerce una fuerza
+      de 180 N hacia el este. Si el bote (incluyendo su tripula-
+      ción) tiene una masa de 270 kg, ¿cuáles son su magnitud         21. Dos bloques, cada uno de 3.50 kg de
+      y dirección de su aceleración?                                      masa, están unidos a la parte supe-
+                                                                          rior de un elevador como en la figu-
+4.5 Aplicaciones de las leyes de Newton                                   ra P4.21. a) Si el elevador se acelera                   T1
+17.         a) En la figura P4.17 deter-                                  hacia arriba a 1.60 m/s2, determine                                S
+      mine la tensión en cada cable que                  37.0            las tensiones T1 y T2 en la parte su-                    m         a
+      soporta al ladrón de 600 N. b) Su-                                  perior e inferior de la cuerda. b) Si                    T2
+      ponga que el cable horizontal fue                                   las cuerdas pueden soportar una
+      amarrado más arriba sobre la pared.                                 tensión máxima de 85.0 N, ¿qué                           m
+      ¿La tensión en la otra cuerda se in-                 600 N          aceleración máxima puede tener
+      crementaría, disminuiría o sería la                                 el elevador antes de que la primera
+      misma? ¿Por qué?                                                    cuerda se rompa?                                  Figura P4.21
+                                                                                                                         (Problemas 21 y 22)
+18.         Cierto ortodoncista utiliza un                            22.        Dos bloques, cada uno de masa
+                                                    Figura p4.17            m, están unidos a la parte superior de un elevador como
+      soporte de alambre para alinear el
+      diente torcido de un paciente como                                    en la figura P4.21. El elevador tiene una aceleración ha-
+      en la figura P4.18. Se ajusta la tensión en el alambre para           cia arriba a. La cuerda tiene masa despreciable. a) Deter-
+                                                                            mine las tensiones T1 y T2 en la parte superior e inferior
+                                                                            de la cuerda en términos de m, a y g. b) Compare las dos
+                                                                            tensiones y determine qué cuerda se rompería primero si
+                                                                            a es lo suficientemente grande. c) ¿Cuáles son las tensio-
+                             y                                              nes si el cable del elevador se rompe?
+                                              x
+                                           14°                        23. La distancia entre dos postes de teléfono es de 50.0 m.
+                                              S
+                                              T                           Cuando un ave de 1.00 kg se posa equidistante sobre el
+                                                                          alambre de teléfono entre los postes, el cable se com-
+                     14°
+                       S                                                  ba 0.200 m. Trace un diagrama de cuerpo libre del ave.
+                       T
+                                                                          ¿Cuánta tensión produce el ave en el alambre? Omita el
+                                                                          peso del alambre.
+                                                                      24. Los sistemas mostrados en la figura P4.24 se encuentran
+                                                                          en equilibrio. Si las escalas de resortes se calibran en
+                            Figura P4.18                                  newtons, ¿qué leen? Omita las masas de las poleas y las
+                                                                                                                        | Problemas   117
+
+      cuerdas y suponga que las poleas y el plano inclinado de               lea sin fricción como en la figura P4.28. La caja de 5.00
+      la figura P4.24d carecen de rozamiento.                                kg se encuentra sobre un plano inclinado uniforme con
+                                                                             ángulo de 40.0°. a) Determine la aceleración de la caja
+                                                                             de 5.00 kg y b) la tensión en la cuerda.
+                                                                       29.        Suponga que los tres bloques descritos en la figura
+                                                                             P4.29 se mueven sobre una superficie sin fricción y que
+                                                                             actúa una fuerza de 42 N como se muestra en el bloque de
+                                                                             3.0 kg. Determine a) la aceleración que se proporciona al
+  5.00 kg                  5.00 kg     5.00 kg                               sistema, b) la tensión en la cuerda que une el bloque de
+                                                                             3.0 kg y el de 1.0 kg y c) la fuerza ejercida por el bloque
+      a                                   b
+                                                                             de 1.0 kg en el bloque de 2.0 kg.
+
+
+                                                                                                                               42 N
+                                                                                       1.0 kg                     3.0 kg
+                                       5.00 kg                                                  2.0 kg
+
+                                                    30.0
+          5.00 kg     5.00 kg
+                                                                                                   Figura P4.29
+      c                                   d
+                                                                                                                                S
+                                                                       30. Un bloque de masa m 5                                F
+                           Figura P4.24
+                                                                           5.8 kg es jalado con un
+                                                                           ángulo u 5 25° de incli-                     m
+25. Se eleva un cubo con agua de 5.0 kg desde un pozo me-                  nación como se muestra
+    diante una cuerda. Si la aceleración hacia arriba del cubo             en la figura P4.30 con
+    es 3.0 m/s2, encuentre la fuerza ejercida por la cuerda en                                                    u
+                                                                           una fuerza de magnitud
+    el cubo.                                                               F 5 32 N. a) Determine
+26. Una caja de masa m 5 32                          S                     la aceleración del bloque
+                                                     a                                                             Figura P4.30
+    kg viaja en la plataforma             m                                si el plano inclinado es
+    de un camión unida por                                                 sin fricción. b) Determine la aceleración del bloque si el
+    un cable a la parte pos-                                               coe-ficiente de fricción cinética entre el bloque y el plano
+    terior de la cabina como                                               inclinado es de 0.10.
+    se muestra en la figura                                            31.         Un arreglo parecido al que se muestra en la figu-
+    P4.26. El cable puede so-                                                ra P4.31 a menudo se utiliza en hospitales para apoyar
+                                          Figura P4.26
+    portar una tensión máxi-                                                 y aplicar una fuerza de tracción a una pierna lastimada.
+    ma de 68 N antes de romperse. Despreciando la fricción                   a) Calcule la fuerza de tensión en la cuerda que soporta la
+    entre la caja y la plataforma de la camioneta, encuentre                 pierna. b) ¿Cuál es la fuerza de tracción que se ejerce en
+    la aceleración máxima que el camión puede tener antes                    la pierna? Suponga que la fuerza de tracción es horizontal.
+    de que el cable se rompa.
+27.        Dos bloques de ma-
+      sas m y 2m están sosteni-
+                                               T1
+      dos en equilibrio sobre                                                                                     70
+      un plano inclinado sin                          m      T2
+      fricción como se mues-                                      2m
+      tra en la figura P4.27.                                                                                8.00 kg
+      En términos de m y u,                                       u
+      halle a) la magnitud de                                                                      Figura P4.31
+      la tensión T1 en la parte
+      superior de la cuerda y                   Figura P4.27           32.        Dos bloques de masas m1 y           S
+                                                                                                                      F
+      b) la magnitud de la de                                                m2 (m1 . m2), se colocan sobre                 m1 m
+                                                                                                                                   2
+      la tensión T2 en la cuer-                             5.00 kg          una mesa sin fricción en contacto
+      da inferior que conecta                                                mutuo. Se aplica una fuerza ho-
+      los dos bloques.                                                       rizontal de magnitud F al bloque
+                                     10.0 kg                                                                            Figura P4.32
+28. Dos cajas de 10.0 kg y                                40.0              de masa m1 en la figura P4.32.
+    5.00 kg, respectivamen-                                                  a) Si P es la magnitud de la fuerza de contacto entre los
+    te, están conectadas me-                                                 bloques, trace un diagrama de cuerpo libre para cada blo-
+    diante una cuerda ligera                                                 que. b) ¿Cuál es la fuerza neta en el sistema consistente
+    que pasa sobre una po-                      Figura P4.28                 en los dos bloques? c) ¿Cuál es la fuerza neta que actúa
+118      CAPÍTULO 4 | Leyes de movimiento
+
+      en m1? d) ¿Cuál es la fuerza neta que actúa en m2? e) Es-             lea y después está unida a un objeto colgante de masa s.
+      criba la componente x de la segunda ley de Newton para                Encuentre a) la aceleración de cada objeto y b) la tensión
+      cada bloque. f) Resuelva el sistema que resulta de dos                en el cable.
+      ecuaciones y dos incógnitas, exprese la aceleración a y la      37. Un automóvil de 1000 kg jala un remolque de 300 kg. Jun-
+      fuerza de contacto P en términos de las masas y fuerza.             tos tienen una aceleración de 2.15 m/s2 en la dirección x
+      g) ¿Cómo cambiaría la respuesta si la fuerza ha sido apli-          positiva. Despreciando las fuerzas de fricción en el remol-
+      cada a m2? (Sugerencia: Utilice la simetría; ¡no calcule!)          que, determine a) la fuerza neta sobre el automóvil, b) la
+      ¿La fuerza de contacto es más grande, más pequeña o en              fuerza neta sobre el remolque, c) la fuerza ejercida por
+      este caso la misma? ¿Por qué?                                       el remolque sobre el automóvil y d) la fuerza resultante
+33. Un planeador de 276 kg es arrastrado por un avión de                  ejercida por el automóvil sobre el camino.
+    1950 kg a lo largo de una pista horizontal con una ace-           38. Dos objetos con masas de 3.00 kg
+              S
+    leración a 5 2.20 m/s2 hacia la derecha como en la fi-                y 5.00 kg, respectivamente, es-
+    gura P4.33. Encuentre a) el impulso proporcionado por                 tán conectados mediante una
+    las hélices del avión y b) la magnitud de la tensión en el            cuerda ligera que pasa sobre
+    cable de conexión entre el avión y el planeador.                      una polea sin fricción, como en          3.00 kg
+                                                                          la figura P4.38. Determine a) la
+                                           S                              tensión en la cuerda, b) la acele-                         5.00 kg
+                                            a
+                                                                          ración de cada objeto y c) la dis-
+                                                                          tancia que cada objeto recorrerá
+                                                                                                                         Figura P4.38
+                                                                          en el primer segundo de movi-
+                                                                          miento si ambos objetos inician
+                                                                          desde el reposo.
+                           Figura P4.33
+                                                                      4.6 Fuerzas de fricción
+34.         En la figura P4.34 la cuer-          B         A          39. Un estibador carga cajas en un barco y encuentra que una
+      da B masa despreciable, tensa,        2         1                   caja de 20 kg, al principio en reposo sobre una superficie
+      sin deformar une el bloque 1                                        horizontal, necesita una fuerza horizontal de 75 N para
+      y el bloque 2 de mayor masa.                                        ponerse en movimiento. De cualquier modo, después
+      La cuerda A ejerce una fuerza           Figura P4.34                que la caja está en movimiento, se necesita una fuerza
+      en el bloque 1 para que acelere hacia adelante. a) ¿Cómo            de 60 N para mantenerla moviéndose con una rapidez
+      se compara la magnitud de la fuerza ejercida por la cuer-           constante. Determine los coeficientes de fricción estática
+      da A en el bloque 1 con la magnitud de la fuerza ejercida           y cinética entre la caja y el piso.
+      por la cuerda B en el bloque 2? b) ¿Cómo se compara la          40. En la figura P4.36, m1 5 10 kg y m2 5 4.0 kg. El coeficiente
+      aceleración del bloque 1 con la aceleración del bloque              de fricción estática entre m1 y la superficie horizontal es
+      2? c) ¿La cuerda B ejerce una fuerza sobre el bloque 1?             0.50, y el coeficiente de fricción cinética es 0.30. a) Si el sis-
+      Explique su respuesta.                                              tema se libera desde el reposo, ¿cuál será su aceleración?
+35.         a) Un elevador de masa m que se mueve hacia arriba            b) Si el sistema se pone en movimiento con m2 moviéndo-
+      tiene dos fuerzas que actúan sobre él: la fuerza de tensión         se hacia abajo, ¿cuál será la aceleración del sistema?
+      ascendente en el cable y la fuerza hacia abajo debido a la      41. Una caja de 1000 N se empuja a lo largo de unS piso a ni-
+      gravedad. Cuando el elevador se acelera hacia arriba, ¿qué          vel con rapidez constante mediante una fuerza F de 300 N
+      es mayor, T o w? b) Cuando el elevador se mueve hacia               a un ángulo de 20.0° por debajo de la horizontal, como
+      arriba con una velocidad constante, ¿qué es mayor, T o w?           se muestra en la figura P4.41a. a) ¿Cuál es el coeficiente
+      c) Cuando el elevador se mueve hacia arriba, pero la ace-           de fricción cinética entre la caja y el piso? b) Si la fuerza de
+      leración es hacia abajo, ¿qué es mayor, T o w? d) Suponga           300 N jala el bloque con un ángulo de 20.0° por arriba de la
+      que el elevador tiene una masa de 1500 kg y una acelera-            horizontal, como se muestra en la figura P4.41b, ¿cuál será
+      ción de 2.5 m/s2 hacia arriba. Determine T. ¿Su respuesta           la aceleración de la caja? Considere que el coeficiente de
+      es compatible con la del inciso a)? e) Ahora el elevador            fricción es el mismo que el que se encontró en el inciso a).
+      del inciso d) se mueve hacia arriba con una velocidad
+      constante de 10 m/s. Determine T. ¿Su respuesta es com-                        S                                       S
+                                                                                     F                                       F
+      patible con la del inciso b)? f) Inicialmente moviéndose               20.0                                               20.0
+      hacia arriba con una velocidad
+      constante, el elevador comienza                 m1
+      a acelerar hacia abajo a 1.50 m/
+      s2. Determine T. ¿Su respuesta es
+                                                                               a                              b
+      compatible con la del inciso c)?                         m 2
+36. Un objeto con masa m1 5 5.00 kg                                                               Figura P4.41
+    está en reposo sobre una mesa
+    horizontal sin fricción conectada           Figura P4.36          42.             Un bloque de masa 3m se coloca en una superfi-
+    a un cable que pasa sobre una po-       (Problemas 36, 40 y 45)         cie horizontal sin fricción, y un segundo bloque de masa
+                                                                                                                    | Problemas       119
+
+      m se coloca en la parte superior          m      S
+                                                                      48. Una estudiante decide mover una caja de libros dentro de
+      del primer bloque. Las superfi-                  F                  su habitación jalándola con una cuerda unida a ésta. Jala
+                                               3m
+      cies de los bloques son rugosas.                                    con una fuerza de 80.0 N en un ángulo de 25.0° sobre la
+      Una fuerza constante de magni-                                      horizontal. La caja tiene una masa de 25.0 kg, y el coefi-
+      tud F se aplica al primer bloque                                    ciente de fricción cinética entre la caja y el piso es 0.300.
+                                               Figura P4.42
+      como se muestra en la figura                                        a) Encuentre la aceleración de la caja. b) A continuación
+      P4.42. a) Construya diagramas de cuerpo libre para cada             mueve la caja hacia arriba sobre un plano inclinado 10.0°,
+      bloque. b) Identifique la fuerza horizontal que hace que            manteniendo una fuerza de 80.0 N dirigida a 25.0° sobre
+      el bloque de masa m acelere. c) Suponga que el bloque su-           la línea del plano inclinado. Si el coeficiente de fricción
+      perior no se desliza sobre el bloque inferior y determine           no cambia, ¿cuál es la nueva aceleración de la caja?
+      la aceleración de cada bloque en términos de m y F.             49.         Sobre un objeto que cae bajo la fuerza de la grave-
+43. Considere un camión transportando una carga pesada;                     dad actúa la fuerza de fricción de la resistencia del aire. La
+    por ejemplo, vigas de acero. Un peligro importante para                 magnitud de esta fuerza es casi proporcional a la rapidez
+    el conductor es que la carga pueda deslizarse hacia ade-                del objeto, que puede ser reescrita como f 5 bv. Suponga
+    lante, aplastando la cabina, si el camión se detiene re-                que b 5 15 kg/s y m 5 50 kg. a) ¿Qué rapidez terminal
+    pentinamente en un accidente o incluso al frenar. Por                   alcanza el objeto mientras está cayendo? b) ¿Su respuesta
+    ejemplo, suponga una carga de 10 000 kg colocada sobre                  al inciso a) depende de la rapidez inicial del objeto? Ex-
+    la plataforma de un camión de 20 000 kg moviéndose a                    plique.
+    12.0 m/s. Suponga que la carga no está atada al camión            50. Un automóvil viaja a 50.0 km/h en una autopista plana.
+    y tiene un coeficiente de fricción estática de 0.500 con la           a) Si el coeficiente de fricción entre el camino y los neu-
+    plataforma del camión. a) Calcule la distancia mínima                 máticos en un día con lluvia es 0.100, ¿cuál es la distancia
+    para detenerlo sin que la carga se deslice hacia adelante             mínima en la cual se detiene el automóvil? b) ¿Cuál es
+    con respecto al camión. b) ¿Alguna parte de la informa-               la distancia en que se detiene cuando la superficie está
+    ción no es necesaria para la solución?                                seca y el coeficiente de fricción es 0.600?
+44. Una caja de 45.0 kg de masa se está transportando sobre la        51. Un bloque de 3.00 kg inicia en la parte superior de una
+    plataforma de una camioneta. El coeficiente de fricción es-           plano inclinado 30.0° y se desliza 2.00 m hacia abajo sobre
+    tática entre la caja y la plataforma es 0.350, y el coeficiente       el plano en 1.50 s. Determine a) la aceleración del blo-
+    de fricción cinética es 0.320. a) La camioneta acelera hacia          que, b) el coeficiente de fricción cinética entre el bloque
+    adelante a nivel del suelo. ¿Cuál es la aceleración máxima            y el plano inclinado, c) la fuerza de fricción que actúa
+    que puede tener la camioneta de tal modo que la caja no               sobre el bloque y d) la rapidez del bloque después de que
+    se deslice con respecto a la plataforma de la misma? b) La            se deslizó 2.00 m.
+    camioneta excede ligeramente esta aceleración y a conti-
+                                                                      52. Un bloque de 15.0 lb reposa sobre un suelo horizontal.
+    nuación se mueve con aceleración constante con la caja
+                                                                          a) ¿Qué fuerza ejerce el piso sobre el bloque? b) Una
+    deslizándose a lo largo de su plataforma. ¿Cuál es la acele-
+                                                                          cuerda es atada al bloque y se mueve verticalmente sobre
+    ración de la caja con respecto a la superficie de la tierra?
+                                                                          una polea. El otro extremo está conectado a un objeto
+45.       Los objetos con masas m1 5 10.0 kg y m2 5 5.00 kg,              de 10.0 lb colgando libremente. ¿Cuál es ahora la fuerza
+      respectivamente, están unidos mediante una cuerda lige-             ejercida por el suelo en el bloque de 15.0 lb? c) Si el obje-
+      ra que pasa sobre una polea sin fricción como en la figura          to de 10.0 lb en el inciso b) es remplazado por un objeto
+      P4.36. Si, cuando el sistema parte desde el reposo, m2 cae          de 20.0 lb. ¿Cuál es la fuerza ejercida por el suelo sobre
+      1.00 m en 1.20 s, determine el coeficiente de fricción ci-          el bloque de 15.0 lb?
+      nética entre m1 y la mesa.
+                                                                      53. Para cumplir con el requisito del Servicio Postal de Estados
+46.        Un disco de hockey se golpea con un bastón que le              Unidos, el calzado de los empleados debe tener un coefi-
+      proporciona una rapidez inicial v0 en la dirección x posi-          ciente de fricción estática de 0.500 o más en una superficie
+      tiva. El coeficiente de fricción cinética entre el hielo y el       resbalosa específica. Un típico zapato deportivo tiene un
+      disco es mk. a) Obtenga una expresión para la aceleración           coeficiente de 0.800. En caso de emergencia, ¿cuál es el in-
+      del disco. b) Utilice el resultado del inciso a) para obtener       tervalo de tiempo mínimo en que una persona partiendo
+      una expresión para la distancia d que se desliza el disco.          del reposo se puede mover de 3.00 m sobre la superficie
+      La respuesta es sólo en términos de las variables v0, mk y g.       resbalosa si está usando a) el calzado requerido por el
+47. El coeficiente de fricción                                            Servicio Postal y b) un calzado deportivo normal?
+                                                S
+    estática entre la caja de                   F                     54. Objetos de masas m1 5 4.00
+    3.00 kg y el plano incli-                                             kg y m2 5 9.00 kg están co-
+    nado 35.0° de la figura                                                                                                 m2
+                                                                          nectados mediante una cuer-
+    P4.47 es 0.300. ¿Cuál  es la           3.00 kg
+                     S                                                    da ligera que pasa sobre una
+    fuerza mínima F perpen-                                               polea sin fricción como en la
+    dicular al plano que debe                                             figura P4.54. El objeto m1 se        m1
+                                            35.0                                                                                u
+    ser aplicada a la caja para                                           mantiene en reposo sobre el
+    evitar que ésta se deslice                                            piso y m2 en reposo sobre un
+    hacia abajo del plano?                   Figura P4.47                 plano inclinado con un án-                  Figura P4.54
+120       CAPÍTULO 4 | Leyes de movimiento
+
+      gulo u 5 40.0°. Los objetos son liberados desde el reposo     El agua ejerce una fuerza a lo largo de la quilla (fondo) del
+      y m2 se desliza 1.00 m hacia abajo sobre el plano inclina-    bote que evita movimientos laterales, como se muestra en la
+      do en 4.00 s. Calcule a) la aceleración de cada objeto,       figura. Una vez que el bote inicia su movimiento hacia ade-
+      b) la tensión en la cuerda y c) el coeficiente de fricción    lante, el agua también ejerce una fuerza de arrastre hacia
+      cinética entre m2 y el plano inclinado.                       atrás sobre el bote, opuesta hacia el movimiento hacia ade-
+55.         La persona en la figura                                 lante. Si está soplando un viento hacia el este de 17 nudos (1
+      P4.55 pesa 170 lb. Cada mu-                                   nudo 5 0.514 m/s), ¿Cuál es la aceleración inicial del velero?
+      leta hace un ángulo de 22.0°
+      con la vertical (como se ve
+      desde el frente). La mitad del                                                                          S
+                                                                                                              Fvelero
+      peso de la persona se soporta
+      mediante las muletas, la otra                                                  S
+                                                                                     Fquilla
+      mitad mediante las fuerzas
+      ejercidas verticalmente por la                                                      N         30
+      superficie de la tierra en sus       22.0         22.0                       O         E
+      pies. Suponiendo que él está
+                                                                                          S
+      en reposo y la fuerza ejercida
+      por la superficie de la tierra           Figura P4.55
+      sobre las muletas actúa a lo                                                             Figura P4.58
+      largo de ellas, calcule a) el coeficiente de fricción más
+      pequeño posible entre las muletas y la superficie de la       59. a) ¿Cuál es la fuerza resultan-
+      tierra y b) la magnitud de la fuerza de compresión que            te que ejercen los dos cables                45.0 45.0
+      soporta cada muleta.                                              que soportan el semáforo de
+                                                                        la figura P4.59? b) ¿Cuál es el           60.0 N     60.0 N
+Problemas adicionales                                                   peso del semáforo?
+56. Como una protesta contra los gritos del árbitro, un lan-        60. a) ¿Cuál es la fuerza de fricción
+    zador en el juego de béisbol envía una pelota recta hacia           mínima necesaria para mante-
+    arriba en el aire con una rapidez de 20.0 m/s. En el proce-         ner en equilibrio el sistema de
+    so, mueve su mano a lo largo de una distancia de 1.50 m. Si         la figura P4.60? b) ¿Qué co-                Figura P4.59
+    la pelota tiene una masa de 0.150 kg, halle la fuerza que           eficiente de fricción estática
+    el lanzador ejerce sobre la pelota para proporcionarle su           entre el bloque de 100 N y la             100 N
+    rapidez ascendente.                                                 mesa garantiza el equilibrio?
+57.         Tres objetos están conectados sobre una mesa como           c) Si el coeficiente de fricción
+      se muestra en la figura P4.57. La mesa rugosa tiene un            cinética entre el bloque de
+      coeficiente de fricción cinética de 0.350. Los objetos tie-       100 N y la mesa es 0.250, ¿qué
+      nen masas de m1 5 4.00 kg, m2 5 1.00 kg y m3 5 2.00 kg            pesa debe colgarse al sustituir                            50.0 N
+      como se muestran, y las poleas son sin fricción. a) Trace         la de 50.0 N que permita al
+      un diagrama de cuerpo libre para cada uno de los ob-              sistema moverse con una ra-                 Figura P4.60
+      jetos. b) Determine la aceleración de cada objeto y las           pidez constante una vez que
+      direcciones de cada uno de ellos. c) Calcule las tensiones        el arreglo está en movimiento?
+      en las dos cuerdas. d) Si la mesa fuera uniforme, ¿las ten-   61. Un chico se desliza cuesta abajo en una colina sobre un
+      siones se incrementarían, disminuirían o serían las mis-          trineo, alcanzando la superficie a nivel en la parte infe-
+      mas? Explique.                                                    rior con una rapidez de 7.0 m/s. Si el coeficiente de fric-
+                                                                        ción entre el patín del trineo y la nieve es 0.050, el peso
+                                m2
+                                                                        del chico y el trineo es de 600 N, ¿qué distancia recorre el
+                                                                        trineo sobre la superficie a nivel antes de llegar al reposo?
+                m1                                m3                62. Una mujer en un aeropuerto jala su maleta de 20.0 kg a
+                                                                        velocidad constante tirando de una correa en un ángu-
+                                                                        lo u horizontal por encima de la
+                                                                        horizontal (figura 4.62). Ella tira
+                           Figura P4.57
+                                                                        de la correa con una fuerza de
+58. La fuerza ejercida por el viento sobre un velero es casi            35.0 N, y la fuerza de fricción en
+    perpendicular a las velas y proporcional a la componente            la maleta es de 20.0 N. a) Dibuje
+    de la velocidad del viento perpendicular a la vela. Para            un diagrama de cuerpo libre de
+    el velero de 800 kg que se muestra en la figura P4.58, la           la maleta. b) ¿Qué ángulo debe               u
+    constante de proporcionalidad es                                    hacer la correa con la horizon-
+                                                                        tal? c) ¿Cuál es la magnitud de la
+                                    N
+                     Fvela 5 550       v                                fuerza normal que ejerce la tie-
+                                   m/s viento '                         rra sobre la maleta?                   Figura P4.62
+                                                                                                                          | Problemas       121
+
+63.         Una caja yace en reposo en la parte posterior de un                   de masa m2 sobre una mesa horizontal sin rozamiento.
+      camión. El coeficiente de fricción estática entre la caja y                 a) Si a1 y a2 son las aceleraciones de m1 y m2, respectivamen-
+      la plataforma del camión es 0.300. a) Cuando el camión                      te, ¿cuál es la relación entre estas aceleraciones? Encuen-
+      acelera hacia adelante, ¿qué fuerza acelera la caja? b) De-                 tre expresiones para b) las tensiones en el cuerdas y c) las
+      termine la aceleración máxima                                               aceleraciones a1 y a2, en términos de las masas m1 y m2, y g.
+      que el camión puede tener an-                                         69. Dos cajas de frutas sobre una superficie horizontal sin
+      tes que la caja se deslice.                                               fricción están unidas mediante una cuerda ligera como
+64. Tres objetos se conectan me-                                                se muestra en la figura P4.69, donde m1 5 10 kg y m2 5
+    diante una cuerda ligera como                                               20 kg. Se aplica una fuerza de 50 N a la caja de 20 kg.
+    se muestra en la figura P4.64. La                             4.00 kg       a) Calcule la aceleración de cada caja y la tensión en la
+    cuerda une el objeto de 4.00 kg          5.00 kg                            cuerda. b) Reproduzca el problema para el caso cuando
+    y el de 5.00 kg y pasa sobre una                                            el coeficiente de fricción cinética entre cada caja y la su-
+    polea sin fricción. Calcule a) la                             3.00 kg       perficie es 0.10.
+    aceleración de cada objeto y
+    b) la tensión en las dos cuerdas.                  Figura P4.64                                            m2
+                                                                                               m1
+65.        Un plano sin fricción de 10.0 m de longitud tiene
+                                                                                                       T
+      una inclinación de 35.0°. Un trineo inicia en la parte in-                                                              50 N
+      ferior con una rapidez inicial de 5.00 m/s hacia arriba
+      del plano. Cuando el trineo alcanza el punto en el cual
+      se detiene momentáneamente, un segundo trineo se des-
+                                                                                                        Figura P4.69
+      liza desde la parte superior del plano con una rapidez
+      inicial vi. Los dos trineos alcanzan la parte inferior del
+      plano en el mismo instante. a) Determine la distan-                   70.         Medición de los coeficien-        Moneda
+
+      cia que recorrió el primer trineo hacia arriba del plano.                   tes de fricción. Se coloca una
+      b) Calcule la rapidez inicial del segundo trineo.                           moneda cerca del borde de                        Fís
+                                                                                                                                       ica
+66. Una clavadista de 70.0 kg salta de una plataforma a 10 m                      un libro que se encuentra so-                    u
+    por encima del agua, cayendo verticalmente hacia ésta                         bre una mesa y ese borde del
+    partiendo del reposo. Si su movimiento descendente se                         libro se levanta hasta que la
+    detiene 2.00 s después de que entra al agua, ¿qué fuerza                      moneda se desliza hacia aba-
+    ascendente promedio ejerce el agua sobre ella?                                jo sobre el plano inclinado
+                                                                                  como se muestra en la figu-
+67. Un bloque de aluminio             Aluminio                                    ra P4.70. Se mide el ángulo
+    de 2.00 kg y uno de cobre de        m1              Cobre                     de inclinación, uc, conocido            Figura P4.70
+    6.00 kg se unen mediante                             m2                       como ángulo crítico. a) Tra-
+    una cuerda ligera sobre                 Acero                                 ce un diagrama de cuerpo libre para la moneda cuando
+    una polea sin fricción. A los                          u
+                                                                                  se encuentra en el límite del deslizamiento e identifi-
+    dos bloques se les permite                                                    que todas las fuerzas que actúan sobre ella. Su diagrama
+    moverse sobre una cuña de                 Figura P4.67
+                                                                                  de cuerpo libre incluye una fuerza de fricción estática que
+    acero fija (de ángulo u 5                                                     actúa hacia arriba del plano. b) ¿La magnitud de la fuer-
+    30.0°) como se muestra en                                                     za de fricción es igual a msn para ángulos menores que
+    la figura P4.67. Utilice la tabla 4.2, para determinar a) la                  uc? Explique. ¿Qué puede concluir acerca de la magni-
+    aceleración de los dos bloques y b) la tensión en la cuerda.                  tud de la fuerza de fricción para cualquier ángulo u # uc?
+68.        Un objeto de masa m1 cuelga de una cuerda que                          c) Muestre que el coeficiente de fricción estática se cono-
+      pasa por una polea fija P1, como se muestra en la figura                    ce mediante ms 5 tan uc . d) Una vez que la moneda inicia
+      P4.68. La cuerda se conecta a una segunda polea P2 muy                      el deslizamiento hacia abajo sobre el plano, el ángulo se
+      ligera. Una segunda cuerda pasa alrededor de esta polea                     puede ajustar a un valor nuevo uc9 # uc tal que la moneda
+      con un extremo sujeto a una pared y el otro a un objeto                     se mueva hacia abajo sobre el plano con rapidez constan-
+                                                                                  te. ¿Cómo haría la observación que le permita obtener el
+                                                                                  coeficiente de fricción cinética?
+                         T2        P2
+                                             P1                             71.         Un pescador inspecciona los postes de su bote para
+                        m2                                                        su próxima pesca. Empuja paralelamente a lo largo del
+                                                                                  poste ligero, ejerciendo una fuerza de 240 N en la parte
+                                                  T1                              inferior de un lago poco profundo. El poste se encuentra
+                                                                                  en el plano vertical que contiene la quilla del bote. En
+                                                                                  un momento, el poste hace un ángulo de 35.0° con la
+                                             m1                                   vertical, y el agua ejerce una fuerza de arrastre horizon-
+                                                                                  tal de 47.5 N sobre el bote, opuesto a su velocidad hacia
+                                                                                  delante de magnitud 0.857 m/s. La masa del bote inclu-
+                              Figura P4.68                                        yendo su carga y el trabajador es 370 kg. a) El agua ejerce
+122      CAPÍTULO 4 | Leyes de movimiento
+
+      una fuerza de empuje vertical ascendente sobre el bote.           hacia arriba en un ángulo de 65.0° sobre la horizontal.
+      Calcule la magnitud de esta fuerza. b) Considere que las          La nave se eleva con velocidad constante en la dirección
+      fuerzas son constantes en un intervalo de tiempo breve.           vertical mientras continúa acelerando en la dirección ho-
+      Determine la velocidad del bote 0.450 s después del mo-           rizontal. a) ¿Cuál es el peso de la nave? b) ¿Cuál es la
+      mento descrito. c) Si el ángulo del poste con respecto a la       aceleración horizontal?
+      vertical aumenta, pero la fuerza ejercida contra el fondo     77. La tabla intercalada entre otras dos en la figura P4.77
+      permanece igual, ¿qué le sucedería a la fuerza boyante y          pesa 95.5 N. Si el coeficiente de fricción entre las tablas
+      la aceleración del bote?                                          es 0.663, ¿cuál debe ser la magnitud de las fuerzas de
+72.         Una cuerda con masa mr                             S        compresión (suponiéndolas
+                                                      mr       F
+      se une a un bloque con masa            mb                         horizontales) que actúan so-
+      mb como en la figura P4.72.                            x          bre ambos lados del centro
+      Ambos, la cuerda y el bloque,                                     de la tabla para evitar que se
+      yacen en reposo sobre una                 Figura P4.72            deslice?
+      superficie horizontal sin fric-                               78. Un trineo que pesa 60.0 N se
+      ción. La cuerda no se estira.                                     jala horizontalmente a través
+      El extremo libre de la cuerda se jala hacia la derecha con        de la nieve de tal modo que              Figura P4.77
+      una fuerza horizontal F. a) Trace el diagrama de cuerpo           el coeficiente de fricción ci-
+      libre para la cuerda y el bloque, observe que la tensión          nética entre el trineo y la
+      en la cuerda no es uniforme. b) Determine la acelera-             nieve es 0.100. Un pingüino
+      ción del sistema en términos de mb, mr y F. c) Encuentre la       que pesa 70.0 N viaja sobre
+      magnitud de la fuerza que ejerce la cuerda en el bloque.          el trineo, como en la figura
+      d) ¿Qué le sucede a la fuerza en el bloque cuando la masa         P4.78. Si el coeficiente de                              S
+      de la cuerda se aproxima a cero? ¿Qué puede establecer                                                                     F
+                                                                        fricción estática entre el pin-
+      acerca de la tensión en una cuerda ligera que une un par          güino y el trineo es 0.700, ha-
+      de objetos en movimiento?                                         lle la fuerza horizontal máxi-
+73. Una camioneta acelera hacia                                         ma que se puede ejercer en               Figura P4.78
+    abajo en una colina (figura                                         el trineo antes que el pingüi-
+    P4.73), al ir desde el reposo                                       no empiece a deslizarse.
+    hasta 30.0 m/s en 6.00 s. Du-                   u
+                                                                    79. Un hombre de 72 kg está de pie sobre una balanza de re-
+    rante la aceleración, un ju-              u
+                                                                        sorte en un elevador. Partiendo desde el reposo, el eleva-
+    guete (m 5 0.100 kg) cuelga                                         dor asciende, alcanzando su rapidez máxima de 1.2 m/s
+    de una cuerda desde el cielo                                        en 0.80 s. El elevador viaja con esta rapidez constante
+                                           Figura P4.73
+    raso de la camioneta. La ace-                                       por 5.0 s, se somete a una aceleración negativa uniforme por
+    leración es tal que la cuerda                                       1.5 s y después llega al reposo. ¿Qué registro hace la balan-
+    permanece perpendicular al cielo raso. Determine a) el              za a) Antes que el elevador empiece a moverse? b) Durante
+    ángulo u y b) la tensión en la cuerda.                              los primeros 0.80 s del ascenso del elevador? c) Mientras
+74. Un estudiante de física curioso, que desea combinar pla-            el elevador está viajando con rapidez constante? d) Du-
+    cer con investigación científica, pasea en una montaña              rante la aceleración negativa del elevador?
+    rusa sentado sobre una báscula de baño. (No lo intente          80. Un mago jala un mantel por debajo de una taza de 200 g
+    ya que están prohibidos paquetes pesados, sin estar fijos.)         ubicada a 30.0 cm del borde del paño. El paño ejerce una
+    El fondo del asiento del vagón es un plano paralelo a               fuerza de fricción de 0.100 N sobre la taza y es arrastrada
+    la vía. El asiento tiene un respaldo perpendicular y un             con una aceleración cons-
+    cinturón de seguridad que se ajusta alrededor del pecho             tante de 3.00 m/s2. ¿Qué
+    del estudiante en un plano paralelo al fondo del asiento.           distancia relativa a la mesa
+    El estudiante levanta sus pies desde el piso de tal modo            se mueve la taza antes que
+    que su peso en la escala de la báscula indica 200 lb cuan-          el paño se retire por com-
+    do el vagón está horizontal. En un punto durante el pa-             pleto de debajo de ella?
+    seo, el vagón baja con fricción despreciable sobre una              Observe que el paño debe
+    pendiente recta a 30.0° por debajo de la horizontal. ¿Qué           moverse más de 30 cm re-
+    lectura se registra en la escala en ese punto?                      lativo a la mesa durante el
+75. El paracaídas en un automóvil de carreras de 8 820 N de             proceso.
+    peso se abre al final de la competencia de un cuarto de mi-     81. Un ingenioso niño desea
+    lla cuando el automóvil está viajando a 35 m/s. ¿Cuál es la         alcanzar una manzana en
+    fuerza de retraso total que debe proporcionar el paracaídas         un árbol sin trepar por
+    para detener el automóvil en una distancia de 1000 m?               él. Sentado en una silla
+76.       En el despegue de un aeroplano, la acción combina-            unida a una cuerda que
+      da del aire alrededor de los motores y las alas de un aero-       pasa sobre una polea sin
+      plano ejerce una fuerza de 8 000 N sobre la nave, dirigida        fricción (figura P4.81),                Figura P4.81
+                                                                                                                  | Problemas      123
+
+      jala el extremo libre de la cuerda con tal fuerza que la       84.         En la figura P4.84, ignore
+      lectura en la balanza del resorte es 250 N. El peso real del         las masas de las poleas y del ca-
+      pequeño es de 320 N, y el de la silla es de 160 N los pies           ble. Todas las superficies están
+      del pequeño no tocan el suelo. a) Muestre que la acele-              libres de fricción. a) ¿Cómo               m1
+      ración del sistema es positiva y encuentre su magnitud.              es la aceleración del bloque 1
+      b) Determine la fuerza que ejerce el pequeño sobre la                comparada con la aceleración
+      silla.                                                               del bloque 2? Explique su ra-
+                                                                                                                                  m2
+82. Un helicóptero de bomberos transporta un recipiente de                 zonamiento. b) La masa del
+    agua de 620 kg en el extremo de un cable de 20.0 m de lar-             bloque 2 es m2 5 1.30 kg. De-
+    go. Volando de regreso desde un incendio con una rapi-                 duzca una expresión para la                Figura P4.84
+    dez constante de 40.0 m/s, el cable hace un ángulo de                  aceleración del bloque de masa
+    40.0° con respecto a la vertical. Determine la fuerza ejer-            m2 en función de la masa m1 del bloque 1. c) ¿Qué sig-
+    cida por la resistencia del aire sobre el recipiente.                  nifica el resultado del inciso b) si m1 es muy mucho me-
+                                                 S
+                                                                           nor que 1.30 kg? d) ¿Que significa el resultado del inciso
+83.       Una caja de peso    Fg es empuja-      P
+                          S                                                b) si m1 tiende a infinito? e) En este último caso, ¿cuál es
+      da por una fuerza P sobre la hori-               u
+                                                                           la tensión de la cuerda? f) ¿Podría prever las respuestas
+      zontal como se muestra en la figura
+                                                                           a los incisos c), d) y e) sin resolver primero el inciso b)?
+      P4.83. El coeficiente de de fricción
+                       S                                                   Explique.
+      estática es ms y P es dirigida en un
+      ángulo u por debajo de la horizontal.                          85.        ¿Qué fuerza horizontal                 m2
+      a) Demostrar que el mínimo valor de            Figura P4.83          se debe aplicar al bloque de
+      P que se mueve la caja está dado por                                 masa M como se muestra en S                          m1
+                                                                                                           F            M
+                                                                           la figura P4.85 para que los
+                                   ms Fg sec u                             bloques permanezcan inmó-
+                            P5                                             viles con respecto a M? Su-
+                                 1 2 ms tan u
+                                                                           ponga que en las superficies           Figura P4.85
+      b) Halle la condición de u en términos de ms para que el             y la polea no hay fricción. Su-
+      movimiento de la caja sea nulo para cualquier valor de P.            ponga que la fuerza ejercida por la cuerda acelera m2.

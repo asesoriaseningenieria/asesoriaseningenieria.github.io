@@ -1,0 +1,98 @@
+Interpolación de Hermite
+
+Definición (polinomio osculante). Sean x0 , . . . , xn ∈ [a, b] números distintos y mi ≥ 0
+un entero no negativo asociado a xi para i ∈ {0, . . . , n}. Supongamos que f ∈ Cm [a, b],
+donde m = max{m0 , . . . , mn }. El polinomio osculante que aproxima f es el polinomio P
+de menor grado que concuerda con la función f y con todas sus derivadas de orden ≤ mi
+en xi para cada i ∈ {0, . . . , n}:
+
+                    P(k) (xi ) = f(k) (xi ),      0 ≤ i ≤ n,             0 ≤ k ≤ mi .
+
+
+Grado del polinomio osculante.
+                                                              X
+                                                              n
+                                   deg(P) ≤ M = n +                  mi .
+                                                              i=0
+
+
+Caso particular: polinomio de Taylor. Corresponde a n = 0 (un punto).
+
+
+Caso particular: polinomio de Lagrange. Corresponde a m0 = . . . = mn = 0 (no
+hay condiciones para las derivadas).
+
+
+Caso particular: polinomio de Hermite. Cuando m0 = . . . = mn = 1.
+
+
+1. Teorema (existencia y unicidad del polinomio de Hermite). Sean x0 , . . . , xn ∈
+[a, b] números distintos, f ∈ C1 [a, b]. Entonces existe un único polinomio H que concuerde
+con f y f 0 en x0 , . . . , xn . Este polinomio está dado por
+                                     X
+                                     n                       X
+                                                             n
+                           H(x) =           f(xj )Hj (x) +         f 0 (xj )H
+                                                                            ^ j (x),
+                                      j=0                    j=0
+
+
+donde
+              Hj (x) = (1 − 2(x − xj )Lj0 (xj ))L2j (x),           ^ j (x) = (x − xj )L2j (x).
+                                                                   H
+Aquı́
+                                                   Y x − xk
+                                       Lj (x) =                 .
+                                                  0≤k≤n
+                                                        xj − xk
+                                                   k6=j
+
+
+                          Interpolación de Hermite, página 1 de 2
+2. Construcción del polinomio de Hermite usando diferencias divididas. Defi-
+namos puntos z0 , . . . , z2n+1 por medio de
+
+                              z2j = z2j+1 = xj ,           i ∈ {0, . . . , n}.
+
+y ponemos las condiciones
+
+                  f[z2j ] = f[z2j+1 ] = f(xj ),     f[z2j , z2j+1 ] = f 0 (z2j ) = f 0 (xj ).
+
+Calculemos las demás diferencias divididas como siempre. Entonces
+
+                                 X
+                                 2n+1
+                       H(x) =           f[z0 , . . . , zk ](x − z0 ) · · · (x − zk−1 ).
+                                  k=0
+
+
+3. Ejemplo. Construyamos el polinomio de Hermite que concuerde con f y f 0 en los
+puntos x0 = −1, x1 = 2, si
+
+                  f(−1) = −9,      f 0 (−1) = 10,            f(2) = 12,          f 0 (2) = 13.
+
+Tabla de diferencias divididas (los datos iniciales están escritos con azul):
+
+        z0 = −1    f[z0 ] = −9
+        z1 = −1    f[z1 ] = −9 f[z0 , z1 ] = 10
+        z2 = 2     f[z2 ] = 12 f[z1 , z2 ] = 7 f[z0 , z1 , z2 ] = −1
+        z3 = 2     f[z3 ] = 12 f[z2 , z3 ] = 13 f[z1 , z2 , z3 ] = 2 f[z0 , z1 , z2 , z3 ] = 1
+
+Respuesta: H(x) = x3 − x2 + 5x − 2.
+
+
+4. Ejercicio. Construya el polinomio de Hermite que concuerde con f y f 0 en los puntos
+−3, 2, si
+               f(−3) = −29, f 0 (−3) = 47,      f(2) = 6, f 0 (2) = 17.
+Haga la comprobación.
+
+
+5. Ejercicio. Construya el polinomio de Hermite que concuerde con f y f 0 en los puntos
+−1, 0, 2, si
+
+    f(−1) = 5, f 0 (−1) = 12,           f(0) = 2, f 0 (0) = −7,             f(2) = −40, f 0 (2) = −51.
+
+Haga la comprobación. Respuesta: H(x) = x5 − 4x4 + x2 − 7x + 2.
+
+
+                         Interpolación de Hermite, página 2 de 2

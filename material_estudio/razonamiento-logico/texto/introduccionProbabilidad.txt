@@ -1,0 +1,2011 @@
+Universidad de Puerto Rico en Bayamón
+                Departamento de Matemáticas
+
+
+MÓDULO 6:
+                   PROBABILIDAD
+                       (10 mo – 12 mo)
+
+
+                         Preparado por:
+                    Prof. Adalberto Agosto
+      Catedrático Auxiliar, Departamento de Matemáticas
+           Universidad de Puerto Rico en Bayamón
+                           junio 2010
+                                  PRE-PRUEBA
+
+Resuelva cada uno de los siguientes ejercicios y escoja la alternativa correcta.
+
+1.   La probabilidad que se basa en la frecuencia relativa de un evento se conoce
+     como probabilidad
+     a.   empírica
+     b.   teórica
+     c.   subjetiva
+     d.   clásica
+
+
+2.   Tres monedas son lanzadas al azar. La probabilidad de que se obtengan
+     exactamente dos caras es
+          1
+     a.       /3
+          3
+     b.       /8
+          1
+     c.       /2
+          2
+     d.       /3
+
+3.   Si P(A) = 0.3 y P(B) = 0.4 donde A y B son eventos mutuamente excluyentes,
+     entonces la probabilidad de que A y B ocurran simultáneamente es:
+     a.   0
+     b.   0.12
+     c.   0.58
+     d.   0.7
+
+4.   Sea P(A) = 0.2 y P(B) = 0.5, donde A y B son independientes, entonces
+     P(A o B) =
+     a.   0
+     b.   0.1
+     c.   0.6
+     d.   0.7
+
+
+                                                                                    2
+     Utilice la siguiente información para contestar las preguntas 5 - 7.
+
+     Un líder comunitario desea conocer la opinión de la gente de su comunidad sobre
+     cierta medida legislativa que se discute en el Senado. La siguiente tabla ilustra
+     los resultados de una encuesta realizada sobre una muestra representativa de
+     300 miembros de la comunidad.
+
+                                                      A favor En contra Neutral Totales
+                                          Hombres       45         15       10      70
+                                           Mujeres      90        110       30      230
+                                           Totales      135       125       40      300
+
+Si seleccionamos, al azar, a un individuo de la muestra:
+
+5.    ¿Cuál es la probabilidad de que la persona seleccionada sea hombre y que
+       esté a favor de la medida legislativa?
+
+        a.   0.3333
+        b.   0.6429
+        c.   0.3200
+        d.   0.1500
+
+6.    ¿Cuál es la probabilidad de que la persona seleccionada no sea neutral,
+       sabiendo que es mujer?
+
+        a.   0.8696
+        b.   0.7692
+        c.   0.6667
+        d.   0.3000
+
+7.    ¿Cuál es la probabilidad de que la persona seleccionada esté a favor de la
+       medida legislativa o sea un hombre?
+
+        a.   0.6833
+        b.   0.5333
+        c.   0.6429
+        d.   0.6585
+
+
+                                                                                     3
+8.    Un envase contiene 3 canicas rojas, 5 azules y 2 blancas. Dos canicas son
+      extraídas al azar y sin reemplazo del envase. La probabilidad de que la
+      segunda canica no sea roja dado que la primera no fue roja es:
+           7
+      a.       /9
+           7
+      b.       /10
+           6
+      c.       /9
+           6
+      d.       /10
+
+
+9.    El número total de distintas formas en que se pueden repartir tres diferentes
+      premios a tres diferentes personas entre cinco participantes es:
+
+      a.   15
+      b.   20
+      c.   60
+      d.   125
+
+
+10.   Un candado de combinaciones abre con una secuencia de tres dígitos
+      distintos. Si seleccionamos una secuencia de tres dígitos distintos al
+      azar, la probabilidad de abrir el candado con esta secuencia es:
+
+           1
+      a.       /1000
+           3
+      b.       /10
+           1
+      c.       /120
+           1
+      d.       /720
+
+
+                                                                                      4
+                                    OBJETIVOS
+
+
+Luego de finalizar el estudio de este módulo estarás capacitado para
+
+      1.     distinguir entre probabilidad empírica, teórica y subjetiva.
+
+      2.     determinar el espacio muestral generado en un experimento.
+
+      3.     determinar si un evento dado de un espacio muestral es simple o no.
+
+      4.     determinar la probabilidad asociada a un evento simple.
+
+      5.     determinar la probabilidad asociada al complemento de un evento.
+      6.     definir y distinguir eventos compuestos.
+      7.     determinar la probabilidad asociada a un evento compuesto.
+      8.     definir eventos mutuamente excluyentes y eventos independientes.
+      9.     distinguir entre eventos dependientes e independientes.
+      10.    calcular la probabilidad de eventos mutuamente excluyentes y
+
+             eventos independientes.
+
+      11.    calcular la probabilidad condicional de un evento.
+      12.    utilizar las reglas de la suma y la multiplicación para hallar
+
+             probabilidades.
+
+      13.    resolver problemas de conteo utilizando la regla fundamental de
+
+             conteo, permutaciones y combinaciones.
+
+      14.    calcular probabilidades que involucren permutaciones y
+             combinaciones .
+
+
+                                                                                   5
+                           JUSTIFICACIÓN
+
+
+      La probabilidad mide la frecuencia con la que se obtiene un resultado (o
+conjunto de resultados) al llevar a cabo un experimento aleatorio, del que se
+conocen todos los resultados posibles.       La teoría de la probabilidad tiene sus
+comienzos con los juegos de azar, pero hoy en día se usa extensamente en áreas
+como la estadística, la física, la matemática, la ciencia y la filosofía para llegar a
+conclusiones sobre la probabilidad de sucesos potenciales.
+
+      Este módulo ha sido diseñado con el propósito de desarrollar en usted los
+conocimientos básicos acerca de conceptos de probabilidad, así como las destrezas
+relacionadas al uso de sus reglas y técnicas de conteo para calcular la probabilidad
+de que ocurran eventos.
+
+
+                                                                                    6
+                INTRODUCCIÓN A LA PROBABILIDAD
+
+       Un experimento es una situación que da lugar a uno o varios resultados
+identificables. La probabilidad pertenece a la rama de la matemática que estudia
+ciertos experimentos llamados aleatorios, o sea, regidos por el azar, en que se
+conocen todos los resultados posibles, pero no se tiene la certeza de cuál será en
+particular el resultado del experimento. Por ejemplo, experimentos aleatorios
+cotidianos son el lanzamiento de una moneda, el lanzamiento de un dado y la
+extracción de una carta de un paquete de cartas. De aquí en adelante, cada vez
+que decimos experimento nos referimos a un experimento aleatorio.
+
+
+CONCEPTOS BÁSICOS
+       A continuación les presentamos algunas definiciones de conceptos básicos de
+la teoría de la probabilidad.
+
+       Evento - Llamamos evento a cualquier conjunto de uno o más resultados u
+observaciones de un experimento.
+
+              Ejemplo 1: Obtener un 5 al realizar el experimento de lanzar al azar
+                     un dado de seis caras balanceado (todas las caras del dado son
+                     igualmente probables).
+
+
+       De aquí en adelante, de no especificar otro tipo de dado nos referimos a un
+dado balanceado.
+
+       Para el siguiente ejemplo entendamos que tradicionalmente decimos cara
+cuando obtenemos el lado de la moneda americana que contiene la imagen de un
+presidente y al otro lado lo llamamos cruz.
+
+
+                                                                                 7
+             Ejemplo 2: Obtener una cara y una cruz en el experimento de lanzar
+                   dos monedas americanas, ambas al azar.
+
+      Notemos que se obtiene el 5 en el dado de una sola forma, pero una cara y
+una cruz en dos monedas hay dos formas distintas de obtenerse (cara-cruz y cruz-
+cara). O sea, que en el ejemplo 1 el evento consta de una sola observación posible
+y en el ejemplo 2 el evento consta de dos observaciones posibles.
+
+      Evento Simple - Llamamos evento simple a cualquier evento que consta de
+      un solo resultado u observación de un experimento.
+
+             Ejemplo 3: Obtener un 3 al lanzar un dado al azar es un evento
+                   simple pues ocurre de una sola forma.
+
+             Ejemplo 4: Obtener un número impar al lanzar un dado al azar no es
+                   un evento simple pues ocurre de más de una forma, pues puede
+                   ser 1, 3 ó 5.
+
+      Espacio Muestral - El espacio muestral de un experimento es el conjunto
+      que contiene solamente a todos los eventos simples posibles. De aquí en
+      adelante utilizaremos la letra S para referirnos al espacio muestral.
+
+             Ejemplo 5: Halle el espacio muestral de lanzar al azar un dado.
+
+             Respuesta: S = {1, 2, 3, 4, 5, 6}
+
+             Ejemplo 6: Halle el espacio muestral de lanzar al azar dos monedas
+                   americanas.
+
+             Respuesta: S = {(cara-cara), (cara-cruz), (cruz-cara), (cruz-cruz)}
+
+
+                                                                                   8
+Ejercicios 1:
+
+1.    Lanzamos un dado y luego una moneda americana, ambos al azar.
+      a.        Halle el espacio muestral.
+      b.        Determine si cada uno de los siguientes eventos es simple o no.
+                i.     obtener 5 en el dado y cruz en la moneda
+                ii.    obtener 3 en el dado
+                iii.   obtener cara en la moneda
+
+
+2.    Una pareja planifica tener tres hijos. Considerando sólo el género de éstos:
+      a.        halle el espacio muestral.
+      b.        determine si cada uno de los siguientes eventos es simple o no.
+                i.     obtener un solo varón
+                ii.    obtener 3 niñas
+                iii.   obtener un varón como primogénito
+                iv.    obtener todos sus hijos de igual género
+
+
+NOTACIÓN DE PROBABILIDAD
+
+
+      Antes de seguir profundizando en el campo de la teoría de la probabilidad es
+importante presentarles algunas notaciones básicas de la misma. Utilizaremos la
+letra P para denotar una probabilidad. Es común utilizar letras mayúsculas como A,
+B y   C para denotar eventos específicos de un experimento.           Por lo tanto, la
+probabilidad de que ocurra el evento A lo denotamos como P(A).
+
+
+                                                                                     9
+DEFINICIONES DE PROBABILIDAD
+
+       La probabilidad de que ocurra un evento se mide por un número entre cero y
+uno, inclusive. Si un evento nunca ocurre, su probabilidad asociada es cero,
+mientras que si ocurriese siempre su probabilidad sería igual a uno. Así, las
+probabilidades suelen venir expresadas como decimales, fracciones o porcentajes.
+En el caso de utilizar fracciones para expresar probabilidades, las mismas pueden
+ser simplificadas pero no es necesario hacerlo.
+
+       Existen diferentes formas para definir la probabilidad de un evento basadas
+en formas distintas de calcular o estimar la probabilidad.           A continuación
+discutiremos    tres diferentes enfoques.     Seleccionar uno de los tres enfoques
+dependerá de la naturaleza del problema.
+
+
+1.   Definición Clásica de Laplace, “A Priori” o Teórica
+
+       El enfoque clásico o "a priori" para definir la probabilidad es proveniente de
+los juegos de azar. Esta definición es de uso limitado puesto que descansa sobre la
+base de las siguientes dos condiciones:
+       i.      El espacio muestral (S) del experimento es finito (su número total de
+       elementos es un número natural n = 1, 2, 3, …).
+       ii.     Los resultados del espacio muestral deben ser igualmente probables
+       (tienen la misma posibilidad de ocurrir).
+
+       Bajo estas condiciones, suponga que realizamos un experimento. El número
+total de elementos del espacio muestral del experimento es denotado como n(S).
+Dicho de otro modo, n(S) representa el número total de eventos simples distintos
+posibles al realizar un experimento.      Además,    si   A   es un evento de este
+experimento, el número total de elementos del espacio muestral contenidos en A es
+denotado como n(A). Es decir, n(A) representa el número total de formas distintas
+en que A puede ocurrir.     Entonces, la probabilidad de que A ocurra la definimos
+como
+
+
+                                                                                  10
+                   n( A) número de formas distintas en que A puede ocurrir
+       P( A) =            =
+                   n( S )   número total de eventos simples distintos posibles .
+
+
+      A partir de esta definición las probabilidades de los posibles resultados del
+experimento se pueden determinar a priori, es decir, sin realizar el experimento.
+
+
+      Ejemplo 7: Al lanzar un dado al azar, ¿cuál es la probabilidad de obtener un
+número par?
+
+      Solución:        Suponga que A es el evento de obtener un número par al
+lanzar un dado al azar. Notemos que S = {1, 2, 3, 4, 5, 6} y todos los resultados
+igualmente probables. Además, A puede ocurrir de tres formas distintas (2, 4 ó 6).
+Por lo tanto, n( A) = 3 y n(S ) = 6 entonces
+
+                                                 n( A)
+                                      P ( A) =
+                                                 n( S )
+
+                                                 3
+                                      P ( A) =
+                                                 6
+                                                 1
+                                      P ( A) =     .
+                                                 2
+
+      Ejemplo 8: Si se extrae una carta de un paquete de 52 cartas de las cuales
+26 son negras (13 espadas A, 2, 3, … , 10, J, Q, K); 13 son tréboles); y 26 son rojas
+(13 corazones y 13 diamantes), halle la probabilidad de que la carta sea
+              a.       una K.
+              b.       roja.
+              c.       de diamante.
+
+
+                                                                                    11
+       Solución:
+              a.      Suponga que K es el evento de obtener una carta que sea K,
+                                n( K )    4    1
+       entonces      P( K ) =          =    =       porque el evento de "extraer una K"
+                                n( S )   52   13
+       consta de 4 de los 52 resultados igualmente probables.
+
+
+              b.     Suponga que R es el evento de obtener una carta que sea roja,
+                            26 1
+       entonces P ( R ) =     =  porque el evento de "extraer una carta roja" consta
+                            52 2
+       de 2 de los 52 resultados igualmente probables.
+
+
+              c.      Suponga que D es el evento de obtener una carta que sea de
+                                           13 1
+       diamante, entonces P ( D ) =          =  porque el evento de "extraer una carta
+                                           52 4
+       de diamante" consta de 13 de los 52 resultados igualmente probables.
+
+
+       Ejemplo 9:       ¿Cuál es la probabilidad de que en una familia que tiene tres
+hijos, haya dos niñas y un niño, si se considera igualmente probable el nacimiento
+de un niño o niña?
+
+       Solución:      Usando "a" para niña y "o" para niño, el espacio muestra           es:
+S = {aaa, aao, aoa, aoo, oaa, oao, ooa, ooo}            por lo que n(S) = 8.    Definimos el
+evento A como que haya dos niñas y un niño, entonces              A = {aao, aoa, oaa }    y
+                                           n( A)
+n(A) = 3. Por lo tanto,         P ( A) =
+                                           n( S )
+
+                                           3
+                                P ( A) =
+                                           8
+                                P ( A) = 0.375      o        P ( A) = 37.5% .
+       Bajo las mismas premisas de este ejemplo, podemos concluir que el 37.5%
+de las familias que tienen tres hijos, de éstos dos son niñas y uno es niño.
+
+
+                                                                                         12
+Ejercicios 2: Conteste
+
+1.    Si usted es una de 7 personas de las cuales seleccionarán una al azar y todas
+las personas tienen igual probabilidad de ser seleccionada, ¿cuál es la probabilidad
+de que usted sea seleccionada?
+
+
+2.    En un envase hay 2 canicas rojas, 4 negras y 5 blancas. Si seleccionamos al
+azar una de estas canicas, ¿cuál es la probabilidad de que la canica sea negra?
+
+
+3.   La siguiente ruleta circular está dividida en 8 sectores iguales. Si se gira la
+ruleta aleatoriamente, (Suponga que la aguja no cae en las divisiones.)
+
+
+      a.    ¿cuál es la probabilidad de que la aguja caiga en un sector marcado con
+            líneas horizontales?
+       b.   ¿cuál evento predecirías?
+
+4.    Dos dados son lanzados al azar, uno rojo y uno blanco.
+
+      a.     Halle la probabilidad de que la suma sea 6.
+      b.     ¿Cuál debería ser su predicción para la suma de ambos dados?
+
+5.    En un grupo de 25 personas hay 16 de ellas casadas y 9 solteras. Si
+seleccionamos una de estas personas al azar, ¿cuál evento es más probable, soltera
+o casada?
+
+
+                                                                                       13
+2.    Definición Empírica, “A Posteriori”, Experimental o de Frecuencia
+      Relativa
+
+      La definición clásica se ve limitada a situaciones en las que hay un número
+finito de resultados igualmente probables. Lamentablemente, hay situaciones
+prácticas que no son de este tipo y la definición “a priori” no se puede aplicar. Por
+ejemplo, si se pregunta por la probabilidad de que un paciente se cure mediante
+cierto tratamiento médico, o la probabilidad de que una determinada máquina
+produzca artículos defectuosos, entonces no hay forma de introducir resultados
+igualmente probables.      Para responder a estas preguntas podemos utilizar el
+enfoque empírico, en el cual para determinar los valores de probabilidad se requiere
+de la observación y de la recopilación de datos. La definición empírica se basa en la
+frecuencia relativa de ocurrencia de un evento con respecto a un gran número de
+repeticiones del experimento. En otras palabras, la definición empírica se basa
+número de veces que ocurrió el evento entre el número total de repeticiones del
+experimento. También se le denomina a posteriori, ya que el resultado se obtiene
+después de realizar el experimento un cierto número grande de veces.
+
+
+      Si queremos conocer la probabilidad del evento A según este enfoque
+realizamos el experimento un gran número de veces y contamos cuántas veces A
+ocurre. Con base en estos resultados reales, P(A) se estima de la siguiente forma:
+
+
+                               número de veces que ocurrió A
+               P( A) =
+                         número de veces que se repitió el experimento .
+
+
+      Este enfoque de probabilidad no implica ningún supuesto previo de igualdad
+de probabilidades.
+
+
+                                                          Moneda Obtenida Frecuencia
+                                                                              14
+      Ejemplo 10: Queremos         seleccionar     una          25¢             15
+moneda al azar de un envase que          contiene una           10¢             12
+
+cantidad desconocida de monedas de 25¢, 10¢, 5¢ y               5¢              18
+                                                                1¢                  5
+1¢. Para determinar la probabilidad de cada evento
+posible, seleccionamos 50 monedas al azar con reemplazo (la moneda seleccionada
+vuelve a echarse en el envase para la próxima selección) de este envase.        La
+siguiente tabla resume las frecuencias (veces que ocurren) de cada moneda.
+
+
+Según los datos recopilados, si seleccionamos una moneda de este envase,
+                           a. ¿cuál es la probabilidad de que sea de 25¢ ?     b.
+¿cuál es el evento menos probable?                                             c.
+¿cuál es el evento que debemos predecir?
+
+
+      Respuesta: Notemos que al no conocer el número de monedas de cada
+clase que hay en el envase, no podemos utilizar la probabilidad clásica para hallar
+la probabilidad de cada evento posible. Pero, utilizando los resultados anteriores
+resumidos en la tabla podemos concluir que:
+
+
+      a.   Si A es el evento de obtener una moneda de 25¢, entonces
+
+                      15   3
+           P ( A) =      =   .
+                      50 10
+      b.   El evento menos probable es el de menor frecuencia, es decir, obtener
+           una moneda de 1¢.
+      c.   El evento que debemos predecir es el más probable, por lo tanto, es el
+           evento de mayor frecuencia, es decir, obtener una moneda de 5¢.
+
+
+                                                                                    15
+         Ejemplo 11: Se conoce que una moneda está cargada. Esto significa que
+un lado de la moneda se obtiene con mayor frecuencia que el otro lado al lanzarla al
+azar un número grande de veces. Para determinar la probabilidad de que caiga
+cara, la moneda se lanza 60 veces al aire, de las cuales 24 veces cayó cara. Si
+aplicamos la fórmula obtenemos:
+
+                                                  24
+                                     P (cara) =
+                                                  60
+                                     P (cara) = 0.4
+                                     P (cara) = 40%
+
+         Al calcular probabilidades con este método de frecuencias relativas
+obtenemos una aproximación en vez de un valor exacto. A mayor número de veces
+que repitamos el experimento, más cerca estará la aproximación del valor real. Esta
+propiedad se enuncia en forma de teorema, el cual se conoce comúnmente como la
+ley de los números grandes.
+
+
+         Ley de los Números Grandes
+
+
+         Conforme un experimento se repite una y otra vez,        la probabilidad de
+frecuencias relativas de un evento tiende a aproximarse a la probabilidad real.
+
+
+       Cuando se usa la definición empírica, es importante tomar en cuenta los
+siguientes aspectos:
+
+  i.     La probabilidad obtenida de esta manera es únicamente una estimación del
+         valor real.
+ ii.     Cuanto mayor sea el número de repeticiones del experimento, tanto mejor
+         será la estimación de la probabilidad.
+
+
+                                                                                  16
+ iii.    La probabilidad es propia de sólo un conjunto de condiciones idénticas a
+         aquéllas en las que se obtuvieron los datos, o sea, la validez de emplear esta
+         definición depende de que las condiciones en que se realizó el experimento
+         sean repetidas idénticamente.
+
+
+Ejercicios 3:
+
+1.       Una tómbola contiene un número desconocido de cartas marcadas con una
+vocal cada una.       Con el propósito de estimar la probabilidad de obtener cada
+resultado, se extrajo una carta al azar y con reemplazo de esta tómbola varias
+veces. La siguiente gráfica de barras presenta los resultados. A base de estos
+resultados,
+
+
+                                              Vocales Obtenidas al Azar
+
+                                      9
+                                      8
+                                      7
+
+
+                         Frecuencia
+                                      6
+                                      5
+                                      4
+                                      3
+                                      2
+                                      1
+                                      0
+                                          A       E          I            O   U
+                                                          Vocal
+
+
+         a.     ¿cuál es el evento de menor probabilidad?
+         b.     ¿cuál es la probabilidad de obtener una E al extraer una carta de esta
+                tómbola?
+         c.     ¿cuál evento predecirías?
+2.      Realice el experimento de lanzar una tachuela al azar 30 veces. Utilice
+probabilidad empírica para determinar la probabilidad de que la tachuela caiga con la
+punta hacia arriba al lanzarla al azar.
+
+
+                                                                                    17
+3.    Definición Subjetiva
+
+      Esta definición de probabilidad se diferencia de los dos enfoques anteriores,
+debido a que tanto el enfoque clásico como el de frecuencia relativa producen
+valores objetivos de probabilidad. El enfoque subjetivo define la probabilidad de un
+evento a base del grado de confianza que una persona tiene de que el evento
+ocurra, teniendo en cuenta toda la evidencia que tiene disponible, fundamentado en
+la intuición, opiniones, creencias personales y otra información indirecta relevante.
+Debido a que el valor de la probabilidad es un juicio personal, al enfoque subjetivo
+se le denomina también como enfoque personalista.
+
+
+      El enfoque subjetivo no depende de la repetitividad de ningún evento y
+permite calcular la probabilidad de sucesos únicos.      Por ejemplo, ¿cuál es la
+probabilidad de que un edificio colapse ante un terremoto? Este evento puede que
+ocurra o que nunca ocurra,     pero es lógico pensar que no podemos repetir los
+terremotos un número grande de veces y contar el número de veces que el edificio
+colapsa para calcular esa probabilidad.   Sin embargo, un especialista en el área
+puede asignar una probabilidad basada en su juicio de toda la información relevante
+a la que pueda tener acceso.
+
+
+      Ejemplo 12: Un analista deportivo afirma que Estados Unidos tiene una
+probabilidad de 90% de ganar la medalla de oro en baloncesto en las próximas
+olimpiadas.   Notemos que esta probabilidad está basada en la confianza que el
+analista tiene de que el evento ocurra, con base en toda la evidencia que tiene
+disponible.
+
+
+      Ejemplo 13:     Un paciente le pregunta a su cardiólogo sobre cuánta
+probabilidad tiene de salir exitosa la operación de corazón abierto que le dijo que
+tenía que realizarle. Basado en el conocimiento de su condición y la experiencia
+obtenida al trabajar casos similares, el médico le contestó que tenía un 85% de
+probabilidad de que la operación sea un éxito.
+
+
+                                                                                  18
+Ejercicios 4:     Escoge la respuesta correcta:
+
+
+1.    La probabilidad de que terminen las negociaciones en un conflicto laboral en
+los próximos dos días es baja. Esto es un ejemplo de probabilidad
+      a.        clásica
+      b.        empírica
+      c.        subjetiva
+
+2.    En una compañía que produce tornillos se toman 1,000 de ellos para probar
+su calidad. Se encontró que 7 estaban defectuosos. Por lo tanto, la probabilidad de
+comprar uno de los tornillos que está compañía produce y que el mismo esté
+                    7
+defectuoso es           . Esto es un ejemplo de probabilidad
+                 1, 000
+      a.        clásica
+      b.        empírica
+      c.        subjetiva
+
+3.    Hay seis participantes en una competencia de canto. A cada uno de ellos se
+le asigna un número diferente del 1 al 6. Se lanza un dado y el número que se
+obtenga decide el primer participante para cantar.         La probabilidad de que el
+                                                          1
+participante número 4 sea el primero en cantar es           .   Esto es un ejemplo de
+                                                          6
+probabilidad
+      a.        clásica
+      b.        empírica
+      c.        subjetiva
+
+4.    A una profesora universitaria le pregunta uno de sus estudiantes la
+probabilidad de que él apruebe su curso. La profesora le contestó que un 50%.
+Esto es un ejemplo de probabilidad
+      a.        clásica
+      b.        empírica
+      c.        subjetiva
+
+
+                                                                                   19
+       De aquí en adelante nos vamos a concentrar en la probabilidad clásica por lo
+que vamos a presumir, aunque no esté explícito, que el espacio muestral es finito y
+todos los eventos simples del espacio muestral son igualmente probables.
+
+
+REGLAS DE PROBABILIDAD
+
+Dado cualquier evento imaginable, puede ocurrir una de tres cosas:
+       1.      es imposible que ocurra.
+       2.      es seguro que ocurre.
+       3.      la certeza de que ocurra está en un punto intermedio.
+
+Por lo tanto, podemos deducir lo siguiente:
+       1.      La probabilidad de un evento imposible es 0.
+       2.      La probabilidad de un evento que ocurrirá de seguro es 1.
+       3.      Para cualquier evento A, la probabilidad de que A ocurra se
+               encuentra entre 0 y 1, inclusive. Es decir, 0 ≤ P ( A) ≤ 1 .
+
+
+       Ejemplo 14: Al lanzar un dado al azar, la probabilidad de obtener un 7 es 0.
+Notemos que es imposible que ocurra este evento pues los resultados posibles son
+1, 2, 3, 4, 5 y 6.
+
+       Ejemplo 15: Al lanzar un dado al azar, la probabilidad de obtener un número
+menor que 7 es 1. Notemos que este evento ocurrirá de seguro pues todos los
+números posibles son menores de 7.
+
+       Considerando todo lo discutido anteriormente,              podemos deducir que la
+probabilidad de un evento vacío es 0, ya que no tiene posibilidad de que ocurra. Al
+
+evento vacío lo denotamos como           φ o { } (igual a la notación utilizada para el
+conjunto nulo o vacío). Además, la probabilidad del espacio muestral S es 1, ya
+que tiene todas las posibilidades de ocurrir. Es decir que,
+                             P(φ ) = 0       y     P( S ) = 1 .
+
+
+                                                                                      20
+EVENTOS COMPUESTOS
+
+      Los eventos compuestos se forman combinando dos o más eventos
+simples. A continuación discutiremos tres operaciones básicas con conjuntos que
+generan eventos compuestos.
+
+Definición:
+      Sean A y B dos eventos de un mismo espacio muestral S, entonces:
+
+
+      1.      La unión de A y B, denotada por A  B , es el evento que reúne
+todos los elementos de A       con los elementos de B (evitando la duplicidad de
+elementos). Es decir,
+
+                    A  B = {x | x ∈ A o x ∈ B} .
+Dicho de otro modo, A  B es el conjunto de todos los elementos que están en A,
+están en B o están en ambos conjuntos. Por lo tanto, la probabilidad de que
+ocurra A, de que ocurra B o de que ocurran ambos simultáneamente es denotada
+
+por P( A  B ) o P( A o B) .
+
+
+      Ejemplo 16:       En un grupo de 10 estudiantes universitarios hay 3 que toman
+un curso de inglés, 4 que toman un curso de matemáticas y 2 que toman ambos
+cursos. Halle la probabilidad de que al seleccionar uno de estos estudiantes al azar,
+el mismo tome el curso de inglés o el curso de matemáticas.
+
+      Solución:     De los 10 estudiantes hay 2 que toman ambos cursos. Por lo
+tanto, cuando nos dicen que 3 estudiantes toman el curso de inglés son éstos 2 y
+otro más.     Además, cuando nos dicen que 4 estudiantes toman un curso de
+matemáticas son éstos 2 y otros 2 más. Por lo tanto, el número total de estudiantes
+que toman el curso de inglés o el curso de matemáticas son los 2 que toman ambos
+cursos, el otro que toma inglés y los otros 2 que toman matemáticas. Por lo tanto,
+                                                          5
+                            P (inglés o matemáticas) =      = 0.5 .
+                                                         10
+
+
+                                                                                  21
+       2.    La intersección de A y B, denotada por A  B , es el evento que
+reúne todos los elementos comunes que pertenecen a ambos conjuntos. Es decir,
+
+                    A  B = {x | x ∈ A y x ∈ B} .
+      Dicho de otro modo,        A  B son todos los elementos que están en A y
+también están en B.        Por lo tanto,     la probabilidad de que ocurran A y B
+
+simultáneamente es denotada por P( A  B ) o P( A y B) .
+
+
+      Ejemplo 17:    Del ejemplo anterior, halle la probabilidad de que el estudiante
+seleccionado sea uno que tome el curso de inglés y el curso de matemáticas.
+
+      Solución:     De los 10 estudiantes hay 2 que toman ambos cursos. Por lo
+                                     2
+tanto, P (inglés y matemáticas) =      = 0.2 .
+                                    10
+
+
+      3.     El complemento de A, denotado por A (o por Ac), es el evento que
+
+reúne todos los elementos de S que no están en A. Es decir, A ocurre cuando A
+no ocurre y viceversa.           Utilizando la notación de conjuntos, definimos
+
+A = {x | x ∈ S y x ∉ A} . Por lo tanto, la probabilidad de que no ocurra A es la
+misma que la probabilidad de que ocurra su complemento y es denotada por
+
+P( A ) .
+
+      Ejemplo 18:          Un grupo de 30 personas se dividen en 8 hombres, 12
+mujeres, 7 niños y 3 niñas. Halle la probabilidad de que al seleccionar una de estas
+personas al azar, ésta no sea niño.
+
+      Solución:     De las 30 personas, 7 son niños y por lo tanto, 23 no son niños.
+                          23
+Entonces,    P (niño) =      .
+                          30
+
+
+                                                                                  22
+DIAGRAMAS DE VENN
+
+      Una de las gráficas más utilizadas para representar eventos compuestos y
+que facilita la interpretación y el cálculo de probabilidades es el diagrama de Venn.
+Los diagramas de Venn son gráficas pictóricas en las que comúnmente se utiliza un
+rectángulo para representar al espacio muestral (S) y círculos dentro del rectángulo
+para representar los eventos.    En ocasiones, los elementos de cada evento se
+insertan dentro del evento a que pertenecen y en otras ocasiones lo que se inserta
+dentro del evento es su probabilidad.
+
+      Ejemplo 19:       Considere el siguiente diagrama de Venn y determine los
+eventos compuestos indicados.
+                                                    S
+             a.      A B
+                                                                  A       B
+             b.      A B
+                                                                      2           5
+             c.      A                                        1
+                                                        3                     4
+             d.     B                                                                      6
+
+
+      Respuesta:     Notemos que S = { 1, 2, 3, 4, 5, 6} , entonces
+             a.      A  B es el conjunto de todos los elementos que están en A,
+                    están en B o están en ambos conjuntos. Por lo tanto, del
+                    diagrama podemos observar que A  B = {1, 2, 4, 5}.
+             b.      A  B es el conjunto de todos los elementos que están en A y
+                    también están en B. Por lo tanto, A  B = {2} .
+
+             c.      A es el conjunto de todos los elementos que no están en A.
+
+                    Por lo tanto, A = {3, 4, 5, 6} .
+
+             d.     B es el conjunto de todos los elementos que no están en B.
+
+                    Por lo tanto, B = {1, 3, 6} .
+
+
+                                                                                      23
+      Ejemplo 20: Sea S = { 1, 2, 3, 4, 5, 6, 7, 8}, A = { 2, 3, 5, 7} y B = {1, 2, 4, 5, 7}.
+Halle las siguientes probabilidades:
+
+      a.      P( A  B)                                b.        P( A  B)
+
+      c.      P( A )                                   d.        P( B)
+
+      e.      P( A  B)                                f.        P( A  B)
+
+
+      Respuesta:        Utilicemos el siguiente diagrama de Venn.
+
+             a.        A  B = {1, 2, 3, 4, 5, 7} ,                  S                                6
+                                                                                 A         B
+                                                      6
+                       por lo tanto,   P( A  B) =      = 0.75                         2          4
+                                                      8                      3         5
+             b.        A  B = {2, 5, 7} ,                                             7    1
+
+                                                     3                   8
+                       por lo tanto, P ( A  B ) =     = 0.375
+                                                     8
+
+                                                                     4
+             c.        A = {1, 4, 6, 8}, por lo tanto, P ( A ) =       = 0.5
+                                                                     8
+
+                                                                     3
+             d.        B = { 3, 6, 8}, por lo tanto, P ( B ) =         = 0.375
+                                                                     8
+
+                                                                             2
+             e.        A  B = {6, 8} , por lo tanto, P ( A  B ) = = 0.25
+                                                                   8
+
+                                                                                     5
+             f.        A  B = {1, 3, 4, 6, 8}, por lo tanto, P ( A  B ) =            = 0.625
+                                                                                     8
+
+
+                                                                                                 24
+      Ejemplo 21:       Sea S el espacio muestral donde P(A ) = 0.3, P(B ) = 0.4 y
+P ( A  B ) = 0.1 . Halle las siguientes probabilidades:
+
+      a.      P( A  B)                           b.       P( A )
+
+      c.      P( B)                               d.       P( A  B)
+
+
+      Respuesta:      Utilicemos el siguiente diagrama de Venn. Notemos que la
+región donde A y B ocurren simultáneamente tiene             S
+                                                                          A         B
+probabilidad 0.1. Además observemos que P(A) = 0.3
+es igual a la suma de las probabilidades dentro del                 0.2       0.1       0.3
+círculo que representa el evento A, es decir,
+                                                             0.4
+P(A) = 0.2 + 0.1. De manera similar, P(B) = 0.3 + 0.1.
+Por otro lado, notemos que probabilidad de que ocurra A y no ocurra B es la
+diferencia 0.3 – 0.1, es decir, 0.2. Es por esto que insertamos 0.2 dentro de A y
+fuera de B. Además, la probabilidad de que ocurra B y no ocurra A es la diferencia
+0.4 – 0.1, es decir, 0.3. Es por esto que insertamos 0.3 dentro de B y fuera de A.
+
+Como P ( S ) = 1 , entonces la probabilidad de que no ocurra A y no ocurra B tiene
+que ser 0.4 (1 – 0.2 – 0.1 – 0.3 = 0.4). Es por esto que insertamos 0.4 fuera de A
+y fuera de B. Entonces tenemos que:
+      a.      P ( A  B ) es la probabilidad de que ocurra A, ocurra B o ambos,
+
+              por lo tanto, P ( A  B ) = 0.2 + 0.1 + 0.3 = 0.6
+
+      b.      P ( A ) es la probabilidad de que A no ocurra, por lo tanto,
+
+              P ( A ) = 0.3 + 0.4 = 0.7 .
+
+      c.      P ( B ) es la probabilidad de que B no ocurra, por lo tanto,
+
+              P ( B ) = 0.2 + 0.4 = 0.6 .
+
+      d.      P ( A  B ) es la probabilidad de que ocurra A y no ocurra B, por lo
+
+              tanto, P ( A  B ) = 0.2 .
+
+
+                                                                                        25
+Ejercicios 5:
+
+1.    Si lanzamos dos dados al azar, uno rojo y uno blanco, halle la probabilidad
+de que:
+      a.        la suma de ambos dados sea 7.
+      b.        la suma de ambos dados no sea 6.
+      c.        la suma de ambos dados sea 2 ó 10.
+      d.        se obtenga el mismo número en ambos dados.
+      e.        lo obtenido en el dado rojo sea mayor que lo obtenido en el dado
+                blanco.
+
+
+2.    Sea S = { a, e, i, o, u}, A = { e, o, u} y B = { a, u}. Halle:
+
+      a.        P( A  B)                        b.     P( A  B)
+
+      c.        P( A )                           d.     P( B)
+
+      e.        P( A  B)
+
+
+3.    Considere el espacio muestral S donde P(A ) = 0.5, P(B ) = 0.4 y
+P ( A  B ) = 0.3 . Halle:
+
+      a.        P( A  B)                              b.       P( A )
+
+      c.        P( A  B)                              d.       P( A  B)
+
+
+                                                                                   26
+REGLA DE LA SUMA
+
+      La regla de la suma es un método para calcular probabilidades que pueden
+
+expresarse de la forma P ( A o B ) o P ( A  B ) , es decir, la probabilidad de que
+A ocurra o de que ocurra B (o de que ambos ocurran). Para calcular la probabilidad
+de que ocurra el evento A o el evento B, primero debemos determinar de cuántas
+formas distintas A ocurre y de cuántas formas distintas B ocurre, pero al computar
+el número total de formas no podemos contar un mismo resultado más de una vez.
+
+      La palabra clave es “o”. En el desarrollo de este módulo usaremos el “o”
+inclusivo, que significa: uno o el otro o ambos.
+
+      Regla de la Suma
+             Sean A y B dos eventos de un mismo espacio muestral S, entonces
+                           P( A o B) = P( A) + P( B) − P( A y B)
+
+             donde P ( A y B ) denota la probabilidad de que A y B ocurran al
+             mismo tiempo.
+
+      En la notación de conjuntos, la regla de la suma es:
+                           P( A  B) = P( A) + P( B) − P( A  B) .
+
+
+       Ejemplo 22: Una compañía le administra un examen a un grupo de 40 de
+sus empleados, que aspiran a cierta posición, para cualificarlos. La siguiente tabla
+resume los resultados divididos por género:
+
+
+                                  Masculino (M)    Femenino (F)
+                       Aprobó           7               2
+                       Fracasó         18              13
+
+
+                                                                                       27
+Si uno de estos empleados es seleccionado al azar, halle la probabilidad de que:
+      a.      sea masculino o aprobó el examen
+      b..     sea femenino o fracasó
+
+      Respuesta:      Utilizando la regla de la suma, tenemos que:
+              a.    P(M o aprobó) = P (M) + P(aprobó) – P(M y aprobó)
+                                         25   9   7   27
+                                     =      +   −   =
+                                         40 40 40 40
+              b.    P(F o fracasó) = P(F) + P(fracasó) – P(F y fracasó)
+                                         15 31 13 33
+                                     =     +  −  =
+                                         40 40 40 40
+
+Definición:
+      Sean A y B dos eventos de un mismo espacio muestral S. Decimos que A
+y B son eventos mutuamente excluyentes si no pueden ocurrir simultáneamente,
+es decir, A  B = φ . Por lo tanto, si A y B son eventos mutuamente excluyentes,
+
+entonces P ( A  B ) = 0 .
+
+
+      Ejemplo 23: En el experimento de lanzar un dado al azar,            el espacio
+muestral es S = {1, 2, 3, 4, 5, 6}. Si A es el evento de obtener un número par y
+B es el evento de obtener un numero impar, entonces A y B son eventos
+mutuamente excluyentes pues no pueden ocurrir simultáneamente ( si uno ocurre el
+otro no puede ocurrir).
+
+      La regla de la suma ya discutida establece que
+                             P( A  B) = P( A) + P( B) − P( A  B) .
+
+
+                                                                                 28
+Sin embargo, si A y B son eventos mutuamente excluyentes, entonces la regla
+
+de la suma será:                  P( A  B) = P( A) + P( B)
+
+ya que P ( A  B ) = 0 .
+
+
+       Claramente un evento cualquiera A y su complemento A son mutuamente
+excluyentes. Además, en todo experimento uno de ellos ocurre. Esto es debido a
+
+que o A ocurre o A no ocurre (lo que implica que A ocurre). Entonces tenemos
+que:
+
+                            P( A  A) = P( A) + P( A) = 1 .
+
+       Este resultado de la regla de la suma da lugar a las siguientes tres formas
+equivalentes:
+
+                1.   P( A) + P( A) = 1
+
+                2.   P( A) = 1 − P( A)
+
+                3.   P( A) = 1 − P( A)
+
+
+       Ejemplo 24: Una compañía que produce radios sabe que el 2.5% de los
+radios que produce salen defectuosos. Si seleccionamos al azar uno de estos
+radios, ¿cuál es la probabilidad de que el radio no esté defectuoso?
+
+       Respuesta: Sea D el evento de que salga defectuoso. Notemos que su
+
+complemento D será que no salga defectuoso. Como 2.5% = 0.025, entonces
+
+                                  P( D) = 1 − P( D)
+
+                            P( D) = 1 − 0.025 = 0.975
+
+
+                                                                                     29
+PROBABILIDAD CONDICIONAL
+
+      Ahora consideraremos el principio de que la probabilidad de un evento suele
+afectarse por el conocimiento previo de las circunstancias.         Por ejemplo,    si
+seleccionamos una persona al azar de la población de Puerto Rico, la probabilidad
+de obtener un varón es cercana a 50%, pero si usted ya sabe que además la
+persona a seleccionar es fanática del hipismo, entonces la probabilidad de obtener
+varón aumenta drásticamente ya que cerca del 90% de los fanáticos del hipismo son
+varones.
+
+Definición:
+      La probabilidad condicional de un evento B es la probabilidad de que B
+ocurra cuando ya sabemos que otro evento A ocurrió. Esta probabilidad se denota
+P(B | A) y la leemos “la probabilidad de B dado A”.
+
+
+      Ejemplo 25: Al lanzar un dado, halle la probabilidad de obtener:
+
+              a.    el número 4 dado que se obtuvo un número par.
+              b.    un número impar dado que se obtuvo un número menor que 6.
+
+      Respuesta:     Utilizando la probabilidad condicional, tenemos lo siguiente:
+              a.    Sabemos que se obtuvo un número par, por lo que hay 3
+                     posibles resultados: 2, 4 ó 6, de los cuales en sólo uno de ellos
+                                                              1
+                    ocurre el 4. Por lo tanto, P(4 | par) =     .
+                                                              3
+              b.    Sabemos que se obtuvo un número menor que 6, por lo que hay
+                     5 posibles resultados: 1, 2, 3, 4 ó 5, de los cuales en tres de
+                    ellos obtenemos un número impar. Por lo tanto,
+                                                 3
+                    P(impar | menor que 6) =       .
+                                                 5
+
+
+                                                                                   30
+Regla de la Probabilidad Condicional
+      Sean A y B dos eventos de un mismo espacio muestral S, entonces:
+                            P( A ∩ B) P( A y B)
+              P( A | B) =            =                donde   P( B) > 0
+                              P( B)     P( B)
+             y
+                            P( B ∩ A) P( B y A)
+              P( B | A) =            =                donde   P( A) > 0 .
+                              P( A)     P( A)
+
+      Ejemplo 26: ¿Cuál es la probabilidad de que una carta de póker escogida al
+azar de un paquete completo de cartas sea un as, sabiendo que la carta es roja?
+
+      Respuesta:      Las cartas de póker son 52. Estas se componen de 26 cartas
+rojas y 26 cartas negras. Además, las 26 cartas rojas se dividen en 13 cartas de
+corazones ( ) y 13 de diamantes ( ). Las 26 cartas negras se dividen en 13 cartas
+de espada ( ) y 13 de trébol ( ).     Cada uno de los grupos de 13 cartas tiene una
+carta de cada uno de los siguientes caracteres A, 1, 2, …, 10, J, Q, K. Entonces
+
+
+                                              P(as y roja)
+                             P(as | roja) =
+                                                P (roja)
+
+                                                2
+                             P(as | roja) =    52
+                                               26
+                                               52
+                                               2 52    1
+                             P(as | roja) =     ⋅   =
+                                              52 26   13 .
+
+
+      Ejemplo 27:      De un total de 14 músicos hay 4 que tocan el cuatro, 7 que
+tocan guitarra y 3 que tocan ambos instrumentos. Si seleccionamos al azar uno de
+estos músicos, halle la probabilidad de que toque el cuatro dado que toca guitarra.
+
+
+                                                                                      31
+       Respuesta:       Utilicemos el siguiente diagrama de Venn. Utilicemos C para
+representar el evento de obtener un cuatrista y G para representar el evento de
+obtener un guitarrista.      Como hay 3 músicos que tocan ambos instrumentos,
+entonces en la intersección de C y G hay 3 elementos. Ahora, hay 4 músicos que
+tocan el cuatro de los cuales ya tenemos contados 3 (los que tocan ambos
+instrumentos), por lo queda 1 que es un elemento de C pero no de G. Además, hay
+7 músicos que tocan la guitarra de los cuales ya tenemos contados 3 (los que tocan
+ambos instrumentos), por lo que quedan 4, los cuales son elementos de G pero no
+de C. Finalmente nos quedan 6 músicos que no tocan cuatro ni guitarra.
+
+
+       Recuerde que P (C y G ) es la probabilidad
+                                                          S
+de obtener un músico que toque cuatro y guitarra,
+                              3                                       C       G
+por lo tanto, P (C y G ) =      . Por otro lado, P (G )
+                             14
+                                                                  1       3       4
+es la probabilidad de obtener un músico que toque
+                                    7
+guitarra, por lo tanto, P (G ) =      .                       6
+                                   14
+Utilizando la regla de probabilidad condicional tenemos que:
+
+
+                                      P(C y G )
+                      P(C | G ) =
+                                        P(G )
+
+                                     3
+                      P(C | G ) = = 14
+                                     7
+                                    14
+                                     3 14
+                      P(C | G ) =      ⋅
+                                    14 7
+                                      3
+                      P(C | G ) =                                         .
+                                      7
+
+
+                                                                                  32
+Casos Especiales de la Probabilidad Condicional
+
+       1.       Una vez un evento A ya ha ocurrido, es seguro que A ocurra:
+
+
+                                     P( A ∩ A) P( A)
+                       P( A | A) =            =       =1
+                                       P( A)    P( A)
+
+       2.       Cuando A y B son mutuamente excluyentes, una vez ha ocurrido A,
+                es imposible que B ocurra:
+                                                     P( A ∩ B)    0
+                                       P( B | A) =             =       =0
+                                                       P( A)     P( A)
+
+
+Ejercicios 6:
+
+       1.       Un envase contiene 3 fichas negras, 2 fichas azules y 5 fichas rojas.
+Las fichas son todas iguales excepto en el color. Si seleccionamos una ficha de
+estas fichas al azar, halle la probabilidad de que la ficha
+                a. sea negra o roja
+                b. no sea negra.
+                c. sea azul dado que es roja.
+                d. sea negra dado que es negra.
+
+       2.       A un total de 50 trabajadores se les preguntó si trabajaban para alguna
+agencia de gobierno o para la empresa privada. La siguiente tabla muestra los
+resultados divididos por el área de residencia (área metro o isla).
+
+
+                                          Metro          Isla
+                  Gobierno                  11            18
+                  Empresa Privada           14             7
+
+
+                                                                                        33
+Si seleccionamos una de estas personas al azar, halle la probabilidad de que la
+persona
+             a. trabaje para la empresa privada o viva en área metro.
+             b. trabaje para el gobierno o viva en área isla.
+             c. trabaje para la empresa privada dado que vive en área isla.
+             d. trabaje para el gobierno dado que vive en área metro.
+             e. no viva en área isla.
+
+
+      3.      Si seleccionamos una carta al azar de un paquete completo de cartas
+de póker, halle la probabilidad de que la carta sea
+
+             a. de diamante o sea una J.
+             b. un 2 o sea un as.
+             c. de corazón dado que es K.
+             d. K dado que es de corazón.
+             e. Q dado que no es espada.
+             f. de diamante dado que no es 3.
+             g. una K dado que es un 10.
+
+      4.     Una nutricionista preguntó a 30 de sus clientes si consumían frutas y
+vegetales en su dieta diaria. Encontró que 15 consumen frutas, 8 consumen
+vegetales y 6 consumen ambos grupos alimenticios en su dieta diaria. Si
+seleccionamos al azar una de estas personas, halle la probabilidad de que en su
+dieta diaria consuma
+
+             a. frutas o vegetales.
+             b. vegetales dado que consume frutas.
+             c. frutas dado que no consume vegetales.
+             d. ni frutas ni vegetales
+
+
+                                                                                     34
+REGLA DE LA MULTIPLICACIÓN
+
+
+       Ya presentamos la regla de la suma que se utiliza para calcular P ( A o B )
+
+o P ( A  B ). Ahora discutiremos la regla de la multiplicación, la cual nos provee
+un método para calcular probabilidades que pueden expresarse de la forma
+P ( A y B ) o P ( A  B ). Es decir, la probabilidad de que A ocurra y de que
+ocurra B al mismo tiempo. Para calcular la probabilidad de que ocurra el evento A y
+el evento B al mismo tiempo, primero debemos determinar de cuántas formas
+distintas A ocurre y luego determinar de cuántas formas distintas B ocurre, dado
+que ya ocurrió A. Otra forma de hacerlo es, primero determinar de cuántas formas
+distintas B ocurre y luego determinar de cuántas formas distintas A ocurre, dado
+que ya ocurrió B.
+
+
+       Regla de la Multiplicación
+
+       Sean A y B dos eventos de un mismo espacio muestral S, entonces
+                     P( A  B) = P( A y B) = P( A) ⋅ P( B | A)
+                                                                          o
+
+                     P( A  B) = P( A y B) = P( B) ⋅ P( A | B)
+                                                                 .
+
+
+       Ejemplo 28: En un grupo de 25 personas hay 16 de ellas casadas y 9
+solteras.   ¿Cuál es la probabilidad de que si dos de estas personas son
+seleccionadas aleatoriamente sean ambas casadas?
+
+       Respuesta:    Notemos que al seleccionar la primera persona, la probabilidad
+                         16
+de que sea casada es        .   Pero al seleccionar la segunda persona quedan 24
+                         25
+
+
+                                                                                     35
+posibles ya que una ha sido seleccionada. Ahora dado que la primera persona
+seleccionada es casada, entonces quedan 15 casadas posibles para la segunda
+selección. Por lo tanto, la probabilidad de que la segunda sea casada dado que la
+                        15
+primera fue casada es      . Luego, utilizando la regla de la multiplicación, tenemos
+                        24
+que:
+
+
+P(1ra sea casada y 2da sea casada) = P(1ra sea casada) ⋅ P(2da sea casada |1ra sea casada)
+
+                                           16 15   2
+                                       =     ⋅   =
+                                           25 24   5
+
+
+Definición:
+       Sean A y B dos eventos de un mismo espacio muestral S. Decimos que A
+y B son eventos independientes si y sólo si la probabilidad de que uno de ellos
+ocurra no es afectada por la ocurrencia del otro.       Si los eventos A y B no son
+independientes, se dice que son dependientes.
+
+       La anterior definición tiene las siguientes implicaciones:
+
+
+              1.     Si A y B son eventos independientes, entonces
+                     P( A | B) = P( A) y P( B | A) = P( B) .
+
+                     Esto dice que la probabilidad de que A ocurra dado que B
+                     ocurrió es la misma que tiene A antes de B ocurrir. Por otro
+                     lado, la probabilidad de que B ocurra dado que A ocurrió es la
+                     misma que tiene B antes de A ocurrir.
+
+
+                                                                                  36
+             2.      Si A y B son eventos independientes, entonces
+                     P( A y B) = P( A) ⋅ P ( B | A)
+
+                                 = P( A) ⋅ P ( B)
+
+                     Esto dice que la probabilidad de que A y B ocurran al mismo
+                     tiempo es el producto de sus probabilidades.
+
+
+             3.      Si P ( A y B ) = P ( A) ⋅ P ( B ) , entonces A y B son eventos
+                     independientes.
+
+
+      Ejemplo 29: Una caja contiene 5 canicas verdes, 2 azules y 3 rojas. Si
+escogemos dos canicas al azar ( una primero y luego la otra) de esta caja, halle la
+probabilidad de que ninguna de ellas sea roja:
+      a.    con reemplazo (echando a la caja la primera canica antes de la
+            segunda selección). ¿Son los eventos independientes o dependientes?
+      b.    sin reemplazo (la primera canica queda fuera de la caja para la
+            segunda selección). ¿Son los eventos independientes o dependientes?
+
+      Respuesta:
+                                                        7
+      a.     Notemos que: P (primera no sea roja) =         y como volvemos a echar
+                                                       10
+a la caja la primera canica, para la segunda selección hay el mismo número de
+                                                                                     7
+canicas en la caja. Por lo tanto, P(segunda no sea roja | primera no fue roja ) =      .
+                                                                                    10
+Esto dice que los eventos son independientes porque uno no afecta la probabilidad
+de que el otro ocurra. Entonces
+P(ambas no sean rojas) = P(primera no sea roja y segunda no sea roja)
+              = P(primera no sea roja) ⋅ P(segunda no sea roja | primera no fue roja)
+                   7 7   49
+              =     ⋅  =    .
+                  10 10 100
+
+
+                                                                                        37
+                                                           7
+      b.        Notemos que: P (primera no sea roja) =         y como no volvemos a
+                                                          10
+echar a la caja la primera canica, para la segunda selección hay una canica menos
+                                                                            6
+en la caja. Por lo tanto, P(segunda no sea roja | primera no fue roja ) =     . Esto dice
+                                                                            9
+que los eventos son dependientes porque uno afecta la probabilidad de que el otro
+ocurra. Entonces
+
+
+       P(ambas no sean rojas) = P(primera no sea roja y segunda no sea roja)
+
+               = P(primera no sea roja) ⋅ P(segunda no sea roja | primera no fue roja)
+                    7 6
+               =     ⋅
+                   10 9
+
+
+                    7
+               =      .
+                   15
+
+
+Ejercicio 7:
+
+      Se realiza un sorteo de una estufa y una nevera, en este orden, entre 10
+mujeres y 10 hombres participantes.
+
+      a.   Si una misma persona puede ganarse ambos premios, halle la
+           probabilidad de que ambos enseres se los gane una mujer. ¿Son los
+           eventos independientes o dependientes?
+
+      b.    Si una misma persona no puede ganarse ambos premios, halle la
+            probabilidad de que de que ambos enseres se los gane una mujer.
+            ¿Son los eventos independientes o dependientes?
+
+
+                                                                                         38
+REGLAS DE CONTEO
+
+      El hallar la probabilidad de que ocurra un evento a veces no plantea ningún
+problema complejo, ya que los posibles resultados son un número reducido y se
+pueden contar con facilidad. Por ejemplo, la probabilidad de que al lanzar un dado
+al azar salga el número 2. Tan sólo hay un resultado favorable, mientras que el
+número de resultados posibles es seis. Sin embargo, a veces calcular el número de
+resultados favorables y casos posibles es complejo y para calcularlos hay que
+aplicar reglas matemáticas.    Por ejemplo,    ¿cuál es la probabilidad de que al
+seleccionar al azar una mano de 5 cartas sin reemplazo de un paquete completo de
+cartas de poker, obtengamos 3 cartas que sean K y 2 que no sean K?            En este
+caso, determinar el número de resultados favorables y de resultados posibles es
+complejo. La respuesta la daremos más adelante.
+
+      A continuación presentaremos algunas reglas matemáticas que nos pueden
+ayudar con el cálculo de resultados sin tener que hacer listas ni contar posibilidades
+directamente. Comenzaremos con la regla fundamental de conteo.
+
+
+      Regla Fundamental de Conteo
+
+      Para una secuencia de dos eventos en la que el primero puede ocurrir de m
+formas distintas y el segundo puede ocurrir de n formas distintas, ambos sucesos
+pueden ocurrir de m•n formas distintas.
+
+
+      La regla fundamental de conteo se extiende a situaciones que implican más
+de dos eventos, como se ilustra en los siguientes ejemplos.
+
+
+                                                                                   39
+       Ejemplo 30: Para llegar de la ciudad X a la ciudad Y hay 5 rutas distintas.
+Para llegar de la ciudad Y a la ciudad Z hay 6 rutas distintas. Si todas las rutas
+para llegar desde la ciudad X a la ciudad Z pasan por la ciudad Y, ¿cuántas
+rutas distintas hay para llegar de la ciudad X a la ciudad Z?
+
+
+       Respuesta: Utilizando la regla fundamental de conteo tenemos que para
+llegar de la ciudad X a la ciudad Z hay 5•6, o sea, 30 rutas distintas.
+
+
+       Ejemplo 31: (Pega 3)      El juego de Pega 3 consiste en acertar un número
+de tres dígitos de 0 al 9 inclusive, el cual es seleccionado al azar.     Como por
+ejemplo, 072. ¿Cuántos números de tres dígitos distintos hay?
+
+
+       Respuesta:     Como son tres dígitos distintos en el proceso de selección,
+tenemos 10 opciones para el primer dígito, 9 opciones para el segundo dígito y 8
+opciones para el tercer dígito. Utilizando la regla fundamental de conteo tenemos
+10•9•8, o sea, 720 números de tres dígitos distintos.
+
+
+       Ejemplo 32:     ¿Cuántas tablillas de autos con tres letras y tres dígitos son
+posibles, si sólo utilizamos 26 de las letras de nuestro alfabeto?
+
+
+       Respuesta: Como son tres letras y tres dígitos en el proceso de selección,
+tenemos 26 opciones para cada letra y 10 opciones para cada dígito. Utilizando la
+regla fundamental de conteo tenemos 26•26•26•10•10•10,           o sea,   17,576,000
+tablillas posibles.
+
+
+                                                                                  40
+       Antes de pasar a la siguiente regla definamos el símbolo factorial ! que
+denota el producto de números enteros positivos decrecientes. Por ejemplo,
+4! = 4•3•2•1 = 24. Por definición, 0! = 1.
+
+       Regla Factorial
+
+       Una colección de n elementos distintos se pueden ordenar de n! formas
+distintas.
+
+
+       La anterior regla refleja el hecho de que el primer elemento tiene n
+posibilidades, el segundo n – 1 posibilidades, y así sucesivamente.
+
+
+       Ejemplo 33: ¿De cuántas formas distintas se pueden ordenar 5 personas en
+una fila?
+
+
+       Respuesta:     Notemos que tenemos 5 elementos distintos y van a ser todos
+ordenados.    Utilizando la regla factorial tenemos    5! = 5•4•3•2•1 = 120 formas
+distintas de ordenar 5 personas en una fila.
+
+
+       Ejemplo 34: Un turista llega a la ciudad de Orlando, Florida y desea visitar
+en una semana los parques: Magic Kingdom,           Epcot Center,    Animal Kingdom,
+MGM Studios, Universal Studios, Island of Adventure y Sea World. ¿De cuántas
+secuencias distintas puede visitar estos 7 parques sin ir a cada parque más de una
+vez?
+
+       Respuesta: Notemos que el turista tiene 7 parques distintos para visitar y
+queremos saber en cuántos órdenes distintos lo puede hacer. Utilizando la regla
+factorial tenemos 7! = 5,040 formas distintas de visitar los 7 parques.
+
+
+                                                                                    41
+       En la regla anterior presentamos cómo calcular el número total de formas
+distintas en que todos los n elementos distintos pueden ser ordenados. La
+siguiente regla nos dice cómo calcular el número total de formas distintas en que r
+de los n objetos distintos pueden ser ordenados. Esta forma se conoce como la
+regla de las permutaciones. Por ejemplo, calcular las posibles permutaciones de
+2 elementos que se pueden formar con los números 1, 2 y 3. Se pueden establecer
+6 secuencias (permutaciones) diferentes: (1,2), (1,3), (2,1), (2,3), (3,1) y (3,2). En
+el cálculo de permutaciones las parejas (1,2) y (2,1) se consideran distintas pues
+aquí importa el orden.
+
+
+       Regla de las Permutaciones
+       El número total de permutaciones (secuencias) de r elementos
+seleccionados de una colección de n elementos distintos está dado por
+
+                                         n!
+                             n Pr =
+                                      (n − r )! .
+
+
+       Notemos que si r = n la regla de permutaciones coincide con la regla
+factorial.
+
+
+       Ejemplo 35: ¿De cuántas formas distintas se pueden repartir las medallas
+de oro (primer lugar), plata (segundo lugar) y bronce (tercer lugar) en una
+competencia de 100 metros donde hay 8 participantes?
+
+
+       Respuesta:        Notemos que tenemos 8 elementos distintos de los cuales 3
+recibirán medallas distintas de acuerdo al orden en que lleguen a la meta. Utilizando
+la regla de las permutaciones tenemos
+
+                          8!     8! 8 ⋅ 7 ⋅ 6 ⋅ 5 ⋅ 4 ⋅ 3 ⋅ 2 ⋅1
+              8 P3 =           =   =                             = 8 ⋅ 7 ⋅ 6 = 336 .
+                       (8 − 3)! 5!       5 ⋅ 4 ⋅ 3 ⋅ 2 ⋅1
+Por lo tanto, hay 336 formas distintas de repartir las tres medallas.
+
+
+                                                                                       42
+      Ejemplo 36: El campanario de una iglesia tiene 9 campanas,            todas de
+diferentes tonos. ¿Cuántas secuencias distintas de 4 campanazos son posibles sin
+repetir campana alguna?
+
+
+      Respuesta:       Notemos que el campanario tiene 9 campanas de tonos
+distintos de las cuales se tocarán 4 sin repetición de campanas. Utilizando la regla
+de las permutaciones tenemos
+
+                                   9!     9!
+                     9 P4   =           =    = 9 ⋅ 8 ⋅ 7 ⋅ 6 = 3, 024 .
+                                (9 − 4)! 5!
+Por lo tanto, hay 3,024 secuencias distintas de 4 campanazos.
+
+
+      Otro cálculo importante es determinar el número de combinaciones (grupos
+de 1, 2, 3, etc. elementos) que se pueden formar con n elementos distintos sin
+importar el orden. Cada combinación se diferencia de las otras en los elementos
+que la componen, sin que influya el orden. Por ejemplo, supongamos que se desea
+calcular las posibles combinaciones (grupos) de 2 elementos que se pueden formar
+con los números 1, 2 y 3. Notemos que se pueden establecer 3 parejas diferentes:
+(1,2), (1,3) y (2,3). Por lo tanto, decimos que hay 3 combinaciones posibles al
+seleccionar 2 elementos de un total de 3 elementos distintos. En el cálculo de
+combinaciones las parejas (1,2) y (2,1) se consideran idénticas, por lo que sólo se
+cuentan una vez. También utilizamos una regla para este cómputo, la cual
+llamamos regla de las combinaciones.
+
+
+      Regla de las Combinaciones
+
+      El número total de combinaciones (grupos) de r elementos seleccionados de
+una colección de n elementos distintos está dado por
+
+                                                     n!
+                                     n Cr   =
+                                                r !(n − r )! .
+
+
+                                                                                      43
+      Ejemplo 37: Si tenemos 5 colores distintos y cualquier combinación de
+estos colores forma un nuevo color, ¿cuántos nuevos colores pueden ser formados
+combinando 3 de los 5 colores disponibles?
+
+
+      Respuesta: Notemos que tenemos 5 colores distintos, de los cuales
+combinaremos 3. Además, es claro que no importa el orden en que se realice la
+mezcla, sino los colores seleccionados para la mezcla. Por lo tanto, utilizando la
+regla de las combinaciones tenemos
+
+                                    5!      5!     5 ⋅ 4 ⋅ 3 ⋅ 2 ⋅1
+                      5 C3 =              =      =                  = 10           .
+                                3!(5 − 3)! 3!⋅ 2! 3 ⋅ 2 ⋅1 ⋅ 2 ⋅1
+Por lo tanto, se pueden formar 10 colores nuevos distintos.
+
+
+      Ejemplo 38: De un total de 10 personas se elegirá un comité de 4 personas.
+¿Cuántos resultados distintos son posibles?
+
+
+      Respuesta:      Notemos que tenemos 10 personas distintas, de las cuales se
+elegirán 4. Además, es claro que no importa el orden en que se realice la elección,
+sino las personas seleccionadas para el comité. Por lo tanto, utilizando la regla de
+las combinaciones tenemos
+
+                              10!      10!     10 ⋅ 9 ⋅ 8 ⋅ 7 ⋅ 6!
+              10 C4   =              =       =                     = 210           .
+                          4!(10 − 4)! 4!⋅ 6!    4 ⋅ 3 ⋅ 2 ⋅1 ⋅ 6!
+Por lo tanto, se pueden formar 210 comités distintos.
+
+
+                                                                                 44
+Ejercicios 8:    Resuelva:
+
+1.      Un candado de combinaciones tiene 40 números posibles y abre con una
+secuencia de 3 diferentes números.        Halle el número total de combinaciones
+posibles para abrir el candado.
+
+2.      Un grupo de 9 diferentes cartas son barajadas y puestas sobre una mesa. Si
+4 de estas 9 cartas son seleccionadas al azar, halle el número de total de manos
+diferentes de cuatro cartas que se pueden obtener.
+
+3.      Halle el número total de parejas de géneros distintos que pueden formarse
+entre 5 hombres y 7 mujeres.
+
+4.      ¿De cuántos órdenes distintos pueden 8 corredores llegar a la meta?
+
+
+PROBABILIDAD UTILIZANDO REGLAS DE CONTEO
+
+        A continuación presentaremos algunos ejemplos donde es vital el uso de las
+reglas de conteo discutidas anteriormente, pues sin ellas contar las posibilidades
+sería difícil.
+
+
+        Ejemplo 39: (Pega 4)      El juego de Pega 4 exacto consiste en acertar un
+número de cuatro dígitos de 0 al 9 inclusive, el cual es seleccionado al azar. ¿Cuál
+es la probabilidad de ganar el Pega 4 exacto si jugamos un número de 4 dígitos
+distintos dado que sabemos que el número ganador tiene 4 dígitos distintos?
+
+
+        Respuesta: El número ganador tiene cuatro dígitos distintos. Por lo tanto,
+hay 10 opciones para el primer dígito, 9 opciones para el segundo dígito, 8 opciones
+para el tercer dígito y 7 opciones para el cuarto dígito.        Utilizando la regla
+
+
+                                                                                     45
+fundamental de conteo tenemos 10•9•8•7, o sea 5,040 números de cuatro dígitos
+                                                                                        1
+distintos, de los cuales jugamos uno. Por lo tanto, la probabilidad de ganar es             .
+                                                                                     5, 040
+
+
+       Ejemplo 40: (La Trifecta)            En las carreras de caballos hay una jugada
+conocida como la trifecta. La misma consiste en acertar los primeros tres caballos
+que arribarán a la meta en el orden exacto en que llegarán. Si en una carrera hay
+12 caballos compitiendo, todos con igual posibilidad de ganar la carrera, ¿cuál es la
+probabilidad de ganar la trifecta de un solo intento?
+
+
+       Respuesta: Notemos que necesitamos calcular cuántas secuencias de tres
+dígitos del 1 al 12 inclusive son posibles, importando el orden. Es decir, el número
+de permutaciones de 3 números seleccionados de 12 posibles números distintos.
+Por lo tanto,
+
+                                         12!      12!
+                           12 P3   =            =     = 12 ⋅11 ⋅10 = 1,320 .
+                                       (12 − 3)! 9!
+                                                                             1
+Por lo tanto, la probabilidad de ganar la trifecta en un solo intento es         .
+                                                                           1,320
+
+
+       Ejemplo 41: (La Loto) El juego de Loto en Puerto Rico consiste en acertar
+los 6 números ganadores seleccionados al azar del 1 al 46 sin reemplazo sin
+importar el orden en que salgan. ¿Cuál es la probabilidad de ganar la Loto en un
+solo intento?
+
+
+       Respuesta: Notemos que necesitamos calcular cuántos grupos (no importa
+el orden) de 6 números son posibles seleccionándolos de un total de 46 números
+distintos. Es decir, el número de combinaciones de 6 números seleccionados de 46
+posibles. Por lo tanto,
+
+                                   46!      46!
+                   46 C6   =              =        = 9,366,819 .
+                               6!(46 − 6)! 6!⋅ 40!
+                                                                           1
+Por lo tanto, la probabilidad de ganar la Loto en un solo intento es             .
+                                                                       9,366,819
+
+
+                                                                                          46
+        Ejemplo 42:       ¿Cuál es la probabilidad de que al seleccionar al azar una
+mano de 5 cartas sin reemplazo de un paquete completo de cartas de póker,
+obtengamos 3 cartas que sean K y 2 que no sean K?
+
+
+        Respuesta: Notemos primero que las cartas de póker se dividen en 4 que
+son K y 48 que no son K. Además, en las manos de cartas no importa el orden,
+sólo importa qué cartas tenemos. Ahora necesitamos calcular de cuántas formas
+distintas podemos seleccionar una mano de 5 cartas de un paquete completo de
+
+                                      52!      52!
+                             C
+cartas de póker. Esto es , 52 5 =            =        = 2,598,960 manos
+                                  5!(52 − 5)! 5!⋅ 47!
+distintas de 5 cartas. Luego necesitamos calcular de cuántas formas distintas
+podemos seleccionar una mano de 3 cartas que sean K de un total de 4 cartas que
+
+                                   4!      4!
+son K. Esto es,    4 C3    =             =      = 4 formas distintas. También
+                               3!(4 − 3)! 3!⋅1!
+necesitamos calcular de cuántas formas distintas podemos seleccionar una mano de
+2 cartas que no sean K de un total de 48 cartas que no son K. Esto es,
+
+                48!      48!
+48 C2   =              =        = 1,128 formas distintas. Por último, utilizamos la
+            2!(48 − 2)! 2!⋅ 46!
+regla fundamental de conteo para calcular el número total de formas distintas en que
+se pueden hacer ambas cosas: seleccionar 3 cartas que sean K de 4 posibles y
+seleccionar 2 que no sean K de 48 posibles. Esto es, (4) (1,128) = 4,512.        Por lo
+tanto, la probabilidad de que al seleccionar al azar una mano de 5 cartas sin
+reemplazo de un paquete completo de cartas de póker, obtengamos 3 cartas que
+                                     4,512
+sean K y 2 que no sean K es                  ≈ 0.001736 .
+                                   2,598,960
+
+
+                                                                                       47
+Ejercicios 9:   Resuelva:
+
+
+1.     Halle la probabilidad de obtener perfecto en una prueba de 5 preguntas de
+selección múltiple con 4 alternativas cada una si la misma es contestada al azar.
+Presuma que cada pregunta tiene una sola alternativa correcta.
+
+
+2.     Halle la probabilidad de obtener perfecto en una prueba que consiste de un
+pareo con 5 conceptos y 5 alternativas si la misma es contestada al azar. Presuma
+que cada concepto tiene una sola alternativa correcta y no hay repetición de
+alternativas.
+
+3.     En el juego llamado “Big Game” se trata de acertar 6 números ganadores.
+Los primeros 5 son seleccionados del 1 al 52 inclusive sin reemplazo y sin importar
+el orden. Por otro lado, el sexto número puede ser cualquiera de los 52 posibles.
+Halle la probabilidad de ganar el “Big Game” en un solo intento.
+
+
+4.     En las carreras de caballos hay una jugada conocida como la superfecta. La
+misma consiste en acertar los primeros cuatro caballos en arribar a la meta en el
+orden exacto en que llegarán. Si en una carrera hay 10 caballos compitiendo, todos
+con igual posibilidad de ganar la carrera,    ¿cuál es la probabilidad de ganar la
+superfecta de un solo intento?
+
+
+                                                                                48
+RESPUESTAS A LOS EJERCICIOS
+
+Ejercicios 1:
+      1.        a.        S = {(1-cara), (2-cara), (3-cara), (4-cara), (5-cara), (6-cara),
+                                 (1-cruz), (2-cruz), (3-cruz), (4-cruz), (5-cruz), (6-cruz)}
+                b.        i.     simple
+                          ii.    no es simple
+                          iii.   no es simple
+
+
+      2.        a.        S = {FFF, FFM, FMF, FMM, MFF, MFM, MMF, MMM}
+                b.        i.     no es simple
+                          ii.    simple
+                          iii.   no es simple
+                          iv.    no es simple
+
+
+Ejercicios 2:
+            1
+      1.
+            7
+            4
+      2.
+           11
+                     2 1
+      3.   a.         =                   b.
+                     8 4
+                      5
+      4.   a.                             b.   7
+                     36
+      5.   casada
+
+Ejercicios 3:
+                                      7
+      1.   a.        I           b.                  c.    O
+                                      25
+      2.   La respuesta depende de los resultados obtenidos en el experimento.
+
+
+                                                                                           49
+Ejercicios 4:
+
+      1.   c                  2.   b   3.   a                   4.   c
+
+
+Ejercicios 5:
+                        6   1                             31
+      1.        a.        =                     b.
+                       36 6                               36
+                        4   1                              6   1
+                c.        =                     d.           =
+                       36 9                               36 6
+                       15   5
+                e.        =
+                       36 12
+
+
+                       4                                  1
+      2.        a.                              b.
+                       5                                  5
+                       2                                  3
+                c.                              d.
+                       5                                  5
+                       1
+                e.
+                       5
+
+
+      3.        a.     0.6                      b.        0.5
+                c.     0.9                      d.        0.7
+
+
+Ejercicios 6:
+                      8   4                           7
+      1.        a.      =                       b.
+                     10 5                            10
+                c. 0                            d. 1
+
+
+                                                                         50
+                       32 16                                    36 18
+      2.        a.       =                                 b.     =
+                       50 25                                    50 25
+                       7                                        11
+                c.                                         d.
+                       25                                       25
+                       25 1
+                e.       =
+                       50 2
+
+
+                         16   4                                  8   2
+      3.        a.          =                              b.      =
+                         52 13                                  52 13
+                     1                                           1
+                c.                                         d.
+                     4                                          13
+                        3   1                                   12 1
+                e.        =                                f.     =
+                       39 13                                    48 4
+                g. 0
+
+
+                     17                                          6   2
+      4.        a.                                         b.      =
+                     30                                         15 5
+                     9                                          13
+                c.                                         d.
+                     22                                         30
+
+Ejercicio 7:
+                10 10 1
+      a.          ⋅  =            . Los eventos son independientes.
+                20 20 4
+
+                10 9   9
+      b.          ⋅  =            . Los eventos son dependientes.
+                20 19 38
+
+Ejercicios 8:
+
+      1.        40 P3    = 59, 280 combinaciones posibles para abrir el candado.
+
+      2.        9 C4     = 126 manos diferentes de cuatro cartas.
+
+      3.        5 ⋅ 7 = 35 parejas de géneros distintos.
+
+      4.        8! = 40,320 órdenes distintos.
+
+
+                                                                                   51
+Ejercicios 9:
+               1            1
+1.                      =
+       4 ⋅ 4 ⋅ 4 ⋅ 4 ⋅ 4 1, 024
+
+       1   1
+2.       =
+       5! 120
+
+            1                 1
+3.                   =
+       52 C5 ⋅ 52        135,145,920
+
+         1        1
+4.           =
+       10 P4   5, 040
+
+
+                                       52
+                                  POS-PRUEBA
+
+
+Resuelva cada uno de los siguientes ejercicios y escoja la alternativa correcta.
+
+1.   La probabilidad que se basa en el juicio personal de los hechos relevantes se
+conoce como probabilidad
+     a.   empírica
+     b.   teórica
+     c.   clásica
+     d.   subjetiva
+
+
+2.   Tres monedas son lanzadas al azar. La probabilidad de que se obtengan
+     exactamente una cara es
+          1
+     a.    /3
+          3
+     b.    /8
+          1
+     c.    /2
+          2
+     d.    /3
+
+3.   Si P(A) = 0.2 y P(B) = 0.4 donde A y B son eventos mutuamente excluyentes,
+     entonces la probabilidad de que A y B ocurran simultáneamente es:
+     a.   0
+     b.   0.08
+     c.   0.52
+     d.   0.6
+
+4.   Sea P(A) = 0.4 y P(B) = 0.5, donde A y B son independientes, entonces
+     P(A o B) =
+     a.   0
+     b.   0.2
+     c.   0.7
+     d.   0.9
+
+
+                                                                                     53
+     Utilice la siguiente información para contestar las preguntas 5 - 7.
+
+     Una compañía encuesta anónimamente a 100 de sus empleados preguntándoles
+     si son fumadores o no y si toman alcohol o no. La siguiente tabla ilustra los
+     resultados de una encuesta realizada a esta muestra.
+
+                                                              Fumador No Fumador Totales
+                                            Toma Alcohol          25        40        65
+                                          No Toma Alcohol         5         30        35
+                                                Totales           30        70        100
+
+Si seleccionamos, al azar, a un individuo de la muestra:
+
+5.    ¿Cuál es la probabilidad de que la persona seleccionada sea fumador y que no
+       tome alcohol?
+
+        a.   0.0500
+        b.   0.1429
+        c.   0.1667
+        d.   0.2000
+
+6.    ¿Cuál es la probabilidad de que la persona seleccionada no sea fumador
+       sabiendo que toma alcohol?
+
+        a.   0.4000
+        b.   0.5714
+        c.   0.6154
+        d.   0.7000
+
+7.    ¿Cuál es la probabilidad de que la persona seleccionada tome alcohol o no sea
+       fumador?
+
+        a.   0.4000
+        b.   0.5714
+        c.   0.6154
+        d.   0.9500
+
+
+                                                                                 54
+8.    Un envase contiene 3 canicas rojas, 5 azules y 2 blancas. Dos canicas son
+      extraídas al azar y sin reemplazo del envase. La probabilidad de que la
+      segunda canica no sea blanca dado que la primera no fue blanca es:
+           7
+      a.       /10
+           7
+      b.       /9
+           8
+      c.       /10
+           8
+      d.       /9
+
+
+9.    El número total de comités distintos que pueden formarse seleccionando 3
+      personas de un total de 12 participantes es:
+
+      a.   6
+      b.   36
+      c.   220
+      d.   1,320
+
+
+10.    Una clave de acceso a una computadora consta de una secuencia de tres
+        vocales distintas. Si seleccionamos una secuencia de tres vocales distintas
+       al azar, la probabilidad de conseguir acceso a la computadora es:
+
+           1
+      a.       /120
+           1
+      b.       /60
+           1
+      c.       /20
+           1
+      d.       /10
+
+
+                                                                                  55
+RESPUESTAS DE LA PRE-PRUEBA
+
+
+1.   a                                      6.   a
+2.   b                                      7.   b
+3.   a                                      8.   c
+4.   c                                      9.   c
+5.   d                                     10.   d
+
+
+RESPUESTAS DE LA POS-PRUEBA
+
+
+1.   d                                      6.   c
+2.   b                                      7.   d
+3.   a                                      8.   b
+4.   c                                      9.   c
+5.   a                                     10.   b
+
+
+REFERENCIAS
+
+
+1.       Estadística, Mario F. Triola, Décima Edición, 2009, Addison Wesley
+2.       Fundamentals of Statistics, Michael Sullivan, Third Edition, 2011, Prentice
+         Hall
+
+
+                                                                                       56

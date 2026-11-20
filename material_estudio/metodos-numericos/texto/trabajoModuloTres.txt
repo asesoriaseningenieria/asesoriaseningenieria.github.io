@@ -1,0 +1,503 @@
+Modelo A:
+
+1) (2p) a) Identifica los distintos elementos inherentes al Filtro de Kalman comentando la
+función de cada uno de ellos en los siguientes ejemplos-aplicaciones:
+
+   •   Ejemplo 1: referencia 10 (pg.73-75): posición de un vehículo
+   •   Ejemplo 2: referencia 13: seguimiento de rasgos.
+
+                                          Solución:
+
+El filtro de Kalman es un algoritmo recursivo, óptimo, de procesado de datos que minimiza el
+índice del error cuadrático y permite estimar los estados de un sistema más apropiadamente.
+El error cuadrático medio o RMSE de su traducción al inglés “Root Mínimum Mean-Squared
+Error” representa la medida típica del error de predicción y es particularmente sensible a las
+discrepancias grandes entre el valor real y el valor predicho. Este error se calcula con la
+expresión.
+
+La evolución de un sistema se puede expresar en el espacio de estados como :
+
+                           x k +1 =Fx k +Gu k + w k Ecuación de estado.
+
+                       z k =Hx k + v k Ecuación de observación o medida.
+En los cuales:
+
+xk es el estado.
+yk es la salida.
+wk es el proceso estocástico asociado al sistema.
+zk es el proceso estocástico asociado a la medida.
+F, G, H son las matrices determinísticas que definen la dinámica del sistema.
+
+wk y zk también son habitualmente conocidos como el ruido de proceso y el ruido de la
+medida respectivamente. El primer ruido wk afecta la dinámica del modelo y representa los
+aspectos no modelados de la dinámica de la planta real, mientras el segundo ruido zk influye
+sobre la salida accesible del modelo y representa la incertidumbre propia del proceso de
+medida de la salida de la planta real. Además, el filtro Kalman debe establecer las siguientes
+condiciones para los ruidos de proceso en términos de la esperanza:
+
+                                         Q=E (w k w Tk )
+
+                                                     T
+                                         R=E(v k v k )
+
+Donde Q y R representarán en adelante las matrices de covarianza del ruido del proceso y de
+la medida respectivamente. Dichas matrices son diagonales simétricas y se calculan según la
+covarianza de la siguiente manera:
+
+ Cov( x , y)=E[(x−E(x))( y−E( y))] reemplazando            “x”   e   ”y”   por   las   variables
+correspondientes.
+También se debe garantizar que la condición inicial (x0) y los ruidos del proceso y de la
+medida (wk y vk) sean mutuamente no correlacionados, es decir que sus covarianzas sean
+igual a cero (0).
+
+Con lo anterior, el objetivo principal del empleo de un filtro Kalman es estimar en cada
+instante k>1 el estado xk de un sistema, empleando la sucesión de entrada conocida u 0:k ={u0,
+u1,..., uk ) y las observaciones z1:k(z1, z2,..., zk).
+
+
+Una de las principales características del algoritmo de Kalman es que se puede dividir en 3
+partes como se puede observar en el siguiente gráfico:
+
+
+Entonces, hasta este punto se puede decir que se completa la etapa de inicializar variables a
+los valores del problema, por lo que continuamos con la etapa de predicción en donde se
+calculan los valores teóricos de los datos del problema.
+
+El objetivo a seguir luego de introducir los datos de entrada es es minimizar P k que en
+adelante se identificará como la matriz de covarianza del error, la cual cumple con el objetivo
+del algoritmo de minimizar el índice del error cuadrático y se define como:
+
+                                  Pˇ k ={E e k ek }=FP k −1 F +Q
+                                                T            T
+
+
+También se realiza una perdición para la variable de estado (x):
+
+                                         xˇ k = x k^−1 +Gu k
+
+Al ser estas variables una predicción, se dice que estas variables son a priori, es decir que
+son un pronóstico del valor, por eso se le coloca el símbolo del sombrero invertido.
+
+
+Finalmente, en el algoritmo se realiza el proceso de corrección, el cual comienza calculando
+la ganancia de Kalman (K k) y con este valor se actualizan los valores de la matriz de
+covarianza y de la ecuación de estado de la siguiente manera:
+
+Primero calculamos la ganancia de Kalman (K):
+
+                                                 Pˇ k H
+                                                        T
+                                        Kk=
+                                              H P̌k HT +R
+Luego se actualiza el valor de la ecuación de estado teniendo en cuenta la ganancia y la
+medida de los sensores.
+
+ x^ k =F xˇk +K k (z k −H xˇk )
+
+Y finalmente, se actualiza el valor de la covarianza del error.
+
+ P k =(I−K k ) Pˇk
+
+Un resumen de los pasos necesarios y las etapas del algoritmo de Kalman, se pueden
+observar mejor en el siguiente gráfico:
+
+
+Estimación inicial ( x k^−1 ,P k −1 )
+
+
+   Actualización en el tiempo (Predicción)            Actualización del estado (Corrección)
+
+                                                         1) Cálculo de la ganancia de Kalman
+
+         1) Proyección del estado a priori.                                  Pˇ k H
+                                                                                    T
+                                                                   Kk=
+                                                                         H P̌k HT +R
+                      xˇ k = x k^−1 +Gu k
+                                                      2) Corrección del estado con la medida (yk)
+
+ 2) Proyección de la covarianza del error a priori.            x^ k =F xˇk +K k (z k −H xˇk )
+
+                                                       3) Corrección de la covarianza del error
+                     Pˇ k =FP k−1 F + Q
+                                   T
+
+                                                                    P k =(I−K k ) Pˇk
+Ahora, después de definir el algoritmo de Kalman, una de las aplicaciones que se le puede
+dar es la de conocer la velocidad y posición de un vehículo, en la cual se pueden distinguir
+los siguientes elementos:
+
+Del conocimiento que se tiene del movimiento rectilíneo uniformemente acelerado, podemos
+decir que la ecuación de estado es:
+           F       G
+ x k +1 =(1 Δt
+          0 1   ) ( )
+                xk +
+                     0
+                       u +w k , donde uk es la aceleración inicial del vehículo.
+                     Δt k
+
+Y la ecuación de medida:
+       H
+
+       ()
+       1
+ z k = x k +v k
+       0
+
+además el vector de estado sera:
+
+ x= p
+    μ  ( ) , donde p=Posición inicial del vehículo y μ =velocidad inicial del vehículo.
+Finalmente, para determinar el estado inicial del vehículo, hallamos la matriz de covarianza
+del error, teniendo en cuenta su definición de la siguiente manera:
+
+
+                 μ(         )
+ Q=E (xx T )=E [ p ][ p μ ] =E
+                                (
+                                p pμ
+                               p μ μ2     )
+b) Enuncia las condiciones necesarias para aplicar de manera correcta la versión del Filtro
+de Kalman estudiada en este curso.
+
+                                              Solución:
+
+Los requisitos necesarios para que sea aplicable la versión del filtro de Kalman como se
+estudió en el curso son los siguientes:
+
+   •    El de modelo debe ser estático.
+
+   •    Las variables usadas en el modelo deben tener una probabilidad gaussiana, y las
+        variables que definen los ruidos de los datos deben tener una probabilidad con
+        distribución normal de los ruidos, además estas últimas variables también deben ser
+        independientes del comportamiento de las demás.
+
+   •    Las variables usadas en el modelo deben tener una relación lineal entre ellas.
+
+   •    Las observaciones realizadas al comportamiento del sistema deben ser ruidosas y
+        renovables en el tiempo.
+
+   •    La estimación de los datos se debe hacer de manera recursiva, repitiendo en el tiempo
+        los procesos de predicción y corrección.
+2) En una publicación se quiere estimar mediante el Filtro de Kalman, la posición, la
+velocidad y la aceleración de una partícula en el plano. Si la ecuación de medida viene dada
+por una matriz H con primera fila (0,0,0,0,1,0), segunda fila (0,0,0,0,0,1). a) ¿Qué información
+(medida-observación) se está proporcionando? b) ¿Y si la matriz H fuera la identidad?
+
+
+                                             Solución:
+
+a) ¿Qué información (medida-observación) se está proporcionando?
+
+Como analizamos en el punto anterior, si se quiere estimar mediante el Filtro de Kalman la
+posición y la velocidad de una partícula en el plano La ecuación de medida es:
+
+                                            z k =Hx k + v k
+
+Y en el caso que debemos analizar, la matriz H se define como:
+
+
+                                        ( 00 00 00 00 10 01)
+                                       H=
+
+
+Como xk es el vector de medida-observación, debido a que el movimiento se realiza en el
+plano y para que halla compatibilidad entre las matrices, el vector de medida-observación
+debe ser un vector de seis filas, para los+ cual se pueden
+
+El movimiento de una partícula en el plano suele expresarse en posición (x,y) velocidad en
+(x,y) y aceleración en (x,y).
+
+Entonces podemos escribir la ecuación de medida: z k=Hxk+vk en forma matricial sin
+ruido como de las siguientes maneras que serían las más comunes y razonables:
+
+Caso 1:
+
+
+                             ()
+                 x
+                 y
+ zk= (
+     0 0 0 0 1 0 ẋ
+                ⋅ =
+     0 0 0 0 0 1 ẏ
+                    ẍ
+                    ÿ   )        ()
+                 ẍ
+                 ÿ
+
+Caso 2:
+
+
+                             ()
+                     x
+                     ẋ
+
+     (                   )
+ z k = 0 0 0 0 1 0 ⋅ ẍ = ẏ
+       0 0 0 0 0 1 y      ÿ      ()
+                     ẏ
+                     ÿ
+Por lo tanto, analizando los resultados, se puede decir que la información más relevante
+proporcionada por esta matriz, se presenta en el caso 1, ya que tiene poco sentido que solo
+se proporcione primera y segunda derivada de una misma variable.
+
+Entonces, podemos decir que la matriz H para este caso nos está proporcionando los valores
+de la aceleración de la partícula en la dirección x y en la dirección y.
+
+b) ¿Y si la matriz H fuera la identidad?.
+
+                                            Solución:
+
+Si la matriz H fuera una matriz identidad, que para este caso sería una matriz de orden n=6 y
+sería organizando el vector de medida-observación igual a como lo tamos en el punto a)
+sería:
+
+
+     (                    )( ) ( )
+     1    0   0   0   0   0 x  x
+     0    1   0   0   0   0 y  y
+     0    0   1   0   0   0 ẋ ẋ
+ zk=                       ⋅ = +v k
+     0    0   0   1   0   0 ẏ ẏ
+     0    0   0   0   1   0 ẍ ẍ
+     0    0   0   0   0   1 ÿ ÿ
+
+Podemos entonces observar que en este caso la matriz de medida-observación nos
+proporciona todos los valores iniciales de las variables, lo cual sería un caso ideal y podría
+tener una mejor aproximación del problema.
+
+3) Si en el problema anterior el sensor proporcionara una medida de la velocidad de la
+partícula. a) ¿Cómo sería la matriz H asociada a la ecuación de medida? b) ¿Y si el sensor
+proporcionara la posición y la aceleración de la partícula? c) ¿Y si la observación-medida
+aporta la media de las coordenadas de la posición?. Encuentra la matriz H y escribe la
+ecuación de medidas-observaciones en cada uno de los tres casos/modelos propuestos.
+
+                                            Solución:
+
+a) ¿Cómo sería la matriz H asociada a la ecuación de medida?
+
+En este caso, el problema nos dice que no se debe tener en cuenta la aceleración de la
+partícula a diferencia del ejercicio 2, por lo tanto, en este caso la matriz de medida-
+observación será máximo de dimensión 4 en el plano, sin embargo tampoco se especifica si
+es un movimiento rectilíneo uniforme, por lo que también podríamos tener varios casos
+ilustrados a continuación.
+Caso 1: Movimiento rectilíneo uniforme con datos de posición y velocidad.
+
+ zk=
+     (   a11 a12
+         a21 a22    )      a
+                 x k +v k = 11
+                                 (
+                               a12 x
+                           a21 a22 ẋ
+                                      + vk
+                                             )( )
+Caso 2: Movimiento en el plano con datos de posición y velocidad.
+
+
+     (                                ) (                               )( )
+      a11     a12       a 13   a14            a11    a12   a13    a14    x
+      a       a22       a 23   a24            a      a22   a23    a24    y
+ z k = 21                           x k +v k = 21                           + vk
+      a31     a32       a 33   a 34           a31    a32   a33    a34    ẋ
+      a41     a42       a 43   a 44           a 41   a42   a43    a44    ẏ
+
+Caso 3: Movimiento en el espacio con datos de posición y velocidad.
+
+
+     (                                          ) (                                                )
+      a11     a12       a 13   a14    a15    a16           a 11   a12    a13   a14    a15   a16
+
+
+                                                                                                       ()
+      a21     a22       a 23   a24    a25    a26           a21    a22    a23   a24    a25   a26        x
+      a       a32       a 33   a 34   a 35   a36           a      a32    a33   a34    a35   a 36       y
+ z k = 31                                        x k +v k = 31                                            +v k
+      a41     a42       a 43   a 44   a 45   a46           a41    a42    a43   a 44   a45   a 46       ẋ
+      a51     a52       a 53   a54    a 55   a56           a51    a52    a53   a54    a55   a 56       ẏ
+      a61     a62       a 63   a64    a65    a66           a61    a62    a63   a64    a65   a66
+
+b) ¿Y si el sensor proporcionara la posición y la aceleración de la partícula?
+
+Al igual que en el numeral a, los posibles casos para la ecuación de medida-observación
+pueden ser los siguientes:
+
+Caso 1: Movimiento rectilíneo uniforme con datos de posición y aceleración.
+
+ zk=
+     (   a11 a12
+         a21 a22    )       a
+                 x k + z k = 11
+                                 (
+                                a12 x
+                            a21 a22 ẍ
+                                       +v k
+                                             )( )
+Caso 2: Movimiento en el plano con datos de posición y aceleración.
+
+
+     (                                ) (                               )( )
+      a11     a12       a 13   a14            a11    a12   a13    a14    x
+      a       a22       a 23   a24            a      a22   a23    a24    y +v
+ z k = 21                           x k +v k = 21                             k
+      a31     a32       a 33   a 34           a31    a32   a33    a34    ẍ
+      a41     a42       a 43   a 44           a 41   a42   a43    a44    ÿ
+Caso 3: Movimiento en el espacio con datos de posición y aceleración.
+
+
+       (                                          ) (                                               )
+      a11       a12       a 13   a14    a15    a16           a 11   a12   a13   a14    a15   a16
+
+
+                                                                                                        ()
+      a21       a22       a 23   a24    a25    a26           a21    a22   a23   a24    a25   a26        x
+      a         a32       a 33   a 34   a 35   a36           a      a32   a33   a34    a35   a 36       y
+ z k = 31                                          x k +v k = 31                                           +v k
+      a41       a42       a 43   a 44   a 45   a46           a41    a42   a43   a 44   a45   a 46       ẍ
+      a51       a52       a 53   a54    a 55   a56           a51    a52   a53   a54    a55   a 56       ÿ
+      a61       a62       a 63   a64    a65    a66           a61    a62   a63   a64    a65   a66
+
+c) ¿Y si la observación-medida aporta la media de las coordenadas de la posición?.
+
+Igualmente, los casos posibles son:
+
+Caso 1: Movimiento rectilíneo uniforme con datos de posición y aceleración.
+
+ z k =( a11 ) x k + z k =( a 11 ) ( x ) +v k
+
+Caso 2: Movimiento en el plano con datos de posición y aceleración.
+
+ zk=
+       (   a11 a12
+           a21 a22    )      a
+                   x k +v k = 11
+                                   (
+                                 a12 x
+                             a21 a22 y
+                                       +v k
+                                               )( )
+Caso 3: Movimiento en el espacio con datos de posición y aceleración.
+
+
+                                                           )( )
+                                              x
+ zk=
+       (   a11 a12 a13
+           a21 a22 a23       )    a   a
+                       x k + v k = 11 12
+                                           (
+                                          a13
+                                  a21 a22 a23
+                                              y +v k
+                                              z
+4) El ejemplo desarrollado en las páginas 52 y 53 de la Ref. 7 (M. Valderrama. Aplicaciones
+en medicina: oscilación del tejido cardíaco), contiene alguna/s errata/s que ya habéis
+localizado en las tareas recomendadas del curso. Analizad en este ejercicio qué estimación
+se obtendría en la segunda iteración del filtro, proporcionando también la matriz de
+covarianza asociada, si la segunda medida z(2) es 17 con una varianza igual a la de la
+primera medida z(1). Recordad que el artículo emplea la notación y(i) en lugar de z(i) para las
+medidas/observaciones.
+
+                                          Solución:
+
+Disponemos de los siguientes datos:
+
+ xˇ1 =  (
+        0 1
+       −1 1     )
+            x 1 +w 1
+
+
+ z1 =( 1 1 ) x 1 +v 1
+
+Con w1 y v1 son ruidos blancos no correlacionados con las demás variables y cuyos valores
+son:
+Q=I y R=I.
+
+Tenemos también que:
+
+
+                                 ( )
+                                     −2
+                                 1
+ x 1=
+      8
+      4 ()                P1 =
+                                 2
+                                      3
+                                     11
+                                 3    9
+
+La observación correspondiente a la segunda medida es: z 2=13. La estimación que se
+obtiene en la segunda iteración de F k es:
+
+Primer paso: Cálculo del vector de estado en el proceso de predicción:
+
+ x 2=   (−10 11 )(84 )=(−44 )
+Segundo paso: Estimación de la covarianza del error en estado a priori.
+
+
+                    ( )( ) ( ) ( )
+                        −2             20         17
+                    1
+        (       )
+                                T
+ P2 = 0 1 ⋅              3  0 1 + 0 1= 9          9
+     −1 1 2             11 −1 1   −1 1 17         41
+            3            9              9         9
+Tercer paso: Cálculo del factor de Kalman o matriz de ganancia:
+              T           T       −1
+ K 2 =P 2⋅H ⋅( HP 2 H +R)
+
+
+        ( ) ( )( ( )( ) ( )) ( )
+                                                       −1
+      20          17           20           17            37
+       9          9 1
+ K 2=                ⋅ ( 1 1 )⋅ 9           9 1 1 0
+                                                +       =
+                                                          104
+      17          41 1         17           41 1 0 1      29
+       9          9             9           9             52
+
+
+        ( )
+       37
+      104
+ K 2=
+       29
+       52
+
+Cuarto paso: Calculamos la innovación del filtro:
+
+ Z 2 −Hx 2=13−( 1 1 )⋅          (−44 )=13
+Quinto paso: Cálculo del estimador buscado:
+
+
+                  ( ) ()
+           37         69
+ x 2= ( )
+       4
+      −4
+         +
+           104
+           29
+               ⋅(13)=
+                       8
+                      13
+           52          4
+
+ x 2 = x̌ 2 +K 2 [ z2 −Hx 2 ]
+
+Sexto paso: Cálculo de la covarianza del error de estimación:
+
+
+                          (( ) ( ) )( ) (                               )
+                         37        20                  17   79   −21
+ P2 =(1−K 2 H)P 2= 1 0 − 104 (1 1) 9                   9 = 104    52
+                   0 1   29        17                  41  −11   −137
+                         52         9                  9   156    78
+
+P2<P1

@@ -1,0 +1,552 @@
+Capítulo 3: Integral definida
+                                Ejemplo 1
+
+                                Analice la convergencia o divergencia de las siguientes integrales impropias:
+
+
+                                a. ∫ 0                              b. ∫−∞                      c. ∫−∞
+                                     +∞      1                          0       1                     +∞      1
+                                          1 + x2                             1 + x2                        1 + x2
+                                                 dx                                 dx                            dx
+
+
+                                Solución
+
+                                a.        De acuerdo con la definición i,
+
+
+                                                 ∫ 1 + x dx = lim ∫ 1 + x dx, si dicho límite existe.
+                                                   +∞   1                          ∈   1
+                                                   0            2       ∈→+∞    0           2
+
+
+                                          Pero
+
+
+                                                 ∫ 1 + x dx = tan x] = tan ∈ − tan                    0 = tan −1 ∈.
+                                                   ∈    1                −1    ∈           −1    −1
+                                                   0        2                  0
+
+
+                                          De esta forma,
+
+                                                                                                                       π
+                                                 ∫ 1 + x dx = lim ∫ 1 + x dx = lim (tan ∈) = 2 .
+                                                   +∞                              ∈
+                                                        1                              1                       −1
+                                                  0             2       ∈→+∞ 0              2     ∈→+∞
+
+
+                                          Esto significa que la integral impropia es convergente y se puede escribir:
+
+                                                                         π
+                                                 ∫ 1 + x dx = 2 .
+                                                   +∞   1
+                                                   0            2
+
+
+                                b.        De acuerdo con la definición ii,
+
+
+                                                 ∫ 1 + x dx = lim ∫ 1 + x dx, si dicho límite existe.
+                                                   0    1                          0   1
+                                                  −∞        2           ∈→−∞    ∈           2
+
+
+                                          Pero
+
+                                                 ∫ 1 + x dx = tan             x]∈0 = tan −1 0 − tan −1 ∈ = − tan −1 ∈.
+                                                        1                −1
+                                                   0
+
+                                                  ∈         2
+
+
+                                          De esta forma,
+
+
+                                                 ∫ 1 + x dx = lim ∫ 1 + x dx
+                                                   0    1                          0   1
+                                                  −∞        2           ∈→−∞    ∈           2
+
+
+                                                                                            ⎛ π⎞    π
+                                                                     = lim (− tan −1 ∈) = − ⎜ − ⎟ =
+                                                                                            ⎝ 2⎠
+                                                                                                      .
+                                                                       ∈→+∞                         2
+
+
+176
+                                                                                                   Módulo 17: Integrales impropias
+       Esto significa que la integral impropia es convergente y se puede escribir:
+
+                                               π
+                   ∫ 1 + x dx = 2 .
+                      0       1
+                      −∞          2
+
+
+c.     De acuerdo con la definición iii,
+
+                                                                         π       π
+       ∫ 1 + x dx = ∫ 1 + x dx + ∫ 1 + x dx = 2 + 2 = π .
+           +∞     1                   0    1                +∞   1
+           −∞             2           −∞           2        0        2
+
+
+El siguiente ejemplo será de gran utilidad en el trabajo con series numéricas ya que
+
+permite determinar los valores para los cuales la llamada serie-p ⎜ ∑ p ⎟ es con-
+                                                                  ⎛ ∞ 1 ⎞
+                                                                  ⎝ n =1 n ⎠
+vergente o divergente.
+
+Ejemplo 2
+
+Determine los valores de p para los cuales la integral impropia ∫
+                                                                         +∞   1
+                                                                                 dx converge.
+                                                                         1    xp
+
+Solución
+
+De acuerdo con la definición i,
+
+
+       ∫            dx = lim ∫ p dx.
+           +∞   1              ∈ 1
+
+           1    x p     ∈→+∞  1  x
+
+Pero
+
+
+                   ⎧ 1
+                           (∈1− p − 1)
+       ∫1 x p
+                   ⎪                                        p ≠1
+                 =    −
+           ∈
+                   ⎨
+          1
+                   ⎪ln ∈                                    p =1
+              dx    1    p                             si
+                   ⎩
+
+Así que:
+
+1.     Si p = 1, entonces
+
+
+       ∫            dx = lim ∫ p dx = lim (ln ∈) = + ∞ .
+           +∞   1              ∈ 1
+
+           1    x p      ∈→+∞ 1  x    ∈→+∞
+
+
+2.     Si p > 1, entonces
+
+
+       ∫            dx = lim ∫ p dx = lim        (∈1− p − 1) =
+           +∞   1              ∈ 1           1                  1
+           1    x p      ∈→+∞ 1 x     ∈→+∞ 1 − p               p − 1 , puesto que                     Vea el módulo 17 del programa
+                                                                                                      de televisión Elementos básicos
+
+        lim ∈1− p = 0 . (Como p > 1 , 1 − p < 0 y ∈1− p → 0. cuando ∈ → +∞)
+                                                                                                      de cálculo integral y series
+
+       ∈→+∞
+
+
+                                                                                 Elementos básicos de cálculo integral y series 177
+Capítulo 3: Integral definida
+                                3.      Si p < 1, entonces
+
+
+                                       ∫            dx = lim ∫ p dx = lim       (∈1− p − 1) = + ∞, puesto que
+                                           +∞   1              ∈ 1          1
+                                           1    x p      ∈→+∞ 1  x    ∈→+∞ 1− p
+
+
+                                        lim ∈1− p = + ∞ . (Como p < 1 , 1 − p > 0 y ∈1− p → +∞ , cuando ∈ → +∞)
+                                       ∈→+∞
+
+
+                                Del análisis anterior se puede concluir que la integral impropia ∫
+                                                                                                     +∞   1
+                                                                                                             dx converge
+                                                                                                     1    xp
+                                para p >1, y en los demás casos diverge.
+
+                                El siguiente teorema y su corolario, que se enuncian sin demostración, son útiles
+                                porque en muchos casos permiten decidir si una integral impropia es convergente o
+                                no.
+
+
+178
+                                                                                               Módulo 17: Integrales impropias
+Ejemplo 3
+
+Analice la convergencia o divergencia de la siguiente integral impropia:
+
+            ∫
+                +∞        1
+                     x (1 + x 2 e x )
+                      2
+                                      dx.
+                1
+
+
+Solución
+
+Para x ≥ 1 , e x ≥ 1 , así que 0 ≤ x 2 ≤ 1 + x 2 e x , lo cual implica que
+            0 ≤ x 4 ≤ x 2 (1 + x 2 e x ),
+
+de donde
+
+            0 ≤                          ≤ 4.
+                              1            1
+                      x 2 (1 + x 2 e x )   x
+Ahora,
+
+
+            ∫            dx = (ejemplo 2, parte 2).
+                +∞   1       1
+                       4
+                1    x       3
+
+Entonces, de acuerdo con la parte 1 del teorema 1, se puede concluir que
+
+∫                           dx converge, y además 0 ≤ ∫                      dx ≤ .
+    +∞          1                                       +∞        1              1
+    1    x 2 (1 + x 2 e x )                             1 x 2 (1 + x 2 e x )     3
+
+Ejemplo 4
+
+
+Demuestre que para cada s ∈ ℜ la integral impropia ∫ e − x x s dx es convergente.
+                                                            +∞
+
+                                                           1
+
+
+Solución
+
+Para la demostración se utiliza el corolario del teorema 1 en su parte 2.
+
+Sea g ( x ) = x −2 y f ( x ) = e − x x s para x ≥ 1.
+
+Pero,
+                 xs+2
+            lim       = 0.
+            x →+∞ e x
+
+
+En efecto,
+                                 e− x x s         xs+2
+                          = lim           = lim x
+                  f ( x)
+            lim                     −                                                 (1)
+            x →+∞ g ( x )   x →+∞ x   2     x →+∞ e
+
+
+                                                                             Elementos básicos de cálculo integral y series 179
+Capítulo 3: Integral definida
+
+                                                                            xs+2
+                                       Si s ≤ −2, entonces xlim                  = 0.
+                                                             →+∞             ex
+
+                                                                                         xs+2                             ∞
+                                       Si s > −2, entonces el límite xlim
+                                                                                                                          ∞
+                                                                       →+∞
+                                                                                              es de la forma indeterminada .
+                                                                                          ex
+
+                                Como s + 2 es un real fijo, se puede aplicar reiteradamente la regla de L´Hopital
+                                hasta que el exponente de x sea negativo o cero. En ese momento el numerador es
+                                una constante y el denominador tiende a infinito. En consecuencia,
+
+
+                                              xs+2
+                                        lim        = 0.                                                                  (2)
+                                        x →+∞ e x
+
+
+                                De (1) y (2) se concluye que
+
+                                                         = 0.
+                                                  f ( x)
+                                        lim
+                                        x →+∞     g ( x)
+                                Además,
+
+                                        ∫        g ( x) dx = ∫        x −2 dx = ∫
+                                                                                dx = 1 (convergente),
+                                            +∞                   +∞          1      +∞
+
+                                            1                    1          x2      1
+
+                                y por el corolario del teorema 1 (parte 2) se puede concluir finalmente que la integral
+
+                                impropia ∫1 e x dx es convergente para todo s ∈ ℜ.
+                                                 +∞
+                                             −x 5
+
+
+                                A continuación se definirá el segundo tipo de integrales impropias.
+
+                                La particularidad de este tipo de integrales es la discontinuidad infinita que presen-
+                                ta el integrando en algún punto del intervalo cerrado [a, b].
+
+
+180
+                                                                                            Módulo 17: Integrales impropias
+
+
+Ejemplo 5
+
+Analice la convergencia o divergencia de la siguiente integral impropia:
+
+
+        ∫
+            1    1
+                    dx.
+            −1   x2
+
+Solución
+
+
+Como en x = 0 (punto interior del intervalo [−1,1] ) la función f ( x) =
+                                                                           1
+                                                                              se hace
+                                                                           x2
+infinita, se tiene, de acuerdo con el caso 4, que
+
+
+        ∫            dx = ∫        dx + ∫ 2 dx.
+            1    1          0 1          1 1
+
+            −1   x 2        −1 x 2       0 x
+
+Pero
+
+
+        ∫−1 x2 dx = ∈→
+                    lim− ∫
+                                            ⎡ 1⎤          ⎡ 1 ⎤
+                                                      ∈
+
+                                  dx = lim− ⎢ − ⎥ = lim− ⎢ − + 1⎥ = +∞.
+            1
+            0              ∈ 1
+
+                           −1 x 2      ∈→ 0 ⎣ x ⎦    ∈→ 0 ⎣ ∈   ⎦
+                                                  −1
+                       0
+
+
+Igualmente,
+
+
+        ∫ 0 x2 dx = ∈→
+                    lim+ ∫ 2 dx = lim+ ⎢ − ⎥ = lim+ ⎢ −1 + ⎥ = +∞.
+                                       ⎡ 1⎤         ⎡     1⎤
+                                                  1
+            1             1 1
+
+                                                          ∈
+            1
+
+                          ∈ x     ∈→ 0 ⎣ x ⎦   ∈→ 0 ⎣       ⎦
+                                            ∈
+                       0
+
+
+                                                                          Elementos básicos de cálculo integral y series 183
+Capítulo 3: Integral definida
+                                Es decir, ambas integrales divergen a +∞, y en consecuencia la integral impropia
+                                dada diverge.
+
+                                Obsérvese que si no se tiene en cuenta la discontinuidad de la función en x = 0 y se
+                                evalúa la integral directamente, se obtiene:
+
+
+                                        ∫ −1 x2 dx = ⎢⎣− x ⎥⎦ −1 = −2,
+                                                      ⎡ 1⎤
+                                                                   1
+                                            11
+
+
+                                lo que es un absurdo puesto que si f ( x) =                         > 0, entonces,
+                                                                                                 1
+                                                                                                 x2
+
+                                        ∫           dx > 0.
+                                            1    1
+                                            −1   x2
+
+                                Ejemplo 6
+
+                                Analice la convergencia o divergencia de la siguiente integral impropia:
+
+
+                                        ∫
+                                            1     1
+                                                 1 − x2
+                                                            dx.
+                                            0
+
+
+                                Solución
+
+
+                                Como en x = 1 la función f ( x) =
+                                                                                     1
+                                                                                   1 − x2
+                                                                                                se hace infinita, se tiene, de acuerdo con
+
+                                la definición del caso 2, que
+
+
+                                        ∫                   dx = lim− ∫
+                                                                                                                                π
+                                                                                         dx = lim− ⎡⎣sen −1 x ⎤⎦ = sen −1 1 =
+                                            1     1                       ∈    1                                   ∈
+
+                                                 1− x                         1− x
+                                                                                                                                  ,
+                                            0           2         ∈→1     0          2          ∈→1                0            2
+
+
+                                lo cual indica que la integral impropia es convergente.
+
+
+                                Ejemplo 7
+
+
+                                Demuestre que para cada s > 0 la integral ∫ e − t t s −1 dt es convergente.
+                                                                                                    1
+
+                                                                                                   0
+
+
+                                Solución
+
+
+                                Nótese, en primer lugar, que la integral ∫ 0 e t
+                                                                                                − t s −1
+                                                                                            1
+                                                                                                           dt es una integral impropia puesto
+
+                                                                  e−t
+                                que la función f (t ) = e ⋅ t = 1− s se hace infinita en t = 0.
+                                                         −t  s −1
+
+                                                                  t
+
+
+184
+                                                                                     Módulo 17: Integrales impropias
+
+
+Ejemplo 8
+
+Use la definición de la función gamma para demostrar las siguientes propiedades
+concernientes a ella.
+
+a.     Γ(1) = 1.
+
+
+b.     Γ( s + 1) = s ⋅ Γ( s ), s > 0.
+
+
+c.     Γ(n + 1) = n !, para n ∈ .
+                               N฀
+
+
+                                                                   Elementos básicos de cálculo integral y series 185
+Capítulo 3: Integral definida
+                                Solución
+
+                                a.    De acuerdo con la definición de la función gamma, se tiene:
+
+
+                                               Γ(1) = ∫               e −t t1−1 dt = ∫ e−t dt = lim ∫ e−t dt = lim ⎡⎣1 − e−∈ ⎤⎦ = 1.
+                                                                 +∞                        +∞                           ∈
+
+                                                                 0                         0                ∈→+∞ 0                  ∈→+∞
+
+
+                                       Γ( s + 1) = ∫             e−t t ( s +1) −1 dt = ∫        e−t t s dt = lim ∫ e−t t s dt.
+                                                          +∞                               +∞                               ∈
+                                b.                       0                                 0                    ∈→+∞ 0
+
+
+                                      Para calcular la última integral se usa integración por partes, esto es,
+
+                                              sea u = t s y dv = e − t dt.
+
+
+                                      Entonces du = st s −1 dt y v = −e− t .
+
+                                      De esta forma,
+
+
+                                               ∫ e t dt = ⎡⎣−e ⋅ t ⎤⎦ + s ⋅ ∫ e t
+                                                   ∈                                   ∈               ∈
+                                                        −t s                 −t                            − t s −1
+                                                                                   s
+                                                                                                                      dt.
+                                                   0                                   0               0
+
+
+                                                                     lim ⎡⎣ −e−∈ ⋅∈s ⎤⎦ = 0 (usando la regla de
+                                      Como ⎡⎣ −e ⋅ t ⎤⎦ 0 = −e ⋅∈ y ∈→+∞
+                                                −t  s         −∈ s   ∈
+
+
+                                      L´Hopital), se tiene entonces que:
+
+
+                                              ∈→+∞
+                                                             ∈
+                                                                                       (
+                                               lim ∫ e − t t s dt = lim −e −∈ ⋅ ∈s + s ⋅ ∫ e − t t s −1 dt
+                                                                              ∈→+∞
+                                                                                                                  ∈
+                                                                                                                                )
+                                                                           = 0 + s ⋅ lim ∫ e − t t s dt = s ⋅ Γ( s ).
+                                                          0                                                       0
+
+                                                                                                   ∈
+
+                                                                                       ∈→+∞        0
+
+
+                                      En consecuencia, Γ( s + 1) = s ⋅ Γ( s ).
+
+                                c.     Al reemplazar n por s en la conclusión de la parte b se obtiene
+                                      Γ(n + 1) = n ⋅ Γ(n).
+
+                                      Al utilizar en forma reiterada en la última igualdad la conclusión de la
+                                      parte b, se puede escribir entonces:
+
+                                              Γ(n) = Γ((n − 1) + 1) = (n − 1) ⋅ Γ(n − 1).
+                                            Γ(n −1) = Γ((n − 2) +1) = (n − 2) ⋅Γ(n − 2),..., Γ(3) = 2⋅Γ(2) = 2⋅Γ(1+1) = 2⋅1.
+
+                                      Luego
+                                               Γ(n + 1) = n(n − 1)(n − 2) ⋅⋅⋅ 2 ⋅1 = n !
+
+                                      Teniendo en cuenta b se deduce que:
+
+
+                                               ∫        e − x x n dx = n !
+                                                   +∞
+
+                                                   0
+
+
+186

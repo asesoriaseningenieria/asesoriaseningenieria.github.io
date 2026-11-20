@@ -1,0 +1,1168 @@
+01-Hibbeler        28/8/56     5:01 AM        Página 4
+
+
+     4    •     CAPÍTULO 1 Esfuerzo
+
+
+                                                               Desarrollo histórico. El origen de la mecánica de materiales data de
+                                                               principios del siglo XVII, cuando Galileo llevó a cabo experimentos para
+                                                               estudiar los efectos de las cargas en barras y vigas hechas de diversos ma-
+                                                               teriales. Sin embargo, para alcanzar un entendimiento apropiado de tales
+                                                               efectos fue necesario establecer descripciones experimentales precisas de
+                                                               las propiedades mecánicas de un material. Los métodos para hacer esto
+                                                               fueron considerablemente mejorados a principios del siglo XVIII. En aquel
+                                                               tiempo el estudio tanto experimental como teórico de esta materia fue
+                                                               emprendido, principalmente en Francia, por personalidades como Saint-
+                                                               Venant, Poisson, Lamé y Navier. Debido a que sus investigaciones se ba-
+                                                               saron en aplicaciones de la mecánica a los cuerpos materiales, llamaron a
+                                                               este estudio “resistencia de materiales”. Sin embargo, hoy en día llamamos
+                                                               a lo mismo “mecánica de los cuerpos deformables” o simplemente, “me-
+                                                               cánica de materiales”.
+                                                                  En el curso de los años, y después de que muchos de los problemas fun-
+                                                               damentales de la mecánica de materiales han sido resueltos, fue necesa-
+                                                               rio usar matemáticas avanzadas y técnicas de computación para resolver
+                                                               problemas más complejos. Como resultado, esta disciplina se extendió a
+                                                               otras áreas de la mecánica moderna como la teoría de la elasticidad y la
+                                                               teoría de la plasticidad. La investigación en estos campos continúa, no só-
+                                                               lo para satisfacer las demandas de solución a problemas de ingeniería de
+                                                               vanguardia, sino también para justificar más el uso y las limitaciones en
+                                                               que se basa la teoría fundamental de la mecánica de materiales.
+
+     1.2           Equilibrio de un cuerpo deformable
+      Idealización de                                          Debido a que la estática juega un papel esencial tanto en el desarrollo
+         una fuerza                                            como en la aplicación de la mecánica de materiales, es muy importante
+        concentrada                                            tener un buen conocimiento de sus principios fundamentales. Por esta ra-
+                                                               zón repasaremos algunos de esos principios que serán usados a lo largo
+                                                               del texto.
+                       s                                       Cargas externas. Un cuerpo puede estar sometido a diversos tipos
+                           G                       Fuerza      de cargas externas; sin embargo, cualquiera de éstas puede clasificarse co-
+                                                     de
+                                                  superficie
+                                                               mo fuerza de superficie o como fuerza de cuerpo. Vea la figura 1-1.
+              C
+                                                               Fuerzas de superficie. Como su nombre lo indica, las fuerzas de super-
+           FR                  W
+                w(s)                                           ficie son causadas por el contacto directo de un cuerpo con la superficie
+                                       Fuerza                  de otro. En todos los casos, esas fuerzas están distribuidas sobre el área de
+                                      de cuerpo
+         Idealización de una carga                             contacto entre los cuerpos. En particular si esta área es pequeña en com-
+          linealmente distribuida                              paración con el área total del cuerpo, entonces la fuerza superficial pue-
+                           Fig. 1-1                            de idealizarse como una sola fuerza concentrada, que es aplicada a un
+                                                               punto sobre el cuerpo. Por ejemplo, esto podría hacerse para representar
+                                                               el efecto del suelo sobre las ruedas de una bicicleta al estudiar la carga so-
+                                                               bre ésta. Si la carga superficial es aplicada a lo largo de un área estrecha,
+                                                               la carga puede idealizarse como una carga linealmente distribuida, w(s).
+                                                               Aquí la carga se mide como si tuviese una intensidad de fuerza/longitud
+                                                               a lo largo del área y se representa gráficamente por una serie de flechas a
+                                                               lo largo de la línea s. La fuerza resultante FR de w(s) es equivalente al
+                                                               área bajo la curva de carga distribuida, y esta resultante actúa a través
+                                                               del centroide C o centro geométrico de esta área. La carga a lo largo de
+                                                               la longitud de una viga es un ejemplo típico en el que es aplicada a menu-
+                                                               do esta idealización.
+01-Hibbeler     28/8/56     5:01 AM   Página 5
+
+
+                                                                        SECCIÓN 1.2 Equilibrio de un cuerpo deformable                 •   5
+
+
+         Fuerza de cuerpo. Una fuerza de cuerpo se desarrolla cuando un cuer-
+         po ejerce una fuerza sobre otro cuerpo sin contacto físico directo entre
+         los cuerpos. Ejemplos de esto incluyen los efectos causados por la gravi-
+         tación de la Tierra o por su campo electromagnético. Aunque las fuerzas
+         de cuerpo afectan cada una de las partículas que forman el cuerpo, esas
+         fuerzas se representan normalmente por una sola fuerza concentrada ac-
+         tuando sobre el cuerpo. En el caso de la gravitación, esta fuerza se llama
+         el peso del cuerpo y actúa a través del centro de gravedad del mismo.
+         Reacciones en los soportes. Las fuerzas de superficie que se desarro-
+         llan en los soportes o puntos de contacto entre cuerpos se llaman reaccio-
+         nes. En problemas bidimensionales, es decir, en cuerpos sometidos a sis-
+         temas de fuerzas coplanares, los soportes más comúnmente encontrados
+         se muestran en la tabla 1-1. Observe cuidadosamente el símbolo usado
+         para representar cada soporte y el tipo de reacciones que ejerce en su
+         miembro asociado. En general, siempre puede determinarse el tipo de
+         reacción de soporte imaginando que el miembro unido a él se traslada o
+         gira en una dirección particular. Si el soporte impide la traslación en una
+                                                                                            Muchos elementos de máquinas son conec-
+         dirección dada, entonces una fuerza debe desarrollarse sobre el miem-              tados por pasadores para permitir la rota-
+         bro en esa dirección. Igualmente, si se impide una rotación, debe ejer-            ción libre en sus conexiones. Esos soportes
+         cerse un momento sobre el miembro. Por ejemplo, un soporte de rodillo              ejercen una fuerza sobre un miembro, pero
+         sólo puede impedir la traslación en la dirección del contacto, perpendicu-         no un momento.
+         lar o normal a la superficie. Por consiguiente, el rodillo ejerce una fuerza
+         normal F sobre el miembro en el punto de contacto. Como el miembro
+         puede girar libremente respecto al rodillo, no puede desarrollarse un mo-
+         mento sobre el miembro.
+
+
+              TA B L A 1 - 1
+                 Tipo de conexión                 Reacción              Tipo de conexión                        Reacción
+
+
+                                                                                                                Fy
+                                             F
+                                                                                                     Fx
+
+
+                          Cable                  Una incógnita: F         Pasador externo                     Dos incógnitas: Fx, Fy
+
+
+                                                                                                                Fy
+
+                                                                                                     Fx
+
+                                                  F
+                        Rodillo              Una incógnita: F             Pasador interno                     Dos incógnitas: Fx, Fy
+
+
+                                                                                                          M    Fy
+                                                                                                     Fx
+
+                                         F
+                      Soporte liso           Una incógnita: F             Empotramiento                       Tres incógnitas: Fx, Fy, M
+01-Hibbeler    28/8/56   5:01 AM   Página 6
+
+
+     6   •   CAPÍTULO 1 Esfuerzo
+
+
+                                              Ecuaciones de equilibrio. El equilibrio de un miembro requiere un
+                                              balance de fuerzas para impedir que el cuerpo se traslade o tenga movi-
+                                              miento acelerado a lo largo de una trayectoria recta o curva, y un balance
+                                              de momentos para impedir que el cuerpo gire. Estas condiciones pueden
+                                              expresarse matemáticamente con las dos ecuaciones vectoriales:
+
+
+                                                                                                                   (1-1)
+
+
+                                              Aquí,  F representa la suma de todas las fuerzas que actúan sobre el cuer-
+                                              po y  MO es la suma de los momentos de todas las fuerzas respecto a
+                                              cualquier punto O sobre o fuera del cuerpo. Si se fija un sistema coorde-
+                                              nado x, y, z con el origen en el punto O, los vectores fuerza y momento
+                                              pueden resolverse en componentes a lo largo de los ejes coordenados y
+                                              las dos ecuaciones anteriores pueden escribirse en forma escalar como
+                                              seis ecuaciones, que son:
+
+
+                                                                                                                   (1-2)
+
+
+                                                A menudo, en la práctica de la ingeniería la carga sobre un cuerpo pue-
+                                              de representarse como un sistema de fuerzas coplanares. Si es éste el ca-
+                                              so y las fuerzas se encuentran en el plano x-y, entonces las condiciones
+                                              para el equilibrio del cuerpo pueden especificarse por medio de sólo tres
+                                              ecuaciones escalares de equilibrio; éstas son:
+
+
+                                                                                                                   (1-3)
+
+
+                                              En este caso, si el punto O es el origen de coordenadas, entonces los mo-
+                                              mentos estarán siempre dirigidos a lo largo del eje z, que es perpendicu-
+                                              lar al plano que contiene las fuerzas.
+                                                 La correcta aplicación de las ecuaciones de equilibrio requiere la espe-
+                                              cificación completa de todas las fuerzas conocidas y desconocidas que ac-
+                                              túan sobre el cuerpo. La mejor manera de tomar en cuenta esas fuerzas
+                                              es dibujando el diagrama de cuerpo libre del cuerpo. Es obvio que si el
+                                              diagrama de cuerpo libre está dibujado correctamente, los efectos de to-
+                                              das las fuerzas y momentos aplicados serán tomados en cuenta cuando se
+                                              escriban las ecuaciones de equilibrio.
+01-Hibbeler   28/8/56    5:01 AM      Página 7
+
+
+                                                                                 SECCIÓN 1.2 Equilibrio de un cuerpo deformable       •   7
+
+
+                               F4
+                   F3                                                                                MR
+                                                                                                          O                 FR
+
+
+                                         sección                                                                  O
+
+
+              F1                    F2                   F1                                          F1
+                                                                                        F2                                       F2
+                         (a)                                            (b)                                      (c)
+
+                                                                      Fig. 1-2
+
+
+         Cargas internas resultantes. Una de las aplicaciones más importan-
+         tes de la estática en el análisis de problemas de la mecánica de materia-
+         les es poder determinar la fuerza y momento resultantes que actúan den-
+         tro de un cuerpo y que son necesarias para mantener unido al cuerpo
+         cuando éste está sometido a cargas externas. Por ejemplo, considere
+         el cuerpo mostrado en la figura 1-2a, que es mantenido en equilibrio por
+         las cuatro fuerzas externas.* Para obtener las cargas internas que actúan
+         sobre una región específica dentro del cuerpo es necesario usar el méto-
+         do de las secciones. Esto requiere hacer una sección imaginaria o “corte”
+         a través de la región donde van a determinarse las cargas internas. Las dos
+         partes del cuerpo son separadas y se dibuja un diagrama de cuerpo libre
+         de una de las partes, figura 1-2b. Puede verse aquí que existe realmente
+         una distribución de la fuerza interna que actúa sobre el área “expuesta”
+         de la sección. Esas fuerzas representan los efectos del material de la par-
+         te superior del cuerpo actuando sobre el material adyacente de la parte
+         inferior. Aunque la distribución exacta de la carga interna puede ser des-
+         conocida, podemos usar las ecuaciones de equilibrio para relacionar las
+         fuerzas externas sobre el cuerpo con la fuerza y momento resultantes de
+         la distribución, FR y MRO, en cualquier punto específico O sobre el área
+         seccionada, figura 1-2c.Al hacerlo así, note que FR actúa a través del pun-
+         to O, aunque su valor calculado no depende de la localización de este
+         punto. Por otra parte, MRO, sí depende de esta localización, ya que los bra-
+         zos de momento deben extenderse de O a la línea de acción de cada fuerza
+         externa sobre el diagrama de cuerpo libre. Se mostrará en partes poste-
+         riores del texto que el punto O suele escogerse en el centroide del área
+         seccionada, y así lo consideraremos aquí a menos que se indique otra cosa.
+         Además, si un miembro es largo y delgado, como en el caso de una barra
+         o una viga, la sección por considerarse se toma generalmente perpendicu-
+         lar al eje longitudinal del miembro.A esta sección se le llama sección trans-
+         versal.
+
+
+         *El peso del cuerpo no se muestra, ya que se supone que es muy pequeño y, por tanto,
+         despreciable en comparación con las otras cargas.
+01-Hibbeler    28/8/56   5:01 AM   Página 8
+
+
+     8   •   CAPÍTULO 1 Esfuerzo
+
+
+                                                                                                     Momento
+                                          MR                                                         de torsión T
+                                               O                    FR                    MR
+                                                                                                O                       Fuerza
+                                                                                                                        normal
+                                                                                                                    N
+                                                                                                                                      FR
+
+                                                           O                                                                           Fuerza
+                                                                                                                                      cortante
+                                                                                                               O
+                                                                                                M
+                                                                                   Momento                                            V
+                                                                                  flexionante
+
+
+                                          F1
+                                                                         F2                     F1                               F2
+
+                                                         (c)                                                  (d)
+
+                                                                              Fig. 1-2 (cont.)
+
+
+                                               Tres dimensiones. Veremos después en este texto cómo relacionar las
+                                               cargas resultantes, FR y MRO, con la distribución de fuerza sobre el área sec-
+                                               cionada y desarrollaremos ecuaciones que puedan usarse para el análisis
+                                               y diseño del cuerpo. Sin embargo, para hacer esto deben considerarse las
+                                               componentes de FR y MRO, actuando normal o perpendicularmente al área
+                                               seccionada y dentro del plano del área, figura 1-2d. Cuatro tipos diferen-
+                                               tes de cargas resultantes pueden entonces definirse como sigue:
+
+                                               Fuerza normal, N. Esta fuerza actúa perpendicularmente al área. Ésta
+                                               se desarrolla siempre que las fuerzas externas tienden a empujar o a jalar
+                                               sobre los dos segmentos del cuerpo.
+
+                                               Fuerza cortante, V. La fuerza cortante reside en el plano del área y se
+                                               desarrolla cuando las cargas externas tienden a ocasionar que los dos seg-
+                                               mentos del cuerpo resbalen uno sobre el otro.
+
+                                               Momento torsionante o torca, T. Este efecto se desarrolla cuando las
+                                               cargas externas tienden a torcer un segmento del cuerpo con respecto al
+                                               otro.
+
+                                               Momento flexionante, M. El momento flexionante es causado por las
+                                               cargas externas que tienden a flexionar el cuerpo respecto a un eje que se
+                                               encuentra dentro del plano del área.
+
+                                                 En este texto, advierta que la representación de un momento o una tor-
+                                               ca se muestra en tres dimensiones como un vector con una flecha curva
+                                               asociada. Por la regla de la mano derecha, el pulgar da el sentido de la fle-
+                                               cha del vector y los dedos recogidos indican la tendencia de rotación (tor-
+                                               sión o flexión). Usando un sistema coordenado x, y, z, cada una de las car-
+                                               gas anteriores puede ser determinada directamente de las seis ecuaciones
+                                               de equilibrio aplicadas a cualquier segmento del cuerpo.
+01-Hibbeler    28/8/56    5:01 AM       Página 9
+
+
+                                                                             SECCIÓN 1.2 Equilibrio de un cuerpo deformable              •   9
+
+
+                                                                                               y
+                                sección                                                              Fuerza
+          F2                                            F3              F2                          cortante
+                                                                                                   V
+                                                                                                      M O Momento
+                                                                                                           flexionante
+                                                                                         O                       x
+                                                                                                         N
+                                                                                                         Fuerza
+         F1                                                             F1                               normal
+
+                                  (a)              F4                                    (b)
+
+                                                             Fig. 1-3
+
+
+         Cargas coplanares. Si el cuerpo está sometido a un sistema de fuerzas
+         coplanares, figura 1-3a, entonces sólo existen en la sección componen-
+         tes de fuerza normal, de fuerza cortante y de momento flexionante, figu-
+         ra 1-3b. Si usamos los ejes coordenados x, y, z, con origen en el punto O
+         como se muestra en el segmento izquierdo, entonces una solución direc-
+         ta para N se puede obtener aplicando  Fx  0, y V se puede obtener di-
+         rectamente de  Fy  0. Finalmente, el momento flexionante MO se pue-
+         de determinar directamente sumando momentos respecto al punto O (el
+         eje z),  MO  0, para eliminar los momentos causados por las incógnitas
+         N y V.                                                                                    Para diseñar los miembros de este mar-
+                                                                                                   co de edificio, es necesario primero en-
+                                                                                                   contrar las cargas internas en varios pun-
+                                                                                                   tos a lo largo de su longitud.
+              PUNTOS IMPORTANTES
+              • La mecánica de materiales es un estudio de la relación entre las
+                cargas externas sobre un cuerpo y la intensidad de las cargas in-
+                ternas dentro del cuerpo.
+              • Las fuerzas externas pueden ser aplicadas a un cuerpo como car-
+                gas distribuidas o cargas de superficie concentradas, o bien como
+                fuerzas de cuerpo que actúan sobre todo el volumen del cuerpo.
+              • Las cargas linealmente distribuidas producen una fuerza resultan-
+                te que tiene una magnitud igual al área bajo el diagrama de car-
+                ga y una posición que pasa por el centroide de esa área.
+              • Un soporte produce una fuerza en una dirección particular sobre
+                su miembro correspondiente si ésta impide traslación del miembro
+                en esa dirección y él produce un momento de par sobre el miem-
+                bro si él impide una rotación.
+              • Las ecuaciones de equilibrio  F  0 y  M  0 deben ser satis-
+                fechas para prevenir que un cuerpo se traslade con movimiento
+                acelerado o que gire.
+              • Al aplicar las ecuaciones de equilibrio, es importante dibujar pri-
+                mero el diagrama de cuerpo libre del cuerpo para poder tomar
+                en cuenta todos los términos en las ecuaciones.
+              • El método de las secciones se usa para determinar las cargas
+                internas resultantes que actúan sobre la superficie del cuerpo sec-
+                cionado. En general, esas resultantes consisten en una fuerza
+                normal, una fuerza cortante, un momento torsionante y un mo-
+                mento flexionante.
+01-Hibbeler    28/8/56   5:01 AM    Página 10
+
+
+     10   •   CAPÍTULO 1 Esfuerzo
+
+
+                                                  PROCEDIMIENTOS DE ANÁLISIS
+                                                  El método de las secciones se usa para determinar las cargas internas
+                                                  resultantes en un punto localizado sobre la sección de un cuerpo. Pa-
+                                                  ra obtener esas resultantes, la aplicación del método de las secciones
+                                                  requiere considerar los siguientes pasos.
+                                                  Reacciones en los soportes.
+                                                  • Decida primero qué segmento del cuerpo va a ser considerado.
+                                                    Si el segmento tiene un soporte o conexión a otro cuerpo, enton-
+                                                    ces antes de que el cuerpo sea seccionado, es necesario determi-
+                                                    nar las reacciones que actúan sobre el segmento escogido del
+                                                    cuerpo. Dibuje el diagrama de cuerpo libre de todo el cuerpo y
+                                                    luego aplique las ecuaciones necesarias de equilibrio para obte-
+                                                    ner esas reacciones.
+                                                 Diagrama de cuerpo libre.
+                                                 • Mantenga todas las cargas distribuidas externas, los momentos de
+                                                   flexión, los momentos de torsión y las fuerzas que actúan sobre
+                                                   el cuerpo en sus posiciones exactas, luego haga un corte imagina-
+                                                   rio por el cuerpo en el punto donde van a determinarse las car-
+                                                   gas internas resultantes.
+                                                 • Si el cuerpo representa un miembro de una estructura o disposi-
+                                                   tivo mecánico, la sección es a menudo tomada perpendicularmen-
+                                                   te al eje longitudinal del miembro.
+                                                 • Dibuje un diagrama de cuerpo libre de uno de los segmentos “cor-
+                                                   tados” e indique las resultantes desconocidas N, V, M y T en la
+                                                   sección. Esas resultantes son usualmente colocadas en el punto
+                                                   que representa el centro geométrico o centroide del área seccio-
+                                                   nada.
+                                                 • Si el miembro está sometido a un sistema coplanar de fuerzas, só-
+                                                   lo N, V y M actúan en el centroide.
+                                                 • Establezca los ejes coordenados x, y, z con origen en el centroi-
+                                                   de y muestre las componentes resultantes que actúan a lo largo de
+                                                   los ejes.
+                                                 Ecuaciones de equilibrio.
+                                                 • Los momentos deben sumarse en la sección, respecto a cada uno
+                                                   de los ejes coordenados donde actúan las resultantes. Al hacerlo
+                                                   así se eliminan las fuerzas desconocidas N y V y es posible en-
+                                                   tonces determinar directamente M (y T).
+                                                 • Si la solución de las ecuaciones de equilibrio da un valor negati-
+                                                   vo para una resultante, el sentido direccional supuesto de la re-
+                                                   sultante es opuesto al mostrado en el diagrama de cuerpo libre.
+
+
+                                                Los siguientes ejemplos ilustran numéricamente este procedimiento y
+                                                también proporcionan un repaso de algunos de los principios importan-
+                                                tes de la estática.
+01-Hibbeler            28/8/56     5:05 AM          Página 22
+
+
+     22        •   CAPÍTULO 1 Esfuerzo
+
+
+     1.3 Esfuerzo
+                                                                    En la sección 1.2 mostramos que la fuerza y el momento que actúan
+                                                                    en un punto específico sobre el área seccionada de un cuerpo, figura
+                                                                    1-9, representan los efectos resultantes de la distribución de fuerza
+                                                                    verdadera que actúa sobre el área seccionada, figura 1-9b. La obten-
+                                                                    ción de esta distribución de carga interna es de importancia primor-
+                                                                    dial en la mecánica de materiales. Para resolver este problema es ne-
+                                                                    cesario establecer el concepto de esfuerzo.
+                                                                       Consideremos el área seccionada como subdividida en pequeñas
+                                                                    áreas, tal como el área sombreada de A mostrada en la figura 1-10a.
+                                                                    Al reducir A a un tamaño cada vez más pequeño, debemos hacer
+          M RO                                             FR       dos hipótesis respecto a las propiedades del material. Considerare-
+                                                                    mos que el material es continuo, esto es, que consiste en una distri-
+                                                                    bución uniforme de materia que no contiene huecos, en vez de estar
+                                                                    compuesto de un número finito de moléculas o átomos distintos.Ade-
+                                                                    más, el material debe ser cohesivo, es decir, que todas sus partes es-
+                                                                    tán unidas entre sí, en vez de tener fracturas, grietas o separaciones.
+                                       O
+                                                                    Una fuerza típica finita pero muy pequeña F, actuando sobre su área
+                                                                    asociada A, se muestra en la figura 1-10a. Esta fuerza como todas
+                                                                    las otras, tendrá una dirección única, pero para el análisis que sigue la
+                                                                    reemplazaremos por sus tres componentes, Fx, Fy y Fz, que se to-
+                                                                    man tangente y normal al área, respectivamente. Cuando el área A
+          F1                                               F2       tiende a cero, igualmente tienden a cero la fuerza F y sus compo-
+                                                                    nentes; sin embargo, el cociente de la fuerza y el área tenderán en ge-
+                                  (a)                               neral a un límite finito. Este cociente se llama esfuerzo y describe la
+                                                                    intensidad de la fuerza interna sobre un plano específico (área) que
+                             Fig. 1-9                               pasa por un punto.
+
+
+                                                                z
+
+                                                         ∆ Fz
+                                                                    ∆F
+                                                                                                         yz                           xz
+
+                             z                      ∆ Fx             ∆ Fy                z                              z
+                                                                                                yx
+                                                x                           y                                 y
+                                                                                                                                 x              xy
+                                           ∆F
+
+
+                                  ∆A
+
+
+     F1                                                              F1
+                                                    F2
+
+
+                                                    y                                                y                                y
+                   x                                                            x                                 x
+                            (a)                                                         (b)                             (c)
+
+                                                                                    Fig. 1-10
+01-Hibbeler   28/8/56     5:05 AM      Página 23
+
+
+                                                                                                           SECCIÓN 1.3 Esfuerzo                           •   23
+
+
+         Esfuerzo normal. La intensidad de fuerza, o fuerza por área unitaria,
+         actuando normalmente a A se define como el esfuerzo normal,  (sigma).
+         Como Fz es normal al área, entonces,
+                                                         ¢Fz
+                                           sz = lim
+                                                lím                                       (1-4)
+                                                  ¢A : 0 ¢A
+
+         Si la fuerza o esfuerzo normal “jala” al elemento de área A como se
+         muestra en la figura 1-10a, se le llama esfuerzo de tensión, mientras que si
+         “empuja” a A se le llama esfuerzo de compresión.
+
+         Esfuerzo cortante. La intensidad de fuerza, o fuerza por área unita-
+         ria, actuando tangente a A se llama esfuerzo cortante,  (tau). Aquí te-
+         nemos las componentes de esfuerzo cortante,                                                                  z
+
+                                                         ¢Fx
+                                                 lim
+                                           tzx = lím                                                                           z
+                                                  ¢A : 0 ¢A
+                                                         ¢Fy
+                                                 lím
+                                           tzy = lim                                      (1-5)             zx
+                                                  ¢A : 0 ¢A                                                                             zy        y
+                                                                                                       x
+
+           El subíndice z en z se usa para indicar la dirección de la línea normal                              Fig. 1-11
+         hacia fuera, que especifica la orientación del área A, figura 1-11. Para
+         las componentes del esfuerzo cortante, zx y zy, se usan dos subíndices. El
+         eje z especifica la orientación del área, y x y y se refieren a los ejes coor-
+         denados en cuya dirección actúan los esfuerzos cortantes.
+
+         Estado general de esfuerzo. Si el cuerpo es adicionalmente seccio-
+         nado por planos paralelos al plano x-z, figura 1-10b, y al plano y-z, figura
+         1-10c, podemos entonces “separar” un elemento cúbico de volumen de
+         material que representa el estado de esfuerzo que actúa alrededor del pun-
+         to escogido en el cuerpo, figura 1-12. Este estado de esfuerzo es caracteri-
+         zado por tres componentes que actúan sobre cada cara del elemento. Esas                                  z
+         componentes de esfuerzo describen el estado de esfuerzo en el punto só-
+                                                                                                                           σz
+         lo para el elemento orientado a lo largo de los ejes x, y, z. Si el cuerpo fue-                                           zy
+                                                                                                                          zx
+         se seccionado en un cubo con otra orientación, el estado de esfuerzo se
+         definiría usando un conjunto diferente de componentes de esfuerzo.                                      xz                          yz
+                                                                                                                      xy
+                                                                                                           σx                      yx        σy
+         Unidades. En el sistema SI, las magnitudes de los esfuerzos normal y                                                                         y
+         cortante se especifican en las unidades básicas de newtons por metro                      x
+         cuadrado (N/m2). Esta unidad, llamada pascal (1 Pa  1 N/m2) es algo
+         pequeña y en trabajos de ingeniería se usan prefijos como kilo- (103), sim-                             Fig. 1-12
+         bolizado por, mega- (106), simbolizado por M o giga- (109), simbolizado
+         por G, para representar valores mayores del esfuerzo.* De la misma ma-
+         nera, en el sistema inglés de unidades, los ingenieros por lo regular expre-
+         san el esfuerzo en libras por pulgada cuadrada (psi) o en kilolibras por
+         pulgada cuadrada (ksi), donde 1 kilolibra (kip)  1000 lb.
+
+
+                                                                                          
+         *Algunas veces el esfuerzo se expresa en unidades de N/mm2, donde 1 mm  10 3 m.
+         Sin embargo, en el sistema SI no se permiten prefijos en el denominador de una fracción
+         y por tanto es mejor usar el equivalente 1 N/mm2  1 MN/m2  1 MPa.
+01-Hibbeler         28/8/56       5:05 AM          Página 24
+
+
+     24   •    CAPÍTULO 1 Esfuerzo
+
+
+     1.4 Esfuerzo normal promedio en una barra cargada axialmente
+                                                                Con frecuencia, los miembros estructurales o mecánicos se fabrican lar-
+                                                                gos y delgados.Asimismo, son sometidos a cargas axiales que normalmen-
+                                                                te se aplican a los extremos del miembro. Miembros de armaduras, barras
+                                                                colgantes y pernos son ejemplos típicos. En esta sección determinaremos
+                                                                la distribución del esfuerzo promedio que actúa sobre la sección transver-
+              P
+                                                                sal de una barra cargada axialmente como la mostrada en la figura 1-13a,
+                                                                que tiene una forma general. Esta sección define el área de la sección
+                                                                transversal de la barra y como todas esas secciones transversales son igua-
+                                 P                              les, a la barra se le llama barra prismática. Si despreciamos el peso de la
+                                                                barra y la seccionamos como se indica en la figura 1-13b, entonces, por
+                                       Fuerza interna           equilibrio del segmento inferior, la fuerza interna resultante que actúa so-
+                                                                bre la sección transversal debe ser igual en magnitud, opuesta en sentido
+                                           Área de la sección
+                                           transversal          y colineal con la fuerza externa que actúa en el fondo de la barra.
+
+                                                                Suposiciones. Antes de determinar la distribución de esfuerzo prome-
+                                     Fuerza externa             dio que actúa sobre el área transversal de la barra, es necesario hacer dos
+                                                                hipótesis simplificatorias relativas a la descripción del material y a la apli-
+              P                  P                              cación específica de la carga.
+                                                                 1. Es necesario que la barra permanezca recta antes y después de que
+                                                                     se aplica la carga, y también, la sección transversal debe permane-
+              (a)                (b)                                 cer plana durante la deformación, esto es, durante el tiempo que la
+                                                                     barra cambia de volumen y forma. Si esto ocurre, entonces las líneas
+                                                                     horizontales y verticales de una retícula inscrita sobre la barra se
+                                                                     deformarán uniformemente cuando la barra esté sometida a la carga,
+                        P
+                                                                     figura 1-13c. No consideraremos aquí regiones cercanas a los extre-
+                                                                     mos de la barra, donde la aplicación de las cargas externas puede
+                                                                     ocasionar distorsiones localizadas. En cambio, nos fijaremos sólo en
+                                                                     la distribución del esfuerzo dentro de la porción media de la barra.
+                                 
+                                                                 2. Para que la barra experimente una deformación uniforme, es nece-
+                                                                    sario que P se aplique a lo largo del eje centroidal de la sección
+                                  Región de
+                                  deformación                       transversal y que el material sea homogéneo e isotrópico. Un ma-
+                                  uniforme de                       terial homogéneo tiene las mismas propiedades físicas y mecánicas
+                                 
+                                  la barra                          en todo su volumen, y un material isotrópico tiene esas mismas
+                                 
+                                                                    propiedades en todas direcciones. Muchos materiales de la ingenie-
+                                                                     ría pueden considerarse homogéneos e isotrópicos. Por ejemplo, el
+                                                                     acero contiene miles de cristales orientados al azar en cada milíme-
+                                                                     tro cúbico de su volumen, y como en la mayoría de las aplicaciones
+                                                                     este material tiene un tamaño físico que es mucho mayor que un
+                         P                                           solo cristal, la suposición anterior relativa a la composición del ma-
+                        (c)                                          terial es bastante realista. Sin embargo, debe mencionarse que el
+                                                                     acero puede volverse anisotrópico por medio del laminado en frío,
+                     Fig. 1-13
+                                                                     esto es, laminado o forjado a temperaturas subcríticas. Los mate-
+                                                                     riales anisotrópicos tienen propiedades diferentes en direcciones
+                                                                     diferentes, y aunque éste sea el caso, si la anisotropía se orienta a
+                                                                     lo largo del eje de la barra, entonces la barra se deformará unifor-
+                                                                     memente cuando sea sometida a una carga axial. Por ejemplo, la
+                                                                     madera, debido a sus granos o fibras, es un material que es homo-
+                                                                     géneo y anisotrópico, por lo que es adecuado para el siguiente aná-
+                                                                     lisis.
+01-Hibbeler   28/8/56   5:05 AM    Página 25
+
+
+                                                SECCIÓN 1.4 Esfuerzo normal promedio en una barra cargada axialmente                •   25
+
+
+         Distribución del esfuerzo normal promedio. Suponiendo que la                                      z
+         barra está sometida a una deformación uniforme constante, entonces esta
+         deformación es causada por un esfuerzo normal  constante, figura 1-13d.                      P
+         En consecuencia, cada área A sobre la sección transversal está someti-
+         da a una fuerza F   A, y la suma de esas fuerzas actuando sobre toda                                ∆ F = σ∆ A
+         el área transversal debe ser equivalente a la fuerza interna resultante P en
+         la sección. Si hacemos que A → dA y por tanto F → dF, entonces co-                                    σ
+         mo  es constante, tenemos
+                                                                                                                              x y
+
+                                                                                                                     ∆A
+          +q FRz = © Fz;                   dF =    
+                                                    A
+                                                        s dA                                    y
+
+                                              P = sA                                       x
+
+
+                                                    P
+                                              s =                               (1-6)                      P
+                                                    A
+                                                                                                           (d)
+
+         Donde,                                                                                     Fig. 1-13 (cont.)
+
+           esfuerzo normal promedio en cualquier punto sobre el área de la
+             sección transversal
+         P  fuerza normal interna resultante, aplicada en el centroide del área
+             de la sección transversal. P se determina usando el método de las
+             secciones y las ecuaciones de equilibrio
+         A  área de la sección transversal de la barra
+
+           La carga interna P debe pasar por el centroide de la sección transver-
+         sal ya que la distribución del esfuerzo uniforme generará momentos nu-
+         los respecto a cualquier eje x o y que pase por este punto, figura 1-13d.
+         Cuando esto ocurre,
+
+
+         1MR2x = © Mx;          0 =    y dF =  ys dA = s  y dA
+                                      A                 A        A
+
+
+         1MR2y = © My;          0 = -    x dF = -  xs dA = - s  x dA
+                                          A                 A          A
+
+         Estas ecuaciones se satisfacen, ya que por definición del centroide,
+          y dA  0 y  x dA  0. (Vea el apéndice A.)
+         Equilibrio. Debería ser aparente que sólo existe un esfuerzo normal en
+         cualquier elemento de volumen de material localizado en cada punto so-
+         bre la sección transversal de una barra cargada axialmente. Si considera-
+         mos el equilibrio vertical del elemento, figura 1-14, entonces al aplicar la
+         ecuación de equilibrio de fuerzas,
+
+         © Fz = 0;                 s1¢A2 - s¿1¢A2 = 0
+                                              s = s¿
+
+         En otras palabras, las dos componentes de esfuerzo normal sobre el ele-
+         mento deben ser iguales en magnitud pero opuestas en dirección. A éste
+         se le llama esfuerzo uniaxial.                                                                Fig. 1-14
+01-Hibbeler    28/8/56    5:05 AM     Página 26
+
+
+     26   •   CAPÍTULO 1 Esfuerzo
+
+
+                                                                                                 P
+                                                                P
+
+
+                                                                                                      = _P
+                                                                                                        A
+
+
+                                                                P
+                                                                                                P
+                                                             Tensión                         Compresión
+
+                                                                              Fig. 1-15
+
+
+                                                    El análisis previo se aplica a miembros sometidos a tensión o a compre-
+                                                  sión, como se muestra en la figura 1-15. Como interpretación gráfica, la
+                                                  magnitud de la fuerza interna resultante P es equivalente al volumen ba-
+                                                  jo el diagrama de esfuerzo; es decir, P   A (volumen  altura  base).
+                                                  Además, como consecuencia del equilibrio de momentos, esta resultante
+                                                  pasa por el centroide de este volumen.
+                                                    Aunque hemos desarrollado este análisis para barras prismáticas, esta
+                                                  suposición puede ampliarse para incluir barras que tengan un pequeño
+                                                  ahusamiento. Por ejemplo, puede demostrarse, usando un análisis más
+                                                  exacto de la teoría de la elasticidad, que para una barra ahusada de sec-
+                                                  ción transversal rectangular, en la cual el ángulo entre dos lados adyacen-
+                                                  tes es de 15°, el esfuerzo normal promedio, calculado según   P/A, es
+                                                  sólo 2.2% menor que el valor calculado con la teoría de la elasticidad.
+
+                                                  Esfuerzo normal promedio máximo. En el análisis anterior, tanto
+                                                  la fuerza interna P como el área de la sección transversal se consideraron
+                                                  constantes a lo largo del eje longitudinal de la barra y por tanto se obtu-
+                                                  vo un esfuerzo normal   P/A también constante. Sin embargo, en oca-
+                                                  siones la barra puede estar sometida a varias cargas externas a lo largo de
+                                                  su eje o puede presentarse un cambio en su área de sección transversal.
+                                                  En consecuencia, el esfuerzo normal dentro de la barra puede ser dife-
+                                                  rente de sección a sección, y si debe calcularse el esfuerzo normal prome-
+                                                  dio máximo, tendrá que determinarse la posición en que la razón P/A sea
+                                                  máxima. Para esto es necesario determinar la fuerza interna P en varias
+                                                  secciones a lo largo de la barra, lo que se consigue dibujando un diagra-
+                                                  ma de fuerza normal o axial. Específicamente, este diagrama es una grá-
+     Esta barra de acero se usa para suspen-      fica de la fuerza normal P contra su posición x a lo largo de la longitud de
+     der una porción de una escalera, y por       la barra. P se considerará positiva si causa tensión en el miembro y nega-
+     ello está sometida a un esfuerzo de          tiva si causa compresión. Una vez conocida la carga interna en toda la
+     tensión.                                     barra podrá identificarse la razón máxima de P/A.
+01-Hibbeler    28/8/56    5:05 AM     Página 27
+
+
+                                                  SECCIÓN 1.4 Esfuerzo normal promedio en una barra cargada axialmente   •   27
+
+
+              PUNTOS IMPORTANTES
+              • Cuando un cuerpo que está sometido a una carga externa es sec-
+                cionado, hay una distribución de fuerza que actúa sobre el área
+                seccionada que mantiene cada segmento del cuerpo en equilibrio.
+                La intensidad de esta fuerza interna en un punto del cuerpo se
+                denomina esfuerzo.
+              • El esfuerzo es el valor límite de la fuerza por área unitaria, al ten-
+                der a cero el área. Para esta definición, el material en el punto se
+                considera continuo y cohesivo.
+              • En general, hay seis componentes independientes de esfuerzo en
+                cada punto en el cuerpo, que son los esfuerzos normales, x, y,
+                z y los esfuerzos cortantes, xy, yz, xz.
+              • La magnitud de esas componentes depende del tipo de carga que
+                actúa sobre el cuerpo y de la orientación del elemento en el punto.
+              • Cuando una barra prismática está hecha de material homogéneo
+                e isotrópico, y está sometida a una fuerza axial que actúa por el
+                centroide del área de la sección transversal, entonces el material
+                dentro de la barra está sometido sólo a esfuerzo normal. Este es-
+                fuerzo se supone uniforme o promediado sobre el área de la sec-
+                ción transversal.
+
+
+              PROCEDIMIENTO DE ANÁLISIS
+              La ecuación   P/A da el esfuerzo normal promedio en el área
+              transversal de un miembro cuando la sección está sometida a una
+              fuerza normal interna resultante P. Para miembros axialmente car-
+              gados, la aplicación de esta ecuación requiere los siguientes pasos.
+              Carga interna.
+              • Seccione el miembro perpendicularmente a su eje longitudinal en
+                el punto donde el esfuerzo normal va a ser determinado y use el
+                diagrama de cuerpo libre y la ecuación de equilibrio de fuerza
+                necesarios para obtener la fuerza axial interna P en la sección.
+              Esfuerzo normal promedio.
+              • Determine el área transversal del miembro en la sección y calcu-
+                le el esfuerzo normal promedio   P/A.
+              • Se sugiere que  se muestre actuando sobre un pequeño elemento
+                de volumen del material localizado en un punto sobre la sección
+                donde el esfuerzo es calculado. Para hacer esto, primero dibuje 
+                sobre la cara del elemento que coincide con el área seccionada
+                A. Aquí,  actúa en la misma dirección que la fuerza interna P
+                ya que todos los esfuerzos normales sobre la sección transversal
+                actúan en esta dirección para desarrollar esta resultante. El es-
+                fuerzo normal  que actúa sobre la cara opuesta del elemento
+                puede ser dibujada en su dirección apropiada.
+01-Hibbeler    28/8/56     5:06 AM      Página 32
+
+
+     32   •   CAPÍTULO 1 Esfuerzo
+
+
+     1.5 Esfuerzo cortante promedio
+                          F                         El esfuerzo cortante se definió en la sección 1.3 como la componente del
+                                                    esfuerzo que actúa en el plano del área seccionada. Para mostrar cómo se
+                                                    desarrolla este esfuerzo, consideraremos el efecto de aplicar una fuerza F
+                  A                                 a la barra mostrada en la figura 1-20a. Si los soportes se consideran rígi-
+                           C
+                                                    dos y F es suficientemente grande, ésta ocasionará que el material de la
+                  B                                 barra se deforme y falle a lo largo de los planos AB y CD. Un diagrama de
+                              D
+                                                    cuerpo libre del segmento central no soportado de la barra, figura 1-20b,
+                                                    indica que una fuerza cortante V  F/2 debe aplicarse a cada sección pa-
+                          (a)
+                                                    ra mantener el segmento en equilibrio. El esfuerzo cortante promedio dis-
+                                                    tribuido sobre cada área seccionada que desarrolla esta fuerza se define
+                                                    por:
+
+
+                                                                                    prom  V                           (1-7)
+                          F
+                                                                                             A
+
+                                                    Donde,
+
+                                                    prom  esfuerzo cortante promedio en la sección; se supone que es el mis-
+                                                            mo en todo punto localizado sobre la sección
+                      V                                 V  fuerza cortante interna resultante en la sección; se determina con
+                                  V
+                          (b)                               las ecuaciones de equilibrio
+                                                        A  área en la sección
+
+                                                       La distribución del esfuerzo cortante promedio se muestra actuando so-
+                                                    bre la sección derecha en la figura 1-20c. Observe que prom tiene la mis-
+                                                    ma dirección que V, ya que el esfuerzo cortante debe crear fuerzas aso-
+                                                    ciadas que contribuyen en conjunto a generar la fuerza interna resultante
+                          F
+                                                    V en la sección.
+                                                       El caso de carga analizado en la figura 1-20 es un ejemplo de cortante
+                                                    simple o cortante directo, ya que el cortante es causado por la acción di-
+                                      prom
+                                                    recta de la carga aplicada F. Este tipo de cortante suele ocurrir en varios
+                                                    tipos de conexiones simples que usan pernos, pasadores, soldadura, etc.
+                                                    Sin embargo, en todos esos casos, la aplicación de la ecuación 1-7 es sólo
+                          (c)
+                                                    aproximada. Una investigación más precisa de la distribución del esfuer-
+                      Fig. 1-20
+                                                    zo cortante sobre la sección crítica revela que esfuerzos cortantes mucho
+                                                    mayores ocurren en el material que los predichos por esta ecuación. Si
+                                                    bien éste puede ser el caso, la aplicación de la ecuación 1-7 es generalmen-
+                                                    te aceptable para muchos problemas de análisis y diseño. Por ejemplo, los
+                                                    manuales de ingeniería permiten su uso al considerar tamaños de diseño
+                                                    para sujetadores como pernos o para obtener la resistencia por adheren-
+                                                    cia de juntas sometidas a cargas cortantes. Con respecto a esto, ocurren
+                                                    en la práctica dos tipos de cortante, que merecen tratamientos separados.
+01-Hibbeler   28/8/56         5:06 AM   Página 33
+
+
+                                                                                      SECCIÓN 1.5 Esfuerzo cortante promedio        •   33
+
+
+                                                   F                            F                           F                           F
+
+
+                                                    V= F                                                   V= F
+               F                                                        F
+                                  (a)                         (b)                       (c)                          (d)
+
+                                                                    Fig. 1-21
+
+
+         Cortante simple. Las juntas de acero y madera mostradas en las figu-
+         ras 1-21a y 1-21c, respectivamente, son ejemplos de conexiones en cortan-
+         te simple y se conocen como juntas traslapadas. Supondremos aquí que
+         los miembros son delgados y que la tuerca en la figura 1-21a no está de-
+         masiado apretada de modo que la fricción entre los miembros puede des-
+         preciarse. Pasando una sección entre los miembros se obtienen los diagra-
+         mas de cuerpo libre mostrados en las figuras 1-21b y 1-21d. Como los
+         miembros son delgados, podemos despreciar el momento generado por
+         la fuerza F. Entonces, por equilibrio, el área de la sección transversal del
+         perno en la figura 1-21b y la superficie de contacto entre los miembros en
+         la figura 1-21d están sometidos sólo a una fuerza cortante V  F. Esta fuer-           El pasador en este tractor está sometido a
+         za se usa en la ecuación 1-7 para determinar el esfuerzo cortante prome-               cortante doble.
+         dio que actúa en la sección de la figura 1-21d.
+
+         Cortante doble. Cuando la junta se construye como se muestra en la
+         figura 1-22a o 1-22c, deben considerarse dos superficies cortantes. Ese ti-
+         po de conexiones se llaman juntas traslapadas dobles. Si pasamos una sec-
+         ción entre cada uno de los miembros, los diagramas de cuerpo libre del
+         miembro central son como se muestra en las figuras 1-22b y 1-22d. Tene-
+         mos aquí una condición de cortante doble. En consecuencia, una fuerza
+         cortante V  F/2 actúa sobre cada área seccionada y esta fuerza cortan-
+         te debe considerarse al aplicar perm  V/A.
+
+
+                                               F                            F                                F                          F
+
+
+                                                 F
+                                             V = ––
+                                                 2                                                       V= F
+                                                                                                            ––
+                                                                                                            2
+              F                                                             F
+              ––                                    V= F
+                                                       ––                   ––
+                                                                            2                                V= F
+                                                                                                                ––
+              2                                        2                                                        2
+                   F                                                             F
+                                                                                 ––
+                   ––                                                            2
+                    2   (a)                                 (b)                               (c)                    (d)
+
+
+                                                                    Fig. 1-22
+01-Hibbeler    28/8/56   5:06 AM    Página 34
+
+
+     34   •   CAPÍTULO 1 Esfuerzo
+
+
+                                                                z
+
+                                                                                              Plano de la sección
+
+                                                                       zy
+
+
+                                                                                yz
+                                                                                          z
+
+                                                              ¿yz
+                                                                                                       =
+                                                                                               y
+                                                                                 x
+
+                                                               y
+                                                                                                                    Cortante puro
+                                                     x
+                                                                                          Fig. 1-23
+
+
+                                                Equilibrio. Consideremos un elemento de volumen de material toma-
+                                                do en un punto localizado sobre la superficie de cualquier área seccionada
+                                                sobre la que actúa el esfuerzo cortante promedio, figura 1-23a. Si consi-
+                                                deramos el equilibrio de fuerzas en la dirección y, entonces
+
+                                                                            fuerza
+                                                                            |   |
+                                                                     esfuerzo área
+                                                                       | ||         |
+                                                © Fy = 0;              tzy1¢x ¢y2 - tzy  œ
+                                                                                             ¢x ¢y = 0
+                                                                                           œ
+                                                                                   tzy = tzy
+
+                                                De manera similar, el equilibrio de fuerzas en la dirección z nos da yz 
+                                                 y′ z. Finalmente, tomando momentos respecto al eje x,
+                                                                                     momento
+                                                                                      |            |
+                                                                            fuerza              brazo
+                                                                            |        |
+                                                                      esfuerzo área
+                                                                       |    ||     | | |
+                                                © Mx = 0;               -tzy1¢x ¢y2 ¢z + tyz1¢x ¢z2 ¢y = 0
+                                                                                tzy = tyz
+                                                por lo que
+                                                                               œ           œ
+                                                                        tzy = tzy = tyz = tyz = t
+
+                                                En otras palabras, el equilibrio de fuerzas y momentos requiere que el
+                                                esfuerzo cortante que actúa sobre la cara superior del elemento, esté acom-
+                                                pañado por esfuerzos cortantes actuando sobre las otras tres caras, figu-
+                                                ra 1-23b. Aquí, todos los cuatro esfuerzos cortantes deben tener igual
+                                                magnitud y estar dirigidos hacia o alejándose uno de otro en caras con
+                                                un borde común.A esto se le llama propiedad complementaria del cortan-
+                                                te, y bajo las condiciones mostradas en la figura 1-23, el material está so-
+                                                metido a cortante puro.
+                                                   Aunque hemos considerado aquí un caso de cortante simple causado
+                                                por la acción directa de una carga, en capítulos posteriores veremos que
+                                                el esfuerzo cortante puede también generarse indirectamente por la ac-
+                                                ción de otros tipos de cargas.
+01-Hibbeler    28/8/56    5:06 AM    Página 35
+
+
+                                                                                SECCIÓN 1.5 Esfuerzo cortante promedio   •   35
+
+
+              PUNTOS IMPORTANTES
+              • Si dos partes delgadas o pequeñas se unen entre sí, las cargas apli-
+                cadas pueden causar cortante del material con flexión desprecia-
+                ble. Si éste es el caso, es generalmente conveniente en el análisis
+                suponer que un esfuerzo cortante promedio actúa sobre el área
+                de la sección transversal.
+              • A menudo los sujetadores, como clavos y pernos, están someti-
+                dos a cargas cortantes. La magnitud de una fuerza cortante sobre
+                el sujetador es máxima a lo largo de un plano que pasa por las
+                superficies que son conectadas. Un diagrama de cuerpo libre cui-
+                dadosamente dibujado de un segmento del sujetador permitirá
+                obtener la magnitud y dirección de esta fuerza.
+
+
+              PROCEDIMIENTO DE ANÁLISIS
+              La ecuación prom  V/A se usa para calcular sólo el esfuerzo cortan-
+              te promedio en el material. Su aplicación requiere dar los siguientes
+              pasos.
+
+              Cortante interno.
+              • Seccione el miembro en el punto donde el esfuerzo cortante pro-
+                medio va a ser determinado.
+              • Dibuje el diagrama de cuerpo libre necesario y calcule la fuerza
+                cortante interna V que actúa en la sección que es necesaria para
+                mantener la parte en equilibrio.
+
+              Esfuerzo cortante promedio.
+              • Determine el área seccionada A, y calcule el esfuerzo cortante
+                promedio prom  V/A.
+              • Se sugiere que prom sea mostrado sobre un pequeño elemento de
+                volumen de material localizado en un punto sobre la sección don-
+                de él es determinado. Para hacer esto, dibuje primero prom sobre
+                la cara del elemento que coincide con el área seccionada A. Este
+                esfuerzo cortante actúa en la misma dirección que V. Los esfuer-
+                zos cortantes que actúan sobre los tres planos adyacentes pueden
+                entonces ser dibujados en sus direcciones apropiadas siguiendo
+                el esquema mostrado en la figura 1-23.
+01-Hibbeler    28/8/56   7:55 AM    Página 50
+
+
+     50   •   CAPÍTULO 1 Esfuerzo
+
+
+                                                  En cualquiera de esas ecuaciones, el factor de seguridad se escoge ma-
+                                                yor que 1 para evitar una posible falla. Los valores específicos dependen
+                                                de los tipos de materiales por usarse y de la finalidad prevista para la
+                                                estructura o máquina. Por ejemplo, el FS usado en el diseño de compo-
+                                                nentes de aeronaves o vehículos espaciales puede ser cercano a 1 para
+                                                reducir el peso del vehículo. Por otra parte, en el caso de una planta nu-
+                                                clear, el factor de seguridad para algunos de sus componentes puede ser
+                                                tan alto como 3, ya que puede haber incertidumbre en el comportamien-
+                                                to de la carga o del material. Sin embargo, en general, los factores de se-
+                                                guridad, y por tanto las cargas o esfuerzos permisibles para elementos
+                                                estructurales y mecánicos, han sido muy estandarizados, ya que sus inde-
+                                                terminaciones de diseño han podido ser evaluadas razonablemente bien.
+                                                Sus valores, que pueden encontrarse en los códigos de diseño y manuales
+                                                de ingeniería, pretenden reflejar un balance de seguridad ambiental y pa-
+                                                ra el público junto con una solución económica razonable para el diseño.
+
+
+     1.7 Diseño de conexiones simples
+                                                Haciendo suposiciones simplificatorias relativas al comportamiento del
+                                                material, las ecuaciones   P/A y prom  V/A pueden usarse para ana-
+                                                lizar o diseñar una conexión simple o un elemento mecánico. En particu-
+                                                lar, si un miembro está sometido a una fuerza normal en una sección, su
+                                                área requerida en la sección se determina con
+
+                                                                                   P
+                                                                               A=                                  (1-11)
+                                                                                  perm
+
+                                                Por otra parte, si la sección está sometida a una fuerza cortante, entonces
+                                                el área requerida en la sección es:
+
+                                                                                   V
+                                                                               A=                                  (1-12)
+                                                                                  perm
+
+                                                  Como vimos en la sección 1.6, el esfuerzo permisible usado en cada una
+                                                de esas ecuaciones se determina aplicando un factor de seguridad a un es-
+                                                fuerzo normal o cortante especificado o encontrando esos esfuerzos di-
+                                                rectamente en un código apropiado de diseño.
+                                                  Ahora discutiremos cuatro tipos comunes de problemas para las cuales
+                                                las ecuaciones pueden usarse en el diseño.
+
+                                                Área de la sección transversal de un miembro a tensión. El área
+                                                de la sección transversal de un miembro prismático sometido a una fuer-
+                                                za de tensión puede determinarse si la fuerza tiene una línea de acción
+                                                que pasa por el centroide de la sección transversal. Por ejemplo, conside-
+01-Hibbeler       28/8/56   5:13 AM    Página 51
+
+
+                                                                                        SECCIÓN 1.7 Diseño de conexiones simples            •   51
+
+
+                                                                                                                        Esfuerzo normal uniforme
+                                                   a                                                                                 σ perm
+              P                                                              P          P
+
+                                         a                                                                                           P—
+                                                                                                                               A = ——
+                                                                                                                                   σ perm
+                                                                                                                      (b)
+                                             (a)
+                                                                                                               Fig. 1–27b
+                                                                                 Fig. 1-27
+
+
+         re la barra con perforación en sus extremos mostrada en la figura 1-27a.                    P
+         En la sección intermedia a-a, la distribución de esfuerzos es uniforme so-
+         bre toda la sección y se determina el área sombreada A, como se muestra
+         en la figura 1-27b.
+
+
+                                                                Esfuerzo cortante uniforme                                                  P
+                   V= P                                     P             perm
+                                                                                                                        (a)
+                                                                              P—
+                                                                         A = ——
+                                                                                 perm                                Fig. 1-28
+
+
+                                                   P
+
+                                 (b)           Fig. 1–28b       (c)
+
+
+         Área de la sección transversal de un conector sometido a cor-
+         tante. A menudo los pernos o pasadores se usan para conectar placas,
+         tablones o varios miembros entre sí. Por ejemplo, considere la junta tras-
+         lapada mostrada en la figura 1-28a. Si el perno está suelto o la fuerza de
+         agarre del perno es desconocida, es seguro suponer que cualquier fuerza
+         de fricción entre las placas es despreciable. El diagrama de cuerpo libre de
+         una sección que pasa entre las placas y a través del perno se muestra en
+         la figura 1-28b. El perno está sometido a una fuerza cortante interna re-                                                   P
+         sultante de V  P en esta sección transversal. Suponiendo que el esfuer-
+         zo cortante que causa esta fuerza está distribuido uniformemente sobre la
+         sección transversal, el área A de la sección transversal del perno se deter-
+         mina como se muestra en la figura 1-28c.
+
+         Área requerida para resistir aplastamiento. Un esfuerzo normal
+         producido por la compresión de una superficie contra otra se denomina                                                              B
+         esfuerzo de aplastamiento. Si este esfuerzo es demasiado grande, puede                          ( b) perm
+         aplastar o deformar localmente una o ambas superficies. Por tanto, para                    Distribución
+         impedir una falla es necesario determinar el área apropiada de apoyo pa-                   uniforme del
+         ra el material, usando un esfuerzo de aplastamiento permisible. Por ejem-                esfuerzo normal
+         plo, el área A de la placa B de base de la columna mostrada en la figura
+         1-29 se determina a partir del esfuerzo permisible de aplastamiento del
+         concreto, usando la ecuación A  P/(b)perm. Esto supone, desde luego,
+                                                                                                                             P——
+         que el esfuerzo permisible de aplastamiento para el concreto es menor que                                   A = ———
+                                                                                                                         ( b) perm
+         el del material de la placa de base y además que el esfuerzo está unifor-
+         memente distribuido entre la placa y el concreto, como se muestra en la
+         figura.                                                                                                            Fig. 1-29
+01-Hibbeler    28/8/56      5:13 AM      Página 52
+
+
+     52   •   CAPÍTULO 1 Esfuerzo
+
+
+                                                     Área requerida para resistir el cortante causado por carga axial.
+                                                     Ocasionalmente las barras u otros miembros son soportados en forma tal
+                                                     que puede desarrollarse un esfuerzo cortante en el miembro aun cuando
+                                                     éste esté sometido a carga axial. Un ejemplo de esta situación sería una
+                                                     barra de acero cuyo extremo esté empotrado en concreto y se encuentre
+                                                     cargado como se muestra en la figura 1-30a. Un diagrama de cuerpo libre
+                                                     de la barra, figura 1-30b, muestra que un esfuerzo cortante actúa sobre el
+                                                     área de contacto de la barra con el concreto. Esta área es (d)l, donde d
+                                                     es el diámetro de la barra y l es la longitud del empotramiento. Si bien la
+                                                     distribución real del esfuerzo cortante a lo largo de la barra sería difícil de
+                                                     determinar, si suponemos que es uniforme, podemos usar A  V/perm pa-
+                                                     ra calcular l, siempre que conozcamos d y perm, figura 1-30b.
+
+
+                                                       PUNTOS IMPORTANTES
+                                                       • El diseño de un miembro por resistencia se basa en la selección
+                                                         de un esfuerzo admisible que permita soportar con seguridad su
+                                                P        carga propuesta. Hay muchos factores desconocidos que pueden
+                            (a)                          influir en el esfuerzo real en un miembro y entonces, dependien-
+                                                         do de los usos propuestos para el miembro, se aplica un factor de
+                                                         seguridad para obtener la carga admisible que el miembro pue-
+                                                         de soportar.
+                   Esfuerzo cortante uniforme
+                           perm                        • Los cuatro casos ilustrados en esta sección representan sólo unas
+             P——                                         pocas de las muchas aplicaciones de las fórmulas para los esfuer-
+     l = ———
+          perm d                                         zos normal y cortante promedio usadas en el diseño y análisis en
+                                                         ingeniería. Sin embargo, siempre que esas ecuaciones son aplica-
+                                  d                      das, debe ser claro que la distribución del esfuerzo se supone uni-
+                                                P        formemente distribuida o “promediada” sobre la sección.
+                            (b)
+
+                         Fig. 1-30
+
+                                                       PROCEDIMIENTO DE ANÁLISIS
+                                                       Al resolver problemas usando las ecuaciones del esfuerzo normal pro-
+                                                       medio y del esfuerzo cortante promedio, debe primero considerarse
+                                                       cuidadosamente sobre qué sección está actuando el esfuerzo crítico.
+                                                       Una vez identificada esta sección, el miembro debe entonces diseñar-
+                                                       se con suficiente área en la sección para resistir el esfuerzo que actúe
+                                                       sobre ella. Para determinar esta área, se requieren los siguientes
+                                                       pasos.
+                                                       Carga interna.
+                                                       • Seccione el miembro por el área y dibuje un diagrama de cuer-
+                                                         po libre de un segmento del miembro. La fuerza interna resultan-
+                                                         te en la sección se determina entonces usando las ecuaciones de
+                                                         equilibrio.
+                                                       Área requerida.
+                                                       • Si se conoce o puede determinarse el esfuerzo permisible, el área
+                                                         requerida para soportar la carga en la sección se calcula enton-
+                                                         ces con A  P/perm o A  V/perm.
+02-Hibbeler   30/8/56     10:36 AM     Página 68
+
+
+                                                                 [[A 2337]]
+
+
+      Esfuerzos excesivos en materiales frágiles, como en este estribo de concreto,
+      generan deformaciones que terminan fracturándolo. Por medio de mediciones
+      de la deformación unitaria, los ingenieros pueden predecir el esfuerzo en el
+      material.

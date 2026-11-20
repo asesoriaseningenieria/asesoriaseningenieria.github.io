@@ -15,6 +15,7 @@
   const previewBox = document.getElementById("message-preview");
   const previewText = document.getElementById("preview-text");
   const copyBtn = document.getElementById("copy-message-btn");
+  const waDirectBtn = document.getElementById("wa-direct-btn");
   const copyFeedback = document.getElementById("copy-feedback");
 
   // Poblar selector de materias desde data-materias.js
@@ -69,6 +70,9 @@
     const message = buildMessage();
     if (previewText && previewBox) {
       previewText.textContent = message;
+      if (waDirectBtn) {
+        waDirectBtn.href = "https://wa.me/573004083940?text=" + encodeURIComponent(message);
+      }
       previewBox.classList.add("visible");
       previewBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }

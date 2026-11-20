@@ -1,0 +1,716 @@
+Modelo A:
+
+1. Dada una señal cuya fase viene dada por el vector 𝒇 = (−11, −9, −7, −4, −1, 0, 3. . ):
+
+     1.1. Construye, mediante los tres métodos estudiados, el vector 𝒘 que
+     contenga los elementos de la fase envuelta de 𝑓. *
+
+                                           Solución:
+
+Para solucionar el punto 1, nos ayudamos del siguiente algoritmo escrito en MATLAB:
+
+clc
+%Modelo A
+%1) Dada una se...
+%1.1)
+disp(' 1.1)')
+f = [-11 -9 -7 -4 -1 0 3]; %Señal
+%Primer método. Añadiendo/Restando multiplos de 2pi
+w1 = f +[4*pi 2*pi 2*pi 2*pi 0 0 0];
+%Segundo método. Función atan2 de Matlab
+w2 = atan2(sin(f),cos(f));
+%Tercer método. Función angle de Matlab
+w3 = angle(exp(f*i));
+fprintf('Senal f\n ')
+disp(f)
+fprintf('\n 1er Metodo: Agregar/Restar multiplos de 2Pi\n')
+fprintf(' w = f +[4*pi 2*pi 2*pi 2*pi 0 0 0];\n')
+disp(w1)
+fprintf('\n 2do Metodo: Funcion atan2 de Matlab\n')
+fprintf(' w = atan2(sin(f),cos(f));\n')
+disp(w2)
+fprintf('\n 3er Metodo: Funcion angle de Matlab\n')
+fprintf(' w = angle(exp(f*i));\n')
+disp(w3)
+%1.2)
+disp(' 1.2)')
+fprintf(' Verificando los valores de u con la funcion unwrap de Matlab\n')
+fprintf(' u = unwrap(w);\n')
+u = unwrap(w1);
+disp(u)
+###################################################
+%1.3)
+disp(' 1.3)')
+f3 = [-3 4 -4 5 7 9]; %Señal
+%método. Añadiendo/Restando múltiplos de 2pi
+w3 = f3 +pi*[0 -2 2 -2 -2 -2];
+w4 = atan2(sin(f3),cos(f3));
+fprintf('Senal f\n ')
+disp(f3)
+fprintf('\n Metodo: Agregar/Restar multiplos de 2Pi\n')
+fprintf(' w = f +[0 -2*pi 2*pi -2*pi -2*pi -2*pi];\n')
+disp(w3)
+fprintf(' Verificando los valores de u con la funcion unwrap de Matlab\n')
+fprintf(' u = unwrap(w);\n')
+u = unwrap(w3);
+disp(u)
+disp('')
+fprintf('Resolviendo-Corrigiendo\n')
+f4 = [-3 4 -4+2*pi 5 7 9]; %Se�al
+%método. Añadiendo/Restando múltiplos de 2pi
+w4 = f4 +pi*[0 -2 0 -2 -2 -2];
+%w5 = atan2(sin(f4),cos(f4));
+fprintf('Senal f2=u+2*pi \n ')
+disp(f4)
+fprintf('\n Metodo: Agregar/Restar multiplos de 2Pi\n')
+fprintf(' w = f2 +[0 -2*pi 0 -2*pi -2*pi -2*pi];\n')
+disp(w4)
+%disp(w5)
+fprintf(' Calculando los valores de u con la funcion unwrap de Matlab\n')
+fprintf(' u = unwrap(w);\n')
+u4 = unwrap(w4);
+disp(u4)
+disp(' Lo cual es igual a: f2=u+2*pi con f2(0)=f(0)')
+sa=u4+2*pi;
+sa(1)=f4(1);
+disp(sa)
+
+Se tiene que 𝒇 = (−11, −9, −7, −4, −1, 0, 3), entonces:
+
+   •   Usando el primer método: Añadiendo o restando múltiplos de 2π:
+
+w = (−11+4π, −9+2π, −7+2π, −4+2π, −1, 0, 3)
+
+y resolviendo las operaciones, el vector W me queda:
+
+w = (1.5664, -2.1768, -0.7168, 2.2832, -1, 0, 3).
+También podemos ver el resultado alcanzado usando la función de MATLAB descrita
+anteriormente:
+
+
+   •    Usando la función atan2 de MATLAB, se tienen los siguientes resultados:
+   •
+
+
+Por lo tanto, el vector solución será en este caso:
+
+W = (1.5664, -2.1768, -0.7168, 2.2832, -1, 0, 3),
+
+   •    Finalmente, usando la función angle de MATLAB, se obtienen el siguiente vector:
+
+
+       1.2. Aplicando las técnicas del desenvolvimiento de fase, construye, mediante el
+       método estudiado en las Sesiones 11 y 12, el vector 𝑢 que contiene la fase desenvuelta
+       correspondiente al vector 𝒘 y que cumple que 𝑢(0) = 𝑤(0). Detalla todos los pasos
+       realizados en el desenvolvimiento y analiza si se recupera la fase original contenida
+       en 𝑓**.
+
+       Por otro lado, construye la fase desenvuelta utilizando el Algoritmo de Itoh estudiado
+       y comprueba si los resultados coinciden.
+
+       Resuelve: a) añadiendo/restando el múltiplo de 2π necesario. b) usando las funciones
+       de MATLAB 𝑎𝑡𝑎𝑛2 y 𝑎𝑛𝑔𝑙𝑒. ** Una vez realizado el apartado 1.2 por los métodos
+       indicados, puedes utilizar la función 𝑢𝑛𝑤𝑟𝑎𝑝 de MATLAB para comprobar si los
+       resultados son correctos.
+                                            Solución:
+
+Fijamos la fase desenvuelta en t=0 igual a la fase envuelta, el vector u(t) está relacionado
+con w(t) por u(t) = w(t) + 2πK(t). Ahora, tenemos que
+
+w (t )=(− 11+ 4 π ,− 9+2π ,− 7+2 π ,− 4+2 π ,− 1 ,0 , 3) (*), entonces:
+
+u(t) = (−11+4π+2πK0(t), −9+2π+2πK1(t), −7+2π+2πK2(t), −4+2π+2πK3(t), −1+2πK4(t),
+0+2πK5(t), 3+2πK6(t)) y como 𝑢(0) = 𝑤(0), tenemos que:
+
+(−11+4π,−9+2π,−7+2π,−4+2π,−1,0,3)=(−11+4π+2πK0(0),−9+2π+2π(0),−7+2π+2π(0),
+−4+2π+2π(0),−1+2π(0),0+2π(0),3+2π(0)).
+
+                               − 11+ 4 π+ 2π=− 11+ 4π +2 πK 0 (0)
+
+                                     2πK 0 (0)=0 , entonces:
+
+                                               K 0 =0
+
+Utilizando el criterio de Nyquist tenemos que:
+
+                                            |u 1−u 0|< π
+
+                             |−9+2 π +2 π K 1 −(−11+ 4 π +2 π K 0 )|< π
+
+                                     Reemplazando K0 = 0:
+
+                                        |2−2 π + 2 π K 1|< π
+                                      −π <2−2 π +2 π K 1 < π
+
+                                    − π −2+2 π        π−2+2 π
+                                               <K 1 <
+                                        2π              2π
+
+                                  π−2        3 π −2
+                                      <K 1 <        , por lo tanto:
+                                   2π          2π
+
+                                              K1 = 1.
+
+                                            |u 2−u 1|< π
+
+                              |−7+2 π +2 π K 2 −(−9+2 π +2 π K 1 )|< π
+
+                                     Reemplazando K1 = 1:
+
+                                        |2−2 π + 2 π K 2|< π
+        −π <2−2 π +2 π K 2 < π
+
+     − π −2+2 π        π−2+2 π
+                <K 2 <
+         2π              2π
+
+   π−2        3 π −2
+       <K 2 <        , por lo tanto:
+    2π          2π
+
+                K2 = 1.
+
+              |u 3 −u2|< π
+
+|−4+2 π +2 π K 3 −(−7+ 2 π +2 π K 2 )|< π
+
+       Reemplazando K2 = 1:
+
+          |3−2 π +2 π K 3|< π
+        −π < 3−2 π +2 π K 3 < π
+
+     − π −3+2 π        π −3+2 π
+                < K 3<
+         2π               2π
+
+   π−3        3 π−3
+       <K 3 <       , por lo tanto:
+    2π          2π
+
+                K3 = 1.
+
+              |u 4 −u3|< π
+
+  |−1+2 π K 4 −(−4+2 π +2 π K 3 )|< π
+
+       Reemplazando K3 = 1:
+
+          |3−4 π+ 2 π K 4|< π
+        −π < 3−4 π +2 π K 4 < π
+
+     − π −3+4 π        π −3+ 4 π
+                < K 4<
+         2π               2π
+
+  3 π−3        5 π−3
+        <K 4 <       , por lo tanto:
+    2π           2π
+
+                K4 = 2.
+
+              |u 5−u4|< π
+                              |2 π K 5 −(−1+2 π +2 π K 4 )|< π
+
+                                Reemplazando K4 = 2:
+
+                                    |1−4 π +2 π K 5|< π
+                                 −π <1−4 π +2 π K 5 < π
+
+                              − π −1+ 4 π        π−1+ 4 π
+                                          <K 5 <
+                                  2π               2π
+
+                            3 π−1        5 π −1
+                                  <K 5 <        , por lo tanto:
+                              2π           2π
+
+                                          K5 = 2.
+
+                                        |u 6−u5|< π
+
+                                 |3+2 π K 6 −(2 π K 5 )|< π
+
+                                Reemplazando K5 = 2:
+
+                                    |3−4 π+ 2 π K 6|< π
+                              − π −3+4 π        π −3+4 π
+                                         < K 6<
+                                  2π               2π
+
+                            3 π−3        5 π−3
+                                  <K 6 <       , por lo tanto:
+                              2π           2π
+
+                                     K6 = 2. Luego:
+
+u=(−11+4π+2π(0),−9+2π+2π(1),−7+2π+2π(1),−4+2π+2π(1),−1+2π(2),0+2π(2), 3+2π(2))
+
+             u=(− 11+4 π ,− 9+ 4 π ,− 7+ 4 π ,− 4+4 π ,− 1+ 4π ,4 π ,3 +4 π )
+
+         u=(1.5664 , 3.5664 ,5.5664 ,8.5664 ,11.5664 ,12.5664 ,15.5664) (**).
+Ahora debemos verificar los resultados obtenidos con la función unwrap de MATLAB, con la
+cual obtuvimos los siguientes resultados:
+
+
+En primer lugar, podemos observar que al al verificar los cálculos con la función unwrap de
+MATLAB, los resultados son iguales a los que realizamos a mano, sin embargo, en otro lugar
+tenemos que el vector desenvuelto u, no coincide con el vector de fase (f); por lo que existe
+un desfase de la onda y para lograr corregir este error, ajustamos u agregando una
+condición, la cual en este caso será: u(0) = f(0), es decir que u(0) = -11. Entonces, debemos
+restar 4π y obtenemos que u = f.
+
+Continuando con el numeral 1.2, construimos la fase desenvuelta utilizando el algoritmo de
+Itoh y comprobamos los resultados de la siguiente manera:
+
+En primer lugar calculamos D(i) = w(i+1)-w(i), donde w es dado en (*), enseguida:
+
+D(0)=w (1)−w (0)=(−9+ 4 π )−(−11+4 π)=2
+
+D(1)=w (2)−w (1)=(−7+2 π )−(−9+ 4 π )=2−2 π
+
+D(2)=w (3)−w (2)=(−4+2 π )−(−7+2 π )=3
+
+D(3)=w ( 4)−w (3)=(−4+2 π )−(−7+ 2 π)=3
+
+D( 4)=w (5)−w (4)=0−(−1)=1
+
+D(5)=w ( 6)−w (5)=3−(0)=3
+
+De esta forma, tenemos que:
+
+D(w )=(2 ,2−2 π ,3 ,3−2 π ,1 ,3)
+
+En segundo lugar, calculamos la envuelta a continuación:
+
+W [D(w )]=atan(sen(D),cos(D))=(2 ,2 ,3 , 3 ,1 ,3)
+
+El tercer paso será entonces inicializar el vector de fase: u(0) = w(0) = -11 +4π.
+
+Finalmente, calculamos la fase desenvuelta u( n)=u( n−1)+W [D(w ( n−1))] . Es decir:
+
+u(1)=u (0)+W [ D(w (0))]=(−11+ 4 π )+2=−9+ 4 π
+
+u(2)=u (1)+W [ D(w (1))]=(−9+ 4 π )+ 2=−7+4 π
+u( 3)=u(2)+ W [D(w (2))]=(−7+ 4 π )+ 3=−4+4 π
+
+u( 4)=u (3)+W [D(w (3))]=(−4+ 4 π )+ 3=−1+ 4 π
+
+u( 5)=u( 4)+W [D(w (4))]=(−1+4 π)+1=4 π
+
+u(6)=u (5)+W [ D(w (5))]=(4 π )+3=3+4 π
+
+Por lo tanto, obtenemos
+
+u=(− 11+4 π ,− 9+ 4 π ,− 7+ 4 π ,− 4+4 π ,− 1+ 4π ,4 π ,3 +4 π ) , el cual coincide con (**).
+
+     1.3) Crea un vector 𝒇 que contenga seis elementos de una fase (inventada por
+     ti) que cumpla los siguientes requisitos:
+
+     i) La primera componente de los vectores 𝑓, w (fase envuelta) y del vector 𝑢 (fase
+     desenvuelta) coinciden.
+     ii) Al menos dos de las componentes del vector 𝑓 no coinciden con sus envueltas
+     correspondientes.
+     iii) El vector que contiene la fase desenvuelta 𝑢, NO coincide con la fase original 𝑓 en
+     varias de sus componentes. Incluye el razonamiento seguido al crear el vector 𝑓 y
+     explica la razón por la que no se recupera correctamente la fase original.
+
+     Resuelve-corrige de manera adecuada el problema que impide el buen funcionamiento
+     del desenvolvimiento de fase creando un nuevo vector 𝑓 que contenga, en particular,
+     entre sus componentes, las componentes del vector 𝑓.
+
+                                            Solución:
+
+i) La primera componente de f, w y u coinciden, es decir: f(0) = w(0) = u(0), por lo tanto:
+
+Para que f(0) = w(0), se debe cumplir que -π < f(0) < π ya que -π < W(0) < π. Por lo tanto,
+podemos tomar f(0) = -3.
+
+ii) Para que las componentes de f no coincidan con las de w, se debe cumplir que: f(2) < - π
+ó f(i) > π, por lo que podemos tomar:
+
+f(1) = 4 > π
+
+f(2) = -4 < π
+
+f(3) = 5 > π
+
+f(4) = 7 > π
+
+f(5) = 9 > π
+Es decir, f = (-3, 4, -4, 5, 7, 9) y calculamos el vector envuelto w, el cual nos da:
+
+w = (-3, 4-2π, -4+2π, 5-2π, 7-2π, 9-2π)
+
+Ahora calculamos u y nos queda:
+
+u(0) = -3, ahora u(t) = w(t) + 2πK(t), con K(t) ɛ Z, luego:
+
+u(0) = w(0) → K(0) = 0.
+
+Entonces, usando el criterio de Nyquist tenemos lo siguiente:
+
+                                          |u (1)−u(0)|< π
+
+                                   |(4−2 π +2 π K (1))−(−3)|< π
+
+                                        |7−2 π + 2 π K (1)|< π
+
+                                      −π <7−2 π +2 π K (1)< π
+
+                                   − π −7+2 π         π −7+ 2 π
+                                              <K (1)<
+                                       2π                2π
+
+                                        π−7         3 π−7
+                                            <K (1)<
+                                         2π           2π
+
+                                              K(1) = 0.
+
+                                          |u (2)−u(1)|< π
+
+                            |(−4+ 2 π + 2 π K (2))−(4−2 π +2 π K (1))|< π
+
+                                    Reemplazando a K(1) = 0:
+
+                                       |−8+ 4 π +2 π K (2)|< π
+
+                                     −π <−8+4 π + 2 π K (2)< π
+
+                                   − π +8−4 π         π +8−4 π
+                                              <K (2)<
+                                        2π               2π
+
+                                     −5 π +8          −3 π +8
+                                             < K (2)<
+                                      2π               2π
+
+                                             K(2) = -1.
+              |u (3)−u(2)|< π
+
+|(5−2 π +2 π K (3))−(−4+ 2 π +2 π K (2))|< π
+
+       Reemplazando a K(2) = -1:
+
+           |9−2 π + 2 π K (3)|< π
+
+         −π < 9−2 π +2 π K (3)< π
+
+      − π −9+ 2 π          π−9+2 π
+                  < K (3)<
+          2π                 2π
+
+           π−9          3 π −9
+               <K ( 3)<
+            2π            2π
+
+                 K(3) = 0.
+
+              |u (4)−u(3)|< π
+
+|(7−2 π +2 π K ( 4))−(5−2 π +2 π K (3))|< π
+
+       Reemplazando a K(3) = 0:
+
+              |2+2 π K (4)|< π
+
+            −π <2+2 π K ( 4)< π
+
+           − π −2          π−2
+                  <K ( 4)<
+            2π              2π
+
+                 K(4) = 0.
+
+              |u (5)−u(4)|< π
+
+|(9−2 π +2 π K (5))−(7−2 π +2 π K (4))|< π
+
+       Reemplazando a K(4) = 0:
+
+              |2+2 π K (5)|< π
+
+            −π <2+2 π K (5)< π
+
+           − π −2          pi −2
+                  <K ( 5)<
+            2π              2π
+
+                 K(5) = 0.
+Por lo tanto el vector resultante u con u(0) = -3 es igual a:
+
+   u=(−3 ,4−2π +2π (0) ,−4+2π +2 π(−1),5−2π +2 π(0) ,7−2π +2 π(0),9−2π +2 π(0))
+
+                           u=(−3 ,4−2π ,−4 ,5−2 π ,7−2 π ,9−2π ) , y
+
+                         w=(−3 , 4−2 π ,−4+2 π ,5−2 π ,7−2π ,9−2π )
+
+
+De aquí vemos que una de las componentes de los vectores no es igual en u y w, ahora
+debemos resolver-corregir el problema que impide el buen funcionamiento del
+desenvolvimiento de fase y para esto, creamos un nuevo vector f’ que contenga entre sus
+componentes, algunas de las componentes de f, es decir, que f’ = u + 2π, con f’(0) = f(0) de
+la siguiente manera:
+
+               f ' =(−3 ,4−2π +2 π ,−4+2 π , 5−2 π+2 π ,7−2 π+2 π ,9−2 π+2 π)
+
+                                    f ' =(−3 ,4 ,−4+2 π ,5 ,7 ,9)
+
+2. Sea la señal 𝒔(𝒕) = 𝒆𝒙𝒑(𝒇(𝒕) ∗ 𝒊), con fase 𝒇(𝒕), dada por la función:
+𝒇(𝒕) = 𝑎𝑡2 + 𝑏𝑡 + 7 𝑒𝑛 0 < 𝒕 < 1.
+Elige valores de los coeficientes 𝒂 > 𝟓 𝒚 𝒃 > 𝟐 para realizar los ejercicios 2 y 3.
+
+
+     2.1. Construid la fase envuelta, 𝑤(𝑡), asociada a la fase 𝒇( 𝒕), detallando los pasos
+     seguidos y las discontinuidades creadas al envolver la fase.
+
+                                             Solución:
+
+Elegimos los valores de a = 7 y b = 14, entonces las fase f(t), queda de la forma:
+
+f (t)=7 t 2 +14 t +7=t (t 2 +2 t +1)=7(t +1)2 , con t ɛ (0,1) y construimos la fase envuelta w(t) en
+donde al f ser polinómica, es continua en (0,1), luego:
+
+f ' (t)=14 (t+ 1)>0 , con t ɛ (0,1) y con f creciente en (0,1).
+
+Por otra parte, f’’(t) = 14 > 0, en t ɛ (0,1) por lo que f es convexa y por lo tanto en el intervalo
+cerrado [0,1], f alcanza máximos y mínimos en los extremos del intervalo, es decir que:
+               2
+f (0)=7(0+1) =7 , siendo u mínimo local y:
+
+f (0)=7(1+1)2 =28 , siendo u máximo local, lo anteriormente mencionado, lo podemos
+observar en la siguiente gráfica de f en el intervalo dado:
+Ahora, calculamos los intervalos para la fase envuelta w(t), los cuales hallamos a
+continuación:
+
+ t 1= √ (3∗π /7)−1=0.1603 ; , t 2= √ (5∗π /7)−1=0.498 , t 3 =√ ( π )−1=0.7725 , por lo tanto, los
+intervalos para analizar w(t) serán:
+
+(0,0.1603]; (0.1603,0.498]; (0.498,0.7725]; (0.7725,1]
+
+
+Luego, podemos observar que lim w (t)= π ≠− π = lim w (t ) , donde w no es continua
+                                 t →t ⁻ 1                  t →t ⁺ 1
+en t1, análogamente, w no es continua en t2 y t3.
+      .2. Posteriormente, calcula la fase desenvuelta, 𝑢( 𝑡), a partir de la fase envuelta
+      obtenida en el apartado anterior y comprueba que se recupera correctamente la fase.
+
+                                               Solución:
+
+De la parte anterior, tenemos que las discontinuidades están en t 1, t2, y t3, las cuales pueden
+ser evitables sumando 2π, obtenemos entonces que w es igual a:
+
+             f(t) – 2π       si t Є (0,t1]
+
+             f(t) – 4π       si t Є (0,t2]
+ w(t)=                                       ==> u(t) = f(t) + 2π
+             f(t) – 6π       si t Є (0,t3]
+
+             f(t) – 8π       si t Є (0,t4]
+
+Esta función, se puede observar con ayuda de MATLAB y el siguiente código:
+
+%2.2)
+t2 = 0:0.01:1;
+f2 = 7*(t+1).^2;
+w2 = angle(exp(f*i));
+u2 = unwrap(w);
+figure(3)
+plot(t2,f2,t2,w2,t2,u2)
+legend('f','w','u')
+title('f, w, u')
+xlabel('t')
+ylabel('f(t), w(t), u(t)')
+
+
+      2.3. Para los valores de los coeficientes 𝑎 𝑦 𝑏 elegidos, aplicad el criterio de Nyquist
+      para determinar el número mínimo de elementos que ha de tener una muestra
+      correspondiente a la fase envuelta, para poder asegurar que se recupera correctamente
+      la fase (suponemos que no hay ruido u otros factores que interactúen en el proceso).
+                                           Solución:
+Para a = 7 y b = 14, tenemos que f (t) 7(t + 1)2 con t Є (0,1) y aplicando el criterio de Nyquist,
+haciendo h = Δt y sea N el número mínimo de elementos del intervalo que hay que
+                1−0 1
+determinar, N=        = , ahora:
+                  h     h
+
+f (t) 7(t+ 1)2    →      f ' (t )=14 (t + 1) , luego:
+
+|f (t +h)−f (t )|=|f ' (t)0|h , con t0 Є (t,t+h), entonces:
+
+|f (t +h)−f (t )|≤|14(1+1)| h=28 h , donde 28 es el máximo de f.
+
+                                        1      28
+→ |f (t +h)−f (t )|≤28 h< π → 28∗         <π →    <N → N = 9.
+                                        N      π
+
+De este modo, el número buscado es N = 9. Esto lo podemos comprobar usando MATLAB.
+
+
+Para N = 9 se tiene una correcta recuperación de la fase, lo cual no ocurre para el caso de N
+= 8.
+
+
+3. Taller de simulación numérica: En este ejercicio se propone analizar el efecto aliasing y el
+efecto del ruido para la señal 𝒔(𝒕) cuya fase 𝑓( 𝑡) es la del ejercicio anterior con 𝑎 𝑦 𝑏 los
+valores elegidos.
+
+     3.1.- Crea un programa/función que permita obtener la fase envuelta (utilizando la
+     función 𝑎𝑛𝑔𝑙𝑒 de Matlab) y la fase desenvuelta (por ejemplo mediante la función de
+     Matlab 𝑢𝑛𝑤𝑟𝑎𝑝 ) correspondiente a la fase elegida en el ejercicio anterior. Realiza
+     distintas simulaciones en las que se vaya variando el número de elementos de la
+     muestra. (Instrucción Matlab para crear la muestra, por ejemplo: N=?; t=0:1/N:1);
+
+     Localiza a través de estas simulaciones, el número de elementos de la muestra a partir
+     del cual NO se recupera la fase original correctamente. Escribe un breve informe con
+     los resultados obtenidos y compáralos con los que se obtuvieron en el ejercicio 2.
+                                               Solución:
+
+Creamos la función en MATLAB, la cual calcula la fase envuelta w y la fase desenvuelta u
+para el valor dado N, el código usado es el siguiente:
+
+% Modelo A
+clc
+clear all
+%3)Taller de simulacion numerica...
+%3.1) Crea un preograma...
+%Utilkizamos la funcion ModeloA31 para generar los distintos valores de w y
+%u cuando N=5, 6, 7...20 para la simulacion.
+disp('Modelo A')
+disp(' ')
+disp('3.1) ')
+disp(' Se tomo N=5,6,7,...,20.')
+disp(' (Ver figura 1)')
+
+for N = 5:20
+      [w,u,t] = ModeloA31(N);
+      hold on
+      subplot(2,1,1);
+      plot(t,w)
+      legend('w(t)','Location','northwest')
+      title('Fase envuelta w (N=5..20)')
+      xlabel('t')
+      ylabel('w(t)')
+      hold on
+      subplot(2,1,2);
+      plot(t,u+2*pi)
+      legend('u(t)','Location','northwest')
+      xlabel('t')
+      ylabel('u(t)')
+      title(' Fase desenvuelta u (N=5..20)')
+%pause
+end
+
+%3.2) Utiliza el programa anterior...
+%i)
+t1 = 0:0.001:1;
+f = 7*(t1+1).^2;
+var = [0.2 0.5 1 2.5];
+disp(' ')
+disp('3.2)')
+disp('Parte i) ')
+disp(' Se�al con ruido y varianza:')
+disp(' var = [0.2 0.5 1 2.5] ')
+disp('s = exp(i*f) + var(k)*exp(i*randn(size(t)));')
+disp(' (Ver figura 2)')
+for k = 1:length(var)
+      s = exp(i*f) + var(k)*exp(i*randn(size(t1))); %Se�al con ruido
+      w = angle(s);
+      u = unwrap(w)+2*pi;
+      figure(2)
+      hold on
+      subplot(2,2,k)
+      plot(t1,u,t1,f)
+      legend('u(t)','f(t)','Location','northwest')
+end
+
+%ii)
+disp(' ')
+disp('Parte ii) ')
+A = 1./var;
+disp(' Se�al con ruido y amplitud:')
+disp(' A = [5 2 1 0.4]; %(1./var)')
+disp('s = exp(i*f) + var(k)*exp(i*randn(size(t)));')
+
+disp(' (Ver figura 2)')
+for k = 1:length(A)
+      s = A(k)*exp(i*f) + exp(i*randn(size(t1))); %Se�al con ruido
+      w = angle(s);
+      u = unwrap(w)+2*pi;
+      figure(3)
+      hold on
+      subplot(2,2,k)
+      plot(t1,u,t1,f)
+      legend('u(t)','f(t)','Location','northwest')
+end
+
+Este código se complementa con el siguiente para realizar las iteraciones para distintos
+valores de N:
+
+% Sintaxis:
+% [w,u] = ModeloA31(N)
+% N: Numero de divisiones del intervalo
+% w: Envuelta
+% u: Desenvuelta
+
+function [w,u,t] = ModeloA31(N)
+      = 0:(1/N):1;
+      = 7*(t+1).^2;
+      = angle(exp(f*i));
+      = unwrap(w);
+end
+El programa hace la simulación para valores de N = 5, 6, 7,…,20 utilizando la función
+ModeloA31(N) y generando ambos gráficos w(t) y u(t), lo cual podemos observa en la
+siguiente gráfica:
+
+
+Notamos que para N = 5, 6, 7, 8 no se recuperó correctamente la fase f(t). Caso que si
+ocurrió para N = 9, 10, 11,..,20. Esto concuerda con el estudio hecho en el numeral 2.3.
+
+
+     3.2. Utiliza el programa anterior–ahora con señal 𝑠𝑟( 𝑡) = 𝑠( 𝑡) + 𝑟𝑢𝑖𝑑𝑜 para analizar el
+     efecto del ruido en el desenvolvimiento de fase. Utiliza una muestra con un número
+     grande de elementos para que el efecto del ruido no interfiera con el efecto aliasing
+     analizado en el apartado anterior. Instrucción Matlab para generar una señal con ruido
+     gaussiano de media cero y varianza var, por ejemplo:
+
+     t = 0:0.001:1
+     s = exp(i*f(t)) + var*exp(i*randn(size(t)));
+
+     Realiza las siguientes simulaciones:
+     i) Considera la señal con amplitud/módulo uno y distintas varianzas. Construye la fase
+     envuelta y desenvuelta analizando cómo se recupera la fase original –o no- en función
+     de las distintas varianzas. Instrucción anterior con distintos valores de var.
+                                            Solución:
+
+Usando nuevamente el código mencionado anteriormente, obtenemos la siguiente gráfica:
+
+
+En la figura, vemos que para valores pequeños de la varianza, u(t) es parecida a f(t), lo cual
+no pasa cuando var = 2 es grande. Luego, la fase f(t) no puede recuperarse. Por otra parte,
+aun cuando u(t) es parecida a f(t) cuando var es pequeño, se sigue teniendo ruido en la
+señal.
+
+     ii) Varía el valor de la amplitud-módulo de la señal (A), manteniendo un ruido con
+     varianza constante uno. Instrucción Matlab, por ejemplo:
+
+     t = 0:0.001:1
+     s = A*exp(i*f(t)) + exp(i*randn(size(t)));
+
+     El objetivo es analizar, a través de las simulaciones que hayas propuesto y realizado, el
+     buen o mal funcionamiento del desenvolvimiento de fase en señales ruidosas. Haz un
+     breve informe comentando los resultados en función de las variaciones en la amplitud A
+     y la varianza var –. Observa si los resultados te permiten establecer una relación con el
+     SNR (relación señal-ruido).
+
+                                            Solución:
+Realizando los cambios solicitados, se obtienen los siguientes resultados:
+
+
+Podemos observar que cuando tenemos la amplitud A con valores grandes, se ve qu u(t) se
+asemeja a f(t), aunque con algo de ruido, pero cuando A es pequeño, existe demasiado
+ruido, por lo que f(t) no puede recuperarse.
+
+En este punto vemos también que cuando A es grande y var es pequeño, u(t) se parece a
+f(t), pero si invertimos estos valores, la señal f(t) no se puede recuperar.

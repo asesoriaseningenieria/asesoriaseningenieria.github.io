@@ -1,0 +1,1055 @@
+Carlos Ivorra Castillo
+
+
+  LÓGICA MATEMÁTICA
+  No puedes encontrar la verdad con la lógica si no
+la has encontrado ya sin ella.
+                               G.K. Chesterton
+Índice General
+
+Introducción a la lógica matemática                                              ix
+
+
+1   Lógica de primer orden                                                       1
+Capítulo I: Lenguajes y modelos                                                   3
+  1.1 Estructuras . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     4
+  1.2 Lenguajes formales y modelos . . . . . . . . . . . . . . . . . . . .        7
+  1.3 Expresiones, términos y fórmulas . . . . . . . . . . . . . . . . . .       15
+  1.4 Variables libres y ligadas . . . . . . . . . . . . . . . . . . . . . . .   24
+  1.5 Sustitución . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    27
+  1.6 Fórmulas verdaderas y falsas . . . . . . . . . . . . . . . . . . . .       36
+  1.7 Consideraciones finales . . . . . . . . . . . . . . . . . . . . . . . .    38
+
+Capítulo II: El cálculo deductivo                                             41
+  2.1 Reglas de inferencia semánticas . . . . . . . . . . . . . . . . . . . 41
+  2.2 Sistemas deductivos formales . . . . . . . . . . . . . . . . . . . . 47
+  2.3 Reglas derivadas de inferencia . . . . . . . . . . . . . . . . . . . . 59
+  2.4 Algunos teoremas lógicos . . . . . . . . . . . . . . . . . . . . . . 72
+  2.5 Consideraciones finales . . . . . . . . . . . . . . . . . . . . . . . . 77
+
+Capítulo III: Teorías axiomáticas                                               79
+  3.1 Consistencia y completitud . . . . . . . . . . . . . . . . . . . . . 79
+  3.2 La teoría básica de conjuntos . . . . . . . . . . . . . . . . . . . . 84
+  3.3 La teoría de Zermelo . . . . . . . . . . . . . . . . . . . . . . . . . 101
+  3.4 Interpretaciones de teorías . . . . . . . . . . . . . . . . . . . . . . 105
+  3.5 Descriptores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+
+Capítulo IV: La completitud semántica                                         117
+  4.1 Conjuntos maximalmente consistentes . . . . . . . . . . . . . . . 118
+  4.2 La prueba del teorema de completitud . . . . . . . . . . . . . . . 122
+  4.3 Consecuencias del teorema de completitud . . . . . . . . . . . . . 128
+  4.4 Consideraciones finales . . . . . . . . . . . . . . . . . . . . . . . . 139
+
+                                        v
+vi                                                          ÍNDICE GENERAL
+
+2    Teorías aritméticas                                                     143
+
+Capítulo V: La aritmética de Peano                                           145
+  5.1 La aritmética de Robinson . . . . . . . . . . . . . . . . . . . . . . 145
+  5.2 La aritmética con inducción abierta . . . . . . . . . . . . . . . . . 153
+  5.3 La jerarquía de Kleene . . . . . . . . . . . . . . . . . . . . . . . . 156
+  5.4 Relaciones y funciones aritméticas . . . . . . . . . . . . . . . . . 163
+  5.5 Conjuntos en IΣ1 . . . . . . . . . . . . . . . . . . . . . . . . . . . 167
+
+Capítulo VI: La teoría de Kripke-Platek                                        181
+  6.1 La jerarquía de Lévy . . . . . . . . . . . . . . . . . . . . . . . . . 181
+  6.2 La teoría KP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 184
+  6.3 KP como teoría aritmética . . . . . . . . . . . . . . . . . . . . . . 186
+  6.4 Conceptos conjuntistas básicos . . . . . . . . . . . . . . . . . . . 196
+  6.5 Recolección, especificación y reemplazo . . . . . . . . . . . . . . . 198
+  6.6 Conjuntos finitos, cardinales . . . . . . . . . . . . . . . . . . . . . 201
+  6.7 Sucesiones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 207
+  6.8 Sumas finitas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 211
+  6.9 IΣ1 como teoría de conjuntos . . . . . . . . . . . . . . . . . . . . 214
+  6.10 La formalización de la aritmética . . . . . . . . . . . . . . . . . . 218
+
+Capítulo VII: La teoría de la recursión                                      229
+  7.1 Funciones y relaciones recursivas . . . . . . . . . . . . . . . . . . 229
+  7.2 Caracterización aritmética . . . . . . . . . . . . . . . . . . . . . . 235
+  7.3 Funciones recursivas parciales . . . . . . . . . . . . . . . . . . . . 243
+  7.4 Máquinas de Turing . . . . . . . . . . . . . . . . . . . . . . . . . 245
+  7.5 La tesis de Church-Turing . . . . . . . . . . . . . . . . . . . . . . 250
+  7.6 Codificación de las funciones recursivas . . . . . . . . . . . . . . . 258
+  7.7 Relaciones diofánticas . . . . . . . . . . . . . . . . . . . . . . . . 264
+
+Capítulo VIII: La formalización de la lógica                                 283
+  8.1 Lenguajes y teorías formales . . . . . . . . . . . . . . . . . . . . . 284
+  8.2 Relación con las teorías metamatemáticas . . . . . . . . . . . . . 299
+  8.3 La Σ1 -completitud de Q . . . . . . . . . . . . . . . . . . . . . . . 307
+  8.4 Satisfacción de fórmulas de La . . . . . . . . . . . . . . . . . . . 315
+
+Capítulo IX: Incompletitud                                                   329
+  9.1 El primer teorema de incompletitud . . . . . . . . . . . . . . . . 329
+  9.2 El teorema de Tarski . . . . . . . . . . . . . . . . . . . . . . . . . 336
+  9.3 El segundo teorema de incompletitud . . . . . . . . . . . . . . . . 339
+  9.4 Incompletitud y aritmética no estándar . . . . . . . . . . . . . . 344
+  9.5 Modelos no estándar . . . . . . . . . . . . . . . . . . . . . . . . . 348
+ÍNDICE GENERAL                                                                 vii
+
+3   Teorías de conjuntos                                                     359
+Capítulo X: Clases y conjuntos                                              361
+  10.1 La aritmética de segundo orden . . . . . . . . . . . . . . . . . . . 362
+  10.2 La equivalencia entre AP2 y Znum . . . . . . . . . . . . . . . . . . 378
+  10.3 La teoría de conjuntos ZF∗ . . . . . . . . . . . . . . . . . . . . . 388
+  10.4 Las teorías de conjuntos NBG∗ y MK∗ . . . . . . . . . . . . . . . 392
+
+Capítulo XI: Los axiomas restantes de la teoría de conjuntos                  407
+  11.1 El axioma de infinitud . . . . . . . . . . . . . . . . . . . . . . . . 407
+  11.2 El axioma de partes . . . . . . . . . . . . . . . . . . . . . . . . . 419
+  11.3 El axioma de regularidad I . . . . . . . . . . . . . . . . . . . . . . 422
+  11.4 Relaciones bien fundadas . . . . . . . . . . . . . . . . . . . . . . 429
+  11.5 El axioma de regularidad II . . . . . . . . . . . . . . . . . . . . . 437
+  11.6 El axioma de elección . . . . . . . . . . . . . . . . . . . . . . . . 439
+
+Capítulo XII: Las teorías de conjuntos ZFC y NBG                               447
+  12.1 Relación con KP . . . . . . . . . . . . . . . . . . . . . . . . . . . 449
+  12.2 La formalización de la lógica en ZF y KP . . . . . . . . . . . . . 457
+  12.3 Consistencia e independencia del axioma de regularidad . . . . . 472
+  12.4 Teorías de conjuntos con átomos . . . . . . . . . . . . . . . . . . 480
+  12.5 El teorema de reflexión . . . . . . . . . . . . . . . . . . . . . . . . 486
+  12.6 Consideraciones finales . . . . . . . . . . . . . . . . . . . . . . . . 488
+
+Apéndice A: Conceptos elementales de la teoría de conjuntos                    493
+  A.1 Definiciones básicas . . . . . . . . . . . . . . . . . . . . . . . . . . 493
+  A.2 Otros conceptos conjuntistas . . . . . . . . . . . . . . . . . . . . 499
+  A.3 La jerarquía de Lévy . . . . . . . . . . . . . . . . . . . . . . . . . 500
+
+Bibliografía                                                                 503
+
+Índice de Materias                                                           505
+Introducción a la lógica
+matemática
+
+    Si el lector ha intentado alguna vez resumir en una frase (o incluso en un
+par de docenas de páginas) qué es la matemática, o la aritmética, o el álgebra,
+etc. se habrá dado cuenta sin duda de lo inútil que es pretender condensar
+tanto en pocas palabras, pues nadie que lea cualquier intento de “definición”
+puede con ella formarse una idea fiel y representativa del contenido y el alcance
+de cualquiera de dichas disciplinas. Lo mismo sucede, como no podía ser de
+otro modo, si uno intenta “definir” la lógica matemática. Si el lector no tiene
+una idea clara de qué es eso de la lógica matemática y quiere obtenerla de
+este libro, podrá hacerlo, pero no meramente leyendo esta introducción, sino
+leyendo varios capítulos, y aun si los lee todos, deberá tener presente que el
+alcance de la lógica matemática va mucho más allá de lo que se recoge aquí.
+Por si esto suena descorazonador, creemos estar en condiciones de afirmar, por
+otra parte, que quien “digiera” este libro habrá aprendido todo lo que necesita
+saber (y más) para comprender en qué consiste exactamente y con todo detalle
+la fundamentación de la matemática moderna.1
+    A pesar de lo que acabamos de decir sobre la imposibilidad de explicar lo
+que es la lógica en pocas palabras, será útil partir de esta aproximación:
+
+      La lógica es la ciencia que estudia el razonamiento, donde “razonar”
+      consiste en obtener afirmaciones (llamadas conclusiones) a partir de
+      otras afirmaciones (llamadas premisas) con los criterios adecuados
+      para que podamos tener la garantía de que si las premisas son verda-
+      deras, entonces las conclusiones obtenidas también tienen que serlo
+      necesariamente.
+
+    Por ejemplo,
+
+                               Todos los españoles son europeos,
+                               Cervantes era español,
+                      luego    Cervantes era europeo.
+  1 En unas pocas ocasiones remitiremos a mi libro [CS] sobre el cálculo secuencial de Gentzen
+
+como referencia para algunos resultados cuya prueba requiere técnicas más avanzadas.
+
+
+                                             ix
+x                                               Introducción a la lógica matemática
+
+es un razonamiento que extrae la conclusión “Cervantes era europeo” a partir
+de las dos premisas precedentes y, en efecto, es un razonamiento en el sentido
+que acabamos de indicar. En cambio, algo muy parecido, como pueda ser
+                              Todos los españoles son europeos,
+                              Shakespeare no era español,
+                     luego    Shakespeare no era europeo.
+
+no es un razonamiento válido,2 pues las premisas son verdaderas y, pese a ello, la
+conclusión es falsa. Aquí es crucial entender que, para que un razonamiento sea
+válido, (si parte de premisas verdaderas) no basta con que sus conclusiones sean
+verdaderas, sino que tienen que ser necesariamente verdaderas. Por ejemplo, el
+razonamiento siguiente no es válido:
+                             Todos los perros tienen cuatro patas,
+                             Una gallina no es un perro,
+                   luego     Una gallina no tiene cuatro patas.
+Es cierto que las gallinas no tienen cuatro patas, pero esto no podemos ase-
+gurarlo por el mero hecho de que las premisas sean verdaderas. Si las gallinas
+tuvieran cuatro patas, las premisas seguirían siendo ciertas, pero la conclusión
+no lo sería.
+    Esto nos lleva a que la validez o invalidez de un razonamiento no depende
+realmente de si las afirmaciones que involucra son verdaderas o falsas, pues
+sólo requiere que en el supuesto (que puede darse o no) de que sus premisas
+fueran verdaderas, su conclusión también lo sería (sin perjuicio de que tanto las
+premisas como la conclusión pudieran ser falsas). Por ejemplo, el razonamiento
+siguiente es correcto:
+                             Todos los españoles son americanos,
+                             Molière era español,
+                   luego     Molière era americano.
+Aquí, tanto las premisas como la conclusión son falsas, pero el razonamiento es
+válido porque si las premisas fueran verdaderas la conclusión también tendría
+que serlo.
+    Y si la validez o invalidez de un razonamiento no depende de si las afirma-
+ciones que involucra son verdaderas o falsas, ¿de qué depende entonces? La
+respuesta es que de la forma de las afirmaciones involucradas. Para entender
+esto consideremos la tabla siguiente:
+
+      1)       Todo A es B       2)       Todo A es B      3)       Todo A es B
+               C es A                     C no es A                 C no es B
+      luego    C es B            luego    C no es B        luego    C no es A
+
+   La casilla 1) contiene un ejemplo de forma de razonamiento válida. Quiere
+decir que cualquier razonamiento que tenga esa forma, independientemente de
+   2 Notemos que un razonamiento inválido o, mejor dicho, un razonamiento falaz, no es
+
+realmente un razonamiento, en el mismo sentido en que una pistola falsa no es una pistola.
+                                                                                  xi
+
+qué palabras pongamos en lugar de A, B o C, será válido. De los cuatro ejemplos
+de razonamientos (válidos o no) que hemos visto más arriba, el primero y el
+cuarto tienen esta forma. En cambio, el segundo y el tercero tienen la forma
+de la casilla 2), por lo que, según hemos podido comprobar, 2) no es una forma
+válida de razonamiento. El hecho de que las premisas de 2) sean ciertas no nos
+ofrece garantía alguna de que su conclusión vaya a serlo también. Puede ser
+que sí (como en el caso de las gallinas) o puede ser que no (como en el caso de
+Shakespeare). Por otra parte, la casilla 3) contiene una forma de razonamiento
+que, superficialmente, se parece más a la de 2) que a la de 1) y, sin embargo, es
+una forma válida de razonamiento al igual que 1) y al contrario que 2).
+
+    Llegados a este punto podemos destacar un hecho fundamental: no corres-
+ponde a la lógica “definir” lo que es un razonamiento válido. Las formas válidas
+de razonamiento son las que son, y no estamos en posición de decidir cuáles
+queremos dar por buenas y cuáles no. El propósito de la lógica es más bien
+“capturar” el razonamiento, dar criterios precisos que nos permitan distinguir
+con claridad los razonamientos propiamente dichos de las falacias que aparen-
+tan serlo. La palabra técnica en lugar de ese “capturar” que hemos empleado
+es “formalizar”. Formalizar un razonamiento es expresarlo de tal modo que se
+pueda justificar que es válido atendiendo únicamente a la forma de las afirma-
+ciones involucradas, sin necesidad de considerar para nada, no ya si éstas son
+verdaderas o falsas, sino siquiera su posible significado.
+    La idea de que esto es posible, es decir, que es posible distinguir los razo-
+namientos de las falacias mediante criterios puramente formales, sin analizar el
+significado de las afirmaciones involucradas, se remonta a Aristóteles, aunque él
+sólo estudió una clase muy particular de razonamientos, los llamados silogismos.
+Sin embargo, esta idea recibió un nuevo impulso siglos más tarde, por parte de
+Leibniz y más tarde de Boole, De Morgan, Frege, etc., matemáticos que, cada
+cual a su manera, trataron de crear un “cálculo deductivo”, es decir, un proce-
+dimiento para generar y verificar razonamientos de forma “mecánica”, similar a
+los cálculos mecánicos que hace el algebrista cuando aplica sistemáticamente las
+reglas de la aritmética.
+    Es muy probable que la posibilidad de “mecanizar” el razonamiento lógico
+no hubiera pasado de ser una parte marginal y anecdótica dentro de lo que
+son las matemáticas (como, en efecto, sucedió durante mucho tiempo) de no
+haber sido porque en un momento dado los matemáticos se encontraron con
+que necesitaban el auxilio de la lógica por una cuestión de “vida o muerte”.
+
+
+Paradojas en la teoría de conjuntos A lo largo de la historia, los matemá-
+ticos han trabajado en numerosas ocasiones con conceptos que no sabían precisar
+con exactitud: los griegos hablaban de números “irracionales” y al mismo tiempo
+se cuestionaban si existían realmente, los algebristas renacentistas hablaban de
+números “imaginarios” con más fe que razón, los analistas de los siglos XVII y
+XVIII hablaban de cantidades “infinitesimales” sin ser capaces de explicar muy
+bien si eran cero o no eran cero, etc. A lo largo del siglo XIX se inició un proceso
+de fundamentación de la matemática en la que estos conceptos “confusos” fueron
+xii                                          Introducción a la lógica matemática
+
+clarificándose paulatinamente, y todo parecía ir bien hasta que Georg Cantor
+desarrolló la teoría de conjuntos, es decir, una teoría matemática sobre la no-
+ción general de “conjunto”, en el sentido de “colección de objetos”. Pronto se vio
+que la teoría de conjuntos de Cantor era “el paraíso de las matemáticas”, en el
+sentido de que todos los conceptos matemáticos podían definirse con precisión
+a partir de los conceptos y resultados de la teoría de conjuntos, pero el propio
+Cantor descubrió que el “paraíso” que estaba creando cobijaba a una serpiente
+muy venenosa: la contradicción.
+    En efecto, a partir de los resultados de la teoría de Cantor, no sólo podían
+deducirse los fundamentos para todas las teorías matemáticas restantes, sino
+que también se deducían contradicciones sin que se detectara supuesto alguno
+contradictorio en la teoría en cuestión.
+    La paradoja en estado puro a que daba lugar la teoría cantoriana fue des-
+tilada por Bertrand Russell, y su planteamiento es el siguiente: En la teoría
+de Cantor se consideran todos los conjuntos posibles, es decir, todas las colec-
+ciones de objetos. Si A es un conjunto cualquiera y a es un objeto cualquiera,
+puede suceder que a sea uno de los objetos que forman parte del conjunto A,
+o no. En el primer caso se escribe a ∈ A (y se lee “a pertenece a A”), y en el
+segundo a ∈  / A. Ahora bien, la teoría admite que los elementos de un conjunto
+puedan ser otros conjuntos. Por ejemplo, si N es el conjunto de los números
+naturales, en la teoría de Cantor se puede considerar también el conjunto PN
+formado por todos los subconjuntos de N, es decir, por todos los conjuntos cuyos
+elementos son números naturales. Así, por ejemplo, uno de los a ∈ PN puede
+ser el conjunto A de los números pares, o el conjunto P de los números primos,
+etc. Tenemos, pues, que A ∈ PN, donde los dos términos de la afirmación son
+conjuntos.
+    En principio, cada propiedad bien definida en la teoría puede usarse para
+definir el conjunto de todos los objetos que tienen la propiedad en cuestión: igual
+que acabamos de hablar del conjunto de todos los números naturales, el conjunto
+de los números primos, el conjunto de los subconjuntos de N, etc., podemos
+hablar igualmente del conjunto V de todos los conjuntos, y este conjunto tiene
+la peculiaridad de que V ∈ V , pues, ciertamente, el conjunto de todos los
+conjuntos es un conjunto.
+    Así pues, podemos distinguir entre conjuntos que se pertenecen a sí mismos
+(como V ) y otros que no lo hacen (como N, pues el conjunto de todos los números
+naturales no es un número natural). Por lo tanto, podemos hablar del conjunto
+R formado por todos los conjuntos que no se pertenecen a sí mismos. Con la
+notación conjuntista:
+                                  R = {x | x ∈/ x}.
+    El problema surge cuando nos preguntamos si el conjunto R se pertenece o
+no a sí mismo. Si fuera R ∈ R, entonces por definición de R debería ser R ∈
+                                                                          / R,
+con lo que tenemos una contradicción, pero si fuera R ∈ / R, precisamente por
+no pertenecerse a sí mismo, cumple el requisito para que R ∈ R, y en cualquier
+caso tenemos una contradicción.
+    Quizá el lector piense que esto no es grave. Al fin y al cabo, si decimos
+“esta oración es falsa” nos estamos contradiciendo, y el que podamos caer en
+                                                                               xiii
+
+esa contradicción no impide que podamos decir “es falso que las gallinas tienen
+cuatro patas” sin que haya contradicción alguna en ello. En otras palabras: la
+forma más simple de resolver la llamada “paradoja de Russell” es sencillamente
+olvidarse de ella y hablar únicamente de cosas sensatas.
+    El problema de esta “solución” es que, como ya hemos indicado, la paradoja
+de Russell surge al destilar, al eliminar el contenido propiamente matemático,
+de las contradicciones que de hecho surgían en la teoría de Cantor, cuyo plan-
+teamiento y contexto no tenía nada de “insensato”, por lo menos a simple vista.
+    Por ejemplo, aunque no estamos en condiciones de entrar ahora en deta-
+lles, Cantor definió unos “números infinitos” llamados ordinales que sirven para
+“contar” conjuntos infinitos, igual que los números naturales permiten contar
+conjuntos finitos. De hecho, los números naturales son los primeros ordinales,
+pero la sucesión de los ordinales se prolonga mucho más allá:
+
+          0,   1,   2,   ...   ω,   ω + 1,   ...   ω · 2,   ω · 2 + 1,   ...
+
+    En la teoría de Cantor tenía perfecto sentido contar todos los números natu-
+rales, y el resultado era el ordinal ω, pero igualmente tenía sentido considerar el
+ordinal Ω que resulta de contar todos los ordinales. Ahora bien, por una parte,
+podía probarse que todo ordinal tiene un siguiente, luego podríamos considerar
+el ordinal Ω + 1 > Ω, pero por otro lado, siendo Ω el ordinal del conjunto de
+todos los ordinales y siendo Ω + 1 uno de dichos ordinales, se podía probar que
+Ω + 1 ≤ Ω. Esta paradoja se conoce como “antinomia de Burali-Forti”, y no
+es un juego de palabras (como podría pensarse que lo es “el conjunto de todos
+los conjuntos que no se pertenecen a sí mismos”), sino que pone en cuestión si
+realmente tiene sentido toda la teoría de ordinales cantoriana, la cual está “per-
+fectamente” justificada si admitimos la posibilidad de razonar sobre conjuntos
+arbitrarios.
+    La importancia de contradicciones como ésta es que ponen en cuestión si la
+teoría de conjuntos es realmente una teoría matemática o son meras palabras sin
+significado. En efecto, es fácil construir frases coherentes pero que en realidad
+no hagan referencia a nada. Eso es lo que se conoce como un relato de ficción. Si
+un autor escribe un relato histórico en el que se preocupa por ser absolutamente
+fiel a los hechos, es imposible que incurra en contradicción alguna: pues el
+relato sólo contendrá hechos verdaderos y un hecho y su negación no pueden ser
+ambos verdaderos. En cambio, un autor de un relato de ficción puede, si quiere,
+escribir en una página que James Bond es rubio y en la página siguiente que
+James Bond es moreno. Es lo que tiene el hablar de algo (James Bond) que no
+es realmente nada más que palabras. Desde el momento en que una narración
+sobre James Bond no tiene ninguna realidad a la que poder ajustarse, nada
+impide que incurra en contradicciones. El problema es ¿le pasa eso a la teoría
+de conjuntos? ¿Es Ω como James Bond, un mero “personaje de ficción” del que
+no podemos hablar coherentemente porque no corresponde a realidad alguna?
+    Ahora puede verse mejor la importancia de la paradoja de Russell, porque
+el problema es si cuando los matemáticos hablan de conjuntos (porque siguen
+hablando de conjuntos más o menos en los mismos términos en los que Cantor
+hablaba de conjuntos) están hablando de algo objetivo o no. Porque si existe
+xiv                                         Introducción a la lógica matemática
+
+un concepto objetivo de “conjunto”, respecto al cual una afirmación cualquiera
+puede ser verdadera o puede ser falsa, pero no las dos cosas a la vez, entonces
+una teoría sobre dichos conjuntos debería consistir únicamente en afirmaciones
+verdaderas sobre conjuntos, y consecuentemente no podría dar lugar a contra-
+dicciones. Pero resulta que si pudiéramos especificar qué debemos entender
+exacta y objetivamente por “conjunto”, de tal forma que los conjuntos fueran
+unos objetos concretos (en el sentido más abstracto de la palabra “objeto”) y de
+forma que, para dos cualesquiera de ellos, A y B, la relación A ∈ B estuviera
+perfectamente determinada, y pudiera ser verdadera o falsa, pero no ambas co-
+sas, entonces la pregunta de si existe o no un conjunto que contiene a todos
+los conjuntos que no se pertenecen a sí mismos tendría que tener una respuesta
+precisa, afirmativa o negativa, pero no debería dar lugar a una contradicción.
+Los números naturales Antes de abordar el problema que acabamos de
+plantear, conviene considerar otro más simple que nos sirva de referencia. En
+lugar de preguntarnos hasta qué punto podemos decir que sabemos de qué habla-
+mos cuando hablamos de conjuntos, vamos a considerar la cuestión cambiando
+“conjunto” por “número natural”. Es seguro que el lector sabe lo que son los
+números naturales:
+                         0, 1, 2, 3, 4, 5, . . .
+donde los puntos suspensivos tienen aquí un significado muy concreto que abre-
+viamos por no aburrir al lector con lo que ya sabe: son el criterio que permite
+prolongar indefinidamente la sucesión cuyos primeros términos hemos presen-
+tado. El lector sabe que el término siguiente es el 6, y puede escribir los mil
+términos siguientes si se lo propone, y es consciente de que, en teoría, puede
+prolongarla sin vacilar tanto como se lo proponga.
+    El lector conoce también muchas propiedades objetivas de los números na-
+turales, como el hecho de que se pueden sumar y multiplicar, que se pueden
+comparar (decir cuál de dos dados es mayor que el otro), que hay números que
+son primos y otros que no lo son, etc. Así, por ejemplo, tiene perfecto sentido
+plantearse si 65 537 es o no primo y, si el lector no sabe la respuesta, sabe que
+puede comprobarlo mediante un proceso que da la respuesta en un tiempo finito.
+Y es absolutamente imposible que dos personas que sepan lo que están haciendo
+lleguen a conclusiones distintas sobre si 65 537 es o no primo (salvo que una co-
+meta un error en sus cálculos, en cuyo caso debería reconocerlo sin dificultad
+en cuanto alguien se lo señalara). En suma, podemos hablar objetivamente de
+los números naturales. Cualquier afirmación sobre números naturales (que no
+involucre conceptos “dudosos” ajenos a ellos) tiene que ser verdadera o falsa, y
+lo más importante es que podemos afirmar que esto es así independientemente
+de que tengamos medios o no para comprobar cuál es el caso. Para entender
+esto último consideremos el ejemplo de la conjetura de Goldbach:
+      Todo número par mayor que 2 es suma de dos números primos.
+    Actualmente no se sabe si esto es cierto o no, pero sí que sabemos lo que
+significa que sea cierto: podemos constatar que
+4 = 2 + 2,   6 = 3 + 3,   8 = 3 + 5,   10 = 5 + 5,   12 = 5 + 7,   14 = 7 + 7, . . .
+                                                                                            xv
+
+y la conjetura de Goldbach será cierta si esta lista de comprobaciones puede
+prolongarse indefinidamente, sin que en ningún momento podamos llegar a un
+número par para el que no exista una descomposición en suma de dos primos.
+La conjetura de Goldbach es objetivamente cierta u objetivamente falsa, en el
+sentido de que si es cierta jamás encontraremos un número que la incumpla, y
+si es falsa habrá un número ahí, tal vez del orden de 10100 , o tal vez del orden
+        100
+de 1010 , o tal vez mucho mayor, de modo que si uno dedicara toda su vida a
+buscarlo, jamás lograría llegar tan lejos, ni siquiera con la ayuda del ordenador
+más potente, pero el contraejemplo estará ahí, lo sepamos o no.
+    Podemos decir que tenemos un conocimiento intuitivo de los números natu-
+rales.3 Esto significa que tenemos una representación formal, precisa y objetiva
+de los números naturales. “Formal” quiere decir aquí que al hablar de números
+naturales no estamos hablando de ningunos objetos concretos. El número “tres”
+no es nada en concreto, pero sí está objetivamente determinada su posición en la
+sucesión de los números naturales, al igual que lo que significa tener tres cosas,
+etc. Tener una representación intuitiva de los números naturales es algo más
+fuerte que el poder pensar en ellos.
+    Esto se entenderá mejor con ejemplos geométricos: podemos pensar en tres
+rectas perpendiculares dos a dos, y también podemos pensar en cuatro rectas
+perpendiculares dos a dos. Podemos razonar en el contexto de la geometría
+tridimensional euclídea y podemos razonar igualmente en el contexto de la geo-
+metría cuatridimensional euclídea, pero podemos intuir tres rectas perpendicu-
+lares dos a dos y no podemos intuir cuatro rectas perpendiculares dos a dos.
+Para nosotros, el concepto de cubo tridimensional tiene un contenido intuitivo,
+un significado muy concreto, y cualquier afirmación sobre un cubo tridimen-
+sional puede “visualizarse”, mientras que el concepto de cubo cuatridimensional
+no es intuitivo, y una afirmación sobre un cubo cuatridimensional no puede ser
+para nosotros más que meras palabras,4 todo ello sin perjuicio de que la geo-
+metría cuatridimensional tenga el mismo status matemático que la geometría
+tridimensional.
+    El hecho de que una teoría matemática tenga un contenido intuitivo (como
+lo tiene la geometría tridimensional y no la cuatridimensional) no es una mera
+anécdota, sino que es una garantía de consistencia: los axiomas de la geometría
+tridimensional euclídea son afirmaciones verdaderas sobre lo que podemos re-
+presentarnos intuitivamente en el espacio, lo que nos garantiza que todo teorema
+que se demuestre a partir de ellos mediante razonamientos lógicos tiene que ser
+también verdadero, por lo que es imposible llegar a contradicciones a partir de
+dichos axiomas.
+    Igualmente, nuestra intuición (= capacidad de representación) nos permite
+reconocer que ciertas afirmaciones sobre números naturales son verdaderas. Por
+    3 Los matemáticos suelen usar la palabra “intuitivo” en un sentido peyorativo. Intuitivo
+
+significa para ellos “poco riguroso”, “impreciso”, etc., cuando aquí no empleamos la palabra en
+este sentido, ni tampoco en el coloquial de “algo que se sabe sin saber muy bien cómo ni por
+qué”. El sentido que le damos aquí a la palabra “intuición” es muy próximo al que tiene en la
+filosofía kantiana.
+    4 Podemos “visualizar” una imagen en perspectiva tridimensional de un cubo cuatridimen-
+
+sional, pero eso no es “visualizar” el cubo en sí.
+xvi                                         Introducción a la lógica matemática
+
+ejemplo, podemos decir que la suma de números naturales es conmutativa, es
+decir, que si a y b son dos números naturales, la suma a + b tiene que dar
+necesariamente lo mismo que la suma b + a, y esto lo sabemos porque la suma
+no es meramente una definición escrita en un papel, sino una operación concreta
+que podemos hacer con números concretos, y nuestro conocimiento preciso de
+qué es lo que hacemos cuando sumamos dos números (no ninguna “corazonada”
+o “inspiración”, como entendería quien interpretara la palabra “intuición” en un
+sentido peyorativo o coloquial y no en el sentido técnico preciso que aquí le
+estamos dando) nos garantiza que el resultado de una suma no va a depender
+del orden en que dispongamos los sumandos.
+    A su vez, si partimos de premisas intuitivamente verdaderas sobre los núme-
+ros naturales, tenemos la garantía de que nunca podremos llegar a razonar una
+contradicción, porque todo lo que digamos serán afirmaciones verdaderas sobre
+lo que podemos hacer manipulando los números naturales, y una afirmación
+cualquiera sobre los números naturales puede ser verdadera o falsa, pero no
+ambas cosas. Por ejemplo, nuestra intuición da un significado preciso a la con-
+jetura de Goldbach, pero no alcanza para determinar si es verdadera o falsa.
+Cualquiera puede decir: “es evidente que la suma de números naturales es con-
+mutativa”, pero no tiene ningún fundamento decir “es evidente que la conjetura
+de Goldbach es verdadera”. La primera afirmación no tiene carácter “místico”,
+sino que se basa en nuestro conocimiento sobre lo que hacemos al sumar números
+naturales. Por ejemplo, si observamos la figura siguiente:
+                           •   •   •   •   ◦   ◦    ◦
+nos convencemos de que 4 + 3 = 3 + 4, porque si contamos los puntos de
+izquierda a derecha o de derecha a izquierda estamos contando en cualquier
+caso los mismos puntos y, lo más importante, nos damos cuenta de que este
+razonamiento no depende para nada de si hemos dibujado 4 y 3 puntos o bien
+1 537 y 299, por lo que vale para cualquier par de números. Por el contrario, el
+proceso que a partir del 28 nos lleva a encontrar la descomposición 28 = 5 + 23
+en suma de primos no es generalizable, es decir, no nos da ninguna garantía de
+que nos permitirá encontrar una descomposición similar si en lugar de partir del
+28 partimos del 35 266.
+    Si la matemática se redujera al estudio de los números naturales, disponer de
+un cálculo deductivo formal para realizar con él los razonamientos matemáticos
+sería algo, más o menos interesante, pero sin duda innecesario. Para razonar
+sobre números naturales es suficiente con garantizar que hablamos únicamente
+de conceptos con un significado preciso (no vale hablar de números “no dema-
+siado grandes”, sin más precisión) y cuidando de que todo lo que digamos sea
+intuitivamente verdadero o consecuencia lógica de afirmaciones intuitivamente
+verdaderas.
+
+Conceptos abstractos Pero la matemática no se reduce al estudio de los
+números naturales, y los matemáticos se han visto abocados a considerar cada
+vez conceptos más y más abstractos, hasta llegar al que, en cierto sentido, se
+puede considerar el más abstracto de todos: el concepto de “conjunto”.
+                                                                                      xvii
+
+    La pregunta que se plantea entonces es si podemos hablar de conjuntos en
+general con la misma objetividad con la que podemos hablar de números natura-
+les o, dicho de otro modo, ¿el concepto de “conjunto” es como el de “cubo de tres
+dimensiones” o como el de “cubo de cuatro dimensiones”? Lo primero supone
+que cuando hablamos de conjuntos podemos asignar un significado objetivo a
+nuestras afirmaciones, de manera que podemos cuidar de tomar como premisas
+únicamente afirmaciones intuitivamente verdaderas y tener así la garantía de
+que no podemos incurrir en contradicciones en nuestros razonamientos, pues és-
+tos nos llevarán únicamente a afirmaciones intuitivamente verdaderas (aunque
+muchas de ellas no sean intuitivamente evidentes). Lo segundo supone que po-
+demos pensar en conjuntos, pero sin ninguna garantía de que lo que afirmemos
+sobre ellos sean más que meras palabras, como cuando decimos que James Bond
+es un agente secreto británico, pero no ruso.
+    En este punto nos encontramos con argumentos contrapuestos. Por una
+parte, es evidente que NO disponemos de un concepto intuitivo preciso de “con-
+junto”, porque si los términos “conjunto” y, consiguientemente, “pertenencia”
+tuvieran un significado objetivo preciso, no podríamos llegar a una contradic-
+ción considerando el conjunto de todos los conjuntos que no se pertenecen a sí
+mismos.
+    Por otro lado, no es menos evidente que sí que tenemos un conocimiento
+intuitivo preciso de determinados conjuntos, como el conjunto N de los números
+naturales, o del conjunto P de los números primos, y podemos decir objeti-
+vamente que 5 ∈ P , pero que 8 ∈     / P . Este hecho lleva a muchos a pensar
+ingenuamente5 que el concepto de “conjunto” es como el de “número natural”,
+algo que “está ahí” en el sentido de que podemos hablar objetivamente sobre los
+conjuntos como hablamos sobre los números naturales, pero en este punto es
+preciso caer en la cuenta de un hecho muy sutil, pero fundamental:
+
+     El hecho de que podamos aplicar con pleno sentido un concepto a
+     ciertos objetos completamente determinados por la intuición no im-
+     plica necesariamente que dicho concepto tenga en general un conte-
+     nido intuitivo.
+
+    Por ejemplo, sabemos perfectamente lo que estamos diciendo cuando decimos
+que el conjunto P de los números primos es un conjunto y que 5 ∈ P , pero eso
+no significa que tengamos un concepto general de “conjunto” bien definido, y
+mucho menos con un contenido intuitivo.
+    Quizá otros ejemplos ayuden a entender esto. Si hablamos de “el menor
+número natural que puede expresarse como producto de tres primos distintos”,
+estamos hablando sin duda alguna de 2·3·5 = 30. Ésta es una posible definición
+del número 30. En cambio, no podemos decir que estamos definiendo un número
+al hablar de “el menor número natural que hubiera sido primo si 8 lo fuera”. Eso
+no tiene ni pies ni cabeza, y sabemos distinguir si una “definición” es realmente
+una definición o si sólo aparenta serlo, pero no lo es. Al menos, esto es así
+si convenimos en que en cuanto una definición deja lugar a dudas es que no es
+  5 Sin perjuicio de que otros puedan llegar a la misma conclusión no ingenuamente.
+xviii                                         Introducción a la lógica matemática
+
+realmente una definición. Pero el caso es que el hecho de que, dado un “proyecto
+de definición”, sepamos distinguir si es admisible o no, no implica que tengamos
+un concepto general de lo que es una definición, o sobre qué requisitos específicos
+debe tener un “proyecto de definición” para que realmente lo podamos tener por
+tal. Sabemos reconocer definiciones aceptables, pero no sabemos concretar qué
+es una definición aceptable. No tenemos una definición de “definición”.
+    Una prueba de que no existe una definición de “definición” (y que el problema
+no es meramente que ahora mismo no se nos ocurre ninguna) es que si suponemos
+que la hay llegamos a una paradoja: ¿Cuál sería el menor número natural que
+no puede ser definido con menos de doce palabras? Porque, si tuviéramos un
+concepto preciso de “definición”, podríamos decir que un número es definible con
+menos de doce palabras si tiene una definición de menos de doce palabras, y esto
+estaría bien definido, y entonces podríamos definir “el menor número natural no
+definible con menos de doce palabras”, y tendríamos una contradicción, porque
+lo habríamos definido con once palabras.
+    Esta paradoja no debe hacernos sospechar que en realidad no sabemos de qué
+hablamos cuando hablamos de números naturales. Es verdad que no sabemos
+de qué hablamos cuando hablamos de “el menor número natural no definible
+con menos de doce palabras”, pero eso es porque no sabemos de qué hablamos
+cuando hablamos de “números definibles con tantas palabras”. Que sepamos
+distinguir cuándo un texto define un número sin ambigüedades de cuándo no es
+así no implica en absoluto que tengamos una definición precisa de lo que es una
+definición ni, en particular, que las afirmaciones sobre definiciones en abstracto
+tengan necesariamente un significado objetivo preciso.
+    Eso mismo sucede con los conjuntos: sabemos reconocer conjuntos concretos
+bien definidos, pero eso no implica que tengamos una noción precisa de “con-
+junto” en general, ni que una afirmación sobre conjuntos en general tenga que
+tener necesariamente un significado objetivo preciso. A este respecto podemos
+decir lo siguiente:
+        Para que podamos razonar objetivamente con un concepto, no basta
+        con que tengamos un criterio claro sobre cuándo el concepto es apli-
+        cable a unos objetos concretos (que es lo único que algunos pretenden
+        tener en cuenta), sino que es necesario que podamos dar un signi-
+        ficado objetivo a las afirmaciones sobre la totalidad de los objetos a
+        los que es aplicable el concepto.
+   Por ejemplo, no solamente sabemos lo que decimos cuando decimos que 5, 13
+o 129 son números primos, sino que sabemos lo que decimos cuando afirmamos
+que todos los números primos cumplen una determinada propiedad X (supuesto
+que X esté inequívocamente determinada para cada número primo): significa
+que 2 cumple X y que 3 cumple X y que 7 cumple X, y que 11 cumple X, y que
+por mucho que avancemos en la sucesión de los primos nunca nos encontraremos
+con uno que no cumpla X. Esto puede ser cierto o falso, e incluso puede que
+no sepamos cómo comprobar si es cierto o falso, pero siempre podremos decir
+que, o bien existe un primo que no cumple X, o que no existe, y que eso es algo
+objetivo que no depende de nosotros.
+                                                                              xix
+
+    Similarmente, cuando afirmamos que existe un primo que cumple X, esto
+significa que 2 cumple X o 3 cumple X o 5 cumple X, y que, si continuamos
+avanzando por la sucesión de los primos, tarde o temprano encontraremos uno
+que cumpla X. Nuevamente, esto tiene un sentido objetivo tanto si sabemos
+como comprobar que es así como si no. Más aún, tiene sentido objetivo incluso
+si no sabemos cómo comprobar si un primo dado cumple o no X (pero sabemos
+lo que esto significa).
+    Un ejemplo para entender esto último: Tomemos como X la propiedad “ser
+diferencia de dos números primos”. Podemos preguntarnos si todo número par
+tiene la propiedad X. Por ejemplo,
+
+                   2 = 5 − 3,        4 = 7 − 3,    6 = 11 − 5,   ...
+
+ahora imaginemos que llegamos a un número par p para el que no encontramos
+un par de primos que cumplan X. Eso no significa que no existan, porque los
+dos primos pueden ser arbitrariamente grandes. Tal vez nos quedemos con la
+duda de si p tiene o no la propiedad X, pero o la tiene o no la tiene. Si no la
+tiene, ya podemos asegurar que es falso que todo número par tiene la propiedad
+X, y si la tiene habría que seguir buscando por si falla otro. Tal vez nunca
+sepamos qué pasa a partir de p, pero eso no desmiente que la afirmación “todo
+número par es diferencia de dos primos” es objetivamente verdadera o falsa.
+
+   Consideremos ahora el concepto de “sucesión infinita de números naturales”.
+Conocemos muchos ejemplos concretos de tales sucesiones. Por ejemplo, la
+sucesión constante igual a 7:
+
+                                7,     7,   7,    7,    ...
+
+la propia sucesión de los números naturales:
+
+                                0,     1,   2,    3,    ...
+
+la sucesión n2 + n + 1:
+                                1,    3,    7,    13,   ...
+
+y así infinitas más. Sabemos lo que decimos cuando decimos que cualquiera
+de ellas es una sucesión infinita de números naturales, podemos hablar objeti-
+vamente de cualquiera de ellas, pero ¿sabemos lo que decimos si hacemos una
+afirmación sobre la totalidad de sucesiones infinitas de números naturales? ¿Po-
+demos decir objetivamente que toda afirmación sobre la totalidad de sucesiones
+infinitas de números naturales es verdadera o falsa?
+    Los matemáticos discrepan en la respuesta a esta pregunta, pero en general
+coinciden en que, si la respuesta fuera afirmativa, no es evidente que lo sea, por
+lo que en ningún caso es algo en lo que podamos apoyarnos sin más justificación.
+Volveremos sobre esto un poco más adelante, pero de momento quedémonos al
+menos con que no podemos decir “alegremente” que sabemos de qué hablamos
+cuando hablamos de “todas las sucesiones infinitas de números naturales”.
+xx                                            Introducción a la lógica matemática
+
+Teorías axiomáticas En cuanto se vieron enfrentados a las paradojas de la
+teoría de conjuntos, los matemáticos no necesitaron ninguna de las reflexio-
+nes precedentes para convencerse de que la solución a todos sus problemas era
+una teoría axiomática. Para entender cómo una teoría axiomática “arregla” los
+problemas de la teoría de conjuntos, vamos a considerar primero el caso más
+tangible bajo la hipótesis de que sólo estuviéramos interesados en razonar sobre
+números naturales.
+   El primer intento de analizar deductivamente nuestro conocimiento sobre los
+números naturales se debe a Peano, quien propuso los cinco axiomas siguientes
+como únicas premisas de los razonamientos sobre números naturales:
+     1. El cero es un número natural.
+     2. Todo número natural tiene un siguiente (que es otro número natural).
+     3. El cero no es el siguiente de ningún número natural.
+     4. Números naturales distintos tienen siguientes distintos.
+     5. (Principio de inducción) Si el cero tiene una propiedad P y cuando un
+        número natural tiene la propiedad P también la tiene su siguiente, entonces
+        todo número natural tiene la propiedad P.
+    El punto débil de estos axiomas, así expresados, es qué debemos entender
+por propiedad P. Obviamente tiene que ser una propiedad “bien definida”, una
+propiedad que no deje lugar a dudas sobre qué significa que un número la tenga o
+no (lo cual no es lo mismo que exigir que haya un procedimiento que nos permita
+saber en la práctica si la tiene o no). Pero puede objetarse que, como ya hemos
+comentado, no tenemos una definición rigurosa de “propiedad bien definida”.
+Esta objeción no es del todo justa, pues, como también hemos comentado, el
+hecho de que no sepamos definir “propiedad bien definida” no está reñido con
+que sepamos reconocer muchas propiedades que están bien definidas sin lugar a
+dudas, a las cuales podemos aplicar tranquilamente el principio de inducción.
+    De todos modos, podemos precisar algo más el modo en que debe entenderse
+el axioma 5. Podríamos pensar en considerar únicamente las propiedades que
+pueden definirse a partir de los conceptos de “cero” y “siguiente”, pero esto es
+demasiado pobre. Para ir por ese camino debemos añadir algunos hechos básicos
+a los axiomas de Peano. Si, por abreviar, usamos la letra S para referirnos al
+siguiente de un número natural y los signos + y · para nombrar la suma y el
+producto, como es habitual, los nuevos axiomas son:
+     6. Sobre los números naturales hay definida una suma, de modo que la suma
+        de dos números naturales es un número natural, y además:
+                           x + 0 = x,      x + Sy = S(x + y).
+
+     7. Sobre los números naturales hay definido un producto, de modo que el
+        producto de dos números naturales es un número natural, y además:
+                             x · 0 = 0,    x · Sy = x · y + x.
+                                                                              xxi
+
+    Si consideramos que el principio de inducción es aplicable a todas las propie-
+dades P que pueden definirse exclusivamente a partir de los conceptos de “cero”,
+“siguiente”, “suma” y “producto” (lo que llamaremos propiedades aritméticas)
+entonces los axiomas de Peano son suficientes para demostrar prácticamente
+todo lo que cualquiera sabe sobre los números naturales y mucho más.
+    Esto se traduce en que, si quisiéramos, podríamos “olvidarnos” de que sabe-
+mos lo que son los números naturales y limitarnos a extraer consecuencias de
+los axiomas mediante razonamientos lógicos (válidos). En otras palabras, este
+planteamiento consistiría en decir algo así como
+     No sé ni me importa qué son los números naturales, pero vamos a
+     aceptar que existe algo llamado cero (que no me importa lo que es,
+     si es que es algo) que tiene la propiedad de ser un número natural
+     (que no me importa lo que es), que todo número natural (sea esto
+     lo que sea) tiene asociado otro número natural al que llamamos su
+     “siguiente” (y no me importa qué significa esto), de modo que se
+     cumplen los axiomas 3, 4, 5, y suponemos también que a partir de
+     cada dos números naturales podemos calcular otro al que llamamos
+     su suma (y no me importa qué es concretamente eso de “sumar”) de
+     modo que se cumple el axioma 6, y lo mismo con el producto y el
+     axioma 7.
+   Aceptado esto, podemos ir obteniendo consecuencias lógicas. Por ejemplo
+podemos razonar que todo número natural que no sea el cero es el siguiente de
+otro. Para probarlo razonamos así:
+     Demostración: Tomamos como propiedad P la dada por “x es
+     cero o el siguiente de otro número natural”. Es una propiedad bien
+     definida, para cada número natural x (supuesto que “cero” y “si-
+     guiente” tengan un significado preciso, aunque no nos importe cuál
+     sea). Aplicamos el principio de inducción, para lo cual observamos
+     que, obviamente, el cero tiene la propiedad P , y supuesto que un
+     número natural x tenga la propiedad P , también es evidente que Sx
+     tiene la propiedad P , ya que Sx es obviamente el siguiente de otro
+     número natural. El principio de inducción nos da entonces que todo
+     número natural tiene la propiedad P , es decir, que todo número es
+     cero o bien el siguiente de otro.
+
+     Esto es un ejemplo típico de razonamiento formal. El argumento garantiza
+que si existen unos objetos que cumplen los axiomas de Peano, entonces dichos
+objetos deben cumplir también la conclusión: cada uno de ellos que no sea el
+cero es el siguiente de otro.
+     La lógica matemática proporciona los criterios precisos y adecuados para ve-
+rificar razonamientos formales como éste sin necesidad de preocuparse en ningún
+momento sobre el posible significado de las palabras “número natural”, “cero”,
+“siguiente”, “suma” o “producto”. La situación es exactamente la misma que
+cuando a partir de “todo A es B” y “C es A” concluíamos que “C es B” sin
+necesidad de preguntarnos qué es eso de A, B, C.
+xxii                                        Introducción a la lógica matemática
+
+    Mediante argumentos conceptualmente similares al anterior, a partir de los
+axiomas de Peano podemos demostrar hechos conocidos sobre los números na-
+turales, como que dos números naturales cualesquiera tienen un máximo común
+divisor, o que todo número natural mayor que 1 se descompone en forma única
+(salvo el orden) en producto de números primos, etc.
+   Ciertamente, no tenemos ninguna necesidad de “olvidarnos” de qué son los
+números naturales cuando sabemos perfectamente lo que son, pero nuestras
+opciones son muy distintas si en lugar de hablar de números naturales hablamos
+de conjuntos.
+    En efecto, ahora el problema de los matemáticos es que si les interrogamos
+sobre qué son esos conjuntos de los que tanto hablan no saben exactamente
+qué decir. Peor aún, si intentan hablar de ellos alegremente incurren en con-
+tradicciones. La solución está en adoptar una teoría axiomática de conjuntos,
+es decir, adoptar unos axiomas en los que aparezcan las palabras “conjunto” y
+“pertenencia” sin definición alguna, igual que en los axiomas de Peano se habla
+de un “cero”, un “siguiente”, etc., pero sin decir lo que son concretamente.
+    Aunque no es éste el lugar adecuado para analizar con detalle los axiomas
+de la teoría de conjuntos, vamos a mostrar algunos de ellos para hacernos una
+idea de en qué consisten:
+  a) Si A y B son dos conjuntos y todo x ∈ A cumple también x ∈ B y viceversa
+     (es decir, si ambos conjuntos tienen los mismos elementos) entonces A y
+     B son iguales.
+  b) Dados dos conjuntos A y B, existe un conjunto C al cual pertenecen
+     exactamente A y B, y ningún otro elemento. Se representa C = {A, B}.
+  c) Existe un conjunto A al que no pertenece ningún elemento. Se llama
+     conjunto vacío y se representa por ∅.
+  d) · · ·
+    El caso es que si estamos dispuestos a razonar tomando como premisas unos
+cuantos axiomas más de este estilo, sin necesidad de preocuparnos sobre el po-
+sible significado de las palabras “conjunto” y “pertenencia” es posible demostrar
+todos los teoremas que figuran en todos los libros de matemáticas del mundo
+(excepto unos pocos muy especializados, que requieren axiomas adicionales),
+como que “toda función derivable es continua”, etc.
+    Naturalmente, si esto funciona es porque los axiomas pueden elegirse “hábil-
+mente” para que los argumentos que llevan a contradicciones no puedan dedu-
+cirse de ellos. Por ejemplo, a partir de los axiomas de la teoría de conjuntos no
+puede demostrarse que exista un conjunto que contenga a todos los conjuntos
+que no se pertenecen a sí mismos, con lo que se evita la paradoja de Russell
+y, aunque es posible definir los ordinales de la teoría cantoriana, no es posible
+demostrar que exista un conjunto que contenga a todos los ordinales, con lo que
+se evita la antinomia de Burali-Forti, porque no se puede definir el ordinal Ω
+que “debería contar” a ese conjunto inexistente.
+                                                                             xxiii
+
+    Las consecuencias de este planteamiento son muchas y muy delicadas, y no
+estamos ahora en condiciones de analizarlas debidamente, pero lo dicho es sufi-
+ciente para entender por qué los matemáticos pasaron a necesitar la lógica formal
+como el aire que respiran: Si la matemática ha de basarse en unos axiomas que
+no podemos decir que son verdaderos para ninguna interpretación concreta, ob-
+jetiva, de las palabras “conjunto” y “pertenencia”, hemos de contar con criterios
+que decidan si un razonamiento lógico es válido o no sin hacer ninguna referencia
+al significado de las afirmaciones involucradas. Y eso es precisamente lo que pro-
+porciona la lógica formal. La lógica formal nos enseña a razonar con seguridad
+cuando no podemos decir con seguridad de qué objetos estamos hablando.
+
+Formalismo, finitismo, platonismo La actitud de decir “no sé ni me im-
+porta qué son los conjuntos” puede tacharse de “cínica”, como una forma (legal,
+ciertamente, pero algo “deshonesta”) de eludir una responsabilidad. Cuando a
+los matemáticos se les pregunta cómo asumen esta “solución” se dividen en un
+abanico de posturas filosóficas que grosso modo se resumen en tres posturas.
+    Un formalista es quien considera que la matemática no es ni más ni me-
+nos que demostrar teoremas a partir de los axiomas de la teoría de conjuntos
+siguiendo las leyes de la lógica formal. Los formalistas más extremos consi-
+derarán que no hay nada más, que las palabras que emplean los matemáticos
+(“conjunto”, “pertenencia”, “función”, “derivada”, “integral”, etc.) no son más
+que palabras, palabras coherentes, pero palabras, como las de una novela bien
+escrita, sin contradicciones y en la que “todo encaja”. En todo caso, es una
+“novela” especial porque es objetiva, en el sentido de que no está en manos del
+“autor” decidir “si se salva el protagonista o muere al final”. Los más moderados
+reconocerán que, sí, las afirmaciones matemáticas significan algo, pero todo lo
+referente al significado posible es poco riguroso, no es científico, es “de andar
+por casa”, y es algo que a lo sumo puede tener interés desde un punto de vista
+didáctico, pero no matemático en sentido estricto.
+    En el extremo opuesto están los platonistas, que son quienes consideran que
+la teoría de conjuntos describe una realidad objetiva, al igual que los axiomas
+de Peano, sólo que de mucha mayor envergadura, y que queda fuera de nuestra
+intuición, por lo que es necesario trabajar axiomáticamente, pero que tiene
+sentido discutir qué axiomas son “correctos”, en el sentido de que describen
+realmente esa realidad objetiva, y qué axiomas darían lugar a una teoría, tal
+vez coherente, pero falsa. Si para un formalista las matemáticas son una novela
+de ficción, para los platonistas la matemática es un relato fiel a una historia
+real.
+    Entre ambos extremos se sitúan los finitistas, que son quienes piensan que
+la matemática es como una novela que combina hechos históricos con hechos de
+ficción, es decir, que de los conceptos de los que se puede hablar a través de
+la teoría de conjuntos hay algunos que tienen un significado objetivo, como los
+números naturales, y otros que son meras “ficciones útiles”, en el sentido de que
+usando esos argumentos con objetos ficticios es posible demostrar hechos ver-
+daderos sobre los objetos reales. Un ejemplo sería la demostración del llamado
+xxiv                                               Introducción a la lógica matemática
+
+Último Teorema de Fermat, es decir, la afirmación de que la ecuación
+
+                                       xn + y n = z n
+
+no tiene soluciones enteras con x, y, z 6= 0 cuando n es un número natural > 2.
+La única demostración que se conoce de este resultado utiliza conceptos conjun-
+tistas muy sofisticados cuya existencia cuestionaría un finitista y, sin embargo, la
+conclusión es una afirmación sobre los números naturales que tiene sentido decir
+que es verdadera. El término “finitista” se debe a que en general la porción de
+las matemáticas a la que un finitista reconoce un significado es la relacionada
+con los conceptos que se pueden describir en términos de conjuntos y proce-
+sos finitos, aunque un finitista moderado puede aceptar también la existencia
+objetiva de ciertos conjuntos infinitos si se cumplen ciertas condiciones.
+    Formalistas, finitistas y platonistas coinciden en la necesidad de desarrollar
+las matemáticas a través de una teoría axiomática de conjuntos, de modo que
+están de acuerdo en lo que supone “hacer matemáticas” en la práctica.6 Sin
+embargo, difieren, por ejemplo, a la hora de interpretar el hecho de que de-
+terminadas afirmaciones no pueden demostrarse ni refutarse a partir de unos
+axiomas.
+
+Afirmaciones indecidibles Como de costumbre, antes de discutir el hecho
+de que hay afirmaciones que no pueden demostrarse ni refutarse a partir de los
+axiomas de la teoría de conjuntos, abordaremos el caso de los números naturales
+y los axiomas de Peano.
+    Una actitud estrictamente formalista respecto a los axiomas de Peano re-
+sulta deficiente por varias razones. En primer lugar, si sólo admitimos que la
+aritmética de Peano es lo que puede demostrarse a partir de los axiomas de
+Peano, sin considerar que las afirmaciones sobre números naturales tienen un
+significado que las hace verdaderas o falsas, no podemos distinguir entre dos
+conceptos que en realidad son bastante diferentes: que una afirmación sea ver-
+dadera y que una afirmación sea demostrable. Como los axiomas de Peano son
+verdaderos cuando se interpretan de la forma “habitual”, podemos afirmar que
+(si la lógica formal cumple adecuadamente con su misión, y demostraremos que
+así es) todos los teoremas demostrables a partir de los axiomas de Peano son
+afirmaciones verdaderas sobre los números naturales. Sin embargo, es perfec-
+tamente posible que la conjetura de Goldbach sea verdadera, incluso que sea
+demostrable a partir de los axiomas de la teoría de conjuntos y que, pese a ello,
+no sea demostrable a partir de los axiomas de Peano. De todos modos, aun-
+que este caso concreto sea incierto, demostraremos en su momento que existen
+afirmaciones verdaderas sobre los números naturales que no son demostrables
+a partir de los axiomas de Peano. Más precisamente, demostraremos que hay
+   6 No valoramos aquí otras posturas minoritarias más peculiares, como la de los intuicionis-
+
+tas, que niegan por ejemplo, que tenga sentido decir que la conjetura de Goldbach es verdadera
+o falsa mientras no exista un argumento que demuestre lo uno o lo otro, o la de quienes re-
+chazan algunos axiomas de la teoría de conjuntos y consideran que “se debería” trabajar en
+una teoría más débil, o con otras características, etc.
+                                                                                xxv
+
+afirmaciones sobre los números naturales (afirmaciones que sólo involucran los
+conceptos de “cero”, “siguiente”, “suma” y “producto”) que no son demostrables
+ni refutables a partir de los axiomas de Peano. Si α es una de estas afirmaciones,
+esto significa que no podemos argumentar si es verdadera o falsa (la única forma
+que tenemos de determinar si una afirmación no evidente es verdadera o falsa
+es tratando de demostrarla o refutarla a partir de unos axiomas), pero eso no
+significa que podamos decidir si es verdadera o falsa, sino únicamente que nos
+quedamos sin saberlo.
+    Por otra parte, tratar de identificar los números naturales con “unos objetos
+cualesquiera que cumplen los axiomas de Peano” es equívoco, porque demos-
+traremos que existen objetos que cumplen los axiomas de Peano y que no son
+los números naturales, en el sentido de que hay entre ellos uno que no es el
+cero, ni el siguiente de cero, ni el siguiente del siguiente de cero, etc. En cierto
+sentido que precisaremos en su momento, es imposible determinar los números
+naturales como “objetos cualesquiera que cumplan unos axiomas dados”, sean
+los de Peano u otros distintos.
+
+    Si pasamos a la teoría de conjuntos la situación es en principio similar:
+existen muchas afirmaciones conjuntistas que no pueden ser demostradas ni
+refutadas a partir de los axiomas de la teoría de conjuntos. Tal vez la más
+famosa sea la hipótesis del continuo. No podemos exponerla aquí con todo el
+detalle que requeriría, pero vamos a esbozarla:
+    En la teoría de conjuntos es posible asociar un cardinal (un número de ele-
+mentos) no sólo a los conjuntos finitos, sino también a los infinitos. Así, el
+conjunto N de los números naturales tiene el menor cardinal posible para un
+conjunto infinito, y se llama álef cero (ℵ0 ). El siguiente cardinal posible para un
+conjunto infinito es ℵ1 , y así sucesivamente. Por otra parte, hay varios conjuntos
+que puede probarse que tienen el mismo cardinal, entre ellos, el conjunto PN
+de todos los subconjuntos de N, el conjunto R de todos los números reales, o el
+conjunto NN de todas las sucesiones infinitas de números naturales. El cardinal
+común de estos conjuntos puede expresarse a través de la aritmética cardinal
+como 2ℵ0 , y puede probarse que 2ℵ0 > ℵ0 , es decir, que hay más números reales
+(o sucesiones de números naturales, etc.) que números naturales. Esto equivale
+a que 2ℵ0 ≥ ℵ1 . Sin embargo, Cantor acabó con una enfermedad nerviosa en
+gran parte debida a la frustración que le produjo no poder demostrar ni refutar
+que 2ℵ0 = ℵ1 . Esto es la hipótesis del continuo. En esencia se trata de deter-
+minar cuántos números reales hay, o cuántas sucesiones de números naturales
+hay. Sucede que a partir de los axiomas de la teoría de conjuntos no es posible
+demostrar si 2ℵ0 = ℵ1 , o si 2ℵ0 = ℵ2 , o si 2ℵ0 = ℵ3 , etc.
+    Aquí es donde el platonista, para justificar su punto de vista, tiene que argu-
+mentar que, aunque carezcamos de argumentos para determinar si el número de
+elementos de los conjuntos considerados es ℵ1 o ℵ2 o algún otro cardinal infinito,
+de algún modo tiene sentido decir que sólo una de las opciones es “la verdadera”,
+la que cumplen los conjuntos “de verdad” en algún sentido nada claro de qué
+son esos “conjuntos de verdad”.
+    De acuerdo con los resultados que demostraremos más adelante, la indeci-
+xxvi                                               Introducción a la lógica matemática
+
+dibilidad de la hipótesis del continuo se traduce en que existen7 distintas inter-
+pretaciones posibles de la palabra “conjunto”, de modo que respecto a una de
+ellas es verdad que 2ℵ0 = ℵ1 , y respecto de otra 2ℵ0 = ℵ2 , y respecto de otra
+2ℵ0 = ℵ3 , y así hay tantas interpretaciones posibles de lo que puede entenderse
+por “conjuntos” como valores posibles hay para 2ℵ0 . El problema es que no pa-
+rece haber ningún criterio por el que pueda decirse que una de ellas corresponde
+a “los conjuntos de verdad”.
+    La hipótesis del continuo puede verse como una afirmación sobre “la totali-
+dad de las sucesiones infinitas de números naturales”, concretamente, sobre su
+número de elementos, en un sentido definible con precisión en el contexto de
+la teoría de conjuntos. El hecho de que no haya un criterio claro por el que
+pueda, no ya demostrarse si es verdadera o falsa, sino meramente afirmarse que
+tiene que ser verdadera o falsa en algún sentido, es uno de los indicios por los
+que antes cuestionábamos que tengamos alguna representación intuitiva de “la
+totalidad de las sucesiones infinitas de números naturales” equiparable a nues-
+tra representación intuitiva que nos permite dar sentido a afirmaciones sobre la
+totalidad de los números naturales.
+    Aunque es un ejemplo mucho más sofisticado y no podemos dar aquí práctica-
+mente ningún detalle sobre él, cabe señalar que en la teoría de conjuntos es
+posible definir algo llamado 0] , que admite varias formulaciones equivalentes:
+puede verse como un conjunto infinito de números naturales o también como
+una sucesión infinita de números naturales. Por concretar nos centramos en la
+segunda formulación. Puede probarse que si existe una sucesión que satisface
+la definición de 0] , es única (y se la llama así), pero no puede demostrarse que
+exista. Como la hipótesis del continuo, la existencia de 0] es indecidible a partir
+de los axiomas de la teoría de conjuntos, y tiene repercusiones muy drásticas
+sobre la estructura general de los conjuntos, y sobre la aritmética cardinal en
+particular. Pero en definitiva se reduce a si existe una sucesión de números
+naturales con ciertas características. Sin embargo, no parece que podamos de-
+cir qué tiene que pasar, lo sepamos comprobar o no, para que podamos decir
+que tal sucesión, o bien existe, o bien no existe. Y si no sabemos precisar qué
+significa que exista “de verdad” 0] , no podemos permitirnos el lujo de hablar de
+sucesiones infinitas de números naturales si no es en el contexto de una teoría
+axiomática que regule nuestros razonamientos, pues la única forma de razonar
+sin axiomas ni lógica formal y estar en condiciones de afirmar al mismo tiempo
+que estamos haciendo algo preciso y riguroso es poder explicar de qué habla-
+mos exactamente y qué sentido tienen las afirmaciones que hacemos. Cuando
+hablamos de números naturales podemos hacerlo, pero si pretendemos hablar
+de sucesiones infinitas de números naturales. . .
+
+   7 Todo lo que estamos diciendo en este apartado presupone un hecho no trivial, y es que los
+
+axiomas de la teoría de conjuntos son consistentes, es decir, que a partir de ellos no pueden
+demostrarse contradicciones. Como decíamos, los axiomas de la teoría de conjuntos se han
+escogido para que, en principio, los argumentos conocidos que dan lugar a contradicciones no
+sean deducibles a partir de ellos, pero el hecho de que los argumentos conocidos no funcionen
+no garantiza que no pueda haber otros argumentos desconocidos que lleven a contradicciones.
+En su momento trataremos esta cuestión.
+                                                                            xxvii
+
+Matemática y metamatemática La necesidad de recurrir a una teoría axio-
+mática para fundamentar, para dar rigor a las demostraciones matemáticas y
+librarlas de contradicciones ha provocado que surja en cierto sector de los ma-
+temáticos un formalismo radical que resulta contradictorio. Consiste en no
+reconocer como válido ningún argumento, ningún razonamiento, ninguna teoría
+que no venga precedida por exponer la lista de los axiomas que supone y a partir
+de los cuales tiene que demostrarse todo lo demás. Esto no es sostenible por
+varias razones:
+    La más importante es que para definir el razonamiento formal, es decir, para
+explicitar los criterios que permiten “capturar” el razonamiento lógico, pero sin
+hacer referencia al significado de las afirmaciones involucradas, es necesario ha-
+cer afirmaciones sobre afirmaciones, para lo cual en primer lugar es necesario
+expresar dichas afirmaciones en un “lenguaje formal” lo suficientemente simple
+como para que su forma lógica resulte explícita y sea posible hacer referencia a
+ella sin ambigüedades, y para todo eso es necesario hablar de “signos” y “sucesio-
+nes de signos”, manipular estas sucesiones de signos atendiendo a características
+como su “longitud”, es decir, el número de signos que las componen (y ello ya
+supone hablar de números naturales), etc. En suma, que para estar en condicio-
+nes de razonar formalmente a partir de unos axiomas, primero hay que trabajar
+informalmente (es decir, significativamente, cuidando de que todo cuanto di-
+gamos signifique algo y, más concretamente, algo verdadero) con los conceptos
+necesarios para estar en condiciones de precisar qué es una teoría axiomática y
+cómo se trabaja en ella.
+    En segundo lugar sucede que, aunque pudiéramos reducir a un mínimo los
+razonamientos necesarios para construir una teoría axiomática de conjuntos,
+para hacer las cosas “bien hechas” tenemos que justificar que las reglas de ra-
+zonamiento formales que “definimos” no son arbitrarias, sino que reflejan (y, de
+hecho, capturan por completo) las posibilidades de razonamiento lógico en el
+sentido que hemos explicado al principio de esta introducción: en el sentido de
+que nos garantizan que cuando se aplican a premisas verdaderas (incluso si no
+sabemos precisar cuál es esa interpretación que las hace verdaderas) permiten
+deducir únicamente conclusiones verdaderas. Esto requiere razonamientos bas-
+tante más sofisticados que los estrictamente necesarios para definir una teoría
+axiomática presentada como un mero fruto del capricho y del azar.
+    Pero al margen de estas dos consideraciones previas que nos “presionan” para
+que nos dejemos de “melindres” y admitamos que no es imprescindible disponer
+de una teoría axiomática para razonar con el rigor y precisión propios de la
+matemática, lo cierto es que esos “melindres” son meros prejuicios fundados en
+la confusión entre los “razonamientos” arriesgados con palabras de significado
+dudoso, que van más allá de los conceptos que nuestra intuición nos permite
+representar y manipular objetivamente, y los razonamientos informales cuyo
+rigor se basa en que consideran afirmaciones con un significado preciso y que
+podemos garantizar que son verdaderas en virtud de que sabemos exactamente
+de qué estamos hablando.
+    Los razonamientos informales (en el sentido que acabamos de explicar) con
+los que definimos y estudiamos las teorías axiomáticas que después pueden
+xxviii                                       Introducción a la lógica matemática
+
+usarse para desarrollar el razonamiento matemático reciben el nombre de razo-
+namientos metamatemáticos. Tanto el formalista (no radical hasta el extremo de
+la inconsistencia) como el finitista como el platonista estarán de acuerdo en que
+la fundamentación de la matemática requiere una metamatemática, y también
+coincidirán en que ésta tiene que ser de naturaleza finitista, es decir, que incluso
+el platonista, dispuesto a creer que los conjuntos de la teoría de conjuntos son
+algo concreto y objetivo, admitirá que no tenemos un conocimiento lo suficiente-
+mente claro de dicha realidad platónica como para razonar rigurosamente en ella
+sin aferrarnos a unos axiomas explícitos. En cambio, sí que podemos razonar
+metamatemáticamente (es decir, sin contar todavía con una teoría axiomática
+de apoyo que nos permita desentendernos del posible significado de lo que diga-
+mos) siempre y cuando nos limitemos a hablar de conceptos que sólo involucren
+procesos finitos objetivos. En realidad el límite de hasta dónde podemos ha-
+blar metamatemáticamente con la conciencia tranquila de saber de qué estamos
+hablando es delicado, y es algo en lo que el lector deberá fijarse y meditar a
+medida que vaya leyendo este libro. Algunos de los resultados que probaremos
+metamatemáticamente trascenderán los límites de lo que estrictamente puede
+llamarse “finitismo”, y el lector deberá juzgar si le convencen o no, es decir, si
+se convence de que tienen un significado objetivo y son verdaderos.
+    Por último, cabe advertir que el concepto de “metamatemática” tiene un
+sentido algo más amplio del que aquí le hemos dado, ya que toda la metama-
+temática (informal) usada para definir y estudiar las teorías axiomáticas puede
+formalizarse a su vez en la teoría de conjuntos (e incluso en teorías más débiles),
+y entonces podemos usar una teoría axiomática como metateoría para estudiar
+otra teoría axiomática, en cuyo caso los razonamientos metamatemáticos son
+tan formales (basados en la deducción formal a partir de unos axiomas) como
+los razonamientos de la teoría matemática que está siendo estudiada. De to-
+dos modos, el lector entenderá mejor estas sutilezas a medida que avance en su
+lectura.
+     Primera parte
+
+Lógica de primer orden
+
+
+           1

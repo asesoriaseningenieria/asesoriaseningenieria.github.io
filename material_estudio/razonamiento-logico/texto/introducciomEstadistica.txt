@@ -1,0 +1,280 @@
+Curso a distancia
+                                              Introducción a las
+                                                 Estadísticas
+                                                 Ambientales
+
+
+ Conceptos fundamentales de estadística
+
+Rafael Agacino
+Experto en Estadísticas Ambientales
+División de Estadísticas
+Comisión Económica para América Latina y el
+Caribe
+(CEPAL)
+Estadística descriptiva
+e inferencial
+
+
+                          2
+ESTADISTICA: Como sustantivo
+
+ Sustantivo
+ • El término estadística refiere a datos numéricos, tales
+   como promedios, medianas, porcentajes e índices que
+   caracterizar un objeto de estudio o de referencia.
+ • Ejemplos de datos:
+    – El ingreso promedio de un país
+    – La temperatura promedio de una zona
+    – El número de especies en peligro de extinción.
+
+
+                                                        3
+ESTADISTICA: Como Disciplina
+
+ Disciplina
+ • El término Estadística también refiere a un campo
+   mucho más amplio que los puros datos numéricos.
+ • En un sentido amplio, la Estadística se define como
+   una disciplina, basada en determinadas metodologías
+   y conceptos, que consiste en producir, analizar,
+   procesar, interpretar y presentar series de datos.
+
+
+                                                     4
+Los datos
+
+
+            5
+                    ¿Qué son los datos?
+
+Una variable es una característica de los elementos u
+objetos que se estudian. Y los datos son los valores que se
+obtienen para cada variable.
+Al conjunto de las mediciones obtenidas para un
+determinado elemento u objeto se le llama observación.
+
+Existen dos tipos de datos: cuantitativos y cualitativos.
+
+
+                                                            6
+Datos cualitativos
+
+ • Los datos cualitativos representan una manera de
+   denominar.
+ • Comprenden etiquetas o nominaciones que identifican
+   un atributo del objeto que se estudia.
+    – Ejemplo: Definirle un nombre a las especies; a cada
+      subespecie; y a cada ejemplar de las especies.
+ • Permiten categorizar a los datos:
+    – Con una escala nominal: creando categorías
+    – Con una escala ordinal: creando una jerarquía (1º, 2º, 3º)
+ • No permiten realizar operaciones aritméticas.
+
+
+                                                                   7
+Datos cuantitativos
+
+ • Los datos cuantitativos requieren valores numéricos
+   que indiquen cuánto o cuántos.
+    – Ejemplos: La número de especies están en peligro de
+      extinción. La cantidad de toneladas de materias en
+      suspensión se encuentran en el aire.
+ • Permiten generar estadísticos numéricos: media,
+   promedio, coeficiente de variación, etc.
+ • La estadística como disciplina, en general, trata de datos
+   cuantitativos los cuales son antes cualificados por datos
+   cualitativos.
+
+
+                                                           8
+Datos cuantitativos
+• Ejemplo de publicaciones de trabajo estadístico: el
+  Anuario Estadístico de CEPAL
+
+
+                                                    9
+La Estadística descriptiva y la
+    Estadística inferencial
+
+
+                                  10
+Estadística descriptiva
+
+ • La estadística descriptiva se ocupa de la
+   caracterización de un fenómeno que se pretende
+   estudiar cuantitativamente
+    – Ejemplo: El rendimiento académico de un curso. Para ello se
+      puede caracterizar por medio del cálculo del promedio de
+      las notas de los alumnos, la mediana y la desviación
+      estándar para conocer la dispersión de rendimiento entre
+      los estudiantes.
+ • Dicha caracterización se presenta como un resumen
+   de datos que sean fáciles de leer y de entender, por
+   ejemplo, tabulados y gráficos.
+
+
+                                                                11
+Estadística descriptiva: Ejemplo
+
+
+                                   12
+Estadística descriptiva
+
+
+ • De manera sintética: La estadística descriptiva intenta
+   definir un objeto de estudio y mostrar el conjunto de
+   atributos que se considera importantes para describir el
+   estado de dicho objeto.
+
+
+                                                        13
+Inferencia estadística
+
+ Sin embargo
+ • Las estadísticas descriptivas tienen como limitante la
+   cobertura: no pueden cubrir la totalidad de los casos
+   que conforman un objeto de estudio.
+ • En muchas situaciones se requiere información de
+   grandes grupos de elementos (individuos, empresas,
+   votantes, hogares, etc.), pero sólo podemos acceder a
+   un cierto número de ellos.
+ • La solución: Un estudio del universo a través de una
+   Muestra, es decir, del estudio de un número reducido
+   pero seleccionado de casos.
+                                                      14
+Inferencia estadística
+
+• La inferencia estadística consiste en tomar una muestra
+  para tratar de extrapolar las características de las
+  variables de la muestra al conjunto de los casos.
+                    Inferencia
+                    Se pasan las
+                    características de
+                    la muestra al
+                    conjunto de los
+                    casos
+
+
+     Muestra                        Conjunto
+  Se estudian los
+   casos de la
+     muestra
+
+                                                       15
+Inferencia estadística
+
+• Proceso de inferir: Pasar del caso particular
+  (muestra) al universal (conjunto de los casos).
+• Una muestra con un grado de error bajo permite
+  hacer una inferencia mas ajustada a las
+  propiedades del conjunto de los casos.
+
+
+                                                16
+Inferencia estadística
+
+ También permite medir los cambios en el tiempo
+ ´
+
+ • En el caso de los elementos cuyos datos varían de una
+   forma regular en el tiempo, es factible pronosticar su
+   evolución inter temporal en base al estudio de dicha
+   regularidad.
+ • El comportamiento se puede inferir a partir de datos
+   históricos.
+ • Por tanto se puede pronosticar el comportamiento de
+   los elementos en el futuro sobre la base de un
+   seguimiento de la información presente e histórica.
+
+
+                                                      17
+Variables, datos y mediciones
+cualitativas y cuantitativas
+
+
+                           18
+Elementos, variables y observaciones
+
+ Elementos: Entidades de las que se obtienen los datos
+ Variables: Una característica de los elementos que es
+ de interés. Los valores encontrados para cada variable
+ en cada uno de los elementos constituyen los datos.
+ Observaciones: El conjunto de mediciones obtenidas
+ para un determinado elemento.
+
+
+                                                     19
+Escalas de medición
+
+ La recolección de datos requiere alguna de las escalas de
+ medición siguientes:
+ nominal,
+ ordinal,
+ de intervalo, o
+ de razón.
+ La escala de medición determina la cantidad de
+ información contenida en el dato e indica la manera más
+ apropiada de resumir y de analizar estadísticamente los
+ datos.
+
+                                                       20
+Escalas de medición: DE INTERVALO
+• Una escala de medición para una variable es una escala de
+  intervalo si los datos tienen las características de los datos
+  ordinales y el intervalo entre valores se expresa en términos
+  de una unidad de medición fija.
+• Los datos de intervalo siempre son numéricos.
+   – Ejemplo: Clasificaciones de estatura con valores numéricos
+     fijos:
+       • Muy grande: 2 m
+       • Grande: 1, 90 m
+       • Mediano: 1, 85 m
+       • Pequeño: 1, 60 m
+       • Muy pequeño: 1,50 m
+• Permite realizar operaciones aritméticas
+                                                                  21
+Escalas de medición: DE RAZON
+
+• Una variable tiene una escala de razón si los datos
+  tienen todas las propiedades de los datos de intervalo y
+  la proporción entre dos valores tiene significado.
+• Variables como distancia, altura, peso y tiempo usan la
+  escala de razón en la medición. Esta escala requiere que
+  se tenga el valor cero para indicar que en este punto no
+  existe la variable.
+   – Ejemplo: En el caso de los deciles de ingreso, me permite
+     establecer la relación entre el ingreso del decil más bajo y del
+     decil más alto. Por ejemplo una relación de 1:40, en la que el
+     ingreso del decil más alto representan 40 veces el del decil
+     más bajo.
+
+                                                                    22
+En resumen
+
+  Los distintos tipos de escalas se caracterizan por:
+ - Nominal: etiquetas que solo admiten identificación de
+   la variable (v.g.: nombres de comunas o distritos)
+ - Ordinal: etiquetas o códigos susceptibles de ordenarse
+   en jerarquías (v.g.: niveles de calidad, ordenes de
+   importancia, etc.)
+ - De intervalo: valores numéricos fijos que admiten
+   operaciones aritméticas (v.g: puntajes numéricos de
+   rendimiento, cantidad de MP2,5 en suspensión, etc.)
+ - De razón: valores numéricos que además expresan
+   proporciones; requieren de un punto cero de referencia
+   (v.g.: temperatura, estatura, tiempo, etc.).
+                                                       23
+                                                          Curso a distancia
+                                                         Introducción a las
+                                                            Estadísticas
+                                                            Ambientales
+
+
+               Gracias por su atención!
+
+
+Área de Estadísticas Económicas y Ambientales
+División de Estadística, CEPAL
+statambiental@cepal.org
+http://www.cepal.org/es/temas/estadisticas-ambientales

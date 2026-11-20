@@ -1,0 +1,1364 @@
+Vicerrectoría de Docencia
+     Departamento de Admisiones y Registro
+
+
+                      EXAMEN DE ADMISIÓN
+                        SEMESTRE 2008-01
+
+                         Jornada 3A: Martes a.m.
+
+   Marque la opción correspondiente, rellenando los círculos: A, B, C ó D.
+
+
+                                                                              1
+2
+                                                         Razonamiento Lógico
+
+1.   Si en la gráfica todos los ángulos son rectos, el volumen           B.    7
+     de la figura es:                                                    C.    12
+                                                                         D.    14
+
+                         2
+
+                             2
+                     1           1
+                 2                       8                          Preguntas 7 y 8.
+
+     A.   60                                                             Se tienen 15 pesos en billetes de un peso.
+     B.   64                                                        7.   El número mínimo de paquetes en los que se pueden
+     C.   96                                                             empacar estos 15 pesos, rotulando cada paquete con la
+     D.   120                                                            cantidad contenida, de modo que se pueda entregar
+                                                                         cualquier cantidad pedida entre 1 y 15 pesos sin abrir
+Preguntas 2 y 3.                                                         ningún paquete es:
+
+A partir de los números 2 y 9 se establece la secuencia:                 A.    3
+2 , 9 , 6 , 7 , 18 , 5 , 54 , X , Y                                      B.    4
+                                                                         C.    5
+2.   El número que ocupa el espacio marcado con X en la                  D.    6
+     secuencia es:
+                                                                    8.   El paquete con el mayor número de billetes contiene:
+     A.   15.
+     B.   13.                                                            A.    6 billetes
+     C.   3.                                                             B.    8 billetes
+     D.   2.                                                             C.    10 billetes
+                                                                         D.    12 billetes
+3.   El número que ocupa la posición marcada con Y en la
+     secuencia es:                                                  9.   La razón entre el área sombreada y el área total de la
+                                                                         figura es:
+     A.   98.
+     B.   120.
+     C.   135.                                                           A.    1/4
+     D.   162.                                                           B.    1/3
+                                                                         C.    3/8
+4.   El total de números de dos cifras que tienen a 3 o a 7              D.    2/5
+     entre sus dígitos es:
+
+     A.   18.
+     B.   26.
+     C.   34.
+     D.   36.                                                       10. Dado el cubo que se muestra en
+                                                                        figura, el croquis que puede ser
+5.   El ángulo BOC es recto y el ángulo AOB mide la mitad               doblado para obtener el cubo de la
+     del ángulo COD, si D,O, A están sobre la misma recta               figura es:
+     entonces el ángulo COD mide:
+
+     A.   15°                                C
+     B.   30°                                        B
+     C.   45°                                                                 #               *     *              #
+     D.   60°                        D           O   A
+                                                                              *               #     #              *
+6.    Si el área de la figura es 84 cm 2, entonces el valor de x
+     en cm es:              x            x
+                                                                              A.             B.    C.            D.
+     A.   6
+                                         6                                                                                      3
+
+                                                 x       x
+    A.       A
+    B.       B
+    C.       C
+    D.       D                                                       A.    A
+                                                                     B.    B
+11. Se desea llenar las casillas restantes del cuadro                C.    C
+    mostrado en la figura, de manera que cada uno de los             D.    D
+    números 1, 2, 3, 4 aparezca en cada fila y columna del
+    tablero. El número de maneras en que esto se puede           Preguntas del 14 al 16.
+    hacer es:
+                              1 2 3 4                                  1       2     3     4    5      Cara
+    A.       1                                                                                         principal
+    B.       2                2   1 13
+    C.       4                3      22                              Se tienen 5 tarjetas idénticas marcadas por su cara
+    D.       8                4 3 2 31                               principal con los números del 1 al 5 como se indica en la
+                                                                     figura. El reverso de cada tarjeta tambien está marcado
+                                  4
+                                                                     con los números del 1 al 5, con las siguientes
+Preguntas 12 y 13.                                                   condiciones:
+                                                                     -   Si el número marcado en la cara principal es par,
+                                                                         entonces, su reverso es un número impar.
+Un juego de computador muy elemental consta de una                   -   Ninguna tarjeta está marcada con el mismo número
+única operación. Se tiene una flecha brillante sobre un plano            por la cara principal y el reverso.
+cuadriculado como se muestra en la figura:
+                        N(norte)
+
+                                                                                                      Credencial
+                                                                 14. Si con las 5 tarjetas señalando la          «credencial»
+                                                                                                        cara principal,    se voltea
+   (oeste) W                       E (este)                          la tarjeta con el número 1 y su reverso tiene el número
+                        o
+                                                                     5, entonces, el número mínimo de tarjetas que deben
+                                                                     voltearse para poder saber exactamente que tarjeta
+                        S (sur)                                      tiene en su reverso el número 3 es:
+
+La flecha inicialmente está ubicada en el centro (o) del plano       A.    Cuatro
+y apunta hacia el norte (N). El juego consiste en que cuando         B.    Tres
+el usuario oprime el botón “enter”, la flecha gira 45° (en el        C.    Dos
+sentido de las manecillas del reloj), luego se desplaza en esa       D.    Una
+dirección quedando la “cola” de la flecha ubicada en el
+vértice inmediato.                                               15. En las mismas condiciones iniciales. El número mínimo
+La rutina se repite de manera idéntica al pulsarse de nuevo          de tarjetas que deben voltearse, para garantizar la
+el botón.                                                            ubicación de un número par en el reverso de una tarjeta
+                                                                     es:
+12. Si se oprime el botón cuatro veces, permitiendo que
+    cada vez se repita la rutina completa, entonces la flecha        A.    Ninguna
+    quedará orientada respecto de su cola en dirección:              B.    Una
+                                                                     C.    Dos
+    A.       Nor-este                                                D.    Tres
+    B.       Este
+    C.       Sur-este                                            16. En las mismas condiciones iniciales. Se han volteado
+    D.       Sur                                                     tres tarjetas y los números que aparecen al reverso son
+                                                                     3, 5 y 1. Entonces de las afirmaciones siguientes la única
+13. Partiendo de la posicion inicial de la flecha, la gráfica        que no es posible acerca de los números que señalan
+    que representa la posición final de la “cola” de la flecha       en su cara principal las tarjetas que faltan por voltear es:
+    después de seis rutinas completas es: (P representa al
+    punto final del movimiento).                                     A.    3y5
+                                                                     B.    1y3
+                 A                 B          C        D             C.    2y4
+                                                                     D.    1y5
+         P
+                                                      P
+                                        P
+                                              P                                                                                   4
+17. Cuando a un estanque le falta llenar el 30% de su
+    capacidad contiene 10800 litros de agua más que
+    cuando estaba lleno al 30% de su capacidad.                 Preguntas 22 y 23.
+    La capacidad total del estanque, en litros es:
+                                                                      La figura muestra un exhibidor de una librería donde
+      A.   27000                                                      estan colocados 6 diccionarios de 6 idiomas Así: Alemán,
+      B.   32400                                                      Italiano, Español, Frances, Inglés y Portugués. Se sabe
+      C.   36000                                                      que:
+      D.   43200
+                                                                                              El diccionario de Español está a
+18. En 24 litros de solución de agua y alcohol, la proporción                                  la izquierda
+    entre los volúmenes de alcohol y agua es:                                                 El de Alemán está justo arriba
+    Volumen alcohol        3                                                                   del de Español
+    Volumen de agua       5                                                                   El de Inglés está en el nivel más
+                                                                                               bajo.
+Entonces el volumen de alcohol en litros de solución es:                                      El de Italiano está justo debajo
+                                                                                               del de Portugués.
+      A.   6
+      B.   7
+      C.   8                                                    22. De las siguientes afirmaciones, de la única que se tiene
+      D.   9                                                        certeza es:
+
+19.    22M                                                            A.   El diccionario de Español está en el nivel del medio
+     x F9                                                             B.   El diccionario de Español está en el nivel más bajo
+     13.511                                                           C.   El diccionario de Francés no está en el nivel medio
+En la multiplicación señalada, M y F representan dígitos.             D.   El diccionario de Inglés está a la izquierda
+Entonces los valores de M y F son respectivamente:
+                                                                23. Si adicionalmente se sabe que:       el diccionario de
+      A.   8y5                                                      Portugués está en el mismo nivel que el de Español,
+      B.   9y7                                                      entonces los diccionarios ubicados sobre la derecha de
+      C.   3y6                                                      arriba hacia abajo son respectivamente:
+      D.   9y5
+                                                                      A.   Alemán, Portugués, Italiano
+                                                                      B.   Portugués, Italiano, Francés
+                                                                      C.   Francés, Portugués, Italiano
+20.    La siguiente figura consta de ocho cubos iguales
+                                                                      D.   Portugués, Italiano, Inglés
+      pegados:
+
+                                                                24.
+                                                                                               Un bloque de hielo, con
+                                                                                               dimensiones 2 cm x 4 cm x 5
+                                                                                               cm, se derrite para formar cinco
+                                                                      4 cm                     cubos de igual volumen. La
+                                                                                        5 cm   longitud del lado de cada cubo
+                                                                               2 cm            en cm, es:
+Usando esta figura como base, la menor cantidad de estos
+mismos cubos que faltan para construir un cubo sólido es:
+
+                                                                      A.   1
+      A.   19
+                                                                      B.   2
+      B.   27
+                                                                      C.   3
+      C.   56
+                                                                      D.   4
+      D.   66
+
+                                                                Preguntas 25 y 26.
+21. Si el 15% de un número n es igual al 35% de 3000,
+    entonces el valor de n es:
+                                                                Se define la operación ∆ en el conjunto de los números
+                                                                reales diferentes de cero así:
+      A.   6250
+      B.   7000
+      C.   8500
+      D.   8700
+                                                                                                                                  5
+25. El valor resultante de (1 ∆ 2) ∆ 3 es:
+                                                                 Preguntas 30 y 31.
+    A.   15/6
+    B.   10/3                                                    El siguiente diagrama representa una población estudiantil,
+    C.   61/30                                                   clasificada según practiquen o no el baloncesto y según
+    D.   25/36                                                   escuchen ó no musica rock. Los óvalos interiores
+                                                                 representan, respectivamente, a los estudiantes que
+26. Si x ∆ y = y ∆ x, entonces, de las afirmaciones siguientes   practican baloncesto (B) y a los que escuchan música rock
+    la única verdadera es:                                       (R).
+
+    A.   La igualdad se cumple para x, y en todo el conjunto                         Hombres             Mujeres
+         de los reales
+    B.   La igualdad se cumple solamente para x=y                                                                  B
+    C.   La igualdad se cumple solamente para los reales
+         positivos
+                                                                                                                   R
+    D.   La igualdad se cumple para x, y en todo el conjunto
+         de los reales sin el cero
+
+Preguntas 27 y 28.                                               30. En el diagrama la region sombreada que representa a
+                                                                     las mujeres que no practican baloncesto pero que
+Dos firmas vendedoras de automóviles designadas por A y B            escuchan música rock es:
+tienen las siguientes formas de pago mensuales para sus                   A                   B                C                  D
+vendedores:                                                       Hombres Mujeres    Hombres Mujeres    Hombres Mujeres    Hombres Mujeres
+
+                                                                                B                   B                  B                 B
+   La firma A paga un salario básico de $900.000 y 1.750.000
+                                                                                R                   R                  R                 R
+    por cada auto vendido
+   La firma B paga un salario básico de $1.560.000 y
+    1.530.000 por cada auto vendido.                                 A.   A
+                                                                     B.   B
+27. El número de automoviles que se requiere vender                  C.   C
+    mensualmente por un vendedor para que el ingreso sea             D.   D
+    igual en las dos empresas es:
+                                                                 31. En el diagrama siguiente la región sombreada
+    A.   3                                                           representa a la población estudiantil compuesta por:
+                                                                                    Hombres   Mujeres
+    B.   4
+    C.   5                                                                                         B
+    D.   7                                                                                         R
+
+
+28. El número mínimo de automoviles mensuales que se                 A.   Hombres que no practican el baloncesto ni
+    requiere vender a partir del cual el ingreso de un                    escuchan música rock
+    vendedor de la empresa B es menor que el de la                   B.   Hombres que escuchan música rock y no practican
+    empresa A es:                                                         baloncesto
+                                                                     C.   Hombres que no escuchan música rock
+    A.   3                                                           D.   Hombres que no practican baloncesto
+    B.   4
+    C.   6
+    D.   8                                                       Preguntas del 32 al 34.
+                                                                                              B C T E
+29. Juan se ha ganado un premio el cual consiste en que
+    recibirá, durante una semana (7 días), cierta cantidad de
+    dinero de tal manera que cada día recibe el cuadruple
+    del día anterior. Si el primer día recibe 16 dólares,
+    entonces la cantidad total de dinero que recibirá Juan
+    es:
+    A. 16x4x4x4x4x4x4
+    B. 4 + 42+ 43 + 44 + 45 + 46 + 47
+    C. 47                                                        En la figura se muestra una balanza de brazos iguales en la
+    D. 42+ 43 + 44 + 45 + 46 + 47 + 48                           cual se han colocado los cuerpos, señalados según su forma
+                                                                                                                                         6
+                                                                                                           Credencial «credencial»
+como, B,C,T y E respectivamente. Los cuerpos de la misma
+forma tienen el mismo peso.                                         El cuadro que continúa la secuencia es:
+32. Con la información que aportan las dos posiciones de la
+    balanza, entonces de las afirmaciones siguientes, la            A.    A
+    única de la cual se tiene certeza, con relación al peso de      B.    B
+    los cuerpos, es:                                                C.    C
+                                                                    D.    D
+      A.   E>B
+      B.   E>T
+      C.   B>T                                                   36. Un gamo da 3 saltos en línea recta y cubre una distancia
+      D.   C>T                                                       igual a la que hace un felino en 2 saltos.
+
+33.                                                                   Si el gamo ha dado 60 saltos, en línea recta, entonces,
+                                                                      el número de saltos necesarios para cubrir la misma
+                                                                      distancia, por el felino, es:
+
+                                                                     A.   30
+                                                                     B.   35
+      Si a toda la información inicial se le adiciona la que         C.   40
+      suministra la nueva posición de la balanza, entonces, de       D.   45
+      las afirmaciones siguientes de la única que se tiene
+      certeza es:                                                Preguntas del 37 al 39.
+
+      A.   E<B                                                   Millones de votos 5.0--
+      B.   B>T                                                                   4.5--
+      C.   T<E                                                                   4.0--
+                                                                                 3.5--
+      D.   T>C
+                                                                                 3.0--
+                                                                                 2.5--
+34.                                                                              2.0--
+                                                                                 1.5--
+                                                                                 1.0--                        Candidatos
+
+                                                                                           A    B   C    D    E
+
+                                                                 La gráfica muestra los resultados obtenidos por los
+      Si a toda la información anterior se le agrega la que      candidatos A, B, C, D, y E en la primera vuelta de las
+      aporta la nueva posición de la balanza, entonces, de las   elecciones presidenciales sobre un total de 15´000.000 de
+      afirmaciones siguientes la que indica el orden exacto      votos.
+      con respecto al peso de los cuerpos es:
+                                                                 37. De las afirmaciones siguientes la única verdadera es:
+      A.   C>B>T>E
+      B.   T>B>C>E                                                  A.    El candidato A obtuvo el 45% de la votación total
+      C.   C>T>B>E                                                  B.    Entre los candidatos A y B obtuvieron más del 50%
+      D.   B>E>C>T                                                        de la votación total
+                                                                    C.    La diferencia entre el número de votos de A y el de B
+35. Dada la secuencia:                                                    es el 30% de la votación total
+                                                                    D.    Entre los candidatos B y D obtuvieron el 20% de la
+                                                                          votación total
+                                                       
+                                                                 38. En la segunda vuelta de las elecciones sólo
+                                                                   participan los 2 candidatos que obtuvieron el mayor
+                                                                     número de votos en la primera vuelta, y los restantes
+      De los siguientes cuadros:                                     candidatos apoyan a uno cualquiera de los dos,
+                                                                     manteniendo exactamente el número de electores
+                                                                   respectivos de la primera vuelta, sobre el mismo
+                                                                     número total de 15´000.000 de votos. Gana el candidato
+                                                                   que obtenga el mayor número de votos.
+
+               A          B   C            D
+
+                                                                                                                             7
+   De las siguientes alianzas,         la   única que permite el
+   triunfo del candidato E es:
+
+   A.     (A + B + D) contra (E + C)
+   B.     (A + C + D) contra (E + B)
+   C.     (A + C) contra (E + B + D)
+   D.     (A + D) contra (E + B + C)
+
+39. De las siguientes alianzas, la única que no permite el
+    triunfo de alguno de los dos candidatos mayoritarios es:
+
+
+   A.     (A + D + C) contra (E + B)
+   B.     (A + D + B) contra (E + C)
+   C.     (A + B) contra (E + C + D)
+   D.     (A + C) contra (E + B + D)
+
+40. Un aparato está compuesto por dos lámparas, una
+    verde y una roja, tal que pueden estar las dos apagadas,
+    las dos prendidas o una prendida y la otra apagada.
+    Se establece la siguiente regla: “Si la lámpara roja está
+    encendida, entonces la verde también”.
+    De acuerdo con la regla anterior, de las afirmaciones
+    siguientes, la única de la cual no se tiene certeza es:
+
+     A.     Nunca está la lámpara roja encendida sola
+     B.     Si la lámpara roja está apagada, entonces la
+            verde también está apagada
+     C.     Para    poder encender       la lámpara roja, es
+            obligatorio que la verde esté encendida
+     D.     Si la lámpara verde está apagada, entonces la
+            roja también está apagada
+
+
+                                                                   8
+                                                         Competencia Lectora
+
+Preguntas del 41 al 51
+                                                                        A. Era del partido opuesto al de los vencedores
+                           Texto 1                                      B. Era un bebedor de vino empedernido
+Hacía pocos años que había terminado la guerra de España                C. Tenía mal aliento de tanto beber vino
+y la cruz y la espada reinaban sobre las ruinas de la                   D. Era del mismo partido de los vencedores pero le
+República. Uno de los vencidos, un obrero anarquista, recién               gustaba el color rojo
+salido de la cárcel buscaba trabajo. En vano revolvía cielo y       46. Según el texto, la mujer del hombre era:
+tierra. No había trabajo para un rojo. Todos le ponían mala                                               Credencial «credencial»
+cara, se encogían de hombros o le daban la espalda. Con                 A.   Amargada y frecuentaba mucho los templos
+nadie se entendía, nadie lo escuchaba. El vino era el único             B.   Una santa de la iglesia
+amigo que le quedaba. Por las noches, ante los platos vacíos,           C.   De mal temperamento
+soportaba sin decir nada los reproches de su esposa beata,              D.   Muy devota y frecuentaba mucho los templos
+mujer de misa diaria, mientras el hijo, un niño pequeño, le
+                                                                    47. Un título adecuado para el anterior relato, sería:
+recitaba el catecismo.
+Mucho tiempo después, Josep Verdura, el hijo de aquel
+                                                                        A.   El origen de los albañiles
+obrero maldito, me lo contó. Me lo contó en Barcelona,
+                                                                        B.   El origen del mundo
+cuando yo llegué al exilio. Me lo contó: él era un niño                 C.   El final de los albañiles
+desesperado que quería salvar a su padre de la condenación              D.   El mundo y sus demonios
+eterna y el muy ateo, el muy tozudo, no entendía razones.
+-Pero papá -le dijo Josep, llorando-. Si Dios no existe, ¿quién     48. Según el texto, la familia estaba conformada por un:
+hizo el mundo?
+-Tonto –dijo el obrero, cabizbajo, casi en secreto-. Tonto. Al          A.   Anarquista que desobedecía la norma eclesiástica, y
+mundo lo hicimos nosotros, los albañiles.                                    conservadores que la acataban
+                                                                        B.   Anarquista que obedecía la norma eclesiástica, y
+                                                                             conservadores que la desacataban
+41. El obrero estaba en la cárcel, porque era:                          C.   Hombre ateo, una mujer católica y un hijo evangélico
+                                                                        D.   Hombre supersticioso, una mujer evangélica y un hijo
+    A.   Republicano pero le gustaba el color rojo                           católico
+    B.   Un republicano desocupado
+    C.   Anarquista y uno de los vencidos de la guerra              49. Del texto se puede decir que los:
+    D.   Anarquista y le gustaba el color rojo
+                                                                        A.   Rojos eran conservadores y los vencedores liberales
+42. Del texto se puede inferir que un anarquista es una                 B.   Vencedores eran conservadores y los rojos
+    persona que:                                                             anarquistas
+                                                                        C.   Rojos eran los vencedores y los vencidos no tenían
+    A.   Defiende la desaparición del estado y del poder                     color
+    B.   Trabaja de obrero                                              D.   Vencedores eran anarquistas y los vencidos rojos
+    C.   Apoya la máxima autoridad del Estado elegida por los
+         ciudadanos                                                 50. De acuerdo con lo dicho en el texto, la historia se conoce
+    D.   Fue vencida en la guerra y está desocupada                     por:
+
+43. La expresión “en vano revolvía cielo y tierra” quiere decir         A.   El mismo obrero
+    que el hombre:                                                      B.   La madre del hijo del obrero
+                                                                        C.   El hijo de la esposa del obrero
+    A.   Rasguñaba el cielo y escarbaba la tierra de                    D.   El hombre al que Josep Verdura le refirió la historia
+         desesperación
+    B.   No encontraba nada, porque no había trabajo para           51. Lo que le responde el hombre al hijo lo dice cabizbajo y
+         albañiles                                                      casi en secreto porque:
+    C.   Buscaba trabajo por todas partes y no lo encontraba
+    D.   Le gustaba más el color rojo que trabajar
+                                                                        A.   No quería que la esposa oyera
+                                                                        B.   No le gusta hablar mal de Dios
+44. A partir del texto se puede inferir que, en la guerra, el           C.   Los vencedores son más, y lo pueden meter a la cárcel
+    vencido:                                                            D.   No quería herir los sentimientos de su hijo
+
+    A.   Es una vez vencido
+    B.   Es doblemente vencido                                      Preguntas del 52 al 62
+    C.   Se aprovecha del vencedor
+    D.   Se niega a trabajar                                                                    Texto 2
+
+45. Nadie escuchaba al hombre porque:
+
+                                                                                                                                     9
+Tenían las manos atadas, o esposadas, y sin embargo los               56. Del texto se desprende que la comunicación era un
+dedos danzaban, volaban, dibujaban palabras. Los presos                   delito, en el Uruguay de esa época, porque:
+estaban encapuchados; pero inclinándose alcanzaban a ver
+                                                                          A.   Hace posible la controversia
+algo, alguito, por abajo. Aunque hablar estaba prohibido,
+                                                                          B.   Permite que las personas sean uno y nadie
+ellos conversaban con las manos.                                          C.   Le quita la voz a unos, y se la da a otros
+Pinio Ungerfeld me enseñó el alfabeto de los dedos, que en                D.   Otorga privilegios a unos y fracasos a otros
+prisión aprendió sin profesor:
+-Algunos teníamos mala letra -me dijo-. Otros eran más artistas       57. En el texto se hace referencia a la comunicación, como:
+de la caligrafía.
+                                                                          A.   La necesidad de expresar de la voz humana
+La dictadura uruguaya quería que cada uno fuera nada más
+                                                                          B.   El habla de los golpes, de las manos, de los ojos, de
+que uno, que cada uno fuera nadie: en cárceles y cuarteles, y                  los poros, de la pared
+en todo el país, la comunicación era delito.                              C.   La conversación de las manos
+Algunos presos pasaron más de diez años enterrados en                     D.   El habla de la voz y de las manos
+solitarios calabozos del tamaño de un ataúd, sin escuchar
+más voces que el estrépito de las rejas o los pasos de las
+botas por los corredores. Fernández Huidobro y Mauricio
+                                                                      58. Fernández Huidobro y Mauricio Rosencof se salvaron
+Rosencof, condenados a esa soledad, se salvaron porque
+                                                                          de:
+pudieron hablarse, con golpecitos, a través de la pared. Así
+se contaban sueños y recuerdos, amores y desamores;
+                                                                          A.   La dictadura
+discutían, se abrazaban, se pelaban; compartían certezas y                B.   La soledad
+bellezas y también compartían dudas y culpas y preguntas                  C.   Comunicarse
+de esas que no tienen respuesta.                                          D.   El encierro
+Cuando es verdadera, cuando nace la necesidad de decir, a
+la voz humana no hay quien la pare. Si le niegan la boca, ella        59. De acuerdo con el relato, el ser humano se comunica:
+habla por las manos, o por los ojos, o por los poros, o por
+donde sea. Porque todos, toditos, tenemos algo qué decir a                A.   Porque no hay quien lo calle
+                                                                          B.   Por la urgencia de celebrar todo cuanto le acontece
+los demás, alguna cosa que merece ser por los demás
+                                                                          C.   Porque está hecho de palabras
+celebrada o perdonada.                                                    D.   Por la necesidad de decir
+
+52. La expresión “tenían las manos atadas, o esposadas”               60. La comunicación es el acontecimiento que permite:
+    quiere decir que los presos:
+                                                                          A.   La dictadura
+    A.   Estaban encapuchados
+                                                                          B.   El desencuentro y la distancia con el otro
+    B.   Tenían las manos atadas y esposadas al mismo
+                                                                          C.   El encuentro y el contacto con el otro
+         tiempo
+                                                                          D.   El encierro
+    C.   Tenían las manos atadas, unos; otros, las tenían
+         esposadas
+    D.   Tenían las manos sujetas, unos; otros, las tenían libres     61. Un título adecuado para el anterior relato, sería:
+
+53. El hecho de que estuvieran sujetos y encapuchados:                    A.   El origen del mundo
+                                                                          B.   Celebración de la voz humana
+    A.   Impedía que se comunicaran entre sí                              C.   Los presos
+    B.   Los hacía presos de la dictadura uruguaya                        D.   La dictadura uruguaya
+    C.   Los hacía culpables de su desacuerdo con la dictadura
+         uruguaya                                                     62. De acuerdo con el texto, la historia se conoce por:
+    D.   No impedía que se comunicaran entre sí
+                                                                          A.   Pinio Ungerfeld
+54. Pinio Ungerfeld:                                                      B.   Fernández Huidobro y Mauricio Rosencof
+                                                                          C.   Un narrador a quien le fue referida la historia
+    A.   No estuvo en la cárcel, pero por él se sabe la historia          D.   El dictador uruguayo
+    B.   Trabaja de obrero
+    C.   Es quien cuenta la historia
+    D.   Estuvo en la cárcel, y por él se sabe parte de la historia
+
+55. Ser “nada más que uno”, y que “cada uno” sea “nadie”,
+                                                                      Preguntas del 63 al 65: textos 1 y 2
+    equivale, en el texto, a:
+
+    A.   Rechazar lo singular y lo neutro                             63. Partiendo de la idea común a los dos textos, se podría
+    B.   Comunicarse entre sí, y ser todos iguales                        afirmar que:
+    C.   Acoger la diferenciación y la individualidad
+    D.   No comunicarse con nadie                                         A.   La guerra siempre deja ganadores y derrotados
+
+
+                                                                                                                                     10
+    B.   Los hombres siempre buscan la manera                   de    muerte, velar que dormir, la juventud que la vejez”, nos dice
+         comunicarse                                                  en el fragmento 88. Dado que “el camino que sube y que
+    C.   Los hombres difícilmente aceptan la diferencia
+                                                                      baja es el mismo” (frg. 60), la realidad no presenta un
+    D.   En todas partes hay desigualdades
+                                                                      perspectiva única y homogénea, sino que es más bien el
+                                                                      resultado de una “una armonía tensa, como la del arco y la
+64. El texto 1 y el texto 2 se refieren, respectivamente, a los
+                                                                      lira” (frg. 51).
+    siguientes subtemas, menos:
+                                                                      Entre todas las intuiciones de Heráclito, ninguna tan famosa
+    A.   Los reproches de una mujer beata y la necesidad de           como la del fluir perpetuo de las cosas, expresada en ese río
+         comunicarse                                                  “cuyas aguas fluyen siempre distintas para los que se bañan
+    B.   La guerra de España y la dictadura de Uruguay                en ellas” (frg. 12). La metáfora del río apunta hacia el
+    C.   La religión católica y la vida de Pinio Ungerfeld            discurrir incesante del mundo al que “no hizo ningún dios, ni
+    D.   Las diferencias de fe y las discrepancias políticas          ningún hombre, sino que es, fue y será siempre fuego
+                                                                      eterno que se enciende y se extingue según un determinado
+65. Una verdad indiscutida, que se aplica a los textos, es:
+                                                                      ritmo” (frg. 30). A los ojos de Heráclito no podía tampoco
+                                                                      escapar la visión continua de las conquistas saqueos y
+    A.   El respeto por las ideas de los otros es la primera
+         condición para poder convivir                                destrucciones que sufrieron, sin cesar, los griegos de
+    B.   La cuerda que amarra el respeto de unos por otros es         aquellos siglos. Una imagen absolutamente falsa de Grecia
+         la necesidad de comunicarse                                  nos ha hecho olvidar que este pueblo se desarrolló entre
+    C.   El obrero tiene más necesidad de respeto que de pan          violencias, muertes y caprichos de crueles tiranos. Su
+    D.   La libertad es como la fortuna, perjudicial a unos, útil a   prodigiosa historia es un caminar incesante hacia la luz,
+         otros                                                        hacia la coherencia, pero a través de un prolongado
+                                                                      combate. Por ello, Heráclito dejó plasmada esta continua
+                                                                      vivencia griega en el más impresionante y melancólico de
+Preguntas del 66 al 80
+                                                                      sus fragmentos: “La guerra es el padre de todas las cosas, el
+                                                                      rey de todo; a unos los deja aparecer como dioses, a otros
+La ciudad de Éfeso, situada algo al norte de Mileto, en la
+misma costa de Asia Menor, es la patria de Heráclito, la              como hombres, a unos los hace esclavos, a otros libres” (fgr.
+                                                                      53).
+personalidad más interesante de los presocráticos. Su
+nacimiento tuvo lugar hacia el año 544 a. C. Sabemos que
+                                                                      66. Éfeso estaba situada al:
+pertenecía a una familia importante, aunque no parece
+haber aceptado los principios de la aristocracia que le
+                                                                          A.   Sur de Mileto en la costa de Asia Menor
+circundaba. Sabemos también que escribió en prosa un libro
+                                                                          B.   Norte de Mileto en la costa de Asia Menor
+que, según Diógenes Laercio, llevaba el tan usual título de               C.   Este de Mileto en la costa de África
+Sobre la naturaleza. De este Libro nos quedan 126 breves                  D.   Occidente de Mileto en la costa de Asia
+fragmentos recogidos en la edición de Diels. Poco más de un
+par de páginas, pero lo suficientemente intensas y brillantes         67. Heráclito es el filósofo más interesante de todos los
+como para ocupar un lugar privilegiado en la larga historia               anteriores a:
+de la filosofía europea. El lenguaje en el que se expresa la
+intuición fundamental del cambio, del proceso incesante de                A.   Aristóteles
+                                                                          B.   Platón
+las cosas, de la tensión, la lucha y síntesis de todas las
+                                                                          C.   Sócrates
+contradicciones, es de un vigor y de una originalidad                     D.   Tales
+inconfundibles. A diferencia de los milesios, no sabemos de
+Heráclito que ayudase a vadear ríos, o que dibujase mapas             68. El tema del texto es:
+para sus conciudadanos navegantes. Pero su mirada, como
+la de Tales y Anaximandro, estuvo también clavada en la                   A.   La vida de Heráclito
+vida. A pesar del aire misterioso del término logos que                   B.   La filosofía de Heráclito
+encontramos en el primer fragmento, nada hay en su prosa                  C.   Heráclito el gran filósofo
+que no proceda de la experiencia inmediata de la vida, de las             D.   El pensamiento filosófico de Heráclito
+realidades más próximas a los ojos de los griegos. La guerra,
+                                                                      69. En las pocas páginas recogidas de su libro ya se insinúa
+el agua, el sueño, la libertad, la luz, la justicia, el fuego, la
+                                                                          su:
+juventud, el camino, la muerte, el pueblo, el hambre, la
+enfermedad, se aproximan a nosotros, en su ropaje más
+                                                                          A.   Poca aceptación a los principios de la aristocracia
+directo, en continua tensión y oposición. La mirada sobre el              B.   Interesante personalidad como filósofo
+mundo más próximo y sobre el lenguaje en el que aquél se                  C.   Intenso y brillante pensamiento filosófico sobre el
+descubre, le lleva a un peculiar y profundo relativismo: “El                   devenir
+mar es el agua más pura y más podrida; es potable y                       D.   Tensión y su lucha por todas las contradicciones
+saludable para los peces; en cambio, para los hombres es
+impotable y perniciosa” (frg. 61). “Es lo mismo la vida que la        70. La prosa de Heráclito procede:
+
+
+                                                                                                                                11
+    A.   De la imaginación y la reflexión filosófica               76. Heráclito como:
+    B.   Del discurrir y el devenir reflexivo de la vida
+    C.   De la experiencia y de las realidades más inmediatas          A.   Los milesios, ayudó a cruzar ríos
+         de la vida de los griegos                                     B.   Tales y Anaximandro, dibujó mapas para navegantes
+    D.   De la especulación y la reflexión filosófica de la vida       C.   Los griegos, construyó su experiencia de vida a partir
+                                                                            de las realidades más cercanas
+71. El texto dice que la mirada de Heráclito:                          D.   Los presocráticos, tuvo una personalidad interesante
+
+    A. Estaba puesta en las especulaciones y abstracciones         77. El término fluir significa en el texto:
+    B. Estaba en la experiencia y en las realidades más
+       próximas de la vida de los griegos                              A. Discurrir
+    C. Expresaba la intuición de la filosofía presocrática             B. Especular
+    D. Indicaba un vigor y una originalidad filosófica                 C. Cruzar
+       inconfundible                                                   D. Pasar
+
+72. Entre las intuiciones de Heráclito, la más célebre es:         78. El término aquél significa en el texto:
+
+    A. Su experiencia inmediata de la vida                             A. Lenguaje
+    B. El lenguaje sobre el peculiar y profundo relativismo de         B. Mundo más próximo
+       las cosas                                                       C. Relativismo filosófico
+    C. La del fluir perpetuo de las cosas                              D. Ropaje más directo
+    D. La perspectiva de un todo único y homogéneo
+                                                                   79. El aire misterioso del término “logos” que hay en el
+73. La frase que mejor expresa la filosofía del devenir de
+                                                                       primero de los fragmentos de Heráclito, lo es porque,
+    Heráclito es:
+                                                                       según el texto:
+    A. El camino que sube es el mismo que baja
+                                                                       A. Está dicho en su ropaje más directo
+    B. Es lo mismo la vida que la muerte
+                                                                       B. Está en continua tensión y oposición
+    C. La realidad es única y homogénea
+                                                                       C. Es mediato
+    D. El río, cuyas aguas fluyen siempre distintas para los
+                                                                       D. Procede de la experiencia inmediata
+       que se bañan en ellas, es eterno
+
+                                                                   80. Según el autor del texto, Heráclito:
+74. La realidad para Heráclito es:
+
+                                                                       A. Ocupa un lugar menor dentro de la filosofía europea
+    A.   La lucha de los iguales por la experiencia inmediata de
+                                                                       B. Es uno de los filósofos más importantes de Europa
+         las cosas
+                                                                       C. Es de un vigor y de una originalidad inconfundibles
+    B.   La perspectiva única y homogénea de la vida.
+                                                                       D. A pesar de su aire original, nos presenta una imagen
+    C.   El fluir constante del mundo y de la vida en todo
+                                                                          falseada de Grecia
+         momento
+    D.   El hombre, el mundo y el fuego eterno que se enciende
+         siempre al mismo ritmo
+
+
+75. Para Heráclito la guerra es:
+                        Credencial «credencial»
+
+    A.   Un mal necesario
+    B.   El mayor de todos los males
+    C.   Lo mejor que le sucede a un país
+    D.   Un prolongado combate que caracteriza a los hombres
+
+
+                                                                                                                               12
+    Nombre: «Nombres_2»
+    Credencial: «credencial_2»
+
+
+             Vicerrectoría de Docencia
+       Departamento de Admisiones y Registro
+
+
+                            EXAMEN DE ADMISIÓN
+                              SEMESTRE 2008-01
+
+                                 Jornada 3B: Martes a.m.
+
+    No abra el cuadernillo hasta que el docente acompañante lo autorice.
+
+    El examen consta de 80 preguntas: 40 de razonamiento lógico, 40 de competencia
+     lectora.
+
+    Al finalizar el examen devuelva el tema, en caso de no hacerlo, aquél le será anulado.
+
+    Marque en la tarjeta de respuestas una opción por pregunta solamente.
+   Marque en la tarjeta de respuestas la opción correspondiente, rellenando los círculos:
+
+    a, b, c ó d.
+1
+                                                      Razonamiento Lógico
+
+Preguntas 1 y 2.
+
+     La figura muestra un exhibidor de una librería donde
+     estan colocados 6 diccionarios de 6 idiomas Así: Alemán,
+                                                                   4.   El valor resultante de (1 ∆ 2) ∆ 3 es:
+     Italiano, Español, Frances, Inglés y Portugués. Se sabe
+     que:
+                                                                        A.   15/6
+                                                                        B.   10/3
+                          El diccionario de Español está a la
+                                                                        C.   61/30
+                            izquierda
+                                                                        D.   25/36
+                          El de Alemán está justo arriba del
+                            de Español
+                                                                   5.   Si x ∆ y = y ∆ x, entonces, de las afirmaciones siguientes
+                              El de Inglés está en el nivel más
+                                                                        la única verdadera es:
+                               bajo.
+                              El de Italiano está justo debajo
+                                                                        A.   La igualdad se cumple para x, y en todo el conjunto
+                               del de Portugués.
+                                                                             de los reales
+                                                                        B.   La igualdad se cumple solamente para x=y
+                                                                        C.   La igualdad se cumple solamente para los reales
+1.   De las siguientes afirmaciones, de la única que se tiene
+                                                                             positivos
+     certeza es:
+                                                                        D.   La igualdad se cumple para x, y en todo el conjunto
+     A.   El diccionario de Español está en el nivel del medio               de los reales sin el cero
+     B.   El diccionario de Español está en el nivel más bajo
+     C.   El diccionario de Francés no está en el nivel medio      Preguntas 6 y 7.
+     D.   El diccionario de Inglés está a la izquierda
+                                                                   Dos firmas vendedoras de automóviles designadas por A y B
+2.   Si adicionalmente se sabe que:       el diccionario de        tienen las siguientes formas de pago mensuales para sus
+     Portugués está en el mismo nivel que el de Español,           vendedores:
+     entonces los diccionarios ubicados sobre la derecha de         La firma A paga un salario básico de $900.000 y 1.750.000
+     arriba hacia abajo son respectivamente:                           por cada auto vendido
+                                                                    La firma B paga un salario básico de $1.560.000 y
+     A.   Alemán, Portugués, Italiano                                  1.530.000 por cada auto vendido.
+     B.   Portugués, Italiano, Francés
+     C.   Francés, Portugués, Italiano                             6.   El número de automoviles que se requiere vender
+     D.   Portugués, Italiano, Inglés                                   mensualmente por un vendedor para que el ingreso sea
+                                                                        igual en las dos empresas es:
+3.
+                            Un bloque       de hielo, con               A.   3
+                            dimensiones 2 cm x 4 cm x 5 cm,             B.   4
+                            se derrite para formar cinco                C.   5
+                            cubos de igual volumen.        La           D.   7
+     4 cm
+                            longitud del lado de cada cubo en
+                       5 cm cm, es:                                7.   El número mínimo de automoviles mensuales que se
+              2 cm                                                      requiere vender a partir del cual el ingreso de un
+                                                                        vendedor de la empresa B es menor que el de la
+                                                                        empresa A es:
+     A.   1
+     B.   2                                                             A.   3
+     C.   3                                                             B.   4
+     D.   4                                                             C.   6
+                                                                        D.   8
+Preguntas 4 y 5.
+                                                                   8.   Juan se ha ganado un premio el cual consiste en que
+Se define la operación ∆ en el conjunto de los números                  recibirá, durante una semana (7 días), cierta cantidad de
+reales diferentes de cero así:                                          dinero de tal manera que cada día recibe el cuadruple
+                                                                        del día anterior. Si el primer día recibe 16 dólares,
+
+
+                                                                                                                                2
+     entonces la cantidad total de dinero que recibirá Juan
+     es:
+
+     A.   16x4x4x4x4x4x4
+     B.   4 + 42+ 43 + 44 + 45 + 46 + 47
+     C.   47
+     D.   42+ 43 + 44 + 45 + 46 + 47 + 48
+
+9.   Un gamo da 3 saltos en línea recta y cubre una distancia
+     igual a la que hace un felino en 2 saltos.
+
+     Si el gamo ha dado 60 saltos, en línea recta, entonces,
+     el número de saltos necesarios para cubrir la misma
+     distancia, por el felino, es:
+
+     A.   30
+     B.   35
+     C.   40
+     D.   45
+
+
+                                                                3
+Preguntas 10 y 11.                                                          12. Con la información que aportan las dos posiciones de la
+                                                                                balanza, entonces de las afirmaciones siguientes, la
+El siguiente diagrama representa una población estudiantil,                     única de la cual se tiene certeza, con relación al peso de
+clasificada según practiquen o no el baloncesto y según                         los cuerpos, es:
+escuchen ó no musica rock. Los óvalos interiores
+representan, respectivamente, a los estudiantes que                               A.   E>B
+practican baloncesto (B) y a los que escuchan música rock                         B.   E>T
+(R).             Hombres         Mujeres                                          C.   B>T
+                                                                                  D.   C>T
+                                                  B                         13.
+                                                                                                                  Credencial «credencial_2»
+                                                  R
+
+
+                                                                                  Si a toda la información inicial se le adiciona la que
+10. En el diagrama la region sombreada que representa a
+                                                                                  suministra la nueva posición de la balanza, entonces, de
+    las mujeres que no practican baloncesto pero que
+                                                                                  las afirmaciones siguientes de la única que se tiene
+    escuchan música rock es:
+                                                                                  certeza es:
+         A                   B                C                  D
+ Hombres Mujeres    Hombres Mujeres    Hombres Mujeres    Hombres Mujeres
+                                                                                  A.   E<B
+               B                   B                  B                 B         B.   B>T
+               R                   R                  R                 R         C.   T<E
+                                                                                  D.   T>C
+
+    A.   A
+                                                                            14.
+    B.   B
+    C.   C
+    D.   D
+
+11. En el diagrama siguiente la región sombreada
+                                                                                  Si a toda la información anterior se le agrega la que
+    representa a la población estudiantil compuesta por:
+                   Hombres   Mujeres                                              aporta la nueva posición de la balanza, entonces, de las
+                                                                                  afirmaciones siguientes la que indica el orden exacto
+                                  B
+                                                                                  con respecto al peso de los cuerpos es:
+                                  R
+
+                                                                                  A.   C>B>T>E
+    A.   Hombres que no practican el baloncesto ni
+                                                                                  B.   T>B>C>E
+         escuchan música rock
+                                                                                  C.   C>T>B>E
+    B.   Hombres que escuchan música rock y no practican
+                                                                                  D.   B>E>C>T
+         baloncesto
+    C.   Hombres que no escuchan música rock
+                                                                            15. Dada la secuencia:
+    D.   Hombres que no practican baloncesto
+                                                                                                                                         
+Preguntas del 12 al 14.
+                             B C T E                                                                                    
+
+
+                                                                                  De los siguientes cuadros:
+
+                                                                                                  
+
+                                                                                                                                
+                                                                                           A           B   C                D
+En la figura se muestra una balanza de brazos iguales en la
+cual se han colocado los cuerpos, señalados según su forma                        El cuadro que continúa la secuencia es:
+como, B,C,T y E respectivamente. Los cuerpos de la misma
+forma tienen el mismo peso.                                                       A.   A
+                                                                                  B.   B
+
+                                                                                                                                              4
+   C.    C                                                           B.   26.
+   D.    D                                                           C.   34.
+                                                                     D.   36.
+16. La siguiente figura consta de ocho cubos iguales
+    pegados:                                                     21. El ángulo BOC es recto y el ángulo AOB mide la mitad
+                                                                     del ángulo COD, si D,O, A están sobre la misma recta
+                                                                     entonces el ángulo COD mide:
+
+                                                                     A.   15°                             C
+                                                                     B.   30°                                           B
+                                                                     C.   45°
+                                                                     D.   60°                     D           O         A
+Usando esta figura como base, la menor cantidad de estos
+mismos cubos que falta para construir un cubo sólido es:         22. Se desea llenar las casillas restantes del cuadro
+                                                                     mostrado en la figura, de manera que cada uno de los
+    A. 19
+                                                                     números 1, 2, 3, 4 aparezca en cada fila y columna del
+    B. 27
+                                                                     tablero. El número de maneras en que esto se puede
+    C. 56
+                                                                     hacer es:
+    D. 65
+17. Si en la gráfica todos todos los ángulos de la gráfica son
+                                                                     A.   1
+    rectos, el volumen de la figura es:
+                                                                     B.   2
+                                                                                              1   2       3        4
+                                                                     C.   4                   2           1        13
+                        2                                            D.   8
+                                                                                              3                   22
+                            2
+                                                                                              4 3         2       31
+                2
+                    1           1
+                                    8                                                                     4
+                                                                 23. Si el área de la figura es 84 cm 2, entonces el valor de x
+    A.   60
+                                                                     en cm es:
+    B.   64
+    C.   96                                                                               x                   x
+                                                                     A.   6
+    D.   120
+                                                                     B.   7
+                                                                     C.   12                          6
+Preguntas 18 y 19.
+                                                                     D.   14
+A partir de los números 2 y 9 se establece la secuencia:
+2 , 9 , 6 , 7 , 18 , 5 , 54 , X , Y
+                                                                                                              x             x
+
+18. El número que ocupa el espacio marcado con X en la
+                                                                 24. Si el 15% de un número n es igual al 35% de 3000,
+    secuencia es:
+                                                                     entonces el valor de n es:
+    A.   15.
+                                                                     A.   6250
+    B.   13.
+                                                                     B.   7000
+    C.   3.
+                                                                     C.   8500
+    D.   2.
+                                                                     D.   8700
+19. El número que ocupa la posición marcada con Y en la
+                                                                 Preguntas 25 y 26.
+    secuencia es:
+
+                                                                     Se tienen 15 pesos en billetes de un peso.
+    A.   98.
+                                                                 25. El número mínimo de paquetes en los que se pueden
+    B.   120.
+                                                                     empacar estos 15 pesos, rotulando cada paquete con la
+    C.   135.
+                                                                     cantidad contenida, de modo que se pueda entregar
+    D.   162.
+                                                                     cualquier cantidad pedida entre 1 y 15 pesos sin abrir
+                                                                     ningún paquete es:
+20. El total de números de dos cifras que tienen a 3 o a 7
+    entre sus dígitos es:
+                                                                     A.   3
+                                                                     B.   4
+    A.   18.
+                                                                     C.   5
+                                                                                                                                5
+    D.    6                                                      dirección quedando la “cola” de la flecha ubicada en el
+                                                                 vértice inmediato.
+26. El paquete con el mayor número de billetes contiene:         La rutina se repite de manera idéntica al pulsarse de nuevo
+                                                                 el botón.
+    A.    6 billetes
+    B.    8 billetes                                             29. Si se oprime el botón cuatro veces, permitiendo que
+    C.    10 billetes                                                cada vez se repita la rutina completa, entonces la flecha
+    D.    12 billetes                                                quedará orientada respecto de su cola en dirección:
+
+                                                                     A.       Nor-este
+27. La razón entre el área sombreada y el área total de la
+                                                                     B.       Este
+    figura es:
+                                                                     C.       Sur-este
+                                                                     D.       Sur
+    A.    1/4
+                                                                 30. Partiendo de la posicion inicial de la flecha, la gráfica
+    B.    1/3
+                                                                     que representa la posición final de la “cola” de la flecha
+    C.    3/8
+                                                                     después de seis rutinas completas es: (P representa al
+    D.    2/5
+                                                                     punto final del movimiento).
+
+                                                                               A             B            C               D
+
+                                                                          P
+                                                                                                                         P
+28. Dado el cubo que se muestra en
+    figura, el croquis que puede ser                                                             P
+    doblado para obtener el cubo de la                                                                     P
+    figura es:
+                                                                     A.       A
+                                                                     B.       B
+                                                                     C.       C
+                                                                     D.       D
+         #               *                *     #
+         *               #                #     *                Preguntas del 31 al 33.
+
+                                                                                                     Cara
+                                                                       1           2     3   4   5
+                                                                                                     principal
+         A.             B.            C.      D.
+    A.     A                                                         Se tienen 5 tarjetas idénticas marcadas por su cara
+    B.     B                                                         principal con los números del 1 al 5 como se indica en la
+    C.     C                                                         figura. El reverso de cada tarjeta tambien está marcado
+    D.     D                                                         con los números del 1 al 5, con las siguientes
+                                                                     condiciones:
+Preguntas 29 y 30.                                                 -    Si el número marcado en la cara principal es par,
+                                                                        entonces, su reverso es un número impar.
+                                                                   -    Ninguna tarjeta está marcada con el mismo número
+Un juego de computador muy elemental consta de una                      por la cara principal y el reverso.
+única operación. Se tiene una flecha brillante sobre un plano    31. Si con las 5 tarjetas señalando la cara principal, se voltea
+cuadriculado como se muestra en la figura:                           la tarjeta con el número 1 y suCredencial «credencial_2»
+                                                                                                        reverso tiene el número
+                                                                     5, entonces, el número mínimo de tarjetas que deben
+                    N(norte)
+                                                                     voltearse para poder saber exactamente que tarjeta
+                                                                     tiene en su reverso el número 3 es:
+   (oeste) W       o           E (este)
+                                                                     A.       Cuatro
+                                                                     B.       Tres
+                   S (sur)                                           C.       Dos
+                                                                     D.       Una
+La flecha inicialmente está ubicada en el centro (o) del plano
+y apunta hacia el norte (N). El juego consiste en que cuando     32. En las mismas condiciones iniciales. El número mínimo
+el usuario oprime el botón “enter”, la flecha gira 45° (en el        de tarjetas que deben voltearse, para garantizar la
+sentido de las manecillas del reloj), luego se desplaza en esa
+
+                                                                                                                               6
+      ubicación de un número par en el reverso de una tarjeta        De acuerdo con la regla anterior, de las afirmaciones
+      es:                                                            siguientes, la única de la cual no se tiene certeza es:
+
+      A.   Ninguna                                                  A.   Nunca está la lámpara roja encendida sola
+      B.   Una                                                      B.   Si la lámpara roja está apagada, entonces la verde
+      C.   Dos                                                           también está apagada
+      D.   Tres                                                     C.   Para     poder encender        la lámpara roja, es
+                                                                         obligatorio que la verde esté encendida
+33. En las mismas condiciones iniciales. Se han volteado            D.   Si la lámpara verde está apagada, entonces la roja
+    tres tarjetas y los números que aparecen al reverso son              también está apagada
+    3, 5 y 1. Entonces de las afirmaciones siguientes la única
+    que no es posible acerca de los números que señalan en
+    su cara principal las tarjetas que faltan por voltear es:    Preguntas del 38 al 40.
+
+      A.   3y5                                                   Millones de votos 5.0--
+      B.   1y3                                                                   4.5--
+      C.   2y4                                                                   4.0--
+                                                                                 3.5--
+      D.   1y5
+                                                                                 3.0--
+                                                                                 2.5--
+34. Cuando a un estanque le falta llenar el 30% de su                            2.0--
+    capacidad contiene 10800 litros de agua más que                              1.5--
+    cuando estaba lleno al 30% de su capacidad.                                  1.0--                       Candidatos
+    La capacidad total del estanque, en litros es:
+                                                                                           A   B   C    D    E
+
+      A.   27000
+      B.   32400                                                 La gráfica muestra los resultados obtenidos por los
+      C.   36000                                                 candidatos A, B, C, D, y E en la primera vuelta de las
+      D.   43200                                                 elecciones presidenciales sobre un total de 15´000.000 de
+                                                                 votos.
+35. En 24 litros de solución de agua y alcohol, la proporción
+    entre los volúmenes de alcohol y agua es:
+    Volumen alcohol        3
+    Volumen de agua       5
+
+Entonces el volumen de alcohol en litros de solución es:
+
+      A.   6
+      B.   7                                                     38. De las afirmaciones siguientes la única verdadera es:
+      C.   8
+      D.   9                                                        A.   El candidato A obtuvo el 45% de la votación total.
+                                                                    B.   Entre los candidatos A y B obtuvieron más del 50%
+36.      22M                                                             de la votación total.
+       x F9                                                         C.   La diferencia entre el número de votos de A y el de B
+       13.511                                                            es el 30% de la votación total.
+                                                                    D.   Entre los candidatos B y D obtuvieron el 20% de la
+En la multiplicación señalada, M y F representan dígitos.                votación total.
+Entonces los valores de M y F son respectivamente:
+                                                                 39. En la segunda vuelta de las elecciones sólo
+      A.   8y5                                                       participan los 2 candidatos que obtuvieron el mayor
+      B.   9y7                                                       número de votos en la primera vuelta, y los restantes
+      C.   3y6                                                       candidatos apoyan a uno cualquiera de los dos,
+      D.   9y5                                                       manteniendo exactamente el número de electores
+                                                                     respectivos de la primera vuelta, sobre el mismo
+37. Un aparato está compuesto por dos lámparas, una                  número total de 15´000.000 de votos. Gana el candidato
+    verde y una roja, tal que pueden estar las dos apagadas,         que obtenga el mayor número de votos.
+    las dos prendidas o una prendida y la otra apagada.
+    Se establece la siguiente regla: “Si la lámpara roja está    De las siguientes alianzas, la única que permite el triunfo
+    encendida, entonces la verde también”.                       del     candidato E es:
+
+                                                                                                                             7
+                                                               A.   (A + D + C) contra (E + B).
+   A.   (A + B + D) contra (E + C).                            B.   (A + D + B) contra (E + C).
+   B.   (A + C + D) contra (E + B).                            C.   (A + B) contra (E + C + D).
+   C.   (A + C) contra (E + B + D).                            D.   (A + C) contra (E + B + D).
+   D.   (A + D) contra (E + B + C).
+
+40. De las siguientes alianzas, la única que no permite el
+    triunfo de alguno de los dos candidatos mayoritarios es:
+
+
+                                                                                                  8
+                                                         Competencia Lectora
+
+Preguntas del 41 al 51
+                                                                        A.   Defiende la desaparición del estado y del poder
+                           Texto 1                                      B.   Trabaja de obrero
+Hacía pocos años que había terminado la guerra de España                C.   Apoya la máxima autoridad del Estado elegida por los
+y la cruz y la espada reinaban sobre las ruinas de la                        ciudadanos
+República. Uno de los vencidos, un obrero anarquista, recién            D.   Fue vencida en la guerra y está desocupada
+salido de la cárcel buscaba trabajo. En vano revolvía cielo y
+tierra. No había trabajo para un rojo. Todos le ponían mala         46. La expresión “en vano revolvía cielo y tierra”
+                                                                                                       Credencial       quiere decir
+                                                                                                                  «credencial_2»
+cara, se encogían de hombros o le daban la espalda. Con                 que el hombre:
+nadie se entendía, nadie lo escuchaba. El vino era el único
+amigo que le quedaba. Por las noches, ante los platos vacíos,           A.   Rasguñaba el cielo y escarbaba la tierra de
+                                                                             desesperación
+soportaba sin decir nada los reproches de su esposa beata,
+                                                                        B.   No encontraba nada, porque no había trabajo para
+mujer de misa diaria, mientras el hijo, un niño pequeño, le                  albañiles
+recitaba el catecismo.                                                  C.   Buscaba trabajo por todas partes y no lo encontraba
+Mucho tiempo después, Josep Verdura, el hijo de aquel                   D.   Le gustaba más el color rojo que trabajar
+obrero maldito, me lo contó. Me lo contó en Barcelona,
+cuando yo llegué al exilio. Me lo contó: él era un niño             47. A partir del texto se puede inferir que, en la guerra, el
+desesperado que quería salvar a su padre de la condenación              vencido:
+eterna y el muy ateo, el muy tozudo, no entendía razones.
+-Pero papá -le dijo Josep, llorando-. Si Dios no existe, ¿quién         A.   Es una vez vencido
+                                                                        B.   Es doblemente vencido
+hizo el mundo?
+                                                                        C.   Se aprovecha del vencedor
+-Tonto –dijo el obrero, cabizbajo, casi en secreto-. Tonto. Al          D.   Se niega a trabajar
+mundo lo hicimos nosotros, los albañiles.
+                                                                    48. Nadie escuchaba al hombre porque:
+
+41. Del texto se puede decir que los:                                   A. Era del partido opuesto al de los vencedores
+                                                                        B. Era un bebedor de vino empedernido
+    A.   Rojos eran conservadores y los vencedores liberales            C. Tenía mal aliento de tanto beber vino
+    B.   Vencedores eran conservadores y los rojos                      D. Era del mismo partido de los vencedores pero le
+         anarquistas                                                       gustaba el color rojo
+    C.   Rojos eran los vencedores y los vencidos no tenían
+         color                                                      49. Según el texto, la mujer del hombre era:
+    D.   Vencedores eran anarquistas y los vencidos rojos
+                                                                        A.   Amargada y frecuentaba mucho los templos
+                                                                        B.   Una santa de la iglesia
+42. De acuerdo con lo dicho en el texto, la historia se conoce
+                                                                        C.   De mal temperamento
+    por:                                                                D.   Muy devota y frecuentaba mucho los templos
+
+    A.   El mismo obrero                                            50. Un título adecuado para el anterior relato, sería:
+    B.   La madre del hijo del obrero
+    C.   El hijo de la esposa del obrero
+    D.   El hombre al que Josep Verdura le refirió la historia          A.   El origen de los albañiles
+                                                                        B.   El origen del mundo
+                                                                        C.   El final de los albañiles
+43. Lo que le responde el hombre al hijo lo dice cabizbajo y            D.   El mundo y sus demonios
+    casi en secreto porque:
+                                                                    51. Según el texto, la familia estaba conformada por un:
+    A.   No quería que la esposa oyera
+    B.   No le gusta hablar mal de Dios
+                                                                        A.   Anarquista que desobedecía la norma eclesiástica, y
+    C.   Los vencedores son más, y lo pueden meter a la cárcel
+                                                                             conservadores que la acataban
+    D.   No quería herir los sentimientos de su hijo
+                                                                        B.   Anarquista que obedecía la norma eclesiástica, y
+                                                                             conservadores que la desacataban
+44. El obrero estaba en la cárcel, porque era:                          C.   Hombre ateo, una mujer católica y un hijo evangélico
+                                                                        D.   Hombre supersticioso, una mujer evangélica y un hijo
+    A.   Republicano pero le gustaba el color rojo                           católico
+    B.   Un republicano desocupado
+    C.   Anarquista y uno de los vencidos de la guerra
+    D.   Anarquista y le gustaba el color rojo                      Preguntas del 52 al 62
+
+45. Del texto se puede inferir que un anarquista es una                                         Texto 2
+    persona que:
+
+                                                                                                                                  9
+Tenían las manos atadas, o esposadas, y sin embargo los               A.   Pinio Ungerfeld
+dedos danzaban, volaban, dibujaban palabras. Los presos               B.   Fernández Huidobro y Mauricio Rosencof
+                                                                      C.   Un narrador a quien le fue referida la historia
+estaban encapuchados; pero inclinándose alcanzaban a ver
+                                                                      D.   El dictador uruguayo
+algo, alguito, por abajo. Aunque hablar estaba prohibido,
+ellos conversaban con las manos.
+                                                                  57. La expresión “tenían las manos atadas, o esposadas”
+Pinio Ungerfeld me enseñó el alfabeto de los dedos, que en
+                                                                      quiere decir que los presos:
+prisión aprendió sin profesor:
+-Algunos teníamos mala letra -me dijo-. Otros eran más artistas       A.   Estaban encapuchados
+de la caligrafía.                                                     B.   Tenían las manos atadas y esposadas al mismo
+La dictadura uruguaya quería que cada uno fuera nada más                   tiempo
+                                                                      C.   Tenían las manos atadas, unos; otros, las tenían
+que uno, que cada uno fuera nadie: en cárceles y cuarteles, y              esposadas
+en todo el país, la comunicación era delito.                          D.   Tenían las manos sujetas, unos; otros, las tenían libres
+Algunos presos pasaron más de diez años enterrados en
+solitarios calabozos del tamaño de un ataúd, sin escuchar         58. El hecho de que estuvieran sujetos y encapuchados:
+más voces que el estrépito de las rejas o los pasos de las
+botas por los corredores. Fernández Huidobro y Mauricio               A.   Impedía que se comunicaran entre sí
+                                                                      B.   Los hacía presos de la dictadura uruguaya
+Rosencof, condenados a esa soledad, se salvaron porque
+                                                                      C.   Los hacía culpables de su desacuerdo con la dictadura
+pudieron hablarse, con golpecitos, a través de la pared. Así               uruguaya
+se contaban sueños y recuerdos, amores y desamores;                   D.   No impedía que se comunicaran entre sí
+discutían, se abrazaban, se pelaban; compartían certezas y
+bellezas y también compartían dudas y culpas y preguntas          59. Pinio Ungerfeld:
+de esas que no tienen respuesta.
+                                                                      A.   No estuvo en la cárcel, pero por él se sabe la historia
+Cuando es verdadera, cuando nace la necesidad de decir, a
+                                                                      B.   Trabaja de obrero
+la voz humana no hay quien la pare. Si le niegan la boca, ella        C.   Es quien cuenta la historia
+habla por las manos, o por los ojos, o por los poros, o por           D.   Estuvo en la cárcel, y por él se sabe parte de la historia
+donde sea. Porque todos, toditos, tenemos algo qué decir a
+los demás, alguna cosa que merece ser por los demás               60. Fernández Huidobro y Mauricio Rosencof se salvaron
+celebrada o perdonada.                                                de:
+
+52. Ser “nada más que uno”, y que “cada uno” sea “nadie”,             A.   La dictadura
+    equivale, en el texto, a:                                         B.   La soledad
+                                                                      C.   Comunicarse
+    A.   Rechazar lo singular y lo neutro                             D.   El encierro
+    B.   Comunicarse entre sí, y ser todos iguales
+    C.   Acoger la diferenciación y la individualidad             61. De acuerdo con el relato, el ser humano se comunica:
+    D.   No comunicarse con nadie
+                                                                      A.   Porque no hay quien lo calle
+53. Del texto se desprende que la comunicación era un                 B.   Por la urgencia de celebrar todo cuanto le acontece
+    delito, en el Uruguay de esa época, porque:                       C.   Porque está hecho de palabras
+                                                                      D.   Por la necesidad de decir
+    A.   Hace posible la controversia
+    B.   Permite que las personas sean uno y nadie                62. La comunicación es el acontecimiento que permite:
+    C.   Le quita la voz a unos, y se la da a otros
+    D.   Otorga privilegios a unos y fracasos a otros
+                                                                      A.   La dictadura
+                                                                      B.   El desencuentro y la distancia con el otro
+54. En el texto se hace referencia a la comunicación, como:           C.   El encuentro y el contacto con el otro
+                                                                      D.   El encierro
+    A.   La necesidad de expresar de la voz humana
+    B.   El habla de los golpes, de las manos, de los ojos, de
+         los poros, de la pared
+    C.   La conversación de las manos
+    D.   El habla de la voz y de las manos                        Preguntas del 63 al 65: textos 1 y 2
+
+55. Un título adecuado para el anterior relato, sería:            63. Partiendo de la idea común a los dos textos, se podría
+                                                                      afirmar que:
+    A.   El origen del mundo
+    B.   Celebración de la voz humana                                 A.   La guerra siempre deja ganadores y derrotados
+    C.   Los presos                                                   B.   Los hombres siempre buscan la manera                   de
+    D.   La dictadura uruguaya                                             comunicarse
+                                                                      C.   Los hombres difícilmente aceptan la diferencia
+56. De acuerdo con el texto, la historia se conoce por:               D.   En todas partes hay desigualdades
+
+                                                                                                                                  10
+64. El texto 1 y el texto 2 se refieren, respectivamente, a los       Entre todas las intuiciones de Heráclito, ninguna tan famosa
+    siguientes subtemas, menos:                                       como la del fluir perpetuo de las cosas, expresada en ese río
+                                                                      “cuyas aguas fluyen siempre distintas para los que se bañan
+    A.   Los reproches de una mujer beata y la necesidad de           en ellas” (frg. 12). La metáfora del río apunta hacia el
+         comunicarse                                                  discurrir incesante del mundo al que “no hizo ningún dios, ni
+    B.   La guerra de España y la dictadura de Uruguay
+                                                                      ningún hombre, sino que es, fue y será siempre fuego
+    C.   La religión católica y la vida de Pinio Ungerfeld
+    D.   Las diferencias de fe y las discrepancias políticas          eterno que se enciende y se extingue según un determinado
+                                                                      ritmo” (frg. 30). A los ojos de Heráclito no podía tampoco
+65. Una verdad indiscutida, que se aplica a los textos, es:           escapar la visión continua de las conquistas saqueos y
+                                                                      destrucciones que sufrieron, sin cesar, los griegos de
+    A.   El respeto por las ideas de los otros es la primera          aquellos siglos. Una imagen absolutamente falsa de Grecia
+         condición para poder convivir                                nos ha hecho olvidar que este pueblo se desarrolló entre
+    B.   La cuerda que amarra el respeto de unos por otros es         violencias, muertes y caprichos de crueles tiranos. Su
+         la necesidad de comunicarse                                  prodigiosa historia es un caminar incesante hacia la luz,
+    C.   El obrero tiene más necesidad de respeto que de pan
+                                                                      hacia la coherencia, pero a través de un prolongado
+    D.   La libertad es como la fortuna, perjudicial a unos, útil a
+         otros                                                        combate. Por ello, Heráclito dejó plasmada esta continua
+                                                                      vivencia griega en el más impresionante y melancólico de
+Preguntas del 66 al 80                                                sus fragmentos: “La guerra es el padre de todas las cosas, el
+                                                                      rey de todo; a unos los deja aparecer como dioses, a otros
+La ciudad de Éfeso, situada algo al norte de Mileto, en la            como hombres, a unos los hace esclavos, a otros libres” (fgr.
+misma costa de Asia Menor, es la patria de Heráclito, la              53).
+personalidad más interesante de los presocráticos. Su
+nacimiento tuvo lugar hacia el año 544 a. C. Sabemos que              66. La prosa de Heráclito procede:
+pertenecía a una familia importante, aunque no parece
+haber aceptado los principios de la aristocracia que le                   A.   De la imaginación y la reflexión filosófica
+circundaba. Sabemos también que escribió en prosa un libro                B.   Del discurrir y el devenir reflexivo de la vida
+                                                                          C.   De la experiencia y de las realidades más inmediatas
+que, según Diógenes Laercio, llevaba el tan usual título de
+                                                                               de la vida de los griegos
+Sobre la naturaleza. De este Libro nos quedan 126 breves                  D. De la especulación y la reflexión filosófica de la vida
+fragmentos recogidos en la edición de Diels. Poco más de un           67. El texto dice que la mirada de Heráclito:
+par de páginas, pero lo suficientemente intensas y brillantes                                              Credencial «credencial_2»
+como para ocupar un lugar privilegiado en la larga historia               A.   Estaba puesta en las especulaciones y abstracciones
+de la filosofía europea. El lenguaje en el que se expresa la              B.   Estaba en la experiencia y en las realidades más
+intuición fundamental del cambio, del proceso incesante de                     próximas de la vida de los griegos
+las cosas, de la tensión, la lucha y síntesis de todas las                C.   Expresaba la intuición de la filosofía presocrática
+                                                                          D.   Indicaba un vigor y una originalidad filosófica
+contradicciones, es de un vigor y de una originalidad                          inconfundible
+inconfundibles. A diferencia de los milesios, no sabemos de
+Heráclito que ayudase a vadear ríos, o que dibujase mapas
+                                                                      68. Entre las intuiciones de Heráclito, la más célebre es:
+para sus conciudadanos navegantes. Pero su mirada, como
+la de Tales y Anaximandro, estuvo también clavada en la
+                                                                          A.   Su experiencia inmediata de la vida
+vida. A pesar del aire misterioso del término logos que                   B.   El lenguaje sobre el peculiar y profundo relativismo de
+encontramos en el primer fragmento, nada hay en su prosa                       las cosas
+que no proceda de la experiencia inmediata de la vida, de las             C.   La del fluir perpetuo de las cosas
+realidades más próximas a los ojos de los griegos. La guerra,             D.   La perspectiva de un todo único y homogéneo
+el agua, el sueño, la libertad, la luz, la justicia, el fuego, la
+juventud, el camino, la muerte, el pueblo, el hambre, la              69. La frase que mejor expresa la filosofía del devenir de
+enfermedad, se aproximan a nosotros, en su ropaje más                     Heráclito es:
+directo, en continua tensión y oposición. La mirada sobre el
+mundo más próximo y sobre el lenguaje en el que aquél se                  A.   El camino que sube es el mismo que baja
+descubre, le lleva a un peculiar y profundo relativismo: “El              B.   Es lo mismo la vida que la muerte
+                                                                          C.   La realidad es única y homogénea
+mar es el agua más pura y más podrida; es potable y
+                                                                          D.   El río, cuyas aguas fluyen siempre distintas para los
+saludable para los peces; en cambio, para los hombres es                       que se bañan en ellas, es eterno
+impotable y perniciosa” (frg. 61). “Es lo mismo la vida que la
+muerte, velar que dormir, la juventud que la vejez”, nos dice
+                                                                      70. Éfeso estaba situada al:
+en el fragmento 88. Dado que “el camino que sube y que
+baja es el mismo” (frg. 60), la realidad no presenta un                   A.   Sur de Mileto en la costa de Asia Menor
+perspectiva única y homogénea, sino que es más bien el                    B.   Norte de Mileto en la costa de Asia Menor
+resultado de una “una armonía tensa, como la del arco y la                C.   Este de Mileto en la costa de África
+lira” (frg. 51).                                                          D.   Occidente de Mileto en la costa de Asia.
+
+                                                                                                                                       11
+71. En las pocas páginas recogidas de su libro ya se insinúa
+    su:
+
+    A.   Poca aceptación a los principios de la aristocracia
+    B.   Interesante personalidad como filósofo
+    C.   Intenso y brillante pensamiento filosófico sobre el
+         devenir
+    D.   Tensión y su lucha por todas las contradicciones
+
+72. La realidad para Heráclito es:
+
+    A.   La lucha de los iguales por la experiencia inmediata de
+         las cosas
+    B.   La perspectiva única y homogénea de la vida.
+    C.   El fluir constante del mundo y de la vida en todo
+         momento
+    D.   El hombre, el mundo y el fuego eterno que se enciende
+         siempre al mismo ritmo
+
+73. Para Heráclito la guerra es:
+
+    A.   Un mal necesario
+    B.   El mayor de todos los males
+    C.   Lo mejor que le sucede a un país
+    D.   Un prolongado combate que caracteriza a los hombres
+
+74. Heráclito como:
+
+    A.   Los milesios, ayudó a cruzar ríos
+    B.   Tales y Anaximandro, dibujó mapas para navegantes
+    C.   Los griegos, construyó su experiencia de vida a partir
+         de las realidades más cercanas
+    D.   Los presocráticos, tuvo una personalidad interesante
+
+75. Heráclito es el filósofo más interesante de todos los
+    anteriores a:
+
+    A.   Aristóteles
+    B.   Platón
+    C.   Sócrates
+    D.   Tales
+                                                                   78. El término aquél significa en el texto:
+76. El tema del texto es:
+                                                                       A.   Lenguaje
+    A.   La vida de Heráclito                                          B.   Mundo más próximo
+    B.   La filosofía de Heráclito                                     C.   Relativismo filosófico
+    C.   Heráclito el gran filósofo                                    D.   Ropaje más directo
+    D.   El pensamiento filosófico de Heráclito
+                                                                   79. El aire misterioso del término “logos” que hay en el
+77. El término fluir significa en el texto:                            primero de los fragmentos de Heráclito, lo es porque,
+                                                                       según el texto:
+    A.   Discurrir
+    B.   Especular
+                                                                       A.   Está dicho en su ropaje más directo
+    C.   Cruzar
+                                                                       B.   Está en continua tensión y oposición
+    D.   Pasar
+                                                                       C.   Es mediato
+                                                                       D.   Procede de la experiencia inmediata
+
+                                                                   80. Según el autor del texto, Heráclito:
+
+                                                                       A.   Ocupa un lugar menor dentro de la filosofía europea
+                                                                       B.   Es uno de los filósofos más importantes de Europa
+                                                                       C.   Es de un vigor y de una originalidad inconfundibles
+                                                                                                                                  12
+D.   A pesar de su aire original, nos presenta una imagen
+     falseada de Grecia
+
+
+                                                            13

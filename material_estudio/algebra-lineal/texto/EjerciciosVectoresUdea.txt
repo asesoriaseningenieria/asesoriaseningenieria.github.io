@@ -1,0 +1,354 @@
+Ejercicios del capítulo 1 (módulo 7)
+
+
+En los ejercicios siguientes, todas las bases son bases ordenadas.
+
+En los ejercicios 1 a 7 calcule el vector coordenado de v respecto a la base B dada para el espacio vectorial V.
+
+
+                           ⎧⎪⎛ 1 ⎞ ⎛ 0 ⎞ ⎫⎪          ⎛ 3⎞
+1.     V es    2
+                   ,   B = ⎨⎜ ⎟ , ⎜ ⎟ ⎬ ,        v = ⎜ ⎟.
+                            ⎪⎩⎝ 0 ⎠ ⎝ 1 ⎠ ⎪⎭         ⎝1⎠
+
+                           ⎧⎛ 1 ⎞ ⎛ 0 ⎞ ⎛ 0 ⎞ ⎫             ⎛4⎞
+                           ⎪⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎪                   ⎜ ⎟
+       V es    3
+                   ,   B = ⎨⎜ 0 ⎟ , ⎜ 1 ⎟ , ⎜ 0 ⎟ ⎬ ,   v = ⎜ −1⎟ .
+2.
+                           ⎪⎜ 0 ⎟ ⎜ 0 ⎟ ⎜ 1 ⎟ ⎪             ⎜0⎟
+                           ⎩⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎭                   ⎝ ⎠
+
+                           ⎧⎛ 1 ⎞ ⎛ 0 ⎞ ⎛ 1 ⎞ ⎫           ⎛2⎞
+                           ⎪⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎪                 ⎜ ⎟
+       V es    3
+                   ,   B = ⎨⎜ −1⎟ , ⎜ 1 ⎟ , ⎜ 0 ⎟ ⎬ , v = ⎜ 3 ⎟ .
+3.
+                           ⎪⎜ 0 ⎟ ⎜ 0 ⎟ ⎜ 2 ⎟ ⎪           ⎜ −1⎟
+                           ⎩⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎭                 ⎝ ⎠
+
+4.     V es P1 ,       B = {1 + x, − 1 + 2 x} ,         v = 3 + 4 x.
+
+5.     V es P2 ,       B = {1, x − 1, x 2 − 1} ,        v = 1 + 2x − x2 .
+
+6.     V es P2 ,       B = {1 − x + x 2 ,1 + x,1 + x 2 } ,      v = 3 − 2x + 4x2 .
+
+                              ⎧⎪ ⎡1 0 ⎤ ⎡1 1 ⎤ ⎡1 1 ⎤ ⎡1 1⎤ ⎫⎪                  ⎡ 2 0⎤
+7.     V es M 22 ,       B = ⎨⎢       ⎥, ⎢    ⎥, ⎢  ⎥, ⎢  ⎥⎬                  v=⎢     ⎥.
+                             ⎪⎩ ⎣ 0 0 ⎦ ⎣ 0 0 ⎦ ⎣1 0⎦ ⎣1 1⎦ ⎭⎪                  ⎣ −1 3⎦
+
+En los ejercicios 8 a 10, sean:
+
+              ⎪⎧⎛ 1 ⎞ ⎛ −2 ⎞ ⎫⎪  ⎪⎧⎛ 1 ⎞ ⎛ 1 ⎞ ⎪⎫             ⎧⎪⎛ −2 ⎞ ⎛ 1 ⎞ ⎫⎪   ⎪⎧⎛ 3 ⎞ ⎛ −1 ⎞ ⎪⎫
+        B1 = ⎨⎜ ⎟ , ⎜ ⎟ ⎬ , B2 = ⎨⎜ −1 2 ⎟ , ⎜ 1 2 ⎟ ⎬ , B3 = ⎨⎜ ⎟ , ⎜ ⎟ ⎬ , B4 = ⎨⎜ 2 ⎟ , ⎜ 2 ⎟ ⎬
+             ⎪⎩⎝ 3 ⎠ ⎝ 1 ⎠ ⎪⎭     ⎪⎩⎝ 2 ⎠ ⎝ 2 ⎠ ⎪⎭             ⎪⎩⎝ 1 ⎠ ⎝ 3 ⎠ ⎪⎭    ⎪⎩⎝ 1 2 ⎠ ⎝ 2 ⎠ ⎪⎭
+                                                                                               3
+
+
+              2
+bases para        .
+
+8.     Halle las matrices de transición:
+
+       a.      de B1 y B2 .
+       b.      de B2 y B3 .
+       c.      de B1 y B3 .
+
+       Multiplique las matrices de a y b en ambas formas. ¿Está alguno de estos productos relacionado con la matriz de c?
+               ⎛1⎞
+9.     Sea x = ⎜ ⎟ . Exprese ( x ) B1 . Usando las matrices del ejercicio 8, calcule ( x) B2 , ( x) B3 .
+               ⎝1⎠
+10.    Calcule las matrices de transición de B2 a B4 y de B4 a B2 .
+
+
+                                                                                                   Álgebra lineal elemental y aplicaciones 99
+En los ejercicios 11 a 13 calcule el vector v si el vector de coordenadas [ v ]B está dado respecto a la base B de V.
+
+
+                           ⎧⎪⎛ 2 ⎞ ⎛ −1⎞ ⎫⎪                 ⎛1⎞
+11.    V es    2
+                   ,   B = ⎨⎜ ⎟ , ⎜ ⎟ ⎬ ,          ( v) B = ⎜ ⎟ .
+                            ⎪⎩⎝ 1 ⎠ ⎝ 1 ⎠ ⎪⎭                ⎝ 2⎠
+
+                                                                    ⎡ −1⎤
+12.    V es P2 ,       B = {1 − x, 1, 1 + x + x } ,2
+                                                          ( v) B = ⎢⎢ 1 ⎥⎥ .
+                                                                    ⎢⎣ 2 ⎥⎦
+
+                                                                                                              ⎡2⎤
+                                                                                                              ⎢1⎥
+13.    V es P3 ,       B = {−1 + x 2 , 2 + 2 x + x 3 , 1 + 2 x − x 2 + 3 x 3 , 2 x 2 + 3 x 3 } ,      ( v)B = ⎢ ⎥ .
+                                                                                                              ⎢ −1⎥
+                                                                                                              ⎢ ⎥
+                                                                                                              ⎣3⎦
+
+14.    Sean B1 = {(1, 3), (−1, 2) } , B2 = {(0, 1), (−2, 3) } bases para                   2
+                                                                                               , y sean v = (3, 4), w = (−4, 5) .
+
+
+       a.      Determine los vectores de coordenadas de v y w respecto a la base B2 .
+       b.      Determine la matriz de transición PB1 ← B2 de la base B2 en la base B1 .
+
+       c.      Determine los vectores de coordenadas de v y w respecto a B1 utilizando PB1 ←B2 .
+       d.      Determine los vectores de coordenadas de v y w respecto a B1 de manera directa.
+       e.      Determine la matriz de transición PB2 ← B1 de la base B1 en la base B2 .
+
+       f.      Determine los vectores de coordenadas de v y w respecto a B2 utilizando PB2 ←B1 . Compare las respuestas
+               con las del literal a.
+
+
+       Sean B1 = {1 + x , − 2 + x, 3 + x} y                   B2 = { x + 2 x 2 , 3 + x 2 , x} b a s e s p a r a P2. S e a n     v = 6 − 4 x + 8x2 y
+                       2
+15.
+
+       w = 9 − x + 7 x 2 . Responda los literales del ejercicio 14.
+
+
+16.    Sean B1 = { v1 , v2 } y B2 = {w1 , w 2 } bases para P1 , donde w1 = x , w2 = 1 + x . Si la matriz de transición de B1 a B2 es
+
+       ⎡ 2 3⎤
+       ⎢ −1 2 ⎥ , determine B1 .
+       ⎣      ⎦
+
+
+17.    Sean B1 = {v1 , v2 , v3 } y B2 = {w1 , w 2 , w3 } bases para              3
+                                                                                     , donde v1 = (1, 0, 1), v 2 = (1, 1, 0), v 3 = (0, 0, 1). Si la
+
+                                            ⎡ 1 1 2⎤
+       matriz de transición de B2 en B1 es ⎢⎢ 2 1 1 ⎥⎥ , determine B2 .
+                                            ⎢⎣ −1 −1 1 ⎥⎦
+
+
+100
+       Sean B1 = { v1 , v2 } y B2 = {w1 , w 2 } bases para                   , donde v1 = (1, 2), v 2 = (0, 1). Si la matriz de transición de B2 en
+                                                                         2
+18.
+
+             ⎡ 2 1⎤
+       B1 es ⎢ 1 1⎥ , determine B2 .
+             ⎣    ⎦
+19.    Suponga que los ejes x y y en el plano se rotan un ángulo θ en sentido antihorario generando nuevos ejes x′, y′.
+
+       a.      Determine las coordenadas x, y de los vectores i y j rotados.
+                                                                              ⎡ cos θ                             sen θ ⎤
+       b.      Demuestre que la matriz de cambio de coordenadas está dada por ⎢ − sen θ                           cos θ ⎥⎦
+                                                                                                                           .
+                                                                              ⎣
+
+En los ejercicios 20 a 24 determine si el conjunto de vectores dado es LI o LD.
+
+20.    En P2 : 3 + 2 x, 1 − x + x 2 , 2 x − x 2 .
+21.    En P2 : −2 + 2 x, 2 x + x + 12 x 2 , x + 4 x 2 .
+
+                 ⎡ 2 3 ⎤ ⎡ 0 7 ⎤ ⎡ 1 0 ⎤ ⎡ 1 1⎤
+22.    En M 22 : ⎢     ⎥, ⎢    ⎥, ⎢    ⎥, ⎢   ⎥.
+                 ⎣ 4 −1⎦ ⎣9 6⎦ ⎣ 4 −2⎦ ⎣0 3⎦
+23.    En Pn : { p1 , p2 ,..., pn +1 : pi (0) = 0, i = 1,..., n + 1} .
+
+24.    En M mn : { A1 , A2 ,..., Amn : la primera componente de cada matriz es cero}.
+
+
+                                                                                                              Álgebra lineal elemental y aplicaciones 101
+Ejercicios del capítulo 2 (módulo 8)
+
+                                                                             3
+1.     Verifique que las siguientes son bases ortogonales para                   . Obtenga bases ortonormales a partir de ellas.
+
+       a.      {(0, 0, 1), (−1, 1, 0), (1, 1, 0)} .
+       b.      {(0, 1, −1), (1, − 1 2, − 1 2), (1, 1, 1)} .
+
+2.     Utilice el proceso de Gram-Schmidt para transformar la base de un subespacio de             3
+                                                                                                       , dada por {(1, 1, −1), (0, 1, − 1)} , en
+       una base ortonormal.
+
+3.     Igual que en el ejercicio 2, con la base {(1, −1, 0), (2, 0, 1)} .
+
+                                                                                                                                     4
+4.     Utilice el proceso de Gram-Schmidt para determinar una base ortonormal para el subespacio de                                      con base
+       {(1, −1, 0, 1), (0, 0, 1, 0), (2, 0, 0, − 1)} .
+
+               ⎧⎛ 1   1    1 ⎞ ⎛ 1      2     1 ⎞ ⎛ 1         1 ⎞⎫
+5.     Sea S = ⎨⎜   ,    ,   ⎟, ⎜ −   ,    ,−   ⎟, ⎜ −   , 0,   ⎟ ⎬ una base ortonormal de
+                                                                                                                        3
+                                                                                                                            . Escriba el vector
+               ⎩⎝ 3    3    3⎠ ⎝    6    6     6⎠ ⎝    2       2⎠⎭
+       (1, 2, − 1) en esta base.
+
+
+                                                               ⎧           ⎛ 1      2 ⎞⎫
+                                           con base ortonormal ⎨(0, 1, 0), ⎜           ⎟ ⎬ . Escriba el vector v = (1, 2, − 1) como
+                                       3
+6.     Sea W el subespacio de                                                  , 0,
+                                                               ⎩           ⎝ 5       5 ⎠⎭
+       p + q con p ∈ W y q ∈ W ⊥ .
+
+
+7.     Determine la distancia del punto (2, 3, − 1) al plano 3x − 2 y + z = 0. (Sugerencia: encuentre la proyección ortogonal
+       de (2, 3, − 1) sobre el plano).
+
+8.     Construya una base ortonormal para el espacio solución del sistema homogéneo:
+
+       x + 3 y − 5z = 0
+       2x − y + z = 0
+       3x + 2 y − 4 z = 0
+
+
+                                                                                        ⎛ 1      2 ⎞
+9.     Encuentre una base ortonormal en               3
+                                                          que incluya los vectores u1 = ⎜   , 0,   ⎟ y u 2 = (0, 1, 0).
+                                                                                        ⎝ 5       5⎠
+
+En los ejercicios 10 a 12 se dan un subespacio H y un vector v.
+
+       a.      Calcule proyH v.
+       b.      Encuentre una base ortonormal para H ⊥ .
+       c.      Escriba v = p + q con p ∈ H y q ∈ H ⊥ .
+
+
+120
+          ⎧⎪ ⎡ x ⎤                       ⎫⎪      ⎡ 3⎤
+10.   H = ⎨⎢ ⎥ ∈        2
+                            : 2 x − y = 0⎬ ; v = ⎢ ⎥ .
+           ⎪⎩ ⎣ y ⎦                       ⎪⎭     ⎣5⎦
+
+
+          ⎧⎡ x ⎤                                  ⎫       ⎡ −3⎤
+          ⎪                                       ⎪
+11.   H = ⎨ ⎢⎢ y ⎥⎥ ∈   3
+                            : 3 x − 2 y + 6 z = 0 ⎬ ; v = ⎢⎢ 1 ⎥⎥ .
+          ⎪⎢ z ⎥                                  ⎪        ⎢⎣ 4 ⎥⎦
+          ⎩⎣ ⎦                                    ⎭
+
+
+          ⎧⎡ x ⎤                             ⎫       ⎡1⎤
+          ⎪⎢ ⎥                               ⎪       ⎢ −1⎥
+          ⎪ y                                ⎪
+12.   H = ⎨⎢ ⎥ ∈        4
+                          : x = 2 y, w = − y ⎬ ; v = ⎢ ⎥ .
+          ⎪⎢ z ⎥                             ⎪       ⎢2⎥
+          ⎪ ⎢⎣ w⎥⎦                           ⎪       ⎢ ⎥
+                                                     ⎣3⎦
+          ⎩                                  ⎭
+
+
+13.   Si a y b son vectores de              n
+                                                tales que a = 0 o b = λ a para λ ∈ , demuestre que a ⋅ b = a b .
+
+
+14.   Usando la desigualdad de Cauchy-Schwarz, pruebe la desigualdad triangular a + b ≤ a + b .
+
+
+                                                                                                Álgebra lineal elemental y aplicaciones
+                                                                                                                                          121
+Ejercicios del capítulo 2 (módulo 9)
+
+
+En los ejercicios 1a 4 determine la recta de mínimos cuadrados para los datos dados.
+
+1.     (0, 0), (1, 1), (3, 2), (4, 5).
+2.     (1, 4), (−2, 5), (3, − 1), (4, 1).
+3.     (−2, − 2), (−1, 0), (0, − 2), (1, 0).
+4.     (0, 2), (1, 2), (2, 0).
+
+En los ejercicios 5 y 6 determine el polinomio cuadrático de mínimos cuadrados para los puntos dados.
+
+5.     (−7, 3), (2, 8), (1, 5).
+6.     (0, 3.2), (0.5, 1.6), (1, 2), (2, − 0.4), (2.5, − 0.8), (3, − 1.6), (4, 0.3), (5, 2.2).
+
+                ⎡ 1 −2 ⎤       ⎡3⎤
+                ⎢ −1 2 ⎥       ⎢ ⎥
+7.     Sean A = ⎢      ⎥ e y = ⎢ 1 ⎥.
+                ⎢0 3⎥          ⎢ −4 ⎥
+                ⎢      ⎥       ⎢ ⎥
+                ⎣2 5⎦          ⎣2⎦
+
+       a.      Encuentre una solución por mínimos cuadrados de Ax = y.
+       b.      Calcule el error de mínimos cuadrados asociado con la solución encontrada en a.
+
+8.     Encuentre el mejor ajuste cuadrático para los datos del ejemplo 2. ¿Qué tipo de ajuste ocasiona el menor error?
+
+9.     Se tienen dos magnitudes relacionadas cuadráticamente x y y, es decir, existen constantes a, b y c tales que y = a + bx + cx 2 .
+       En las mediciones experimentales de estas magnitudes se obtuvieron los siguientes datos:
+
+
+               x     0     0.5 1   2   2.5  3               4    5
+               y    3.2    1.6 2 –0.4 –0.8 –1.6             0.3 2.2
+
+
+       Encuentre la parábola que mejor ajuste estos datos.
+
+10.    Una cinta elástica se estira a longitudes de L = 5, 6 y 7 pies por la aplicación de fuerzas F = 1, 2 y 4 kg respectivamente.
+       Asumiendo la ley de Hooke, L = a + bF, encuentre la longitud normal a de la cinta, por el método de mínimos
+       cuadrados.
+
+
+                                                                                                 Álgebra lineal elemental y aplicaciones
+                                                                                                                                           131
+Ejercicios del capítulo 2 (módulo 10)
+
+
+                         ⎛x ⎞        ⎛y ⎞
+1.    En
+            2
+                , si x = ⎜ 1 ⎟ , y = ⎜ 1 ⎟ , sea ( x, y ) = 2 x1 y1 + 2 x2 y2 .
+                         ⎝ x2 ⎠      ⎝ y2 ⎠
+      Demuestre que ( x , y ) es un producto interno.
+
+                                                                   ⎛ 1⎞      ⎛ 2⎞
+2.    Con el producto interno definido en el ejercicio 1, sean x = ⎜ ⎟ y y = ⎜ ⎟ . Calcule ( x, y ) y x .
+                                                                   ⎝ 1⎠      ⎝ 3⎠
+
+3.    Considere una forma de «normar» el ascenso a una montaña. Los índices de dificultad son como se muestra:
+
+                  Categoría                                Ángulo de ascenso             Índice de dificultad
+                         1                                      0º ≤ θ < 10º                        1
+                         2                                      10º ≤ θ < 25º                       2
+                         3                                      25º ≤ θ < 45º                       4
+
+
+      Una norma de dificultad para un viaje de x1 millas en la categoría 1, x2 millas en la categoría 2 y x3 millas en la categoría
+
+      3 es ( x1 , x2 , x3 ) = x1 + 2 x2 + 4 x3 , la cual se genera mediante el producto interno:
+                               2      2      2
+
+
+                 (( x1 , x2 , x3 ), ( y1 , y2 , y3 )) = x1 y1 + 2 x2 y2 + 4 x3 y3 .
+
+      De los ascensos siguientes, ¿cuál es el más difícil?
+
+                  Viaje               Categoría 1                   Categoría 2       Categoría 3       (en millas)
+
+                   T1                        3                               2             1
+                   T2                        0                               6             0
+                   T3                        5                               0             1
+
+
+4.    Sea Dn el conjunto de matrices diagonales de n × n con componentes reales, si A y B ∈ Dn ; entonces se define
+      ( A, B) así: ( A, B) = a11b11 + a22 b22 + ... + ann bnn .
+
+
+      Pruebe que Dn es un espacio con producto interno.
+
+
+5.    Encuentre una base ortonormal para Dn .
+
+6.    Encuentre una base ortonormal para P2 [0, 1] .
+7.    En    2
+                 encuentre una base ortonormal comenzando con la base (1, i ), (2 − i, 3 + 2i ).
+
+
+144
+8.    Si A = ( aij ) es una matriz real de n × n, la traza de A, que se escribe tr A, es la suma de los componentes de la diagonal
+      de A : tr A = a11 + a22 + ... + ann . En M nn se define ( A, B) = tr ( ABt ) .
+
+
+      Demuestre que con esta operación M nn es un espacio con producto interno.
+
+
+9.    Encuentre una base ortonormal para M 22 .
+
+10.   En P3 [0, 1], sea W el subespacio de P3 con base B = { x, x 2 } . Determine una base ortonormal para W.
+
+
+                                                                                             Álgebra lineal elemental y aplicaciones
+                                                                                                                                       145

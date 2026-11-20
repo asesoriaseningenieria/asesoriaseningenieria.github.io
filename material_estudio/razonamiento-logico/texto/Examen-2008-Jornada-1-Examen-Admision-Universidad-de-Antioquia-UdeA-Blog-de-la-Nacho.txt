@@ -1,0 +1,1372 @@
+Vicerrectoría de Docencia
+     Departamento de Admisiones y Registro
+
+
+                      EXAMEN DE ADMISIÓN
+                        SEMESTRE 2008-01
+
+                           Jornada 1A: Lunes a.m.
+
+   Marque la opción correspondiente, rellenando los círculos: a, b, c ó d.
+
+
+                                                                              1
+2
+Preguntas del 1 al 3.                                             Un barco que ingresa por la boya 1 al sistema de
+                                                                  canales puede salir por una boca cualquiera, siguiendo
+                                               Cara               únicamente las rutas indicadas por las flechas.
+        1     2       3       4        5
+                                               principal          4. De las afirmaciones siguientes la única que no es
+    Se tienen 5 tarjetas idénticas marcadas por su cara              posible, para un barco que hizo su recorrido entre la
+    principal con los números del 1 al 5 como se indica              boya 1 y el mar, es:
+    en la figura. El reverso de cada tarjeta también está
+    marcado con los números del 1 al 5, con las                       A.   Encontró un puesto de control
+    siguientes condiciones:                                           B.   Encontró dos puestos de control
+    -                                   ninguna tarjeta               C.   Encontró tres puestos de control
+        está marcada con el mismo número por la cara                  D.   No encontró puestos de control
+        principal y el reverso.
+    -                                   Si el número              5. Aceptando como verdadera la afirmación: “un barco
+        marcado en la cara principal es par, entonces, su            que ingresó por la boya 1 , encontró solamente dos
+        reverso es un número impar.                                  puestos de control en su recorrido al mar”. Entonces
+                                                                     de las afirmaciones siguientes, de la única que se
+1. Si con las 5 tarjetas señalando la cara principal, se             tiene certeza es:
+   voltea la tarjeta con el número 5 y su reverso tiene el
+   número 3, entonces, el número mínimo de tarjetas                   A.   El barco no salió por la boca A
+   que deben voltearse para poder saber exactamente                   B.   El barco no salió por la boca B
+   que tarjeta tiene en su reverso el número 1 es:                    C.   El barco no salió por la boca C
+                                                                      D.   El barco no salió por la boca D
+    A.      Una
+    B.      Dos                                                   6. De las proposiciones siguientes la única verdadera
+    C.      Tres                                                     es:
+    D.      Cuatro
+                                                                      A. Si un barco no pasó por la boya 6, entonces, no
+2. En las mismas condiciones iniciales, el número                        pasó por la boya 5
+   mínimo de tarjetas que deben voltearse, para                       B. Si un barco pasó por la boya 6, entonces, pasó
+   garantizar la obtención de un número par en el                        por la boya 5
+   reverso de una tarjeta es:                                         C. Si un barco pasó por la boya 5, entonces, pasó
+                                                                         por la boya 6
+    A.      Una                                                       D. Si un barco no pasa por la boya 6, entonces,
+    B.      Dos                                                          tiene que pasar por la boya 5
+    C.      Tres
+    D.      ninguna                                               7. Si aceptamos como verdadera la proposición “Un
+                                                                     barco que ingresó por la boya 1, se encuentra ahora
+3. En las mismas condiciones iniciales. Se han volteado              en el mar y cruzó por mas de un puesto de control”.
+   tres tarjetas y los números que aparecen al reverso               Entonces de las afirmaciones siguientes, de la única
+   son 5, 1 y 3. Con respecto a los números de la cara               que se tiene certeza es:
+   principal en las tarjetas que faltan por voltear, la única
+   de las siguientes afirmaciones que no es posible es:               A.   El barco paso por la boya 8
+                                                                      B.   El barco paso por la boya 6
+    A.      1y3                                                       C.   El barco paso por la boya 5
+    B.      2y4                                                       D.   El barco paso por la boya 7
+    C.      1y5
+    D.      3y5                                                   Preguntas 8 y 9.
+
+Preguntas del 4 al 7.                                             El diagrama siguiente representa una población
+                                                                  estudiantil de un colegio clasificados según el color de los
+                                   4                          A   ojos (claros y oscuros) y del cabello (rubio y oscuro). Los
+                          3
+                                   5
+                                                    C2            óvalos interiores representan, respectivamente, a los
+                          C1                                      estudiantes que tienen cabello rubio (R) y ojos claros (C).
+                                   5                          B
+    1         2
+              1                C3                                                  Hombres        Mujeres
+                                           6                  C
+                                           5             C4   A                                          R
+                               7
+                               3
+                                                8             D
+El diagrama muestra los canales mediante los cuales un                                                   C
+rio desemboca al mar por cuatro bocas A, B, C y D. Los
+números del 1 al 8 representan boyas que señalan la
+dirección de la circulación para la navegación por los
+canales y C1, C2, C3 y C4 indican puestos de control.
+                                                                                                                            3
+8. El diagrama que representa a las mujeres de cabello                     12. Si el 17% de un número n es igual al 51% de 2500,
+   oscuro y ojos claros es:                                                    entonces el valor de n es:
+         A                   B                C                 D              A. 1833.
+ Hombres Mujeres    Hombres Mujeres    Hombres Mujeres   Hombres Mujeres       B. 3820.
+                                                                               C. 5000.
+               R                   R                 R                 R       D. 7500.
+               C                   C                 C                 A
+                                                                       C
+
+                                                                           13. Cuando al tanque de gasolina de un avión le falta el
+                                                                               45% de su capacidad para llenarse contiene 250
+    A.   A                                                                     litros más que cuando estaba lleno al 45% de su
+    B.   B                                                                     capacidad. La capacidad del tanque del avión en
+    C.   C                                                                     litros es:
+    D.   D
+                                                                                 A.   2500
+ 9. El diagrama siguiente representa a la población                              B.   2250
+     estudiantil compuesta por:                                                  C.   2300
+                   Hombres   Mujeres                                             D.   4500
+                                  R
+                                  C                                        14. El señor X, que perdió un dedo en su mano izquierda,
+                                                                               ha olvidado el número de la clave de su tarjeta, pero
+    A.   Hombres de ojos y cabellos oscuros                                    recuerda que los 4 números de la clave son
+    B.   Hombres de ojos claros no rubios                                      diferentes y son algunos de los números 2, 4, 5, 6, 7,
+    C.   Hombres de ojos claros y cabello oscuro                               9. Además el primer número es el número de dedos
+    D.   Hombres de cabello oscuro                                             que tiene ahora en su mano izquierda y el segundo
+                                                                               es el numero de dedos que tiene en sus dos manos.
+Preguntas 10 y 11.                                                             El número máximo de intentos necesarios para
+                                                                               obtener la clave correcta es:
+    El gráfico muestra una estantería con frascos de
+    mermelada de 6 sabores así: Tomate, mango,                                   A.   6.
+    guayaba, papaya, naranja y fresa. Se sabe que:                               B.   9.
+                                                                                 C.   3.
+                                 La mermelada de tomate está                    D.   12.
+                                  a la izquierda                                             1/3                   2/3
+                                 La de mango está justo arriba            15.
+                                  de la de tomate                                            P     A   B   C   D   Q
+                                 La de guayaba está en el                                         P
+                                  estante más bajo.                              En la recta real los puntos A,B,C,D dividen en  5
+                                 La de papaya está justo                        partes iguales el segmento PQ. Entonces el número
+                                  debajo de la de naranja.                       real asociado al punto D es:
+
+                                                                                 A.   5/9
+10. De las siguientes afirmaciones, de la única que se                           B.   3/5
+    tiene certeza es:                                                            C.   9/10
+                                                                                 D.   5/6
+    A. La mermelada de tomate está en el estante del
+       medio
+    B. La mermelada de tomate esta en el estante de
+       abajo
+    C. La mermelada de fresa no está en el estante del                     Preguntas del 16 al 18.
+       medio                                                                                       B C T E
+    D. La mermelada de guayaba está a la izquierda
+
+11. Si adicionalmente se sabe que: la mermelada de
+    naranja comparte estante con la de tomate, entonces
+    las mermeladas ubicadas sobre la derecha de arriba
+    hacia abajo son respectivamente:
+
+    A.   Mango, naranja, papaya                                            En la figura se muestra una balanza de brazos iguales en
+    B.   Naranja, papaya, fresa                                            la cual se han colocado los cuerpos, señalados según su
+    C.   Fresa, naranja, papaya                                            forma como, B,C,T y E respectivamente. Los cuerpos
+    D.   Naranja, papaya, guayaba                                          de la misma forma tienen el mismo peso.
+
+
+                                                                                                                                   4
+16. Con la información que aportan las dos posiciones de
+    la balanza, entonces de las afirmaciones siguientes,       21. El resultado de la suma: 1 – 2 + 3 – 4 + 5 – 6 + 7 – 8
+    de la única que se tiene certeza, con relación al peso         + . . . . . . + 99 - 100 es:
+    de los cuerpos, es:
+                                                                   A. 50
+      A.   B>T                                                     B.    0
+      B.   E>T                                                     C. - 20
+      C.   C>T                                                     D. - 50
+      D.   E>C
+                                                               22. El número de niños de preescolar en una institución
+17.                                                                educativa es mayor de 30 pero menor de 60. Si los
+                                                                   niños se filan de a 2, de a 3, de a 4 ó de a 6 siempre
+                                                                   sobra un niño. Si se filan de a 7 no sobran ni faltan
+                                                                   niños. Entonces, el número exacto de niños de
+                                                                   preescolar es:
+      Si a toda la información inicial se le adiciona la que
+      suministra la nueva posición de la balanza, entonces,
+                                                                   A.   35
+      de las afirmaciones siguientes de la única que se
+                                                                   B.   42
+      tiene certeza es:
+                                                                   C.   49
+                                                                   D.   56
+      A.   T<E
+      B.   C>T
+                                                               23. Carlos se ha ganado una rifa. El premio será darle
+      C.   E<C
+                                                                   durante 8 días cierta cantidad de dinero, así cada día
+      D.   T>B
+                                                                   se le dará el triple del día anterior. Si el primer día
+                                                                   recibe 9 pesos, la cantidad total que recibirá es:
+18.
+                                                                   A.   9x3x3x3x3x3x3x3.
+                                                                   B.   3 + 32+ 33 + 34 + 35 + 36 + 37 + 38
+                                                                   C.   38
+      Si a toda la información anterior se le agrega la que        D.   32+ 33 + 34 + 35 + 36 + 37 + 38 + 39
+      aporta la nueva posición de la balanza, entonces, de
+      las afirmaciones siguientes la que indica el orden
+      exacto con respecto al peso de los cuerpos es:           Preguntas 24 y 25
+
+      A.   B>C>T>E                                             Un colegio ha recibido dos propuestas de dos empresas
+      B.   T>C>B>E                                             A y B para el transporte de los alumnos del grado 11 a un
+      C.   B>T>C>E                                             sitio recreativo que se describen así:
+      D.   C>E>B>T                                              La empresa A cobra un costo fijo de $148000 y
+                                                                   $15000 por cada alumno trasportado.
+Preguntas 19 y 20                                               La empresa B cobra un costo fijo de $400000 y 11000
+                                                                   por cada alumno transportado.
+Se define la operación en el conjunto de los números
+reales diferentes de cero así:                                 24. El número de alumnos que se requiere tranportar
+                                                                   para el cual el costo de las propuestas de las dos
+                                                                   empresas resulta ser igual es:
+
+19. El valor resultante de (3 2) 1 es:                             A.   60
+                                                                   B.   62
+      A.   -1/6                                                    C.   63
+      B.   -11/30                                                  D.   66
+      C.   2
+      D.   0                                                   25. El número mínimo de alumnos que se requieren
+                                                                   tranportar, a partir del cual el costo de la propuesta
+20. Si a b = b a, entonces, de las afirmaciones                    de la empresa B es menor que el de la empresa A es:
+    siguientes la única verdadera es:
+                                                                   A.   59
+      A. La igualdad se cumple para todos los reales               B.   64
+         distintos de cero                                         C.   65
+      B. La igualdad se cumple cuando uno de los dos es            D.   67
+         igual a cero
+      C. La igualdad se cumple siempre y cuando a=b ó          26. Dada la secuencia de números 1, 11, 111, 1111, ….
+         a=-b, siendo a y b distintos de cero                      El dígito de las unidades de la suma de los primeros
+      D. La igualdad se cumple sólo cuando a=1 ó b=1               30 elementos de esta sucesión es:
+
+                                                                                                                        5
+      A.   0.                                                   A.   5
+      B.   1.                                                   B.   6
+      C.   2.                                                   C.   7
+      D.   3.                                                   D.   8
+
+27. Los números AB4, B03, B3C, BA1 están ordenados           32. Cuando un hombre que camina proyecta una sombra
+    en una secuencia ascendente, de modo que la                  igual a su altura, entonces el ángulo de elevación θ
+    diferencia entre 2 numeros       consecutivos es             del sol es:
+    constante. Entonces los valores de A, B y C son
+    respectivamente:
+
+      A.   6, 7, 2                                              A.   30°
+      B.   8, 7, 2                                              B.   45°                  h
+      C.   7, 6, 1                                              C.   60°        
+      D.   5, 6, 1                                              D.   70°        h h
+28.                                                          33. Dos cuadrados de lados 6 y 4 unidades,
+                               A                                 respéctivamente, se traslapan como lo muestra la
+                               .                                 figura.
+                        B          C
+                                                                                          1         4
+  En la figura las cuatro circunferencias son tangentes y
+  las circunferencia de centros en A, B y C tienen radio                    6
+  igual a 2 unidades. Entonces el perímetro del ABC                                     1
+  es:
+
+      A.   8
+      B.   12                                                   La diferencia entre las áreas que no se traslapan es:
+      C.   14
+      D.   16                                                   A.   30
+                                                                B.   26
+29. Una barra de acero en forma de paralelipedo                 C.   20
+    rectangular, con dimensiones 2 cm x 3 cm x 4 cm, se         D.   16
+    funde para formar tres cubos de igual volumen. La
+    logitud del lado de cada cubo en cm es:                  34. El número máximo de paquetes de dimensiones 3 x 4
+                                                                 x 5 cm que puede colocarse en una caja de
+                                                                 dimensiones 9 x 12 x 10 cm es:
+      A.   1
+      B.   2                                                    A.   10
+      C.   3                                                    B.   12
+                 4 cm
+      D.   4                                                    C.   18
+                               x
+                                   3 cm                         D.   24
+                        2 cm
+                                                             35. Sobre una pared dividida en cuadros de 1 m de lado
+30. La siguiente figura consta de nueve cubos pegados:           se pinta una letra Z como lo indica la figura:
+
+
+      Usando esta figura como base, la menor cantidad de
+      cubitos que faltan para construir un cubo sólido es:
+      A.   18.                                                   El área de la figura pintada en m2 es:
+      B.   27.
+                                                                A.   18
+      C.   55.
+                                                                B.   20,5
+      D.   64.
+                                                                C.   21
+                                                                D.   24,5
+31. Se corta un alambre de 12 m de logitud en dos partes
+    y cada una de ellas se dobla para formar un
+    cuadrado. Si el área total comprendida es 80 m 2.
+    entonces la longitud del trozo de alambre mayor en m
+    es:
+
+                                                                                                                        6
+36.                                                               39.
+
+                                                                        %
+                      49                    15                          70 -
+                                                                        60 -
+                                                                        50 -
+                                                                        40 -
+Se marcan n puntos: 1, 2, . . ., n sobre una circunferencia,            30 -
+y se ubican a igual distancia unos de otros. Si el punto                20
+marcado 15 está directamente opuesto al marcado 49, el                  10
+número de puntos marcados en la circunferencia es:                      0
+
+      A.   64                                                            Con relación a la información del cuadro, el
+      B.   66                                                            histograma anterior, puede representar:
+      C.   68
+      D.   70                                                            A.    El porcentaje de banano proveniente de cada
+                                                                               región, con respecto al total de banano.
+Preguntas del 37 al 39.                                                  B.    El porcentaje de frutas de cada tipo,
+                                                                               provenientes de la región R 1, con relación al
+ Alimentos Cerea-                          Frutas                              total de frutas provenientes de esta misma
+Regiones    les            Banan   Naran     Piñas Uvas   Total                región.
+    R1          100          5      10         5     0    120            C.    El porcentaje de piñas provenientes de cada
+    R2           40          4      10         1     5     60                  región, con respecto al total de piñas.
+                                                                         D.    El porcentaje de frutas de cada tipo,
+    R3           10          3      15         2    10     40
+                                                                               provenientes de la región R2, con respecto al
+    R4          250          8      15         2     5    280                  total de frutas provenientes de esta misma
+Total           400         20      50        10    20    500                  región.
+El cuadro muestra el registro de las toneladas de                 40.
+alimentos que ingresan a la Central Mayorista de
+Medellín, procedentes de 4 regiones del país, en un                                              3
+período determinado.
+                                                                                     2     6     S     T
+37. De las afirmaciones siguientes, la única verdadera
+    es:
+                                                                                          R
+      A. Con relación al total de alimentos provenientes
+         de la región R 2, el 40% son cereales.
+                                                                         La figura muestra el desarrollo de un cubo. Si la
+      B. Con relación al total de cereales, el 62.5%
+                                                                         suma de los números correspondientes a dos caras
+         proviene de la región R4.
+                                                                         opuestas es 7, entonces R y S, son respectivamente:
+      C. Con relación al total de alimentos provenientes
+         de la región R3, el 90% son frutas.
+                                                                         A.    1,5
+      D. Con relación al total de naranjas, el 10%
+                                                                         B.    4,1
+         proviene de la región R2.
+                                                                         C.    4,5
+                                                                         D.    5,1
+38. De las afirmaciones siguientes, la única falsa es:
+
+      A. El 20% del total de alimentos, corresponde a las
+          frutas.
+      B. El 30% del total de las frutas, proviene de la
+          región R3.
+      C. El 20% del total de las frutas, corresponde a las
+          uvas.
+      D. El 40% del total del banano, proviene de la región
+          R1.
+
+
+                                                                                                                           7
+8
+▲ EXAMEN DE COMPETENCIA LECTORA ▲
+
+
+                                    9
+Preguntas del 41 al 61
+                                                                     8 Conste, en fin, que el trazado de Nuestra Villa es confuso;
+                            Texto 1                                  que Ayacucho y Carabobo, únicas a quienes no interrumpe vía
+                                                                     alguna, son paladinas y triunfales como los hechos que
+1 Como un signo + cuartean la ciudad la carrera Carabobo y la        conmemoran.
+calle de Ayacucho; aquella del Norte al Mediodía; ésta de
+Oriente a Ocaso. Ni una ni otra enmarcan la plaza principal, cual    9 Dicen libros muy sabios de filósofos patagones, que el enredo
+si quisieran valer por sus méritos propios. La carrera le pasa a     material enreda los espíritus. Según eso, el alma medellinita
+una cuadra, por el Occidente; la calle a una cuadra, por el Sur,     debe ser una maraña. ¡Hasta lo será! Aquí no hay tipo ni
+para formarle aledaños medio regulares, siquiera por dos lados,      agrupación que puedan encarnar esta montanera tan
+ya que la calle y la carrera opuestas rompen el paralelismo del      heterogénea. Ni el interés monetario, ni el amor al suelo y al
+trazado, con su desvío la carrera; la calle con unos quingos         trabajo, ni la misma verbosidad hiperbólica son aquí generales.
+fementidos y afrentosos.                                             Sólo la autonomía individual puede sumarnos, porque aquí cada
+                                                                     uno es Juan Memando y… ¡San-se-acabó!
+[…]
+
+2 Carabobo y Ayacucho son las vías más largas de la ciudad           41. De la lectura del párrafo uno, se deduce que las carreras y
+progresista. La carrera la parte muy gentil de banda a banda; la         las calles, en cualquier ciudad, van respectivamente, en los
+calle arranca de la propia ribera del Aburra (hoy, río Medellín) y       siguientes sentidos:
+se trepa glorificada hasta las alturas de Miraflores. A medida
+                                                                          A.   de Sur a Norte y de Oriente a Occidente
+que se alejan de las estrecheces peninsulares, se ensanchan,
+                                                                          B.   de Oriente a Occidente y de Sur a Norte
+se dilatan, se embellecen, bien así como las colonias de España
+                                                                          C.   de Norte a Sur y de Oriente a Occidente
+se emanciparon. Por algo tienen nombres libertadores. Ni se
+                                                                          D.   del amanecer al Mediodía y del Ocaso al anochecer
+sabe cuántas cuadras miden; pues esto de cortes en las vías
+públicas es aquí como la ética: cambia según el lugar y el
+tiempo. Tiradas a cordel ofrecerían una perspectiva admirable,
+                                                                     42. “Cuartear la ciudad” quiere decir:
+divisaríanse confundidas en un punto oscuro, allá donde lo                A.   mancharla
+visual termina.                                                           B.   ponerla en cuarentena
+                                                                          C.   partirla en trozos
+3     Bien se ve que los hijos de Pelayo, tan godos y
+                                                                          D.   dividirla en cuatro
+tradicionalistas, quisieron imitar, en estas sus posesiones
+andinas, las calles irregulares y angostas de sus villejas
+castellanas. Tampoco era la época, ni menos ellos, para              43. Si la disposición de Carabobo y de Ayacucho es como la de
+fundaciones por planos.                                                  las dos líneas que forman un signo más (+), puede decirse
+                                                                         que todas las siguientes afirmaciones son ciertas, menos:
+[…]
+                                                                          A.   Carabobo y Ayacucho se comunican en un punto
+4 Estos recintos, cerrados por casas, que llaman manzanas, y              B.   Carabobo es la que va de Norte a Sur
+que suponen cien varas en cuadro, son aquí muy irregulares en             C.   Carabobo es la vertical y Ayacucho la horizontal
+sí mismos y harto desiguales entre sí por forma y por medida.             D.   Carabobo es la horizontal y Ayacucho la vertical
+Pocas tienen sus ángulos rectos y (son) contadas las de lados
+iguales.                                                             44. La palabra “quingos” significa zigzag. De acuerdo con esto,
+                                                                         la que tiene forma de zigzag es la:
+5 Con frecuencia se pierde la recta en las demarcaciones
+murales, ya en línea quebrada, ya en línea ondulada, ya hacia             A.   plaza principal
+adentro, ya hacia fuera de la calle. Hay manzanas en trapecios,           B.   carrera Carabobo
+en trapezoides y hasta en rombos; las hay combinadas, en                  C.   desviación de la calle Ayacucho
+rectas y curvas; las hay en formas al acaso; de las calles… ¡no           D.   calle opuesta a la calle Ayacucho
+se diga! Unas son culebras, otras garabatos, y algunas,
+mismamente esas centellas que pintan en los calvarios.               45. Los siguientes lugares se refieren al punto oscuro en el que
+                                                                         se confundirían estas dos vías, excepto:
+6 Las gentes que vinieron después ¿qué iban a hacer para
+compaginar lo viejo con lo nuevo? Pues empeorar lo chapetón.              A.   encuentro entre las dos
+Romper aquí, empatar allá; sacar manzanas en triángulo, en                B.   corte entre Ayacucho y Carabobo
+pentágono, en bonetes, en demonios coronados; apurar la                   C.   altura máxima de Miraflores
+hispánica torcedura: porque los muertos mandan, aunque nos                D.   punto central de la perspectiva que ofrecerían al
+pese a los vivos, mayormente en cosas que perduran.                            observador
+7 Pero esto es lo de menos; lo de más es aquello de topetarse
+unas calles con otras; de interrumpirse aquí para seguir más         46. En el texto, los españoles que llegaron a Medellín son
+allá o para no seguir; es aquello de incomunicar, como si fueran         llamados con los siguientes nombres, menos:
+para gafos o apestados. Estos resabios coloniales, o si se
+                                                                         A. peninsulares
+quiere estilos, en achaques de edificaciones y ensanches
+                                                                         B. hijos de Pelayo
+urbanos, apenas si han desaparecido de quince años para acá.
+                                                                         C. chapetones
+No hace veinticinco principió el trazado de estas hermosas
+                                                                         D. gafos o apestados
+calles de Caracas, Perú, Bolivia, Argentina y la Independencia,
+y sin embargo, las cinco miden en su primer estadio trunco, algo
+                                                                     47. Del párrafo tres se deduce que:
+más de dos cuadras. No las partieron por la mitad como lo
+                                                                          A.   las calles irregulares y angostas son típicas de las
+indica el sentido común. Tan vecinas y todo han quedado harto
+                                                                               ciudades antiguas
+incomunicadas entre sí. Romperlas ahora sería empresa de
+                                                                          B.   Medellín es una ciudad progresista
+urbe mundial y millonaria.
+                                                                          C.   los fundadores de Medellín no sabían trazar calles ni
+[…]                                                                            carreras
+
+                                                                                                                                  10
+    D.   una ciudad se funda a través de planos                          A.    1895
+                                                                         B.    1925
+48. Si los españoles no estaban para fundar por planos a                 C.    1900
+    Medellín, como lo dice este tercer párrafo: “ni menos ellos”,        D.    1704
+    era porque:
+                                                                    55. En conclusión, las calles de Caracas, Perú, Bolivia,
+    A.   querían imitar aquí, en Medellín, las calles de su             Argentina y la Independencia:
+         castilla natal
+    B.   no era la época para trazar planos
+    C.   estaban apegados a sus tradiciones y costumbres                 A.    pertenecen a ese movimiento de renovación urbana
+    D.   la ingeniería civil no había avanzado tanto                     B.    son un testimonio de la lucha inevitable entre lo
+                                                                               tradicional y lo nuevo
+49. De acuerdo con los párrafos cuatro y cinco, es posible               C.    son resabios coloniales en achaques de edificaciones
+    concluir, entonces, que las manzanas de la ciudad de                       y ensanches urbanos
+    Medellín, en su trazado, le dan el aspecto de:                       D.    hacen honor a sus nombres, como la calle Ayacucho
+
+    A.   callejón sin salida                                        56. De la calle Ayacucho y de la carrera Carabobo, puede
+    B.   laberinto de caprichosas formas                                concluirse, entonces, según el último párrafo, que son
+    C.   intrincado y antiguo castillo medieval                         “paladinas y triunfales, como los hechos que conmemoran”,
+    D.   clásico y moderno castillo renacentista o neoclásico           porque:
+
+50. "Las gentes que vinieron después", en el sexto párrafo se            A. esos hechos son dos batallas de independencia: la de
+    refiere a los:                                                             Ayacucho y Carabobo
+                                                                         B. no excluyen a los gafos (bobos) ni a los apestados,
+    A.   nuevos españoles                                                      puesto que se comunican entre sí
+    B.   descendientes de los chapetones nacidos en Medellín             C. son progresistas o modernas, porque se trazaron
+    C.   nuevos ingenieros civiles                                             muchos años después de la colonia
+    D.   gafos y los apestados                                           D. en su continuidad, marcan diferencia con las vías
+                                                                               angostas e irregulares y lo que ellas significan
+51. La respuesta a la pregunta que se formula en este sexto
+    párrafo es:
+                                                                    57. Puede decirse que el tema general del texto, aquello de lo
+    A.   empeorar lo chapetón y apurar la hispánica torcedura           que se habla, es:
+         de las calles
+    B.   empeorar lo chapetón, o sea, apurar la hispánica                A.    la ciudad de Medellín
+         torcedura de las calles                                         B.    el trazado de sus vías
+    C.   solamente empeorar lo chapetón                                  C.    los constructores civiles
+    D.   solamente apurar la hispánica torcedura
+                                                                         D.    la confusión de las vías en Medellín
+52. La razón o causa de esto que hicieron “las gentes que
+    vinieron después” fue, según ese párrafo, que "los muertos      58. De acuerdo con ello, los dos subtemas que lo componen
+    mandan, aunque nos pese a los vivos, mayormente en                  son:
+    cosas que perduran". Esto significa que:
+                                                                         A.    las vías y las manzanas
+    A.   los primeros trazados de las vías no se podían                  B.    los constructores modernos y los antiguos
+          enderezar                                                      C.    la fundación y el desarrollo de la ciudad
+    B.   lo que dijeron los primeros constructores de vías no se         D.    la comunicación o incomunicación entre las calles
+          podía contradecir
+    C.   las tradiciones y costumbres que se heredan influyen
+          poderosamente sobre los intentos de renovación en         59. Lo que el texto dice de esos subtemas, puede sintetizarse
+          las nuevas generaciones                                       en el siguiente calificativo:
+    D.   lo que los muertos representan para los vivos hace
+          que, para honrar su memoria, se respeten sus                   A.    confusos
+          palabras y sus obras.                                          B.    contrarios
+                                                                         C.    incomunicadores
+53. El séptimo párrafo empieza contrastando “lo de menos” con            D.    imposibles
+    “lo de más”. “Lo de más” es el efecto o consecuencia de
+    esa causa; en ese sentido, se trata de:
+                                                                    60. El par principal de opuestos que atraviesa todo el texto,
+                                                                        concretando ese calificativo general para los subtemas es
+     A. la incomunicación                                               el de lo:
+     B. los resabios coloniales
+     C. la continuidad o no de las calles
+     D. los ensanches urbanos
+                                                                         A.    recto y lo curvo
+54. En este mismo párrafo siete y teniendo en cuenta que el              B.    nuevo y lo viejo
+    artículo fue escrito en 1919, puede decirse que la                   C.    ordenado y lo desordenado
+    modernización en el trazado de las calles de Medellín                D.    regular y lo irregular
+    empezó,     más     o    menos,      hacia el  año:
+
+
+                                                                                                                                   11
+61. El contraste principal del texto está dado entre:                jóvenes de los cafés y los ministerios”. Si no lo hiciere, ¿cómo
+                                                                     logrará que le otorguen la concesión para los platanales en
+                                                                     Urabá? El señor cura entra también a buscar la biografía de
+     A.    la carrera Carabobo y la calle Ayacucho
+                                                                     Jesucristo, la de San Pablo o la de San Luis, para sus bellos
+     B.    las manzanas y las calles                                 sermones en el pueblo lejano… ¡Todo ello por 0.40, 0.50 o
+     C.    España y Medellín                                         0.60!...
+     D.    Carabobo y Ayacucho y las demás vías de Medellín
+                                                                     ¡Eso hacía mucha falta, don Guillermo!
+
+                                                                     Reciba un abrazo por ese remanso del espíritu que tiene usted
+                                                                     en Carabobo, precisamente en el rincón que forma una casa
+Preguntas del 62 al 70                                               que se sale impertinentemente a media calle, como para atajar
+                                                                     al judío antioqueño, diciéndole: “Entre usted a La pluma de oro”.
+
+                                                                     Fernando González.
+                             Texto 2
+                                                                     Nota: En este texto, el autor se refiere a la carrera Carabobo,
+                                                                     como una calle, en el sentido de ser una vía de la ciudad, y no
+Envigado, abril 1 de 1936                                            en el de su orientación.
+
+A Don Guillermo Johnson
+
+Medellín
+                                                                     62. Lo que celebra, concretamente, la carta es, esencialmente:
+Muy querido amigo:
+                                                                          A.   la apertura de una nueva librería en la ciudad
+Permítame felicitarlo por su librería y editorial La pluma de oro.        B.   que haya ediciones más favorables
+Usted le ha dado novedad a esto de librerías en Medellín.                 C.   que haya un remanso de paz en la ciudad
+Usted, y el doctor Marco Aurelio Arango con su editorial                  D.   que se renueve el espíritu antioqueño
+Atlántida, están remozando el espíritu antioqueño.
+
+Hacía falta ese lugar en la carrera Carabobo, en ese rincón o        63. "La pluma de oro" es un remanso, según el segundo
+remanso de la calle populosa, la más antioqueña de Medellín.             párrafo de la carta, porque está situada en:
+Precisamente allí donde es mayor el tráfico, yendo de sur a
+norte, a poco de pasar el Palacio de Justicia, sale                       A.   un rincón de la carrera Carabobo
+repentinamente una casa y se mete en la calle, angostándola y
+dejando un rincón, formando un ángulo recto: pues allí, en ese
+                                                                          B.   la calle más antioqueña de la ciudad
+remanso, era el lugar propio para vender el libro moderno, las            C.   la calle más populosa y de mayor tráfico de la ciudad
+ediciones baratas y elegantes de “las obras maestras”.                    D.   en un lugar apropiado para vender libros modernos
+
+¿Ha puesto usted la atención en estos automóviles modelos            64. El rincón al que se refieren este párrafo y el último, se
+1936, tan lanzados, tan ruteros, tan livianos y tan poderosos?           formó gracias a:
+Pues en su Pluma de oro vende usted esas ediciones de las
+“obras modernas”, ligeras también, lanzadas también, ruteras
+poderosas de los caminos del alma.                                        A.   la calle que se mete en la carrera Carabobo,
+                                                                             formando un ángulo recto
+La Librería, en Medellín, era, hasta usted, almacén pesado,               B. la carrera Carabobo que es interrumpida por una
+carísimo, en donde se entraba de vez en vez a bregar por                     casa, que la hace más angosta
+comprar las ideas generales, o bien, a comprar “un libro para             C. un ángulo recto que se forma en la carrera Carabobo
+regalo en los exámenes de la Universidad o en el acto público             D. una casa que interrumpe la carrera Carabobo en el
+de los reverendos padres”.                                                   medio, haciéndola más estrecha y formando un
+                                                                             ángulo recto
+Recuerde usted u observe esas librerías, con sus mamotretos
+de a cinco pesos, empolvadas ya las partes superiores del
+rimero de hojas…                                                     65. Las “obras modernas” son:
+
+No; era preciso hacer que el libro fuera poderoso andarín,                A.   obras maestras
+barato, de bolsillo. Marco Aurelio Arango en su Atlántida y usted         B.   obras antiguas editadas de otra manera
+en su Pluma de oro, han dado lo que necesitábamos en
+Colombia: ya no habrá esas ediciones colombianas que
+                                                                          C.   libros elegantes y baratos
+parecen todas “Informes de Asamblea”, o bien, de cuadernillos             D.   ediciones abreviadas de las obras maestras
+gruesos, como si fueran sacos de cabuya doblados. ¡Qué
+hermosas ediciones hace la Atlántida!                                66. Los libros que vende La pluma de oro son "ruteros",
+                                                                         porque:
+A su Pluma de oro entra ahora la muchacha que desciende de
+su automóvil, y que irá de paseo mañana domingo y que desea
+llevar un libro suave, consonante con sus emociones amorosas.             A. sus lanzamientos son livianos
+Necesita un libro que la acaricie allá, bajo el boscaje antioqueño        B. fueron editados en 1936, el mismo año en que
+y que pueda dejar allá, tirado sobre la hojarasca, en recuerdo de              salieron los autos ruteros
+su amor fugaz. Entra también el señor grave que se irá mañana             C. porque recorren las rutas del alma
+en avión y que desea coger algunas ideas sobre derechismo e               D. son modernos
+izquierdismo, para poder conversar en Bogotá, con “esos
+
+                                                                                                                                   12
+67. La expresión "ruteras poderosas de los caminos del alma",
+    supone que:                                                         A.   épocas: la antigua y la moderna
+                                                                        B.   formas de pensar: la tradicional y la moderna
+     A.   el alma tiene caminos                                         C.   momentos de la historia de una ciudad
+     B.   todas las almas son distintas                                 D.   tipos de calles y dos tipos de ediciones
+     C.   no es fácil transitar los caminos del alma
+     D.   el alma se puede transitar
+
+68. Si las ediciones de bolsillo son "poderosas ruteras" de los
+    caminos del alma, es porque:
+                                                                   74. En ese sentido, ambos tomaron partido por lo:
+     A. encuentran el tema, las palabras y el tono para
+        llegarle al lector común y corriente, pero también al           A.   más reciente
+        estudioso, especialista.                                        B.   nuevo
+     B. por ser de bolsillo, pueden ir a los bosques                    C.   progresista
+        antioqueños, a Bogotá o a cualquier ciudad del mundo            D.   moderno
+     C. pueden transitar la pereza, la falta de tiempo o alguna
+        ignorancia en los lectores                                 75. El concepto de “moderno” para Carrasquilla y González es,
+     D. hasta “los judíos” antioqueños las pueden comprar              respectivamente:
+
+69. También son livianos, por todas las siguientes razones,             A.   progresista y rejuvenecedor
+    menos:                                                              B.   confuso y barato
+                                                                        C.   chapetón o colonial, y poderoso
+     A.   tienen menos hojas que las obras maestras                     D.   autóctono o propio, y moderno
+     B.   cuestan menos que los libros antiguos
+     C.   "vuelan" por los caminos del alma
+                                                                   76. De acuerdo con el último párrafo del texto de Carrasquilla,
+     D.   puede llevarse a todas partes y en toda ocasión              puede decirse que el trazado de las vías de una ciudad:
+
+70. El poder de estas ediciones está en que:                            A. enreda el alma de los que la habitan
+                                                                        B. expresa la heterogeneidad de la forma de ser de sus
+     A.   se pueden llevar a cualquier parte                                 habitantes
+     B.   se pueden comprar sin motivo alguno                           C. modifica el espíritu de sus habitantes
+     C.   llegan a cualquier tipo de lector                             D. vuelve maraña el alma de las gentes
+     D.   tratan diversos temas
+                                                                   77. En cambio, el texto de Fernando González plantea que lo
+                                                                       que puede cambiar el espíritu de sus gentes es:
+
+                                                                        A.   las librerías
+                                                                        B.   los libros
+                                                                        C.   la lectura
+Preguntas a los textos 1 y 2 del 71 al 80                               D.   los remansos de paz
+
+
+71. El tema común a los dos textos es:                             78. Las calles regulares y los libros modernos, según los
+                                                                       textos, significan en una ciudad, respectivamente:
+     A.   la ciudad de Medellín
+     B.   lo viejo de Medellín                                          A.   colonialismo y pesadez
+     C.   lo nuevo de Medellín                                          B.   progreso y modernidad
+     D.   las gentes de Medellín                                        C.   independencia y renovación del espíritu
+                                                                        D.   amplitud y paz en la ciudad
+72. Y sus tópicos o subtemas son, respectivamente, para el
+    texto 1 y para el texto 2:                                     79. De acuerdo con ello, puede decirse que el vínculo temático
+                                                                       general entre los dos textos se puede expresar a través del
+                                                                       siguiente rótulo:
+     A.   el progreso y lo nuevo
+     B.   las viejas calles y las nuevas librerías
+     C.   avenidas y librerías
+                                                                        A. el espíritu de la ciudad a través de sus calles y lo que
+                                                                             cambia
+     D.   Carabobo y Ayacucho, y La pluma de Oro
+                                                                        B. lo confuso y pesado del espíritu de una ciudad
+                                                                        C. espejo y renovación de una ciudad
+73. A pesar de la diferencia entre las fechas en que fueron             D. novedades y atrasos de una ciudad
+    escritos los dos textos: 1919, el texto 1, por don Tomás
+    Carrasquilla; y, 1936, el texto 2, por Fernando González; y,
+    a pesar de la distancia que hay respecto a nuestra época,      80. Si se escribiera un libro en el que estos dos textos
+    puede decirse que los autores contraponen dos:                     constituyeran un capítulo, y los demás capítulos fueran
+
+                                                                                                                                 13
+referidos a otras ciudades del mundo, respecto a los         B. Lo nuevo y lo viejo en las ciudades modernas
+mismos tópicos, pudiera decirse que el título más adecuado   C. Colonialismo y progreso en una ciudad
+para ese libro sería:                                        D. Novedades y espejismos en las ciudades
+
+A. Ciudades, calles y libros
+
+
+                                                                                                               14
+15
+    Nombre: JIMENEZ CANAS GLORIA INES
+    Credencial: 2
+
+
+            Vicerrectoría de Docencia
+      Departamento de Admisiones y Registro
+
+
+                       EXAMEN DE ADMISIÓN
+                         SEMESTRE 2008-01
+
+                            Jornada 1B: Lunes a.m.
+
+    No abra el cuadernillo hasta que el docente acompañante lo autorice.
+
+
+    El examen consta de 80 preguntas: 40 de razonamiento lógico, 40 de competencia
+     lectora.
+
+    Al finalizar el examen devuelva el tema, en caso de no hacerlo, aquél le será anulado.
+
+    Marque en la tarjeta de respuestas una opción por pregunta solamente.
+                                                                                              1
+   Marque en la tarjeta de respuestas la opción correspondiente, rellenando los círculos:
+
+    a, b, c ó d.
+
+
+                                                                                             2
+3
+Preguntas 1 y 2.                                                                  D. Cuatro
+                                                                               4. En las mismas condiciones iniciales, el número
+El diagrama siguiente representa una población                                    mínimo de tarjetas que deben voltearse, para
+estudiantil de un colegio clasificados según el color de los                      garantizar la obtención de un número par en el
+ojos (claros y oscuros) y del cabello (rubio y oscuro). Los                       reverso de una tarjeta es:
+óvalos interiores representan, respectivamente, a los
+estudiantes que tienen cabello rubio (R) y ojos claros (C).                         A.   Una
+                      Hombres             Mujeres                                   B.   Dos
+                                                                                    C.   Tres
+                                                     R                              D.   ninguna
+
+                                                     C                         5. En las mismas condiciones iniciales. Se han volteado
+                                                                                  tres tarjetas y los números que aparecen al reverso
+                                                                                  son 5, 1 y 3. Con respecto a los números de la cara
+1. El diagrama que representa a las mujeres de cabello                            principal en las tarjetas que faltan por voltear, la única
+   oscuro y ojos claros es:                                                       de las siguientes afirmaciones que no es posible es:
+          A                     B                C                  D
+ Hombres Mujeres      Hombres Mujeres     Hombres Mujeres    Hombres Mujeres        A.   1y3
+                                                                                    B.   2y4
+                  R                  R                   R                 R
+                  C                  C                   C                 A
+                                                                           C
+                                                                                    C.   1y5
+                                                                                    D.   3y5
+    A.    A
+    B.    B                                                                    Preguntas del 6 al 8.
+    C.    C
+    D.    D
+                                                                                                       B C T E
+ 2. El diagrama siguiente representa a la población
+     estudiantil compuesta por:
+                      Hombres   Mujeres
+
+                                     R
+                                     C
+
+    A.    Hombres de ojos y cabellos oscuros
+                                                                               En la figura se muestra una balanza de brazos iguales en
+    B.    Hombres de ojos claros no rubios
+                                                                               la cual se han colocado los cuerpos, señalados según su
+    C.    Hombres de ojos claros y cabello oscuro
+                                                                               forma como, B,C,T y E respectivamente. Los cuerpos
+    D.    Hombres de cabello oscuro
+                                                                               de la misma forma tienen el mismo peso.
+Preguntas del 3 al 5.
+                                                                               6. Con la información que aportan las dos posiciones de
+                                                                                  la balanza, entonces de las afirmaciones siguientes,
+      1       2        3        4    5      Cara                                  de la única que se tiene certeza, con relación al peso
+                                            principal                             de los cuerpos, es:
+    Se tienen 5 tarjetas idénticas marcadas por su cara
+                                                                                    A.   B>T
+    principal con los números del 1 al 5 como se indica
+                                                                                    B.   E>T
+    en la figura. El reverso de cada tarjeta también está
+                                                                                    C.   C>T
+    marcado con los números del 1 al 5, con las
+                                                                                    D.   E>C
+    siguientes condiciones:
+    -                                   ninguna tarjeta
+                                                                               7.
+        está marcada con el mismo número por la cara
+        principal y el reverso.
+    -                                   Si el número
+        marcado en la cara principal es par, entonces, su
+        reverso es un número impar.                                                 Si a toda la información inicial se le adiciona la que
+                                                                                    suministra la nueva posición de la balanza, entonces,
+3. Si con las 5 tarjetas señalando la cara principal, se                            de las afirmaciones siguientes de la única que se
+   voltea la tarjeta con el número 5 y su reverso tiene el                          tiene certeza es:
+   número 3, entonces, el número mínimo de tarjetas
+   que deben voltearse para poder saber exactamente                                 A.   T<E
+   que tarjeta tiene en su reverso el número 1 es:                                  B.   C>T
+                                                                                    C.   E<C
+    A. Una
+                                                                                    D.   T>B
+    B. Dos
+    C. Tres
+
+                                                                                                                                          4
+                                                                  0
+
+8.                                                                 Con relación a la información del cuadro, el
+                                                                   histograma anterior, puede representar:
+                                                                   A.    El porcentaje de banano proveniente de cada
+                                                                         región, con respecto al total de banano.
+      Si a toda la información anterior se le agrega la que        B.    El porcentaje de frutas de cada tipo,
+      aporta la nueva posición de la balanza, entonces, de               provenientes de la región R 1, con relación al
+      las afirmaciones siguientes la que indica el orden                 total de frutas provenientes de esta misma
+      exacto con respecto al peso de los cuerpos es:                     región.
+                                                                   C.    El porcentaje de piñas provenientes de cada
+      A.     B>C>T>E                                                     región, con respecto al total de piñas.
+      B.     T>C>B>E                                               D.    El porcentaje de frutas de cada tipo,
+      C.     B>T>C>E                                                     provenientes de la región R2, con respecto al
+      D.     C>E>B>T                                                     total de frutas provenientes de esta misma
+                                                                         región.
+Preguntas del 9 al 11.
+                                                               12. El resultado de la suma: 1 – 2 + 3 – 4 + 5 – 6 + 7 – 8
+ Alimentos Cerea-                       Frutas
+                                                                   + . . . . . . + 99 - 100 es:
+Regiones    les        Banan    Naran     Piñas Uvas   Total
+    R1         100        5      10         5     0    120         A.      50
+    R2          40        4      10         1     5     60         B.       0
+                                                                   C.    - 20
+    R3          10        3      15         2    10     40         D.    - 50
+    R4         250        8      15         2     5    280
+Total          400       20      50        10    20    500     Preguntas del 13 al 16.
+El cuadro muestra el registro de las toneladas de                                            4                     A
+alimentos que ingresan a la Central Mayorista de                                   3
+                                                                                             5
+                                                                                                         C2
+Medellín, procedentes de 4 regiones del país, en un                                 C1
+período determinado.                                                                         5                     B
+                                                                   1      2
+
+9. De las afirmaciones siguientes, la única verdadera
+                                                                          1              C3
+                                                                                                 6                 C
+   es:                                                                                           5            C4   A
+       A. Con relación al total de alimentos provenientes                              3
+                                                                                         7           8             D
+                                                               El diagrama muestra los    canales mediante los cuales un
+          de la región R 2, el 40% son cereales.
+                                                               rio desemboca al mar por cuatro bocas A, B, C y D. Los
+       B. Con relación al total de cereales, el 62.5%
+                                                               números del 1 al 8 representan boyas que señalan la
+           proviene de la región R4.
+                                                               dirección de la circulación para la navegación por los
+       C. Con relación al total de alimentos provenientes
+                                                               canales y C1, C2, C3 y C4 indican puestos de control.
+           de la región R3, el 90% son frutas.
+                                                               Un barco que ingresa por la boya 1 al sistema de
+       D. Con relación al total de naranjas, el 10%
+                                                               canales puede salir por una boca cualquiera, siguiendo
+           proviene de la región R2.
+                                                               únicamente las rutas indicadas por las flechas.
+10. De las afirmaciones siguientes, la única falsa es:
+                                                               13. De las afirmaciones siguientes la única que no es
+       A. El 20% del total de alimentos, corresponde a las         posible, para un barco que hizo su recorrido entre la
+           frutas.                                                 boya 1 y el mar, es:
+       B. El 30% del total de las frutas, proviene de la
+                                                                   A.   Encontró un puesto de control
+           región R3.
+                                                                   B.   Encontró dos puestos de control
+       C. El 20% del total de las frutas, corresponde a las
+                                                                   C.   Encontró tres puestos de control
+           uvas.
+                                                                   D.   No encontró puestos de control
+       D. El 40% del total del banano, proviene de la región
+           R1.
+                                                               14. Aceptando como verdadera la afirmación: “un barco
+11.
+                                                                   que ingresó por la boya 1 , encontró solamente dos
+      %
+                                                                   puestos de control en su recorrido al mar”. Entonces
+      70 -
+                                                                   de las afirmaciones siguientes, de la única que se
+      60 -
+                                                                   tiene certeza es:
+      50 -
+      40 -                                                         A.   El barco no salió por la boca A
+      30 -                                                         B.   El barco no salió por la boca B
+      20                                                           C.   El barco no salió por la boca C
+      10                                                           D.   El barco no salió por la boca D
+
+                                                                                                                       5
+                                                           19. Si el 17% de un número n es igual al 51% de 2500,
+15. De las proposiciones siguientes la única verdadera         entonces el valor de n es:
+    es:
+                                                                 A.   1833.
+   A. Si un barco no pasó por la boya 6, entonces, no            B.   3820.
+      pasó por la boya 5                                         C.   5000.
+   B. Si un barco pasó por la boya 6, entonces, pasó             D.   7500.
+      por la boya 5
+   C. Si un barco pasó por la boya 5, entonces, pasó       20. Cuando al tanque de gasolina de un avión le falta el
+      por la boya 6                                            45% de su capacidad para llenarse contiene 250
+   D. Si un barco no pasa por la boya 6, entonces,             litros más que cuando estaba lleno al 45% de su
+      tiene que pasar por la boya 5                            capacidad. La capacidad del tanque del avión en
+                                                               litros es:
+16. Si aceptamos como verdadera la proposición “Un
+    barco que ingresó por la boya 1, se encuentra ahora          A.   2500
+    en el mar y cruzó por mas de un puesto de control”.          B.   2250
+    Entonces de las afirmaciones siguientes, de la única         C.   2300
+    que se tiene certeza es:                                     D.   4500
+
+   A.   El barco paso por la boya 8                        21. El señor X, que perdió un dedo en su mano izquierda,
+   B.   El barco paso por la boya 6                            ha olvidado el Número de la clave de su tarjeta, pero
+   C.   El barco paso por la boya 5                            recuerda que los 4 números de la clave son
+   D.   El barco paso por la boya 7                            diferentes y son algunos de los números 2, 4, 5, 6, 7,
+                                                               9. Además el primer número es el número de dedos
+                                                               que tiene ahora en su mano izquierda y el segundo
+Preguntas 17 y 18.                                             es el numero de dedos que tiene en sus dos manos.
+                                                               El número máximo de intentos necesarios para
+   El gráfico muestra una estantería con frascos de            obtener la clave correcta es:
+   mermelada de 6 sabores así: Tomate, mango,
+   guayaba, papaya, naranja y fresa. Se sabe que:                A.   6.
+                                                                 B.   9.
+                         La mermelada de tomate está            C.   3.
+                          a la izquierda                         D.   12.
+                         La de mango está justo arriba
+                                                                               1/3                   2/3
+                          de la de tomate                  22.
+                         La de guayaba está en el                             P     A   B   C   D   Q
+                          estante más bajo.
+                         La de papaya está justo
+                                                                                     P
+                                                                 En la recta real los puntos A,B,C,D dividen en  5
+                          debajo de la de naranja.               partes iguales el segmento PQ. Entonces el número
+                                                                 real asociado al punto D es:
+
+17. De las siguientes afirmaciones, de la única que se           A.   5/9
+    tiene certeza es:                                            B.   3/5
+                                                                 C.   9/10
+   A. La mermelada de tomate está en el estante del              D.   5/6
+      medio
+   B. La mermelada de tomate esta en el estante de
+      abajo
+   C. La mermelada de fresa no está en el estante del      Preguntas 23 y 24
+      medio
+   D. La mermelada de guayaba está a la izquierda          Se define la operación en el conjunto de los números
+                                                           reales diferentes de cero así:
+18. Si adicionalmente se sabe que: la mermelada de
+    naranja comparte estante con la de tomate, entonces
+    las mermeladas ubicadas sobre la derecha de arriba
+    hacia abajo son respectivamente:                       23. El valor resultante de (3 2) 1 es:
+
+   A.   Mango, naranja, papaya                                   A.   -1/6
+   B.   Naranja, papaya, fresa                                   B.   -11/30
+   C.   Fresa, naranja, papaya                                   C.   2
+   D.   Naranja, papaya, guayaba                                 D.   0
+
+
+                                                                                                                   6
+24. Si a b = b a, entonces, de las afirmaciones               29. Dada la secuencia de números 1, 11, 111, 1111, ….
+    siguientes la única verdadera es:                             El dígito de las unidades de la suma de los primeros
+                                                                  30 elementos de esta sucesión es:
+    A. La igualdad se cumple para todos los reales
+       distintos de cero                                            A.   0.
+    B. La igualdad se cumple cuando uno de los dos es               B.   1.
+       igual a cero                                                 C.   2.
+    C. La igualdad se cumple siempre y cuando a=b ó                 D.   3.
+       a=-b, siendo a y b distintos de cero
+    D. La igualdad se cumple sólo cuando a=1 ó b=1            30. Los números AB4, B03, B3C, BA1 están ordenados
+                                                                  en una secuencia ascendente, de modo que la
+25. El número de niños de preescolar en una institución           diferencia entre 2 numeros       consecutivos es
+    educativa es mayor de 30 pero menor de 60. Si los             constante. Entonces los valores de A, B y C son
+    niños se filan de a 2, de a 3, de a 4 ó de a 6 siempre        respectivamente:
+    sobra un niño. Si se filan de a 7 no sobran ni faltan
+    niños. Entonces, el número exacto de niños de                   A.   6, 7, 2
+    preescolar es:                                                  B.   8, 7, 2
+                                                                    C.   7, 6, 1
+    A.   35                                                         D.   5, 6, 1
+    B.   42
+    C.   49                                                   31.
+    D.   56                                                                                  A
+                                                                                             .
+26. Carlos se ha ganado una rifa. El premio será darle                                B          C
+    durante 8 días cierta cantidad de dinero, así cada día
+    se le dará el triple del día anterior. Si el primer día
+    recibe 9 pesos, la cantidad total que recibirá es:          En la figura las cuatro circunferencias son tangentes y
+                                                                las circunferencia de centros en A, B y C tienen radio
+    A.   9x3x3x3x3x3x3x3.                                       igual a 2 unidades. Entonces el perímetro del ABC
+    B.   3 + 32+ 33 + 34 + 35 + 36 + 37 + 38                    es:
+    C.   38
+                                                                    A.   8
+    D.   32+ 33 + 34 + 35 + 36 + 37 + 38 + 39
+                                                                    B.   12
+                                                                    C.   14
+Preguntas 27 y 28
+                                                                    D.   16
+Un colegio ha recibido dos propuestas de dos empresas
+                                                              32. Una barra de acero en forma de paralelipedo
+A y B para el transporte de los alumnos del grado 11 a un
+                                                                  rectangular, con dimensiones 2 cm x 3 cm x 4 cm, se
+sitio recreativo que se describen así:
+                                                                  funde para formar tres cubos de igual volumen. La
+ La empresa A cobra un costo fijo de $148000 y
+                                                                  logitud del lado de cada cubo en cm es:
+    $15000 por cada alumno trasportado.
+ La empresa B cobra un costo fijo de $400000 y 11000
+    por cada alumno transportado.                                   A.   1
+                                                                    B.   2
+27. El número de alumnos que se requiere tranportar                 C.   3
+                                                                               4 cm
+    para el cual el costo de las propuestas de las dos              D.   4
+    empresas resulta ser igual es:                                                           x
+                                                                                                 3 cm
+                                                                                      2 cm
+    A.   60
+    B.   62                                                   33. La siguiente figura consta de nueve cubos pegados:
+    C.   63
+    D.   66
+
+28. El número mínimo de alumnos que se requieren
+    tranportar, a partir del cual el costo de la propuesta
+    de la empresa B es menor que el de la empresa A es:             Usando esta figura como base, la menor cantidad de
+                                                                    cubitos que faltan para construir un cubo sólido es:
+    A.   59
+    B.   64                                                         A.   18.
+    C.   65                                                         B.   27.
+    D.   67                                                         C.   55.
+                                                                    D.   64.
+
+
+                                                                                                                       7
+34. Se corta un alambre de 12 m de logitud en dos partes          El área de la figura pintada en m2 es:
+    y cada una de ellas se dobla para formar un
+    cuadrado. Si el área total comprendida es 80 m 2.             A.   18
+    entonces la longitud del trozo de alambre mayor en m          B.   20,5
+    es:                                                           C.   21
+    A. 5                                                          D.   24,5
+    B. 6
+    C. 7
+    D. 8                                                    39.
+
+35. Cuando un hombre que camina proyecta una sombra
+    igual a su altura, entonces el angulo de elevación θ                      49                     15
+    del sol es:
+
+
+                                                            Se marcan n puntos: 1, 2, . . ., n sobre una circunferencia,
+   A.   30°                                                 y se ubican a igual distancia unos de otros. Si el punto
+   B.   45°                  h                              marcado 15 está directamente opuesto al 64 marcado 49,
+   C.   60°                                                el número de puntos marcados en la circunferencia es:
+   D.   70°       h h
+                                                                  A.   64
+36. Dos cuadrados de lados 6 y 4 unidades,                        B.   66
+    respéctivamente, se traslapan como lo muestra la              C.   68
+    figura.                                                       D.   70
+
+                                                            40.
+                            1          4
+                                                                                          3
+              6
+                            1
+                                                                               2    6     S      T
+
+                                                                                   R
+    La diferencia entre las áreas que no se traslapan es:
+   A.   30                                                        La figura muestra el desarrollo de un cubo. Si la
+   B.   26                                                        suma de los números correspondientes a dos caras
+   C.   20                                                        opuestas es 7, entonces R y S, son respectivamente:
+   D.   16
+                                                                  A.   1,5
+37. El número máximo de paquetes de dimensiones 3 x 4             B.   4,1
+    x 5 cm que puede colocarse en una caja de                     C.   4,5
+    dimensiones 9 x 12 x 10 cm es:                                D.   5,1
+
+   A.   10
+   B.   12
+   C.   18
+   D.   24
+
+38. Sobre una pared dividida en cuadros de 1 m de lado
+    se pinta una letra Z como lo indica la figura:
+
+
+                                                                                                                      8
+▲ EXAMEN DE COMPETENCIA LECTORA ▲
+
+
+                                    9
+Preguntas del 41 al 61                                               incomunicadas entre sí. Romperlas ahora sería empresa de
+                                                                     urbe mundial y millonaria.
+
+                            Texto 1                                  […]
+
+                                                                     8 Conste, en fin, que el trazado de Nuestra Villa es confuso;
+1 Como un signo + cuartean la ciudad la carrera Carabobo y la
+                                                                     que Ayacucho y Carabobo, únicas a quienes no interrumpe vía
+calle de Ayacucho; aquella del Norte al Mediodía; ésta de
+                                                                     alguna, son paladinas y triunfales como los hechos que
+Oriente a Ocaso. Ni una ni otra enmarcan la plaza principal, cual
+                                                                     conmemoran.
+si quisieran valer por sus méritos propios. La carrera le pasa a
+una cuadra, por el Occidente; la calle a una cuadra, por el Sur,
+                                                                     9 Dicen libros muy sabios de filósofos patagones, que el enredo
+para formarle aledaños medio regulares, siquiera por dos lados,
+                                                                     material enreda los espíritus. Según eso, el alma medellinita
+ya que la calle y la carrera opuestas rompen el paralelismo del
+                                                                     debe ser una maraña. ¡Hasta lo será! Aquí no hay tipo ni
+trazado, con su desvío la carrera; la calle con unos quingos
+                                                                     agrupación que puedan encarnar esta montanera tan
+fementidos y afrentosos.
+                                                                     heterogénea. Ni el interés monetario, ni el amor al suelo y al
+                                                                     trabajo, ni la misma verbosidad hiperbólica son aquí generales.
+[…]
+                                                                     Sólo la autonomía individual puede sumarnos, porque aquí cada
+                                                                     uno es Juan Memando y… ¡San-se-acabó!
+2 Carabobo y Ayacucho son las vías más largas de la ciudad
+progresista. La carrera la parte muy gentil de banda a banda; la
+calle arranca de la propia ribera del Aburra (hoy, río Medellín) y
+se trepa glorificada hasta las alturas de Miraflores. A medida
+que se alejan de las estrecheces peninsulares, se ensanchan,         41. Del párrafo tres se deduce que:
+se dilatan, se embellecen, bien así como las colonias de España
+se emanciparon. Por algo tienen nombres libertadores. Ni se                A.   las calles irregulares y angostas son típicas de las
+sabe cuántas cuadras miden; pues esto de cortes en las vías                     ciudades antiguas
+públicas es aquí como la ética: cambia según el lugar y el                 B.   Medellín es una ciudad progresista
+tiempo. Tiradas a cordel ofrecerían una perspectiva admirable,             C.   los fundadores de Medellín no sabían trazar calles ni
+divisaríanse confundidas en un punto oscuro, allá donde lo                      carreras
+visual termina.                                                            D.   una ciudad se funda a través de planos
+
+3     Bien se ve que los hijos de Pelayo, tan godos y                42. Si los españoles no estaban para fundar por planos a
+tradicionalistas, quisieron imitar, en estas sus posesiones                Medellín, como lo dice este tercer párrafo: “ni menos ellos”,
+andinas, las calles irregulares y angostas de sus villejas                 era porque:
+castellanas. Tampoco era la época, ni menos ellos, para
+fundaciones por planos.                                                    A.   querían imitar aquí, en Medellín, las calles de su
+                                                                                castilla natal
+[…]                                                                        B.   no era la época para trazar planos
+                                                                           C.   estaban apegados a sus tradiciones y costumbres
+4 Estos recintos, cerrados por casas, que llaman manzanas, y               D.   la ingeniería civil no había avanzado tanto
+que suponen cien varas en cuadro, son aquí muy irregulares en
+sí mismos y harto desiguales entre sí por forma y por medida.        43. De acuerdo con los párrafos cuatro y cinco, es posible
+Pocas tienen sus ángulos rectos y (son) contadas las de lados              concluir, entonces, que las manzanas de la ciudad de
+iguales.                                                                   Medellín, en su trazado, le dan el aspecto de:
+
+5 Con frecuencia se pierde la recta en las demarcaciones                   A.   callejón sin salida
+murales, ya en línea quebrada, ya en línea ondulada, ya hacia              B.   laberinto de caprichosas formas
+adentro, ya hacia fuera de la calle. Hay manzanas en trapecios,            C.   intrincado y antiguo castillo medieval
+en trapezoides y hasta en rombos; las hay combinadas, en                   D.   clásico y moderno castillo renacentista o neoclásico
+rectas y curvas; las hay en formas al acaso; de las calles… ¡no
+se diga! Unas son culebras, otras garabatos, y algunas,              44. "Las gentes que vinieron después", en el sexto párrafo se
+mismamente esas centellas que pintan en los calvarios.                     refiere a los:
+
+6 Las gentes que vinieron después ¿qué iban a hacer para                   A.   nuevos españoles
+compaginar lo viejo con lo nuevo? Pues empeorar lo chapetón.               B.   descendientes de los chapetones nacidos en Medellín
+Romper aquí, empatar allá; sacar manzanas en triángulo, en                 C.   nuevos ingenieros civiles
+pentágono, en bonetes, en demonios coronados; apurar la                    D.   gafos y los apestados
+hispánica torcedura: porque los muertos mandan, aunque nos
+pese a los vivos, mayormente en cosas que perduran.                  45. De la lectura del párrafo uno, se deduce que las carreras y
+                                                                           las calles, en cualquier ciudad, van respectivamente, en los
+7 Pero esto es lo de menos; lo de más es aquello de topetarse              siguientes sentidos:
+unas calles con otras; de interrumpirse aquí para seguir más
+allá o para no seguir; es aquello de incomunicar, como si fueran           A.   de Sur a Norte y de Oriente a Occidente
+para gafos o apestados. Estos resabios coloniales, o si se                 B.   de Oriente a Occidente y de Sur a Norte
+quiere estilos, en achaques de edificaciones y ensanches                   C.   de Norte a Sur y de Oriente a Occidente
+urbanos, apenas si han desaparecido de quince años para acá.               D.   del amanecer al Mediodía y del Ocaso al anochecer
+No hace veinticinco principió el trazado de estas hermosas
+calles de Caracas, Perú, Bolivia, Argentina y la Independencia,      46. “Cuartear la ciudad” quiere decir:
+y sin embargo, las cinco miden en su primer estadio trunco, algo
+más de dos cuadras. No las partieron por la mitad como lo                  A.   mancharla
+indica el sentido común. Tan vecinas y todo han quedado harto              B.   ponerla en cuarentena
+
+                                                                                                                                       10
+     C.   partirla en trozos                                             C.    la continuidad o no de las calles
+     D.   dividirla en cuatro                                            D.    los ensanches urbanos
+
+47. Si la disposición de Carabobo y de Ayacucho es como la de       54. En este mismo párrafo siete y teniendo en cuenta que el
+    las dos líneas que forman un signo más (+), puede decirse           artículo fue escrito en 1919, puede decirse que la
+    que todas las siguientes afirmaciones son ciertas, menos:           modernización en el trazado de las calles de Medellín
+                                                                        empezó,     más     o  menos,   hacia    el  año:
+     A.   Carabobo y Ayacucho se comunican en un punto
+     B.   Carabobo es la que va de Norte a Sur
+     C.   Carabobo es la vertical y Ayacucho la horizontal               A. 1895
+     D.   Carabobo es la horizontal y Ayacucho la vertical               B. 1925
+                                                                         C. 1900
+48. La palabra “quingos” significa zigzag. De acuerdo con esto,          D. 1704
+    la que tiene forma de zigzag es la:
+                                                                    55. En conclusión, las calles de Caracas, Perú, Bolivia,
+     A.   plaza principal
+                                                                        Argentina y la Independencia:
+     B.   carrera Carabobo
+     C.   desviación de la calle Ayacucho
+     D.   calle opuesta a la calle Ayacucho                              A.    pertenecen a ese movimiento de renovación urbana
+                                                                         B.    son un testimonio de la lucha inevitable entre lo
+49. Los siguientes lugares se refieren al punto oscuro en el que               tradicional y lo nuevo
+    se confundirían estas dos vías, excepto:                             C.    son resabios coloniales en achaques de edificaciones
+                                                                               y ensanches urbanos
+     A.   encuentro entre las dos                                        D.    hacen honor a sus nombres, como la calle Ayacucho
+     B.   corte entre Ayacucho y Carabobo
+     C.   altura máxima de Miraflores                               56. De la calle Ayacucho y de la carrera Carabobo, puede
+     D.   punto central de la perspectiva que ofrecerían al             concluirse, entonces, según el último párrafo, que son
+          observador                                                    “paladinas y triunfales, como los hechos que conmemoran”,
+                                                                        porque:
+50. En el texto, los españoles que llegaron a Medellín son
+    llamados con los siguientes nombres, menos:                          A. esos hechos son dos batallas de independencia: la de
+                                                                               Ayacucho y Carabobo
+     A.   peninsulares                                                   B. no excluyen a los gafos (bobos) ni a los apestados,
+     B.   hijos de Pelayo                                                      puesto que se comunican entre sí
+     C.   chapetones                                                     C. son progresistas o modernas, porque se trazaron
+     D.   gafos o apestados                                                    muchos años después de la colonia
+                                                                         D. en su continuidad, marcan diferencia con las vías
+51. La respuesta a la pregunta que se formula en este sexto                    angostas e irregulares y lo que ellas significan
+    párrafo es:
+
+     A.   empeorar lo chapetón y apurar la hispánica torcedura      57. Puede decirse que el tema general del texto, aquello de lo
+          de las calles                                                 que se habla, es:
+     B.   empeorar lo chapetón, o sea, apurar la hispánica
+          torcedura de las calles                                        A.    la ciudad de Medellín
+     C.   solamente empeorar lo chapetón                                 B.    el trazado de sus vías
+     D.   solamente apurar la hispánica torcedura
+                                                                         C.    los constructores civiles
+                                                                         D.    la confusión de las vías en Medellín
+52. La razón o causa de esto que hicieron “las gentes que
+    vinieron después” fue, según ese párrafo, que "los muertos
+    mandan, aunque nos pese a los vivos, mayormente en              58. De acuerdo con ello, los dos subtemas que lo componen
+    cosas que perduran". Esto significa que:                            son:
+
+     A.   los primeros trazados de las vías no se podían                 A.    las vías y las manzanas
+          enderezar                                                      B.    los constructores modernos y los antiguos
+     B.   lo que dijeron los primeros constructores de vías no se        C.    la fundación y el desarrollo de la ciudad
+           podía contradecir                                             D.    la comunicación o incomunicación entre las calles
+     C.   las tradiciones y costumbres que se heredan influyen
+           poderosamente sobre los intentos de renovación en
+           las nuevas generaciones                                  59. Lo que el texto dice de esos subtemas, puede sintetizarse
+     D.   lo que los muertos representan para los vivos hace            en el siguiente calificativo:
+           que, para honrar su memoria, se respeten sus
+           palabras y sus obras.                                         A.    confusos
+                                                                         B.    contrarios
+53. El séptimo párrafo empieza contrastando “lo de menos” con            C.    incomunicadores
+    “lo de más”. “Lo de más” es el efecto o consecuencia de              D.    imposibles
+    esa causa; en ese sentido, se trata de:
+                                                                    60. El par principal de opuestos que atraviesa todo el texto,
+     A.   la incomunicación                                             concretando ese calificativo general para los subtemas es
+     B.   los resabios coloniales                                       el de lo:
+                                                                                                                                   11
+                                                                     A su Pluma de oro entra ahora la muchacha que desciende de
+     A.    recto y lo curvo                                          su automóvil, y que irá de paseo mañana domingo y que desea
+                                                                     llevar un libro suave, consonante con sus emociones amorosas.
+     B.    nuevo y lo viejo
+                                                                     Necesita un libro que la acaricie allá, bajo el boscaje antioqueño
+     C.    ordenado y lo desordenado                                 y que pueda dejar allá, tirado sobre la hojarasca, en recuerdo de
+     D.    regular y lo irregular                                    su amor fugaz. Entra también el señor grave que se irá mañana
+                                                                     en avión y que desea coger algunas ideas sobre derechismo e
+61. El contraste principal del texto está dado entre:                izquierdismo, para poder conversar en Bogotá, con “esos
+                                                                     jóvenes de los cafés y los ministerios”. Si no lo hiciere, ¿cómo
+                                                                     logrará que le otorguen la concesión para los platanales en
+     A.    la carrera Carabobo y la calle Ayacucho                   Urabá? El señor cura entra también a buscar la biografía de
+     B.    las manzanas y las calles                                 Jesucristo, la de San Pablo o la de San Luis, para sus bellos
+     C.    España y Medellín                                         sermones en el pueblo lejano… ¡Todo ello por 0.40, 0.50 o
+     D.    Carabobo y Ayacucho y las demás vías de Medellín          0.60!...
+
+                                                                     ¡Eso hacía mucha falta, don Guillermo!
+
+                                                                     Reciba un abrazo por ese remanso del espíritu que tiene usted
+Preguntas del 62 al 70                                               en Carabobo, precisamente en el rincón que forma una casa
+                                                                     que se sale impertinentemente a media calle, como para atajar
+                                                                     al judío antioqueño, diciéndole: “Entre usted a La pluma de oro”.
+                             Texto 2
+                                                                     Fernando González.
+
+Envigado, abril 1 de 1936                                            Nota: En este texto, el autor se refiere a la carrera Carabobo,
+                                                                     como una calle, en el sentido de ser una vía de la ciudad, y no
+A Don Guillermo Johnson                                              en el de su orientación.
+
+Medellín
+
+Muy querido amigo:                                                   62. El rincón al que se refieren este párrafo y el último, se
+                                                                         formó gracias a:
+Permítame felicitarlo por su librería y editorial La pluma de oro.
+Usted le ha dado novedad a esto de librerías en Medellín.
+Usted, y el doctor Marco Aurelio Arango con su editorial
+                                                                          A.   la calle que se mete en la carrera Carabobo,
+                                                                             formando un ángulo recto
+Atlántida, están remozando el espíritu antioqueño.
+                                                                          B. la carrera Carabobo que es interrumpida por una
+Hacía falta ese lugar en la carrera Carabobo, en ese rincón o                casa, que la hace más angosta
+remanso de la calle populosa, la más antioqueña de Medellín.              C. un ángulo recto que se forma en la carrera Carabobo
+Precisamente allí donde es mayor el tráfico, yendo de sur a               D. una casa que interrumpe la carrera Carabobo en el
+norte, a poco de pasar el Palacio de Justicia, sale                          medio, haciéndola más estrecha y formando un
+repentinamente una casa y se mete en la calle, angostándola y                ángulo recto
+dejando un rincón, formando un ángulo recto: pues allí, en ese
+remanso, era el lugar propio para vender el libro moderno, las       63. Las “obras modernas” son:
+ediciones baratas y elegantes de “las obras maestras”.
+
+¿Ha puesto usted la atención en estos automóviles modelos                 A.   obras maestras
+1936, tan lanzados, tan ruteros, tan livianos y tan poderosos?            B.   obras antiguas editadas de otra manera
+Pues en su Pluma de oro vende usted esas ediciones de las                 C.   libros elegantes y baratos
+“obras modernas”, ligeras también, lanzadas también, ruteras              D.   ediciones abreviadas de las obras maestras
+poderosas de los caminos del alma.
+
+La Librería, en Medellín, era, hasta usted, almacén pesado,
+                                                                     64. Los libros que vende La pluma de oro son "ruteros",
+                                                                         porque:
+carísimo, en donde se entraba de vez en vez a bregar por
+comprar las ideas generales, o bien, a comprar “un libro para
+regalo en los exámenes de la Universidad o en el acto público             A. sus lanzamientos son livianos
+de los reverendos padres”.                                                B. fueron editados en 1936, el mismo año en que
+                                                                               salieron los autos ruteros
+Recuerde usted u observe esas librerías, con sus mamotretos               C. porque recorren las rutas del alma
+de a cinco pesos, empolvadas ya las partes superiores del                 D. son modernos
+rimero de hojas…
+
+No; era preciso hacer que el libro fuera poderoso andarín,           65. Lo que celebra, concretamente, la carta es, esencialmente:
+barato, de bolsillo. Marco Aurelio Arango en su Atlántida y usted
+en su Pluma de oro, han dado lo que necesitábamos en                      A.   la apertura de una nueva librería en la ciudad
+Colombia: ya no habrá esas ediciones colombianas que                      B.   que haya ediciones más favorables
+parecen todas “Informes de Asamblea”, o bien, de cuadernillos             C.   que haya un remanso de paz en la ciudad
+gruesos, como si fueran sacos de cabuya doblados. ¡Qué
+hermosas ediciones hace la Atlántida!
+                                                                          D.   que se renueve el espíritu antioqueño
+
+
+                                                                                                                                   12
+66. "La pluma de oro" es un remanso, según el segundo
+    párrafo de la carta, porque está situada en:                        A.   épocas: la antigua y la moderna
+                                                                        B.   formas de pensar: la tradicional y la moderna
+     A.   un rincón de la carrera Carabobo                              C.   momentos de la historia de una ciudad
+     B.   la calle más antioqueña de la ciudad                          D.   tipos de calles y dos tipos de ediciones
+     C.   la calle más populosa y de mayor tráfico de la ciudad
+     D.   en un lugar apropiado para vender libros modernos        73. El tema común a los dos textos es:
+
+67. La expresión "ruteras poderosas de los caminos del alma",           A.   la ciudad de Medellín
+    supone que:                                                         B.   lo viejo de Medellín
+                                                                        C.   lo nuevo de Medellín
+     A.   el alma tiene caminos                                         D.   las gentes de Medellín
+     B.   todas las almas son distintas                            74. Y sus tópicos o subtemas son, respectivamente, para el
+     C.   no es fácil transitar los caminos del alma                   texto 1 y para el texto 2:
+     D.   el alma se puede transitar
+                                                                        A.   el progreso y lo nuevo
+68. Si las ediciones de bolsillo son "poderosas ruteras" de los         B.   las viejas calles y las nuevas librerías
+    caminos del alma, es porque:                                        C.   avenidas y librerías
+                                                                        D.   Carabobo y Ayacucho, y La pluma de Oro
+     A. encuentran el tema, las palabras y el tono para
+        llegarle al lector común y corriente, pero también al      75. En ese sentido, ambos tomaron partido por lo:
+        estudioso, especialista.
+     B. por ser de bolsillo, pueden ir a los bosques
+        antioqueños, a Bogotá o a cualquier ciudad del mundo            A.   más reciente
+     C. pueden transitar la pereza, la falta de tiempo o alguna         B.   nuevo
+        ignorancia en los lectores                                      C.   progresista
+     D. hasta “los judíos” antioqueños las pueden comprar               D.   moderno
+
+
+69. También son livianos, por todas las siguientes razones,        76. El concepto de “moderno” para Carrasquilla y González es,
+    menos:                                                             respectivamente:
+
+
+     A.   tienen menos hojas que las obras maestras                     A.   progresista y rejuvenecedor
+     B.   cuestan menos que los libros antiguos                         B.   confuso y barato
+     C.   "vuelan" por los caminos del alma                             C.   chapetón o colonial, y poderoso
+     D.   puede llevarse a todas partes y en toda ocasión               D.   autóctono o propio, y moderno
+
+
+70. El poder de estas ediciones está en que:                       77. De acuerdo con el último párrafo del texto de Carrasquilla,
+                                                                       puede decirse que el trazado de las vías de una ciudad:
+     A.   se pueden llevar a cualquier parte
+     B.   se pueden comprar sin motivo alguno                           A. enreda el alma de los que la habitan
+     C.   llegan a cualquier tipo de lector                             B. expresa la heterogeneidad de la forma de ser de sus
+     D.   tratan diversos temas                                              habitantes
+                                                                        C. modifica el espíritu de sus habitantes
+                                                                        D. vuelve maraña el alma de las gentes
+Preguntas a los textos 1 y 2 del 71 al 80
+                                                                   78. En cambio, el texto de Fernando González plantea que lo
+                                                                       que puede cambiar el espíritu de sus gentes es:
+71. Si se escribiera un libro en el que estos dos textos
+    constituyeran un capítulo, y los demás capítulos fueran             A.   las librerías
+    referidos a otras ciudades del mundo, respecto a los                B.   los libros
+    mismos tópicos, pudiera decirse que el título más adecuado          C.   la lectura
+    para ese libro sería:                                               D.   los remansos de paz
+
+     A.   Ciudades, calles y libros                                79. Las calles regulares y los libros modernos, según los
+     B.   Lo nuevo y lo viejo en las ciudades modernas                 textos, significan en una ciudad, respectivamente:
+     C.   Colonialismo y progreso en una ciudad
+     D.   Novedades y espejismos en las ciudades                        A.   colonialismo y pesadez
+                                                                        B.   progreso y modernidad
+72. A pesar de la diferencia entre las fechas en que fueron             C.   independencia y renovación del espíritu
+    escritos los dos textos: 1919, el texto 1, por don Tomás            D.   amplitud y paz en la ciudad
+    Carrasquilla; y, 1936, el texto 2, por Fernando González; y,
+    a pesar de la distancia que hay respecto a nuestra época,
+    puede decirse que los autores contraponen dos:
+                                                                                                                                 13
+80. De acuerdo con ello, puede decirse que el vínculo temático
+    general entre los dos textos se puede expresar a través del
+    siguiente rótulo:
+
+     A. el espíritu de la ciudad a través de sus calles y lo que
+         cambia
+     B. lo confuso y pesado del espíritu de una ciudad
+     C. espejo y renovación de una ciudad
+     D. novedades y atrasos de una ciudad
+
+
+                                                                   14

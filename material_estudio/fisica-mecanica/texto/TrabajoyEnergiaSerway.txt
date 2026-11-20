@@ -1,0 +1,1157 @@
+Un estudiante trabaja con el
+sistema pogo-stickstudent,
+midiendo el aumento de su
+altura en cada salto. El trabajo
+que se transforma en energía
+potencial gravitatoria a la
+máxima altura, se convirtió
+en energía cinética al caer y
+se almacena como fuente de
+energía potencial después del
+contacto con el suelo.
+
+
+                                                    Chris Vuille
+
+
+       5 Energía                      Energía es uno de los conceptos más importantes en el mundo de la ciencia. El uso cotidiano de
+                                      la energía se asocia con el combustible necesario para el transporte y calefacción, con electrici-
+5.1 Trabajo                           dad para la iluminación y aparatos eléctricos y con los alimentos que consumimos. De cualquier
+5.2 Energía cinética y el teorema     modo, estas asociaciones no dicen qué es la energía, sólo lo que hace, y lo que produce requiere
+    trabajo-energía                   combustible. Debido a eso, el objetivo en este capítulo es desarrollar una mejor comprensión de
+                                      la energía y cómo cuantificarla.
+5.3 Energía potencial gravitacional       La energía está presente en el Universo en una variedad de formas, que incluyen energía
+5.4 Energía potencial elástica        mecánica, química, electromagnética y nuclear. Incluso la masa inerte de la materia común con-
+                                      tiene una gran cantidad de energía. Aunque la energía se puede transformar de una clase a
+5.5 Sistemas y conservación           otra, a la fecha todas las observaciones y experimentos sugieren que la cantidad total de energía
+    de energía
+                                      en el Universo nunca cambia. Esto también es verdadero para un sistema aislado, un conjunto
+5.6 Potencia                          de objetos que pueden intercambiar energía entre sí, pero no con el resto del Universo. Si una
+                                      forma de energía en un sistema aislado disminuye, entonces otra forma de energía debe aumen-
+5.7 Trabajo realizado por una
+                                      tar en el sistema. Por ejemplo, si el sistema consiste en un motor conectado a una batería, ésta
+    fuerza variable
+                                      convierte la energía química a energía eléctrica, y el motor convierte energía eléctrica a energía
+                                      mecánica. En todas las ciencias es esencial comprender cómo cambia la energía de una forma
+                                      a otra.
+                                          Este capítulo se concentra principalmente en la energía mecánica, que es la suma de la ener-
+                                      gía cinética, es decir la energía asociada con el movimiento, y la energía potencial, la energía
+                                      asociada con la posición relativa. Con frecuencia utilizar una aproximación de energía para resol-
+                                      ver ciertos problemas es mucho más fácil que utilizar fuerzas y las tres leyes de Newton. Estos
+                                      dos diferentes planteamientos se unen a través del concepto de trabajo.
+
+
+                                        5.1 Trabajo
+                                      En física, el trabajo tiene un significado diferente del que se utiliza comúnmente. En la
+                                      definición de la física, un programador realiza muy poco trabajo al mecanografiar con-
+                                      tinuamente en una computadora. Por el contrario, un constructor puede hacer mucho
+
+
+124
+                                                                                                                                     5.1 | Trabajo
+
+trabajo colocando bloques de cemento. En física, se realiza trabajo sólo si un objeto se
+desplaza de un punto a otro mientras se le aplica una fuerza. Si se duplica cualquiera de los
+dos, ya sea la fuerza o el desplazamiento, el trabajo se duplica. Duplique los dos, y el trabajo
+se cuadruplica. Realizar trabajo implica aplicar una fuerza a un objeto mientras se mueve
+una distancia determinada.
+    La definición de trabajo W puede ser tomada como
+                                                      W 5 Fd                                                   [5.1]     b Definición intuitiva
+                                                                                                                           de trabajo
+donde F es la magnitud de la fuerza que actúa sobre el objeto y d es la magnitud de despla-
+zamiento del objeto. Esta definición, sin embargo, sólo da la magnitud del trabajo realiza-
+do sobre un objeto cuando la fuerza es constante y paralela al desplazamiento, que debe
+ser a lo largo de una recta. Una definición más formal es necesaria.
+                                                                              S
+    La figura 5.1 muestra un bloque que se somete a unS desplazamiento Dx a lo largo de
+una línea recta mientras actúa en él una fuerza constante F en la misma dirección. Se tiene la
+siguiente definición:
+                                                                                                 S
+    El trabajo W realizado sobre un objeto mediante una fuerza constante F durante un
+    desplazamiento lineal a lo largo del eje x es
+                                                        W 5 Fx Dx                                          [5.2]         b Trabajo realizado por una
+                                                            S                                                              fuerza constante a lo largo
+    donde Fx es la componente x de la fuerza F y Dx 5 xf 2 xi es el desplazamiento del                                     de un desplazamiento en
+    objeto.                                                                                                                línea recta
+    Unidad SI: joule (J) 5 newton ? metro (N ? M) 5 kg ? m2/s2
+                                                                                                                                       S
+Tenga en cuenta que en una dimensión, Dx 5 xf 2 xi es una magnitud vectorial, como se                                                  F
+definió en el capítulo 2, no una magnitud que podría deducirse de la definición de un
+vector y su magnitud en el capítulo 3. Por lo tanto, )x puede ser positivo o negativo. El
+trabajo como se define en la ecuación 5.2 se utiliza únicamente para los desplazamientos
+                                                                                                                                            S
+de cualquier objeto a lo largo el eje x, mientras que una fuerza constante actúa sobre él                                                  x
+y, por lo tanto, es conveniente para muchos problemas unidimensionales. El trabajo es                                    Figura 5.1 Una fuerza constante F
+                                                                                                                                                            S
+
+un número positivo si Fx y )x son ambas positivas o negativos, en cualquier caso, como se                                en la misma dirección que el despla-
+                                                                                                                                    S
+explica en la siguiente sección, el trabajo aumenta la energía mecánica del objeto. Si Fx                                zamiento, )x, realiza trabajo F )x.
+es positivo y )x es negativa, o viceversa, entonces el trabajo es negativo, y el objeto pierde
+energía mecánica.
+            S
+                       La definición en la ecuación 5.2 funciona incluso cuando la fuerza
+constante F no es paralela al eje x. El trabajo es realizado sólo por la parte de la fuerza que
+actúa paralelamente a la dirección del movimiento del objeto.
+    Es fácil ver la diferencia entre la definición física y la definición común de trabajo.
+El programador ejerce muy poca fuerza sobre las teclas de un teclado, al producir sólo
+pequeños desplazamientos, de tal manera que se realiza relativamente poco trabajo físico.
+El constructor debe aplicar mayor fuerza en los bloques de cemento y moverlos distancias
+significativas y así realizar una cantidad de trabajo mucho más grande. No obstante, inclu-
+so tareas muy fastidiosas no pueden evidenciar trabajo según la definición de la física. Por
+ejemplo, un chofer de camión puede conducir por varias horas, pero si él no ejerce una
+fuerza, entonces Fx 5 0 en la ecuación 5.2, y él no realiza trabajo alguno. De la misma ma-
+nera, un estudiante, al hacer presión contra un muro por horas en un ejercicio isométrico,                                Tip 5.1 El trabajo es
+                                                                                                                          una cantidad escalar
+tampoco realiza trabajo, debido a que el desplazamiento )x en la ecuación 5.2 es cero.1
+Atlas, en la mitología griega, sostiene el mundo sobre sus hombros, pero eso, también, no                                 El trabajo es un simple número,
+                                                                                                                          un escalar, no un vector, de tal
+calificaría como trabajo en la definición de la física.
+                                                                                                                          modo que no existe dirección aso-
+    Trabajo es una cantidad escalar, un número, en lugar de un vector; en consecuencia,                                   ciada con él. Además, la energía
+es más fácil de manejar. Ninguna dirección se asocia con él. Debido a eso, el trabajo no de-                              y la transferencia de energía son
+pende explícitamente del tiempo, que puede ser una ventaja en problemas que involucren                                    también escalares.
+
+
+1
+ En realidad, gasta energía mientras realiza ejercicio isométrico a causa de que sus músculos se contraen y se relajan
+de manera continua en el proceso. Este movimiento muscular interno se califica como trabajo de acuerdo con la defi-
+nición de la física.
+         CAPÍTULO 5 | Energía
+
+                       S                    sólo velocidades y posiciones. Debido a que las unidades de trabajo son las de la fuerza y
+                       F
+                                            distancia, la unidad SI es el newton-metro (N ? m). Otro nombre para el newton-metro es
+               u                            el joule (J). La unidad de trabajo estándar en Estados Unidos es el pie-libra, ya que en ese
+               F cos u                      sistema las distancias se miden en pies y las fuerzas, en libras.
+                                                 Una definición alterna relaciona el trabajo realizado sobre un objeto con el ángulo que
+                       S
+                                            el desplazamiento forma con respecto a la fuerza.S
+                                                                                               Esta definición utiliza el triángulo mostra-
+                   x                       do en la figura 5.2. Las componentes del vector F se pueden escribir como Fx 5 F cos u y Fy 5
+                                        S   F sen u. Sin embargo, sólo la componente x, que es paralela a la dirección del movimiento,
+Figura 5.2 Una fuerza constante F
+ejercida en un ángulo u con respecto
+                                            hace una contribución distinta de cero no nula al trabajo realizado en el objeto.
+                    S
+al desplazamiento, )x, realiza tra-
+                                                                                                                         S
+bajo (F cos u) )x.
+                                               El trabajo W realizado sobre un objeto mediante una fuerza constante F durante un
+                                                                               S
+                                               desplazamiento en línea recta Dx es
+     Trabajo realizado por una c
+        fuerza constante en un                                                     W 5 (F cos u)d                                 [5.3]
+     ángulo al desplazamiento
+                                               dondeS d es la magnitud del desplazamiento del objeto y u es el ángulo entre los vec-
+                                                                                    S
+                                               tores F y el vector desplazamiento, Dx .
+                       S
+                       F                       Unidad SI: joule (J)
+
+                                                La definición de la ecuación 5.3 también se puede utilizar de manera más general
+                                            cuando el desplazamiento no es específicamente a lo largo del eje x o cualquier otro eje.
+                                                En la figura 5.3 un hombre transporta horizontalmente una cubeta con agua, con ve-
+                                            locidad constante. La fuerza ascendente ejercida en la cubeta por la mano del hombre es
+                                            perpendicular a la dirección del movimiento, de esta manera no se realiza trabajo sobre
+                               S            la cubeta. Además, esto puede ser visto en la ecuación 5.3 debido a que ángulo entre la
+                           x
+                                            fuerza ejercida por la mano y la dirección de movimiento es de 90°, dando cos 90° 5 0 y
+              S        S                    W 5 0. De la misma manera, la fuerza de gravedad no realiza trabajo sobre la cubeta.
+              Fg = m g
+                                                El trabajo siempre requiere un sistema de más de un objeto. Por ejemplo, un clavo
+                                            no puede realizar trabajo en sí mismo, pero un martillo puede hacer trabajo sobre el cla-
+Figura 5.3 Ningún trabajo se rea-
+liza sobre una cubeta cuando ésta se        vo impulsándolo hacia dentro de una tabla. En general, un objeto puede estar en movi-
+traslada horizontalmente a causa de         miento bajo la influencia de varias fuerzas externas. En ese caso, el trabajo total realizado
+                   S
+la fuerza aplicada F que es perpen-         sobre el objeto cuando éste se somete a algún desplazamiento es precisamente la suma de
+dicular al desplazamiento.                  la cantidad de trabajo realizado por cada fuerza.
+                                                El trabajo puede ser negativo o positivo. En la definición de trabajo en la ecuación
+ Tip 5.2 El trabajo es                      5.3, F y d son magnitudes, que jamás son negativas. Debido a eso, el trabajo es positivo o
+ realizado por algo,                        negativo dependiendo
+                                                            S
+                                                                     de si cos u es positivo o negativo. En su momento, esto depende de
+                                                                                            S
+ sobre algo                                 la dirección de F relativa a la dirección de Dx . Cuando estos vectores apuntan en la misma
+ El trabajo no resulta por sí               dirección, el ángulo entre ellos es 0°, así cos 0° 5 11, y el trabajo es positivo. Por ejemplo,
+ mismo. El trabajo se realiza por           cuando un estudiante levanta una caja como en la figura 5.4, el trabajo que hace en la caja
+ algo en el entorno, sobre el objeto        es positivo debido a que la fuerza que se ejerce sobre la caja es hacia arriba, en la misma di-
+ de interés.                                rección que el desplazamiento. De cualquier modo, al bajar la caja lentamente de regreso,
+                                            el estudiante todavía ejerce una fuerza hacia arriba sobre
+                                                                                                     S
+                                                                                                          la caja, pero el movimiento de la
+                                                                                                           S
+                                            caja es hacia abajo. Ahora, debido a que los vectores F y Dx están en direcciones opuestas,
+                                            el ángulo entre ellos es 180° y cos 180° 5 21, y el trabajo
+                                                                                                      S
+                                                                                                             realizado por el estudiante es
+                                                                                                                      S
+                       S
+                       F                    negativo. En general, cuando la componente es de F paralela a Dx estas apuntan en la
+                                                                     S
+                                            misma dirección que Dx , por lo tanto el trabajo es positivo; de otra manera, es negativo.
+                                                Ya que las ecuaciones 5.1-5.3 consideran una fuerza constante en dirección y tamaño,
+                                    S
+                                   x
+                                            son casos especiales de una definición más general de trabajo —que se realiza mediante
+                   S       S                una fuerza variable— se tratan de manera breve en la sección 5.7.
+                   Fg 5m g
+
+
+Figura 5.4 El estudiante realiza
+trabajo positivo cuando levanta la           ■ Examen rápido
+caja, debido a que la fuerza aplicada
+S
+F está en la misma dirección que el
+                                             5.1 En la figura 5.5 a)-d), un bloque se mueve hacia la derechaS
+                                                                                                                  en la dirección posi-
+                                                                           S
+desplazamiento. Cuando baja la caja          tiva x un desplazamiento )x mientras se aplica una fuerza F en la misma dirección.
+hacia el piso, él realiza un trabajo         ¿Cuál deS
+                                                        lo siguiente es el orden correcto de la cantidad de trabajo realizado por la
+negativo.                                    fuerza F , del más positivo al más negativo? a) d, c, a, b b) c, a, b, d c) c, a, d, b
+                                               CAPÍTULO 5 | Energía
+
+
+                                                                            Trabajo y fuerzas disipativas
+
+
+                redmal/iStockphoto.com
+                                                                            El trabajo producido por fricción es en extremo importante en la vida diaria, ya que es impo-
+                                                                            sible llevar a cabo casi cualquier otra clase de trabajo sin él. Así, el esquimal en el último
+                                                                            ejemplo, depende de la fricción de la superficie para jalar su trineo. De otra manera, la
+                                                                            cuerda se deslizaría de sus manos y no ejercería fuerza alguna sobre el trineo; si se resbala,
+                                           a                                él caerá completamente sobre su cara. Los automóviles no funcionarían sin fricción, las
+                                                                            bandas no podrían transportar, incluso ni nuestro tejido muscular.
+
+. McCrone Photo/Custom Medical
+                                                                                El trabajo que se lleva a cabo al empujar o jalar un objeto es la aplicación de una fuerza
+                                                                            simple. La fricción, por otro lado, es un proceso complejo ocasionado por numerosas inte-
+                                                                            racciones microscópicas sobre el área completa de la superficie en contacto. Considere un
+                                                                            bloque de metal que se desliza sobre una superficie de metal. “Dientes” microscópicos en
+
+Stock Photo
+                                                                            el bloque encuentran por igual irregularidades microscópicas en la superficie subyacente.
+                                                                            Presionando entre sí, los dientes se deforman, se calientan y se sueldan a la superficie
+                                                                            opuesta. Se debe realizar trabajo rompiendo estos enlaces temporales, y esto viene en el
+                                           b                                gasto de la energía de movimiento del bloque, que se explicará en la siguiente sección. La
+                                                                            energía que pierde el bloque lo calienta y a su entorno, con alguna energía convertida en
+  El borde de una hoja de afeitar se ve
+  uniforme a simple vista, pero bajo                                        sonido.
+  un microscopio se comprueba que                                               La fuerza de fricción de dos objetos en contacto y en movimiento relativo entre sí
+  tiene abundantes irregularidades.                                         siempre disipa energía en estas formas relativamente complejas. Para nuestro propósito, la
+                                                                            frase “trabajo realizado por fricción” indicará el efecto de estos procesos sólo en energía
+                                                                            mecánica.
+
+
+                                          5.2 Energía cinética y el teorema
+                                              trabajo-energía
+                                         La solución de problemas utilizando la segunda ley de Newton puede ser difícil si las fuer-
+                                         zas que se incluyen son complejas. Un método alternativo es relacionar la velocidad de un
+                                         objeto al trabajo neto realizado en él mediante fuerzas externas. Si el trabajo neto puede
+                                         ser calculado para un desplazamiento determinado, el cambio en la velocidad del objeto
+                                         es fácil de evaluar.
+                                             La figura 5.7 muestra un objeto
+                                                                          S
+                                                                                 de masa m que se mueve a la derecha bajo la acción
+                                         de una fuerza neta constante F neta, también dirigida hacia la derecha. Ya que la fuerza es
+                                         constante, se sabe a partir de la segunda ley de Newton el objeto seStraslada con acelera-
+                                                          S
+                                         ción constante a . Si el objeto se desplaza )x, el trabajo realizado por F neta sobre el objeto es
+                                                                            Wneto 5 F neta )x 5 (ma))x                               [5.4]
+                                         En el capítulo 2, se encontró que las siguientes relaciones se cumplen cuando un objeto es
+                                         sometido a una aceleración constante:
+                                                                                                         v 2 2 v 02
+                                                                  v 2 5 v 02 1 2a Dx     o     a Dx 5
+                                                                                                              2
+                                         Podemos sustituir esta expresión en la ecuación 5.4 para obtener
+                                                                                                                                                                   S
+                                                                                                                                                                  x
+                                                                                       v 2 2 v 02
+                                                                             Wneto 5 m
+                                                                                            2
+                                                                                                                                                  m       S                  S
+                                         o bien                                                                                                           Fneta               Fneta
+
+
+                                                                              Wneto 5 12mv 2 2 12mv 02                               [5.5]        S   S                 S    S
+                                                                                                                                                  vi  v0                vf  v
+
+                                             De este modo, el trabajo neto realizado sobre un objeto es igual a un cambio en una
+                                                                                                                                              Figura 5.7 Un objeto se somete
+                                         cantidad de la forma 12 mv2. Debido a que este término lleva unidades de energía e incluye           a un desplazamiento y un cambio
+                                         la velocidad del objeto, puede interpretarse como energía asociada con el movimiento del             de velocidad bajo la acción de una
+                                                                                                                                                                     S
+                                         objeto, que conduce a la definición que sigue:                                                       fuerza neta constante F neta.
+                                                                          5.2 | Energía cinética y el teorema trabajo-energía
+
+
+Fuerzas conservativas y no conservativas
+Existen dos tipos generales de fuerzas. A la primera se le conoce como fuerza conser-
+vativa. Probablemente la gravedad es el mejor ejemplo de una fuerza conservativa. Para
+comprender el origen de la misma, piense en un clavadista que subió a la parte superior
+de una plataforma de 10 metros. El clavadista tiene que hacer trabajo contra la gravedad,
+al escalar. Sin embargo, una vez en la parte superior puede recuperar el trabajo, como
+energía cinética, al zambullirse. Su velocidad, precisamente antes de entrar en el agua, le
+dará una energía cinética igual al trabajo que hizo contra la gravedad al escalar hasta la
+parte superior de la plataforma menos el efecto de algunas fuerzas no conservativas, como
+la fuerza de arrastre del aire y la fricción muscular interna.
+    Por lo general, una fuerza no conservativa es disipadora, lo que significa que tiende a dis-
+persar aleatoriamente la energía de los cuerpos sobre los que actúa. Esta dispersión de energía
+con frecuencia toma la forma de calor o sonido. La fricción cinética y la fuerza de resistencia
+del aire son buenos ejemplos. Fuerzas propulsoras, semejantes a la fuerza ejercida por
+un motor de reacción en un avión o por una propela en un submarino, también son no
+conservativas.
+                                                              www.elsolucionario.org
+
+                  CAPÍTULO 5 | Energía
+
+Figura 5.10 Debido a que el
+campo de gravedad es conservativo,
+la clavadista recupera como energía
+cinética el trabajo que hizo contra la
+gravedad al subir la escalera. Con-
+siderando el deslizamiento sin fric-
+ción, tenemos el mismo resultado.
+
+
+     El trabajo realizado para
+     mover el libro es mayor a lo
+     largo del camino rojizo que
+     por el camino azul.
+
+                                                El trabajo realizado en contra de una fuerza no conservativa no puede recuperarse
+                                           fácilmente. Arrastrar objetos sobre una superficie rugosa requiere trabajo. Cuando el es-
+                                           quimal en el ejemplo 5.2 arrastró el trineo a través del terreno que tiene un coeficiente de
+      a   Fisic
+                                           fricción diferente de cero, el trabajo neto fue menor que en el caso sin fricción. La energía
+                                            perdida se disipa en calentar el trineo y su entorno. Como se verá en el estudio de la ter-
+                                           modinámica, tales pérdidas no pueden evitarse, no toda la energía puede recuperarse, por
+                                            lo que a estas fuerzas se les conoce como no conservativas.
+                                                Otra manera de caracterizar a las fuerzas conservativas y no conservativas es medir el
+                                            trabajo que lleva a cabo una fuerza sobre un objeto desplazado entre dos puntos a lo largo
+                                            de diferentes trayectorias. El trabajo realizado por la gravedad sobre alguien que se desliza
+                                            hacia abajo sin fricción, como en la figura 5.10, es igual al que se lleva a cabo sobre el clava-
+Figura 5.11 Ya que la fricción es           dista desde la misma altura. Esta igualdad no se cumple para fuerzas no conservativas. Por
+una fuerza no conservativa, un libro
+                                            ejemplo, desplazar un libro directamente desde el punto  hasta el punto  en la figura
+empujado a lo largo de los tres seg-
+mentos –, – y – necesita              5.11 necesita una cierta cantidad de trabajo contra la fricción, pero deslizar el libro a lo
+tres veces más trabajo que empujar          largo de los otros tres lados del cuadrado, desde  hasta , de  hasta  y, por último, de
+el libro directamente desde  hasta          hasta , necesita tres veces más trabajo. Esta observación genera la siguiente definición
+.                                          de una fuerza conservativa:
+
+                    Fuerza conservativa c      Una fuerza es conservativa si el trabajo realizado al mover un objeto entre dos pun-
+                                               tos es el mismo sin importar qué trayectoria se considere.
+
+                                            Las fuerzas no conservativas, como se ha visto, no tienen esta propiedad. El teorema traba-
+                                            jo-energía, ecuación 5.7, puede ser reescrita en términos del trabajo invertido por fuerzas
+                                            conservativas Wc y el trabajo gastado por fuerzas no conservativas Wnc ya que el trabajo neto
+                                            es precisamente la suma de éstas dos:
+                                                                                   Wnc 1 Wc 5 )EC                                      [5.8]
+                                            Tenemos que las fuerzas conservativas poseen otra propiedad útil. El trabajo que realizan
+                                            se puede modificar como algo que se conoce como energía potencial, una cantidad que
+                                            depende sólo de los puntos inicial y final de una curva, no de la trayectoria que sigue.
+
+
+                                              5.3 Energía potencial gravitacional
+                                            Un objeto con energía cinética (energía de movimiento) puede hacer trabajo sobre otro
+                                            objeto, casi semejante al de un martillo en movimiento para conducir un clavo dentro de
+                                            un muro. Un ladrillo en lo alto de una repisa también puede hacer trabajo: puede caer
+                                            de la repisa, acelerar hacia abajo y golpear firmemente un clavo, conduciéndolo hacia
+                                            dentro de la duela. Se dice que el ladrillo tiene asociada una energía potencial, debido a
+                                            que desde su ubicación sobre la repisa puede hacer potencialmente trabajo.
+                                                La energía potencial es una propiedad de un sistema, en lugar de un solo objeto, ya
+                                            que se debe a una posición física en el espacio relativa a un centro de fuerza, como el
+                                            clavadista y la Tierra de la figura 5.10. En este capítulo se define un sistema como un con-
+                                            junto de objetos que interactúan vía las fuerzas u otros procesos al interior del sistema. Así
+                                            tenemos que la energía potencial es otra manera de ver cómo se hace trabajo por medio
+                                            de fuerzas conservativas.
+                                                                                      5.3 | Energía potencial gravitacional
+
+
+Trabajo gravitacional y energía potencial                                                               El trabajo realizado por
+                                                                                                        la fuerza de gravedad
+Utilizando el teorema trabajo-energía en problemas que implican gravitación requieren el                cuando el libro cae es
+cálculo del trabajo realizado por la gravedad. Para la mayoría de las trayectorias, por ejem-           igual a mgyi  mgyf
+plo, para una pelota que recorre un arco parabólico, el determinar el trabajo gravitacional
+realizado sobre la pelota requiere técnicas complicadas de cálculo. Afortunadamente, para                              Física
+campos conservativos existe una alternativa simple: la energía potencial.
+                                                                                                                          S
+    La gravedad es una fuerza conservativa y, para toda fuerza conservativa, se puede en-                               mg
+contrar una expresión especial conocida como una función de energía potencial. Al eva-                             S
+                                                                                                                  y
+luar esa función en dos puntos cualesquiera en una trayectoria del objeto en movimiento
+                                                                                                       yi              Física
+y encontrando la diferencia nos dará como resultado el negativo del trabajo realizado por
+esa fuerza entre los dos puntos. Además, es una ventaja que la energía potencial, similar al                            mg
+                                                                                                                          S
+
+trabajo y la energía cinética, sea una cantidad escalar.                                                     yf
+    La primera etapa es determinar el trabajo realizado por la gravedad sobre un objeto
+cuando éste se traslada de una posición a otra. El negativo de ese trabajo es el cambio en
+la energía potencial gravitacional del sistema y, a partir de esa expresión, es posible identi-
+ficar la función de energía potencial.
+                                                                                                  Figura activa 5.12
+    En la figura activa 5.12 un libro de masa m cae desde una altura yi hasta una altura yf,      Un libro de masa m cae desde una
+donde la coordenada y positiva representa las posiciones por encima de la superficie del          altura yi a una altura yf .
+suelo. Se desprecia la fuerza de fricción del aire, de tal modo que la única fuerza que actúa
+sobre el libro es la de gravedad. ¿Cuánto trabajo se realizó? La magnitud de la fuerza  S
+                                                                                            es
+                                                                                             S
+mg y el del desplazamiento es )y 5 yi 2 yf (un número positivo), mientras los dos F y Dy
+están apuntando hacia abajo, de manera que el ángulo entre ellos es cero. Aplicamos la
+definición de trabajo en la ecuación 5.3, con d 5 yi 2 yf :
+                   Wg 5 Fd cos u 5 mg (yi 2 yf ) cos 0° 5 2mg (yf 2 yi )                 [5.9]
+    La factorización del signo menos fue intencional, para aclarar la conexión con la ener-
+gía potencial. La ecuación 5.9 del trabajo gravitacional se cumple para cualquier obje-
+to, independientemente de su trayectoria en el espacio, ya que la fuerza gravitacional es
+conservativa. Ahora, Wg aparecerá como el trabajo realizado por la gravedad en el teorema
+trabajo-energía. Para el resto de esta sección, considere por simplicidad que estamos tra-
+tando sólo con sistemas que incluyen la gravedad y fuerzas no conservativas. Entonces la
+ecuación 5.8 se puede reescribir como
+                                  Wneto 5 Wnc 1 Wg 5 DEC
+donde Wnc es el trabajo realizado por las fuerzas no conservativas. Al sustituir la expresión
+para Wg según la ecuación 5.9, se obtiene
+                                 Wnc 2 mg (yf 2 yi ) 5 DEC                            [5.10a]
+A continuación, sumamos mg(yf 2 yi) en los dos lados:
+                                Wnc 5 DEC 1 mg (yf 2 yi )                             [5.10b]
+Ahora, por definición, haremos la conexión entre trabajo gravitacional y energía potencial
+gravitacional.
+
+   La energía potencial gravitacional de un sistema que consiste en la Tierra y un obje-          b Energía potencial
+   to de masa m cerca de la superficie terrestre se conoce mediante                                 gravitacional
+
+                                         EPnc ; mg y                                [5.11]
+   donde g es la aceleración de la gravedad y y es la posición vertical de la masa relativa
+   a la superficie de la Tierra (o algún otro punto de referencia).
+   Unidad SI: joule (J)
+
+En esta definición, y 5 0 corresponde a la superficie de la Tierra, pero esto no es estricta-
+mente necesario, como se explica en la siguiente subsección. Así tenemos que sólo impor-
+tan las diferencias en la energía potencial.
+    Por esto, la energía potencial gravitacional asociada con un objeto ubicado cerca de la
+superficie terrestre es el peso del objeto mg por su posición vertical y sobre de la Tierra.
+         CAPÍTULO 5 | Energía
+
+                                         De esta definición, tenemos la correspondencia entre trabajo gravitacional y energía poten-
+                                         cial gravitacional:
+                                                                  Wg 5 2(EPf 2 EPi ) 5 2(mgyf 2 mgyi )                        [5.12]
+
+                                             El trabajo realizado por la gravedad es el mismo que el negativo del cambio en la ener-
+                                         gía potencial gravitacional.
+                                             Por último, sustituyendo la ecuación 5.12 en la ecuación 5.10b se obtiene una exten-
+ Tip 5.3 Energía potencial               sión del teorema trabajo-energía:
+ toma dos
+                                                                    Wnc 5 (ECf 2 ECi ) 1 (EPf 2 EPi )                         [5.13]
+ La energía potencial siempre
+ tiene un sistema de al menos
+                                         Esta ecuación nos dice que el trabajo realizado por dos fuerzas no conservativas, Wnc, es
+ dos objetos interactuando, por
+ ejemplo, la Tierra y una pelota de      igual al cambio de la energía cinética más el cambio en la energía potencial gravitacional.
+ béisbol a través de la interacción          En general la ecuación 5.13 resultará verdadera, incluso cuando estén presentes otras
+ la fuerza gravitacional.                fuerzas conservativas al lado de la gravedad. El trabajo realizado por estas fuerzas conser-
+                                         vativas adicionales será modificado otra vez como cambios en la energía potencial y apa-
+                                         recerá en el lado derecho junto con la expresión para la energía potencial gravitacional.
+
+
+                                         Niveles de referencia para la energía potencial gravitacional
+                                         En la solución de problemas que involucran a la energía potencial gravitacional, es impor-
+                                      tante optar por un punto de referencia en la cual la energía sea igual a cero. Dada la forma
+                                         de la ecuación 5.11, ésta es la misma cuando elegimos el lugar donde y 5 0. La elección es
+                                         completamente arbitraria ya que la cantidad importante es la variación de cambio de energía
+                                         potencial, y ésta será independiente de la elección del punto de referencia. De cualquier
+                                         modo, una vez que se decide por esta posición, debe permanecer fija para un problema
+                                         determinado.
+                                             Mientras sea posible siempre elegir la superficie de la Tierra como la posición de refe-
+                                         rencia para la energía potencial sea cero, el enunciado de un problema por lo general in-
+                                         dicará una posición conveniente para utilizarse. Como un ejemplo, sea el caso de un libro
+                                         con diferentes posiciones posibles, como en la figura 5.13. Cuando el libro está en , un
+                                         punto de referencia para la energía potencial es la superficie del escritorio. Cuando el li-
+Figura 5.13 Cualquier nivel de           bro está en , el piso podría ser un punto de referencia más conveniente. Por último, una
+referencia, la mesa, el piso de la       ubicación como , donde el libro se mantiene por fuera de una ventana, sugeriría elegir
+habitación o la superficie del suelo
+afuera del edificio, se puede utilizar
+                                         la superficie de la Tierra como el nivel cero de energía potencial. De cualquier modo, la
+para representar energía potencial       elección no marca diferencia. Cualquiera de los tres niveles de referencia podría utilizarse
+gravitacional de cero en el sistema      como nivel cero, independientemente de si el libro está en , , o bien . El ejemplo 5.4
+libro-Tierra.                            explica este punto importante.
+                                                                                  5.3 | Energía potencial gravitacional
+
+
+La gravedad y conservación de energía mecánica
+Los principios de conservación desempeñan un papel muy importante en la física. Cuando
+una cantidad física se conserva, el valor numérico de la cantidad permanece igual en todo
+el proceso físico. Aunque la forma de la cantidad puede cambiar en alguna forma, su valor
+final es igual a su valor inicial.
+    La energía cinética EC de un objeto que cae sólo bajo la influencia de la gravedad
+cambia de manera constante, como es la energía potencial gravitacional EP. Por lo tanto,
+es evidente que estas cantidades no se conservan. No obstante, ya que todas las fuerzas no     Tip 5.4 Principios
+conservativas se suponen ausentes, se puede asignar Wnc 5 0 en la ecuación 5.13. Reorde-       de conservación
+nando la ecuación, se llega con el siguiente resultado muy interesante:                        Existen muchas leyes de conser-
+                                ECi 1 EPi 5 ECf 1 EPf                               [5.14]     vación parecida a la conservación
+                                                                                               de energía mecánica en sistemas
+    De acuerdo con esta ecuación, la suma de la energía cinética y la energía potencial        aislados, como en la ecuación
+gravitacional permanece constante todo el tiempo y, por lo tanto, es una cantidad que          5.14. Por ejemplo, la cantidad de
+se conserva. Indicamos la energía mecánica total mediante E 5 EC 1 EP y señala que la          movimiento lineal, cantidad
+                                                                                               de movimiento angular y carga
+energía mecánica total se conserva.                                                            eléctrica todas son cantidades
+    Para mostrar cómo funciona este concepto, piense en arrojar una roca de un acantila-       que se conservan como se verá
+do; omita la fuerza de fricción con el aire. Conforme la roca cae, su rapidez aumenta, de      más adelante. Las cantidades que
+tal modo que su energía cinética se incrementa. A medida que la roca se aproxima a la su-      se conservan pueden cambiar de
+perficie de la Tierra, la energía potencial del sistema roca-Tierra disminuye. A medida que    forma durante las interacciones
+la roca se mueve hacia abajo, se pierde cualquier energía potencial, lo que se manifiesta      físicas, pero la suma total para un
+                                                                                               sistema nunca cambia.
+como energía cinética, y la ecuación 5.14 indica que en ausencia de fuerzas no conservati-
+136     CAPÍTULO 5 | Energía
+
+                                   vas parecida a la de fricción del aire, el trato de la energía es exactamente el mismo. Esto
+                                   es verdadero para todas las fuerzas conservativas, no precisamente la gravedad.
+
+      Conservación de energía c       En cualquier sistema aislado de objetos que interactúan sólo a través de fuerzas con-
+                    mecánica          servativas, la energía mecánica total E 5 EC 1 EP, del sistema, permanece igual en
+                                      todo momento.
+                                      Si la fuerza de gravedad es la única fuerza que hace trabajo dentro de un sistema, en-
+                                   tonces el principio de conservación de energía mecánica adquiere la forma
+
+                                                                    2 mv i 1 mgyi 5 2 mv f 1 mgyf
+                                                                    1     2         1     2
+                                                                                                                            [5.15]
+                                   Esta forma de la ecuación es particularmente útil para resolver problemas que sólo involu-
+                                   cran a la gravedad. Términos nuevos tienen que adicionarse cuando se presenten otras fuer-
+                                   zas conservativas, como se verá en breve. La forma de la ecuación es en particular útil para
+                                   resolver problemas que involucran explícitamente sólo una masa y gravedad. En ese caso es-
+                                   pecial, que a menudo se presenta, observe que la masa se anula de la ecuación. Sin embargo,
+                                   ello es posible sólo porque cualquier cambio en la energía cinética de la Tierra en respuesta
+                                   al campo gravitacional del objeto de masa m ha sido (adecuadamente) pasado por alto. En
+                                   general, debe haber términos de la energía cinética para cada objeto en el sistema y térmi-
+                                   nos de energía potencial gravitacional para cada par de objetos. Se deben sumar términos
+                                   adicionales cuando otras fuerzas conservativas están presentes, como veremos más adelante.
+
+                                    ■ Examen rápido
+               2
+                   1                5.2 Tres pelotas idénticas son lanzadas desde la parte superior de un edificio,
+                   3                todas con la misma velocidad inicial. La primera pelota se lanza horizontalmente; la
+                                    segunda, en algún ángulo arriba de la horizontal, y la tercera, en algún ángulo por
+                                    debajo de la horizontal, como en la figura activa 5.15. Omitiendo la resistencia del
+                                    aire, clasifique las magnitudes de velocidad de las pelotas cuando llegan a la superficie
+                                    del suelo, desde la más rápida hasta la más lenta. a) 1, 2, 3. b) 2, 1, 3. c) 3, 1, 2. d) Las
+                                    tres pelotas golpean la superficie del suelo con la misma rapidez.
+                                    5.3 Roberto, de masa m, se deja caer desde la rama de un árbol al mismo tiempo que
+                                    Emma, también de masa m, inicia su descenso deslizándose sin fricción hacia abajo. Si
+                                    ambos inician en la misma altura por encima del nivel del suelo, acerca de sus energías
+                                    cinéticas, ¿cuál de lo siguiente es verdadero cuando alcanzan el ras del suelo?
+Figura activa 5.15                  a) La energía cinética de Roberto es mayor que la de Emma.
+(Examen rápido 5.2) Tres pelotas    b) La energía cinética de Emma es mayor que la de Roberto.
+idénticas se lanzan con la misma
+velocidad inicial desde la parte
+                                    c) Tienen la misma energía cinética.
+superior de un edificio.            d) La respuesta depende de la forma del deslizamiento.
+
+                                    ■ ESTRATEGI A PARA LA SOLUCIÓN DE PROBLEMAS
+
+                                   Aplicación de la conservación de energía mecánica
+                                   Considere las etapas que siguen cuando se aplica la conservación de energía mecánica a problemas
+                                   que incluyen la gravedad:
+                                   1. Defina el sistema, incluya todos los cuerpos que interactúan. Verifique la ausencia
+                                       de fuerzas no conservativas.
+                                   2. Elija una posición para y 5 0, el punto de referencia para la energía potencial
+                                       gravitacional.
+                                   3. Seleccione el cuerpo de interés e identifique dos puntos, un punto donde conozca
+                                       información y el otro donde quiera hallar algo acerca del cuerpo de interés.
+                                   4. A continuación, escriba la ecuación de conservación de energía, ecuación 5.15,
+                                       para el sistema. Identifique la cantidad desconocida de interés.
+                                   5. Resuelva para la cantidad desconocida, que habitualmente es una velocidad o una
+                                       posición y sustituya los valores conocidos.
+
+                                       Como se estableció anteriormente, por lo general es mejor hacer el álgebra con sím-
+                                   bolos, en lugar de sustituir primero números, ya que es fácil verificar los símbolos debido
+                                   a posibles errores. La excepción es cuando sin duda una cantidad es cero, en cuyo caso la
+                                   sustitución inmediata simplifica considerablemente el álgebra resultante.
+138       CAPÍTULO 5 | Energía
+
+
+  Tip 5.5 ¡No utilice trabajo
+  realizado por la fuerza
+  de gravedad y la energía                      La gravedad y las fuerzas no conservativas
+  potencial gravitacional!                      Cuando se incluyen fuerzas no conservativas junto con la gravitación, se debe utilizar el
+  La energía potencial gravitacional            teorema trabajo-energía completo, habitualmente con técnicas del capítulo 4. Resolver
+  es sólo otra manera de incluir el             problemas requiere el procedimiento básico de la estrategia para la solución de problemas
+  trabajo realizado por la fuerza de
+                                                para los problemas de conservación de la energía de la sección anterior. La única dife-
+  gravedad en el teorema trabajo-
+  energía. ¡No utilice a las dos en la
+                                                rencia se encuentra en sustituir la ecuación 5.13, la ecuación trabajo-energía con energía
+  ecuación al mismo tiempo o las                potencial, para la ecuación 5.15.
+  contará dos veces!
+
+
+      La fuerza del resorte actúa
+      siempre hacia el punto de                    5.4 Energía potencial elástica
+      equilibrio, que se encuentra
+      en x  0 en esta figura.                   Los resortes son elementos importantes en la tecnología moderna. Se encuentran en má-
+                                                 quinas de toda clase, en relojes, juguetes, automóviles y trenes. En este caso se introduci-
+                                                 rán los resortes; después se estudiarán en más detalle en el capítulo 13.
+                 x0                                 El trabajo realizado por una fuerza aplicada al estirar o comprimir un resorte puede ser
+                                                 recuperado al retirar la fuerza aplicada, como la gravedad, la fuerza del resorte es conser-
+                       m
+                                                 vativa. Esto significa que se puede determinar una función de energía potencial y utilizarla
+                                                 en el teorema trabajo-energía.
+      a                                              La figura activa 5.20a muestra un resorte en su posición de equilibrio, donde el re-
+                                                 sorte no está comprimido ni estirado. Al empujar un bloque contra el resorte como en la
+      Para un punto de equilibrio
+      en x  0, la energía potencial
+                                                 figura activa 5.20b se comprime una distancia x. Aunque x parece ser simplemente una
+      del resorte es 12 kx 2.                    coordenada, para los resortes esto además representa un desplazamiento desde la posición
+                                                 de equilibrio, que para nuestros propósitos siempre será considerada como x 5 0. Expe-
+                                                 rimentalmente, tenemos que para duplicar un desplazamiento determinado se necesita
+                 x                               duplicar la fuerza, mientras que triplicarlo requiere triplicar la fuerza. Esto significa que la
+                                                 fuerza ejercida por el resorte, Fr , debe ser proporcional al desplazamiento x, o bien
+                                EPs = 12 kx2
+                 m                                                                         Fr 5 2kx                                       [5.16]
+                                EC i = 0
+                                                 donde k es la constante de proporcionalidad, la constante del resorte, la cual se expre-
+      b
+                                                 sa en unidades de newtons por metro. La ecuación 5.16 se conoce como ley de Hooke,
+                            S
+                 x0        v                    en honor a sir Robert Hooke, quien descubrió la relación. Habitualmente a la fuerza Fr
+                                                 se le conoce como fuerza de restitución debido a que el resorte siempre ejerce una fuerza en
+                       m        EPs = 0
+                                                 una dirección opuesta al desplazamiento de su extremo, tendiente a restituir todo lo que
+                                EC f = 12 mv2    está unido al resorte a su posición original. Para valores positivos de x, la fuerza es negativa,
+      c                                          apuntando de regreso hacia la posición de equilibrio en x 5 0, y para x negativa, la fuerza
+                                                 es positiva, una vez más apuntado hacia x 5 0. Para un resorte flexible, k es un número pe-
+ Figura activa 5.20 a) Un resorte                queño (aproximadamente 100 N/m), mientras que para un resorte rígido k es muy grande
+ en equilibrio, ni comprimido ni esti-           (aproximadamente 10 000 N/m). El valor de la constante del resorte k se determina a
+ rado. b) Un bloque de masa m sobre              partir de cómo se formó el resorte, la composición del material y el espesor del mismo.
+ una superficie sin fricción es empu-
+                                                 El signo menos asegura que la fuerza del resorte siempre está dirigida de regreso hacia el
+ jado contra el resorte. c) Cuando
+ se libera el bloque esta energía se             punto de equilibrio.
+ transfiere al bloque en la forma de                 Como en el caso de la gravedad, una energía potencial, conocida como la energía po-
+ energía cinética.                               tencial elástica, puede ser asociada con la fuerza del resorte. La energía potencial elástica
+                                                                                                5.4 | Energía potencial elástica   141
+
+es otra manera de ver cómo se realiza el trabajo mediante un resorte durante el movimien-
+to ya que éste es igual al negativo del trabajo realizado por el resorte. Además, se puede
+considerar que la energía almacenada se origina a causa del trabajo realizado al comprimir
+o estirar el resorte.
+    Considere un resorte horizontal y la masa m en la posición de equilibrio. Determina-
+mos el trabajo realizado por el resorte cuando es comprimido por una fuerza aplicada
+desde el equilibrio hasta un desplazamiento x, como en la figura activa 5.20b. La fuerza
+del resorte apunta en la dirección opuesta al movimiento, de tal modo que se espera que
+el trabajo sea negativo. Cuando se estudia la fuerza constante de la gravedad cerca de la
+superficie de la Tierra, encontramos el trabajo realizado sobre un objeto al multiplicar
+la fuerza gravitacional por el desplazamiento vertical del objeto. Sin embargo, este pro-
+cedimiento no puede ser aplicado con una fuerza variable. En lugar de eso, se aplica la
+                    }
+fuerza promedio, F :
+                                      F0 1 F1   0 2 kx    kx
+                                 F5           5        52
+                                         2        2       2
+Así que el trabajo realizado por la fuerza del resorte es
+                                        Wr 5 Fx 5 2 21 kx 2
+En general, cuando se estira o se comprime el resorte desde xi hasta xf, el trabajo realizado
+por el resorte es
+                                      Wr 5 2 12kx f 2 2 12kx i 2
+El trabajo realizado por el resorte puede ser incluido en el teorema trabajo-energía. Su-
+ponga que la ecuación 5.13 ahora incluye el trabajo realizado por el resorte en el lado
+izquierdo. Entonces esto se lee
+                             Wnc 2    2 kx f 2 2 kx i
+                                      1     2  1      2
+                                                          5 DEC 1 DEP g
+donde EPg es la energía potencial gravitacional. Ahora definimos la energía potencial elás-
+tica asociada con la fuerza del resorte, EPr , mediante
+
+                                            EP r ; 12kx 2                                  [5.17]
+
+Sustituyendo la expresión en la ecuación anterior y reordenando términos tenemos la
+forma nueva del teorema trabajo-energía, que incluye las energías gravitacional y elástica:
+
+                   Wnc 5 (ECf 2 ECi ) 1 (EPgf 2 EPgi ) 1 (EPrf 2 EPri )                    [5.18]
+
+donde Wnc es el trabajo realizado mediante fuerzas no conservativas, EC es la energía cinéti-
+ca, EPg es la energía potencial gravitacional y EPr es la energía potencial elástica. EP, utilizada
+antes para indicar sólo energía potencial gravitacional, en lo sucesivo indicará la energía
+potencial total de un sistema, que incluye energías potenciales debido a todas las fuerzas
+conservativas que actúan sobre el sistema.
+    Es importante recordar que el trabajo que llevan a cabo la gravedad y el resorte en
+cualquier sistema físico determinado está incluido ya en el lado derecho de la ecuación
+5.18 como energía potencial y no se incluye a la izquierda como trabajo.
+    La figura activa 5.20c muestra cómo se puede recuperar la energía potencial elástica
+almacenada. Al liberar el bloque, el resorte regresa a su longitud original, y la energía
+potencial elástica almacenada se convierte en energía cinética del bloque. La energía po-
+tencial elástica almacenada en el resorte es cero cuando el resorte está en la posición de
+equilibrio (x 5 0). Dada por la ecuación 5.17, la energía potencial también se almacena en
+el resorte cuando se estira. Además de eso, la energía potencial elástica alcanza un máximo
+cuando el resorte ha logrado su compresión o extensión máxima. Por último, ya que EPr
+es proporcional a x2, la energía potencial siempre es positiva cuando el resorte no está en
+la posición de equilibrio.
+    En ausencia de fuerzas no conservativas, Wnc 5 0, el lado izquierdo de la ecuación 5.18
+es cero y resulta una forma extendida para la conservación de energía mecánica:
+
+                          (EC 2 EPg 1 EPs)i 5 (EC 2 EPg 1 EPs)f                            [5.19]
+      Los problemas que involucran resortes, gravedad y otras fuerzas se manejan exactamente
+      de la misma manera como se explicó en la estrategia para la solución de problemas para la
+      conservación de energía mecánica, excepto que en el problema debe definirse el punto de
+      equilibrio de todo resorte, además del punto cero para la energía potencial gravitacional.
+
+
+  5.5 Sistemas y conservación de energía
+Recuerde que el teorema trabajo-energía se puede reescribir como
+                                     Wnc 1 Wc 5 DEC
+donde Wnc representa el trabajo realizado por las fuerzas no conservativas y Wc es el trabajo
+realizado por las fuerzas conservativas en un entorno físico conocido. Como hemos visto,
+todo trabajo realizado por fuerzas conservativas, como las fuerzas elástica y de gravedad,
+puede ser explicado por cambios de energía potencial. Así que es posible rescribir el teo-
+rema trabajo-energía de la siguiente manera:
+                    Wnc 5 DEC 1 DEP 5 (ECf 2 ECi ) 1 (EPf 2 EPi )                     [5.20]
+donde ahora, como se estableció previamente, EP incluye todas las energías potenciales.
+Esta ecuación es fácil de reordenar como:
+                            Wnc 5 (ECf 1 EPf) 2 (ECi 1 EPi )                          [5.21]
+    No obstante, recuerde que la energía mecánica total se proporciona mediante E 5 EC
+1 EP. Haciendo esta sustitución en la ecuación 5.21, encontramos que el trabajo llevado
+a cabo en un sistema por todas las fuerzas conservativas es igual al cambio en la energía
+mecánica de ese sistema:
+                                   Wnc 5 Ef 2 Ei 5 DE                                 [5.22]
+Si la energía mecánica está cambiando, ésta tiene que ir a alguna parte. Cualquier energía
+sale del sistema y entra al entorno, o se establece en el sistema y se convierte en una forma
+no mecánica como la energía térmica.
+     Un ejemplo simple es el de un bloque que se desliza a lo largo de una superficie rugo-
+sa. La fricción origina energía térmica; una parte es absorbida por el bloque y la otra se
+                                                            CAPÍTULO 5 | Energía
+
+                                                                                       disipa en el medio que lo rodea. Cuando el bloque se calienta, algo que se conoce como
+                                                                                       energía interna incrementa. La energía interna de un sistema se relaciona con su tempera-
+                                                                                       tura resultando ésta de la actividad de sus partes, como los átomos móviles de un gas o la
+                                                                                       vibración de átomos en un sólido. (La energía interna será estudiada en más detalle en el
+                                                                                       capítulo 10-12.)
+                                                                                            La energía puede ser transferida entre un sistema no aislado y su medio. Si se realiza
+                                                                                       trabajo positivo en el sistema, se transfiere energía desde el entorno hacia el sistema. Si se
+                                                                                       lleva a cabo trabajo negativo en el sistema, se transfiere energía desde el sistema hacia el
+                                                                                       medio.
+                                                                                            Hasta ahora, se han encontrado tres métodos de almacenamiento de energía en un
+                                                                                       sistema: energía cinética, energía potencial y energía interna. Por otro lado, sólo se ha vis-
+                                                                                       to una manera de transferir energía hacia dentro o hacia fuera de un sistema: a través del
+                                                                                       trabajo. Otros métodos se estudiarán en capítulos posteriores, pero son resumidos aquí:
+
+                                                                                          ■ Trabajo, en el sentido mecánico de este capítulo, se transfiere energía hacia un sis-
+                                                                                            tema desplazándolo a traves de la aplicación de una fuerza.
+                                                                                          ■ Calor es el proceso de transferencia de energía a través de colisiones microscópicas
+
+                                                                                            entre átomos o moléculas. Por ejemplo, una cuchara de metal en reposo dentro de
+                                                                                            una taza de café llega a calentarse debido a que una parte de la energía cinética
+                                                                                            de las moléculas en el café líquido se transfiere a la cuchara como energía interna.
+                                                                                          ■ Ondas mecánicas transfieren energía creando un disturbio que se propaga a través
+
+                                                                                            del aire u otro medio. Por ejemplo, la energía en forma de sonido que deja su sis-
+                                                                                            tema estéreo a través de las bocinas y entra a sus oídos para estimular el proceso de
+                                                                                            audición. Otros ejemplos de ondas mecánicas son las ondas sísmicas y las olas.
+                                                                                          ■ Transmisión eléctrica es cuando se transfiere energía a través de la corriente eléc-
+
+                                                                                            trica. Es como la energía que entra a su sistema estéreo o cualquier otro dispositivo
+                                                                                            eléctrico.
+                                                                                          ■ Radiación electromagnética es cuando se transfiere energía en la forma de ondas
+
+                                                                                            electromagnéticas como la luz, las microondas y las ondas de radio. Ejemplos de
+                                                                                            este método de transferencia incluyen cocinar una papa en un horno de microon-
+                                                                                            das y el viaje de energía luminosa desde el Sol hacia la Tierra a través del espacio.
+
+
+                                                                    APLICACIÓN         Conservación de energía en general
+                                                                Movimiento flagelar;   La característica más importante del planteamiento de la energía es la idea de que la ener-
+                                                                   bioluminiscencia
+                                                                                       gía se conserva; no se puede crear ni destruir, sólo transferir de una forma a otra. Éste es
+                                                                                       el principio de conservación de energía.
+                                                                                           El principio de conservación de energía no está restringido a la física. En biología, las
+                                                                                       transformaciones de energía se llevan a cabo en innumerables maneras dentro de todos
+                                                                                       los organismos vivos. Un ejemplo es la transformación de energía química a energía me-
+                                                                                       cánica que causa que los flagelos se muevan e impulsen un organismo. Algunas bacterias
+
+
+ Jan Hinsch/Science Photo Library/Photo Researchers, Inc.
+                                                                                       utilizan energía química para producir luz. (Véase la figura 5.24.) Aunque el mecanismo
+                                                                                       que produce estas emisiones lumínicas no es bien entendido, con frecuencia las criaturas
+                                                                                       dependen de esa luz para su existencia. Por ejemplo, ciertos peces tienen sacos llenos con
+                                                                                       bacterias luminiscentes debajo de sus ojos. La luz emitida atrae criaturas que se convierten
+                                                                                       en alimento para el pez.
+
+
+                                                                                        ■ Examen rápido
+
+                                                                                        5.4 Un libro de masa m se proyecta con una rapidez v a lo largo de una superficie
+Figura 5.24 Esta pequeña planta,                                                        horizontal. El libro se desliza hasta que se detiene debido a la fuerza de fricción entre
+encontrada en aguas meridionales
+                                                                                        el libro y la superficie. Ahora se inclina la superficie 30°, y se proyecta el libro hacia
+cálidas, exhibe bioluminiscencia, un
+proceso en el que la energía química
+                                                                                        arriba sobre la superficie con la misma rapidez inicial v. Cuando el libro llega al
+se convierte en luz. Las áreas rojas                                                    reposo, ¿cómo se compara la disminución de energía mecánica con aquella cuando el
+son clorofila y brillan cuando se                                                       libro resbala sobre la superficie horizontal? a) Es la misma. b) Es mayor en la superfi-
+excitan con luz azul.                                                                   cie inclinada. c) Es menor en la superficie inclinada. d) Se necesita más información.
+                                                                                                                                        5.6 | Potencia
+
+
+   ■   FÍSICA APLICADA 5.3                ¡Impacto de asteroide!
+Un asteroide de casi 10 km de radio ha sido culpado de la ex-
+tinción de los dinosaurios hace 65 millones de años. ¿Cómo
+
+
+                                                                               Gareth Williams, Minor Planet Center
+puede un objeto relativamente pequeño, que podría caber
+dentro del campus de un colegio, causar tal daño en la exten-
+sa biosfera de la Tierra?
+E XPL ICACIÓN Mientras que tal asteroide es comparativa-
+mente pequeño, viaja con una velocidad muy alta relativa a
+la Tierra, típicamente del orden de 40 000 m/s. Un asteroide
+burdamente esférico de 10 km de radio y formado principal-
+mente de roca tiene una masa de aproximadamente 1000
+billones de kilogramos, una pequeña montaña de materia. La          Figura 5.25 Mapa de asteroides del interior del sistema solar. Los
+energía cinética de tal asteroide sería de casi 1024 J, o bien, 1   círculos violeta representan las órbitas de los planetas interiores. Los pun-
+                                                                    tos verdes representan asteroides que no se consideran peligrosos para la
+billón de billones de joules. Por el contrario, la bomba ató-
+                                                                    Tierra, los que representan una amenaza aparecen como puntos rojos.
+mica que destruyó Hiroshima fue equivalente a 15 mil tone-
+ladas de TNT, aproximadamente 6 3 1013 J de energía. Al             golpear la Tierra sólo cada 60 millones de años poco más o
+golpear la Tierra, la enorme energía cinética del asteroide         menos. Asteroides más pequeños, de tamaño suficiente cau-
+cambia en otras formas, como energía térmica, sonido y luz,         san un daño grave a la civilización a una escala global, se cree
+¡con una liberación de energía superior a 100 millones de           que golpean a la Tierra cada 5 o 10 mil años. Ha habido varias
+explosiones de Hiroshima! Aparte de la desolación en el             fallas cercanas de tales asteroides en el último siglo e incluso
+área cercana de descarga y los incendios a través de un con-        en la última década. En 1907 un pequeño asteroide o frag-
+tinente, las ondas de marea enormes barrerían las regiones          mento de cometa golpeó Tunguska, Siberia, destruyendo una
+bajas alrededor del mundo, y el polvo bloquearía el Sol por         región de 60 kilómetros a la redonda. De haber golpeado el
+décadas.                                                            norte de Europa, millones de personas hubieran fallecido.
+    Debido a esta explicación el impacto de los asteroides re-          La figura 5.25 es un mapa de asteroides en el interior
+presenta una amenaza para la vida en la Tierra. Asteroides          del sistema solar. Cada año más asteroides están siendo des-
+bastante grandes causan la propagación de la destrucción al         cubiertos. ■
+
+
+  5.6 Potencia
+La rapidez con la cual se transfiere energía, potencia, es importante en el diseño y uso
+de dispositivos prácticos, aparatos domésticos y motores de toda clase. El concepto de po-
+tencia, sin embargo, es esencial cuando una transferencia de cualquier tipo de energía se
+lleva a cabo. Este tema es particularmente interesante para criaturas vivas debido a que el
+trabajo máximo por segundo, o potencia de salida, de un animal varía extensamente con
+la duración de la salida. La potencia se define como la relación de transferencia de energía
+con el tiempo:
+
+   Si una fuerza externa hace trabajo W en un objeto en el intervalo de tiempo )t, en-                                         b Potencia promedio
+   tonces la potencia promedio que entrega al objeto es el trabajo realizado dividido
+   entre el intervalo de tiempo, o bien
+                                             W
+                                        P5                                    [5.23]
+                                            Dt
+   Unidad SI: watt (W 5 J/s)
+
+Algunas veces es útil rescribir la ecuación 5.23 sustituyendo W 5 F )x y notando que )x/)t
+es la rapidez promedio del objeto durante el tiempo )t:
+                                        W    F Dx
+                                   P5      5      5 F v#                                                              [5.24]
+                                        Dt    Dt
+De acuerdo con la ecuación 5.24, la potencia promedio es una fuerza constante por la ra-
+pidez promedio. La fuerza F es la componente de la fuerza en la dirección de la velocidad
+promedio. Una definición más general, conocida como potencia instantánea, puede ser
+rescrita a continuación con un poco de cálculo y tiene la misma forma que la ecuación 5.24:
+                                           P 5 Fv                                                                     [5.25]   b Potencia instantánea
+       CAPÍTULO 5 | Energía
+
+                                    En la ecuación 5.25 la fuerza F y la velocidad v deben ser paralelas, pero pueden cambiar
+                                    con el tiempo. La unidad SI de la potencia es el joule/segundo (J/s), también conocido
+                                    como watt, en honor a James Watt:
+                                                                              1 W 5 1 J/s 5 1 kg ? m2/s3                                           [5.26a]
+                                    La unidad de potencia en el sistema tradicional de Estados Unidos es el caballo de fuerza
+                                    (hp, del inglés horse power), donde
+                                                                                          pies # libras
+                                                                         1 hp ; 550                     5 746 W                                    [5.26b]
+                                                                                               s
+                                    El caballo de fuerza fue definido primero por Watt, quien necesitaba una unidad de po-
+Tip 5.6 Watts ¿la diferencia?
+                                    tencia grande para clasificar el rendimiento de energía de su nuevo descubrimiento, la
+No confundir el símbolo para        máquina de vapor.
+watts W, con el símbolo W para el
+trabajo. Un watt es una unidad,
+                                        Comúnmente el watt se utiliza en aplicaciones eléctricas, pero también se puede apli-
+lo mismo que joules por segundo.    car en otras áreas científicas. Por ejemplo, los motores de autos deportivos europeos se
+Trabajo es un concepto, que lleva   especifican en kilowatts.
+unidades de joules.                     En la generación de energía eléctrica, se acostumbra a utilizar el kilowatt-hora como
+                                    una medida de la energía. Un kilowatt-hora (kWh) es la energía que se transfiere en 1 h
+                                    con la relación constante de 1 kW 5 1000 J/s. Por lo tanto,
+                                                         1 kWh 5 (103 W)(3 600 s) 5 (103 J/s)(3 600 s) 5 3.60 3 106 J
+                                        Es necesario darse cuenta que un kilowatt-hora es una unidad de energía, no de poten-
+                                    cia. Cuando paga su recibo de consumo eléctrico, está pagando energía, y esto es porque
+                                    su recibo menciona un cargo de electricidad de, digamos, aproximadamente 10 centavos/
+                                    kWh. La cantidad de electricidad utilizada por un aparato doméstico se puede calcular
+                                    multiplicando su potencia de especificación (por lo general expresada en watts y válida
+                                    sólo para circuitos eléctricos domésticos normales) por el tiempo de funcionamiento del
+                                    aparato doméstico. Por ejemplo, un foco eléctrico especificado en 100 W (5 0.100 kW)
+                                    “consume” 3.6 3 105 J de energía en una hora.
+
+
+                                      Energía y potencia en un salto vertical
+                                      El salto de pie consiste en dos partes: extensión y vuelo libre.2 En la fase de extensión, la
+                                      persona salta hacia arriba desde una posición en cuclillas, enderezando la piernas y esti-
+
+                                      2
+                                          Para más información sobre este tema, véase E. J. Offenbacher, American Journal of Physics, 38, 829 (1969).
+                                                                                                           5.6 | Potencia
+
+                                                                                                 Figura 5.27 Extensión y vuelo
+                                                                                                 libre en el salto vertical.
+
+
+                                                                   vCM = 0
+                                                           CM
+                                                     vCM            H
+                                              CM
+                       vCM = 0            h
+                         CM
+
+
+                                               Despegue
+                                   Extensión               Vuelo libre
+
+
+rando hacia arriba los brazos; la fase de vuelo libre se presenta cuando el saltador deja la
+superficie del piso. Debido a que el cuerpo es un objeto extendido y las diferentes partes se
+mueven con magnitudes de velocidad distintas, el movimiento del saltador se describe en
+términos de la posición y velocidad del centro de masa (CM), que es el punto en el cuerpo
+en el que es posible considerar que toda la masa está concentrada. La figura 5.27 exhibe la
+posición y velocidad del CM en las diferentes etapas del salto.
+    Utilizando el principio de conservación de energía mecánica, se puede encontrar H,
+el máximo incremento de altura del CM, en términos de la velocidad vCM de despegue de
+CM. Considerando EPi, la energía potencial gravitacional del sistema saltador-Tierra justo
+cuando aquel se eleva desde la superficie del piso es cero y observando que la energía ci-
+nética ECf del saltador en el máximo es cero, se tiene
+                                    EPi 1 ECi 5 EPf 1 ECf
+
+                                                                  v CM2
+                          2 mv CM 5 mgH                     H5
+                          1      2
+                                               o bien
+                                                                   2g
+Podemos evaluar vCM al suponer que la aceleración del CM es constante durante la fase de
+extensión. Si la profundidad del encogimiento es h y el tiempo para la extensión es )t, en-
+contramos que vCM 5 2}v 5 2h/)t. Mediciones en un grupo de estudiantes muestra valores
+representativos de h 5 0.40 m y )t 5 0.25 s; el último valor se ajusta por la rapidez fija con
+la que el músculo se contrae. Al sustituir, obtenemos
+                            v CM 5 2(0.40 m)/(0.25 s) 5 3.2 m/s
+y
+                                 v CM2     1 3.2 m/s 2 2
+                           H5          5                 5 0.52 m
+                                  2g     2 1 9.80 m/s2 2
+Mediciones en este mismo grupo de estudiantes determinaron que H fue entre 0.45 m y
+0.61 m en todos los casos, lo que confirma la validez de nuestro simple cálculo.
+    Al relacionar los conceptos abstractos de energía, potencia y eficiencia con los seres
+humanos, es interesante calcular estos valores para el salto vertical. La energía cinética que
+se le proporciona a un cuerpo en un salto es EC 5 12 mvCM2, y para una persona de 68 kg de
+masa, la energía cinética es
+                          EC 5 12 1 68 kg 2 1 3.2 m/s 2 2 5 3.5 3 102 J
+Aunque esto puede verse como un gasto considerable de energía, podemos hacer un sim-
+ple cálculo para demostrar que salto y ejercicio por lo general no son buenas maneras
+para perder peso, a pesar de sus muchos beneficios para la salud. Ya que los músculos con-
+vierten 25% de la energía química en energía cinética (los músculos siempre producen
+mucha energía interna y energía cinética así como trabajo, esto es porque usted transpira
+cuando trabaja), utilizan hasta cuatro veces los 350 J (casi 1400 J) de energía química en
+un salto. Finalmente, esta energía química proviene de los alimentos que ingerimos, con               APLICACIÓN
+un contenido de energía que se da en unidades de calorías del alimento, y una caloría de         Dieta frente a ejercicio en
+alimento es igual a 4 200 J. ¡De tal manera que la energía total suministrada por el cuerpo      programas de pérdida de peso
+        CAPÍTULO 5 | Energía
+
+Tabla 5.1 Rendimiento de               como energía interna y energía cinética en un salto vertical es sólo aproximadamente un
+potencia máxima de seres               tercio de una caloría de alimento!
+humanos en diferentes                      Por último, es interesante calcular la energía mecánica que puede ser generada por el
+periodos                               cuerpo en actividades extremas por periodos breves. En este caso encontramos que
+       Potencia           Tiempo                                                3.5 3 102 J
+                                                                           EC
+2 hp, o bien 1500 W       6s                                          P5      5             5 1.4 3 103 W
+                                                                           Dt      0.25 s
+1 hp, o bien 750 W        60 s
+0.35 hp, o bien 260 W     35 min       o (1400 W)(1 hp/746 W) 5 1.9 hp. Por eso los seres humanos pueden producir casi 2 hp
+0.2 hp, o bien 150 W      5h           de energía mecánica por periodos del orden de segundos. La tabla 5.1 muestra el rendi-
+0.1 hp, o bien 75 W       8h           miento de potencia máxima de los seres humanos por periodos diferentes mientras monta
+(nivel diario                          en bicicleta y rema, actividades en las que es posible observar rendimientos de potencia
+inofensivo)                            con exactitud.
+
+
+                                         5.7 Trabajo realizado por una fuerza variable
+                                       Suponga que un objeto se está desplazando a lo largo del eje x bajo la acción de una fuerza
+                                       Fx que actúa en la dirección x y varía con la posición, como se muestra en la figura 5.28. El
+                                       objeto se desplaza en la dirección en que aumenta x desde x 5 xi hasta x 5 xf . En tal situa-
+                                       ción, no podemos utilizar la ecuación 5.2 para calcular
+                                                                                           S
+                                                                                                 el trabajo realizado por la fuerza ya
+                                       que sólo se aplica esta correspondencia cuando F es constante en magnitud y dirección.
+                                       Sin embargo, si se piensa que el objeto se somete a un desplazamiento pequeño )x como se
+                                       muestra en la figura 5.28a, en este caso la componente x de la fuerza en Fx es casi constante
+                                       en este intervalo, y el trabajo realizado por la fuerza se puede aproximar para este peque-
+                                       ño desplazamiento como
+                                                                                    W 1 > Fx Dx                                      [5.27]
+                                       Esta cantidad es sólo el área del rectángulo sombreado en la figura 5.28a. Si se tiene en
+                                       mente que la curva de Fx en función de x se divide en un gran número de tales intervalos,
+                                       entonces el trabajo total realizado por el desplazamiento desde xi hasta xf es aproximada-
+                                       mente igual a la suma de las áreas de un gran número de rectángulos pequeños:
+                                                                   W 1 > F 1 Dx 1 1 F 2 Dx 2 1 F 3 Dx 3 1 ? ? ?                      [5.28]
+                                       Ahora imagínese ir a través del mismo proceso con el doble de intervalos, cada mitad
+                                       del tamaño del original )x. Entonces los rectángulos tienen anchos muy pequeños y se
+                                       aproximará mejor el área bajo la curva. Al continuar el proceso de aumentar el número de
+
+
+Figura 5.28 a) El trabajo reali-
+                                                   La suma de las áreas de todos los          El área bajo la curva es
+zado por la componente de la fuerza
+                                                   rectángulos se aproxima al trabajo         exactamente igual al trabajo
+Fx debido a que el desplazamiento
+                                                   realizado por la fuerza Fx sobre la        realizado por la fuerza Fx sobre
+pequeño )x es Fx )x, que es igual al
+                                                   partícula durante su desplazamiento        la partícula durante su
+área del rectángulo sombreado.
+                                                   desde xi a xf .                            desplazamiento de xi a xf .
+b) El ancho )x de cada rectángulo es
+cercano a cero.
+                                                    Fx        Área =  A = Fx x              Fx
+
+
+                                                                      Fx                                    Trabajo
+
+
+                                                                                        x                                        x
+                                                         xi                        xf              xi                      xf
+                                                                 x
+                                                     a                                         b
+                                                                                     5.7 | Trabajo realizado por una fuerza variable
+
+    intervalos mientras se permite que su tamaño se aproxime a cero, el número de términos
+                                                                                                             Si el proceso del traslado del bloque
+    en la suma crece sin límite, pero el valor de la suma se aproxima a un valor definido igual              se lleva a cabo poco a poco, la
+    al área bajo la curva limitada por Fx y el eje x en la figura 5.28b. En otras palabras, el trabajo       fuerza aplicada es de igual magnitud
+    realizado por una fuerza variable que actúa en un objeto que se somete a un desplazamien-                y en dirección opuesta en todo
+    to es igual al área bajo la gráfica de Fx en función de x.                                               momento a la fuerza del resorte.
+        Un sistema físico común en el que la fuerza varía con la posición consiste en un bloque
+    sobre una superficie horizontal, sin fricción, unido a un resorte, como se explicó en la                                   S              S
+                                                                                                                                Fs            Fap
+    sección 5.4. Cuando el resorte se estira o se comprime una distancia pequeña x desde su
+    posición de equilibrio x 5 0, ejerce una fuerza en el bloque que se conoce mediante Fx 5
+    2 kx, donde k es la constante de fuerza del resorte.
+        Ahora establezca el trabajo que lleva a cabo un agente externo en el bloque cuando el
+    resorte se estira lentamente desde xi 5 0 hasta xf 5 xmáx, como en la figura activa 5.29a. Este
+    trabajo se puede calcular con facilidad observando que para cualquier   S
+                                                                                    valor del desplaza-                        xi  0     xf  x máx
+    miento, la tercera ley de
+                            S
+                               Newton   menciona    que  la fuerza aplicada F ap es igual en magnitud         a
+    a la fuerza del resorte F y actúa en la dirección opuesta, de modo que Fap 5 2(2kx) 5 kx.
+                                                                                                             Fap
+    Una gráfica de Fap en términos de x es una línea recta, como se muestra en la figura activa
+    5.29b. Así que el trabajo realizado por esta fuerza aplicada al estirar el resorte desde x 5
+    0 hasta x 5 xmáx es el área bajo la línea recta en esa figura, que en este caso es el área del
+    triángulo sombreado:
+                                             WFap 5 12 kx 2máx
+    Durante este mismo tiempo el resorte ha realizado exactamente la misma cantidad de
+    trabajo, pero ese trabajo es negativo, ya que la fuerza del resorte apunta en la dirección
+                                                                                                                                                     x
+    opuesta al movimiento. La energía potencial del sistema es exactamente igual al trabajo                  O                           x máx
+    realizado por la fuerza aplicada y es del mismo signo, lo cual es porque la energía potencial
+                                                                                                              b
+    es considerada como trabajo almacenado.
+                                                                                                          Figura activa 5.29 a) Un bloque
+                                                                                                          que se está jalando desde xi 5 0 hasta
+                                                                                                          xf 5 x máx sobre una superficie sin fric-
+                                                                                                                                      S
+                                                                                                          ción mediante una fuerza F ap. b) Una
+                                                                                                          gráfica de F ap en términos de x.
+
+
+ ■ RESUMEN
+
+
+5.1 Trabajo                                                              5.2 Energía cinética y el teorema
+El trabajo realizado en un objeto por una fuerza constante es                trabajo-energía
+                        W 5 (F cos u) d                          [5.3]   La energía cinética de un cuerpo                       x
+                                                                                                                                     S
+
+                                                                         con masa m y rapidez v se conoce
+donde F es la magnitud de la                       S                     mediante                                      m   S                     S
+                                                   F                                                                       Fneta                 Fneta
+fuerza, d es el desplazamiento del
+objeto y u es el ánguloS entre la              u                                   EC ; 12mv 2       [5.6]
+                                             F cos u                                                               S       S              S       S
+dirección de la fuerza F y el des-                                                                                 vi  v0                vf  v
+                 S
+                                                                         El teorema trabajo-energía esta-
+plazamiento Dx . Resolver pro-                    S                      blece que el trabajo neto hecho           El trabajo neto realizado
+                                                 x                                                                                S
+blemas simples requiere sustituir                           S            sobre un objeto de masa m es              por una fuerza F net
+valores en la ecuación. Problemas    Una fuerza constante F                                                        sobre un objeto, cambia
+                                                                         igual al cambio en su energía ci-
+más complejos, como aquellos         aplicada durante un des-                                                      la velocidad del objeto.
+                                                    S                    nética, o bien
+que involucran fricción, con fre-    plazamiento )x realiza
+                                     un trabajo (F cos u) )x.                              Wneto 5 ECf 2 ECi 5 DEC                            [5.7]
+cuencia utilizanSla segunda ley de
+            S
+Newton, ma 5 F neta, para determinar fuerzas.                            Trabajo y energía de cualquier clase lleva unidades de joules.
+                                                                         Resolver problemas implica el cálculo del trabajo realizado
+                                                                                                        | Preguntas de opción múltiple
+
+por cada fuerza que actúa sobre el objeto y sumarlas, lo cual                 y el otro donde se desea conocer la información. Sustituya y
+es Wneto, seguido por la sustitución de cantidades conocidas                  resuelva para las cantidades que se desconocen.
+en la ecuación 5.7, resolviendo para la cantidad desconocida.                      El trabajo realizado por otras fuerzas, como cuando están
+    Las fuerzas conservativas son especiales: el trabajo realiza-             presentes fuerzas de fricción, no siempre es cero. En ese caso,
+do contra ellas puede ser recuperado: se conserva. Un ejem-                   identifique dos puntos como antes, calcule el trabajo debido a
+plo es la gravedad. El trabajo realizado al levantar un objeto                las otras fuerzas y resuelva para la incógnita en la ecuación 5.13.
+hasta cierta altura se almacena eficazmente en el campo de
+gravedad y puede ser recuperado como la energía cinética                      5.4 Energía potencial elástica
+del objeto simplemente al dejarlo caer. En las fuerzas no con-                La fuerza del resorte es conservativa, y su energía potencial
+servativas, como la fricción en una superficie y la de arrastre,              se conoce mediante
+la energía se disipa en una forma que no se puede recuperar
+fácilmente. Para explicar tales fuerzas, el teorema trabajo-                                             EP s ; 12kx 2                   [5.17]
+energía puede rescribirse como
+                                                                              La energía potencial de un resorte puede colocarse en el teo-
+                        Wnc 1 Wc 5 )EC                                [5.8]   rema trabajo-energía, el que entonces se lee
+donde Wnc es el trabajo que se realiza mediante fuerzas no
+conservativas y Wc es el trabajo que se hace mediante fuer-
+                                                                              Wnc 5 (ECf 2 ECi ) 1 (EPgf 2 EPgi ) 1 (EPsf 2 EPsi ) [5.18]
+zas conservativas.                                                            Cuando están ausentes las fuerzas no conservativas, Wnc 5 0 y
+                                                                              la energía mecánica se conserva.
+5.3 Energía potencial gravitacional
+La fuerza gravitacional es un cam-                          Física
+
+                                                                S
+                                                                              5.5 Sistemas y conservación de energía
+po conservativo. La energía poten-                      S    mg               El principio de la conservación de energía establece que la
+                                                       y
+cial gravitacional es otra manera de                                          energía no puede ser creada o destruida. Ésta puede trans-
+                                             yi             Física
+explicar el trabajo gravitacional Wg :                                        formarse, pero el contenido de energía total de cualquier sis-
+                                                                S
+                                                  yf          mg
+   Wg 5 2(EPf 2 EPi )                                                         tema aislado siempre es constante. Lo mismo es verdad para
+   5 2(mgyf 2 mgyi )          [5.12]                                          el Universo. El trabajo realizado por todas las fuerzas no con-
+                                                                              servativas que actúan en un sistema es igual al cambio en la
+Para determinar el cambio de ener-     El trabajo realizado por               energía mecánica total del sistema:
+gía potencial gravitacional confor-    el fuerza de la gravedad
+me un objeto de masa m se desplaza     cuando el libro cae es                    Wnc 5 (ECf 1 EPf) 2 (ECi 1 EPi ) 5 Ef 5 Ei       [5.21–5.22]
+entre dos puntos en un campo gra-      igual a mgyi 2 mgyf.
+                                                                              donde EP representa todas las energías potenciales presentes.
+vitacional, se sustituyen los valores
+de las coordenadas y del objeto.
+    El teorema trabajo-energía se puede generalizar al incluir
+                                                                              5.6 Potencia
+la energía potencial gravitacional:                                           La potencia promedio es la cantidad de energía transferida
+                                                                              dividida entre el tiempo que le toma a la transferencia:
+               Wnc 5 (ECf 2 ECi ) 1 (EPf 2 EPi )                     [5.13]                                   W
+                                                                                                         P5                          [5.23]
+El trabajo gravitacional y la energía potencial gravitacional no                                              Dt
+aparecen en el teorema trabajo-energía al mismo tiempo, sólo                  Además esta expresión se puede reescribir
+uno o el otro, debido a que son equivalentes. Igualando el                                              }
+trabajo debido a fuerzas no conservativas con cero y sustitu-                                           P 5 F }v                     [5.24]
+yendo las expresiones para EC y EP, se puede obtener una forma                donde }v es la rapidez promedio del objeto. La unidad de
+de conservación de energía mecánica con la gravitación:                       potencia es el watt (W 5 J/s). Para resolver problemas sim-
+                                                                              ples, sustituya cantidades conocidas en una de estas ecua-
+                 2 mv i 1 mgyi 5 2 mv f 1 mgyf
+                 1     2         1     2
+                                                                     [5.15]
+                                                                              ciones. Habitualmente problemas más difíciles necesitan
+Para resolver problemas con esta ecuación, identifique dos                    del cálculo del trabajo realizado sobre el objeto, utilizando
+puntos en el sistema, uno donde se conoce la información                      el teorema trabajo-energía o la definición de trabajo.

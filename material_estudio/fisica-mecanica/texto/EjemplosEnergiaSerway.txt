@@ -1,0 +1,820 @@
+5.1 | Trabajo            127
+
+
+   ■ EJEMPLO 5.1             Transporte por trineo a través del río Yukón
+OB JET I VO Aplicar las definiciones básicas de trabajo realizado por una fuerza                       S                             S
+                                                                                                       n                             F
+constante.
+                                                                                              S
+PROBLEMA Un esquimal regresa de un fructífero viaje de pesca jalando un tri-                  fk                    q
+neo cargado de salmón. La masa total del trineo y del salmón es 50.0 kg, y el
+esquimal ejerce una fuerza de 1.20 3 102 N sobre el trineo al jalar de la cuerda.
+a) ¿Cuánto trabajo realiza sobre el trineo si la cuerda está en posición horizontal
+a la superficie de la tierra (u 5 0°, figura 5.6) y jala el trineo 5.00 m? b) ¿Cuánto
+trabajo realiza sobre el trineo si u 5 30.0° y jala el trineo la misma distancia?                       S
+                                                                                                      mg
+(Considere al trineo como una partícula puntual, de tal manera que los detalles
+como el punto de unión de la cuerda no es relevante.) c) En una posición coordi-
+                                                                                           Figura 5.6 (Ejemplos 5.1 y 5.2) Un esqui-
+nada de 12.4 m, el esquimal alivia la fuerza aplicada. Una fuerza de fricción de           mal jala un trineo con una cuerda en un
+45.0 N entre el hielo y el trineo lleva al trineo hasta el reposo recorriendo una dis-     ángulo u con la horizontal.
+tancia de 18.2 m. ¿Cuál es el trabajo realizado por la fuerza de fricción en el trineo?
+ESTRATEGI A Sustituya los valores conocidos de F y )x en las ecuaciones básicas para el trabajo, ecuaciones 5.2 y 5.3.
+
+SOLUCIÓN
+a) Calcule el trabajo realizado cuando la fuerza es horizontal.
+Aplique la ecuación 5.2, sustituyendo los valores conocidos:        W 5 Fx Dx 5 (1.20 3 102 N)(5.00 m) 5 6.00 3 102 J
+
+b) Determine el trabajo realizado cuando se ejerce la fuerza
+en un ángulo de 30°.
+Utilice la ecuación 5.3, una vez más sustituyendo los valores       W 5 (F cos u)d 5 (1.20 3 102 N)(cos 30°)(5.00 m)
+conocidos:                                                            5 5.20 3 102 J
+c) ¿Cuánto trabajo realiza la fuerza de fricción de 45.0 N
+sobre el trineo cuando éste se desplaza desde la posición
+de 12.4 m a la posición de 18.2 m?
+Use la ecuación 5.2, sustituyendo Fx por f k:                       Wfric 5 Fx Dx 5 F k(xf 2 xi)
+
+Sustituya f k 5 245.0 N y las coordenadas de la posición ini-       Wfric 5 (45.0 N) (18.2 m 2 12.4 m) 5 2261 N
+cial y final en xi y xf :
+
+
+                                        S                             S
+COMENTAR IOS La fuerza normal n , la fuerza gravitacional mg y la componente hacia arriba de la fuerza aplicada no
+realizan trabajo sobre el trineo ya que son perpendiculares al desplazamiento. En este caso la masa del trineo no participa,
+pero es importante cuando se deban calcular los efectos de la fricción y en la próxima sección, donde se introduce el teo-
+rema trabajo-energía.
+PREGUNTA 5.1 ¿Cómo cambia la respuesta para el trabajo efectuado por la fuerza aplicada si se duplica la carga? Explique.
+E JERCICIO 5.1 Suponga que el esquimal está empujando el mismo trineo de 50 kg a través del terreno a nivel con una
+fuerza de 50.0 N. a) Si aplica 4.00 3 102 J de trabajo en el trineo mientras se ejerce la fuerza de manera horizontal, ¿a lo
+largo de qué distancia debe empujarlo? b) Si ejerce la misma fuerza en un ángulo de 45° con respecto a la horizontal, y el
+trineo se traslada desde el inicio hasta el final de la misma distancia, ¿cuánto trabajo realiza sobre el trineo?
+RESPUESTA a) 8.00 m b) 283 J
+128     CAPÍTULO 5 | Energía
+
+
+   ■ EJEMPLO 5.2             Más transporte por trineo
+OB JET I VO Calcular el trabajo que se realiza por fricción cuando un objeto se guía por una fuerza aplicada.
+PROBLEMA Suponga que en el ejemplo 5.1 el coeficiente de            ESTR ATEGI A Véase la figura 5.6. El trabajo por fricción
+fricción cinética entre el trineo con una carga de 50.0 kg y la     depende de la magnitud del coeficiente de fricción cinética,
+nieve es 0.200. a) Una vez más el esquimal jala 5.00 m el trineo,   la fuerza normal y el desplazamiento. Utilice la componente
+ejerciendo una fuerza de 1.20 3 102 N con un ángulo de 0°.          y de la segunda ley de Newton para determinar la fuerza
+                                                                             S
+Determine el trabajo realizado por fricción sobre el trineo y       normal n , calcule el trabajo por fricción que se lleva a cabo
+el trabajo neto. b) Reproduzca los cálculos si la fuerza apli-      utilizando la definición y súmelo con el resultado del ejem-
+cada se ejerce en un ángulo de 30.0° con la horizontal.             plo 5.1a) para obtener el trabajo neto sobre el trineo. De la
+                                                                    misma manera se resuelve el inciso b), pero la fuerza normal
+                                                                    es másS
+                                                                            pequeña ya que ésta tiene la ayuda de la fuerza apli-
+                                                                    cada F ap soportando la carga.
+
+
+SOLUCIÓN
+a) Encuentre el trabajo realizado por fricción sobre el tri-
+neo y el trabajo neto si la fuerza aplicada es horizontal.
+Primero, determine la fuerza normal a partir de la com-             o F y 5 n 2 mg 5 0    :   n 5 mg
+ponente y de la segunda ley de Newton, que sólo incluye la
+fuerza normal y la fuerza de gravedad:
+Use la fuerza normal para calcular el trabajo realizado por         Wfric 5 2f k Dx 5 2mkn Dx 5 2mkmg Dx
+fricción:                                                                5 2(0.200)(50.0 kg)(9.80 m/s2)(5.00 m)
+                                                                         5 24.90 3 102 J
+Sume el trabajo de fricción con el trabajo realizado por            Wneto 5 Wap 1 Wfric 1 Wn 1 Wg
+la fuerza aplicada del ejemplo 5.1, para obtener el trabajo              5 6.00 3 102 J 1 (24.90 3 102 J) 1 0 1 0
+neto (las fuerzas normal y de gravedad son perpendiculares
+al desplazamiento, así que no contribuyen):                              5 1.10 3 102 J
+130     CAPÍTULO 5 | Energía
+
+
+      b) Vuelva a calcular el trabajo de fricción y el trabajo neto si
+      la fuerza aplicada se ejerce en un ángulo de 30.0°.
+      Halle la fuerza normal de la componente y de la segunda            o F y 5 n 2 mg 1 Fap sen u 5 0
+      ley de Newton:                                                        n 5 mg 2 F ap sen u
+      Utilice la fuerza normal para calcular el trabajo realizado        Wfric 5 2f k Dx 5 2mkn Dx 5 2mk(mg 2 F app sen u) Dx
+      por fricción:                                                           5 2(0.200)(50.0 kg ? 9.80 m/s2
+                                                                                 21.20 3 102 N sen 30.0°)(5.00 m)
+                                                                         Wfric 5 24.30 3 102 J
+      Sume esta respuesta con el resultado del ejemplo 5.1b)             Wneto 5 Wapp 1 Wfric 1 Wn 1 Wg
+      para obtener el trabajo neto (una vez más, las fuerzas                  5 5.20 3 102 J 2 4.30 3 102 J 1 0 1 0 5 9.0 3 101 J
+      normal y de gravedad no contribuyen):
+
+      COMENTAR IOS En este caso, lo más importante para destacar es que la fuerza aplicada ejercida en diferentes ángulos
+      puede afectar drásticamente el trabajo realizado sobre el trineo. Jalar en el ángulo óptimo (11.3° en este caso) dará como
+      resultado el mayor trabajo neto para la misma fuerza aplicada.
+      PREGUNTA 5. 2 ¿Cómo cambia el trabajo neto realizado en cada caso si se duplica el desplazamiento?
+      EJERCICIO 5.2 a) El esquimal empuja el mismo trineo de 50.0 kg sobre la superficie de la tierra con una fuerza de 1.75 3 102
+      N ejercida horizontalmente, desplazándola una distancia de 6.00 m. Si el trabajo neto realizado sobre el trineo es 1.50 3 102 J,
+      determine el coeficiente de fricción cinética. b) Repita el ejercicio si la fuerza aplicada es ascendente en un ángulo de 45.0° con
+      la horizontal.
+      RESPUESTA a) 0.306 b) 0.270
+
+
+  ■ EJEMPLO 5.3              Análisis de colisiones
+OB JET I VO Aplicar el teorema trabajo-energía con una fuerza conocida.                                S
+                                                                                                       vi
+PROBLEMA El conductor de un automóvil de 1.00 3 10 kg viaja de un estado a otro a
+                                                              3
+
+35.0 m/s (casi 80.0 mi/h) repentinamente pisa el freno para evitar golpear un segundo
+                                                                                                            S
+vehículo frente a él, que se detuvo debido a un congestionamiento de tránsito (figura 5.9).                 fk     S
+Después de que los frenos son aplicados, una fuerza de fricción constante de 8.00 3 103 N                        x
+actúa sobre el automóvil. Omita la resistencia del aire. a) ¿A qué distancia mínima deben         Figura 5.9 (Ejemplo 5.3)
+aplicarse los frenos para evitar una colisión con el otro vehículo? b) Si la distancia entre      Un vehículo aplica los frenos justo
+los vehículos inicialmente es sólo de 30.0 m, ¿con qué velocidad se presentaría la colisión?      antes de un accidente.
+                                                                       5.2 | Energía cinética y el teorema trabajo-energía       131
+
+ESTR ATEGI A Calcule el trabajo neto, que sólo incluye la fricción cinética, ya que las fuerzas normal y de gravedad son
+perpendiculares al movimiento. Entonces iguale el trabajo neto al cambio en energía cinética. Para obtener la distancia
+mínima en el inciso a), tome en cuenta la velocidad final vf de cero precisamente cuando el vehículo frenando alcanza la
+parte posterior del vehículo en reposo. Resuelva para la incógnita, )x. Para el inciso b) proceda de la misma manera, excepto
+que la incógnita es la velocidad final vf.
+
+SOLUCIÓN
+a) Determine la distancia mínima necesaria de frenado.
+Aplique el teorema trabajo-energía para el automóvil:             Wneto 5 12mv f 2 2 12mv i2
+Sustituya una expresión para el trabajo por fricción y haga       2fk Dx 5 0 2 12mv i 2
+vf 5 0:
+
+Sustituya vi 5 35.0 m/s, f k 5 8.00 3 103 N y m 5 1.00 3 103kg.   2 1 8.00 3 103 N 2 Dx 5 212 1 1.00 3 103 kg 2 1 35.0 m/s 2 2
+Resuelva para )x:                                                                     Dx 5 76.6 m
+b) Con la distancia conocida de 30.0 m, el automóvil está
+muy cerca del otro vehículo; halle la rapidez en el impacto.
+Escriba a continuación el teorema trabajo-energía:                Wneto 5 Wfric 5 2fk Dx 5 12mv f 2 2 12mv i 2
+                                                                                 2
+Multiplique por 2/m y reordene términos, resolviendo para         vf 2 5 vi2 2     f Dx
+                                                                                 m k
+la velocidad final vf :
+                                                                  v f 2 5 1 35.0 m/s 2 2 2
+                                                                                                     2
+                                                                                                             (8.00 3 103 N)(30.0 m)
+                                                                                               1.00 3 103 kg
+                                                                      5 745 m2/s2
+                                                                   vf 5 27.3 m/s
+
+COMENTAR IOS Este cálculo explica qué tan importante es el estar alerta en la autopista, el tener siempre presente una
+distancia suficiente para detenerse. Tarda casi un segundo en reaccionar a las luces de freno del automóvil que está al
+frente. En una autopista de alta velocidad, es posible que su automóvil viaje más de 30 metros antes de que pueda accionar
+los frenos. Desplazarse defensa con defensa con tránsito a gran velocidad, como se presenta con frecuencia en las autopistas
+cerca de las grandes ciudades, es extremadamente inseguro.
+PREGUNTA 5. 3 De manera cualitativa, ¿cómo cambiaría la respuesta para la velocidad final en el inciso b) si está llo-
+viendo durante el incidente? Explique.
+E JERCICIO 5. 3 Un policía investigador mide la marca del derrape de llantas de 27 m de longitud en un accidente. Consi-
+dere una fuerza de fricción y masa del automóvil igual que en el problema anterior, ¿cuál era la velocidad mínima del auto-
+móvil cuando se traban los frenos?
+RESPUESTA 20.8 m/s
+134   CAPÍTULO 5 | Energía
+                                                                                        5.3 | Energía potencial gravitacional       135
+
+
+   ■ EJEMPLO 5.4                Encere sus esquíes
+OB JET I VO Calcular el cambio de energía potencial gravitacional para dis-
+tintos niveles de referencia.
+                                                                                        
+PROBLEMA Una esquiadora de 60.0 kg está en la parte superior de una
+pendiente, como se muestra en la figura 5.14. En el punto inicial , se
+encuentra 10.0 m verticalmente arriba del punto . a) Fijando en  el nivel
+cero para la energía potencial gravitacional, determine la energía potencial
+gravitacional de este sistema cuando la esquiadora está en  y después en .
+Por último, determine el cambio de energía potencial del sistema esquiadora-
+Tierra cuando ella va desde el punto  hasta el punto . b) Reproduzca este                                                     10.0 m
+problema con el nivel cero en el punto . c) Una vez más vuelva a resolver
+este problema con el nivel cero 2.00 m más alto que el punto .
+ESTR ATEGI A Siga la definición y sea precavido con los signos.  es el
+punto inicial, con energía potencial gravitacional EPi y  es el punto final,
+con energía potencial gravitacional EPf . La ubicación señalada por y 5 0 tam-
+bién es el punto cero para la energía potencial, porque EP 5 mgy.                                                               
+
+                                                                                      Figura 5.14 (Ejemplo 5.4)
+
+
+SOLUCIÓN
+a) Sea y 5 0 en . Calcule la energía potencial en  y en 
+y calcule el cambio de energía potencial.
+Determine EPi, la energía potencial en , con la ecuación 5.10:     EPi 5 mgyi 5 (60.0 kg)(9.80 m/s2)(10.0 m) 5 5.88 3 103 J
+EPf 5 0 en  por selección. Determine la diferencia de              EPf 2 EPi 5 0 2 5.88 3 103 J 5 25.88 3 103 J
+energía potencial entre  y :
+b) Vuelva a hacer el problema si y 5 0 en , el punto de
+referencia nuevo, de tal modo que EP 5 0 en .
+Determine EPf observando que el punto  ahora está en y             EPf 5 mgyf 5 (60.0 kg)(9.80 m/s2)(210.0 m)
+5 210.0 m:
+                                                                                5 25.88 3 103 J
+                                                                     EPf 2 EPi 5 25.88 3 103 J 2 0 5 25.88 3 103 J
+c) Repita el problema si y 5 0 dos metros arriba de .
+Calcule EPi , la energía potencial en :                            EPi 5 mgyi 5 (60.0 kg)(9.80 m/s2)(8.00 m) 5 4.70 3 103 J
+Determine EPf , la energía potencial en :                          EPf 5 mgyf 5 (60.0 kg)(9.8 m/s2)(22.00 m)
+                                                                        5 21.18 3 103 J
+Calcule el cambio de energía potencial:                             EPf 2 EPi 5 21.18 3 103 J 2 4.70 3 103 J
+                                                                               5 25.88 3 103 J
+
+COMENTAR IOS Estos cálculos muestran que el cambio en la energía potencial gravitacional, cuando la esquiadora va
+desde la parte superior de la pendiente hasta la parte inferior, es 25.88 3 103 J, independientemente del nivel de referencia elegido.
+PREGUNTA 5.4 Si se aumenta el ángulo de la pendiente, ¿el cambio de energía potencial gravitacional entre las dos altu-
+ras a) se incrementa, b) disminuye, c) permanece igual?
+E JERCICIO 5.4 Si el nivel cero para la energía potencial gravitacional se elige equidistante hacia abajo de la pendiente, 5.00 m
+arriba del punto , determine la energía potencial inicial, la energía potencial final y el cambio de la energía potencial
+conforme la esquiadora va desde el punto  hasta  en la figura 5.14.
+RESPUESTA 2.94 kJ, 22.94 kJ, 25.88 kJ
+                                                                                          5.3 | Energía potencial gravitacional                  137
+
+   ■ EJEMPLO 5.5              Clavadista
+OB JET I VO Utilizar la conservación de energía para calcular la velocidad
+                                                                                                                    10.0 m
+de un cuerpo que cae directamente en presencia de la gravedad.                                                                 EC i = 0
+PROBLEMA Un clavadista de masa m se deja caer desde un trampolín                                                               EP i = mg yi
+10.0 m arriba de la superficie del agua, como se muestra en la figura 5.16.
+Desprecie la resistencia del aire. a) Utilice la conservación de energía mecá-
+                                                                                                                    5.00 m                           m
+nica para determinar su velocidad 5.00 m sobre de la superficie del agua.
+                                                                                       Figura 5.16
+b) Determine su velocidad cuando golpea el agua.                                       (Ejemplo 5.5) El
+ESTRATEGI A Refiérase a la estrategia para la solución de problemas. Etapa 1:          cero de energía                         EC f = 12 mvf 2
+el sistema está constituido por el clavadista y la Tierra. Conforme el clavadista      potencial gravita-
+                                                                                       cional se toma en la       0       EP = 0
+cae, sólo actúa la fuerza de gravedad sobre él (despreciando la resistencia                                                 f
+                                                                                       superficie del agua.
+del aire), de tal manera que la energía mecánica del sistema se conserva, y se
+puede utilizar la conservación de la energía para los dos incisos a) y b). Etapa 2: decidimos y 5 0 para la superficie del agua. Etapa
+3: en el inciso a), y 5 10.0 m y y 5 5.00 m son los puntos de interés; mientras que en el inciso b), son de interés y 5 10.0 m y y 5 0 m.
+
+SOLUCIÓN
+a) Determine la velocidad del clavadista a la mitad del
+camino hacia abajo, en y 5 5.00 m.
+Etapa 4: escribimos la ecuación de conservación de                        EC 1 EP 5 EC 1 EP
+                                                                              i    i      f     f
+energía y se sustituyen los términos apropiados:
+                                                                      2 mv i 1 mg yi 5 2 mv f 1 mg yf
+                                                                      1     2          1     2
+
+
+Etapa 5: sustituya vi 5 0, cancele la masa y resuelva para vf :              0 1 gyi 5 12v f 2 1 gyf
+                                                                      v f 5 "2g 1 yi 2 yf 2 5 "2 1 9.80 m/s2 2 1 10.0 m 2 5.00 m 2
+                                                                      vf 5 9.90 m/s
+b) Encuentre la velocidad del clavadista en la superficie del
+agua, y 5 0.
+Utilice el mismo procedimiento que en el inciso a);                   0 1 mg yi 5 12mv f 2 1 0
+                                                                      v f 5 "2g yi 5 "2 1 9.80 m/s2 2 1 10.0 m 2 5 14.0 m/s
+considere yf = 0:
+
+COMENTARIOS Observe que la velocidad a la mitad del camino no es la mitad de la velocidad final. Otro punto interesante
+es que la respuesta final no depende de la masa. Eso es realmente una consecuencia de dejar de lado el cambio en la energía
+cinética de la Tierra, el cual es válido cuando la masa del objeto, en este caso el clavadista, es mucho menor que la masa de
+la Tierra. En realidad, la Tierra también “cae” hacia el clavadista, lo que reduce la velocidad final, pero la reducción es tan
+pequeña que no se puede medir.
+PREGUNTA 5.5 Cualitativamente, ¿cómo cambian las respuestas si el clavadista se sumerge corriendo hacia el final del trampolín?
+E JERCICIO 5. 5 Suponga que el clavadista salta del trampolín, con una velocidad inicial de 3.50 m/s hacia arriba. Use la
+conservación de energía para encontrar su velocidad cuando golpea el agua.
+RESPUESTA 14.4 m/s
+
+
+   ■ EJEMPLO 5.6              El salto de un insecto
+OB JET I VO Utilizar la conservación de la energía mecánica y los conceptos de balís-                                                  vy = 0
+tica en dos dimensiones para calcular una velocidad.                                                                                            vx
+
+PROBLEMA Un poderoso saltamontes se impulsa a sí mismo con un ángulo de 45°                            y                Nivel de cero
+                                                                                                           S           para la energía
+por encima de la horizontal y se eleva hasta su máxima altura de 1.00 m durante el                         vi                          ymáx = h
+                                                                                                                          potencial
+salto. (Véase la figura 5.17.) ¿Con qué velocidad vi dejó el piso? Desprecie la resistencia                             gravitacional
+del aire.                                                                                                       458
+                                                                                                                x
+ESTR ATEGI A Este problema puede resolverse con la conservación de energía y la rela-
+ción entre la velocidad inicial y su componente x. Separado del origen, el otro punto de     Figura 5.17 (Ejemplo 5.6)
+interés es la altura máxima y 5 1.00 m, donde el saltamontes tiene una velocidad vx sólo
+en la dirección x. En este caso la conservación de energía proporciona una ecuación con dos incógnitas: la velocidad inicial vi y la
+velocidad en la altura máxima, vx. Sin embargo, debido a que no existen fuerzas en la dirección
+x, vx es la misma que la componente x de la velocidad inicial.                                                         (continúa)
+138     CAPÍTULO 5 | Energía
+
+
+SOLUCIÓN
+                                                                   2 mv i 1 mg yi 5 2 mv f 1 mg yf
+                                                                   1     2          1     2
+Utilice la conservación de la energía:
+Sustituya yi 5 0, vf 5 vx y yf 5 h:                                1
+                                                                   2 mv i
+                                                                          2
+                                                                              5 12mv x2 1 mgh
+Multiplique cada lado por 2/m, para obtener una ecuación          (1)    vi2 5 vx2 1 2gh
+y dos incógnitas:
+
+Elimine vx mediante la sustitución de vx 5 vi cos 45° en          v i 2 5 1 v i cos 45° 2 2 1 2gh 5 12 v i 2 1 2gh
+                                                                   v i 5 2"gh 5 2" 1 9.80 m/s2 2 1 1.00 m 2 5 6.26 m/s
+la ecuación (1), resolviendo para vi y sustituyendo los valo-
+res conocidos:
+
+COMENTAR IOS De modo sorprendente, la respuesta final es un valor alto, lo que explica qué tan fuerte es el insecto con
+respecto a su tamaño.
+PREGUNTA 5.6 Considerando que las otras cantidades conocidas permanecen igual, ¿cómo cambiaría la respuesta si el
+ángulo inicial fuera más pequeño? ¿Por qué?
+E JERCICIO 5.6 Una catapulta lanza una roca en un ángulo de 30.0° con respecto a la horizontal. Determine la altura
+máxima alcanzada si la rapidez de la roca en su punto más alto es 30.0 m/s.
+RESPUESTA 15.3 m
+
+
+   ■ EJEMPLO 5.7               ¡Der Stuka!
+OB JET I VO Utilizar el teorema trabajo-energía con la energía potencial gra-
+vitacional para calcular el trabajo realizado por una fuerza no conservativa.
+PROBLEMA El deslizamiento con agua es casi sin fricción, por esto puede
+proporcionar a estudiantes aburridos emociones de alta velocidad (figura
+5.18). En tal tobogán, Der Stuka, nombrado así por el aterrador avión de bom-
+bardeo en picada alemán de la Segunda Guerra Mundial, está a 72 pies de
+altura (21.9 m), se localiza en Six Flags en Dallas, Texas, y en Wet’n Wild en
+Orlando, Florida. a) Determine la rapidez de una mujer de 60.0 kg en la parte
+inferior de tal caída, suponiendo que ninguna fricción está presente. b) Si
+la velocidad de la mujer es de 18.0 m/s en la parte inferior del tobogán,
+encuentre el trabajo realizado suponiendo que no hay fricción sobre la mujer.
+ESTR ATEGI A El sistema está compuesto por la mujer, la Tierra y el tobogán.
+
+
+                                                                                         Wet’n Wild Orlando
+La fuerza normal, siempre perpendicular al desplazamiento, no opera. Deno-
+mine como y 5 0 m a la parte inferior del tobogán. Los dos puntos de interés
+son y 5 0 m y y 5 21.9 m. Sin fricción, Wnc 5 0, y se puede aplicar la conserva-
+ción de energía mecánica, ecuación 5.15. Para el inciso b), se utiliza la ecuación
+5.13, se sustituyen las dos velocidades, las alturas, y se resuelve para Wnc .
+                                                                                                              Figura 5.18 (Ejemplo 5.7) Si el tobogán es
+                                                                                                              sin fricción, la rapidez de la mujer en la parte
+                                                                                                              inferior depende sólo de la altura del tobogán,
+                                                                                                              no de la trayectoria que sigue.
+                                                                                           5.3 | Energía potencial gravitacional       139
+
+
+SOLUCIÓN
+a) Determine la rapidez de la mujer en la parte inferior del
+tobogán, suponiendo que no existe fricción.
+
+                                                                      2 mv i 1 mg yi 5 2 mv f 1 mg yf
+                                                                      1     2          1     2
+Escriba a continuación la ecuación 5.15, para la
+conservación de energía:
+Sustituya los valores vi 5 0 y vf 5 0:                                    0 1 mg yi 5 12mv f 2 1 0
+
+Resuelva para vf y sustituya los valores para g y yi :               v f 5 "2g yi 5 "2 1 9.80 m/s2 2 1 21.9 m 2 5 20.7 m/s
+
+b) Determine el trabajo realizado sobre la mujer por
+fricción si vf 5 18.0 m/s , 20.7 m/s.
+Escriba la ecuación 5.13, sustituyendo las expresiones para          Wnc 5 (EC f 2 EC i ) 1 (EPf 2 EPi)
+las energías cinética y potencial:                                        5 1 21 mv f 2 2 12mv f 2 2 1 1 mg yf 2 mg yi 2
+Sustituya m 5 60.0 kg, vf 5 18.0 m/s y vi 5 0, y resuelva            Wnc 5 3 21 # 60.0 kg # 1 18.0 m/s 2 2 2 0 4
+para Wnc:                                                                     1 3 0 2 60.0 kg # 1 9.80 m/s2 2 # 21.9 m 4
+                                                                      Wnc 5 23.16 3 103 J
+
+COMENTAR IOS La rapidez hallada en el inciso a) es la misma que si la mujer cayera verticalmente a lo largo de una dis-
+tancia de 21.9 m, lo que es consistente con nuestra suposición en el exámen rápido 5.3. El resultado del inciso b) es negativo
+debido a que el sistema pierde energía mecánica. La fricción transforma parte de la energía mecánica en energía térmica y
+ondas mecánicas, absorbidas en parte por el sistema y en parte por el entorno.
+PREGUNTA 5.7 Si el tobogán no tuviera fricción, ¿la forma del tobogán afectaría la respuesta final? Explique.
+E JERCICIO 5.7 Suponga que un tobogán semejante al Der Stuka es de 35.0 m de alto, con una inclinación de 45.0° con
+respecto a la horizontal. a) Encuentre la rapidez de una mujer de 60.0 kg en la parte inferior del tobogán; suponga que no
+hay fricción. b) Si la mujer tiene una rapidez de 20.0 m/s en la parte inferior, encuentre el cambio de energía mecánica
+debido a la fricción y c) la magnitud de la fuerza de fricción, supuesta como constante.
+RESPUESTAS a) 26.2 m/s b) 28.58 3 103 J c) 173 N
+
+
+   ■ EJEMPLO 5.8              A las pendientes
+OB JET I VO Asociar la conservación de energía mecánica con el teorema trabajo-energía que incluye fricción sobre una
+superficie horizontal.
+PROBLEMA Un esquiador inicia desde el reposo en la parte
+superior de un plano inclinado de 20.0 m de alto, como se                     
+muestra en la figura 5.19. En la parte inferior del plano, el
+esquiador encuentra una superficie horizontal donde el coefi-             y       h  20.0 m
+ciente de fricción cinética entre los esquíes y la nieve es 0.210.
+a) Determine la rapidez del esquiador en la parte inferior.                       x
+                                                                                                                     u                
+b) ¿Qué distancia recorre el esquiador sobre la superficie hori-                                                                   d
+zontal antes de llegar al reposo? Omita la resistencia del aire.
+ESTR ATEGI A Físicamente no es muy diferente ir hacia abajo             Figura 5.19 (Ejemplo 5.8) El esquiador se desliza hacia abajo de
+por el plano inclinado sin fricción que ir hacia abajo por el la pendiente y sobre una superficie a nivel, deteniéndose después
+                                                                       de recorrer una distancia d desde la parte inferior de la colina.
+tobogán de los ejemplos anteriores, por lo que se maneja de
+la misma manera utilizando la conservación de energía mecánica para encontrar la velocidad v  en la parte inferior. En el
+plano inclinado, la superficie es rugosa, utilice el teorema trabajo-energía, la ecuación 5.13, con Wnc 5 Wfricc 5 2f kd, donde
+f k es la magnitud de la fuerza de fricción y d es la distancia recorrida sobre la superficie horizontal antes de llegar al reposo.
+
+SOLUCIÓN
+a) Determine la velocidad del esquiador en la parte inferior.
+Siga el procedimiento que se aplica en el inciso a) del               v 5       2gh 5      2 1 9.80 m/s2 2 1 20.0 m 2 5 19.8 m/s
+ejemplo anterior cuando el esquiador se traslada desde la
+parte superior, punto , hasta la parte inferior, punto :                                                                     (continúa)
+142     CAPÍTULO 5 | Energía
+
+
+   ■ EJEMPLO 5.9               Un resorte horizontal
+OB JET I VO Utilizar la conservación de la energía para calcular la velocidad de un bloque
+en un resorte horizontal con fricción y sin ella.                                                                                 S
+                                                                                                                        S
+                                                                                                                                  n
+PROBLEMA Un bloque con 5.00 kg de masa está unido a un resorte horizontal cuya                                          Fs
+constante es k 5 4.00 3 102 N/m, como se muestra en la figura 5.21. La superficie sobre                                                   S
+                                                                                                                             m
+la que descansa el bloque está libre de fricción. Si se jala el bloque a xi 5 0.050 0 m y se                                              fk
+libera, a) determine la velocidad del bloque cuando alcanza primero el punto de equili-                                                       x
+                                                                                                                        0    xi
+brio, b) determine la velocidad cuando x 5 0.025 0 m y c) vuelva a resolver el inciso a) si la
+fricción actúa en el bloque, con coeficiente mk 5 0.150.                                                                          mg
+                                                                                                                                      S
+
+
+ESTR ATEGI A En los incisos a) y b) no existen fuerzas no conservativas, de este modo
+puede ser aplicada la conservación de energía, ecuación 5.19. En el inciso c) son necesa-
+rios la definición de trabajo y el teorema trabajo-energía para tratar con las pérdidas de                Figura 5.21 (Ejemplo 5.9) Una
+energía mecánica debido a la fricción.                                                                    masa unida a un resorte.
+
+
+SOLUCIÓN
+a) Determine la velocidad del bloque en el punto de
+equilibrio.
+Inicie con la ecuación 5.19:                                      (EC 1 EPg1 EPr)i 5 (EC 1 EPg1 EPr)f
+
+                                                                         2 mv i 1 2 kx i 5 2 mv f 1 2 kx f
+                                                                         1     2  1     2  1     2  1      2
+Sustituya expresiones para la energía cinética del bloque y       (1)
+la energía potencial y fijar los términos de gravedad a cero:
+
+                                                                   k 2
+Sustituya vi 5 0, xf 5 0 y multiplique por 2/m:                     x 5 vf 2
+                                                                   m i
+
+                                                                                   4.00 3 102 N/m
+                                                                                                  1 0.050 0 m 2
+                                                                          k
+                                                                  vf 5      xi 5
+                                                                         Åm      Å
+Resuelva para vf y sustituya los valores conocidos:
+                                                                                        5.00 kg
+                                                                     5 0.447 m/s
+
+b) Encuentre la velocidad del bloque en el punto intermedio.
+                                                                   k 2
+Establezca vi 5 0 en la ecuación (1) y multiplique por 2/m:         x 5 vf 2
+                                                                   m i
+
+
+                                                                            1x 2 2 xf22
+                                                                          k
+                                                                  vf 5
+                                                                         Åm i
+Resuelva para vf y sustituya los valores conocidos:
+
+                                                                           4.00 3 102 N/m
+                                                                     5                    3 1 0.050 m 2 2 2 1 0.025 m 2 2 4
+                                                                         Å      5.00 kg
+                                                                     5 0.387 m/s
+c) Repita el inciso a), esta vez con fricción.
+Aplique el teorema trabajo-energía. El trabajo realizado          Wfric 5 12mv f 2 2 12mv i 2 1 12 kx f 2 2 12 kx i 2
+por la fuerza de gravedad y la fuerza normal es cero ya que
+estas fuerzas son perpendiculares al movimiento.
+Sustituya vi 5 0, xf 5 0 y Wfric 5 2mknxi :                       2mknx i 5 12 mv f 2 2 12 kx i 2
+                                                                                                5.4 | Energía potencial elástica        143
+
+Establezca n 5 mg y resuelva para vf :                  2 mv f 5 2 kx i 2 mkmgx i
+                                                        1     2  1     2
+
+
+                                                                     k 2
+                                                             vf 5     x 2 2mk gx i
+                                                                    Åm i
+                                                                      4.00 3 102 N/m
+                                                             vf 5                    1 0.05 m 2 2 2 2 1 0.150 2 1 9.80 m/s2 2 1 0.050 m 2
+                                                                    Å      5.00 kg
+                                                             vf 5 0.230 m/s
+
+COMENTAR IOS La fricción o la resistencia debido a la inmersión en un fluido amortigua el movimiento de un objeto
+unido a un resorte, lo que eventualmente lleva al objeto hasta el reposo.
+PREGUNTA 5.9 En el caso de la fricción, ¿qué porcentaje de la energía mecánica se perdió para el momento en que la
+masa alcanzó el punto de equilibrio? (Sugerencia: Utilice las respuestas de los incisos a) y c).)
+E JERCICIO 5.9 Suponga que el sistema del resorte en el último ejemplo inicia en x 5 0 y que al objeto unido se le da un
+retroceso hacia la derecha, de manera tal que tenga una rapidez inicial de 0.600 m/s. a) ¿Qué distancia desde el origen viaja
+el objeto antes de llegar al reposo, considerando que no existe fricción en la superficie? b) ¿Cómo cambia la respuesta si el
+coeficiente de fricción cinética es mk 5 0.150? (Utilice la fórmula cuadrática.)
+RESPUESTAS a) 0.067 1 m b) 0.051 2 m
+
+
+   ■ EJEMPLO 5.10            Acróbata de circo
+OB JET I VO Utilizar la conservación de energía mecánica para                                                  Figura 5.22 (Ejemplo 5.10)
+resolver un problema en una dimensión que incluye energía                                                      Una acróbata se deja caer
+potencial gravitacional y energía potencial elástica.                                                          sobre un trampolín, lo que
+                                                                                                               ocasiona que se comprima.
+PROBLEMA Una acróbata de circo de 50.0 kg se deja caer desde
+una altura de 2.00 m con trayectoria recta hacia abajo sobre un
+trampolín con una constante de fuerza de 8.00 3 103 N/m, como
+se muestra en la figura 5.22. ¿Para qué distancia máxima ella com-
+prime el resorte?
+ESTR ATEGI A Están ausentes fuerzas no conservativas, por eso
+puede ser aplicada la conservación de energía mecánica. En los
+dos puntos de interés, la posición inicial de la acróbata y el punto                                       h
+de compresión máximo del resorte, su velocidad es cero, de tal
+modo que los términos de energía cinética serán cero. Elija y 5 0
+como el punto de máxima compresión, así la energía potencial
+                                                                                                           d
+gravitacional final es cero. Además, esta alternativa significa que
+la posición inicial de la acróbata es yi 5 h 1 d, donde h es la altura
+inicial de la acróbata sobre la plataforma y d es la compresión
+máxima del resorte.                                                            a                                   b
+
+SOLUCIÓN
+Aplique la conservación de energía mecánica:                          (1) (EC 1 EPg1 EPr)i 5 (EC 1 EPg1 EPr)f
+
+
+Los únicos términos diferentes de cero son la energía                 0 1 mg 1 h 1 d 2 1 0 5 0 1 0 1 12 kd 2
+potencial gravitacional y la energía potencial final del resorte.               mg 1 h 1 d 2 5 12 kd 2
+Sustituya las cantidades dadas y reordene la ecuación en              1 50.0 kg 2 1 9.80 m/s2 2 1 2.00 m 1 d 2 5 12 1 8.00 3 103 N/m 2 d 2
+la forma cuadrática estándar:                                                d 2 2 1 0.123 m 2 d 2 0.245 m2 5 0
+Resuelva con la fórmula cuadrática (ecuación A.8):                    d 5 0.560 m
+
+COMENTAR IOS La otra solución, d 5 20.437 m, puede ser rechazada ya que al principio d fue elegida para ser un número
+positivo. Por ejemplo, un cambio en el centro de masa de la acróbata al ponerse en cuclillas al hacer contacto con el trampo-
+
+                                                                                                                                 (continúa)
+144     CAPÍTULO 5 | Energía
+
+lín, afecta la compresión del resorte, pero ese efecto se despreció. Habitualmente un amortiguador incluye resortes, y este
+ejemplo explica cómo funcionan. La acción del resorte de un amortiguador cambia un impacto peligroso en una desacele-
+ración uniforme, conforme se convierte la energía cinética a energía potencial elástica.
+PREGUNTA 5.10 ¿Es posible que la acróbata rebote hasta una altura mayor que su altura inicial? Si es así, ¿cómo lo hace?
+E JERCICIO 5.10 Se deja caer un bloque de 8.00 kg en trayectoria recta hacia abajo desde una altura de 1.00 m y golpea
+una plataforma con resorte que tiene una constante de fuerza de 1.00 3 103 N/m. Halle la compresión máxima del resorte.
+RESPUESTA d 5 0.482 m
+
+
+   ■ EJEMPLO 5.11             Un bloque lanzado hacia arriba sobre un plano inclinado sin fricción
+OB JET I VO Utilizar la conservación de energía mecánica
+para resolver un problema que involucra energía potencial
+                                                                                                                         d            
+gravitacional, energía potencial elástica y una rampa.
+                                                                                                                             
+PROBLEMA Un bloque de 0.500 kg reposa sobre una super-                          k                                                     h
+ficie horizontal, sin fricción, como se muestra en la figura 5.23.                         m                            u   h/2
+Se presiona la parte posterior del bloque contra un resorte que                                                                           x
+tiene una constante k 5 625 N/m, comprimiendo el resorte en                                xi        0
+10.0 cm hasta el punto . Después de liberar el bloque, a) deter-
+mine la distancia máxima d que el bloque recorre hacia arriba         Figura 5.23 (Ejemplo 5.11)
+sobre el plano inclinado sin fricción si u 5 30.0°. b) ¿Qué tan
+rápido va el bloque a la mitad de su altura máxima?
+ESTR ATEGI A En ausencia de otras fuerzas, aplique la conservación de energía mecánica a los incisos a) y b). En el inciso
+a), el bloque inicia desde el reposo y además de manera instantánea hasta el reposo en la parte superior de la rampa, por eso
+las energías cinéticas en  y  son iguales a cero. Observe que la pregunta que se hace es para una distancia d a lo largo de
+la rampa, no la altura h. En el inciso b), el sistema tiene las energías cinética y potencial gravitacional en .
+
+SOLUCIÓN
+a) Determine la distancia que el bloque recorre hacia arriba
+sobre la rampa.
+
+                                                                     2 mv i 1 mg yi 1 2 kx i 5 2 mv f 1 mg yf 1 2 kx f
+                                                                     1     2          1     2  1     2          1      2
+Se aplica la conservación de energía mecánica:
+Sustituya vi 5 vf 5 0, yi 5 0, yf 5 h 5 d sen u y xf 5 0:            2 kx i 5 mgh 5 mgd sen u
+                                                                     1     2
+
+
+                                                                                                2 1 625 N/m 2 1 20.100 m 2
+                                                                            1      2            1                          2
+                                                                            2 kx i
+                                                                     d5                5
+                                                                                            1 0.500 kg 2 1 9.80 m/s 2 sen 1 30.0° 2
+Resuelva para la distancia d e inserte los valores conocidos:
+                                                                          mg sen u                                2
+
+                                                                       5 1.28 m
+b) Determine la velocidad a la mitad de la altura, h/2.
+Observe que h 5 d sen u 5 (1.28 m) sen 30.0° 5 0.640 m.
+
+                                                                     2 mv i 1 mg yi 1 2 kx i 5 2 mv f 1 mg yf 1 2 kx f
+                                                                     1     2          1     2  1     2          1     2
+Una vez más utilice la conservación de energía:
+Considere vi 5 0, yi 5 0, yf 5 12 h y xf 5 0, produciendo            2 kx i 5 2 mv f 1 mg 1 2h 2
+                                                                     1     2  1     2       1
+
+
+                                                                     k 2
+Multiplique por 2/m y resuelva para vf :                              x 5 v f 2 1 gh
+                                                                     m i
+                                                                                k 2
+                                                                        vf 5     x 2 gh
+                                                                               Åm i
+
+                                                                                a         b 1 20.100 m 2 2 2 1 9.80 m/s2 2 1 0.640 m 2
+                                                                                  625 N/m
+                                                                           5
+                                                                               Å 0.500 kg
+                                                                        vf 5 2.50 m/s
+
+COMENTAR IOS Observe que no fue necesario calcular la velocidad adquirida al soltar el resorte, sólo fue necesaria la
+energía mecánica en cada uno de los puntos de interés, donde el bloque estaba en reposo.
+148     CAPÍTULO 5 | Energía
+
+
+   ■ EJEMPLO 5.12            Potencia entregada por el motor de un elevador
+OB JET I VO Aplicar la definición fuerza por velocidad:                                                Motor
+
+PROBLEMA Un elevador de 1.00 3 103 kg transporta una                                                                   S
+carga máxima de 8.00 3 102 kg. Una fuerza de fricción cons-                                                            T
+tante de 4.00 3 103 N retarda su movimiento hacia arriba,
+como se muestra en la figura 5.26. ¿Qué potencia mínima,
+en kilowatts y caballos de fuerza, debe entregar el motor                                                      
+para levantar el elevador completamente cargado, con una
+rapidez constante de 3.00 m/s?
+ESTR ATEGI A Para resolver este problema, es necesario           Figura 5.26 (Ejemplo 5.12)
+establecer la fuerza que el motor del elevadorS debe entregar    a) El motor ejerce una fuerza
+                                                                               S                                       S
+a través de la fuerza de tensión en el cable, T . Sustituyendo   hacia arriba T en el eleva-                           f
+                                                                                               S
+                                                                 dor. Una fuerza de fricción f
+esta fuerza junto con la rapidez v dada en P 5 Fv se obtiene     y la fuerza de gravedad M g
+                                                                                             S
+                                                                                                                   S
+la potencia deseada. La tensión en el cable, T, se puede                                                       Mg
+                                                                 que actúan hacia abajo. b) El
+encontrar con la segunda ley de Newton.                          diagrama de cuerpo libre para
+                                                                 el elevador.                      a               b
+
+
+SOLUCIÓN
+                                                                     S       S
+Aplique la segunda ley de Newton al elevador:                    a F 5 ma
+
+                                                                 S       S       S
+La velocidad es constante, así que la aceleración es cero.       T 1 f 1 Mg 5 0
+Las fuerzas que actúanSsobre el elevadorS
+                                              son la fuerza
+                                                            S
+de tensión en el cable, T , la fricción f y la gravedad M g ,
+donde M es la masa del elevador:
+                                                                                                        5.6 | Potencia   149
+
+Escriba la ecuación en términos de sus componentes:           T 2 f 2 Mg 5 0
+
+
+Resuelva esta ecuación para la tensión T y evalúela:          T 5 f 1 Mg
+                                                                5 4.00 3 103 N 1 (1.80 3 103 kg)(9.80 m/s2)
+                                                              T 5 2.16 3 104 N
+
+Sustituya este valor de T por F en la ecuación de potencia:   P 5 Fv 5 (2.16 3 104 N)(3.00 m/s) 5 6.48 3 104 W
+                                                              P 5 64.8 kW 5 86.9 hp
+
+COMENTAR IOS La fuerza de fricción actúa para retardar el movimiento, lo que requiere más potencia. Para un elevador
+en descenso, la fuerza de fricción realmente puede reducir los requerimientos de potencia.
+PREGUNTA 5.1 2 En general, ¿los requerimientos de potencia mínimos de un elevador en ascenso con velocidad constante
+son a) mayor que, b) menor que, o bien c) igual a los requerimientos de potencia mínima de un elevador descendiendo con
+velocidad constante?
+E JERCICIO 5.1 2 Considere el mismo elevador con la misma carga descendiendo a 3.00 m/s. ¿Qué potencia mínima se
+requiere? (En este caso, el motor retira energía del elevador, pero no le permite que caiga libremente.)
+RESPUESTA 4.09 3 104 W 5 54.9 hp
+
+
+  ■ EJEMPLO 5.13            Carrera Shamu
+OB JET I VO Calcular la potencia promedio necesaria para incrementar la energía cinética de un objeto.
+PROBLEMA Las ballenas asesinas son conocidas por alcanzar 32 pies de longitud y tener una masa de más de 8 000 kg.
+También son muy rápidas, capaces de acelerar hasta 30 mi/h en cuestión de segundos. Sin hacer caso de la considerable
+fuerza de arrastre del agua, calcule la potencia promedio que necesitaría una ballena asesina conocida como Shamu, con
+una masa de 8.00 3 103 kg, para alcanzar una rapidez de 12.0 m/s en 6.00 s.
+ESTR ATEGI A Determine el cambio de energía cinética de Shamu y utilice el teorema trabajo-energía para obtener el tra-
+bajo mínimo. Shamu tiene que producir el resultado de este cambio. (Fuerzas de fricción internas y externas aumentan la
+cantidad necesaria de energía.) Divida entre el tiempo transcurrido para obtener la potencia promedio.
+
+SOLUCIÓN
+Calcule el cambio de energía cinética de Shamu. Mediante      DEC 5 12mv f 2 2 12mv i 2
+el teorema trabajo-energía, es igual al trabajo mínimo que         5 12 # 8.00 3 103 kg # 1 12.0 m/s 2 2 2 0
+Shamu debe hacer:
+                                                                   5 5.76 3 105 J
+
+                                                                   W    5.76 3 10 J  5
+Divida entre el tiempo transcurrido (ecuación 5.23);          P5      5             5 9.60 3 104 W
+                                                                   Dt      6.00 s
+observe que W 5 )EC:
+
+COMENTAR IOS ¡Esta potencia es suficiente para que funcione un edificio de oficinas de tamaño moderado! Los requeri-
+mientos reales son mucho mayores debido a la fricción en el agua y tejidos musculares. Se puede hacer algo parecido con la
+energía potencial gravitacional, como lo explica el ejercicio.
+PREGUNTA 5.1 3 Si Shamu pudiera duplicar su velocidad en el doble de tiempo, ¿con qué factor cambiaría la demanda de
+potencia promedio?
+E JERCICIO 5.1 3 ¿Qué potencia promedio mínima debe generar una persona de 35 kg para subir las escaleras hasta la
+parte superior del monumento a Washington? El recorrido hacia arriba es casi como en un edificio de 170 m de alto y tarda
+10 minutos. Incluya sólo el trabajo realizado contra la gravedad y desprecie la ineficiencia biológica.
+RESPUESTA 97 W
+150     CAPÍTULO 5 | Energía
+
+
+   ■ EJEMPLO 5.14            Potencia de una lancha de carreras
+OB JET I VO Combinar potencia, el teorema trabajo-energía y fuerzas no conservativas con cinemática en una dimensión.
+PROBLEMA a) ¿Qué potencia promedio necesitaría una lancha de carreras de 1.00 3 103 kg para ir desde el reposo hasta
+20.0 m/s en 5.00 s, suponiendo que el agua ejerce una fuerza de arrastre constante de magnitud fa 5 5.00 3 102 N, y la ace-
+leración es constante? b) Determine una expresión para la potencia instantánea en términos de la fuerza de arrastre fa , la
+masa m, aceleración a y tiempo t.
+ESTRATEGI A La potencia se proporciona mediante el motor, que origina una fuerza no conservativa. Utilice el teorema
+trabajo-energía junto con el trabajo realizado por el motor, Wmotor y el trabajo que hace la fuerza de arrastre, Warrastre, en el lado
+izquierdo. Utilice la cinemática en una dimensión para encontrar la aceleración y después el desplazamiento )x. Resuelva el
+teorema trabajo-energía para Wmotor y divida entre el tiempo transcurrido para obtener la potencia promedio. Para el inciso b),
+utilice la segunda ley de Newton para obtener un ejemplo para FM y después sustituya en la definición de potencia instantánea.
+
+SOLUCIÓN
+a) Escriba el teorema trabajo-energía:                              Wneto 5 DEC 5 12mv f 2 2 12mv i 2
+
+Complete los dos términos del trabajo y considere vi 5 0:           (1) Wmotor 1 Warrastre 5 12mv f 2
+
+Para obtener el desplazamiento )x, primero encuentre                        vf 5 at 1 vi S          vf 5 at
+la aceleración utilizando la ecuación de velocidad de la            20.0 m/s 5 a(5.00 s)      S a 5 4.00 m/s2
+cinemática:
+Sustituya a en la ecuación de cinemática independiente                       vf 2 2 vi2 5 2a Dx
+del tiempo y resuelva para )x:                                      (20.0 m/s)2 2 02 5 2(4.00 m/s2) Dx
+                                                                                    Dx 5 50.0 m
+Ahora que conoce )x, puede hallar la energía mecánica               Warrastre 5 2fd Dx 5 2(5.00 3 102 N)(50.0 m) 5 22.50 3 104 J
+perdida debido a la fuerza de arrastre:
+Resuelva la ecuación (1) para Wmotor:                               Wmotor 5 12mv f 2 2 Warrastre
+                                                                           5 12 1 1.00 3 103 kg 2 1 20.0 m/s 2 2 2 1 22.50 3 104 J 2
+                                                                    Wmotor 5 2.25 3 105 J
+
+                                                                          Wmotor       2.25 3 105 J
+Calcule la potencia promedio:                                        P5            5                     5 4.50 3 104 W5 60.3 hp
+                                                                             Dt            5.00 s
+b) Establezca una ecuación simbólica para la potencia
+instantánea.
+Utilice la segunda ley de Newton:                                   ma 5 FM 2 fa
+Resuelva para la fuerza ejercida por el motor, FM :                 FM 5 ma 1 fa
+Sustituya la expresión para FM y v 5 at en la ecuación 5.25           P 5 FMv 5 (ma 1 fa)(at)
+para obtener la potencia instantánea:                                 P 5 (ma 2 1 afa)t
+
+COMENTAR IOS En realidad, la fuerza de arrastre por lo general es más grande con el incremento de la rapidez.
+PREGUNTA 5.14 ¿Cómo se compara la potencia instantánea al final de 5.00 s con la potencia promedio?
+E JERCICIO 5.14 ¿Qué potencia promedio se debe suministrar para empujar un bloque de 5.00 kg desde el reposo hasta
+10.0 m/s cuando el coeficiente de fricción cinética entre el bloque y la superficie es 0.250? Suponga que la aceleración es
+uniforme.
+RESPUESTA 111 W
+                                                                          5.7 | Trabajo realizado por una fuerza variable             153
+
+
+                                                                                                             ap                   .
+
+  ■ EJEMPLO 5.15            Trabajo necesario para estirar un resorte
+OB JET I VO Aplicar el método gráfico para encontrar el trabajo.                                   Fap = (80.0 N/m)(x )
+
+PROBLEMA Un extremo de un resorte horizontal (k 5 80.0 N/m) se man-                         Fap
+                                                                                                                   
+tiene fijo mientras es aplicada una fuerza al extremo libre, estirando lenta-
+mente desde x  5 0 hasta x  5 4.00 cm. a) Determine el trabajo realizado                               
+por la fuerza aplicada en el resorte. b) Determine el trabajo adicional que
+se hace al estirar el resorte desde x  5 4.00 cm hasta x  5 7.00 cm.                         
+                                                                                                                         x (cm)
+ESTR ATEGI A Para el inciso a) simplemente calcule el área del triángulo                   O             4.00     7.00
+más pequeño en la figura 5.30, utilizando A 5 12 bh, la mitad de la base por      Figura 5.30 (Ejemplo 5.15) Una gráfica de la
+la altura. Para el inciso b), la manera más fácil de encontrar el trabajo adi-    fuerza externa que se necesita para estirar un
+cional realizado desde x  5 4.00 cm hasta x  5 7.00 cm es calcular el área      resorte que obedece la ley de Hooke en términos
+del triángulo más grande y restar el área del triángulo más pequeño.              de la elongación del resorte.
+
+SOLUCIÓN
+a) Determine el trabajo desde x  5 0 cm hasta x  5 4.00 cm.
+Calcule el área del triángulo más pequeño:                       W 5 12kx 2 5 12 1 80.0 N/m 2 1 0.040 m 2 2 5 0.064 J
+b) Encuentre el trabajo desde x 5 4.00 cm hasta x 5 7.00
+cm.
+Calcule el área del triángulo más grande y reste el área del      W 5 12 kx 2 2 12 kx 2
+                                                                  W 5 12 1 80.0 N/m 2 1 0.070 0 m 2 2 2 0.064 J
+triángulo más pequeño:
+
+                                                                    5 0.196 J 2 0.064 J
+                                                                    5 0.132 J
+
+                                                                                                                             (continúa)
+154    CAPÍTULO 5 | Energía
+
+COMENTAR IOS Únicamente geometría simple (rectángulos y triángulos) puede resolverse exactamente con este método.
+Formas más complejas requieren de cálculo o la técnica de conteo de cuadros y se trabaja en el siguiente ejemplo.
+PREGUNTA 5.1 5 Verdadero o Falso: Cuando se estiran resortes, la mitad del desplazamiento requiere la mitad del trabajo.
+E JERCICIO 5.1 5 ¿Cuánto trabajo se necesita para estirar este mismo resorte desde xi 5 5.00 cm hasta xf 5 9.00 cm?
+RESPUESTA 0.224 J
+
+
+  ■ EJEMPLO 5.16           Cálculo del trabajo por conteo de cuadros
+OB JET I VO Utilizar el método gráfico y conteo       Fap (N)                                 Fap (N)
+de cuadros para evaluar el trabajo realizado por     10.0                                     100
+una fuerza.
+                                                      8.0                                      80
+PROBLEMA Suponga que la fuerza aplicada para
+estirar una gruesa pieza de elástico que cambia       6.0                                      60
+con la posición como se indica en la figura 5.31a.    4.0                                      40
+Calcule el trabajo hecho por la fuerza aplicada.
+                                                      2.0                                      20
+ESTRATEGI A Para hallar el trabajo, simple-
+mente cuente el número de cuadros bajo la curva y                                     x (m)                                 x (m)
+                                                      0.0       0.2 0.4 0.6 0.8 1.0             0   0.1   0.3   0.5   0.7
+multiplique el número por el área de cada cuadro.
+La curva pasará por la mitad de algunos cuadros,       a                                       b
+en cuyo caso sólo se contabiliza una fracción.
+                                                     Figura 5.31 a) (Ejemplo 5.16) b) (Ejercicio 5.16)
+
+SOLUCIÓN
+Existen 62 cuadros completos o casi completos bajo la curva, seis cuadros que están casi a la mitad debajo de la curva y un
+área triangular desde x 5 0 m hasta x 5 0.10 m que es equivalente a un cuadro para un total de casi 66 cuadros. Ya que
+el área de cada cuadro es 0.10 J, el trabajo total realizado es casi 66 3 0.10 J 5 6.6 J.
+
+COMENTAR IOS Matemáticamente existen otros métodos para hacer tales estimaciones, todas incluyen sumas hasta regio-
+nes que aproximen el área. Para obtener un mejor cálculo, los cuadros deberán ser más pequeños.
+PREGUNTA 5.16 En el desarrollo de tales estimaciones, ¿es necesario que todos los cuadros tengan la misma longitud y ancho?
+E JERCICIO 5.16 Suponga que la fuerza necesaria aplicada para jalar el lazo en la curva que se ve en la figura 5.31b. Deter-
+mine el trabajo aproximado que se realiza mediante el conteo de cuadros.
+RESPUESTA Casi 50 J. (Las respuestas individuales pueden variar.)
+
+
+      ■ EJEMPLO 6.1           Golpeando primero
+  OBJETIVO Aplicar el teorema impulso-cantidad de movimiento para evaluar la fuerza promedio ejercida durante un impacto.
+  PROBLEMA Una pelota de golf con 5.0 3 1022 kg de masa es golpeada con un bastón como en la figura 6.3 (página 170).
+  La fuerza en la pelota varía desde cero cuando se hace el contacto hasta algún valor máximo (cuando es máxima la deformación
+                                                                                                                             (continúa)

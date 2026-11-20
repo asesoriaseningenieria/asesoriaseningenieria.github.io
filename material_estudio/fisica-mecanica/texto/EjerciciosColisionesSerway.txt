@@ -1,0 +1,682 @@
+CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+
+■ PREGUNTAS DE OPCIÓN MÚLT IPLE
+
+
+             Las preguntas de opción múltiple en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+1. Un jugador de futbol corre detrás de un balón de                            to con la raqueta por 0.060 s, ¿qué fuerza promedio ac-
+   0.450 kg viajando a 3.20 m/s y lo patea en la misma di-                     túa sobre la pelota? a) 22.6 kg ? m/s2 b) 32.5 kg ? m/s2
+   rección cuando está en movimiento, incrementando su                         c) 43.7 kg ? m/s2 d) 72.1 kg ? m/s2 e) 102 kg ? m/s2
+   rapidez a 12.8 m/s. ¿Qué magnitud del impulso entregó                   5. En un juego de billar, una bola roja viaja en la dirección x
+   el jugador al balón? a) 2.45 kg ? m/s b) 4.32 kg ? m/s                     positiva con velocidad v y la bola marcada se desplaza en la
+   c) 5.61 kg ? m/s d) 7.08 kg ? m/s e) 9.79 kg ? m/s                         dirección x negativa con velocidad 3v cuando las dos bolas
+2. Un pequeño tazón chino tiene energía cinética E y se                       colisionan de frente. ¿Qué enunciado es verdadero que
+   desliza a lo largo de una cubierta sin fricción cuando un                  relaciona sus velocidades subsecuentes a la colisión? Des-
+   empleado, con la sincronización perfecta, coloca una                       precie cualquier efecto de giro. a) bola roja: 2v ; bola
+   bola de arroz dentro del tazón mientras pasa frente a él.                  marcada: 3v b) bola roja: v; bola marcada: 2v c) bola roja:
+   Si el tazón y la bola de arroz tienen la misma masa,                       23v; bola marcada: v d) bola roja: v; bola marcada: 3v
+   ¿cuál es la energía cinética del sistema? a) 2E b) E                       e) Las velocidades no pueden ser determinadas sin cono-
+   c) E/2 d) E/4 e) E/8                                                       cer la masa de cada bola.
+3. Un automóvil de masa m viajando con rapidez v choca                     6. Un carrito de 5 kg se mueve hacia la derecha con una ve-
+   con la parte posterior de un camión de masa 2m que es-                     locidad de 16 m/s, colisiona con una pared de concreto y
+   tá en reposo en neutral en un cruce. Si la colisión es per-                rebota con una velocidad de 22 m/s. ¿El cambio en la can-
+   fectamente inelástica, ¿cuál es la rapidez del combinado                   tidad de movimiento es a) 0, b) 40 kg ? m/s c) 240 kg ? m/s
+   automóvil y camión después de la colisión? a) v b) v/2                     d) 230 kg ? m/s o bien e) 210 kg ? m/s?
+   c) v/3 d) 2v e) Ninguno de éstos                                        7. Un objeto de 2 kg que se mueve a la derecha con una ve-
+4. Una pelota de tenis de 57.0 g está viajando directo a un                   locidad de 4 m/s hace una colisión elástica con un objeto
+   jugador a 21.0 m/s. El jugador volea la pelota directo de                  de 1 kg que está inicialmente en reposo. La velocidad
+   regreso a 25.0 m/s. Si la pelota permanece en contac-                      del objeto de 1 kg después del choque es a) mayor que
+                                                                                                            | Preguntas conceptuales
+
+    4 m/s, b) menos de 4 m/s, c) igual a 4 m/s, d) a cero o               11. La energía cinética de un cohete se incrementa en un
+    e) imposible responder con la información proporcionada.                  factor de ocho después de encender sus motores, mien-
+ 8. Un objeto de 3 kg que se mueve a la derecha sobre una                     tras que su masa total se reduce a la mitad a través de
+    superficie horizontal sin fricción con una velocidad de                   la combustión del combustible. ¿Por qué factor cambia la
+    2 m/s choca de frente y se pega con un objeto de 2 kg                     magnitud de su cantidad de movimiento? Sugerencia: Uti-
+    que está inicialmente en movimiento a la izquierda con                    lice EC 5 p2/2m. a) 2 b) 8 c) 4 d) 16 e) 1
+    una velocidad de 4 m/s. Después de la colisión, ¿qué afir-            12. Un cohete con masa total de 3.00 3 105 kg deja una pla-
+    mación es cierta? a) la energía cinética del sistema es de                taforma de lanzamiento en Cabo Kennedy, moviéndose
+    20 J, b) el impulso del sistema es de 14 kg ? m/s, c) la                  verticalmente con una aceleración de 36.0 m/s2. Si la ve-
+    energía cinética del sistema es superior a 5 J, pero menos                locidad de los gases de descarga es 4.50 3 103 m/s, ¿con
+    de 20 J, d) la cantidad de movimiento del sistema es de                   qué velocidad inicial el cohete está quemando el combus-
+    22 kg ? m/s, e) la cantidad de movimiento del sistema es                  tible? a) 3.05 3 103 kg/s b) 2.40 3 103 kg/s c) 7.50 3
+    menor que antes de la colisión.                                           102 kg/s d) 1.50 3 103 kg/s e) Ninguno de éstos
+ 9. Si dos partículas tienen energías cinéticas iguales, ¿sus can-        13. Dos partículas de masa diferente parten del reposo. La
+    tidades de movimiento son iguales? a) sí, siempre b) no,                  misma fuerza neta actúa sobre ellas, tal que se mueven
+    jamás c) sí, siempre que sus masas sean iguales d) sí, si sus             a distancias iguales. ¿Cómo compararía su energía ciné-
+    masas y direcciones de movimiento son las mismas e) no,                   tica final? a) La partícula de mayor masa tiene más ener-
+    a menos que se estén moviendo perpendiculares entre sí.                   gía cinética. b) La partícula de masa más pequeña tiene
+10. Si dos partículas tienen cantidades de movimiento igua-                   más energía cinética. c) Las partículas tienen la misma
+    les, ¿sus energías cinéticas son iguales? a) sí, siempre                  energía cinética. d) Cualquiera de las partículas podrían
+    b) no, jamás c) no, excepto cuando sus masas sean igua-                   tener más energía cinética.
+    les d) no, salvo cuando sus velocidades son las mismas
+    e) sí, mientras se muevan a lo largo de líneas paralelas.
+
+
+ ■ PREGUNTAS CONCEPTUALES
+
+
+              Las preguntas conceptuales en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+ 1. Un bateador golpea de manera suave una pelota lanza-                    6. Un patinador está de pie inmóvil en una pista de hielo
+    da, bloqueando la bola sin abanicar. a) ¿Puede la pelota                   sin fricción. Su amiga le lanza un disco volador directo
+    entregar más energía cinética al bate y al bateador de la                  hacia él. ¿En cuál de las situaciones que siguen se trans-
+    que lleva inicialmente? b) ¿Puede la pelota entregar más                   fiere la mayor cantidad de movimiento al patinador?
+    cantidad de movimiento al bate y al bateador de la que                     a) El patinador atrapa el disco y lo sostiene. b) El pati-
+    lleva inicialmente? Explique cada una de sus respuestas.                   nador atrapa el disco momentáneamente, pero después
+ 2. Si dos objetos colisionan y uno está inicialmente en repo-                 lo deja caer verticalmente hacia abajo. c) El patinador
+    so, ¿es posible que los dos queden en reposo después de                    atrapa el disco, lo sostiene momentáneamente y lo lanza
+    la colisión? ¿Es posible para alguno quedar en reposo                      de regreso hacia su amiga.
+    después de la colisión? Explique.                                       7. Un ejemplo más común de conservación de la cantidad
+                                                                               de movimiento que el de una nave espacial se presenta
+ 3. En colisiones perfectamente inelásticas entre dos objetos
+                                                                               en una máquina lavaplatos doméstica. En este disposi-
+    existen sucesos en los cuales toda la energía cinética ori-
+                                                                               tivo, agua a alta presión es forzada hacia afuera de los
+    ginal se convierte a otras formas diferentes de la cinética.
+                                                                               orificios pequeños en los brazos atomizadores. Utilice la
+    Proporcione un ejemplo de tal acontecimiento.
+                                                                               conservación de la cantidad de movimiento para explicar
+ 4. Los estadounidenses jamás olvidarán el ataque terrorista                   por qué los brazos giran, dirigiendo el agua a todos los
+    del 11 de septiembre del 2001. Un locutor expresó que                      platos.
+    la fuerza de la explosión en las Torres Gemelas del World               8. a) Si dos automóviles colisionan, por lo general no se
+    Trade Center fue lo suficientemente intensa como para                      enganchan. ¿Significa que la colisión es elástica? b) Ex-
+    romper los ventanales y partes de la estructura de acero                   plique por qué una colisión de frente probablemente es
+    en fragmentos más pequeños. Con todo, la cobertura de                      más peligrosa que otros tipos de colisiones.
+    la televisión mostró millares de hojas de papel flotando
+                                                                            9. Su maestro de educación física le lanza una pelota de tenis
+    hacia abajo, muchas aún intactas. Explique cómo podría
+                                                                               con una cierta velocidad y la atrapa. Ahora, le dan a elegir
+    ser eso.
+                                                                               lo siguiente: el maestro puede lanzarle una pelota grande
+ 5. Una bola de arcilla de masa m se lanza con una rapidez v                   (que es mucho más pesada que la pelota de tenis) con
+    contra una pared de ladrillo. La arcilla se pega a la pared                la misma velocidad, la misma cantidad de movimiento,
+    y se detiene. ¿En este ejemplo se viola el principio de con-               o la misma energía cinética que la pelota de tenis. ¿Qué
+    servación de la cantidad de movimiento?                                    opción elegiría con el propósito de atraparla y por qué?
+190      CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+10. Una gran cama es sostenida de manera vertical por dos                     12. Cuando se presenta una colisión, se infla una bolsa de
+    estudiantes. Un tercer estudiante, quien por casualidad                       aire que protege a un pasajero (el maniquí en la figu-
+    es el lanzador estrella del equipo de béisbol, lanza un                       ra PC6.12) de lesiones graves. ¿Por qué la bolsa de aire
+    huevo duro en la cubierta. Explique por qué el huevo                          atenúa el estallido? Explique la física involucrada en esta
+    no se rompe cuando golpea la cubierta, independiente                          espectacular fotografía.
+    de su rapidez inicial. (Si lo intenta, asegúrese de que el                13. En golf, con frecuencia se les aconseja a los jugadores
+    lanzador golpee cerca del centro de la capa y no permita                      principiantes que estén seguros de “acompañar del prin-
+    que el huevo caiga en el piso después de ser atrapado.)                       cipio a fin” con su balanceo. ¿Por qué esto hace que la
+11. Un buen tirador dispara un rifle estando de pie con la                        pelota recorra una distancia más larga? Si un tiro se hace
+    culata del arma contra su hombro. Si la cantidad de movi-                     cerca del pasto, se requiere muy poco acompañamiento.
+    miento hacia delante de una bala es la misma que la canti-                    ¿Por qué?
+    dad de movimiento hacia atrás en el arma, ¿por qué no es                  14. Una caja abierta se desliza a través de la superficie de un
+    tan peligroso ser golpeado por el arma que por la bala?                       lago congelado, sin fricción. ¿Qué le sucede a la rapidez
+                                                                                  de la caja conforme el agua cae verticalmente dentro de
+                                                                                  la caja como el chorro de una regadera a causa de una
+                                                                                  lluvia? Explique.
+                                                                              15. Comparada con una fuerza neta que es menor que una
+
+
+                © David Woods/Terra/Corbis
+                                                                                  fuerza neta ejercida sobre un objeto, ¿produce siempre
+                                                                                  ésta un mayor cambio en la cantidad de movimiento del
+                                                                                  objeto? Explique.
+                                                                              16. Para una fuerza neta mayor que otra, ¿produce siempre
+                                                                                  un mayor cambio en la energía cinética que la fuerza
+                                                                                  neta menor? Explique.
+                                             Figura PC6.12
+
+
+ ■ PROBLEMAS
+
+
+                Los problemas para este capítulo se pueden asignar en línea     1. denota problemas asignados con más frecuencia en Enhanced
+   en Enhanced WebAssign. Los problemas seleccionados también tienen                  WebAssign
+   soluciones en los videos Watch It.                                                 denota problemas biomédicos
+1. denota problemas sencillos, 2. denota problema intermedio,                         denota problemas guiados
+3. denota problema de alto reto
+                                                                                      denota tutorial Master It disponible en Enhanced WebAssign
+1. denota solución completa disponible en Student Solutions                           denota petición de razonamiento cuantitativo y conceptual
+   Manual/Study Guide
+                                                                                      denota problema de razonamiento simbólico
+
+
+6.1 Cantidad de movimiento e impulso                                           4.       Una pelota de masa m se lanza directo hacia arriba
+ 1. Calcule la magnitud de la cantidad de movimiento lineal                         en el aire con una rapidez inicial de v0. a) Halle una ex-
+    para los casos que siguen: a) un protón con masa 1.67                           presión para la altura máxima alcanzada por la pelota en
+    3 10227 kg, moviéndose con una rapidez de 5.00 3 106                            términos de v0 y g. b) Aplicando la ley de la conserva-
+    m/s; b) una bala de 15.0 g se mueve con una rapidez de                          ción de energía y el resultado del inciso a), encuentre la
+    300 m/s; c) un competidor de velocidad de 75.0 kg con una                       magnitud de la cantidad de movimiento de la pelota a
+    rapidez de 10.0 m/s; d) la Tierra (masa 5 5.98 3 1024 kg)                       la mitad de su altura máxima en términos de m y v0.
+    se mueve con una rapidez orbital igual a 2.98 3 104 m/s.                   5.         Gotas de lluvia caen perpendiculares al techo de
+ 2. Una foto estroboscópica muestra un bastón golpeando                             un automóvil estacionado durante una tormenta. Las go-
+    una pelota de golf, como se muestra en la figura 6.3.                           tas golpean el techo con una velocidad de 12 m/s, y la
+    La pelota está inicialmente en reposo y se muestra que el                       masa de la lluvia por segundo golpeando el techo es de
+    bastón está en contacto por casi 0.002 0 s. Si la pelota de                     0.035 kg/s. a) Suponiendo que las gotas llegan al reposo
+    golf tiene una masa de 55 g y abandona la cabeza del bas-                       después de golpear el techo, encuentre la fuerza prome-
+    tón con una velocidad de 2.0 3 102 pies/s, halle la fuerza                      dio ejercida por la lluvia en el techo. b) En el caso de
+    promedio ejercida por el bastón en la pelota.                                   granizo con la misma masa de las gotas de lluvia que caen
+                                                                                    sobre el techo a la misma rapidez y con la misma veloci-
+ 3. Un jugador afirma que puede lanzar una pelota de béis-                          dad, ¿cómo es la fuerza promedio sobre el techo en com-
+    bol de 0.145 kg con tanta cantidad de movimiento como                           paración con la que se encontró en el inciso a)?
+    la de una bala de 3.00 g moviéndose con una rapidez de
+    1.50 3 103 m/s. a) ¿Cuál debe ser la rapidez de la pelota                  6.       Demuestre que la energía cinética de una partícula de
+    de béisbol si es válida la afirmación del jugador? b) ¿Cuál                     masa m se relaciona con la magnitud de la cantidad de mo-
+    tiene mayor energía cinética, la pelota o la bala?                              vimiento p de esa partícula mediante EC 5 p2/2m. Nota:
+                                                                                                                     | Problemas       191
+
+      Esta expresión se invalida para partículas que viajan con         15. La fuerza que se muestra en    Fx (N)
+      magnitudes de velocidad cercanas a la velocidad de la luz.            el diagrama fuerza vs. tiem-
+ 7. Un objeto tiene una energía cinética de 275 J y una can-                po en la figura P6.15 actúa
+                                                                                                            2
+    tidad de movimiento de 25.0 kg · m/s de magnitud.                       en un objeto de 1.5 kg.
+    a) Halle la rapidez y b) la                                             Halle a) el impulso de la
+                                                                                                            1
+    masa del objeto.                                                        fuerza, b) la velocidad final
+                                       F (N)        Fmáx = 18 000 N         del objeto si inicialmente                          t (s)
+ 8. Una curva aproximada de                                                                                 0     1 2 3 4 5
+                                   20 000                                   está en reposo y c) la velo-
+    fuerza vs. tiempo para una
+                                   15 000                                   cidad final del objeto si al
+    pelota golpeada por un                                                                                         Figura P6.15
+                                   10 000                                   inicio está moviéndose a lo
+    bate se muestra en la fi-
+                                    5 000                                   largo del eje x con una velocidad de 22.0 m/s.
+    gura P6.8. A partir de esta
+    curva, establezca a) el im-         0                      t (ms)   16. Una fuerza de magnitud Fx       Fx (N)
+                                            0      1      2                                                  4
+    pulso entregado a la pelo-                                              que actúa en la dirección x
+    ta y b) la fuerza promedio                  Figura P6.8                 en una partícula de 2.00 kg      3
+    ejercida en la pelota.                                                  varía con el tiempo como se      2
+                                                                            muestra en la figura P6.16.
+ 9. Un balón de voleibol de 0.280 kg se aproxima horizon-                                                    1
+                                                                            Halle a) el impulso de la
+    talmente a un jugador con una rapidez de 15.0 m/s. El                                                                         t (s)
+                                                                            fuerza, b) la velocidad final     0    1 2 3 4 5
+    jugador golpea con el puño al balón ocasionando que el
+                                                                            de la partícula si inicialmen-
+    balón se mueva en la dirección opuesta con una rapidez
+                                                                            te está en reposo y c) la ve-           Figura P6.16
+    de 22.0 m/s. a) ¿Qué impulso entrega el jugador al ba-
+                                                                            locidad final de la partícula
+    lón? b) Si el puño del jugador está en contacto con el
+                                                                            si al inicio está moviéndose a lo largo del eje x con una
+    balón por 0.060 0 s, encuentre la magnitud de la fuerza
+                                                                            velocidad de 22.00 m/s.
+    promedio ejercida en el puño del jugador.                                                                F (N)
+                                                                                                              x
+                                                                        17. Las fuerzas que se mues-
+10.         Un hombre afirma que puede sostener con segu-                   tran en el diagrama fuer-         4
+      ridad un pequeño de 12.0 kg en una colisión de frente                 za vs. tiempo en la figura        2
+      con una rapidez relativa de 120 mi/h que dura 0.10 s                  P6.17 actúan en una par-
+      siempre que tenga puesto su cinturón de seguridad.                                                      0                       t (s)
+                                                                            tícula de 1.5 kg. Halle a) el          1 2 3        4 5
+      a) Encuentre la magnitud de la fuerza promedio necesa-                impulso para el intervalo
+                                                                                                            –2
+      ria para sostener al pequeño. b) En términos del resul-               desde t 5 0 hasta t 5 3.0 s y
+      tado del inciso a), ¿es válida la afirmación del hombre?              b) el impulso para el inter-              Figura P6.17
+      c) ¿Qué dice la respuesta a este problema acerca de las               valo desde t 5 0 hasta t 5 5.0 s. c) Si las fuerzas actúan en
+      leyes que requieren el uso de dispositivos de seguridad               una partícula de 1.5 kg que inicialmente está en reposo,
+      adecuados, por ejemplo cinturones de seguridad y asien-               encuentre las magnitudes de velocidad de la partícula en
+      tos especiales para niños?                                            d) t 5 3.0 s y en t 5 5.0 s.
+11. Una pelota de 0.150 kg de masa se deja caer a partir del            18. Una bola de acero de                           y
+    reposo desde una altura de 1.25 m. Si rebota desde el piso              3.00 kg golpea una grue-
+    para alcanzar una altura de 0.960 m. ¿Qué impulso le pro-               sa pared a 10.0 m/s en
+    porcionó el piso a la pelota?                                                                                        u
+                                                                            un ángulo de 60.0° con
+12. Un jugador de tenis recibe un tiro con la pelota                        el plano de la pared. La                                     x
+    (0.060 0 kg) viajando horizontalmente a 50.0 m/s y lo re-               bola rebota de la pared
+                                                                                                                         u
+    gresa con la pelota viajando horizontalmente a 40.0 m/s                 con la misma velocidad y
+    en la dirección opuesta. a) ¿Cuál es el impulso entregado               ángulo (figura P6.18). Si
+    a la pelota por la raqueta? b) ¿Cuál es el trabajo que hace             la bola está en contacto
+    la raqueta en la pelota?                                                con la pared por 0.200 s,             Figura P6.18
+13. Un automóvil se detiene en un semáforo. Cuando la luz                   ¿cuál es la fuerza prome-
+    se pone en verde, el automóvil acelera, aumentando su                   dio ejercida por la pared sobre la bola?
+    rapidez desde 0 hasta 5.20 m/s en 0.832 s. a) ¿Cuáles son           19.        El frente de 1.20 m de un automóvil de 1 400 kg está
+    las magnitudes del impulso lineal y b) la fuerza promedio                 diseñado como una “zona de pliegue” que se colapsa para
+    total experimentada por un pasajero de 70.0 kg en el au-                  absorber el choque de la colisión. Si un automóvil que
+    tomóvil durante el tiempo en que el automóvil acelera?                    viaja a 25.0 m/s se detiene uniformemente en 1.20 m, a)
+14. Un jugador de baloncesto 65.0 kg salta verticalmente y                    ¿cuánto tiempo transcurre después de la colisión, b) ¿cuál
+    deja el suelo con una velocidad de 1.80 m/s hacia arri-                   es la magnitud de la fuerza promedio en el automóvil? y
+    ba. a) ¿Qué impulso hace el experimentado jugador?                        c) ¿cuál es la aceleración del automóvil? Exprese la acele-
+    b) ¿Qué fuerza ejerce el piso sobre el jugador antes de                   ración como un múltiplo de la aceleración de la gravedad.
+    saltar? c) ¿Cuál es la fuerza total promedio ejercida por el        20.        Un pitcher lanza una pelota de 0.14 kg de tal modo
+    suelo sobre el jugador si el jugador está en contacto con                 que cruza la placa del bateador horizontalmente con una
+    el suelo durante 0.450 s durante el salto?                                rapidez de 42 m/s justo antes de que entre en contacto
+192      CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+      con el bate. El bateador golpea la pelota directamente al           P6.25). a) Determine a qué distancia máxima puede es-
+      pitcher con una velocidad de 48 m/s. Supongamos que la              tar de la nave e incluso regresar en 2.00 minutos (tiempo
+      bola se mueve en la misma línea dejando el bate, ya que             en que la cantidad de aire dentro de su casco sigue sien-
+      siguió antes de contactar con él. a) ¿Cuál es el impulso            do respirable). b) Explique en términos de las leyes de
+      entregado por el bate a la pelota? b) Si la pelota está en          movimiento de Newton por qué esta estrategia funciona.
+      contacto con el bate por 0.005 0 s, ¿cuál es la magnitud de   26. Un pescador de 75 kg en un barco de 125 kg arroja un
+      la fuerza promedio ejercida por el bate sobre la pelota?          paquete de masa m 5 15 kg en sentido horizontal hacia
+      c) ¿Cómo es su respuesta al inciso b) en comparación              la derecha con una velocidad vi 5 4.5 m/s como en la
+      con el peso de la pelota?                                         figura P6.26. Despreciando la resistencia del agua, y su-
+6.2 Conservación de la cantidad de movimiento                           poniendo que el barco está en reposo antes de que el pa-
+21. Fotografías estroboscópicas de alta velocidad muestran              quete sea lanzado, halle la velocidad de la embarcación
+    que el frente de un palo de golf de 200 g está viajando a           después de que el paquete es arrojado.
+    55 m/s justo antes de que golpee una pelota de golf de                                                           m S
+                                                                                                                       vi
+    46 g en reposo sobre el soporte para pelota. Después
+    de la colisión, el frente del bastón viaja (en la misma di-
+    rección) a 40 m/s. Encuentre la rapidez de la pelota de
+    golf justo después del impacto.
+22. Un rifle con un peso de 30 N dispara una bala de 5.0 g con
+    una rapidez de 300 m/s. a) Halle la rapidez de retroceso
+                                                                                                Figura P6.26
+    del rifle. b) Si un hombre de 700 N sostiene firmemente
+    el rifle contra su hombro, encuentre la rapidez de retro-       27. Una persona de 65.0 kg lanza una bola de nieve de
+    ceso del hombre y el rifle.                                         0.0450 kg hacia adelante con una rapidez con respecto a
+23. Una chica de 45.0 kg está de pie sobre un tablón de                 la tierra de 30.0 m/s. Una segunda persona de 60.0 kg
+    150 kg que está originalmente en reposo, libre de desli-            atrapa la bola de nieve: Las dos personas están sobre
+    zarse sobre un lago congelado que es una superficie pla-            patines; la primera inicialmente se está moviendo hacia
+    na, sin fricción. La chica empieza a caminar a lo largo del         adelante con una rapidez de 2.50 m/s, y la segunda al
+    tablón con una velocidad constante de 1.50 m/s a la de-             inicio está en reposo. ¿Cuáles son las velocidades de las
+    recha relativa al tablón. a) ¿Cuál es su velocidad relativa a       dos personas después de intercambiar la bola de nieve?
+    la superficie de hielo? b) ¿Cuál es la velocidad del tablón         Desprecie la fricción entre los patines y el hielo.
+    relativa a la superficie de hielo?                              28.               Una patinadora novata de masa M (cuando está
+24.      Ésta es una versión simbólica del problema 23. Una niña          completamente vestida) se encuentra atrapada en me-
+    de masa mn está de pie sobre una tabla de masa mta. Am-               dio de una pista de hielo y no puede regresar a la parte
+    bos están inicialmente en reposo sobre un lago congela-               donde no hay hielo. Cada movimiento que hace la lleva
+    do, que constituye una superficie sin fricción y plana. La            a resbalar en el hielo y permanecer en el mismo lugar. Se
+    niña empieza a caminar por la plancha a una velocidad                 decide tratar de volver a la seguridad mediante la elimi-
+    constante vNTa a la derecha en relación a la tabla. (El su-           nación de los guantes de masa m y tirarlos en la dirección
+    bíndice TaH denota a la niña en relación con tablón.)                 opuesta al lado de la seguridad. a) Ella tira los guantes tan
+    a) ¿Cuál es la velocidad vTaH de la tabla respecto a la su-           duro como puede, y dejan su mano con una velocidad
+                                                                          S
+    perficie del hielo? b) ¿Cuál es la velocidad vNH de la niña           v guantes. Explique si se mueve o no. Si se mueve, calcule
+                                                                                         S
+    relativa de la superficie del hielo?                                  su velocidad v patinadora con respecto a la Tierra después de
+25.        Una astronauta en su traje espacial tiene una masa             que ella arroja los guantes. b) Analice su movimiento des-
+    total de 87.0 kg, que incluye el traje y tanque de oxíge-             de el punto de vista de las fuerzas que actúan sobre ella.
+    no. La línea de su correa se separa de la nave espacial         6.3 Colisiones
+    mientras está moviéndose por el espacio. Inicialmente en        6.4 Colisiones tangenciales
+    reposo con respecto a la nave espacial lanza su tanque de
+                                                                    29.         Un hombre de masa m1 5 70.0 kg está patinando
+    oxígeno de 12.0 kg alejándose de ella con una rapidez
+                                                                          con v1 5 8.00 m/s detrás de su esposa de masa m2 5
+    de 8.00 m/s para impulsarse de regreso hacia ella (figura
+                                                                          50.0 kg, quien está patinando a v2 5 4.00 m/s. En lugar de
+                                                                          rebasarla, sin darse cuenta colisiona con ella. Se sujeta
+                                                                          de la cintura de su esposa y mantienen el equilibrio.
+                                                                          a) Bosqueje el problema con diagramas antes y después,
+                                                8.00 m/s
+                                                                          representando los esquiadores como bloques. b) ¿La
+                                                                          colisión se describe mejor como elástica, inelástica o
+                          87.0 kg                                         perfectamente inelástica? ¿Por qué? c) Escriba la ecua-
+                                      12.0 kg                             ción general para la conservación de la cantidad de mo-
+                                                                          vimiento en términos de m1, v1, m2, v2 y velocidad final
+                                                                          vf . d) Resuelva la ecuación de cantidad de movimiento
+                                                                          para vf . e) Sustituya valores, obteniendo el valor numéri-
+                           Figura P6.25                                   co para vf , su rapidez después de la colisión.
+                                                                                                                             | Problemas        193
+
+30. Un arquero dispara una flecha hacia un objetivo de 300 g         38. Dos discos de igual masa de un juego de mesa, uno de
+    que se desliza en su dirección con una rapidez de 2.50 m/s           color naranja y el otro verde, se involucran en una co-
+    sobre una superficie uniforme y resbaladiza. La flecha de            lisión indirecta perfectamente elástica. El disco verde
+    22.5 g se dispara con una rapidez de 35.0 m/s y pasa a tra-          inicialmente en reposo es golpeado por el disco naranja
+    vés del objetivo, que se detiene por el impacto. ¿Cuál es la         moviéndose al inicio hacia la derecha a 5.00 m/s como
+    rapidez de la flecha después de pasar a través del objetivo?         en la figura P6.38a. Después de la colisión, el disco na-
+31. Carla corre con una rapidez de 4.00 m/s y se sube en un              ranja se mueve en una dirección que forma un ángulo de
+    trineo, inicialmente en reposo en la parte superior de               37.0° con el eje horizontal. Mientras el disco verde hace
+    una colina cubierta de nieve y sin fricción. Después que             un ángulo de 53.0° con este eje como en la figura P6.38b.
+    ella ha descendido una distancia vertical de 5.00 m, su              Calcule la velocidad de cada disco después de la colisión.
+    hermano, quien está inicialmente en reposo, la espera
+    de regreso y continúan juntos hacia abajo por la colina.                                                         Después de la colisión
+    ¿Cuál es su rapidez en la parte inferior de la colina si la
+    caída vertical total es de 15.0 m? La masa de Carla es de                                                                             S
+                                                                                                                                          vnf
+    50.0 kg, el trineo tiene una masa de 5.00 kg y su hermano                  Antes de la colisión
+    tiene una masa de 30.0 kg.
+32.        Un patinador sobre hielo de 75.0 kg que se mueve                    5.00 m/s                                         37.0
+    a 10.0 m/s choca contra un patinador inmóvil de igual                                                                                       x
+    masa. Después de la colisión, los dos esquiadores se mue-                                                                 53.0
+    ven como una unidad a 5.00 m/s. Considere que la fuer-
+    za promedio que un esquiador puede experimentar sin                                                                               S
+                                                                                                                                      vy f
+    romperse un hueso es de 4 500 N. Si el tiempo de impac-
+    to es de 0.100 s, ¿se rompe un hueso?                                  a                                         b
+33. Un vagón de ferrocarril de 2.00 3 104 kg de masa se mue-
+    ve a 3.00 m/s choca y se une con dos vagones acoplados,                                           Figura P6.38
+    cada uno de la misma masa que el vagón solo y se mueven
+    en la misma dirección a 1.20 m/s. a) ¿Cuál es la rapidez de      39. Se dispara una bala de 0.030 kg verticalmente a 200 m/s
+    los tres vagones unidos después de la colisión? b) ¿Cuánta           en una pelota de béisbol de 0.15 kg al inicio en reposo.
+    energía cinética se pierde en la colisión?                           ¿Después de la colisión, qué tan alto se elevan la bala y
+34.       Ésta es una versión simbólica del problema 33. Un vagón        pelota combinadas, suponiendo que la bala se incrusta
+      de ferrocarril de masa M se mueve con una rapidez v1               en la pelota?
+      choca y se une con dos vagones acoplados, cada uno de          40.       Se dispara una bala de masa m 5 8.00 g dentro de
+      la misma masa M y se mueven en la misma dirección con                un bloque de masa M 5 250 g que está inicialmente en
+      una rapidez v2. a) ¿Cuál es la rapidez vf de los tres va-            reposo en el borde de una mesa de altura h 5 1.00 m
+      gones unidos después de la colisión en términos de v1 y              (figura P6.40). La bala permanece en el bloque y después
+      v2? b) ¿Cuánta energía cinética se pierde en la colisión?            del impacto el bloque aterriza a d 5 2.00 m de la parte
+      Responda en términos de M, v1 y v2.                                  inferior de la mesa. Calcule la rapidez inicial de la bala.
+35.        Examine el péndulo balístico explicado en el ejem-
+      plo 6.5 e ilustrado en la figura 6.12. a) Establezca la re-                            m
+                                                                                                           M
+      lación de la cantidad de movimiento justo después de la
+      colisión a la cantidad de movimiento inmediatamente
+      antes de la colisión. b) Demuestre que la relación de la                        h
+      energía cinética inmediatamente después de la colisión                                                             d
+      a la energía cinética justo antes de la colisión es m1/(m1
+      1 m2).
+                                                                                                      Figura P6.40
+36.        Un automóvil de masa m se que mueve a una veloci-
+      dad v1 choca y se atora con la parte trasera de un camión      41. Se dispara una bala de 12.0 g en forma horizontal en un
+      de masa 2m que se mueve inicialmente en la misma di-               bloque de madera de 100 g que inicialmente está en repo-
+      rección que el vehículo, a una velocidad v2 más baja. a)           so sobre una superficie horizontal sin fricción y conectado
+      ¿Cuál es la velocidad vf de los dos vehículos justo después        a un resorte que tiene una constante elástica de 150 N/m.
+      del choque? b) ¿Cuál es el cambio en la energía cinética del       La bala se incrusta en el bloque. Si el sistema bala-bloque
+      sistema de auto-camión en la colisión?                             comprime el resorte en un máximo de 80.0 cm, ¿cuál
+37. En una función en Broadway, un actor de 80.0 kg osci-                fue la rapidez de la bala en el impacto con el bloque?
+    la de un cable de 3.75 m de largo que está en posición           42. Un automóvil de 1 200 kg viajando inicialmente con una
+    horizontal cuando inicia. En la parte inferior de su arco,           velocidad de 25.0 m/s en una dirección del este choca
+    levanta a su compañera de 55.0 kg en una colisión inelás-            con el extremo posterior de una camioneta de 9 000 kg
+    tica. ¿Cuál es la altura máxima que alcanzan después de              moviéndose en la misma dirección a 20.0 m/s (figura
+    su oscilación hacia arriba?                                          P6.42, página 194). La velocidad del automóvil justo des-
+194       CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+      pués de la colisión es de 18.0 m/s hacia el este. a) ¿Cuál           sión a) cuando la segunda bola esta inicialmente en reposo,
+      es la velocidad de la camioneta inmediatamente después               b) cuando la segunda bola se está moviendo hacia la prime-
+      de la colisión? b) ¿Cuánta energía mecánica se pierde en             ra con una rapidez de 1.00 m/s y c) cuando la segunda bola
+      la colisión? Explique esta pérdida de energía.                       se está alejando de la primera con una rapidez de 1.00 m/s.
+                                                     S
+                                                                     47.              Un corredor de poder de 90.0 kg que se dirige
+ 25.0 m/s      20.0 m/s             18.0 m/s      v                     hacia el este con una rapidez de 5.00 m/s es detenido por
+                                                                           un oponente de 95.0 kg corriendo al norte con una rapi-
+                                                                           dez de 3.00 m/s. a) ¿Por qué la detención constituye una
+                                                                           colisión perfectamente inelástica? b) Calcule la velocidad
+                                                                           de los jugadores inmediatamente después de la detención
+              Antes                            Después
+                                                                           y c) calcule la energía mecánica que se pierde como un re-
+                                                                           sultado de la colisión. ¿A dónde se fue la energía perdida?
+                            Figura P6.42
+                                                                     48. Gemelas idénticas, cada una con masa de 55.0 kg están
+                                                                         sobre patines de hielo y en reposo sobre un lago conge-
+43.              Un chico de masa mc y su novia de masa mn,
+                                                                         lado; es posible que se considere sin fricción. La gemela
+      ambos usando patines de hielo, reposan uno frente al
+                                                                         A lleva un morral de 12.0 kg. Lo lanza horizontalmente
+      otro, mientras están de pie sobre una pista de hielo sin
+                                                                         a 3.00 m/s hacia la gemela B. Despreciando efectos de
+      fricción. El chico empuja a la muchacha, enviándola ha-
+                                                                         gravedad, ¿cuáles son las magnitudes de velocidad conse-
+      cia el este con la velocidad vn. Suponga que mc . mn.
+                                                                         cutivas de la gemela A y la gemela B?
+      a) Describa el movimiento posterior del muchacho.
+      b) Encuentre expresiones para la energía cinética final        49. Un automóvil de 2 000 kg que se mueve al este a 10.0 m/s
+      de la chica y la energía cinética final del chico y demues-        colisiona con un automóvil de 3 000 kg moviéndose hacia
+      tre que la novia tiene una mayor energía cinética que el           el norte. Los autos se enganchan y se mueven como una
+      muchacho. c) Ambos tenían energía cinética cero antes              unidad después de la colisión, en un ángulo de 40.0° ha-
+      de que el chico empujara a la novia, pero terminaron               cia el noreste y una rapidez de 5.22 m/s. Halle la rapidez
+      con energía cinética después del evento. ¿Cómo explica             del auto de 3 000 kg antes de la colisión.
+      la aparición de la energía mecánica?                           50. Dos automóviles de masas iguales se aproximan a un cru-
+44.               Una sonda espacial inicialmente en reposo ex-          cero. Un vehículo está viajando con velocidad de 13.0 m/s
+      perimenta un mal funcionamiento mecánico interno y se              hacia el este, y el otro está viajando al norte con veloci-
+      rompe en tres partes. Una parte de masa m1 5 48.0 kg viaja         dad v2i. Ninguno de los dos conductores ve al otro. Los
+      en la dirección x positiva a 12.0 m/s, y una segunda pieza         vehículos colisionan en el cruce y se enganchan, dejando
+      de masa m2 5 62.0 kg viaja en el plano xy en un ángulo de          marcas de deslizamiento paralelas en un ángulo de 55.0°
+      105° a 15.0 m/s. La tercera parte tiene masa m3 5 112 kg.          hacia el noreste. El límite de velocidad para ambos ca-
+      a) Bosqueje un diagrama de la situación, indicando las di-         minos es de 35 mi/h, y el conductor que se dirige hacia
+      ferentes masas y sus velocidades. b) Escriba la expresión          el norte afirma que estaba dentro del límite cuando se
+      general para la conservación de cantidad de movimiento             presentó la colisión. ¿Está diciendo la verdad?
+      en las direcciones x y y en términos de m1, m2, m3, v1, v2 y   51. Una bola de billar moviéndose a 5.00 m/s golpea una bola
+      v3 y los senos y cosenos de los ángulos, considere a u como        inmóvil de la misma masa. Después de la colisión, la primera
+      el ángulo desconocido. c) Calcule la componente x final            bola se mueve a 4.33 m/s en un ángulo de 30° con respecto
+      de las cantidades de movimiento de m1 y m2. d) Calcule             a la línea de movimiento original. a) Calcule la magnitud de
+      la componente y final de las cantidades de movimiento              la velocidad y dirección de la segunda bola después de la
+      de m1 y m2. e) Sustituya las componentes de cantidad de            colisión. b) ¿La colisión fue elástica o inelástica?
+      movimiento conocidas en las ecuaciones de cantidad             Problemas adicionales
+      de movimiento general para las direcciones x y y, junto
+                                                                     52.         En la investigación en cardiología y fisiología del
+      con la masa conocida m3. f) Resuelva las dos ecuaciones
+                                                                           ejercicio, con frecuencia es importante conocer la masa
+      de cantidad de movimiento para v3 cos u y v3 sen u, res-
+                                                                           de sangre bombeada por el corazón de una persona, en
+      pectivamente, y utilice la identidad cos2 u 1 sen2 u 5 1
+                                                                           una pulsación. Esta información se puede obtener por
+      para obtener v3. g) Divida la ecuación para v3 sen u entre
+                                                                           medio de un ballistocardiógrafo. El instrumento funciona
+      v3 cos u para obtener tan u, después obtenga el ángulo
+                                                                           como sigue. El sujeto se encuentra sobre una plataforma
+      tomando el inverso de la tangente en ambos lados. h) En
+                                                                           horizontal flotando sobre una película de aire. La fric-
+      general, ¿las tres piezas tendrían necesariamente que
+                                                                           ción en la plataforma es despreciable. Inicialmente, la
+      moverse en el mismo plano? ¿Por qué?
+                                                                           cantidad de movimiento del sistema es cero. Cuando pal-
+45. Un objeto de 25.0 g que se mueve a la derecha a 20.0 cm/s              pita el corazón, expele una masa m de sangre dentro de
+    alcanza y colisiona elásticamente con un objeto de 10.0 g              la aorta con rapidez v, y el cuerpo y la plataforma se mue-
+    moviéndose en la misma dirección a 15.0 cm/s. Hallar la                ven en la dirección opuesta con rapidez V. La rapidez de
+    velocidad de cada objeto después de la colisión.                       la sangre se puede determinar de manera independien-
+46. Una bola de billar que rueda a través de una mesa a                    te (por ejemplo, al observar el desplazamiento Doppler
+    1.50 m/s hace una colisión elástica de frente con una bola             de un ultrasonido). Suponga que la rapidez de la san-
+    idéntica. Hallar la rapidez de cada bola después de la coli-           gre es 50.0 cm/s en una prueba representativa. La masa
+                                                                                                                    | Problemas      195
+
+      del sujeto más la plataforma es 54.0 kg. La plataforma se              con una rapidez de v/2. La plomada del péndulo está
+      mueve 6.00 3 1025 m en 0.160 s después de un latido.                   sostenida por una varilla de longitud l y masa desprecia-
+      Calcule la masa de sangre que sale del corazón. Considere              ble. ¿Cuál es el valor mínimo de v tal que la plomada
+      que la masa de sangre es despreciable si se le compara con             escasamente oscilará a través de un círculo vertical com-
+      la masa total de la persona. Este ejemplo simplificado ex-             pleto?
+      plica el principio del ballistocardiógrafo, pero en la prácti-   57. Dos objetos de masas                      k
+      ca se utiliza un modelo más complejo de función cardiaca.                                                            m2
+                                                                           m1 5 0.56 kg y m2 5                 m1
+                                                                                                                                     a
+53.         La mayoría sabe intuitivamente que en una colisión             0.88 kg se colocan sobre
+      de frente entre un camión de volteo y un auto compac-                una superficie horizontal
+      to, se está mejor en el camión que en el auto. ¿Por qué              sin fricción y un resorte
+      es esto? La mayoría de la gente piensa que la fuerza de              comprimido de constan-           S
+                                                                                                                              S
+                                                                                                                              v2
+                                                                                                            v1
+      colisión ejercida en el auto es mucho más grande que la              te k 5 280 N/m se colo-
+                                                                                                                     k
+      ejercida en el camión. Para sustentar esta opinión, seña-            ca entre ellos como en la       m1                 m2
+                                                                                                                                     b
+      lan que el auto está aplastado, mientras que el camión               figura P6.57a. Desprecie
+      sólo está abollado. Esta idea de fuerzas diferentes, na-             la masa del resorte. El re-
+      turalmente, es falsa. La tercera ley de Newton dice que              sorte no está conectado                Figura P6.57
+      ambos objetos están sometidos por fuerzas de la misma                a ninguno de los objetos
+      magnitud. El camión sufre menos daño debido a que está               y se comprime una distancia de 9.8 cm. Si los objetos se
+      fabricado de metal más fuerte. ¿Pero que hay acerca de               liberan del reposo, halle la velocidad final de cada objeto,
+      los dos conductores? ¿Experimentan las mismas fuerzas?               como se muestra en la figura P6.57b).
+      Para responder esta pregunta, suponga que cada vehículo          58. Una bola azul de 0.400 kg
+      se está moviendo inicialmente a 8.00 m/s y que se someten            se desliza en un alam-          
+      a una colisión de frente perfectamente inelástica. Cada              bre curvo sin fricción,
+      conductor tiene una masa de 80.0 kg. Incluyendo las ma-              iniciando desde el re-        h
+      sas de los conductores, la masa total de los vehículos son           poso en el punto  en
+      800 kg para el auto y 4 000 kg para el camión. Si el tiempo                                                       
+                                                                           la figura P6.58, donde
+      de colisión es 0.120 s, ¿qué fuerza ejerce el cinturón de            h 5 1.50 m. En el punto
+      seguridad en cada conductor?                                          la bola colisiona elás-          Figura P6.58
+54. Considere una pista sin fricción como se muestra en la                 ticamente con una bola
+    figura P6.54. Un bloque de masa m1 5 5.00 kg se libe-                  verde de 0.600 kg en reposo. Calcule la altura máxima
+    ra desde . Realiza una colisión de frente elástica en                que la bola azul se eleva cuando se mueve hacia arriba
+    contra un bloque de masa m2 5 10.0 kg que inicialmente                 del alambre.
+    está en reposo. Calcule la altura máxima a la que se eleva         59. Un hombre de 730 N se encuentra en medio de un lago
+    m1 después de la colisión.                                             congelado de radio 5.0 m. Él es incapaz de llegar a la
+               m1                                                          otra parte debido a la falta de fricción entre los zapatos y
+                                                                          el hielo. Para superar esta dificultad, él lanza su libro de
+                                                                           física de 1.2 kg en sentido horizontal hacia la orilla norte
+      5.00 m                                                               a una velocidad de 5.0 m/s. ¿Cuánto tiempo le toma para
+                                                                           llegar a la orilla sur?
+                                 m2                                    60. Un núcleo inestable de 1.7 3 10226 kg de masa, inicial-
+                                                                          mente en reposo en el origen de un sistema de coordena-
+                                                                           das, se desintegra en tres partículas. Una partícula tiene
+                            Figura P6.54                                   una masa de m1 5 5.0 3 10227 kg y se mueve en la dirección
+                                                                           y positiva con rapidez v1 5 6.0 3 106 m/s. Otra partícula de
+55.       Una partícula de 2.0 g que se mueve a 8.0 m/s realiza
+                                                                           masa m2 5 8.4 3 10227 kg se mueve en la dirección x positi-
+      una colisión de frente perfectamente elástica con un ob-
+                                                                           va con rapidez v2 5 4.0 3 106 m/s. Determine la magnitud
+      jeto de 1.0 g en reposo. a) Determine la rapidez de cada
+                                                                           y dirección de la velocidad de la tercera partícula.
+      partícula después de la colisión. b) Calcule la rapidez de
+      cada partícula después de la colisión si la partícula inmóvil    61.        Dos bloques de masas m1 y m2 se aproximan entre sí
+      tiene una masa de 10 g. c) Determine la energía cinética fi-           sobre una mesa horizontal, con la misma rapidez cons-
+      nal de la partícula incidente de 2.0 g en la situación descri-         tante, v0, que mide un observador en el laboratorio. Los
+      ta en los incisos a) y b). ¿En qué                                     bloques se someten a una colisión perfectamente elástica
+      caso la partícula incidente pierde                                     y se observa que m1 se detiene, pero m2 se traslada opues-
+      más energía cinética?                                                  to a su movimiento original con alguna rapidez constan-
+                                                          ,                  te, v. a) Establezca la relación de las dos masas, m1/m2.
+56.        Una bala de masa m y rapi-
+                                                 m                           b) ¿Cuál es la relación de sus magnitudes de velocidad v/v0?
+      dez v pasa totalmente a través                     M
+      de una plomada de masa M de                S               S     62. Dos bloques de masas m1 5 2.00 kg y m2 5 4.00 kg cada
+                                                 v               v/2
+      un péndulo como se muestra en                                        uno se liberan desde el reposo a una altura de h 5 5.00 m
+      la figura P6.56. La bala emerge             Figura P6.56             sobre una pista sin fricción, como se muestra en la figura
+196         CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+      P6.62 y se someten a una colisión elástica de frente.                do el bloque deja la cuña, se mide su velocidad que es
+      a) Calcule la velocidad de cada bloque justo antes de la             4.00 m/s hacia la derecha, como en la figura P6.65b.
+      colisión. b) Determine la velocidad de cada bloque in-               a) ¿Cuál es la velocidad de la cuña después de que el blo-
+      mediatamente después de la colisión. c) Establezca las               que alcanza la superficie horizontal? b) ¿Cuál es la altura
+      alturas máximas a las que m1 y m2 se elevan después de la            h de la cuña?
+      colisión.
+                                                                               m1
+
+
+                 m1                                  m2
+                                                                                                    S
+                                                                       h            m2              v2        m2
+                                                                                                                            4.00 m/s
+
+        h                                                 h                                                                    m1
+
+
+                                                                           a                              b
+
+                           Figura P6.62                                                         Figura P6.65
+
+                                                                     66. Una bola marcada que viaja a 4.00 m/s hace una colisión
+63. Un bloque de masa m1 5 0.500 kg se libera desde el re-               elástica, indirecta con una bola objetivo de igual masa
+    poso en la parte superior de una pista sin fricción a una            que inicialmente está en reposo. La bola marcada se des-
+    distancia h1 5 2.50 m por encima de una mesa. Después                vía de tal modo que forma un ángulo de 30.0° con su
+    colisiona elásticamente con un objeto de masa m2 5                   dirección original de viaje. Halle a) el ángulo entre los
+    1.00 kg inicialmente en reposo sobre la mesa, como se                vectores de velocidad de las dos bolas después de la coli-
+    muestra en la figura P6.63. a) Calcule las velocidades de            sión y b) la rapidez de cada bola después de la colisión.
+    los dos objetos justo después de la colisión. b) Después         67.         Un cañón está unido rígidamente a un transpor-
+    de la colisión, ¿qué tan alto por arriba de la pista el obje-          te, que puede moverse a lo largo de una vía horizontal,
+    to de 0.500 kg viaja de regreso? c) ¿Qué tan lejos desde               pero conectado a un poste por un resorte largo, al princi-
+    la parte inferior de la mesa aterriza el objeto de 1.00 kg,            pio sin estirar y con una constante de fuerza, k 5 2.00 3
+    dado que la altura de la mesa es h2 5 2.00 m? d) Final-                104 N/m, como en la figura P6.67. El cañón dispara un
+    mente, ¿qué tan lejos desde la parte inferior de la mesa               proyectil de 200 kg con una velocidad de 125 m/s dirigi-
+    aterriza el objeto de 0.500 kg?                                        do a 45.0° sobre la horizontal. a) Si la masa del cañón y el
+                                                                           transporte es 5 000 kg, encuentre la rapidez de retroceso
+                      m1                                                   del cañón. b) Determine la extensión máxima del resorte.
+                                                                           c) Calcule la fuerza máxima que el resorte ejerce en el
+                                                                           transporte. d) Considere el sistema constituido del cañón,
+            h1                                                             el transporte y el proyectil. ¿Durante el disparo la canti-
+                                                                           dad de movimiento se conserva? ¿Por qué?
+                                     m2
+
+
+            h2                                                                                            45.08
+
+                                                 x
+
+
+                           Figura P6.63
+
+                                                                                                Figura P6.67
+64.        Dos objetos de masas m y 3m se están acercando entre
+      sí moviéndose a lo largo del eje x con la misma rapidez        68. La “plataforma de fuerza” es          F (kN)
+      inicial v0. El objeto con masa m está viajando hacia la iz-        una herramienta que se utili-
+      quierda y el objeto con masa 3m viaja hacia la derecha. Se         za para analizar el desempeño 1.0
+      someten a una colisión elástica indirecta tal que m se está        de los atletas al medir la fuerza
+      moviendo hacia abajo después de la colisión en ángulo                                                    0.8
+                                                                         vertical como una función del
+      recto a partir de su dirección inicial. a) Calcule las velo-       tiempo que el atleta ejerce so- 0.6
+      cidades finales de los dos objetos. b) ¿Cuál es el ángulo u        bre el piso al realizar diferentes                        t (s)
+      en que el objeto con masa 3m se dispersa?                                                                 –0.5 0.0 0.5 1.0
+                                                                         actividades. Una gráfica simpli-
+65. Un bloque pequeño de masa m1 5 0.500 kg se libera des-               ficada de fuerza vs. tiempo para            Figura P6.68
+    de el reposo en la parte superior de una cuña curva con              un atleta que realiza un salto de
+    una masa m2 5 3.00 kg, que se coloca sobre una superficie            altura vertical se muestra en la figura P6.68. El atleta ini-
+    horizontal sin fricción como en la figura P6.65a. Cuan-              cia el salto en t 5 0.0 s. ¿Qué tan alto salta el atleta?
+                                                                                                                   | Problemas       197
+
+69. Un neutrón en un reactor realiza una colisión elástica de         74. Un deslizador de 20.0 kg con un conductor de 70.0 kg
+    frente con un átomo de carbono que inicialmente está                  resbalan hacia abajo por un canal sin fricción dirigido a
+    en reposo. (La masa del núcleo de carbono es casi 12                  30.0° por abajo de la horizontal a 8.00 m/s cuando una
+    veces la del neutrón.) a) ¿Qué fracción de la energía ci-             mujer de 55.0 kg cae desde la rama de un árbol en línea
+    nética del neutrón se transfiere al núcleo de carbono?                recta hacia abajo detrás del conductor. Si ella cae a lo
+    b) Si la energía cinética inicial del neutrón es 1.6 3 10213 J,       largo de un desplazamiento vertical de 2.00 m, ¿cuál es
+    encuentre su energía cinética final y la energía cinética             la velocidad subsecuente del deslizador inmediatamente
+    del núcleo de carbono después de la colisión.                         después del impacto?
+70.            Dos bloques colisionan sobre una superficie sin        75.       Midiendo la rapidez de una bala. Una bala de masa m
+    fricción. Después de la colisión, los bloques se traban. El             se dispara horizontalmente en un bloque de madera de
+    bloque A tiene una masa M e inicialmente se está movien-                masa M que se encuentra sobre la mesa. La bala perma-
+    do hacia la derecha con rapidez v. El bloque B tiene una                nece en el bloque después de la colisión. El coeficiente
+    masa 2M e inicialmente está en reposo. El sistema C está                de fricción entre el bloque y la mesa es m, y el bloque
+    constituido por los dos bloques. a) Dibuje un diagrama                  se desliza una distancia d antes de detenerse. Halle la ra-
+    de cuerpo libre para cada bloque en un instante durante                 pidez inicial v0 de la bala en términos de M, m, m, g y d.
+    la colisión. b) Clasifique las magnitudes de las fuerzas ho-      76. Un calamar volador (de la familia de los Ommastrephidae)
+    rizontales en su diagrama. Explique su razonamiento. c)               es capaz de “saltar” la superficie del océano tomando
+    Calcule el cambio en la cantidad de movimiento del blo-               agua dentro de la cavidad de su cuerpo y después expul-
+    que A, el bloque B y el sistema C. d) ¿En esta colisión se            sarla verticalmente hacia abajo. Un calamar de 0.85 kg
+    conserva la energía cinética? Explique su respuesta. (Este            es capaz de expulsar 0.30 kg de agua con una rapidez de
+    problema es cortesía de Edward F. Redish. Para más pro-               20 m/s. a) ¿Cuál será la rapidez del calamar justo después
+    blemas, visite http://www.physics.umd.edu/perg.)                      de expulsar el agua? b) ¿Qué tan alto en el aire se elevará
+71.       a) Un automóvil que viaja hacia el este golpea un               el calamar?
+    auto que viaja al norte en un cruce y los dos se mueven           77. Un disco de 0.30 kg, inicialmente en reposo sobre una
+    juntos como una unidad. Un propietario en la esquina                  superficie horizontal sin fricción, es golpeado por un dis-
+    sureste del cruce reclama que su cerca fue derribada                  co de 0.20 kg que se está moviendo al inicio a lo largo del
+    en la colisión. ¿La compañía de seguros le debe otorgar               eje x con una velocidad de 2.0 m/s. Después de la coli-
+    indemnización por los daños? Defienda su respuesta.                   sión, el disco de 0.20 kg tiene una rapidez de 1.0 m/s con
+    b) Asigne al automóvil que se mueve hacia el este una                 un ángulo u 5 53° hacia el eje x positivo. a) Determine
+    masa de 1300 kg y una rapidez de 30.0 km/h y al auto                  la velocidad del disco de 0.30 kg después de la colisión.
+    que se está moviendo hacia el norte una masa de 1100 kg               b) Halle la fracción de energía cinética que se pierde en
+    y una rapidez de 20.0 km/h. Encuentre la velocidad des-               la colisión.
+    pués de la colisión. ¿Los resultados son consistentes con
+    su respuesta al inciso a)?                                        78.              Un bloque de
+                                                                            madera de masa M des-                      M
+72. Un jugador de fútbol de 60 kg salta verticalmente hacia
+                                                                            cansa sobre una mesa
+    arriba y cabecea el balón de 0.45 kg que está descendiendo
+                                                                            con un agujero gran-
+    verticalmente con una rapidez de 25 m/s. Si el jugador se
+                                                                            de como en la figura
+    movió hacia arriba con una rapidez de 4.0 m/s justo antes                                                              S
+                                                                                                                           vi
+                                                                            P6.78. Una bala de masa
+    del impacto, ¿cuál será la rapidez del balón justo después                                                       m
+                                                                            m con una velocidad ini-
+    de la colisión si el balón rebota verticalmente hacia arriba
+                                                                            cial vi se dispara hacia
+    y la colisión es elástica? Si el balón está en contacto con
+                                                                            arriba a la parte inferior
+    la cabeza del jugador por 20 ms, ¿cuál es la aceleración
+                                                                            del bloque y se mantie-      Figura P6.78 (Problemas 78 y 79)
+    promedio del balón? (Observe que la fuerza de gravedad
+                                                                            ne en el bloque después
+    puede despreciarse durante el breve tiempo de colisión.)
+                                                                            de la colisión. El bloque y la bala alcanzan altura máxi-
+73.      Una pelota de tenis de 57.0 g se                                   ma de h. a) Describa cómo encontrar la velocidad inicial
+    mantiene justo arriba de un balón                                       de la bala con las ideas que ha aprendido en este capítu-
+    de 590 g de masa. Con sus centros                                       lo. b) Encuentre una expresión para la velocidad inicial
+    verticalmente alineados, las dos pe-                                    del proyectil.
+    lotas son liberadas desde el reposo al
+                                                                      79.         Un bloque de madera de 1.25 kg descansa sobre
+    mismo tiempo, para caer a lo largo
+                                                                            una mesa con un agujero grande como en la figura
+    de una distancia de 1.20 m, como se
+                                                   Figura P6.73             P6.78. Una bala de 5.00 g con una velocidad inicial vi
+    muestra en la figura P6.73. a) Calcule
+                                                                            se dispara hacia arriba a la parte inferior del bloque y se
+    la magnitud de la velocidad hacia abajo con la que el
+                                                                            mantiene en el bloque después de la colisión. El bloque
+    balón alcanza el piso. b) Piense que una colisión elástica
+                                                                            y la bala alcanzan una altura máxima de 22.0 cm. a) Des-
+    con el piso invierte de manera instantánea la velocidad
+                                                                            criba cómo encontrar la velocidad inicial de la bala con
+    del balón, mientras que la pelota de tenis todavía se está
+                                                                            las ideas que ha aprendido en este capítulo. b) Calcule
+    moviendo hacia abajo. A continuación, las dos pelotas se
+                                                                            la velocidad inicial de la bala a partir de la información
+    unen en una colisión elástica. ¿A qué altura rebota la pe-
+                                                                            proporcionada.
+    lota de tenis?

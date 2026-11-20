@@ -1,0 +1,2483 @@
+Módulo 10: Integración de funciones racionales propias
+10.1 Ejemplo 1
+
+Calcule la integral ∫
+                              (8 x 2 − 4)
+                         ( x − 1) 2 ( x 2 + 1) 2
+                                                 dx.
+
+
+Solución
+
+En primer lugar, se debe descomponer la fracción que aparece bajo el signo de
+integral en sus fracciones parciales simples. Esto es,
+
+
+              8x2 − 4                                Cx + D Mx + N
+                               =        +          +          +
+                                    A        B
+        ( x − 1) 2 ( x 2 + 1) 2 ( x − 1) ( x − 1) 2 ( x 2 + 1) ( x 2 + 1) 2
+                                                                            ,
+
+
+donde A, B, C, D, M y N son constantes por determinar.
+
+Quitando denominadores en la última descomposición, se tiene:
+
+
+        8 x 2 − 4 ≡ A( x − 1)( x 2 + 1) 2 + B ( x 2 + 1) 2
+        +(Cx + D)( x − 1) 2 ( x 2 + 1) + ( Mx + N )( x − 1) 2 .
+                                                                                            (1)
+
+
+Al hacer x = 1 en la última identidad, se obtiene B = 1.
+
+Al igualar coeficientes de potencias iguales en ambos lados de la identidad (1), y
+resolviendo el sistema resultante, se obtiene:
+
+        A = 2, B = 1, C = –2, D = –3, M = –6 y N = 0,
+
+con lo cual
+              8x2 − 4                                2x + 3
+                               =        +          −          −
+                                    2        1                      6x
+        ( x − 1) 2 ( x 2 + 1) 2 ( x − 1) ( x − 1) 2 ( x 2 + 1) ( x 2 + 1) 2
+                                                                            ,
+
+
+y en consecuencia,
+
+∫                       dx = ∫          dx + ∫            dx − ∫          dx − ∫
+          8x2 − 4                  2               1              2x + 3             6x
+    ( x − 1) ( x + 1)          ( x − 1)        ( x − 1)          ( x + 1)        ( x + 1) 2
+            2   2     2                                 2           2               2
+                                                                                            dx
+
+
+                            = 2 ln x − 1 −              − ln x 2 + 1 − 3arctan x + 2       +C
+                                                   1                                  3
+                                               ( x − 1)                           ( x + 1)
+
+                                   ( x − 1) 2
+                            = ln              −       − 3arctan x + 2       + C.
+                                                 1                     3
+                                     x 2 + 1 ( x − 1)              ( x + 1)
+
+
+10.2 Ejemplo 2
+
+Calcule la integral ∫
+                          3x 4
+                         x3 + 1
+                                dx.
+
+
+                                                                                    Elementos básicos de cálculo integral y series 95
+Capítulo 2: Métodos de integración
+                                        Solución
+
+                                        Puesto que la fracción que aparece en el integrando es impropia, se efectúa primero
+                                        la división entera para obtener:
+
+
+                                                      = 3x − 3   = 3x −
+                                                 3x 4        3x                   3x
+                                                x +1        x +1        ( x + 1)( x 2 − x + 1)
+                                                 3
+                                                                                               .
+      Vea el módulo 10 del programa
+      de televisión Elementos básicos
+      de cálculo integral y series
+                                        Pero
+                                                                           Bx + C
+                                                                   =     + 2
+                                                         3x           A
+                                               ( x + 1)( x − x + 1) x + 1 x − x + 1
+                                                          2
+                                                                                    .
+
+
+                                        Después de quitar denominadores e igualar coeficientes de potencias iguales en
+                                        ambos miembros de la igualdad resultante, se obtiene A = –1, B = C = 1.
+
+                                        De esta forma,
+
+                                                                                x +1
+                                                                    = −     + 2
+                                                         3x               1
+                                               ( x + 1)( x − x + 1)
+                                                          2
+                                                                        x +1 x − x +1
+
+                                        y por tanto,
+
+
+                                               ∫ x3 + 1 dx = ∫ ⎜⎝ 3x + x + 1 − x 2 − x + 1 ⎟⎠ dx
+                                                  3x 4         ⎛         1        x +1 ⎞
+
+
+                                                                                                              2x −1
+                                                            =     x + ln ( x + 1) − ln x 2 − x + 1 − 3 arctan       +C
+                                                                3 2                1
+                                                                2                  2                             3
+
+                                                                               x +1                        2x −1
+                                                            =     x + ln                      − 3 arctan           + C.
+                                                                3 2
+                                                                2            x − x +1
+                                                                               2
+                                                                                                               3
+
+
+                                        10.3 Ejemplo 3
+
+                                        Calcule la integral ∫
+                                                                      x2
+                                                                x 4 − 3x 2 + 2
+                                                                               dx.
+
+
+                                        Solución
+
+                                        En primer lugar, nótese que:
+
+
+                                                                                          (        )( x + 2 ) ( x − 1)( x + 1)
+                                                              =                     =
+                                                      x2                x2                                x2
+                                                x 4 − 3x 2 + 2 ( x 2 − 2)( x 2 − 1)   x− 2
+
+
+                                                             =           +            +       +
+                                                                    A          B           C    D
+                                                                 x− 2        x+ 2         x −1 x + 1
+                                                                                                     .
+
+
+ 96
+                                                                Módulo 10: Integración de funciones racionales propias
+
+Al quitar denominadores e igualar coeficientes de potencias iguales en ambos
+miembros de la igualdad resultante, se obtiene:
+
+
+        A=        , B=−    ,C=− , D= .
+                2        2     1    1
+               2        2      2    2
+
+De esta forma,
+
+
+                      ⎛                   1 ⎞
+                      ⎜                       ⎟
+     ∫ x − 3x + 2 ∫ ⎜ x − 2 x + 2 x − 1 x + 1 ⎟
+                          2    2    1
+                    = ⎜  2 − 2 − 2 + 2 ⎟ dx
+           x2
+                 dx
+                      ⎜                       ⎟
+        4     2
+
+
+                      ⎝                       ⎠
+
+
+                       =      ln x − 2 −    ln x + 2 − ln x − 1 + ln x + 1 + C
+                            2             2           1          1
+                           2             2            2          2
+
+                                 x − 2 1 x +1
+                       =              + ln    + C.
+                            2
+                                 x + 2 2 x −1
+                              ln
+                           2
+
+
+10.4 Ejemplo 4
+
+Calcule la integral ∫ tan x ⋅ dx.
+
+Solución
+
+La sustitución u = tan x,
+                2
+                                                                               (1)
+
+de la cual se deduce además que:
+
+
+        dx =          =
+               2u du 2u du
+               sec 2 x 1 + u 4
+
+permite escribir la integral inicial en la forma:
+
+
+        ∫ tan x ⋅ dx = ∫ u + 1 .
+                           2u 2 du
+                            4
+
+
+Para calcular la última integral se usa el método de descomposición en fracciones
+simples.
+
+Nótese que:
+
+
+                                                  Au + B        Cu + D
+               =                            =              +
+         2u 2               2u 2
+        1 + u 4 (u 2 − 2u + 1)(u 2 + 2u + 1) (u 2 − 2u + 1) (u 2 + 2u + 1)
+                                                                           .
+
+
+                                                                     Elementos básicos de cálculo integral y series 97
+Capítulo 2: Métodos de integración
+
+                                     Quitando denominadores, igualando coeficientes de potencias iguales y resolvien-
+                                     do el sistema resultante, se obtiene:
+
+                                             A=         , B = D = 0, C = −
+                                                      2                     2
+                                                                              .
+                                                     2                     2
+
+                                     Así que:
+
+
+                                             ∫ u 4 + 1 = 2 ∫ u 2 − 2u + 1 du − 2 ∫ u 2 + 2u + 1 du.
+                                               2u 2 du    2        u            2        u
+                                                                                                                        (2)
+
+
+                                     Pero,
+
+                                             ∫ u − 2u + 1 du = 2 ∫ u − 2u + 1 + 2 ∫ u − 2u + 1 du
+                                                      u              1 (2u − 2) du      2        1
+                                                 2                       2                  2
+
+
+                                                                                         2 ∫ u 2 − 2u + 1
+                                                                 =     ln u 2 − 2u + 1 +
+                                                                     1                    2        1
+                                                                                                          du.
+                                                                     2
+
+                                     La integral de la última igualdad puede efectuarse por completación de cuadrados y
+                                     una sustitución trigonométrica adecuada, esto es:
+
+
+                                                                                                   2 ⎛       2⎞
+                                                ∫         du = ∫                       du = arctan   ⎜⎜ u −    ⎟.
+                                                                                                            2 ⎠⎟
+                                              2     1                       1
+                                             2 u − 2u + 1        ⎛       2⎞ ⎛ 2⎞                    2⎝
+                                                                 ⎜⎜ u −    ⎟ +⎜
+                                                                            2        2
+
+                                                                                   ⎟
+                                                  2
+
+
+                                                                  ⎝     2 ⎟⎠ ⎜⎝ 2 ⎟⎠
+
+
+                                     Luego
+                                                                                                2 ⎛      2⎞
+                                             ∫ u − 2u + 1 du = 2 ln u − 2u + 1 + arctan 2 ⎜⎜ u − 2 ⎟⎟ .
+                                                      u              1       2
+
+                                                                                                  ⎝           ⎠
+                                                 2                                                                       (3)
+
+
+                                     Efectuando un proceso similar al anterior para la integral ∫
+                                                                                                                  u
+                                                                                                         u + 2u + 1
+                                                                                                          2
+                                                                                                                      du, se
+
+                                     obtiene:
+                                                                                                2 ⎛       2⎞
+                                             ∫ u + 2u + 1 du = 2 ln u + 2u + 1 − arctan 2 ⎜⎜ u + 2 ⎟⎟
+                                                      u              1       2
+
+                                                                                                     ⎝        ⎠
+                                                 2                                                                       (4)
+
+
+                                     Sustituyendo (3) y (4) en (2) y simplificando, la integral de la función racional
+
+                                     ∫ u + 1 puede escribirse así:
+                                       2u 2 du
+                                        4
+
+
+ 98
+                                                                              Módulo 10: Integración de funciones racionales propias
+
+
+                                                   2⎡          2 ⎛       2⎞
+       ∫ u + 1 = 4 ln u + 2u + 1 + 2 ⎢⎢arctan 2 ⎜⎜ u − 2 ⎟⎟
+         2u 2 du        2      u 2 − 2u + 1
+                                                     ⎣               ⎝    ⎠
+           4                      2
+
+
+                   2 ⎛       2 ⎞⎤
+       + arctan      ⎜⎜ u +    ⎟ ⎥ + C.
+                    2⎝      2 ⎟⎠ ⎥⎦
+
+
+Ahora, como de (1) se deduce que u = tan x , se tiene finalmente:
+
+
+                                                               2⎡         2 ⎛             2⎞
+       ∫ tan x ⋅ dx = 4 ln tan x + 2 tan x + 1 + 2 ⎢⎢arctan 2 ⎜⎜ tan x − 2 ⎟⎟
+                              2       tan x − 2 tan x + 1
+                                                                     ⎣        ⎝             ⎠
+
+                   2 ⎛           2 ⎞⎤
+        + arctan     ⎜⎜ tan x +    ⎟ ⎥ + C.
+                    2⎝          2 ⎟⎠ ⎥⎦
+
+
+En el módulo siguiente se presentan otras sustituciones que son de uso frecuente
+en el cálculo de integrales.
+
+
+   Ejemplo 2
+
+
+   Calcule la integral ∫
+                                1 − x dx
+                                1 + x x2
+                                         .
+
+
+   Solución
+
+   La integral puede escribirse en la forma ∫                     = ∫⎜
+                                                         1 − x dx    ⎛ 1 − x ⎞ dx
+                                                                             ⎟ 2.
+                                                                              1
+                                                                              2
+
+
+                                                         1+ x x 2
+                                                                     ⎝1+ x ⎠ x
+
+
+          Al hacer la sustitución:
+
+
+                    1− x                 −4U
+                         = U 2 y dx =
+                    1+ x              (1 + U 2 ) 2
+                                                   dU (verifique),
+
+
+          la integral se transforma en:
+
+
+                    ∫       1 + x x 2 ∫ (1 − U ) 2 (1 + U ) 2
+                            1 − x dx          −4U 2
+                                     =                        dU .
+
+
+                                                                                  Elementos básicos de cálculo integral y series 99
+Capítulo 2: Métodos de integración
+                                                    Pero
+
+
+                                                                    −4U 2
+                                                                                   =     +          +     +
+                                                                                      A       B        C       D
+                                                              (1 − U ) 2 (1 + U ) 2 1 − U (1 − U ) 2 1 + U (1 + U ) 2
+                                                                                                                      .
+
+
+                                                    O, quitando denominadores,
+
+
+                                                              −4U 2 = A(1 + U ) 2 (1 − U ) + B (U + 1) 2 + C (1 − U ) 2 (U + 1) + D(1 − U ) 2 ,
+
+
+                                                    con lo cual se obtiene: A = 1, B = –1, C = 1 y D = –1.
+
+                                                    Luego
+Jean Baptiste Joseph Fourier
+
+
+                                                              ∫ (1 − U ) (1 + U ) dU = ∫ ⎜⎝ 1 − U − (1 − U ) + 1 + U − (1 + U ) ⎟⎠ dU
+Matemático francés nacido en Auxerre en                               −4U 2                   ⎛ 1            1          1             1       ⎞
+1768 y fallecido en París en 1830, Fourier                              2         2                              2                        2
+
+asistió a la escuela militar de su ciudad natal
+                                                                                                                        1+U
+                                                                      = − ln 1 − U + ln 1 + U +         +      + C = ln     +      + C.
+dirigida por monjes benedictinos y mostró
+                                                                                                     1    1                   2U
+                                                                                                    U −1 U + 1          1−U U 2 −1
+tal habilidad para las matemáticas que
+finalmente fue profesor de esta disciplina
+en su escuela. Como muchos franceses de
+su época, fue arrastrado a la política de la
+
+                                                                                                           ⎛ 1− x ⎞
+Revolución Francesa y, gracias a la caída de
+                                                    Al regresar a la variable original, reemplazando U por ⎜      ⎟ y simplificando, se
+                                                                                                                              1
+                                                                                                                                  2
+
+
+                                                                                                           ⎝1+ x ⎠
+Robespierre tras una conspiración político-
+militar, se salvó de ser guillotinado. Después
+se incorporó a la Escuela Normal Superior
+en donde tuvo entre sus profesores a los            obtiene finalmente:
+famosos matemáticos Joseph-Louis
+
+
+                                                              ∫ 1 + x x = ln 1 + x − 1 − x −
+                                                                 1 − x dx             1+ x + 1− x        1 − x2
+Lagrange y Pierre-Simon Laplace.
+
+Fourier fue uno de los primeros maestros                                    2
+                                                                                                                + C.
+de la Escuela Politécnica de París y llegó a                                                               x
+ser profesor de análisis matemático. A la
+edad de treinta años fue designado por
+Napoleón consejero científico en una
+expedición a Egipto y durante cuatro años
+fue secretario del Instituto de Egipto, donde     Ejemplo 3
+se estableció la egiptología como una ciencia
+
+
+                                                  Calcule la integral ∫
+separada. A su regreso de ese país, en
+                                                                                dx
+                                                                            5 − 3cos x
+1801, empezó a ocuparse de lleno en la
+                                                                                       .
+ciencia y llevó a cabo experimentos sobre
+el problema que más le interesaba: el del
+modo en que el calor fluía de un punto a
+otro a través de un objeto en particular.         Solución
+Propuso a la comunidad científica en
+diciembre de 1807 una idea polémica y de
+                                                  Al reemplazar los valores de dx y de cos x dados por las ecuaciones (1) y (3), en la
+consecuencias entonces imprevisibles. En
+una memoria sometida a la consideración           integral inicial, se obtiene:
+del Instituto de Francia, titulada «Teoría de
+la propagación del calor en los sólidos » ,
+afirmaba que «cualquier función periódica
+se puede escribir como una serie
+trigonométrica » . En aquel tiempo la
+definición de función no tenía la precisión
+necesaria y la convergencia de las series
+trigonométricas estaba muy lejos de adquirir
+los significados que hoy conocemos. Sin
+embargo, su trabajo fue rechazado porque,
+
+
+104
+Capítulo 2: Métodos de integración
+
+                                            ∫ 5 − 3cos x = ∫                   ⋅  =∫
+                                                  dx                 1       2dU        dU
+                                                                    ⎛ 1−U ⎞ 1+U      1 + 4U 2
+                                                                                              .
+                                                               5 − 3⎜    2 ⎟
+                                                                           2    2
+
+
+                                                                    ⎝ 1+U ⎠
+
+                                     La última integral se calcula fácilmente haciendo la sustitución
+
+                                            2U = tan θ y dU = sec θ ⋅ dθ .
+                                                             1 2
+                                                             2
+
+                                     Así que,
+
+                                            ∫ 5 − 3cos x = ∫ 1 + 4U = 2 ∫ dθ = 2 θ + C = 2 arctan 2U + C
+                                                  dx            dU        1            1         1
+                                                                     2
+
+
+                                                                                   =     arctan (2 tan ) + C.
+                                                                                       1              x
+                                                                                       2              2
+
+                                     Una integral de cualquiera de las formas:
+
+
+                                            ∫ sen (mx) sen (nx) dx, ∫ sen (mx) cos (nx) dx, ∫ cos (mx) cos (nx) dx,
+                                     donde m, n ∈ , se puede calcular usando la integración por partes, o utilizando las
+                                     siguientes identidades trigonométricas:
+
+
+                                            sen (mx) sen (nx) =     [ − cos (m + n) x + cos (m − n) x ] ,
+                                                                  1
+                                                                  2
+
+                                            sen (mx) cos (nx) =     [sen (m + n) x + sen (m − n) x ] ,
+                                                                  1
+                                                                  2
+
+                                            cos (mx) cos (nx) =     [cos (m + n) x + cos (m − n) x ].
+                                                                  1
+                                                                  2
+
+
+106
+                                                                                                                                                        Módulo 11: Sustituciones diversas
+
+
+                                                                                                                                                    ,
+
+
+Ejemplo 4
+
+
+                                          (                 )
+Calcule la integral ∫
+                                              dx
+                                     x 1 + 3 x2
+                                                                .
+                                 3    2
+
+
+Solución
+
+
+                                                                                             (                )
+La integral puede escribirse en la forma ∫ 3                                                                      = ∫ x 3 (1 + x 3 ) −1 dx.
+                                                                                                 dx                      −2       2
+
+
+                                                                                         x 1+ x
+                                                                                         2            3   2
+
+
+En este caso, m = − , n = , p = −1
+                   2     2
+                   3     3
+
+Puesto que p es un entero, la integral puede reducirse a la integral de una función
+racional.
+
+Para ello se hace la sustitución x = U 3 y dx = 3U 2 dU .
+
+Entonces,
+
+         ∫ x (1 + x ) = ∫ x (1 + x ) dx = ∫ U (1 + U ) ⋅ 3U dU = 3∫ 1 + U
+                       dx                      −2
+                                                    3
+                                                                    2
+                                                                        3   −1                   −2               2 −1        2            dU
+           3       2        3    2                                                                                                              2
+
+
+                                      = 3 arctan U + C
+
+                                      = 3 arctan 3 x + C.
+
+Ejemplo 5
+
+
+Calcule la integral ∫ x5 ⋅ 3 (1 + x3 )2 dx.
+
+Solución
+
+La integral puede escribirse en la forma
+
+
+         ∫ x ⋅ (1 + x ) dx = ∫ x ⋅ (1 + x ) dx.
+               5                3 2                     5                   3    2
+                   3                                                                 3
+
+
+                                                                                                                                      Elementos básicos de cálculo integral y series 107
+Capítulo 2: Métodos de integración
+                                                                                           2
+                                     En este caso, m = 5, n = 3, p =                         .
+                                                                                           3
+
+
+                                     Puesto que m + 1 = 2 ∈ , la integral puede reducirse a la integral de una función
+                                                 n
+                                     racional.
+
+                                     Si se hace la sustitución
+
+                                            1 + x3 = U 3 y dx =
+                                                                                  U2
+                                                                                     dU                                                         (1)
+                                                                                  x2
+                                     se obtiene:
+
+                                             ∫ x ⋅ (1 + x ) dx = ∫ x ⋅U ⋅ x                               = ∫ x3 ⋅ U 4 dU .
+                                                 5                3   2
+                                                                          3        5       2     U 2 dU
+                                                                                                    2
+
+
+                                     Pero de (1) se tiene que x3 = U 3 − 1, y al sustituir en la última integral se puede
+                                     escribir:
+
+
+                                             ∫ x ⋅ (1 + x ) dx = ∫ (U − 1) ⋅U dU
+                                                 5                3   2                3            4
+                                                                          3
+
+
+                                                                              =     −       +C
+                                                                                U8 U5
+                                                                                 8     5
+                                                                              =    (1 + x 3 ) 3 (5 x 3 − 3) + C.
+                                                                                1            5
+
+
+                                                                                40
+                                     Ejemplo 6
+
+
+                                     Calcule la integral ∫
+                                                                          dx
+                                                                      (1 + x 2 ) 2
+                                                                                3
+                                                                                   .
+
+
+                                     Solución
+
+
+                                     La integral puede escribirse en la forma ∫                                    = ∫ x 0 ⋅ (1 + x 2 ) 2 dx.
+                                                                                                            dx                         −3
+
+
+                                                                                                        (1 + x )
+                                                                                                              2 32
+
+
+                                     En este caso, m = 0, n = 2, p = − .
+                                                                      3
+                                                                      2
+
+
+                                                  m +1
+                                     Puesto que        + p = − 1 ∈ , la integral puede reducirse a la integral de una
+                                                   n
+                                     función racional.
+
+                                     La integral puede calcularse haciendo la sustitución x = tan θ y dx = sec2 θ ⋅ dθ .
+                                     De esta forma,
+
+
+                                             ∫ (1 + x ) = ∫ cos θ ⋅ dθ = sen θ + C = 1 + x + C.
+                                                     dx                                                          x
+                                                      2   3
+                                                              2                                                      2
+
+
+108
+Capítulo 3: Integral definida                       Ejemplo 1
+
+                                                    Calcule: a. ∑ 2 ;                                b. ∑ j ( j + 1)( j + 2).
+                                                                      5                                    4
+Gauss demostró que tenía la razón.                                               i
+
+                                                                     i =1                                  j =1
+Posteriormente encontró la fórmula para
+construir los demás polígonos regulares
+con la regla y el compás.
+                                                    Solución
+Gauss se graduó en Gotinga en 1798 y al
+
+                                                              Es este caso f (i ) = 2i ; luego
+año siguiente recibió su doctorado en la
+Universidad de Helmstedt. Pero las                  a.
+
+                                                                          ∑ f (i) =∑ 2 = 2 + 2 + 2 + 2 + 2 = 62.
+matemáticas no fueron el único tema que
+le interesó: fue también astrónomo, físico,                                  5         5
+                                                                                             i         1          2   3   4   5
+geodesta e inventor. Hablaba con facilidad
+varios idiomas, e inclusive dominó el ruso                                  i =1      i =1
+a la edad de 60 años. En 1807 fue
+
+                                                              En este caso f ( j ) = j ( j + 1)( j + 2); luego
+nombrado director del observatorio y
+profesor de astronomía en la Universidad            b.
+de Gotinga.
+
+
+                                                                          ∑ j ( j + 1)( j + 2) = 1⋅ 2 ⋅ 3 + 2 ⋅ 3 ⋅ 4 + 3 ⋅ 4 ⋅ 5 + 4 ⋅ 5 ⋅ 6 = 210.
+A principios del siglo XIX Gauss publicó                                     4
+sus Disquisiciones aritméticas, que ofrecían
+un análisis lúcido de su teoría de números                                  j =1
+y comprendían las complicadas ecuaciones
+que confirmaban su teoría y una exposición
+de una convergencia de una serie infinita.
+Gauss estudió la teoría de los errores y
+dedujo la curva normal de la probabilidad,     Ejemplo 2
+llamada también «curva de Gauss», que
+todavía se usa en los cálculos estadísticos.
+                                               Exprese utilizando la notación ∑ , la siguiente suma:
+En 1833 inventó un telégrafo eléctrico que
+
+                                                         a1b2 + a2b3 + a3b4 + a4b5 .
+usó entre su casa y el observatorio, a una
+distancia de unos dos kilómetros. Inventó
+también un magnetómetro bifilar para
+medir el magnetismo y, en compañía del
+físico alemán Wilhelm Eduard Weber,            Solución
+proyectó y construyó un observatorio no
+magnético. Tanto Gauss como el matemáti-
+co Bernhard Riemann, que fue discípulo         Obsérvese que los subíndices de la letra a varían de 1 a 4 y los de b son una unidad
+suyo, pensaban en una teoría electro-          mayor que los de a, luego cada término de la suma es de la forma ak bk +1 , en donde
+magnética que sería muy semejante a la ley
+universal de la gravitación, de Newton.        k recorre los valores 1, 2, 3 y 4. Entonces,
+
+
+                                                         a1b2 + a2 b3 + a3b4 + a4 b5 = ∑ ak bk +1 .
+Sin embargo, la teoría del electromagnetis-
+                                                                                                 4
+mo fue ideada más tarde, en 1873, por
+                                                                                             k =1
+Maxwell, aunque Gauss ya poseía los
+cimientos matemáticos para explicarla. En
+1840, las investigaciones de Gauss sobre
+la óptica tuvieron especial importancia        De otra manera, se puede observar que los subíndices de b varían de 2 a 5 y los de
+debido a sus deducciones relacionadas con
+                                               a son una unidad menor que los de b, luego cada término de la suma es de la forma
+los sistemas de lentes.
+                                               ak −1bk , donde k recorre los valores 2, 3, 4 y 5. Entones,
+Gauss falleció a la edad de 78 años. Se ha
+
+
+                                                         a1b2 + a2 b3 + a3b4 + a4 b5 = ∑ ak −1bk .
+dicho que la lápida que señala su tumba
+fue escrita con un diagrama, que construyó                                                       5
+el mismo Gauss, de un polígono de
+diecisiete lados. Durante su vida se                                                         k =2
+reconoció que era el matemático más
+grande de los siglos XVIII y XIX. Su obra en
+las matemáticas contribuyó a formar una        En general, existen muchas formas para expresar una misma suma.
+base para encontrar la solución de
+problemas complicadísimos de las ciencias
+físicas y naturales.
+
+
+118
+Capítulo 3: Integral definida
+                     Ejemplo 3
+
+
+                     Demuestre que ∑ k =
+                                                       n
+                                                                   n(n + 1)
+                                                                            .
+                                                   k =1               2
+
+                     Solución
+
+
+                     Como ∑ (k + 1) =∑ (k + 2k + 1), entonces,
+                                 n                          n
+                                                   2                2
+
+                                k =1                       k =1
+
+
+                                ∑ (k + 1) =∑ k + 2∑ k +∑1
+                                 n                           n               n    n
+                                                   2                2
+                                                                                        (propiedades i y ii),
+                                k =1                        k =1         k =1    k =1
+
+
+                     de donde
+
+
+                                2∑ k =∑ (k + 1) 2 − ∑ k 2 − ∑1 = ∑ ⎡( k + 1) − k 2 ⎤ − ∑ 1 .
+                                                                      ⎣            ⎦ k =1
+                                       n           n                     n        n     n                           n
+                                                                                                    2
+
+                                 k =1 k =1          k =1    k =1 k =1
+
+
+                            Como ∑ ⎡⎣(k + 1) − k ⎤⎦ = (n + 1) − 1 (propiedad telescópica aplicada a
+                                             n
+                                            2   2            2
+
+                                            k =1
+
+
+                                                                                            f ( k ) = (k + 1) 2 )
+
+                            y ∑1 = n (propiedad iii),
+                                      n
+
+
+                                     k =1
+
+
+                                se tiene que
+
+                                            2∑ k = (n + 1)2 − 1 − n = n 2 + n = n(n + 1) .
+                                                   n
+
+
+                                                 k =1
+
+                            Luego
+
+                                            ∑k =
+                                              n
+                                                                n(n + 1)
+                                                                         .
+                                            k =1                   2
+
+
+120
+                                                                           Módulo 12: Notación sigma (∑ ) y partición de un intervalo
+
+
+Ejemplo 4
+
+
+Calcule: a. ∑ (2k − 1) ;                    b. ∑ (2 j − 1) ;           c. ∑ (2r + 1).
+                  5                              3                            4
+
+
+                k =1                            j =1                         r =3
+
+
+Solución
+
+
+       ∑ (2k − 1) = 2∑ k − ∑1 (propiedades i y ii)
+        5                  5          5
+
+a.
+       k =1               k =1       k =1
+
+
+                           5(5 + 1)
+                       = 2.         − 5 (ejemplo 3 y propiedad iii)
+                              2
+                       = 25.
+
+
+       ∑ (2 j − 1) = 2∑ j − ∑1 = 2.
+                                                       3(3 + 1)
+                                                                − 3 = 9.
+        3                 3          3
+
+b.
+        j =1              j =1       j =1                 2
+
+
+         ∑ (2r + 1) = (2 ⋅ 3 + 1) + (2 ⋅ 4 + 1) = 16.
+            4
+
+c.
+         r =3
+
+
+Las fórmulas siguientes, numeradas para referencias posteriores, también son de
+gran utilidad.
+
+
+                         ∑k =
+                           n
+                                     n(n + 1)
+       F.12.1.1                               .
+                          k =1          2
+
+                         ∑k =
+                           n
+                                 2       n(n + 1)(2n + 1)
+       F.12.1.2                                           .
+                          k =1                  6
+
+
+                         ∑ k3 =
+                           n
+                                         n 2 (n + 1) 2
+       F.12.1.3                                        .
+                          k =1                 4
+
+                         ∑k4 =
+                          n
+                                       n(n + 1)(6n3 + 9n2 + n − 1)
+       F.12.1.4                                                    .
+                         k =1                      30
+
+La fórmula F.12.1.1 fue demostrada en el ejemplo 3; las demás pueden demostrarse
+por inducción o directamente con el teorema 1 y con la ayuda de algunos artificios
+algebraicos.
+
+
+                                                                                    Elementos básicos de cálculo integral y series 121
+Capítulo 3: Integral definida
+
+                                Ejemplo 1
+
+
+                                Sea P = {−1, 0, 0.5, 2, 2.4, 3} una partición del intervalo [−1, 3] (figura 12.3).
+
+
+                                                                        Figura 12.3
+
+
+                                Los subintervalos en los cuales P divide al intervalo [−1, 3] son:
+
+
+                                        I1 = [−1, 0]; I 2 = [0, 0.5]; I 3 = [0.5, 2]; I 4 = [2, 2.4]; I 5 = [2.4, 3] .
+
+
+                                Las longitudes de cada subintervalo son:
+
+                                        Δx1 = 0 − (−1) = 1; Δx2 = 0.5 − 0 = 0.5; Δx3 = 2 − 0.5 = 1.5;
+                                        Δx4 = 2.4 − 2 = 0.4; Δx5 = 3 − 2.4 = 0.6.
+
+
+                                Además, || P || es el mayor valor entre: 1, 0.5, 1.5, 0.4 y 0.6; es decir, || P ||= 1.5
+
+                                Ejemplo 2
+
+                                Efectúe una partición regular P de [ a, b] .
+
+
+                                Solución
+
+                                       longitud delintervalo[a, b] b − a
+                                Δx =                              =      .
+                                                    n                n
+
+
+                                Entonces la partición P de [ a, b] será P = { x0 , x1 , x2, … , xn } , en donde
+
+                                        x0 = a,
+                                                            b−a
+                                        x1 = a + Δx = a +       .
+                                                             n
+
+                                                               b−a
+                                        x2 = a + 2Δx = a + 2       ,
+                                                                n
+
+
+124
+                                                                       Módulo 12: Notación sigma (∑ ) y partición de un intervalo
+                                          b−a
+        x3 = a + 3Δx = a + 3                  ,
+                                           n
+
+                                              b−a
+        xk = a + k Δx = a + k                     ,
+                                               n
+
+                                              b−a
+        xn = a + nΔx = a + n                      = b.
+                                               n
+
+Ejemplo 3
+
+                                 ∑ Δxk .
+                                                    n
+
+Evalúe el siguiente límite: lim
+                            P →0
+                                                k =1
+
+
+Solución
+
+Como ∑ Δxk = (b − a ) es una constante, se sigue entonces que
+        n
+
+
+       k =1
+
+
+        lim ∑ Δxk = lim (b − a) = (b − a).
+                     n
+
+        P →0                      P →0
+                   k =1
+
+
+ Ejemplo 1
+
+ Sea f ( x ) = x 2 definida en [0, 2] y P = { x0 , x1 ,… , xn } una partición regular de
+ [0, 2] . Si M i es el valor máximo de f en [ xi −1 , xi ] , i = 1, 2,3,… , n y mi es el valor
+
+  mínimo de f en [ xi −1 , xi ] e i = 1, 2,3,… , n, halle
+
+
+              ∑ M Δx y ∑ m Δx .
+               n                    n
+
+
+              i =1                 i =1
+                          i   i           i     i
+
+
+                                                         Figura 13.4
+
+
+                                                                              Elementos básicos de cálculo integral y series 125
+Capítulo 3: Integral definida
+
+                        Solución
+
+                        Puesto que f ( x ) = x 2 es creciente en [0, 2] (figura 13.4), también lo es en cada
+                        subintervalo [ xi −1 , xi ] en los cuales P divide al intervalo [ a, b] , y por tanto:
+
+
+                                M i = f ( xi ) = xi2 y mi = f ( xi −1 ) = xi2−1 .
+
+
+                        Puesto que la partición es regular,
+
+
+                                            2−0 2
+                                Δxi =          = , i = 1, 2,3,… n y
+                                             n  n
+
+                                                                   ⎛2⎞
+                                x0 = 0, x1 =              , x2 = 2 ⎜ ⎟ ,…
+                                                        2
+                                                        n          ⎝n⎠
+
+                                xi −1 = (i − 1) , xi = i ,                      , xn = 2,
+                                               2        2
+                                               n        n
+
+                        entonces
+
+
+                                ∑ M Δx = ∑ x ⎜⎝ n ⎟⎠ = n ∑ ( x ) = n ∑ ⎜⎝ n ⎟⎠
+                                                                        ⎛2⎞                    2 n ⎛ 2i ⎞
+                                                                                                            2
+                                  n                         n
+                                                                    2          2 n      2
+
+                                 i =1                   i =1                     i =1            i =1
+                                        i     i                     i                   i
+
+
+                                                           ∑ i 2 = n3
+                                                                   8 n(n + 1)(2n + 1)
+                                                    =
+                                                        8           n
+                                                                                      ,                         (F.12.1.2)
+                                                        n3 i =1             6
+
+
+                                de donde
+
+
+                                             ∑ M Δx =
+                                              n
+                                                                         8n(n + 1)(2n + 1)
+                                                                                           .                                           (1)
+                                             i =1                              6n 3
+                                                            i       i
+
+
+                                Ahora,
+
+
+                                                  ∑              ∑      2 ⎛2⎞
+                                                                                     ∑             ∑
+                                                                                                 2 n ⎡           2⎤
+                                                          Δ    =       i −1 ⎜   ⎟ =            =          (i − 1) ⎥
+                                                                                                                      2
+
+                                                                                                        ⎢
+                                                    n              n
+                                                                                    2 n 2
+                                                                            ⎝ n ⎠ n i =1         n i =1 ⎣        n⎦
+                                                       m    x         x                  xi −1
+
+
+                                                                                      8 ( n − 1) (n)(2n − 1)
+                                                  i =1           i =1
+                                                        i    i
+
+
+                                                               = 3 ∑ (i − 1) 2 = 3 .
+                                                                  8    n
+                                                                                                                 ,        (F.12.1.2)
+                                                                 n i =1              n             6
+
+                                de donde
+
+
+                                             ∑ m Δx =
+                                              n
+                                                                         8n(n − 1)(2n − 1)
+                                                                                           .                                           (2)
+                                             i =1                              6n3
+                                                        i       i
+
+
+130
+                                                                                 Módulo 13: Integral según Riemann
+
+
+De (1) y (2), y teniendo en cuenta que el área bajo la curva está entre estas dos
+sumas, tenemos que:
+
+       8n( n − 1)(2n − 1)      8n(n + 1)(2n + 1)
+                 3
+                          ≤ A≤                   .
+              6n                     6n 3
+
+Tomando límites en los lados de esta desigualdad y teniendo en cuenta que A es un
+número fijo, obtenemos:
+
+               8n(n − 1)(2n − 1)            8n( n + 1)(2n + 1)
+       lim                       ≤ A ≤ lim                     .
+       n →∞          6n 3              n →∞        6n 3
+
+
+                                                ≤ A ≤ , es decir, A = .
+                                              8      8               8
+Luego, por el teorema del sánduche,
+                                              3      3               3
+
+Encontramos una manera muy elegante de hallar el área comprendida entre
+x = 0, x = 2 e y = 0 (eje x) bajo la curva y = x 2 .
+
+  Ejemplo 2
+
+  Sea f ( x) = c definida en [ a, b] . Halle una suma de Riemann para f ( x).
+
+  Solución
+
+  Sea P = { x0 , x1 ,… , xn } una partición cualquiera de [a, b] . En consecuencia,
+  Δxi = xi − xi −1 , f (ti ) = c, para todo i = 1, 2,3,… , n .
+
+  Entonces,
+
+
+          ∑ f (t ) Δx = ∑ cΔx = c∑ Δx = c (b − a).
+           n                  n           n
+
+
+          i =1               i =1        i =1
+                   i    i           i           i
+
+
+                                                                   Elementos básicos de cálculo integral y series 131
+                                                                                                   Módulo 13: Integral según Riemann
+Obsérvese que para la función constante f ( x) = c, todas las sumas de Riemann
+son iguales a c (b − a) .
+
+Ejemplo 3
+
+Sea f una función monótona creciente en [a, b] y sea P = { x0 , x1 ,… , xn } una par-
+
+
+tición de [a, b] . Demuestre que f (a)(b − a) ≤ ∑ f (ti ) Δxi ≤ f (b)(b − a) .
+                                                                     n
+
+
+                                                                    i =1
+
+
+Solución
+
+Si ti está en [ xi −1 , xi ] , entonces por ser f creciente f (a ) ≤ f (ti ) ≤ f (b), y puesto
+que Δxi > 0, se concluye que
+
+
+                       f (a ) Δxi ≤ f (ti ) Δxi ≤ f (b) Δxi .                                (1)
+
+
+Si en (1) efectuamos la suma variando i desde 1 hasta n, obtenemos:
+
+
+         ∑ f (a) Δx ≤ ∑ f (t ) Δx ≤ ∑ f (b) Δx .
+          n                     n                 n
+
+
+         i =1                  i =1              i =1
+                          i           i     i                   i
+
+
+Luego
+
+
+         f (a) ∑ Δxi ≤ ∑ f (ti ) Δxi ≤ f (b)∑ Δxi (puesto que f (a) y f (b) son cons-
+                 n              n                        n
+
+
+                i =1           i =1                     i =1
+
+                                                                           tantes)
+
+y simplificando obtenemos finalmente
+
+
+         f (a)(b − a) ≤ ∑ f (ti ) Δxi ≤ f (b)(b − a).
+                                n
+
+
+                               i =1
+
+
+[ , ].
+
+
+                                                                                                         Escuche el audio Nota histórica:
+                                                                                                         Riemann en su multimedia de
+                                                                                                         Elementos básicos de cálculo
+                                                                                                         integral y series.
+
+
+                                                                                     Elementos básicos de cálculo integral y series 133
+                                                                                        Módulo 13: Integral según Riemann
+
+
+Ejemplo 4
+
+Sea f ( x) = C , con x en el intervalo [ a, b] (figura 13.6).
+Analice si f es integrable en [a, b] .
+
+
+                                           Figura 13.6
+
+Solución
+
+Sea P = { x0 , x1 ,… , xn } una partición de [a, b] y sea ti un punto cualquiera de
+[ xi −1 , xi ] con i = 1, 2,… , n (figura 13.6).
+
+
+Consideremos la siguiente suma de Riemann: ∑ f (ti ) Δxi .
+                                                          n
+
+                                                                                  (1)
+                                                         i =1
+
+Puesto que f (ti ) = C para todo ti , entonces:
+
+
+         ∑ f (t ) Δx = ∑ C Δx = C ∑ Δx = C (b − a).
+          n                   n            n
+
+
+         i =1                i =1         i =1
+                     i   i          i              i
+
+
+O sea que para cualquier partición la suma de Riemann dada en (1) es una constante
+y, por tanto,
+
+         lim ∑ f (ti ) Δxi = C (b − a).
+                 n
+
+         P →0
+                i =1
+
+
+Luego f ( x) = C es integrable en [ a, b] y además ∫ a f ( x) dx = C (b − a) .
+                                                                b
+
+
+                                                                          Elementos básicos de cálculo integral y series 135
+Capítulo 3: Integral definida
+                                Ejemplo 5
+
+
+                                             ⎧0 si x ≠ 1
+                                Sea f ( x) = ⎨1 si x = 1
+                                             ⎩
+
+                                Analice si f es integrable en [−2,3] .
+
+                                Solución
+
+                                Sea P = { x0 , x1 ,… , xn } una partición de [−2,3] y sea [ xi −1 , xi ] un subintervalo
+                                cualquiera de [−2,3] y ti un punto de [ xi −1 , xi ] con i = 1, 2,… , n (figura 13.7).
+
+                                Consideremos la siguiente suma de Riemann: ∑ f (ti ) Δxi .
+                                                                                                      n
+
+
+                                                                                                     i =1
+
+
+                                                                                    Figura 13.7
+
+                                Veamos dos casos:
+
+                                a.     Si ninguno de los ti es igual a 1, entonces f (ti ) = 0 y por tanto
+
+                                                    ∑ f (t ) Δx = 0 y lim ∑ f (t ) Δx = 0 .
+                                                     n                                     n
+
+                                                                                   P →0
+                                                    i =1                                  i =1
+                                                               i       i                         i          i
+
+
+                                       Es decir, dado ∈ > 0, existe δ > 0 tal que ∑ f (ti ) Δxi − 0 < ∈ para
+                                                                                                                 n
+
+
+                                                                                                                i =1
+
+
+                                       cualquier partición P con || P ||< δ .                                                                      (1)
+
+
+                                b.     Si alguno de los ti es igual a 1, por ejemplo t j = 1, 1 ≤ j ≤ n , entonces
+                                           f (t j ) = 1 , y como los demás ti son diferentes de 1, se tiene que para
+                                       éstos ti f (ti ) = 0. Por tanto,
+
+
+                                ∑ f (t ) Δx = f (t )Δx + f (t )Δx + … + f (t )Δx + f (t )Δx                                          + … + f (tn )Δxn
+                                 n
+
+                                                           1       1       2   2                                       j +1   j +1
+                                i =0
+                                       i      i                                                  j          j
+
+
+                                                  = 0Δx1 + 0Δx2 + … + 1Δx j + 0Δx j +1 + … + 0Δxn .
+
+
+136
+                                                                                       Módulo 13: Integral según Riemann
+
+∑ f (t ) Δx = Δx .
+ n
+
+
+i =1
+        i             i       j
+
+
+Puesto que Δx j ≤ || P || , se tiene que ∑ f (ti ) Δxi ≤ || P || .
+                                            n
+
+
+                                           i =1
+
+
+Es decir, dado ∈ > 0, elijamos la partición P de [a, b] tal que || P || < ∈ , luego
+tomando δ = ∈ se verifica que para cada ∈ > 0 existe un δ > 0 tal que
+
+ ∑ f (t ) Δx − 0 < ∈ para toda partición P de [−2,3] con || P ||< δ .
+  n
+                                                                                 (2)
+ i =1
+            i             i
+
+
+De (1) y (2) se concluye que f es integrable en [−2,3] y además L = 0. Es decir,
+
+
+                ∫ f ( x) dx = 0.
+                 3
+
+                 −2
+
+
+                                                                        Elementos básicos de cálculo integral y series 137
+Capítulo 3: Integral definida
+                                                                        ⎧mk = f ( xk ) (rectángulos inscritos)
+                                       Si f es decreciente en [ a, b] , ⎨ M = f ( x ) (rectángulos circunscritos)
+                                                                        ⎩ k         k −1
+
+
+                                Ejemplo 6
+
+
+                                Use la definición de la integral definida (según Riemann) para calcular ∫ a x dx,
+                                                                                                                    b
+
+
+                                haciendo una partición regular y tomando rectángulos circunscritos.
+
+                                Solución
+
+                                En este caso f ( x) = x, y consideremos la partición regular P = { x0 , x1 , x2 ,..., xn }
+                                para la cual:
+
+                                                                      b−a
+                                        Δx1 = Δx2 =       = Δxn =         ,
+                                                                       n
+                                                              b−a              ⎛b−a⎞
+                                        x0 = a, x1 = a +          , x2 = a + 2 ⎜   ⎟ ,…
+                                                               n               ⎝ n ⎠
+                                                              b−a              b−a
+                                        xi −1 = a + (i − 1)       , xi = a + i     ,    , xn = b.
+                                                               n                n
+
+                                En la figura 13.8 aparece la gráfica de f ( x) = x, la partición P de [ a, b] y el elemento
+                                representativo de área.
+
+
+                                                                          Figura 13.8
+
+                                También,
+
+                                                                      b−a
+                                        M i = f ( xi ) = xi = a + i       (tomando rectángulos circunscritos).
+                                                                       n
+
+
+138
+                                                                                                   Módulo 13: Integral según Riemann
+Así que:
+
+
+       ∫a                ∑
+                       ⎡ n            ⎤
+               =              M i Δxi ⎥
+                 n →+∞ ⎢
+           b
+
+                       ⎣ i =1         ⎦
+          x dx    lim
+
+
+               = lim ∑ ⎢ a + i
+                        ∞
+                             ⎡     b−a⎤ b−a
+                 n →+∞
+                       i =1 ⎣         n ⎥⎦ n
+
+                                 ∑
+                              b−a ∞ ⎡       b−a⎤
+                   = lim              ⎢ a+i
+                        n →+∞  n i =1 ⎣      n ⎥⎦
+
+
+                                   ∑            ∑ i (propiedad i, teorema 1, sección 12.1)
+                              b−a ⎡ n        b−a n ⎤
+                   = lim                   +
+                               n ⎢⎣ i =1      n i =1 ⎥⎦
+                                         a
+                        n →+∞
+
+
+                                b−a ⎡      (b − a ) n(n + 1) ⎤
+                   = lim            ⎢ na +
+                                 n ⎣                   2 ⎥⎦
+                        n →+∞
+                                                               (propiedades ii, iii y F.12.1.1,
+                                              n
+                                                                 sección 12.1)
+                                      (b − a )
+                   = a (b − a ) +              =   − .
+                                                 2   2   2
+                                                 b  a
+                                          2      2  2
+
+De esta forma,
+
+
+       ∫       x dx =     − .
+           b            b2 a2
+           a            2  2
+
+
+Razonamientos similares al anterior nos permiten deducir que ∫ a x dx =                   − .
+                                                                             b
+                                                                                 2      b3 a 3
+                                                                                        3 3
+
+
+Los cálculos de ∫ a x dx y ∫ a x dx hacen pensar que el cálculo con integrales
+                          b              b
+                                             2
+
+
+definidas es generalmente difícil. De hecho, las integrales definidas de la mayor
+parte de las funciones es imposible determinarlas con exactitud; sin embargo, como
+vimos en el capítulo 2, la integral de muchas funciones puede calcularse fácilmente.
+Este hecho, conjuntamente con el segundo teorema fundamental del cálculo que
+presentaremos en el módulo 16, nos facilitarán las cosas para calcular la integral
+definida de un gran número de funciones.
+
+
+                                                                                     Elementos básicos de cálculo integral y series 139
+Capítulo 3: Integral definida
+                 Ejemplo 1
+
+
+                 Sean f y g dos funciones tales que
+
+
+                         ∫ f ( x) dx = 3, ∫ f ( x) dx = −2 y ∫ g ( x) dx = 6.
+                            4                   7                           7
+
+                           1                    4                           1
+
+
+                 Calcule ∫ 7 [5 f ( x) + g ( x)] dx.
+                                1
+
+
+                 Solución
+
+
+                         ∫ [5 f ( x) + g ( x)] dx = ∫ 5 f ( x) dx + ∫ g ( x) dx
+                            1                               1                   1
+                                                                                                 (teorema 1, parte ii)
+
+                                = 5∫ f ( x) dx + ∫ g ( x) dx
+                           7                                7                   7
+
+
+                                    (               )(                  )
+                                        1           1
+                                                                                    (teorema 1, parte i)
+
+                                = 5 − ∫ f ( x) dx + − ∫ g ( x) dx
+                                        7           7
+                                            7                   7
+                                                                                    (definición 14.1,
+
+
+                                        (                           )
+                                            1                   1
+
+                                                                                     parte ii)
+
+                                = −5 ∫ f ( x) dx + ∫ f ( x) dx + (−6) (teorema 1, parte iv)
+                                            4           7
+
+
+                                = −5(3 − 2) − 6 = −11.
+                                            1           4
+
+
+  Ejemplo 2
+
+
+  Calcule ∫−2 x − 3 dx.
+             5
+
+
+  Solución
+
+  Note en primer lugar que ninguna de las propiedades establecidas hasta ahora
+  permite evaluar directamente la integral; sin embargo, de acuerdo con la definición
+  de valor absoluto podemos escribir:
+                 ⎧ x − 3 si x ≥ 3
+           x−3 = ⎨
+                 ⎩3 − x si x < 3
+                                                                                                        (1)
+
+
+  La gráfica de la función f ( x) = x − 3 en el intervalo [−2, 5] aparece en la figura
+  14.3.
+
+
+144
+                                                   Figura 14.3
+
+  De otro lado,
+
+
+            ∫ x − 3 dx = ∫ x − 3 dx + ∫ x − 3 dx
+               5                       3               5
+
+               −2                     −2               3
+                                                                          (teorema 1, parte iv)
+
+                                = ∫ (3 − x) dx + ∫ ( x − 3) dx
+                                      3                5
+
+                                      −2
+                                                                          (reemplazando (1))
+
+                          = ∫ 3 dx − ∫ x dx + ∫ x dx − ∫ 3 dx
+                                                       3
+                                 3         3               5     5
+
+                                −2         −2          3         3
+                                                                        (teorema 1 partes i y ii)
+
+                                          ⎛ 32 (−2) 2 ⎞ ⎛ 52 32 ⎞
+                          = 3(3 − (−2)) − ⎜ −         ⎟ + ⎜ − ⎟ − 3(5 − 3) (ejemplos 4
+                                          ⎝ 2    2 ⎠ ⎝ 2 2⎠
+                                                                        y 6 de la sección 13.2)
+
+                         =
+                               29
+                                  .
+                                2
+
+Ejemplo 3
+
+Sea f ( x) =
+               1
+                 definida en [1, 2]. Encuentre m y M tales que
+               x
+
+       m(2 − 1) ≤ ∫              dx ≤ M (2 − 1).
+                           2   1
+                          1    x
+
+Solución
+
+La función f ( x) =
+                          1
+                            es decreciente para todo x > 0 ya que su derivada es negativa;
+                          x
+por tanto, en el intervalo [1, 2] el máximo absoluto es f (1) = 1 y el mínimo absoluto
+es f (2) = 1/ 2 . Entonces se puede tomar como m cualquier número menor o igual
+a 1/2 y como M cualquier número mayor o igual que 1.
+       Ejemplo 4
+
+
+      Sabiendo que ∫ 3x 2 dx = 8 y ∫ ( 2 x + 1) dx = 24 , halle
+                                2                  5
+
+                                0                  2
+
+
+                                              ⎧3x 2     si x ∈ [0, 2]
+                    ∫0               h( x ) = ⎨
+                                              ⎩ 2 x + 1 si x ∈ [2,5]
+                     5
+                       h ( x ) dx si
+
+
+                                                                                    Elementos básicos de cálculo integral y series 145
+                                                                                    Módulo 14: Propiedades de la integral definida
+
+
+                                          Figura 14.4
+
+Solución
+
+Sea f ( x) = 2 x + 1 con x en [2, 5]. Ya que h (x) en el intervalo [2, 5] difiere de f en el
+
+punto x = 2, y puesto que ∫ f ( x) dx = 24 , entonces por la propiedad v se tiene
+                                5
+
+                                2
+
+que:
+
+
+        ∫ h( x) dx = ∫ (2 x + 1) dx = 24.
+           5               5
+
+          2             2
+
+
+Además, ∫ 0 h( x) dx = 8 .
+               2
+
+
+Luego empleando la propiedad iv tenemos que:
+
+
+        ∫ h( x) dx = ∫ h( x) dx + ∫ h( x) dx = 8 + 24 = 32.
+           5            2             5
+
+          0            0             2
+
+
+Nótese que h es integrable [0,5]; sin embargo, no es continua allí.
+
+
+                                                                              Elementos básicos de cálculo integral y series 147
+                                                                   Módulo 15: Teorema del valor medio (TVM) para integrales
+Ejemplo 1
+
+Sea f ( x ) = x 2 definida en [0, 1]. Encuentre el valor de c que satisface las condi-   Ahora, en el problema de la duplicación
+                                                                                         del cubo, el elemento de solución no es
+ciones del TVM para integrales.                                                          expresable por raíces cuadradas de las que
+                                                                                         pueden construirse con regla y compás,
+Solución                                                                                 ya que como x = 2a , entonces x = 3 2 a,
+                                                                                                         3     3
+
+
+Como f ( x ) = x 2 es continua en [0, 1], entonces de acuerdo con el TVM para
+                                                                                          y 3 2 no puede construirse sólo con
+                                                                                         estos dos instrumentos.
+integrales existe por lo menos un c ∈ [0,1] tal que:                                     2. Trisección del ángulo. El problema se
+                                                                                         enuncia del siguiente modo: divida un
+
+
+        ∫ x dx = f (c)(1 − 0) ⇔ f (c) = ∫ x dx .
+                                                                                         ángulo dado en tres ángulos parciales
+           1                                  1
+               2                                  2                                      iguales, usando sólo regla y compás.
+         0                                    0
+                                                                                         Se puede demostrar que el problema
+
+
+En primer lugar, se sabe que ∫ 0 x dx =
+                                                                                         anterior equivale a hallar un x tal que x 3 –
+                                1
+                                    2       1                                            3 x – 1 = 0; pero el x hallado sólo es
+                                              . Así que:                                 expresable como una raíz cúbica que no
+                                            3                                            es construible con tales instrumentos.
+
+
+                 ∫ x dx = 3 = 1 ,
+                   1       1                                                             3. Cuadratura del círculo. El problema
+
+        f (c ) =
+                       2
+                                                                                         de la cuadratura del círculo es aún más
+                   1− 0
+                   0
+                                                                                         profundo, ya que implica una
+                           1    3                                                        irracionalidad de naturaleza enteramente
+                                                                                         diferente a las de las anteriores.
+
+
+y como f (c) = c2 , se tiene c =      , de donde c =
+                              2     1                1                                   El problema se enuncia así: determine,
+                                                       .                                 utilizando solamente regla y compás, el
+                                    3                3                                   lado de un cuadrado de área equivalente
+                                                                                         al área de un círculo de radio dado.
+Ejemplo 2
+                                                                                         La solución del problema de la cuadratura
+                                                                                         conduce a la ecuación que tiene como
+
+Verifique la validez del TVM para integrales, con la función f ( x) = 4 − x 2 en el
+                                                                                         variable la medida del lado del cuadrado
+
+                                                                                         radio unidad. Esta ecuación es x 2 = π , en
+                                                                                         de área equivalente al área del círculo de
+intervalo [0, 2].
+                                                                                         la cual el coeficiente π del término inde-
+                                                                                         pendiente no es algebraico y por tanto no
+Solución                                                                                 puede ser raíz de una ecuación algebraica
+                                                                                         con coeficientes racionales.
+
+
+                                        Figura 15.4
+
+
+La gráfica de la función f ( x ) = 4 − x 2 en el intervalo [0, 2] determina la porción
+
+del círculo x 2 + y 2 = 4 en el primer cuadrante (figura 15.4), y cuya área es π . De
+
+
+                                                                          Elementos básicos de cálculo integral y series 153
+Capítulo 3: Integral definida
+                                         esta forma,
+
+
+                                                  ∫ f ( x) dx = ∫           4 − x 2 dx = π .
+                                                     2                  2
+
+                                                     0                  0
+
+
+                                         Ahora, como f ( x ) = 4 − x 2 es continua en el intervalo [0, 2], el TVM para integra-
+                                         les garantiza la existencia de por lo menos un c ∈ [0, 2] tal que:
+
+
+                                                           ∫        4 − x 2 dx       π
+                                                               2
+
+
+                                                  f (c ) =                       =
+                                                                    2−0
+                                                               0
+                                                                                         .
+                                                                                     2
+
+
+                                                                    π
+                                         Es decir,       4 − c2 =       , y resolviendo para c se obtiene:
+                                                                    2
+
+                                                          16 − π 2
+                                                  c=               ∈ [0, 2] .
+                                                            2
+
+                                         ¿Cómo interpreta geométricamente el resultado?
+                            Ejemplo 1
+
+
+                                                                     con x en [0, 2]. Halle ∫ f (t ) dt.
+                                          ⎧ 2              x ≥1
+                            Sea f ( x ) = ⎨
+                                                   si
+                                          ⎩−4              x <1
+                                                                                                 x
+
+                                                   si                                           0
+
+
+                            Solución
+
+
+                            Sea F ( x) = ∫ f (t ) dt.
+                                           x
+
+                                           0
+
+
+                            Para resolver esta integral es necesario hacerla en dos partes dependiendo de que
+                            x ≥ 1 o que x < 1.
+
+
+154
+Capítulo 3: Integral definida
+
+
+  1.      Si x < 1 , entonces
+
+
+                  ∫ f (t ) dt = ∫ (−4) dt = −4( x − 0) = −4 x (ejemplo 4, módulo 13).
+                    x               x
+
+                    0              0
+
+
+  2.      Si x ≥ 1 , entonces
+
+
+                  ∫ f (t ) dt = ∫ f (t ) dt + ∫ f (t ) dt = ∫ (−4) dt + ∫ 2 dt
+                    x              1             x             1         x
+
+
+                                = −4 + 2( x − 1) = 2 x − 6.
+                    0              0            1             0          1
+
+
+          Entonces de 1 y 2 tenemos que, para todo x en [0, 2],
+
+
+                                  ⎧ −4 x si          x <1
+                         F ( x) = ⎨
+                                  ⎩ 2 x − 6 si       x ≥1
+
+         En las figuras 16.3a y 16.3b se muestran las gráficas de las funciones f y F. Obsér-
+         vese que la segunda es continua a pesar de ser discontinua la primera.
+
+
+                                                                                                F (x
+
+
+                                                     Figura 16.3
+
+
+         Ejemplo 2
+
+
+         Sea f ( x) = 3 con x en [0, 3]. Halle F ( x) = ∫ 0 f (t ) dt.
+                                                               x
+
+
+         Solución
+
+
+                 F ( x) = ∫ 3 dt = 3( x − 0) = 3x.
+                            x
+
+                           0
+
+
+         Es decir, F ( x) = 3 x con x en [0, 3]. Nótese que esta función es derivable en todo
+         x de [0, 3].
+
+160
+Capítulo 3: Integral definida
+
+
+                                Si F ( x) = ∫       t 4 + 3t 2 + 9 dt , halle F ′( x) .
+                                                x
+                    Ejemplo 3                   0
+
+
+                                Solución
+
+
+                                Ya que f (t ) = t 4 + 3t 2 + 9 es continua, entonces F es derivable y F ′( x) = f ( x).
+                                O sea que
+
+
+                                                         dx ∫ 0
+                                        F ′( x ) =              t + 3t 2 + 9 dt = x 4 + 3 x 2 + 9.
+                                                         d x 4
+
+
+                                Ejemplo 4
+
+
+                                Si F ( x) = ∫ t 3 t 2 + 1 dt , halle Dx ∫ t 3 t 2 + 1 dt.
+                                                2                                       2
+
+                                                x                                       x
+
+
+                                Solución
+
+                                Para poder aplicar el teorema debemos intercambiar previamente los límites de inte-
+                                gración. Esto es,
+
+
+                                        F ( x) = ∫ t 3 t 2 + 1 dt = − ∫ t 3 t 2 + 1 dt = ∫ (−t 3 t 2 + 1) dt ,
+                                                          2                         x                  x
+
+                                                         x                         2                  2
+
+
+                                y puesto que f (t ) = −t 3 t 2 + 1 es continua, entonces:
+
+                                        F ′( x) =
+                                                         dx ∫ 2
+                                                               (
+                                                         d x 3 2
+                                                                               )
+                                                                −t t + 1 dt = − x3 x 2 + 1.
+
+
+                                Utilizando la regla de la cadena podemos extender el resultado del teorema 2.
+
+                                Corolario 1
+
+                                Sea h una función continua en [c, d], V ( x) una función derivable en [a, b] y
+                                c ≤ V ( x) ≤ d .
+
+                                Si F ( x) = ∫                                              = h(V ( x)).
+                                                V ( x)                             dF ( x)              dV
+                                                         h(t ) dt , entonces                               .
+                                                c                                   dx                  dx
+
+
+                                En efecto, sea G (V ) = ∫ h(t ) dt.
+                                                                   V
+
+                                                                   c
+
+
+                                                                                                                       = h(V ) y además
+                                                                                                               dG (V )
+                                Por el teorema anterior, G es derivable respecto a V, luego
+                                                                                                                dV
+                                F ( x) = (G V )( x).
+
+
+162
+                                                                                          Módulo 16: Los teoremas fundamentales del cálculo
+Entonces:
+
+
+           =      = h(V ).
+         dF dG dV          dV
+              .               .
+         dx dV dx          dx
+
+Es decir,
+
+
+            ∫     h(t ) dt = h(V ( x))
+         d V ( x)                      dV
+                                          .
+         dx  c                         dx
+
+
+Corolario 2
+
+Sea h continua en [c, d ], U ( x) y V ( x) derivables en [a, b] con c ≤ U ( x) ≤ d y
+c ≤ V ( x) ≤ d .
+
+
+Si F ( x) = ∫
+                V ( x)
+                         h(t ) dt , entonces
+                U ( x)
+
+
+         dx ∫ U ( x )
+                      h(t ) dt = h(V ( x))    − h(U ( x))
+         d V ( x)                          dV             dU
+                                                             .
+                                           dx             dx
+
+Para la demostración basta aplicar el colorario 1 a la expresión
+
+
+        F ( x) = ∫                h(t ) dt − ∫
+                         V ( x)                  u( x)
+                                                         h(t ) dt.
+                         c( x)                   c
+
+
+Ejemplo 5
+
+
+Halle Dx ∫ 0         (t 3 + 5) dt.
+            x2 + 3
+
+
+Solución
+
+Puesto que h(t ) = t 3 + 5 es continua en todo ℜ y V ( x ) = x 2 + 3 es derivable en
+todo ℜ, entonces podemos aplicar el colorario 1.
+
+
+         dx ∫ 0
+                 (t + 5) dt = ⎡⎣ ( x 2 + 3)3 + 5⎤⎦ (2 x).
+         d x2 + 3 3
+
+
+Ejemplo 6
+
+
+                                                              dx ∫ − x
+Sea F ( x) = ∫ − x (t + 5t − 8) dt. Halle                              (t + 5t − 8) dt.
+                   x2
+                          3
+                                                              d x2 3
+
+Solución
+
+
+                                                                                          Elementos básicos de cálculo integral y series 163
+Capítulo 3: Integral definida
+
+                                Puesto que h(t ) = t 3 + 5t − 8 es continua, V ( x ) = x 2 y U ( x) = − x son derivables.
+
+                                Entonces
+
+
+                                           ∫     (t + 5t − 8) dt = ⎣⎡( x 2 )3 + 5( x 2 ) − 8⎦⎤ (2 x) − ⎣⎡ (− x )3 + 5(− x) − 8⎦⎤ (−1)
+                                        d x2 3
+                                        dx   −
+
+                                                                 = 2 x[ x 6 + 5 x 2 − 8] + [− x 3 − 5 x − 8].
+                                               x
+
+
+                                Ejemplo 7
+
+
+                                Sea F ( x ) = ∫
+                                                  2x   1
+                                                         dt con x > 0. Pruebe que F es una función constante.
+                                                  x    t
+
+                                Solución
+
+
+                                Como h(t ) =     es continua para todo t > 0, V ( x) = 2 x y U ( x) = x son
+                                              1
+                                              t
+                                derivables. Entonces
+
+
+                                        F ′( x) =         ∫     dt =        (2 x) −      ( x) =    ⋅ 2 − ⋅1 = 0.
+                                                       d 2x 1        1 d            1 d         1       1
+                                                       dx   x t      2 x dx         x dx        2x      x
+
+
+                                Es decir, F ′( x) = 0 para todo x > 0 , y de aquí F es una constante (ejercicio 19,
+                                módulos 20-28, Elementos básicos de cálculo diferencial).
+
+
+                                Ejemplo 8
+
+                                Determine los intervalos donde crece y decrece la siguiente función, así como tam-
+                                bién sus extremos relativos:
+
+
+                                         f ( x) = ∫
+                                                       1− x 2     t
+                                                                1+ t2
+                                                                      dt.
+                                                       3
+
+
+                                Solución
+
+                                Los intervalos donde crece y decrece una función, así como los extremos relativos,
+                                los determina el signo de la primera derivada. Así que si
+
+
+                                         f ( x) = ∫
+                                                       1− x 2     t
+                                                                1+ t2
+                                                                      dt ,
+                                                       3
+
+                                entonces
+
+
+164
+                                                                            Módulo 16: Los teoremas fundamentales del cálculo
+
+
+                       dx ∫ 3 1 + t 2
+                                              (1 − x 2 )
+           f ′( x) =                     =                  ( −2 x ) .
+                       d 1− x2 t
+                                           1 + (1 − x 2 ) 2
+                                      dt
+
+
+Esto es,
+
+                       −2 x (1 − x) (1 + x)
+           f ′( x) =
+                         1 + (1 − x 2 ) 2
+                                            .
+
+
+El signo de f ′( x) depende del signo de los factores −2 x, (1 − x) y (1 + x), como
+se ilustra en el siguiente diagrama (figura 16.5):
+
+
+                                                     Figura 16.5
+
+Del diagrama anterior se deduce que:
+
+
+       f (x) decrece en: (−∞, −1] ∪ [0,1].
+       f (x) crece en: [−1, 0] ∪ [1, +∞).
+
+x = −1 corresponde a un mínimo relativo. Entonces:
+
+
+       Pm1 (−1, f (−1)) = Pm1 ⎜ −1, ∫
+                              ⎛                  ⎞       ⎛            ⎞
+                                              dt ⎟ = Pm1 ⎜ −1, − ln10 ⎟ .
+                                          t                     1
+                                      3 1+ t2
+                                       0
+
+                              ⎝                  ⎠       ⎝      2     ⎠
+
+x = 0 corresponde a un máximo relativo. Entonces:
+
+
+       PM1 (0, f (0)) = PM1 ⎜ 0, ∫
+                            ⎛                 ⎞       ⎛           ⎞
+                                           dt ⎟ = PM1 ⎜ 0, − ln 5 ⎟ .
+                                       t                    1
+                                   3 1+ t2
+                                   1
+
+                            ⎝                 ⎠       ⎝     2     ⎠
+
+x = 1 corresponde a un mínimo relativo. Entonces:
+
+
+       Pm2 (1, f (1)) = Pm2 ⎜1, ∫
+                            ⎛                ⎞       ⎛          ⎞
+                                          dt ⎟ = Pm2 ⎜1, − ln10 ⎟ .
+                                   0  t                   1
+                                  3 1+ t2
+                            ⎝                ⎠       ⎝    2     ⎠
+
+
+                                                                            Elementos básicos de cálculo integral y series 165
+                                                                 Módulo 16: Los teoremas fundamentales del cálculo
+ii.    En muchas aplicaciones la conclusión del segundo teorema fundamental
+
+       del cálculo se escribe en la forma siguiente:
+
+
+                         ∫ f ′(t ) dt = f (b) − f (a).
+                          b
+
+                          a
+
+
+       Si al evaluar ∫ a f (t ) dt no podemos encontrar en forma directa una primiti-
+                                      b
+iii.
+
+       va F ( x) de f, la regla de sustitución puede emplearse en este caso en la
+       forma siguiente:
+
+       Si u = g ( x), donde g ( x) y g ′( x) son continuas en el intervalo
+
+       [ g (a), g (b)] , y si f ( g ( x)) está definida y es continua en [ g (a), g (b)],
+       entonces
+
+
+                         ∫ f ( g ( x) ) g ′( x)dx = ∫
+                          b                             g (b )
+                                                                 f (u ) du.
+                          a                             g (a)
+
+
+       Nótese que al calcular la integral definida por la fórmula anterior no necesa-
+       riamente regresamos a la variable original sino que se halla una primitiva
+       de f (u ) y la evaluamos desde g (a) hasta g (b).
+
+iv.    La fórmula de integración por partes también puede usarse para el cálculo de
+       integrales definidas. En este caso se tiene que si U ( x) y V ( x) son dos
+       funciones derivables en [a, b], entonces:
+
+
+                         ∫ U ⋅ dV = [U ( x) ⋅V ( x)] − ∫ V ⋅ dU .
+                          b                               b        b
+
+                          a                               a        a
+
+
+Ejemplo 9
+
+Calcule el valor de las siguientes integrales definidas.
+
+
+       ∫ x dx,                n ≠ −1, n real.
+            b
+a.               n
+            a
+
+
+       ∫
+                ( 3x − 1)
+            3        x dx
+                                  .
+b.          1        2        3
+
+
+        ∫
+            3        x3
+                 9 + x2
+c.                            dx.
+            0
+
+
+Solución
+
+
+                   ⎡ x n +1     ⎤ b n +1
+       ∫a
+                                               a n +1
+                 = ⎢        +   ⎥ =      +   −        − C.
+                   ⎣ n +1       ⎦ n +1         n +1
+            b
+            n
+a.        x   dx              C            C
+
+
+                                                                              Elementos básicos de cálculo integral y series 167
+Capítulo 3: Integral definida
+
+                                     Luego ∫ x n dx =
+                                                                    b n +1 − a n + 1
+                                                                                         n ≠ − 1, n real.
+                                                                       ( n + 1)
+                                                   b
+                                                                                     ,
+                                                   a
+
+
+                                     Nótese que en el proceso de evaluación de la integral, la constante C
+                                     desaparece. En adelante y por simplicidad omitiremos la escritura de ésta.
+
+
+                                b.   Para evaluar dicha integral, aplicamos la regla de sustitución.
+
+                                     Sea u = g ( x ) = 3 x 2 − 1.                                            (1)
+
+                                     De aquí, du = 6 x dx, de donde x dx =
+                                                                                                 du
+                                                                                                    .
+                                                                                                  6
+                                     Ahora, g (1) = 2 y g (3) = 26.
+
+                                     Por tanto,
+
+                                                                                       ⎡ 1     1⎤
+                                                                                       ⎢     − 2⎥
+                                                                    du ⎡ −u ⎤
+                                               ∫1 (3x 2 − 1)3 = ∫ 2 6u 3 = ⎢⎣ 12 ⎥⎦ = − 12 = 338.
+                                                                                       ⎣ 26 2 ⎦
+                                                                                           2−2    26
+                                                   3 x dx                   26                    7
+                                                                                   2
+
+
+                                     Podemos evaluar también dicha integral aplicando la regla de sustitución,
+                                     pero escribiendo el resultado en términos de la variable x. Así:
+
+                                     Sea u = 3x 2 − 1 .                                                      (2)
+
+
+                                     Entonces du = 6 x dx, de donde x dx =
+                                                                                                 du
+                                                                                                    .
+                                                                                                  6
+
+                                     Por tanto,
+
+
+                                               ∫ (3x 2 − 13 ∫ 6u 3 = 12 = 12u 2 = 12(3x 2 − 1)2 .
+                                                              du −u −2     −1         −1
+                                                           =
+                                                   x dx
+
+
+                                     Ahora,
+
+                                                               ⎡              ⎤
+                                               ∫1 (3x 2 − 1)3 ⎢12 3x 2 − 1 2 ⎥⎥
+                                                                   −1
+                                                                                             3
+
+                                                               ⎢
+                                                               ⎣ (        ) ⎦1
+                                                             =
+                                                   3 x dx
+
+
+                                                                         ⎡ −1          1 ⎤
+                                                                       =⎢            +        ⎥=
+                                                                        ⎢⎣12 ( 26 ) 12 ( 2 ) ⎥⎦ 338
+                                                                                                 7
+                                                                                   2        2
+                                                                                                    .
+
+
+                                     ∫                 dx = ∫
+                                         3    x3                3      x2 ⋅ x
+                                             9 + x2                    9 + x2
+                                c.                                                dx .
+                                         0                      0
+
+
+168
+                                                                                             Módulo 16: Los teoremas fundamentales del cálculo
+
+          Sea u 2 = 9 + x 2 .                                                                            (3)
+
+          Entonces, 2u du = 2 x dx ⇔ u du = x dx.
+
+
+                  u = 9 + x2 .
+
+
+                               ⎧⎪cuando x = 0, u = 3
+          De aquí se tiene que ⎨
+                                ⎪⎩cuando x = 3, u = 18 = 3 2
+
+
+          Así que,
+
+
+                                                                              (u 2 − 9)u du ⎡ u 3   ⎤
+                  ∫                      dx = ∫                dx = ∫
+                                                      x2 ⋅ x
+                                                                                           = ⎢ − 9u ⎥
+                                                                                                     3 2
+                      3           x3              3                     3 2
+
+                      0
+                               9 + x2             0
+                                                      9 + x2            3           u        ⎣3     ⎦3
+
+                                               ⎡ (3 2)3                 ⎤
+                                              =⎢        − 9(3 2) − + 27 ⎥ = 18 − 9 2.
+                                                                  33
+                                               ⎣    3             3     ⎦
+
+
+Se pide al estudiante calcular la integral anterior, haciendo la sustitución x = 3 tan θ .
+
+Ejemplo 10
+
+
+Demuestre que ∫ sen 2 nx dx = π , siendo n ∈ .
+                          π
+
+                          −π
+
+
+Solución
+
+
+∫ π sen nx dx = ∫ π
+      π   2
+                          π    1 − cos 2nx
+                                           dx
+     −                    −         2
+                    ⎡1            ⎤    ⎡π 1       ⎤ ⎡ −π 1              ⎤
+                                                      π
+
+                  = ⎢ x − sen 2nx ⎥ = ⎢ − sen 2nπ ⎥ − ⎢   − sen (−2nπ ) ⎥
+                          1
+                    ⎣ 2  4 n      ⎦ −π ⎣ 2 4 n    ⎦ ⎣   2  4 n          ⎦
+                      π           π
+                  =           +        = π.
+                      2           2
+Ejemplo 11
+
+Una función g(x) satisface las siguientes condiciones:
+
+i.        g(x) está definida en todo x ∈ ℜ .
+ii.       g ′′( x) es continua.
+iii.      g (0) = g (2) .
+iv.       g ′(2) = 3.
+
+
+                                                                                              Elementos básicos de cálculo integral y series 169
+Capítulo 3: Integral definida
+
+
+                                Demuestre que ∫ 0 x ⋅ g ′′( x) dx = 6.
+                                                       2
+
+
+                                Solución
+
+                                Sea
+                                        u(x) = x               dV = g′′(x) dx.
+                                        du = dx                 V(x) = g′(x)            (V existe por ii).
+
+                                Aplicando entonces integración por partes, se tiene:
+
+
+                                        ∫ x ⋅ g ′′( x) dx = [ x ⋅ g ′( x)] − ∫ g ′( x) dx.
+                                           2                                2      2
+
+                                           0                                0     0
+
+
+                                Pero,
+                                        [ x ⋅ g ′( x)]0 = [ 2 ⋅ g ′(2) − 0 ⋅ g (0)] = 2 ⋅ 3 = 6 (condición iv).
+                                                   2
+
+
+                                También,
+
+                                        ∫ g ′( x) dx = g (2) − g (0)
+                                           2
+                                                                                 (2° TFC)
+                                           0
+
+
+                                                           = 0 (condición iii).
+
+                                Así que:
+
+
+                                        ∫ x ⋅ g ′′( x) dx = 6 − 0 = 6.
+                                           2
+
+                                           0
+
+
+170

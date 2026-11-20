@@ -1,0 +1,136 @@
+HERRAMIENTAS MATEMÁTICAS PARA EL GEOPROCESADO
+
+
+                         TAREAS MÓDULO 4
+                                                     Tareas correspondientes al Módulo 4
+
+
+NOMBRE:                                               MODELO DE EVALUACIÓN:
+
+MODELO A:
+1.- (3,5 p) Dada una señal cuya fase viene dada por el vector 𝒇 = (−11 −
+−,9, −7, −4, −1,0,3. . ):
+
+1.1.- (0,5p) Construye, mediante los tres métodos estudiados, el vector 𝒘 que
+contenga los elementos de la fase envuelta de 𝑓. *
+
+1.2.- (1,5p) Aplicando las técnicas del desenvolvimiento de fase, construye, mediante
+el método estudiado en las Sesiones 11 y 12, el vector 𝑢 que contiene la fase
+desenvuelta correspondiente al vector 𝒘 y que cumple que 𝑢(0) = 𝑤(0). Detalla
+todos los pasos realizados en el desenvolvimiento y analiza si se recupera la fase
+original contenida en 𝑓. **
+
+Por otro lado, construye la fase desenvuelta utilizando el Algoritmo de Itoh estudiado
+y comprueba si los resultados coinciden.
+
+* Resuelve: a) añadiendo/restando el múltiplo de 2 necesario. b) usando las
+funciones de Matlab 𝑎𝑡𝑎𝑛2 y 𝑎𝑛𝑔𝑙𝑒. ** Una vez realizado el apartado 1.2 por los
+métodos indicados, puedes utilizar la función 𝑢𝑛𝑤𝑟𝑎𝑝 de Matlab para comprobar si
+los resultados son correctos.
+
+1.3.- (1,5p) Crea un vector 𝒇 que contenga seis elementos de una fase (inventada por
+ti) que cumpla los siguientes requisitos:
+
+i) La primera componente de los vectores 𝑓, w (fase envuelta) y del vector 𝑢 (fase
+desenvuelta) coinciden. ii) Al menos dos de las componentes del vector 𝑓 no coinciden
+con sus envueltas correspondientes. iii) El vector que contiene la fase desenvuelta 𝑢,
+NO coincide con la fase original 𝑓 en varias de sus componentes. Incluye el
+razonamiento seguido al crear el vector 𝑓 y explica la razón por la que no se recupera
+correctamente la fase original.
+
+Resuelve-corrige de manera adecuada el problema que impide el buen funcionamiento
+del desenvolvimiento de fase creando un nuevo vector 𝑓 que contenga, en particular,
+entre sus componentes, las componentes del vector 𝑓.
+
+2.- (3,5 p) Sea la señal 𝒔(𝒕) = 𝒆𝒙𝒑(𝒇(𝒕) ∗ 𝒊), con fase 𝒇(𝒕), dada por la función
+                 𝒇(𝒕) = 𝑎𝑡2 + 𝑏𝑡 + 7 𝑒𝑛 0 < 𝒕 < 1.
+
+Elige valores de los coeficientes 𝒂 > 𝟓 𝒚 𝒃 > 𝟐 para realizar los ejercicios 2 y 3.
+
+2.1.- Construid la fase envuelta, 𝑤(𝑡), asociada a la fase 𝒇(𝒕), detallando los pasos
+seguidos y las discontinuidades creadas al envolver la fase.
+
+2.2.- Posteriormente, calcula la fase desenvuelta, 𝑢(𝑡), a partir de la fase envuelta
+obtenida en el apartado anterior y comprueba que se recupera correctamente la fase
+
+
+                                                                                           2
+                                                Tareas correspondientes al Módulo 4
+
+
+original 𝒇(𝒕). Explica de manera detallada el proceso de construcción seguido:
+localiza las discontinuidades de la fase desenvuelta, corrige los saltos, etc.
+
+
+**Puedes utilizar como apoyo las funciones de Matlab manejadas en el tema para
+comprobar que los resultados que vas obteniendo en el ejercicio son correctos.
+
+2.3.- Para los valores de los coeficientes 𝑎 𝑦 𝑏 elegidos, aplicad el criterio de Nyquist
+para determinar el número mínimo de elementos que ha de tener una muestra
+correspondiente a la fase envuelta, para poder asegurar que se recupera
+correctamente la fase (suponemos que no hay ruido u otros factores que interactúen
+en el proceso).
+
+3.- (3 pt) Taller de simulación numérica: En este ejercicio se propone analizar el
+efecto aliasing y el efecto del ruido para la señal 𝒔(𝒕) cuya fase 𝑓(𝑡) es la del
+ejercicio anterior con 𝑎 𝑦 𝑏 los valores elegidos.
+
+3.1.- Crea un programa/función que permita obtener la fase envuelta (utilizando la
+función 𝑎𝑛𝑔𝑙𝑒 de Matlab) y la fase desenvuelta (por ejemplo mediante la función de
+Matlab 𝑢𝑛𝑤𝑟𝑎𝑝 ) correspondiente a la fase elegida en el ejercicio anterior. Realiza
+distintas simulaciones en las que se vaya variando el número de elementos de la
+muestra. (Instrucción Matlab para crear la muestra, por ejemplo: N=?; t=0:1/N:1);
+
+Localiza a través de estas simulaciones, el número de elementos de la muestra a partir
+del cual NO se recupera la fase original correctamente. Escribe un breve informe con
+los resultados obtenidos y compáralos con los que se obtuvieron en el ejercicio 2.
+
+3.2.- Utiliza el programa anterior–ahora con señal 𝑠𝑟(𝑡) = 𝑠(𝑡) + 𝑟𝑢𝑖𝑑𝑜 para analizar
+el efecto del ruido en el desenvolvimiento de fase. Utiliza una muestra con un nú-
+mero grande de elementos para que el efecto del ruido no interfiera con el efecto
+aliasing analizado en el apartado anterior. Instrucción Matlab para generar una se-
+ñal con ruido gaussiano de media cero y varianza var, por ejemplo:
+
+t = 0:0.001:1
+s = exp(i*f(t)) + var*exp(i*randn(size(t)));
+
+Realiza las siguientes simulaciones: i) Considera la señal con amplitud/módulo uno y
+distintas varianzas. Construye la fase envuelta y desenvuelta analizando cómo se
+recupera la fase original –o no- en función de las distintas varianzas. Instrucción
+anterior con distintos valores de var. ii) Varía el valor de la amplitud-módulo de la
+señal (A), manteniendo un ruido con varianza constante uno. Instrucción Matlab, por
+ejemplo:
+t = 0:0.001:1
+s = A*exp(i*f(t)) +   exp(i*randn(size(t)));
+
+El objetivo es analizar, a través de las simulaciones que hayas propuesto y realizado,
+el buen o mal funcionamiento del desenvolvimiento de fase en señales ruidosas. Haz
+un breve informe comentando los resultados en función de las variaciones en la
+amplitud A y la varianza var –. Observa si los resultados te permiten establecer una
+relación con el SNR (relación señal-ruido).
+
+
+                                                                                        3
+                                                  Tareas correspondientes al Módulo 4
+
+
+MODELO B:
+TAREAS “OBLIGATORIAS-COMUNES” (7 PTOS): Ejercicios 1 y 2 de este documento.
+
+TAREAS OPCIONALES (3 PTOS): Se asignan una vez corregida la parte obligatoria siem-
+pre que se haya obtenido una calificación superior a cinco en la parte común-obligatoria.
+
+** Incluid en la entrega de las tareas este documento con vuestros datos y el Modelo de Eva-
+luación elegido.
+
+Los alumnos interesados en realizar y presentar estas tareas opcionales, han de comunicarlo
+a través del correo electrónico mchaves@usal.es para programar los distintos trabajos y
+organizar las sesiones de exposición correspondientes a esta parte.
+
+
+                                                                                               4
+HERRAMIENTAS MATEMÁTICAS PARA EL GEOPROCESADO
+    Tareas de evaluación correspondientes al Módulo 4
+
+
+                                             5

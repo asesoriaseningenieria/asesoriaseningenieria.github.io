@@ -1,0 +1,1302 @@
+Vicerrectoría de Docencia
+     Departamento de Admisiones y Registro
+
+
+                      EXAMEN DE ADMISIÓN
+                        SEMESTRE 2008-01
+
+                         Jornada 4A: Martes p.m.
+
+
+   Marque la opción correspondiente, rellenando los círculos: A, B, C ó D.
+
+
+                                                                              1
+                                                          Razonamiento Lógico
+
+1.       31P                                                          4. De las proposiciones siguientes la única verdadera es:
+      x A8
+     18.154                                                               A.     Si una persona no pasó por la guía 6, entonces, no
+                                                                                 pasó por la guía 5
+En la multiplicación señalada, P y A representan dígitos.                 B.     Si una persona pasó por la guía 6, entonces, pasó
+Entonces los valores de P y A son respectivamente:                               por la guía 5
+                                                                          C.     Si una persona pasó por la guía 5, entonces, pasó
+     A.   3y9                                                                    por la guía 6
+     B.   2y5                                                             D.     Si una persona no pasa por la guía 6, entonces, tiene
+     C.   3y5                                                                    que pasar por la guía 5
+     D.   9y3
+                                                                      5. Si aceptamos como verdadera la proposición “Una
+                                                                          persona que ingresó por la guía 1, se encuentra ahora
+Preguntas del 2 al 5.                                                     dentro del estadio y cruzó por mas de un puesto de
+                            7               8             D               control”. Entonces de las afirmaciones siguientes, de la
+                            3                        C4                   única que se tiene certeza es:
+                                        6
+                                        5
+                                                          C
+                                                                          A.     La persona pasó por la guía 8
+                            C3                            A
+     1      2                                                             B.     La persona pasó por la guía 6
+            1
+                  C1
+                                5               C2        B               C.     La persona pasó por la guía 5
+                        3                                                 D.     La persona pasó por la guía 7
+                                    4
+                                    5
+                                                          A
+                                                                      Preguntas del 6 al 9.
+El diagrama muestra las rutas de acceso a las puertas de
+                                                                          La tabla siguiente muestra algunos resultados obtenidos
+ingreso A, B, C, D de un estadio. Los números del 1 al 8
+                                                                          en una eliminatoria de futbol donde participaron los
+representan guías que señalan la dirección de la circulación
+                                                                          equipos A, B, C, E y además jugaron todos contra todos:
+para el público que accede al estadio en la zona aledaña a
+éste y C1, C2, C3 y C4 indican puestos de control fijados por las
+                                                                                       PJ         PG         PP         PE
+autoridades para requisar a todas las personas que ingresan
+al estadio. Una persona que ingresa por la guia 1 a la zona                   A                    1                    2
+aledaña puede ingresar finalmente por cualquiera de las                       B                    Z          2
+puertas      de ingreso, siguiendo únicamente las rutas                       C        3           2                    X
+indicadas por las flechas.                                                    E        3           Y                    0
+                                                                           PJ: Partidos jugados, PG: Partidos ganados, PP: Partidos
+2. De las afirmaciones siguientes la única que no es                      perdidos, PE: Partidos empatados.
+     posible, para una persona que hizo su recorrido entre la              Se sabe además que C le ganó a B y E perdió con A.
+     guía 1 e ingresó al estadio es:
+                                                                      6. El número de partidos que jugaron en la eliminatoria
+     A.   Encontró un puesto de control                                   fue:
+     B.   Encontró dos puestos de control
+     C.   Encontró tres puestos de control                                A.     3
+     D.   No encontró puestos de control                                  B.     4
+                                                                          C.     5
+3. Aceptando como verdadera la afirmación: “Una persona                   D.     6
+     que ingresó por la guía 1, encontró solamente dos
+     puestos de control en su recorrido al estadio”. Entonces         7. Los números que ocupan las posiciones X, Y, Z de la tabla
+     de las afirmaciones siguientes, de la única que se tiene             son respectivamente
+     certeza es:
+                                                                          A.     0, 2, 1
+     A.   La persona no ingresó por la puerta A                           B.     1, 2, 1
+     B.   La persona no ingresó por la puerta B                           C.     1, 1, 0
+     C.   La persona no ingresó por la puerta C                           D.     0, 1, 0
+     D.   La persona no ingresó por la puerta D
+                                                                      8. En el partido entre C y E:
+                                                                                                                                    2
+    A.    Ganó C                                                     A.   4x2x2x2x2x2x2x2x2
+    B.    Ganó E                                                     B.   22+ 23 + 24 + 25 + 26 + 27 + 28 + 29 + 210
+    C.    C empató con E                                             C.   29
+    D.    No puede determinarse con los datos conocidos.             D.   2 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29
+
+9. El número de partidos que perdió E es:                      14. Cuando a una obra le falta el 40 % de su ejecución el
+                                                                     tiempo de trabajo invertido por el equipo es 26 días más
+    A.    0
+                                                                     que cuando llevaba el 40%. Si las condiciones de trabajo
+    B.    1
+                                                                     se mantienen, el tiempo total, en días, de ejecución de la
+    C.    2
+                                                                     obra es:
+    D.    3
+                                                                     A.   65
+10. En la secuencia de números 3, 6, 3, . . ., cada término
+                                                                     B.   104
+    (comenzando con el tercero) es igual a la diferencia de
+                                                                     C.   130
+    los dos términos anteriores. Entonces la suma de los
+                                                                     D.   156
+    primeros 120 términos de esta secuencia es:
+
+    A.    -3                                                   15.    La siguiente figura consta de siete cubos iguales
+    B.    0                                                          pegados:
+    C.    3
+    D.    6
+
+11. Cuando un poste de energìa eléctrica proyecta una
+    sombra igual a su altura, el angulo (θ) de elevación del
+    sol es:
+
+                                                               Usando esta figura como base, la menor cantidad de estos
+                                                               mismos cubos que faltan para construir un cubo sólido es:
+    A.    30°
+                                        h                            A.   20
+    B.    45°
+    C.    60°                                                        B.   27
+                              h                                     C.   57
+    D.    70°
+                             h                                       D.   64
+
+
+12. Dos   cuadrados de lados 7 y 5 unidades,                   16. En un salón de clase, el número de niños
+                                                                                                Credencial     es el 60% y hay
+                                                                                                           45001
+    respectivamente, se traslapan como lo muestra la figura.         10 niños más que niñas. Entonces el número total de
+                                                                     alumnos es:
+
+                                             5                       A.   60
+                             2                                       B.   55
+          7                                                          C.   50
+                             2                                       D.   45
+
+                                                               17. El triángulo de la figura ha sido dibujado sobre papel
+                                                                     cuadriculado en cm2.        Entonces el área del triángulo
+    La diferencia entre las áreas que no se traslapan es:            sombreado en cm2 es:
+
+
+    A.    25                                                         A.   5
+    B.    49 - 25                                                    B.   5½
+                                                                     C.   6
+    C.    24
+                                                                     D.   6½
+    D.    25
+
+13. Pedro debe pagar un deuda durante nueve dias de tal
+                                                               Preguntas 18 y 19.
+    manera que cada día debe pagar el doble de lo que pagó
+    el día anterior. Si el primer día Pedro pagó 4 Euros,
+                                                               Se define la operación        para a ≠ b, con a y b en los números
+    entonces la cantidad total de dinero que Pedro pagó
+                                                               reales así:
+    fue:
+                                                                                                                               3
+                                                                           C.   B>E
+                                                                           D.   T<B
+
+
+18. El valor resultante de (1 2) 3 es:                               22.
+
+      A.   -3/2
+      B.   0
+      C.   3/2
+                                                                           Si a toda la información anterior se le adiciona la que
+      D.   2
+                                                                           suministra la nueva posición de la balanza, entonces, de
+                                                                           las opciones siguientes la que indica el orden exacto de
+19. Si x y = 1, entonces, de las afirmaciones siguientes la                las magnitudes de los pesos es:
+      única verdadera es:
+                                                                           A.   B>T>C>E
+      A.   x, y son enteros consecutivos                                   B.   C>E>B>T
+      B.   x es cualquier real positivo y y=0                              C.   E>B>C>T
+      C.   x es cualquier real distinto de cero y y = 0                    D.   C>B>E>T
+      D.   y es cualquier real distinto de cero y x=0
+                                                                     23. Si la gráfica es simétrica y todos los ángulos son rectos,
+Preguntas del 20 al 22.                                                    el volumen de la figura es:
+                  B C T E
+
+                                                                                                1
+
+
+                                                                                            1
+
+                                                                                        1                1
+                                                                                 1                                4
+
+                                                                                                    4
+
+
+En la figura se muestra una balanza de brazos iguales en la                A.   26
+cual se han colocado los cuerpos, señalados según su forma                 B.   28
+como, B,C,T y E respectivamente. Los cuerpos de la misma                   C.   30
+forma tienen el mismo peso.                                                D.   32
+
+20. Con la información que aportan las dos posiciones de la          24.                    largo
+      balanza, de las afirmaciones siguientes, de la única que
+      se tiene certeza, con relación al peso de los cuerpos, es:
+                                                                           ancho
+
+      A.   T>B                                                                                                  altura
+      B.   C>E
+      C.   B>E
+      D.   T>E                                                             Se tiene una caja de caras rectangulares cuya área
+                                                                           superficial es igual a 700 cm 2. Si el largo es cuatro veces
+                                                                           el ancho y la altura es el doble del ancho, entonces, el
+21.                                                                        volumen de la caja en cm3, es:
+
+                                                                           A.   700
+                                                                           B.   800
+                                                                           C.   1.000
+                                                                           D.   1.200
+      Si a la información inicial se le adiciona la que suministra
+      la nueva posición de la balanza, entonces, de las              25. Un prisionero tiene la posibilidad de obtener su libertad
+      afirmaciones siguientes la única de cual se tiene certeza            si escoge una puerta adecuada entre 3 dadas. En cada
+      es:                                                                  una de las puertas hay una inscripción, pero sólo una de
+                                                                           ellas es verdadera, estas son:
+      A.   E>C
+      B.   E<T
+                                                                                                                                     4
+    Puerta 1: Esta puerta conduce a la libertad.
+    Puerta 2: Esta puerta no conduce a la libertad.               A. 40
+    Puerta 3: La puerta 1 no conduce a la libertad.               B. 48
+                                                                  C. 51
+    La puerta que el prisionero debe escoger para tener la        D. 55
+    certeza de alcanzar su libertad es:                       Preguntas 30 y 31
+
+    A.   La puerta 1.                                                                                       Tipo a
+    B.   La puerta 2.
+    C.   La puerta 3.                                                            Tipo b
+    D.   Cualquier puerta.                                                                         Tipo c
+
+26. La razón entre el área sombreada y el área total de la                                                  a
+    figura es:                                                                                              3b
+
+
+    A.   1/4                                                                     C               1/2 b
+    B.   1/3
+                                                              Se dispone de 3 tipos de listones de longitudes a, b y c, cuya
+    C.   3/8
+                                                              relación se indica en la gráfica.
+    D.   2/5
+
+                                                              30. De las afirmaciones siguientes, la única verdadera es:
+
+                                                                  A.   4c  3a
+27. Se dispone de cinco círculos iguales entrecruzados como
+                                                                  B.   5c  4a
+    en el símbolo de los juegos olímpicos, de manera que
+                                                                  C.   6c  5a
+    cada intersección cubre la cuarta parte del área de los
+                                                                  D.   7c  6a
+    círculos involucrados:
+
+                                                              31. Se quiere cubrir una longitud de 10a; y se dispone
+                                                                   únicamente de 8 listones tipo c y 20 listones tipo b.
+                                                                   Entonces, el número mínimo de listones tipo b que se
+                                                                   requiere para ello es:
+
+    La suma de las áreas comprendidas por los interceptos         A.   20
+    de los círculos es:                                           B.   15
+                                                                  C.   10
+    A.   Menor que el área de un círculo                          D.    8
+    B.   Igual a la de un círculo
+    C.   Mayor que la de un círculo                           Preguntas 32 y 33.
+    D.   No puede determinarse
+
+28. En una bolsa opaca hay 13 pelotas, algunas son verdes y
+                                                                  Tabletas           T1    T2     T3 T4          T5    T6
+    otras amarillas. El número de pelotas verdes es uno más       Sustancias
+    que el de las amarillas. La probabilidad de sacar de la                 X          0    15    20     30       10     0
+    bolsa una pelota amarilla es:                                           Y         20    20    20     20       20    20
+                                                                            Z         10    0     10      0       30    20
+    A.   1/13
+    B.   6/13                                                 Se dispone de 6 tabletas termoevaporables T1, T2, T3, T4, T5 y
+    C.   7/13                                                 T6 que se están investigando en su acción para repeler
+    D.   1/2                                                  zancudos. El cuadro muestra las concentraciones en
+                                                              miligramos de 3 sustancias X, Y y Z presentes en las tabletas.
+29. Dada la secuencia:                                        La sustancia Y actúa únicamente como aromático en tanto
+                                                              que Z y X actúan directamente sobre los zancudos.
+
+                                                              32. Si se quiere conocer la efectividad de la sustancia Z
+                                                                   únicamente, entonces, las tabletas que deben seleccio-
+    1            2           3              4                      narse para hacer un estudio experimental con un grupo
+    Continuando con el patrón descrito, el número de               de zancudos son:
+    puntos que forman la figura 6 es:                                                                                        5
+                                                             36. El número de antepasados machos de la               primera
+    A.   T3 y T5                                                   generación es:
+    B.   T1 y T6
+    C.   T4 y T5                                                   A.   10
+    D.   T1, T3, T5, T6                                            B.   13
+                                                                   C.   21
+33. Si se quiere conocer la efectividad de la sustancia X,         D.   28
+     únicamente. entonces, las tabletas que deben
+     seleccionarse para hacer un estudio experimental con    37. El número de antepasados hembras de la              primera
+     un grupo de zancudos son:                                     generación es:
+
+    A. T4 y T6                                                     A.   10
+    B. T2 y T4                                                     B.   17
+    C. T3 y T5                                                     C.   21
+    D. T2, T3, T4, T5                                              D.   34
+34. En una prueba de 25 preguntas, cada respuesta correcta                              Credencial 45001
+     da 4 puntos, cada pregunta sin responder da 1 punto y   38. Del enunciado: “No todos los estudiantes del grado 11
+     cada respuesta incorrecta quita 2 puntos. De los              asistieron a la conferencia”, se concluye lógicamente
+     siguientes puntajes el único que no es posible es:            que:
+
+    A.   85                                                        A.   Muy pocos estudiantes del grado 11 asistieron a la
+    B.   88                                                             conferencia.
+    C.   90                                                        B.   Todos los estudiantes del grado 11 no asistieron a la
+    D.   91                                                             conferencia.
+                                                                   C.   Al menos un estudiante del grado 11 no asistió a la
+Preguntas del 35 al 37.                                                 conferencia.
+                                                                   D.   Muchos estudiantes del grado 11 no asistieron a la
+Se sabe que una abeja macho (M) nace de huevos sin                      conferencia.
+fecundar, es decir, que tiene madre pero no padre. Las                           km
+abejas hembra (H) nacen de huevos fecundados, es decir,      39.
+tienen madre y padre.                                                         160
+                                                                              140                   B      A
+Si una abeja macho es de la décima generación, su árbol                       120
+genealógico se construirá así:                                                100
+                               Gene-                                           80
+                               ración M   H Total                              60
+       M                         10     1  0   1                               40
+        |                                                                      20
+       H                           9    0  1   1
+                                                                                                                   Tiempo
+                                                                                        6   7 8 9 10 11 12            en
+   M           H                    8    1    1    2
+   |                                                                                                               (horas)
+   H          M         H           7    1    2    3               El gráfico muestra el recorrido seguido por dos
+              |                                                    vehículos A y B que parten del mismo lugar. El vehículo
+ M H          H     M       H       6    2    3    5               A salió a las 6:00 am. y el B a las 8:00 am.
+ |                 |                                               De acuerdo con el gráfico la única afirmación falsa es:
+ H M HM           H H   M       H   5    3    5     8
+                                                                   A.   El vehículo B es más veloz que A.
+35. El número de antepasados de la primera generación que          B.   Los vehículos A y B se encontraron a las 9:00 am.
+     tiene esta abeja macho de la décima generación es:            C.   El vehículo A hizo un recorrido mayor que el B.
+                                                                   D.   A las 9:00 am. el vehículo A había recorrido la misma
+    A.   20                                                             distancia que el B.
+    B.   30
+    C.   34
+    D.   55
+
+
+                                                                                                                             6
+                                                      A.   A
+                                                      B.   B
+                                                      C.   C
+                                                      D.   D
+
+
+40. Dada la secuencia:
+
+
+                                                  
+    El cuadro que sigue en la serie es:
+
+
+                                        
+           A              B           C       D
+
+
+                                                               7
+EXAMEN DE COMPETENCIA LECTORA
+
+
+                                8
+Preguntas del 41 al 52
+                                                                   A.     Muchas personas tocan las puertas de otros
+“Esta noche, después de tantos años de búsqueda, te                       buscando el amor
+sorprenderá el amor” aseguró la adivina.                           B.     Las personas se enamoran en las puertas
+“¿Esta noche?” preguntó el hombre, incrédulo.                      C.     No hay que salir a buscar el amor: él llega sin
+“Sí, esta noche” sentenció ella mirando de nuevo las cartas.              buscarlo
+Ansioso, casi desesperado, el hombre se lanzó a las calles de      D.     Tocando las puertas de otros, se puede encontrar el
+su ciudad con la frente en alto a fin de ser reconocido desde             amor
+lejos por el amor. Una y otra vez se paseó por aquellos sitios
+donde su imaginación se anticipaba al encuentro, pero la         46. El hombre se sorprendió porque:
+verdad es que nada ocurrió. Al fin, con la frente abatida,
+regresó a su casa.                                                 A. La adivina tardó mucho con sus llaves
+Al llegar, se vio sorprendido porque no tenía las llaves           B. La adivina era muy fea
+consigo y la puerta estaba abierta. Su corazón latió con           C. No encontraba sus llaves
+prisa.                                                             D. No esperaba ver a la adivina
+¿Cómo? –preguntó con torpeza–. ¿Tú aquí?                         47. El corolario del texto se puede comparar con:
+“Sí dijo la adivina, olvidaste las llaves por salir
+apresuradamente a buscarme.”                                       A.     Cada cosa a su debido tiempo
+                                                                   B.     A buen entendedor, pocas palabras
+41. El término incrédulo, según el texto es:                       C.     Cuando el río suena, piedras lleva
+                                                                   D.     A grandes males, grandes remedios
+   A.   Confiado
+   B.   Alegre                                                   48. Un título adecuado al anterior relato sería:
+   C.   Desconfiado
+   D.   Triste                                                     A.     El presagio
+                                                                   B.     La sorpresa
+42. El ánimo del hombre presenta, en su orden, la siguiente        C.     La adivina
+     secuencia:                                                    D.     Hombre desesperado
+
+   A.   Incredulidad, ansiedad,    abatimiento, sorpresa,        49. El hecho de que el hombre haya salido inmediatamente
+        torpeza                                                      a buscar el amor, significa que:
+   B.   Incredulidad, ansiedad, torpeza, abatimiento,
+        sorpresa                                                   A.     No sabía que estaba de día
+   C.   Abatimiento,    ansiedad,    torpeza,   sorpresa,          B.     Estaba de noche y quería seguir la indicación de la
+        incredulidad                                                      adivina
+   D.   Ansiedad,    incredulidad,   torpeza,   sorpresa,          C.     No escuchó adecuadamente a la adivina
+        abatimiento                                                D.     Estaba completamente desesperado
+
+43. Del texto se desprende que la adivina:                       50. Del texto se infiere que la adivina estaba en la casa del
+                                                                     hombre porque era:
+   A.   Sabía dónde vivía el hombre
+   B.   Preguntó la dirección del hombre a otro adivino            A.     Adivina
+   C.   Utilizó sus poderes adivinatorios para encontrar la        B.     El amor de su vida
+        casa                                                       C.     Su esposa
+   D.   Buscó la dirección del hombre en el directorio             D.     Una ladrona
+
+44. La seguridad manifestada por la adivina en lo que le         51. La   expresión “olvidaste las         llaves   por   salir
+     dice al hombre significa que ella:                              apresuradamente a buscarme”:
+
+   A.   Planea robarle las llaves e ingresar a su casa “esta       A.     Implica que la adivina es el amor de su vida
+        noche”                                                     B.     Se trata de una verdad evidente
+   B.   Confía en sus poderes adivinatorios y sabe lo que          C.     Es una exageración que la adivina sea el amor de su
+        pasará                                                            vida
+   C.   Es una adivina jactanciosa                                 D.     Es una repetición que cierra el relato
+   D.   Sabe todo lo que pasa en la noche
+                                                                 52. Que la adivina sea el amor del consultante, se constata
+45. Cuando se dice que “el amor toca a la puerta”, se                en la siguiente frase:
+     pretende decir que:
+
+
+                                                                                                                                  9
+   A.   Esta noche, después de tantos años de búsqueda, te          54. En el seno del espacio público:
+        sorprenderá el amor
+   B.   Olvidaste las llaves por salir apresuradamente a              A.    Se forman muchas sociedades
+        buscarme                                                      B.    Conviven muchas sociedades
+   C.   Sí, esta noche                                                C.    Se identifican plenamente varias sociedades
+   D.   ¿Tú aquí?                                                     D.    Se destruyen posibles sociedades
+
+                                                                    55. La expresión “el espacio público no está estructurado ni
+Preguntas del 53 al 62                                                  desestructurado, sino estructurándose”, significa que
+                                                                        éste:
+El espacio público es el espacio que posibilita todas las
+interacciones concebibles, e incluso las inconcebibles. Sirve         A.    Está en permanente movimiento
+de rampa para todas las socialidades habidas o por haber.             B.    Es el lugar donde una sociedad se dinamiza
+En cambio, en su seno lo que uno encuentra no es propia-              C.    Es el escenario de confluencia de sociedades
+mente una sociedad, o cuanto menos una sociedad                       D.    Allí la sociedad está en un proceso de formación
+cristalizada, con sus órganos, sus funciones, sus
+instituciones, etc. En él se ensayan y, las más de las veces, se    56. El término enclasamientos se refiere a existencia de
+abortan todas las combinaciones societarias, de las más                 diferentes:
+armoniosas a las más conflictivas y hasta las que se han
+vuelto o están a punto de volverse violentas.                         A.    Sociedades
+Ahora bien, el espacio público no es propiamente ese                  B.    Grupos sociales
+espacio social en el que Bourdieu podía desmentir la                  C.    Clases sociales
+condición singular –que puede       antojarse maravillosa– de los
+                           Credencial 45001                           D.    Estructuras sociales
+encuentros azarosos y de las situaciones abstractas a que
+esos encuentros dan pie. Como en otro lugar se ha tratado           57. En el espacio público el sujeto se pierde, porque aquel:
+de poner de relieve, el espacio público no está estructurado
+ni desestructurado, sino estructurándose. No es el escenario          A.    Se construye para él
+de una sociedad hecha y derecha, sino una superficie en que           B.    Es ajeno al sujeto que lo habita
+se desliza y desborda una sociedad permanentemente                    C.    Se ordena según el sujeto
+inconclusa, una sociedad interminable. En él sólo se puede            D.    Tiene un orden ya establecido
+ser testigo de un trabajo, una tarea de lo social sobre sí
+mismo.
+En cuanto a las condiciones democráticas que deberían               58. La masa corpórea a la que se refiere el texto es:
+presidirlo, el espacio público se comporta no como un
+espacio     social,    determinado          por estructuras     y     A.    Una medida de peso
+enclasamientos, sino como un espacio en muchos sentidos:              B.    Un fenómeno espacial
+biótico, subsocial o protosocial; un espacio previo a lo social       C.    Un fenómeno físico
+al tiempo que su requisito, premisa escénica de cualquier             D.    Un sujeto objetivado
+sociedad. El espacio público es aquel en el que el sujeto que
+se objetiva, que se hace cuerpo, que reclama y obtiene el           59. El objeto empírico al que hace alusión el texto podría
+derecho de presencia, se nihiliza, se convierte en una nada             ser:
+ambulante e inestable. Esa masa corpórea lleva consigo to-
+das sus propiedades, tanto las que proclama como las que              A.    La unidad deportiva
+oculta, tanto las reales como las simuladas, las de su infamia        B.    El parque
+y las que le ensalzan; y con respecto a todas esas propieda-          C.    La calle
+des lo que pide es que no se tengan en cuenta, que se                 D.    La feria artesanal
+olviden tanto unas como otras, puesto que el espacio en que
+ha irrumpido es anterior y ajeno a todo esquema fijado, a           60. Del texto puede inferirse que el sujeto del espacio
+todo lugar, a todo orden establecido.                                   público es:
+
+                                                                      A.    Amorfo
+53. De acuerdo con el texto, una sociedad cristalizada es:            B.    Incoherente
+                                                                      C.    Impostor
+   A.   Delimitada                                                    D.    Amnésico
+   B.   Configurada
+   C.   Dura                                                        61. Biótico, en el texto, se refiere a lo:
+   D.   Transparente
+                                                                      A.    Vital
+
+
+                                                                                                                                   10
+   B.   Biológico
+   C.   Orgánico                                                     A.   La explicación de la enciclopedia
+   D.   Somático                                                     B.   El nacimiento de la enciclopedia
+                                                                     C.   El creador de la enciclopedia
+62. Cuando el texto alude a las “condiciones democráticas”           D.   El contenido de la enciclopedia
+     que deben presidir el espacio público, está insinuando
+     premisas de corte:                                            64. Diderot quiso que:
+
+   A.   Político                                                     A.   El proyecto comprendiera el conocimiento de la
+   B.   Sociológico                                                       época
+   C.   Antropológico                                                B.   Se tradujera del inglés la obra de Chambers
+   D.   Demográfico                                                  C.   El proyecto recogiera el conocimiento expandido
+                                                                          por el mundo
+                                                                     D.   Se hiciera simplemente un diccionario
+Preguntas del 63 al 73
+                                                                   65. El demostrativo éste, en el primer párrafo se refiera a:
+Lo que iba a convertirse en el monumento de un nuevo
+humanismo y del racionalismo triunfante, la Enciclopedia,            A.   Chambers
+nació de la idea del editor Le Breton, que se había propuesto        B.   Le Breton
+hacer traducir del inglés la Cyclopaedia de Efraim Chambers,         C.   El autor
+publicada en Londres en 1728. Para llevar a cabo esta tarea,         D.   Diderot
+Le Breton se dirigió a Diderot. Éste, sin embargo, no quiso
+limitarse a una simple traducción y concibió el proyecto de        66. La época durante la cual se concibió la Enciclopedia
+una obra original que constituyese la suma de todos los                estaba marcada por el:
+conocimientos de la época expuestos a la luz de la razón,
+supremo juez de todas las creencias humanas (la                      A.   Modernismo
+Enciclopedia tendría este aclarativo subtítulo: Diccionario          B.   Humanismo
+razonado de la ciencias, de las artes y de los oficios).             C.   Racionalismo
+Ni que decir tiene que, para poder realizar una obra de tal          D.   Romanticismo
+envergadura, Diderot tuvo que rodearse de colaboradores
+especializados. Llamó al matemático D`Alembert, quien              67. Los conocimientos de la época del enciclopedismo:
+redactó el Discurso preliminar y artículos referentes a las
+ciencias.     Montesquieu y Voltaire se ocuparon de la               A.   Se fundamentan en la razón
+literatura, Buffon de las ciencias naturales, Rousseau de la         B.   Denigran de la razón
+música (había compuesto una pastora, El adivino del pueblo,          C.   Son más filosóficos que científicos
+que obtuvo un gran éxito en la Ópera de París y ante la              D.   Son matemáticos
+corte) y Turgot, el futuro ministro de finanzas de Luis XVI, de
+la economía política.                                              68. La magnitud de tal empresa exigió a Diderot:
+En el Prospectus que anunciaba, en octubre de 1750, la
+                                                                     A.   Mucho tiempo y gran inversión
+publicación de la Enciclopedia, Diderot definía así la finalidad
+                                                                     B.   Aportar todo su conocimiento
+de la obra: “El objetivo de una enciclopedia es reunir los
+                                                                     C.   Trabajar con colaboradores especializados
+conocimientos esparcidos sobre la superficie de la tierra,
+                                                                     D.   Resumir su pensamiento filosófico
+exponer su sistema general a los hombres con quienes
+vivimos… a fin de que nuestros descendientes, haciéndose
+                                                                   69. La finalidad de la enciclopedia según Diderot era:
+más instruidos, sean así mismo más virtuosos y más felices”.
+El primer volumen apareció el 1.º de julio de 1741, precedido
+                                                                     A.    Comprender a todos los hombres con quienes se
+de un Discurso preliminar, en el que D`Alembert mostraba el
+                                                                           vive
+encadenamiento de los conocimientos en función de la
+                                                                     B. Trasmitir los conocimientos a las generaciones
+memoria, de la imaginación, de la razón, y en el que
+                                                                           futuras
+esbozaba la historia del progreso del espíritu humano.
+                                                                     C. Que los descendientes sean más instruidos
+De 1751 a 1765 iban a aparecer 17 volúmenes, completados
+                                                                     D. Que los descendientes sean más virtuosos y más
+luego por 11 volúmenes de láminas consagradas a los
+                                                                           felices
+instrumentos y a las máquinas de los diferentes oficios;
+                                                                   70. El tema del texto es:
+estas láminas constituyen un testimonio más del interés que
+entonces mostraban las personas cultivadas por la ciencia y
+                                                                     A.   El nacimiento de la enciclopedia
+por las técnicas.
+                                                                     B.   La importancia de la enciclopedia            para   la
+                                                                          humanidad
+63. El título que mejor se acomoda al texto es:
+
+                                                                                                                                   11
+   C.   El creador de la enciclopedia                            o se extasían bajo las higueras sin alargar su mano pellejosa
+   D.   Los contenidos de la enciclopedia                        y envarillada hacia los frutos del árbol.
+
+71. Los colaboradores especializados de la Enciclopedia en       Esa poesía, esa mística reconcentrada y feroz, produce de
+     su orden son:                                               vez en cuando las más terribles revoluciones del mundo: la
+                                                                 muerte como lujo, la muerte como entretenimiento y festín
+   A.   Rousseau, Voltaire, Buffon, D`Alembert, Turgot,          que practicaron los adoradores de la Diosa Kali -madre de
+        Montesquieu                                                                    Credencial 45001
+                                                                 los estranguladores- o los  regimientos de cipayos que en
+   B.   D`Alembert,      Montesquieu,    Turgot,    Buffon,      1857 se levantaron contra el poder británico.
+        Rousseau, Voltaire
+   C.   D`Alembert,     Montesquieu,    Voltaire,   Buffon,      La revolución de los destacamentos de cipayos puso
+        Rousseau, Turgot                                         prácticamente fin al imperio mogol, Pero aquel
+   D.   Buffon, Voltaire, D`Alembert, Montesquieu, Turgot, ,     desbordamiento de fuerza y violencia no era más que una
+        Rousseau                                                 nueva página de esa poesía reconcentrada y cruel que
+                                                                 durante siglos cantaron, al atardecer, bajo los banianos y las
+72. El término esparcidos significa en el texto:                 higueras, los místicos hambrientos de la india mogol.
+
+   A.   Difundidos                                               74. La frecuencia de las malas cosechas se debe a:
+   B.   Arrojados
+   C.   Expandidos                                                  A.   La ignorancia y falta de esfuerzo del campesino
+   D.   Extendidos                                                  B.   La infertilidad y mal tiempo para el cultivo
+                                                                    C.   La carencia de herramientas y técnicas para el
+73. Diderot pensaba que el hombre instruido era más:                     cultivo
+                                                                    D.   Las miserias que arrinconaban al campesino
+   A.   Memorístico e imaginativo
+   B.   Progresista y humano                                     75. El círculo cerrado de miserias que arrincona al
+   C.   Financista y político                                         campesino se debe:
+   D.   Prudente y alegre
+                                                                    A.   Al mal rendimiento de los bueyes
+                                                                    B.   Al arado del campo sin madera y sin ruedas
+Preguntas del 74 al 80                                              C.   A la falta de arado de hierro
+                                                                    D.   A la frecuencia de las malas cosechas
+La falta de instrumentos y técnicas apropiadas para el
+cultivo se manifestaba en la frecuencia de las malas             76. Algo absurdo, demente y poéticamente cruel es ver:
+cosechas, creando así un cerrado círculo de miserias que
+iban arrinconando al campesino en una situación                     A.   Lo inhumano y lo trágico de las pinturas del hindú
+insostenible. El campo se labraba con un arado de madera            B.   Cómo después de comer un poco de arroz y unos
+sin ruedas tirado por unos bueyes famélicos. Los bueyes no               granos secos, reunidos bajo los árboles, cantan
+rendían, y para alimentarlos se necesitaba una buena                     himnos sagrados a los dioses
+cosecha. Una buena cosecha exigía a su vez un arado de             C. A estas gentes dementes cantar a la belleza y a la
+hierro; y una libra de hierro costaba diez libras de grano…              misericordia de los dioses
+Las malas cosechas eran inevitables. Hasta los artículos más       D. El espectáculo de estas gentes que tan
+elementales de consumo          -el arroz por ejemplo- se                poéticamente cantan a la memoria de los dioses
+convertían en lujo. El arroz era nueve veces más caro que el     77. El tema del texto es la:
+trigo. Un campesino ganaba dos dams y una vaca costaba
+cuatrocientos dams.                                                 A.   Falta de herramientas y técnicas para el cultivo de la
+[…]                                                                      tierra
+Nada hay tan inhumano y trágico como estas pinturas de la           B.   Miseria del campesino hindú
+miseria hindú; pero nada hay tampoco tan absurdo y                  C.   Frecuencia de las malas cosechas
+demente, tan poéticamente cruel, como el espectáculo de             D.   Escasez de alimentos en el campo
+esta gente que, después de comer por todo alimento un
+poco de arroz con mantequilla y unos granos secos, se            78. Para poder entender a Oriente, hay que entender en su
+reúnen bajo los árboles, al atardecer, para cantar los himnos         existencia sus dos caras:
+sagrados a la belleza y a la misericordia de los dioses. Nadie
+entenderá jamás a Oriente sin comprender esas dos caras             A.   La droga y los místicos huesudos
+de su existencia: la miseria salvaje y la poesía -la droga- la      B.   La miseria feroz y la poesía
+droga de esos míticos huesudos que pasean por los caminos           C.   El hambre y el canto
+                                                                    D.   La mano pellejuda y los frutos del árbol
+
+
+                                                                                                                                  12
+                                                              A.   Esa poesía romántica y soñadora que cantaron los
+79. El término famélicos significa en el texto:                    místicos huesudos bajo las higueras
+                                                              B.   La miseria y los himnos sagrados que cantaron esas
+  A.   Nostálgicos                                                 gentes macilentas bajo los árboles.
+  B.   Macilentos                                             C.   Esa poesía mística, feroz y reconcentrada que
+  C.   Hambrientos                                                 irrumpió con toda su fuerza y poderío
+  D.   Opulentos                                              D.   Los himnos religiosos, cantos y poemas que
+                                                                   recitaron los místicos en los caminos y aldeas
+80. La revolución de los cipayos que enfrentó a los
+    británicos y puso fin al imperio mogol, fue en esencia:
+
+
+                                                                                                                        13
+    Nombre: LOPEZ MORENO JESSICA ANDREA
+    Credencial: 45002
+
+
+            Vicerrectoría de Docencia
+      Departamento de Admisiones y Registro
+
+
+                       EXAMEN DE ADMISIÓN
+                         SEMESTRE 2008-01
+
+                           Jornada 4B: Martes p.m.
+
+    No abra el cuadernillo hasta que el docente acompañante lo autorice.
+
+
+    El examen consta de 80 preguntas: 40 de razonamiento lógico, 40 de competencia
+     lectora.
+
+    Al finalizar el examen devuelva el tema, en caso de no hacerlo, aquél le será anulado.
+
+
+                                                                                              1
+           Marque en la tarjeta de respuestas una opción por pregunta solamente.
+
+           Marque en la tarjeta de respuestas la opción correspondiente, rellenando los círculos:
+
+            a, b, c ó d.
+
+                                                  Razonamiento Lógico
+
+Preguntas del 1 al 3.                                         4. Del enunciado:
+                                                                             km“No todos los estudiantes del grado 11
+                                                                   asistieron a la conferencia”, se concluye lógicamente
+Se sabe que una abeja macho (M) nace de huevos sin                 que:
+fecundar, es decir, que tiene madre pero no padre. Las
+abejas hembra (H) nacen de huevos fecundados, es decir,            A.   Muy pocos estudiantes del grado 11 asistieron a la
+tienen madre y padre.                                                   conferencia.
+                                                                   B.   Todos los estudiantes del grado 11 no asistieron a la
+Si una abeja macho es de la décima generación, su árbol                 conferencia.
+genealógico se construirá así:                                     C.   Al menos un estudiante del grado 11 no asistió a la
+                               Gene-                                    conferencia.
+                               ración M   H Total                  D.   Muchos estudiantes del grado 11 no asistieron
+                                                                                                                  Tiempoa la
+       M                         10     1  0   1                        conferencia.                             (en horas)
+        |
+       H                           9    0  1   1              5. En un salón de clase, el número de niños es el 60% y hay
+                                                                   10 niños más que niñas. Entonces el número total de
+   M            H                     8   1   1    2               alumnos es:
+   |
+   H            M         H           7   1   2    3               A.   60
+                |                                                  B.   55
+ M   H          H     M       H       6   2   3    5               C.   50
+ |                   |                                             D.   45
+ H M   HM           H H   M       H   5   3   5     8
+                                                              6.
+1. El número de antepasados de la primera generación que                      160
+     tiene esta abeja macho de la décima generación es:                       140                 B      A
+                                                                              120
+    A.     20                                                                 100
+    B.     30                                                                  80
+    C.     34                                                                  60
+    D.     55                                                                  40
+                                                                               20
+2. El número de antepasados machos de la            primera
+     generación es:
+                                                                                        6 7 8    9 10 11 12
+    A.     10
+    B.     13                                                      El gráfico muestra el recorrido seguido por dos
+    C.     21                                                      vehículos A y B que parten del mismo lugar. El vehículo
+    D.     28                                                      A salió a las 6:00 am. y el B a las 8:00 am.
+                                                                   De acuerdo con el gráfico la única afirmación falsa es:
+3. El número de antepasados hembras de la          primera
+     generación es:                                                A.   El vehículo B es más veloz que A.
+                                                                   B.   Los vehículos A y B se encontraron a las 9:00 am.
+    A.     10                                                      C.   El vehículo A hizo un recorrido mayor que el B.
+    B.     17                                                      D.   A las 9:00 am. el vehículo A había recorrido la misma
+    C.     21                                                           distancia que el B.
+    D.     34
+                                                              7. Dada la secuencia:
+                                                                                                                           2
+                                                                       D.   25
+
+                                                                   11. La siguiente figura consta de siete cubos iguales
+                                                                       pegados:
+                                                               
+     El cuadro que sigue en la serie es:
+
+
+                                              
+              A               B             C              D       Usando esta figura como base, la menor cantidad de estos
+                                                                   mismos cubos que faltan para construir un cubo sólido es:
+     A.   A
+     B.   B                                                            A.   20
+     C.   C                                                            B.   27
+     D.   D                                                            C.   57
+                                                                       D.   64
+8.      31P
+      x A8                                                         Preguntas del 12 al 15
+     18.154
+                                                                                              7               8             D
+                                                                                              3                        C4
+En la multiplicación señalada, P y A representan dígitos.                                                 6
+                                                                                                          5
+                                                                                                                            C
+Entonces los valores de P y A son respectivamente:                                            C3
+                                                                       1         2                                          A
+     A.   3y9
+                                                                                 1
+                                                                                     C1
+                                                                                                  5               C2        B
+     B.   2y5                                                                             3
+     C.   3y5                                                                                         4                     A
+     D.   9y3                                                                                         5
+
+
+9. Pedro debe pagar un deuda durante nueve dias de tal             El diagrama muestra las rutas de acceso a las puertas de
+     manera que cada día debe pagar el doble de lo que pagó        ingreso A, B, C, D de un estadio. Los números del 1 al 8
+     el día anterior. Si el primer día Pedro pagó 4 Euros,         representan guías que señalan la dirección de la circulación
+     entonces la cantidad total de dinero que Pedro pagó           para el público que accede al estadio en la zona aledaña a
+     fue:                                                          éste y C1, C2, C3 y C4 indican puestos de control fijados por las
+                                                                   autoridades para requisar a todas las personas que ingresan
+     A.   4x2x2x2x2x2x2x2x2                                        al estadio. Una persona que ingresa por la guía 1 a la zona
+     B.   22+ 23 + 24 + 25 + 26 + 27 + 28 + 29 + 210               aledaña puede ingresar finalmente por cualquiera de las
+     C.   29                                                       puertas      de ingreso, siguiendo únicamente las rutas
+     D.   2 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29                indicadas por las flechas.
+
+10. Dos    cuadrados de lados 7 y 5 unidades,                      12. De las afirmaciones siguientes la única que no es
+     respéctivamente, se traslapan como lo muestra la figura.          posible, para una persona que hizo su recorrido entre la
+                                                                       guía 1 e ingresó al estadio es:
+                                                       5
+                                                                       A.   Encontró un puesto de control
+                                  2                                    B.   Encontró dos puestos de control
+          7                                                            C.   Encontró tres puestos de control
+                                  2                                    D.   No encontró puestos de control
+
+
+     La diferencia entre las áreas que no se traslapan es:
+                                                                   13. Aceptando como verdadera la afirmación: “Una persona
+     A.   25                                                           que ingresó por la guía 1, encontró solamente dos
+     B.   49-25                                                        puestos de control en su recorrido al estadio”. Entonces
+     C.   24
+                                                                                                                                  3
+    de las afirmaciones siguientes, de la única que se tiene         A.     x, y son enteros consecutivos
+    certeza es:                                                      B.     x es cualquier real positivo y y=0
+                                                                     C.     x es cualquier real distinto de cero y y = 0
+    A.   La persona no ingresó por la puerta A                       D.     y es cualquier real distinto de cero y x=0
+    B.   La persona no ingresó por la puerta B
+    C.   La persona no ingresó por la puerta C
+    D.   La persona no ingresó por la puerta D
+
+14. De las proposiciones siguientes la única verdadera es:                            Credencial 45002
+                                                                 Preguntas del 19 al 22.
+
+    A.   Si una persona no pasó por la guía 6, entonces, no          La tabla siguiente muestra algunos resultados obtenidos
+         pasó por la guía 5                                          en una eliminatoria de futbol donde participaron los
+    B.   Si una persona pasó por la guía 6, entonces, pasó           equipos A, B, C, E y además jugaron todos contra todos:
+         por la guía 5
+    C.   Si una persona pasó por la guía 5, entonces, pasó                            PJ       PG           PP             PE
+         por la guía 6                                                    A                     1                          2
+    D.   Si una persona no pasa por la guía 6, entonces, tiene            B                     Z            2
+         que pasar por la guía 5                                          C           3         2                          X
+                                                                          E           3         y                          0
+15. Si aceptamos como verdadera la proposición “Una
+    persona que ingresó por la guía 1, se encuentra ahora            PJ: Partidos jugados, PG: Partidos ganados, PP: Partidos
+    dentro del estadio y cruzó por más de un puesto de               perdidos, PE: Partidos empatados.
+    control”. Entonces de las afirmaciones siguientes, de la
+                                                                      Se sabe además que C le ganó a B y E perdió con A.
+    única que se tiene certeza es:
+
+    A.   La persona pasó por la guía 8                           19. El número de partidos que jugaron en la eliminatoria
+    B.   La persona pasó por la guía 6                               fue:
+    C.   La persona pasó por la guía 5
+                                                                     A.     3
+    D.   La persona pasó por la guía 7
+                                                                     B.     4
+                                                                     C.     5
+16. El triángulo de la figura ha sido dibujado sobre papel
+                                                                     D.     6
+    cuadriculado en cm2.     Entonces el área del triángulo
+    sombreado en cm2 es:
+                                                                 20. Los números que ocupan las posiciones X, Y, Z de la tabla
+                                                                     son respectivamente
+    A.   5
+    B.   5½                                                          A.     0, 2, 1
+    C.   6                                                           B.     1, 2, 1
+    D.   6½                                                          C.     1, 1, 0
+                                                                     D.     0, 1, 0
+Preguntas 17 y 18.
+                                                                 21. En el partido entre C y E:
+Se define la operación    para a ≠ b, con a y b en los números
+reales así:                                                          A.     Ganó C
+                                                                     B.     Ganó E
+                                                                     C.     C empató con E
+                                                                     D.     No puede determinarse con los datos conocidos.
+17. El valor resultante de (1 2) 3 es:
+                                                                 22. El número de partidos que perdió E es:
+    A.   -3/2                                                        A.     0
+    B.   0                                                           B.     1
+    C.   3/2                                                         C.     2
+    D.   2                                                           D.     3
+
+18. Si x y = 1, entonces, de las afirmaciones siguientes la      23. En la secuencia de números 3, 6, 3, . . ., cada término
+    única verdadera es:                                              (comenzando con el tercero) es igual a la diferencia de
+
+
+                                                                                                                                4
+    los dos términos anteriores. Entonces la suma de los               D.   T>E
+    primeros 120 términos de esta secuencia es:
+                                                                 27.
+    A.   -3
+    B.   0
+    C.   3
+    D.   6
+
+24. Cuando un poste de energía eléctrica proyecta una                  Si a la información inicial se le adiciona la que suministra
+    sombra igual a su altura, el angulo (θ) de elevación del           la nueva posición de la balanza, entonces, de las
+    sol es:                                                            afirmaciones siguientes la única de cual se tiene certeza
+                                                                       es:
+
+                                                                       A.   E>C
+    A.   30°                                                           B.   E<T
+                                        h
+    B.   45°                                                           C.   B>E
+    C.   60°                  h                                       D.   T<B
+    D.   70°
+                             h
+                                                                 28.
+
+
+25. Cuando a una obra le falta el 40 % de su ejecución el
+    tiempo de trabajo invertido por el equipo es 26 días más           Si a toda la información anterior se le adiciona la que
+    que cuando llevaba el 40%. Si las condiciones de trabajo           suministra la nueva posición de la balanza, entonces, de
+    se mantienen, el tiempo total, en días, de ejecución de la         las opciones siguientes la que indica el orden exacto de
+    obra es:                                                           las magnitudes de los pesos es:
+
+    A.   65                                                            A.   B>T>C>E
+    B.   104                                                           B.   C>E>B>T
+    C.   130                                                           C.   E>B>C>T
+    D.   156                                                           D.   C>B>E>T
+                                                                 29.                   largo
+Preguntas del 26 al 28.
+                                                                       ancho
+                B C T E
+                                                                                                            altura
+
+
+                                                                       Se tiene una caja de caras rectangulares cuya área
+                                                                       superficial es igual a 700 cm 2. Si el largo es cuatro veces
+                                                                       el ancho y la altura es el doble del ancho, entonces, el
+                                                                       volumen de la caja en cm3 es:
+
+En la figura se muestra una balanza de brazos iguales en la            A.   700
+cual se han colocado los cuerpos, señalados según su forma             B.   800
+como, B, C, T y E respectivamente. Los cuerpos de la misma             C.   1.000
+forma tienen el mismo peso.                                            D.   1.200
+
+26. Con la información que aportan las dos posiciones de la      30. Un prisionero tiene la posibilidad de obtener su libertad
+    balanza, entonces de las afirmaciones siguientes, de la            si escoge una puerta adecuada entre 3 dadas. En cada
+    única que se tiene certeza, con relación al peso de los            una de las puertas hay una inscripción, pero sólo una de
+    cuerpos, es:                                                       ellas es verdadera, éstas son:
+
+    A.   T>B                                                           Puerta 1: Esta puerta conduce a la libertad.
+    B.   C>E                                                           Puerta 2: Esta puerta no conduce a la libertad.
+    C.   B>E                                                           Puerta 3: La puerta 1 no conduce a la libertad.
+
+                                                                                                                                 5
+    La puerta que el prisionero debe escoger para tener la
+    certeza de alcanzar su libertad es:                                          C                         1/2 b
+
+    A.   La puerta 1.                                         Se dispone de 3 tipos de listones de longitudes a, b y c, cuya
+    B.   La puerta 2.                                         relación se indica en la gráfica.
+    C.   La puerta 3.
+    D.   Cualquier puerta.                                    34. De las afirmaciones siguientes, la única verdadera es:
+
+31. En una prueba de 25 preguntas, cada respuesta correcta        A.   4c  3a
+    da 4 puntos, cada pregunta sin responder da 1 punto y         B.   5c  4a
+    cada respuesta incorrecta quita 2 puntos. De los              C.   6c  5a
+    siguientes puntajes el único que no es posible es:            D.   7c  6a
+
+    A.   85                                                   35. Se quiere cubrir una longitud de 10a; y se dispone
+    B.   88                                                        únicamente de 8 listones tipo c y 20 listones tipo b.
+    C.   90                                                        Entonces, el número mínimo de listones tipo b que se
+    D.   91                                                        requiere para ello es:
+
+32. La razón entre el área sombreada y el área total de la        A.   20
+    figura es:                                                    B.   15
+                                                                  C.   10
+                                                                  D.    8
+    A.   1/4
+    B.   1/3                                                  36. Dada la secuencia:
+    C.   3/8
+    D.   2/5
+
+
+                                                                   1         2                        3                    4
+                                                                   Continuando con el patrón descrito, el número de
+                                                                   puntos que forman la figura 6 es:
+33. Se dispone de cinco círculos iguales entrecruzados como
+    en el símbolo de los juegos olímpicos, de manera que
+                                                                  A.   40
+    cada intersección cubre la cuarta parte del área de los
+                                                                  B.   48
+    círculos involucrados:
+                                                                  C.   51
+                                                                  D.   55
+
+                                                              37. Si la gráfica es simétrica y todos los ángulos son rectos,
+                                                                  el volumen de la figura es:
+
+    La suma de las áreas comprendidas por los interceptos
+    de los círculos es:                                                                  1
+
+
+                                                                                     1
+    A.   Menor que el área de un círculo
+    B.   Igual a la de un círculo                                            1                             1
+                                                                        1                                              4
+    C.   Mayor que la de un círculo
+    D.   No puede determinarse                                                                    4
+
+Preguntas 34 y 35                                                 A.   26
+                                                                  B.   28
+                                            Tipo a
+                                                                  C.   30
+                                                                  D.   32
+                 Tipo b
+                                                              Preguntas 38 y 39. Credencial 45002
+                                   Tipo c
+
+                                            a                     Tabletas                   T1       T2       T3 T4       T5   T6
+                                            3b
+                                                                  Sustancias
+                                                                                                                                     6
+           X          0      15    20    30     10    0
+           Y          20     20    20    20     20    20
+           Z          10      0    10    0      30    20
+
+Se dispone de 6 tabletas termoevaporables T1, T2, T3, T4, T5 y
+T6 que se están investigando en su acción para repeler
+zancudos. El cuadro muestra las concentraciones en
+miligramos de 3 sustancias X, Y y Z presentes en las tabletas.
+La sustancia Y actúa únicamente como aromático en tanto
+que Z y X actúan directamente sobre los zancudos.
+
+38. Si se quiere conocer la efectividad de la sustancia Z
+     únicamente, entonces, las tabletas que deben seleccio-
+     narse para hacer un estudio experimental con un grupo
+     de zancudos son:
+
+    A.   T3 y T5
+    B.   T1 y T6
+    C.   T4 y T5
+    D.   T1, T3, T5, T6
+
+39. Si se quiere conocer la efectividad de la sustancia X,
+     únicamente. entonces,      las tabletas que deben
+     seleccionarse para hacer un estudio experimental con
+     un grupo de zancudos son:
+
+    A.   T4 y T6
+    B.   T2 y T4
+    C.   T3 y T5
+    D.   T2, T3, T4, T5
+
+40. En una bolsa opaca hay 13 pelotas, algunas son verdes y
+     otras amarillas. El número de pelotas verdes es uno más
+     que el de las amarillas. La probabilidad de sacar de la
+     bolsa una pelota amarilla es:
+
+    A.   1/13
+    B.   6/13
+    C.   7/13
+    D.   1/2
+
+
+                                                                 7
+                                              EXAMEN DE COMPETENCIA LECTORA
+Preguntas del 41 al 47                                              D.   A la frecuencia de las malas cosechas
+
+La falta de instrumentos y técnicas apropiadas para el           43. El tema del texto es la:
+cultivo se manifestaba en la frecuencia de las malas
+cosechas, creando así un cerrado círculo de miserias que            A.   Falta de herramientas y técnicas para el cultivo de la
+iban arrinconando al campesino en una situación                          tierra
+insostenible. El campo se labraba con un arado de madera            B.   Miseria del campesino hindú
+sin ruedas tirado por unos bueyes famélicos. Los bueyes no          C.   Frecuencia de las malas cosechas
+rendían, y para alimentarlos se necesitaba una buena                D.   Escasez de alimentos en el campo
+cosecha. Una buena cosecha exigía a su vez un arado de
+hierro; y una libra de hierro costaba diez libras de grano…      44. Algo absurdo, demente y poéticamente cruel es ver:
+Las malas cosechas eran inevitables. Has los artículos más
+elementales de consumo           -el arroz por ejemplo- se          A.   Lo inhumano y lo trágico de las pinturas del hindú
+convertían en lujo. El arroz era nueve veces más caro que el        B.   Cómo después de comer un poco de arroz y unos
+trigo. Un campesino ganaba dos dams y una vaca costaba                   granos secos, reunidos bajo los árboles, cantan
+cuatrocientos dams.                                                      himnos sagrados a los dioses
+[…]                                                                 C.   A estas gentes dementes cantar a la belleza y a la
+Nada hay tan inhumano y trágico como estas pinturas de la                misericordia de los dioses
+miseria hindú; pero nada hay tampoco tan absurdo y                  D.   El espectáculo de estas gentes que tan
+demente, tan poéticamente cruel, como el espectáculo de                  poéticamente cantan a la memoria de los dioses
+esta gente que, después de comer por todo alimento un
+poco de arroz con mantequilla y unos granos secos, se            45. Para poder entender a Oriente, hay que entender en su
+reúnen bajo los árboles, al atardecer, para cantar los himnos         existencia sus dos caras:
+sagrados a la belleza y a la misericordia de los dioses. Nadie
+entenderá jamás a Oriente sin comprender esas dos caras             A.   La droga y los místicos huesudos
+de su existencia: la miseria salvaje y la poesía -la droga- la      B.   La miseria feroz y la poesía
+droga de esos míticos huesudos que pasean por los caminos           C.   El hambre y el canto
+o se extasían bajo las higueras sin alargar su mano pellejosa       D.   La mano pellejuda y los frutos del árbol
+y envarillada hacia los frutos del árbol.
+
+Esa poesía, esa mística reconcentrada y feroz, produce de        46. El término famélicos significa en el texto:
+vez en cuando las más terribles revoluciones del mundo: la
+muerte como lujo, la muerte como entretenimiento y festín           A.   Nostálgicos
+que practicaron los adoradores de la Diosa Kali -madre de           B.   Macilentos
+los estranguladores- o los regimientos de cipayos que en            C.   Hambrientos
+1857 se levantaron contra el poder británico.                       D.   Opulentos
+
+La revolución de los destacamentos de cipayos puso               47. La revolución de los cipayos que enfrentó a los
+prácticamente fin al imperio mogol, Pero aquel                        británicos y puso fin al imperio mogol, fue en esencia:
+desbordamiento de fuerza y violencia no era más que una
+nueva página de esa poesía reconcentrada y cruel que                A.   Esa poesía romántica y soñadora que cantaron los
+durante siglos cantaron, al atardecer, bajo los banianos y las           místicos huesudos bajo las higueras
+higueras, los místicos hambrientos de la india mogol.               B.   La miseria y los himnos sagrados que cantaron esas
+                                                                         gentes macilentas bajo los árboles.
+41. La frecuencia de las malas cosechas se debe a:                  C.   Esa poesía mística, feroz y reconcentrada que
+                                                                         irrumpió con toda su fuerza y poderío
+   A.   La ignorancia y falta de esfuerzo del campesino             D.   Los himnos religiosos, cantos y poemas que
+   B.   La infertilidad y mal tiempo para el cultivo                     recitaron los místicos en los caminos y aldeas
+   C.   La carencia de herramientas y técnicas para el
+        cultivo                                                  Preguntas del 48 al 57
+   D.   Las miserias que arrinconaban al campesino
+                                                                 El espacio público es el espacio que posibilita todas las
+42. El círculo cerrado de miserias que arrincona al              interacciones concebibles, e incluso las inconcebibles. Sirve
+     campesino se debe:                                          de rampa para todas las socialidades habidas o por haber.
+                                                                 En cambio, en su seno lo que uno encuentra no es propia-
+   A.   Al mal rendimiento de los bueyes                         mente una sociedad, o cuanto menos una sociedad
+   B.   Al arado del campo sin madera y sin ruedas               cristalizada, con sus órganos, sus funciones, sus
+   C.   A la falta de arado de hierro                            instituciones, etc. En él se ensayan y, las más de las veces, se
+                                                                                                                                    8
+abortan todas las combinaciones societarias, de las más
+armoniosas a las más conflictivas y hasta las que se han               A.   Sociedades
+vuelto o están a punto de volverse violentas.                          B.   Grupos sociales
+Ahora bien, el espacio público no es propiamente ese                   C.   Clases sociales
+espacio social en el que Bourdieu podía desmentir la                   D.   Estructuras sociales
+condición singular –que puede antojarse maravillosa– de los
+encuentros azarosos y de las situaciones abstractas a que           52. En el espacio público el sujeto se pierde, porque aquel:
+esos encuentros dan pie. Como en otro lugar se ha tratado
+de poner de relieve, el espacio público no está estructurado           A.   Se construye para él
+ni desestructurado, sino estructurándose. No es el escenario           B.   Es ajeno al sujeto que lo habita
+de una sociedad hecha y derecha, sino una superficie en que            C.   Se ordena según el sujeto
+se desliza y desborda una sociedad permanentemente                     D.   Tiene un orden ya establecido
+inconclusa, una sociedad interminable. En él sólo se puede
+ser testigo de un trabajo, una tarea de lo social sobre sí          53. La masa corpórea a la que se refiere el texto es:
+mismo.
+En cuanto a las condiciones democráticas que deberían                  A.   Una medida de peso
+presidirlo, el espacio público se comporta no como un                  B.   Un fenómeno espacial
+espacio social, determinado por estructuras y enclasa-                 C.   Un fenómeno físico
+mientos, sino como un espacio
+                          Credencialen  muchos sentidos: biótico,
+                                     45002                             D.   Un sujeto objetivado
+subsocial o protosocial; un espacio previo a lo social al
+tiempo que su requisito, premisa escénica de cualquier              54. El objeto empírico al que hace alusión el texto podría
+sociedad. El espacio público es aquel en el que el sujeto que            ser:
+se objetiva, que se hace cuerpo, que reclama y obtiene el
+derecho de presencia, se nihiliza, se convierte en una nada           A. La unidad deportiva
+ambulante e inestable. Esa masa corpórea lleva consigo to-            B. El parque
+das sus propiedades, tanto las que proclama como las que              C. La calle
+oculta, tanto las reales como las simuladas, las de su infamia        D. La feria artesanal
+y las que le ensalzan; y con respecto a todas esas propieda-        55. Del texto puede inferirse que el sujeto del espacio
+des lo que pide es que no se tengan en cuenta, que se                   público es:
+olviden tanto unas como otras, puesto que el espacio en que
+ha irrumpido es anterior y ajeno a todo esquema fijado, a              A.   Amorfo
+todo lugar, a todo orden establecido.                                  B.   Incoherente
+                                                                       C.   Impostor
+48. De acuerdo con el texto, una sociedad cristalizada es:             D.   Amnésico
+
+   A.   Delimitada                                                  56. Biótico, en el texto, se refiere a lo:
+   B.   Configurada                                                    A.   Vital
+   C.   Dura                                                           B.   Biológico
+   D.   Transparente                                                   C.   Orgánico
+                                                                       D.   Somático
+49. En el seno del espacio público:
+                                                                    57. Cuando el texto alude a las “condiciones democráticas”
+   A.   Se forman muchas sociedades                                      que deben presidir el espacio público, está insinuando
+   B.   Conviven muchas sociedades                                       premisas de corte:
+   C.   Se identifican plenamente varias sociedades
+   D.   Se destruyen posibles sociedades                               A.   Político
+                                                                       B.   Sociológico
+50. La expresión “el espacio público no está estructurado ni           C.   Antropológico
+     desestructurado, sino estructurándose”, significa que             D.   Demográfico
+     éste:
+
+   A.   Está en permanente movimiento                               Preguntas del 58 al 68
+   B.   Es el lugar donde una sociedad se dinamiza
+   C.   Es el escenario de confluencia de sociedades                Lo que iba a convertirse en el monumento de un nuevo
+   D.   Allí la sociedad está en un proceso de formación            humanismo y del racionalismo triunfante, la Enciclopedia,
+                                                                    nació de la idea del editor Le Breton, que se había propuesto
+51. El término enclasamientos se refiere a existencia de            hacer traducir del inglés la Cyclopaedia de Efraim Chambers,
+     diferentes:                                                    publicada en Londres en 1728. Para llevar a cabo esta tarea,
+                                                                                                                                    9
+Le Breton se dirigió a Diderot. Éste, sin embargo, no quiso          D.   Diderot
+limitarse a una simple traducción y concibió el proyecto de
+una obra original que constituyese la suma de todos los            61. La época durante la cual se concibió la Enciclopedia
+conocimientos de la época expuestos a la luz de la razón,              estaba marcada por el:
+supremo juez de todas las creencias humanas (la
+Enciclopedia tendría este aclarativo subtítulo: Diccionario          A.   Modernismo
+razonado de la ciencias, de las artes y de los oficios).             B.   Humanismo
+Ni que decir tiene que, para poder realizar una obra de tal          C.   Racionalismo
+envergadura, Diderot tuvo que rodearse de colaboradores              D.   Romanticismo
+especializados. Llamó al matemático D`Alembert, quien
+redactó el Discurso preliminar y artículos referentes a las
+                                                                   62. Los conocimientos de la época del enciclopedismo:
+ciencias.     Montesquieu y Voltaire se ocuparon de la
+literatura, Buffon de las ciencias naturales, Rousseau de la
+                                                                     A.   Se fundamentan en la razón
+música (había compuesto una pastora, El adivino del pueblo,
+                                                                     B.   Denigran de la razón
+que obtuvo un gran éxito en la Ópera de París y ante la
+                                                                     C.   Son más filosóficos que científicos
+corte) y Turgot, el futuro ministro de finanzas de Luis XVI, de
+                                                                     D.   Son matemáticos
+la economía política.
+En el Prospectus que anunciaba, en octubre de 1750, la
+publicación de la Enciclopedia, Diderot definía así la finalidad   63. La magnitud de tal empresa exigió a Diderot:
+de la obra: “El objetivo de una enciclopedia es reunir los
+conocimientos esparcidos sobre la superficie de la tierra,           A.   Mucho tiempo y gran inversión
+exponer su sistema general a los hombres con quienes                 B.   Aportar todo su conocimiento
+vivimos… a fin de que nuestros descendientes, haciéndose             C.   Trabajar con colaboradores especializados
+más instruidos, sean así mismo más virtuosos y más felices”.         D.   Resumir su pensamiento filosófico
+El primer volumen apareció el 1.º de julio de 1741, precedido
+de un Discurso preliminar, en el que D`Alembert mostraba el        64. La finalidad de la Enciclopedia según Diderot era:
+encadenamiento de los conocimientos en función de la
+memoria, de la imaginación, de la razón, y en el que                 A.   Comprender a todos los hombres con quienes se
+esbozaba la historia del progreso del espíritu humano.                    vive
+De 1751 a 1765 iban a aparecer 17 volúmenes, completados             B.   Trasmitir los conocimientos a las generaciones
+luego por 11 volúmenes de láminas consagradas a los                       futuras
+instrumentos y a las máquinas de los diferentes oficios;             C.   Que los descendientes sean más instruidos
+estas láminas constituyen un testimonio más del interés que          D.   Que los descendientes sean más virtuosos y más
+entonces mostraban las personas cultivadas por la ciencia y               felices
+por las técnicas.
+                                                                   65. El tema del texto es:
+58. El título que mejor se acomoda al texto es:
+                                                                     A.   El nacimiento de la enciclopedia
+   A.   La explicación de la enciclopedia                            B.   La importancia de la enciclopedia           para   la
+   B.   El nacimiento de la enciclopedia                                  humanidad
+   C.   El creador de la enciclopedia                                C.   El creador de la enciclopedia
+   D.   El contenido de la enciclopedia                              D.   Los contenidos de la enciclopedia
+
+59. Diderot quiso que:                                             66. Los colaboradores especializados de la Enciclopedia en
+                                                                       su orden son:
+   A.   El proyecto comprendiera el conocimiento de la
+        época
+   B.   Se tradujera del inglés la obra de Chambers
+   C.   El proyecto recogiera el conocimiento expandido              A.   Rousseau, Voltaire, Buffon, D`Alembert, Turgot,
+        por el mundo                                                      Montesquieu
+   D.   Se hiciera simplemente un diccionario                        B.   D`Alembert,      Montesquieu,    Turgot,    Buffon,
+                                                                          Rousseau, Voltaire
+60. El demostrativo éste, en el primer párrafo se refiera a:         C.   D`Alembert,     Montesquieu,    Voltaire,   Buffon,
+                                                                          Rousseau, Turgot
+   A.   Chambers                                                     D.   Buffon, Voltaire, D`Alembert, Montesquieu, Turgot, ,
+   B.   Le Breton                                                         Rousseau
+   C.   El autor
+                                                                                                                                  10
+67. El término esparcidos significa en el texto:                    C.   Utilizó sus poderes adivinatorios para encontrar la
+                                                                         casa
+   A.    Difundidos                                                 D.   Buscó la dirección del hombre en el directorio
+   B.    Arrojados
+   C.    Expandidos                                              72. La seguridad manifestada por la adivina en lo que le
+   D.    Extendidos                                                  dice al hombre significa
+                                                                                  Credencial   que ella:
+                                                                                             45002
+
+68. Diderot pensaba que el hombre instruido era más:                A.   Planea robarle las llaves e ingresar a su casa “esta
+                                                                         noche”
+   A.    Memorístico e imaginativo                                  B.   Confía en sus poderes adivinatorios y sabe lo que
+   B.    Progresista y humano                                            pasará
+   C.    Financista y político                                      C.   Es una adivina jactanciosa
+   D.    Prudente y alegre                                          D.   Sabe todo lo que pasa en la noche
+
+                                                                 73. Cuando se dice que “el amor toca a la puerta”, se
+Preguntas del 69 al 80                                               pretende decir que:
+
+“Esta noche, después de tantos años de búsqueda, te                 A.   Muchas personas tocan las puertas de otros
+sorprenderá el amor” aseguró la adivina.                                 buscando el amor
+“¿Esta noche?” preguntó el hombre, incrédulo.                       B.   Las personas se enamoran en las puertas
+“Sí, esta noche” sentenció ella mirando de nuevo las cartas.        C.   No hay que salir a buscar el amor: él llega sin
+Ansioso, casi desesperado, el hombre se lanzó a las calles de            buscarlo
+su ciudad con la frente en alto a fin de ser reconocido desde       D.   Tocando las puertas de otros, se puede encontrar el
+lejos por el amor. Una y otra vez se paseó por aquellos sitios           amor
+donde su imaginación se anticipaba al encuentro, pero la
+verdad es que nada ocurrió. Al fin, con la frente abatida,       74. El hombre se sorprendió porque:
+regresó a su casa.
+Al llegar, se vio sorprendido porque no tenía las llaves            A.   La adivina tardó mucho con sus llaves
+consigo y la puerta estaba abierta. Su corazón latió con            B.   La adivina era muy fea
+prisa.                                                              C.   No encontraba sus llaves
+¿Cómo? –preguntó con torpeza–. ¿Tú aquí?                            D.   No esperaba ver a la adivina
+“Sí dijo la adivina, olvidaste las llaves por salir
+apresuradamente a buscarme.”                                     75. El corolario del texto se puede comparar con:
+
+69. El término incrédulo, según el texto es:                        A.   Cada cosa a su debido tiempo
+                                                                    B.   A buen entendedor, pocas palabras
+   A.    Confiado                                                   C.   Cuando el río suena, piedras lleva
+   B.    Alegre                                                     D.   A grandes males, grandes remedios
+   C.    Desconfiado
+   D.    Triste                                                  76. Un título adecuado al anterior relato sería:
+
+70. El ánimo del hombre presenta, en su orden, la siguiente         A.   El presagio
+     secuencia:                                                     B.   La sorpresa
+                                                                    C.   La adivina
+    A.   Incredulidad, ansiedad,    abatimiento, sorpresa,          D.   Hombre desesperado
+         torpeza
+    B.   Incredulidad, ansiedad, torpeza, abatimiento,
+         sorpresa
+    C.   Abatimiento,    ansiedad,    torpeza,   sorpresa,
+         incredulidad
+    D.   Ansiedad,    incredulidad,   torpeza,   sorpresa,
+         abatimiento
+
+71. Del texto se desprende que la adivina:
+
+    A.   Sabía dónde vivía el hombre
+    B.   Preguntó la dirección del hombre a otro adivino
+
+                                                                                                                                11
+77. El hecho de que el hombre haya salido inmediatamente
+    a buscar el amor, significa que:
+
+   A.    No sabía que estaba de día
+   B.    Estaba de noche y quería seguir la indicación de la
+         adivina
+   C.    No escuchó adecuadamente a la adivina
+   D.    Estaba completamente desesperado
+
+78. Del texto se infiere que la adivina estaba en la casa del
+    hombre porque era:
+
+   A.    Adivina
+   B.    El amor de su vida
+   C.    Su esposa
+   D.    Una ladrona
+
+79. La   expresión “olvidaste las        llaves   por   salir
+    apresuradamente a buscarme”:
+
+   A.    Implica que la adivina es el amor de su vida
+   B.    Se trata de una verdad evidente
+   C.    Es una exageración que la adivina sea el amor de su
+         vida
+   D.    Es una repetición que cierra el relato
+
+80. Que la adivina sea el amor del consultante, se constata
+    en la siguiente frase:
+
+   A.    Esta noche, después de tantos años de búsqueda, te
+         sorprenderá el amor
+   B.    Olvidaste las llaves por salir apresuradamente a
+         buscarme
+   C.    Sí, esta noche
+   D.    ¿Tú aquí?
+
+
+                                                                12

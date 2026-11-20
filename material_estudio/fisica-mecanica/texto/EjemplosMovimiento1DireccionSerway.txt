@@ -1,0 +1,1055 @@
+CAPÍTULO 1 | Introducción
+
+
+   ■ EJEMPLO 1.1            Análisis de una ecuación
+OB JET I VO Verificar una ecuación aplicando análisis dimensional.
+PROBLEMA Demostrar que la expresión v 5 v 0 1 at es dimensionalmente correcta, donde v y v 0 representan velocidades,
+a es la aceleración y t es un intervalo de tiempo.
+ESTR ATEGI A Analice cada término, encontrando sus dimensiones y después verifique si todos los términos coinciden
+entre sí.
+
+SOLUCIÓN
+                                                                3v 4 5 3v0 4 5
+                                                                                   L
+Halle las dimensiones para v y v 0.
+                                                                                   T
+
+                                                                3 at 4 5 3 a 4 3 t 4 5      1T2 5
+                                                                                         L        L
+Halle las dimensiones de at.
+                                                                                         T2       T
+
+
+COMENTAR IOS Todos los términos coinciden, por eso la ecuación es dimensionalmente correcta.
+PREGUNTA 1.1 Verdadero o Falso: Una ecuación que es dimensionalmente correcta siempre es físicamente correcta, con
+una constante de proporcionalidad.
+E JERCICIO 1.1 Determine si la ecuación x 5 vt 2 en cuanto a dimensiones es correcta. De no ser así, proporcione una
+expresión correcta, con una constante global de proporcionalidad.
+RESPUESTA Incorrecta. La expresión x 5 vt es dimensionalmente correcta.
+
+
+   ■ EJEMPLO 1.2            Hallar una ecuación
+OB JET I VO Deducir una ecuación mediante la aplicación del análisis dimensional.
+PROBLEMA Encontrar una correspondencia entre una aceleración constante a, rapidez v y distancia r desde el origen para
+una partícula cuyo recorrido es una circunferencia.
+ESTR ATEGI A Inicie con el término que tiene la mayor parte de las dimensiones, a. Hallar sus dimensiones y después rescriba
+aquéllas en términos de las dimensiones de v y r. La de tiempo tendrá que ser eliminada con v, porque ésta es la única canti-
+dad (otra, es a misma) en que aparece la dimensión de tiempo.
+
+SOLUCIÓN
+                                                                3a 4 5
+                                                                         L
+Escriba las dimensiones de a:
+                                                                         T2
+
+                                                                3v 4 5
+                                                                         L                     L
+                                                                                   S     T5
+                                                                                              3v 4
+Resuelva las dimensiones de la rapidez para T:
+                                                                         T
+                                                                                               3 v 42
+                                                                3a 4 5
+                                                                         L        L
+                                                                            5                5
+                                                                              1 L/ 3 v 4 2 2
+Sustituya la expresión para T dentro de la ecuación
+                                                                         T2                      L
+para [a]:
+                                                                          3 v 42
+                                                                3a 4 5
+                                                                                                     v2
+                                                                                         :    a5
+                                                                            3r 4
+Sustituyendo L = [r] e intuyendo en la ecuación:
+                                                                                                     r
+                                                                   1.4 | Incertidumbre en la medición y cifras signiﬁcativas
+
+
+   ■ EJEMPLO 1.3             Instalación de una alfombra
+OB JET I VO Aplicar las reglas para cifras significativas.
+PROBLEMA Varios instaladores de alfombras realizan mediciones para la instalación de alfombras en las diferentes salas
+de un restaurante, informando de sus medidas con una precisión inconsistente, resumidas en la tabla 1.6. Calcular las áreas de
+a) el salón de banquetes, b) la sala de reuniones y c) el comedor, teniendo en cuenta las cifras significativas. d) ¿Qué superfi-
+cie total de alfombra se requiere para estas habitaciones?
+
+Tabla 1.6 Dimensiones de habitaciones disponibles
+          en el ejemplo 1.3
+                             Largo (m)        Ancho (m)
+Salón de banquetes             14.71            7.46
+Sala de reuniones              4.822             5.1
+Comedor                         13.8              9
+
+ESTR ATEGI A Para los problemas de multiplicación de los incisos a)-c), cuente las cifras significativas en cada número. El
+resultado más pequeño es el número de cifras significativas en la respuesta. El inciso d) requiere una suma, donde la posi-
+ción decimal con la precisión menor conocida para el área determina el número total de cifras significativas en la respuesta.
+
+SOLUCIÓN
+a) Calcule el área del salón de banquetes.
+Cuente las cifras significativas:                                 14.71 m   S    4 cifras significativas
+                                                                   7.46 m S      3 cifras significativas
+Para hallar el área, multiplique los números, manteniendo         14.71 m 3 7.46 m 5 109.74 m2      S       1.10 3 102 m2
+únicamente tres dígitos:
+b) Calcule el área de la sala de reuniones.
+Cuente las cifras significativas:                                 4.822 m    S   4 cifras significativas
+                                                                    5.1 m S      2 cifras significativas
+Para hallar el área, multiplique los números, manteniendo         4.822 m 3 5.1 m 5 24.59 m2      S        25 m2
+únicamente dos dígitos:
+c) Calcule el área del comedor.
+Cuente las cifras significativas:                                 13.8 m    S 3 cifras significativas
+                                                                     9m     S 1 cifra significativa
+Para hallar el área, multiplique los números, manteniendo         13.8 m 3 9 m 5 124.2 m2 S           100 m2
+únicamente un dígito:
+                                                                                                                       (continúa)
+10    CAPÍTULO 1 | Introducción
+
+d) Calcule la superficie total requerida de alfombra,
+con el número adecuado de cifras significativas.
+Sume las tres respuestas sin tener en cuenta las cifras           1.10 3 102 m2 1 25 m2 1 100 m2 5 235 m2
+importantes:
+El número menos preciso es de 100 m2, con una cifra signi-        235 m2 S       2 3 102 m2
+ficativa en el lugar decimal de las centenas:
+
+COMENTAR IOS Observe que la respuesta final al inciso d) sólo tiene una cifra significativa, en el lugar de las centenas, lo
+que resulta en una respuesta que tenía que ser redondeada hacia abajo en una parte considerable de su valor total. Esa es la
+consecuencia de tener información insuficiente. El valor de 9 m, sin ningún tipo de información adicional, representa un
+valor cierto que podría estar en cualquier parte del intervalo [8.5 m, 9.5 m), los que se redondean a 9 cuando se mantiene
+un solo dígito.
+PREGUNTA 1. 3 ¿Cómo cambiaría la respuesta final si se proporcionara el ancho como 9.0 m?
+E JERCICIO 1. 3 Un rancho cuenta con dos áreas rectangulares cercadas. La zona A tiene una longitud de 750 m y 125 m
+de ancho y la zona B tiene una longitud de 400 metros y 150 m de ancho. Calcule: a) el área de la zona A, b) el área de la
+zona B y c) el área total, con especial atención a las reglas de las cifras significativas. Supongamos que los ceros a la derecha
+no son significativos.
+RESPUESTAS a) 9.4 3 104 m2 b) 6 3 104 m2 c) 1.5 3 105 m2
+                                                                                      1.5 | Conversión de unidades    11
+
+
+   ■ EJEMPLO 1.4             Acércate más, amigo
+OB JET I VO Convertir unidades aplicando varios factores de conversión.
+PROBLEMA Si un automóvil está viajando con una rapidez de 28.0 m/s, ¿el conductor está excediendo el límite de veloci-
+dad de 55.0 mi/h?
+ESTR ATEGI A Los metros deben convertirse a millas y los segundos a horas, aplicando los factores de conversión que se
+mencionan en el interior de la cubierta frontal del libro. En este caso, se aplicarán tres factores.
+
+SOLUCIÓN
+                                                             28.0 m/s 5 a28.0     ba         b 5 1.74 3 10 22 mi/s
+                                                                                m 1.00 mi
+Convierta metros a millas:
+                                                                                s    1 609 m
+
+
+                                                          1.74 3 1022 mi/s 5 a1.74 3 1022      b a60.0     b a60.0     b
+                                                                                            mi          s          min
+Convierta segundos a horas:
+                                                                                            s          min          h
+                                                                            5 62.6 mi/h
+
+COMENTAR IOS El conductor debe disminuir su velocidad porque está excediendo el límite de velocidad.
+PREGUNTA 1.4 Repita la conversión, aplicando la relación 1.00 m/s 5 2.24 mi/h. ¿Por qué la respuesta es ligeramente
+diferente?
+E JERCICIO 1.4 Convierta 152 mi/h a m/s.
+RESPUESTA 67.9 m/s
+
+
+   ■ EJEMPLO 1.5             Acelera a fondo
+OB JET I VO Convertir una cantidad con potencias de una unidad.
+PROBLEMA La luz del semáforo cambia a verde y el conductor de un automóvil de alto rendimiento pisa el acelerador
+hasta el fondo. El acelerómetro registra 22.0 m/s2. Convierta esta lectura a km/minuto2.
+ESTR ATEGI A En este caso se requiere un factor para convertir metros a kilómetros y otros dos factores para convertir
+segundos cuadrados a minutos cuadrados.
+
+SOLUCIÓN
+                                                                                   60.0 s 2
+                                                                   2a           ba        b 5
+                                                             22.0 m    1.00 km                               km
+Multiplique por los tres factores:                                                                    79.2
+                                                             1.00 s 1.00 3 10 m 1.00 min
+                                                                              3
+                                                                                                             min2
+
+
+COMENTAR IOS Observe que en cada factor de conversión el numerador es igual al denominador cuando se consideran
+las unidades. ¡Un error común en relación con la segunda potencia es que se aplica a las unidades dentro del paréntesis
+mientras se olvida hacerlo en los números!
+PREGUNTA 1. 5 ¿Qué factor de conversión adicional para el tiempo se aplicaría para convertir la respuesta a km/h2?
+E JERCICIO 1. 5 Convierta 4.50 3 103 kg/m3 a g/cm3.
+RESPUESTA 4.50 g/cm3
+12     CAPÍTULO 1 | Introducción
+
+
+     ■ EJEMPLO 1.6          Cálculo estimativo de las células del cerebro
+OB JET I VO Desarrollar una estimación simple.
+PROBLEMA Calcule el número de células en el cerebro             Las células del cerebro, constituido de casi 10% de neuronas
+humano.                                                         y 90% de no nerviosas, difieren ampliamente en tamaño,
+                                                                con dimensiones fluctuando más o menos desde unas cuan-
+ESTRATEGI A Estime el volumen de un cerebro humano y
+                                                                tas micras hasta un metro. Como una suposición, considere
+divida por el volumen estimado de una célula. El cerebro se
+                                                                d = 10 micras como una dimensión representativa y tenga en
+ubica en la parte superior de la cabeza, con un volumen que
+                                                                mente que una célula es un cubo con cada lado que tiene
+podría ser aproximadamente de un cubo de lado , 5 20 cm.
+                                                                esa longitud.
+
+SOLUCIÓN
+Estime el volumen de un cerebro humano:                         Vcerebro 5 ,3 < (0.2 m)3 5 8 3 1023 m3 < 1 3 1022 m3
+
+
+Estime el volumen de una célula:                                Vcélula 5 d 3 < (10 3 1026 m)3 5 1 3 10215 m3
+
+                                                                                  Vcerebro     0.01 m3
+Divida el volumen de un cerebro por                         número de células 5            5              5 1 3 1013 células
+el volumen de una célula:
+                                                                                  Vcélulas   1 3 10215 m3
+
+COMENTARIOS Observe cómo se puso poca atención en obtener valores precisos. Alguna información general sobre un pro-
+blema es necesaria si la estimación está dentro de un orden de magnitud del valor real. Aquí, el conocimiento de las dimensio-
+nes aproximadas de las células del cerebro y el cerebro humanos son esenciales para el desarrollo de la estimación.
+PREGUNTA 1.6 ¿También sería sensato estimar 1012 células? ¿Y con respecto a 10 9 células? Explique.
+E JERCICIO 1.6 Evaluar el número total de células en el cuerpo humano.
+RESPUESTA 1014 (es posible que las respuestas cambien).
+                                                                     1.6 | Cálculos aproximados y de orden de magnitud                                                                   13
+
+  ■ EJEMPLO 1.7             Apilar billetes de un dólar hasta la Luna
+OB JET I VO Calcular el número necesario de objetos apilados para alcanzar una altura determinada.
+PROBLEMA ¿Cuántos billetes de un dólar, apilados uno encima del otro, alcanzarían la Luna?
+ESTR ATEGI A La distancia a la Luna es de casi 400 000 km. Suponga el número de billetes de dólar en un milímetro y
+multiplique la distancia por este número, después convierta a unidades consistentes.
+
+SOLUCIÓN
+                                                                 10 billetes 103 mm 103 m     107 billetes
+Se estima que 10 billetes apilados forman una capa de                       a      ba      b5
+1 mm. Convierta mm a km:                                          1 mm         1m     1 km       1 km
+
+
+                                                   # de billetes de dólar , 1 4 3 105 km 2 a
+                                                                                                                       107 billetes
+Multiplique este valor por la distancia                                                                                            b 5 4 3 1012 billetes
+lunar aproximada:                                                                                                        1 km
+
+COMENTAR IOS Éste es el mismo orden de magnitud que el de la deuda nacional de Estados Unidos.
+PREGUNTA 1.7 Basados en la respuesta, ¿cuántos centavos es necesario apilar para alcanzar la Luna?
+E JERCICIO 1.7 ¿Cuántas piezas de cartulina, como las que encontramos en un block de papel, tendrían que apilarse una
+sobre otra, para igualar la altura del monumento a Washington que es de 170 m aproximadamente?
+RESPUESTA , 105 (las respuestas pueden variar).
+
+
+  ■ EJEMPLO 1.8             Número de galaxias en el Universo
+OB JET I VO Calcular un volumen y una densidad numérica y combine.
+
+
+                                                                                                NASA, ESA, S. Beckwith (STScI) y el HUDF Team
+PROBLEMA Teniendo en cuenta que los astrónomos pueden reconocer casi 10 mil
+millones de años luz en el espacio y que existen 14 galaxias en nuestro grupo local, a
+2 millones de años luz del grupo local próximo, estime el número de galaxias en el Uni-
+verso observable. (Nota: Un año luz es la distancia recorrida por la luz en un año, casi
+9.5 3 1015 m.) (Véase la figura 1.3.)
+ESTR ATEGI A A partir de la información conocida, se puede estimar el número de
+galaxias por cada unidad de volumen. El grupo local de 14 galaxias está contenido en
+una esfera de un millón de años luz de radio, con el grupo Andrómeda en una esfera
+similar, de este modo existen casi 10 galaxias dentro de un volumen de radio de un
+millón de años luz. Multiplique esta densidad numérica por el volumen del Universo                                                              Figura 1.3 En esta fotografía
+observable.                                                                                                                                     interestelar, existen pocas estrellas
+                                                                                                                                                (sólo galaxias sin fin).
+
+SOLUCIÓN
+Calcule el volumen aproximado V lg del grupo local (lg)         Vlg 5 43pr 3 , 106 al 3 5 1018 al 3
+de galaxias:
+                                                                                              # de galaxias
+Estime la densidad de galaxias:                                 densidad de galaxias 5
+                                                                                                                                                V lg
+                                                                                              10 galaxias                                                                galaxias
+                                                                                          ,                                                                  5 10217
+                                                                                                1018 al 3                                                                  al 3
+
+Calcule el volumen aproximado del Universo observable:          Vu 5 43pr 3 , 1 1010 al 2 3 5 1030 al 3
+
+
+Multiplique la densidad de galaxias por Vu:                     # de galaxias , (densidad de galaxias) Vu
+
+                                                                                                                                                       b 1 1030 al 3 2
+                                                                                            galaxias
+                                                                                5 a10217
+                                                                                                al 3
+                                                                                5 1013 galaxias
+
+                                                                                                                                                                                  (continúa)
+14    CAPÍTULO 1 | Introducción
+
+COMENTAR IOS Observe la naturaleza aproximada de los              PREGUNTA 1.8 De las 10 galaxias en el grupo local, sólo
+cálculos, que aplica 4p/3 , 1 en dos ocasiones y 14 , 10 por el   una no es galaxia enana. Estime el número de galaxias en el
+número de galaxias en el grupo local. Esto se justifica por       Universo que no son enanas.
+completo. Aplicar los números verdaderos no tiene sentido,
+                                                                  E JERCICIO 1.8 a) Teniendo en cuenta que la estrella más
+porque las otras consideraciones —el tamaño del Universo
+                                                                  cercana está a casi cuatro años luz, determine la densidad
+observable y la idea de que la densidad de galaxia local es
+                                                                  de estrellas por año luz cúbico en nuestra galaxia. b) Estime
+representativa de la densidad en cualquier lugar— también
+                                                                  el número de estrellas en la Vía Láctea, si esta es, de manera
+son aproximaciones muy burdas. Además de eso, nada exis-
+                                                                  burda, un disco de 100 000 años luz horizontalmente y 1000
+tió en el problema que necesitará utilizar volúmenes de esfera,
+                                                                  años luz de espesor.
+en lugar de volúmenes de cubos. A pesar de estas elecciones
+arbitrarias, la respuesta también proporciona información         RESPUESTA a) 0.02 estrellas/al3 b) 2 3 1011 estrellas (Cam-
+veraz, porque elimina muchas de las respuestas posibles.          biarán las estimaciones. Probablemente la respuesta verda-
+Antes de hacer los cálculos, una consideración de mil millo-      dera es el doble de este número.)
+nes de galaxias parecería posible.
+                                                                                                                  1.8 | Trigonometría
+
+
+   ■ EJEMPLO 1.9                  Coordenadas cartesianas y polares
+OBJETIVO Comprender cómo se convierte del plano
+de coordenadas rectangulares al plano de coordenadas                                                                           y (m)
+polares y a la inversa.
+                                                                                                                           u
+PROBLEMA a) Las coordenadas cartesianas de un
+                                                                                                                                          x (m)
+punto en el plano xy son (x, y) 5 (23.50 m, 22.50 m)
+como se muestra en la figura activa 1.7. Hallar las coor-                                                                  r
+                                                                       Figura activa 1.7
+denadas polares de este punto. b) Convierta (r, u) 5                   (Ejemplo 1.9) Conversión de coordenadas   (–3.50, –2.50)
+(5.00 m, 37.0°) a coordenadas rectangulares.                           cartesianas a coordenadas polares.
+
+ESTR ATEGI A Aplique las funciones trigonométricas y sus inversas, junto con el teorema de Pitágoras.
+
+                                                                                                                                       (continúa)
+
+
+2
+  Mucha gente utiliza el nemotécnico SOHCAHTOA para recordar las formulas trigonométricas básicas: Seno 5
+Opuesto/Hipotenusa, Coseno 5 Adyacente/Hipotenusa y Tangente 5 Opuesto/Adyacente. (Agradecimientos
+al profesor Don Chodrow por señalar esto.)
+16     CAPÍTULO 1 | Introducción
+
+SOLUCIÓN
+a) Convierta de cartesiana a polar
+Saque la raíz cuadrada de ambos lados de la ecuación              r 5 "x 2 1 y 2 5 " 23.50 m 2 1 22.50 m 2 5 4.30 m
+1.2 para encontrar la coordenada radial:
+Use la ecuación 1.1 para la función tangente para                           y   22.50 m
+encontrar el ángulo con la tangente inversa, sume 180°            tan u 5     5         5 0.714
+debido a que el ángulo está en realidad en el tercer
+                                                                            x   23.50 m
+cuadrante:                                                        u 5 tan21 0.714 5 35.5° 1 180° 5 216°
+b) Convierta de polar a cartesiana
+Utilice las definiciones trigonométricas, ecuación 1.1.           x 5 r cos u 5 (5.00 m) cos 37.0° 5 3.99 m
+                                                                  y 5 r sen u 5 (5.00 m) sen 37.0° 5 3.01 m
+
+COMENTAR IOS Cuando empezamos con vectores en dos dimensiones en el capítulo 3, por costumbre se utiliza un pro-
+ceso similar para hallar la dirección y magnitud de un vector determinado a partir de sus componentes o bien, a la inversa,
+para hallar los componentes a partir de la magnitud y dirección del vector.
+PREGUNTA 1.9 Inicie con la respuesta del inciso b), trabaje al revés para recuperar el radio y el ángulo determinado. ¿Por
+qué existen ligeras diferencias con respecto a las cantidades originales?
+E JERCICIO 1.9 a) Halle la coordenada polar que corresponde a (x, y) 5 (23.25 m, 1.50 m). b) Hallar la coordenada carte-
+siana correspondiente a (r, u) 5 (4.00 m, 53.0°).
+RESPUESTAS a) (r, u) = (3.58 m, 155º) b) (x, y) 5 (2.41 m, 3.19 m)
+
+
+     ■ EJEMPLO 1.10         ¿Qué tan alto es el edificio?
+OB JET I VO Aplicar resultados básicos de trigonometría.
+PROBLEMA Una persona mide la altura de un edificio al caminar
+una distancia de 46.0 m desde su base y dirige el haz de luz de una
+lámpara hacia la parte superior. Cuando el haz de luz es elevado con
+un ángulo de 39.0° con respecto a la horizontal, como se muestra                               r
+                                                                                                             y
+en la figura 1.8, éste incide justo en la parte superior del edificio.
+a) Si la lámpara se sostiene a una altura de 2.00 m, hallar la altura
+del edificio y b) calcule la longitud del rayo de luz.
+                                                                                       39.0
+ESTR ATEGI A Considere el triángulo rectángulo que muestra la                                  46.0 m
+figura. Se conoce el ángulo, 39.0°, y la longitud del lado adyacente             2.00 m
+a éste. Como la altura del edificio es el lado opuesto al ángulo, pode-
+mos usar la función tangente. Con los lados adyacente y opuesto
+conocidos, en este caso podemos encontrar la hipotenusa con el teo-
+rema de Pitágoras.                                                         Figura 1.8 (Ejemplo 1.10)
+
+SOLUCIÓN
+a) Determine la altura del edificio.
+                                                                                  Dy
+Aplique la tangente del ángulo conocido:                          tan 39.0° 5
+                                                                                46.0 m
+Despejando la altura:                                             Dy 5 (tan 39.0°)(46.0 m) 5 (0.810)(46.0 m) 5 37.3 m
+Sume 2.00 m a )y para obtener la altura:                          Altura 5 39.3 m
+
+b) Calcule la longitud del rayo de luz.
+Utilice el teorema de Pitágoras:                                  r5      x 2 1 y2 5      37.3 m 2 1 46.0 m 2 5 59.2 m
+
+COMENTAR IOS En un capítulo posterior, con frecuencia se aplica la trigonometría del triángulo rectángulo al trabajar
+con vectores.
+PREGUNTA 1.10 ¿Cómo podría encontrarse la distancia recorrida por el haz de luz sin aplicar el teorema de Pitágoras?
+      CAPÍTULO 1 | Introducción
+
+
+  ■ EJEMPLO 1.11           Viaje redondo por aire
+OB JET I VO Explicar la estrategia de solución de problemas.                                      N
+
+PROBLEMA Un avión viaja x 5 4.50 3 102 km al este y después recorre una distancia des-       O          E
+conocida al norte. Por último, regresa a su punto de partida recorriendo una distancia de         S
+r 5 525 km. ¿Qué distancia viajó el avión en su dirección al norte?                                         r
+                                                                                                                           y
+ESTR ATEGI A Al finalizar la lectura del problema (etapa 1), se traza un diagrama (etapa
+2) en la figura 1.10 y se etiqueta (etapa 3). Según el diagrama, se reconoce un triángulo
+rectángulo y se identifica el principio involucrado (etapa 4): el teorema de Pitágoras. El                      x
+lado y es la cantidad desconocida y se conocen los otros lados.                              Figura 1.10 (Ejemplo 1.11)
+
+SOLUCIÓN
+Escriba el teorema de Pitágoras (etapa 5):                     r 2 5 x2 1 y2
+
+
+Resuelva simbólicamente para y (etapa 6):                      y2 5 r 2 2 x 2   S   y51      r 2 2 x2
+
+
+Sustituya los números, con unidades (etapa 7):                 y5       525 km 2 2 4.50 3 102 km 2 5 2.70 3 102 km
+
+
+COMENTAR IOS Observe que la solución negativa ha sido omitida, porque no es físicamente significativa. Al comprobar
+(etapa 8), observe que las unidades son correctas y que se puede obtener una respuesta aproximada utilizando las cantida-
+des con facilidad, 500 km y 400 km. Realizado de este modo, se tiene una respuesta de 300 km, que es aproximadamente la
+misma que la calculada de 270 km.
+PREGUNTA 1.11 ¿Cuál es la respuesta si tanto la distancia recorrida hacia el este y la distancia de regreso se duplican?
+E JERCICIO 1.11 Un avión vuela 345 km al sur, después regresa y vuela 615 km al noreste, hasta que se encuentra al este
+de su punto de partida. Si ahora el avión regresa y se dirige a casa, ¿qué distancia viajó?
+RESPUESTA 509 km
+28      CAPÍTULO 2 | Movimiento en una dimensión
+
+
+     ■ EJEMPLO 2.1               La tortuga y la liebre
+OB JET I VO Aplicar el concepto de rapidez promedio.
+PROBLEMA Una tortuga y una liebre se enzarzan en una carrera para una distancia de 4.00 km. La liebre corre 0.500 km
+y después se detiene a dormir 90.0 min. Al despertar, recuerda la carrera y corre dos veces más rápido. Finalizando el reco-
+rrido en un tiempo total de 1.75 h, la liebre gana la carrera. a) Calcule la rapidez promedio de la liebre. b) ¿Cuál fue su rapi-
+dez promedio antes de detenerse para una siesta? Suponga que no tomó desviaciones o retornos.
+
+                                         www.elsolucionario.org
+ESTR ATEGI A Determinar la rapidez promedio total en el inciso a) es cuestión de sólo dividir la distancia total entre el
+tiempo total. La solución del inciso b) necesita dos ecuaciones y dos incógnitas; el último producto son las dos diferentes
+velocidades promedio: v1 antes y v 2 después de la siesta. Una ecuación se conoce en el enunciado del problema (v 2 5 2v1),
+mientras que la otra surge del hecho de que la liebre corrió sólo 15 minutos porque se durmió 90 minutos.
+
+SOLUCIÓN
+a) Determine la rapidez promedio total de la liebre.
+                                                                                          distancia total       4.00 km
+Aplique la ecuación para rapidez promedio:                         Rapidez promedio ;                       5
+                                                                                           tiempo total          1.75 h
+                                                                                       5 2.29 km/h
+b) Determine la rapidez promedio antes de su siesta.
+Sume los tiempos de carrera y ajuste la suma igual a 0.25 h:       t 1 1 t 2 5 0.250 h
+                                                                            d1   d2
+Sustituya t 1 5 d1/v1 y t 2 5 d 2/v 2:                             (1)         1    5 0.250 h
+                                                                            v1   v2
+                                                                         0.500 km   3.50 km
+Sustituya v 2 5 2v1 y los valores de d1 y d 2 en la ecuación(1):   (2)            1         5 0.250 h
+                                                                             v1        2v1
+
+Resuelva la ecuación (2) para v1:                                  v1 5 9.00 km/h
+
+COMENTAR IOS Como se ve en este ejemplo, la rapidez promedio puede ser calculada independientemente de cualquier
+variación en la rapidez en todo el intervalo de tiempo dado.
+PREGUNTA 2.1 Al duplicar la rapidez promedio de un objeto, ¿se duplica siempre la magnitud de su desplazamiento en
+una cantidad determinada de tiempo? Explique.
+E JERCICIO 2.1 Estime la rapidez promedio de la nave espacial Apolo en metros por segundo, dado que la nave tarda cinco
+días en llegar a la Luna desde la Tierra. (La Luna está a 3.8 3 108 m de la Tierra.)
+RESPUESTA , 900 m/s
+32     CAPÍTULO 2 | Movimiento en una dimensión
+
+
+     ■ EJEMPLO 2.2          Movimiento lento de un tren
+OB JET I VO Obtener velocidades instantáneas y promedio a par-         x (m)                                 x (m)               
+tir de una gráfica.                                                    10                                     10
+                                                                        8                                      8
+PROBLEMA Un tren se mueve lentamente a lo largo de un
+                                                                        6                                     6
+tramo recto de vía de acuerdo con la gráfica de posición con                               
+tiempo en la figura 2.7a. Determine a) la velocidad promedio para       4                                     4
+                                                                                                                          
+el viaje completo, b) la velocidad promedio para los primeros 4.00      2                                     2
+                                                                                                                                       
+s de movimiento, c) la velocidad promedio durante los próximos                                        t (s)                                 t (s)
+                                                                                2   4   6   8 10 12                   2   4   6   8 10 12
+4.00 s de movimiento, d) la velocidad instantánea en t = 2.00 s y
+e) la velocidad instantánea en t 5 9.00 s.                                  a                                     b
+
+ESTR ATEGI A Las velocidades promedio pueden ser obtenidas             Figura 2.7 a) Ejemplo 2.2 b) Ejercicio 2.2
+sustituyendo la información dentro de la definición. La velocidad instantánea en t 5 2.00 s es la misma que la velocidad
+promedio en ese punto porque la gráfica posición vs. tiempo es una línea recta, indicando velocidad constante. Para deter-
+minar la velocidad instantánea cuando t 5 9.00 s necesita dibujar una recta tangente a la curva en ese punto y encontrar su
+pendiente.
+
+SOLUCIÓN
+a) Determine la velocidad promedio desde       hasta .
+                                                                      Dx   10.0 m
+Calcule la pendiente de la recta azul discontinua:               v5      5        5 10.833 m/s
+                                                                      Dt   12.0 s
+b) Determine la velocidad promedio durante los primeros
+4 segundos del movimiento del tren.
+                                                                      Dx   4.00 m
+Una vez más, determine la pendiente:                             v5      5        5 11.00 m/s
+                                                                      Dt   4.00 s
+c) Determine la velocidad promedio durante los siguientes
+4 segundos.
+                                                                      Dx    0m
+En este caso, no existe cambio en la posición de  a ,          v5      5        5 0 m/s
+                                                                      Dt   4.00 s
+de tal modo que el desplazamiento )x es cero:
+d) Determine la velocidad instantánea en t 5 2.00 s.
+Ésta es la misma que la velocidad promedio que se encontró       v 5 1.00 m/s
+en el inciso b), porque la gráfica es una línea recta:
+e) Determine la velocidad instantánea en t 5 9.00 s.
+                                                                      Dx   4.5 m 2 0 m
+La recta tangente se presenta al cruzar el eje x en (3.0 s,      v5      5               5 0.75 m/s
+                                                                      Dt   9.0 s 2 3.0 s
+0 m) y roza la curva en (9.0 s, 4.5 m). La velocidad instantá-
+nea en t 5 9.00 s es igual a la pendiente de la línea tangente
+a través de estos puntos.
+
+COMENTAR IOS Desde el origen hasta , el tren se mueve con rapidez constante en la dirección x positiva para los prime-
+ros 4.00 s, porque la curva posición vs. tiempo se eleva fijamente hacia valores positivos. Desde  hasta , el tren se detiene
+en x 5 4.00 m por 4.00 s. De  a , el tren viaja aumentando su rapidez en la dirección x positiva.
+PREGUNTA 2. 2 ¿Tendría sentido una recta vertical en una gráfica de posición, en términos del tiempo? Explique.
+E JERCICIO 2. 2 La figura 2.7b muestra la gráfica de otra corrida del tren. Determine a) la velocidad promedio desde
+   hasta , b) las velocidades instantánea y promedio desde      hasta , c) la velocidad instantánea aproximada en t 5 6.0 s,
+y d) la velocidad instantánea y promedio en t 5 9.0 s.
+RESPUESTAS a) 0 m/s b) ambas son 10.5 m/s c) 2 m/s d) ambas son 22.5 m/s
+                                                                                                             2.4 | Diagramas de movimiento               35
+
+       ■ EJEMPLO 2.3             Atrapando una pelota en vuelo
+    OBJETIVO Aplicar la definición de aceleración instantánea.             v (m/s)                                      v (m/s)
+
+    PROBLEMA Un jugador de béisbol se mueve en una trayectoria
+                                                                               4
+                                                                                                                        4
+    en línea recta con la finalidad de atrapar una pelota en vuelo gol-                                                                          
+    peada hacia los jardines. Su velocidad como función del tiempo             3                                        3
+    se muestra en la figura 2.11a. Encuentre la aceleración instantá-          2                                        2
+    nea en los puntos ,  y .                                                                                                      
+                                                                               1                                         1
+    ESTRATEGI A En cada punto, la gráfica velocidad vs. tiempo
+    es un segmento de línea recta, de tal manera que la aceleración                                             t (s)                                   t (s)
+                                                                               O     1   2       3       4              O         1   2     3     4
+    instantánea será la pendiente de ese segmento. Seleccione dos
+                                                                               a                                         b
+    puntos en cada segmento y utilícelos para calcular la pendiente.
+                                                                           Figura 2.11 a) (Ejemplo 2.3) b) (Ejercicio 2.3)
+
+    SOLUCIÓN
+    Aceleración en .
+                                                                               Dv   4.0 m/s 2 0
+    La aceleración en  es igual a la pendiente de la recta que           a5      5             5 12.0 m/s2
+    une los puntos (0 s, 0 m/s) y (2.0 s, 4.0 m/s):                            Dt     2.0 s 2 0
+
+    Aceleración en .
+                                                                               Dv   4.0 m/s 2 4.0 m/s
+    )v 5 0, debido a que el segmento es horizontal:                       a5      5                   5 0 m/s2
+                                                                               Dt       3.0 s 2 2.0 s
+    Aceleración en .
+                                                                               Dv   2.0 m/s 2 4.0 m/s
+    La aceleración en  es igual a la pendiente de la recta que           a5      5                   5 22.0 m/s2
+                                                                               Dt       4.0 s 2 3.0 s
+    une los puntos (3.0 s, 4.0 m/s) y (4.0 s, 2.0 m/s):
+
+    COMENTARIOS Considere que el jugador se mueve desde el inicio en la dirección x positiva. Para los primeros 2.0 s, el juga-
+    dor se mueve en la dirección x positiva (la velocidad es positiva) y acelera constantemente (la curva se eleva sin parar) hasta
+    una rapidez máxima de 4.0 m/s. El jugador se mueve por 1.0 s con una rapidez estable de 4.0 m/s y después disminuye su velo-
+    cidad en el último segundo (la curva v vs. t está cayendo), aún se mueve en la dirección x positiva (v siempre es positiva).
+    PREGUNTA 2. 3 ¿Alguna vez puede ser vertical la recta tangente a una gráfica de velocidad vs. tiempo? Explique.
+    E JERCICIO 2. 3 Repita el problema, utilizando la figura 2.11b.
+    RESPUESTA Las aceleraciones en ,  y  son 23.0 m/s2, 1.0 m/s2 y 0 m/s2, respectivamente.
+
+
+  ■ EJEMPLO 2.4             Las 500 millas de Daytona
+OB JET I VO Aplicar las ecuaciones básicas de cinemática.
+                                                                                                              v0 = 0                        v=?
+PROBLEMA a) Un automóvil de carreras acelera desde el reposo a razón constante de
+5.00 m/s . ¿Cuál es la velocidad del automóvil después de que ha recorrido 1.00 3 10
+        2                                                                                            2
+
+pies? b) ¿Cuánto tiempo ha transcurrido? c) Calcule la velocidad promedio de dos mane-
+ras diferentes.
+                                                                                                              x=0                         x = 30.5 m
+ESTR ATEGI A a) Debemos leer el problema, dibujar el diagrama como en la figura 2.16                                                               +x
+y seleccionar un sistema de coordenadas (etapas 1 y 2). Queremos determinar la veloci-
+dad v después de cierto desplazamiento )x conocido. También se conoce la aceleración                          Figura 2.16 (Ejemplo 2.4)
+                                                             2.5 | Movimiento en una dimensión con aceleración constante
+
+a, cuando la velocidad inicial es v 0 (etapa 3, los señalamientos están completos), así que la tercera ecuación en la tabla 2.4 es
+más útil para resolver el inciso a). Conociendo la velocidad, la primera ecuación en la tabla 2.4 se utiliza para determinar el
+tiempo en el inciso b). El inciso c) requiere la sustitución en las ecuaciones 2.2 y 2.7, respectivamente.
+
+SOLUCIÓN
+                                                                   1.00 3 102 pies 5 1 1.00 3 102 pies 2
+                                                                                                                     1m
+a) Convierta las unidades de )x al SI; utilice la                                                                           5 30.5 m
+                                                                                                                  3.28 pies
+información de la cubierta frontal interna del libro.
+Escriba la ecuación cinemática para v 2 (etapa 4):                 v 2 5 v 02 1 2a )x
+Resuelva para v, tome la raíz cuadrada positiva, ya que            v5      v02 1 2a Dx
+el automóvil se mueve hacia la derecha (etapa 5):
+Sustituya v 0 5 0, a 5 5.00 m/s2 y )x 5 30.5 m:                    v5      v02 1 2a Dx 5          1 0 2 2 1 2 1 5.00 m/s2 2 1 30.5 m 2
+                                                                     5 17.5 m/s
+b) ¿Cuánto tiempo ha transcurrido?
+Aplique la primera ecuación de la tabla 2.4:                       v 5 at 1 v 0
+Sustituya valores y resuelva para el tiempo t:                     17.5 m/s 5 (5.00 m/s2)t
+                                                                        17.5 m/s
+                                                                   t5             5 3.50 s
+                                                                        5.00 m/s2
+c) Calcule la velocidad promedio de dos maneras diferentes.
+                                                                        xf 2 xi        30.5 m
+Aplique la definición de velocidad promedio                        v5              5          5     8.71 m/s
+                                                                         tf 2 ti       3.50 s
+en la ecuación 2.2:
+                                                                        v0 1 v   0 1 17.5 m/s
+Aplique la definición de velocidad promedio                        v5          5              5               8.75 m/s
+                                                                           2          2
+en la ecuación 2.7:
+
+COMENTAR IOS Las respuestas son fáciles de verificar. Otra técnica es utilizar )x 5 v 0t 1 12 at 2 para determinar t y después
+emplear la ecuación v 5 v 0 1 at para encontrar v. Tenga en cuenta que las dos ecuaciones distintas para calcular la veloci-
+dad promedio, debido al redondeo, dan respuestas un poco diferentes.
+PREGUNTA 2.4 ¿Cuál es la rapidez final si el desplazamiento se incrementa en un factor de 4?
+E JERCICIO 2.4 Suponga que el conductor en este ejemplo aplica los frenos, deteniendo el automóvil en 4.00 s. Determine
+a) la aceleración y b) la distancia que recorre el automóvil mientras frena, suponiendo que la aceleración es constante y
+encuentre c) la velocidad promedio.
+RESPUESTAS a) 24.38 m/s2 b) 35.0 m c) 8.75 m/s
+
+
+   ■ EJEMPLO 2.5             Persecución de un automóvil
+OB JET I VO Resolver un problema que involucra dos objetos, uno móvil con                    t   1.00 s    t  0                     t  ?
+aceleración constante y el otro con velocidad constante.                                                                                
+PROBLEMA Un automóvil que viaja con una rapidez constante de 24.0 m/s
+pasa un letrero panorámico detrás del cual se encuentra escondido un patru-
+llero, como se muestra en la figura 2.17. Un segundo después de que el auto-
+móvil con exceso de velocidad pasa el letrero, el patrullero inicia la persecu-
+ción con una aceleración constante de 3.00 m/s2. a) ¿Cuánto tiempo le toma al
+patrullero dar alcance al automóvil? b) ¿Qué tan rápido va el patrullero en ese
+momento?                                                                                   Figura 2.17 (Ejemplo 2.5) Un automóvil con
+                                                                                           exceso de velocidad pasa a un patrullero escon-
+ESTR ATEGI A Resuelva este problema que involucra dos ecuaciones cinemá-                   dido. ¿Cuándo alcanzará el patrullero al automóvil?
+ticas simultáneas de posición, una para el patrullero y la otra para el automóvil.
+Elija t 5 0 que corresponde al tiempo en que el patrullero inicia la persecución, cuando el automóvil está en x auto 5 24.0 m
+debido a su inicio anticipado (24.0 m/s 3 1.00 s). El patrullero alcanza al automóvil cuando sus posiciones son las mismas,
+lo que sugiere igualar x patrullero 5 x auto y resolver para el tiempo, lo cual se puede utilizar después para determinar la rapidez
+del patrullero en el inciso b).
+                                                                                                                                   (continúa)
+40     CAPÍTULO 2 | Movimiento en una dimensión
+
+
+SOLUCIÓN
+a) ¿Cuánto tiempo le toma al patrullero dar alcance al
+automóvil?
+Escriba la ecuación para el desplazamiento del automóvil:           Dxauto 5 xauto 2 x 0 5 v0t 1 12a autot 2
+Considere x 0 5 24.0 m, v 0 5 24.0 m/s y a auto 5 0. Resuelva       x auto 5 x 0 1 vt 5 24.0 m 1 (24.0 m/s)t
+para x auto:
+Escriba la ecuación para la posición del patrullero;                xpatrullero 5 12a patrullero t 2 5 12 1 3.00 m/s2 2 t 2 5 1 1.50 m/s2 2 t 2
+considere x 0 5 0, v 0 5 0 y a patrullero 5 3.00 m/s2:
+
+Ajuste x patrullero 5 x auto y resuelva la ecuación cuadrática.     (1.50 m/s2)t 2 5 24.0 m 1 (24.0 m/s)t
+(La fórmula cuadrática aparece en el apéndice A, ecuación           (1.50 m/s2)t 2 2 (24.0 m/s)t 2 24.0 m 5 0
+A.8.) Sólo la raíz positiva tiene significado.
+                                                                                                                    t 5 16.9 s
+b) Determine la rapidez del patrullero en este tiempo.
+Sustituya el tiempo en la ecuación de velocidad del                 v patrullero 5 v 0 1 a patrullero t 5 0 1 (3.00 m/s2)(16.9 s)
+patrullero:
+                                                                                5 50.7 m/s
+
+COMENTAR IOS El patrullero, que viaja casi dos veces más rápido que el automóvil, ¡debe desviarse o aplicar sus frenos
+firmemente para evitar una colisión! Este problema también puede resolverse gráficamente trazando la posición en térmi-
+nos del tiempo para cada vehículo en la misma gráfica. La intersección de las dos gráficas corresponde al tiempo y posición
+en que el patrullero da alcance al automóvil.
+PREGUNTA 2. 5 ¿La solución gráfica corresponde a la búsqueda de la intersección en el plano xt de las dos curvas?
+E JERCICIO 2. 5 Un automovilista con licencia vencida viaja por una calle a 10.0 m/s, y un policía en motocicleta, que
+tarda otros 5.00 s para terminar su dona, se da a la persecución con una aceleración de 2.00 m/s2. Determine a) el tiempo
+necesario para alcanzar al automóvil y b) la distancia que recorre el patrullero mientras da alcance al automovilista.
+RESPUESTAS a) 13.7 s b) 188 m
+
+
+   ■ EJEMPLO 2.6             Longitud de pista
+OB JET I VO Aplicar la cinemática al movimiento horizontal con                   Origen
+dos fases.                                                                                                                              a
+                                                                                       v                                            v
+PROBLEMA Un avión comercial aterriza con una rapidez de                                                                                           +x
+                                                                                  Distancia de                  Distancia de frenado
+1.60 3 102 mi/h y desacelera a razón de (10 mi/h)/s. Si la nave
+                                                                                  deslizamiento
+viaja con rapidez constante de 1.60 3 102 mi/h por 1.00 s des-
+pués de aterrizar y antes de aplicar los frenos, ¿cuál es el despla-                 v0 = 71.5 m/s                v0 = 71.5 m/s
+                                                                                      a=0                         vf = 0
+zamiento total de la nave entre el aterrizaje en la pista y la llegada                t = 1.00 s                  a = –4.47 m/s2
+al reposo?
+                                                                          Figura 2.18 (Ejemplo 2.6) Distancia de deslizamiento y fre-
+ESTR ATEGI A Véase la figura 2.18. Primero, convierta todas               nado para un avión comercial aterrizando.
+las unidades de las cantidades al SI. El problema debe resolverse
+en dos partes, o fases, que corresponden al deslizamiento inicial
+después del aterrizaje, seguido por el frenado. Utilizando las ecuaciones cinemáticas, determinar el desplazamiento durante
+cada parte y sume los dos desplazamientos.
+
+SOLUCIÓN
+                                                                    v0 5 1 1.60 3 102 mi/h 2 a                 b 5 71.5 m/s
+                                                                                                     0.447 m/s
+Convierta las unidades de rapidez y aceleración al SI:
+                                                                                                     1.00 mi/h
+
+                                                                    a 5 1 210.0 1 mi/h 2 /s 2 a                b 5 24.47 m/s2
+                                                                                                     0.447 m/s
+                                                                                                     1.00 mi/h
+
+Tomando a 5 0, v 0 5 71.5 m/s y t 5 1.00 s, determine el            Dxdeslizamiento5 v0t 1 12at2 5 1 71.5 m/s 2 1 1.00 s 2 1 0 5 71.5 m
+desplazamiento mientras la nave se desliza:
+Utilice la ecuación cinemática independiente del tiempo             v 2 5 v 0 5 1 2a)x frenado
+para determinar el desplazamiento mientras el avión frena.
+                                                           2.5 | Movimiento en una dimensión con aceleración constante         41
+
+                                                                                v2 2 v02    0 2 1 71.5 m/s 2 2
+Considere a 5 24.47 m/s2 y v 0 5 71.5 m/s. El signo               Dxfrenado 5            5                     5 572 m
+negativo en a significa que la nave está disminuyendo
+                                                                                   2a      2.00 1 24.47 m/s2 2
+su velocidad.
+Sume los dos resultados para determinar el desplazamiento         )x deslizamiento 1 )x frenado 5 72 m 1 572 m 5 644 m
+total.
+
+COMENTAR IOS Para determinar el desplazamiento mientras frena, se tendría que utilizar las dos ecuaciones cinemáticas
+que involucran al tiempo, a saber, )x 5 v 0t 1 12 at 2 y v 5 v 0 1 at, pero debido a que no estamos interesados en el tiempo, es
+más fácil utilizar la ecuación independiente del tiempo.
+PREGUNTA 2.6 ¿Cómo cambiaría la respuesta si el avión se desliza por 2.00 s antes de que el piloto aplique los frenos?
+E JERCICIO 2.6 Un jet aterriza a 80.0 m/s; el piloto aplica los frenos 2.00 s después de aterrizar. Determine la aceleración
+que se requiere para detener el jet dentro de 5.00 3 102 m.
+RESPUESTA 29.41 m/s2
+
+
+  ■ EJEMPLO 2.7              El Acela: el Porsche de los trenes americanos
+OB JET I VO Determinar las aceleraciones y desplazamien-          de Acela y su desplazamiento en el intervalo desde 200 s hasta
+tos de una gráfica velocidad vs. tiempo.                          300 s. (El tren tiene frenos regenerativos, ¡lo que significa
+                                                                  que se retroalimenta la energía en las líneas de servicio cada
+PROBLEMA El tren eléctrico de alta velocidad conocido
+                                                                  vez que se detiene!) e) Determine el desplazamiento total en
+como el Acela actualmente está en servicio en la ruta Wa-
+                                                                  el intervalo desde 0 hasta 400 segundos.
+shington-Nueva York-Boston. El Acela está formado por dos
+poderosas máquinas y seis vagones que pueden transpor-            ESTR ATEGI A Para el inciso a), recuerde que la pendiente
+tar 304 pasajeros a velocidades superiores a 170 mi/h. Con        de la recta tangente en cualquier punto de la gráfica velo-
+la finalidad de cubrir las curvas de manera cómoda a alta         cidad vs. tiempo proporciona la aceleración en ese tiempo.
+velocidad, los vagones del tren se inclinan 6° con respecto a     Para encontrar el pico de aceleración en el inciso b), exa-
+la vertical, impidiendo que los pasajeros sean empujados          mine la gráfica y localice el punto en el cual la pendiente es
+lateralmente. En la figura 2.19a (página 42) se muestra           más pronunciada. En los incisos c) al e), evalúe el área bajo
+una gráfica de velocidad vs. tiempo. a) Describa el movi-         la curva que proporciona el desplazamiento durante un
+miento del Acela. b) Determine el pico de aceleración del         periodo determinado, con áreas debajo del eje tiempo, como
+Acela en millas por hora por segundo ((mi/h)/s) conforme          en el inciso e), réstelo del total. La aceleración promedio en
+la velocidad del tren aumenta de 45 a 170 mi/h. c) Deter-         el inciso d) se puede obtener al sustituir en la definición de
+mine en millas el desplazamiento del tren entre t 5 0             aceleración promedio los números tomados de la gráfica,
+y t 5 200 s. d) Determine en millas la aceleración promedio       a 5 )v/)t.
+
+SOLUCIÓN
+a) Describa el movimiento.
+Casi a partir de 250 a 50 s, el Acela cruza con una velocidad constante en la dirección 1x. A continuación, el tren sacelera
+en la dirección 1x desde 50 hasta 200 s, logrando una velocidad máxima cercana a 170 mi/h tras lo cual frena hasta el
+reposo en 350 s y regresa, adquiriendo velocidad constantemente en la dirección 2x.
+b) Determine el pico de aceleración.
+                                                                                      Dv   1 1.5 3 102 2 5.0 3 101 2 mi/h
+                                                                  a 5 pendiente 5        5
+                                                                                               1 1.0 3 102 2 5.0 3 101 2 s
+Calcule la pendiente de la recta tangente más pronunciada,
+                                                                                      Dt
+que conecta los puntos (50 s, 50 mi/h) y (100 s, 150 mi/h)
+(la recta azul tenue en la figura 2.19b):                           5 2.0 (mi/h)/s
+
+c) Determine el desplazamiento entre 0 y 200 s.
+Utilizando triángulos y rectángulos y aproxime el área        Dx0 S 200 s 5 área1 1 área2 1 área3 1 área4 1 área5
+de la figura 2.19c (véase la página 42):                                    < (5.0 3 101 mi/h)(5.0 3 101 s)
+                                                                            1 (5.0 3 101 mi/h)(5.0 3 101 s)
+                                                                            1 (1.6 3 102 mi/h)(1.0 3 102 s)
+                                                                            1 12 1 5.0 3 101 s 2 1 1.0 3 102 mi/h 2
+                                                                          1 12 1 1.0 3 102 s 2 1 1.7 3 102 mi/h 2 1.6 3 102 mi/h 2
+                                                                        5 2.4 3 104 (mi/h)s
+                                                                                                                      (continúa)
+42               CAPÍTULO 2 | Movimiento en una dimensión
+
+
+           200                                                                        200
+           150                                                                        150
+           100                                                                        100                      v
+
+
+v (mi/h)                                                                   v (mi/h)
+            50                                                                         50
+             0                                                     t (s)                0               t                                        t (s)
+             –50    0       50       100 150 200 250 300 350 400                        –50    0   50     100 150 200 250 300 350 400
+           –50                                                                        –50
+
+     –100                                                                       –100
+           a                                                                          b
+                                          5
+           200                                                                        200
+           150                                                                        150
+           100                                                                        100
+
+v (mi/h)                                                                   v (mi/h)
+                                 4       3
+            50                                                                         50
+                        1        2              6                                              0   50    100
+             0                                                     t (s)                0                                                         t (s)
+             –50    0       50       100 150 200 250 300 350 400                      –25                       150 200 250 300 350 400
+           –50                                                                        –50
+     –100                                                                       –100
+            c                                                                         d
+
+Figura 2.19 (Ejemplo 2.7) a) Gráfica de velocidad vs. tiempo para el Acela. b) La pendiente de la recta azul tangente más pronunciada
+proporciona el pico de aceleración y la pendiente de la recta verde es la aceleración promedio entre 200 y 300 s. c) El área bajo la gráfica
+velocidad vs. tiempo en algún intervalo de tiempo proporciona el desplazamiento del Acela en ese intervalo de tiempo. d) (Ejercicio 2.7).
+
+
+                                                                                                                    mi # s
+                                                                                                                           a         b 5 6.7 mi
+                                                                                                                               1h
+Convierta las unidades a millas al convertir horas a                                   Dx0 S 200 s < 2.4 3 104
+segundos:                                                                                                            h       3 600 s
+
+d) Determine la aceleración promedio desde 200 hasta
+300 s y el desplazamiento.
+                                                                                                               Dv   1 1.0 3 101 2 1.7 3 102 2 mi/h
+La pendiente de la recta verde es la aceleración                                       a 5 pendiente 5            5
+                                                                                                               Dt             1.0 3 102 s
+promedio desde 200 hasta 300 s (figura 2.19b):
+                                                                                            5 21.6 (mi/h)/s
+El desplazamiento desde 200 hasta 300 s es igual al                                    Dx200 S 300 s < 12 1 1.0 3 102 s 2 1 1.7 3 102 2 1.0 3 101 2 mi/h
+área6, que es el área de un triángulo más el área de un                                                  1 (1.0 3 101 mi/h)(1.0 3 102 s)
+rectángulo muy estrecho bajo el triángulo:
+                                                                                                    5 9.0 3 103(mi/h)(s) 5 2.5 mi
+e) Determine el desplazamiento total desde 0 hasta 400 s.
+El desplazamiento total es la suma de todos los desplaza-                              Dx300 S 350 s < 12 1 5.0 3 101 s 2 1 1.0 3 101 mi/h 2
+mientos individuales. Todavía necesitamos calcular el des-                                          5 2.5 3 102(mi/h)(s)
+                                                                                       Dx350 S 400 s < 12 1 5.0 3 101 s 2 1 25.0 3 101 mi/h 2
+plazamiento para los intervalos de tiempo desde 300 hasta
+350 s y desde 350 hasta 400 s. El último es negativo porque
+está abajo del eje del tiempo.                                                                            1         1 3(   /h)( )
+Determine el desplazamiento total sumando las partes:                                  Dx 0 S 400 s < (2.4 3 10 1 9.0 3 103 1 2.5 3 102
+                                                                                                                      4
+
+
+                                                                                                        S 21.3 3 103) (mi/h)(s) 5 8.9 mi
+
+COMENTAR IOS Existe una variedad de formas para determinar el área aproximada bajo una gráfica. La selección de la
+técnica es de preferencia personal.
+PREGUNTA 2.7 De acuerdo con la gráfica en la figura 2.19a, ¿en qué tiempos diferentes la aceleración es cero?
+E JERCICIO 2.7 Suponga que se proporciona la gráfica velocidad vs. tiempo de otro tren en la figura 2.19d. Determine
+a) la aceleración instantánea máxima y b) el desplazamiento total en el intervalo desde 0 s hasta 4.00 3 102 s.
+RESPUESTAS a) 1.0 (mi/h)/s b) 4.7 mi
+       CAPÍTULO 2 | Movimiento en una dimensión
+
+   ■ EJEMPLO 2.8             Un lanzamiento no tan malo para un novato
+                                                                                        t  2.04 s
+OB JET I VO Aplicar las ecuaciones cinemáticas para                                  ymáx  20.4 m   Figura 2.20 (Ejemplo 2.8) Un
+un objeto en caída libre con una velocidad inicial                                      v0          objeto en caída libre es lanzado
+diferente de cero.                                                                                   hacia arriba con una velocidad ini-
+                                                                                                     cial de v 0 5 120.0 m/s. Las posi-
+PROBLEMA Se lanza una piedra desde la parte supe-                                                    ciones y velocidades están dadas
+rior de un edificio con una velocidad inicial de 20.0                                                para varios tiempos.
+m/s en una trayectoria rectilínea hacia arriba, desde             t0
+una altura inicial de 50.0 m sobre el nivel del suelo. La        y0  0
+                                                                 v0  20.0 m/s
+piedra libra el borde del techo de su camino hacia                                   t  4.08 s
+abajo, como se muestra en la figura 2.20. Determine                                  y0
+a) el tiempo necesario para que la piedra alcance                                    v  20.0 m/s
+su altura máxima, b) la altura máxima, c) el tiempo
+necesario para que la piedra regrese a la altura de
+la cual fue lanzada y la velocidad de la piedra en ese
+instante, d) el tiempo necesario para que la piedra
+alcance la superficie de la tierra y e) la velocidad y
+posición de la piedra en t 5 5.00 s. Omita la resisten-
+cia del aire.
+ESTR ATEGI A El diagrama en la figura 2.20 esta-
+blece un sistema coordenado con y 0 5 0 en el nivel                                  t  5.00 s
+                                                                                     y  22.5 m
+en que se libera la piedra desde la mano del lanza-         50.0 m
+                                                                                     v  29.0 m/s
+dor con y positiva hacia arriba. Escriba las ecuaciones
+cinemáticas de la velocidad y posición para la piedra
+y sustituya la información que se proporciona. Todas
+las respuestas surgen de estas dos ecuaciones al usar
+álgebra simple mediante la sustitución del tiempo.
+Por ejemplo, en el inciso a) la piedra llega al repo-
+so por un instante en su altura máxima, así se susti-
+                                                                                     t  5.83 s
+tuye v 5 0 y se resuelve para el tiempo. Después se                                  y  50.0 m
+sustituye el tiempo en la ecuación de desplazamiento,                                v  37.1 m/s
+obteniendo la altura máxima.
+
+SOLUCIÓN
+a) Determine el instante en el que una piedra alcanza
+su altura máxima.
+Escriba las ecuaciones cinemáticas de la velocidad y la               v 5 at 1 v 0
+posición:                                                            Dy 5 y 2 y0 5 v0t 1 12at2
+Sustituya a 5 29.80 m/s2, v 0 5 20.0 m/s y y 0 5 0 en las            (1)   v 5 (29.80 m/s2)t 1 20.0 m/s
+dos ecuaciones anteriores:                                           (2)   y 5 (20.0 m/s)t 2 (4.90 m/s2)t 2
+
+Sustituya v 5 0, la velocidad en la altura máxima, en la             0 5 (29.80 m/s2)t 1 20.0 m/s
+ecuación (1) y resuelva para el tiempo:                                    220.0 m/s
+                                                                     t5               5 2.04 s
+                                                                           29.80 m/s2
+b) Calcule la altura máxima de la piedra.
+Sustituya el tiempo t 5 2.04 s en la ecuación (2):                   y máx 5 (20.0 m/s)(2.04 s) 2 (4.90 m/s2)(2.04 s)2 5 20.4 m
+c) Determine el tiempo que le toma a la piedra regresar a
+su posición inicial y la velocidad de la piedra en ese tiempo.
+Haga y 5 0 en la ecuación (2) y resuelva para t:                     0 5 (20.0 m/s)t 2 (4.90 m/s2)t 2
+                                                                      5 t(20.0 m/s 2 4.90 m/s2t)
+                                                                     t 5 4.08 s
+                                                                                             2.6 | Objetos en caída libre
+
+Sustituya el tiempo en la ecuación (1) para obtener la           v 5 20.0 m/s 1 (29.80 m/s2)(4.08 s) 5 220.0 m/s
+velocidad:
+d) Determine el tiempo necesario para que la piedra
+alcance la superficie de la tierra.
+En la ecuación (2), haga que y 5 250.0 m:                        250.0 m 5 (20.0 m/s)t 2 (4.90 m/s2)t 2
+Aplique la fórmula cuadrática y tome la raíz positiva:           t 5 5.83 s
+e) Determine la velocidad y posición de la piedra en
+t 5 5.00 s.
+Sustituya valores en las ecuaciones (1) y (2):                   v 5 (29.80 m/s2)(5.00 s) 1 20.0 m/s 5 229.0 m/s
+                                                                 y 5 (20.0 m/s)(5.00 s) 2 (4.90 m/s2)(5.00 s)2 5 222.5 m
+
+
+COMENTAR IOS Observe cómo todo surge de las dos ecuaciones cinemáticas. Una vez que son escritas y se identifican
+correctamente las constantes como en las ecuaciones (1) y (2), el resto es relativamente fácil. Si la piedra fuera lanzada hacia
+abajo, la velocidad inicial tendría que ser negativa.
+PREGUNTA 2.8 ¿Cómo cambiaría la respuesta del inciso b), la altura máxima, si la persona lanza la pelota brincando
+hacia arriba en el instante en que libera la pelota?
+E JERCICIO 2.8 Se lanza un proyectil en una trayectoria rectilínea hacia arriba a 60.0 m/s desde una altura de 80.0 m, en
+el borde de un acantilado. El proyectil cae, librando el acantilado y golpeando abajo la superficie de la tierra. Determine
+a) la altura máxima del proyectil arriba del punto de lanzamiento, b) el tiempo que tarda en golpear la superficie de la tie-
+rra en la base del acantilado y c) su velocidad en el impacto.
+RESPUESTAS a) 184 m b) 13.5 s c) 272.3 m/s
+
+
+   ■ EJEMPLO 2.9             Deducción de la altura máxima
+OB JET I VO Determinar la altura máxima de un proyectil lanzado, utilizando símbolos.
+PROBLEMA Refiérase al ejemplo 2.8. Utilice manipulación simbólica para determinar a) el tiempo tmáx que le toma a la
+pelota alcanzar su altura máxima y b) una expresión para la altura máxima independiente del tiempo. Las respuestas se
+expresan sólo en términos de las cantidades v 0, g y y 0.
+ESTR ATEGI A Cuando la pelota alcanza su altura máxima, su velocidad es cero, de tal modo que para el inciso a) resuelva
+la ecuación cinemática de velocidad para el tiempo t y haga v 5 0. Para el inciso b), sustituya la expresión para el tiempo
+encontrado en el inciso a) dentro de la ecuación de desplazamiento y resuelva para la altura máxima.
+
+SOLUCIÓN
+a) Determine el tiempo que tarda la pelota
+en alcanzar su altura máxima.
+Escriba la ecuación cinemática de velocidad:                     v 5 at 1 v 0
+Mueva v 0 al lado izquierdo de la ecuación:                      v 2 v 0 5 at
+                                                                 v 2 v0    at
+Divida ambos lados entre a:                                              5 5t
+                                                                    a       a
+                                                                          2v0
+Regrese a la ecuación de modo que t esté a la izquierda y        (1) t 5
+                                                                            a
+sustituya v 5 0, que corresponde a la velocidad en la altura
+máxima:
+                                                                                v0
+Sustituya t por tmáx y a 5 2g :                                  (2) tmáx 5
+                                                                                g
+b) Determine la altura máxima.
+Escriba la ecuación para la posición y en cualquier tiempo:      y 5 y0 1 v0t 1 12at 2
+
+
+                                                                                                                     (continúa)
+46     CAPÍTULO 2 | Movimiento en una dimensión
+
+                                                                                            2v0           2v0 2
+Sustituya t 5 2v 0/a, que corresponde al tiempo que tarda                ymáx 5 y0 1 v0 a       b 1 12a a    b
+                                                                                             a             a
+en llegar a y máx, la altura máxima:
+                                                                                        v02 1 v02
+                                                                               5 y0 2      12
+                                                                                         a     a
+
+                                                                                                 v02
+Combine los dos últimos términos y sustituya a 5 2g :                    (3)     ymáx 5 y0 1
+                                                                                                 2g
+
+COMENTAR IOS Observe que g 5 19.8 m/s2, de tal modo que el segundo término total es positivo. Las ecuaciones (1) a (3)
+son mucho más útiles que una respuesta numérica porque el efecto de cambiar un valor puede ser visto inmediatamente.
+Por ejemplo, duplicar la velocidad inicial v 0 cuadruplica el desplazamiento arriba del punto de liberación. Además, observe
+que ymáx podría obtenerse con más facilidad a partir de la ecuación independiente del tiempo, v2 2 v 02 5 2a)y.
+PREGUNTA 2.9 ¿En qué factor el desplazamiento máximo se incrementaría arriba del techo si el edificio fuera transpor-
+tado a la Luna, donde a 5 2 16 g ?
+E JERCICIO 2.9 a) Utilizando símbolos, determine el tiempo tT que le toma a la pelota alcanzar la superficie de la Tierra
+si se libera desde el reposo a la altura y 0. b) En términos de tT, ¿cuánto tiempo tL sería necesario si el edificio estuviera en
+Marte, donde a 5 2 0.385g?
+                           2y0
+RESPUESTAS a) tT 5                   b) tL 5 1.61tT
+                          Å g
+
+
+     ■ EJEMPLO 2.10          Un cohete balístico
+OB JET I VO Resolver un problema que invo-                                                                   Altura   Figura 2.21
+lucra un ascenso impulsado seguido por un                                                                    máxima   (Ejemplo 2.10) Dos fases
+movimiento en caída libre.                                                                                   ymáx     ligadas de movimiento
+                                                                                                             v=0      para un cohete que es
+PROBLEMA Un cohete se mueve en una                                                                                    lanzado, utiliza su com-
+trayectoria rectilínea hacia arriba, iniciando                                                                        bustible y choca con la
+desde el reposo con una aceleración de 129.4                                                                          superficie.
+m/s2; al final de 4.00 s se acaba el combustible
+y continúa deslizándose hacia arriba, alcan-                        Fase 2
+                                                                    a = –9.80 m/s2
+zando una altura máxima antes de caer de
+regreso hacia la Tierra. a) Determine la velo-
+cidad del cohete y la posición al final de 4.00 s.
+b) Determine la altura máxima que alcanza
+el cohete. c) Determine la velocidad en el                          +y
+                                                      El cohete
+instante antes de que el cohete choca con la          agota su
+superficie de la Tierra.                              combustible
+ESTRATEGIA Considere y 5 0 en el punto
+de lanzamiento y y positiva hacia arriba, como en
+                                                                Fase 1                       Después de la
+la figura 2.21. El problema está constituido                    a = 29.4 m/s2                caída libre
+por dos fases. En la fase 1 el cohete tiene una                                              el cohete
+aceleración neta hacia arriba de 29.4 m/s2 y se                                              choca con la
+pueden aplicar las ecuaciones de cinemática                                                  superficie
+con aceleración constante a para determinar la            y=0                                desde ymáx
+                                                               Lanzamiento
+altura y velocidad del cohete al final de la fase
+1 cuando se termina el combustible. En la fa-
+se 2 el cohete se encuentra en caída libre y tiene una aceleración de 29.80 m/s2, con velocidad inicial y posición conocidas
+mediante los resultados de la fase 1. Aplique las ecuaciones cinemáticas para caída libre.
+
+SOLUCIÓN
+a) Fase 1. Determine la velocidad y posición del cohete
+después de 4.00 s.
+Escriba las ecuaciones cinemáticas de la velocidad                       (1)    v 5 v 0 1 at
+y posición:                                                              (2) Dy 5 y 2 y0 5 v0t 1 12 at 2
+                                                                                                                    | Resumen   47
+
+Adapte estas ecuaciones a la fase 1, sustituyendo                (3) v 5 (29.4 m/s2)t
+a 5 29.4 m/s2, v 0 5 0 y y 0 5 0:                                (4) y 5 12 1 29.4 m/s2 2 t 2 5 1 14.7 m/s2 2 t 2
+Sustituya t 5 4.00 s en las ecuaciones (3) y (4) para determi-    vb 5 118 m/s y yb 5 235 m
+nar la velocidad v y la posición y del cohete en el tiempo en
+el que se agota el combustible. Esto será conocido como vb y
+yb, respectivamente.
+b) Fase 2. Determinar la altura máxima que alcanza el cohete.
+Adapte la ecuación (1) y (2) a la fase 2, sustituya a 5 29.8     (5) v 5 (29.8 m/s2)t 1 118 m/s
+m/s2, v 0 5 v 0 5 118 m/s y y 0 5 yb 5 235 m:
+                                                                 (6) y 5 235 m 1 (118 m/s)t 2 (4.90 m/s2)t 2
+
+                                                                  0 5 1 29.8 m/s2 2 t 1 118 m/s S t 5
+                                                                                                       118 m/s
+Sustituya v 5 0 (la velocidad del cohete en la altura                                                           5 12.0 s
+máxima) en la ecuación (5) para obtener el tiempo que                                                 9.80 m/s2
+tarda el cohete en alcanzar su altura máxima:
+Sustituya t 5 12.0 s en la ecuación (6) para determinar la       y máx 5 235 m 1 (118 m/s)(12.0 s) 2 (4.90 m/s2)(12.0 s)2
+altura máxima del cohete:
+                                                                      5 945 m
+c) Fase 2. Determinar la velocidad del cohete en el
+momento del impacto.
+Determine el tiempo de impacto haciendo y 5 0                    0 5 235 m 1 (118 m/s)t 2 (4.90 m/s)t 2
+en la ecuación (6) y aplique la fórmula cuadrática:               t 5 25.9 s
+Sustituya este valor de t en la ecuación (5):                    v 5 (29.80 m/s2)(25.9 s) 1 118 m/s 5 2136 m/s
+
+COMENTAR IOS Es posible pensar que es más natural separar este problema en tres fases, finalizando la segunda fase en
+la altura máxima e iniciando la tercera fase con una caída libre desde la altura máxima hacia la superficie de la tierra. Aun-
+que este planteamiento proporciona las respuestas correctas, es una complicación innecesaria. Así, dos fases son suficientes,
+una para cada aceleración diferente.
+PREGUNTA 2.10 Si, más bien, queda algo de combustible, ¿a qué altura debe encender el motor una vez más para inte-
+rrumpir la caída del cohete y permitir un aterrizaje perfectamente suave? (Considere la misma aceleración que durante el
+ascenso inicial.)
+EJERCICIO 2.10 Un cohete experimental diseñado para aterrizar verticalmente se precipita en caída libre desde una altura
+de 2.00 3 102 m, iniciando en el reposo. A una altura de 80.0 m, los motores del cohete se encienden y proporcionan una
+aceleración constante hasta que el cohete aterriza. ¿Qué aceleración se necesita si la rapidez en el aterrizaje es cero? (Omita
+la resistencia del aire.)
+RESPUESTA 14.7 m/s2

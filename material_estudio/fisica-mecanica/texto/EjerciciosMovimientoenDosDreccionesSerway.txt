@@ -1,0 +1,664 @@
+76    CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+
+ ■ PREGUNTAS DE OPCIÓN MÚLT IPLE
+
+
+              Las preguntas de opción múltiple en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+ 1. Un crucero viaja hacia el norte a 4.50 m/s mientras el guar-            2. Un esquiador deja el extremo de una rampa horizontal
+    dacostas se dirige a 45.0° hacia el noroeste a 5.20 m/s.                   de salto a 22.0 m/s y cae 3.20 m antes de aterrizar. Omi-
+    ¿Cuál es la velocidad del crucero con respecto al guar-                    tiendo la fricción, ¿qué distancia horizontal recorre el
+    dacostas? a) vx 5 3.68 m/s; vy 5 0.823 m/s b) vx 5                         esquiador en el aire antes de aterrizar? a) 9.8 m b) 12.2 m
+    23.68 m/s; vy 5 8.18 m/s c) vx 5 3.68 m/s; vy 5 8.18 m/s                   c) 14.3 m d) 17.8 m e) 21.6 m
+    d) vx 5 23.68 m/s; vy 5 20.823 m/s e) vx 5 3.68 m/s;                    3. Una catapulta lanza una gran piedra con un rapidez de
+    vy 5 1.82 m/s                                                              45.0 m/s formando un ángulo de 55.0° con la horizon-
+                                                                                                                | Preguntas conceptuales       77
+
+   tal. ¿Qué altura máxima alcanza la piedra? (Omita la fric-                 golpeará la llave la cubierta? a) delante de la base del más-
+   ción del aire.) a) 45.7 m b) 32.7 m c) 69.3 m d) 83.2 m                    til b) en la base del mástil c) detrás de la base del mástil
+   e) 102 m                                                                   d) en el lado de la base del mástil hacia el viento e) nin-
+4. Un vector que se encuentra en el plano xy tiene compo-                     guna de las elecciones desde a) hasta d) es correcta.
+   nentes de signo opuesto. ¿En qué cuadrante debe estar el              10. Se lanza una pelota de béisbol desde los jardines hacia el
+   vector? a) el primer cuadrante b) el segundo cuadrante                    receptor. Cuando la pelota alcanza su punto más alto, ¿qué
+   c) el tercer cuadrante d) el cuarto cuadrante e) en el                    enunciado es verdadero? a) Su velocidad y su aceleración
+   segundo o cuarto cuadrantes                                               ambas son cero. b) Su velocidad no es cero, pero su ace-
+5. Un astronauta de la NASA golpea una pelota de golf en                     leración es cero. c) Su velocidad es perpendicular a su
+   la Luna. ¿Cuál de las cantidades que siguen, si existe al-                aceleración. d) Su aceleración depende del ángulo en
+   guna, permanece constante conforme la pelota viaja a                      el cual se lanzó la pelota. e) Ninguno de los enunciados
+   través del vacío lunar? a) rapidez b) aceleración c) velo-                desde a) hasta d) es verdadero.
+   cidad d) componente horizontal de la velocidad e) com-                11. Un estudiante lanza una pesada pelota roja desde el bal-
+   ponente vertical de la velocidad                                          cón de un edificio alto con una rapidez inicial v0. Al mis-
+6. Un automóvil que se mueve con rapidez constate alrede-                    mo tiempo, un segundo estudiante deja caer una pelota
+   dor de una pista circular a) tiene aceleración cero, b) tie-              azul ligera desde el mismo balcón. Omitiendo la resis-
+   ne una componente de aceleración en la dirección de su                    tencia del aire, ¿cuál enunciado es verdadero? a) La pelota
+   velocidad, c) tiene una aceleración dirigida alejándose                   azul llega primero a la superficie del suelo. b) Las pelotas
+   desde el centro de su trayectoria, d) tiene una aceleración               alcanzan la superficie del suelo al mismo tiempo. c) La pe-
+   dirigida hacia el centro de su trayectoria, o bien e) tiene               lota roja llega primero a la superficie del suelo. d) Las dos
+   una aceleración con una dirección que no se puede de-                     pelotas golpean la superficie del suelo con la misma rapi-
+   terminar a partir de la información que se proporciona.                   dez. e) Ninguno de los enunciados desde a) hasta d) es
+                                                                             verdadero.
+7. Un atleta corre tres cuartos del camino alrededor de
+   una pista circular. ¿Cuál de los siguientes enunciados es             12. Conforme se transporta un manzano en un camión que
+   correcto? a) Su rapidez promedio es mayor que la mag-                     se mueve hacia la derecha con una velocidad constante,
+   nitud de su velocidad promedio. b) La magnitud de su                      al agitarse uno de sus frutos se desprende y cae hacia el
+   velocidad promedio es mayor que su rapidez promedio.                      fondo del camión. De las curvas que se muestran en la fi-
+   c) Su rapidez promedio es igual a la magnitud de su ve-                   gura POM3.12, i) ¿cuál describe mejor la trayectoria que
+   locidad promedio. d) Su rapidez promedio es la misma                      sigue la manzana que ve un observador fijo en la superfi-
+   que la magnitud de su velocidad promedio si su rapidez                    cie del suelo, que observa que el camión se mueve desde
+   instantánea es constante. e) Ninguno de los enunciados                    su izquierda hacia su derecha? ii) ¿Cuál describe mejor la
+   desde a) hasta d) es verdadero.                                           trayectoria que ve un observador sentado en el camión?
+8. Se lanza un proyectil desde la superficie de la Tierra con
+   una cierta velocidad inicial y en un ángulo por encima de
+   la horizontal, alcanzando su altura máxima después del
+   tiempo tmáx. Se lanza otro proyectil con la misma veloci-
+   dad inicial y ángulo desde la superficie de la Luna, donde                     a           b            c                d              e
+   la aceleración de la gravedad es un sexto de aquella de la
+   Tierra. Omitiendo la resistencia del aire (en la Tierra) y                                        Figura POM3.12
+   variaciones en la aceleración de la gravedad con la altura,
+   ¿cuánto tiempo le toma al proyectil en la Luna alcanzar su            13. ¿Cuáles de las siguientes cantidades son vectores? a) la
+   altura máxima? a) tmáx b) tmáx/6 c) √w
+                                        6tmáx d) 36tmáx e) 6tmáx             velocidad de un automóvil deportivo b) la temperatu-
+9. Un marinero deja caer una llave de tuercas desde la parte                 ra c) el volumen de agua en una lata d) el desplazamiento
+   superior de un mástil vertical del velero mientras el bote se             a la red de un jugador de tenis desde la línea de saque de la
+   mueve rápido y fijamente recto hacia adelante. ¿Dónde                     cancha e) la altura de un edificio
+
+
+■ PREGUNTAS CONCEPTUALES
+
+
+             Las preguntas conceptuales en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+     S              S
+1. Si B se suma a A , ¿bajo qué condiciones el vector resul-               3. A medida que un proyectil se mueve en su trayectoria,
+   tante tiene una magnitud igual a A 1 B? ¿Bajo qué condi-                   ¿existe algún punto a lo largo de ésta donde los vectores
+   ciones el vector resultante es igual a cero?                               de velocidad y aceleración son a) perpendiculares entre
+2. ¿Bajo qué condiciones un vector tendría componentes                        sí b) paralelos entre sí?
+   que son iguales en magnitud?                                            4. Construya diagramas de movimiento que muestren la ve-
+                                                                              locidad y la aceleración de un proyectil en varios puntos
+78      CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+     a lo largo de su trayectoria, suponiendo que a) el proyec-                8. Establezca cuáles de los siguientes objetos móviles obede-
+     til es lanzado horizontalmente y b) el proyectil es lanzado                  cen las ecuaciones de movimiento de proyectil desarro-
+     en un ángulo u con la horizontal.                                            lladas en este capítulo. a) Una pelota es lanzada en una
+ 5. Explique si las siguientes partículas tienen o no una ace-                    dirección arbitraria. b) Un jet cruza el cielo con sus moto-
+    leración: a) una partícula se mueve en una línea recta                        res impulsándolo hacia adelante. c) Un cohete abandona
+    con rapidez constante y b) una partícula se mueve alre-                       la plataforma de lanzamiento. d) Un cohete se mueve a
+    dedor de una curva con rapidez constante.                                     través del cielo después de que sus motores han fallado.
+                                                                                  e) Una piedra es lanzada bajo el agua.
+ 6. Se lanza horizontalmente una pelota desde la parte su-
+    perior de un edificio. Un segundo después se lanza ho-                     9. Dos proyectiles son lanzados con la misma rapidez inicial,
+    rizontalmente otra pelota desde el mismo punto con la                         uno en un ángulo u con respecto al nivel de la superficie
+    misma velocidad. ¿En qué punto del movimiento las pe-                         del suelo y el otro en ángulo 90°2 u. Los dos proyectiles
+    lotas estarán más cerca una de otra? ¿Cuál será la dife-                      golpean la superficie del suelo a la misma distancia desde
+    rencia de tiempo entre ellas cuando las pelotas golpeen                       el punto de lanzamiento. ¿Los dos proyectiles están en el
+    la superficie de la tierra? ¿Puede cambiarse la velocidad                     aire la misma cantidad de tiempo?
+    de lanzamiento de la segunda pelota de tal manera que                     10. Una pelota es lanzada hacia arriba en el aire por un pasajero
+    lleguen a la superficie del suelo en el mismo instante?                       en un tren que se mueve con velocidad constante. a) Descri-
+ 7. Una nave se desplaza a través del espacio con una veloci-                     ba la trayectoria de la pelota como la ve el pasajero. Describa
+    dad constante. Súbitamente, una fuga lateral de gas en la                     la trayectoria como la ve un observador fijo en el exterior
+    nave provoca que se acelere de manera constante en una                        del tren. b) ¿Cómo cambiarían estas observaciones si el
+    dirección perpendicular a la velocidad inicial. La orien-                     tren estuviera acelerando a lo largo de la vía?
+    tación de la nave no cambia, de tal manera que la acelera-                11. Un proyectil es lanzado en un ángulo con la horizontal
+    ción permanece perpendicular a la dirección original de                       con alguna velocidad inicial vi, y la resistencia del aire
+    la velocidad. ¿Cuál es la forma de la trayectoria seguida                     es insignificante. a) ¿Es el proyectil un cuerpo en caída
+    por la nave?                                                                  libre? b) ¿Cuál es su aceleración en la dirección vertical?
+                                                                                  c) ¿Cuál es su aceleración en la dirección horizontal?
+
+ ■ PROBLEMAS
+
+
+                Los problemas para este capítulo se pueden asignar en línea     1. denota problemas asignados con más frecuencia en Enhanced
+   en Enhanced WebAssign. Los problemas seleccionados también tienen                  WebAssign
+   soluciones en los videos Watch It.                                                 denota problemas biomédicos
+1. denota problemas sencillos, 2. denota problema intermedio,                         denota problemas guiados
+3. denota problema de alto reto
+                                                                                      denota tutorial Master It disponible en Enhanced WebAssign
+1. denota solución completa disponible en Student Solutions                           denota petición de razonamiento cuantitativo y conceptual
+     Manual/Study Guide
+                                                                                      denota problema de razonamiento simbólico
+
+
+                                                                                                                          S
+3.1 Vectores y sus propiedades                                                 4. S      Tres desplazamientos
+                                                                                                           S
+                                                                                                               son A 5 200 m hacia el sur,
+                S
+ 1. El vector A tiene una magnitud de 29 unidades         y apunta                B 5 250 m al oeste y C 5 150 m en 30.0º al noreste.
+                                                      S
+    en  la dirección   y positiva. Cuando  el  vector B  se suma a                a) Elabore un diagrama por separado para cada una de
+    S                           S    S
+    A , el vector resultante A 1 B apunta en la dirección y                       las
+                                                                                  S
+                                                                                      siguientes
+                                                                                         S    S
+                                                                                                 formas
+                                                                                                    S S
+                                                                                                        posibles
+                                                                                                            S
+                                                                                                                 deS la suma
+                                                                                                                         S S
+                                                                                                                             de estos
+                                                                                                                                 S
+                                                                                                                                      vectores:
+                                                                                                                                       S    S
+    negativa con una magnitudSde 14 unidades. Determine                           R1 5 A 1 B 1 C ; R2 5 B 1 C 1 A ; R3 5 C 1 B 1 A .
+    la magnitud y dirección de B .                                                b) Explique lo que se puede concluir a partir de la com-
+               S                                                                  paración de los diagramas.
+ 2. El vector A tiene una magnitud de 8.00 unidades y forma
+    un ángulo    de 45.0° con el eje x positivo. También el vec-               5. Un vagón en una montaña rusa se mueve 200 pies ho-
+         S
+    tor B tiene una magnitud de 8.00 unidades y se dirige a                       rizontalmente y después se eleva 135 pies en un ángulo
+    lo largo del eje x negativo. Aplicando      métodos gráficos,                 de 30.0° arriba de la horizontal. A continuación, viaja
+                                    S    S
+    determine    a) el vector suma  A  1 B y  b) el vector diferen-               135 pies en un ángulo de 40.0° debajo de la horizontal.
+        S     S
+    cia A 2 B .                                                                   Aplique técnicas gráficas para encontrar el desplaza-
+                S                                                                 miento del vagón en la montaña rusa desde el punto de
+ 3. El vector A es de 3.00 unidades deSlongitud y apunta a lo
+                                                                                  partida al extremo de este movimiento.
+    largo del eje x positivo. El vector B es de 4.00 unidades
+    de longitud y apunta a lo largo del eje y negativo. Aplique                6.         Un avión vuela 200 km hacia el oeste desde la ciu-
+    métodos gráficos para   encontrar  laSmagnitud y dirección                      dad A hacia la ciudad B, y después 300 km en la dirección
+                       S    S      S
+    de los vectores a) A 1 B y b) A 2 B .                                           30.0° al noroeste desde la ciudad B a la ciudad C. a) En
+                                                                                                                             | Problemas   79
+
+      línea recta, ¿a qué distancia está la ciudad C desde la ciu-   15. Un vector tiene un componente x de 225.0 unidades
+      dad A? b) Con respecto a la ciudad A, ¿en qué dirección            y un componente y de 40.0 unidades. Determine la mag-
+      está la ciudad C? c) ¿Por qué la respuesta sólo es aproxi-         nitud y dirección del vector.
+      madamente correcta?                                            16. Un mariscal de campo toma el balón desde la línea de
+ 7. Un avión vuela desde su base hacia el lago A, una dis-               golpeo, corre hacia atrás 10.0 yardas y a continuación
+    tancia de 280 km en una dirección de 20.0° al noreste.               corre lateralmente en paralelo a la línea de golpeo 15.0
+    Después de agotarse el combustible, el avión vuela hacia             yardas. En este punto lanza un pase recto de 50.0 yardas
+    el lago B, que está a 190 km y 30.0° al noroeste desde el            hacia adelante, perpendicular a la línea de golpeo. ¿Cuál
+    lago A. Establezca gráficamente la distancia y la dirección          es el desplazamiento resultante del balón?
+    desde el lago B hacia la base.
+                   S                                                 17.        El ojo de un huracán pasa sobre la isla Grand Bahama
+ 8. Una fuerza F1 de magnitud 6.00                                         en una dirección 60.0° al noroeste con una rapidez de
+    unidades actúa sobre un objeto                                         41.0 km/h. Tres horas después el curso del huracán cam-
+    en el origen en una dirección u 5                                      bia repentinamente hacia el norte, y su rapidez disminuye
+    30.0° por encima del eje x positivo      S
+                                                                           a 25.0 km/h. ¿A qué distancia desde Grand Bahama está
+                                             F2     S
+    (figura
+        S
+             P3.8). Una segunda fuer-               F1                     el huracán 4.50 h después de que pasa sobre la isla?
+    za F 2 de magnitud 5.00 unidades                     u
+                                                                     18. Un pequeño mapa muestra que Atlanta está a 730 mi-
+    actúa en el objeto en la dirección
+                                                                         llas en dirección 5.00° al noreste desde Dallas. El mismo
+    positiva del eje y. Encuentre gráfi-
+                                                  Figura P3.8            mapa muestra que Chicago está a 560 millas en dirección
+    camente la magnitud yS dirección
+                                  S                                      21.0° al noroeste desde Atlanta. Considere que la Tierra
+    de la fuerza resultante F 1 1 F 2.
+                                                                         es plana y utilice la información que se proporciona para
+ 9. Un hombre perdido en un laberinto hace tres despla-                  hallar el desplazamiento desde Dallas hasta Chicago.
+    zamientos consecutivos de tal manera que al final de su
+    viaje está justo de regreso donde comenzó. El primer
+    desplazamiento es 8.00 m hacia el oeste, y el segundo es
+    13.0 m hacia el norte. Utilice el método gráfico para ha-
+    llar la magnitud y dirección del tercer desplazamiento.                                Chicago
+                                                                                                                  21.0
+
+3.2 Componentes de un vector                                                                     560 mi
+10. Una persona camina 25.0° al noreste 3.10 kilómetros.                                        730 mi            Atlanta
+    ¿Qué tan lejos al norte y qué tan lejos al este tendrá que
+    caminar para llegar al mismo lugar?                                                Dallas            5.00
+                                   S
+11. La magnitud de un vector A es 35.0 unidades y apunta
+    en la dirección 325° en el sentido contrario a las mane-
+    cillas del reloj desde el eje x positivo. Calcule los compo-                                     Figura P3.18
+    nentes x y y de este vector.
+12. Un patinador artístico se desliza a lo largo de una trayec-      19. Una aeronave parte desde un aeropuerto y toma la ruta
+    toria circular de 5.00 m de radio. Si se desliza sólo una            que se muestra en la figura P3.19. La nave primero vuela
+    mitad alrededor del círculo, determine a) la magnitud                hacia la ciudad A, localizada a 175 km en dirección 30.0°
+    del vector de desplazamiento y b) qué distancia patinó.              al noreste. A continuación, vuela 150 km 20.0° al oeste
+    c) ¿Cuál es la magnitud del desplazamiento si patina todo            del norte, hacia la ciudad B. Por último, la nave vuela 190
+    el camino alrededor del círculo?                                     km hacia el oeste, hacia la ciudad C. Determine la ubica-
+13. Una chica que entrega periódico cubre su ruta viajando               ción de la ciudad C con respecto al punto de partida.
+    3.00 calles al oeste, 4.00 calles al norte y después 6.00
+    calles al este. a) ¿Cuál es su desplazamiento resultante?                                 y (km)                         N
+    b) ¿Cuál es la distancia total que viajó?                                      C        250                  B
+                                                                                                   S                    O        E
+                                                                                                   c
+14.         Un excursionista parte de su campamento y se                                    200
+                                                                                                              S      20.08
+                                                                                                              b              S
+      desplaza las siguientes distancias mientras explora sus                          S    150
+      alrededores: 75.0 m al norte, 2.50 3 102 m al este, 125 m                        R
+                                                                                                                          1108
+                                                                                            100
+      en un ángulo de 30.0° al noreste y 1.50 3 102 m al sur.                                             S
+                                                                                                          a           A
+      a) Determine el desplazamiento resultante desde el cam-                                   50
+      pamento. (Considere el este como la dirección x positiva                                           30.08
+                                                                                                                             x (km)
+      y el norte como la dirección y positiva.) b) ¿Cambiar el                                  O      50 100 150 200
+      orden en el que el excursionista hace los desplazamien-
+      tos conocidos alteraría su posición final? Explique.                                           Figura P3.19
+80       CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+20. La vista desde un helicóptero en la figura P3.20 muestra                                                    velocidad inicial? c) Escriba          y
+    a dos individuos jalando una mula testaruda. Determine                                                      las ecuaciones para los com-                    S
+                                                                                                                                                                 v0  18.0 m/s
+    a) la fuerza simple que es equivalente a las dos fuerzas                                                    ponentes x y y de la veloci-
+    que se muestran y b) la fuerza que tendría que ejercer                                                      dad de la piedra con el tiem-
+    una tercera persona sobre la mula para que la fuerza neta                                                   po. d) Escriba las ecuaciones
+    sea cero. Las fuerzas se miden en newtons (N).                                                              para la posición de la piedra                           S
+                                                                                                                                                         h  50.0 m     g
+                                                                                                                con el tiempo, utilizando
+                                                                                                                las coordenadas de la figura
+                                   y
+                                                                                                                P3.23. e) ¿En cuánto tiem-
+                                                                                                                po, después de liberada, la
+                                                                                                                                                                            x
+                                                                                                                piedra golpea la playa abajo          O
+                                                                                                                del acantilado? f) ¿Con qué
+                                                                                                                                                                         S
+                                                                                                                rapidez y en qué ángulo de                               v
+                                                                                                                impacto aterriza la piedra?
+                    F 2  80.0 N                                   F 1  120 N                                                                             Figura P3.23
+                                                                                                            24.            Una roca se lanza
+                          75.0                                   60.0
+                                                                                                                hacia arriba desde el nivel del suelo de tal manera que
+                                                                          x
+                                                                                                                la altura máxima de su vuelo es igual a su alcance hori-
+                                                                                                                zontal R. a) ¿En qué ángulo u es lanzada la piedra? b) En
+                                                                                                                términos del alcance R original, ¿cuál es el alcance Rmáx
+                                                                                                                que la roca puede alcanzar si se lanza a la misma veloci-
+                                                                                                                dad, pero en el ángulo óptimo para el alcance máximo?
+                                                                                                                c) ¿Cambiaría su respuesta al inciso a) si la roca se lanza
+                                                                                                                con la misma velocidad en un planeta diferente? Explique.
+                            Figura P3.20                                                                    25. El mejor saltador en el reino animal es el puma, que pue-
+                                                                                                                de saltar una altura de 3.7 m cuando deja la superfi-
+21. Un golfista novato hace tres                                              N                    1.00 m
+                                                                                    2.00 m                      cie de la tierra en un ángulo de 45°. ¿Con qué rapidez,
+    golpes para meter la pelota.
+                                                                          O          E                          en unidades SI, el animal debe dejar la superficie de la
+    Los desplazamientos consecu-
+                                                                                                                tierra para alcanzar esa altura?
+    tivos de la pelota son 4.00 m                                             S            30.0
+    hacia el norte, 2.00 m al nores-                                              4.00 m
+                                                                                                            26.        La distancia más larga registrada en el deporte de lan-
+    te y 1.00 m 30.0° al suroeste (fi-                                                                          zamiento de pacas de paja es 81.1 m. Este registro de lanza-
+    gura P3.21). Partiendo del mis-                                                                             miento fue conseguido por Steve Urner de Estados Unidos
+    mo punto inicial, ¿un golfista                                                                              en 1981. Suponiendo que el ángulo de lanzamiento ini-
+    experto podría hacer el hoyo                                                  Figura P3.21                  cial fue 45° y omitiendo la resistencia del aire, establezca
+    en un solo desplazamiento?                                                                                  a) la rapidez inicial del proyectil y b) el tiempo total de
+                                                                                                                vuelo del proyectil. c) Cualitativamente, ¿cómo cambia-
+3.3 Desplazamiento, velocidad y aceleración                                                                     rían las respuestas si el ángulo de lanzamiento fuera ma-
+    en dos dimensiones                                                                                          yor que 45°? Explique.
+                                                                                                            27.      Un pateador debe golpear un balón de fútbol desde
+3.4 Movimiento en dos dimensiones                                                                               un punto 36.0 m (40 yardas) de la línea de gol. La mitad
+22. Uno de los lanzamientos                                                                                     de la gente espera que la pelota esquive el travesaño, que
+    más rápidos registrados                                                                                     tiene 3.05 m de alto. Cuando es pateado, el balón deja
+    en las ligas mayores de                                                                                     el suelo con una velocidad de 20.0 m/s en un ángulo de
+    béisbol fue hecho por                                                                                       53.0° con la horizontal. a) ¿Por cuánto la pelota esquiva
+    Tim Lincecum a 101
+
+
+                                   Michael Zagaris/Getty Images
+                                                                                                                el travesaño o no llega a él? b) ¿La pelota se acerca al
+    mi/h en el 2009 (figura                                                                                     travesaño mientras sigue subiendo o al caer?
+    P3.22). Si alguien lanza-                                                                               28.       Desde la ventana de un edificio, se lanza una pelota
+    ra horizontalmente con                                                                                      desde una altura y0 sobre la superficie del suelo con una
+    esta velocidad, ¿a qué                                                                                      velocidad inicial de 8.00 m/s y en un ángulo de 20.0°
+    distancia caería vertical-                                                                                  debajo de la horizontal. Golpea la superficie de la tierra
+    mente la bola al momen-                                                                                     3.00 s después. a) Si la base del edificio se toma como el
+    to de alcanzar el plato de                                     Figura P3.22 Tim Lincecum                    origen de las coordenadas, con la dirección y positiva ha-
+    bateo, a 60.5 pies?                                             lanza una pelota de béisbol.
+                                                                                                                cia arriba, ¿cuáles son las coordenadas iniciales de la pe-
+23.        Un estudiante está en el borde de un acantilado y                                                    lota? b) Con la dirección x positiva elegida hacia afuera
+      lanza horizontalmente una piedra sobre el borde con                                                       de la ventana, determine los componentes x y y de la ve-
+      una rapidez de 18.0 m/s. El acantilado está a 50.0 m arri-                                                locidad inicial. c) Determine las ecuaciones para los com-
+      ba de una playa plana y horizontal, como se muestra en la                                                 ponentes x y y de la posición como función del tiempo.
+      figura P3.23. a) ¿Cuáles son las coordenadas de la posición                                               d) ¿A qué distancia horizontal desde la base del edificio
+      inicial de la piedra? b) ¿Cuáles son los componentes de la                                                la pelota golpea la superficie de la tierra? e) Determine
+                                                                                                                  | Problemas      81
+
+    la altura de la cual se lanzó la pelota. f) ¿Cuánto tiempo           recreo. Una pelota ha caído a la calle, y un transeúnte la
+    le toma a la pelota alcanzar un punto 10.0 m debajo del              devuelve con el lanzamiento en un ángulo de u 5 53.0°
+    nivel de lanzamiento?                                                sobre la horizontal en un punto d 5 24.0 m desde la base
+29. Se lanza un ladrillo hacia arriba desde la parte superior            de la pared del edificio. La pelota tarda 2.20 s para llegar
+    de un edificio, en un ángulo de 25° con la horizontal y              a un punto de la pared vertical. a) Encuentre la veloci-
+    con una rapidez inicial de 15 m/s. Si el ladrillo está en            dad a la que se lanzó la pelota. b) Halle la distancia ver-
+    vuelo por 3.00 s, ¿qué tan alto es el edificio?                      tical con la que la bola rebasa la pared. c) Determine la
+                                                                         distancia horizontal desde la pared hasta el punto en el
+30. Se dispara un proyectil de artillería con una velocidad
+                                                                         techo donde cae la pelota.
+    inicial de 300 m/s a 55.0° sobre la horizontal. Para evitar
+    una avalancha, explota 42.0 s después del disparo en la
+    ladera de una montaña. ¿Cuáles son las coordenadas x y
+    y donde explota el proyectil, con respecto a su punto de
+    disparo?
+31. Un automóvil está estacionado en lo alto de un mirador
+    sobre el océano con una inclinación que forma un ángu-
+    lo de 24.0° bajo la horizontal. El negligente conductor
+                                                                                                                   h
+    deja el automóvil en neutral y el freno de mano está de-
+                                                                              u
+    fectuoso. El automóvil empieza a moverse desde el repo-
+    so por el plano inclinado con una aceleración constante                                     d
+    de 4.00 m/s2 una distancia de 50.0 m hacia el borde del
+    mirador, que está a 30.0 m sobre el océano. Determine                                      Figura P3.34
+    a) la posición del automóvil con respecto a la base del
+    mirador cuando el automóvil cae en el océano y b) la
+    cantidad de tiempo que el automóvil está en el aire.           3.5 Velocidad relativa
+32. Un bombero que está a d 5 50.0 m de un edificio en             35.         Un jet comercial que se mueve inicialmente a 3.00 3
+    llamas dirige un chorro de agua desde el nivel del pa-               102 millas/h hacia el este, entra en una región donde el
+    vimento en un ángulo de ui 5 30.0° sobre la horizontal               viento está soplando a 1.00 3 102 mi/h en una dirección
+    (figura P3.32). Si la rapidez con la que el chorro sale de           30.0° al noreste. a) Determine los componentes de la ve-
+                                                                                                                S
+    la manguera es vi 5 40.0 m/s, ¿a qué altura el chorro de             locidad del jet con respecto al aire, vJA. b) Determine los
+    agua golpeará el edificio?                                           componentes de la velocidad del aire relativos a la Tierra,
+                                                                         S
+                                                                         vAT . c) Escriba una ecuación parecida a la ecuación 3.16
+                                                                                               S   S     S
+                                                                         para las velocidades vJA, vAT y vJT. d) ¿Cuál es la rapidez y
+                                                                         dirección de la nave relativas a la superficie del suelo?
+                                                                   36.       Un automóvil viaja hacia el este con una velocidad
+                                                                         de 50.0 km/h. Las gotas de lluvia están cayendo a una ve-
+                                                                         locidad constante verticalmente con respecto a la Tierra.
+                                                                         Las huellas de la lluvia en las ventanas laterales del coche
+                                            h                            forman un ángulo de 60.0° con la vertical. Encuentre la
+                  S                                                      velocidad de la lluvia con respecto a a) el coche y b) la
+                  vi
+                                                                         Tierra.
+                       ui          d
+                                                                   37.         Un rayo cae en el techo de un vagón de tren en
+                                                                         movimiento que está acelerando hacia el norte a una ra-
+                                                                         zón de 2.50 m/s2. a) ¿Cuál es la aceleración del rayo con
+                            Figura P3.32                                 respecto al vagón de tren? b) ¿Cuál es la aceleración del
+                                                                         rayo en relación con la Tierra? c) Describa la trayectoria
+                                                                         del rayo vista por un observador fijo en la Tierra.
+33. Se lanza un proyectil con una rapidez inicial de 60.0 m/s      38. Un guardacostas detecta un buque no identificado a una
+    en un ángulo de 30.0° sobre la horizontal. El proyectil            distancia de 20.0 km en dirección 15.0° al noreste. El bu-
+    aterriza en la ladera de una colina 4.00 s después. Omita          que navega a 26.0 km/h en un curso de 40.0º al noreste.
+    la fricción del aire. a) ¿Cuál es la velocidad del proyectil       La Guardia Costera desea enviar una lancha rápida para
+    en el punto más alto de su trayectoria? b) ¿Cuál es la dis-        interceptar e investigar la nave. a) Si la lancha viaja a 50.0
+    tancia en línea recta desde donde el proyectil fue lanza-          km/h, ¿en qué dirección podría adelantarse? Exprese la
+    do hasta el sitio en que éste da en su objetivo?                   dirección como en una brújula con respecto al norte. b)
+34. Un patio de juegos está en la azotea de una escuela de la          Encuentre el tiempo necesario para que la lancha inter-
+    ciudad, 6.00 m por encima de la calle (figura P3.34). La           cepte el buque.
+    pared vertical del edificio es h 5 7.00 m de altura, para      39. Un avión mantiene una velocidad de 630 km/h relativa
+    formar una baranda 1 m de altura alrededor del patio de            al aire a través del que está volando, al hacer un viaje a
+82       CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+      una ciudad a 750 kilómetros de distancia hacia el norte.       Problemas adicionales
+      a) ¿Qué intervalo de tiempo es necesario para el viaje si      44.        Una pasarela móvil en un aeropuerto tiene una ra-
+      el avión vuela a través de un viento en contra que sopla a           pidez v1 y una longitud L. Una mujer sobre la pasarela
+      35.0 km/h hacia el sur? b) ¿Qué intervalo de tiempo es               se mueve desde un extremo hacia el otro, mientras que
+      necesario si hay un viento de cola con la misma veloci-              un hombre se apresura para alcanzar su vuelo caminan-
+      dad? c) ¿Qué intervalo de tiempo es necesario si hay un              do sobre la pasarela con rapidez v2 relativa a la pasarela
+      viento lateral que sopla a 35.0 km/h hacia el este relativo          móvil. a) ¿Cuánto tiempo le toma a la mujer recorrer
+      a la tierra?                                                         la distancia L? b) ¿Cuánto tiempo le toma al hombre via-
+40.         Suponga que un salmón Chinook necesita saltar                  jar esta distancia?
+      una cascada de 1.50 m de alto. Si el pez inicia desde una
+                                                                     45. ¿Cuánto tiempo le toma a un automóvil viajando en el ca-
+      distancia de 1.00 m a partir de la base de la saliente sobre
+                                                                         rril izquierdo de una autopista a 60.0 km/h alcanzar (a la
+      la cual fluye la cascada, determine los componentes x y y
+                                                                         par) a otro automóvil que viaja en el carril derecho a
+      de la velocidad inicial que el salmón necesitaría para al-
+                                                                         40.0 km/h cuando las defensas delanteras de los automó-
+      canzar precisamente la saliente en la parte superior de su
+                                                                         viles inicialmente están separadas 100 m?
+      trayectoria. ¿Puede el pez realizar este salto? (Recuerde
+      que un salmón Chinook puede saltar fuera del agua con          46. Puede aplicar cualquier sistema coordenado parecido
+      una rapidez de 6.26 m/s.)                                          para resolver un problema de movimiento de proyectil.
+41.         Un río tiene una rapidez estable de 0.500 m/s.               Para demostrar la verdad del enunciado, considere una
+      Un estudiante nada corriente arriba una distancia de               pelota lanzada desde la parte superior de un edificio con
+                                                                                         S
+      1.00 km y nada de regreso al punto de partida. a) Si el            una velocidad v en un ángulo u con respecto a la horizon-
+      estudiante puede nadar con una rapidez de 1.20 m/s                 tal. La altura del edificio es de 50.0 m, la velocidad inicial
+      en aguas tranquilas, ¿cuánto tiempo le toma el viaje?              horizontal es de 9.00 m/s, y la velocidad inicial vertical es
+      b) ¿Cuánto tiempo se requiere en aguas tranquilas para             de 12.0 m/s. Seleccione sus coordenadas tal que el eje y
+      la misma distancia de nado? c) Intuitivamente, ¿por qué            positivo esté hacia arriba y el eje x esté hacia la derecha
+      el nado le toma más tiempo cuando existe una corriente?            y el origen se encuentre en el punto donde la pelota se
+                                                                         libera. a) Con esta selección, determine la altura máxima
+42.              Ésta es una versión simbólica del problema 41. Un
+                                                                         de la pelota sobre la superficie del suelo y el tiempo que
+      río tiene una rapidez estable de vs. Un estudiante nada
+                                                                         le toma alcanzar la altura máxima. b) Reproduzca sus
+      corriente arriba una distancia d y regresa al punto de par-
+                                                                         cálculos seleccionando el origen en la base del edificio.
+      tida. a) Si el estudiante puede nadar con una rapidez v
+      en aguas tranquilas, ¿cuánto tiempo tarriba le toma al estu-   47.         Un saltador escandinavo salta en esquí en un ángulo
+      diante nadar corriente arriba una distancia d? Exprese la            de 10.0° debajo de la horizontal, viaja 108 m de mane-
+      respuesta en términos de d, v y vs. b) Utilice las mismas            ra horizontal y 55.0 m verticalmente antes de aterrizar.
+      variables, ¿cuánto tiempo tabajo le toma nadar de regreso            a) Omitiendo los efectos de fricción y aerodinámicos,
+      corriente abajo hacia el punto de partida? c) Sume las               calcule la rapidez necesaria del esquiador al dejar la ram-
+      respuestas encontradas en los incisos a) y b) y muestre              pa. b) Los saltadores escandinavos olímpicos pueden
+      que el tiempo ta necesario para el viaje completo puede              realizar tales saltos con una rapidez de 23.0 m/s, que es
+      ser rescrito como                                                    considerablemente menor que la respuesta encontrada
+                                    2d/v                                   en el inciso a). Explique cómo es posible esto.
+                            ta 5
+                                 1 2 v s 2/v 2                       48.        En un restaurante, un cliente desliza una taza vacía
+      d) ¿Cuánto tiempo tb le toma al viaje en aguas tranquilas?           para café sobre el mostrador para una segunda carga. La
+      e) ¿Cuál es el tiempo mayor, ta o bien tb? ¿Siempre es así?          taza se desliza fuera del mostrador y golpea el piso a una
+                                                                           distancia d desde la base del mostrador. Si su altura es h,
+43. Un bombardero vuela horizontalmente sobre un terreno
+                                                                           a) determine una expresión para el tiempo t que le toma
+    a nivel con una rapidez de 275 m/s relativa a la superficie
+                                                                           a la taza caer al piso en términos de las variables h y g.
+    del suelo y con una altitud de 3.00 km. a) El bombar-
+                                                                           b) ¿Con qué rapidez deja la taza el mostrador? Responda
+    dero libera una bomba. ¿Qué distancia viaja la bomba
+                                                                           en términos de las variables d, g y h. c) En los mismos tér-
+    horizontalmente entre su liberación y su impacto sobre
+                                                                           minos, ¿cuál es la rapidez de la taza inmediatamente an-
+    la superficie? Omita los efectos de la resistencia del aire.
+                                                                           tes de que golpee el suelo? d) En términos de h y d, ¿cuál
+    b) De repente, disparos de la gente en tierra, imposibili-
+                                                                           es la dirección de la velocidad de la taza inmediatamente
+    tan al bombardero antes de que pueda decir, “¡Bombas
+                                                                           antes de que golpee el suelo?
+    fuera!” Por lo tanto, el piloto mantiene el curso original
+    de la nave, altitud y rapidez a través de una tormenta           49.        Las ciudades A y B en la figura P3.49 están separadas
+    antiaérea. ¿Dónde está la nave con respecto al punto de                80.0 km. Una pareja se pone de acuerdo para reunirse en
+    impacto de la bomba cuando ésta golpea en la superfi-                  el lago, L, conduciendo, una desde la ciudad A y la otra
+    cie de la tierra? c) La nave tiene un visor de bombardeo               desde la ciudad B. Salen simultáneamente y conducen
+    telescópico ajustado de tal manera que la bomba acierte                2.50 h en las direcciones mostradas. El automóvil 1 tiene
+    en el blanco visto en el visor en el momento de liberarla.             una rapidez de 90.0 km/h. Si los automóviles llegan de
+    ¿En qué ángulo desde la vertical se ajusta el visor de bom-            manera simultánea al lago, ¿cuál es la rapidez del auto-
+    bardeo?                                                                móvil 2?
+                                                                                                                   | Problemas      83
+
+                                                                     54.          Una camioneta se                         S
+                                                                                                                           v
+                                                                           mueve hacia el este con
+                                                   L                       una velocidad constante
+                                                                           de 9.50 m/s en un tra-
+                                                                           mo horizontal ilimitado
+                                                                           de carretera. Un niño
+                                   1
+                                                   2                       montado en la parte de                Figura P3.54
+                                                                           atrás de la camioneta
+                                                                           lanza una lata de refresco hacia arriba (figura P3.54)
+                                                                           y captura el proyectil en el mismo lugar en la cama de
+                       40.08 80.0 km
+                                                                           la camioneta, pero 16.0 m más adelante en la carretera.
+                  A                            B                           a) En el marco de referencia de la camioneta, ¿A qué án-
+                                                                           gulo con la vertical el niño debe lanzar la lata? b) ¿Cuál
+                                                                           es la velocidad inicial de la lata en relación con la ca-
+                                                                           mioneta? c) ¿Cuál es la forma de la trayectoria de la lata
+                            Figura P3.49                                   vista por el niño? Un observador en el suelo mira el niño
+                                                                           lanzar y atrapar la lata. En este marco de referencia del
+                                                                           observador, d) describa la forma de la trayectoria de la
+                                                                           lata y determine e) la velocidad inicial de la lata.
+50.          Un salmón Chinook tiene una rapidez máxima bajo         55.        Se batea un jonrón de tal manera que la pelota ape-
+      el agua de 3.58 m/s, pero puede saltar fuera de ella con             nas libra una pared de 21 m de alto, ubicada a 130 m de
+      una rapidez de 6.26 m/s. Al moverse corriente arriba                 la base del bateador. La pelota se golpea en un ángulo
+      más allá de una cascada el salmón no necesita saltar hacia           de 35° respecto a la horizontal y se omite la resistencia
+      la parte superior de la caída, sino sólo apuntar a donde la          del aire. Determine a) la rapidez inicial de la pelota,
+      rapidez del agua es menor que 3.58 m/s, después puede                b) el tiempo que le toma a la pelota alcanzar la pared y
+      nadar hacia arriba de la caída lo que le queda de la dis-            c) los componentes de la velocidad y la rapidez de la pelota
+      tancia. Ya que el salmón debe avanzar hacia adelante en              cuando alcanza la pared. (Considere que la pelota se gol-
+      el agua, suponga que puede nadar hacia la parte superior             pea a una altura de 1.0 m sobre la superficie de la tierra.)
+      si la rapidez del agua es 3.00 m/s. Si el agua tiene una ra-
+      pidez de 1.50 m/s cuando pasa sobre una saliente, ¿a qué       56. Se lanza una pelota recta hacia arriba y regresa a las ma-
+      distancia debajo de la saliente el agua se moverá con una          nos del lanzador después de 3.00 s en el aire. Se lanza
+      rapidez de 3.00 m/s? (Observe que el agua experimenta              una segunda pelota en un ángulo de 30.0° con respecto
+      movimiento de proyectil una vez que deja la saliente.) Si          a la horizontal. ¿Con qué rapidez se debe lanzar la segun-
+      el salmón es capaz de saltar verticalmente desde la base           da pelota de tal manera que alcance la misma altura que
+      de la caída, ¿cuál es la altura máxima de la cascada que el        la que se lanzó de manera vertical?
+      salmón puede librar?                                           57. Un mariscal de campo lanza un balón hacia un recep-
+                                                                         tor con una rapidez inicial de 20 m/s en un ángulo de
+51. Se lanza un cohete en un ángulo de 53.0° sobre la horizon-
+                                                                         30° sobre la horizontal. En ese instante el receptor está a
+    tal con una rapidez inicial de 100 m/s. El cohete se mue-
+                                                                         20 m del mariscal. ¿En qué dirección y con qué rapidez
+    ve por 3.00 s a lo largo de su línea inicial de movimiento
+                                                                         constante el receptor corre para atrapar el balón al nivel
+    con una aceleración de 30.0 m/s2. En este momento, sus
+    motores fallan, y el cohete procede a moverse como un                en que fue lanzado?
+    proyectil. Determine a) la altitud máxima que alcanza el         58. Un jugador de basquetbol de 2.00 m de altura está de pie
+    cohete, b) su tiempo total de vuelo y c) su alcance hori-            sobre el piso a 10.0 m de la canasta, como en la figura
+    zontal.                                                              P3.58. Si lanza la pelota en un ángulo de 40.0° con res-
+52. Dos remeros en canoas idénticas ejercen el mismo esfuer-             pecto a la horizontal, ¿con qué rapidez inicial debe lanzar
+    zo remando y, por lo tanto, mantienen la misma rapidez               la pelota de manera tal que pase a través del aro sin gol-
+    relativa al agua. Uno rema directamente corriente arri-              pear el tablero? La altura de la canasta es de 3.05 m.
+    ba, mientras que el otro rema directamente corriente
+    abajo. Con la corriente abajo como dirección positiva un
+    observador en la orilla determina las velocidades de las
+    dos canoas en 21.2 m/s y 12.9 m/s, respectivamente.                             40.0
+    a) ¿Cuál es la rapidez del agua relativa a la orilla? b) ¿Cuál                                                         3.05 m
+                                                                           2.00
+    es la rapidez de cada canoa relativa al agua?                           m
+53. a) Si una persona puede saltar una distancia horizontal
+    máxima (utilizando un ángulo de proyección de 45°) de
+    3.0 m sobre la Tierra, ¿cuál sería su alcance máximo en
+    la Luna, donde la aceleración en caída libre es g/6 y g 5                                  10.0 m
+    9.80 m/s2? b) Reproduzca sus cálculos para Marte, donde
+    la aceleración debido a la gravedad es 0.38g.                                               Figura P3.58
+                                                          www.elsolucionario.org
+
+84       CAPÍTULO 3 | Vectores y movimiento en dos dimensiones
+
+59.             Se hace una demos-                         Blanco            riberas. El cazador utiliza una pequeña lancha de motor
+      tración en una conferencia y                                           que se mueve con una rapidez máxima de 12 km/h con
+      se dispara un proyectil a un ob-          S
+                                                                             respecto al agua. ¿Cuál es el tiempo mínimo necesario
+                                                v0                           para cruzar?
+      jetivo en caída libre como se
+      muestra en la figura P3.59. El             u0    Punto de        64.        Cuando los jardineros en el béisbol lanzan la pelota,
+      proyectil sale del rifle en el mis-              impacto               por lo general se permiten un rebote, en el supuesto de
+      mo instante en que el objetivo                                         que la bola llega de esa manera a su objetivo en breve.
+      está cayendo desde el reposo.                                          Suponga que después del rebote, la pelota una vez más
+      Suponiendo que el rifle está                                           rebota con el mismo ángulo u que tiene cuando fue libe-
+      inicialmente apuntando al ob-                                          rada (como en la figura P3.64), pero pierde la mitad de
+      jetivo, muestre que el proyectil         Figura P3.59
+                                                                             su rapidez. a) Considerando que la pelota siempre se lan-
+      golpeará el objetivo. (Una res-                                        za con la misma rapidez inicial, ¿en qué ángulo u se lanza
+      tricción de este experimento es                                        la pelota con la finalidad de ir la misma distancia D con
+      que el proyectil debe alcanzar el objetivo antes que éste              un rebote cuando una pelota se lanza hacia arriba a 45.0°
+      golpee el piso.)                                                       sin rebote? b) Determine la relación de tiempos para los
+60.         La figura P3.60 explica la diferencia en proporcio-              lanzamientos con un rebote y sin rebote.
+      nes entre las anatomías
+                           S
+                                masculina
+                                 S
+                                             (m) y femenina (f).
+      Los desplazamientos d 1m y d 1f desde la parte inferior de los
+      pies hasta el ombligo tienen magnitudes Sde 104Sy 84.0 cm,
+      respectivamente. Los desplazamientos d 2m y d 2f tienen
+      magnitudes de 50.0 y 43.0 cm, respectivamente.      S
+                                                             a) De-
+                                                                S
+      termine el vector suma de los desplazamientos d d1 y d d2
+      en cada caso. b) La figura masculina es 180 cm de alto;                           45.08
+                                                                                    u                               u
+      la femenina, 1.68 cm. Normalizar los desplazamientos de
+      cada figura a una altura de 200 cm y reformule las sumas                                         D
+      vectoriales como en el inciso a). En tal caso encontrar la
+      diferencia de vectores entre las dos sumas.                                                 Figura P3.64
+
+
+                                                                       65. Un acróbata es disparado desde un cañón a 45.0° con
+                                   S                                       respecto a la horizontal con una rapidez inicial de 25.0
+                                   d2m                        S            m/s. A una distancia horizontal de 50.0 m desde el cañón
+                                                              d2f
+                           23.0                                           se ubica una red. ¿A qué altura por encima del cañón se
+                                                           28.0           coloca la red con la finalidad de atrapar al acróbata?
+                                                                       66.          Un salmón Chinook es capaz de moverse corriente
+                    S                               S                        arriba más rápido saltando fuera del agua periódicamen-
+                    d1m                             d1f
+                                                                             te; este comportamiento se le conoce como cabeceo. Con-
+                                                                             sidere un salmón nadando en aguas tranquilas y saltando
+                                                                             fuera del agua con una rapidez de 6.26 m/s en un ángulo
+                                                                             de 45°, flota a través del aire una distancia L antes de
+                            Figura P3.60                                     regresar al agua y después nada una distancia L bajo el
+                                                                             agua con una rapidez de 3.58 m/s antes de iniciar otra
+61.         Al lanzar una pelota en un ángulo de 45°, una chica              maniobra de cabeceo. Determine la rapidez promedio
+      puede tirar la pelota una distancia horizontal máxima R                del pez.
+      a nivel de campo. ¿A qué distancia puede lanzar la mis-          67.          Un estudiante decide medir la velocidad inicial de
+      ma pelota verticalmente hacia arriba? Considere que sus                un perdigón que dispara con su arma. Apuntando ho-
+      músculos proporcionan la misma rapidez en cada caso.                   rizontalmente, coloca el objetivo en una pared vertical
+      (¿Este supuesto es válido?)                                            a una distancia x desde el arma. El perdigón golpea el
+62.        La ecuación de una parábola es y 5 ax2 1 bx 1 c,                  objetivo a una distancia y abajo del arma. a) Muestre que
+      donde a, b y c son constantes. Las coordenadas x y y de un             la posición del perdigón cuando viaja a través del aire se
+      proyectil lanzado desde el origen como una función del                 conoce por y 5 Ax2, donde A es una constante. b) Expre-
+      tiempo se conocen mediante x 5 v 0xt y y 5 v 0yt 2 12gt 2 ,            se la constante A en términos de la velocidad inicial (al
+      donde v0x y v0y son los componentes de la velocidad ini-               salir por la boca del arma) y la aceleración en caída libre.
+      cial. a) Elimine t a partir de estas dos ecuaciones y muestre          c) Si x 5 3.00 m y y 5 0.210 m, ¿cuál es la rapidez inicial
+      que la trayectoria de un proyectil es una parábola y tiene             del perdigón?
+      la forma y 5 ax 1 bx2. b) ¿Cuáles son los valores de a, b y      68. Un bote de motor se orienta directamente al norte con
+      c para el proyectil?                                                 una rapidez de 20 nudos (1 nudo 5 0.514 m/s). El viento
+63. Un cazador quiere cruzar un río que tiene 1.5 km de an-                está soplando hacia el este con una rapidez de 17 nudos.
+    cho y fluye con una rapidez de 5.0 km/h paralela a sus                 a) Determine la magnitud y dirección de la velocidad del
+                                                                                                                     | Problemas           85
+
+      viento observada en el bote. b) ¿Cuál es el componen-            se encuentra 1.00 m sobre                               BEEP
+      te de la velocidad del viento en la dirección paralela al        la superficie de la tierra?                             BEEP
+      movimiento del bote? (Véase el problema 4.58 para una       73. Una vez más el decidido co-
+      explicación de cómo un bote de motor puede moverse              yote está preparado para
+      “dentro del viento”.)                                           intentar capturar al elusivo
+69. Una pelota del golf con una rapidez inicial de 50.0 m/s           correcaminos. El coyote
+    aterriza exactamente a 240 m del lugar de lanzamiento a           porta un par de potentes
+    nivel del campo. a) Omitiendo la fricción del aire, ¿cuá-         patines de ruedas marca
+    les dos ángulos de proyección lograrían este resultado?           Acme, que le proporcionan
+                                                                                                             Figura P3.73
+    b) ¿Cuál es la altura máxima que alcanza la pelota, utili-        una aceleración horizon-
+                                                                                                 2
+    zando los dos ángulos calculados en el inciso a)?                 tal constante de 15 m/s ,
+70.         Un arquitecto que di-                                     como se muestra en la figura P3.73. El coyote inicia desde
+      seña jardines planifica una                                     el reposo a 70 m del borde de un risco en el instante que el
+      cascada en el parque de                                         correcaminos pasa rápidamente en dirección del preci-
+      una ciudad. El agua fluye a                                     picio. a) Si el correcaminos se mueve con rapidez cons-
+                                                h
+      0.750 m/s y sale del extre-                                     tante, determine la rapidez mínima que debe tener para
+      mo de un canal en la parte                                      alcanzar el precipicio antes que el coyote. b) Si el pre-
+      superior de una pared verti-                                    cipicio está a 100 m por encima de la base del mismo,
+      cal con h 5 2.35 m de altura                                    determine en dónde aterriza el coyote. (Suponga que sus
+      para caer en un estanque                                        patines todavía están funcionando cuando está en vuelo y
+      (figura P3.70). a) ¿A qué                                       que su componente horizontal de aceleración permane-
+                                             Figura P3.70
+      distancia de la pared caerá                                     ce constante en 15 m/s2.)
+      el agua? ¿El espacio detrás de la cascada sería del ancho   74. Una camioneta cargada con sandías se detiene repenti-
+      suficiente para que alguien camine? b) Para vender su           namente para evitar caer de un puente destruido (figura
+      plano al consejo de la ciudad, el arquitecto quiere cons-       P3.74). La parada rápida provoca una serie de sandías
+      truir un modelo a escala, un doceavo del tamaño real.           volando fuera del camión. Una sandía pasa por encima
+      ¿Qué tan rápido fluye el agua en el canal del modelo?           de la borde con una velocidad inicial vi 5 10.0 m/s en
+71. Una estrategia en la pelea con bolas de nieve es lan-             la dirección horizontal. Un corte transversal del terra-
+    zar una en un ángulo más alto sobre el nivel de la tierra.        plén tiene la forma de la mitad inferior de una parábola
+    A continuación, mientras su oponente está viendo esa              con su vértice en el borde de la carretera y con la ecua-
+    bola, lanzar una segunda retardada en un ángulo más               ción y2 5 (16.0 m)x, donde x y y se miden en metros.
+    bajo que llegue antes o al mismo tiempo que la primera.           ¿Cuáles son las coordenadas x y y de la sandía cuando se
+    Considere que ambas bolas de nieve se lanzan con una              estrella en el terraplén?
+    rapidez de 25.0 m/s. La primera se lanza con un ángulo
+    de 70.0° con respecto a la horizontal. a) ¿En qué ángulo se
+                                                                                                   y
+    lanza la segunda bola de nieve para que llegue al mismo
+    punto que la primera? b) ¿Cuántos segundos después                                                  S
+                                                                                                        vi
+    debe lanzarse la segunda bola con respecto a la primera                                                            x
+    con la finalidad de que las dos lleguen al mismo tiempo?
+72. Se dispara un dardo mientras se mantiene horizontal a
+    una altura de 1.00 m sobre el nivel de la tierra mientras
+    está en reposo con respecto al mismo nivel. Desde la pisto-
+    la, el dardo recorre una distancia horizontal de 5.00 m. Un
+    estudiante sostiene la misma pistola en una posición hori-
+    zontal mientras se desliza hacia abajo en un plano a 45.0°
+    con una rapidez constante de 2.00 m/s. ¿Qué distancia re-     Figura P3.74 La curva azul discontinua muestra la forma parabólica del
+    correrá el dardo si el estudiante dispara la pistola cuando   terraplén.

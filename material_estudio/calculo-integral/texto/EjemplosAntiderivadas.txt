@@ -1,0 +1,620 @@
+Capítulo 1: Integral indefinida
+                                         1.1 Función primitiva o antiderivada
+
+                                         Definición
+
+                                         Sea f una función definida en un intervalo I. Una función F (x) se llama primitiva o
+                                         antiderivada de f (x) en I si F es diferenciable y F ′( x) = f ( x) para todo x en I.
+
+       Vea el módulo 1 del programa
+       de televisión Elementos básicos   Ejemplo 1
+       de cálculo integral y series
+                                         Sea f ( x ) = 4 x 3 + 8 x 2 − 4 x + 5.
+
+                                         Son primitivas de f (x) las siguientes funciones:
+
+
+                                                  F1 ( x) = x 4 + x 3 − 2 x 2 + 5 x − 6 , F2 ( x) = x 4 + x 3 − 2 x 2 + 5 x + 4.
+                                                                 8                                       8
+                                                                 3                                       3
+
+                                         En efecto,
+
+
+                                                  F1′ ( x) = F2′ ( x) = 4 x3 + 8 x 2 − 4 x + 5 = f ( x).
+
+                                         Ejemplo 2
+
+                                         Sea f ( x) = sec x.
+
+                                         Son primitivas de f (x) las siguientes funciones:
+
+
+                                                  F1 ( x) = ln (sec x + tan x) + 3, F2 ( x) = ln (sec x + tan x) − 2.
+
+                                         En efecto,
+
+
+                                                  F1′ ( x) = F2′ ( x ) = Dx (ln (sec x + tan x) + 3) = Dx (ln (sec x + tan x ) − 2).
+
+
+                                                                     =                 Dx (sec x + tan x)
+                                                                               1
+                                                                         sec x + tan x
+                                                                                                                      (RD26)
+
+
+                                                                     =                 ⋅ (sec x ⋅ tan x + sec 2 x)
+                                                                               1
+                                                                         sec x + tan x
+                                                                                                                      (RD15 y RD13)
+
+
+                                                                     =                 ⋅ sec x (tan x + sec x)
+                                                                               1
+                                                                         sec x + tan x
+                                                                     = sec x = f ( x).
+
+
+ 24
+     Ejemplo 1                                                                                            Módulo 2: Integral indefinida
+     Resuelva cada una de las siguientes integrales indefinidas:                                  El ejército de Siracusa fue así capaz de
+                                                                                                  destruir la armada de los invasores.
+
+
+            ∫ (kx + px + t ) dx , k , p, t constantes.
+            ∫ ( 3 w + 4 w ) dw.
+     a.
+                 2                                                                                Experimentalmente se ha demostrado que
+                                                                                                  la leyenda es creíble, como probó en 1747
+                          3
+                                                                                                  el conde de Bufón (Georges Louis Leclerc,
+     b.                                                                                           1707-1788, naturalista francés, autor de
+                                                                                                  uno de los primeros tratados globales de
+
+
+            ∫ ⎜⎝ x + 3 x ⎟⎠ dx.
+               ⎛ 2 1 ⎞
+                              2                                                                   historia de la biología y la geología no
+                                                                                                  basados en la Biblia). Sin embargo, Siracusa
+     c.
+                                                                                                  cayó en manos romanas a causa de una
+                                                                                                  traición y Arquímedes fue asesinado. El
+                                                                                                  general romano Marcelo, a modo de
+     Solución                                                                                     desagravio, mandó erigir para Arquímedes
+                                                                                                  una tumba sobre la cual se veía una esfera
+                                                                                                  circunscrita por un cilindro que simbolizaba,
+
+            ∫ (kx + px + t ) dx = ∫ kx dx + ∫ px dx + ∫ t dx
+                                                                                                  de acuerdo con sus deseos, su teorema
+                 2                               2
+     a.                                                                                   (F3 )   favorito sobre los volúmenes del cono, el
+
+                                = k ∫ x dx + p ∫ x dx + t ∫ dx
+                                                                                                  cilindro y la esfera. Cuando Cicerón visitó
+                                                 2                                                Sicilia pudo ver todavía el monumento que
+                                                                                          (F2 )
+                                         ⎛ x3   ⎞     ⎛ x2   ⎞
+                                                                                                  se ha perdido para la historia.
+
+                                     = k ⎜ + C1 ⎟ + p ⎜ + C2 ⎟ + t ( x + C3 )
+                                         ⎝ 3    ⎠     ⎝ 2    ⎠
+                                                                                          (F4 )   Aunque no de una manera explícita,
+                                                                                                  Arquímedes contribuyó a la aplicación de
+
+                                     = k + p + tx + C ,
+                                            3   2                                                 las matemáticas. En efecto, en su obra
+                                          x   x                                                   Equilibrio trató el problema de la palanca,
+                                           3   2                                                  que, junto a la cuña, el plano inclinado, el
+                                                                                                  rodillo y la polea, componía la colección de
+                                                                                                  las sencillas máquinas utilizadas en la
+
+            donde C = kC1 + pC2 + tC3 .
+                                                                                                  antigüedad para construcciones tan
+
+
+          ∫ ( 3 w + 4 w ) dw = ∫ (3w + 4w ) dw
+                                                                                                  asombrosas como las pirámides de Egipto,
+                                                                                                  los templos griegos y los acueductos
+                      3                          1           1                                    romanos. Se sirvió libremente de la noción
+ b.                                                  2           3
+
+
+                             = 3∫ w dw + 4 ∫ w dw
+                                                                                                  de baricentro o centro de gravedad de un
+                                             1                       1                            cuerpo como si la conociese y le fuese
+                                                 2                       3
+                                                                                  (F2 y F3 )      familiar. Casi dieciocho siglos más tarde
+
+                                      ⎡ 1           ⎤     ⎡ 1           ⎤
+                                                                                                  Galileo Galilei y el matemático holandés
+
+                                      ⎢ w 2 +1      ⎥     ⎢ w 3 +1      ⎥
+                                                                                                  Simón Stevin construyeron la teoría de la
+                                   = 3⎢        + C1 ⎥ + 4 ⎢        + C2 ⎥                         estática, esto es, una teoría del equilibrio
+
+                                      ⎢ 1 +1        ⎥     ⎢ 1 +1        ⎥
+                                                                                  (F4 )           para complicados sistemas mecánicos.
+                                      ⎣2            ⎦     ⎣3            ⎦
+                                   = 2w 2 + 3C1 + 3w 3 + 4C2
+                                         3                           4
+
+
+                                   = 2w w + 3w 3 w + C.
+
+          Como 3C1 + 4C2 es una constante arbitraria, la hemos denotado por C.
+
+
+          Al aplicar la F3 para cada ∫ f i ( x ) dx aparece una constante Ci. Entonces
+
+          podemos evaluar cada ∫ f i ( x)dx sin escribir la constante Ci, pero al final
+          escribimos C para indicar la suma de todas las constantes.
+
+
+          ∫ ⎜⎝ x + 3 x ⎟⎠ dx = ∫ ( x + 2 x 3 + x 3 ) dx
+            ⎛ 2 1 ⎞
+                          2
+                                    4     5     −2
+c.
+
+                                  = ∫ x 4 dx + 2∫ x 3 dx + ∫ x 3 dx
+                                                         5                   −2
+
+
+                                                                                                          Vea el módulo 2 del programa
+
+                                  =   + x + 3 x 3 + C.
+                                    x5 3 8 3   1                                                          de televisión Elementos básicos
+                                                                                                          de cálculo integral y series
+                                    5 4
+
+
+                                                                                    Elementos básicos de cálculo integral y series 29
+                                                                                          Módulo 3: Regla de sustitución o cambio de variable
+3.2 Ejemplos ilustrativos del uso de la regla
+Los ejemplos siguientes ilustran el uso de la regla conjuntamente con las fórmulas
+de integración presentadas en el módulo anterior.
+
+Ejemplo 1
+
+Sea g(x) una función diferenciable. Demuestre que:
+
+                                     [ g ( x)]
+        ∫ [ g ( x)] g ′( x)dx =
+                                                n +1
+
+                                                          + C , n ≠ −1, n real.
+                                          n +1
+                    n
+
+
+Solución
+
+Sea u = g(x); entonces, du = g ′( x)dx .
+
+Por tanto,
+
+        ∫ [ g ( x)] g ′( x)dx = ∫ u du; n ≠ −1
+                    n                     n
+
+
+                                     u n +1
+                                 =          +C
+                                     n +1
+                                                              (por F4 )
+
+                                   [ g ( x) ]
+                                               n +1
+
+                                 =                        +C.
+                                         n +1
+
+
+Ejemplo 2
+
+Calcule las siguientes integrales indefinidas:
+
+a. ∫                                                                          c. ∫
+                                                                                     1+ x
+                                         b. ∫ t − 1 t dt ;
+       x 2 dx
+       x3 + 1
+                                                     2
+                ;                                                                           dx.
+                                                                                      x
+
+Solución
+
+       Sea u = x + 1 ; entonces, du = 3 x 2 dx, de donde x dx = du.
+                3                                         2    1
+a.
+                                                               3
+
+
+       Luego ∫                   =∫            =     ∫ u du = u 2 + C ,
+                        x 2 dx           du        1 −12     2 1                                            «El cálculo es así una puerta abierta
+
+                        x +1
+                                                                                                            milagrosamente; aún las teorías físicas
+                          3
+                                      3 u          3         3                                              más complejas y profundas llevan un
+
+       y como u = x 3 + 1, se tiene finalmente
+                                                                                                            rastro de sus más simples ecuaciones
+                                                                                                            diferenciales y una huella de su
+
+
+                    ∫ x + 1 = 3 ( x + 1) + C.
+                                                                                                            arquitectura global».
+                        x 2 dx       2     3          1
+                                                          2
+
+                          3                                                                                                         David Berlinski
+
+
+b.     Sea u = t − 1.                                                                              (1)
+
+       Entonces, du = dt y t 2 dt = t 2 du.                                                        (2)
+
+       De (1) se tiene que t = u + 1, y sustituyendo en el segundo miembro de (2)
+                                                                                                                  Vea el módulo 3 del programa
+                                                                                                                  de televisión Elementos básicos
+
+       obtenemos: t 2 dt = (u + 1) 2 du.
+                                                                                                                  de cálculo integral y series
+
+
+                                                                                            Elementos básicos de cálculo integral y series 33
+Capítulo 1: Integral indefinida
+                                       Luego
+
+
+                                               ∫ t − 1 t dt = ∫ u (u + 1) du
+                                                          2                     2
+
+
+                                                           = ∫ (u + 2u + u ) du
+                                                                    5       3            1
+                                                                        2       2            2
+
+
+                                                               = u 2 + u 2 + u 2 +C
+                                                                2 7 4 5 2 3
+                                                                7       5      3
+                                                               = (t − 1) 2 + (t − 1) 2 + (t − 1) 2 + C.
+                                                                2       7   4       5   2       3
+
+
+                                                                7           5           3
+
+
+                                       Otra manera de calcular la integral anterior es haciendo la sustitución
+
+                                               u 2 = t − 1 y t 2 dt = 2u (u 2 + 1) 2 du. Verifique la solución.
+
+
+                                       Sea u = 1 + x ; entonces, du =                    , de donde dx = 2 x du.
+                                                                                    dx
+                                  c.
+                                                                                2 x
+                                       Luego
+
+
+                                               ∫              dx = ∫ u ·2du = u 2 + C
+                                                   1+ x                        4 3
+                                                      x                        3
+
+                                                                 = (1 + x ) 2 + C
+                                                                    4       3
+
+
+                                                                    3
+                                                                 =    (1 + x )3 + C.
+                                                                    4
+                                                                    3
+
+
+ 34
+                                                               Módulo 4: Algunas aplicaciones de la integral indefinida
+
+
+Ejemplo 1
+
+
+                                = −2 x.
+                            dy
+Sea la ecuación diferencial                                                           (1)
+                            dx
+a.     Halle la solución general.
+
+b.     Halle la solución particular si y = 1 cuando x = 2.
+
+Solución
+
+a.     De (1) tenemos que dy = −2x dx, y si integramos en ambos lados de esta
+       última ecuación obtenemos:
+
+               ∫ dy = ∫ (−2 x) dx,
+               y + C1 = − x 2 + C2 ,
+               y = − x 2 + (C2 − C1 ).
+
+
+       Sea k = C2 − C1 ; entonces, y = − x 2 + k , (2), es la solución general de (1).
+
+
+b.     Si se sustituyen las condiciones iniciales en (2) se obtiene 1 = −4 + k , de
+       donde k = 5.
+
+
+       Por tanto la solución particular a la ecuación diferencial es y = − x 2 + 5.
+
+La solución general es una familia de parábolas y una solución particular es la
+parábola que pasa por el punto (2, 1) (figura 4.2).
+
+                                                                                         «Arquímedes, uno de los más impor-
+                                                                                         tantes de todos los matemáticos, fue el
+                                                                                         hombre práctico de sentido común, el
+                                                                                         Newton de su época, que poseía la
+                                                                                         habilidad imaginativa y la perspicacia
+                                                                                         para tratar la geometría y la mecánica, y
+                                                                                         que incluso inventó el cálculo integral».
+
+                                                                                                              Herbert W. Turnbull
+
+
+                                                                                                Vea el módulo 4 del programa
+                                                                                                de televisión Elementos básicos
+                                                                                                de cálculo integral y series
+                                Figura 4.2
+
+
+                                                                    Elementos básicos de cálculo integral y series 37
+Capítulo 1: Integral indefinida
+              Ejemplo 2
+
+              Encuentre la solución general a la ecuación diferencial
+
+                           = 2x + 3.
+                      d2 y
+                                                                                            (1)
+                      dx2
+
+              Solución
+
+              A pesar de que esta ecuación no presenta la forma de una ecuación diferencial de
+              primer orden, puede ser transformada a una ecuación de dicha forma de la siguiente
+              manera:
+
+              Sea u =                     =
+                          dy            du d 2 y
+                             ; entonces          .
+                          dx            dx dx2
+
+              Luego la ecuación (1) queda como sigue:
+
+
+                         = 2 x + 3,
+                      du
+                      dx
+              de donde du = (2 x + 3) dx.
+
+
+                      ∫ du = ∫ (2 x + 3) dx.
+              Por tanto,
+
+
+              Y resolviendo las integrales obtenemos:
+
+                      u ( x ) = x 2 + 3x + k ,
+              Es decir,
+
+                      u=       = x 2 + 3x + k    o dy = ( x 2 + 3 x + k ) dx.
+                            dy
+                            dx
+
+
+                   Entonces
+
+
+                            ∫ dy = ∫ ( x + 3x + k ) dx,
+                                        2
+
+
+                   y resolviendo las integrales obtenemos finalmente:
+
+                             y=    +     + kx + C,
+                                x3 3x 2
+                                 3    2
+                   que es la solución general a la ecuación diferencial (1).
+
+
+ 38
+                                                              Módulo 4: Algunas aplicaciones de la integral indefinida
+
+Ejemplo 3
+
+
+                                                              = 1 − x2 , y la ecuación de
+                                                         d2 y
+En cualquier punto (x, y) de una curva se verifica que
+                                                         dx2
+la recta tangente a la curva en el punto (1, 1) es y = 2 − x. Encuentre la ecuación de
+la curva.
+
+Solución
+
+                                                                   = 1 − x 2 con las si-
+                                                              d2y
+Debemos buscar una solución a la ecuación diferencial
+                                                              dx 2
+guientes condiciones iniciales:
+
+a.      y = 1 cuando x = 1.
+
+             = −1 cuando x = 1 (puesto que la pendiente de y = 2 − x es –1).
+          dy
+b.
+          dx
+
+
+Sea u =                    =
+          dy             du d 2 y
+             ; entonces,          .
+          dx             dx dx 2
+
+Luego
+
+           = 1 − x2 ,
+        du
+        dx
+
+
+de donde du = (1 − x 2 ) dx.
+
+En consecuencia,
+
+
+        ∫ du = ∫ (1 − x ) dx,
+                        2
+
+
+                                                                    Elementos básicos de cálculo integral y series 39
+Capítulo 1: Integral indefinida
+
+                                  y por tanto,
+
+                                         u ( x) = x −      + C.
+                                                        x3
+                                                                                                                  (1)
+                                                        3
+                                                             dy
+                                  Si reemplazamos u por         obtenemos:
+                                                             dx
+
+                                         u=       = x − + C,
+                                               dy      x3
+                                               dx      3
+
+                                                ⎛            ⎞
+                                  de donde dy = ⎜ x −    + C ⎟ dx.
+                                                      x3
+                                                ⎝     3      ⎠
+
+
+                                                    ⎛         ⎞
+                                  Entonces ∫ dy = ∫ ⎜ x − + C ⎟ dx,
+                                                         x3
+                                                    ⎝    3    ⎠
+                                  y por tanto,
+
+
+                                          y=       − + Cx + k .
+                                                 x2 x4
+                                                                                                                  (2)
+                                                 2 12
+
+                                  La ecuación (2) es la solución general. Para conocer los valores de C y k utilizamos
+                                  las condiciones iniciales.
+
+                                  Utilizando las condiciones iniciales b en (1) obtenemos:
+
+                                         −1 = 1 − + C , de donde C = − .
+                                                 1                    5
+                                                 3                    3
+
+                                  Utilizando el valor de C y las condiciones iniciales a en (2) obtenemos:
+
+                                               1 1 ⎛ 5⎞
+                                          1=    − + ⎜ − ⎟1 + k , de donde k = .
+                                                                             9
+                                               2 12 ⎝ 3 ⎠                    4
+
+                                  Entonces la ecuación de la curva que pasa por (1, 1) y cuya recta tangente tiene
+
+                                  pendiente –1 en dicho punto es y =      − − x+ .
+                                                                        x2 x4 5 9
+                                                                        2 12 3  4
+
+
+ 40
+                                                                       Módulo 4: Algunas aplicaciones de la integral indefinida
+
+
+Ejemplo 1
+
+Una piedra es lanzada verticalmente hacia arriba desde el suelo, con una velocidad
+inicial de 20 m/s (figura 4.3). ¿Cuánto tiempo tardará la piedra en llegar al suelo y con
+qué velocidad llegará? ¿Durante cuánto tiempo estará subiendo la piedra y qué tan
+alto llegará? (utilice como aceleración de la gravedad g = 10 m/s 2 ).
+
+Solución
+
+Sean s: la posición de la piedra al cabo de t segundos.
+     v: la velocidad de la piedra en t segundos.
+     a = −g : la aceleración de la gravedad, que consideramos constante.
+
+
+                                             Figura 4.3
+
+
+Condiciones iniciales: v = 20 m/s cuando t = 0; s = 0 cuando t = 0.
+
+Para simplificar la escritura prescindiremos inicialmente de las unidades y al final las
+retomaremos.
+
+
+Como dv = −10, se tiene que dv = −10 dt. Por tanto, ∫ dv = ∫ −10 dt , luego
+     dt
+        v = −10t + C .
+
+Si v = 20 cuando t = 0, entonces 20 = −10(0) + C , de donde C = 20.
+
+Por tanto, se tiene que la velocidad en cualquier instante es v = −10t + 20.         (1)
+
+
+Pero v =                             = −10t + 20,
+           ds                     ds
+              , y en consecuencia
+           dt                     dt
+
+
+                                                                            Elementos básicos de cálculo integral y series 41
+Capítulo 1: Integral indefinida
+                                  de donde
+
+                                          ds = (−10t + 20) dt ,
+
+                                          ∫ ds = ∫ (−10t + 20) dt ,
+                                  y por tanto
+
+                                          s = −5t 2 + 20t + C1 .
+
+                                  Como s = 0 cuando t = 0, se deduce que C1 = 0. Es decir, la ecuación de movimiento
+                                  en cualquier instante t es s = −5t 2 + 20t.                                      (2)
+
+
+                                  De acuerdo con las ecuaciones (1) y (2) podemos obtener los resultados pedidos.
+
+                                  Tiempo para llegar al suelo y velocidad con que llegará:
+
+                                         Hacemos s = 0 en la ecuación (2). Entonces, 0 = −5t 2 + 20t , de donde t = 0 ó
+                                         t = 4 s.
+
+                                         Es decir, t = 0 es en el momento de iniciarse el movimiento y t = 4 s es el
+                                         tiempo que demora la piedra en caer al suelo.
+
+                                         Si en (1) reemplazamos t = 4 s, obtenemos la velocidad con que la piedra llega
+                                         al suelo. Es decir,
+
+                                                  v = −10(4) + 20 = −20, esto es, v = −20 m/s.
+
+                                  Tiempo durante el cual está subiendo la piedra y máxima altura alcanzada:
+
+                                         Hacemos v = 0 en la ecuación (1). Entonces, 0 = −10t + 20, de donde t = 2 s,
+                                         y si este valor de t lo reemplazamos en (2) obtenemos la altura máxima alcan-
+                                         zada por la piedra, es decir,
+
+                                                  s = −5(2) 2 + 20(2) = 20 m.
+
+
+ 42

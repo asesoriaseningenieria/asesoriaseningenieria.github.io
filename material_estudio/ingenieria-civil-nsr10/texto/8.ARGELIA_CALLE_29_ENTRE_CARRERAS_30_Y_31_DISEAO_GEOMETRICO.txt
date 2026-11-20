@@ -1,0 +1,430 @@
+N
+
+
+                                             E881914                                                                                                                  E881944                                                            E881974                                                                               E882004
+
+
+N1125515                                                                                                                                                                                                                                                                                                                                                                                 N1125515
+                                                                                                                    ANDE
+                                                                                                                        N                                                                                                                                                                                                                                                                                                                                          CONVENCIONES
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      P.I.
+                                                                                                                                            ANDE
+                                                                                                                                                N
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   P.C - P.T
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    EJE VÍA
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  BORDILLO
+
+                                                                                                                CAR
+                                                                                                                   RER
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              LLAVE CONFINAMIENTO
+
+
+                                                                                         ANDE
+                                                                                                                      A 31                                                                                                                                                                                                                                                                                                                                            MH
+                                                                                              N
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              POSTES DE ENERGÍA
+
+
+N1125485                                                                                                       MH                                                                                                                                                                                                                                                                        N1125485                                                                REFUERZOS
+
+                                                       ANDE
+                                                              N                                                                                                                                                                                                                                                                                        /h
+                                                                                                                                                                                                                                                                                                                                                      0 km           N
+                                                                                 O                                                                                                                                                                                                                                                                                  ANDE
+
+                                                                                                                                                                                                                                                                                                                                                EÑO
+                                                                            INAM                                                                                                                                                                                                                                                                N
+                                                                                IENT
+                                   0                                      CONF
+                                                                                                                                                                                                                                                                                                                                            ANDE
+                                  0+10                               E DE
+
+
+                                                                                                                                                                                                                                                                                                                                                    =2
+                                                                   LLAV
+
+                                             ANDE                                                 MH                        1.20
+                                                 N
+
+                                                                                                                                                                                                                                                                                                                                                         A 30
+                                                                                                         0
+                                                                                                       .30.3
+
+                                                          5                                                                                         1.20
+
+
+                                                         0+08
+                                                                                                                                                                                                                                                                                                                                      CIDA
+                                                                                                                                     2.30
+
+
+                                                                                                                                                                                                                                                                                                                                                       RER
+                                                                  EN                    0
+                                                                                       0+08
+                                                                                                                                                                                                                                                                                                                                           D DE
+                                                              AND                                                                                                    1.20
+
+                                                                                                                                   ANDE
+                                                                                                                                            N
+                                                                                                                                                                                                                                                                                                                                                      CAR
+                                                                                                                                                                            2.30
+
+
+                                                                                                                                                                                                                                                                                                                                                DIS
+                                                                                                                                                                                     1.20
+
+
+                                                                                                                                                                                                .85
+                                                                                                                                                                 0
+                                                                                                                                                                0+06
+
+                                                                                                                                                                                                                                                                                                                                  VELO
+                                                                                                                                                                                   ANDE                         2.30
+                                                                                                                                                                                            N
+
+
+                                                                                                                                                                                                            +040                                        .85
+
+
+                                                                                                                                                                                                        00.53                                                                         ANDE
+                                                                                                                                                                                                                                                                                          N
+                                                                                                                                                                                                                                 3.68
+                                                                                                                                                                                                                                                                     2.31
+
+
+                                                                                                                                                                                                       0+04
+                                                                                                                                                                                                                                                                             .85
+
+
+                                                                                                                                                                                                                                             .82                                                                                                                                                                                                                                     LLAVE DE
+                                                                                                                                                                                                                            0+03
+                                                                                                                                                                                                                                                                             2.31
+
+                                                                                                                                                                                                                                            ANDE               0
+                                                                                                                                                                                                                                                                                                       2.30
+                                                                                                                                                                                                                                                                                                                      IENT
+                                                                                                                                                                                                                                                    N
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                               CONFINAMIENTO
+N1125455                                                                                                                                                                                                                                                                                                                                                                                 N1125455
+                                                                                                                                                                                                                                                                                                                          O
+
+
+                                                                                                                                                                                                                                        PC: 0
+                                                                                                                                                                                                      PT:                                                     0+02
+                                                                                                                                                                                                                                                                                                                 INAM
+
+
+                                                                                                                                                                                                                                                                                                                 MH
+                                                                                                                                                                                                                                                                                                               CONF
+
+                                                                                                                                                                                                                                                                                                          E DE
+                                                                                                                                                                                                                                                                                                                                                                              ANDE
+                                                                                                                                                                                                                                                                                                                                                                                     N
+                                                                                                                                                                                                                           Mid:
+                                                                                                                                                                                                                                                                                                        LLAV
+
+
+                                                                                                                                                                                                                                             +026
+                                                                                                                                                                                                                                                                                                                                          MH
+                                                                                                                                                                                                                                                                                                                                                             CALL
+                                                                                                                                                                                                                                                                                                                                                                  E 29
+                                                                                                                                                                                                                                                                                                      0
+                                                                                                                                                                                                                                                                                                     0+00
+                                                                                                                                                                                                                                                                                                                                 MH
+                                                                                                                                                                                                                                                                                                                                 E
+                                                                                                                                                                                                                                                                                                                               ENT
+                                                                                                                                                                                                                                                                                               N                                                                                                                                                             ANDE DOVELA
+                                                                                                                                                                                                                                                                                                                              XIST
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                               N
+                                                                                                                                                                                                                                                                                                                                                                                                ANDE
+                                                                                                                                                                                                                                                                                              ANDE                                                                                                  N                     MH
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                         BARRA DE ANCLAJE
+                                                                                                                                                                                                                                                                                                                       TO E                N
+                                                                                                                                                                                                                                                                                                                                         ANDE
+
+                                                                                                                                                                                                                                                                                                       IMEN
+                                                                                                                                                                                                                                                                                                                                                                               N
+                                                                                                                                                                                                                                                                                                                                                                              ANDE
+                                                                                                                                                                                                                                                                                                     PAV
+                                                                                                                                                                                                                                                                                                                                                                                                                           N
+                                                                                                                                                                                                                                                                                                                                                                                                                          ANDE
+
+
+                                                                                                                                                                                                                                                                                                                                                                              DAN                                                        BORDILLO
+                                                                                                                                                                                                                                                                                                                                                                                 IELA                           NIEL
+                                                                                                                                                                                                                                                                                                                                                                                                                     A
+                                                                                                                                                                                                                                                                                                                                                                                         N
+                                                                                                                                                                                                                                                                                                                                                                                     ANDE
+                                                                                                                                                                                                                                                                                                                                                                                                         N
+                                                                                                                                                                                                                                                                                                                                                                                                        ANDE                                                                                    2.30
+N1125425                                                                                                                                                                                                                                                                                                                                                                   VILL
+                                                                                                                                                                                                                                                                                                                                                                                A
+                                                                                                                                                                                                                                                                                                                                                                                         N1125425              A DA
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         MIEN
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             TO
+                                                                                                                                                                                                                                                                                                                                                                                                          VILL
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        FINA
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    CON MH
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  E DE
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 LLAV
+
+
+                                             E881914                                                                                                                  E881944                                                            E881974                                                                               E882004
+            ARGELIA
+CALLE 29 ENTRE CARRERAS 30 Y 31
+
+
+                                              PROYECTO:                                                                                                    DIBUJÓ:                                                     DISEÑÓ:                                              APROBÓ:                                                                   CONTIENE:                              ESCALA:                                        OBSERVACIONES:                                                        CONSECUTIVO
+                              MUNICIPIO DE           CONSTRUCCIÓN DE PAVIMENTO EN VÍAS
+                                ARGELIA              URBANAS EN EL MUNICIPIO DE ARGELIA,                                                                                                                                                                                                                                                                                                                                         1:500
+                                    -                            ANTIOQUIA                                                                                                                                                   ING. LUIS FRANCISCO SOTO ROJAS
+                               ANTIOQUIA
+                                                                                                                                                            ARQ. PAOLA ANDREA ECHEVERRY LONDOÑO
+                                                                                                                                                                   M.P. N° A3812017-1152201755                                     M.P N° 05202-348262 ANT                                                                                               LOCALIZACIÓN Y ALINEAMIENTO
+
+                                                                                                                                                                                                                                                                                                                                                                                             FECHA:                   MAYO DE 2023
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  1 de 4
+                                                                                    A 31                                                                                                                                                                                                                                                                           N
+
+
+                                                                                   RER
+                                                   ANDE
+                                                        N
+                                                                               CAR
+
+
+                                                                              MH
+
+                    ANDE
+                         N
+
+
+                                            TO
+                                          MIEN                                                                                                                                                                                                                                                                                                                                           N
+                                                                                                                                                                                                                                                                                                                                                                                    ANDE
+                                         FINA
+
+                                     CON
+
+                                   E DE
+
+                                  LLAV
+
+
+  ANDE                                                      MH                         1.20
+           N
+                                                                    .30.3
+                                                                          0
+
+                            5                                                                                   1.20
+
+
+                         0+08                                                                       2.30
+                                                                                                                                                                                                                                                                                                                                                                                     DIS
+                              AND                0+08
+                                  EN
+                                                     0
+                                                                                                                                                                                                                                                                                                                                                                                 D DE
+                                                                                                                                                   1.20
+
+                                                                                                  ANDE
+                                                                                                           N                                                    2.30
+
+                                                                                                                                                                                                   1.20
+
+
+                                                                                                                                              0                                                               .85
+                                                                                                                                                                                                                                                                                                                                                                                CIDA
+                                                                                                                                         0+06
+
+                                                                                                                                                                                                                                                                                                                                                                         VELO
+                                                                                                                                                                                                 ANDE                         2.30
+                                                                                                                                                                                                          N
+
+
+                                                                                                                                                                                                                          +040                                                                .85
+
+
+                                                                                                                                                                                                                      00.53                                                                                                   ANDE
+                                                                                                                                                                                                                                                                                                                                  N
+
+                                                                                                                                                                                                                                                  0+03
+                                                                                                                                                                                                                                                                                                                2.31
+
+
+                                                                                                                                                                                                                     0+04
+                                                                                                                                                                                                                                                                                                                       .85
+
+
+                                                                                                                                                                                                                                                       3.68                  .82                                       2.31
+
+                                                                                                                                        CONVENCIONES                                                                                                                        ANDE                         0
+                                                                                                                                                                                                                                                                                                                                               2.30
+                                                                                                                                                                                                                                                                                                                                                            NTO
+                                                                                                                                                                                                                                                                                N
+                                                                                                                                                                                                                                                                           +026
+                                                                                                                                                                                                                                                                                                                                                        INAM
+
+
+                                                                                                                                                                                                                    PT:                                                                                0+02
+                                                                                                                                                                                                                                                                                                                                                            IE
+                                                                                                                                            P.I.                                                                                                                                                                                                    CON
+                                                                                                                                                                                                                                                                                                                                                       MH
+                                                                                                                                                                                                                                                                                                                                                        F
+                                                                                                                                                                                                                                                                                                                                                 E DE
+
+
+                                                                                                                                                                                                                                               Mid:
+                                                                                                                                        P.C - P.T                                                                                                                                                                                               LLAV
+
+                                                                                                                                                                                                                                                                                                                                                                                  MH
+
+                                                                                                                                                                                                                                                                         PC: 0
+                                                                                                                                         EJE VÍA
+
+
+                                                                                                                                       BORDILLO
+                                                                                                                                                                                                                                                                                                                                              0
+                                                                                                                                                                                                                                                                                                                                             0+00
+                                                                                                                                   LLAVE CONFINAMIENTO
+
+
+                                                                                                                                            MH
+
+                                                                                                                                                                                                                                                                                                                                                                       MH
+                                                                                                                                  POSTES DE ENERGÍA
+                                                                                                                                                                                                                                                                                                                                                                        E
+                                                                                                                                                                                                                                                                                                                                                                     ENT
+                                                                                                                                      REFUERZOS
+
+
+                                                                                                                                                                                                                                                                                                                                       N
+                                                                                                                                                                                                                                                                                                                                      ANDE
+                                                                                                                                                                                                                                                                                                                                                                  XIST
+
+                                                                                                                                                                                                                                                                                                                                                            TO E
+                                                                                                                                                                                                                                                                                                                                                                                 ANDE
+                                                                                                                                                                                                                                                                                                                                                                                     N
+                                                                                                                                                                                                                                                                                                                                               IMEN
+            ARGELIA
+
+
+                                                                                                                                                                                                                                                                                                                                             PAV
+CALLE 29 ENTRE CARRERAS 30 Y 31
+
+
+                                                    PROYECTO:                                       DIBUJÓ:                                               DISEÑÓ:                                APROBÓ:                    CONTIENE:                          ESCALA:                              OBSERVACIONES:                                                CONSECUTIVO
+                              MUNICIPIO DE                  CONSTRUCCIÓN DE PAVIMENTO EN VÍAS
+                                ARGELIA                     URBANAS EN EL MUNICIPIO DE ARGELIA,                                                                                                                                                                                            1:100
+                                    -                                   ANTIOQUIA                                                                               ING. LUIS FRANCISCO SOTO ROJAS                                       ALINEAMIENTO
+                               ANTIOQUIA
+                                                                                                      ARQ. PAOLA ANDREA ECHEVERRY LONDOÑO
+                                                                                                             M.P. N° A3812017-1152201755                              M.P N° 05202-348262 ANT                                  EN DETALLE K 0+000 AL K 0+085
+
+                                                                                                                                                                                                                                                               FECHA:              MAYO DE 2023
+                                                                                                                                                                                                                                                                                                                                                                  2 de 4
+                                                                                                                                              0+040
+                                                                                                                    1792
+                                                                                                                    1790                                                                                    0+085
+                                                                                                                    1788                                                      1794
+
+                                                                                                                    1786                                                      1792
+                                                                                                                               -4 -3 -2 -1 0 1 2 3 4                                         -4 -3 -2 -1 0 1 2 3 4
+
+
+                                                                                                                                              0+020                                                         0+080
+                                                                                                                    1784                                                      1794
+                                                                                                                    1782                                                      1792
+                                                                                                                               -4 -3 -2 -1 0 1 2 3 4                                         -4 -3 -2 -1 0 1 2 3 4
+
+
+                                                                                                                                                                                                            0+060
+                                                                                                                                              0+000                           1794
+                                                                                                                    1780                                                      1792
+                                                                                                                    1778                                                      1790
+                                                                                                                               -4 -3 -2 -1 0 1 2 3 4
+                                                                                                                                                                                           -4 -3 -2 -1 0 1 2 3 4
+
+
+            ARGELIA
+CALLE 29 ENTRE CARRERAS 30 Y 31
+
+
+                                             PROYECTO:                                DIBUJÓ:                                DISEÑÓ:                                APROBÓ:   CONTIENE:                      ESCALA:                   OBSERVACIONES:   CONSECUTIVO
+                              MUNICIPIO DE      CONSTRUCCIÓN DE PAVIMENTO EN VÍAS
+                                ARGELIA         URBANAS EN EL MUNICIPIO DE ARGELIA,                                                                                                                                             1:75
+                                    -                       ANTIOQUIA                                                              ING. LUIS FRANCISCO SOTO ROJAS
+
+                                                                                                                                                                                                                                                        3 de 4
+                                                                                       ARQ. PAOLA ANDREA ECHEVERRY LONDOÑO                                                        SECCIONES TRANSVERSALES
+                               ANTIOQUIA                                                                                                 M.P N° 05202-348262 ANT
+                                                                                              M.P. N° A3812017-1152201755
+
+                                                                                                                                                                                                             FECHA:    MAYO DE 2023
+                                                                                                                                                                                       PERFIL LONGITUDINAL
+                                                                                                                             1806                                                                                                                                                                                                                                         1806
+                                                                                                                             1804                                                                                                                                                                                                                                         1804
+                                                                                                                             1802                                                                                                                                                                                                                                         1802
+                                                                                                                             1800                                                                                                                                                                                                                                         1800
+                                                                                                                             1798                                                                                                                                                                                                                                         1798
+                                                                                                                             1796                                                                                                                                                                                                                                         1796
+                                                                                                                             1794                                                                                                                                                                                                                                         1794
+                                                                                                                             1792                                                                                                                                                 7%
+                                                                                                                                                                                                                                                                                                                                                                          1792
+                                                                                                                                                                                                                                                                             6 . 9
+                                                                                                                             1790                                                                                                               6.98%
+                                                                                                                                                                                                                                                                            1
+                                                                                                                                                                                                                                                                                                                                                                          1790
+                                                                                                                             1788                                                                                                                                                                                                                                         1788
+                                                                                                                             1786                                                                          8%                                                                                                                                                             1786
+                                                                                                                                                                                                        5.4
+                                                                                                                             1784                                                                     4
+                                                                                                                                                                                                                                                                                                                                                                          1784
+                                                                                                                             1782                             1 9 . 48%                                                                                                                                                                                                   1782
+                                                                                                                             1780                                                                                                                                                                                                                                         1780
+                                                                                                                             1778                                                                                                                                                                                                                                         1778
+                                                                                            ABSCISA                                                                      0+010                       0+020                0+030                         0+040                    0+050               0+060                      0+070                 0+080        0+085
+
+
+                                                                                  ELEVACIÓN (m)                                           1778.88   1779.72              1780.73       1781.70       1783.03    1784.09   1787.37         1787.45       1788.27   1788.60        1790.01   1789.82   1791.85     1791.38        1792.92     1792.64   1792.75   1792.91
+
+
+                                                                                                           PENDIENTE                                19.48% en 18.72 m                               45.48% en 11.00 6
+                                                                                                                                                                                                                    m.98% en 10.30 m                                             16.97% en 30.89 m
+                                                                                                            ENTRE PIV
+
+
+                                                                                  ALINEAMIENTO                                                                                     L=26.82m
+                                                                                                                                                                                                                               Curva 1:
+                                                                                                                                                                                                                           Radio= 624.64 m
+                                                                                                                                                                                                                             Lc= 13.71 m
+                                                                                                                                                                                                                                                                                                                            L=59.68m
+
+                                                                                                                                                                                                                              Δ= 1.26 °
+
+
+            ARGELIA
+CALLE 29 ENTRE CARRERAS 30 Y 31
+
+
+                                             PROYECTO:                                DIBUJÓ:                                 DISEÑÓ:                                                     APROBÓ:                                   CONTIENE:                               ESCALA:                                        OBSERVACIONES:                                        CONSECUTIVO
+                              MUNICIPIO DE      CONSTRUCCIÓN DE PAVIMENTO EN VÍAS
+                                ARGELIA         URBANAS EN EL MUNICIPIO DE ARGELIA,                                                                                                                                                                                                                            1:200
+                                    -                       ANTIOQUIA                                                               ING. LUIS FRANCISCO SOTO ROJAS
+
+                                                                                                                                                                                                                                                                                                                                                                                 4 de 4
+                                                                                       ARQ. PAOLA ANDREA ECHEVERRY LONDOÑO                                                                                                                  PERFIL LONGITUDINAL
+                               ANTIOQUIA                                                                                                  M.P N° 05202-348262 ANT
+                                                                                              M.P. N° A3812017-1152201755
+
+                                                                                                                                                                                                                                                                            FECHA:                   MAYO DE 2023

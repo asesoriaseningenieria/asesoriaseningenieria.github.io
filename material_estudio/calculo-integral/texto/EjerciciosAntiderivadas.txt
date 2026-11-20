@@ -1,0 +1,225 @@
+Módulos 1 al 4
+
+
+En los ejercicios 1 a 8 se dan las funciones f y F. Compruebe, usando derivación, que F ( x) es la primitiva más general
+de f ( x) . ¿Qué fórmula de integración puede deducirse en cada caso?
+
+
+                                                                       ln (1 + x 3 ) + C.
+                     x2                                              1
+                   1 + x3
+1.      f ( x) =          ;                               F ( x) =
+                                                                     3
+2.      f ( x) = ln x;                                    F ( x) = x ln x − x + C.
+
+        f ( x ) = x 3 ln x;                               F ( x) =     x ln x − x 4 + C.
+                                                                     1 4        1
+3.
+                                                                     4         16
+
+4.      f ( x) = arctan x;                                F ( x) = x ⋅ arctan x − ln 1 + x 2 + C .
+
+        f ( x) =                                          F ( x) =     x − ln (e 2 x + 4) + C.
+                     1                                               1    1
+                   e +4
+5.                  2x
+                        ;
+                                                                     4    8
+6.      f ( x) = x 2 e − x ;                              F ( x ) = −e − x ( x 2 + 2 x + 2) + C .
+
+        f ( x ) = sen 2 2 x;                              F ( x) =     x − sen 4 x + C.
+                                                                     1    1
+7.
+                                                                     2    8
+
+        f ( x ) = ( x + 3)e −3 x ;                        F ( x) = − (3 x + 10)e −3 x + C.
+                                                                    1
+8.
+                                                                    9
+
+En los ejercicios 9 a 13 encuentre la primitiva más general para la función dada.
+
+9.      f ( x ) = 3 x 2 + 4 x + 5.
+
+        f (t ) = 2 + 3 .
+                 1 3
+10.
+                t   t
+
+11.    g ( x) = 1 + x − 3 x 2 + x .
+
+        h( x ) =
+                        2x
+                   ( x 2 + 1) 2
+12.                             .
+
+13.     f ( x ) = (x + 1)1 2 .
+
+
+                                                  Capítulo 1:   Integral
+                                                           Elementos básicos        indefinida
+                                                                             de cálculo integral y series 43
+14.    Calcule las siguientes integrales indefinidas:
+
+
+               ∫ x dx.                                                               ∫ ( x + x ) dx.
+                    5                                                                                       2
+       a.                                                                   b.
+
+
+               ∫ ⎜⎝ x + x x + 2 ⎟⎠ dx.
+                   ⎛ 1                               ⎞
+                                                                                     ∫ x2 dx.
+                                     4                                                ( x + 1)3
+       c.               2                                                   d.
+
+
+               ∫ x x + 1 dx.                                                         ∫ t + 1.
+                                                                                          t 2 dt
+                            2
+       e.                                                                   f.                 3
+
+
+                                                                                     ∫
+                                                                                         (r1 3 + 2) 4
+               ∫ w w + 1 dw.                                                                                        dr.
+                  5 3
+       g.                                                                   h.                 3
+                                                                                                   r2
+
+               ∫ x 3 − 8 x dx.                                                       ∫ ( x + 1) ( x + 2 x + 8) dx.
+                    3                 2                                                                         2
+       i.                                                                   j.
+
+
+               ∫ x + 6 x + 12 x + 4 dx.
+                                ( x + 2) 2
+                                                                                     ∫
+                                                                                         sen            x
+       k.               3                2                                  l.                              dx.
+                                                                                                   x
+
+               ∫ x ⋅ cos (cos x ) ⋅ sen x dx.                                        ∫ x ⋅ sen (11x − 10) dx.
+                                                 2         2                                                         2
+       m.                                                                   n.
+
+               ∫ e ⋅ sen (4e + 2) dx.                                                ∫ e ⋅ cos e dx.
+                    x                        x                                            3x                    3x
+       o.                                                                   p.
+
+
+               ∫e               ⋅
+                                                                                     ∫ 4 + sen x ⋅ sen x cos x dx.
+                    4 tan x           dx
+       q.                                   .                               r.                              2
+                                    cos 2 x
+
+
+               ∫
+                   x sen x 2 + 4
+                            x2 + 4
+                                                     dx.
+                                                                                     ∫ x ( x + 5) ⋅ cos [( x + 5) ] dx.
+                                                                                          2        3            8         3   9
+       s.                                                                   t.
+
+
+               ∫ x cos ( x + 4) sen ( x + 4) dx.                                     ∫ t 1 + t t dt.
+                                     2                     2
+       u.                                                                   v.
+
+
+                                                                                     ∫ [sen (t 3 − 2)]2 dt.
+                                                                                       t 2 ⋅ cos (t 3 − 2)
+               ∫
+                 cos (ln 4 x 2 )
+       w.                        dx.                                        x.
+                      x
+
+15.    Encuentre la solución general de las siguientes ecuaciones diferenciales.
+
+
+                  = 3 x 3 + 2 x − 5.                                   = (2 x + 3) 2 .
+               dy                                                   dy
+       a.                                                      b.
+               dx                                                   dx
+
+                  = x y.                                               = 3 xy 2 .
+               dy                                                   dy
+       c.                                                      d.
+               dx                                                   dx
+
+En los ejercicios 16 a 19 halle la solución particular de las ecuaciones diferenciales dadas teniendo en cuenta las condiciones
+iniciales.
+
+
+           = x x 2 + 1,               si y = −3 cuando x = 0.
+        dy
+16.
+        dx
+
+
+      Ejercicios de los módulos 1 al 4
+          =           si y = −2 cuando x = 4.
+       dy 4dx
+17.           ,
+        y   x
+
+
+            = 4(1 − x) 2 , si y = 2 y y ′ = −1 cuando x = −1.
+       d2y
+18.
+       dx 2
+
+
+            = 1 − x 2 , si y = 1 y y ′ = −1 cuando x = 1.
+       d2y
+19.       2
+       dx
+
+
+      ¿Puede existir una curva que satisface las siguientes condiciones: cuando x = 0, entonces y = 0 y          =1 y
+                                                                                                              dy
+20.
+                                                                                                              dx
+
+            = 0 para todo x?
+       d2y
+       dx 2
+
+
+21.   Encuentre la ecuación de la curva que pasa por el punto (1, 1) y cuya pendiente en el punto (x, y) es 3x 2 + 2.
+
+22.   Encuentre la ecuación de la curva que pasa por los puntos (0, 3) y (1, 5) y satisface la ecuación diferencial
+
+            = x + 3x 2 .
+       d2 y
+       dx 2
+
+23.   Una pelota se lanza verticalmente hacia arriba desde el suelo con una velocidad de 10 m/s. ¿Cuánto tiempo le tomará
+      llegar al suelo y con qué velocidad caerá? ¿Durante cuánto tiempo estará subiendo y qué tan alto llegará? (utilice
+      como gravedad g = 10 m / s 2 ).
+
+24.   Un hombre en un globo deja caer un zapato cuando se encuentra a 100 m de altura y está subiendo a razón de 10 m/s.
+      ¿Cuánto tiempo tardará el zapato en llegar al suelo y con qué rapidez llegará? ¿Cuál es la distancia recorrida por el
+      zapato antes de caer?
+
+25.   Si los frenos de un carro pueden darle una aceleración negativa constante de 30 m/s, ¿cuál es la velocidad máxima
+      a la que puede ir si es necesario parar el carro dentro de 90 m después de aplicados los frenos?
+
+En los ejercicios 26 a 29 halle la ecuación de una partícula que se mueve en línea recta y en donde a, v, s y t son la
+aceleración, velocidad, espacio y tiempo, respectivamente.
+
+26.    a = 2 + 3t , s = 1 y v = 1 cuando t = 0.
+
+
+27.    a = 100, s = 1 y v = 1 cuando t = 0.
+
+
+28.    a = 2 s + 1 y v = 2 cuando s = 1.
+
+
+29.    a = 3t 2 − t , v = 1 y s = 2 cuando t = 1.
+
+
+                                           Capítulo 1: Integral indefinida

@@ -1,40 +1,33 @@
 # asesoriaseningenieria.github.io
 
-Sitio web oficial de **Asesorías en Ingeniería** para la prestación de servicios de asesorías académicas personalizadas (presenciales y online), desarrollo de trabajos escritos y consulta organizada de material de estudio por asignaturas.
+Sitio web oficial e interactivo de **Asesorías en Ingeniería** (`https://asesoriaseningenieria.github.io`) para la prestación de servicios de asesorías académicas personalizadas (presenciales y online), desarrollo de trabajos escritos y aprendizaje interactivo por asignaturas.
 
-> **Directriz Humana (Español)**: [`rules/objetivo.md`](rules/objetivo.md)  
-> **AI Mirror (English)**: [`rules/objective.md`](rules/objective.md)
+- 📱 **Celular / WhatsApp**: **`300 408 3940`**
+- 💬 **Facebook**: [`facebook.com/eulerasesoriaspagina`](https://www.facebook.com/eulerasesoriaspagina)
+- > **Directriz Humana (Español)**: [`rules/objetivo.md`](rules/objetivo.md)  
+- > **AI Mirror (English)**: [`rules/objective.md`](rules/objective.md)
+
+## Características Interactivas por Asignatura
+Cada una de las 11 páginas en `materias/*.html` incluye 4 módulos integrados:
+1. **📖 Teoría Básica**: Definiciones, propiedades, fórmulas clave y ejemplos paso a paso redactados a partir del material extraído.
+2. **🧮 Laboratorio Interactivo**: Simuladores y calculadoras en vivo con gráficas Canvas 2D (tablas de verdad, matrices, vectores ℝ³, recta tangente, sumas de Riemann, método de Euler, tiro parabólico, reacciones en vigas, Círculo de Mohr, espectro NSR-10 y algoritmos Python/JS).
+3. **📚 Material PDF y Texto Extraído**: Visor integrado en la página para leer y buscar dentro de los archivos `.txt` extraídos desde `material_estudio/<materia>/texto/` y acceso directo a los PDFs en `material_estudio/<materia>/pdfs/`.
+4. **✅ Autoevaluación**: Cuestionarios tipo parcial con retroalimentación inmediata y solución explicada.
 
 ## Estructura del Proyecto
 
 ```text
 asesoriaseningenieria.github.io/
-├── index.html                   # Página principal, servicios y catálogo interactivo de materias
-├── contacto.html                # Generador de solicitud de asesoría y embudo hacia Facebook
-├── favicon.ico                  # Icono principal del sitio
-├── site.webmanifest             # Manifiesto PWA / iconos web
-├── materias/                    # Páginas independientes y organizadas por asignatura
-│   ├── razonamiento-logico.html
-│   ├── algebra-lineal.html
-│   ├── geometria-vectorial.html
-│   ├── calculo-diferencial.html
-│   ├── calculo-integral.html
-│   ├── metodos-numericos.html
-│   ├── fisica-mecanica.html
-│   ├── estatica.html
-│   ├── mecanica-materiales.html
-│   ├── ingenieria-civil-nsr10.html
-│   └── programacion-ingenieria.html
+├── index.html                   # Portal principal, servicios, contacto y catálogo interactivo
+├── contacto.html                # Constructor de solicitud hacia WhatsApp (300 408 3940) y Messenger
+├── favicon.ico / site.webmanifest
+├── scripts/
+│   ├── descargar_y_extraer_material.py # Descarga PDFs de Drive y extrae texto plano (.txt)
+│   └── generar_sitio_interactivo.py    # Construye data-teoria-materias.js y páginas materias/*.html
+├── material_estudio/            # Repositorio local por asignatura (pdfs/ y texto/*.txt)
+├── materias/                    # 11 páginas interactivas (teoría, laboratorio, PDF/TXT y quiz)
 └── assets/
-    ├── css/
-    │   ├── main.css             # Sistema de diseño global (paleta institucional, layout y responsive)
-    │   └── subject.css          # Estilos para páginas de asignaturas y contacto
-    ├── js/
-    │   ├── data-materias.js     # Base de datos estructurada de materias y temas
-    │   ├── main.js              # Navegación, filtros por categoría y buscador en tiempo real
-    │   └── contact.js           # Constructor interactivo de mensajes para Facebook Messenger
-    └── img/
-        ├── brand/               # Logotipos, favicons y portada Open Graph (og-cover.png)
-        ├── hero/                # Fotografías optimizadas de tutoría, escritorio y código/estructuras
-        └── icons/               # Iconos SVG vectoriales por área de estudio
+    ├── css/ (main.css, subject.css)
+    ├── js/  (data-materias.js, data-teoria-materias.js, learning-interactive.js, main.js, contact.js)
+    └── img/ (brand/, hero/, icons/)
 ```

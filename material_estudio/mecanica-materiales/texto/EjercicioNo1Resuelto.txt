@@ -1,0 +1,56 @@
+Determine las fuerzas internas
+actuando en la sección b-b a través
+    del centroide C en la viga.
+
+
+           Solución:
+
+Analizando la estática del ejercicio:
+
+
+De donde resultan las ecuaciones:
+
+    ∑ M A =0=R B sen (30 °)∗(9 ft )−( 8100lb )∗(3 ft )
+Entonces:
+           24300lb∗ft
+    RB =              =5400 lb
+              4,5 ft
+y
+
+    ∑ Fy=0= Ay−8100 lb+ R B sen (30 °)
+    Ay =8100 lb−(5400 lb)∗( sen(30° ))=5400lb
+
+    ∑ Fx=0=Ax−R B cos(30 °)
+    Ax=(5400 lb)∗(cos (30 °))=4676,54 lb
+En el punto C, las fuerzas internas son:
+
+Por semejanza de triángulos:
+
+     lb
+ 900
+      ft    Q
+         =      de donde Q=300lb/ft y la carga distribuida es:
+  9 ft     3 ft
+
+300lb/ft*3ft*(1/2)=450 lb
+
+
+ ∑ Fx=0=−N−5400 cos (30 °)
+
+ N=−(5400 lb)∗(cos (30 °))=−4676,54 lb
+
+ ∑ Fy=0=V +5400 sen (30 °)−450 lb
+ V =450lb −(5400 lb)∗( sen(30 ° ))=−2250 lb
+
+ ∑ M =0=5400 lb∗sen(30 ° )∗(3 ft )−( 450 lb)∗(1 ft )−M
+ M =5400 lb∗sen(30 ° )∗( 3 ft )−(450 lb)∗(1 ft )=2250 lb∗ft
+
+Por lo tanto, las fuerzas internas en el corte b-b serán:
+De la imagen se puede observar que las fuerzas normales y tangenciales al
+plano son:
+
+ σ n=Vsen(60 °)−Ncos(60 ° )=−389,71 lb   σ τ =−Vcos (60 °)−Nsen(60° )=−5175 lb
+
+y el momento es: M = 2250lb*ft
+
+Por lo tanto, las fuerzas internas en el corte son las siguientes:

@@ -1,0 +1,2717 @@
+Desarrollo, implementación y prueba
+de un filtro de Kalman del tipo UKF
+para un vehículo aéreo no tripulado
+
+
+            HERNANDO LEYTON V
+           Lic. en Matemáticas y Física
+                  Ing. Electricista
+
+
+        Director: Carlos Mario Vélez S., Dr.
+
+
+        Maestría en Matemáticas Aplicadas
+        Departamento de Ciencias Básicas
+        Escuela de Ciencias y Humanidades
+               Medellín - Colombia
+                 Mayo 13 de 2009
+                         Nota de aceptación
+
+
+________________________________________
+________________________________________
+________________________________________
+________________________________________
+________________________________________
+
+
+________________________________________
+                     Francisco Iván Zuluaga
+                  Coordinador de la Maestría
+
+
+________________________________________
+                       Carlos Mario Vélez S.
+                        Director del proyecto
+
+
+                  Medellín, mayo 13 de 2009
+                                                                       Dedicatoria
+
+
+Arduo análisis, cooperación y constancia han sido las piezas claves para la realización de este documento.
+Dedico su finalización a la Universidad San Buenaventura quien me brindo apoyo económico, abrió un
+espacio de trabajo conjunto con la Universidad EAFIT y me permitió combinar mi labor docente con la
+ejecución de mi maestría. A mi tutor, el Dr. Carlos Mario Vélez, por su constante acompañamiento
+científico y la corrección final del manuscrito, el cual refleja su capacidad y experiencia en el área. Y a mi
+familia y amigos por su apoyo incondicional y su buen ánimo.
+                                                                            Resumen
+
+
+En este trabajo se presenta el desarrollo matemático, diseño, implementación en Matlab/Simulink y análisis
+de una versión del filtro de Kalman denominada Filtro de Kalman “Unscented” (UKF), para la estimación
+óptima y en tiempo real (Chow et al., 2007) de las variables de estado de interés (posición, velocidad y
+actitud) de un mini-helicóptero robot a partir de las medidas ruidosas indirectas que de él se conocen
+(posición y velocidad a partir del GPS y rumbo dado por un magnetómetro). El trabajo hace parte del
+Proyecto Colibrí (2009) del grupo de investigación "Sistemas de Control Digital" de la Universidad EAFIT de
+Medellín, en el cual se ha construido una plataforma (mini-helicóptero, aviónica y software) para la
+aplicación de diversos métodos matemáticos.
+A partir de una revisión bibliográfica exhaustiva sobre el filtro de Kalman y sus aplicaciones a aeronaves,
+se hace el desarrollo matemático del filtro UKF con la versión original propuesta por Julier y Uhlmann
+(1997) en lo referente al manejo de los puntos sigma y la Transformación “Unscented" (UT), herramientas
+matemáticas fundamentales propuestas por ellos para la extensión del Filtro de Kalman a sistemas no
+lineales. Después, y mediante la utilización de bibliografía más aplicada, como los trabajos de Oh y
+Johnson (2006) y Vélez y Agudelo (2006), se implementa y documenta el filtro completamente en
+Matlab/Simulink (Matlab, 2009; Simulink, 2009) con la posibilidad de ejecución en tiempo real dentro de la
+metodología de prototipado rápido de software (Vélez y Agudelo, 2006).
+A partir de las pruebas realizadas en diferentes condiciones (Teixeira et al, 2008) se pudo concluir que el
+filtro UKF brinda mejores resultados que los obtenidos con el Filtro de Kalman Extendido (EKF) utilizado en
+la actualidad en el proyecto Colibrí. Se puede resaltar del UKF implementado la invariabilidad de su
+comportamiento frente a la variación de las condiciones iniciales del vector de estado y la matriz de
+covarianzas, así como la reducción en el valor del error absoluto de las componentes del vector de estado
+en cada instante y el error cuadrático medio (RMSE). Como única desventaja podemos destacar el
+aumento del costo computacional frente al EKF debido al elevado número de operaciones para cada uno
+de los vectores de la matriz de puntos sigma.
+                                                                                                                        Contenido
+
+
+Dedicatoria ....................................................................................................................................................v
+Resumen......................................................................................................................................................vii
+Contenido .....................................................................................................................................................ix
+Lista de figuras ............................................................................................................................................xi
+Lista de tablas ............................................................................................................................................xiii
+Capítulo 1. Introducción ...............................................................................................................................1
+    1.1 Descripción y formulación del problema ........................................................................................................... 3
+    1.2 Objetivos........................................................................................................................................................... 3
+       1.2.1 Objetivo general ...................................................................................................................................... 3
+       1.2.2 Objetivos específicos .............................................................................................................................. 4
+    1.3 Justificación ...................................................................................................................................................... 4
+    1.4 Limitaciones de la investigación ....................................................................................................................... 4
+    1.5 Hipótesis o pregunta de investigación .............................................................................................................. 5
+    1.6 Planteamiento metodológico ............................................................................................................................ 5
+       1.6.1 Tipo de investigación .............................................................................................................................. 5
+       1.6.2 Método de investigación ......................................................................................................................... 5
+       1.6.3 Técnicas e instrumentos para la recolección de la información .............................................................. 5
+    1.7 Usuarios potenciales ........................................................................................................................................ 6
+    1.8 Modelo dinámico del mini-helicóptero .............................................................................................................. 6
+       1.8.1 Componentes del modelo matemático .................................................................................................... 8
+       1.8.2 Ecuaciones de movimiento ..................................................................................................................... 9
+       1.8.3 Componentes de fuerzas y momentos ................................................................................................. 11
+    1.9 Organización del trabajo................................................................................................................................. 12
+Capítulo 2. Filtro de Kalman “Unscented” (UKF) .....................................................................................14
+    2.1     Introducción .................................................................................................................................................... 14
+    2.2     El filtro Kalman ............................................................................................................................................... 14
+    2.3     La Transformación “Unscented” (UT) ............................................................................................................. 18
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                                  ix
+    2.4     Filtro de Kalman Unscented (UKF) ................................................................................................................. 20
+    2.5     Análisis del filtro UKF ..................................................................................................................................... 23
+    2.6     Resumen del capitulo ..................................................................................................................................... 24
+Capítulo 3. Resultados y análisis en la implementación y aplicación del UKF .....................................25
+    3.1 Introducción .................................................................................................................................................... 25
+    3.2 Codificación del UKF en Matlab/Simulink ....................................................................................................... 25
+    3.3 Pruebas y ANÁLISIS de resultados ................................................................................................................ 31
+       3.3.1 Efecto de la selección del tiempo de muestreo Ts ............................................................................... 33
+       3.3.2 Efecto de la selección de la matriz de covarianzas inicial P0 .............................................................. 35
+       3.3.3 Obtención y comparación de los valores RMSE para los EKF y UKF .................................................. 37
+       3.3.4 Análisis del tiempo de operación .......................................................................................................... 44
+    3.4 Resumen del capítulo ..................................................................................................................................... 44
+Capítulo 4. Conclusiones y recomendaciones .........................................................................................45
+Anexo ...........................................................................................................................................................48
+Bibliografía ..................................................................................................................................................51
+Índice ...........................................................................................................................................................54
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                               x
+                                                                                       Lista de figuras
+
+
+Figura 1.1 Ejemplo en 2D del comportamiento de los puntos sigma. Gráfica tomada de Wan y Van der
+    Merwe (2001). .........................................................................................................................................2
+Figura 1.2 Ángulos de Euler. ..........................................................................................................................6
+Figura 1.3 Mini-helicóptero X-Cell en vuelo ...................................................................................................7
+Figura 1.4 Modelo dinámico del mini-helicóptero implementado en Matlab/Simulink ....................................7
+Figura 1.5 Fuerzas externas y momentos que actúan en el helicóptero ........................................................9
+Figura 3.1 Modelo del mini-helicóptero trabajado en el proyecto Colibrí.......................................................26
+Figura 3.2 Filtro EKF incorporado al modelo del mini-helicóptero trabajado en el proyecto Colibrí ..............26
+Figura 3.3 Modelo final en Matlab Simulink del filtro UKF .............................................................................27
+Figura 3.4 Implementación en Matlab Simulink de los puntos sigma ...........................................................27
+Figura 3.5 Elemento Implementado en Matlab/Simulink para la determinación de x(k|k-1) .......................28
+Figura 3.6 Implementación en Matlab Simulink para la predicción de la matriz de covarianzas P  k | k  1
+     ..............................................................................................................................................................28
+Figura 3.7 Implementación en Matlab Simulink de la etapa de predicción del UKF .....................................28
+Figura 3.8 Elemento Implementado en Matlab/Simulink para la determinación de y  k | k  1 .................29
+Figura 3.9 Implementación en Matlab Simulink para la determinación de Pyy .............................................29
+Figura 3.10 Elemento Implementado en Matlab Simulink para la determinación de Pxy .............................29
+Figura 3.11 Implementación en Matlab Simulink para la determinación de K  k | k  ................................30
+Figura 3.12 Implementación en Matlab Simulink para la corrección del vector de estado x  k | k  ...........30
+Figura 3.13 Implementación en Matlab Simulink para la corrección de la matriz de covarianzas P  k | k  30
+Figura 3.14 Implementación en Matlab Simulink de la etapa de corrección del UKF ..................................31
+Figura 3.15 Parámetros y condiciones iniciales de trabajo para el UKF .....................................................32
+Figura 3.16 Comparación de las trayectorias en XY del UKF y EKF con la referencia para un Ts=0.01 s ..33
+Figura 3.17 Comparación de las trayectorias en XY del UKF y EKF con la referencia para un Ts=0.02 s ..34
+Figura 3.18 Comparación de las trayectorias en XY del UKF y EKF con la referencia para un Ts=0.04 s ..34
+Figura 3.19 Comparación de las trayectorias en XY del UKF y EKF con la referencia para un Ts=0.08 s ..35
+Figura 3.20 Comparación de las trayectorias en XY del UKF y EKF con la referencia para P0  0 ............36
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                       xi
+Figura 3.21 Comparación de las trayectorias en XY del UKF y EKF con la referencia para P0  diag
+    ((5/3)2; (5/3)2; (7/3)2; 1; 1; (5/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2;(0.01/3)2; (0.01/3)2; (0.01/3)2;
+    (0.01/3)2; (0.01/3)2; (0.01/3)2 ). ..............................................................................................................36
+Figura 3.22 Comparación de las trayectorias en XY con Po=0 para el EKF y Po= diag((5/3)2; (5/3)2;
+    (7/3)2;1;1;(5/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2;(0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2;
+    (0.01/3)2; (0.01/3)2 ) para el UKF. ..........................................................................................................37
+Figura 3.23 Comparación de la componente x para el EKF Y UKF con la referencia ................................38
+Figura 3.24 Comparación de la componente y para el EKF Y UKF con la referencia ................................38
+Figura 3.25 Comparación de la componente z para el EKF Y UKF con la referencia .................................39
+Figura 3.26 Comparación de las velocidades en x para el EKF Y UKF con la referencia ..........................39
+Figura 3.27 Comparación de las velocidades en y para el EKF Y UKF con la referencia ..........................40
+Figura 3.28 Comparación de las velocidades en z para el EKF Y UKF con la referencia ..........................40
+Figura 3.29 Comparación de los ángulos de roll, pitch y yaw del modelo del mini-helicóptero con el UKF .41
+Figura 3.30 Comparación de los ángulos de roll, pitch y yaw del modelo del mini-helicóptero con el EKF .41
+Figura 3.31 Estimación de los errores de posición x , y y z en los filtros EKF y UKF ...............................42
+Figura 3.32 Estimación de los errores de velocidad vx , v y y vz en los filtros EKF y UKF ..........................43
+Figura 3.33 Estimación de los errores en las medidas de los ángulos de roll, pitch y yaw en los filtros EKF y
+    UKF .......................................................................................................................................................43
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                  xii
+                                                                              Lista de tablas
+
+
+Tabla 1.1 Parámetros del modelo del mini-helicóptero ..................................................................................9
+Tabla 3.1 Parámetros utilizados para el UKF en bibliografía relacionada con el control de aeronaves ......32
+Tabla 3.2 Comparación de los errores RMSE en los filtros EKF y UKF de las componentes de posición
+    velocidad y ángulos en el mini-helicóptero ............................................................................................42
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                              xiii
+                                 Capítulo 1. Introducción
+
+
+En la navegación de un vehículo autónomo como un UAV (“Unmanned Aerial Vehicle”), la posición y
+velocidad pueden ser determinadas con un sistema de posicionamiento global (“Global Positioning
+System”- GPS) y el rumbo con un magnetómetro. Sin embargo, los errores asociados a estas medidas no
+permiten que éste sea el único sistema de medida utilizado en la aeronave. Surge entonces la necesidad
+de implementar herramientas que determinen el estado del sistema (posición, velocidad y actitud o
+inclinación) en cualquier instante y realicen las acciones de control necesarias para cumplir con una tarea o
+trayectoria determinada en forma óptima y recursiva, teniendo en cuenta el modelo interno del sistema. La
+aplicación de un filtro de Kalman es clave en esta etapa, ya que permite la fusión de la información del
+GPS, del magnetómetro y del sistema de referencia inercial (INS), compuesto por acelerómetros y
+giróscopos, para determinar el estado del UAV.
+El filtro de Kalman apareció a principios de la década de los sesenta y es un método muy utilizado para
+estimar de manera óptima los estados de un sistema dinámico en tiempo real, a partir de las medidas
+ruidosas indirectas que de él se van tomando (Chow et al., 2007). Estas estimaciones en tiempo real del
+estado del sistema son valiosas en sí mismas cuando el sistema opera en lazo abierto; sin embargo, si se
+considera la operación de lazo cerrado, las mismas pueden ser utilizadas para un control que mantenga la
+aeronave en el vuelo deseado (Aguirre-Gil et al., 2005).
+En la actualidad, el manejo de modelos, en su mayoría no lineales, ha hecho necesario adaptar o extender
+nuevas versiones del filtro de Kalman para que trabajen con la linealización de los modelos o permitan el
+manejo de densidades de distribución no necesariamente lineales (Pascual, 2006). Dentro de las
+modificaciones antes mencionadas tenemos el filtro extendido de Kalman (“Extended Kalman Filter” - EKF)
+y el Filtro de Kalman “Unscented” (“Unscented Kalman Filter” - UKF), que no presenta traducción definida
+al español. La idea esencial del EKF fue propuesta por Schmidt (1976) y fue utilizada hasta hace poco
+como la opción estándar en aplicaciones no-lineales (Grewal y Andrews, 2001). Se caracteriza por
+responder a las alinealidades del sistema equivalente linealizado empleando sus últimos valores estimados
+y asumiendo que el error provocado al ignorar los términos de orden superior es muy pequeño en
+comparación con los términos de primer orden. La pérdida de términos de orden superior puede evitarse
+usando todas las ecuaciones no lineales, aunque una descripción completa del estado condiciona la
+densidad de probabilidad a requerir de un elevado número de parámetros no siempre bien determinados
+(Oh y Johnson, 2006).
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   1
+El UKF, propuesto inicialmente por Julier y Uhlmann (1997) y luego perfeccionado por Wan y Van der
+Merwe (2001), es una extensión del filtro de Kalman que se emplea para la estimación de sistemas no
+lineales sin tener que linealizar el sistema como en el EKF. En este caso se implementa un método
+denominado transformación “unscented” que se utiliza para calcular los primeros momentos de la densidad
+de distribución de probabilidad de una variable aleatoria y(x) que resulta de aplicar una transformación no
+lineal f a una variable aleatoria x de estadística conocida.
+Un conjunto de puntos, denominados puntos sigma, se eligen de forma tal que su media y covarianza
+coincidan con la esperanza y covarianza de la variable aleatoria x. Luego, la transformación no lineal f se
+aplica a cada punto sigma para generar una nube de puntos transformados. En la figura 1.1 se visualiza la
+idea del comportamiento de la media y la covarianza de estos puntos sigma mediante su comparación con
+los valores reales y la aproximación obtenida con los EKF. De la estadística de los puntos transformados
+se pueden estimar ahora la esperanza y covarianza de la variable aleatoria 𝑦 = f(𝑥) (Pascual, 2006; Van
+der Merwe y Wan, 2001).
+
+
+      Figura 1.1 Ejemplo en 2D del comportamiento de los puntos sigma. Gráfica tomada de Wan y Van der Merwe (2001).
+
+
+Este enfoque da al UKF mejores características de convergencia y precisión para los sistemas no lineales
+que las obtenidas con el EKF. Además, con el UKF se maneja directamente la información de los
+instrumentos de medida sin requerir de un procesamiento adicional, como el cómputo de la matriz
+jacobiana utilizada en el EKF (Oh y Johnson, 2006). Otra importante ventaja del UKF que lo hace atractivo
+para su implementación en aeronaves (sistemas inherentemente no lineales) es la habilidad para estimar
+parámetros con bastante precisión en las alinealidades del sistema.
+Actualmente, el mini-helicóptero X-Cell 60 del Proyecto Colibrí (2009) de la Universidad EAFIT de Medellín
+opera con base en la estimación de variables obtenidas mediante un filtro EKF. Las medidas tomadas de la
+Unidad de Medición Inercial o IMU (velocidad angular y la aceleración en cada eje del vehículo), el GPS
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado            2
+(posición geodésica y velocidades respecto a la Tierra) y el magnetómetro (rumbo), son empleadas para
+obtener, mediante ecuaciones diferenciales no lineales, la posición, velocidad y actitud (ángulos de Euler)
+de la aeronave respecto al sistema de coordenados fijo a la Tierra (sistema de navegación NED: North-
+East-Down). La IMU está formada por tres acelerómetros y tres giróscopos encargados de entregarle al
+Sistema Inercial de Navegación (INS) los datos de aceleración y velocidad respectivamente en cada eje
+(Vélez 2006; Vélez y Agudelo, 2006).
+En el presente trabajo, mediante la utilización de Matlab/Simulink, se implementó el UKF como un
+observador de estado aplicado a las ecuaciones cinemáticas que modelan el mini-helicóptero X-Cell 60
+con el fin de mejorar su desempeño y operación, ya que su utilización está orientada principalmente a
+realizar entre otras actividades: monitoreo ambiental, inspección y vigilancia de redes, inspecciones de
+tráfico, búsqueda y rescate, fotografía aérea, inteligencia y reconocimiento aéreo. Este trabajo es una
+continuación de los trabajos realizados previamente dentro del grupo en el tema de la estimación del
+estado (Álvarez, 2005; Vélez, 2007).
+
+
+1.1      DESCRIPCIÓN Y FORMULACIÓN DEL PROBLEMA
+
+El proyecto Colibrí del grupo de investigación "Sistemas de Control Digital" de la Universidad EAFIT de
+Medellín tiene entre sus objetivos aprovechar las extensas posibilidades del programa Matlab (con sus
+cajas de herramientas o "toolboxes") para el modelado, identificación, adaptación y control de sistemas. De
+los proyectos y desarrollos investigativos del grupo surgió el interés por diseñar un control que logre
+mantener una trayectoria deseada y la actitud del helicóptero, es decir, la posición con respecto al sistema
+de coordenadas de navegación NED.
+
+El filtro utilizado por el grupo en la actualidad es un EKF que se basa en la información de un gradiente de
+primer orden derivado de un sistema no lineal, que no presenta una óptima precisión por ser una
+aproximación de primer orden. Con la implementación del UKF se incorpora la información de un gradiente
+de orden superior, mejorando así la precisión. Además, con el UKF se maneja directamente la información
+de los instrumentos de medida sin requerirse de un procesamiento adicional, como el cómputo de la matriz
+jacobiana (Oh y Johnson, 2006), aunque por lo extenso del método, el procesamiento adicional se
+destinaria al cálculo y procesamiento de los puntos sigma.
+
+
+1.2      OBJETIVOS
+
+1.2.1 Objetivo general
+
+Diseñar, implementar, analizar y probar el comportamiento en simulación de un filtro de Kalman
+“Unscented” (UKF) sobre el modelo de un mini-helicóptero robot.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   3
+1.2.2 Objetivos específicos
+
+   Presentar un desarrollo teórico de los Filtros Kalman Unscented (UKF)
+   Desarrollar teóricamente el UKF para un mini-helicóptero robot
+   Obtener el diagrama de simulación en Matlab/Simulink del filtro UKF
+   Simular el control del mini-helicóptero mediante la utilización del UKF en Matlab
+   Analizar el comportamiento del UKF en la simulación y documentar los resultados
+
+
+1.3      JUSTIFICACIÓN
+
+La teoría de control no lineal y sus aplicaciones en la estimación del estado en tiempo real para los
+modelos cada vez más complejos en ingeniería, se ha visto estimulada por el desarrollo tecnológico de la
+computación, que mediante el cálculo numérico facilita dichos análisis e implementaciones. Un caso
+específico de las aplicaciones está relacionado con los vehículos aéreos no tripulados (UAV) autónomos,
+que permiten aplicar el filtro de Kalman para la estimación del estado y, seguramente, con una aplicación
+posterior al control automático. El proyecto Colibrí brinda la posibilidad de desarrollar investigaciones a
+través de la matemática aplicada, buscando un buen nivel de desarrollo en lo referente a la modelación y el
+control de mini-helicópteros. En este proyecto se desarrolla una de las técnicas de estimación del estado
+más actuales (el UKF) para el mini-helicóptero X-Cell 60 del Proyecto Colibrí (2009), permitiendo la
+aplicación y comparación de avanzados métodos matemáticos y su aplicación a un problema real.
+
+
+1.4      LIMITACIONES DE LA INVESTIGACIÓN
+
+El proyecto está orientado a la implementación de un UKF en Matlab/Simulink y su simulación para
+diferentes condiciones iniciales con el fin de analizar su desempeño frente al EKF existente en la
+actualidad, para considerar su posible implementación dentro del sistema de control del mini-helicóptero
+del proyecto Colibrí. En las simulaciones no se recurre a pruebas con todos los datos reales, por las
+mayores dificultades inherentes a la toma de ellos (calibración de sensores, problemas electrónicos,
+reducción de ruidos) y por el alcance matemático de este trabajo.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   4
+1.5      HIPÓTESIS O PREGUNTA DE INVESTIGACIÓN
+
+¿Es el UKF una mejor alternativa de estimación del estado de un mini-helicóptero robot que el EKF usado
+en la actualidad en el proyecto Colibrí?
+
+
+1.6      PLANTEAMIENTO METODOLÓGICO
+
+1.6.1 Tipo de investigación
+
+Esta investigación es de tipo aplicada, ya que el UKF implementado en Matlab se utilizará en la simulación
+del comportamiento de la aeronave en trayectorias y condiciones específicas. Sin embargo, la aplicación
+requiere de un enfoque completamente matemático basado en la teoría del filtro.
+
+1.6.2 Método de investigación
+
+En el desarrollo de la investigación se siguieron las siguientes fases:
+
+    Revisión bibliográfica sobre el tema
+    Estudio del modelo del mini-helicóptero con el fin de unificar la estructura del modelo y las variables
+     utilizadas en su definición
+    Desarrollo matemático del filtro y, con base en los resultados, implementación del modelo en
+     Matlab/Simulink
+    Documentación de la versión final del UKF
+    Simulaciones del UKF para diferentes condiciones iniciales con el fin de validar en Matlab/Simulink su
+     aplicación al control del mini-helicóptero
+    Redacción del documento final
+
+
+1.6.3 Técnicas e instrumentos para la recolección de la información
+
+Se utilizaron artículos científicos, libros especializados y la asesoría directa del director del proyecto, el
+doctor Carlos Mario Vélez S. Para la implementación del UKF y su simulación se trabajó con Matlab y
+diferentes herramientas, algunas desarrolladas por el grupo de investigación.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   5
+1.7      USUARIOS POTENCIALES
+
+El filtro UKF desarrollado puede ser utilizado por ingenieros que quieran profundizar en el manejo de
+sistemas no lineales y su extensión a otros campos de investigación, así como por estudiantes de ciencias
+que deseen ver la aplicación directa de las teorías matemáticas y leyes físicas en procesos reales.
+También la industria, que empieza a creer en el material humano de este país, puede considerar estos
+desarrollos para iniciar procesos de innovación tecnológica e investigación en el área de la estimación del
+estado y los sensores virtuales.
+
+
+1.8      MODELO DINÁMICO DEL MINI-HELICÓPTERO
+
+Los helicópteros son vehículos que pueden ser representados como sistemas complejos no lineales con
+múltiples entradas y múltiples salidas (MIMO) y con fuertes modos acoplados, lo que hace que su
+modelado matemático y control presenten un alto grado de dificultad y sea un sistema muy interesante
+para su estudio por medio de diferentes estrategias de control (Aguirre-Gil, 2005).
+Estos sistemas funcionan bajo un amplio rango de condiciones aerodinámicas, pero en los helicópteros
+miniatura muchos de estos efectos no son tenidos en cuenta por la gran influencia que presenta el rotor en
+el modelo, así como los momentos casi instantáneos en los que el rotor controla las entradas. Una versión
+menos compleja del modelo se puede encontrar con métodos de identificación mientras se encuentra en
+vuelo estacionario, que consiste en mantener al helicóptero en el aire con la misma orientación y altitud
+constantes; dicha actitud está determinada por los ángulos del alabeo o "roll", cabeceo o "pitch" y guiñada
+o "yaw", los cuales se conocen también como ángulos de Euler (figura 1.2).
+
+
+                                                   Figura 1.2 Ángulos de Euler.
+
+En este documento se presentan las ecuaciones que modelan el comportamiento del mini-helicóptero
+X-Cell 60 presentado en la figura 1.3 y que es utilizado para el desarrollo del proyecto Colibrí de la
+Universidad EAFIT de Medellín. Las pruebas del UKF se realizan con dicho modelo. El modelo del mini-
+helicóptero fue desarrollado en Matlab/Simulink por el grupo de investigación "Sistemas de Control Digital"
+y se presenta en la figura 1.4; ver (Gavrilets, 2003) y (Vélez, 2006) para mayores detalles.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   6
+                                                       Figura 1.3 Mini-helicóptero X-Cell en vuelo
+                                                                                                                                                5
+                                                                                                                                               pqr
+                                                                                                                                                 4
+                                                                                                                                             ax ay az
+                                                                                                                                                9
+                       Ma
+           Ix Iy Iz Ixz
+                                                                                                                                              u vw
+              Fuel_out                                                                                                            xyz           6
+            Inertia                                             Fmr                                                          vx vy vz          xyz
+                                                                                pqr              u vw     u vw
+                                                                Ftr  XYZ                                                Lat Lon Alt
+                                                                                XYZ                                                              2
+                                                                Ffus            g
+                  g                                             Femp                                                  (x y z )ECEF           vx vy vz
+                                                                                DCM           ax ay az
+                rho                                             Total Force     Ma                               (vx vy vz      )ECEF             1
+            Earth                                                                   Translational                                 Euler     lat lon alt
+                                                                                                          pqr
+                                                                                      equations                                   DCM
+                                                                                                                                                 7
+                                                                                                                       Ground flag
+                                                                                                                                           (x y z)ECEF
+                                               Fmr                                                         Integration and
+             1                    Deltas                                       Ix Iy Iz Ixz      pqr
+                                  pqr          Mmr               Mmr                                      axis transformation                     8
+        Deltas (-1,1)
+                                  u vw         Qmr               Mtr  L MN                     p' q' r'                                   (vx vy vz )ECEF
+                                                                               L MN
+                                  wind                           Memp
+                                  Omega     V i _mr              Qe                 Rotational                                                    3
+                                  rho        a1 b1              Total Moment                                                              roll pitch yaw
+                                                                                    equations
+                                    Main rotor
+                                                                                                                                               12
+            3                                                                                                                                GndFlag
+           Wind                   p' q' r'
+                                  Qmr         Qe
+                                  Qtr                                                                                                          10
+                                  Fuel_out Omega                                                                                              a1 b1
+              2                   throttle
+                                                                                                                                               11
+          Throttle                  Powerplant
+                                                                                                                                             Omega
+            (0,1)
+                                  u vw
+                                  wind
+                                              Ffus
+                                  V i _mr
+                                  rho
+                                     Fuselage
+
+                                  Deltas         Ftr
+                                  pqr        Femp
+                                  u vw
+                                  wind           Mtr
+                                  Omega      Memp
+                                  rho
+                                  V i _mr        Qtr
+                                   Tail rotor and
+                                    empennage
+
+
+                            Figura 1.4 Modelo dinámico del mini-helicóptero implementado en Matlab/Simulink
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                 7
+A continuación se presenta en detalle el desarrollo de las ecuaciones que describen el modelo matemático
+del mini-helicóptero, así como el análisis de sus componentes de fuerzas y momentos.
+
+1.8.1 Componentes del modelo matemático
+
+El modelo matemático del mini-helicóptero, con el que se trabaja en este proyecto, se basa en el modelo
+propuesto por Gavrilets (2003) y Padfield (1996) y se desarrolló usando la teoría básica de un helicóptero,
+teniendo en cuenta las características particulares de uno en miniatura; usando datos obtenidos en
+pruebas a partir de experimentos sencillos de vuelo se determinaron parámetros como los radios de los
+rotores, la masa y la velocidad del viento entre otros por medio de mediciones directas; mientras que
+algunos como los momentos de inercia, el radio de influjo y la velocidad inducida fueron estimados.
+La exactitud del modelo fue verificada en pruebas de simulación en tiempo real con un piloto de
+helicópteros de radiocontrol y actualmente se están usando comparaciones entre las respuestas
+predictivas de éste y las respuestas colectadas durante las pruebas.
+
+El mini-helicóptero es un sistema con ocho grados de libertad correspondientes a tres desplazamientos,
+tres rotaciones y dos aleteos del rotor principal, y es modelado como un sistema de cinco entradas y quince
+variables de estado, como se explica a continuación.
+Las entradas de control se establecen con el vector presentado en (1.1) (Álvarez y Vélez, 2007; Gavrilets,
+2003; Vélez, 2005)
+                                          col , lon , lat , r , t                           1.1
+                                                                         T
+
+
+Cuyas componentes corresponden respectivamente al colectivo del rotor principal, cíclico longitudinal,
+cíclico lateral, rotor de cola y acelerador.
+El vector de estado es (en realidad ψ, x, y, z se pueden omitir, pero se mencionan aquí con carácter
+informativo)
+                          u,v,w, p,q,r,φ,θ,ψ, x, y, z,a1 ,b1,mr 
+                                                                   T
+
+                                                                                               (1.2)
+Y sus componentes se definen como:
+ u,v,w : Velocidad del vehículo en el marco de referencia del cuerpo.
+ p,q,r  : Velocidades angulares del vehículo en el marco de referencia del cuerpo.
+ φ,θ,ψ  : Ángulos de Euler (roll, pitch, yaw) que determinan la actitud del vehículo.
+ x, y, z  : Posición del vehículo en el marco de navegación
+ a1,b1  ó (lon , lat ) : Ángulos de aleteo ("flapping") longitudinal y lateral del rotor principal.
+mr : Velocidad angular del rotor principal.
+Los momentos de inercia alrededor de los ejes del cuerpo de la aeronave que pasan por el centro de
+gravedad del vehículo fueron determinados usando un experimento de tensión pendular; los momentos de
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   8
+inercia en el cruce axial fueron difíciles de medir sin un dispositivo de balanceo, y como son usualmente
+cercanos a cero no fueron tenidos en cuenta (Molinar-Monterrubio, 2007).
+El rotor principal y el rotor de cola del X-Cell, así como la barra estabilizadora, tienen láminas simétricas
+para aire ("airfoils"), donde su curva de inclinación fue estimada de acuerdo a sus respectivos aspectos de
+variación. La torsión efectiva en el vuelo estacionario fue estimada por la proporción angular de respuesta
+para los pasos de comando en el cíclico.
+
+1.8.2 Ecuaciones de movimiento
+
+Empezamos presentando en la figura 1.5 (Gavrilets, 2003) algunas de las variables, fuerzas y momentos
+del mini-helicóptero que son utilizados en la construcción del modelo, así como en la tabla 1.1 la
+presentación de los parámetros que no han sido definidos, con sus unidades respectivas.
+
+
+                             Figura 1.5 Fuerzas externas y momentos que actúan en el helicóptero
+
+                                      Tabla 1.1 Parámetros del modelo del mini-helicóptero
+                         Parámetro                           Descripción                      Unidades
+                             m          Masa                                                     Kg
+                             I          Momento de inercia                                     Kg.m2
+                            e          Constante de tiempo para el rotor                         S
+                                       Radio de avance                                           M
+                        uw ,vw ,ww      Componentes de la velocidad del aire en x, y, z          m/s
+
+                            Fv f        Fuerza vertical                                           N
+
+                            Ffus        Fuerza sobre el fuselaje                                  N
+
+                            Tmr         Empuje del rotor principal.                               N
+
+                             Tt r       Empuje del rotor trasero                                  N
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   9
+Las ecuaciones de Newton-Euler se derivan del principio de la conservación del momentum lineal y
+angular. Dichas ecuaciones se presentan en (1.3) y (1.4) para un vehículo de masa constante 𝑚 y
+momento de inercia 𝐼, aunque es necesario tener en cuenta que en el modelo real la masa es variable ya
+que el combustible se consume. En las siguientes ecuaciones F   X ,Y ,Z  es el vector de fuerzas
+actuando en el centro de gravedad del vehículo y M   L,M , N  es el vector de momentos externos
+alrededor de los ejes x , y y z (Mettler, 2003).
+                                                           dv
+                                                       m      F                                              1.3
+                                                           dt
+                                                           dw
+                                                       I      M                                              1.4
+                                                           dt
+En un helicóptero las fuerzas externas y los momentos son producidos por el rotor principal y el rotor de
+cola; por ello las fuerzas gravitacionales aerodinámicas del fuselaje se pueden presentar como en la
+ecuación (1.5) y para la superficie trasera como en la ecuación (1.6).
+                                                    m v  m  w  v   F                                    1.5
+                                                         w  Iw   M
+                                                     Iw                                                       1.6
+Los vectores v  [u, v, w] y w  [ p, q, r ] también son los encargados de describir el movimiento
+                                 T                     T
+
+traslacional y rotacional del helicóptero con respecto a sus tres ejes de referencia como se muestra en las
+ecuaciones diferenciales de (1.7), con las que podemos determinar la aceleración lineal y angular del
+sistema.
+
+                              u  vr  wq 
+                                                X
+                                                                p  qr
+                                                                          I  I   L
+                                                                             yy           zz
+
+                                                m                                 I xx          I xx
+
+                              v  wp  ur 
+                                                Y
+                                                                q  pr
+                                                                            I zz  I xx   M                (1.7)
+                                                m                                 I yy          I yy
+
+                              w  uq  vp 
+                                                Z
+                                                                 r  pq
+                                                                           I  I   N
+                                                                             xx            yy
+
+                                                m                                  I zz          I zz
+
+Estas ecuaciones describen un sistema de aceleraciones en el que [L, M, N] son funciones no lineales
+que determinan el estado de la aeronave y en las siguientes ecuaciones, Q es el torque producido por el
+motor para contrarrestar el torque aerodinámico en las aspas del rotor principal.
+En (1.8) se establecen las anteriores ecuaciones en función de las entradas de control y las variables de
+estado según lo planteado en Gavrilets (2003):
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado      10
+                                         u  vr  wq  g sin( ) 
+                                                                         X  X 
+                                                                                mr                 fus
+
+                                                                                         m
+
+                               v  wp  ur  g sin( ) cos( ) 
+                                                                         Y  Y  Y  Y 
+                                                                              mr             fus          tr    vf
+
+                                                                                               m
+
+                                 w  uq  vp  g cos( ) cos( ) 
+                                                                             Z  Z mr              fus    Z ht 
+                                                                                                   m
+
+                                          p  qr
+                                                    I  I   L  L  L 
+                                                       yy          zz   mr          vf             tr
+
+                                                            I xx               I xx
+
+                                                     I zz  I xx    M mr  M ht 
+                                          q  pr                                                                    1.8
+                                                           I yy              I yy
+
+
+                                         r  pq
+                                                    I  I   N  N Q 
+                                                      xx           yy   vf           tr             e
+
+                                                           I zz                 I zz
+
+                                       a 1  a u  uw a1 w  ww  lon
+                             a1  q  1   1                            
+                                        e  e   mr Rmr  z mr Rmr   e lon
+                                                  b 1 b1 v  vw lat
+                                       b1   p  1                   
+                                                   e  e v mr Rmr  e lat
+Por último, para la definición de las ecuaciones de movimiento del mini-helicóptero es necesario establecer,
+como en (1.9), la relación existente entre la variación de los ángulos de Euler y las velocidades angulares
+de la aeronave.
+                                    1 tan( )sin( )        tan( ) cos( )   p 
+                                     0                         sin( )   q 
+                                               cos( )                                                            1.9 
+                                    0 sin( ) / cos( ) cos( ) / cos( )   r 
+
+
+1.8.3 Componentes de fuerzas y momentos
+
+Las componentes de las fuerzas y de los momentos esenciales para el modelo requieren asumir que para
+el empuje del rotor el influjo es constante y uniforme. De acuerdo con Padfield (1996), se establecerán los
+siguientes supuestos y expresiones para el modelo:
+La constante de tiempo para la respuesta transitoria del influjo (modelo de primer orden) en vuelo
+estacionario presentado en (1.10) es inversamente proporcional al producto del radio del influjo 𝜆 con la
+velocidad angular del rotor principal y está dado por:
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado             11
+                                                              0.849
+                                                                                                           1.10 
+                                                             4trimmr
+La velocidad inducida en condición de vuelo estacionario se determina con la densidad del aire  como:
+
+                                                                m.g
+                                                  Vimr                                                       1.11
+                                                             2  Rmr
+                                                                    2
+
+
+El coeficiente de empuje presentado en (1.12) está definido por el empuje del rotor T que omitiendo el
+subíndice “mr” se determina por:
+                                                                   T
+                                                  CT                                                         1.12 
+                                                             R   R 2
+                                                                       2
+
+
+Por último, la solución iterativa presentada para el radio de influjo y el coeficiente máximo del empuje se
+obtienen de las ecuaciones (1.13) y (1.14).
+                                                                   CT
+                                               0                                                            1.13
+                                                      2w  2   0  Z 
+                                                                                2
+
+
+                                                                T max
+                                                CTmax                                                        1.14 
+                                                             R   R 2
+                                                                       2
+
+
+Donde  se calcula con (1.15) y  z corresponde a la componente normal del flujo de aire calculada con
+(1.16).
+
+                                                  u  uwind    v  vwind 
+                                                               2                 2
+
+                                                                                                            1.15
+                                                              R
+                                                           w  wwind
+                                                  z                                                         1.16 
+                                                             R
+
+
+1.9      ORGANIZACIÓN DEL TRABAJO
+
+En el Capítulo 1 se definieron las características del trabajo, sus objetivos y alcances, así como también se
+describió el punto de partida del proyecto mediante el planteamiento del modelo del mini-helicóptero y sus
+ecuaciones dinámicas.
+En el Capítulo 2 se desarrolla la teoría básica de los Filtros Kalman y el método de la Transformación
+Unscented, métodos necesarios para el desarrollo de los Filtros Kalman Unscented.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado       12
+En el Capítulo 3 se presenta como resultado el desarrollo del UKF para el modelo del mini-helicóptero con
+su respectiva implementación en Matlab/Simulink y una relación de pruebas, esto con el fin de validar el
+modelo del UKF y su significativa superioridad frente al modelo existente del EKF.
+Por último en el Capitulo 4 se presentan las conclusiones y recomendaciones deducidas del
+comportamiento del filtro UKF en el modelo del mini-helicóptero utilizado en el proyecto Colibrí de la
+Universidad EAFIT de Medellín.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   13
+               Capítulo 2. Filtro de Kalman
+                         “Unscented” (UKF)
+
+
+2.1      INTRODUCCIÓN
+
+En este capítulo se desarrollará un estudio detallado del Filtro Kalman y de una de sus extensiones a los
+sistemas no lineales correspondiente al Filtro Kalman Unscented (UKF), a través de la utilización de la
+Transformación “Unscented” (UT). Con dicho estudio se establecerán la dinámica del filtro y sus
+características para luego implementar el filtro en Matlab/Simulink y probarlo y analizarlo en simulación con
+el modelo del mini-helicóptero.
+
+
+2.2      EL FILTRO KALMAN
+
+El filtro de Kalman es un algoritmo recursivo, óptimo, de procesado de datos que minimiza el índice del
+error cuadrático y permite estimar los estados de un sistema más apropiadamente. El error cuadrático
+medio o RMSE de su traducción al inglés “Root Mínimum Mean-Squared Error” representa la medida típica
+del error de predicción y es particularmente sensible a las discrepancias grandes entre el valor real y el
+valor predicho. Este error se calcula con la expresión
+
+                                      RMSE  xi  
+                                                           1 N mod
+                                                                  xi  xiref                                2.1
+                                                                                 2
+
+                                                           N i 1
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado      14
+Donde ximod es el valor obtenido por el modelo y xiref será el valor tomado como real o valor de referencia
+(el error se utilizará en las pruebas finales realizadas en el capítulo 3 al modelo del filtro UKF
+implementadas en Matlab/Simulink).
+La evolución de un sistema se puede expresar en el espacio de estados como (se omite la negrita para
+vectores y matrices):
+
+                                      x(k  1)  A x(k )  Bu (k )  v(k )
+                                         y(k )  Cx(k )  w(k )                                               (2.2)
+
+En el cual:
+x(k ) es el estado.
+y (k ) es la salida.
+w(k ) es el proceso estocástico asociado a la medida.
+v(k ) es el proceso estocástico asociado al sistema.
+A, B,C son las matrices determinísticas que definen la dinámica del sistema.
+ v(k ) y w(k ) también son habitualmente conocidos como el ruido de proceso y el ruido de la medida
+respectivamente. El primer ruido v(k ) afecta la dinámica del modelo y representa los aspectos no
+modelados de la dinámica de la planta real, mientras el segundo ruido w(k ) influye sobre la salida
+accesible del modelo y representa la incertidumbre propia del proceso de medida de la salida de la planta
+real. Además, el filtro Kalman debe establecer las siguientes condiciones para los ruidos de proceso, de la
+medida y la condición inicial x(0) en términos de la esperanza (definida en la ecuación 2.8):
+                                        E [ x(0)]  x0
+                                        E [ w(k )]  E[v(k )]  0; k  0
+                                        E[ x(0), w(k )]  E[ x(0), v(k )]  0; k  0
+                                        E[v(k ), w(k )]  0; k                                                2.3
+                                        E[ w(k ), w(k )]  R(k )
+                                        E[v(k ), v(k )]  Q(k )
+                                        E[ x(0), x(k )]  P(0); k  0
+Donde Q(k ) y R(k ) representarán en adelante las matrices de covarianza del ruido del proceso y de la
+medida respectivamente. Dichas matrices son diagonales simétricas y se calculan según (2.4).
+                                      Cov  x, y   E  x  E  x    y  E  y                       2.4
+También se debe garantizar que la condición inicial y los ruidos del proceso y de la medida sean
+mutuamente no correlacionados (Pascual, 2006); tal condición se presenta en (2.5).
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado      15
+                                       Px 0,v k   Cov  x  0  , v  k    0; k  0
+                                       Px 0,w k   Cov  x  0  , w  k    0; k  0                   2.5
+                                      Pv k ,w k   Cov  v  k  , w  k    0; k , j  0
+
+Con lo anterior, el objetivo principal del empleo de un filtro Kalman es estimar en cada instante k  1 el
+estado x  k  de un sistema, empleando la sucesión de entrada conocida u0:k  u0 ,u1 ,..., uk  y las
+observaciones y1:k   y1 , y2 ,..., yk  (Kalman, 1960).
+
+Si se supone que x̂  k  (o x  k | k  ) es la estimación en el instante k del estado, el filtro Kalman buscará
+obtener este valor de manera que se minimice el error cuadrático medio (RMSE).
+Al considerar el error como
+                                                  e  k   x  k   xˆ  k                                  2.6
+el objetivo es minimizar P  k  que en adelante se identificará como la matriz de covarianza del error y se
+define en (2.7) como:
+                                                             
+                                               P k   E ek  ek 
+                                                                             T
+                                                                                                              2.7 
+La estimación óptima presentada en (2.8) viene dada entonces por la esperanza condicional
+
+                                      xRMSE
+                                        k |k 
+                                                E ( xk | y1:k )   xk .P  xk | y1:k  dxk                   2.8
+que requiere del conocimiento de la densidad de probabilidad a posteriori P  xk | y1:k  que se calcula
+mediante la utilización de la constante de normalización P  yk | y1:k 1  y mediante el enfoque Bayesiano
+puede calcularse recursivamente como:
+
+                                                     P  xk | y1:k 1  P  yk | xk 
+                                 P  xk | y1:k  
+                                                           P  yk | y1:k 1 
+                               P  xk | y1:k 1    P  xk | xk 1  P  xk 1 | y1|k 1 dxk 1             2.9 
+                               P  yk | y1:k 1    P  xk | y1:k 1  P  yk | xk dxk
+
+Este proceso recursivo permite calcular la densidad de probabilidad del estado actual en función de la
+densidad previa y su medida más reciente. P  xk | xk 1  y P  yk | xk  se determinan a partir de P  v  k  
+y P  w  k   respectivamente, la entrada U k y las expresiones presentadas en (2.2).
+Como el cálculo de P  yk | y1:k 1  (entendida en este documento como Pyy ) es de gran dificultad, se
+propone aplicar el filtro de Kalman para el modelo inicial representado en las ecuaciones (2.2) con
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado       16
+densidades de distribución gaussianas y caracterizado por un vector de esperanza E  x   x y una matriz
+de covarianzas P  k  definida en (2.7).
+
+Llamando xˆ  k | k  1 a la predicción del estado calculado del valor más actualizado del estado
+xˆ  k  1| k  1 y P  k | k  1 a la predicción de la matriz de covarianzas calculada de la matriz de
+covarianzas más actualizada P  k  1| k  1 , lo que propone el filtro de Kalman para su parte predictiva
+(ecuaciones (2.10) y (2.11)) y correctiva (ecuaciones (2.12), (2.13) y (2.14)) se muestra a continuación.
+Predicción:
+                                    xˆ  k | k  1  Axˆ  k  1| k  1  Bu  k  1                       (2.10)
+
+                                     P  k | k  1  AP  k  1| k  1 AT  Q                               (2.11)
+
+Corrección:
+                                                                                                 1
+                                    K  k   CP  k | k  1 CP  k | k  1 C T  R                     (2.12)
+
+                               xˆ  k | k   xˆ  k | k  1  K  k   y  k   Cxˆ  k | k  1       (2.13)
+
+                                     P  k | k    I  K  k  C  P  k | k  1                         (2.14)
+
+En una aplicación aeroespacial, la trayectoria nominal puede ser definida en el vuelo (“on the fly”), como la
+mejor estimación corriente de la trayectoria actual. A este tipo de aproximación se le conoce como filtro de
+Kalman extendido o EKF de su traducción en ingles “Extended Kalman Filter” (Grewal y Andrews, 2001).
+Este filtro está destinado al manejo de modelos no lineales en donde las densidades de distribución no son
+necesariamente gaussianas. En este caso la esperanza o primer momento de la distribución se propaga a
+través del modelo no lineal y el segundo momento de la distribución o covarianza se propaga a través de la
+versión linealizada del modelo, todo esto mediante la utilización de matrices jacobianas en sus procesos
+recursivos. Como ventaja se tiene que las perturbaciones son incluidas únicamente en la estimación de los
+errores del estado (generalmente pequeñas) y con la desventaja del aumento en el costo computacional
+debido al proceso de liberalización del modelo. De (Vélez, 2006), el EKF se puede presentar para su etapa
+de predicción como:
+
+                                 xˆ  k | k  1  f  xˆ  k  1| k  1 , u  k  1 
+                                 P  k | k  1  AP  k  1| k  1 AT  QT                                (2.15)
+
+Y para su etapa de corrección como:
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado       17
+                                                                                                     1
+                                   K  k   P  k | k  1 C T CP  k | k  1 C T  R 
+                                   xˆ  k | k   xˆ  k | k  1  K  k   y  k   h  xˆ  k | k  1  
+                                   P  k | k    I  K  k  C  P  k | k  1                                 (2.16)
+                                              f                  f                  h
+                                       A                    , B                ,C 
+                                              x x k |k 1      U x k |k 1      x x k |k 1
+
+Donde K  k  es llamada Matriz Kalman encargada de la corrección del estado y f y h son los modelos
+matemáticos que representan respectivamente la dinámica del sistema y la salida del sistema.
+El EKF es el filtro utilizado actualmente en el proyecto Colibrí de la Universidad EAFIT de Medellín. Como
+una alternativa diferente a la utilizada en el EKF para el cálculo de las densidades de distribución de
+probabilidad de la variable aleatoria, se plantea la estimación de la esperanza mediante la aplicación de
+una transformación no lineal a una nueva variable aleatoria de estadística desconocida. Dicho
+procedimiento se denomina Transformación “Unscented” (UT) por sus siglas en ingles “Unscented
+Transformation” y es fundamental para el entendimiento del filtro de Kalman “Unscented” (UKF), objetivo
+principal de este trabajo y que será desarrollado más adelante con el fin de determinar sus principales
+características y fortalezas.
+
+
+2.3      LA TRANSFORMACIÓN “UNSCENTED” (UT)
+
+El problema de predecir el estado futuro de un sistema puede ser expresado de la siguiente forma.
+Suponiendo que x es una variable aleatoria con media x y covarianza Pxx ; una segunda variable aleatoria
+y se relaciona con x a través de la función no lineal
+                                                         y  f  x                                                  2.17 
+A la función anterior debe calculársele su media y y su covarianza Pyy . La estadística de la variable
+transformada es consistente si se satisface la desigualdad encontrada por Julier y Uhlmann (2002 y 2004)
+en términos de la covarianza y la esperanza matemática presentada en (2.18).
+
+                                           Pyy  E  y  y  y  y    0                                         2.18
+                                                                      T
+                                                                       
+Si no se cumple lo anterior se podrá considerar a Pyy sub-estimada. Sin embargo, la consistencia no
+necesariamente implica buenos resultados ya que los cálculos finales están sujetos a la minimización del
+error cuadrático medio.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado              18
+La UT es un novedoso método utilizado para calcular la estadística de una variable aleatoria que ha sido
+sometida a una transformación no lineal. Este método está fundamentado en la idea intuitiva que plantea
+que es más fácil aproximar una distribución gaussiana que aproximar una función no lineal arbitraria
+(Uhlmann, 1994). El método consiste en elegir un conjunto de puntos llamados puntos sigma, con la
+condición que su media y su covarianza coincida con las de la variable aleatoria 𝑥 del proceso. Luego, la
+transformación no-lineal f se aplica a cada punto sigma y a estos puntos  y  f  x   se les calcula su
+esperanza E  y  y covarianza P  y  .
+
+Si x es una variable aleatoria de dimensión L con esperanza E  x   x y covarianza Pxx , entonces para
+calcular la esperanza E  y   y y la covarianza P  y   Pyy se construye la matriz de puntos sigma  0
+con (2L + 1) vectores columna (Chow et al., 2007; Matthew et al., 2004), tales que:
+
+                                                         0  x
+
+                                                     L    P  ;i  1,..., L
+                                              i  x                    xx
+                                                                               i
+                                                                                                              (2.19)
+
+                                          x    L    P  ; i  L  1,..., 2 L
+                                          i                         xx
+                                                                         iL
+
+
+donde     L  k   L y  (generalmente 1104    1 ) determinan la dispersión de los puntos
+                  2
+
+
+alrededor de x , k es una constante relacionada con el parámetro de escala (generalmente 0  k  3  L )
+y     L    P  es la i-ésima columna de la matriz cuadrada  L    P .
+                      xx                                                                    xx
+
+
+El cálculo de la esperanza y covarianza de la variable aleatoria también se puede lograr mediante la
+utilización de una descomposición de Cholesky como se plantea en el trabajo de Oh y Johnson (2006) y
+será en definitiva la que se utilizará para la implementación del Filtro UKF en Matlab/Simulink.
+Se puede verificar que los puntos sigma capturan la esperanza y covarianza de x en las siguientes
+ecuaciones que describen en forma simplificada la idea final del método propuesto en Julier y Uhlmann
+(2002 y 2004):
+                                                             2L
+                                                  x UT   Wi  m i  x                                    2.20 
+                                                             i 0
+
+
+                                                                                x    P
+                                                  2L
+                                       PxxUT   Wi  c  i  x UT                                        2.21
+                                                                                             T
+                                                                                       UT
+                                                                                   i             xx
+                                                  i 0
+
+            c             m
+Donde Wi y Wi son escalares que asignan un peso estadístico a la medida y dependen de los
+parámetros  , k y  como se plantea en las ecuaciones (2.22). Los valores de los parámetros son
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado        19
+determinados según el tipo de dispersión y la distribución de probabilidad propuesta en el desarrollo de
+                                      c     m
+cada modelo. Los pesos estadísticos Wi y Wi se definen como:
+                                                                            
+                                                         W0 m 
+                                                                           L
+                                                                
+                                                 W0 c                   1 2                            2.22 
+                                                              L
+                                                                   1
+                                         Wi  m  Wi  c               ; i  1,..., 2 L
+                                                                2L   
+
+donde  es el parámetro que incorpora el conocimiento que se tiene de antemano acerca de la
+distribución x (generalmente   2 si se trata de distribuciones Gaussianas). Ahora, la transformación no-
+lineal f se aplica a cada conjunto de puntos sigma con el fin de generar una nube de puntos transformados
+(2.23) y de su estadística, estimar la esperanza (2.24).
+
+                                             Yi  f  i  ; i  0,..., 2L                                     2.23
+                                                                    2L
+                                                y  y UT   Wi  mYi                                       2.24
+                                                                    i 0
+
+La covarianza, se determina mediante la utilización de las ecuaciones (2.6), (2.7) y los pesos asignados a
+cada grupo de puntos sigma como se plantea en (2.25).
+
+
+                                                                                          
+                                                       2L
+                                     Pyy  PyyUT   Wi  c  Yi  y UT  Yi  y UT                       2.25
+                                                                                             T
+
+
+                                                       i 0
+
+
+2.4      FILTRO DE KALMAN UNSCENTED (UKF)
+
+El Filtro de Kalman “unscented" puede considerarse como el resultado de incorporar la transformación
+“Unscented” al filtro EKF con el fin de mejorar las aproximaciones que se hacen de los dos primeros
+momentos de una variable aleatoria que resulta de propagar otra variable aleatoria tomada como
+gaussiana a través de la transformación no lineal que representa al sistema (Pascual, 2006).
+Ahora, el cálculo de los valores predichos y corregidos del filtro para el vector de estado y la matriz de
+covarianza respectivamente x  k | k  1 , P  k | k  1 , x  k | k  y P  k | k  implica propagar los puntos
+sigma a través del modelo como se explica a continuación (Gove y Hollinger, 2005).
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado        20
+Se define una nueva variable aleatoria (2.26) llamada vector de estado aumentado x a (k  1) , que incluye
+el ruido del proceso y el ruido de la medida, con esperanza y covarianza dadas en (2.27) y (2.28).
+.
+                                                             x  k  1 
+                                                                          
+                                              x  k  1   v  k  1 
+                                                a
+                                                                                                                     2.26 
+                                                             w  k  1 
+                                                            x  k  1 
+                                                                        
+                                              x  k  1   0 
+                                               a
+                                                                                                                     2.27 
+                                                            0 
+
+                                                           P  k  1 0 0 
+                                                                           
+                                             P  k  1   0
+                                               a
+                                                                       Q 0                                          2.28
+                                                           0         0 R 
+
+Por las características propias de este trabajo y por simplicidad, se simplifica el vector de estado x(k) al no
+tener en cuenta los ruidos del proceso ni de la medida, igual a lo trabajado en Oh y Johnson (2006).
+Lo primero que se hace es generar el conjunto de puntos sigma para cada paso k = 1,2,…, N.
+
+  k | k  1   x  k  1| k  1 x  k  1| k  1   s  k | k  1 x  k  1| k  1   s  k | k  1    2.29 
+                                                           
+                                          s  k | k  1  Chol  P  k  1| k  1                                2.30
+                                                                                          T
+
+
+Donde s es una factorización de Cholesky en forma de matriz triangular inferior y  es un parámetro de
+control de la medida de dispersión de la media.
+Siguiendo la metodología dada en el capítulo 2.3, se pasan los puntos sigma a través de f y h, los modelos
+matemáticos que representan respectivamente la dinámica del sistema y la salida del sistema, obteniendo
+respectivamente la esperanza y la covarianza de la variable aleatoria x y la variable transformada y
+(Pascual, 2006).
+Transformando el conjunto de puntos sigma a través del modelo que representa la dinámica del sistema:
+                                         X  k | k  1  f    k | k  1 ,U  k  1                            2.31
+Ahora calculando su esperanza y covarianza, a las que se denominarán ecuaciones de predicción para el
+vector de estado y la matriz de covarianza respectivamente:
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado              21
+                                                       2L
+                               x  k | k  1  Wi  m  X i  k | k  1  E  xk | y1:k 1                         (2.32)
+                                                     i 0
+                      2L
+  P  k | k  1   Wi    X i  k | k  1  x  k | k  1   X i  k | k  1  x  k | k  1   Q
+                              c                                                                                T
+                                                                                                                       (2.33)
+                     i 0
+
+                   Cov  xk , xk | y1:k 1 
+
+los puntos sigma son transformados ahora a través del modelo que representa la salida del sistema:
+                                            Y  k | k  1  h    k | k  1                                       (2.34)
+Y con ellos se calculan la esperanza y covarianza como:
+                                                2L
+                             y  k | k  1  Wi  mYi  k | k  1  E  yk | y1:k 1                              (2.35)
+                                                i 0
+
+                      2L
+              Pyy  Wi  c  Yi  k | k  1  y  k | k  1  Yi  k | k  1  y  k | k  1   R
+                                                                                                           T
+                                                                                                                       (2.36)
+                     i 0
+
+                     Cov  yk , yk | y1:k 1 
+
+Puesto que el objetivo del UKF es adaptar la UT a los EKF, sólo falta definir la matriz de Kalman, para lo
+cual es necesario primero definir mediante la ecuación (2.37) un nuevo elemento que se denomina la
+covarianza cruzada Pxy :
+                             2L
+                   Pxy  Wi  c   X i  k | k  1  x  k | k  1  Yi  k | k  1  y  k | k  1 
+                                                                                                                   T
+                                                                                                                       (2.37)
+                            i 0
+
+                             Cov  xk , yk | y1:k 1 
+Con la covarianza se define la matriz de Kalman como:
+                                                        K  k | k   Pxy Pxy1                                        (2.38)
+Finalmente se definen las ecuaciones de corrección para el vector de estado y la matriz de covarianza
+planteadas en (2.16) como:
+
+               x  k | k   x  k | k  1  K  k | k   y  k   y  k | k  1   E  xk | y1:k                (2.39)
+               P  k | k   P  k | k  1  K  k | k  Pyy K T  k | k   Cov  xk , xk | y1:k                    (2.40)
+
+Obteniendo así el filtro UKF con su respectiva etapa de predicción y corrección.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                22
+2.5      ANÁLISIS DEL FILTRO UKF
+
+En las ecuaciones de predicción y corrección para el EKF (2.15), (2.16) y para el UKF (2.31) a (2.40), se
+destaca la ventaja del filtro UKF en la no linealización del sistema y con ello la no pérdida de información
+importante al momento de corregir y predecir el vector de estado y la matriz de covarianzas mediante la
+utilización de una técnica de muestreo determinística conocida como transformación “unscented”, como se
+muestran en el trabajo de Hartikainen y Särkkä (2008); dicha técnica trabaja con un número mínimo de
+puntos alrededor de la media llamados puntos sigma, presentados en las ecuaciones (2.29) y (2.30).
+Si bien la transformación UT es similar a los métodos de muestreo Monte Carlo, existe una diferencia
+fundamental en la toma de muestras, ya que estas no se toman al azar sino de acuerdo a un algoritmo
+determinista. De esta forma, se captura información de alto orden de la distribución de probabilidad,
+tomando sólo un número pequeño de puntos como plantean Julier y Uhlmann (2005).
+El resultado es un filtro que es más preciso capturando la verdadera media y covarianza de los datos
+transformados a través del modelo no lineal, evitando así el cálculo analítico de jacobianos que pueden ser
+complicados y de alto costo computacional en el caso de funciones complejas. Aunque el costo
+computacional del uso del UKF no es que se reduzca, las operaciones son más simples, repetitivas y la
+desviación estándar de sus aproximaciones son menores al 1% como se obtuvo en el trabajo de Gove y
+Hollinger (2005).
+Otra de las ventajas del filtro UKF consiste en la posibilidad de trabajar con diferentes valores para los
+parámetros  , k y  relacionados con el tipo de dispersión y el tipo de distribución como se explicó en la
+sección 2.3. Es así como el parámetro k provee un grado de libertad extra al proceso que repercute
+directamente en la reducción del error de predicción y en la definición positiva o no positiva de la matriz de
+covarianzas Pyy como se trabaja en Julier y Uhlmann (1997); esta condición es importante para la
+factorización de Cholesky, ya que para dicha transformación la matriz debe ser definida positiva como
+plantean Oh y Johnson (2006).
+Tal vez una desventaja que presenta el filtro UKF es la relacionada con el tiempo de operación como se
+obtuvo en Teixeira, Santillo, Erwin y Bernstein (2008), ya que los cálculos no sólo se realizan a un vector
+de estado, sino a los  2 L  1 vectores obtenidos de la matriz de puntos sigma, con L la dimensión del
+vector de estado.
+Por último, se plantea como ventaja del UKF la reducción del error cuadrático medio (RMSE) y el mejor
+seguimiento de la trayectoria de referencia. Estas ventajas serán estudiadas en la sección 3.3 del siguiente
+capítulo, cuando se pruebe la implementación final de filtro en Matlab/Simulink.
+Es necesario establecer que para las estimaciones se usan los cuaterniones en lugar de los ángulos de
+Euler, pues evitan singularidades cuando el vehículo se encuentra en posiciones de cabeceo vertical. Un
+cuaternión ("quaternion") se puede tomar como una extensión de los números complejos inventado por W.
+R. Hamilton (1843) y se define como un elemento de magnitud unitaria con cuatro componentes, en donde
+una de ella es real y con las otras tres forman se forma un vector en el espacio imaginario i, j, k como se
+presenta en (2.41).
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   23
+                                       q0 , q1, q2 , q3   q0  q1i  q2 j  q3k                             2.41
+
+
+2.6      RESUMEN DEL CAPITULO
+
+En este capítulo se presentó el desarrollo matemático del filtro UKF mediante la utilización de la
+transformación “Unscented” y los puntos sigma. También se establecieron las componentes y ecuaciones
+que permitirán llevar a cabo la implementación del filtro UKF en Matlab/Simulink. Por último, y del análisis
+realizado al filtro en diferentes fuentes bibliográficas, se pudo inducir que el comportamiento del UKF
+mejorará frente al EKF en lo referente a las variaciones de los parámetros y condiciones iniciales, aunque
+el costo computacional temporal puede ser mayor debido al incremento en el número de cálculos. Estas
+características servirán de marco al análisis en simulación del filtro aplicado a la estimación del estado del
+mini-helicóptero, de lo que tratará el siguiente capítulo.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado       24
+             Capítulo 3. Resultados y
+      análisis en la implementación y
+                    aplicación del UKF
+
+
+3.1      INTRODUCCIÓN
+
+En este capítulo se describe la codificación del UKF en Matlab/Simulink y se analiza su comportamiento en
+simulación en la estimación del estado de un mini-helicóptero y su aplicación en el control en lazo cerrado
+para el seguimiento de una trayectoria circular. El control se realiza con reguladores PID (proporcional-
+integral-derivativo) que fueron desarrollados por el grupo de investigación "Sistemas de Control Digital" y
+cuyos detalles se omiten aquí por estar fuera del alcance del presente trabajo. Se utiliza el mismo esquema
+del diagrama utilizado por el grupo para el EKF, pero adaptándolo al UKF obtenido, lo que facilita el análisis
+de los resultados y de las ventajas y desventajas del UKF con respecto al EKF. El análisis se realiza
+teniendo en cuenta los aspectos más importantes mencionados en la bibliografía, algunos de los cuales se
+mencionan al final del capítulo 2.
+
+
+3.2      CODIFICACIÓN DEL UKF EN MATLAB/SIMULINK
+
+La codificación en Matlab/Simulink se implementó con base en las ecuaciones desarrolladas en el capítulo
+anterior y en el trabajo de Oh y Johnson (2006). El mini-helicóptero del proyecto Colibrí de la Universidad
+EAFIT de Medellín posee una caja de aviónica que permite el cálculo, mediante la solución de ecuaciones
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   25
+diferenciales no lineales, la posición, velocidad y actitud del vehículo. La caja de aviónica, sujeta al mini-
+helicóptero por medio de unos aisladores de vibración (amortiguadores), contiene una unidad de medición
+inercial (IMU), un GPS y un magnetómetro. El sistema de navegación inercial (INS) está compuesto por el
+sistema de adquisición de datos de los sensores y un filtro extendido de Kalman (EKF) que integra
+adecuadamente las distintas frecuencias y medidas en un único estado para el vehículo. El sistema de
+adquisición de datos, el EKF y el control fueron desarrollados en Matlab/Simulink, con un enfoque de
+programación visual de fácil comprensión y con la posibilidad de generación automática del código que
+reduce ostensiblemente el tiempo de desarrollo.
+El modelo en Matlab/Simulink con el que se trabaja se presenta en la figura 3.1 y es el punto de partida
+para cualquier investigación del grupo. En dicho esquema se presenta el modelo del mini-helicóptero, el
+sistema de navegación inercial y el bloque destinado al control del modelo, en este caso mediante la
+utilización de un control PID.
+              1
+        0 (manual )
+                                                                                                                                                                                         col,lon ,lat ,ped
+          1 (auto )
+          [0 0 0 0 ]
+                                           mode                                                                        lla        lla,gps
+         u_manual                                          u_col                   u_col (-1,1)                                                          xyz _est
+                                           u_manual
+                                                                                                              vxvyvz              vxvyvz     ,gps
+                                                           u_lon                   u_lon (-1,1)                                                                                            x,y,z
+                                           ref
+                                                                                                                      yaw         hxhyhz ,mag       vxvyvz   _est   Demux                  vx ,vy ,vz
+                                           xyz                                                                                                                                             roll ,pitch ,yaw
+                                                            u_lat                  u_lat (-1,1)
+                                                                                                               axayaz             axayaz ,accel
+              ref
+                                           vxvyvz
+                                                                                                                                                       euler_est
+                                                           u_ped                   u_ped (-1,1)
+                                                                                                                      pqr         pqr,gyro
+                                           euler
+       Trajectory
+                                                                                         Mini -helicopter                             INS with sequential
+       planning                                  Integral PID
+                                                                                                                                        measurement 1
+         (circle )                                  control
+
+
+                                                  Figura 3.1 Modelo del mini-helicóptero trabajado en el proyecto Colibrí
+
+Explorando el bloque del sistema de navegación inercial se puede encontrar el filtro EKF utilizado por el
+grupo, tal y como se observa en la figura 3.2.
+                                                           x = [x y z vx vy vz q 0 q1 q2 q3 abx aby abz pb qb rb ]'
+                                                                                                                                                                                            1
+                          4
+                                                                                                                                                                                         xyz_est
+                     axayaz ,accel                                                                                           u(k-1)                                                          2
+                           5
+                       pqr ,gyro                                                                                                              x(k|k-1)                                  vxvyvz _est
+                                                                                                                                                                    Quaternions Euler       3
+                            1           LLA      xyz                                                                                                                                    euler _est
+                        lla ,gps     LLA to Navigation
+                                                                               y(k)
+                           2                                                                         x(k|k)                  x(k-1|k-1)
+                      vxvyvz ,gps
+
+                          3                                                    x(k|k-1)
+                     hxhyhz ,mag
+                                                                                                                                              P(k|k-1)
+                                                                                                    P(k|k)                   P(k-1|k-1)
+                                                                               P(k|k-1)
+
+                                                                       Sequential measurement                                    Time update
+                                                                        update ("Correction")                                   ("Prediction")
+
+
+                       Figura 3.2 Filtro EKF incorporado al modelo del mini-helicóptero trabajado en el proyecto Colibrí
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                                                                   26
+Como puede verse, el filtro de Kalman toma las variables de los sensores (aceleraciones y velocidades
+angulares en el sistema de referencia del cuerpo, entregadas por los acelerómetros y giróscopos; posición
+geodésica y velocidad en el sistema de referencia, entregados por el GPS; componentes del campo
+magnético entregados por el magnetómetro) y obtiene la posición, velocidad y actitud (en cuaterniones) en
+el sistema de referencia. Adicionalmente se obtienen seis estimaciones de los sesgos de las aceleraciones
+y velocidades angulares, los cuales se utilizan para corregir las demás estimaciones (Vélez, 2007).
+
+Como se presento en el capítulo 2, el UKF posee una etapa de predicción y una de corrección, se
+mantendrá el esquema del filtro EKF presentado en la figura anterior, pero con la diferencia que es
+necesario adicionar el manejo de los puntos sigma. En la figura 3.3 se presenta el modelo final del filtro
+UKF con las dimensiones de cada una de sus variables, el cual se explicará en este capítulo.
+                     Quaternions Euler
+
+                                               x = [x y z vx vy vz q 0 q1 q2 q3 abx aby abz pb qb rb ]'
+             3
+       4                                                                                                                                                           [3x1]
+                                           6                                                                                                                                                       1
+ axayaz ,accel
+             3                                                                                                                                                                                  xyz_est
+       5                                                                                                                                                           [3x1]
+                                                                                                                                                                                                    2
+   pqr ,gyro                                                                                                                             [16 x1]
+                                                                                                                 U(k-1)       x(k|k-1)                                                         vxvyvz _est
+                                                                                                          6                                          [16 x1]       4                       3
+               3                       3                                                                                                                               Quaternions Euler           3
+        1             LLA    xyz
+    lla ,gps                                                                                                                                                                                   euler _est
+                   LLA to Navigation                                                                                                                               [6x1]
+            [3x1]                          [7x1]
+       2                                                                  y(k)                       [16 x1]                             [16 x16 ]
+  vxvyvz ,gps                                                                              x(k|k)                x(k-1|k-1)   P(k|k-1)
+      3                                                        [16 x1]    x(k|k-1)
+ hxhyhz ,mag
+
+                                                              [16 x16 ]   P(k|k-1)
+                                                                                                     [16 x16 ]                           [16 x33 ]
+                                                                                           P(k|k)                P(k-1|k-1)   X(k|k-1)
+                                                              [16 x33 ]   X(k|k-1)
+
+                                                                      Sequential measurement                        Time update
+                                                                       update ("Correction")                       ("Prediction")
+
+
+                                                              Figura 3.3 Modelo final en Matlab Simulink del filtro UKF
+
+
+Para la etapa de predicción, la transformación UT requiere de la obtención de los puntos sigma a partir del
+vector de estado x  k  1| k  1 y la matriz de covarianza P  k  1| k  1 como se presenta en las
+ecuaciones (2.29) y (2.30). La implementación se presenta en la figura 3.4.
+
+
+              1               1/z                                 x(k-1|k-1)                   x(k-1|k-1)[16,16]
+          x(k-1|k-1)
+
+
+                                                   S = LL '                                                                                                                            1
+              2               1/z          S                   LL '        A               L         uT            Gamma                                                   2        X(k|k-1)
+          P(k-1|k-1)                                                                                                                                               Matrix
+                                                 Cholesky                 Extract Triangular
+                                                                                                                                                               Concatenation
+                                               Factorization                    Matrix
+
+
+                                                   Figura 3.4 Implementación en Matlab Simulink de los puntos sigma
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                                                            27
+Ahora, es necesario transformar cada una de las columnas de la matriz de puntos sigma 16  33 a través
+del modelo que Wom
+                representa la dinámica del sistema según la ecuación (2.31). La transformación para cada
+una de las columnas se implementó como se muestra en la figura 3.5.
+
+                                  2   X(k|k-1)           1    U(k-1)
+
+                                                                   u(k-1)
+                                                                                  x(k|k-1)          Wom
+                                                                   x(k-1|k-1)
+
+
+                    Figura 3.5 Elemento Implementado en Matlab/Simulink para la determinación de x(k|k-1)
+
+
+Sumando los 33 vectores de la matriz de los puntos sigma transformados, cada uno de ellos multiplicados
+por su respectivo peso asignado por la transformación UT como se presenta en la ecuación (2.32), se
+obtiene la predicción del vector de estado. De acuerdo con la ecuación (2.33) la implementación para la
+predicción de la matriz de covarianza se presenta en la figura 3.6.
+             Q
+
+                2          X(k|k-1)                                               Q
+                                                                                                     In Out              1
+             X(k|k-1)
+                                      Sum(Wi [X(k-1)x(k-1)][ X(k-1)x(k-1)]T)
+                                                                                                   Matrix             P(k|k-1)
+                1          x(k|k-1)
+                                                                                                symmetrization
+             x(k|k-1)
+
+
+         Figura 3.6 Implementación en Matlab Simulink para la predicción de la matriz de covarianzas P k | k  1                
+                                                   x(k-1|k-1)
+                                                       X(k|k-1)
+                                                   P(k-1|k-1)
+Se obtiene así la etapa de predicción, Sigma
+                                       que enPoints
+                                              el modelo
+                                                    1   final se presenta en la figura 3.7.
+
+
+                           1                                                U(k-1)       x(k|k-1)        1
+                         U(k-1)                                                                       x(k|k-1)
+
+                            2             x(k-1|k-1)
+                        x(k-1|k-1)                                                       P(k|k-1)
+                                                        X(k|k-1)            X(k|k-1)                          2
+                            3             P(k-1|k-1)                                                      P (k|k-1)
+                        P(k-1|k-1)
+                                             Sigma Points                       Time update
+                                                                                                              3
+                                                                                                          X (k|k-1)
+
+
+                        Figura 3.7 Implementación en Matlab Simulink de la etapa de predicción del UKF
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                          28
+Utilizando el procedimiento anterior, pero ahora con el modelo que representa la salida del sistema, se
+obtiene y(k|k-1)   y Pyy de las ecuaciones (2.35) y (2,36) respectivamente. En las figuras 3.8 y 3.9 se
+              u(k-1)
+presenta la implementación
+              x(k-1|k-1)
+                             de estas ecuaciones.
+                          x(k|k-1)
+
+
+                          2     X(k|k-1)                1     U(k-1)
+
+                                                                   u(k-1)
+                                                                                x(k|k-1)                Wom
+                                                                   x(k-1|k-1)
+
+
+                Figura 3.8 Elemento Implementado en Matlab/Simulink para la determinación de y k | k  1      
+                 R
+
+                  2               X(k|k-1)                                                 R
+                                                                                                               1
+               X(k|k-1)                 Sum(Wi [Y(k-1)-y (k-1)][ Y(k-1)-y (k-1)]T)
+                                                                                                              Pyy
+                  1               y (k|k-1)
+               y(k|k-1)
+                                                transformed covariance
+
+
+                              Figura 3.9 Implementación en Matlab Simulink para la determinación de Pyy
+
+
+Como se enunció en el capítulo 2, el propósito fundamental del filtro UKF es el de implementar la
+transformación “Unscented” en el filtro UKF definido mediante las ecuaciones (2.15) y (2.11) para sus
+etapas de predicción y corrección respectivamente. Inicialmente, se implementa la matriz de covarianza
+cruzada definida en (2.37) mediante la utilización de 33 veces el arreglo presentado en la figura 3.10.
+
+                                 2   x(k|k-1)
+                                                    1   X(k|k-1)
+
+
+                                                                       Xk-xk
+                                                                                Woc(Xk-xk )(Yk -yk )T
+                                                                       Yk -yk
+
+
+                                 3   Y(k|k-1)       4   y(k|k-1)
+
+
+                      Figura 3.10 Elemento Implementado en Matlab Simulink para la determinación de Pxy
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado         29
+Con la matriz de covarianza cruzada Pxy se implementa la matriz de Kalman definida en (2.38) y
+presentada en la figura 3.11.
+                                        Inv
+
+
+                                      1
+                                     Pxy                                Matrix
+                                                                                            1
+                                      2             Inv                Multiply
+                                                                                          K(k|k)
+                                     Pyy
+
+
+                     Figura 3.11 Implementación en Matlab Simulink para la determinación de K           k | k 
+
+Finalmente, se implementa la corrección del vector de estado y la matriz de covarianzas como se
+muestran en las figuras (2.39) y (2.40).
+
+
+                              4
+                                                             Matrix
+                            K(k|k)                                                                   1
+                                                            Multiply
+                               1                                                                   x(k|k)
+                              y(k)
+
+
+                                               3    y(k|k-1)                      2   x(k|k-1)
+
+
+              Figura 3.12 Implementación en Matlab Simulink para la corrección del vector de estado x k | k           
+
+                                1                                                                  1
+                             P(k|k-1)                                                            P(k|k)
+                                2
+                              K(k|k)
+                                                                    Matrix
+                                3
+                                                                   Multiply
+                               Pyk
+                                                        T
+                                                    u
+
+
+           Figura 3.13 Implementación en Matlab Simulink para la corrección de la matriz de covarianzas P k | k           
+
+La parte correspondiente a la corrección del UKF se presenta en forma simplificada en la figura 3.14.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                    30
+                                                               Pxy    K(k|k)
+                                                               Pyy
+                                                           Kalman Matrix 1
+
+
+                1                                                              y (k)
+               y(k)
+
+                 2                                                             x(k|k-1)
+              x(k|k-1)                                                                                    x(k|k)     1
+                                                                                                                   x(k|k)
+                                           y (k|k-1)                           y (k|k-1)
+                                x(k|k-1)
+
+                                               Pxy       Pxy
+                                                                     K(k|k)    K(k|k)
+                4               X(k|k-1)
+                                               Pyy       Pyy
+             X(k|k-1)
+                                  Transformed            Kalman Matrix                 State correction
+                                cross-covariance                               K(k|k)
+
+                                                                               Pyk                        P(k|k)     2
+                                                                                                                   P(k|k)
+                3                                                              P(k|k-1)
+             P(k|k-1)                                                            Covariance correction
+
+
+                         Figura 3.14 Implementación en Matlab Simulink de la etapa de corrección del UKF
+
+
+De esta manera se ha codificado el UKF utilizando los bloques de Simulink, lo cual permite la generación
+automática de código utilizando otras herramientas de Matlab como el Real-Time Workshop. El diseño
+requirió de la comprensión matemática profunda del UKF y de su implementación algorítmica.
+
+
+3.3      PRUEBAS Y ANÁLISIS DE RESULTADOS
+
+El modelo final del filtro UKF implementado en Matlab/Simulink que se presentó en la figura 3.3, se probó
+para diferentes valores de parámetros, tiempos de muestreo y condiciones iniciales para el vector de
+estado y matriz de covarianzas, con el fin de establecer las condiciones para un comportamiento adecuado
+y, además, saber si se podían trabajar ambos filtros con las condiciones ya probadas en el EKF existentes
+en el grupo de investigación (Colibrí, 2009). Adicionalmente, con la variación en las condiciones iniciales se
+pretende comprobar lo planteado por Teixeira, Santillo, Erwin y Bernstein (2008) con respecto a la
+invariancia del comportamiento del filtro ante dichas variaciones.
+Al realizar varias pruebas en lazo cerrado con reguladores PID se estableció que el mejor comportamiento
+del filtro durante el seguimiento de una trayectoria circular tomada como referencia, corresponde a los
+valores   1 ,   2 y k  0 . Estos valores concuerdan con los valores de los parámetros trabajados en
+varios documentos similares en donde se aplican los UKF a la estimación del estado para el control de
+aeronaves. Algunos de los trabajos referenciados se presentan en la tabla 3.1. Las condiciones iniciales
+utilizados en el filtro UKF de este trabajo se presentan en la figura 3.15 que se obtiene directamente de
+Matlab/Simulink.
+A continuación se presentan los resultados y el análisis de las distintas pruebas realizadas.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                 31
+              Tabla 3.1 Parámetros utilizados para el UKF en bibliografía relacionada con el control de aeronaves
+
+                                        Documento                                                      k
+                   (La Viola, 2002)                                              1           0           0
+                   (Van der Merwe y Wan, 2004)                                   1           2           0
+                   (Matthew et al., 2004)                                        1           2          -13
+                   (Julier y Uhlmann,2004)                                       1           2           0
+                   (Teixeira, Santillo, Erwin y Bernstein, 2008)                 1           2           0
+
+
+                             Figura 3.15 Parámetros y condiciones iniciales de trabajo para el UKF
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado         32
+3.3.1 Efecto de la selección del tiempo de muestreo Ts
+
+La primera prueba realizada al modelo UKF permite establecer el efecto en la respuesta que produce la
+variación del tiempo de muestreo Ts . Se busca el mejor comportamiento del filtro siguiendo la trayectoria
+circular de referencia (en xy ) y el menor valor RMSE definido en (2.1) para las medidas del vector de
+estado definido ahora como  x, y, z,vx ,vy , vz ,q0 , q1 , q2 , q3 , ba , ba , ba , bp , bq , br  .
+                                                                                            x       y       z             
+La comparación de las trayectorias del UKF y EKF se realiza manteniendo, para este último, el valor de
+Ts  0.02 s fijo, mientras para el UKF se toman los siguientes valores: 0.01, 0.02, 0.04 y 0.08 segundos.
+Con Ts  0.01 s se obtienen los resultados dados en la figura 3.16 con un valor RMSE de 5.832935.
+
+Con Ts  0.02 s se obtienen los resultados dados en la figura 3.17 con un valor RMSE de 3.418617.
+
+Con Ts  0.04 s se obtienen los resultados dados en la figura 3.18 con un valor RMSE de 5.122398.
+
+Con Ts  0.08 s se obtienen los resultados dados en la figura 3.19 con un valor RMSE de 6.11895.
+Con base en lo anterior, y teniendo en cuenta el menor valor de error RMSE, en adelante se trabajará con
+un Ts  0.02 s que es igual al valor que se trabaja en el modelo existente del EKF.
+                                             Comparación de las trayectorias en XY de los Filtros EKF y UKF con la referencia.
+
+                              0
+
+
+                              -2
+
+
+                              -4
+
+
+                              -6
+
+
+                              -8
+
+
+                     y (m)   -10
+
+
+                             -12
+
+
+                             -14
+
+
+                             -16
+
+
+                             -18
+                                                                                                                                 Ref.
+                                                                                                                                 UKF
+                             -20
+                                                                                                                                 EKF
+
+                                   -10       -8        -6        -4       -2          0          2       4        6         8    10
+                                                                                   x (m)
+
+
+             Figura 3.16 Comparación de las trayectorias en XY del UKF y EKF con la referencia para un Ts=0.01 s
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                             33
+                                            Comparación de las trayectorias en XY de los Filtros EKF y UKF con la referencia.
+
+                               0
+
+
+                               -2
+
+
+                               -4
+
+
+                               -6
+
+
+                               -8
+
+
+                     y (m)    -10
+
+
+                              -12
+
+
+                              -14
+
+
+                              -16
+
+
+                              -18
+                                                                                                                                Ref.
+                                                                                                                                UKF
+                              -20
+                                                                                                                                EKF
+
+                                    -10     -8       -6        -4        -2          0        2         4        6         8    10
+                                                                                  x (m)
+
+
+             Figura 3.17 Comparación de las trayectorias en XY del UKF y EKF con la referencia para un Ts=0.02 s
+                                          Comparación de las trayectorias en XY de los Filtros EKF y UKF con la referencia.
+
+                                0
+
+
+                               -2
+
+
+                               -4
+
+
+                               -6
+
+
+                               -8
+
+
+                      y (m)   -10
+
+
+                              -12
+
+
+                              -14
+
+
+                              -16
+
+
+                              -18
+                                                                                                                                Ref.
+                                                                                                                                UKF
+                              -20
+                                                                                                                                EKF
+
+                                    -10      -8       -6        -4       -2          0        2         4        6         8    10
+                                                                                  x (m)
+
+             Figura 3.18 Comparación de las trayectorias en XY del UKF y EKF con la referencia para un Ts=0.04 s
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                            34
+                                           Comparación de las trayectorias en XY de los Filtros EKF y UKF con la referencia.
+
+                                0
+
+
+                                -2
+
+
+                                -4
+
+
+                                -6
+
+
+                                -8
+
+
+                       y (m)   -10
+
+
+                               -12
+
+
+                               -14
+
+
+                               -16
+
+
+                               -18
+                                                                                                                               Ref.
+                                                                                                                               UKF
+                               -20
+                                                                                                                               EKF
+
+                                     -10     -8       -6       -4        -2         0       2        4         6        8      10
+                                                                                 x (m)
+
+
+             Figura 3.19 Comparación de las trayectorias en XY del UKF y EKF con la referencia para un Ts=0.08 s
+
+
+3.3.2 Efecto de la selección de la matriz de covarianzas inicial P0
+
+En esta prueba se determinó el efecto que tiene en cada filtro la variación del valor inicial de la matriz de
+covarianzas o densidad de distribución, relacionada directamente con los errores que se trabajan en el
+modelo y la medida. Inicialmente se tomó P0  0 (matriz cuadrada de orden 16) para ambos filtros, Los
+resultados se presentan en la figura 3.20.
+Luego, de la bibliografía relacionada con el tema, específicamente la proporcionada por Oh y Johnson
+(2006) se trabaja con P0  diag [(5/3)2; (5/3)2; (7/3)2;1;1;(5/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2;
+(0.01/3)2;(0.01/3)2;(0.01/3)2;(0.01/3)2] Los resultados se muestran en la figura 3.21.
+
+Por último, se probaron los filtros con P0  0 en el EKF y el P0 propuesto por Oh y Johnson (2006) en el
+UKF. Los resultados se presentan en la figura 3.22.
+Con base en lo observado para las anteriores trayectorias, se decidió trabajar con P0  0 tanto en el UKF
+como en el EKF ya que el EKF presenta con este valor su mejor comportamiento y el UKF muestra
+invariancia en su comportamiento ante el valor inicial de la variación en la matriz de covarianzas. Resultado
+muy interesante que concuerda con los ya establecidos para el EKF dentro del grupo y el obtenido por
+Teixeira, Santillo, Erwin y Bernstein (2008).
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                           35
+                                              Comparación de las trayectorias en XY de los Filtros EKF y UKF con la referencia.
+
+                                    0
+
+
+                                   -2
+
+
+                                   -4
+
+
+                                   -6
+
+
+                                   -8
+
+
+                          y (m)   -10
+
+
+                                  -12
+
+
+                                  -14
+
+
+                                  -16
+
+
+                                  -18
+                                                                                                                                   Ref.
+                                                                                                                                   UKF
+                                  -20
+                                                                                                                                   EKF
+
+                                        -10      -8       -6       -4        -2        0        2         4        6        8      10
+                                                                                    x (m)
+
+
+               Figura 3.20 Comparación de las trayectorias en XY del UKF y EKF con la referencia para P0  0
+                                               Comparación de las trayectorias en XY de los Filtros EKF y UKF con la referencia.
+
+                                   0
+
+
+                                   -2
+
+
+                                   -4
+
+
+                                   -6
+
+
+                                   -8
+
+
+                         y (m)    -10
+
+
+                                  -12
+
+
+                                  -14
+
+
+                                  -16
+
+
+                                  -18
+                                                                                                                                   Ref.
+                                                                                                                                   UKF
+                                  -20
+                                                                                                                                   EKF
+
+                                        -10      -8       -6       -4       -2         0        2         4        6         8     10
+                                                                                    x (m)
+
+
+Figura 3.21 Comparación de las trayectorias en XY del UKF y EKF con la referencia para P0  diag ((5/3)2; (5/3)2; (7/3)2; 1; 1;
+            (5/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2;(0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2 ).
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                               36
+                                             Comparación de las trayectorias en XY de los Filtros EKF y UKF con la referencia.
+
+                                  0
+
+
+                                  -2
+
+
+                                  -4
+
+
+                                  -6
+
+
+                                  -8
+
+
+                         y (m)   -10
+
+
+                                 -12
+
+
+                                 -14
+
+
+                                 -16
+
+
+                                 -18
+                                                                                                                                 Ref.
+                                                                                                                                 UKF
+                                 -20
+                                                                                                                                 EKF
+
+                                       -10      -8       -6       -4       -2        0       2         4       6        8        10
+                                                                                  x (m)
+
+
+ Figura 3.22 Comparación de las trayectorias en XY con Po=0 para el EKF y Po= diag((5/3)2; (5/3)2; (7/3)2;1;1;(5/3)2; (0.01/3)2;
+             (0.01/3)2; (0.01/3)2; (0.01/3)2;(0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2; (0.01/3)2 ) para el UKF.
+
+
+3.3.3 Obtención y comparación de los valores RMSE para los EKF y UKF
+
+El objetivo de esta prueba es determinar si el comportamiento del vector de estado con el UKF mejora
+frente al EKF mientras sigue la trayectoria circular de referencia. Se ejecutan de manera simultánea los
+filtros EKF y UKF y se visualizan los comportamientos de las componentes de posición (x, y, z) y velocidad
+(vx, vy, vz), así como las medidas de los ángulos de Euler.
+En estas pruebas se presentaron inconvenientes relacionados con el tamaño de las mediciones para los
+ángulos de Euler, ya que no coincidían y por tanto fue necesario trabajar por separado y ser comparados
+con respecto a los valores obtenidos por el modelo del mini-helicóptero. Dicho tratamiento se puede
+analizar más detalladamente del programa en Matlab que se presenta como Anexo 1. El comportamiento
+de cada una de las variables de estado en cada filtro es presentado respectivamente en las figuras 3.23 a
+3.30.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                             37
+                                       Comparación de las componentes en X de los Filtros EKF y UKF con la referencia.
+
+                             10
+
+                              8
+
+                              6
+
+                              4
+
+                              2
+
+
+                     x (m)    0
+
+                              -2
+
+                              -4
+
+                              -6
+
+                              -8             Ref.
+                                             UKF
+                             -10             EKF
+
+                                   0            10            20           30            40            50           60
+                                                                            t (s)
+
+
+                        Figura 3.23 Comparación de la componente x para el EKF Y UKF con la referencia
+                                       Comparación de las componentes en Y de los Filtros EKF y UKF con la referencia.
+
+                              0
+
+                              -2
+
+                              -4
+
+                              -6
+
+                              -8
+
+
+                     y (m)   -10
+
+                             -12
+
+                             -14
+
+                             -16
+
+                             -18                                                                                   Ref.
+                                                                                                                   UKF
+                             -20                                                                                   EKF
+
+                                   0            10            20           30            40            50           60
+                                                                            t (s)
+
+
+                        Figura 3.24 Comparación de la componente y para el EKF Y UKF con la referencia
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado               38
+                                            Comparación de las componentes Z de los Filtros EKF y UKF con la referencia.
+                                 -58
+
+
+                                -58.5
+
+
+                                 -59
+
+
+                                -59.5
+
+
+                    z (m)        -60
+
+
+                                -60.5
+
+
+                                 -61
+
+
+                                -61.5                                                                                   Ref.
+                                                                                                                        UKF
+                                                                                                                        EKF
+                                 -62
+                                        0          10           20           30            40           50             60
+                                                                                  t (s)
+
+
+                            Figura 3.25 Comparación de la componente z para el EKF Y UKF con la referencia
+                                              Comparación de las Velocidades en x en el EKF y UKF con la referencia.
+
+                                 1.5
+
+
+                                   1
+
+
+                                 0.5
+
+
+                     Vx (m/s)
+                                   0
+
+
+                                -0.5
+
+
+                                                                                                                        Ref.
+                                  -1
+                                                                                                                        UKF
+                                                                                                                        EKF
+
+                                        0          10            20           30            40            50            60
+                                                                               t (s)
+
+
+                    Figura 3.26 Comparación de las velocidades en x para el EKF Y UKF con la referencia
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                    39
+                                              Comparación de las Velocidades en y en el EKF y UKF con la referencia.
+                                   1.5
+
+
+                                     1
+
+
+                                   0.5
+
+
+                        Vy (m/s)
+                                     0
+
+
+                                   -0.5
+
+
+                                    -1
+                                                                                                                       Ref.
+                                                                                                                       UKF
+                                                                                                                       EKF
+                                   -1.5
+                                          0      10             20            30            40            50           60
+                                                                               t (s)
+
+
+                    Figura 3.27 Comparación de las velocidades en y para el EKF Y UKF con la referencia
+                                              Comparación de las Velocidades en z en el EKF y UKF con la referencia.
+                                   1.5
+
+
+                                     1
+
+
+                                   0.5
+
+
+                        Vz (m/s)
+                                     0
+
+
+                                   -0.5
+
+
+                                    -1
+                                                                                                                       Ref.
+                                                                                                                       UKF
+                                                                                                                       EKF
+                                   -1.5
+                                          0      10             20            30            40            50           60
+                                                                               t (s)
+
+
+                    Figura 3.28 Comparación de las velocidades en z para el EKF Y UKF con la referencia
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                   40
+                                                          Comparación de la medida del roll en el UKF con el modelo del minihelicoptero.
+                                  0.5
+
+
+            roll (rad)
+                                          0
+
+                                                                                                                                                modelo del mh
+                                                                                                                                                UKF
+                             -0.5
+                                                 0          10                 20             30              40               50                        60
+                                                                                               t (s)
+                                                          Comparación de la medida del pitch en el UKF con el modelo del minihelicoptero.
+                                  0.5
+
+
+            pitch (rad)
+                                          0
+
+                                                                                                                                                modelo del mh
+                                                                                                                                                UKF
+                             -0.5
+                                                 0          10                 20           30               40               50                         60
+                                                                                             t (s)
+                                                          Comparación de la medida del yaw en el UKF con el modelo del minihelicoptero.
+                                          4
+
+                                          2
+
+
+                      yaw (rad)
+                                          0
+
+                                         -2                                                                                                              ref
+                                                                                                                                                         UKF
+                                         -4
+                                                 0          10                 20                30                 40                50                 60
+                                                                                                  t (s)
+
+
+             Figura 3.29 Comparación de los ángulos de roll, pitch y yaw del modelo del mini-helicóptero con el UKF
+
+                                                               Comparación de la medida del roll en el EKF con el modelo del minihelicoptero.
+                                                0.5
+
+
+                          roll (rad)
+                                                 0
+
+                                                                                                                                                 modelo del mh
+                                                                                                                                                 EKF
+                                          -0.5
+                                                      0       10                20                30               40                 50                 60
+                                                                                                   t (s)
+                                                              Comparación de la medida del pitch en el EKF con el modelo del minihelicoptero.
+                                                0.5
+
+
+                          pitch (rad)]
+                                                 0
+
+                                                                                                                                                 modelo del mh
+                                                                                                                                                 EKF
+                                          -0.5
+                                                      0       10              20                30               40                 50                   60
+                                                                                                 t (s)
+                                                                      Comparación de la medida del yaw en el EKF con la referencia.
+                                                 4
+
+                                                 2
+
+
+                                    yaw (rad)
+                                                 0
+
+                                                 -2                                                                                                       ref
+                                                                                                                                                          EKF
+                                                 -4
+                                                      0       10                20                30                40                 50                60
+                                                                                                   t (s)
+
+
+             Figura 3.30 Comparación de los ángulos de roll, pitch y yaw del modelo del mini-helicóptero con el EKF
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                      41
+Los resultados obtenidos en las pruebas evidencian la mejoría en el comportamiento de las componentes
+del vector de estado cuando se utiliza el UKF, lo cual se cuantificó utilizando el valor del error RMSE, tal y
+como se desarrolla en la bibliografía relacionada con el control de aeronaves entre los que podemos
+resaltar a Teixeira, Santillo, Erwin y Bernstein (2008) y Oh y Johnson (2006). Los resultados se presentan
+en la tabla 3.3 y se visualizan en las figuras 3.31, 3.32 y 3.33.
+
+ Tabla 3.2 Comparación de los errores RMSE en los filtros EKF y UKF de las componentes de posición velocidad y ángulos en
+                                                    el mini-helicóptero
+
+                                                                                               Promedio de error RMSE
+ Algoritmo                                                   Posición                                Velocidad                                                       Ángulos de Euler
+                                                 x                 y             z            vx                        vy                     vz           roll           pitch         yaw
+
+    UKF                                      0.1313           0.0536           0.0181        0.1315    0.0604                                 0.1874        0.0023         0.0023       0.0868
+
+    EKF                                      0.1340           0.0726           0.0479        0.1694    0.1257                                 0.2382        0.0052         0.0052       0.0046
+
+
+                                                          Error de posición en x UKF                                                               Error de posición en x EKF
+
+                                        1                                                                                            1
+
+
+                      Error en x (m)                                                                               Error en x (m)
+                                        0                                                                                            0
+
+
+                                        -1                                                                                           -1
+
+                                             0       10       20     30      40    50          60                                         0   10       20     30      40    50      60
+                                                                     t (s)                                                                                    t (s)
+                                                          Error de posición en y UKF                                                               Error de posición en y EKF
+                                       0.5                                                                                          0.5
+
+
+          Error en y (m)                                                                               Error en y (m)
+                                        0                                                                                            0
+
+
+                               -0.5                                                                                         -0.5
+                                             0       10       20     30      40    50          60                                         0   10       20     30      40    50      60
+                                                                     t (s)                                                                                    t (s)
+                                                          Error de posición en z UKF                                                               Error de posición en z EKF
+                                       0.5
+                                                                                                                                     1
+
+
+          Error en z (m)                                                                                           Error en z (m)
+                                        0                                                                                            0
+
+
+                                                                                                                                     -1
+                               -0.5
+                                             0       10       20       30       40      50     60                                         0   10       20    30       40      50    60
+                                                                       t (s)                                                                                 t (s)
+
+
+                                                 Figura 3.31 Estimación de los errores de posición x , y y z en los filtros EKF y UKF
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                                                 42
+                                                                 Error de velocidad en Vx UKF                                                                      Error de velocidad en Vx EKF
+
+                                                    1                                                                                                    1
+
+
+                               Error en Vx (m/s)                                                                                    Error en Vx (m/s)
+                                                    0                                                                                                    0
+
+
+                                                    -1                                                                                                   -1
+
+                                                         0      10     20     30     40    50        60                                                       0   10     20     30     40    50       60
+                                                                              t (s)                                                                                             t (s)
+                                                                 Error de velocidad en Vy UKF                                                                      Error de velocidad en Vy EKF
+                                                   0.5                                                                                                  0.5
+
+
+           Error en Vy (m/s)                                                                                         Error en Vy (m/s)
+                                                    0                                                                                                    0
+
+
+                                          -0.5                                                                                                 -0.5
+                                                         0      10     20     30     40    50        60                                                       0   10     20     30     40    50       60
+                                                                              t (s)                                                                                             t (s)
+                                                                 Error de velocidad en Vz UKF                                                                      Error de velocidad en Vz EKF
+                                                   0.5                                                                                                  0.5
+
+
+           Error en Vz (m/s)                                                                                         Error en Vz (m/s)
+                                                    0                                                                                                    0
+
+
+                                          -0.5                                                                                                 -0.5
+                                                         0      10     20     30       40       50   60                                                       0   10     20     30      40       50   60
+                                                                              t (s)                                                                                             t (s)
+
+
+                                                             Figura 3.32 Estimación de los errores de velocidad vx , v y y v z en los filtros EKF y UKF
+
+                                                                      Error de roll en el UKF                                                                          Error de roll en el EKF
+                                             0.05                                                                                           0.05
+
+
+        Error de roll (rad)                                                                                 Error de roll (rad)
+                                                     0                                                                                                   0
+
+
+                                       -0.05                                                                                             -0.05
+                                                         0      10     20      30      40     50     60                                                       0   10     20      30      40     50    60
+                                                                               t (s)                                                                                             t (s)
+                                                                     Error de pitch en el UKF                                                                          Error de pitch en el EKF
+                                             0.05                                                                                           0.05
+
+
+        Error de pitch (rad)                                                                                Error de pitch (rad)
+                                                     0                                                                                                   0
+
+
+                                       -0.05                                                                                             -0.05
+                                                         0      10     20      30    40     50       60                                                       0   10     20      30     40    50      60
+                                                                               t (s)                                                                                             t (s)
+                                                                     Error de yaw en el UKF                                                                            Error de yaw en el EKF
+                                             0.05                                                                                           0.05
+
+
+        Error de pitch (rad)                                                                                Error de pitch (rad)
+                                                     0                                                                                                   0
+
+
+                                       -0.05                                                                                             -0.05
+                                                         0      10     20      30      40       50   60                                                       0   10     20     30      40       50   60
+                                                                               t (s)                                                                                            t (s)
+
+
+        Figura 3.33 Estimación de los errores en las medidas de los ángulos de roll, pitch y yaw en los filtros EKF y UKF
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                                                                43
+El Anexo contiene el programa en Matlab utilizado para las representaciones gráficas de las trayectorias, la
+comparación de las componentes del vector de estado calculadas por cada uno de los filtros (EKF y UKF) y
+las estimaciones de los promedios del error RMSE utilizadas en este capítulo.
+
+3.3.4 Análisis del tiempo de operación
+
+Por último, se contabilizó el tiempo real del computador en que se hicieron las pruebas de cada filtro
+mientras seguían la trayectoria circular completa tomada como referencia y se observó que para el UKF se
+requieren 48 segundos mientras para el EKF 12 segundos. Es decir, el costo de la mejoría en el
+comportamiento de las componentes del vector de estado y la reducción de RMSE se ve representado en
+el elevado tiempo computacional que utiliza el UKF debido al manejo por separado de los 33 vectores
+columna de la matriz de puntos sigma en sus etapas de predicción y corrección. Dicho resultado concuerda
+con los resultados obtenidos en todos los documentos planteados en la tabla 3.1 y es interesante, ya que
+se pensaría que al eliminar el manejo de las matrices Jacobianas del EKF el tiempo se reduciría. Este
+problema requiere de un estudio más detallado de los algoritmos con miras a su optimización, y puede
+convertirse en otro tema de investigación.
+
+
+3.4      RESUMEN DEL CAPÍTULO
+
+En este capítulo se implementó en Matlab/Simulink de cada una de las ecuaciones que definen el filtro UKF
+y se probó y comparó con el EKF actual implementado para el mini-helicóptero robot Colibrí. Al igual que lo
+presentado por La Viola (2002), Teixeira, Santillo, Erwin y Bernstein (2008), Gove y Hollinger (2005) y Oh y
+Johnson (2006), este capítulo muestra tanto visual como numéricamente la superioridad del UKF frente al
+EKF en el seguimiento de una trayectoria, la invariancia del comportamiento ante el cambio de sus
+condiciones iniciales y la reducción en el valor del error absoluto y RMSE de cada una de las variables del
+vector de estado. La implementación y análisis se basaron en unas habilidades y fundamentos
+matemáticos adquiridos durante los estudios en la Maestría en Matemáticas Aplicadas. Se muestran los
+resultados finales, pero se realizaron innumerables pruebas para encontrar los parámetros y
+comportamiento aceptables del UKF; sin embargo, es bien conocido que el filtro siempre es susceptible de
+un ajuste continuo.
+A pesar de las evidentes ventajas, se comprobó un aumento en el tiempo de operación o tiempo
+computacional para las pruebas del filtro UKF frente al EKF. Dicho aumento alcanzó a cuadriplicar el
+tiempo utilizado por el EKF y se explica debido a la gran cantidad de cálculos que deben realizarse con
+cada grupo de puntos sigma en las etapas de predicción y corrección. Este problema requiere de un
+estudio más detallado para la optimización de los algoritmos, un tema que puede ser interesante para un
+trabajo futuro.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   44
+                     Capítulo 4. Conclusiones y
+                               recomendaciones
+
+
+En este trabajo se desarrolló un estudio detallado del filtro de Kalman “Unscented” (UKF), visto éste como
+la incorporación de una técnica de muestreo determinística conocida con el nombre de transformación
+“Unscented” (UT) dentro del filtro de Kalman Extendido (EKF). Además de estudiar todo su desarrollo
+matemático, se implementó el modelo en Matlab/Simulink con el fin de compararlo con el EKF existente
+dentro del modelo del mini-helicóptero robot del grupo de investigación “Sistemas de Control Digital” de la
+Universidad EAFIT de Medellín.
+La aplicación de las matemáticas fue de gran importancia para el entendimiento del proceso determinístico
+que convierte al filtro UKF en una técnica de estimación poderosa, aunque durante el desarrollo de la
+implementación dicha técnica de muestreo (la UT) fue el mayor inconveniente, ya que el procesamiento de
+la matriz de puntos sigma requiere del manejo de 33 vectores columnas de 16 elementos, los cuales deben
+ser evaluados de forma independiente a través del modelo no lineal (f) en el espacio de estados que se
+utiliza para el proceso de la navegación del mini-helicóptero en la etapa de predicción, y a través de la
+salida del modelo (h) en la etapa de corrección. Adicionalmente se requiere que cada vector transformado
+se multiplique por un parámetro (wi) denominado peso, el cual debe ser calculado previamente con los
+parámetros de dispersión  , k y  para luego ser operados con el fin de obtener las predicciones y
+correcciones del vector de estado y la matriz de covarianzas del sistema. Como el proceso se debe
+efectuar para cada iteración, se corre el riesgo de que cualquier inconsistencia del modelo realizado en
+Matlab/Simulink, desencadenara una inconsistencia en el tamaño de las variables y con ello una
+inconsistencia en los resultados. Este problema se presentó durante el desarrollo de la implementación y
+tomó mucho tiempo resolverlo.
+También se evidenció que mientras el UKF realiza en una iteración todo lo descrito en el anterior proceso,
+para el EKF sólo es necesario evaluar una vez el vector de estado a través de f y h por iteración.
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   45
+Desventaja que se evidencia al momento de comparar los tiempos de operación, siendo el tiempo de
+operación del UKF cuatro veces mayor que el tiempo necesario en el EKF.
+Con el modelo funcionando correctamente, se logró comprobar que el tiempo de muestreo con el que se
+obtuvieron los mejores resultados en la simulación coincidió con el tiempo de muestreo con el que trabaja
+en la actualidad el EKF. Para tal resultado se probaron cuatro valores diferentes; donde Ts  0.08 s fue el
+único caso en el que se observó que se estaba bastante lejos de la trayectoria considerada como
+referencia; de hecho, en este caso ni se logró finalizar la misma para el EKF. Cuando se probó el modelo
+con los otros tiempos, se finalizó la trayectoria circular aunque muy difícilmente se observaba algún
+beneficio o ventaja entre ellas, por lo que fue necesario elegir la prueba que presentara el valor más bajo
+del promedio de los errores RMSE de todas las medidas.
+Es importante resaltar el comportamiento del UKF frente a las variaciones de las condiciones iniciales del
+vector de estado y la matriz de covarianzas. En las pruebas el filtro UKF no varió su trayectoria cuando se
+cambiaba la condición inicial en la matriz de covarianzas. Las matrices utilizadas en las pruebas tanto en el
+UKF como en el EKF fueron la matriz cero y la trabajada en Oh y Johnson (2006).
+A esta altura del trabajo y ya teniendo establecidos y fijos los valores de las condiciones iniciales y el
+tiempo de muestreo para ambos filtros, se compararon los comportamientos de las componentes de
+posición, velocidad y actitud del vector de estado por medio de gráficas en las que se observó de manera
+indiscutible que el UKF brinda un mejor funcionamiento frente al EKF. Sin embargo, ha de tenerse en
+cuenta que aunque los errores RMSE (Tabla 3.2) ratifican lo anterior y fortalecen las ventajas que
+proporciona el UKF, el EKF presenta errores más pequeños para las medidas de los ángulos de roll, pitch y
+yaw; no obstante en ambos filtros estos errores están por debajo del orden de 10 -2. Este es un aspecto que
+requiere de un estudio más detallado.
+De las representaciones gráficas de los errores expuestas en el trabajo se observa que el UKF presenta
+menos variaciones en el tiempo; esto puede significar que el filtro se ajusta más fácilmente a los valores de
+referencia en comparación con el EKF.
+Finalmente, se encontró que son más las ventajas que las desventajas del UKF y es válido pensar que el
+filtro representa una nueva y mejor alternativa que un filtro EKF para la estimación de variables del mini-
+helicóptero X-Cell 60 del proyecto Colibrí de la Universidad EAFIT de Medellín. Además, su desarrollo
+implica un mayor conocimiento matemático, lo cual concuerda con la idea general del proyecto Colibrí de
+"Aplicar métodos eficientes y eficaces de modelado matemático teórico y experimental, métodos de control
+convencional y no convencional, métodos informáticos y tecnología en las áreas de hardware, telemática y
+comunicaciones, para permitir la navegación autónoma de un mini-helicóptero".
+Es importante resaltar la manera como se articuló el presente trabajo al proyecto Colibrí por medio de los
+cursos impartidos en la Maestría en Matemáticas Aplicadas, los proyectos previos ejecutados y los
+recursos con que cuenta dicho proyecto. El enfoque matemático y de simulación basado en
+Matlab/Simulink facilita el análisis y diseño de avanzados y complejos métodos de estimación y control. El
+tema de la estimación del estado se ha desarrollado en varias etapas,
+Se sugiere, en general, continuar con la aplicación de métodos matemáticos avanzados a un problema tan
+interesante, complejo y con tantas posibilidades de investigación como lo es el logro del vuelo autónomo de
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   46
+un mini-helicóptero robot. En particular, se recomienda estudiar mejor el problema de optimización de los
+algoritmos del UKF para reducir los tiempos de cómputo y hacer más viable su aplicación. Es necesario
+también implementar otras características de los filtros de Kalman como es el procesamiento secuencial de
+señales a diferentes períodos de muestreo (cada señal de entrada al filtro puede tomarse a diferentes
+períodos de muestreo), algo que está incluido en el EKF desarrollado en el proyecto Colibrí.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   47
+                                                                                                         Anexo
+
+
+Programa de Matlab para las comparaciones gráficas entre los filtros EKF y UKF
+Este anexo contiene el programa en Matlab utilizado para el cálculo de los errores y las representaciones
+graficas de los resultados obtenidos en cada una de las comparaciones entre los filtros. Trabaja con datos
+obtenidos directamente del modelo en Simulink y para el manejo de los resultados relacionados con los
+ángulos de Euler fue necesario adaptarlo ya que no todos se definen del mismo orden.
+Este programa al igual que el modelo final del filtro en Matlab/Simulink no se pueden considerar de dominio
+público, ya que quedará a disposición del grupo de investigación "Sistemas de Control Digital" de la
+Universidad EAFIT de Medellín para su utilización dentro del proyecto Colibrí.
+clc
+format long
+t=0:0.02:62.84;
+%%%%%%%%%%%% Trayectoria referencia %%%%%%%%%%%%%%%%%%%%%%%%%%
+y_ref=10*cos(0.1*t)-10';
+x_ref=10*sin(0.1*t)';
+%%%%%%%%%%%%%Comparación entre UKF, EKF y referencia %%%%%%%%%%%%
+plot(x_ref,y_ref,'r',x_EKF,y_EKF,'b',x_UKF,y_UKF,'G');title('Comparación de las trayectorias en
+XY de los Filtros EKF y UKF con la referencia.');xlabel('x');ylabel('y');axis([-11 11 -21 1]);h =
+legend('Ref.','UKF','EKF',4);
+pause
+plot(t,Vx_ref,'r',t,Vx_UKF(1,:)','b',t,Vx_EKF(1,:)','G');title('Comparación de las Velocidades en
+x en el EKF y UKF con la referencia.');xlabel('t');ylabel('Vx');axis([-0.5 63 -1.5 1.5]);h =
+legend('Ref.','UKF','EKF',4);
+pause
+plot(t,Vy_ref,'r',t,Vy_UKF(1,:)','b',t,Vy_EKF(1,:)','G');title('Comparación de las Velocidades en
+y en el EKF y UKF con la referencia.');xlabel('t');ylabel('Vy');axis([-0.5 63 -1.5 1.5]);h =
+legend('Ref.','UKF','EKF',4);
+pause
+plot(t,Vz_ref,'r',t,Vz_UKF(1,:)','b',t,Vz_EKF(1,:)','G');title('Comparación de las Velocidades en
+z en el EKF y UKF con la referencia.');xlabel('t');ylabel('Vz');axis([-0.5 63 -1.5 1.5]);h =
+legend('Ref.','UKF','EKF',4);
+pause
+%%%%%%%%%%%%% Comparación de los ángulos y el modelo para el UKF %%%%%%%%%%
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   48
+T=0:63/6304:63-63/6304;
+subplot(3,1,1),plot(T,roll_modelo,'r',T,roll_UKF);title('Comparación de la medida del roll en el
+UKF con el modelo del minihelicoptero.');xlabel('t');ylabel('roll');axis([-0.5 63 -0.5 0.5]);h =
+legend('modelo del mh','UKF',4);
+subplot(3,1,2),plot(T,pitch_modelo,'r',T,pitch_UKF);title('Comparación de la medida del pitch en
+el UKF con el modelo del minihelicoptero.');xlabel('t');ylabel('pitch');axis([-0.5 63 -0.5
+0.5]);h = legend('modelo del mh','UKF',4);
+subplot(3,1,3),plot(T,yaw_ref,'r',T,yaw_UKF);title('Comparación de la medida del yaw en el UKF
+con el modelo del minihelicoptero.');xlabel('t');ylabel('yaw');axis([-0.5 63 -4.5 4.5]);h =
+legend('ref','UKF',4);
+pause
+%%%%%%%%%%%%% Comparación de los ángulos y el modelo para el EKF %%%%%%%%%%
+Tt=0:63/6296:63-63/6296;
+subplot(3,1,1),plot(Tt,roll_EKF_modelo,'r',Tt,roll_EKF);title('Comparación de la medida del roll
+en el EKF con el modelo del minihelicoptero.');xlabel('t');ylabel('roll');axis([-0.5 63 -0.5
+0.5]);h = legend('modelo del mh','EKF',4);
+subplot(3,1,2),plot(Tt,pitch_EKF_modelo,'r',Tt,pitch_EKF);title('Comparación de la medida del
+pitch en el EKF con el modelo del minihelicoptero.');xlabel('t');ylabel('pitch');axis([-0.5 63 -
+0.5 0.5]);h = legend('modelo del mh','EKF',4);
+subplot(3,1,3),plot(Tt,yaw_EKF_ref,'r',Tt,yaw_EKF);title('Comparación de la medida del yaw en el
+EKF con la referencia.');xlabel('t');ylabel('yaw');axis([-0.5 63 -4.5 4.5]);h =
+legend('ref','EKF',4);
+pause
+%%%%%%%%%%%%%%%%% Calculo de errores %%%%%%%%%%%%%%%%%%%%%%%%%%%5
+for k=1:3143;
+    err_x_UKF(k,1)=x_ref(k,1)-x_UKF(k,1);
+    err_x_EKF(k,1)=x_ref(k,1)-x_EKF(k,1);
+    err_y_UKF(k,1)=y_ref(1,k)-y_UKF(k,1);
+    err_y_EKF(k,1)=y_ref(1,k)-y_EKF(k,1);
+    err_z_UKF(k,1)=-60-z_UKF(k,1);
+    err_z_EKF(k,1)=-60-z_EKF(k,1);
+    err_Vx_UKF(k,1)=Vx_ref(k,1)-Vx_UKF(1,1,k);
+    err_Vx_EKF(k,1)=Vx_ref(k,1)-Vx_EKF(1,1,k);
+    err_Vy_UKF(k,1)=Vy_ref(k,1)-Vy_UKF(1,1,k);
+    err_Vy_EKF(k,1)=Vy_ref(k,1)-Vy_EKF(1,1,k);
+    err_Vz_UKF(k,1)=Vz_ref(k,1)-Vz_UKF(1,1,k);
+    err_Vz_EKF(k,1)=Vz_ref(k,1)-Vz_EKF(1,1,k);
+    erms_x_UKF(k,1)=((x_ref(k,1)-x_UKF(k,1))^2);
+    erms_x_EKF(k,1)=((x_ref(k,1)-x_EKF(k,1))^2);
+    erms_y_UKF(k,1)=((y_ref(1,k)-y_UKF(k,1))^2);
+    erms_y_EKF(k,1)=((y_ref(1,k)-y_EKF(k,1))^2);
+    erms_z_UKF(k,1)=((-60-z_UKF(k,1))^2);
+    erms_z_EKF(k,1)=((-60-z_EKF(k,1))^2);
+    erms_Vx_UKF(k,1)=((Vx_ref(k,1)-Vx_UKF(1,1,k))^2);
+    erms_Vx_EKF(k,1)=((Vx_ref(k,1)-Vx_EKF(1,1,k))^2);
+    erms_Vy_UKF(k,1)=((Vy_ref(k,1)-Vy_UKF(1,1,k))^2);
+    erms_Vy_EKF(k,1)=((Vy_ref(k,1)-Vy_EKF(1,1,k))^2);
+    erms_Vz_UKF(k,1)=((Vz_ref(k,1)-Vz_UKF(1,1,k))^2);
+    erms_Vz_EKF(k,1)=((Vz_ref(k,1)-Vz_EKF(1,1,k))^2);
+end
+ERMS_x_UKF=sqrt(sum(erms_x_UKF)/3143)
+ERMS_x_EKF=sqrt(sum(erms_x_EKF)/3143)
+ERMS_y_UKF=sqrt(sum(erms_y_UKF)/3143)
+ERMS_y_EKF=sqrt(sum(erms_y_EKF)/3143)
+ERMS_z_UKF=sqrt(sum(erms_z_UKF)/3143)
+ERMS_z_EKF=sqrt(sum(erms_z_EKF)/3143)
+ERMS_Vx_UKF=sqrt(sum(erms_Vx_UKF)/3143)
+ERMS_Vx_EKF=sqrt(sum(erms_Vx_EKF)/3143)
+ERMS_Vy_UKF=sqrt(sum(erms_Vy_UKF)/3143)
+ERMS_Vy_EKF=sqrt(sum(erms_Vy_EKF)/3143)
+ERMS_Vz_UKF=sqrt(sum(erms_Vz_UKF)/3143)
+ERMS_Vz_EKF=sqrt(sum(erms_Vz_EKF)/3143)
+for l=1:6304;
+    err_roll_UKF(l,1)=roll_modelo(l,1)-roll_UKF(l,1);
+    err_pitch_UKF(l,1)=pitch_modelo(l,1)-pitch_UKF(l,1);
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   49
+     err_yaw_UKF(l,1)=yaw_ref(l,1)-yaw_UKF(l,1);
+     erms_roll_UKF(l,1)=((roll_modelo(l,1)-roll_UKF(l,1))^2);
+     erms_pitch_UKF(l,1)=((pitch_modelo(l,1)-pitch_UKF(l,1))^2);
+     erms_yaw_UKF(l,1)=((yaw_ref(l,1)-yaw_UKF(l,1))^2);
+end
+ERMS_roll_UKF=sqrt(sum(erms_roll_UKF)/31445)
+ERMS_pitch_UKF=sqrt(sum(erms_pitch_UKF)/31445)
+ERMS_yaw_UKF=sqrt(sum(erms_yaw_UKF)/31445)
+for m=1:6296;
+    err_roll_EKF(m,1)=roll_EKF_modelo(m,1)-roll_EKF(m,1);
+    err_pitch_EKF(m,1)=pitch_EKF_modelo(m,1)-pitch_EKF(m,1);
+    err_yaw_EKF(m,1)=yaw_EKF_ref(m,1)-yaw_EKF(m,1);
+    erms_roll_EKF(m,1)=((roll_EKF_modelo(m,1)-roll_EKF(m,1))^2);
+    erms_pitch_EKF(m,1)=((pitch_EKF_modelo(m,1)-pitch_EKF(m,1))^2);
+    erms_yaw_EKF(m,1)=((yaw_EKF_ref(m,1)-yaw_EKF(m,1))^2);
+end
+ERMS_roll_EKF=sqrt(sum(erms_roll_EKF)/6296)
+ERMS_pitch_EKF=sqrt(sum(erms_pitch_EKF)/6296)
+ERMS_yaw_EKF=sqrt(sum(erms_yaw_EKF)/6296)
+ERROR=[ERMS_x_UKF ERMS_x_EKF ERMS_y_UKF ERMS_y_EKF ERMS_z_UKF ERMS_z_EKF ERMS_Vx_UKF ERMS_Vx_EKF
+ERMS_Vy_UKF ERMS_Vy_EKF ERMS_Vz_UKF ERMS_Vz_EKF ERMS_roll_UKF ERMS_pitch_UKF ERMS_yaw_UKF
+ERMS_roll_EKF ERMS_pitch_EKF ERMS_yaw_EKF];
+promedio_ERROR=mean(ERROR)
+pause
+%%%%%%%%%%%%%% Todas las posiciones %%%%%%%%%%%%%%%%%%%
+subplot(3,2,1),plot(t,err_x_UKF);title('Error de posición en x UKF');xlabel('t');ylabel('Error en
+x');axis([-0.5 63 -1.5 1.5]);
+subplot(3,2,2),plot(t,err_x_EKF);title('Error de posición en x EKF');xlabel('t');ylabel('Error en
+x');axis([-0.5 63 -1.5 1.5]);
+subplot(3,2,3),plot(t,err_y_UKF);title('Error de posición en y UKF');xlabel('t');ylabel('Error en
+y');axis([-0.5 63 -0.5 0.5]);
+subplot(3,2,4),plot(t,err_y_EKF);title('Error de posición en y EKF');xlabel('t');ylabel('Error en
+y');axis([-0.5 63 -0.5 0.5]);
+subplot(3,2,5),plot(t,err_z_UKF);title('Error de posición en z UKF');xlabel('t');ylabel('Error en
+z');axis([-0.5 63 -0.5 0.5]);
+subplot(3,2,6),plot(t,err_z_EKF);title('Error de posición en z EKF');xlabel('t');ylabel('Error en
+z');axis([-0.5 63 -0.5 0.5]);
+pause
+%%%%%%%%%%%%%%%%% Todas las velocidades %%%%%%%%%%%%%%%
+subplot(3,2,1),plot(t,err_Vx_UKF);title('Error de velocidad en Vx UKF');xlabel('t');ylabel('Error
+en Vx');axis([-0.5 63 -1.5 1.5]);
+subplot(3,2,2),plot(t,err_Vx_EKF);title('Error de velocidad en Vx EKF');xlabel('t');ylabel('Error
+en Vx');axis([-0.5 63 -1.5 1.5]);
+subplot(3,2,3),plot(t,err_Vy_UKF);title('Error de velocidad en Vy UKF');xlabel('t');ylabel('Error
+en Vy');axis([-0.5 63 -0.5 0.5]);
+subplot(3,2,4),plot(t,err_Vy_EKF);title('Error de velocidad en Vy EKF');xlabel('t');ylabel('Error
+en Vy');axis([-0.5 63 -0.5 0.5]);
+subplot(3,2,5),plot(t,err_Vz_UKF);title('Error de velocidad en Vz UKF');xlabel('t');ylabel('Error
+en Vz');axis([-0.5 63 -0.5 0.5]);
+subplot(3,2,6),plot(t,err_Vz_EKF);title('Error de velocidad en Vz EKF');xlabel('t');ylabel('Error
+en Vz');axis([-0.5 63 -0.5 0.5]);
+pause
+%%%%%%%% Todos los ángulos %%%%%%%%%%%%%%%%%%%%%%%%%%
+subplot(3,2,1),plot(T,err_roll_UKF);title('Error de roll en el UKF');xlabel('t');ylabel('Error de
+roll');axis([-0.5 63 -0.05 0.05]);
+subplot(3,2,2),plot(Tt,err_roll_EKF);title('Error de roll en el EKF');xlabel('t');ylabel('Error
+de roll');axis([-0.5 63 -0.05 0.05]);
+subplot(3,2,3),plot(T,err_pitch_UKF);title('Error de pitch en el UKF');xlabel('t');ylabel('Error
+de pitch');axis([-0.5 63 -0.05 0.05]);
+subplot(3,2,4),plot(Tt,err_pitch_EKF);title('Error de pitch en el EKF');xlabel('t');ylabel('Error
+de pitch');axis([-0.5 63 -0.05 0.05]);
+subplot(3,2,5),plot(T,err_yaw_UKF);title('Error de yaw en el UKF');xlabel('t');ylabel('Error de
+pitch');axis([-0.5 63 -0.05 0.05]);
+subplot(3,2,6),plot(Tt,err_yaw_EKF);title('Error de yaw en el EKF');xlabel('t');ylabel('Error de
+pitch');axis([-0.5 63 -0.05 0.05]);
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   50
+                                                                                     Bibliografía
+
+
+Aguirre-Gil, I., Barrientos, A. y Del Cerro, J. (2005). Control de un mini-helicóptero en vuelo estacionario
+  utilizando un regulador cuadrático gaussiano (LQG). En: V Congreso de Automatización y Control CAC.
+  Caracas, Venezuela.
+Álvarez, J. (2005). Diseño y simulación de un control multifrecuencia de actitud en un mini-helicóptero
+   Robot. Trabajo de investigación en la Maestría en Matemáticas Aplicadas. Universidad EAFIT. Director:
+   Dr. Carlos M. Vélez S.
+Álvarez, D.A., Vélez, C.M. (2007). Identificación de parámetros de un mini-helicóptero robot usando el
+   método heurístico de búsqueda tabú. Ponencia.
+Chow, S.M, Ferrer, E y Nesselroade, J.R. (2007). An unscented Kalman filter approach to the estimation of
+  nonlinear dynamical systems models. En: Multivariate Behavioral Research. Vol. 42. No. 2. p. 283 - 321.
+Gavrilets V., Mettler B., Feron E. (2001). Nonlinear model for a small-Size acrobatic helicopter. AIAA
+  Guidance, Navigation, and Control Conference, Montreal, Canada, August 6th-9th.
+Gavrilets V. (2003). Autonomus aerobatic maneuvering of miniature helicopters. Ph.D. Thesis.
+  Massachusetts Institute of Technology.
+Grewal Mohinder S., Andrews Angus P. (2001). Kalman Filtering: Theory and Practice Using MATLAB,
+   Second Edition, Ed. John Wiley & Sons, Inc.
+Gove J., Hollinger D. (2006). Application of a dual unscented Kalman filter for simultaneous state and
+  parameter estimation in problems of surface-atmosphere exchange. Journal of Geophysical Research,
+  Vol. 111, D08S07.
+Hamilton W.R. (1853). Lectures on Quaternions. Royal Irish Academy.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   51
+Hartikainen Jouni, Särkkä Simo (2008). Optimal filtering with Kalman filters and smoothers. Department of
+  Biomedical Engineering and Computational Science. Helsinki University of Technology.
+Julier, S. J., and J. K. Uhlmann. (1997). A new extension of the Kalman filter to nonlinear systems. En:
+    Symp. Aerospace/Defense Sensing, Smul, and Controls. SPIE--The International Society for Optical
+    Engineering Orlando, FL. AA (Univ. of Oxford). Proc. SPIE Vol. 3068. p. 182-193.
+Julier, S. J., and J. K. Uhlmann (2002). The scaled unscented transformation, paper presented at American
+    Control Conference, Am. Autom. Control Counc., Anchorage, Alaska.
+Julier, S. J., and J. K. Uhlmann (2004). Unscented filtering and nonlinear estimation, Proc. IEEE, 92(3),
+    410– 422.
+Kalman R.E. (1960). A new approach to linear filtering and prediction problems. Research Institute for
+   Advanced Study. Baltimore, Md. Transactions of the ASME–Journal of Basic Engineering, 82 (Series D):
+   35-45.
+Kazufumi I., Xiong, K. (2000). Gaussian filters for nonlinear filtering problems. En: IEE Transactions on
+  Auromatic Control. Vol. 45. No. 5.
+La Viola, Joseph. (2002). A Comparison of Unscented and Extended Kalman Filtering for Estimating
+   Quaternion Motion. Brown University Technology Center.
+Matthew C. VanDyke, J.L. Schwartz, C.D. Hall (2004). Unscented Kalman Filtering for Spacecraft Attitude
+  State and Parameter Estimation, AAS/AIAA Spaceflight Mechanics Meeting, AAS 04-115.
+Matlab. Mathworks Inc. http://www.mathworks.com/access/helpdesk/help/helpdesk.html. Última consulta:
+  11 de febrero de 2009.
+Molinar-Monterrubio, J.M., Castro-Linares, R., Liceaga-Castro E. (2007). Modeling and linear function
+  parametric identification for a helicopter main rotor. Proceedings of the 18th IASTED International
+  Conference Modeling and Simulation. Montreal, Quebec, Canada.
+Mettler B. (2003). Identification modeling and characteristics of miniature rotorcraft. Kluwer Academic
+  Publishers.
+Oh, Seung-Min, Johnson Eric (2006). Development of UAV navigation system based on Unscented Kalman
+  Filter. En: AIAA Guidance, Navigation, and Control Conference and Exhibit. Paper Number AIAA-2006-
+  6763, Keystone, Colorado.
+Padfield G.D. (1996). Helicopter Flight Dynamics: The Theory and Application of Flying Qualities and
+  Simulation Modeling. AIAA Education Series, Reston, VA.
+Pascual, Alejandro. EKF y UKF: dos extensiones del filtro de Kalman para sistemas no lineales aplicadas al
+  control de un péndulo invertido. En: Monografía para el curso: Tratamiento Estadístico de Señales
+  (2004). Instituto de Ingeniería Eléctrica – Facultad de Ingeniera – UDELAR. Mayo. 2006 p. 35.
+  (http://iie.fing.edu.uy/ense/asign/TES2004_pascual.pdf). Última consulta: Enero 2008.
+Proyecto Colibrí. Grupo de investigación "Sistemas de Control Digital". Universidad EAFIT. http://ingenieria-
+   matematica.eafit.edu.co/scd/colibri.html. Última consulta: 19 de enero de 2009.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   52
+Schmidt, G. T. (1976). Practical Aspects of Kalman Filtering Implementation, AGARD-LS-82, NATO
+  Advisory Group for Aerospace Research and Development, London.
+Simulink. Mathworks Inc. http://www.mathworks.com/access/helpdesk/help/helpdesk.html. Última consulta:
+   11 de febrero de 2009.
+Teixeira Bruno, Santillo Mario, Erwin Scott and Bernstein Dennis (2008). An Illustrative Application of
+   Extended and Unscented Estimators. IEEE Control Systems Magazine. August 2008.
+Uhlmann J. K. (1994). Simultaneous map building and localization for real time applications. Reporte
+   técnico, Universidad de Oxford. Tesis de transferencia.
+Van Der Merwe, Rudolph, Wan, Eric y Julier, Simon (2001). The Square-Root Unscented Kalman Filter for
+  State and Parameter-Estimation. Oregon Graduate Institute of Science and Technology.
+Van Der Merwe, Rudolph, Wan, Eric y Julier, Simon (2004). Sigma-point Kalman filters for nonlinear
+  estimation and sensor–fusion-Applications to Integrated Navigation. En: AIAA Guidance, Navigation, and
+  Control Conference and Exhibit . Providence, Rhode Island. AIAA 2004-5120. p. 30.
+Vélez, C.M., Agudelo, A. y Álvarez J. (2006). Modeling, Simulation and Rapid Prototyping Of An Unmanned
+   Mini-Helicopter. En: AIAA Modeling and Simulation Technologies Conference and Exhibit, ISBN
+   1563477947. Paper Number AIAA-2006-6737, Keystone, Colorado.
+Vélez, C.M. (2006). Diseño, implementación y prueba de un sistema de control y navegación para un mini-
+   helicóptero robot – COLIBRÍ. Informe final, Colciencias.
+Vélez, C.M. (2007). Estimación del estado para el control de un mini-helicóptero robot – COLIBRÍ. Informe
+   final, EAFIT.
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado   53
+                                                                                                                                                    Índice
+
+
+Actitud ................................................................................. 3   Mini-helicóptero ................................................................... 8
+Ángulos de aleteo ("flapping") ............................................. 8                Mini-helicóptero X-Cell ........................................................ 7
+Ángulos de Euler ........................................................... 8, 42            NED ................................................................................. 3, 6
+Ecuaciones de movimiento del mini-helicóptero ................. 9                             Parámetros del mini-helicóptero ......................................... 9
+Ecuaciones del EKF .......................................................... 17              Proyecto Colibrí ............................................................... 2, 3
+Entradas de control ............................................................. 8           Puntos sigma ...................................................................... 2
+Error cuadrático medio o RMSE ....................................... 14                      Ruido de la medida ........................................................... 15
+Factorización de Cholesky ................................................ 21                 Ruido de proceso .............................................................. 15
+Filtro de Kalman ............................................................ 1, 14           Transformación “Unscented” ............................................. 18
+Helicóptero .......................................................................... 6      UAV ..................................................................................... 1
+IMU...................................................................................... 2   UKF ............................................................................... 2, 20
+Matrices de covarianza ..................................................... 15               Vector de estado ................................................................. 8
+
+
+Desarrollo, implementación y prueba de un filtro de Kalman del tipo UKF para un vehículo aéreo no tripulado                                                                         54

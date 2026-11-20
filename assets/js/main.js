@@ -87,8 +87,8 @@
         card.className = "subject-card";
 
         const resourceLabel = subj.resourcesCount > 0
-          ? subj.resourcesCount + " recursos en Drive / Web"
-          : "Asesoría personalizada en vivo";
+          ? subj.resourcesCount + " documentos PDF y texto"
+          : "Teoría + laboratorio interactivo";
 
         const tagsHtml = subj.topics.slice(0, 4).map(function (topic) {
           return '<span class="topic-chip">' + escapeHtml(topic) + "</span>";
@@ -106,7 +106,7 @@
           '<div class="subject-tags">' + tagsHtml + "</div>" +
           '<div class="subject-card-foot">' +
             "<span>" + escapeHtml(resourceLabel) + "</span>" +
-            "<span>Ver temario →</span>" +
+            "<span>Estudiar tema →</span>" +
           "</div>";
 
         grid.appendChild(card);

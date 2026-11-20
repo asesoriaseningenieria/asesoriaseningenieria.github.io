@@ -1,0 +1,293 @@
+FUNDAMENTOS MATIMÁTICOS PARA LA INTEGRACIÓN DE SENSORES
+                  EL FILTRO DE KALMAN
+
+
+                   Prueba de evaluación 3
+
+
+                      CURSO 2021/22
+
+
+BOUKRAA AHNIN ABDERRAHIM
+                                                25/05/2022
+
+
+                            1
+MODELO A:
+
+
+Para la aplicación referencia 10(pg.73-75): posición de un vehículo.
+Describamos e interpretamos cada uno de los componentes elementos del Filtro de
+Kalman.
+Las primeras ecuaciones son del estado de predicción.
+
+
+La primera ecuación es la ecuación de estado, y sus componentes son:
+Xk+1: Vector de estado.
+A: Matriz de estado
+Xk: vector de estado anterior
+Buk: termino de control (ejemplo B: Matriz asociada y uk:Velocidad)
+Wk: ruido asociado al sistema.
+La segunda ecuación es la ecuación de medida, y sus componentes son:
+Yk: vector de observación-medida
+C: matriz H, matriz observaciones-mediciones.es la matriz que relaciona el vector
+mediciones con vector de estado.
+Zk: ruido asociado a las mediciones.
+
+
+                                          2
+Ecuaciones de velocidad
+
+
+Vk+1: velocidad
+Vk: velocidad anterior
+T: tiempo
+Uk: aceleración
+V~k: ruido asociado a la velocidad
+
+
+Ecuación de posición en función de velocidad y aceleración:
+
+
+Pk+1: Posición actual
+Pk: posición anterior
+T: tiempo
+Vk: velocidad
+Uk: aceleración
+P~k: ruido asociado a la posición
+
+
+Vector de estado formado por la posición Pk y velocidad Vk:
+
+
+Ecuaciones de estado y de medida en forma matricial:
+
+
+                                        3
+H es la matriz C y Zk es Yk según este autor.
+Matrices de covarianzas:
+
+
+Sw: matriz covarianza de ruido asociada al sistema de proceso
+Sz: matriz covarianza de ruido asociada a las medidas
+Ecuaciones del Filtro de Kalman:
+
+
+Kk: factor de Kalman o ganancia.
+A: matriz de estado.
+Pk: matriz de covarianzas del error de estimación antes de aplicar el filtro.
+C y (CT traspuesta): matriz H, relaciona vector mediciones observaciones con vector de
+estado
+Sz: es la matriz de covarianzas asociada a las mediciones, también llamada Q.
+
+
+Ecuación de estado (aplicada la corrección, introduciendo el Filtro de Kalman)
+
+
+       : Vector de estado estimado.
+A: matriz de estado.
+Kk: factor de Kalman o ganancia.
+
+
+    : Vector de estado anterior.
+
+Buk: termino de control, (B: matriz asociada al vector uk: aceleración)
+
+Yk+1: vector de medición observación actual, llegada del sensor.
+
+C: matriz H, relaciona vector mediciones observaciones con vector de estado
+
+
+                                               4
+Matriz de covarianzas del error de estimación (después de aplicar el filtro de
+Kalman).
+
+
+Pk+1: Matriz de covarianzas del error de estimación (a posteriori).
+Kk: factor de Kalman o ganancia.
+A: matriz de estado.
+Sw: matriz covarianza de ruido asociada al sistema de proceso, también llamada R.
+Sz: matriz covarianza de ruido asociada a las medidas, también llamada Q.
+Pk: matriz de covarianzas del error de estimación antes de aplicar el filtro.
+C y (CT traspuesta): matriz H, relaciona vector mediciones observaciones con vector de
+estado
+Sustitución de los valore en las ecuaciones de estado y de medida en el estado de
+predicción:
+
+
+Matriz covarianza de ruido asociada al sistema de proceso, Sw.
+
+
+P: posición
+V: velocidad
+E: matriz de ruidos asociados al vector de estado
+X: vector de estado.
+
+
+                                             5
+Requisitos necesarios para que sea aplicable la versión del filtro de Kalman:
+En caso de modelo estático:
+Modelo gaussiano, distribución normal de los ruidos.
+Linealidad
+Observaciones ruidosas renovables.
+Estima recursiva: Predicción + Corrección
+Ejemplo de barco en estático y se quiere saber su distancia a la costa.
+
+
+Con:
+Zn: medida de distancia ruidosa y renovable.
+Xn: estimación de distancia siguiente
+Xn-1: estimación anterior.
+
+
+Ejemplo: Posición del barco en movimiento (Filtro de Kalman Discreto: Generalizado).
+Modelo gaussiano, distribución normal de los ruidos N (0.Q) y N(0.R).
+Linealidad
+Modelo dinámico vector de estado y ecuación de estado
+Modelo de observaciones y ecuación de medidas
+Matrices asociadas al sistema estado
+Matriz de relación observaciones mediciones con el vector estado
+Covarianzas, Q asociada al sistema de estado y R asociada a las mediciones
+Estima recursiva: Predicción + Corrección
+
+
+Ejemplo de barco en movimiento con una velocidad V y se quiere determinar su
+posición P.
+
+
+                                            6
+Se quiere estimar mediante el Filtro de Kalman la posición y la velocidad de una
+partícula en el plano.
+La ecuación de medida: Zk=H Xk + vk
+podría venir dada por una matriz      H=        001000
+                                                000100
+
+
+Con: Zk vector de medida (2filas y una columna), Xk vector de estado (6filas y una
+columna), vk ruido asociado a mediciones (2filas y una columna).
+El movimiento de una partícula en el plano suele expresarse en posición xy velocidad en
+xy y aceleración en xy.
+Entonces podemos escribir la ecuación de medida: Zk=H Xk + vk en forma matricial sin
+ruido como el siguiente:
+Caso 1:
+
+
+Caso 2:
+
+
+Si estuviera estudiando la posición y la velocidad de la partícula en el espacio
+tendremos que considerar la posición en xyz y la velocidad en xyz.
+Entonces podemos escribir la ecuación de medida: Zk=H Xk + vk en forma matricial sin
+ruido como el siguiente:
+
+
+                                            7
+Caso 1:
+
+
+Caso 2:
+
+
+El caso posible es el caso 2, en que se estudia la posición y la velocidad de la partícula
+en el espacio, pues la matriz H en este caso nos está proporcionando la información de
+posición y velocidad en el mesmo eje y.
+
+
+Hallamos la matriz H en las distintas situaciones propuestas en el apartado
+anterior 2):
+Entonces podemos escribir la ecuación de medida: Zk=H Xk + vk en forma matricial
+según el caso propuesto:
+
+
+                                            8
+   i)      el sensor proporcionara una medida de la posición:
+   Para el caso del estudio del movimiento de la partícula en el plano, es decir en el eje
+   x o en el eje y:
+Para la posición en el eje x:
+
+
+Para la posición en el eje y:
+
+
+                                           9
+   Para el caso del estudio del movimiento de la partícula en el espacio es decir
+   posición en el eje x o en el eje y o en el eje z:
+
+
+b). El sensor proporcionara la velocidad de la partícula:
+   Para el caso del estudio del movimiento de la partícula en el plano, es decir en el
+   plano xy:
+
+
+                                            10
+   Para el caso del estudio del movimiento de la partícula en el espacio:
+
+
+c). Caso de observación medida aporta la media de las coordenadas de posición de la
+partícula:
+   Para el caso del estudio del movimiento de la partícula en el plano, es decir en el
+   plano xy:
+
+
+   Para el caso del estudio del movimiento de la partícula en el espacio:
+
+
+                                           11
+12
+13
+5) Se pretende estimar mediante el Filtro de Kalman, la posición de una partícula en el
+espacio con los siguientes datos:
+V: velocidad constante.
+Cada Δt = 0,1sg se obtienen observaciones-mediciones ruidosas de coordenada x de la
+posición y de velocidad (velocidad constante).
+        1 0
+Q=I= (        ) covarianza asociada al modelo.
+        0 1
+       0,01   0
+R=(              ) asociada a las mediciones.
+        0   0,01
+        2 0
+P0 = (      ) asociada al dato inicial.
+        0 2
+
+
+   a) Las ecuaciones del Filtro de Kalman completo en función de estos datos del
+      enunciado son:
+Ecuación de estado:
+Tenemos la ecuación de la posición en función de la velocidad y tiempo.
+
+
+                                           14
+15
+b) Mostramos cómo se aplica el FK en un ejemplo del movimiento de una partícula
+   a lo largo del eje x con una velocidad constante:
+   Datos iniciales:
+              9𝑚
+   X (0) = (        )
+             10𝑚/𝑠
+                                                     12𝑚
+   Para el vector de medidas observaciones Z (1) = (       )
+                                                     10𝑚/𝑠
+   Calculemos la posición estimada de la partícula después de la primera
+   internacional del FK es:
+   Primero calculamos el vector de estado en el estado de predicción
+
+
+                                     16
+Calculamos el factor de Kalman o matriz de ganancia en K(1):
+
+
+                                         17
+Cálculo del vector de estado X (1) corregido:
+
+
+Los valores estimados y corregidos son prácticamente parecidos a los medidos
+Esto significa que los errores asociados a las medidas son pequeñas y no influyen
+mucho en el resultado.
+
+
+                                          18
+Cálculo de la covarianza del error de estimación:
+
+
+                                          19

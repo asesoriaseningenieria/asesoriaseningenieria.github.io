@@ -1,0 +1,371 @@
+--- page-01.png ---
+1-I8.
+
+The shaft is supported at its ends by two bearings
+A and B and is subjected to the forces applied to the pulleys
+fixed to the shaft. Determine the resultant internal loadings
+acting on the eross seetion at point C.The 400-N forces act
+in the —z direction and the 200-N and 80-N forces act in the
+y direction. The journal bearings at A and B exert only y
+and z components of force on the shaft.
+
+--- page-02.png ---
+1-28.
+
+Determine the resultant internal loadings acting on the
+Cross section a points B and C of the curved member.
+
+--- page-03.png ---
+*1-32.
+
+Determine the largest intensity w of the uniform loading that
+can be applied to the frame without causing either the average
+normal stress or the average shear stress at section D- to
+exceed ' - 15 MPa and 7 - 16 MPa, respectively. Member
+CB has a sguare cross section of 30 mm on each side.
+
+--- page-04.png ---
+1-53.
+
+The bar has a cross-sectional area of 400(1076) m2. If it is
+subjected to a uniform axial distributed loading along its
+length of 9 kN /m, and to two concentrated loads as shown,
+determine the average normal stress in the bar as a function
+ofxforO.6m sxs 1Sm.
+
+--- page-05.png ---
+1-70.
+
+The lever is attached to the shaft A using a key that has
+a width d and length of 25 mm. If the shaft is fixed and a
+vertical force of 200 N is applied perpendicular to the
+handle, determine the dimension d if the allowable shear
+stress for the key is T. 7 35 MPa.
+
+--- page-06.png ---
+1-3.
+
+Determine the resultant internal loadings acting on seetion
+b-b through the centroid C on the beam.
+
+1A.
+
+“The shaft is supported by a smooth thrust bearing at A and
+'a smooth journal bearing at B. Determine the resultant
+internal loadings acting on the €ross section at C.
+
+6O N /m
+
+1m--1 m--dmA—s m Sm
+
+VOON
+
+11.
+
+Determine the resultant internal loadings at €ross seetions
+at points E and F on the assembly.
+
+1$m —
+
+0S mOSmO0S m
+
+112.
+
+Determine the resultant internal loadings acting on the
+Cross sections at points F and G of the frame.
+
+112.
+
+Determine the resultant internal loadings acting on the
+Cross sections at points F and G of the frame.
+
+150 b
+
+113.
+
+The blade of the hacksaw is subjected to a pretension force
+of F - 100 N. Determine the resultant internal loadings
+acting on section a—a that passes through point D.
+
+1—14.
+
+The blade of the hacksaw is subjected to a pretension force
+of F - 100 N. Determine the resultant internal loadings
+acting on section b—b that passes through point D.
+
+--- page-07.png ---
+1-I8.
+
+"The shaft is supported at its ends by two bearings
+A and B and is subjected to the forces applied to the pulleys
+fixed to the shaft. Determine the resultant internal loadings
+acting on the cross section at point C.The 400-N forces act
+in the — direction and the 200-N and 80-N forces act in the
+y direction. The journal bearings at A and B exert only y
+and z components of force on the shaft.
+
+1-19.
+
+The hand crank that is used in a press has the dimensions
+shown. Determine the resultant internal loadings acting on
+the cross section at point A if a vertical force of 50 Ib is
+applied to the handle as shown. Assume the crank is fixed to
+the shaft at B.
+
+1-23.
+
+Determine the resultant internal loadings acting on the cross
+section at point £ of the handle arm, and on the cross section
+of the short link BC.
+
+Determine the resultant internal loadings acting on the
+Cross section at point C.The cooling unit has a total weight
+of S2 kip and a center of gravity at G.
+
+F
+
+--- page-08.png ---
+1-25.
+
+Determine the resultant internal loadings acting on the
+Cross section at points B and C of the curved member.
+
+1-27.
+
+The pipe has a mass of 12 kg/m. If it is fixed to the wall at A,
+determine the resultant internal loadings acting on the cross
+section at B.
+
+1-29.
+
+The curved rod AD of radius r has a weight per length of w.
+1f it lies in the horizontal plane, determine the resultant
+internal loadings acting on the cross section at point B.
+Hint: The distance from the centroid C of segment AB to
+point O is CO — 0.9745r.
+
+132.
+
+Determine the largest intensity w of the uniform loading that
+can be applied to the frame without causing either the average
+normal stress or the average shear stress at section b—b to
+exceed g — 15 MPa and 7 — 16 MPa, respectively. Member
+CB has a sguare cross section of 30 mm on each side.
+
+A
+——
+136.
+
+1f the block is subjected to a centrally applied force of
+P — 6 kip, determine the average normal stress in the
+material. Show the stress acting on a differential volume
+element of the material.
+
+1 in.
+
+AE
+
+--- page-09.png ---
+1-39.
+
+The boom has a uniform weight of 600 Ib and is hoisted into
+position using the cable BC. If the cable has a diameter of
+O.5 in., plot the average normal stress in the cable as a
+function of the boom position @ for * s 9 — 90.
+
+C
+
+F t—
+
+—AA,
+
+Determine the maximum magnitude P of the loads the
+beam can support if the average shear stress in each pin is
+not to exceed 80 MPa. AII pins are in double shear, and each
+has a diameter of 18 mm.
+
+GP
+P 3p P
+] ism I 2m I 1Sm
+T i H H i
+s A A
+
+1—47.
+
+The beam is supported by two rods AB and CD that have
+Cross-sectional areas of 12 mm? and 8 mm?, respectively.
+Determine the position d of the 6-kN load so that the average
+normal stress in each rod is the same.
+
+| 3m 1
+1-49.
+
+'The railcar dg?dight is supported by the H-in.-diameter pin at A.
+1f the lamp weighs 4 Ib, and the extension arm AB has a weight
+of 0.5 Ib/ft, determine the average shear stress in the pin
+
+needed to support the lamp. Hint: The shear force in the pin is
+caused by the couple moment reguired for eguilibrium at A.
+
+Ë 3f |
+
+1-S1.
+
+The two steel members are joined together using a 30* scarf
+weld. Determine the average normal and average shear
+stress resisted in the plane of the weld.
+
+1S KN
+
+15 EN
+
+--- page-10.png ---
+152.
+
+The bar has a cross-sectional area of 400(1078) m?. If it is
+subjected to a triangular axial distributed loading along its
+length which is ] at x - 0 and 9 kN/mat x — 1.5 m, and to
+two concentrated loads as shown, determine the average
+normal stress in the bar as a function of x for0 S x * 0.6 m.
+
+1-53.
+
+'The bar has a cross-sectional area of 400(1078) m2. If it is
+subjected to a uniform axial distributed loading along its
+length of 9 kN/m, and to two concentrated loads as shown,
+determine the average normal stress in the bar as a function
+ofxforO6m sxs lsm
+
+The two members used in the construction of an aircraft
+fuselage are joined together using a 30” fish-mouth weld.
+Determine the average normal and average shear stress on
+the plane of each weld. Assume each inclined plane supports
+a horizontal force of 400 Ib.
+
+15in. 307
+
+800 Ib
+
+1-62.
+
+The prismatic bar has a cross-sectional area A. If it is
+subjected to a distributed axial loading that increases
+linearly from w — 0 at x — 0 to w — wy at x — a, and then
+decreases linearly to w — 0 at x — 2a, determine the average
+normal stress in the bar as a function of x for O s x € a.
+
+1-63.
+
+The prismatic bar has a cross-sectional area A. If it is
+subjected to a distributed axial loading that increases
+linearly from w — 0 at x — 0 to w — wy at x — a, and then
+decreases linearly to w — 0 at x — 2a, determine the average
+normal stress in the bar as a function of x fora s x * 24.
+
+Wo
+l —— — —p —
+
+The bars of the truss each have a cross-sectional area of
+125 in2. Determine the average normal stress in members
+AB, BD,and CE due to the loading P — 6 kip. State whether
+the stress is tensile or compressive.
+
+1-65.
+
+The bars of the truss each have a cross-sectional area of
+125 in2. 1f the maximum average normal stress in any bar is
+not to exceed 20 ksi, determine the maximum magnitude P
+of the loads that can be applied to the truss.
+
+--- page-11.png ---
+1—70.
+
+The lever is attached to the shaft A using a key that has
+a width d and length of 25 mm. If the shaft is fixed and a
+vertical force of 200 N is applied perpendicular to the
+handle, determine the dimension d if the allowable shear
+stress for the key is Ts — 35 MPa.
+
+d
+a a
+A
+— 20 mm
+500 mm
+200 N
+1—74.
+
+The spring mechanism is used as a shock absorber for a
+load applied to the drawbar AB. Determine the force in
+each spring when the SO-KN force is applied. Each spring
+is originally unstretched and the drawbar slides along the
+smooth guide posts CG and EF. The ends of all springs
+are attached to their respective members. Also, what is
+the reguired diameter of the shank of bolts CG and EF if
+the allowable stress for the bolts is C, — 150 MPa?
+
+k — 80 kN/m
+
+n adee
+cIT N
+
+ks 60 kN/m
+
+SOKN
+
+180.
+
+The cotter is used to hold the two rods together. Determine
+the smallest thickmess 1 of the cotter and the smallest
+diameter d of the rods. All parts are made of steel for which
+the failure normal stress is o * 500 MPa and the failure
+shear stress is 7 — 375 MPa. Use a factor of safety of
+(FS.),— 2.50 in tension and (FS.), — 1.75 in shear.
+
+1-82.
+
+The steel pipe is supported on the circular base plate
+and concrete pedestal. If the thickness of the pipe
+isi— 5 mm and the base plate has a radius of 150 mm,
+determine the factors of safety against failure of the steel
+and concrete. The applied force is 500 kN, and the normal
+failure stresses for steel and concrete are (£,1).. — 350 MPa
+and (Ca)con — 25 MPa, respectively.
+
+--- page-12.png ---
+1-87.
+
+The two aluminum rods AB and AC have diameters of
+10 mm and 8 mm, respectively. Determine the largest
+vertical force P that can be supported.The allowable tensile
+stress for the aluminum is C, — 150 MPa.
+
+1-89.
+
+Determine the maximum allowable load P that can be
+safely supported by the frame if 1— 125 in. and b — 3.5 in.
+The wood has a normal failure stress of #, — 6 ksi, and a
+shear failure stress of 7 * 1.5 ksi. Use a factor of safety
+against failure of 2.
+
+1-91.
+
+The hanger is supported using the rectangular pin.
+Determine the magnitude of the allowable suspended load
+P if the allowable bearing stress is (7;)ato, — 220 MPa, the
+allowable tensile stress is (c;)io, — 150 MPa, and the
+allowable shear stress is T. — 130 MPa. Take 1 — 6 mm,
+a — $mm andb — 25 mm.
+
+‘ 37.5 mm
+P
+
+37.53 mm
+1-94.
+
+The aluminum bracket A is used to support the centrally
+applied load of 8 kip. If it has a thickness of 0.5 in., determine
+the smallest height f in order to prevent a shear failure. The
+failure shear stress is 74 — 23 ksi. Use a factor of safety for
+shear of F.S. — 2.5.
+
+$ kip

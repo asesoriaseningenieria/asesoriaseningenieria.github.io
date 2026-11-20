@@ -1,0 +1,294 @@
+Ejercicio No 1:
+
+
+La viga ABC se atornilla a las vigas DBE y FCG como se muestra en la figura. Si se sabe
+que el esfuerzo normal permisible es de 130 MPa, y que la carga aplicada es de 39 kN.
+
+Calcule MANUALMENTE:
+
+a) Las reacciones en los apoyos F, C, G, D, B y E.
+b) El Momento Flector Máximo en cada viga.
+c) El Módulo de sección Mínimo Permisible en cada viga (consultar).
+
+d) Seleccione 1 perfil de patín ancho que cumpla con las especificaciones para cada viga.
+
+Compruebe la selección mostrando:
+
+• Que las reacciones estén por debajo de las calculadas en el punto a.
+• Que el momento flector máximo esté por debajo del calculado en el punto b.
+
+e) Consulte el precio comercial del perfil de patín ancho seleccionado.
+                                         Solución:
+
+                                a.​ Cálculo de las reacciones:
+
+Debemos analizar en primer lugar la viga ABC en la cual se aplica la fuerza:
+
+
+Estática:
+
+
+RB = 78 kN
+
+
+RC = - 39 kN (hacia abajo)
+
+En seguida analizamos la viga DBE, en la cual, por acción - reacción la fuerza RB actúa
+hacia abajo en B:
+
+
+Por facilidad, podemos ver que las fuerzas son simétricas, por lo que RD = RE = 39 kN.
+Finalmente, analizamos la viga FCG, en la cual, por acción - reacción la fuerza RC actúa
+arriba en C:
+
+
+Por facilidad, podemos ver que las fuerzas son simétricas, por lo que RF = RG = 19,5 kN.
+
+                         b.​ Cálculo del momento flector máximo:
+
+Analizando la viga ABC, se tienen las siguientes reacciones:
+Por simplicidad, se puede analizar como una viga simplemente apoyada con una carga
+concentrada en el centro, generando un momento máximo en el centro de la viga que se
+puede calcular con la fórmula PL/4, la cual se obtuvo de la siguiente tabla:
+
+
+Por lo tanto, el momento es M= - (78 kN)*(5m)/4 = - 97,5 kN*m.
+La viga DBE se puede analizar de la misma manera:
+
+
+Se puede analizar como una viga simplemente apoyada con una carga concentrada en el
+centro, generando un momento máximo en el centro de la viga que se puede calcular con la
+fórmula PL/4 = (78 kN)*(6m)/4 = 117 kN*m.
+
+La viga FCG se puede analizar de la misma manera:
+
+
+El momento máximo generado en el centro de la viga que se puede calcular con la fórmula
+PL/4 = - (39 kN)*(6m)/4 = - 58,5 kN*m.
+             c) El Módulo de sección Mínimo Permisible en cada viga es:
+
+El esfuerzo normal máximo aplicado a las vigas, se encuentra también en el centro de la
+viga según la fórmula:
+
+
+Sin embargo, en función del módulo de sección (S), vamos a aplicar la siguiente fórmula:
+
+
+             Despejando S me queda:
+
+
+Para la viga ABC:
+
+
+Para la viga DBE:
+
+
+Para la viga FCG:
+                 d) Selección del perfil de patín ancho para cada viga.
+
+Para la viga ABC:
+
+Para esta viga, seleccionamos un perfil W360 x 39, con un módulo de sección (S) de
+578.000 mm3, por lo tanto, el peso de la viga es de:
+
+
+Por lo tanto, las nuevas fuerzas actuantes serán:
+
+
+RB = 79,9 kN
+
+
+RC = - 39 kN (hacia abajo).
+
+Cómo se puede observar, al estar aplicada la carga en el centro de la viga, las cargas no
+cambian y por lo tanto el momento máximo también es el mismo, ya que la sumatoria de la
+carga concentrada aplicada en el centro de la viga es de 78 kN como se calculó en el punto
+a y b.
+
+
+Por lo tanto, no sobrepasa el esfuerzo admisible.
+Para la viga DBE:
+
+Para esta viga, seleccionamos un perfil W460 x 52, con un módulo de sección (S) de
+942.000 mm3 que es el más cercano al valor de 900.000 mm3, por lo tanto, el peso de la
+viga es de:
+
+
+Por lo tanto, las nuevas fuerzas actuantes serán:
+
+
+En este caso, podemos ver que la fuerza aplicada en el centro aumenta y por lo tanto sus
+reacciones también, por lo que la carga aplicada en el centro de la viga será de 78 kN +
+3,06 kN = 81,06 kN y las reacciones RD = RE = 40,53 kN.
+
+Además al aumentar la carga concentrada el momento máximo aplicado en el centro de la
+viga será de (81,06 kN)*(6 m / 4)= 121,59 kN*m. Por lo que el esfuerzo aplicado sobre la
+viga es de:
+
+
+el cual es menor al esfuerzo admisible (130 Mpa), por lo que este perfil se puede usar con
+seguridad para esta viga.
+Finalmente, para la viga FCG:
+
+Para esta viga, seleccionamos un perfil W360 x 32.9, con un módulo de sección (S) de
+474.000 mm3 que es el más cercano al valor de 450.000 mm3, por lo tanto, el peso de la
+viga es de:
+
+
+Por lo tanto, las nuevas fuerzas actuantes en la viga serán:
+
+
+Se puede observar entonces que la fuerza resultante aplicada en el centro de la viga será
+de 39 kN - 1,94 kN = 37,06 kN y por simetría, las reaccione RF = RG = 17,145 kN, por lo
+cual la fuerza resultante es menor que la calculada anteriormente y por lo tanto el momento
+máximo aplicado también es menor que el calculado en el punto b, por lo que se seguiría
+cumpliendo las condiciones de seguridad necesarias.
+e) Consulte el precio comercial del perfil de patín ancho seleccionado.
+
+El precio por kilogramo obtenido por el generador de precios de CYPE ingenieros, nos da
+un valor de solamente el material de $ 2956,9 por kilogramo, por lo tanto, el precio de los
+perfiles para las vigas escogidas serán:
+
+   1.​ El precio de la viga ABC sería de:
+
+
+   2.​ El precio de la viga DBE sería de:
+
+
+   3.​ El precio de la viga FCG sería de:
+2. Para cada tipo de esfuerzo (Normal: carga axial, Cortante: Torsión, Normal: Flexión, y
+Cortante: Carga cortante) y para una condición de esfuerzos combinados, tome dos fotos
+por cada tipo de esfuerzo en diferentes aplicaciones que usted observe, ya sea en la
+ciudad, casa o lugar de trabajo, adicionalmente describa las simplificaciones y los modelos
+matemáticos que se deben seguir para calcular el esfuerzo según corresponda, ojo, es
+describir con las ecuaciones, no hay que poner valores numéricos, en el caso de la
+aplicación de esfuerzos combinados describir las simplificaciones, y modelos matemáticos
+hasta obtener los esfuerzos principales.
+
+                                         Solución:
+
+    1.​ Esfuerzo normal:
+
+Carga axial 1: Armadura metálica de techo.
+
+
+Para calcular los esfuerzos en cada uno de sus elementos, se debe primero hallar las
+fuerzas axiales en cada nodo, las cuales se encuentran en la dirección del eje del elemento,
+y pueden ser de tensión o de compresión, para hallar estas fuerzas se debe tener en cuenta
+que la fuerza resultante sobre cada nodo debe ser igual a cero (0), por lo que se utilizan las
+siguientes ecuaciones de la estática:
+
+
+                           ​
+
+Luego con estas fuerzas y el área de la sección transversal se calcula el esfuerzo normal en
+el elemento con la fórmula:
+
+
+Donde P es la fuerza axial aplicada en cada elemento y A es el área de la sección
+transversal.
+
+
+​
+Carga axial 2: Prensa mecánica.
+
+
+Para calcular el esfuerzo se debe obtener la fuerza axial aplicada y dividiéndola por el área
+de la sección transversal del elemento con la siguiente fórmula.
+
+
+O directamente con la presión ejercida por la prensa calculamos el esfuerzo normal
+Flexión 1: Viga interior.
+
+
+Para calcular el esfuerzo normal que se produce en la viga, primero debemos hallar las
+cargas que actúan sobre ella que son principalmente el peso de los elementos que están
+sobre el piso, con estas cargas se halla el diagrama de momentos en la viga con métodos
+de la estática. Luego se calcula el momento de inercia de inercia de la viga, que para el
+caso de una sección rectangular se calcula con la fórmula:
+
+
+Finalmente, con los anteriores valores hallados para los momentos máximos, se calcula el
+esfuerzo normal producido sobre la viga con la fórmula:
+
+
+.
+Donde M es el momento aplicado, y es la distancia al eje neutro de la viga e I es el
+momento de inercia.
+
+Flexión 2: Viga continua de puente vehicular.
+
+
+En este caso, el esfuerzo se calcula como se describió anteriormente.
+   2.​ Esfuerzo cortante:
+
+Torsión 1: Eje de transmisión de un vehículo.
+
+
+Este eje es usado para transmitir la fuerza del motor a las ruedas del vehículo, por lo tanto,
+para conocer el esfuerzo cortante sobre el eje debemos conocer la magnitud del momento
+producido por el motor; otros datos que debemos conocer son las propiedades geométricas
+de la sección transversal del eje como es el momento polar de inercia que se calcula con la
+fórmula:
+
+
+Teniendo estas variables, podemos hallar el esfuerzo cortante con la siguiente fórmula:
+
+
+Donde c es la distancia al centro de la barra y   es el esfuerzo cortante.
+Torsión 2: Sistema de engranajes.
+
+
+En este sistema de engranajes, se aplica un momento torsor principal en el eje más largo y
+luego este momento a través de la conexión de los engranajes puede ser amplificado o
+disminuido según la siguiente relación:
+
+
+en donde T es el Momento torsor aplicado inicialmente, R es el radio del eje donde se aplica
+el momento inicial; T1 es el momento resultante que se aplicaría sobre el segundo eje y r es
+el radio del segundo eje.
+
+Finalmente, aplicando el procedimiento mencionado anteriormente a todos los ejes de la
+transmisión ilustrada en este caso, hallamos los distintos momentos torsores aplicados
+sobre cada eje. Debemos hallar también las propiedades geométricas que en este caso es
+el momento polar de inercia con la misma fórmula mencionada en el ejemplo anterior para
+un eje sólido y con estos valores de momento torsor y momento polar de inercia calculamos
+el esfuerzo sobre cada eje con la fórmula:
+Cortante 1: Cortadora de sierra circular:
+
+
+Este tipo de cortadoras usa el principio básico de la fórmula de esfuerzo cortante:
+
+
+Como se puede observar en esta ecuación, el esfuerzo cortante es inversamente
+proporcional al área transversal sobre la cual se está aplicando la fuerza cortante; por lo
+tanto, si se disminuye bastante el área transversal, el esfuerzo cortante aumenta por lo que
+de esta manera la cortadora logra ejercer el esfuerzo de rotura sobre los materiales.
+Cortante 2: Cortadora de sierra lateral:
+
+
+Esta cortadora actúa de forma similar a la mencionada anteriormente.
+   3.​ Esfuerzos combinados: Cancha de basket.
+
+
+En este caso, podemos observar un ejemplo de una estructura en donde la principal función
+es sostener el peso del tablero de basket, por lo que la fuerza actuaría en la dirección
+vertical hacia abajo, lo que produce sobre el tubo superior de la cancha de microfutbol un
+momento resultante en la dirección perpendicular al eje y una fuerza cortante tangencial a la
+sección transversal del elemento, en este caso no existirían más fuerzas y los esfuerzos
+resultantes serían solo esfuerzos cortantes los cuales se calculan con el valor del peso de la
+estructura y la distancia horizontal entre el tablero y el tubo superior de la cancha de micro
+aplicando las fórmulas de esfuerzo cortante:
+
+
+Donde T es el momento torsor calculado con la fórmula T=Wd, donde W es el peso del
+tablero y d es la distancia horizontal entre el tablero y el tubo superior de la cancha, luego
+debemos calcular el momento polar de inercia (J) para un tubo hueco con la fórmula:
+
+                con R igual al radio exterior del tubo y r igual al radio interior del tubo.
+Finalmente, también debemos calcular el esfuerzo cortante producido por la fuerza vertical
+aplicada sobre el tubo que viene a ser el mismo peso del tablero (W) con la fórmula:
+
+
+      con A igual a la sección transversal del tubo; con estos esfuerzos, los sumamos y
+obtenemos el esfuerzo cortante total que experimenta este tubo.

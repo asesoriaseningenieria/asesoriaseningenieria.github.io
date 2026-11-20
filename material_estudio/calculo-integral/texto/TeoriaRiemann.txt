@@ -1,0 +1,964 @@
+12.1 La notación sigma ( Σ ) y propiedades de la
+Capítulo 3: Integral definida
+
+Gauss demostró que tenía la razón.
+Posteriormente encontró la fórmula para             sumatoria
+construir los demás polígonos regulares
+con la regla y el compás.
+                                               Definición
+Gauss se graduó en Gotinga en 1798 y al
+                                               Sea f una función, y m, n y k enteros tales que m ≤ k ≤ n y pertenecientes al
+año siguiente recibió su doctorado en la
+
+
+                                               dominio de f . Entonces el símbolo ∑ f (k ) se define así:
+Universidad de Helmstedt. Pero las
+matemáticas no fueron el único tema que                                                       n
+le interesó: fue también astrónomo, físico,
+geodesta e inventor. Hablaba con facilidad                                                   k =m
+
+
+                                                      ∑ f (k ) = f (m) + f (m + 1) + … + f (n − 1) + f (n) ,
+varios idiomas, e inclusive dominó el ruso
+                                                       n
+a la edad de 60 años. En 1807 fue
+nombrado director del observatorio y
+profesor de astronomía en la Universidad              k =m
+
+de Gotinga.
+                                               donde k se denomina índice de la sumatoria, m es el límite inferior y n es el límite
+A principios del siglo XIX Gauss publicó
+sus Disquisiciones aritméticas, que ofrecían   superior.
+un análisis lúcido de su teoría de números
+y comprendían las complicadas ecuaciones       Observaciones
+
+                                                      A veces se define ∑ f (k ) de la siguiente forma:
+que confirmaban su teoría y una exposición
+                                                                                 n
+de una convergencia de una serie infinita.
+Gauss estudió la teoría de los errores y       i.
+                                                                                k =m
+
+
+                                                                    ∑ f ( k ) = ∑ f ( k ) + f ( n)
+dedujo la curva normal de la probabilidad,
+llamada también «curva de Gauss», que                                n          n −1
+todavía se usa en los cálculos estadísticos.
+                                                                                                     (definición por recurrencia)
+                                                                    k =m        k =m
+En 1833 inventó un telégrafo eléctrico que
+usó entre su casa y el observatorio, a una
+
+
+                                                      En ∑ f (k ) se puede sustituir el índice k por cualquier otro índice i que
+distancia de unos dos kilómetros. Inventó
+también un magnetómetro bifilar para                          n
+medir el magnetismo y, en compañía del
+                                               ii.
+físico alemán Wilhelm Eduard Weber,                          k =m
+proyectó y construyó un observatorio no
+magnético. Tanto Gauss como el matemáti-              no aparezca en ella, sin que se altere el valor de la sumatoria; así por
+co Bernhard Riemann, que fue discípulo                ejemplo,
+
+                                                                    ∑ f (k ) = ∑ f (i) .
+suyo, pensaban en una teoría electro-                                n           n
+magnética que sería muy semejante a la ley
+                                                                    k =m        i=m
+universal de la gravitación, de Newton.
+
+Sin embargo, la teoría del electromagnetis-
+mo fue ideada más tarde, en 1873, por
+Maxwell, aunque Gauss ya poseía los
+cimientos matemáticos para explicarla. En
+1840, las investigaciones de Gauss sobre
+la óptica tuvieron especial importancia
+debido a sus deducciones relacionadas con
+los sistemas de lentes.
+
+Gauss falleció a la edad de 78 años. Se ha
+dicho que la lápida que señala su tumba
+fue escrita con un diagrama, que construyó
+el mismo Gauss, de un polígono de
+diecisiete lados. Durante su vida se
+reconoció que era el matemático más
+grande de los siglos XVIII y XIX. Su obra en
+las matemáticas contribuyó a formar una
+base para encontrar la solución de
+problemas complicadísimos de las ciencias
+físicas y naturales.
+
+
+118
+                                                            Módulo 12: Notación sigma (∑ ) y partición de un intervalo
+
+Teorema 1: Propiedades de ∑
+
+Sean f y g dos funciones, y m, n, k y p enteros pertenecientes al dominio de f y g,
+tales que m ≤ k ≤ n , y sea c una constante real.
+
+Entonces:
+
+
+       ∑ [ f (k ) + g (k )] = ∑ f (k ) + ∑ g (k ) (propiedad aditiva sobre la función)
+        n                     n                n
+
+i.
+       k =m                  k =m             k =m
+
+
+       ∑ cf (k ) = c ∑ f (k ) (propiedad distributiva generalizada)
+        n                n
+
+ii.
+       k =m         k =m
+
+
+       ∑ c = (n − m + 1) c
+        n
+
+iii.                                     (sumatoria de una constante)
+       k =m
+
+
+       Si m ≤ n y m ≤ k ≤ p ≤ p + 1 ≤ n, entonces
+
+       ∑ f (k ) = ∑ f (k ) + ∑ f (k )
+        n          p                 n
+
+iv.                                                  (propiedad aditiva de los límites)
+       k =m       k =m            k = p +1
+
+
+       ∑ f (k ) = ∑ f ( j − p) (desplazamiento del índice)
+        n          n+ p
+
+v.
+       k =m       j =m+ p
+
+
+       ∑ [ f (k ) − f (k − 1)] = f (n) − f (m − 1) (propiedad telescópica)
+        n
+vi.
+       k =m
+
+
+                                                                  Elementos básicos de cálculo integral y series 119
+Capítulo 3: Integral definida
+
+
+                                12.2 Partición de un intervalo cerrado
+                                Definición
+
+                                Una partición P del intervalo [a, b] , con a < b , es un conjunto finito de puntos
+                                P = { x0 , x1 , x2 , x3 ,… , xn −1 , xn } tales que
+
+
+                                         a = x0 < x1 < x2 < … xn −1 < xn = b.
+
+                                Utilizaremos las letras P, Q, R,… , etc., para denotar diferentes particiones del inter-
+                                valo [a, b] .
+
+
+                                Observaciones
+
+                                i.      Dos particiones P y Q de un mismo intervalo [ a, b] son diferentes si
+                                        difieren por lo menos en un punto.
+
+                                ii.     Toda partición de [a, b] contiene por definición al menos los puntos a y
+                                        b; por tanto, siempre es un conjunto no vacío.
+
+                                iii.    Toda partición P = { x0 , x1 ,… , xn −1 , xn } de [a, b] divide a dicho intervalo
+                                        en n-subintervalos cerrados:
+
+                                                  I1 = [ x0 , x1 ]; I 2 = [ x1 , x2 ],… , I k = [ xk −1 , xk ];… ; I n = [ xn −1 , xn ] .
+
+
+                                        En la figura 12.1 aparece una partición P = { x0 ,…, xn } de [ a, b] y los
+                                        subintervalos que ella determina.
+
+
+                                                                               Figura 12.1
+
+
+122
+                                                                                      Módulo 12: Notación sigma (∑ ) y partición de un intervalo
+
+Definiciones
+
+i.     La longitud del subintervalo I k = [ xk −1 , xk ] , denotada por Δxk , se define
+       como Δxk = xk − xk −1 .
+
+
+ii.    Sea P una partición de [ a, b] . La norma de la partición, denotada por || P || ,
+       se define como el mayor entre los siguientes valores: Δx1 , Δx2 ,… , Δxn .
+
+
+iii.   Se dice que la partición Q de [a, b] es más refinada o más fina que la parti-
+       ción P de [ a, b] si Q contiene todos los puntos de P y por lo menos un
+       punto más (figura 12.2).
+
+
+                                               Figura 12.2
+
+
+                                                              b−a
+iv.    Si Δx1 = Δx2 = Δx3 = … = Δxn = Δx =                        , entonces la partición se llama
+                                                               n
+       regular.
+
+Observaciones
+
+i.     Δxk > 0 para todo k = 1, 2,3,…, n , puesto que xk > xk −1 . En consecuen-
+       cia, || P || > 0 .
+
+
+ii.    Δxk ≤ || P || para todo k = 1, 2,…, n.
+
+
+       ∑ Δx = ∑ ( x − x )
+        n              n
+
+iii.                               k −1
+       k =1           k =1
+               k             k
+
+
+                   = ( x1 − x0 ) + ( x2 − x1 ) + … + ( xn −1 − xn − 2 ) + ( xn − xn −1 )
+                   = − x0 + xn = b − a.
+
+
+iv.    Si P y Q son dos particiones de [ a, b] , y si Q es una partición más refinada
+       que P, entonces || Q || ≤ || P || .
+
+
+v.     Decir que || P || → 0 es equivalente a decir que n → +∞ .
+
+
+                                                                                            Elementos básicos de cálculo integral y series 123
+Capítulo 3: Integral definida
+Riemann pudo visualizar el significado físico
+                                                 13.1 Área bajo una curva a través de sumas
+de esta generalización de la geometría                superiores e inferiores
+euclidiana. Entre las geometrías no
+euclidianas definidas a lo largo del siglo
+XIX, la riemanniana tuvo una enorme              Partiremos de una idea intuitiva de lo que entendemos por área y profundizaremos
+trascendencia en los conceptos de la física      luego para llegar a una definición apropiada de la integral (según Riemann).
+teórica del siglo XX. Años después se
+
+                                                 Supongamos que f es una función continua en [ a, b] y tal que f ( x) ≥ 0 para todo
+desarrolló el cálculo tensorial, principal-
+mente por los matemáticos italianos Ostilio
+Ricci y Tullio Levi-Civita.
+                                                 x perteneciente al intervalo [a, b] . Deseamos determinar, en una forma razonable, la
+                                                 manera de asignar un valor al área de la región R limitada por las rectas x = a, x = b ,
+La geometría riemanniana, así como es
+difícil de apreciar en términos visuales, es
+                                                 el eje x y la curva y = f ( x) (figura 13.1).
+bastante fácil de concebir como una
+posibilidad abstracta, es decir, como una
+simple progresión a partir de una línea en
+el espacio unitario de la longitud, a un plano
+en el espacio bidimensional de anchura y
+longitud, a un sólido en el espacio
+tridimensional de altura, anchura y
+profundidad, y de aquí a espacios de más
+dimensiones –por ejemplo, de altura,
+anchura, profundidad y tiempo–.
+
+Riemann generalizó las propiedades de las
+curvas y superficies de forma tal que
+pudieran aplicarse a los espacios. Por
+ejemplo, referente a la propiedad
+geométrica de la curvatura, ésta se define
+como la proporción en que varía una línea.
+Una medida de esta proporción es la
+medida del círculo oscilador en un punto;
+si el círculo que más se acerca a la línea
+curva en este punto es muy pequeño,                                                       Figura 13.1
+entonces la curva se cierra poco a poco y
+se dice que tiene una curvatura pequeña.         Sea A el área de la región R. Lo que hacemos es aproximarnos a este valor mediante
+La curvatura de una superficie se define         rectángulos cuyas áreas se calculan fácilmente y usaremos luego un cierto tipo de
+casi de la misma forma que la curvatura de       paso al límite para llegar al resultado deseado.
+una línea, excepto que ésta no tiene por
+
+                                                 Sea P = { x0 , x1 , x2 ,… , xn } una partición cualquiera de [a, b] . En cada uno de los
+que ser la misma en todas direcciones.
+
+
+                                                 subintervalos [ xi −1 , xi ] levantamos un rectángulo Ri cuya base es Δxi = xi − xi −1 y
+Gauss había averiguado que la curvatura
+en un punto cualquiera de una superficie
+puede definirse útilmente como el producto
+de las curvaturas mayor y menor de todas         su altura el valor mínimo de la función en [ xi −1 , xi ] , el cual existe ya que f es continua
+las líneas que constituyen la superficie en
+dicho punto (curvatura gaussiana). Así, una      en [a, b] (figura 13.2).
+superficie de curvatura positiva es una que
+siempre da vueltas para encontrarse a sí
+misma, como la cáscara de un huevo,
+mientras que una superficie de curvatura
+negativa sería, por ejemplo, una silla de
+montar, en donde el producto de una
+curvatura positiva y una negativa resulta
+negativa. Gauss había encontrado también
+que la curvatura de una superficie puede
+definirse no sólo en términos de una
+persona que mira a la superficie desde el
+exterior sino equivalente en términos de
+mediciones realizadas dentro de la delgada
+superficie. Riemann amplió esta idea hasta
+dar una descripción matemática exacta de
+la curvatura del espacio. En el sistema
+cartesiano, las líneas de referencia son
+líneas rectas en un plano; en el globo
+terrestre, las líneas de referencia son las de                                            Figura 13.2
+
+
+128
+                                                                                              Módulo 13: Integral según Riemann
+Si mi es el valor mínimo de f en [ xi −1 , xi ], entonces el área de Ri es mi Δxi para todo
+i = 1, 2,3,… , n, y el área de todos los rectángulos es:
+                                                                                              latitud y longitud; en un huevo, pudieran
+                                                                                              ser círculos en una dirección y óvalos en
+                                                                                              otra perpendicular; en el reflector de un
+
+
+        m1Δx1 + m2 Δx2 + … + mn Δxn = ∑ mi Δxi .
+                                                                                              faro, pudieran ser círculos en una dirección
+                                             n                                                y parábolas en otra perpendicular a ésta.
+                                                                                              Riemann se dio cuenta de que toda superficie
+                                            i =1                                              o espacio de su geometría superior podía
+                                                                                              trazarse por medio de distintas redes de
+                                                                                              curvas de referencia y halló que las
+En este caso, la suma de las áreas de los rectángulos es menor o igual al área de la          ecuaciones escritas en términos de un
+región R, o sea:                                                                              sistema de coordenadas a menudo podían
+                                                                                              ser ampliamente simplificadas al escribirse
+
+
+        A ≥ ∑ mi Δxi .
+                                                                                              en términos de un conjunto distinto de
+                   n                                                                          curvas de referencia.
+
+               i =1                                                                           Uno de los más prácticos conjuntos de
+                                                                                              curvas de referencia está formado por las
+                                                                                              llamadas geodésicas. Una geodésica es el
+Siguiendo un procedimiento similar al anterior, pero tomando como altura de cada              camino de la distancia más corta entre dos
+rectángulo el valor máximo de la función en [ xi −1 , xi ], obtenemos que la suma de las      puntos: en un espacio plano es un segmento
+                                                                                              de línea recta; en una esfera es un arco de
+áreas de los rectángulos es mayor o igual que el área de la región R (figura 13. 3). Es       un círculo máximo análogo al que siguen
+decir,                                                                                        los viajes aéreos intercontinentales; en una
+                                                                                              superficie irregular en forma de lámpara o
+
+
+        A ≤ ∑ M i Δxi .
+                                                                                              en un espacio curvo, puede ser cualquier
+                n
+                                                                                              tipo de curva. Al manipular ecuaciones
+                                                                                              diferenciales elaboradas para minimizar las
+               i =1
+                                                                                              distancias, Riemann encontró que podía
+                                                                                              trazar redes geodésicas de líneas de
+                                                                                              referencia y seguir la curvatura de cualquier
+donde M i es el máximo de f en [ xi −1 , xi ] .                                               espacio desde tres dimensiones hasta n
+                                                                                              dimensiones. El prestigio y la calidad de
+De lo anterior podemos concluir entonces que                                                  sus trabajos, que llevaron a la posteridad a
+                                                                                              aplicar su nombre a innumerables teoremas
+
+
+        ∑ m Δx ≤ A ≤ ∑ M Δx .
+                                                                                              matemáticos, le valieron la obtención de la
+         n                  n                                                                 cátedra de Gotinga en 1859.
+                                                                                       (1)
+        i =1               i =1
+               i       i          i   i
+                                                                                              En 1860, en una memoria sobre la
+                                                                                              propagación del sonido, Riemann presentó
+                                                                                              un método, actualmente clásico, para la
+                                                                                              integración de una clase de ecuaciones
+                                                                                              diferenciales de primer orden en derivadas
+                                                                                              parciales. Debe mencionarse también el éxito
+                                                                                              que obtuvo de su exposición rigurosa del
+                                                                                              concepto de integral definida (integral según
+                                                                                              Riemann).
+
+                                                                                              Riemann trabajó hasta el día anterior a su
+                                                                                              muerte, la cual se produjo el 20 de julio de
+                                                                                              1866, en Selasca, Italia, por tuberculosis
+                                                                                              adquirida pocos años antes a causa de su
+                                                                                              débil constitución física. Su último trabajo,
+                                                                                              que trataba sobre la teoría de la transferencia
+                                                                                              del sonido desde un enfoque de principios
+                                                                                              hidráulicos, quedó inconcluso.
+
+
+                                          Figura 13.3
+
+
+                                                                                                      Vea el módulo 13 del programa
+                                                                                                      de televisión Elementos básicos
+                                                                                                      de cálculo integral y series
+
+
+                                                                             Elementos básicos de cálculo integral y series 129
+Capítulo 3: Integral definida
+
+
+                                                                                   Figura 13.5
+
+                                          Tendremos en cuenta la discusión hecha hasta ahora para definir el área bajo una
+                                          curva, pero antes daremos algunas definiciones que nos llevan a precisar la
+                                          definición de la integral de Riemann y, con base en ella, definir el área bajo una
+                                          curva.
+
+
+                                          13.2 Sumas de Riemann
+                                          Definición 1
+
+                                          Sea f una función definida en [ a, b] y tal que f ( x) ≤ M para todo x de [a, b] y
+
+                                          cierto M real positivo (función acotada en [a, b] ); sea P = { x0 , x1 ,… , xn } una par-
+                                          tición de [ a, b] y sean t1 , t2 ,… , tn puntos tales que xi −1 ≤ ti ≤ xi para cada
+                                          i = 1, 2,… , n .
+
+                                          La expresión ∑ f (ti ) Δxi se llama suma de Riemann para f en [a, b] .
+                                                              n
+
+
+                                                             i =1
+
+
+                                Definición 2
+
+                                Sea f una función definida en el intervalo [ a, b] .
+
+
+                                Se dice que f es integrable en [ a, b] (según Riemann) si existe un número real L que
+                                satisface la siguiente propiedad:
+
+
+132
+Capítulo 3: Integral definida
+                                        Para cada ∈ > 0 , existe un δ > 0 tal que
+
+
+                                                  ∑ f (t ) Δx − L < ∈
+                                                   n
+
+
+                                                  i =1
+                                                          i        i
+
+
+                                        para toda partición P de [a, b] para la cual || P || < δ y cualquiera que sea la elección
+      Vea la animación Construcción
+      de las sumas de Riemann en su
+
+                                        de ti en [ xi −1 , xi ], i = 1, 2,… , n .
+      multimedia de Elementos básicos
+      de cálculo integral y series
+
+
+                                        Cuando una función f satisface la definición anterior, diremos que L es el valor de
+                                        la integral definida de f entre a y b. Este hecho lo expresamos diciendo que
+
+
+                                                                       lim ⎢ ∑ f (ti ) Δxi ⎥ = L.
+                                                                            ⎡ n            ⎤
+                                                                            ⎣ i =1         ⎦
+                                                                       P →0
+                                                                                                                             (1)
+
+
+                                        Denotemos a L como ∫ f ( x) dx , llamada integral definida de f desde a hasta b. Es
+                                                                        b
+
+                                                                       a
+
+                                        decir,
+
+                                                 ∫a                     ∑
+                                                                      ⎡ n                ⎤
+                                                               =             f (ti ) Δxi ⎥ .
+                                                                 P →0 ⎢
+                                                   b
+
+                                                                      ⎣ i =1             ⎦
+                                                    f ( x ) dx   lim
+
+
+                                        En la expresión ∫ a f ( x) dx, a y b se llaman límite inferior y límite superior, respec-
+                                                               b
+
+
+                                        tivamente, de la integral definida; f ( x) se llama integrando y dx indica que x es la
+                                        variable independiente que toma valores desde a hasta b.
+
+                                        Observaciones
+
+                                        i.       Si existen dos números L1 y L2 que satisfacen la definición 2, entonces
+                                                 L1 = L2 ; es decir, el valor de la integral definida cuando existe, es único.
+
+                                        ii.      La definición 2 nos dice también que podemos hacer la suma de Riemann
+                                                 tan cerca al número L como se quiera, siempre y cuando la norma de la
+                                                 partición sea menor que δ .
+
+                                        iii.     La noción de límite dada aquí es diferente a la noción de límite dada en el
+                                                 módulo 2 del texto Elementos básicos de cálculo diferencial para funciones
+                                                 presentada para funciones de variable real, ya que en el caso aquí conside-
+
+                                                 rado se trata de la suma ∑ f (ti ) Δxi en la cual varían Δxi y ti , que es cual-
+                                                                                     n
+
+
+                                                                                    i =1
+
+                                                 quier punto de [ xi −1 , xi ] .
+
+                                        iv.      En la notación para la integral definida las variables que aparecen son varia-
+                                                 bles «mudas». Es decir, se puede cambiar x por y o z o por cualquier otra
+                                                 variable.
+
+
+134
+              Módulo 13: Integral según Riemann
+
+
+Elementos básicos de cálculo integral y series 135
+                                                                                            Módulo 13: Integral según Riemann
+
+
+Así, ∫ a f ( x) dx , ∫ a f ( y ) dy , ∫ a f ( z ) dz significarán la misma integral y
+       b               b               b
+
+
+representan el mismo número real L.
+
+
+Observaciones
+
+i.     El ejemplo anterior presenta una función igual a cero en todos los puntos de
+       [−2,3] excepto en x = 1, es decir, una función discontinua en x = 1.
+
+       Se puede demostrar que si f ( x) = 0 salvo en un número finito de puntos
+
+       de [a, b] , entonces f es integrable en [a, b] y además ∫ a f ( x) dx = 0.
+                                                                          b
+
+
+ii .   Cuando la función es continua y no negativa tomaremos los ti ∈ [ xi −1 , xi ] de
+       tal forma que f (ti ) coincida con el máximo absoluto M i o con el mínimo
+       absoluto mi de la función en el i-ésimo subintervalo [ xi −1 , xi ] . Además, para
+       simplificar los cálculos asumiremos que las particiones son regulares y así
+       escribiremos:
+
+
+                 ∫ f ( x) dx = lim ⎢⎣∑ f (t ) Δx ⎥⎦
+                   b                   ⎡ n                ⎤
+                                P →0
+                                           i =1
+                  a                               i   i
+
+
+                             = lim ⎢ ∑ M i Δxi ⎥
+                                     ⎡ n       ⎤
+                               n →+∞
+                                     ⎣ i =1    ⎦
+
+                             = lim ⎢ ∑ mi Δxi ⎥ .
+                                     ⎡ n      ⎤
+                               n →+∞
+                                     ⎣ i =1   ⎦
+
+Teniendo en cuenta además que:
+
+
+                                     ⎧ mk = f ( xk −1 )
+       Si f es creciente en [a, b] , ⎨ M = f ( x )
+                                                              (rectángulos inscritos)
+                                     ⎩ k          k           (rectángulos circunscritos)
+
+
+                                            ⎧mk = f ( xk ) (rectángulos inscritos)
+           Si f es decreciente en [ a, b] , ⎨ M = f ( x ) (rectángulos circunscritos)
+                                            ⎩ k         k −1
+
+
+                                                                              Elementos básicos de cálculo integral y series 137
+Capítulo 3: Integral definida
+
+                                         14.1 Álgebra de funciones integrables
+                                         Antes de enunciar e ilustrar el teorema que recoge las propiedades más importantes
+                                         de la integral definida se da la siguiente definición.
+
+                                         Definición
+
+       Vea el módulo 14 del programa     Si f es integrable en [a, b], entonces definimos:
+       de televisión Elementos básicos
+
+
+                                                 ∫ f ( x) dx = 0.
+       de cálculo integral y series
+                                                  a
+                                         i.
+
+
+                                                 ∫ f ( x) dx = −∫ f ( x) dx .
+                                                  a
+
+                                                  b                 a
+                                         ii.      a                 b
+
+
+                                         Teorema 1: Propiedades de la integral definida
+
+                                         Sean f y g dos funciones integrables en [a, b], k una constante real y a < c < b .
+                                         Entonces:
+
+
+                                                kf es integrable en [a, b] y ∫ a kf ( x) dx = k ∫ a f ( x) dx.
+                                                                                    b                 b
+                                         i.
+
+
+                                                ( f + g) es integrable en [a, b] y ∫ a [ f ( x) + g ( x)] dx = ∫ a f ( x) dx + ∫ a g ( x) dx.
+                                                                                        b                              b           b
+                                         ii.
+
+                                                Si f ( x) ≥ 0 para todos x de [a, b], entonces ∫ a f ( x) dx ≥ 0.
+                                                                                                               b
+                                         iii.
+
+                                                f es integrable en [a, c] y en [c, b] y ∫ a f ( x) dx = ∫ a f ( x) dx + ∫ c f ( x) dx.
+                                                                                               b                   c           d
+                                         iv.
+
+
+                                         v.     Sean f y g dos funciones definidas en [a, b]. Si f es integrable en [a, b] y
+
+                                                 g ( x) = f ( x) para todo x de (a, b), entonces ∫ a g ( x) dx = ∫ a f ( x) dx.
+                                                                                                           b               b
+
+
+                                         Demostración
+
+                                         La demostración de las partes i, ii e iii pueden hacerse usando la definición de
+                                         función integrable presentada en el módulo 13, pero considero que no tiene mucho
+                                         interés demostrarlas en un primer curso de cálculo integral.
+
+                                         iv.     Para este numeral sólo hacemos una interpretación geométrica.
+
+                                                Como se ilustra en la figura 14.1, el área de la región sombreada se puede
+                                                descomponer en dos regiones de tal manera que el área de la región entre a
+                                                y b sea igual a la suma de las áreas entre a y c y entre c y b.
+
+
+142
+                                                                                    Módulo 14: Propiedades de la integral definida
+
+
+                                             Figura 14.1
+
+v.   Sea c un punto en (a, b), y puesto que f es integrable en [a, b], entonces f
+     es integrable en [a, c] y en [c, b] (propiedad iv).
+
+
+     Veamos que ∫ a g ( x) dx = ∫ a f ( x) dx y ∫ c g ( x) dx = ∫ c f ( x) dx .
+                       c                 c                  b               b
+
+
+     Sea h( x) = g ( x) − f ( x) para todo x de [a, c]. Puesto que f y g difieren
+
+                                                               ⎧ 0 si x ≠ a
+     sólo en el punto x = a, entonces podemos escribir h( x) = ⎨
+                                                               ⎩ k si x = a
+
+     Y teniendo en cuenta el ejemplo 4 del módulo 13, h así definida es integrable
+
+     en [a, c] y además ∫ h( x) dx = 0; entonces, por la propiedad ii, h( x) + f ( x)
+                              c
+
+                              a
+
+     es integrable y por tanto g(x) es integrable en [a, c] ya que
+
+             h( x ) + f ( x ) = ( g ( x ) − f ( x ) ) + f ( x ) = g ( x )
+
+     y además
+
+              ∫ [ h( x) + f ( x)] dx = ∫ h( x) dx + ∫ f ( x) dx
+                c                               c               c
+
+
+                                         = 0 + ∫ f ( x) dx = ∫ g ( x) dx.
+                a                              a                a
+                                                    c                c
+
+                                                    a                a
+
+
+     El caso entre c y b es similar (figura 14.2)
+
+
+                                             Figura 14.2
+
+
+                                                                                Elementos básicos de cálculo integral y series 143
+Capítulo 3: Integral definida
+                                        Observaciones
+
+                                        i.      La propiedad ii del teorema 1 se puede generalizar así:
+
+
+                                                        ∫ [ f ( x) + f ( x) + … + f ( x)] dx = ∫ f ( x) dx + ∫ f ( x) dx +
+                                                          b                                             b                b
+
+
+                                                                                                        … + ∫ f n ( x) dx.
+                                                         a    1        2                n               a   1            a   2
+
+                                                                                                                b
+
+                                                                                                                a
+
+
+                                        ii.     En la propiedad iv del teorema si a < c1 < c2 < … < cn < b, entonces
+
+
+                                                        ∫ f ( x) dx = ∫ f ( x) dx + ∫            f ( x) dx + … + ∫ f ( x) dx.
+                                                          b                c1               c2                      b
+
+                                                         a                 a                c1                      cn
+
+
+                                        iii.    Teniendo en cuenta la definición dada al principio se puede concluir que
+
+
+                                                        ∫ f ( x) dx = ∫ f ( x) dx + ∫ f ( x) dx
+                                                          b                c                b
+
+                                                         a                 a                c
+
+
+                                                para toda terna a, b, c de números reales que pertenezcan al intervalo donde
+                                                la función es integrable.
+
+                                        iv.     De la propiedad iii del teorema podemos deducir las siguientes propiedades
+                                                adicionales:
+
+                                                a.     Si f y g son integrables en [a, b] y f ( x) ≥ g ( x) para todo x de [a, b],
+                                                       entonces
+
+                                                                  ∫ f ( x) dx ≥∫ g ( x) dx.
+                                                                   b                b
+
+                                                                   a            a
+
+
+                                                b.     Si f es integrable y m1 ≤ f ( x) ≤ M 1 para todo x de [a, b], entonces
+
+                                                                  m1 (b − a) ≤ ∫ f ( x) dx ≤ M1 (b − a).
+                                                                                b
+
+                                                                                a
+
+                         14.2 Relación entre la integral y la continuidad de
+                              una función de variable real
+                         A continuación enunciamos un teorema que nos proporciona una gran familia de
+                         funciones integrables, pero no lo demostraremos porque se sale del alcance de este
+                         libro.
+
+                         Teorema 2
+
+                         Si f es continua en [a, b], entonces f es integrable en [a, b].
+
+                         Obsérvese que el recíproco de este teorema no siempre se cumple (vea el ejemplo 4,
+                         módulo13). No obstante que el teorema anterior nos garantiza la integrabilidad de
+                         un gran número de funciones, el teorema no proporciona la manera de hallar el valor
+                         de la integral. Más adelante presentaremos el teorema fundamental del cálculo que
+                         nos permitirá hallar el valor exacto de la integral sin recurrir a la definición.
+
+
+144
+Capítulo 3: Integral definida
+
+nismo era necesario para justificar los      15.1 Teorema del valor intermedio
+movimientos aparentes de los planetas que,
+como se sabe, parecían tener según los       Antes de demostrar el teorema básico de este módulo enunciaremos sin demostrar
+periodos del año movimiento directo,
+retrógrado o estacionario.                   una propiedad muy importante que tienen las funciones continuas en un intervalo
+                                             cerrado.
+Indudablemente la obra de Eudoxio es una
+muestra de la madurez teórica y el rigor
+lógico alcanzado por la geometría en su
+época, que creó las condiciones previas      Teorema 1: Teorema del valor intermedio
+
+                                             Sea f una función continua en [a, b]. Si f (a) ≠ f (b), entonces para cualquier
+para lo que sería la época de mayor
+esplendor de la matemática griega.
+
+                                             número r entre f ( a ) y f (b) existe al menos un número c entre a y b tal que
+                                              f (c ) = r .
+
+
+                                             Como la demostración de este teorema requiere algunos conocimientos más
+                                             avanzados, no la incluiremos en este libro. Presentaremos sin embargo la interpreta-
+                                             ción geométrica.
+
+
+                                             En la figura 15.1, f (a) < f (b) y f (a) ≤ r ≤ f (b). El punto (0, r ) es un punto
+                                             cualquiera entre (0, f (a )) y (0, f (b)).
+
+
+                                             El teorema establece que la recta y = r corta la curva de f ( x) al menos en un punto
+                                             (c, r ). La hipótesis de continuidad en un intervalo cerrado es esencial ya que si f es
+                                             discontinua en [a, b] no siempre existe c tal que f (c) = r , como lo ilustra el siguien-
+                                             te ejemplo.
+
+
+                                                                                       Figura 15.1
+
+
+                                                              ⎧2 x + 1   si x ≥ 1
+                                                     f ( x) = ⎨                     en el intervalo [−2, 2].
+                                                              ⎩x         si x < 1
+                                             Sea
+
+
+150
+                                                                   Módulo 15: Teorema del valor medio (TVM) para integrales
+
+
+                                     Figura 15.2
+
+
+Esta función es discontinua en x = 1 .
+
+Ahora, si r es cualquier número entre 1 y 3, no existe ningún c en [−2, 2] tal que
+f (c) = r . Es decir, la recta y = r no corta la curva en ningún punto (figura 15.2).
+
+
+15.2 Teorema del valor medio (TVM) para integrales
+
+Si f es continua en [a, b], entonces existe al menos un c tal que a ≤ c ≤ b y tal que:
+
+
+        ∫ f ( x) dx = f (c)(b − a) ⇔ f (c) = b − a ∫ f ( x) dx .
+         b                                     1     b
+
+         a                                           a
+
+
+Al valor f (c) se le conoce como valor medio de la función en [a, b].
+
+
+Geométricamente, cuando la función es no negativa, se puede interpretar el teorema
+de la manera siguiente: el valor de la integral entre a y b es igual al área del
+rectángulo cuya base es (b − a) y su altura es f (c) (figura 15.3).
+
+
+                                                                                              Vea el módulo 15 del programa
+                                                                                              de televisión Elementos básicos
+                                                                                              de cálculo integral y series
+
+
+                                                                         Elementos básicos de cálculo integral y series 151
+Capítulo 3: Integral definida
+
+ Un factor que desempeña un gran papel
+ en el desarrollo de la matemática es la
+ solución de problemas que durante
+ siglos desafiaron la capacidad de las
+ mejores mentes. Un ejemplo de lo
+ anterior es el famoso quinto postulado
+ que con clarividencia no trató de
+ demostrar Euclides y que durante 22
+ siglos mantuvo ocupados a muchos
+ matemáticos hasta que se crearon las
+ geometrías no euclidianas.
+
+ A continuación se presentarán algunos
+ de esos problemas.
+                                                                                         Figura 15.3
+
+ Los tres problemas clásicos de la               Demostración
+ matemática griega
+
+ Para el filósofo Platón los entes               i.    Si f es constante, el teorema se cumple trivialmente.
+ geométricos ideales eran la recta y la
+ circunferencia. Por lo anterior, la             ii.   Si f no es constante, como f es continua en el intervalo cerrado, entonces f
+ geometría habría que limitarla a las                  alcanza un máximo absoluto y un mínimo absoluta en [a, b].
+ construcciones con regla y compás (con
+
+                                                       Sea f (c1 ) = M el máximo absoluto y f (c2 ) = m el mínimo absoluto de f en
+ la aclaración de que la regla sólo se utiliza
+ para trazar rectas y por tanto no es
+
+                                                       [a, b]. Entonces, m ≤ f ( x) ≤ M , y por la observación iv (parte b) del teore-
+ metrizada). Problemas de esta clase se
+ resolvieron después utilizando otros
+ instrumentos y permitieron encontrar
+ respuestas adecuadas a los tres                       ma 1 del módulo 14, tenemos que
+
+
+                                                                m(b − a) ≤ ∫ f ( x) dx ≤ M (b − a).
+ problemas clásicos de la matemática
+ griega: la duplicación del cubo, la                                            b
+ trisección del ángulo y la cuadratura del                                                                                        (1)
+                                                                                a
+ círculo. Comentémoslos brevemente:
+
+ 1. Duplicación del cubo. Se trata de                  De donde
+ resolver el siguiente problema: construir,
+
+
+                                                                   ∫ f ( x) dx ≤ M .
+ utilizando solamente regla y compás, la
+ arista de un cubo que duplique el                                    b
+
+
+                                                                m≤
+ volumen de un cubo conocido.
+
+                                                                          b−a
+                                                                      a
+
+ El problema de la duplicación del cubo
+ se caracteriza por la ecuación
+ x = 2a , en donde a es la arista del
+   3      3
+
+ cubo conocido y x es la arista que tendrá             Como f es continua en [a, b], entonces por el teorema del valor intermedio
+
+                                                                                                                       ∫ f ( x) dx
+ el cubo de volumen doble.
+                                                                                                                            b
+
+
+                                                                                                                           b−a
+ Un simple análisis de construcción con                (sección 15.1) f toma todos sus valores entre m y M. Por tanto,     a
+ regla y compás revela, empleando
+ algunas nociones de geometría analítica,
+ que los segmentos construidos a partir                corresponde a uno de dichos valores funcionales. Es decir, existe c en [a, b]
+ de otros segmentos dados son                          tal que
+ expresables por raíces cuadradas y al
+
+
+                                                                         ∫ f ( x) dx ,
+ iterar esas construcciones aparecen
+ nuevamente sólo raíces cuadradas y                                        b
+
+
+                                                                f (c ) =
+                                                                               b−a
+ nunca de otro índice.                                                    a
+
+
+                                                       de donde
+
+
+                                                                ∫ f ( x) dx = f (c)(b − a).
+                                                                 b
+
+                                                                 a
+
+
+152

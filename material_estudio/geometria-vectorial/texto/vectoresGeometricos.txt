@@ -1,0 +1,1980 @@
+MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+16
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             17
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+18
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             19
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+20
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             21
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+22
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             23
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+24
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             25
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+26
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             27
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+28
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             29
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+30
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             31
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+32
+FRANCISCO JAVIER CÓRDOBA GÓMEZ   PABLO FFELIPE ARDILA ROJO
+
+
+                                                             33
+     MÓDULO DE GEOMETRÍA VECTORIAL
+
+
+34
+Capítulo 1: El conjunto \ n y sus operaciones
+
+                                                         2.1 Producto escalar en Rn
+
+                                                         Sean a, b ∈ \ n , donde a = (α1 , α2 ,..., αi, ..., αn), b = (β1 , β2 ,..., βi, ..., βn). Entonces
+                                                         se define a " b = ³1 ç ³1 + ³2 ç ³2 + ... + ³i ç ³i + ... + ³ n ç ³n , donde a ç b se lee «produc-
+                                                         to escalar entre a y b».
+       Escuche la biografía de Josiah Willard Gibbs en
+       su multimedia de Geometría vectorial y
+       analítica.                                        Ilustración 5
+
+                                                         Dadas
+                                                         a = (0, 2 5, 2, 1), b = (2, 2 1, 1, 0), c = (7, 2, 5, 0), o = (0, 0, 0, 0), d = (1, 7, 1/ 5, 5, 0),
+                                                         determinemos todos los productos escalares posibles, entre las parejas de n-tuplas
+                                                         indicadas.
+
+                                                         Solución
+
+                                                                    a " b = 0 × 2 + (25) × (21) + 2 × 1 + 1 × 0 = 7.
+                                                                    a " c = 0.
+                                                                    a " o = 0.
+                                                                    a " d no está definida. ¿Por qué?
+
+                                                         Se deja al lector la determinación de los otros resultados.
+
+
+                                                         2.2 n-tuplas ortogonales en Rn
+
+                                                         Sean a, b ∈ \ n , con a b o y b b o, siendo o la n-tupla nula en \ n . Entonces
+                                                         decimos que a y b son ortogonales si a " b = 0 .*
+
+                                                         Ilustración 6
+
+                                                         De las n-tuplas indicadas en la ilustración 5 tenemos que a y c son ortogonales,
+                                                         pero a y o no son ortogonales, como tampoco lo son b y o, c y o. ¿Por qué?
+
+                                                         Teorema 3: Propiedades del producto escalar en Rn
+
+                                                         Sean a, b, c * \ n , » * \. Entonces se cumplen:
+
+                                                         1.          a " b = b " a.
+                                                         2.         (a + b) " c = a " c + b " c.
+                                                         3.         (» ç a ) " b = a " (» ç b ) = » ç ( a " b ).
+                                                         4.          a " a g 0.
+                                                         5.          a " a = 0 si y sólo si a = o; o : n-tupla nula.
+
+
+                                                         * Introduciremos inicialmente esta restricción por la correspondencia que estableceremos entre ortogonalidad en las n-tuplas y
+                                                         perpendicularidad en los vectores geométricos, como una primera aproximación. Posteriormente generalizaremos este concepto a todo
+                                                         par de vectores cuyo producto interno es igual a cero, como lo definimos en el módulo 20 y lo tratamos en el texto Álgebra lineal.
+                                                         (n. a.).
+
+ 52
+                                                                                      Módulo 2: Otras propiedades asociadas al conjunto \ n como un espacio vectorial
+
+Demostremos la propiedad 3:
+
+Supongamos:
+a, b * R n , » * R, tales que a = (³1 ,..., ³ i ,..., ³ n ), b = ( ³1 ,..., ³ i ,..., ³ n ). Hipótesis.
+Tenemos que:
+
+          (» ç a ) " b = (»³1 , »³ 2 ,..., »³ i ,..., »³ n ) " ( ³1 , ³ 2 ,..., ³ i ,..., ³ n ), por la defi
+                nición del producto de un real por una n-tupla.
+
+         = (»³1 ³1 ) + (»³ 2 ³ 2 ) + ... + (»³ i ³ i ) + ... + (»³ n ³ n ), por la definición del pro-
+              ducto escalar en Rn.
+
+         = (³1 ç (»³1 )) + (³ 2 ç (»³ 2 )) + ... + (³ i ç (»³ i )) + ... + (³ n ç (»³ n )), propiedades
+               conmutativa y asociativa del producto en los números reales.
+
+         = (³1 , ³ 2 ,..., ³ i ,..., ³ n ) " (»³1 , »³ 2 ,..., »³ i ,..., »³ n ), por la definición del
+               producto escalar en Rn.
+
+         = a " (» ç b ), producto de un real por una n-tupla y sustitución de la hipótesis.
+         = » ç (³1 ³1 + ³ 2 ³ 2 + ... + ³ i ³ i ,... + ³ n ³ n ). ¿Por qué?
+         = » ç ( a " b). ¿Por qué?
+
+
+Conclusión: (» ç a ) " b = a " (» ç b) = » ç (a " b).
+
+Observaciones
+
+1.       Con base en las estructuras algebraicas estudiadas, podemos afirmar que el
+         producto escalar es un producto interno en Rn. En efecto, su estructura co-
+         rresponde a la siguiente función:
+
+         ":R        × Rn ³ R
+                n
+
+
+     ((³1 ,..., ³ i ,..., ³ n ), ( ³1 ,..., ³ i ,..., ³ n )) ³ (³1 ,..., ³ i ,..., ³ n ) " ( ³1 ,..., ³ i ,..., ³ n )
+                                                             = ³1³1 + ... + ³i ³i + ... + ³ n ³ n ,
+
+         y además las propiedades establecidas en el teorema 3 lo caracterizan como
+         tal.
+
+2.       La propiedad 2 del teorema 3 es una seudodistributividad (falsa distributivi-
+         dad) porque la suma en el término de la izquierda está definida en el conjunto
+         \ n , en tanto que la de la derecha está definida en el conjunto R.
+
+3.       La propiedad 3 del teorema 3 no corresponde a una ley asociativa en el
+         producto. Justifique esta afirmación.
+
+4.       Debemos agregar además que el producto interno se define en un conjunto
+         que se estructura como un espacio vectorial, lo que ya ha sido establecido
+         para el conjunto \ n con las operaciones definidas.
+
+                                                                                                                                 Geometría vectorial y analítica 53
+Capítulo 1: El conjunto \ n y sus operaciones
+
+                                                2.3 Combinación lineal en el conjunto Rn
+
+                                                Sea A = {a1 , a2 ,..., ai ,..., ak } , A ¢ R n .
+
+                                                De todo término x que satisface la ecuación:
+
+                                                         x = »1a1 + »2 a2 + ... + »i ai + ... + »k ak , con »i * R, "i = 1... k ,
+
+                                                decimos que es una combinación lineal de los vectores del conjunto A, o también,
+                                                en forma abreviada, que es una combinación lineal del conjunto A.
+
+                                                Ilustración 7
+
+                                                1.      Sean a = (2, 0, 2 1), b = (23, 2, 2 5), c = (0, 0, 3), A = {a, b, c} .
+
+                                                        Determinemos las siguientes combinaciones lineales del conjunto A.
+
+                                                                 x1 = 2a + 1b + 3c.
+                                                                      1          1
+                                                                 x2 =    a 2 1b + c.
+                                                                       2         4
+                                                                 x3 = 1a + 0b + 0c.
+                                                                 x4 = 0a + 0b + 0c.
+
+                                                2.      ¿Es ( 21, 2, 0) una combinación lineal del conjunto A?
+
+                                                3.      ¿Es (4, 4, 23 ) una combinación lineal del conjunto A?
+
+                                                Solución
+
+                                                                 x1 = 2(2, 0, 2 1) + (23, 2, 2 5) + 3(0, 0, 3)
+                                                                    = (4, 0, 2 2) + (23, 2, 2 5) + (0, 0, 9)
+                                                                    = (1, 2, 2).
+                                                         Esto es, (1, 2, 2) = 2a + 1b + 3c.
+                                                                        1                                 1
+                                                                 x2 =     (2, 0, 2 1) + (21)(23, 2, 2 5) + (0, 0, 3)
+                                                                        2                                 4
+                                                                     = (1, 0, 2 1/ 2) + (3, 2 2, 5) + (0, 0, 3 / 4)
+                                                                     = (4, 22, 21/ 4).
+                                                                                      1         1
+                                                         Esto es, (4, 2 2, 21/ 4) =     a 2 1b + c.
+                                                                                      2         4
+                                                                 x3 = 1(2, 0, 21) + 0(23, 2, 25) + 0(0, 0,3)
+                                                                     = (2, 0, 2 1) + (0, 0, 0) + (0, 0, 0)
+                                                                     = (2, 0, 2 1).
+
+
+ 54
+                                                                         Módulo 2: Otras propiedades asociadas al conjunto \ n como un espacio vectorial
+       Esto es, (2, 0, 1) = 1 ç a + 0 ç b + 0 ç c.
+                x4 = 0(2, 0, 2 1) + 0(23, 2, 2 5) + 0(0, 0, 3)
+                     = (0, 0, 0) + (0, 0, 0) + (0, 0, 0)
+                     = (0, 0, 0).
+       O sea, (0, 0, 0) = 0 ç a + 0 ç b + 0 ç c.
+
+Para dar respuesta a la pregunta planteada en el numeral 2, utilicemos la definición;
+en estos términos, dada ( 21, 2, 0), ¿es posible determinar tres números reales que
+permitan expresarla como una combinación lineal del conjunto A?
+
+Asumamos a prueba de hipótesis que ello es posible y determinemos los valores, si
+existen, de estos números reales.
+
+                  ?
+       (21, 2, 0) = »1 (2, 0, 2 1) + »2 (23, 2, 2 5) + »3 (0, 0, 3) y ¿ »1 , »2 , »3 * R ?
+                  = (2»1 , 0, 2 1»1 ) + (23»2 , 2»2 , 2 5»2 ) + (0, 0, 3»3 )
+                  = (2»1 2 3»2 , 2»2 , 2 »1 2 5»2 + 3»3 ).
+De la definición de igualdad entre n-tuplas se tiene:
+
+       21 = 2»1 2 3»2 ,                                                                         (1)
+         2 = 2»2 ,                                                                              (2)
+         0 = 2»1 2 5»2 + 3»3 .                                                                  (3)
+
+
+En la ecuación (2) tenemos que »2 = 1, y sustituyendo en la ecuación (1) se despeja
+»1 = 1 y, por último, de la ecuación (3) sustituimos y despejamos »3 = 2. En esta
+forma concluimos que ( 21, 2, 0) es una combinación lineal de los vectores del
+conjunto A, y específicamente:
+
+       (21, 2, 0) = 1 ç a + 1 ç b + 2 ç c.
+
+
+Se deja al lector la solución de la pregunta planteada en el numeral 3.
+
+Observaciones
+
+La definición presentada y las características de las operaciones que intervienen en
+ella nos permiten afirmar que:
+
+1.     Toda combinación lineal de vectores de un espacio es otro vector del mismo
+       espacio.
+
+2.     Todo vector es una combinación lineal de sí mismo.
+
+3.     Todo vector es una combinación lineal del conjunto al cual pertenece.
+
+
+                                                                                                                    Geometría vectorial y analítica 55
+Capítulo 1: El conjunto \ n y sus operaciones
+                                                4.     El vector nulo (módulo) es una combinación lineal de cualquier conjunto de
+                                                       vectores en su espacio.
+
+                                                5.     La combinación lineal en la cual todos los escalares son iguales al número
+                                                       cero se denomina combinación lineal trivial.
+
+
+                                                2.4 Dependencia e independencia lineal en Rn
+
+                                                Dado un conjunto A = {a1 , a2 ,..., ak } , A ¢ R n , nos planteamos el problema de
+                                                obtener una representación del vector o (módulo) como combinación lineal de los
+                                                vectores del conjunto A. Esto es: dado o = ³1a1 + ³ 2 a2 + ... + ³ k ak veamos cómo
+                                                son los coeficientes.
+
+                                                Como 0 ç x = o , cualquiera que sea el vector x siempre es posible obtener tal repre-
+                                                sentación, pues es suficiente expresarlo como
+
+                                                       o = 0 ç a1 + 0 ç a2 + ... + 0 ç ak .
+
+                                                Entonces, según lo anterior, sólo son posibles dos casos:
+
+                                                1.     La única combinación posible es la trivial, esto es, que la ecuación se satis-
+                                                       face única y exclusivamente para ³1 = ³2 = ... = ³k = 0.
+
+                                                2.     Existe alguna combinación lineal diferente de la trivial, esto es, con al me-
+                                                       nos un coeficiente diferente de cero que satisface la ecuación:
+
+                                                                 o = ³1a1 + ³ 2 a2 + ... + ³ k ak .
+
+                                                En el caso 1 decimos que el conjunto A es linealmente independiente (en forma
+                                                abreviada, LI).
+
+                                                En el caso 2 decimos que el conjunto A es linealmente dependiente (en forma
+                                                abreviada, LD).
+
+                                                Ilustración 8
+
+
+                                                Dados A = {(1, 0), (0, 1)} ,         B = {(3, 0, 2 1), (1, 1, 2), (5, 2, 3)} ,
+                                                        C = {(3, 0, 2 1), (1, 1, 2), (21, 0, 1)} , D = {(21, 2), (3, 1)} ,
+                                                determinemos para cada uno si es linealmente independiente o linealmente depen-
+                                                diente.
+
+                                                Solución
+
+                                                      Para el conjunto A.
+                                                       Como A ¢ R , su módulo es o = (0, 0) ; y apoyándonos en la definición se
+                                                                          2
+
+
+                                                       tiene:
+
+
+ 56
+                                                                  Módulo 2: Otras propiedades asociadas al conjunto \ n como un espacio vectorial
+    Dada (0, 0) = »1 (1, 0) + »2 (0, 1), determinemos los valores de »1 , »2 .
+                  = (»1 , 0) + (0, »2 )
+
+                  = (»1 , »2 ),
+
+    y por la igualdad entre n-tuplas se concluye que:
+
+            0 = »1                                                                       (1)
+            0 = »2                                                                       (2)
+
+    como única solución; por tanto el conjunto A es linealmente independiente.
+
+   Para el conjunto B
+    B ¢ R 3 , su módulo es o = (0, 0, 0).
+
+           (0, 0, 0) = »1 (3, 0, 2 1) + »2 (1, 1, 2) + »3 (5, 2, 3), determinemos los
+                        valores de »1 , »2 , »3 .
+           (0, 0, 0) = (3»1 , 0, 2 »1 ) + (»2 , »2 , 2»2 ) + (5»3 , 2»3 , 3»3 )
+                      = (3»1 + »2 + 5»3 , »2 + 2»3 , 2 »1 + 2»2 + 3»3 ),
+
+
+    y se obtiene en consecuencia el siguiente sistema:
+
+            0 = 3»1 + »2 + 5»3                                                           (1)
+            0 = »2 + 2»3                                                                 (2)
+            0 = 2»1 + 2»2 + 3»3                                                          (3)
+
+
+    De (2) se tiene »2 = 22»3 , y sustituyendo en (1) y (3) nos quedan
+
+
+            0 = 3»1 + 3»3                                                              (1’)
+            0 = 2»1 2 »3                                                               (2’)
+
+
+    De (2’) »1 = 2»3 , y sustituyendo en (1’), 0 = 23»3 + 3»3 6 »3 = »3 , esto
+    es, »3 es cualquier número real.
+
+    Las soluciones obtenidas corresponden a:
+
+
+            »1 = 2 » 3 «
+                        «
+            » 2 = 2 2»3 ¯ »3 * R
+            » 3 = » 3 «¯
+
+
+    Por tanto, fuera de la solución trivial »1 = »2 = »3 = 0, tenemos infinitas so-
+
+
+                                                                                                             Geometría vectorial y analítica 57
+Capítulo 1: El conjunto \ n y sus operaciones
+                                                        luciones diferentes de la trivial. Así por ejemplo, si »3 = 1 , entonces »1 = 21
+                                                        y »2 = 22.
+
+                                                        Estos valores los podemos verificar en la ecuación inicial, así:
+
+                                                                 (0, 0, 0) = 21(3, 0, 2 1) + (22)(1, 1, 2) + 1(5, 2, 3),
+
+                                                        lo que nos permite concluir que el conjunto B es linealmente dependiente.
+
+                                                Se deja al lector la determinación respectiva para los conjuntos C y D.
+
+                                                Teorema 4: Primer criterio sobre la dependencia lineal de un conjunto
+
+                                                Sea A = {a1 , a2 ,..., ak } , A ¢ R n .
+
+                                                A es linealmente dependiente si y sólo si al menos un vector del conjunto A se puede
+                                                expresar como combinación lineal de los vectores restantes del conjunto A.
+
+                                                Demostración
+
+                                                Como el enunciado corresponde a una equivalencia, debemos demostrar cada una
+                                                de las implicaciones independientemente. En adelante utilizaremos los símbolos
+                                                « ó » y « ñ » para indicar las dos implicaciones que integran una equivalencia.
+
+                                                Supongamos que A es linealmente dependiente (hipótesis). En consecuencia, de la
+                                                definición de dependencia lineal podemos afirmar que en la ecuación
+
+                                                                 o = »1a1 + »2 a2 + ... + »i ai + ... + »k ak                       (1)
+
+                                                al menos un coeficiente es diferente de 0. Sin pérdida de generalidad asumamos que
+                                                »i b 0 , y despejando en la ecuación (1) tenemos:
+
+
+                                                                      » 2» ¿     » 2» ¿           » 2» ¿
+                                                                 ai = ¿ 1 ¿ a1 + ¿ 2 ¿ a2 + ... + ¿ k ¿ ak .                        (2)
+                                                                        »
+                                                                      ¿ i £         »
+                                                                                 ¿ i £            ¿ »i £
+
+
+                                                La ecuación (2) nos permite concluir que ai es una combinación lineal de los k 2 1
+                                                vectores restantes del conjunto A.
+
+                                                Se deja al lector la demostración de la implicación recíproca.
+
+                                                Corolario
+
+                                                Todo conjunto que tenga al módulo como elemento, dentro de las condiciones de la
+                                                definición, es un conjunto linealmente dependiente.
+
+
+ 58
+                                                                     Módulo 2: Otras propiedades asociadas al conjunto \ n como un espacio vectorial
+Demostración
+
+Sea A = {a1 , a2 ,..., ai ,..., ar , o} , A ¢ \ n , o el módulo de \ n . Hipótesis.
+
+
+Como o = 0 ç a1 + 0 ç a2 + ... + 0 ç ai + ... + 0 ç ar entonces, por el teorema 4, el conjun-
+to A es linealmente dependiente.
+
+
+2.5 Base del espacio vectorial Rn
+Una base en un espacio vectorial es todo subconjunto del espacio que satisface
+dos condiciones:
+
+1.      El subconjunto es linealmente independiente.
+
+2.      Todo vector del espacio se puede expresar como una combinación lineal de
+        los vectores del subconjunto.
+
+Ilustración 9
+
+Dados A = {(1, 0), (0, 1)} , B = {(22, 1), (0, 2 1)} , C = {(1, 0, 0), (0, 1, 0), (0, 0, 1)}
+verifiquemos que:
+
+        A es una base para el espacio R2 .
+        B es una base para el espacio R2 .
+        C es una base para el espacio R3 .
+
+Solución
+
+Para el conjunto A, tenemos que A ¢ R , y se probó en la ilustración 8 que es
+                                               2
+
+
+linealmente independiente.
+
+Probemos que cualquier vector de R 2 se puede expresar como combinación lineal
+de los vectores de A.
+
+        Sea ( x, y) * R2 (un elemento genérico que representa a cualquier elemento
+        de este espacio).
+
+        (x, y) = x ·(1, 0) + y ·(0, 1), x, y * R , esto es, (x, y) es una combinación lineal
+        del conjunto A.
+
+        En esta forma hemos demostrado que cualquier elemento de R 2 se puede
+        expresar como combinación lineal de los elementos de A.
+
+Se deja al lector la verificación respectiva para los conjuntos B y C.
+
+
+                                                                                                                Geometría vectorial y analítica 59
+Capítulo 1: El conjunto \ n y sus operaciones
+                                                2.6 Dimensión del espacio vectorial Rn
+                                                La dimensión de un espacio vectorial es el número de vectores que constituyen una
+                                                cualquiera de sus bases.
+
+                                                Ilustración 10
+
+                                                Podemos afirmar así que la dimensión de R 2 es 2. En la misma forma la dimensión
+                                                de R 3 es 3. Verifique que la dimensión de R n es n.
+
+
+ 60
+Ejercicios del capítulo 1 (módulos 1 y 2)
+
+1.   Sean las n-tuplas a = (1/ 2, 2», ³ ), b = (1/ 2, 5, 0), c = (» , 5, ³ , 0).
+
+     a.       Determine, si es posible, los valores de » y ³ para los cuales a = b.
+     b.       Determine, si es posible, los valores de » , » y ³ para los cuales a = c.
+     c.       Determine, si es posible, los valores de » y ³ para los cuales b = c.
+
+
+2.   Sean: a = (22, 1), b = (1/ 3, 0), c = (1, 3), A = {a, b, c} .
+
+             f = (3, 0, 0, 2 2), g = (0, 2 2/ 5, 1, 1), B = { f , g} .
+
+     Determine las siguientes combinaciones lineales en los conjuntos A y B.
+
+     a.        x1 = 3 ç a + 2 ç b 2 c.
+     b.        x2 = 0 ç a + 0 ç b + 1 ç c.
+                   1
+     c.        x3 = ç f + 5 ç g.
+                   2
+     d.        x4 = 0 ç f + 0 ç g.
+
+3.   Con relación a los conjuntos A y B del numeral anterior:
+
+     a.       ¿Es (25, 2 1) una combinación lineal del conjunto A? Justifique su respuesta.
+     b.       ¿Es (21, 2 1) una combinación lineal del conjunto A? Justifique su respuesta.
+     c.       ¿Es (0, 0, 0, 0) una combinación lineal del conjunto B? Justifique su respuesta.
+     d.       ¿Es x = 2 ç f + 5 ç g + 0 ç (0, 0, 0) una combinación lineal del conjunto B? Justifique su respuesta.
+
+
+4.   Sean u = (21, 5, 0), s = (10, 2, 0, 0), t = (5, 1, 1/ 5), l = (0, 0, 0, 2 9). Determine de todas las parejas posibles de n-tuplas,
+     cuáles de ellas son ortogonales.
+
+5.   Dados: B = {(1, 8)} , C = {( 21, 2), (0, 1), (3, 2)} , F = {(21, 0, 1), (0, 2, 5), (2, 0, 0)} , G = {(2, 2 1, 0), (3, 0, 1), (0, 0, 0)} :
+
+     a.       Determine para cada uno de los conjuntos anteriores si es LI o LD.
+     b.       ¿Es B una base para \ 2 ? Justifique su respuesta.
+     c.       ¿Es C una base para \ 2 ? Justifique su respuesta.
+     d.       ¿Es F una base para \ 3 ?
+     e.       ¿Es G una base para \ 3 ?
+
+
+                                                                                                             Geometría vectorial y analítica 61
+6.    Sean: a = (22, 5, 3), b = (7, 1, 0), c = (0, 21, 0, 0), d = (3, 21, 21, 2).
+
+      Determine para cada una de las expresiones siguientes si corresponde a una n-tupla, un número real o si carece de
+      sentido.
+
+      a.      2a + (c " d )b.
+      b.      a 2 3 ç b + 0 ç d.
+      c.      (a " d ) + (a " b).
+      d.      a " (b + (c " d )).
+      e.      5 ç a 2 2 ç b + (c ç d ).
+      f.      0 ç a + 0 ç b + 0 ç c + 0 ç d.
+                                        (a " b)
+      g.       3 ç (c " d ) ç ( a ) 2           ç b.
+                                          5
+      h.       (a " b) ç (0,0,0,0) 2 (c " d ) ç d .
+
+
+ 62
+Capítulo 4: Vectores geométricos
+                                                         14.1 Segmentos orientados
+                                                         Dirección
+                                                         Sea l una recta. Se llama dirección de l al conjunto Ã [l ] de todas las rectas parale-
+                                                         las a l.
+        Vea la animación Dirección en su multimedia
+        de Geometría vectorial y analítica.
+                                                         Nótese que toda recta l tiene una (única) dirección: la de todas la rectas paralelas a
+                                                         ella.
+
+                                                         En la figura 14.1, l1 , l2 ,... tienen la misma dirección. Cada recta de esta figura 14.1
+                                                         (l1 , l2 ,...) es un representante de la dirección.
+
+
+                                                                                                    Figura 14.1
+
+                                                         Sea l una recta en el espacio. Existen en l dos sentidos, contrarios entre sí. Estos dos
+                                                         sentidos se hacen extensivos a la dirección de l. Es decir, en toda dirección hay dos
+                                                         sentidos, contrarios entre sí. Dichos sentidos son comunes a todas las rectas que
+                                                         tienen la misma dirección.
+
+
+                                                         Consideremos un segmento cualquiera AB no nulo. A este segmento le correspon-
+                                                         den:
+                                                                                              ±¯³
+                                                                   La dirección de la recta AB en la cual está contenido.
+                                                                                                    ±¯³
+                                                                   Los dos sentidos de la recta AB . *
+*Los sentidos contrarios u opuestos de una recta están
+asociados a la existencia de dos semirrectas opuestas
+generadas en toda recta por un punto cualquiera
+                                                         En síntesis, a cada segmento AB le corresponde una dirección, y en ésta, dos
+perteneciente a ésta, como lo establece el axioma de
+separación de la recta.                                  sentidos contrarios entre sí: s (A, B ) y s (B, A) .
+
+                                                         Segmento orientado
+
+                                                                   Sean A y B puntos distintos en una recta l. Llamamos segmento orientado
+                                                                                   ¯³                                                          ±¯³
+                                                                    AB, denotado AB , al segmento AB acompañado de su dirección, la de AB ;
+
+                                                                    de su sentido s (A, B ) ; y de su longitud AB . Aquí s (A, B ) indica el sentido
+
+                                                                                                            ±¯³
+                                                                    en el que A precede a B en la recta AB .
+
+
+190
+                                                                                                                                  Módulo 14: Vectores libres
+                                                                   ¯³
+         Llamamos segmento orientado nulo, denotado AA, al segmento nulo AA,                        Sir William Rowan Hamilton
+          con todas las direcciones, y en cada una, con los dos sentidos y con longitud              Nacido en Dublín en 1805, en donde pasó la mayor parte de
+          cero. A es cualquier punto del espacio.                                                    su vida, William Rowan Hamilton fue sin duda el más grande
+                                                                                                     matemático irlandés.
+A los segmentos orientados se les llama también segmentos dirigidos. En el seg-
+                                                                                                     El padre (un abogado) y la madre de Hamilton murieron
+                   ¯³
+                                                                                                     cuando era apenas un niño. Su tío, un lingüista, se hizo cargo
+mento dirigido AB , los puntos A y B se denominan, respectivamente, punto (extre-
+                                                                                                     de su educación. Para su quinto cumpleaños, Hamilton podía
+mo) inicial y punto (extremo) final.                                                                 leer inglés, hebreo, latín y griego. Cuando cumplió 13 años
+                                                                                                     dominaba, además de los idiomas del continente europeo,
+                                                                                                     sánscrito, chino, persa, árabe, malasio, hindú, bengalí y varios
+                                                     ¯³
+                                                                                                     otros.
+Según la definición, un segmento dirigido AB consta de:
+                                                                                                     Hamilton disfrutaba escribir poesía, tanto cuando era niño
+         Sus puntos: sus extremos y los puntos interiores.                                          como de adulto y entre sus amigos se contaban los grandes
+                                                                                                     poetas ingleses Samuel Taylor Coleridge y William
+                                             ±¯³
+                                                                                                     Wordsworth. Sin embargo, la poesía de Hamilton se
+         Dirección: la misma de la recta AB .                                                       consideraba tan mala que resultó una fortuna que
+         Sentido: s (A, B).                                                                         desarrollara otros intereses, especialmente en matemáticas.
+
+                                                                                                     Aunque disfrutó las matemáticas desde niño, el interés de
+         Longitud: AB = BA .                                                                        Hamilton creció de manera importante después de un
+                                                                                                     encuentro casual a los 15 años con Zerah Colburn, el
+                                                                                                     americano que calculó las descargas eléctricas de los rayos.
+                                                      ¯³      ¯³                                     Poco tiempo después, Hamilton comenzó a leer los libros
+En consecuencia, los segmentos dirigidos AB y BA son distintos, a pesar de                           importantes de matemáticas de su tiempo. En 1823, a los
+coincidir en sus puntos, su dirección y su longitud. Los diferencia el sentido.                      18 años, descubrió un error en la Mécanique céleste de Simon
+                                                                                                     Laplace y escribió un artículo impresionante sobre el tema.
+                                                                                                     Un año después entró al Trinity College en Dublín.
+Si A y B son dos puntos distintos en una recta l, y A´y B´ son puntos distintos en
+                                                                        ¯³    ¯¯³                    La carrera universitaria de Hamilton fue sobresaliente. A
+una recta l´, de modo que A b A´, los segmentos dirigidos AB y A´B´ son distin-                      los 21 años, siendo todavía estudiante de licenciatura, había
+                                                                                                     impresionado tanto a sus maestros que fue nombrado
+tos, a pesar de que tengan la misma dirección, el mismo sentido y la misma longitud
+                                                                                                     Astrónomo Real de Irlanda y profesor de astronomía en la
+(figura 14.2). *                                                                                     universidad.
+
+                                                                                                     Poco después escribió lo que ahora se considera un trabajo
+                                                                                                     clásico en óptica. Usando sólo la teoría matemática, predijo
+                                                                                                     la refracción cónica en cierto tipo de cristales. Más tarde los
+                                                                                                     físicos confirmaron esta teoría. En parte debido a ese trabajo,
+                                                                                                     Hamilton fue armado caballero en 1835.
+
+                                                                                                     El primer artículo puramente matemático de Hamilton
+                                                                                                     apareció en 1833. En él describió una manera algebraica de
+                                                                                                     manipular pares de números reales. Este trabajo da las reglas
+                                                                                                     que se usan hoy en día para sumar, restar, multiplicar y
+                                                                                                     dividir números complejos. No obstante, en un principio,
+                                                                                                     Hamilton no pudo desarrollar una multiplicación para ternas
+                                            Figura 14.2                                              o n-eadas ordenadas de números para n > 2. Durante diez
+                                                                                                     años estudió este problema y se dice que lo resolvió en un
+                                                                                                     rato de inspiración mientras caminaba por el puente de
+Si bien dos segmentos orientados como los de la figura 14.2 no son iguales, no cabe                  Brougham en Dublín en 1843. La clave era descartar la
+duda de que tienen gran similitud. Esto motiva la introducción de un nuevo concepto.
+
+Vector libre asociado
+         ¯³
+Sea AB un segmento dirigido. Se llama vector libre asociado al segmento dirigido
+    ¯³                               ¯³
+ AB al conjunto formado por AB y todos los segmentos dirigidos que coinciden
+con él en dirección, sentido y longitud.                                                                       Escuche el audio Hamilton y los cuaterniones
+                                                                                                               en su multimedia de Geometría vectorial y
+*Dos segmentos orientados, contenidos en rectas paralelas distintas, tienen el mismo sentido si al             analítica.
+determinar la recta que pasa por sus puntos iniciales, ambos segmentos quedan contenidos en un
+mismo semiplano respecto a esta última recta.
+
+                                                                                                                    Geometría vectorial y analítica 191
+Capítulo 4: Vectores geométricos
+                                                                                                             ¯³     ¯³   ¯³
+                                                               En la figura 14.3 los segmentos dirigidos AB , CD , EF , etc., pertenecen al mismo
+familiar propiedad conmutativa de la multiplicación. Los                       ¯³        ¯³
+nuevos objetos que creó se llamaron cuaterniones, que          vector libre. AB , CD ,... son representantes del mismo vector libre.
+fueron los precursores de lo que ahora se conoce como
+vectores.
+                                                                                                                                ¯³
+En la actualidad, una placa incrustada en el puente cuenta     Se ha definido el vector libre asociado a un segmento dirigido AB como el conjun-
+la historia.                                                                                                              ¯³
+                                                               to de todos los segmentos dirigidos equivalentes a AB ; esto es, el conjunto de
+                Aquí, mientras caminaba,                                                                            ¯³
+                el 16 de octubre de 1843,                      todos los segmentos dirigidos que tienen con AB , si éste no es nulo, igual direc-
+              Sir William Rowan Hamilton                       ción, sentido y longitud.
+               descubrió, en un instante de
+           genialidad, la fórmula fundamental
+          para la multiplicación de cuaterniones                   ¯³                                        ¯³
+                                                               Si AB es nulo, el vector libre asociado a AB se llama vector libre nulo.
+            i = j = k = ijk = 2 1
+              2      2       2
+
+
+                  y la grabó en una piedra
+                       de este puente.
+
+
+Durante el resto de su vida, Hamilton pasó la mayor parte
+del tiempo desarrollando el álgebra de cuaterniones. Él
+pensaba que tendrían un significado revolucionario en la
+física matemática. Su trabajo monumental sobre este tema,
+Treatise on quarternions, fue publicado en 1853. Después
+trabajó en una extensión del tema, Elements of
+quaternions. Aunque Hamilton murió en 1865 antes de
+terminar esta obra, su hijo publicó el trabajo en 1866.
+                                                                                                      Figura 14.3
+Los estudiantes de matemáticas y física conocen a Hamilton
+dentro de muchos otros contextos. En física matemática,
+por ejemplo, se encuentra la función hamiltoniana que con
+                                                               Notación
+frecuencia representa la energía total de un sistema, y las
+ecuaciones diferenciales de dinámica de Hamilton Jacobi.       Se usarán corrientemente letras latinas minúsculas con una flecha encima para nom-
+En la teoría de matrices, el teorema de Hamilton-Cayley        brar vectores libres:
+establece que toda matriz satisface su propia ecuación
+                                                                        ³ ³ ³
+característica.
+                                                                        a , b , x ,...
+A pesar del gran trabajo desarrollado, los últimos años de                                        ³
+Hamilton fueron un tormento. Su esposa estaba semiinválida     Al vector libre nulo se le denota o.
+y él fue atacado por el alcoholismo. Es gratificante, por lo
+tanto, señalar que durante estos últimos años la recién
+formada American National Academy of Sciences eligió a             ³                                                     ¯³               ¯³
+Sir William Rowan Hamilton como su primer miembro              Si a es un vector libre asociado a un segmento AB , se dice que AB es una
+extranjero.
+                                                                                              ³
+                                                               aplicación del vector libre a en el punto A. Al punto A se le llama punto inicial de
+                                                               la aplicación, y a B, punto final.
+
+                                                               Claramente, un vector libre es susceptible de una infinidad de aplicaciones: tiene
+                                                               tantas como puntos hay en el espacio. Por esta razón se interpreta que el vector libre
+                                                               puede desplazarse paralelamente a sí mismo, en el espacio, y ser aplicado en cual-
+                                                                                                                               ¯³
+                                                               quier punto particular. El resultado de cualquier aplicación, AB , de un vector libre
+                                                               ³
+                                                               a , es un representante del vector libre.
+
+
+                                                               En particular, para cualquier punto A el segmento nulo AA es una aplicación (es un
+                                                                                                      ³                              ¯³
+                                                               representante) del vector libre nulo o. Estrictamente hablando, si AB es una apli-
+
+
+192
+                          ³                         ¯³    ³            ¯³                               Módulo 14: Vectores libres
+cación del vector libre a , debe escribirse AB * a; esto es, AB pertenece al
+               ³
+vector libre a. No obstante, para efectos prácticos, con el ánimo de no congestio-
+                                                 ³
+nar la escritura, se confundirá el vector libre a con cualquiera de sus aplicaciones.
+          ¯³       ¯³                                          ³
+Así, si AB y CD son aplicaciones del vector libre a , se dirá, por comodidad,
+³    ¯³      ³     ¯³                   ¯³       ¯³
+a = AB y a = CD, y, por tanto, que AB = CD, aunque estas igualdades no sean
+estrictas.
+
+Si bien el vector libre, como se ha definido, carece de puntos concretos (a diferencia
+de los segmentos orientados), se le asignará la dirección, el sentido y la longitud de
+                                        ³      ¯³                  ³
+cualquiera de sus aplicaciones. Así, si a = AB , entonces a tiene la dirección de la
+      ±¯³                                       ³         ¯³           ³    ³
+recta AB , el sentido s (A, B ) y la longitud a = AB . Además, a = o si y sólo si
+
+ ³
+ a = 0.
+
+
+Notación
+
+Al conjunto de todos los vectores libres en el espacio se le denota E
+                                                                     3
+                                                                       .
+
+Convención
+
+En adelante, cuando se denote un polígono por sus vértices (letras latinas mayús-
+culas) se entenderá que las letras consecutivas representan vértices consecutivos
+(contiguos). Así, el pentágono ABCDE es cualquiera de los dos de la figura 14.4,
+pero ninguno de los dos de la figura 14.5
+
+
+                                            Figura 14.4
+
+
+                                                                                         Vea la animación Vector libre en su
+                                                                                         multimedia de Geometría vectorial y
+                                                                                         analítica.
+                                      Figura 14.5
+
+
+                                                                                             Geometría vectorial y analítica 193
+Capítulo 4: Vectores geométricos
+                                   Antes de enunciar la primera proposición de este capítulo, recordemos un concepto
+                                   geométrico de paralelogramo:
+
+                                   «El cuadrilátero ABCD es un paralelogramo si y sólo si tiene dos lados opuestos
+                                   paralelos y congruentes».
+
+                                   La siguiente proposición caracteriza los paralelogramos con base en los vectores
+                                   libres.
+
+                                   Teorema 1
+                                                                                           ¯³    ¯³     ¯³    ¯³
+                                   El cuadrilátero ABCD es un paralelogramo si y sólo si AB = DC o BA = CD o
+                                    ¯³      ¯³         ¯³    ¯³
+                                   AD = BC o DA = CB (cada par de vectores no colineales).
+
+                                   Prueba (figura 14.6).
+
+
+                                                                            Figura 14.6
+
+
+                                   (ó )
+
+                                   Sea ABCD un paralelogramo.
+                                                        ¯³        ¯³   ¯³    ¯³
+                                   Por definición: AB = CD y AB & DC .
+
+                                                  ¯³        ¯³
+                                   En suma, AB y DC coinciden en longitud y en dirección.
+                                          ±¯³
+                                   Sea AD la recta determinada por los puntos iniciales de los segmentos orientados
+                                    ¯³      ¯³
+                                   AB y DC . Los puntos finales de estos segmentos están en el mismo semiplano de
+                                            ±¯³                   ¯³   ¯³
+                                   borde AD. Por tanto, AB y DC tienen el mismo sentido. En consecuencia,
+                                    ¯³      ¯³
+                                   AB y DC son equivalentes y tienen, así, el mismo vector libre asociado. Con la
+                                                                             ¯³      ¯³
+                                   convención hecha, puede escribirse: AB = DC .
+
+
+                                   La prueba del recíproco se deja al lector.
+
+
+194
+      Operaciones con vectores libres
+                                                       15
+Introducción
+Los vectores libres, cuyo estudio se inició en el módulo 14, son objetos diferentes a los
+escalares, aunque tienen asociados escalares (todo vector libre tiene longitud, la cual es un
+número real).
+                                                                                                 William Kingdom Clifford
+Con los vectores libres se pueden definir operaciones que, bajo condiciones específicas,
+                                                                                                 En su obra Elementos de dinámica, Clifford introdujo para
+producen nuevos vectores libres. Estas operaciones son la adición y la multiplicación de         los vectores las operaciones usuales de adición y
+escalares por vectores.                                                                          multiplicación de vectores por escalares, y sus propiedades.
+
+El concepto de ángulo, estudiado en la geometría euclidiana, se extiende a los vectores libres   Clifford nació en Devon (Inglaterra) en 1845 y murió en las
+                                                                                                 Islas Madeira (Portugal) en 1879.
+
+Objetivos del módulo
+
+1. Definir en el conjunto de los vectores libres dos operaciones: una ley de composición
+   interna llamada adición, y una ley de composición externa, denominada multiplicación de
+    escalares por vectores libres.
+2. Extender a los vectores libres el concepto geométrico de ángulo.
+
+Preguntas básicas
+1. ¿Cómo se adicionan vectores libres?
+2. ¿Cómo se restan vectores libres?
+3. ¿Cómo se multiplican escalares por vectores libres?
+4. ¿Qué propiedades tienen la adición y la multiplicación de escalares por vectores libres?
+5. ¿Qué es una combinación lineal de vectores libres?
+6. ¿Qué se requiere para que un conjunto de vectores libres sea linealmente independiente?
+7. ¿Cómo se determina el ángulo entre dos vectores libres?
+
+Contenidos del módulo
+15.1 Adición de vectores libres
+15.2 Multiplicación de escalares por vectores libres
+15.3 Ángulo entre vectores libres
+
+
+                                                                                                            Vea el módulo 15 del programa de
+                                                                                                            televisión Geometría vectorial y analítica
+
+
+                                                                                                               Geometría vectorial y analítica 195
+Capítulo 4: Vectores geométricos
+                                                     15.1 Adición de vectores libres
+                                                                               ³   ³
+                                                     Dos vectores libres a y b no nulos y con direcciones diferentes (no paralelos)
+                                                     determinan en un punto O cualquiera del espacio un paralelogramo, así:
+
+                                                                                   ³
+                                                           Se aplica el vector a en el punto O. Sea A el punto final de esta aplicación
+       Vea la animación Adición de vectores libres
+       en su multimedia de Geometría vectorial y              ¯³       ³
+       analítica.                                           ( OA = a ).
+                                                                                       ³                                               ¯³   ³
+                                                           En A se aplica el vector b . Sea B el punto final de esta aplicación ( AB = b ).
+                                                                                                          ³
+                                                           A continuación, en O se aplica el vector b. Sea C el punto final de la aplicación
+                                                              ¯³       ³
+                                                            ( OC = b ).
+                                                                                                                       ¯³     ¯³
+                                                     El cuadrilátero resultante, OABC, es un paralelogramo, ya que OC = AB (recuérde-
+                                                     se el teorema 1) (figura 15.1).
+
+
+                                                                                            Figura 15.1
+
+
+                                                                                                          ¯³
+                                                     Al vector libre asociado al segmento dirigido OB se le llama vector diagonal prin-
+                                                     cipal del paralelogramo OABC. A este paralelogramo se le denomina paralelogramo
+                                                                   ³       ³
+                                                     asociado a a y b en el punto O.
+
+                                                     El concepto de vector diagonal nos servirá de soporte para la definición de la
+                                                     adición de vectores libres.
+
+                                                     Adición de vectores libres
+
+                                                     Sea + : E × E ³ E .
+                                                              3   3   3
+
+
+                                                     + es una adición de vectores libres bajo las siguientes condiciones:
+
+                                                               ³       ³                                                           ³    ³
+                                                     (A1). Si a y b son vectores libres no nulos y no paralelos, entonces a + b es el
+                                                                                                                        ³    ³
+                                                            vector diagonal principal del paralelogramo asociado a a y b en un punto
+                                                            arbitrario O.
+                                                               ³       ³                                                                ³   ³
+                                                     (A2). Si a y b son vectores no nulos, pero con igual dirección, entonces a + b
+
+
+196
+                                                                                                 Módulo 15: Operaciones con vectores libres
+                                                                         ¯³
+       es el vector libre asociado al segmento dirigido OB , que se obtiene así:
+                                                                              ³
+              En un punto arbitrario O se aplica el vector libre a. Sea A el punto
+                                                   ¯³        ³
+               final de esta aplicación ( OA = a ).
+                                           ³         ¯³
+              En A se aplica el vector b. Sea AB el resultado de la aplicación (figura 15.2).
+
+           ³   ³               ³   ³   ³
+(A3). Si a = o, entonces a + b = b .
+           ³   ³               ³   ³       ³
+       Si b = o, entonces a + b = a .
+
+
+                                               Figura 15.2
+
+
+La adición de vectores libres está bien definida; esto es, no depende del punto O.
+Esto puede probarse mediante aplicación reiterada del teorema 1.
+
+Teorema 2
+
+La adición de vectores libres tiene las siguientes propiedades:
+
+(G1). La adición (+) es asociativa en E3 .
+(G2). La adición es modulativa en E3 .
+(G3). La adición es invertiva en E3 .
+(G4). La adición es conmutativa en E3 .
+
+Explicación
+
+      (G1) + es asociativa en E3 .
+
+       Esta propiedad se enuncia así:
+                         ³ ³ ³
+                                           »³ ³¿ ³ ³ »³ ³¿
+               Para cada a , b , c en E3 , ¿ a + b ¿ + c = a + ¿ b + c ¿ .
+                                           ¿       £           ¿       £
+
+
+      (G2) + es modulativa en E 3 .
+                                                             »³ ¿
+       Según la definición de adición, el vector libre nulo ¿¿ o ¿¿¿ es tal que:
+                                                             ¿¿ £
+                           ³           ³       ³    ³        ³   ³   ³
+               Para todo a * E3 , a + o = a y o + a = a .
+                                                      ³
+       Por esta razón, el vector libre nulo, o, se llama módulo de E 3 para la adición.
+
+                                                                                                       Geometría vectorial y analítica 197
+Capítulo 4: Vectores geométricos
+                                       También se llama elemento neutro para la adición en E3 .
+
+                                      (G3) + es invertiva en E3 .
+                                            ³                                                     ³
+                                       Sea a un vector libre no nulo. Apliquemos a en un punto A cualquiera, de
+                                                     ¯³     ³
+                                       modo que AB = a (figura 15.3).
+
+
+                                                                           Figura 15.3
+
+
+                                            ³                                                          ¯³
+                                       Sea b el vector libre asociado al segmento dirigido BA .
+                                                                               ¯³        ¯³       ¯³        ³   ³   ³
+                                       Según la definición de adición, AB + BA = AA , es decir, a + b = 0 .
+                                                        ³   ³    ³
+                                       Similarmente, b + a = 0 .
+                                                    ³                                             ³                 ³
+                                       Al vector b se le llama inverso aditivo de a y se le denota 2 a . De esta
+                                               ³    » ³¿ » ³¿ ³ ³
+                                       manera, a +¿¿¿2 a¿¿¿ = ¿¿¿2 a¿¿¿ + a = o .
+                                                    ¿ £ ¿ £
+                                                                           ³
+                                       Es fácil probar que el vector 2 a no depende del punto donde sea aplicado el
+                                                ³
+                                       vector a.
+                                                        ³    ³    ³                 ³         ³
+                                       Por otra parte, o + o = o . Por tanto, 2o = o . Es decir, el vector nulo es inver-
+                                       so aditivo de sí mismo. Es el único con esta propiedad. Podemos afirmar, en
+                                                                                    ³
+                                       consecuencia, que todo vector libre a tiene asociado un vector libre, deno-
+                                                ³
+                                       tado 2 a, llamado su opuesto o inverso aditivo, cuya suma con el primero es
+                                                             »³ ¿
+                                       el vector libre nulo ¿¿ o ¿¿ .
+                                                             ¿¿ £¿
+                                                    ³                     ³
+                                       El vector a y su opuesto 2 a coinciden en dirección y magnitud, pero
+                                       tienen sentidos contrarios.
+                                       Las propiedades G1, G2, G3 pueden resumirse así: la estructura E ; + es
+                                                                                                       3
+
+
+                                       un grupo.
+
+
+198
+                                                                                                Módulo 15: Operaciones con vectores libres
+           (G4)+ es conmutativa.
+
+            Esta propiedad consiste en que:
+                                 ³ ³           ³   ³   ³         ³
+                      Para todo a , b * E3 : a + b = b + a .
+
+            Esta cuarta propiedad, agregada a las tres anteriores, hace que la estructura
+                E 3 ; + sea un grupo abeliano (o conmutativo).
+
+            La propiedad invertiva de la adición permite introducir la operación sustracción.
+
+Sustracción
+            ³     ³                                                               ³   ³
+Sean a y b vectores libres. Se define la sustracción entre a y b, y se denota
+³       ³
+a 2 b , así:
+            ³   ³    ³
+                         » ³¿
+            a 2 b := a + ¿ 2 b ¿.
+                         ¿     £
+                             ³   ³                                        ³   ³
+Al vector resultante, a 2 b , se le llama diferencia entre a y b .
+
+El orden en que se escriben los vectores en la diferencia es esencial, ya que en
+                             ³   ³     ³   ³
+general los vectores a 2 b y b 2 a no son iguales. Por ejemplo:
+
+
+               ³   ³ ³    ³   ³       ³   ³   ³    » ³¿       ³
+            si a b o, a 2 o = a; pero o 2 a = o +¿¿¿2 a¿¿¿ = 2 a .
+                                                  ¿ £
+
+Para obtener gráficamente la diferencia entre dos vectores no nulos, se procede de
+la siguiente manera (figura 15.4):
+
+
+                                               Figura 15.4
+
+
+                                                             ³       ¯³   ³
+En un punto arbitrario O, se aplica el vector a : OA = a . Seguidamente, se aplica
+    ³              ¯³      ³
+2 b en A : AB2 = 2 b .                                                                            Vea la animación Diferencia entre vectores
+                                                                                                  libres en su multimedia de Geometría
+                            ¯³   ³
+                                     » ³¿                ¯³     ³   ³                             vectorial y analítica.
+Por definición de adición, OB2 = a + ¿ 2 b ¿ ; es decir, OB 2 = a 2 b .
+                                     ¿ £
+
+                                                                                                      Geometría vectorial y analítica 199
+Capítulo 4: Vectores geométricos
+                                   Si a la construcción indicada (figura 15.4) se agrega una aplicación en O del vector
+                                   ³                              ¯³   ³
+                                    b , de modo que OB22 = b , entonces el cuadrilátero OB 2AB 22 es un paralelogramo
+                                   (¿por qué?).
+
+                                                   ¯¯³         ¯³                  ¯¯³                                          ³   ³
+                                   Por tanto, B22A = OB2 . Es decir, B 22A también representa al vector diferencia a 2 b .
+
+                                   En consecuencia, una sencilla construcción para la diferencia es la siguiente (figura 15.5):
+
+
+                                                                                         Figura 15.5
+
+
+                                                                                                           ³        ³
+                                   En un punto arbitrario O se aplican los vectores a y b :
+                                            ¯³         ³       ¯³      ³
+                                            OA = a ; OB = b .
+
+                                                                                       ¯³       ³      ³       ¯³       ³   ³
+                                   Así se obtienen las dos diferencias: BA = a 2 b y AB = b 2 a .
+
+                                   La adición de vectores libre puede generalizarse a cualquier número finito de vectores,
+                                   así:
+
+                                           Para n * `, n g 3,
+                                         ³    ³          ³
+                                                                »³ ³              ³
+                                                                                         ¿ ³
+                                         a1 + a2 + ... + an : = ¿ a1 + a2 + ... + a n 21 ¿ + an .
+                                                                ¿                        £
+                                   De manera simplificada:
+
+                                             n     ³
+                                                       » n 21 ³ ¿      ³
+                                            3 a = ¿¿ 3 a £¿ + a .
+                                            i =1
+                                                   i
+                                                           i =1
+                                                                   i       n
+
+
+                                   Las propiedades asociativa y conmutativa permiten escribir los sumandos en cual-
+                                   quier orden y sin el uso de paréntesis. Ejemplo:
+
+                                            ³      ³       ³      ³    ³       ³   ³   ³
+                                            a1 + a2 + a3 + a4 = a3 + a1 + a4 + a2 .
+
+
+                                   Como consecuencia del hecho de que la estructura E ; + es un grupo abeliano,
+                                                                                     3
+
+
+                                   se obtienen para la adición de vectores libres algunas propiedades, válidas para
+                                   todas las estructuras de este tipo. El siguiente teorema recoge las más usuales.
+
+
+200
+                                                                                      Módulo 15: Operaciones con vectores libres
+Teorema 3
+
+                            ³ ³ ³
+Cualesquiera sean a , b , c vectores libres (elementos de E 3 ), se tiene:
+
+        »³ ³¿         ³ ³
+1.     2¿ a + b ¿ = 2 a 2 b.
+        ¿       £
+       ³        ³           ³       ³
+2.     a = b õ 2a = 2b.
+       ³        ³       ³       ³   ³
+3.     a = b õ a2b = o.
+       ³    ³       ³       ³       ³   ³
+4.     a + c = b + c õ a = b.
+                                ³   ³   ³
+5.     La ecuación x + a = b tiene solución única en E3 .
+                                ³   ³   ³
+6.     La ecuación a + x = b tiene solución única en E3 .
+
+         » ³¿ ³
+7.      2¿ 2 a ¿ = a.
+         ¿ £
+        ³
+8.      o es único.
+            ³
+9.      2 a es único.
+        ³       ³       ³   ³       ³   ³
+10.     a 2 b = b 2 a õ a = b.
+
+Con relación a la longitud (o magnitud) del vector suma, obtenido al operar con dos
+vectores libres, es pertinente hacer algunas anotaciones basadas en el texto de
+David Hilbert Fundamentos de la geometría.
+
+            ³       ³                   ³       ³   ³    ³        ³
+L1.    Si a = o, entonces a + b = b + a = b .
+
+            ³       ³
+L2.    Si a y b son vectores libres no nulos con igual dirección, y con el mismo
+       sentido (figura 15.6), entonces:
+
+                    ³       ³       ³       ³
+                        a+b = a + b .
+
+
+                                                    Figura 15.6
+
+
+            ³       ³
+L3.    Si a y b son vectores libres no nulos con la misma dirección, pero con
+       sentidos contrarios (figura 15.7), se tiene:
+
+
+                                                                                            Geometría vectorial y analítica 201
+Capítulo 4: Vectores geométricos
+                                                                  ³        ³                 ³       ³       ³   ³
+                                                         Si a > b , entonces: a + b = a 2 b .
+
+                                                                  ³        ³                 ³       ³       ³   ³
+                                                         Si a < b , entonces: a + b = b 2 a .
+
+                                                                  ³        ³                 ³       ³
+                                                         Si a = b , entonces: a + b = 0 .
+
+
+                                                                       ³       ³    ³   ³                            ³   ³
+                                          En resumen, a + b = a 2 b . (Léase: «la longitud de a + b es el valor
+
+                                                                                                                         ³   ³
+                                          absoluto de la diferencia entre las longitudes de los vectores a y b ».)
+
+                                          En la figura 15.7:
+
+                                                           ¯³          ³       ¯³   ³   ¯³       ³       ³
+                                                          OA = a ; AB = b ; OB = a + b .
+
+
+                                                                                         Figura 15.7
+
+
+                                                  ³       ³
+                                   L4.    Si a y b son vectores no nulos y tienen direcciones diferentes (figura
+                                          15.8), la desigualdad triangular garantiza que:
+
+                                                           ³       ³           ³    ³
+                                                           a+b < a + b .
+
+
+                                                                                         Figura 15.8
+
+
+                                                              ³        ³
+                                   En resumen, si a y b son vectores libres cualesquiera, entonces se satisface la
+                                   desigualdad triangular:
+
+                                              ³       ³        ³           ³
+                                              a+b f a + b .
+
+
+202
+                                                                                              Módulo 15: Operaciones con vectores libres
+                                              ³   ³       ³       ³       ³       ³
+La igualdad se da sólo cuando a = o o b = o, o cuando a y b son vectores no
+nulos y coinciden en dirección y sentido.
+
+
+15.2 Multiplicación de escalares por vectores libres                                            Vea la animación Dilatación y contracción de
+                                                                                                vectores en su multimedia de Geometría
+Mediante una ley de composición externa los vectores libres pueden ser dilatados,               vectorial y analítica.
+contraídos o invertidos en su sentido.
+
+Se define a continuación una particular ley a la que se llama multiplicación de un
+escalar por un vector libre.
+
+Multiplicación de un escalar por un vector libre
+
+Sea M : \ × E3 ³ E3 .
+
+M es una multiplicación de escalares por vectores libres si para cada
+
+» * \ y a * E3 , M »¿ » , a ¿¿ es un vector libre, denotado » a, con las siguientes
+          ³                       ³
+                                                                              ³
+
+                          ¿           £
+condiciones:
+
+                                  ³       ³                   ³       ³
+         M 1. Si » = 0 o a = o , entonces » a = o .
+                                  ³       ³                   ³                           ³
+         M 2. Si » b 0 y a b o, entonces » a tiene la dirección de a.
+                                  ³       ³                   ³                   ³
+         M 3. Si » b 0 y a b o, entonces » a tiene el sentido de a si y sólo si » > 0.
+                     ³            ³
+         M 4.       »a = » a .
+
+
+\ , en esta definición y a través del texto, denota el conjunto de los números reales,
+y a sus elementos se les llamará escalares. Usualmente se recurrirá a las letras
+griegas (³ , ³ , » ,...) para denotarlos.
+
+Teorema 4
+                                  ³               ³   ³                           ³   ³
+Para todo » * \ y todo a * E3 , » a = o si y sólo si » = 0 o a = o .
+
+Prueba
+
+(ó ) .
+                      ³       ³
+Supóngase que » a = o .
+                ³         ³
+Por M 4, » a = » a .
+
+                ³
+Por tanto, » a = 0.
+
+
+                                                                                                    Geometría vectorial y analítica 203
+Capítulo 4: Vectores geométricos
+                                                   ³                                   ³
+                                   Como » y a son reales, entonces » = 0 o a = 0.
+
+                                                             ³   ³
+                                   En consecuencia, » = 0 o a = o .
+
+                                   (ñ).
+
+                                   (Véase M 1).
+
+                                   La multiplicación de vectores no nulos por escalares produce en aquéllos un efecto
+                                   que puede observarse gráficamente y que depende del escalar, como se verá ense-
+                                   guida.
+
+                                         » > 1.
+                                                       ³                       ³
+                                          El vector » a es una dilatación de a (figura 15.9).
+
+
+                                                                        Figura 15.9
+
+
+                                         0 < » < 1.
+                                                       ³                           ³
+                                          El vector » a es una contracción de a (figura 15.10).
+
+
+                                                                       Figura 15.10
+
+
+                                         21 < » < 0 .
+                                                       ³                        ³
+                                          El vector » a es una contracción de a, con cambio de sentido (figura 15.11).
+
+
+                                                                       Figura 15.11
+
+
+                                         » < 21 .
+
+
+204
+                                                                                         Módulo 15: Operaciones con vectores libres
+                        ³                               ³
+       El vector » a es una dilatación de a, con cambio de sentido (figura 15.12).
+
+
+                                              Figura 15.12
+
+
+A continuación se enuncian algunas propiedades importantes de la multiplicación
+por un escalar.
+
+Teorema 5
+
+                                ³ ³
+Para todo » ,· reales, y a, b vectores libres:
+                ³       ³
+       M 1. 1 a = a .
+                        ³       ³
+       M 2. (21) a = 2 a .
+
+              »³ ³¿         ³     ³
+       M 3. » ¿ a + b ¿ = » a + » b .
+              ¿       £
+                            ³       ³     ³
+       M 4. (» + · ) a = » a + · a .
+
+              » ³¿       » ³¿            ³
+       M 5. » ¿· a ¿ = · ¿ » a ¿ = (»· ) a .
+              ¿    £     ¿     £
+                                              ³     ³        ³   ³
+       M 6. Si » b 0, entonces » a = » b õ a = b .
+                    ³       ³   ³     ³                 ³        ³   ³   ³
+       M 7. Si a b o y b b o, entonces » a = · b ó a & b o » = · = 0.
+
+He aquí algunos comentarios acerca del enunciado:
+
+      Si un vector se multiplica por el real uno (1), el vector no se altera.
+
+      Si un vector se multiplica por (21) , se obtiene el inverso aditivo del vector.
+
+      La propiedad M 3 puede llamarse «distributividad de la multiplicación por un
+       escalar ( M ), con respecto a la adición de vectores libres».
+
+      La propiedad M 4 puede llamarse «distributividad de la multiplicación por
+       un escalar ( M ), con respecto a la adición de escalares». Pero estrictamente
+       no se cumple la ley distributiva. ¿Por qué?
+
+      De la propiedad M 7 se deduce que si dos vectores no nulos tienen direc-
+       ciones distintas, ninguno de los dos puede ser múltiplo escalar del otro.
+
+A continuación se prueban algunos de los resultados:
+
+
+                                                                                               Geometría vectorial y analítica 205
+Capítulo 4: Vectores geométricos
+                                             ³       ³                             ³       ³           ³       ³
+                                   M 2. Si a = o , entonces (21) a = o . Pero o = 2 o . Por tanto, en este caso
+                                                 ³       ³
+                                          (21) a = 2 a .
+                                                                                           ³   ³
+                                         Consideremos el caso en que a b o .
+                                                                 ³                                 ³
+                                         El vector (21) a tiene la dirección de a, pero sentido contrario.
+                                                                 ³                 ³       ³                       ³                                 ³
+                                         Además, (21) a = (21) a = a . Luego (21) a es el inverso aditivo de a.
+
+                                                                 ³         ³
+                                         Por tanto, (21) a = 2 a .
+
+                                                                                                                             ³   ³
+                                   M 7. Debe tenerse en cuenta que dos vectores libres no nulos m y n son paralelos
+                                        si y sólo si cada uno es múltiplo escalar del otro. Esta propiedad la designa-
+                                        remos como el «primer criterio vectorial del paralelismo», y que podemos
+                                                             ³       ³ ³       ³       ³   ³                   ³        ³                ³
+                                         resumir así: a b o , b b o . a & b si y sólo si a = » b , » * \, » b o .
+
+                                         Se hará uso de un método de demostración llamado modus tollendo ponens,
+                                         que consiste en lo siguiente:
+
+                                         Si bajo ciertas hipótesis (H) queremos probar una proposición de forma de
+                                         disyunción ( P * Q), puede procederse así:
+
+                                                    Se niega P. Si con este supuesto, y utilizando H se deduce Q, entonces
+                                                     de H se deduce P * Q .
+
+                                                                                                               ³       ³ ³   ³       ³       ³
+                                                     En este numeral 7, las hipótesis son: a b o , b b o y » a = · b .
+                                                                                   ³       ³
+                                                     Debe probarse que a & b o (» = 0 y · = 0) . Este es un enunciado
+                                                     de la forma P * Q , con :
+                                                                     ³     ³
+                                                                 P : a & b y Q : (» = 0 y · = 0) .
+
+                                                    Neguemos Q, es decir, supongamos que » b 0 o · b 0 y analicemos
+                                                     el caso » b 0 (el otro es similar).
+
+                                                     Por M 6, puede escribirse:
+                                                                 ³    ·³            ³     ³
+                                                                 a=     b (ya que » a = · b ).
+                                                                      »
+                                                             ³                                             ³                             ³       ³
+                                                     Así, a es un múltiplo escalar de b. En consecuencia, a y b son
+                                                     paralelos.
+
+                                                     Queda así probado M 7.
+
+
+206
+                                                                                        Módulo 15: Operaciones con vectores libres
+
+De la propiedad M 7 que acaba de probarse puede deducirse (realmente es una
+                                             ³     ³
+reescritura de su enunciado) que si a y b son vectores libres no nulos y no
+paralelos, entonces:
+
+            ³    ³     ³
+        ³ a+ ³ b = o ó ³ = 0 y ³ = 0 .
+                                                                               ³   ³
+La última implicación se interpreta así: «la única combinación lineal de a y b que
+produce el vector cero, es aquella en que los dos coeficientes son ceros».
+
+                                                         ³   ³       ³
+Una combinación lineal de los vectores libres a1 , a2 ,..., ak es el vector suma de
+múltiplos escalares de ellos:
+            ³        ³               ³
+        ³1 a1 + ³ 2 a2 + ... + ³ k ak .
+
+Los ³ i son coeficientes de la combinación lineal.
+
+Ilustración 1
+
+         ¯³        ³       ³     ³
+        OA3 = 3 a1 2 2 a2 + 5 a3 .
+ ¯³                                                      ³   ³   ³
+OA3 es una combinación lineal de los vectores a1 , a2 , a3 , con coeficientes respec-
+tivos: 3, 2 2, 5 (figura 15.13).
+
+
+                                          Figura 15.13
+
+Una combinación lineal en la que todos los coeficientes son ceros, se llama combi-
+nación lineal trivial. Dicha combinación produce, por supuesto, el vector nulo.
+   ³    ³
+Si a y b son vectores tales que la única combinación lineal de ellos que produce
+
+
+                                                                         { }
+                                                                         ³ ³               Vea la animación Combinación lineal de
+el vector cero es la trivial, entonces se dice que el conjunto a , b es linealmente        vectores en su multimedia de Geometría
+                                                                                           vectorial y analítica.
+independiente.
+
+
+                                                                                              Geometría vectorial y analítica 207
+Capítulo 4: Vectores geométricos
+                                   En E , dos vectores libres no nulos y no paralelos determinan en cada punto O del
+                                        3
+
+
+                                   espacio un plano, así:
+                                                ³     ³             ¯³       ³       ¯³    ³
+                                   Apliquemos a y b en O. Sean OA = a , OB = b (figura 15.14).
+
+
+                                                                         Figura 15.14
+
+
+                                               ±¯³    ±¯³
+                                   Las rectas OA y OB determinan (véase el texto Fundamentos de la geometría) un
+
+                                                           » ³ ³¿                                             ³   ³
+                                   plano. Dicho plano es Ã ¿ O, a , b ¿ , determinado por los vectores libres a y b en
+                                                           ¿          £
+                                   el punto O.
+
+                                   Lo anterior puede enunciarse así:
+
+                                   Teorema 6
+
+                                                  { }³ ³
+                                   Si el conjunto a , b de vectores libres es linealmente independiente, entonces los
+
+                                                                                                    » ³ ³¿
+                                   dos vectores determinan, en cada punto O del espacio, un plano Ã ¿ O, a , b ¿ .
+                                                                                                    ¿          £
+
+                                   Vectores coplanarios
+
+                                                           ³ ³ ³         ³       ³
+                                   Tres vectores libres a , b , c , con a y b no nulos, son coplanarios si alguno de
+                                   ellos es combinación lineal de los otros dos.
+
+
+                                                                             {   ³   ³ ³
+
+                                                                                          }
+                                   En este caso, se dice que el conjunto a , b , c es linealmente dependiente.
+
+                                                                                                      ³   ³ ³
+                                   En el espacio, un conjunto de tres vectores libres no nulos a , b , c puede ser
+                                   linealmente independiente si éstos no son coplanarios; esto es, si ninguno de los
+                                   vectores es combinación lineal de los restantes (figura 15.15).
+                                                                                                                 ³   ³ ³
+                                   En la figura 15.15 puede observarse además que tres vectores libres no nulos a , b , c
+                                   determinan en cada punto O del espacio un paralelepípedo de dimensiones
+
+
+208
+                                                                                          Módulo 15: Operaciones con vectores libres
+        ³       ³       ³
+        a , b , c .
+
+
+                                      Figura 15.15
+
+Las propiedades de la adición de vectores libres, enunciados en el teorema 1, y las
+propiedades M1 , M3 , M4 , M5 de la multiplicación por escalares enunciados en el
+
+teorema 4 se resumen diciendo que la estructura E ; +; M , formada por el con-
+                                                 3
+
+
+junto de los vectores libres, la adición y la multiplicación de escalares por vectores,
+es un espacio vectorial real.
+
+Se dice real porque los escalares son números reales. En adelante, E denotará el
+                                                                         3
+
+
+espacio vectorial de los vectores libres.
+
+Se tienen así tres espacios vectoriales en los conjuntos estudiados hasta el presen-
+te. En el, curso de Álgebra lineal se analizarán otros espacios vectoriales.
+
+15.3 Ángulo entre vectores libres
+Si bien los vectores libres pueden «desplazarse» paralelamente a sí mismos en
+forma arbitraria, puede definirse ángulo entre ellos.
+
+Ángulo entre vectores libres
+
+   ³    ³
+Si a y b son vectores libres, se define un ángulo entre ellos con las siguientes
+condiciones:
+
+            ³       ³
+A1.    Si a y b son no nulos, el ángulo entre ellos es el ángulo entre sus aplicacio-
+                            ¯³   ¯³
+       nes respectivas OA y OB en un mismo punto O (figura 15.16).
+
+
+                                                                                                Geometría vectorial y analítica 209
+Capítulo 4: Vectores geométricos
+
+
+                                                                               Figura 15.16
+
+
+                                             ³   ³    ³    ³                                  ³   ³
+                                   A 2 . Si a = o o b = o , entonces el ángulo entre a y b es Ã 2 radianes (90º).
+
+                                                                                                          ³   ³
+                                   De las propiedades del ángulo es fácil deducir que el ángulo entre a y b no depen-
+                                   de del punto de aplicación. Además, las propiedades para ángulos entre segmentos
+                                   dirigidos se conservan para los ángulos entre vectores libres. He aquí algunas:
+                                                               ³   ³
+                                   1.     El ángulo » entre a y b varía entre 0 radianes y Ã radianes (ambos valores
+                                          incluidos).
+                                                               ³       ³                              ³   ³
+                                   2.     El ángulo entre 2 a y 2 b es el mismo que hay entre a y b .
+                                                                           ³      ³                       ³   ³
+                                   3.     Para » > 0, el ángulo entre a y b es el mismo que entre a y » b .
+                                                                                                  ³   ³
+                                   4.     Si » es la medida en radianes del ángulo entre a y b y » < 0, entonces el
+                                                       ³       ³
+                                          ángulo entre a y » b es Ã 2 » .
+
+
+210
+Ejercicios propuestos
+Para facilitar la solución de una buena parte de los ejercicios se sugiere elaborar un gráfico que ilustre la situación descrita
+en el enunciado sin establecer generalizaciones inválidas.
+
+1.     Determine, para cada una de las afirmaciones siguientes, si es verdadera o falsa, y justifique su afirmación. En el caso
+       de enunciados falsos muestre un contraejemplo apropiado.
+
+                  ³ ³                           ³           ³       ³       ³                   ³   ³
+       a.      Si a , b * E3 , con a = b y a & b , entonces a = b .
+
+                  ³    ³                    ³           ³           ³       ³
+       b.      Si a = b , entonces a = b y a & b .
+
+                  ³         ³                   ³       ³
+       c.      Si a = b , entonces a & b .
+
+                  ³    ³                    ³           ³
+       d.      Si a & b , entonces a y b están sobre la misma recta.
+                   ³       ³        ³   ³                               ³       ³
+       e.      Si a = b y a b b , entonces a y b son opuestos.
+
+                  ³    ³        ³       ³           ³       ³                           ³   ³
+       f.      Si a & b y a = b y a b b , entonces a = 2 b .
+
+                  ³     ³           ³
+                                        » ³¿ ³
+       g.      Si c = 2 a, entonces c + ¿ 2 a ¿ = o .
+                                        ¿ £
+                  ³ ³                                   ³       ³           ³           ³
+       h.      Si a , b * E3 , entonces a + b = a + b .
+
+                  ³     ³       ³       ³                   ³ ³             ³                   ³   ³
+       i.      Si a + b = a + b para a , b b o , entonces a & b .
+
+                  ³    ³                    ³       ³           ³               ³
+       j.      Si a & b , entonces a + b = a + b .
+
+                   ³    ³           ³       ³                           ³           ³
+       k.      Si a + b = a 2 b , entonces a y b tienen sentidos opuestos.
+
+                   ³       ³                        ³       ³           ³           ³
+       l.      Si c > d , entonces c + d = c 2 d .
+
+
+                                                                                                        Geometría vectorial y analítica 219
+                 ³   ³        ³           ³   ³        ³            ³                    ³   ³        ³
+      m.    Si e , f b o y e + f = f 2 e , entonces e + f tiene el mismo sentido de f .
+
+                   ³ ³        ³           ³   ³        ³        ³                        ³       ³
+      n.    Si b , d b o y b 2 d = b + d , entonces b y d son de sentidos opuestos.
+
+                 ³ ³ ³            ³           ³    ³   ³            ³           ³    ³
+      o.    Si a , b , c b o y a + b + c = c 2 b 2 a , entonces:
+
+                         ³    ³       ³
+            (1).         a & b & c.
+                         ³ ³ ³
+            (2).         c , a , b tienen distintas direcciones.
+                         ³        ³
+            (3).         a y b tienen el mismo sentido.
+                         ³        ³                                                          ³
+            (4).         a y b tienen sentidos opuestos al de c .
+                         ³        ³       ³                                              ³
+            (5).         a + b + c tiene el mismo sentido de a.
+                          ³           ³   ³
+            (6).          c > a+b .
+
+                          ³           ³
+            (7).          b > a .
+
+                              ³       ³       ³        ³        ³           ³
+            (8).          2a2 b2 c = c 2 a 2 b .
+
+                          ³       ³       ³        ³        ³           ³
+            (9).          a+b2 c = a + b + c .
+
+
+2.    En la figura 1, ABCD representa un paralelogramo.
+                                              ¯³       ¯³
+      a.    Explique por qué AB = DC .
+                                              ¯³           ¯³
+      b.    Explique por qué AD = 2 CB .
+                                          ³        ¯³ ³         ¯³          ³       ¯³   ³       ¯³
+            Si designamos: u = AD , v = DC , w = CB , x = BA , resuelva los literales c, d, e.
+                             ¯³                                 ³       ³
+      c.    Exprese AC en términos de u y v .
+                              ¯³                                ³           ³
+      d.    Exprese AC en términos de x y w.
+
+      e.    Calcule los siguientes vectores, expresando los resultados en términos de los vértices del paralelogramo:
+             ³   ³
+                    » ³ ³¿ ³ »» ³ ³¿ ³¿ ³
+             x + u, ¿ x + u ¿ + v, ¿¿ x + u ¿ + v ¿ + u .
+                    ¿       £      ¿¿       £     £
+
+
+220
+                                                       Figura 1
+
+3.   En la figura 2 se tiene un paralelogramo A y B son puntos medios de los lados, y puede suponerse que los vectores
+     que se observan como paralelos evidentemente lo son. Los vectores señalados tienen su origen en P, o terminan en
+           ³    ¯³   ³       ¯³                                                                             ³ ³
+     P. Si u = PA , t = PB , designe todos los vectores que aparecen con interrogación en términos de u , t .
+
+
+                                                       Figura 2
+
+
+                                                            ³       ³
+4.   En las mismas condiciones de la figura anterior para t y u , exprese los vectores que aparecen con incógnita en
+                 ³       ³
+     función de u y t . Use la figura 3.
+
+
+                                                       Figura 3
+
+
+          ³ ³
+5.   Para a , b * E
+                   3
+                     :
+                ³    ³   ³    ³                         ³       ³                ³                                 ³      ³
+     a.     Si a & b , a y b tienen sentidos opuestos y a + b tiene el sentido de a , ¿qué puede afirmarse de a y b
+
+            en su relación de orden?
+
+
+                                                                                           Geometría vectorial y analítica 221
+                    ³        ³                                                                           ³       ³
+      b.     Si b > a y los vectores tienen sentidos opuestos, ¿qué puede afirmarse del sentido de a + b con respecto
+
+                                    ³        ³
+             al sentido de a y de b , respectivamente?
+                    ³        ³
+      c.     Si a > b y los vectores tienen sentidos opuestos, ¿qué puede afirmarse de los sentidos de:
+
+                ³       ³       ³   ³    ³   ³        ³      ³
+               a+ b, a2 b, b 2 a, 2 a2 b ?
+                                                                                                             ³       ³
+      d.     En el literal anterior, calcule la magnitud de cada vector en términos de las magnitudes de a y b .
+
+                                                                                         ³   ³   ³   ³
+6.    Dibuje un triángulo con lados asociados a los vectores no nulos a , b y a 2 b .
+
+
+                                         ³       ³       ³       ³
+      a.     Explique por qué a 2 b g a 2 b .
+
+                    ³   ³                                        ³        ³      ³   ³
+      b.     Si a , b * E
+                         3
+                           , ¿es posible que a 2 b = a 2 b ?
+
+
+7.    Dadas las gráficas siguientes (figura 4) resuelva a y b.
+
+      a.     Cuándo uno de los vectores representa la suma de los otros dos.
+
+      b.     Cuándo uno de los vectores representa la diferencia de los otros dos.
+
+
+                                                                      Figura 4
+
+
+8.    Encuentre el vector resultante en cada una de las operaciones siguientes:
+                            ¯³      ¯³       ¯³      ¯³      ¯³
+             (1).           AB + HM 2 HF 2 FB + MK .
+                            ¯³      ¯³       ¯³      ¯³          ¯³
+             (2).           CD 2 KF + KC 2 AD + DF .
+
+9.    Determine para cada una de las afirmaciones siguientes si es verdadera o falsa y justifique su afirmación.
+                    ³                                        ³        ³
+             Si a * E y » * \, entonces » a y a pueden ser vectores opuestos.
+                            3
+      a.
+                ³       ³                    ³       ³
+      b.     Si a & b , entonces » a & ³ b con » b 0, ³ b 0 .
+
+
+222
+                ³       ³                                ³   ³
+      c.     Si a & b y » > 0, ³ > 0, entonces » a y ³ b tienen el mismo sentido.
+                                             ³       ³
+      d.     Si » b 0, entonces » a > a .
+
+                ³       ³        ³           ³
+      e.     Si a b o y » a y ³ a tienen el mismo sentido, entonces » > 0 y ³ > 0 o » < 0 y ³ < 0.
+                ³       ³       ³       ³
+      f.     Si a & b y » a = » b , entonces » = » = 0 .
+                    ³       ³           ³            ³
+      g.     Si » a + ³ a = » a + ³ a , entonces » > 0 y ³ < 0.
+
+                ³       ³           ³        ³
+      h.     Si a b o y » a y ³ a tienen sentidos opuestos, entonces » > 0 y ³ < 0 o » < 0 y ³ > 0.
+                    ³       ³                                     ³   ³
+      i.     Si » a y ³ b tienen sentidos opuestos, entonces a y b tienen sentidos opuestos.
+                    ³       ³
+      j.     Si » a y ³ b tienen sentidos opuestos, entonces » > 0 y ³ < 0 o » < 0 y ³ > 0.
+
+10.   Utilice el criterio de colinealidad para determinar en cada literal si los tres puntos diferentes de O («O», punto de
+      referencia) son colineales.
+
+              2 ¯³ 1 ¯³ 13 ¯³
+      a.        OC + OB = OH .
+              3     5    15
+             1 ¯³ 4 ¯³ 1 ¯³ ¯³ 6 ¯³
+      b.       OA 2 OB + OC + OB = OC .
+             2     5    2         5
+                ¯³          ¯³          ¯³       ³
+      c.     2 OC 2 3 DO + 5 FO = o .
+
+
+11.   En un paralelogramo ABCD, si M, N son puntos medios de AB y CD , respectivamente, demuestre vectorialmente
+      que AMCN es un paralelogramo.
+
+12.   Demuestre vectorialmente que los puntos medios de los lados de un cuadrilátero determinan un paralelogramo.
+
+13.   Demuestre vectorialmente que los puntos medios de dos lados opuestos de un cuadrilátero y los puntos medios de
+      las diagonales de éste son los vértices de un paralelogramo o son colineales.
+
+14.   Demuestre vectorialmente que las diagonales de un paralelogramo se intersecan en sus puntos medios.
+
+15.   Demuestre vectorialmente que en un paralelogramo los segmentos que unen un vértice con los puntos medios de los
+      lados opuestos dividen la diagonal opuesta en tres segmentos congruentes.
+
+                                                                                                      ¯³      ¯³       ¯³     ³
+16.   En un ABC , M , N , R son los puntos medios de AB, BC y CA , respectivamente. Demuestre que AN + BR + CM = o .
+
+
+17.   En un cuadrilátero ABCD, sean E, F, G, H los puntos medios de los lados AB, BC , CD y DA, respectivamente.
+
+
+                                                                                               Geometría vectorial y analítica 223
+                                          þþ   þþ   þþ   þþ    þ
+      Demuestre vectorialmente que AF û BG û CH û DE ý o .
+
+
+18.   En el trapecio ABCD, M, N son puntos medios de AD y BC, respectivamente (figura 5).
+
+
+                                                          Figura 5
+
+      Demuestre vectorialmente que:
+
+              þþ
+                    1 ö þþ þþ ö
+      a.     MN ý     ÷ AB û DC ÷ .
+                    2ø          ø
+
+               þþ
+                  1 ö þþ  þþ
+                             ö
+      b.      MN ý ÷ AB û DC ÷ .
+                  2ø         ø
+              þþ    þþ         þþ    þþ
+      c.     MN ð AB y MN ð CD .
+
+
+19.   En el trapecio ABCD, de bases AB y CD , M, N son los puntos medios de las diagonales (figura 6).
+
+
+                                                         Figura 6
+
+
+      Demuestre vectorialmente que:
+
+              þþ
+                 1 ö þþ þþ ö
+      a.     MN ý ÷ DC ý AB ÷ .
+                 2ø         ø
+
+                      þþ        þþ
+
+               þþ
+                     DC ý AB
+      c.      MN ý                   .
+                           2
+              þþ    þþ         þþ    þþ
+      d.     MN ð AB y MN ð DC .
+
+
+224
+20.   Demuestre vectorialmente que en un triángulo isósceles las medidas de los segmentos trazados desde los puntos
+      medios de los lados iguales al punto medio del tercer lado son iguales.
+
+                                                                                     ¯³    ¯³    ¯³   ¯³     ¯³        ¯³
+21.   En un exágono regular ABCDEF, demuestre vectorialmente que AB + AC + AD + AE + AF = 3 AD .
+
+22.   Demuestre vectorialmente que el baricentro G de un triángulo de vértices A, B, C se puede expresar como
+      ¯³
+          1 » ¯³ ¯³ ¯³ ¿
+      OG = ¿ OA+ OB + OC ¿ , siendo O un punto de referencia cualquiera.
+          3¿             £
+
+23.   Sean ABCD un cuadrilátero cualquiera, O un punto de referencia y P el punto medio del segmento determinado
+                                                                            ¯³
+                                                                                1 » ¯³ ¯³ ¯³ ¯³ ¿
+      por los puntos medios de las diagonales. Demuestre vectorialmente que OP = ¿ OA+ OB + OC + OD ¿ .
+                                                                                4¿                  £
+                        ¯³
+                        CD
+                                     2                                                              ¯³
+                                                                                                        1 ¯³ 1 ¯³ 1 ¯³
+24.   En la figura 7,   ¯³
+                                 =     , y P es el punto medio de AD . Demuestre vectorialmente que OP = OA + OB + OC ,
+                                     1                                                                  2    3    6
+                        BD
+
+      siendo O punto de referencia.
+
+
+                                                                  Figura 7
+
+
+                                      ¯³         ¯³
+                                     AP1         AP2
+                                            1           1
+25.   En un ABC se tiene:            ¯³
+                                           = ;   ¯³
+                                                       = . P3 es el punto de intersección de BP2 y CP1 .
+                                            3           3
+                                     PB
+                                      1          P2C
+
+
+      Determine vectorialmente las razones en las que P3 divide al segmento CP1 y al segmento BP2 .
+
+
+26.   En la pirámide triangular de base en el ABC y vértice Q, los segmentos AB, BC y AC tienen por puntos medios M,
+                                                                       ¯¯³      ¯³    ¯³    ¯³   ¯³   ¯³
+      N y L, respectivamente. Demuestre vectorialmente que QM + QN + QL = QA + QB + QC .
+
+
+27.   En el paralelogramo ABCD, M es el punto medio de CD. Demuestre vectorialmete que BD y AM se cortan en un
+      punto que divide a ambos segmentos en la razón 1:2.
+
+          ³ ³           ³    ³                    ³      ³    ³      ³       2 ³
+28.   Sea a , b * E 3 , a & b y tales que 2 » a + ³ b = 2 a + 2 b 2            ³ a . Determine vectorialmente los valores de » y ³ .
+                                                                             5
+
+
+                                                                                                         Geometría vectorial y analítica 225

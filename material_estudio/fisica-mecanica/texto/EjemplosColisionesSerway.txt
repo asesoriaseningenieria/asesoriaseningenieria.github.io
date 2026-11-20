@@ -1,0 +1,602 @@
+154    CAPÍTULO 5 | Energía
+
+COMENTAR IOS Únicamente geometría simple (rectángulos y triángulos) puede resolverse exactamente con este método.
+Formas más complejas requieren de cálculo o la técnica de conteo de cuadros y se trabaja en el siguiente ejemplo.
+PREGUNTA 5.1 5 Verdadero o Falso: Cuando se estiran resortes, la mitad del desplazamiento requiere la mitad del trabajo.
+E JERCICIO 5.1 5 ¿Cuánto trabajo se necesita para estirar este mismo resorte desde xi 5 5.00 cm hasta xf 5 9.00 cm?
+RESPUESTA 0.224 J
+
+
+  ■ EJEMPLO 5.16           Cálculo del trabajo por conteo de cuadros
+OB JET I VO Utilizar el método gráfico y conteo       Fap (N)                                 Fap (N)
+de cuadros para evaluar el trabajo realizado por     10.0                                     100
+una fuerza.
+                                                      8.0                                      80
+PROBLEMA Suponga que la fuerza aplicada para
+estirar una gruesa pieza de elástico que cambia       6.0                                      60
+con la posición como se indica en la figura 5.31a.    4.0                                      40
+Calcule el trabajo hecho por la fuerza aplicada.
+                                                      2.0                                      20
+ESTRATEGI A Para hallar el trabajo, simple-
+mente cuente el número de cuadros bajo la curva y                                     x (m)                                 x (m)
+                                                      0.0       0.2 0.4 0.6 0.8 1.0             0   0.1   0.3   0.5   0.7
+multiplique el número por el área de cada cuadro.
+La curva pasará por la mitad de algunos cuadros,       a                                       b
+en cuyo caso sólo se contabiliza una fracción.
+                                                     Figura 5.31 a) (Ejemplo 5.16) b) (Ejercicio 5.16)
+
+SOLUCIÓN
+Existen 62 cuadros completos o casi completos bajo la curva, seis cuadros que están casi a la mitad debajo de la curva y un
+área triangular desde x 5 0 m hasta x 5 0.10 m que es equivalente a un cuadro para un total de casi 66 cuadros. Ya que
+el área de cada cuadro es 0.10 J, el trabajo total realizado es casi 66 3 0.10 J 5 6.6 J.
+
+COMENTAR IOS Matemáticamente existen otros métodos para hacer tales estimaciones, todas incluyen sumas hasta regio-
+nes que aproximen el área. Para obtener un mejor cálculo, los cuadros deberán ser más pequeños.
+PREGUNTA 5.16 En el desarrollo de tales estimaciones, ¿es necesario que todos los cuadros tengan la misma longitud y ancho?
+E JERCICIO 5.16 Suponga que la fuerza necesaria aplicada para jalar el lazo en la curva que se ve en la figura 5.31b. Deter-
+mine el trabajo aproximado que se realiza mediante el conteo de cuadros.
+RESPUESTA Casi 50 J. (Las respuestas individuales pueden variar.)
+
+
+      ■ EJEMPLO 6.1           Golpeando primero
+  OBJETIVO Aplicar el teorema impulso-cantidad de movimiento para evaluar la fuerza promedio ejercida durante un impacto.
+  PROBLEMA Una pelota de golf con 5.0 3 1022 kg de masa es golpeada con un bastón como en la figura 6.3 (página 170).
+  La fuerza en la pelota varía desde cero cuando se hace el contacto hasta algún valor máximo (cuando es máxima la deformación
+                                                                                                                             (continúa)
+170     CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+
+                                                                                              Ted Kinsman/Photo Researchers. Inc.
+de la pelota) y después regresa a cero cuando la pelota deja el bastón, como en la
+gráfica de fuerza como función del tiempo en la figura 6.1. Suponga que la pelota
+deja la cara del bastón con una velocidad de 144 m/s. a) Encuentre la magnitud
+del impulso debido a la colisión. b) Evalúe la duración de la colisión y la fuerza
+promedio que actúa en la pelota.
+ESTRATEGIA En el inciso a), aplique el hecho de que el impulso es igual al cam-
+bio de cantidad de movimiento. La masa y las magnitudes de velocidad inicial y
+final se conocen, por eso este cambio puede calcularse. En el inciso b) la fuerza
+promedio es precisamente el cambio de la cantidad de movimiento calculado en           Figura 6.3 (Ejemplo 6.1) Durante el im-
+                                                                                       pacto, la cabeza del bastón por un momento
+el inciso a) dividido entre una estimación de la duración de la colisión. Piense en la
+                                                                                       aplana la cara de la pelota de golf.
+distancia que la pelota recorre por la cara del bastón (casi 2 cm, aproximada-
+mente el radio de la pelota). Divida esta distancia entre la velocidad promedio (la mitad de la velocidad final) para obtener
+un valor aproximado del tiempo de contacto.
+
+SOLUCIÓN
+a) Encuentre el impulso entregado a la pelota.
+El problema esencialmente es en una dimensión. Observe             I 5 )p 5 pf 2 pi 5 (5.0 3 1022 kg)(44 m/s) 20
+que vi 5 0 y calcule el cambio en la cantidad de movimien-                                5 12.2 kg ? m/s
+to, que es igual al impulso:
+b) Evalúe la duración de la colisión y la fuerza promedio
+que actúa en la pelota.
+                                                                           Dx          2.0 3 1022 m
+Realice el cálculo aproximado del intervalo de tiempo de la co-    Dt 5            5                5 9.1 3 1024 s
+                                                                          v prom          22 m/s
+lisión, Δt, utilizando el desplazamiento aproximado (radio de la
+pelota) y su rapidez promedio (la mitad de rapidez máxima):
+                                                                             Dp        2.2 kg # m/s
+Estime la fuerza promedio a partir de la ecuación 6.6:             Fprom 5         5                                                5 12.4 3 103 N
+                                                                             Dt        9.1 3 1024 s
+
+COMENTAR IOS Este cálculo aproximado muestra simplemente qué tan grandes pueden ser las fuerzas de contacto. Un
+buen golfista logra transferir una cantidad de movimiento máxima trasladando el peso desde el pie trasero hacia el pie delan-
+tero, trasmitiendo la cantidad de movimiento del cuerpo a través del eje y la cabeza del bastón. Esta sincronización, que invo-
+lucra un movimiento corto de las caderas, es más efectiva que un disparo poderoso exclusivamente por los brazos y hombros.
+Siguiendo de principio a fin con la oscilación, asegura que el movimiento no se retrase en el instante crucial de impacto.
+PREGUNTA 6.1 ¿Qué rapidez promedio del bastón duplicaría la fuerza promedio?
+E JERCICIO 6.1 Una pelota de 0.150 kg, lanzada con una rapidez de 40.0 m/s, es golpeada directamente de regreso al lan-
+zador con una rapidez de 50.0 m/s. a) ¿Cuál es el impulso entregado por el bate a la pelota? b) Halle la magnitud de la
+fuerza promedio ejercida por el bate sobre la pelota si ambos están en contacto por 2.00 3 1023 s.
+RESPUESTA a) 13.5 kg ? m/s b) 6.75 kN
+
+
+   ■ EJEMPLO 6.2             ¿Qué tan buenos son los amortiguadores?
+OB JET I VO Hallar un impulso y evalúe una fuerza en la                                    Antes
+
+
+                                                                                                                                    © Volvo Car Corporation
+colisión de un objeto en movimiento con un objeto inmóvil.                      –15.0 m/s
+
+PROBLEMA En una prueba de choque, un automóvil de
+1.50 3 103 kg de masa colisiona con un muro y rebota como
+en la figura 6.4a. Las velocidades inicial y final del automó-
+vil son vi 5 215.0 m/s y vf 5 2.60 m/s, respectivamente.                                 Después
+                                                                                                                                                              b
+Si la colisión dura 0.150 s, halle a) el impulso entregado al             + 2.60 m/s
+automóvil debido a la colisión y b) el tamaño y dirección de
+                                                                                                                                      Figura 6.4 (Ejemplo 6.2) a) Esta canti-
+la fuerza promedio ejercida sobre el automóvil.                                                                                       dad de movimiento del automóvil cam-
+ESTRATEGIA Este problema es parecido al ejemplo ante-                                                                                 bia como resultado de su colisión con
+                                                                                                                                      el muro. b) En una prueba de choque
+rior, excepto que las dos cantidades de movimiento inicial                                                                            (una colisión inelástica), gran parte de
+                                                            a
+y final son diferentes de cero. Encuentre las cantidades de                                                                           la energía cinética inicial del automóvil
+movimiento y sustituya en el teorema impulso-cantidad de movimiento, ecuación 6.6,                                                    se transforma en la energía tomada
+resolviendo para Fprom.                                                                                                               para dañar el vehículo.
+                                                                                   6.1 | Cantidad de movimiento e impulso   171
+
+
+SOLUCIÓN
+a) Determine el impulso entregado al automóvil.
+Calcule las cantidades de movimiento inicial y final del        pi 5 mvi 5 (1.50 3 103 kg)(215.0 m/s)
+automóvil:                                                        5 22.25 3 104 kg ? m/s
+                                                                pf 5 mvf 5 (1.50 3 103 kg)(12.60 m/s)
+                                                                  5 10.390 3 104 kg ? m/s
+El impulso es sólo la diferencia entre las cantidades           I 5 pf 2 pi
+de movimiento inicial y final:                                    5 10.390 3 104 kg ? m/s 2 (22.25 3 104 kg ? m/s)
+                                                                I 5 2.64 3 104 kg ? m/s
+b) Encuentre la fuerza promedio ejercida sobre el automóvil.
+                                                                          Dp       2.64 3 104 kg # m/s
+Aplique la ecuación 6.6: el teorema impulso-cantidad de         Fprom 5        5                         5 11.76 3 105 N
+                                                                          Dt             0.150 s
+movimiento:
+
+COMENTAR IOS Cuando el automóvil no rebota en la pared, la fuerza promedio ejercida sobre el automóvil es más pequeña
+que el valor calculado. Con una cantidad de movimiento final igual a cero, el automóvil se somete a un cambio más pequeño en
+la cantidad de movimiento.
+PREGUNTA 6. 2 Cuando una persona está involucrada en un accidente automovilístico, ¿por qué es más probable una
+lesión mayor en una colisión de frente en comparación con el golpe por atrás? Responda utilizando los conceptos de veloci-
+dad relativa, cantidad de movimiento y fuerza promedio.
+E JERCICIO 6. 2 Suponga que el automóvil no rebota en la pared, pero el intervalo de tiempo de la colisión permanece
+en 0.150 s. En este caso, la velocidad final del automóvil es cero. Encuentre la fuerza promedio ejercida sobre el automóvil.
+RESPUESTA 11.50 3 105 N
+        CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+
+   ■ EJEMPLO 6.3             El arquero
+OBJETIVO Calcular la velocidad de retroceso aplicando conservación de cantidad de movimiento.
+PROBLEMA Un arquero está de pie y en reposo sobre hielo sin fricción. La masa com-
+binada del arquero y el arco es 60.0 kg. (Véase la figura 6.9.) a) Si el arquero dispara una
+flecha de 0.030 0 kg horizontalmente a 50.0 m/s en la dirección positiva del eje x, ¿con qué
+velocidad se mueve el arquero a través del hielo después que dispara la flecha? b) A conti-
+nuación, dispara una flecha idéntica a la misma velocidad con respecto al suelo, pero en
+un ángulo de 30.0° sobre la horizontal. Encuentre su nueva velocidad. c) Estime la fuerza
+normal que actúa sobre el arquero cuando la segunda flecha es acelerada por la cuerda del
+arco. Suponga una longitud de tiro de 0.800 m.
+ESTRATEGI A Para resolver el inciso a), coloque la ecuación de la conservación de movimiento
+en la dirección horizontal y resuelva para la velocidad final del arquero. El sistema del arquero
+(incluyendo el arco) y la flecha no es aislado, ya que las fuerzas de gravitación y normal actúan
+en él. De cualquier modo, estas fuerzas son perpendiculares al movimiento del sistema y, por lo
+tanto, no hacen trabajo sobre él, por ende, puede aplicarse la conservación de movimiento. En el           Figura 6.9 (Ejemplo 6.3) Un
+inciso b), la conservación de la cantidad de movimiento se puede aplicar de nuevo, dejando                 arquero dispara una flecha hori-
+de lado el efecto diminuto de la gravedad sobre la flecha durante su lanzamiento. Esta vez                 zontalmente hacia la derecha.
+no es una velocidad inicial cero. El inciso c) requiere el uso del teorema de impulso-cantidad             Debido a que está de pie sobre
+de movimiento y estimar el tiempo, que puede llevarse a cabo con la balística simple.                      hielo sin fricción, se deslizará hacia
+                                                                                                           la izquierda a través del hielo.
+
+SOLUCIÓN
+a) Encuentre la velocidad del arquero sobre el hielo.
+Escriba la ecuación de la conservación de cantidad de                pix 5 pfx
+movimiento para la dirección x:
+Sean m1 y v1f la masa del arquero y su velocidad después
+de disparar la flecha, respectivamente. Sean m2 y v2f ,
+la masa y la velocidad de la flecha. Ambas velocidades               0 5 m1v1f 1 m 2v 2f
+son en la dirección x. Sustituya pi 5 0 y las expresiones
+para la cantidad de movimiento final:
+                                                                                                      b 1 50.0 m/s 2
+                                                                                 m2        0.030 0 kg
+Sustituya m1 5 59.97 kg, m2 5 0.030 0 kg y v2f 5 50.0 m/s            v 1f 5 2       v 5 2a
+                                                                                 m 1 2f     59.97 kg
+y resuelva para v1f :
+                                                                     v1f 5 20.025 0 m/s
+b) Calcule la velocidad del arquero después de disparar la
+segunda flecha en un ángulo de 30.0° sobre la horizontal.
+Escriba la componente x de la ecuación de cantidad de                m1v1i 5 (m12 m 2)v1f 1 m 2v 2f cos u
+movimiento de nuevo con m1 como la masa del arquero
+después de disparar la primer flecha del inciso a)
+y m 2 la masa de la segunda flecha al lado:
+                                                                      m1               m2
+                                                        v 1f 5                v 2              v cos u
+                                                                 1 m 1 2 m 2 2 1i 1 m 1 2 m 2 2 2f
+Resuelva para v1f, la velocidad final del arquero,
+y sustituya:
+                                                                             b 1 20.025 0 m /s 2 2 a                b 1 50.0 m/s 2 cos 1 30.0°2
+                                                                  59.97 kg                             0.030 0 kg
+                                                            5a
+                                                                  59.94 kg                             59.94 kg
+                                                        v1f 5 20.046 7 m/s
+                                                                                                                6.3 | Colisiones      175
+
+c) Calcule la fuerza normal promedio que actúa sobre el
+arquero así como en la flecha cuando es acelerada por
+la cuerda del arco.
+Utilice la cinemática en una dimensión para calcular la            v2 2 v02 5 2a)x
+aceleración de la flecha:
+                                                                        v 2f 2 2 v 0 2       1 50.0 m/s 2 2 2 0
+                                                                   a5                    5                      5 1.56 3 103 m/s 2
+                                                                                                2 1 0.800 m 2
+Resuelva para la aceleración y sustituya los valores haciendo
+                                                                             2Dx
+v 5 v2f , la velocidad final de la flecha:
+                                                                        v 2f 2 v 0        50.0 m/s 2 0
+Encuentre el tiempo en el que se acelera la flecha                 t5                5                    5 0.032 0 s
+usando v 5 at 1 v0:
+                                                                            a            1.56 3 103 m/s 2
+Escriba la componente y del teorema impulso-cantidad               Fy,prom Dt 5 Dpy
+de movimiento:                                                                Dpy   m 2v 2f sen u
+                                                                   Fy,prom 5      5
+                                                                              Dt         Dt
+                                                                                1 0.030 0 kg 2 1 50.0 m/s 2 sen 1 30.0°2
+                                                                   Fy,prom 5                                               5 23.4 N
+                                                                                                0.032 0 s
+
+La fuerza normal promedio está dada por el peso            o Fy 5 n 2 mg 2 R 5 0
+del arquero más la fuerza de reacción R de la flecha            n 5 mg 1 R 5 (59.94 kg)(9.80 m/s2) 1 (23.4 N) 5 6.11 3 102 N
+sobre el arquero:
+
+COMENTAR IOS El signo negativo en v1f indica que el arquero se mueve en la dirección opuesta al movimiento de la fle-
+cha, de acuerdo con la tercera ley de Newton. Debido a que el arquero es más pesado que la flecha, su aceleración y, por
+lo tanto, su velocidad son mucho más pequeñas que la aceleración y velocidad de la flecha. Un punto de vista técnico: la
+segunda flecha se disparó a la misma velocidad con respecto al suelo, pero debido a que el arquero se estaba moviendo
+hacia atrás en el tiempo, viajó un poco más rápido que la primera flecha en relación con él. Las velocidades siempre se
+deben dar en relación con un marco de referencia.
+   Tenga en cuenta que la conservación de la cantidad de movimiento fue eficaz al conducirnos a una solución en los incisos
+a) y b). La respuesta final para la fuerza normal es sólo un promedio, porque es poco probable que la fuerza ejercida sobre la
+flecha sea constante. Si el hielo realmente es sin fricción, el arquero tendría dificultad para pararse. En general, el coeficiente
+de fricción estática del hielo es más que suficiente para evitar el deslizamiento en respuesta a tales retrocesos pequeños.
+PREGUNTA 6. 3 ¿Disparar una flecha más pesada necesariamente incrementaría la velocidad de retroceso? Explique, utili-
+zando el resultado del examen rápido 6.1.
+E JERCICIO 6. 3 Un hombre de 70.0 kg y una mujer de 55.0 kg sosteniendo un bolso de 2.50 kg están frente a frente sobre
+patines de hielo. a) Si la mujer empuja al hombre hacia atrás de tal modo que su velocidad final es 1.50 m/s, ¿con qué fuerza
+promedio ella lo empuja a él, suponiendo que están en contacto por 0.500 s? b) ¿Con qué velocidad retrocede ella? c) Si
+ahora ella lanza su bolso de 2.50 kg sobre él en un ángulo de 20.0° con la horizontal y a 4.20 m/s con respecto al suelo, ¿cuál
+es su velocidad final?
+RESPUESTAS a) 2.10 3 102 N          b) 1.83 m/s   c) 2.09 m/s
+                                                                                                               6.3 | Colisiones             177
+
+
+   ■ EJEMPLO 6.4              Una camioneta contra un compacto
+OB JET I VO Aplicar conservación de la cantidad de movimiento a una colisión inelástica                            S          S
+                                                                                                                   v1i        v2i
+en una dimensión.
+PROBLEMA Una camioneta con masa de 1.80 3 103 kg viaja con rumbo al este a
+115.0 m/s, mientras que un automóvil compacto con masa de 9.00 3 102 kg viaja con                      a
+rumbo al oeste a 215.0 m/s. (Véase la figura 6.11.) Los automóviles colisionan de frente
+y se enganchan. a) Calcule la velocidad de los autos enganchados después de la colisión.
+                                                                                                                                        S
+b) Encuentre el cambio en la velocidad de cada automóvil. c) Determine el cambio en                                                     vf
+la energía cinética del sistema constituido por los dos automóviles.
+ESTR ATEGI A La cantidad de movimiento total de los autos antes de la colisión, pi , es
+igual a la cantidad de movimiento total después de la colisión, pf , si se omite la fricción           b
+y se supone que los dos autos forman un sistema aislado. (Esto se conoce como “aproxi-
+mación de impulso.”) Resuelva la ecuación de conservación de la cantidad de movimiento               Figura 6.11 (Ejemplo 6.4)
+para la velocidad final de los autos enganchados. Una vez que las velocidades están dispo-
+nibles, las otras partes pueden resolverse por sustitución.
+
+SOLUCIÓN
+a) Calcule la velocidad final después de la colisión.
+Asigne a m1 y v1i como la masa y la velocidad inicial de                     pi 5 pf
+la camioneta, mientras que m 2 y v 2i corresponden al            m1v1i 1 m 2v 2i 5 (m1 1 m 2)vf
+compacto.
+Aplique conservación de cantidad de movimiento:
+Sustituya los valores y resuelva para la velocidad final, vf :   (1.80 3 103 kg)(15.0 m/s) 1 (9.00 3 102 kg)(215.0 m/s)
+                                                                    5 (1.80 3 103 kg 1 9.00 3 102 kg)vf
+                                                                 vf 5 15.00 m/s
+b) Calcule el cambio de velocidad para cada automóvil.
+Cambio de velocidad de la camioneta:                             Dv1 5 vf 2 v1i 5 5.00 m/s 2 15.0 m/s 5 210.0 m/s
+Cambio de velocidad del auto compacto:                           Dv 2 5 vf 2 v 2i 5 5.00 m/s 2 (215.0 m/s) 5 20.0 m/s
+c) Determine el cambio de energía cinética del sistema.
+Encuentre la energía cinética inicial del sistema:               EC i 5 12m 1v 1i2 1 12m 2v 2i2 5 12 1 1.80 3 103 kg 2 1 15.0 m/s 2 2
+                                                                        112 1 9.00 3 102 kg 2 1 215.0 m/s 2 2
+                                                                      5 3.04 3 105 J
+Halle la energía cinética final del sistema y el cambio de        EC f 5 12 1 m 1 1 m 2 2 v f 2
+energía cinética, )EC.
+                                                                        5 12 1 1.80 3 103 kg 1 9.00 3 102 kg 2 1 5.00 m/s 2 2
+                                                                        5 3.38 3 104 J
+                                                                 DEC 5 EC f 2 EC i 5 22.70 3 105 J
+
+
+COMENTAR IOS Durante la colisión, el sistema pierde casi 90% de su energía cinética. El cambio de velocidad de la camio-
+neta fue de sólo 10.0 m/s, comparado con el doble del auto compacto. Este ejemplo subraya tal vez la característica más impor-
+tante de la seguridad de cualquier auto: su masa. La lesión es ocasionada por un cambio en la velocidad, y el vehículo más
+pesado se somete a un cambio de velocidad más pequeño en un accidente típico.
+PREGUNTA 6.4 Si la masa de ambos vehículos fuera duplicada, ¿cómo se afectaría la velocidad final? ¿El cambio en la ener-
+gía cinética?                                                                                                                     (continúa)
+178     CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+E JERCICIO 6.4 Suponga que los mismos vehículos están                     enganchan, b) el cambio de velocidad para los dos vehícu-
+viajando hacia el este; el auto compacto está delante de la               los y c) el cambio de energía cinética del sistema, desde el
+camioneta. El conductor del compacto aplica repentina-                    instante antes del impacto (cuando el auto compacto viaja a
+mente los frenos, reduciendo la velocidad del vehículo a                  6.00 m/s) hasta el instante justo después de la colisión.
+6.00 m/s. Si la camioneta viaja a 18.0 m/s y choca contra el
+                                                                          RESPUESTAS a) 14.0 m/s b) camioneta: )v1 5 24.0 m/s
+auto compacto, halle a) la velocidad del sistema a la derecha
+                                                                          auto compacto: )v2 5 8.0 m/s c) 24.32 3 104 J
+después de la colisión, suponiendo que los dos vehículos se
+
+
+   ■ EJEMPLO 6.5                El péndulo balístico
+OB JET I VO Combinar los conceptos de conservación de energía y la conservación de cantidad de movimiento en colisiones
+inelásticas.
+PROBLEMA El péndulo balístico (figura 6.12a) es un dis-                   a) Encuentre la velocidad del sistema después de que la bala
+positivo utilizado para medir la velocidad de un proyectil,               penetra el bloque. b) Calcule la velocidad inicial de la bala.
+por ejemplo una bala. Ésta es disparada dentro de un blo-
+que grande de madera que está colgado de ciertos alambres                 ESTR ATEGI A Use la conservación de energía para encon-
+ligeros. La bala es detenida por el bloque, y el sistema com-             tar la velocidad inicial del sistema bloque-bala, etiquetado
+pleto oscila hasta una altura h. Es posible obtener la veloci-            como vsis. El inciso b) requiere la ecuación de conservación
+dad inicial de la bala midiendo h y las dos masas. Como un                de momento, que puede resolverse con la velocidad inicial
+ejemplo de la técnica, considere que la masa de la bala, m1               del proyectil v1i.
+es 5.00 g, la masa del péndulo, m 2, es 1.000 kg y h es 5.00 cm.
+
+FIGURA 6.12 (Ejemplo 6.5) a)
+Diagrama de un péndulo balístico.
+              S
+Observe que vsis es la velocidad del
+
+
+                                                                                                   © Charles D. Winters/Cengage Learning
+sistema sólo después de la colisión
+perfectamente inelástica. b) Fotogra-
+fía de varios destellos de un péndulo
+balístico de laboratorio.
+
+                                                                         m1  m2
+                                         S                        S
+                                          v1i                     vsis
+                                  m1                   m2                                  h
+
+
+                                    a                                                                                                      b
+
+
+SOLUCIÓN
+a) Determine la velocidad del sistema después de que la bala
+entra en el bloque.
+Aplique la conservación de energía al sistema bloque-bala                 (EC 1 EP)después de la colisión 5 (EC 1 EP)superior
+después de la colisión:
+Sustituya las expresiones para las energías potencial y cinética.
+                                                                          2 1 m 1 1 m 2 2 v sis 1 0 5 0 1 1 m 1 1 m 2 2 gh
+                                                                          1                 2
+Observe que tanto la energía potencial en la parte inferior
+como la energía potencial en la parte superior son cero:
+Resuelva para la velocidad final del sistema bloque-bala, vsis:          v sis 2 5 2gh
+                                                                           v sis 5 "2gh 5 "2 1 9.80 m/s 2 2 1 5.00 3 1022 m 2
+                                                                           v sis 5 0.990 m/s
+b) Calcule la velocidad inicial de la bala.
+Escriba la ecuación de la conservación de la cantidad de                                  pi 5 pf
+movimiento y sustituya expresiones:                                       m1v1i 1 m 2v 2i 5 (m1 1 m 2)v sis
+Resuelva para la velocidad inicial de la bala y sustituya                         1 m 1 1 m 2 2 v sis
+valores:                                                                 v 1i 5
+                                                                                        m1
+                                                                                  1 1.005 kg 2 1 0.990 m/s 2
+                                                                         v 1i 5                                                                5 199 m/s
+                                                                                        5.00 3 1023 kg
+180     CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+
+  COMENTAR IOS Ya que el impacto es inelástico, sería incorrecto igualar la energía cinética inicial de la bala que entra con
+  la energía potencial gravitacional final asociada con la combinación bala-bloque. ¡La energía no se conserva!
+  PREGUNTA 6. 5 Mencione tres formas de energía mecánica que pueden ser disipadas desde el sistema en este experimento.
+  E JERCICIO 6. 5 Una bala con 5.00 g de masa se dispara horizontalmente dentro de un bloque de 2.000 kg unido a un
+  resorte horizontal. Éste tiene una constante de 6.00 3 102 N/m y alcanza una compresión máxima de 6.00 cm. a) Determine
+  la velocidad inicial del sistema bala-bloque. b) Calcule la velocidad de la bala.
+  RESPUESTA a) 1.04 m/s b) 417 m/s
+
+
+  ■ EJEMPLO 6.6             A jugar pool
+OB JET I VO Resolver una colisión elástica en una dimensión.
+PROBLEMA Dos bolas de billar de masa idéntica se mueven una hacia la otra como en la figura activa 6.13, con el eje x
+positivo a la derecha. Suponga que la colisión entre ellas es perfectamente elástica. Si las velocidades de las bolas al inicio
+son 130.0 cm/s y 220.0 cm/s, ¿cuál es la velocidad de cada bola después de la colisión? Suponga que la fricción y la rotación
+no son importantes.
+ESTR ATEGI A La solución de este problema es cuestión de resolver dos ecuaciones: la de conservación de la cantidad de
+movimiento y de conservación de energía, para dos incógnitas, las velocidades de las dos bolas al final. En lugar de utilizar la
+ecuación 6.11 para la conservación de energía, utilice la ecuación 6.14, que es lineal, y por esto es más fácil de manejar.
+
+SOLUCIÓN
+Escriba la ecuación de conservación de la cantidad de movi-                    m1v1i 1 m 2v 2i 5 m1v1f 1 m 2v 2f
+miento. Ya que m1 5 m2, se pueden eliminar las masas, des-       30.0 cm/s 1 (220.0 cm/s) 5 v1f 1 v 2f
+pués sustituya v1i 5 +30.0 cm/s y v2i 5 220.0 cm/s (etapa 3).
+                                                                             (1)   10.0 cm/s 5 v1f 1 v 2f
+                                                                                                                             6.3 | Colisiones            181
+
+A continuación, aplique la conservación de energía en la                                  (2)     v1i 2 v 2i 5 2(v1f 2 v 2f )
+forma de la ecuación 6.14 (etapa 4):                                     30.0 cm/s 2 (220.0 cm/s) 5 v 2f 2 v1f
+                                                                                      (3)       50.0 cm/s 5 v 2f 2 v1f
+Ahora resuelva las ecuaciones (1) y (3) simultáneamente                  10.0 cm/s 1 50.0 cm/s 5 (v1f 1 v 2f) 1 (v 2f 2 v1f )
+sustituya la respuesta para v2f en la ecuación (1) (etapa 5):                             60.0 cm/s 5 2v 2f       S         v 2f 5 30.0 m/s
+Sustituya la respuesta para v2f en la ecuación (1).                      10.0 cm/s 5 v1f 1 30.0 m/s            S v1f 5 220.0 m/s
+
+COMENTAR IOS Observe que las bolas intercambian velocidades casi como si hubieran pasado una a través de la otra. Esto
+siempre es el caso cuando dos objetos de igual masa se someten a una colisión elástica.
+PREGUNTA 6.6 En este ejemplo, ¿es posible ajustar las velocidades iniciales de las bolas de tal modo que las dos estén en
+reposo después de la colisión? Explique.
+E JERCICIO 6.6 Calcule la velocidad final de las dos bolas si aquella con velocidad inicial v 2i 5 220.0 cm/s tiene una masa
+igual a un medio que de la bola con velocidad inicial v 1i 5 130.0 cm/s.
+RESPUESTA v1f 5 23.33 cm/s; v 2f 5 146.7 cm/s
+
+
+   ■ EJEMPLO 6.7             Dos bloques y un resorte
+OB JET I VO Resolver una colisión elástica que incluye energía potencial                                        S
+                                                                                                                 v1i  4.00 m/s
+                                                                                                                                         S
+                                                                                                                                         v2i  –2.50 m/s
+elástica.
+                                                                                                                                         k
+PROBLEMA Un bloque de masa m1 5 1.60 kg, inicialmente moviéndose                                                            m1                      m2
+a la derecha con una velocidad de 14.00 m/s sobre una pista horizontal
+sin fricción, colisiona con un resorte sin masa unido a un segundo bloque
+de masa m 2 5 2.10 kg moviéndose a la izquierda con una velocidad de                                                a
+22.50 m/s, como se muestra en la figura 6.14a. El resorte tiene una cons-                                               S
+                                                                                                                        v1f  3.00 m/s
+                                                                                                                                                   S
+                                                                                                                                                   v2f
+tante elástica de 6.00 3 102 N/m. a) Determine la velocidad del bloque 2
+                                                                                                                                             k
+en el instante cuando el bloque 1 se mueve a la derecha con una velocidad                                                        m1                m2
+de 13.00 m/s, como en la figura 6.14b. b) Encuentre la máxima compre-
+sión del resorte.                                                                                                                x
+ESTRATEGIA Identifique el sistema como los dos bloques y el resorte. A
+continuación, escriba las ecuaciones de la conservación de la cantidad de                   Figura 6.14
+movimiento y resuelva para la velocidad final del bloque 2, v2f . Después uti-              (Ejemplo 6.7)           b
+lice conservación de energía para encontrar la compresión del resorte.
+
+SOLUCIÓN
+a) Calcule la velocidad v2f cuando el
+bloque 1 tiene velocidad 13.00 m/s.
+Escriba la ecuación de conservación de la         (1)       m1v1i 1 m 2v 2i 5 m1v1f 1 m 2v 2f
+cantidad de movimiento para el sistema y                    m 1v 1i 1 m 2v 2i 2 m 1v 1f
+resuelva para v2f :                               v 2f 5
+                                                                        m2
+                                                             1 1.60 kg 2 1 4.00 m/s 2 1 1 2.10 kg 2 1 22.50 m/s 2 2 1 1.60 kg 2 1 3.00 m/s 2
+                                                        5
+                                                                                                    2.10 kg
+                                                  v 2f 5 21.74 m/s
+
+b) Determine la compresión del resorte.
+Utilice la conservación de la energía             E i 5 Ef
+para el sistema, observando que la energía
+                                                  2 m 1v 1i 1 2 m 2v 2i 1 0 5 2 m 1v 1f 1 2 m 2 v 2f 1 2 kx
+                                                  1        2  1        2      1        2  1         2  1    2
+potencial se almacena en el resorte cuando
+se comprime una distancia x:
+                                                                                                                                                 (continúa)
+                                                                                               6.4      Colisiones tangenciales          183
+
+
+Sustituya los valores conocidos y el resultado           x 5 0.173 m
+del inciso a) dentro de la expresión ante-
+rior, resolviendo para x:
+
+COMENTAR IOS La componente de la velocidad inicial del bloque 2 es 22.50 m/s debido a que el bloque se mueve a
+la izquierda. El valor negativo para v 2f significa que el bloque 2 aún se está moviendo a la izquierda en el instante bajo
+consideración.
+PREGUNTA 6.7 ¿Es posible que los dos bloques lleguen al reposo mientras el resorte se está comprimiendo? Explique.
+Sugerencia: Observe la cantidad de movimiento en la ecuación (1).
+EJERCICIO 6.7 Calcule a) la velocidad del bloque 1 y b) la compresión del resorte en el instante en que el bloque 2 está en reposo.
+RESPUESTA a) 0.719 m/s hacia la derecha          b) 0.251 m
+
+
+    ■ EJEMPLO 6.8              Colisión en un cruce
+ OB JET I VO Explicar una colisión inelástica en dos dimensiones.
+                                                                                                                      y                  S
+ PROBLEMA Un automóvil con 1.50 3 103 kg de masa viajando al este con una rapidez                                                        vf
+ de 25.0 m/s colisiona en un cruce con una camioneta (van) de 2.50 3 10 kg que viaja
+                                                                                 3
+
+ al norte con una velocidad de 20.0 m/s, como se muestra en la figura 6.16. Determine
+                                                                                                     25.0 m/s
+ la magnitud y dirección de la velocidad de los restos después de la colisión, suponiendo
+ que los vehículos se someten a una colisión perfectamente inelástica (es decir, se unen) y                               u         x
+ suponiendo que se puede despreciar la fricción entre los vehículos y el camino.
+                                                                                                                              20.0 m/s
+ ESTR ATEGI A Utilice la conservación de la cantidad de movimiento en dos dimensio-
+ nes. (La energía cinética no se conserva.) Elija coordenadas como en la figura 6.16. Antes
+ de la colisión, el único objeto que tiene la cantidad de movimiento en la dirección x es el
+ automóvil, mientras que la camioneta lleva toda la cantidad de movimiento en la direc-
+ ción y. Después de la colisión totalmente inelástica, los dos vehículos se mueven juntos
+ con la misma velocidad común vf y ángulo u. Resuelva para estas dos incógnitas utilizando           Figura 6.16 (Ejemplo 6.8) Una
+ las dos componentes de la ecuación de la conservación de la cantidad de movimiento.                 vista aérea de una colisión perfecta-
+                                                                                                     mente inelástica entre un automóvil
+                                                                                                     y una camioneta (van).
+
+
+                                                                                                                                (continúa)
+184     CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+
+SOLUCIÓN
+Calcule las componentes en x de las cantidades
+de movimiento total inicial y final:
+                                                                  o pxi 5 m autovauto 5 (1.50 3 103 kg)(25.0 m/s)
+                                                                         5 3.75 3 104 kg ? m/s
+                                                                  o pxf 5 (m auto 1 mvan)vf cos u 5 (4.00 3 103 kg)vf cos u
+Iguale la cantidad de movimiento en x inicial con la              (1)    3.75 3 104 kg ? m/s 5 (4.00 3 103 kg)vf cos u
+cantidad de movimiento en x final:
+Encuentre las componentes en y de las cantidades de movi-
+miento total inicial y final:
+                                                                  o piy 5 mvanv van 5 (2.50 3 103 kg)(20.0 m/s)
+                                                                         5 5.00 3 104 kg ? m/s
+                                                                  o pfy 5 (m auto 1 mvan)vf sen u 5 (4.00 3 103 kg)vf sen u
+Iguale la cantidad de movimiento en y inicial con la cantidad     (2)    5.00 3 104 kg ? m/s 5 (4.00 3 103 kg)vf sen u
+de movimiento en y final:
+                                                                            5.00 3 104 kg # m/s
+Divida la ecuación (2) entre la ecuación (1) y resuelva para u:   tan u 5                         5 1.33
+                                                                             3.75 3 104 kg # m
+                                                                        u 5 53.1°
+
+                                                                             5.00 3 104 kg # m/s
+                                                                  vf 5                               5 15.6 m/s
+                                                                         1 4.00 3 103 kg 2 sen 53.1°
+Sustituya de regreso este ángulo en la ecuación (2) para
+encontrar vf :
+
+COMENTAR IOS Esto también es posible encontrando primero las componentes x y y de la velocidad resultante vfx y vfy. La
+magnitud y dirección de la velocidad resultante puede calcularse entonces con el teorema de Pitágoras, v f 5 !v f x2 1 v f y2
+y la función tangente inversa u 5 tan21 (vfx/vfx). Anteponiendo este otro planteamiento, es un asunto simple de sustituir
+vfx 5 vf cos u en las ecuaciones (1) y (2).
+PREGUNTA 6.8 Si el automóvil y la camioneta tienen masa y velocidad idénticas, ¿cuál habría sido el ángulo resultante?
+E JERCICIO 6.8 Un objeto de 3.00 kg moviéndose inicialmente en la dirección x positiva con una velocidad de 15.00 m/s
+colisiona y se une a un objeto de 2.00 kg que se mueve en un principio en la dirección y negativa con una velocidad de
+23.00 m/s. Calcule las componentes de velocidad final del objeto compuesto.
+RESPUESTA vfx 5 3.00 m/s; vfy 5 21.20 m/s
+186     CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+
+  ■ EJEMPLO 6.9             Órbita de una etapa simple
+OB JET I VO Aplicar las ecuaciones de velocidad y empuje
+de un cohete.
+PROBLEMA Un cohete tiene una masa total de 1.00 3 105            ESTRATEGI A Aunque parezca complicado, este problema
+kg, una masa quemada de 1.00 3 104 kg que incluye moto-          es principalmente un asunto de sustituir valores en las ecua-
+res, coraza y carga útil. El cohete es lanzado desde la Tierra   ciones adecuadas. El inciso a) necesita la sustitución de valo-
+y consume todo su combustible en 4.00 minutos, quemando          res en la ecuación 6.19 para la velocidad. Para el inciso b)
+el combustible con un ritmo estable con una velocidad de         divida el cambio en la masa de cohete entre el tiempo total,
+descarga de ve 5 4.50 3 103 m/s. a) Si se desprecia la fric-     obteniendo )M/)t, luego sustituya en la ecuación 6.20 para
+ción del aire y la gravedad, ¿cuál es la velocidad del cohete    encontrar el empuje. c) Utilizando la segunda ley de Newton,
+cuando ha quemado todo su combustible? b) ¿Qué empuje            la fuerza de gravedad y el resultado del inciso b), puede calcu-
+desarrollan los motores en el despegue? c) ¿Cuál es la ace-      lar la aceleración inicial. Para el inciso d) la aceleración de la
+leración inicial del cohete si no se desprecia la gravedad?      gravedad es aproximadamente constante en los pocos kilóme-
+d) Evalúe la velocidad cuando ha quemado todo su combus-         tros involucrados, de tal modo que la velocidad encontrada
+tible si no se desprecia la gravedad.                            en el inciso b) será reducida aproximadamente a )vg 5 2gt.
+                                                                 Agregue esta pérdida al resultado del inciso a).
+
+SOLUCIÓN
+a) Calcule la velocidad cuando el combustible se ha
+quemado por completo.
+                                                                 v f 5 v i 1 v e ln a      b
+                                                                                        Mi
+Sustituya vi 5 0, ve 5 4.50 3 103 m/s, Mi 5 1.00 3 105 kg
+                                                                                        Mf
+y Mf 5 1.00 3 104 kg en la ecuación 6.19:
+                                                                                                  1.00 3 105 kg
+                                                                   5 0 1 1 4.5 3 103 m/s 2 ln a                   b
+                                                                                                  1.00 3 104 kg
+                                                                 vf 5 1.04 3 104 m/s
+b) Evalúe el empuje de despegue.
+Determine el cambio de la masa del cohete:                       DM 5 Mf 2 Mi 5 1.00 3 104 kg 2 1.00 3 105 kg
+                                                                      5 29.00 3 104 kg
+Halle la proporción con la cual cambia la masa del cohete        DM   29.00 3 10 kg       4
+al dividir el cambio de masa entre el tiempo (donde el inter-       5               5 23.75 3 102 kg/s
+                                                                 Dt    2.40 3 102 s
+valo de tiempo es igual a 4.00 minutos 5 2.40 3 102 s):
+                                                                                                                | Resumen      187
+
+Sustituya esta cantidad en la ecuación 6.20, obteniendo el                         DM
+empuje:                                                           Empuje 5 2 v e      2 5 1 4.50 3 103 m/s 2 1 3.75 3 102 kg/s 2
+                                                                                   Dt
+                                                                          5 1.69 3 106 N
+
+c) Halle la aceleración inicial.
+Escriba la segunda ley de Newton, donde T se establece para       Ma 5 o F 5 T 2 Mg
+el empuje (thrust, en inglés) y resuelva para la aceleración a:          T     1.69 3 106 N
+                                                                    a5     2g5               2 9.80 m/s 2
+                                                                         M     1.00 3 105 kg
+                                                                     5 7.10 m/s2
+
+d) Evalúe la velocidad cuando se quema todo el combustible
+sin que se desprecie la gravedad.
+
+Determine la pérdida aproximada de velocidad debido a la          Dvg 5 2g Dt 5 2(9.80 m/s2)(2.40 3 102 s)
+gravedad:                                                            5 22.35 3 103 m/s
+Agregue esta pérdida al resultado del inciso b):                  vf 5 1.04 3 104 m/s 2 2.35 3 103 m/s
+                                                                    5 8.05 3 103 m/s
+
+COMENTAR IOS Incluso tomando en cuenta la gravedad, la velocidad es suficiente para lograr la órbita. Es posible que se
+requiera algún empuje adicional para vencer el arrastre del aire.
+PREGUNTA 6.9 ¿Qué fuerza normal inicial sería ejercida sobre un astronauta de masa m en un cohete que viaja vertical-
+mente hacia arriba con una aceleración a? Responda simbólicamente en términos de las cantidades positivas m, g y a.
+E JERCICIO 6.9 Una nave espacial con una masa de 5.00 3 104 kg está viajando a 6.00 3 103 m/s relativa a una estación
+espacial. ¿Qué masa tendrá la nave después de separar sus motores con la finalidad de lograr una velocidad relativa de
+8.00 3 103 m/s, viajando en la misma dirección? Suponga una velocidad de descarga de 4.50 3 103 m/s.
+RESPUESTA 3.21 3 104 kg

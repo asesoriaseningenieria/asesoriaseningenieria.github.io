@@ -1,0 +1,522 @@
+Capítulo 1: Espacios vectoriales
+                                    7.1 Vectores coordenados
+                                    Definición 1
+
+                                    Sean V un espacio vectorial de dimensión n y B = { v1 , v2 ,..., vn } una base para V.
+                                    Entonces, para cada v ∈V existen escalares únicos a1 , a2 ,..., an tales que:
+
+
+                                            v = a1 v1 + a2 v 2 + ... + an vn .
+
+
+                                    El vector cuyos componentes son los escalares a1 , a2 ,..., an se llama vector de
+                                    coordenadas o vector coordenado de v respecto a B, y se escribe:
+
+                                                 ⎡ a1 ⎤
+                                                 ⎢a ⎥
+                                           [ ]B ⎢⎢ 2 ⎥⎥
+                                            v  =
+                                                        .
+                                                 ⎢ ⎥
+                                                 ⎣ an ⎦
+
+                                    Es importante observar que [ v ]B depende del orden de los elementos de B. Luego,
+                                    al dar la base B ésta siempre debe asumirse como una base ordenada.
+
+                                    Un vector de coordenadas es una n-tupla ordenada.
+
+
+                                   Teorema 1
+
+                                   Sea B una base de un espacio vectorial V, u y v dos vectores de V y α un escalar,
+                                   entonces:
+
+                                          [u]B + [ v ]B = [u + v]B ,
+                                          α [u]B = [α u]B .
+
+                                   Observación
+
+                                                                                                             n
+                                   Con los vectores de coordenadas se opera de la misma forma que en             .
+
+
+ 90
+Capítulo 1: Espacios vectoriales
+
+
+           7.2 Matrices de transición y cambio de base
+
+           Dado un espacio vectorial V con base B 1 podemos expresar cualquier v ∈ V en B1 .
+           Si se tiene una segunda base B2 para V, ¿puede calcularse ( v ) B2 empleando ( v) B1 ?
+
+
+           Veamos el problema en                      3
+                                                          . Sean B1 = { v1 , v2 , v3 } y B2 = {w1 , w 2 , w3 } dos bases
+
+                                                               ⎛ c1 ⎞
+                                                               ⎜ ⎟
+           para     3
+                        . Si v ∈
+                                      3
+                                          , entonces ( v) B1 = ⎜ c2 ⎟ , es decir,
+                                                               ⎜c ⎟
+                                                               ⎝ 3⎠
+                        v = c1v1 + c2 v2 + c3 v3 .                                                                  (1)
+
+
+           Ahora, cada uno de los vectores v1 , v2 , v3 podemos expresarlo en la base B2 , así:
+
+
+                         v1 = a11w1 + a21w 2 + a31w3 .
+                         v 2 = a12 w1 + a22 w 2 + a32 w3 .                                                           (2)
+                         v3 = a13 w1 + a23 w 2 + a33 w3 .
+
+             Al sustituir (2) en (1) tenemos:
+
+                          v = c1 (a11w1 + a21w 2 + a31w 3 ) + c2 (a12 w1 + a22 w 2 + a32 w 3 )
+                              + c3 ( a13 w1 + a23 w 2 + a33 w 3 )
+                            = (c1a11 + c2 a12 + c3 a13 )w1 + (c1a21 + c2 a22 + c3 a23 )w 2
+                              + (c1a31 + c2 a32 + c3 a33 )w3 .
+             Luego:
+
+                                    ⎛ c1a11 + c2 a12 + c3 a13 ⎞ ⎛ a11                      a12        a13 ⎞⎛ c1 ⎞
+                                    ⎜                         ⎟ ⎜                                         ⎟⎜ ⎟
+                         ( v ) B2 = ⎜ c1a21 + c2 a22 + c3 a23 ⎟ = ⎜ a21                    a22        a23 ⎟⎜ c2 ⎟
+                                    ⎜c a +c a +c a ⎟ ⎜a                                               a33 ⎟⎜    ⎟
+                                    ⎝ 1 31 2 32 3 33 ⎠ ⎝ 31                                a32            ⎠⎝ c3 ⎠
+                                                                     ↓                       ↓         ↓
+                                                                                 ( v1 ) B2 ( v 2 ) B2 ( v 3 ) B2
+
+
+                                   = ⎡⎣ ( v1 ) B2 ( v 2 ) B2 ( v 3 ) B2 ⎤⎦ ( v ) B1
+                                   = PB2 ← B1 ( v ) B1 .
+
+
+ 92
+                                                                                                 Módulo 7: Coordenadas y cambio de base
+
+
+Definición 2
+
+La matriz PB2 ← B1 cuyas columnas son los vectores de la base B1 expresadas en la
+base B2 recibe el nombre de matriz de transición de la base B1 a la base B2.
+
+
+Si B1 = { v1 , v2 ,..., vn } y B2 = {w1 , w2 ,..., wn } ,
+
+                    ⎡ a11 a12               a1n ⎤
+                    ⎢a       a22            a2 n ⎥⎥
+         PB2 ← B1 = ⎢ 21
+                    ⎢                             ⎥
+                    ⎢                             ⎥
+                    ⎣ an1 an 2              ann ⎦
+                      ↓       ↓              ↓
+                   ( v1 ) B2 ( v 2 ) B2    ( v n ) B2
+
+
+Teorema 2
+
+Sean B1 y B2 bases de un espacio vectorial V. Sea PB2 ← B1 la matriz de transición de
+B1 a B2 ; entonces, para todo x ∈ V ,
+
+
+         (x)B2 = PB2 ←B1 (x)B1 .
+
+
+   Es importante resaltar que la matriz de transición PB2 ← B1 es invertible. ¿Por qué?
+
+   Teorema 3
+
+   Si P es la matriz de transición de B1 a B2 , entonces P −1 es la matriz de transición de
+   B2 a B1.
+
+
+   Podemos observar que para obtener la matriz de transición de B1 a B2 hacemos lo
+   siguiente:
+
+            ⎡⎣ B2    B1 ⎦⎤ ⎯⎯⎯⎯⎯⎯⎯
+                            operaciones elementales
+                                                    → ⎡⎣ I   PB2 ← B1 ⎤⎦ .
+
+
+                                                                                              Álgebra lineal elemental y aplicaciones 93
+                                                                                                       Módulo 7: Coordenadas y cambio de base
+
+
+7.3 Vectores coordenados e independencia lineal
+Teorema 4
+
+Sea B1 = { v1 , v2 ,..., vn } una base del espacio vectorial V. Supongamos que:
+
+                   ⎛ a11 ⎞              ⎛ a12 ⎞                  ⎛ a1n ⎞
+                   ⎜ ⎟                  ⎜ ⎟                      ⎜ ⎟
+                     a                    a                        a
+        (x1 ) B1 = ⎜ 21 ⎟ , (x 2 ) B1 = ⎜ 22 ⎟ ,..., (x n ) B1 = ⎜ 2 n ⎟ .
+                   ⎜ ⎟                  ⎜ ⎟                      ⎜ ⎟
+                   ⎜ ⎟                  ⎜ ⎟                      ⎜ ⎟
+                   ⎝ an1 ⎠              ⎝ an 2 ⎠                 ⎝ ann ⎠
+
+        ⎡ a11     a12          a1n ⎤
+        ⎢a        a22          a2 n ⎥⎥
+Sea A = ⎢ 21                           .
+        ⎢                            ⎥
+        ⎢                            ⎥
+        ⎣ an1     an 2         ann ⎦
+
+Entonces {x1 , x 2 ,..., x n } es LI si y sólo si det A ≠ 0.
+
+Este teorema se desprende fácilmente del hecho de que los vectores en coordena-
+das son n-tuplas ordenadas, o sea elementos de n , y del teorema 4 del módulo 4,
+el cual dice que det A ≠ 0 si y sólo si las columnas de A son LI.
+
+Teorema 1
+
+Sea S = {u1 , u 2 ,..., u k } un conjunto ortogonal de vectores no nulos de          n
+                                                                                         . Enton-
+ces S es linealmente independiente.
+
+Corolario 1
+
+                                                      n
+Un conjunto ortonormal de vectores en                     es linealmente independiente.
+
+
+                                                                                                    Álgebra lineal elemental y aplicaciones 97
+8.1 Conjuntos ortonormales
+Definición 1
+
+Sea S = {u1 , u 2 ,..., u k } un subconjunto de         n
+                                                            .
+
+
+Se dice que S es un conjunto ortonormal si:
+
+1.      u i ·u j = 0 para i ≠ j.
+
+2.      ui = 1.
+
+Cuando se cumple la condición 1, se dice que el conjunto es ortogonal.
+
+Como los vectores de S son de magnitud unitaria, se dice que son vectores norma-
+lizados. De ahí que un conjunto que cumpla las dos condiciones se llame ortonormal.
+Recordemos que si x ∈       n
+                                , x = ( x1 ,x2 ,...,xn ) y la magnitud de x, x , está dada por:
+
+
+        x = x ⋅ x = x12 + x22 + ... + xn2 .
+
+
+Si ui = 1, entonces ui · ui = 1.
+
+
+Nota: los conceptos de ortogonalidad y magnitud de los vectores de n están
+dados en términos del producto escalar. Es importante, antes de seguir adelante,
+recordar las propiedades del producto escalar.
+
+
+8.2 Otra forma del problema de la base. Proceso de ortonormalización
+    de Gram-Schmidt
+
+Dada una base S = { v1 , v 2 ,..., v k } para un subespacio de           n
+                                                                             , hallar una base
+
+ortonormal B = {u1 ,u2 ,..., uk } . La solución a este problema nos la brinda el si-
+guiente teorema, conocido como proceso de ortonormalización de Gram-Schmidt.
+
+Teorema 2
+
+                                                 n
+Sea H un subespacio de dimensión k de                ; entonces H tiene una base ortonormal.
+                                                                                                                                                              n
+                                                                                                          Módulo 8: Bases ortonormales y proyecciones en
+
+
+8.3 Proyecciones ortogonales
+Definición 2
+
+                                                               con base ortonormal {u1 , u 2 ,..., u k } y
+                                                           n
+Sea H un subespacio de dimensión k de
+                         n
+v un vector de               . Entonces la proyección ortogonal de v sobre H, denotada
+proyH v, es un vector de H dado por:
+
+
+        proy H v = ( v · u1 )u1 + ( v · u 2 )u 2 + ... + ( v · u k )u k .
+
+
+ Teorema 3
+
+ Sea B = {u1 , u 2 ,..., u n } una base ortonormal de                      y sea v ∈
+                                                                       n                n
+                                                                                            . Entonces:
+
+
+          v = ( v ⋅ u1 )u1 + ( v ⋅ u 2 )u 2 + ... + ( v ⋅ u n )u n .
+
+ Es decir, el vector v es la suma de las proyecciones ortogonales sobre los vectores
+                                      n
+ de la base ortonormal de                 :
+
+          v = proy Rn v.
+
+         B1 = {u1 , u2 ,..., uk , uk +1 ,..., un } .
+
+
+ Debemos demostrar que {u k +1 ,..., u n } es una base para H ⊥.
+
+ Como los vectores son LI, debe mostrarse que generan H ⊥.
+
+ Sea x ∈ H ⊥ ; entonces x ∈               n
+                                              y
+
+
+      x = (x ⋅ u1 )u1 + ... + (x ⋅ u k )u k + (x ⋅ u k +1 )u k +1 + ... + (x ⋅ u n )u n .
+
+
+ Como los vectores u1 , u 2 ,..., u k están en H, x ⋅ ui = 0 , i = 1,..., k , entonces:
+         x = (x ⋅ u k +1 )u k +1 + ... + (x ⋅ u n )u n .
+ Luego {u k +1 ,..., u n } es una base para H ⊥ y dim H ⊥ = n − k .
+
+                               n
+ Cualquier vector de               se podrá expresar de manera única como suma de un
+ vector de H con un vector de H ⊥.
+
+
+                                                                                                                  Álgebra lineal elemental y aplicaciones
+                                                                                                                                                            111
+Capítulo 2: Ortogonalidad
+                            9.1 Aproximación por una recta
+
+                            Supongamos que se busca la recta y = b + mx que mejor se ajusta a los n datos
+                            ( x1 , y1 ), ( x2 , y2 ),..., ( xn , yn ) (figura 9.1).
+
+
+                                                                               Figura 9.1
+
+                            La gráfica ilustra la ubicación de algunos puntos obtenidos del experimento y sus
+                            distancias (errores ε i ) a los respectivos puntos sobre la recta y = b + mx . El pro-
+                            blema puede plantearse así: encontrar m y b de la recta, tal que el error cometido sea
+                            mínimo.
+
+                            Una forma de minimizar los errores es hacer mínima la suma de los cuadrados de los
+                            errores (ε12 + ε 22 + ... + ε n2 ) .
+
+                                      ε1 = y1 − (b + mx1 )
+                                      ε 2 = y2 − (b + mx2 )
+
+                                      ε n = yn − (b + mxn ).
+
+                            Un enunciado más preciso del problema es: encuentre m y b tales que:
+
+                                      ( y1 − (b + mx1 )) 2 + ( y2 − (b + mx2 )) 2 + ... + ( yn − (b + mxn )) 2 sea mínima.
+
+                            Desarrollaremos un método matricial para encontrar esta aproximación de mínimos
+                            cuadrados.
+
+                            Si los puntos ( x1 , y1 ), ( x2 , y2 ),..., ( xn , yn ) estuvieran sobre la recta y = b + mx se
+                            cumpliría que:
+
+                                      y1 = (b + mx1 )
+                                      y2 = (b + mx2 )                       o Y = AX
+
+
+                                      yn = (b + mxn )
+
+
+124
+                                                                              Módulo 9: Método de aproximación por mínimos cuadrados
+
+
+               ⎛ y1 ⎞         ⎡1       x1 ⎤
+               ⎜ ⎟            ⎢1
+                 y2                    x2 ⎥⎥         ⎛b⎞
+       con Y = ⎜ ⎟ ,        A=⎢                y X = ⎜ ⎟.
+               ⎜ ⎟            ⎢            ⎥         ⎝m⎠
+               ⎜ ⎟            ⎢            ⎥
+               ⎝ yn ⎠         ⎣1       xn ⎦
+
+
+Si los puntos no están todos sobre la recta, el sistema Y = AX es inconsistente, es
+decir, Y − AX ≠ 0 , y el problema será:
+
+
+       encontrar un vector X tal que Y − AX sea mínima.
+
+
+( Y − AX) es un vector de R n cuyas componentes son los errores cometidos en la
+obtención de los n datos experimentales.
+
+
+                 ⎡ ε1 ⎤
+                 ⎢ε ⎥
+        Y − AX = ⎢ 2 ⎥ ,   Y − AX = ε12 + ε 22 + ... + ε n2 .
+                 ⎢ ⎥
+                 ⎢ ⎥
+                 ⎣ε n ⎦
+
+
+Así que hacer mínima Y − AX equivale a minimizar ε12 + ε 22 + ... + ε n2 .
+
+
+Si Y = AX , entonces Y es una combinación lineal de las columnas de A, o sea que
+Y ∈ CA ; como Y = AX es inconsistente, Y ∉ C A . Por el teorema de aproximación
+de la norma en R n , Y − AX es mínimo cuando:
+
+        AX = proyCA Y.
+
+
+Sea X el vector, tal que AX = proyCA Y.
+
+
+Podemos hacer una representación geométrica en R 3 .
+
+El espacio columna de A, CA, puede ser un plano o una recta que pasa por el origen.
+Representemos C A como un plano que pasa por el origen (figura 9.2).
+
+
+                                                                                          Álgebra lineal elemental y aplicaciones
+                                                                                                                                    125
+Capítulo 2: Ortogonalidad
+
+
+                                                                 Figura 9.2
+
+
+                            Y − A X es un vector ortogonal a C A , o sea que para todo AX ∈ C A se tiene:
+
+                                   AX ⋅ (Y − AX) = 0,
+                                   ( AX)T (Y − AX) = 0,
+                                   XT AT (Y − AX) = 0 ,
+                                   XT ( AT Y − AT AX) = 0     ∀X ∈ R 2 .
+
+                            Luego AT Y − AT AX = 0,
+                                  AT AX = AT Y.
+
+                            Esta ecuación matricial representa dos ecuaciones con dos incógnitas, que frecuen-
+                            temente se denominan ecuaciones normales.
+
+                            Si AT A es invertible (se puede demostrar que esto sucede cuando los n datos no
+                            son colineales), X tiene solución única dada por:
+
+                                   X = ( AT A) −1 AT Y.
+
+
+126
+                                                                                          Módulo 10: Espacios con producto interno
+10.1 Producto interno
+Definición 1
+
+Sea V un espacio vectorial real o complejo.
+
+Un producto interno sobre V es una función tal que a todo par de vectores x y y de
+V asocia un único número real o complejo (x, y ) que satisface las siguientes pro-
+piedades:
+
+Si x, y, z están en V y α es un escalar, entonces:
+i.         (x, x) ≥ 0.
+ii.        ( x, x ) = 0 ⇔ x = 0.
+iii.       (x, y + z ) = (x, y ) + (x, z ).
+iv.        (x + y , z ) = (x, z ) + (y , z ).
+v.         ( x , y ) = ( y , x ).
+vi.        (α x, y ) = α (x, y ).
+vii.       (x, α y ) = α (x, y ).
+
+Del espacio vectorial V se dice que es un espacio con producto interno.
+
+Nota: en las condiciones v y vii la barra indica conjugación compleja.
+
+Si (x, y ) es un número real, ( x , y ) = ( x , y ) .
+
+
+     10.2 Norma y ortogonalidad en un espacio vectorial con producto
+          interno
+     Definición 2
+
+     Sea V un espacio vectorial con producto interno y suponga que x y y están en V;
+     entonces:
+
+     i.     La norma (longitud) de x se denota por x y se define como:
+
+                         x =        (x, x).
+
+     ii.    Si x y y son diferentes de cero, se dice que son ortogonales cuando:
+
+                        (x, y) = 0.
+
+
+                                                                                       Álgebra lineal elemental y aplicaciones
+                                                                                                                                 135
+                                                                                          Módulo 10: Espacios con producto interno
+
+
+Definición 3
+
+Sea V un espacio vectorial con producto interno y sea {u1 , u 2 ,..., u k } ⊂ V .
+
+{u1 , u2 ,..., uk } es un conjunto ortonormal si:
+
+i.      (u i , u j ) = 0 para i ≠ j.
+
+ii.     ui = 1.
+
+Si sólo se cumple la condición i se dice que el conjunto es ortogonal.
+
+
+10.3 Última forma del problema de la base
+
+Dada una base S = { v1 , v 2 ,...., v k } para un subespacio de un espacio vectorial
+
+con producto interno, hallar una base ortonormal B = {u1 , u 2 ,..., u k } para el
+subespacio.
+
+El problema se resuelve aplicando el proceso de Gram-Schmidt, teniendo en cuenta
+la definición particular del producto interno en ese espacio vectorial.
+
+
+                                                                                       Álgebra lineal elemental y aplicaciones
+                                                                                                                                 139
+                                                                                          Módulo 10: Espacios con producto interno
+
+
+10.4 Proyección ortogonal en espacios vectoriales con producto
+     interno
+Definición 4
+
+Sea H un subespacio de un espacio V con producto interno y {u1 , u 2 ,..., u k } una
+base ortonormal de H. Si v ∈ V , entonces la proyección ortogonal de v sobre H,
+denotada proyH v, está dada por:
+
+
+       proy H v = ( v, u1 ) u1 + ( v, u 2 ) u 2 + .... + ( v, u k ) u k .
+
+Definición 5
+
+Sea H un subespacio de un espacio V con producto interno. El complemento
+                              ⊥
+ortogonal de H, denotado por H , está dado por:
+
+       H ⊥ = {x ∈ V : (x, h) = 0 para todo h ∈ H } .
+
+
+Nota: los teoremas referentes a dim H ⊥ , teorema de la proyección y teorema de
+aproximación de la norma tienen restricciones cuando V es un espacio de dimen-
+sión infinita. Veamos qué sucede en cada caso, cuando V es de dimensión infinita.
+
+ Si H es un subespacio de V de dimensión finita k, entonces:
+
+i.     H ⊥ es un subespacio de V de dimensión infinita.
+
+ii.    Todo vector v ∈ V se puede expresar de manera única como suma de dos
+                                                           ⊥
+       vectores p y q tales que p ∈ H y q ∈ H ; p será proy H v pero q no es
+       proy H ⊥ v, ya que ésta no está definida debido a que H ⊥ tiene dimensión
+       infinita.
+
+iii.   El teorema de aproximación de la norma debe tener la restricción de que H sea
+       de dimensión finita para poder construir proy H v como la mejor aproxima-
+       ción del vector v de V al subespacio H.
+
+
+                                                                                       Álgebra lineal elemental y aplicaciones
+                                                                                                                                 141

@@ -1,0 +1,563 @@
+SECCIÓN 3.11        FUNCIONES HIPERBÓLICAS    257
+
+                                 3. Para obtener una aproximación de una función f mediante una función cuadrática P cerca de
+                                    un número x m a, lo mejor es escribir P en la forma
+
+                                                                     P(x) m A  B(x  a)  C(x  a)2
+
+                                    Demuestre que la función cuadrática que satisface las condiciones i), ii) y iii) es
+
+                                                                                                      1
+                                                              Px       f a        f a x        a      2   f a x     a2
+
+                                 4. Encuentre la aproximación para f x    sx 3 cerca de a m 1. Trace las gráocas de f, la
+                                    aproximación cuadrática y la aproximación lineal del ejemplo 2 de la sección 3.10 en una
+                                    pantalla común. ¿Qué podría concluir?
+                                 5. En lugar de quedar conforme con una aproximación lineal o con una cuadrática para f (x), cerca
+                                    de x m a, intente hallar mejores aproximaciones con polinomios de grado más alto. Busque un
+                                    polinomio de n-ésimo grado
+                                               Tn x     c0    c1 x     a         c2 x     a2       c3 x    a3              cn x   an
+
+                                    tal que Tn y sus n primeras derivadas tengan los mismos valores en x m a como f y sus n
+                                    primeras derivadas. Derive repetidas veces y haga x m a para demostrar que estas condiciones
+                                    se satisfacen si c0 f a , c1 f a , c2 12 f a y, en general,
+
+                                                                                           fk a
+                                                                                    ck
+                                                                                            k!
+
+                                    donde k! m 1 ? 2 ? 3 ? 4 ?    ? k. El polinomio resultante
+
+                                                                                         f a                          fn a
+                                               Tn x     f a     f a x        a               x        a2                   x      an
+                                                                                          2!                           n!
+
+                                    Se llama polinomio de Taylor de n-ésimo grado de f centrado en x m a.
+                                 6. Encuentre el polinomio de Taylor de octavo grado, centrado en a m 0, para la función
+                                    f (x) m cos x. Graoque f junto con los polinomios de Taylor T2, T4, T6 y T8, en rectángulos de
+                                    vista F5, 5G por F1.4, 1.4G y comente qué tan bien se aproximan a f.
+
+
+3.11   Funciones hiperbólicas
+
+                                Ciertas combinaciones pares e impares de las funciones exponenciales e x y ex surgen tan
+                                a menudo en las matemáticas y sus aplicaciones que merecen recibir un nombre especial.
+                                En muchos aspectos son similares a las funciones trigonométricas y tienen la misma rela-
+                                ción con la hipérbola que las funciones trigonométricas tienen con la circunferencia. Por
+                                esta razón, se les llama en forma colectiva funciones hiperbólicas, y de manera individual
+                                se les conoce como seno hiperbólico, coseno hiperbólico, y así sucesivamente
+
+
+                                   Definición de las funciones hiperbólicas
+
+                                                                       ex        e x                                1
+                                                          senh x                                    csch x
+                                                                             2                                    senh x
+
+                                                                       ex        e x                                1
+                                                          cosh x                                    sech x
+                                                                             2                                    cosh x
+
+                                                                       senh x                                     cosh x
+                                                          tanh x                                    coth x
+                                                                       cosh x                                     senh x
+258     CAPÍTULO 3      REGLAS DE DERIVACIÓN
+
+                                              Las gráocas del seno hiperbólico y del coseno hiperbólico pueden trazarse mediante la
+                                            suma gráoca como en las oguras 1 y 2.
+
+
+               y                                                   y
+
+                                                                        y=cosh x                                         y
+         1
+      y= 2 ´                                                                                                                     y=1
+                          y=senh x
+
+
+                    0               x                              1
+                                                      1                            1                                         0          x
+                             1                     y= 2 e–®                    y= 2 ´
+                        y=_ 2 e–®
+                                                                                                                                 y=_1
+                                                                   0                    x
+
+ FIGURA 1                                          FIGURA 2                                              FIGURA 3
+ y=senh x= 21 ´- 21 e–®                            y=cosh x= 21 ´+ 21 e–®                                y=tanh x
+
+
+                                               Observe que el dominio de senh es 2, y el rango es 2, pero que cosh tiene por dominio
+                                            2 y rango F1, @). En la ogura 3 se muestra la gráoca de tanh, con sus asíntotas horizonta-
+                                            les y m 1. (Véase el ejercicio 23.)
+                                               Algunos de los usos matemáticos de las funciones hiperbólicas se tratan en el capítulo 7.
+               y
+                                            Las aplicaciones en la ciencia y la ingeniería se tienen siempre que una entidad física
+                                            como la luz, velocidad, electricidad o la radiactividad, se absorbe o se extingue en forma
+                                            gradual, puesto que el decaimiento puede representarse mediante funciones hiperbólicas.
+                                            La aplicación más famosa es el uso del coseno hiperbólico para describir la forma de un
+                                            cable colgante. Puede demostrarse que si un cable pesado y nexible (como los que se usan
+                0                       x   para las líneas telefónicas o eléctricas) se tiende entre dos puntos a la misma altura, enton-
+                                            ces el cable toma la forma de una curva con ecuación y m c  a cosh(xYa) que se deno-
+FIGURA 4                                    mina catenaria (véase la ogura 4). (Esta palabra proviene de la palabra latina catena que
+Catenaria y=c+a cosh(x/a)                   signioca <cadena=.)
+                                               Otras aplicaciones de las funciones hiperbólicas aparecen en la descripción de las olas
+                                            del mar: la velocidad de una ola con longitud L que se mueve a través de un cuerpo de agua
+                                            con profundidad d se modela por la función
+
+                                                                                            tL      2 d
+                             L                                                v                tanh
+                                                                                            2        L
+  d
+
+                                            donde J es la aceleración debida a la gravedad (véanse la ogura 5 y el ejercicio 49).
+                                               Las funciones hiperbólicas satisfacen un número de identidades que son similares a las
+FIGURA 5                                    muy bien conocidas identidades trigonométricas. A continuación se enlistan algunas de
+Ola oceánica idealizada                     ellas, y la mayoría de las demostraciones se deja para los ejercicios.
+
+
+                                               Identidades hiperbólicas
+
+                                                              senhx  senh x                     cosh      x      cosh x
+
+                                                              cosh2 x     senh2 x  1                1      tanh2 x    sech2 x
+
+                                                              senhx  y  senh x cosh y  cosh x senh y
+
+                                                              coshx  y  cosh x cosh y  senh x senh y
+                                                                                                                              SECCIÓN 3.11            FUNCIONES HIPERBÓLICAS   259
+
+                                                                  v   EJEMPLO 1      Demuestre que a) cosh2 x  senh2 x m 1 y b) 1  tanh2 x m sech2 x.
+
+                                                                  SOLUCIÓN
+
+                                                                                              ex       e x       2
+                                                                                                                          ex         e x   2
+                                                                  a) cosh2 x  senh2 x
+                                                                                                   2                             2
+
+                                                                                           e 2x     2        e 2x         e 2x        2        e 2x         4
+                                                                                                                                                                 1
+                                                                                                    4                                 4                     4
+                                                                  b) Empecemos con la identidad demostrada en el inciso (a):
+
+
+© 2006 Getty Images
+                                                                                                             cosh2 x  senh2 x m 1
+
+                                                                  Si dividimos los dos lados por cosh2 x, obtenemos
+                      El arco Gateway en St. Louis se diseñó
+                      utilizando una función coseno hiperbólico
+                      (ejercicio 48).
+                                                                                                                     senh2 x            1
+                                                                                                         1
+                                                                                                                     cosh2 x         cosh2 x
+
+                                                                  o bien                                     1       tanh2 x         sech2 x
+
+                                                                      La identidad demostrada en el ejemplo 1a) proporciona una pista sobre el nombre de
+                                                                  funciones <hiperbólicas=.
+                                    y
+                                                                      Si t es cualquier número real, entonces el punto P(cos t, sen t) queda sobre la circunfe-
+                                            P(cos t, sen t)       rencia unitaria x 2  y2 m 1 porque cos2 t  sen2 t m 1. De hecho, t puede interpretarse como
+                                                                  la medida en radianes de POQ de la ogura 6. Ésta es la razón por la que las funciones
+                                                                  trigonométricas se denominan algunas veces funciones circulares.
+                                    O            Q        x
+                                                                      De manera similar, si t es cualquier número real, entonces el punto P(cosh t, senh t)
+                                                                  queda en la rama derecha de la hipérbola x 2  y2 m 1 porque cosh2 t  senh2 t m 1 y
+                                             ≈+¥ =1               cosh t w 1. Pero ahora t no representa la medida de un ángulo. Resulta que t representa el
+                                                                  doble del área del sector hiperbólico sombreado de la ogura 7, de la misma manera que
+                                                                  en el caso trigonométrico t representa el doble del área del sector circular sombreado en la
+FIGURA 6
+                                                                  ogura 6.
+                                    y
+                                                                      Las derivadas de las funciones hiperbólicas son fáciles de calcular. Por ejemplo,
+                                          P(cosh t, senh t)
+
+                                                                                      d                  d           ex       e x          ex         e x
+                                                                                         senh x                                                               cosh x
+                                                                                      dx                 dx               2                       2
+
+                                     0                     x      En la tabla 1 siguiente se da una lista de las fórmulas de derivación de las funciones hiper-
+                                                                  bólicas. El resto de las demostraciones se dejan como ejercicios. Observe la similitud con
+                                                                  las fórmulas de derivación de las funciones trigonométricas, pero advierta que los signos
+                                                                  son diferentes en algunos casos.
+                                ≈-¥=1
+
+FIGURA 7
+
+                                                                      1    Derivadas de las funciones hiperbólicas
+
+                                                                                  d                                              d
+                                                                                     senh x  cosh x                              csch x                  csch x coth x
+                                                                                  dx                                             dx
+
+                                                                                 d                                               d
+                                                                                    cosh x         senh x                           sech x                  sech x tanh x
+                                                                                 dx                                              dx
+
+                                                                                  d                                              d
+                                                                                     tanh x        sech2 x                          coth x                  csch2 x
+                                                                                  dx                                             dx
+260       CAPÍTULO 3       REGLAS DE DERIVACIÓN
+
+                                              EJEMPLO 2 Cualquiera de estas reglas de derivación puede combinarse con la regla de
+                                             la cadena. Por ejemplo,
+                                                                  d                                          d                   senh sx
+                                                                     (cosh sx )                senh sx          sx
+                                                                  dx                                         dx                    2 sx
+
+
+                                                      Funciones hiperbólicas inversas
+                                             De acuerdo con las oguras 1 y 3, senh x y tanh x son funciones uno a uno por lo que
+                                             tienen funciones inversas denotadas por senh1 x y tanh1 x. En la ogura 2 se observa
+                                             que cosh x no es uno a uno, pero que cuando queda restringida al dominio F0, @) se transfor-
+                                             ma en uno a uno. La función coseno hiperbólico inversa se deone como la inversa de esta
+                                             función restringida.
+
+
+                                                  2                y      senh1 x         &?         senh y  x
+
+                                                                   y      cosh 1 x &? cosh y                         x       y       y   0
+
+                                                                   y      tanh 1 x         &? tanh y                 x
+
+                                             Las funciones hiperbólicas inversas que faltan se definen de manera similar (véase el
+                                             ejercicio 28).
+                                                Las funciones senh1x, cosh1x y tanh1x se graocan en las oguras 8, 9 y 10 con ayuda
+                                             de las oguras 1, 2 y 3.
+
+                                y                                                                                                                 y
+                                                                                  y
+
+
+                                                                                                                                                  0
+                                    0             x                                                                                          _1       1      x
+                                                                                  0       1                      x
+
+
+           FIGURA 8 y=senh–! x                                 FIGURA 9 y=cosh–! x                                                    FIGURA 10 y=tanh–! x
+           dominio=R rango=R                                   dominio=[1, `} rango=[0, `}                                            dominio=(_1, 1) rango=R
+
+                                                Puesto que las funciones hiperbólicas se deonen en términos de las funciones exponen-
+                                             ciales, no sorprende que las funciones hiperbólicas inversas pueden expresarse en términos
+                                             de logaritmos. En particular, se tiene que:
+
+
+                                                  3                    senh1 x       ln ( x        sx 2     1)          x
+La fórmula 3 se demuestra en el ejemplo 3.
+En los ejercicios 26 y 27 se piden las            4                 cosh 1 x          ln ( x       sx 2      1)          x       1
+demostraciones de las fórmulas 4 y 5.
+                                                                                      1        1       x
+                                                  5                    tanh 1 x       2   ln                                1     x      1
+                                                                                               1       x
+
+
+                                             EJEMPLO 3      Demuestre que senh1 x                 ln ( x   sx 2         1 ).
+                                             SOLUCIÓN Sea y m senh1 x. En tal caso
+
+                                                                                                            ey        e y
+                                                                                      x  senh y 
+                                                                                                                  2
+                                                                                                                      SECCIÓN 3.11           FUNCIONES HIPERBÓLICAS             261
+
+                                                  por lo que                                                ey  2x  ey m 0
+
+                                                  o bien, si multiplicamos por ey,
+
+                                                                                                    e2y  2xe y  1 m 0
+
+                                                  Esto es ni más ni menos que una ecuación cuadrática en ey:
+
+                                                                                                (e y)2  2x(e y)  1 m 0
+
+                                                  Al resolver la ecuación cuadrática, obtenemos
+
+                                                                                        2x                  s4x 2       4
+                                                                              ey                                                x       sx 2      1
+                                                                                                             2
+
+                                                  Observe que ey  0, pero x sx 2 1 0 (porque x                                           sx 2        1). Así que el signo
+                                                  menos es inadmisible, por lo que tenemos que
+
+                                                                                                        ey      x       sx 2        1
+
+                                                  Por tanto,                        y           ln e y              ln( x      sx 2      1)
+
+                                                  (Véase el ejercicio 25, donde se ilustra otro método.)
+
+
+                                                      6   Derivadas de las funciones hiperbólicas inversas
+
+                                                               d                            1                               d                             1
+                                                                  senh1x                                                    csch 1x
+                                                               dx                  s1               x   2                   dx                         x sx 2            1
+
+Observe que, al parecer, las fórmulas para las
+                                                               d                       1                                    d                                   1
+                                                                  cosh 1x                                                      sech 1x
+derivadas de tanhl x y cothl x son idénticas,                dx                  sx 2             1                       dx                        x s1          x2
+pero los dominios de estas funciones no tienen
+números comunes: tanhl x se define para                       d                        1                                   d                         1
+U x U 1, mientras que cothl x se define                          tanh 1x                       2
+                                                                                                                               coth 1x
+                                                               dx                  1        x                               dx                    1        x2
+para U x U  1.
+
+
+                                                     Las funciones hiperbólicas inversas son derivables porque las funciones hiperbólicas
+                                                  también lo son. Las fórmulas de la tabla 6 pueden demostrarse por el método de las funciones
+                                                  inversas o mediante la derivación de las fórmulas 3, 4 y 5.
+
+                                                                                                d                                   1
+                                                  v   EJEMPLO 4     Demuestre que                  senh1x                                 .
+                                                                                                dx                             s1       x2
+
+                                                  SOLUCIÓN 1 Sea y m senh1 x. Entonces senh y m x. Si se deriva esta ecuación en forma
+                                                  implícita respecto a x, obtenemos
+
+                                                                                                                      dy
+                                                                                                             cosh y             1
+                                                                                                                      dx
+
+                                                  Puesto que cosh2 y  senh2 y m 1 y cosh y w 0, se tiene cosh y                                           s1        senh2 y , de
+                                                  modo que
+
+                                                                              dy          1                                 1                     1
+                                                                              dx        cosh y                  s1          senh2 y          s1       x2
+                                                                                                                    SECCIÓN 3.11                 FUNCIONES HIPERBÓLICAS   263
+
+       b) Verioque las gráocas que trazó en el inciso a) mediante una                             48. El arco Gateway en St. Louis fue diseñado por Eero Saarinen y
+           calculadora graocadora o una computadora.                                                  construido empleando la ecuación
+    23. Utilice las deoniciones de las funciones hiperbólicas para                                               y m 211.49  20.96 cosh 0.03291765x
+        determinar cada uno de los límites siguientes.
+                                                                                                      para la curva central del arco, donde x y y se miden en metros
+        a) lím tanh x                                 b) lím tanh x
+              xl                                         xl                                         y U x U v 91.20.
+        c) lím senh x
+              xl
+                                                      d) lím senh x
+                                                          xl 
+                                                                                                     a) Graoque la curva central.
+                                                                                                      b) ¿Cuál es la altura del arco en su centro?
+        e) lím sech x                                 f ) lím coth x                                  c) ¿En qué punto la altura es de 100 m?
+              xl                                         xl
+                                                                                                      d) ¿Cuál es la pendiente del arco en el punto del inciso c)?
+        g) lím coth x                                 h) lím coth x
+              x l0                                        x l0
+                                                                                                   49. Si las olas del mar con longitud L se mueven con velocidad v
+        i) lím csch x                                                                                 en un cuerpo de agua con profundidad d, entonces
+              xl 
+
+    24. Demuestre las fórmulas dadas en la tabla 1 para las derivadas                                                                      tL      2 d
+        de las funciones a) cosh x, b) tanh x, c) csch x, d) sech x                                                          v                tanh
+                                                                                                                                           2        L
+        e) coth x.
+    25. Encuentre una solución alternativa para el ejemplo 3 haciendo                                 donde J es la aceleración debida a la gravedad (véase la
+                       l
+        y m senh x y luego usando el ejercicio 9 y el ejemplo 1a) en                                  ogura 5). Explique por qué la aproximación.
+        donde y reemplaza a x.
+                                                                                                                                                     tL
+    26. Demuestre la ecuación 4.                                                                                                       v
+                                                                                                                                                     2
+    27. Demuestre la ecuación 5 utilizando a) el método del ejemplo 3
+        y b) el ejercicio 18 en donde y reemplaza a x.                                                es apropiada en aguas profundas.
+
+    28. Para cada una de las funciones siguientes i) proporcione una                            50. Un cable nexible colgante siempre forma una catenaria
+        deonición como la de 2 , ii) trace la gráoca y encuentre                                      y m c  a cosh(xYa), donde c y a son constantes y a  0
+        una fórmula similar a la ecuación 3.                                                          (véase la ogura 4 y el ejercicio 52). Graoque varios miembros
+                                                                                                      de la familia de las funciones y m a cosh(xYa). ¿Cómo cambia
+        a) csch1x                          b) sech1x                            c) coth1x          la gráoca cuando a varía?
+    29. Demuestre las fórmulas dadas en la tabla 6 para las derivadas                              51. Un cable de teléfono cuelga entre dos postes que están separados
+        de las funciones siguientes.                                                                  entre sí 14 m y forma la catenaria y m 20 cosh(xY20)  15, donde
+        a) cosh1x                          b) tanh1x                            c) csch1x          x y y se miden en metros.
+                                                                                                      a) Encuentre la pendiente de esta curva donde se encuentra con
+        d) sech1x                          e) coth1x                                                   el poste derecho.
+                                                                                                      b) Calcule el ángulo . entre el cable y el poste.
+    30-45 Encuentre la derivada de cada una de las siguientes funciones
+    y simplioque tanto como sea posible.
+                                                                                                                                            y
+    30. f x          tanh 1      e 2x                 31. f x            x senh x  cosh x
+                                                                                                                                                               ¨
+    32. t x          cosh ln x                        33. h x            ln cosh x                                                          5
+
+    34. y      x coth 1         x2                    35. y        e cosh 3x
+    36. f t          csch t 1        ln csch t        37. f t            sech 2 e t                                 _7                      0                      7 x
+                                                                          1       cosh x
+    38. y      senhcosh x                           39. G x
+                                                                          1       cosh x           52. Mediante los principios de la física puede demostrarse que
+    40. y             1
+               senh tan x                           41. y        cosh sx    1                       cuando un cable cuelga entre dos postes toma la forma de una
+                                                                                                      curva y m f (x) que satisface la ecuación diferencial
+    42. y      x tanh 1x         ln s1          x2
+    43. y      x senh1x3  s9                x2                                                                      d2y           rt                 dy   2
+                                                                                                                                                 1
+                                                                                                                         dx 2          T                  dx
+    44. y      sech 1 e x
+    45. y      coth 1 sec x                                                                           donde + es la densidad lineal del cable, J es la aceleración de
+                                                                                                      la gravedad y T es la tensión del cable en su punto más bajo.
+                                                                                                      El sistema coordenado se elige en forma adecuada. Compruebe
+                                                                                                      que la función
+                                d           1    tanh x       1
+    46. Demuestre que                   4
+                                                              2   ex 2
+                                dx          1    tanh x                                                                                         T       rtx
+                                                                                                                         y       f x               cosh
+                                                                                                                                                rt       T
+                                d
+    47. Demuestre que              arctan tanh x           sech 2x.
+                                dx                                                                    es una solución de esta ecuación diferencial.
+264       CAPÍTULO 3        REGLAS DE DERIVACIÓN
+
+53. Un cable con densidad lineal + m 2 kgYm se sujeta desde la                            56. Si x m ln(sec .  tan .), demuestre que sec . m cosh x.
+      parte alta de dos postes que están separados 200 m.
+                                                                                          57. ¿En qué punto de la curva y m cosh x la tangente tiene
+      a) Utilice el ejercicio 52 para calcular la tensión T que hay en
+                                                                                              pendiente 1?
+         el cable cuando está en su punto más bajo a 60 m del suelo
+         ¿Qué tan alto son los postes?                                                  58. Investigue la familia de funciones
+      b) Si se duplica la tensión, ¿cuál es el nuevo punto bajo del
+                                                                                                                  fn (x) m tanh(n sen x)
+         cable? ¿Qué tan altos son ahora los polos?
+              senh x                                                                          donde n es un entero positivo. Describa qué pasa con la gráoca
+54. Evalúe lím       .                                                                        de fn cuando n es muy grande.
+          xl    ex
+55. a) Demuestre que cualquier función de la forma                                        59. Demuestre que si a o 0 y b o 0, entonces existen números 
+                                                                                              y  tales que ae x  bex es igual a  senh(x  ) o a
+                        y m A senh mx  B cosh mx                                              cosh(x  ). En otras palabras, casi toda función de la
+         satisface la ecuación diferencial y  m m2y.                                         forma f (x) m ae x  bex es una función seno hiperbólico o
+      b) Determine y m y(x) tal que y  m 9y, y(0) m 4 y y(0) m 6.                          coseno hiperbólico desplazada o estirada.
+
+
+   3         Repaso
+Verificación de conceptos
+ 1. Exprese cada una de las siguientes reglas de derivación, tanto                            d) ¿Por qué en Cálculo se usa la función logarítmica
+      en símbolos como en palabras.                                                              natural, y m ln x, más que las demás funciones
+      a) Regla de la potencia      b) Regla del múltiplo constante                               logarítmicas, y m log a x?
+      c) Regla de la suma          d) Regla de la diferencia
+      e) Regla del producto        f) Regla del cociente                                   4. a) Explique cómo funciona la derivación implícita.
+      g) Regla de la cadena                                                                   b) Explique cómo funciona la derivación logarítmica.
+ 2. Obtenga las derivadas de cada una de las siguientes funciones.                         5. Proporcione varios ejemplos de cómo la derivada puede
+      a) y     x n
+                              b) y       ex
+                                                       c) y      a x                          ser interpretada como una razón de cambio en física, química,
+                                                                                              biología, economía y otras ciencias.
+      d) y     ln x           e) y       log a x       f) y      sen x
+      g) y     cos x          h) y       tan x         i) y      csc x                     6. a) Escriba una ecuación diferencial que exprese la ley de
+      j) y     sec x          k) y       cot x         l) y      sen1 x                         crecimiento natural.
+      m) y     cos 1x         n) y       tan 1x        o) y      senh x                       b) ¿En qué circunstancias es éste un modelo adecuado para el
+      p) y     cosh x         q) y       tanh x        r) y      senh1 x                        crecimiento de la población?
+      s) y     cosh 1x        t) y       tanh 1x                                              c) ¿Cuáles son las soluciones de esta ecuación?
+
+ 3. a) ¿Cómo se deone el número e?                                                         7. a) Escriba una expresión para la linealización de f en
+      b) Exprese e como un límite.                                                               x m a.
+      c) ¿Por qué en Cálculo se usa la función exponencial natural,                           b) Si y m f (x), escriba una expresión para la diferencial dy.
+         y m e x, con más frecuencia que las demás funciones                                  c) Si dx m $x, dibuje un esquema para mostrar el signiocado
+         exponenciales, y m ax ?                                                                 geométrico de $y y dy.
+
+
+Exámen rápido Verdadero-Falso
+Determine si la proposición es verdadera o falsa. Si es verdadera, explique por qué.       3. Si f y J son derivables, entonces
+Si es falsa, explique por qué o mencione un ejemplo que refute la proposición.
+                                                                                                              d
+ 1. Si f y J son derivables, entonces                                                                         dx
+                                                                                                                 [
+                                                                                                                 f (t x )   ]     f (t x )t x
+
+                     d                                                                                                      d                f x
+                        f x          tx        f x       t x                               4. Si f es derivable, entonces      sf x               .
+                     dx                                                                                                     dx             2 sf x
+ 2. Si f y J son derivables, entonces
+                                                                                                                            d              f x
+                                                                                           5. Si f es derivable, entonces      f (sx )          .
+                         d                                                                                                  dx             2 sx
+                            f x tx             f x t x
+                         dx                                                                6. Si y m e2, entonces y m 2e.
+                                                                                                                                                               CAPÍTULO 3       REPASO       265
+
+      d                                                 d                                 1                   12. Si f (x) m (x6  x4)5, entonces f (31)(x) m 0.
+ 7.      10 x               x10 x 1                8.      ln 10
+      dx                                                dx                               10
+                                                                                                              13. La derivada de una función racional es una función racional.
+
+      d                         d                       d                                                     14. La ecuación de la recta tangente a la parábola y m x 2 en
+ 9.      tan2x                     sec 2x         10.      x2                x                2x      1           (2, 4) es y  4 m 2x(x  2).
+      dx                        dx                      dx
+11. La derivada de una función polinomial es una función                                                                                                tx      t2
+                                                                                                              15. Si J(x) m x5, entonces lím                           80.
+      polinomial.                                                                                                                                xl2      x     2
+
+
+Ejercicios
+1-50 Calcule y en cada una de las siguientes funciones.                                                                                                                   x2      4
+                                                                1                  1                          45. y     ln cosh 3x                            46. y   ln
+ 1. y      x2              x3 4                    2. y                                                                                                                    2x      5
+                                                               sx                s
+                                                                                 5
+                                                                                   x3
+                                                                                                              47. y     cosh 1senh x                        48. y   x tanh 1sx
+          x2         x            2                             tan x
+ 3. y                                              4. y
+                    sx                                         1 cos x
+                                                                                                              49. y     cos(e stan 3x )                       50. y   sen2 (cosssen x )
+ 5. y     x 2 sen px                               6. y        x cos 1 x
+          t4           1
+ 7. y                                              8. xe y        y sen x                                     51. Si f t       s4t        1, encuentre f (2).
+          t4           1
+                                                                                                              52. Si J(.) m . sen ., halle J ()Y6).
+ 9. y     ln x ln x                               10. y        e mx cos nx
+                                                                                                              53. Encuentre y  si x6  y6 m 1.
+11. y     sx cos sx                               12. y        arcsen 2x2
+                                                                                                              54. Determine f (n)(x) si f (x) m 1Y(2  x).
+          e1 x
+13. y                                             14. y        ln sec x                                       55. Utilice inducción matemática (página 76) para demostrar que si
+           x2
+                                                                                                  4               f (x) m xe x, entonces f (n)(x) m (x  n)e x.
+                                                                         u           1
+15. y     x cos y               x y  2
+                                                  16. y                                                                            t3
+                                                                  u2             u            1               56. Evalúe lím            .
+                                                                                                                          t l 0 tan3 2t
+
+17. y     sarctan x                               18. y        cot csc x                                      57-59 Encuentre la ecuación de la recta tangente a cada una de las
+                            t                                                                                 siguientes curvas en el punto dado.
+19. y     tan                                     20. y        e x sec x
+                       1        t2                                                                                                                                    x2     1
+                                                                                                              57. y     4 sen2x,          6, 1                58. y            ,   0,    1
+                                                                                                                                                                      x2     1
+21. y     3   x ln x
+                                                  22. y        sec 1                 x   2
+
+                                                                                                              59. y     s1      4 sen x ,        0, 1
+23. y      1           x 1        1
+                                                  24. y        1s
+                                                                3
+                                                                  x              sx
+25. senxy  x 2  y                             26. y        ssen sx
+                                                                                                              60-61 Encuentre las ecuaciones de las rectas tangente y normal a
+27. y     log 5 1               2x                28. y         cos x x
+                                                                                                              cada una de las siguientes curvas en el punto que se especioca.
+                                  1                                          x2 1 4
+29. y     ln sen x                2      sen2x    30. y                                                       60. x 2    4xy       y2     13,      2, 1
+                                                                 2x           1 3 3x 1 5
+                                                                                                              61. y      2     x e x,       0, 2
+31. y     x tan 1 4x                              32. y        e cos x           cos e x
+33. y     ln sec 5x                      tan 5x   34. y        10 tan
+                                                                                                           62. Si f (x) m xesen x, halle f (x). Graoque f y f  en la misma pantalla
+35. y     cot 3x 2                5               36. y        st ln t 4                                          y haga comentarios.
+37. y     sen(tan s1                      x )
+                                            3
+                                                  38. y        arctan(arcsen sx )                             63. a) Si f x       x s5 x , halle f (x).
+39. y           2
+          tan sen u                             40. xe   y
+                                                                  y          1                                    b) Encuentre las ecuaciones de las rectas tangentes a la curva
+                                                                                                                     y x s5 x en los puntos (1, 2) y (4, 4).
+          sx            1 2 x5                                  x                4
+                                                                                                                 c) Ilustre el inciso b) graocando la curva y las rectas tangentes,
+41. y                                             42. y
+                       x 37                                     x4               4                                   en la misma pantalla.
+                                                               sen mx                                            d) Verioque si su respuesta al inciso a) es razonable
+43. y     x senhx 2                             44. y                                                              comparando las gráocas de f y f .
+                                                                 x
+
+
+  Se requiere calculadora graocadora o computadora

@@ -1,0 +1,841 @@
+El concepto de momento
+                                                                                                                                      o cantidad de movimiento
+                                                                                                                                      permite el análisis de colisiones
+                                                                                                                                      entre automóviles incluso sin
+                                                                                                                                      conocimiento detallado de
+                                                                                                                                      las fuerzas involucradas. Este
+                                                                                                                                      análisis puede determinar
+                                                                                                                                      la velocidad relativa de los
+                                                                                                                                      vehículos antes de la colisión y
+                                                                                                                                      ayuda además a los ingenieros
+                                                                                                                                      en el diseño de vehículos más
+
+
+AP photos/Keystone/Regina Kuehne
+                                                                                                                                      seguros.
+
+
+                                            Cantidad de movimiento
+                                                        y colisiones                                                                                   6
+                                   ¿Qué sucede cuando dos automóviles colisionan? ¿Cómo afecta el impacto al movimiento de            6.1 Cantidad de movimiento
+                                   cada automóvil y qué principios físicos básicos establecen la probabilidad de una lesión seria?        e impulso
+                                   ¿Cómo funcionan los cohetes y cuáles son los mecanismos que se pueden utilizar para cubrir las
+                                                                                                                                      6.2 Conservación de la cantidad
+                                   limitaciones impuestas por la rapidez de los gases de escape? ¿Por qué tenemos que apoyarnos           de movimiento
+                                   al disparar proyectiles pequeños con velocidades altas? Por último, ¿cómo se puede utilizar la
+                                   física para mejorar nuestro juego de golf?                                                         6.3 Colisiones
+                                        Para comenzar a contestar a tales preguntas, introducimos el concepto de cantidad de movi-    6.4 Colisiones tangenciales
+                                   miento. Intuitivamente, alguien o algo que tenga gran cantidad de movimiento va a ser difícil de
+                                   detener. En política el término es metafórico. Físicamente, cuanta más cantidad de movimiento      6.5 Propulsión de cohete
+                                   tiene un objeto, mayor fuerza tiene que ser aplicada para detenerlo en un tiempo determinado.
+                                   Este concepto conduce a uno de los principios en física de gran alcance: la conservación de la
+                                   cantidad de movimiento. Utilizando esta ley se pueden resolver problemas de colisiones comple-
+                                   jas sin conocer mucho acerca de la fuerza promedio entregada en un impacto. Con la conserva-
+                                   ción de la cantidad de movimiento tendremos una mejor comprensión de opciones cuando se
+                                   diseña un automóvil o un cohete lunar, o cuando le ponemos dirección a una pelota de golf en
+                                   el punto de saque.
+
+
+                                     6.1 Cantidad de movimiento e impulso
+                                   En física, cantidad de movimiento tiene una definición inequívoca. Un brontosaurio mo-
+                                   viéndose lentamente tiene bastante cantidad de movimiento, contrariamente al caso del
+                                   plomo caliente disparado desde el cañón de un arma. Debido a eso esperaríamos que la
+                                   cantidad de movimiento dependiera de la masa y velocidad del objeto.
+                                                                           S
+                                      La cantidad de movimiento lineal p de un objeto de masa m moviéndose con veloci-                b Cantidad de movimiento
+                                          S
+                                      dad v es el producto de su masa y velocidad:                                                      lineal
+                                                                               S     S
+                                                                               p ; mv                                     [6.1]
+                                      Unidad SI: kilogramo-metro por segundo (kg ? m/s)
+    CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+                             Al duplicar la masa o la velocidad de un objeto se duplica su cantidad de movimiento;
+                             duplicar ambas cantidades cuadruplica su cantidad de movimiento. La cantidad de movi-
+                             miento es una cantidad vectorial con la misma dirección y velocidad del objeto. Sus com-
+                             ponentes se proporcionan en dos dimensiones mediante
+                                                                 px 5 mvx            py 5 mvy
+                             donde px es la cantidad de movimiento del objeto en la dirección x y py es la cantidad de
+                             movimiento del objeto en la dirección y.
+                                La magnitud de la cantidad de movimiento p de un objeto de masa m puede relacio-
+                             narse a su energía cinética EC :
+
+                                                                                p2
+                                                                         EC 5                                        [6.2]
+                                                                                2m
+                             Es fácil comprobar esta correspondencia utilizando las definiciones de energía cinética
+                             y cantidad de movimiento (véase el problema 6) y es válida para objetos que viajan con
+                             magnitudes de velocidad mucho menores que la rapidez de la luz. La ecuación 6.2 es útil
+                             en la comprensión de la interacción entre los dos conceptos, como se ilustra en el examen
+                             rápido 6.1.
+
+
+                               ■ Examen rápido
+
+                               6.1 Dos masas m1 y m 2, con m1 , m 2, tienen igual energía cinética. ¿Cómo se comparan
+                               las magnitudes de sus cantidades de movimiento? a) No se proporciona información
+                               suficiente. b) p1 , p 2 c) p1 5 p 2 d) p1 . p 2.
+
+                                El cambio en la cantidad de movimiento de un objeto necesita de la aplicación de una
+                             fuerza. Es decir, en realidad, como originalmente estableció Newton en su segunda ley de
+                             movimiento. Iniciando desde la versión más común de la segunda ley, tenemos
+
+                                                             S        S
+                                                                                  S
+                                                                                 Dv    D 1 mv 2 S
+
+                                                             Fneta 5 ma 5m           5
+                                                                                  Dt      Dt
+                             donde la masa m y las fuerzas se consideran constantes. La cantidad en el paréntesis es
+                             precisamente la cantidad de movimiento, por eso tenemos el siguiente resultado:
+                                                                                           S
+                                El cambio en la cantidad de movimiento de   S
+                                                                               un objeto )p dividido entre el tiempo tras-
+                             currido )t es igual a la fuerza neta constante F neto que actúa en el objeto:
+                                                 S
+                                                Dp       cambio en la cantidad de movimiento               S
+  Segunda ley de Newton c                            5                                                  5 Fneta      [6.3]
+y cantidad de movimiento                        Dt               intervalo de tiempo
+                             Esta ecuación también es válida cuando las fuerzas no son constantes, siempre que el límite se
+                             tome conforme )t se hace infinitesimalmente pequeño. La ecuación 6.3 señala que si la fuerza
+                             neta de un objeto es cero, la cantidad de movimiento del objetoSno cambia. En otras palabras,
+                             la cantidad de movimiento lineal del objeto se conserva cuando F neta 5 0. Además, la ecuación
+                             6.3 nos dice que para cambiar la cantidad de movimiento de un objeto se necesita la aplica-
+                             ción continua de una fuerza en un tiempo )t, lo que nos conduce a la definición de impulso:
+                                                                 S                                  S
+                                Si una fuerza constante actúa F en un objeto, el impulso I que se entrega al objeto
+                                en un lapso )t está dado por
+                                                                           S    S
+                                                                           I ; F )t                               [6.4]
+                                Unidad SI: kilogramo-metro por cada segundo (kg ? m/s)
+
+                             Impulso es una cantidad vectorial con la misma dirección queS
+                                                                                            la fuerza constante que ac-
+                             túa sobre el objeto. Cuando actúa una sola fuerza constante F sobre un objeto, la ecuación
+                             6.3 puede ser rescrita como
+                                                             S       S    S    S      S
+Teorema impulso-cantidad c                                    I 5 F Dt 5 Dp 5 mv f 2 mv i                            [6.5]
+          de movimiento
+                             éste es un caso especial del teorema impulso-cantidad de movimiento. La ecuación 6.5
+                             muestra que el impulso de la fuerza que actúa en un objeto es igual al cambio en la canti-
+                                                                                              6.1 | Cantidad de movimiento e impulso                                            169
+
+                                                                                                               Figura 6.1 a) Una fuerza neta que
+                El impulso es igual al área                El impulso de la fuerza promedio
+                                                                                                               actúa sobre una partícula puede
+                bajo la fuerza contra la                   es igual al impulso de la fuerza
+                                                                                                               variar en el tiempo. b) El valor de
+                curva de tiempo.                           real que varía con el tiempo.
+                                                                                                               la fuerza constante de F prom (línea
+                                                                                                               horizontal punteada) es elegido de
+                F                                          F
+                                                                                                               modo que el área del rectángulo
+                                                                                                               F prom )t es el mismo que el área bajo
+                                                                                                               la curva en a).
+
+
+                                                  F prom
+
+
+                                              t                                        t
+                    ti                 tf                      ti                tf
+                a                                          b
+
+
+                                                                                                            Ted Kinsman/Photo Researchers. Inc.
+dad de movimiento del objeto. Esta ecuación es verdadera incluso si la fuerza no es cons-
+tante, siempre que se considere el intervalo de tiempo )t arbitrariamente pequeño. (La
+demostración del caso general necesita conceptos del cálculo.)
+     En situaciones de la vida real, la fuerza en un objeto rara vez es constante. Por ejemplo,
+cuando un bate golpea una pelota, la fuerza aumenta en forma abrupta, alcanza algún
+valor máximo y después disminuye con rapidez. La figura 6.1a) muestra una gráfica de
+fuerza en términos del tiempo para tal acontecimiento. Al comienzo la fuerza es pequeña
+conforme el bate se pone en contacto con la pelota, se eleva a un valor máximo cuando
+están firmemente en contacto y a continuación decae conforme la pelota deja el bate. Con                                                          Figura 6.2 Una manzana está
+la finalidad de analizar esta interacción algo compleja, es útil definir una fuerza promedio                                                      siendo perforada por una bala
+S
+F prom indicada como la línea discontinua en la figura 6.1b). Esta fuerza promedio es la                                                          calibre 30 viajando con una rapi-
+                                                                                                                                                  dez supersónica de 900 m/s. Esta
+fuerza constante que entrega el mismo impulso al objeto en el tiempo )t conforme la fuer-
+                                                                                                                                                  colisión fue fotografiada con un
+za verdadera varía en el tiempo. En tal caso podemos escribir el teorema impulso-cantidad                                                         estroboscopio de micro destello
+de movimiento como                     S                                                                                                          utilizando un tiempo de exposi-
+                                                    S
+                                       F prom )t 5 )p                                     [6.6]                                                   ción de 0.33 ms. Brevemente des-
+                                                                                                                                                  pués de que se tomó la fotografía,
+La magnitud del impulso entregado por una fuerza durante el tiempo )t es igual al área                                                            la manzana se desintegró por
+bajo la curva en términos del tiempo como en la figura 6.1a) o bien, equivalentemente, a                                                          completo. Observe que los puntos
+Fprom )t como se muestra en la figura 6.1b). En la figura 6.2 se ilustra la breve colisión entre                                                  de entrada y salida de la bala son
+una bala y una manzana.                                                                                                                           visiblemente explosivos.
+
+
+   ■   FÍSICA APLICADA 6.1                    Boxeo y lesión cerebral
+En combates de boxeo del siglo xix, se utilizaron los puños                   cual es aplicada la fuerza a la cabeza. Para un impulso deter-
+desnudos. En el boxeo moderno, los peleadores usan guan-                      minado F prom )t, un resultado del guante es un intervalo
+tes acojinados. ¿Cómo protegen los guantes del boxeador                       de tiempo más prolongado que con un puño desnudo, dis-
+al cerebro de una lesión? Además, ¿por qué con frecuencia el                  minuyendo la fuerza promedio. Debido a que disminuye la
+boxeador “se bambolea con el puñetazo”?                                       fuerza promedio, decrece la aceleración del cráneo, lo que
+E XPL ICACIÓN El cerebro está sumergido dentro de un                          reduce (pero no elimina) la posibilidad de lesión cerebral.
+fluido amortiguador dentro del cráneo. Si la cabeza es gol-                   Se puede argumentar lo mismo para “el bamboleo con el
+peada repentinamente por un puño desnudo, el cráneo se                        puñetazo”: si la cabeza se mantiene fija mientras está siendo
+acelera con rapidez. El cerebro iguala esta aceleración sólo                  golpeada, el intervalo de tiempo durante el cual es aplicada
+debido a la gran fuerza impulsiva ejercida por el cráneo                      la fuerza es relativamente breve, y la fuerza promedio es
+sobre el cerebro. Esta gran fuerza repentina (F prom grande y                 grande. Si a la cabeza se le permite moverse en la misma
+)t pequeño) puede ocasionar graves lesiones en el cerebro.                    dirección que el puñetazo, el intervalo de tiempo es alar-
+Los guantes acojinados extienden el tiempo )t durante el                      gado, y disminuye la fuerza promedio. ■
+                                                                                       6.1 | Cantidad de movimiento e impulso         171
+
+
+Lesiones en colisiones automovilísticas
+Las principales lesiones que se presentan en una persona que se golpea en el interior de                  APLICACIÓN
+un automóvil en un choque son daño al cerebro, fractura de huesos y trauma a la piel,                Lesión a los pasajeros en colisiones
+vasos sanguíneos y órganos internos. En este caso, comparamos los umbrales conocidos                 de automóvil
+en forma algo imprecisa a causa de una lesión con fuerzas representativas y aceleraciones
+experimentadas en un choque de automóvil.
+     Una fuerza de casi 90 kN (20 000 lb) que comprime la tibia puede ocasionar la fractura.
+Aunque la fuerza de rompimiento varía con el hueso considerado, es posible tomar este
+valor como el umbral de fuerza para la fractura. Es bien conocido que la aceleración rápida
+de la cabeza, incluso sin fractura de cráneo, puede ser fatal. Cálculos aproximados demues-
+tran que aceleraciones de cargas de 150g experimentadas por casi 4 ms o 50g por 60 ms son
+fatales en 50% de las veces. Con frecuencia tales lesiones por aceleraciones rápidas resul-
+tan en daño neural a la médula espinal donde los nervios entran a la base del cerebro. El
+umbral de daño a la piel, vasos sanguíneos y órganos internos es posible evaluarlo a partir
+de la información de impacto de todo el cuerpo, donde la fuerza se distribuye de mane-
+ra uniforme en toda el área frontal de la superficie de 0.7 a 0.9 m2. Esta información mues-
+tra que si la colisión dura por lo menos aproximadamente 70 ms, una persona sobrevivirá
+si la presión de impacto en el cuerpo completo (fuerza por cada unidad de área) es menos
+de 1.9 3 105 N/m2 (28 lb/pulg2). En 50% de los casos resultan muertos cuando la pre-
+sión de impacto en todo el cuerpo alcanza 3.4 3 105 N/m2 (50 lb/pulg2).
+     Con los datos anteriores, se pueden evaluar las fuerzas y aceleraciones en un choque
+de autos representativo y ver cómo los cinturones de seguridad, bolsas de aire e interiores
+acojinados pueden reducir la posibilidad de muerte o lesiones graves en una colisión.
+Considere una colisión representativa que involucra un pasajero de 75 kg sin utilizar el
+cinturón de seguridad, viajando a 27 m/s (60 mi/h) que llega al reposo en aproximada-
+mente 0.010 s después de golpear un tablero sin acojinar. Aplicando Fprom Δt 5 mvf - mvi,
+encontramos que
+                         mv f 2 mv i       0 2 1 75 kg 2 1 27 m/s 2
+               Fprom 5                 5                              5 22.0 3 105 N
+                             Dt                    0.010 s
+172         CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+                                             y
+                                                                Dv   27 m/s                  2 700 m/s 2
+                                                          a5       5         5 2 700 m/s 2 5             g 5 280g
+                                                                Dt   0.010 s                  9.8 m/s 2
+                                             Si suponemos que el pasajero choca contra el tablero y el parabrisas de tal modo que la
+                                             cabeza y el pecho, con un área de superficie combinada de 0.5 m2, experimentan la fuerza,
+                                             encontramos una presión de cuerpo completo de
+                                                                         Fprom   2.0 3 105 N
+                                                                               5             > 4 3 105 N/m2
+                                                                          A         0.5 m2
+
+                                             Observamos que la fuerza, la aceleración y la presión de cuerpo completo todas exceden el
+                                             umbral de muerte o fractura de huesos y que una colisión sin protección a 60 mi/h es sin
+                                             duda casi fatal.
+F (en unidades de 105 N)                         ¿Qué se puede hacer para reducir o eliminar la posibilidad de muerte en un choque
+10                                           automovilístico? El factor más importante es el tiempo de colisión o el tiempo que le toma
+ 8
+                                             a la persona llegar al reposo. Si este tiempo puede ser incrementado de 10 a 100 veces el
+                                             valor de 0.01 s para una colisión fuerte, la oportunidad de sobrevivir en un choque auto-
+ 6                                           movilístico es mucho mayor a causa del incremento en )t que hace a la fuerza de contacto
+ 4                                           de 10 a 100 veces menor. Los cinturones de seguridad sujetan a una persona de tal modo
+                                             que llega al reposo en casi la misma cantidad de tiempo que le toma al auto detenerse, sig-
+ 2                                           nificativamente casi 0.15 s. Esto incrementa el tiempo de colisión efectivo en un orden de
+                                    t (ms)   magnitud. La figura 6.5 exhibe la fuerza medida en un automóvil en términos del tiempo
+ 0        20 40 60 80 100 120                para un choque automovilístico.
+                                                 Las bolsas de aire también incrementan el tiempo de colisión, absorben energía del
+Figura 6.5 Fuerza en un automóvil
+en términos del tiempo para una
+                                             cuerpo conforme la fuerza disminuye rápidamente y se dispersa por el cuerpo en un área
+colisión representativa.                     de casi 0.5 m2; esto previene heridas de penetración y fracturas. Las bolsas de aire deben
+                                             desplegarse muy rápido (en menos de 10 ms) con la finalidad de detener un humano
+                                             viajando a 27 m/s antes que llegue al reposo contra la columna de dirección a 0.3 m de
+                                             distancia. Para lograr este despliegue rápido, los acelerómetros envían una señal de des-
+                                             carga a un banco de capacitores (dispositivos que almacenan carga eléctrica), que después
+                                             encienden un explosivo; en ese momento la bolsa de aire se llena rápidamente con gas. La
+                                             carga eléctrica para ignición se almacena en capacitores para asegurarse que la bolsa de
+                                             aire continúa funcionando en caso de daño a la batería o el sistema eléctrico del automóvil
+                                             en una colisión grave.
+                                                 La reducción importante en fuerzas potencialmente fatales, aceleraciones y presiones
+                                             a niveles tolerables mediante el uso simultáneo de cinturones de seguridad y bolsas de aire
+                                             se resume como sigue. Si una persona de 75 kg viajando a 27 m/s es detenido mediante
+                                             un cinturón de seguridad en 0.15 s, experimenta una fuerza promedio de 9.8 kN, una
+                                             aceleración promedio de 18g y una presión de cuerpo completo de 2.8 3 104 N/m2 para
+                                             un área de contacto de 0.5 m2. Estos valores son aproximadamente de un orden de mag-
+ S                              S
+ F21                            F12          nitud menor que los valores previamente evaluados para una persona sin protección y lo
+                 m1                          suficiente por debajo de los umbrales para lesiones peligrosas para la vida.
+                      m2
+
+      a
+                                                 6.2 Conservación de la cantidad de movimiento
+                                             Cuando se presenta una colisión en un sistema aislado, la cantidad de movimiento total
+            p                               del sistema no cambia con el paso del tiempo. En lugar de eso, permanece constante tanto
+                                             en magnitud como en dirección. Las cantidades de movimiento de objetos individuales en
+                           ++                el sistema pueden cambiar, pero la suma vectorial de todas las cantidades de movimiento
+                       4
+                           He                no cambiará. Por lo tanto, se dice que la cantidad de movimiento total se debe conservar. En
+                                             esta sección, veremos cómo las leyes de movimiento conducen a esta importante ley de
+      b                                      conservación.
+                                                  Es posible que una colisión sea el resultado del contacto físico entre dos objetos, como
+Figura activa 6.6 a) Una colisión            se ilustra en la figura activa 6.6a. Éste es un suceso macroscópico común, como cuando se
+entre dos objetos que resulta a causa
+del contacto directo. b) Una colisión
+                                             golpean entre sí un par de bolas de billar o una pelota de béisbol y un bate. Por el contra-
+entre dos objetos con carga (en              rio, a causa del contacto a escala submicroscópica es difícil definir exactamente, así que
+este caso, un protón y un núcleo de          se debe generalizar la noción de colisión a esa escala. Las fuerzas entre dos objetos surgen
+helio).                                      de la interacción electrostática de los electrones en los átomos superficiales de los objetos.
+                                                                                                     6.2 | Conservación de la cantidad de movimiento                  173
+
+Como se analizará en el capítulo 15, las cargas eléctricas son positivas o negativas. Cargas
+                                                                                                                                     Antes de la colisión, estas
+con el mismo signo se repelen entre sí, mientras que cargas con signos opuestos se atraen                                            partículas tienen velocidades
+entre sí. Para comprender la diferencia entre colisiones macroscópicas y microscópicas,                                              iguales pero opuestas.
+considere la colisión entre dos cargas positivas, como se muestra en la figura activa 6.6b).
+Dado que las dos partículas en la figura tienen cargas positivas, se repelen entre sí. Durante                                                 S           S
+                                                                                                                                               v1i         v2i
+tal colisión microscópica, las partículas no necesitan tocarse en el sentido normal con la
+finalidad de interactuar y transferir cantidad de movimiento.                                                                           m1                           m2
+    La figura activa 6.7 muestra un sistema aislado de dos partículas antes y después de                                            a
+que colisionan. Por “aislado” entendemos que no existen fuerzas externas, como la fuerza
+gravitacional o de fricción, que actúen sobre el sistema. Antes de la colisión, las velocida-
+                              S      S                                                 S      S                                      Después de la colisión, ambas
+des de las dos partículas son v 1i y v 2i; después de la colisión, las velocidades son v 1f y v 2f .
+                                                                                                                                     velocidades cambian, pero la
+El teorema impulso-cantidad de movimiento aplicado a m1 será
+                                                                                                                                     cantidad total de movimiento
+                                                      S            S             S
+                                                     F 21 )t 5 m1v 1f 2 m1v 1i                                                       del sistema permanece igual.
+                                                                                                                                         S                     S
+De la misma forma, para m2 tenemos                                                                                                       v1f                   v2f
+                                                     S             S             S
+                                                     F 12 )t 5 m 2 v 2f 2 m 2 v 2i
+         S                                                                                                           S              b
+donde F 21 es la fuerza promedio ejercida por m2 sobre m1 durante la colisión, y F 12 es la
+fuerza promedio ejercida por m1 sobre m2 Sdurante S
+                                                       la colisión, como en la figura 6.6a).                                     Figura activa 6.7 Colisión directa
+     Se utilizan los valores promedio para F 21 y F 12 incluso si se piensa que es posible que                                   entre dos objetos antes y después.
+las fuerzas verdaderas varíen de una manera complicada con el tiempo, como el caso en                                            La cantidad de movimiento de cada
+la figura 6.8. La tercera ley de Newton estableceS
+                                                     que todas
+                                                           S
+                                                                 las veces estas dos fuerzas son                                 objeto cambia como resultado de la
+iguales en magnitud y opuestas en dirección: F 21 5 2F 12. Además, las dos fuerzas actúan                                        colisión, pero la cantidad de movi-
+en el mismo lapso. Como resultado, tenemos                                                                                       miento total del sistema permanece
+                                                          S            S
+                                                                                                                                 constante. Observe que la magnitud
+                                                          F 21 )t 5 2F 12 )t                                                     del cambio en la velocidad de la
+o bien                                                                                                                           partícula más ligera es mayor que la
+                                                 S            S            S             S                                       de la partícula más pesada, lo cual es
+                                               m1v 1f 2 m1v 1i 5 2(m 2 v 2f 2 m 2 v 2i)
+                                                                                                                                 cierto en general.
+                                                                           S         S
+después de sustituir las expresiones obtenidas para F21 y F12. Esta ecuación puede ser reorde-
+nada para dar el siguiente resultado importante:
+
+                                               m 1S
+                                                  v 1i 1 m 2 S
+                                                             v 2i 5 m 1S
+                                                                       v 1f 1 m 2S
+                                                                                 v 2f                                    [6.7]
+
+Este resultado es un caso especial de la ley de conservación de la cantidad de movimiento y es
+verdadera para sistemas aislados que contienen cualquier número de objetos interactuando.
+   Cuando no hay una fuerza externa neta que actúe sobre un sistema, el impulso total                                            b Conservación de la cantidad
+   del sistema se mantiene constante en el tiempo.                                                                                 de movimiento
+
+     Una característica importante de aplicar esta ley de conservación es la definición de
+sistema aislado. El salto ascendente de una animadora desde el reposo podría parecer que
+viola la conservación de cantidad de movimiento, debido a que originalmente su cantidad                                               APLICACIÓN
+de movimiento es cero y repentinamente está dejando la superficie del piso con veloci-                                           Conservación de la cantidad de
+      S
+dad v . El defecto en este razonamiento se encuentra en el hecho de que la animadora                                             movimiento y propulsión de un
+no está en un sistema aislado. En el salto, ejerce una fuerza hacia abajo sobre la Tierra,                                       calamar
+
+                                                                                     F
+
+
+                                                                                                         S
+
+
+             Mike Severns/Stone/Getty Images
+                                                                                                         F12
+                                                                                                                                  Tip 6.1 ¡Se aplica la
+                                                                                                                                  conservación de la cantidad
+                                                                                                                 t                de movimiento a un sistema!
+                                                                                                                                  La cantidad de movimiento de
+                                                                                                         S                        un sistema aislado se conserva,
+                                                                                                         F21                      no necesariamente la cantidad
+                                                                                                                                  de movimiento de una partícula
+                                                                                                                                  dentro de ese sistema, ya que es
+      Detrás del sistema de propulsión
+                                                                                                                                  posible que otras partículas estén
+      de un calamar está el principio de                                       Figura 6.8 Fuerza como una fun-
+                                                                                                                                  interactuando con él. Sólo aplique
+      conservación de la cantidad de movi-                                     ción del tiempo para las dos partícu-
+                                                                                                                                  la conservación de cantidad de
+      miento. Se impulsa mediante la expul-                                    las que colisionan en las figuras 6.6a
+                                                                                                  S         S                     movimiento a un sistema aislado.
+      sión de agua a una alta velocidad.                                       y 6.7. Observe que F21 5 2 F12.
+174     CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+                                    cambiando su cantidad de movimiento. De cualquier modo, este cambio en la cantidad de
+                                    movimiento de la Tierra no es sensible debido a la enorme masa de la Tierra comparada
+                                    con la de la animadora. Cuando se define que el sistema es la animadora y la Tierra, se con-
+                                    serva la cantidad de movimiento.
+                                         Acción y reacción, junto con el intercambio de cantidad de movimiento entre dos obje-
+                                    tos, es responsable del fenómeno conocido como retroceso. Cualquiera sabe que al lanzar una
+                                    pelota mientras se encuentra de pie, sin apoyar sus pies contra la Tierra, es una buena mane-
+                                    ra para caer hacia atrás. Esta reacción es un ejemplo de retroceso; también sucede cuando
+                                    dispara un arma o tira una flecha. La conservación de cantidad de movimiento proporciona
+                                    una manera directa de calcular tales efectos, como el ejemplo que se muestra a continuación.
+
+
+      ■ Examen rápido
+
+      6.2 Un chico que está de pie en el extremo de una balsa flotante que permanece
+      inmóvil relativa a la orilla camina hacia el extremo opuesto de la balsa, alejándose de
+      la orilla. Como una consecuencia, la balsa a) permanece inmóvil, b) se mueve alejándose
+      de la orilla, o bien c) se mueve hacia la orilla. (Sugerencia: Aplique la conservación de
+      cantidad de movimiento.)
+
+
+      6.3 Colisiones
+  Hemos visto que para cualquier tipo de colisión, la cantidad de movimiento total del siste-
+  ma momentos antes de la colisión es igual a la cantidad de movimiento precisamente des-
+  pués de la colisión, siempre que sea posible considerar que el sistema es aislado. La energía
+  cinética total, por una parte, generalmente no se conserva en una colisión ya que algo de
+  la energía cinética se convierte en energía interna, energía sonora y el trabajo necesario
+            CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+                                           para deformar de manera permanente los objetos involucrados, como los automóviles en
+ Tip 6.2 Cantidad de
+                                           un choque. Una colisión inelástica se define como una colisión en la que la cantidad de
+ movimiento y energía
+ cinética en colisiones
+                                           movimiento se conserva, pero la energía cinética no. La colisión de una pelota de goma
+                                           con una superficie dura es inelástica, debido a que algo de la energía cinética se pierde
+ La cantidad de movimiento de
+ un sistema aislado se conserva en
+                                           cuando la pelota se deforma durante el contacto con la superficie. Cuando dos objetos co-
+ todas las colisiones. Sin embargo,        lisionan y quedan unidos, la colisión se conoce como perfectamente inelástica. Por ejemplo,
+ la energía cinética de un sistema         si dos pedazos de masilla colisionan, quedan pegados y se mueven con alguna velocidad
+ aislado se conserva sólo cuando           común después de la colisión. Si un meteorito choca contra la Tierra, se hunde en ésta y
+ la colisión es elástica.                  la colisión se considera perfectamente inelástica. Sólo en circunstancias muy especiales
+                                           toda la energía cinética inicial se pierde en una colisión perfectamente inelástica.
+                                                Una colisión elástica se define como una en la que se conservan la energía cinética y
+ Tip 6.3 Colisiones
+                                           la cantidad de movimiento. Las colisiones de bolas de billar y de moléculas de aire con las
+ inelásticas contra
+                                           paredes de un recipiente a temperaturas normales son altamente elásticas. Las colisiones
+ perfectamente inelásticas
+                                           macroscópicas por ejemplo entre bolas de billar son sólo aproximadamente elásticas, a
+ Si las partículas que colisionan se
+                                           causa de que se presenta cierta pérdida de energía cinética, por ejemplo, en el sonido que
+ unen, la colisión es perfectamente
+ inelástica. Si rebotan (y no se           se produce cuando dos bolas se golpean. No obstante, las colisiones elásticas se presentan
+ conserva la energía cinética), la         entre partículas atómicas y subatómicas. Las colisiones perfectamente elásticas e inelásticas
+ colisión es inelástica.                   son casos límite, la mayoría de las colisiones se encuentran dentro de la escala entre ellas.
+                                                Como una aplicación práctica, se utiliza una colisión inelástica para detectar glauco-
+                                           ma, una enfermedad en la que la presión se acumula dentro del ojo y conduce a la ceguera
+                                           al dañar las células de la retina. En esta aplicación, profesionales de la medicina utilizan un
+                         APLICACIÓN        dispositivo que se le conoce como tonómetro para medir la presión dentro del ojo. Este dis-
+                     Prueba de glaucoma    positivo libera un soplido de aire contra la superficie externa del ojo y mide la rapidez del
+                                           aire después de la reflexión desde el ojo. A presión normal, el ojo es ligeramente esponjoso,
+                                           y el pulso es reflejado con rapidez baja. Cuando la presión dentro del ojo se incrementa, la
+                                           superficie externa se hace más rígida, y la rapidez del pulso de reflexión se incrementa.
+                                           De esta manera, la rapidez del soplido reflejado puede medir la presión interna del ojo.
+                                                Los tipos de colisiones se pueden resumir como sigue:
+                    Colisión elástica c       ■   En una colisión elástica, se conservan la cantidad de movimiento y la energía cinética.
+                   Colisión inelástica c      ■   En una colisión inelástica, se conserva la cantidad de movimiento, pero la ener-
+                                                  gía cinética no.
+                                              ■   En una colisión perfectamente inelástica, se conserva la cantidad de movimiento,
+                                                  la energía cinética no, y los dos objetos quedan unidos después de la colisión,
+     Antes de una colisión                        de tal modo que sus velocidades al final son la misma.
+     perfectamente inelástica
+     los objetos se mueven                     En el resto de esta sección, se tratarán colisiones perfectamente inelásticas y colisiones
+     independientemente.                   elásticas en una dimensión.
+
+                                            ■ Examen rápido
+             S           S
+             v1i         v2i
+     m1                         m2          6.3 Un automóvil y un camión grande que viajan con la misma rapidez, colisionan
+                        1x                  de frente y quedan unidos. ¿Cuál vehículo se somete al mayor cambio en la magnitud de
+        a                                   su cantidad de movimiento? a) el automóvil, b) el camión, c) el cambio en la
+                                            magnitud de cantidad de movimiento es la misma para ambos, d) imposible de
+   Después de una colisión los              determinar sin más información.
+   objetos permanecen en
+   contacto. La cantidad de                Colisiones perfectamente inelásticas
+   movimiento del sistema se
+   conserva, no así la energía             Tome en cuenta dos objetos que tienen masas m1 y m2 moviéndose con componentes de
+   del sistema.                            velocidad inicial desconocida v1i y v2i a lo largo de una línea recta, como en la figura activa
+                                           6.10. Si los dos objetos colisionan de frente, se unen y se mueven con una componente de
+                                           velocidad común vf después de la colisión, entonces la colisión es perfectamente inelástica.
+                               S
+                               vf          Debido a que la cantidad de movimiento total del sistema aislado de dos objetos antes de la
+                   m1 1 m2
+                                           colisión es igual a la cantidad de movimiento total del sistema objeto combinado después
+                        1x                 de la colisión, se puede resolver para la velocidad final utilizando sólo la conservación de
+    b                                      la cantidad de movimiento:
+                                                                         m1v1i 1 m 2v 2i 5 (m1 1 m 2)vf                               [6.8]
+Figura activa 6.10
+a) Antes y b) después de una colisión                                               m 1v 1i 1 m 2v 2i
+frontal perfectamente inelástica                                             vf 5
+entre dos objetos.
+                                                                                       m1 1 m2                                         [6.9]
+       Es importante observar que v1i, v2i y vf representan los componentes en x de los vectores de
+       velocidad; también es necesario tener cuidado al incorporar sus valores conocidos, particu-
+       larmente con los signos. Por ejemplo, en la figura activa 6.10, v1i tendría un valor positivo
+       (m1 moviéndose hacia la derecha), mientras que v2i tendría un valor negativo (m2 movién-
+       dose hacia la izquierda). Una vez que estos valores son ingresados, la ecuación 6.9 se puede
+       utilizar para encontrar la velocidad final correcta, como se muestra en los ejemplos 6.4 y 6.5.
+
+
+    ■ Examen rápido
+
+    6.4 Un objeto de masa m se traslada hacia la derecha con una velocidad v. Colisiona
+    de frente con un objeto de masa 3m moviéndose con velocidad v/3 en la dirección
+    opuesta. Si los dos objetos se unen, ¿cuál es la velocidad del objeto combinado, de
+    masa 4m, después de la colisión?
+    a) 0 b) v/2 c) v y d) 2v
+    6.5 Una esquiadora utiliza patines de muy baja fricción. Un amigo le lanza un disco
+    volador, en línea recta a lo largo de la cual ella se está deslizando. Describa cada uno
+    de los hechos que siguen como una colisión elástica, una inelástica o una perfecta-
+    mente inelástica entre la patinadora y el disco volador. a) Atrapa el disco y lo sostiene.
+    b) Intenta atrapar el disco, pero le rebota de sus manos y cae al piso frente a ella.
+    c) Atrapa el disco e inmediatamente lo lanza de regreso con la misma rapidez
+    (relativa al piso) hacia su amigo.
+    6.6 En una colisión perfectamente inelástica en una dimensión entre dos objetos,
+    ¿qué condición única es necesaria de tal modo que toda la energía cinética original se
+    pierda después de la colisión? a) Los objetos deben tener cantidades de movimiento
+    con la misma magnitud pero direcciones opuestas. b) Los objetos deben tener la
+    misma masa. c) Los objetos deben tener la misma velocidad. d) Los objetos deben
+    tener la misma rapidez, con vectores de velocidad en direcciones opuestas.
+
+
+Colisiones elásticas
+Ahora considere dos objetos que se someten a una colisión elástica de frente (figura activa                  Antes de la colisión elástica
+                                                                                                             los objetos se mueven
+6.13). En esta situación, tanto la cantidad de movimiento y la energía cinética del sistema                  independientemente.
+de dos objetos se conservan. Estas condiciones se pueden escribir como
+                                                                                                                     S            S
+                                 m1v1i 1 m 2v 2i 5 m1v1f 1 m 2v 2f                       [6.10]                      v1i           v2i
+
+y
+                                                                                                             m1                             m2
+                                                                                                                             1x
+                           2 m 1v 1i 1 2 m 2v 2i 5 2 m 1v 1f 1 2 m 2v 2f
+                           1        2  1        2  1        2  1         2
+                                                                                         [6.11]
+                                                                                                         a
+
+donde v es positiva si un objeto se mueve a la derecha, y negativo si se mueve a la izquierda.
+                                                                                                         Después de la colisión la
+    En un problema representativo que incluye colisiones elásticas, existen dos cantidades
+                                                                                                         velocidad de los objetos cambia,
+desconocidas, y se pueden resolver de manera simultánea las ecuaciones 6.10 y 6.11 para                  pero la energía y la cantidad de
+calcularlas. Estas dos ecuaciones son lineal y cuadrática, respectivamente. Otro plantea-                movimiento se conservan.
+miento simplifica la ecuación cuadrática y otro la ecuación lineal, que facilita la solución.
+Cancelando el factor 12 en la ecuación 6.11, la rescribimos como                                               S
+                                                                                                               v1f
+                                                                                                                                      S
+                                                                                                                                      v2f
+                                 m1(v1i 2 v1f ) 5 m 2(v 2f 2 v 2i )
+                                        2       2            2         2
+
+
+En este caso se han movido los términos que contienen a m1 a un lado de la ecuación y aque-                                  1x
+llos que contienen a m2, al otro lado. A continuación, se factorizan ambos lados de la ecuación:         b
+
+                      m1(v1i 2 v1f) (v1i 1 v1f) 5 m 2(v 2f 2 v 2i) (v 2f 1 v 2i)         [6.12]     Figura activa 6.13 a) Antes y
+                                                                                                    b) después de una colisión elástica
+   Ahora se separan los términos que contienen m1 y m2 en la ecuación para la conserva-             de frente entre dos esferas duras. A
+ción de la cantidad de movimiento (ecuación 6.10), así tenemos                                      diferencia de una colisión inelástica,
+                                                                                                    tanto el impulso total como la
+                                  m1(v1i 2 v1f ) 5 m 2(v 2f 2 v 2i )                     [6.13]     energía total se conservan.
+CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+                            Para obtener el resultado final, dividimos la ecuación 6.12 entre la ecuación 6.13, lo
+                         que nos da como resultado
+                                                                v1i 1 v1f 5 v 2f 1 v 2i
+                         Reacomodando los valores inicial y final en ambos lados de la ecuación, tenemos
+
+                                                             v1i 2 v 2i 5 2(v1f 2 v 2f )                              [6.14]
+
+                         Esta ecuación, en combinación con la ecuación 6.10, será utilizada para resolver proble-
+                         mas relacionados con colisiones elásticas de frente. De acuerdo con la ecuación 6.14, la ve-
+                         locidad relativa de los dos objetos antes de la colisión, v1i 2 v2i, es igual al negativo de la
+                         velocidad relativa de los dos objetos después de la colisión, 2(v1f 2 v2f). Para interpretar
+                         mejor la ecuación, piense que está montado junto a uno de los objetos. Conforme observa
+                         la velocidad del otro objeto desde su posición, medirá la velocidad relativa. En su perspecti-
+                         va de la colisión, el otro objeto se le acerca y rebota, dejando la colisión con la misma velo-
+                         cidad, pero en la dirección opuesta. Esto es precisamente lo que establece la ecuación 6.14.
+
+                           ■ ESTRATEGI A PARA LA SOLUCIÓN DE PROBLEMAS
+
+                         Colisiones en una dimensión
+                         Se recomienda el procedimiento siguiente para resolver problemas que incluyen colisiones entre dos
+                         objetos en una dimensión:
+                         1. Coordenadas. Seleccione un eje coordenado que se encuentre a lo largo de la direc-
+                            ción del movimiento.
+                         2. Diagrama. Bosqueje el problema, represente los dos objetos como bloques y etiquete
+                            los vectores de velocidad y las masas.
+                         3. Conservación de la cantidad de movimiento. Escriba una expresión general para la
+                            cantidad de movimiento total del sistema de dos objetos antes y después de la colisión
+                            e iguale las dos, como en la ecuación 6.10. En la siguiente línea, complete los valores
+                            desconocidos.
+                         4. Conservación de la energía. Si la colisión es elástica, escriba una expresión general
+                            para la energía total antes y después de la colisión e iguale las dos ecuaciones, como
+                            en la ecuación 6.11 o (preferentemente) en la ecuación 6.14. Complete con los valo-
+                            res conocidos. (Salte esta etapa si la colisión no es perfectamente elástica.)
+                         5. Resuelva las ecuaciones de manera simultánea. Las ecuaciones 6.10 y 6.14 forman
+                            un sistema de dos ecuaciones lineales y dos incógnitas. Si se le olvida la ecuación
+                            6.14, en su lugar utilice la ecuación 6.11.
+
+                         Las etapas 1 y 2 de la estrategia para la solución de problemas por lo general se llevan a
+                         cabo en el proceso de esquematizar y etiquetar un diagrama del problema. Sin duda éste
+                         es el caso en el siguiente ejemplo, que hace uso de la figura activa 6.13 (página 179). Se
+                         precisan otras etapas conforme son aplicadas.
+
+
+                                                                                                                              x
+182      CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+
+                                        6.4 Colisiones tangenciales
+                                      En la sección 6.2 se mostró que se conserva la cantidad de movimiento lineal total de un
+                                      sistema cuando el sistema es aislado (es decir, cuando no actúan fuerzas externas sobre
+                                      él). En general para una colisión de dos objetos en el espacio de tres dimensiones, el princi-
+                                      pio de conservación de la cantidad de movimiento implica que se conserva la cantidad
+                                      de movimiento total del sistema en cada dirección. De cualquier modo, se llevan a cabo
+                                      un subconjunto de colisiones importantes en un plano. El juego de billar es un ejemplo
+                                      conocido que incluye varias colisiones de objetos moviéndose en una superficie en dos
+                                      dimensiones. Limitamos nuestra atención a una simple colisión en dos dimensiones entre
+                                      dos objetos que toma lugar en un plano descartamos cualquier rotación posible. Para tal
+                                      colisión, obtenemos dos ecuaciones por componente para la conservación de la cantidad
+                                      de movimiento:
+                                                                          m1v1ix 1 m 2v 2ix 5 m1v1fx 1 m 2v 2fx
+                                                                          m1v1iy 1 m 2v 2iy 5 m1v1fy 1 m 2v 2fy
+                                      Debemos utilizar tres subíndices en esta ecuación general, para representar, respectivamente:
+                                      1) el objeto en la pregunta y 2) los valores inicial y final de las componentes de la velocidad.
+                                          Ahora, considere un problema en dos dimensiones en el que un objeto de masa m1
+                                      colisiona con un objeto de masa m2 que está inicialmente en reposo, como en la figura
+                                      activa 6.15. Después de la colisión, el objeto 1 se mueve en un ángulo u con respecto a
+                                      la horizontal, y el objeto 2 se mueve en un ángulo f con respecto a la horizontal. Esto se
+                                      conoce como una colisión tangencial. Al aplicar la ley de conservación de la cantidad de
+                                      movimiento en la forma de componente y observando que la componente y inicial de can-
+                                      tidad de movimiento es cero, tenemos
+                                               componente x:           m1v1i 1 0 5 m1v1f cos u 1 m 2v 2f cos f                                      [6.15]
+                                               componente y:           0 1 0 5 m1v1f sen u 1 m 2v 2f sen f                                          [6.16]
+
+
+Figura activa 6.15
+                                                                                                           Después de la colisión
+a) Antes y b) después de una
+colisión indirecta entre dos bolas.                                                                                                       S
+                                                                                                                                          v1f
+                                                                                                                  v1f sen u
+                                                        Antes de la colisión         1y
+                                                                                                                              v1f cos
+                                                          S
+                                                          v1i                                                            u
+                                                                                            1x                                                  x
+                                                                                                                        f
+                                                   m1                                                                         v2f cos f
+                                                                               m2
+                                                                                                                  v2f sen f       S
+                                                                                                                                    v2f
+                                               a                                                      b
+                                                                                              6.4 | Colisiones tangenciales      183
+
+Si la colisión es elástica, podemos escribir una tercera ecuación, para la conservación de
+la energía, en la forma
+
+                             2 m 1v 1i 5 2 m 1v 1f 1 2 m 2v 2f
+                             1        2  1        2  1         2
+                                                                                        [6.17]
+Si conocemos la velocidad inicial v1i y las masas, quedan cuatro incógnitas (v1f, v2f , u y f).
+Debido a que sólo tenemos tres ecuaciones, una de las cuatro cantidades restantes debe
+conocerse con la finalidad de determinar el movimiento después de la colisión de acuerdo
+sólo con el principio de conservación.
+    Si la colisión es inelástica, la energía cinética del sistema no se conserva, y la ecuación
+6.17 no se aplica.
+
+
+ ■ ESTRATEGI A PARA LA SOLUCIÓN DE PROBLEMAS
+
+Colisiones en dos dimensiones
+Para resolver colisiones en dos dimensiones, siga este procedimiento:
+1. Ejes coordenados. Utilice las dos coordenadas x y y. Es conveniente hacer que
+   coincida el eje x o el eje y con la dirección de una de las velocidades iniciales.
+2. Diagrama. Bosqueje el problema, etiquetando los vectores de velocidad y las masas.
+3. Conservación de la cantidad de movimiento. Escriba una ecuación por separado
+   de conservación de la cantidad de movimiento para cada una de las direcciones x y
+   y. En cada caso, la cantidad de movimiento inicial total en una dirección conocida es
+   igual a la cantidad de movimiento final total en esa dirección.
+4. Conservación de energía. Si la colisión es elástica, se escribe una expresión para la
+   energía total antes y después de la colisión y se igualan las dos expresiones, como en
+   la ecuación 6.11. Complete con los valores conocidos. (Salte esta etapa si la colisión
+   no es perfectamente elástica.) La ecuación de energía no se puede simplificar como
+   en el caso de una dimensión, así que es posible utilizar una ecuación cuadrática, por
+   ejemplo la ecuación 6.11 o 6.17 cuando la colisión es elástica.
+5. Resuelva las ecuaciones simultáneamente. Existen dos ecuaciones para colisiones
+   inelásticas y tres para colisiones elásticas.
+
+
+                                    6.5 Propulsión de cohete
+                                 Cuando se mueven vehículos comunes, por ejemplo automóviles y locomotoras, la fuerza
+                                 impulsora del movimiento es la fricción. En el caso del automóvil, esta fuerza impulsora se
+                                 ejerce por el camino en el automóvil, una reacción a la fuerza ejercida por las llantas con-
+                                 tra el camino. De igual manera, una locomotora “empuja” contra las vías; por esto, la fuer-
+                                 za impulsora es la fuerza de reacción ejercida por las vías en la locomotora. De cualquier
+                                 modo, el movimiento de un cohete en el espacio no tiene un camino o vía para empujar.
+                                 ¿Cómo puede moverse hacia adelante?
+                                     En realidad, también las fuerzas de reacción impulsan un cohete. (Revise la tercera ley
+                                 de Newton, que se explica en el capítulo 4.) Para aclarar este punto, represente el cohete
+                                 con una cámara esférica que contiene un gas combustible, como en la figura 6.17a. Cuan-
+                                 do se presenta una explosión en la cámara, el gas caliente se expande y presiona contra
+                                 toda la superficie interna de la cámara, como se indica mediante las flechas. Dado que la
+                                 suma de las fuerzas que se ejercen en el cohete es cero, éste no se mueve. Ahora piense
+                                 en un orificio hecho en la parte inferior de la cámara, como se muestra en la figura 6.17b.
+                                 Cuando se presenta la explosión, el gas presiona contra la cámara en todas direcciones,
+                                 pero no puede presionar contra algo en el orificio, donde este simplemente escapa al
+                                 espacio. Sumando ahora las fuerzas en la cámara esférica, resulta una fuerza neta hacia
+                                 arriba. Precisamente como en el caso de los automóviles y locomotoras, ésta es una fuerza
+                                 de reacción. Las llantas de un automóvil presionan contra el piso y la fuerza de reacción del
+                                 piso en el automóvil lo empuja hacia arriba. La pared de la cámara de combustión ejerce
+                                                                                                        6.5 | Propulsión de cohete        185
+
+una fuerza en el gas que se expande contra él. Por lo tanto, la fuerza de reacción del gas                  Una cámara de reacción de
+en las paredes empuja al cohete hacia arriba.                                                               cohetes sin boquilla tiene
+    En un infame artículo en el The New York Times, el pionero de los cohetes, Robert Goddard,              fuerzas de reacción que
+fue puesto en ridículo por pensar que los cohetes funcionarían en el espacio, donde, de                     empujan por igual en todas
+acuerdo con el Times, no había nada contra qué empujar. El Times se retractó, demasiado                     direcciones, así que no hay
+tarde, durante la primera misión de alunizaje del Apolo en 1969. Los gases calientes no                     resultados de movimiento.
+están empujando contra algo externo, sino contra el cohete mismo e irónicamente, los co-
+hetes verdaderamente funcionan mejor en un vacío. En una atmósfera, los gases tienen que
+hacer trabajo contra la presión del aire externo al escapar de la cámara de combustión,
+disminuyendo la velocidad de descarga y reduciendo la fuerza de reacción.
+    A nivel microscópico, este proceso es complicado, pero puede ser simplificado median-
+te la aplicación de conservación de la cantidad de movimiento al cohete y su combustible
+expulsado. En principio, la solución es parecida a la del ejemplo 6.3, con el arquero repre-
+sentando el cohete, y la flecha, los gases de descarga.
+    Suponga que en algún tiempo t, la cantidad de movimiento del cohete más el combus-
+tible es (M 1 )m)v, donde )m es una cantidad de combustible a punto de ser quemada
+(figura 6.18a). Este combustible está viajando con una velocidad v relativa a, digamos, la                   a
+Tierra, muy parecido al resto del cohete. Durante un periodo breve )t, el cohete expulsa
+combustible de masa )m, y la velocidad del cohete se incrementa hasta v 1 )v (figura
+6.18b). Si se expulsa el combustible con velocidad de descarga ve relativa al cohete, la veloci-
+dad del combustible relativa a la Tierra es v 2 ve. Al igualar la cantidad de movimiento total
+final del sistema con la cantidad de movimiento total final, tenemos
+                               (M 1 Dm)v 5 M(v 1 Dv) 1 Dm(v 2 ve)
+Simplificando esta expresión, resulta
+                                           MDv 5 ve Dm
+El incremento )m en la masa de la descarga corresponde a una disminución igual en masa
+del cohete, de tal modo que )m 5 2)M. Utilizando este hecho, tenemos
+                                         MDv 5 2ve DM                                          [6.18]       Una abertura en la parte inferior
+                                                                                                            de la cámara elimina la fuerza de
+Este resultado, junto con los métodos de cálculo, se puede utilizar para obtener la siguien-                reacción descendente, lo que
+te ecuación:                                                                                                resulta en una fuerza de reacción
+                                                                                                            ascendente neta.
+                                    v f 2 v i 5 v e ln a      b
+                                                           Mi
+                                                                                               [6.19]
+                                                           Mf                                               b
+
+donde Mi es la masa inicial del cohete más el combustible, y Mf es la masa final del cohete              Figura 6.17 a) Una cámara de
+más el combustible que le queda. Ésta es la expresión básica de la propulsión de cohete;                 reacción de un cohete sin una
+menciona que el incremento de velocidad es proporcional a la velocidad de descarga ve y                  tobera tiene fuerzas de reacción que
+al logaritmo natural de Mi/Mf . Ya que la relación máxima de Mi a Mf para un cohete de                   empujan por igual en todas las direc-
+                                                                                                         ciones, de tal modo que no resulta
+una sola etapa es de aproximadamente 10:1, el incremento en la velocidad puede alcanzar
+                                                                                                         movimiento alguno. b) Una abertura
+ve ln 10 5 2.3ve o ¡aproximadamente dos veces la velocidad de descarga! Por lo tanto, para               en el fondo de la cámara transfiere
+mejores resultados la velocidad de descarga debe ser tan alta como sea posible. Actual-                  la fuerza de reacción hacia abajo, lo
+mente, las magnitudes de velocidad de descarga de cohetes representativos son de varios                  que da como resultado una fuerza de
+kilómetros por segundo.                                                                                  reacción hacia arriba neta.
+
+
+                       S                           Figura 6.18 Propulsión de un
+                       v
+                                                   cohete. a) La masa inicial del cohete
+              M  m                               y el combustible es M 1 )m en un
+                                                   tiempo t, y la velocidad del cohete es v.
+          S            S
+          pi  (M  m)v                           b) En un tiempo t 1 )t, la masa del
+                                                   cohete ha sido reducida a M, y una
+      a                                            cantidad de combustible )m ha sido
+                                                   expulsado. La velocidad del cohete
+                                                   se incrementa en una cantidad )v.
+       m                  M
+
+
+                                S    S
+                                v  v
+      b
+186     CAPÍTULO 6 | Cantidad de movimiento y colisiones
+
+                                         El empuje en los cohetes se define como la fuerza ejercida en el cohete mediante los
+                                      gases de descarga que se expulsan. Se puede obtener una expresión para el empuje instan-
+                                      táneo al dividir la ecuación 6.18 entre )t:
+                                                                                                       Dv        DM
+            Empuje de cohete c                             Empuje instantáneo 5 Ma 5 M                    5 2 ve    2                         [6.20]
+                                                                                                       Dt        Dt
+                                      Se utilizan los símbolos del valor absoluto para mayor claridad: en la ecuación 6.18, 2)M es
+                                      una cantidad positiva (como lo es ve , una velocidad). En este caso vemos que el empuje
+                                      se incrementa conforme aumenta la velocidad de descarga y a medida que la relación de
+                                      cambio de la masa )M/)t (relación de combustión) aumenta.
+
+   ■   FÍSICA APLICADA 6.2                Cohetes de varias etapas
+La velocidad de descarga máxima actual de ve 5 4 500 m/s se          E XPL ICACIÓN La respuesta es el cohete de varias etapas.
+puede realizar con motores de cohetes carburados con hidró-          Dejando caer las etapas, la nave es más ligera, de modo que
+geno y oxígeno líquidos. Pero esto significa que la velocidad        el combustible quemado después en la misión no tenga que
+máxima que se logra para un determinado cohete con una re-           acelerar la masa que no sirve más a ningún propósito. La
+lación de 10 es ve ln 10 5 10 000 m/s. Sin embargo, para alcan-      correa en el aumentador de presión, que utiliza la lanzadera
+zar la Luna se requiere un cambio de velocidad de casi 11 000        espacial y muchos otros cohetes, por ejemplo el Titan 4 o el
+m/s. Además de eso, este cambio debe presentarse mientras            ruso Proton, es un concepto similar. Se desechan los aumen-
+funciona contra la gravedad y la fricción atmosférica. ¿Cómo         tadores de presión después de que se agota su combustible,
+puede ser controlado sin desarrollar mejores motores?                así el cohete no carga más su peso. ■
+
+
+ 6.3 Colisiones                                                      nes.) Generalmente, uno de los dos objetos se toma para que
+En una colisión inelástica, se conserva la cantidad de movi-         viaje a lo largo del eje x, sometiéndose a una desviación en
+miento del sistema, pero la energía cinética no. En una co-          un ángulo u después de la colisión. Las velocidades finales y
+lisión perfectamente inelástica, los objetos que colisionan se       ángulos se pueden encontrar con trigonometría elemental.
+unen. En una colisión elástica, se conservan las dos: la canti-
+dad de movimiento y la energía cinética del sistema.                                       Antes de la colisión                     y
+     Una colisión elástica entre dos objetos en una dimensión
+                                                                                              S
+se puede resolver al utilizar las ecuaciones de conservación                                  v1i
+                                                                                                                                         x
+de la cantidad de movimiento y de conservación de energía:
+                                                                                      m1
+                 m1v1i 1 m 2v2i 5 m1v1f 1 m 2v2f          [6.10]
+                                                                                                                  m2
+             2 m1v1i 1 2 m 2v2i 5 2 m1v1f 1 2 m 2v2f
+                    2          2         2           2
+             1         1          1         1
+                                                           [6.11]                 a
+La siguiente ecuación, deducida de las ecuaciones 6.10 y
+6.11, se aplica habitualmente por ser más conveniente que la                               Después de la colisión
+ecuación original de conservación de energía:
+                                                                                                                          S
+                                                                                                                          v1f
+                    v1i 2 v2i 5 2 (v1f 2 v2f)             [6.14]
+                                                                                                    v1f sen u
+Estas ecuaciones pueden resolverse simultáneamente para las
+velocidades desconocidas. La energía no se conserva en coli-                                                    v1f cos u
+siones inelásticas, así que es posible resolver tales problemas                                            u
+                                                                                                                                x
+sólo con la ecuación 6.10.                                                                               f
+                                                                                                                v2f cos f
+
+ 6.4 Colisiones tangenciales
+                                                                                                    v2f sen f       S
+En colisiones tangenciales, la conservación de la cantidad de                                                       v2f
+movimiento puede ser aplicada a lo largo de dos direcciones
+                                                                                  b
+perpendiculares: un eje x y un eje y. Los problemas pueden
+ser resueltos utilizando los componentes x y y de la ecuación         En una colisión en dos dimensiones, la cantidad de movimiento del
+6.7. Por lo general las colisiones elásticas requerirán también la    sistema se conserva, mientras que la energía del sistema es conser-
+ecuación 6.11. (La ecuación 6.14 no se aplica en dos dimensio-        vada sólo si la colisión es elástica.

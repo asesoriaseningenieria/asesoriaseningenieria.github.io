@@ -1,0 +1,51 @@
+================================================================================
+GUÍA DE PROGRAMACIÓN PARA INGENIERÍA, MÉTODOS NUMÉRICOS Y DESARROLLO WEB
+Asesorías en Ingeniería — Ing. Oscar Fernando Valencia (Cel: 300 408 3940)
+Portal Web: https://asesoriaseningenieria.github.io
+================================================================================
+
+1. PYTHON CIENTÍFICO E INGENIERÍA (NumPy, SciPy, Pandas, Matplotlib)
+--------------------------------------------------------------------------------
+- Arreglos vectorizados y álgebra lineal:
+    import numpy as np
+    A = np.array([[4.0, 1.0], [2.0, 3.0]])
+    b = np.array([9.0, 7.0])
+    x = np.linalg.solve(A, b)
+    valores, vectores = np.linalg.eig(A)
+
+- Solución numérica de ecuaciones no lineales (Newton-Raphson):
+    def newton_raphson(f, df, x0, tol=1e-7, max_iter=50):
+        x = float(x0)
+        for _ in range(max_iter):
+            fx = f(x)
+            if abs(fx) < tol:
+                return x
+            x = x - fx / df(x)
+        return x
+
+- Integración numérica (Regla del Trapecio y Simpson 1/3):
+    x = np.linspace(a, b, n + 1)
+    y = f(x)
+    h = x[1] - x[0]
+    I_trap = (h / 2.0) * (y[0] + 2.0 * np.sum(y[1:-1]) + y[-1])
+
+2. MATLAB / OCTAVE PARA CÁLCULO MATRICIAL Y SIMULACIONES
+--------------------------------------------------------------------------------
+- Operador barra invertida para sistemas lineales: x = A \ b;
+- Ecuaciones diferenciales ordinarias (Método de Euler y ode45):
+    [t, y] = ode45(@(t, y) -0.8*y, [0 4], 2);
+- Graficación de curvas y diagramas técnicos:
+    plot(x, y, 'LineWidth', 2); grid on; xlabel('x'); ylabel('y');
+
+3. AUTOMATIZACIÓN CON VISUAL BASIC (VBA EXCEL) Y BASH (LINUX)
+--------------------------------------------------------------------------------
+- VBA Excel: Automatización de cuadros de cantidades, presupuestos APU, macros
+  de validación y generación masiva de reportes PDF desde libros de cálculo.
+- Bash: Procesamiento por lotes (ffmpeg, pdftotext, curl, rsync, cron) y
+  automatización de flujos de trabajo de ingeniería en servidores Linux.
+
+4. DESARROLLO WEB INTERACTIVO (HTML5, CSS3 Y JAVASCRIPT MODERNO)
+--------------------------------------------------------------------------------
+- DOM y eventos sin bloqueos, validación de formularios, Fetch API para cargar
+  datos JSON/TXT, y Canvas 2D para graficar funciones matemáticas, vectores,
+  esfuerzos de Mohr y espectros sísmicos directamente en el navegador.

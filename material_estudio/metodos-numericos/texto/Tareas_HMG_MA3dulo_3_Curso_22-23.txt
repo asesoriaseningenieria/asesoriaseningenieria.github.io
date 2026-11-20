@@ -1,0 +1,81 @@
+FUNDAMENTOS MATEMÁTICOS DEL FILTRO
+            DE KALMAN
+
+
+                       TAREAS MÓDULO 3
+                                                                      Tareas de evaluación del Módulo 3
+
+
+NOMBRE:                                                  MODELO DE EVALUACIÓN:
+
+MODELO A:
+
+1) (2p) a) Identifica los distintos elementos inherentes al Filtro de Kalman comentando la fun-
+   ción de cada uno de ellos en los siguientes ejemplos-aplicaciones:
+
+       •   Ejemplo 1: referencia 10 (pg.73-75): posición de un vehículo
+       •   Ejemplo 2: referencia 13: seguimiento de rasgos.
+
+   b) Enuncia las condiciones necesarias para aplicar de manera correcta la versión del Filtro de
+   Kalman estudiada en este curso.
+
+2) (1p) En una publicación se quiere estimar mediante el Filtro de Kalman, la posición, la velo-
+   cidad y la aceleración de una partícula en el plano. Si la ecuación de medida viene dada por
+   una matriz H con primera fila (0,0,0,0,1,0), segunda fila (0,0,0,0,0,1). a) ¿Qué información
+   (medida-observación) se está proporcionando? b) ¿Y si la matriz H fuera la identidad?
+
+3) (2p) Si en el problema anterior el sensor proporcionara una medida de la velocidad de la
+   partícula. a) ¿Cómo sería la matriz H asociada a la ecuación de medida? b) ¿Y si el sensor
+   proporcionara la posición y la aceleración de la partícula? c) ¿Y si la observación-medida
+   aporta la media de las coordenadas de la posición? Encuentra la matriz H y escribe la ecua-
+   ción de medidas-observaciones en cada uno de los tres casos/modelos propuestos.
+
+4) (2p) El ejemplo desarrollado en las páginas 52 y 53 de la Ref. 7 (M. Valderrama. Aplicacio-
+   nes en medicina: oscilación del tejido cardiaco), contiene alguna/s errata/s que ya habéis lo-
+   calizado en las tareas recomendadas del curso. Analizad en este ejercicio qué estimación se
+   obtendría en la segunda iteración del filtro, proporcionando también la matriz de covarianza
+   asociada, si la segunda medida z(2) es 17 con una varianza igual a la de la primera medida
+   z(1). Recordad que el artículo emplea la notación y(i) en lugar de z(i) para las medidas/ob-
+   servaciones.
+
+5) (3 p) Se pretende estimar mediante el Filtro de Kalman, la posición y la velocidad de una
+   partícula en el plano que se mueve con velocidad constante v. Cada 0,2 sg se obtienen obser-
+   vaciones-mediciones ruidosas de la posición y de la velocidad de la partícula.
+
+  Se asume que la matriz de covarianza Q asociada al modelo es la matriz identidad I y que la
+  asociada a las mediciones, R, es una matriz diagonal con varianzas 0,01 en cada uno de los
+  elementos de la diagonal. La matriz de covarianza P0 asociada al dato inicial, es P0= 2I
+
+   a) Escribe las ecuaciones del FK completo utilizando la información proporcionada en el
+      enunciado. Hay varias propuestas posibles, puedes elegir la que prefieras.
+
+   b) Ilustra cómo se aplicaría el FK en un ejemplo concreto. Para ello, elige valores para la
+      velocidad v, la posición inicial y para el vector de medidas/observaciones Z1. Estima la
+      posición de la partícula después de la primera iteración del FK. Explica-interpreta los re-
+      sultados obtenidos.
+
+MODELO B:
+
+
+                                                                                                  2
+                                                                     Tareas de evaluación del Módulo 3
+
+
+TAREAS “OBLIGATORIAS-COMUNES” (7 PTOS): Ejercicios 1,2,3 y 4 de este docu-
+mento.
+TAREAS OPCIONALES (3 PTOS): Se asignan una vez corregida la parte obligatoria siempre
+que se haya obtenido una calificación superior a cinco en la parte común-obligatoria.
+
+** Incluid en la entrega esta página con vuestros datos y el Modelo de Evaluación elegido.
+
+Los alumnos interesados en realizar y presentar estas tareas opcionales, han de comunicarlo a
+través del correo electrónico mchaves@usal.es para programar los distintos trabajos y
+organizar las sesiones de exposición correspondientes a esta parte.
+
+
+                                                                                             3
+HERRAMIENTAS MATEMÁTICAS PARA EL GEOPROCESADO
+                 Tareas de evaluación del Módulo 3
+
+
+                                          4

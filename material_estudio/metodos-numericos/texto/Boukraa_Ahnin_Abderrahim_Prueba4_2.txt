@@ -1,0 +1,447 @@
+MÓDULO 4
+         TÉCNICAS DE DESENVOLVIMIENTO DE FASE
+        FUNDAMENTOS MATEMÁTICOS Y APLICACIONES
+
+
+                   Prueba de evaluación 4
+
+
+                      CURSO 2021/22
+
+
+BOUKRAA AHNIN ABDERRAHIM
+                                                 22/05/2022
+
+
+                            1
+a) Construcción del vector w que contenga los elementos de la fase envuelta de f
+a.a. mediante el método de “añadiendo/ restando el múltiplo de 2π necesarios”:
+   W= (-6 + 2π, -9 + 2π, -7 + 2π, -4 + 2π, -1, 2, 4 - 2π)     , con   -π < W < π
+   W= (0.283 , -2.7168 , -0.7168 , 2.283 , -1 , 2 , -2.283)
+a.b. mediante el método de funciones en Matlab “atan2 y angle”:
+   Método de atan2:
+   Podemos rescribir la señal como la siguiente función:
+   S(t)= r(t)*cos(f(t)) + r(t)*seno(f(t)) *i
+   r(t): Amplitud
+   i: Imaginario
+   S(t)= Señal compleja
+   f(t): Vector fase
+   En MATLAB introducimos la función “atan2(sin(f),cos(f))” para calcular W
+   envuelta de f
+
+
+                                          2
+       Método de angle:
+       Podemos rescribir la señal como la siguiente forma:
+       S(t)= r(t)*ef(t)*i
+       r(t): Amplitud
+       i: Imaginario
+       S(t)= Señal compleja
+       f(t): Vector fase
+       e: Exponencial
+       En MATLAB introducimos la función “ angle (exp(f*i))” para calcular W
+       envuelta de f
+
+
+En estas operaciones hemos obtenido los mismos elementos del vector envuelto W.
+
+
+b). -Sabemos que la fase f(t) más cualquier múltiplo de π es continua y da el mismo
+vector envuelto w.
+Pero para recuperar la fase desenvuelta u(t) que coincide con la fase original no la vamos
+a obtener directamente, pues existen muchas fases que dan el mismo vector w como
+hemos mencionado antes. Entonces para solucionar el problema habrá que incluir algunas
+condiciones más:
+   -   Continuidad de f(t) en [0,1]
+   -   Fijamos la fase desenvuelta y la fase envuelta en el mismo t=0 → u(t)=w(t)
+   -   Incorporación de un dato adicional sobre la fase original f(t) para poder corregir
+       la fase desenvuelta con múltiplos adecuados de 2π
+   Así obtendremos la fase desenvuelta corregida u(t) que coincide con la fase original
+   f(t)
+
+
+                                           3
+c)- Aplicando las técnicas del desenvolvimiento de fase mediante métodos estudiados
+en las sesiones 11 y 12 para construir el vector u que contiene la fase desenvuelta
+correspondiente al vector w y que cumple que u (0) = w (0) (el primer elemento de u
+es igual al primer elemento de w).
+El vector u(t) está relacionado con w(t) de la siguiente forma:
+U(t)=w(t)+2πk(t)
+Para ello:
+    -   La fase resultante tiene que ser continua.
+    -   Valor absoluto de la distancia entre fases consecutivas menor que π (Criterio de
+        Nyquist).
+                /u(n+1)-u(n)/<π
+    -   El primer elemento de u es igual al primer elemento de w: u (0) = w (0)
+Ahora precedemos a calcular el vector u con estas condiciones:
+Tenemos: W= (-6 + 2π, -9 + 2π, -7 + 2π, -4 + 2π, -1, 2, 4 - 2π)
+u= (-6 + 2π+2k0π, -9 + 2π+2k1π, -7 + 2π+2k2π, -4 + 2π+2k3π, -1+2k4π, 2+2k5π, 4 - 2π+2k6π)
+Luego u (0) = w (0) = -6 + 2π → k0=0
+/u(1)-u(0)/<π →-π<-9 + 2π+2k1π –(-6 + 2π )< π → k1=0
+u(1)= -9 + 2π
+/u(2)-u(1)/<π →-π<-7 + 2π+2k2π –(-9 + 2π )< π         → k2=0
+
+u(2)= -7 + 2π
+/u(3)-u(2)/<π →-π<-4 + 2π+2k3π –( -7 + 2π)< π         → k3=0
+
+u(3)= -4 + 2π
+/u(4)-u(3)/<π →-π<-1+2k4π –(-4 + 2π )< π        → k4=1
+
+u(4)= -1 + 2π
+/u(5)-u(4)/<π →-π<2+2k5π –( -1 + 2π)< π         → k5=1
+
+u(5)= 2 + 2π
+/u(6)-u(7)/<π →-π<4 - 2π+2k6π –(2 + 2π )< π     → k6=2
+
+u(6)= 4 + 2π
+Entonces:
+u= (-6 + 2π, -9 + 2π, -7 + 2π, -4 + 2π, -1+2π, 2+2π, 4 + 2π)
+Lo que es lo mismo:
+
+u= (0.283 , -2.7168 , -0.7168 , 2.283 , 5.283 , 8.283 , 10.283)
+
+                                              4
+Comprobamos estos resultados en Matlab utilizamos la función “unwrap”:
+He obtenido el mismo resultado calculado en este apartado.
+
+
+Comparando el vector desenvuelto u con el vector de fase f no coinciden, habrá que
+introducir otra condición para que se corrija la fase desenvuelta u y se ajusta a f:
+Para ello elijemos u(0)=f(0)=-6
+Y para que se cumple esta condición habrá que restar a u(t)-2π
+f=u= (-6, -9, -7, -4, -1, 2, 4)
+
+
+Ahora construimos la fase desenvuelta u, utilizando el Algoritmo de Itoh y
+comprobare los resultados obtenidos:
+Para aplicar Algoritmo de Itoh habrá que cumplir las cuatro condiciones siguientes:
+1º- Calculo de las diferencias de fase envuelta w:
+D(i) = w(i+1) – w(i)
+        W= (-6 + 2π, -9 + 2π, -7 + 2π, -4 + 2π, -1, 2, 4 - 2π)   , con   -π < W < π
+D(1) = -9 + 2π – (-6 + 2π) = -3
+D(2) = -7 + 2π – (-9 + 2π) = 2
+
+                                            5
+D(3) = -4 + 2π – (-7 + 2π) = 3
+D(4) = -1 –(-4 + 2π) = 3 - 2π
+D(5) = 2 – (-1)     =3
+D(6) = 4 - 2π – (2) = 2- 2π
+Luego:
+   D(w(n)) = (-3, 2, 3, 3 - 2π, 3, 2- 2π)
+
+
+2º- Calculo de la envuelta de las diferencias de la fase envuelta:
+W[D(w(n))] = Arc tan(sin(D(i) , cos(D(i))))
+       W[D(w(n))] = (-3, 2, 3, 3 - 2π + 2π, 3, 2- 2π + 2π)           , con   -π < W < π
+W[D(w(n))] = (-3, 2, 3, 3, 3, 2)
+
+
+3º- Inicializamos el proceso con el primer elemento de u es igual al primer elemento de
+w: u (0) = w (0)
+
+
+u (0) = w (0) = -6 + 2π
+
+
+4º- Calculo del vector desenvuelto u añadiendo las diferencias de fase envuelto:
+U(n) = U(n+1) + W[D(w(n-1))] = u(0) + Σ1n w(D(i-1)
+U(0) =-6 + 2π
+U(1) = -6 + 2π + (-3) = -9 + 2π
+U(2) = -9 + 2π + (2) = -7 + 2π
+U(3) = -7 + 2π + (3) = -4 + 2π
+U(4) = -4 + 2π + (3) = -1 + 2π
+U(5) = -1 + 2π + (3) = 2 + 2π
+U(6) = 2 + 2π + (2) = 4 + 2π
+Finalmente he llegado al mismo resultado obtenido anteriormente
+u= (-6 + 2π, -9 + 2π, -7 + 2π, -4 + 2π, -1+2π, 2+2π, 4 + 2π)
+Lo que es lo mismo:
+
+u= (0.283 , -2.7168 , -0.7168 , 2.283 , 5.283 , 8.283 , 10.283)
+
+
+                                            6
+Creamos un vector f que contenga siete elementos de una fase y que cumpla los
+siguientes requisitos:
+   i)       f(0) = w (0) = u (0)
+   ii)      Tres componentes de f no coinciden con w.
+   iii)     U y f no coinciden en varias de sus componentes.
+1º condición - π < f(0) < π pues       -π<w<π
+Podemos elegir por ejemplo:
+f(0) = w (0) = u (0) = -2
+2º condición:
+Para que tres componentes de f no coinciden con w, entonces tiene que ser f > π o
+f <- π
+Luego puedo elegir el vector f = (-2, 4, -3, -5, 0, 7, 1)
+Calculo del vector envuelto w:
+W = (-2, 4-2π, -3, -5 + 2π, 0, 7 - 2π, 1)
+W = (-2, -2.283, -3, 1.283, 0, 0.7168, 1)
+
+
+Ahora precedemos a calcular el vector u con estas condiciones:
+Tenemos: W= (-2, 4-2π, -3, -5 + 2π, 0, 7 - 2π, 1)
+u= (-2 + 2k0π, 4-2π+2k1π, -3+2k2π, -5 + 2π +2k3π, 0+2k4π, 7 - 2π +2k5π, 1+2k6π)
+Los primeros elementos de f, w y u son iguales: f (0) = u (0) = w (0) = -2
+
+
+                                              7
+Luego f (0) = u (0) = w (0) = -2 → k0=0
+/u(1)-u(0)/<π →-π<4-2π+2k1π –(-2 )< π → k1=0
+u(1)= 4 - 2π
+/u(2)-u(1)/<π →-π< -3+2k2π –(4 -2π )< π                 → k2=0
+
+u(2)= -3
+/u(3)-u(2)/<π →-π< -5 + 2π +2k3π –( -3)< π              → k3=-1
+
+u(3)= -5
+/u(4)-u(3)/<π →-π< 0+2k4π –(-5)< π      → k4=-1
+
+u(4)= -2π
+/u(5)-u(4)/<π →-π<7 - 2π +2k5π –(-2π)< π        → k5=-1
+
+u(5)= 7 - 4π
+/u(6)-u(7)/<π →-π< 1+2k6π –(7 - 4π)< π          → k6=-1
+
+u(6)= 1-2π
+Entonces:
+u= (-2, 4 - 2π, -3, -5, -2π, 7 - 4π, 1- 2π)
+Lo que es lo mismo:
+
+u= (-2 , -2.283 , -3 , -5 , -6.283 , -5.566 , -5.283)
+Entonces u y f no coinciden en varias de sus componentes.
+f = (-2, 4, -3, -5, 0, 7, 1)
+
+u= (-2, -2.283 , -3 , -5 , -6.283 , -5.566 , -5.283)
+Resolvemos y corregimos el problema que impide el buen funcionamiento del
+desenvolvimiento de fase.
+Creamos un nuevo vector f ’ que contenga entre sus componentes las del vector f:
+Para ello establecemos un orden de tal manera que f ‘ = u +- 2π
+Luego:
+
+f ’= (-2, 4 - 2π+2π, -3+2π, -5+2π, -2π+2π, 7 - 4π+2π, 1- 2π+2π)
+f ‘ = (-2, 4, -3+2π, -5+2π, 0, 7-2π, 1) = (-2, 4, 3.283, 1.283, 0, 0.7168, 1)
+
+
+                                              8
+Si comprobamos los resultados en Matlab obtendremos lo siguiente:
+
+
+u= (-2, 4 - 2π, -3, -5, -2π, 7 - 4π, 1- 2π)
+Lo que es lo mismo:
+
+u= (-2 , -2.283 , -3 , -5 , -6.283 , -5.566 , -5.283)
+f ‘ = u + 2π     con f ‘(0) = u(0)
+
+
+        Para empezamos a resolver este problema, vamos a elegir los parámetros según
+        las instrucciones propuestas.
+        Entonces: a=8 y b=20 para facilitar el cálculo.
+        Luego la fase f quedara como: f(t) = 8*t2       con 0 < t < 1
+2.1.- Construimos la fase envuelta w(t) asociada a la fase f(t):
+        Tenemos f(t) continua en ]0,1[
+        f ´(t) = 16 t > 0    →     f (t) creciente
+        f ´´(t) = 16   >0    →     f (t) convexa
+        Calculamos máximo y mínimo valor de f(t) en [0,1]
+        f(0) = 0 ,     f(1) = 8 > 2π
+
+
+                                               9
+Luego los cortes será uno en π.
+                                              𝜋
+Entonces para f(t) = 8*t2 = π          → t1 = √ = 0.6266
+                                              8
+
+Entonces la fase envuelta w(t) es:
+                                                                         𝜋
+         f(t) si t є [0, t1]                        8*t2 si t є ]0, √ ]
+                                                                         8
+
+w(t)                                   →    w(t)
+         f(t) - 2π si t є [t ,1]                    8*t2 - 2π si t є [       𝜋,1[
+                               1                                         √
+                                                                             8
+
+Comprobamos en Matlab:
+
+
+2.2 Calculo de la fase desenvuelta u(t) a partir de la fase envuelta w(t) obtenida en el
+apartado anterior.
+Tenemos w(t) calculada anteriormente y localizamos las discontinuidades en este caso
+         𝜋
+𝑡 1 = √8 .
+
+       8*t2 si t є ]0, √𝜋 ]
+                               8
+
+w(t)
+         8*t2 - 2π si t є [ 𝜋,1[
+                           √
+                                   8
+
+Esta discontinuidad es evitable, basta corregir el salto en t1 añadiendo 2π.
+Luego:
+
+
+                                                   10
+       8*t2 si t є ]0, √𝜋 ]
+                        8
+
+u(t)
+
+       8*t2 - 2π + 2π si t є [√𝜋,1[
+                               8
+
+Por último:
+       U(t) = 8*t2 = f(t) para 0 < t < 1
+En este caso se recuperó correctamente la fase original f(t).
+
+
+  Para empezamos a resolver este problema, usamos los parámetros elegidos
+anteriormente según las instrucciones propuestas.
+Entonces: a=8 y b=20 para facilitar el cálculo.
+Luego la fase f quedara como: f(t) = 8*t2    con 0 < t < 1
+
+
+  Aplicamos el criterio de Nyquist para determinar el número mínimo de elementos que
+ha de tener una muestra correspondiente a la fase envuelta w, para poder asegurar la
+correcta recuperación de la fase f (se supone que no hay ruido u otros factores que
+interactúen en el proceso).
+Tenemos: f(t) = 8*t2 con 0 < t < 1
+Ponemos h=Δt
+Y N el número mínimo de elementos del intervalo que hay que determinar N=1/h
+
+
+                                            11
+Tenemos |f(t+h)-f(t)|=|f `(t) | * h < (Máximo | f `(t) |) * h < π
+M=Máximo | f `(t) | cuando t=1
+Entonces M=16*1 =16
+Luego: 16 * h < π lo mismo que 16 *1/N < π → N > 16/ π > 5
+Entonces el número de Nyquist es N > 5
+Lo comprobamos con Matlab:
+Para N=5:
+La correcta recuperación de la fase f
+
+
+Para N=4
+La mala recuperación de la fase f
+
+
+                                              12
+3.1.- Creamos un programa/ función, de Matlab, que permite obtener la fase envuelta w
+con la función: w=angle(s); y la fase desenvuelta u con la función: u=unwrap(w);
+correspondiente a la fase elegida en el ejercicio 2: f(t)=8*t2.
+
+
+Vamos a realizar distintas simulaciones variando el numero N de elementos de la
+muestra y veremos lo que sale.
+Ponemos N=10:
+
+
+U(t) y f(t) coinciden, la fase f(t) se recuperó correctamente.
+
+
+                                             13
+                                Probamos ahora con N=5:
+
+
+U(t) y f(t) coinciden, la fase f(t) se recuperó correctamente.
+Probamos con N=4:
+
+
+U(t) y f(t) coinciden solo en un trozo, la fase f(t) no se recuperó correctamente.
+Entonces podemos decir que por debajo del número N=5 la fase f(t) no se recupera
+correctamente. Comparado con lo obtenido en el apartado anterior veremos que al
+introducir el numero N menor que el numero N de Nyquist encontrado en los cálculos
+anteriores, la fase f no se recupera correctamente (efecto de aliasing) y esto se produce
+cuando se intenta de recuperar la fase original con insuficiencia de elementos de la
+muestra.
+
+                                             14
+Ahora localizamos el numero de Nyquist para a=25 y b=2
+Entonces la forma de f es:
+f(t) = 25*t2 + 2 - 20   con 0 < t < 1
+f(t) = 25*t2 -18    con 0 < t < 1
+
+
+Ahora probamos con el numero de Nyquist del otro apartado N=5:
+
+
+U(t) y f(t) coinciden solo en un trozo, la fase f(t) no se recuperó correctamente.
+Para la fase anterior con 5 elementos de la muestra se recuperó correctamente la fase,
+pero al modificar los parámetros a y b cambiara el número de Nyquist.
+
+
+                                            15
+Ahora probamos para N=9
+
+
+U(t) y f(t) coinciden solo en un trozo, tampoco se recuperó correctamente la fase f.
+Si ponemos N=10:
+
+
+U(t) y f(t) coinciden, la fase f(t) se recuperó correctamente.
+Entonces podemos decir que por debajo del número N=10 la fase f(t) no se recupera
+correctamente, luego el nuevo número de Nyquist para esta fase es 10.
+
+
+                                             16
+3.2.- Utilizamos el programa anterior con la señal sr(t)=s(t) + ruido para analizamos el
+efecto de ruido en el desenvolvimiento de fase, para ello utilizamos una muestra con un
+numero de elementos grande para que no interfiera el efecto de aliasing con el efecto de
+ruido que vamos a estudiar.
+i)
+Ahora la forma de la señal quedara como:
+S=A*exp(1i*f) + V*exp(1i*randn(size(t)));
+Con: f(t)=25*t2 – 18
+       V: Varianza a elegir
+       A: Amplitud de la señal, A=1
+
+
+Si elegimos V=2, obtuvimos lo siguiente:
+
+
+U(t) muy ruidosa, U(t) y f(t) no se parecen, luego la fase f(t) no pudo recuperarse,
+aunque tenemos un gran numero de elementos en la muestra N=1000.
+
+
+                                            17
+Ahora probamos con V=0.01, obtuvimos lo siguiente:
+
+
+A simple vista, U(t) no se ve afectada por el ruido si la varianza es muy pequeña
+V=0.01, U(t) y f(t) se parecen, luego la fase f(t) se ha podido recuperarse.
+Pero si hacemos el zoom en la gráfica, obtuvimos lo siguiente:
+
+
+U(t) sigue teniendo el ruido, esto significa que sea como sea de pequeña la cantidad de
+ruido, llega a influir sobre la señal resultante en más o en menos.
+
+
+                                           18
+ii) Ahora fijamos la varianza en V=1 y variamos la amplitud de la señal A:
+Ahora la forma de la señal quedara como:
+S=A*exp(1i*f) + exp(1i*randn(size(t)));
+Con: f(t)=25*t2 – 18
+       V: Varianza, V=1
+       A: Amplitud a elegir.
+Si elegimos A=1, obtuvimos lo siguiente:
+
+
+U(t) y f(t) se parecen, con U(t) muy ruidosa.
+Ahora probamos con A= 1/V =100
+
+
+A simple vista, U(t) no se ve afectada por el ruido si la varianza V=1 y A = 100 , U(t) y
+f(t) se parecen, luego la fase f(t) se ha podido recuperarse.
+
+
+                                           19
+Pero si hacemos el zoom en la gráfica, obtuvimos lo siguiente:
+
+
+U(t) sigue teniendo el ruido igual que lo hemos obtenido con A=1 y V=1/100, esto
+significa que existe una relación directa entre la amplitud A y la varianza V.
+Entonces para disminuir el ruido en la señal recuperada habrá que trabajar con señales
+de grandes amplitudes.
+
+
+                                           20

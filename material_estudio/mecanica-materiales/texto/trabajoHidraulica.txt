@@ -1,0 +1,203 @@
+Plataforma Hidráulica Convencional
+  de Carga Trasera para Camiones
+
+
+           Proyecto de semestre
+
+
+           Resistencia de Materiales
+    Instituto Tecnológico Metropolitano, ITM
+              Medellín, Colombia
+                    2022-2
+    1. Introducción
+En la vida profesional como futuros ingenieros electromecánicos se enfrentará a un sin número de
+proyectos, problemas y/o metas que deben cumplir, superar y/o lograr; para esto, es necesario comenzar a
+prepararse de la mejor manera en estos aspectos. Actualmente, existe la metodología de Aprendizaje
+Basado en Problemas (ABP) que es ampliamente empleada a nivel mundial, este es un método de
+enseñanza-aprendizaje que es centrado en el estudiante que adquiere conocimientos, habilidades y
+actitudes a través de situaciones de la vida real.
+El ITM en su desarrollo pedagógico evalúa constantemente sus metodologías y programas curriculares para
+estar a la vanguardia de los procesos educativos, para el curso de resistencia de materiales se determina
+que es pertinente utilizar la metodología ABP en uno de sus porcentajes evaluativos y se establece que para
+el semestre en curso el problema a desarrollar es una plataforma de elevación.
+
+
+    2. Definición
+
+La plataforma hidráulica de carga trasera para camiones es un tipo de equipo de elevación y
+manipulación que generalmente es instalado en la parte de atrás de camiones u otros vehículos, la cual usa
+un acumulador montado en el vehículo como potencia motriz. Estos dispositivos pueden mejorar
+considerablemente la eficiencia en el transporte, la carga y la descarga, siendo caracterizados por una amplia
+capacidad de carga y buena practicidad, permitiendo ser aplicables a varios tipos de vehículos. Con la ayuda
+de esta herramienta de manipulación, los productos en el camión pueden ser descargados con mayor
+comodidad, agilidad y seguridad tanto para la carga como para las personas, siendo utilizada en el servicio
+postal, alimentos, logística y otras industrias [1].
+
+
+    3. Objetivo
+
+Diseñar a nivel de detalle una plataforma hidráulica de carga trasera para camiones que cumpla los
+parámetros de diseño establecidos, promoviendo el aprendizaje basado en problemas como metodología
+para la aplicación del conocimiento adquirido en el transcurso de la asignatura.
+
+
+    4. Modalidad de desarrollo
+
+Este proyecto será realizado de forma grupal, los grupos estarán conformados por máximo 4 integrantes.
+       5. Parámetros de diseño
+
+En la Figura 1 se presentan las partes detalladas de una plataforma hidráulica de carga trasera para
+camiones, la cual será utilizada como referencia para el diseño de este trabajo, pero de la cual NO se entrarán
+a realizar ni analizar cada uno de sus componentes. Los parámetros de diseño son los requerimientos que
+debe cumplir la plataforma hidráulica de carga trasera para camiones (Figuras 2-4 y Tabla 1), tabla en la
+cual los valores de X1X2X3X4 corresponden a los últimos cuatro (4) dígitos del documento de identidad
+(cédula), por ejemplo, si el valor es 82X1.X2X3X4 mm y su documento de identidad termina en 1851, sería
+821.851 mm.
+
+
+            Figura 1. Partes detalladas una plataforma hidráulica de carga trasera para camiones1
+
+
+    Figura 2. Dimensiones generales que se emplearán para el diseño de la plataforma hidráulica de carga
+                                          trasera para camiones2
+
+1
+    https://docplayer.es/23262647-Manual-de-uso-para-trampillas-elevadoras-mbb-palfinger.html
+2
+    http://www.megadistributor.com.ar/file/Plataformas%20Retractiles.pdf
+    Figura 3. Dimensiones generales que se emplearán para el diseño de la plataforma hidráulica de carga
+                                          trasera para camiones3
+
+
+    Figura 4. Dimensiones generales que se emplearán para el diseño de la plataforma hidráulica de carga
+                                          trasera para camiones4
+
+
+3
+    https://lqtecno.blogspot.com/2013/11/plataforma-elevadora-camion-julio-2013.html
+4
+    http://www.solucionesenaccesosmg.com.mx/producto/rampa-oculta-de-uso-rudo/
+       Tabla 1. Parámetros de diseño para la plataforma hidráulica de carga trasera para camiones
+
+                                                                                              Valor o
+            Parámetro                                   Definición
+                                                                                           característica
+                                      Carga máxima que puede ser levantada por la
+           Capacidad de carga
+                                      plataforma sin exceder la capacidad de los               2000 kg
+                máxima
+                                      cilindros hidráulicos.
+                                      Carga que será utilizada para realizar el
+          Carga soportada por la
+                                      análisis, la cual representa una caja que deberá   15X1X2.X3X4 kg
+        plataforma para el análisis
+                                      ser levantada por la plataforma.
+                                      Dimensiones que tendrá la caja que será            Base (cuadrada):
+          Dimensiones de la caja
+                                      utilizada como objeto de análisis, la cual se      14X1X2.X3X4 mm
+          (carga para el análisis)
+                                      encuentra ubicada sobre la plataforma.
+                                      Longitud del brazo o eslabón que conecta la
+                  Brazo               estructura del camión con la plataforma de 82X1.X2X3X4 mm
+                                      elevación de la carga (ver Figura 2).
+                                      Distancia vertical que existe entre el pin donde
+                                      se conecta el brazo con la estructura del
+                                      camión y el suelo del camión (también
+                                                                                       65X1.X2X3X4 mm
+  C              Altura C             conocida como cama, superficie inferior al
+                                      interior del camión donde se ubican los
+                                      productos o cargas) (ver Figura 2).
+                                      Distancia que existe entre el pin donde se
+ CO             Altura CO             conecta el brazo con la estructura del camión y 70X1.X2X3X4 mm
+                                      el suelo (el piso) (ver Figura 2).
+
+  L     Longitud de la plataforma     Longitud que tiene el panel de la plataforma
+                                                                                   15X1X2.X3X4 mm
+             (panel o plato)          (ver Figura 4).
+
+  B       Ancho de la plataforma      Ancho que tiene el panel de la plataforma (ver
+                                                                                     23X1X2.X3X4 mm
+             (panel o plato)          Figura 4).
+                                      Ancho del remolque (parte trasera del camión) 35X1X2.X3X4 mm
+  E      Ancho total del remolque
+                                      medido desde el exterior (ver Figura 3).
+
+  D         Ancho interno del         Ancho del remolque (parte trasera del camión) 33X1X2.X3X4 mm
+               remolque               medido desde el interior (ver Figura 3).
+
+
+      6. Entregas
+
+El proyecto se encuentra dividido en dos (2) entregas, de las cuales el entregable final (entrega 2) debe estar
+completamente digitalizado, es decir, para la entrega 1 se permiten entregas parcial o totalmente
+manuscritas (escritas a mano, manteniendo una excelente presentación), mientras que para la entrega final
+no se recibirán trabajos manuscritos, salvo en el caso especial en el cual el grupo de estudiantes demuestre
+que no cuentan con ningún dispositivo para la realización de las entregas en computadora y que vive en un
+lugar sin acceso a cualquier tipo de dispositivos de esta índole. Las entregas se realizarán por la plataforma
+Cvirtual, siendo redactadas como informe (trabajo escrito) con las debidas normas de presentación,
+teniendo en cuenta que cada entrega irá complementando la anterior, es decir, que cada entrega deberá
+contener la(s) anterior(es).
+Es responsabilidad de cada grupo de estudiantes del curso subir solo un archivo en formato PDF que
+permita la adecuada visualización del trabajo realizado (sólo lo sube un integrante del grupo), y la
+validación del archivo desde la misma plataforma (que sea el documento correcto, que haya adjuntado
+adecuadamente, que no esté corrupto, la calidad de la presentación y visualización del trabajo enviado,
+entre otras).
+Los contenidos de las entregas y las fechas con la hora de estas se especifican en la Tabla 2, las entregas
+realizadas posterior a la fecha y hora establecidas se recibirán, pero tendrán las penalizaciones especificadas
+en la Tabla 3. La calificación es por competencias y por tanto en la entrega siguiente se podrá mejorar la
+nota obtenida en la(s) entrega(s) anterior(es), realizando un promedio entre las entregas.
+
+        “Todas las entregas deberán ser sustentadas a través de un vídeo”
+
+                           Tabla 2. Requerimientos, fecha y hora de las entregas
+
+       Entrega                                  Requerimientos                         Fecha
+                      Diseño y dimensionamiento plataforma hidráulica
+                               de carga y carrera del cilindro
+                            Planos 2D (Para esta entrega solo es
+           I                     necesario el plano general)                    7/10/2022, 23:55 hr
+                             Cálculos de reacciones y/o apoyos
+                                    Vídeo sustentación
+                         Diseño y cálculo de elementos de máquina
+                    Selección de perfiles (cálculo de resistencia de los
+                                        elementos)
+                       Cálculo y selección comercial de pasadores
+           II               Planos 2D y 3D (Todos los planos,                  18/11/2022, 23:55 hr
+                             ensamble, detalles, explosionado,
+                                      isométricos, …)
+                                    Vídeo sustentación
+
+
+                                        Tabla 3. Penalización de entregas
+
+                    Tiempo de retraso (días)        Penalización    Base de calificación
+                                 0                        0                  5.0
+                                (0,1]                     0.5                4.5
+                                (1,3]                     1.0                4.0
+                                (3,5]                     1.5                3.5
+                                (+5)                 No se recibe            0.0
+     7. Asesorías y acompañamiento del proyecto
+
+Arley Johany Cardona Vargas
+Se asigna la asesoría según la previa solicitud del estudiante
+
+
+Nota: Esta es la versión 1.0 de la guía de la plataforma hidráulica de carga trasera para camiones, esta
+puede ser actualizada para mejorar la compresión o incluir datos importantes para el desarrollo del proyecto,
+la última versión siempre estará disponible en la plataforma virtual. Todos los cambios serán notificados en
+la plataforma virtual.
+
+
+     8. Referencias
+
+ • https://docplayer.es/23262647-Manual-de-uso-para-trampillas-elevadoras-mbb-palfinger.html
+ • http://www.megadistributor.com.ar/file/Plataformas%20Retractiles.pdf
+ • https://www.youtube.com/watch?v=PiuTGfnMD7s
+ • https://lqtecno.blogspot.com/2013/11/plataforma-elevadora-camion-julio-2013.html
+ • http://www.tecfor.cl/productos/plataformas.php
+ • https://gestortruck.com/plataformas-de-carga-para-camion/
+ • https://www.tauro.mx/rampas-hidraulicas-railift-maxon/
+ • http://www.solucionesenaccesosmg.com.mx/producto/rampa-oculta-de-uso-rudo/
+ • https://spanish.alibaba.com/product-detail/hydraulic-tail-lifts-for-trucks-and-forklift-
+   60627502476.html
+ • http://www.dhollandia.bg/download/?type=dl&id=1037-3

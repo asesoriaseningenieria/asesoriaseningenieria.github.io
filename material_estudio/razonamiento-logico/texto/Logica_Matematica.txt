@@ -1,0 +1,440 @@
+Facultad de Contaduría y Administración. UNAM        Lógica matemática                       Autor: Dr. José Manuel Becerra Espinosa
+
+
+                                                                         MATEMÁTICAS BÁSICAS
+
+                                                                          LÓGICA MATEMÁTICA
+
+CONCEPTO DE LÓGICA MATEMÁTICA
+La Lógica estudia la forma del razonamiento. La Lógica Matemática es la disciplina que trata de métodos
+de razonamiento. En un nivel elemental, la Lógica proporciona reglas y técnicas para determinar si es o
+no valido un argumento dado. El razonamiento lógico se emplea en Matemáticas para demostrar
+teoremas, sin embargo, se usa en forma constante para realizar cualquier actividad en la vida.
+
+DEFINICIÓN Y CLASES DE PROPOSICIONES
+
+Una proposición o enunciado es una oración que puede ser falsa o verdadera pero no ambas a la vez.
+Toda proposición consta de tres partes: un sujeto, un verbo y un complemento referido al verbo. La
+proposición es un elemento fundamental de la Lógica Matemática.
+
+A continuación se tienen algunos ejemplos de proposiciones válidas y no válidas, y se explica el porqué
+algunos enunciados no son proposiciones. Las proposiciones se indican por medio de una letra
+minúscula, dos puntos y la proposición propiamente dicha.
+
+Ejemplos.
+p: México se encuentra en Europa.
+q: 15 − 6 = 9
+r: 2x − 3 > 7
+s: Los precios de los teléfonos celulares bajarán a fin de año.
+t: Hola ¿cómo estás?
+w: ¡Cómete esa fruta!
+
+Los enunciados p y q pueden tomar un valor de falso o verdadero, por lo tanto, son proposiciones
+validas. El inciso r también es una proposición valida, aunque el valor de falso o verdadero depende del
+valor asignado a la variable x en determinado momento. La proposición del inciso s también esta
+perfectamente expresada aunque para decir si es falsa o verdadera se tendría que esperar a que
+terminara el año. Sin embargo, los enunciados t y w no son válidos, ya que no pueden tomar un valor de
+falso o verdadero, uno de ellos es un saludo y el otro es una orden.
+En general, las proposiciones pueden ser:
+
+•        Simples si sólo tienen un sujeto, un verbo y un complemento. En caso contrario, son proposiciones
+         Compuestas.
+•        Cerradas si tienen determinado el sujeto. Abiertas si no lo tienen determinado.
+•        Afirmativas o Negativas. Según lo afirmen o nieguen.
+•        Verdaderas o Falsas según correspondan o no a la realidad.
+
+Ejemplos.
+
+h: "Ana come pizza y bebe refresco", es una proposición compuesta, cerrada y afirmativa.
+j: "Ella no nada muy rápido", es una proposición simple, abierta y negativa.
+k: “Cuernavaca no está al norte del D.F. y no hace frío", es una proposición compuesta, cerrada, negativa
+y verdadera.
+l: 7 + 3 = 10 es una proposición simple, cerrada, afirmativa y verdadera.
+m: x 2 ≠ x − 2 es una proposición simple, abierta y negativa.
+n: a + b = 6 es una proposición compuesta, abierta y afirmativa.
+
+                                                           1
+Facultad de Contaduría y Administración. UNAM       Lógica matemática                         Autor: Dr. José Manuel Becerra Espinosa
+
+
+CONECTIVOS LÓGICOS EN PROPOSICIONES COMPUESTAS
+
+Existen conectivos u operadores lógicos que permiten formar proposiciones compuestas, es decir,
+formadas por varias proposiciones. Los operadores o conectores básicos son:
+
+•        Conjunción (operador and)
+
+Se utiliza para conectar dos proposiciones que se deben cumplir para que se pueda obtener un resultado
+verdadero. Se le conoce como multiplicación lógica y su símbolo es ∧ (and).
+
+Ejemplo.
+Sea el siguiente enunciado: "Voy al cine cuando hay una buena película y cuando tengo dinero "
+Sean:
+p: Voy al cine.
+q: Hay una buena película.
+r: Tengo dinero.
+De tal manera que la representación del enunciado anterior usando simbología lógica es como sigue:
+p = q∧r
+
+Su tabla de verdad es como sigue:
+
+                                                q   r                   p∧r
+                                                1   1                    1
+                                                1   0                    0
+                                                0   1                    0
+                                                0   0                    0
+
+Donde.
+1 = verdadero
+0 = falso
+
+En la tabla anterior el valor de q=1 significa que hay una buena película, r=1 significa que tengo dinero y
+p=q∧r=1 significa que voy ir al cine. Se puede notar que con cualquiera de las dos proposiciones que
+valga cero implica que no asisto al cine.
+
+
+•        Disyunción (operador or)
+
+Con este operador se obtiene un resultado verdadero cuando alguna de las proposiciones es verdadera.
+Se conoce como suma lógica y su símbolo es ∨ (or).
+
+Ejemplo.
+Sea el siguiente enunciado: “Para ir a Toluca puedo tomar la carretera federal o tomar la autopista de
+cuota”
+Sean:
+p: Ir a Toluca.
+q: Tomar la carretera federal.
+r: Tomar la autopista de cuota.
+
+                                                q   r                   p∨r
+                                                1   1                    1
+                                                1   0                    1
+                                                0   1                    1
+                                                0   0                    0
+
+
+                                                          2
+Facultad de Contaduría y Administración. UNAM               Lógica matemática                                 Autor: Dr. José Manuel Becerra Espinosa
+
+
+En la tabla anterior el valor de q=1 significa tomar la carretera federal, r=1 significa tomar la autopista de
+cuota y p=q∨r=1 significa ir a Toluca. Se puede notar que con cualquiera de las dos proposiciones que
+valga uno implica que llego a Toluca.
+
+•        Negación (operador not)
+
+Su función es negar la proposición. Esto significa que sí alguna proposición es verdadera y se le aplica el
+operador not se obtendrá su negación (falso) y viceversa. Este operador se indica por medio del símbolo ’.
+
+Ejemplo.
+Sea el siguiente enunciado: “El león es el rey de la selva”
+Sean:
+p: El león es el rey de la selva.
+p’: El león no es el rey de la selva.
+
+Su tabla de verdad es como sigue:
+
+                                                        p                  p’
+                                                        1                  0
+                                                        0                  1
+
+En la tabla anterior el valor de p=1 significa que el león es el rey de la selva, y p=0 significa que el león
+        1
+no lo es .
+
+Ejemplo.
+Sean las proposiciones:
+p: Ya es tarde.
+q: Tengo que dormirme.
+r: Me levantaré temprano.
+El enunciado: "Ya es tarde y tengo que dormirme o no me levantaré temprano”. Se puede representar
+simbólicamente de la siguiente manera: p∧q∨r’
+
+
+PROPOSICIONES CONDICIONALES
+
+Una implicación o proposición condicional, es aquella que está formada por dos proposiciones simples (o
+compuesta) p y q. Se indica de la siguiente manera:
+
+                                                     p→q (se lee "si p entonces q")
+
+Ejemplo.
+Un profesionista dice "Si ahorro me podré comprar una casa en tres años ". Una declaración como esta
+se conoce como condicional.
+Sean:
+p: Ahorro.
+q: Podrá comprar una casa en tres años .
+De tal manera que el enunciado se puede expresar como: p→q
+Su tabla de verdad es de la siguiente manera:
+
+
+1
+  Además de los operadores básicos (And, Or y Not) existe el operador Xor, cuyo funcionamiento es semejante al operador Or con
+la diferencia de que su resultado es verdadero solamente si una de las proposiciones es cierta, y cuando ambas son verdad, el
+resultado es falso. Por otro lado, con ayuda de los operadores básicos se pueden formar los operadores compuestos Nand
+(combinación de los operadores Not y And), Nor (combina operadores Not y Or) y Xnor (resultado de Xor y Not).
+
+                                                                  3
+Facultad de Contaduría y Administración. UNAM               Lógica matemática                 Autor: Dr. José Manuel Becerra Espinosa
+
+
+                                                       p    q                   p→q
+                                                       1    1                    1
+                                                       1    0                    0
+                                                       0    1                    1
+                                                       0    0                    1
+
+La interpretación de los resultados de la tabla es la siguiente:
+Analizando si el profesionista mintió con la afirmación del enunciado anterior: Cuando p=1 significa que
+ahorró y q=1 que se compró la casa en tres años, por lo tanto p→q =1 (el profesionista dijo la verdad).
+Cuando p=1 y q=0 significa que p→q =0, el profesionista mintió, ya que ahorró y no se compró la casa.
+Cuando p=0 y q=1 significa que aunque no ahorró se compró la casa (ya tenía los recursos), así que no
+mintió, de tal forma que p→q =1. Cuando p=0 y q=0 se interpreta que aunque no ahorró tampoco se
+compró la casa, por lo tanto p→q =1 ya que tampoco mintió.
+
+
+PROPOSICIÓN BICONDICIONAL
+
+Sean p y q dos proposiciones. Una doble implicación o proposición es bicondicional cuando p es
+verdadera si y solo si q es también verdadera. O bien p es falsa si y sólo si q también lo es. Se indica de
+la siguiente manera:
+                                             p↔q (se lee "p si y sólo si q")
+
+Ejemplo.
+Sea el siguiente enunciado: "Una persona puede votar, si y sólo si, tiene credencial de elector"
+Donde:
+p: Una persona puede votar.
+q: Tiene credencial de elector.
+Su tabla de verdad es.
+
+                                                      p     q                   p↔q
+                                                      1     1                    1
+                                                      1     0                    0
+                                                      0     1                    0
+                                                      0     0                    1
+
+La interpretación de los resultados de la tabla es la siguiente:
+Cuando p=1 significa que una persona puede votar y q=1 que tiene credencial, al ser esto cierto, p→q
+=1. Cuando p=1 y q=0 significa que p→q =0, una persona puede no votar, ya que no posee la credencial.
+Cuando p=0 y q=1 significa que una persona no puede votar aunque tenga credencial (por ejemplo los
+residentes en el extranjero), esto es que p→q =0. Cuando p=0 y q=0 se interpreta como que ni puede
+votar ni tiene credencial, por lo tanto es cierto p→q =1.
+
+Ejemplo.
+Representar simbólicamente el enunciado: "Si no pago la luz, entonces me cortarán la corriente eléctrica.
+Y Si pago la luz, entonces me quedaré sin dinero o pediré prestado. Y Si me quedo sin dinero y pido
+prestado, entonces no podré pagar la deuda, si y sólo si soy desorganizado"
+
+Solución
+p: Pago la luz.
+q: Me cortarán la corriente eléctrica.
+r: Me quedaré sin dinero.
+s: Pediré prestado.
+t: Pagar la deuda.
+w: Soy desorganizado.
+
+                                                (p’→q)∧[p→(r∨s)]∧[(r∧s)→t’]↔w
+
+                                                                  4
+Facultad de Contaduría y Administración. UNAM                                  Lógica matemática                                   Autor: Dr. José Manuel Becerra Espinosa
+
+
+El número de líneas de la tabla de verdad depende del número de variables de la expresión y se puede
+calcular por medio de la siguiente formula.
+
+                                                                                                      n
+                                                                      No de líneas = 2
+
+donde n es el número de variables distintas.
+
+Ejemplo.
+Dada la siguiente proposición: [(p→q)∨(q’∧r)]↔(r→q).
+elaborar su tabla de verdad.
+
+Solución.
+
+                           p          q         r   q’   p→q      (q’∧r)     (p→q)∨ (q’∧r)                 r→q   [(p→q)∨(q’∧r)]↔(r→q)
+                           0          0         0   1     1         0             1                         1              1
+                           0          0         1   1     1         1             1                         0              0
+                           0          1         0   0     1         0             1                         1              1
+                           0          1         1   0     1         0             1                         1              1
+                           1          0         0   1     0         0             0                         1              0
+                           1          0         1   1     0         1             1                         0              0
+                           1          1         0   0     1         0             1                         1              1
+                           1          1         1   0     1         0             1                         1              1
+
+
+TAUTOLOGÍA, EQUIVALENCIA Y CONTRADICCIÓN
+
+Tautología es aquella proposición (compuesta) que es cierta para todos los valores de verdad de sus
+variables. Un ejemplo típico es la proposición contrapositiva cuya tabla de verdad se indica a
+continuación.
+
+                                                    p    q   p’     q’       p→q             q’→p’        (p→q)↔(q’→p’)
+                                                    0    0   1      1         1                1               1
+                                                    0    1   1      0         1                1               1
+                                                    1    0   0      1         0                0               1
+                                                    1    1   0      0         1                1               1
+
+Nótese que en las tautologías para todos los valores de verdad el resultado de la proposición es siempre
+uno. Las tautologías son muy importantes en Lógica Matemática ya que se consideran leyes en las
+cuales se puede apoyar para realizar demostraciones.
+
+Se dice que dos proposiciones son lógicamente equivalentes, o simplemente equivalentes. Si coinciden
+sus resultados para los mismo valores de verdad. Se indican como p≡q.
+
+En el ejemplo anterior, se puede observar que las columnas de (p→q) y (q’→p’) son iguales para los
+mismos valores de verdad, por lo tanto se puede establecer que (p→q) ≡ (q’→p’)
+
+Contradicción es aquella proposición que siempre es falsa para todos los valores de verdad, una de las
+mas usadas y mas sencilla es p∧p’ . Como lo muestra su correspondiente tabla de verdad.
+
+                                                                         p    p’                   p∧p’
+                                                                         0    1                     0
+                                                                         1    0                     0
+
+
+                                                                                     5
+Facultad de Contaduría y Administración. UNAM         Lógica matemática                       Autor: Dr. José Manuel Becerra Espinosa
+
+
+Ejemplo.
+Si se tiene p: “El coche es verde”, la proposición p∧p’ equivale a decir que "El coche es verde y el coche
+no es verde". Por lo tanto se esta contradiciendo, es decir, es una falacia.
+
+
+LEYES NOTABLES EN LÓGICA
+
+Las leyes de lógica más notables son las que se enlistan a continuación:
+
+1.- Ley de doble negación
+
+p''↔p
+
+2.- Leyes de idempotencia
+
+(p∨p) ↔ p
+(p∧p) ↔ p
+
+3.- Leyes asociativas
+
+[(p∨q)∨r] ↔ [p∨(q∨r)]
+[(p∧q)∧r] ↔ [p∧(q∧r)]
+
+4.- Leyes conmutativas
+
+(p∨q) ↔ (q∨p)
+(p∧q) ↔ (q∧p)
+(p↔q) ↔ (q↔p)
+
+5.- Leyes distributivas
+
+[p∨(q∧r)] ↔ [(p∨q)∧(p∨r)]
+[p∧(q∨r)] ↔ [(p∧q)∨(p∧r)]
+
+6.- Leyes de De Morgan
+
+(p∨q)' ↔ (p'∧q')
+(p∧q)' ↔ (p'∨q')
+
+
+MÉTODOS DE DEMOSTRACIÓN
+
+Todo enunciado puede ser planteado en términos de teoremas. Un teorema por lo general es resultado
+de un planteamiento de un problema, que normalmente presenta el siguiente formato:
+
+                                                (p1∧p2∧⋅⋅⋅∧pn) →q
+
+Como se establece p1, p2, p3, ⋅⋅⋅ pn son hipótesis (o premisas) derivadas del mismo problema y que se
+consideran válidas. Pero además deberán conectarse con el operador And (∧), lo cual implica que p1 es
+cierta y (∧) p2 es verdad y (∧)...... y pn también es cierta entonces (→) la conclusión (q) es cierta. Para
+realizar la demostración formal del teorema se deberá partir de las hipótesis, y después obtener una serie
+de pasos que también deben ser válidos, ya que son producto de reglas de inferencia. Sin embargo no
+solamente las hipótesis y reglas de inferencia pueden aparecer en una demostración formal, sino también
+tautologías conocidas. En el teorema anterior cada uno de los pasos p1, p2, p3, ⋅⋅⋅ pn son escalones que
+deberán alcanzarse hasta llegar a la solución.
+
+                                                            6
+Facultad de Contaduría y Administración. UNAM         Lógica matemática                        Autor: Dr. José Manuel Becerra Espinosa
+
+
+Lo mismo ocurre con todo tipo de problemas que se nos presentan en la vida, antes de llegar a la
+solución debemos alcanzar ciertas metas (p1, p2, p3, ⋅⋅⋅ pn) hasta llegar al objetivo o conclusión (q). Pero
+una vez que se logra el objetivo se deben plantear nuevos objetivos que permitan la superación.
+
+Los métodos de demostración más conocidos son los siguientes:
+
+•        Demostración por el método directo
+
+El método de demostración directa parte de la proposición p, que se supone verdadera, y deducir de ella
+una nueva proposición q que se pueda ver que es verdadera como resultado de que p lo es. Es
+importante resaltar que las proposiciones deducidas de p no deben ser hechas de cualquier modo, deben
+estar enfocadas hacia la última proposición obtenida.
+
+El camino que se debe seguir para llevar a cabo una demostración formal usando el método directo
+significa que si se sabe que p1 es verdadera, p2 es verdadera,..., y pn también es verdadera, entonces se
+sabe que q es verdadera.
+
+Prácticamente todos los teoremas matemáticos están compuestos por implicaciones del tipo:
+
+                                                (p1∧p2∧⋅⋅⋅∧pn) → q
+
+donde las pi son llamadas hipótesis o premisas, y q es llamada conclusión. "Demostrar el teorema", es
+demostrar que la implicación es una tautología. Nótese que no se trata de demostrar que q (la
+conclusión) es verdadera, sino solamente que q es verdadera si todas las pi son verdaderas.
+
+•        El método de demostración indirecta
+
+El método de demostración indirecta consiste en proceder al revés. Se fija la atención primeramente en
+q, es decir en la afirmación a la que se quiere llegar.
+
+Ubicada la premisa p, se va tratando de buscar situaciones intermedias p1, p2, p3, ⋅⋅⋅ pn de las que q se
+podría deducir. Se identifica si alguna de estas podría estar relacionada con la situación p, se podría
+deducir de ella. Cuando se encuentra, se verifica que el camino inverso que se ha encontrado, ahora de
+p a q, es correcto.
+
+•        Método de demostración por reducción al absurdo
+
+En el método de demostración de reducción al absurdo, se debe empezar suponiendo que p es
+verdadera, al igual que se hacía en el método de demostración directa. Ahora, sin embargo, para llegar a
+la conclusión buscada, a saber, que q es verdadera se puede proceder haciendo una pregunta muy
+simple: “¿Por qué no puede q ser falsa?”. Después de todo, si q tiene que ser verdadera, debe haber
+alguna razón por la que no pueda ser falsa. El objetivo del método de demostración por reducción al
+absurdo es, precisamente, descubrir esa razón. La idea es suponer que p es verdadera y q falsa y ver
+que no puede ocurrir esto.
+
+En la práctica la demostración por reducción al absurdo inicia considerando como hipótesis q’ y finaliza
+cuando el proceso de demostración obtiene dos proposiciones que se contradicen una a la otra.
+
+Ejemplo.
+Demostrar por reducción al absurdo que la raíz cuadrada de un número natural es natural o
+irracional.
+
+Solución.
+Sean los números naturales A y B primos entre sí con B ≠ 1
+
+
+                                                            7
+Facultad de Contaduría y Administración. UNAM             Lógica matemática                 Autor: Dr. José Manuel Becerra Espinosa
+
+
+                                                            A
+Suponiendo un número racional de la forma            n=
+                                                            B
+                                                A2
+Si se eleva al cuadrado: n =
+                                                B2
+Resulta un absurdo puesto que el miembro izquierdo es natural y el miembro derecho es racional e
+irreducible. Por lo tanto la raíz cuadrada de un número natural no es racional.
+
+•        La demostración por contraposición
+
+El método de la demostración por contraposición, tiene la ventaja de que se va a dirigir hacia una
+contradicción concreta. En la demostración por contraposición, al igual que la demostración por reducción
+al absurdo, se supone que tanto p como q’ son verdaderas. En el método por contraposición, sin
+embargo, no se parte de p y q’, sino que se empieza a trabajar solamente con q’ y el objetivo es llegar a
+que p es falsa, con lo que ya se ha llegado a una contradicción ¿qué mejor contradicción? ¿cómo puede
+ser p a la vez verdadera y falsa?
+
+
+                                                                8

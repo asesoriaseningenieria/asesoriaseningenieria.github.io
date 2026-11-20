@@ -1,0 +1,515 @@
+Módulo 1: Definición y propiedades del espacio vectorial
+
+1.2 Definición
+Los ejemplos anteriores nos sirven para obtener un conjunto de propiedades co-
+munes a ellos. Todos los resultados que podamos deducir a partir de dichas propie-
+dades serán válidos en los ejemplos realizados y en cualquier otro que goce de las
+mismas propiedades.
+
+A estas propiedades comunes las llamamos axiomas en la siguiente definición.
+
+Un espacio vectorial V es un conjunto de objetos llamados vectores con dos
+operaciones, suma y producto por un escalar, que satisface los siguientes axio-
+mas:
+
+i.      Si a y b son elementos de V, entonces a + b pertenece a V; o de otra forma,
+        la suma es una operación cerrada en V.
+
+ii.     (a + b) + c = a + (b + c) para todo a, b, c ∈ V .
+
+iii.    Existe un elemento 0 en V tal que a + 0 = 0 + a = a para toda a ∈ V .
+
+iv.     Para cada a ∈ V existe un elemento –a ∈ V tal que a + (−a) = 0.
+
+v.      a + b = b + a para todo a, b en V .
+
+
+vi.     Si a ∈ V y α es un escalar (α ∈ o α ∈ C), entonces α a ∈ V ; es decir,
+        V es cerrado bajo la operación producto por un escalar.
+
+vii.    α (a + b) = α a + α b para todo escalar α y para todo a y b ∈ V .
+
+viii.   (α + β )a = α a + β a para todo α , β escalares y a ∈ V .
+
+
+ix.     α ( β a) = (αβ ) a para todo α , β escalares y a ∈ V .
+
+x.      1a = a para todo a ∈ V .
+
+Nota: cuando los escalares son números reales, decimos que se trata de un espacio
+vectorial real, y en caso de que sean números complejos hablamos de un espacio
+vectorial complejo.
+
+
+                                                                                          Álgebra lineal elemental y aplicaciones 27
+Capítulo 1: Espacios vectoriales
+
+
+       1.4 Propiedades
+       Teorema 1
+
+       Sea V un espacio vectorial. Entonces:
+
+       i.       El elemento neutro, 0, de V es único.
+
+       ii.      Para todo x ∈ V existe un único x′ ∈ V tal que x + x′ = 0.
+
+       iii.      α 0 = 0 para todo escalar α .
+
+       iv.       0 x = 0 para todo x ∈ V .
+
+       v.       Si α x = 0, entonces α = 0 o x = 0 (o ambos).
+
+
+       vi.       ( −1) x = − x para todo x ∈ V .
+
+
+ 32
+Capítulo 1: Espacios vectoriales
+                                   2.1 Definición y criterio de subespacio
+                                   Sea H un subconjunto no vacío de un espacio vectorial V y supóngase que H en sí
+                                   mismo es un espacio vectorial con las operaciones de suma y multiplicación por un
+                                   escalar definidas en V. Entonces se dice que H es un subespacio de V.
+
+                                   El siguiente teorema nos mostrará un resultado que simplificará notablemente el
+                                   trabajo para determinar si un subconjunto de V es o no un subespacio de V.
+
+                                   Teorema 1: Criterio de subespacio
+
+                                   Un subconjunto no vacío H del espacio vectorial V es un subespacio de V si se
+                                   cumplen las dos reglas de cerradura. Esto es:
+
+                                   1.     Si x∈ H e y ∈ H , entonces x + y ∈ H .
+                                   2.     Si x ∈ H , entonces α x ∈ H para todo escalar α .
+
+                                   La demostración del teorema consiste en verificar que al darse las dos reglas de
+                                   cerradura se verifican los demás axiomas de la definición de espacio vectorial.
+
+                                   Como los vectores de H también están en V, las leyes de asociatividad, conmutatividad,
+                                   de distribución y de identidad multiplicativa (axiomas ii, v, vii, viii, ix y x) se cum-
+                                   plen.
+
+                                   Ahora, si x ∈ H , entonces 0x ∈ H por (2) y 0 x = 0 (teorema 1, módulo 1). De igual
+                                   manera, (−1)x ∈ H y ( − 1) x = − x (teorema 1, módulo1), verificándose el axioma iv.
+                                   Con esto queda completa la demostración.
+
+                                   El teorema anterior establece que para probar si un conjunto H, H ⊂ V es o no un
+                                   subespacio de V, basta con probar las dos reglas de cerradura.
+
+                                   Como consecuencia del teorema podemos expresar lo siguiente:
+
+                                   i.     Todo subespacio de un espacio vectorial V contiene el 0.
+
+                                   ii.    Todo espacio vectorial tiene dos subespacios triviales: el mismo espacio
+                                          (V ⊂ V) y el conjunto que tiene como único elemento el módulo. ¿Por qué?
+
+                                   Los subespacios distintos a V y {0} se llaman subespacios propios.
+
+
+ 38
+Capítulo 1: Espacios vectoriales
+
+
+    2.3 Propiedades
+    Teorema 2
+
+    Sean H1 y H 2 subespacios de un espacio vectorial V. Entonces H1 ∩ H 2 es un
+    subespacio de V.
+
+
+            3.1 Definición y ejemplos de combinación lineal
+            Definición 1
+
+            Sean v1, v2,..., vn vectores en un espacio vectorial V. Decimos que x es una combina-
+            ción lineal de los vectores v1, v2,..., vn si existen escalares a1 , a2 ,..., an , tales que:
+
+                       x = a1 v1 + a2 v 2 + ... + an v n
+                              n
+                         = ∑ ai v i .
+                             i =1
+
+
+            Observaciones
+
+            1.        Toda combinación lineal de vectores de un espacio dado es otro vector del
+                      mismo espacio.
+
+            2.        El módulo de un espacio vectorial es combinación lineal de cualquier con-
+                      junto de vectores del mismo espacio.
+
+                                    0 = 0 v1 + 0v2 + ... + 0vn .
+
+            3.        Todo vector es combinación lineal de sí mismo.
+
+                                    x1 = 1x1 .
+
+            4.        Todo vector es combinación lineal del conjunto que contiene dicho vector.
+
+                                    v1 = 1 v1 + 0 v 2 + ... + 0 v n .
+
+
+ 40
+Capítulo 1: Espacios vectoriales
+
+
+          3.2 Conjunto generador de un espacio vectorial
+          Definición 2
+
+          Sean v1, v2,..., vn vectores en un espacio vectorial V, y suponga que todo vector
+          v ∈ V se puede expresar como una combinación lineal de estos vectores. Entonces
+          se dice que {v1, v2 ,..., vn} es un conjunto generador de V, o que los vectores v1, v2,..., vn
+          generan a V.
+
+          Es decir, para todo v ∈V , existen a1 , a2 ,..., an reales, tales que:
+
+
+                    v = a1 v1 + a2 v 2 + ... + an v n .
+
+
+          3.3 Espacio generado por un conjunto de vectores
+          Definición 3
+
+          Sean v1, v2, ..., vn n vectores en un espacio vectorial V. El espacio generado por
+
+          {v1, v2,..., vn} es el conjunto de las combinaciones lineales de v1, v2,..., vn . Esto es:
+          {v1 , v 2 ,..., v n } = {v : v = a1 v1 + a2 v 2 + ... + an v n } , donde a1, a2 ,..., an son escalares.
+
+          Del conjunto {v1, v2,..., vn} se dice que es generador.
+
+          Teorema 1
+
+          Si v1, v2,..., vn son n vectores en un espacio vectorial V, el gen{ v1, v2 ,..., vn} es un
+          subespacio de V.
+
+                                                                                 3
+         Nota: el espacio generado por dos vectores no nulos en                      y que no sean paralelos
+         es un plano que pasa por el origen.
+
+
+          Teorema 2
+
+          Sean v1, v2,..., vn , v n +1 , n + 1 vectores que están en un espacio vectorial V. Si v1, v2,..., vn
+          genera a V, entonces v1 , v2 ,..., vn , vn+1 también genera a V. Esto es, la adición de uno
+          o más vectores a un conjunto generador de V da por resultado otro conjunto gene-
+          rador de V.
+
+
+46
+                                                                                                                Módulo 4: Independencia lineal
+4.1 Definición y ejemplos de conjuntos linealmente independientes
+    (LI) y linealmente dependientes (LD)
+
+Definición 1
+
+Sean v1 , v2 ,..., vn , n vectores diferentes de un espacio vectorial V. Se dice que los
+vectores son linealmente dependientes, LD, si existen n escalares c1 , c2 ,..., cn , no
+todos cero, tales que:
+
+        c1 v1 + c2 v2 + ... + cn vn = 0.                                                    (1)
+
+Si los vectores no son linealmente dependientes, se dice que son linealmente
+independientes, LI, es decir, la ecuación:
+
+        c1 v1 + c2 v 2 + ... + cn vn = 0
+
+
+es válida sólo si c1 = c2 = ... = cn = 0.
+
+
+Si los vectores v1 , v2 ,..., vn son distintos y formamos el conjunto A = { v1 , v2 ,..., vn } ,
+entonces también decimos que el conjunto A es LD o LI según el caso.
+
+Es claro que la ecuación (1) siempre se satisface si elegimos todos los escalares
+c1 , c2 ,..., cn iguales a cero. Lo importante es ver si es posible satisfacer la ecuación
+con al menos uno de los escalares diferente de cero.
+
+4.3 Propiedades
+
+Teorema 1
+
+Un conjunto de n vectores de               m
+                                               siempre es LD si n > m.
+
+
+Corolario
+
+                                               n
+Un conjunto de vectores LI en                      contiene a lo más n vectores.
+
+ Teorema 2
+
+         ⎡ a11       a12          a1n ⎤
+         ⎢a          a22          a2 n ⎥⎥
+ Sea A = ⎢
+            21
+                                          .
+         ⎢                              ⎥
+         ⎢                              ⎥
+         ⎣ am1      am 2          amn ⎦
+
+
+ Entonces las columnas de A consideradas como vectores son LD si y sólo si el
+ sistema A x = 0 tiene soluciones no triviales (diferentes a x = 0 ).
+
+
+                                                                                                   Álgebra lineal elemental y aplicaciones 55
+Capítulo 1: Espacios vectoriales
+
+
+      Teorema 3
+
+      Sean v1 , v2 ,..., vn , n vectores en       n
+                                                      , y sea A una matriz n × n cuyas columnas son
+      v1 , v2 ,..., vn . Entonces v1 , v2 ,..., vn son LI si y sólo si la única solución al sistema
+      homogéneo A x = 0 es la trivial x = 0 .
+
+      Teorema 4
+
+      Sea A una matriz n × n . Entonces det A ≠ 0 si y sólo si las columnas de A son LI.
+
+      Teorema 5
+
+                                                        n            n
+      Todo conjunto de n vectores LI en                     genera       .
+
+
+      5.1 Definición y ejemplos de bases
+      Definición 1
+
+      Un conjunto finito de vectores { v1 , v2 ,..., vn } es una base para un espacio vectorial
+      V si:
+
+      i.        {v1 , v2 ,..., vn } es linealmente independiente.
+      ii.       {v1 , v2 ,..., vn } genera a V.
+
+ 5.3 Dimensión. Definición, ejemplos y propiedades
+ Definición 2
+
+ La dimensión de un espacio vectorial no nulo es el número de vectores en una base
+ para V. Como el conjunto {0} es linealmente dependiente, se dice que el espacio
+
+ vectorial {0} tiene dimensión cero.
+
+ Cuando la base del espacio vectorial V es un conjunto finito de vectores, se dice
+ que V es de dimensión finita. Sin embargo, existen muchos espacios vectoriales
+ para los cuales no hay una base con un número finito de vectores; estos espacios
+ son de dimensión infinita, por ejemplo el espacio vectorial P de todos los polino-
+ mios y el espacio C[a, b] de funciones continuas en [a, b] .
+
+ La dimensión de V se denota por dim V.
+
+
+ 58
+                                                                                                          Módulo 5: Bases y dimensión
+
+
+ Teorema 3
+
+ Si dim V = n y {u1 , u 2 ,..., um } es un conjunto LI de m vectores de V, entonces
+ m ≤ n.
+
+ La dimensión de un espacio vectorial es el máximo número de vectores LI que hay
+ en el espacio vectorial.
+
+ Teorema 4
+
+ Sea H un subespacio del espacio vectorial V de dimensión finita; entonces,
+ dim H ≤ dim V .
+
+ Teorema 5
+
+ Sea V un espacio vectorial de dimensión n y sea S = { v1 , v2 ,..., vn } un conjunto de
+ n vectores en V.
+
+ a.       Si S es LI, entonces es una base para V.
+
+ b.       Si S genera a V, entonces es una base para V.
+
+                                                                  n
+Para determinar si un subconjunto S de n es una base para           , primero conta-
+mos el número de elementos de S. Si S tiene n elementos, cualquiera de las partes del
+teorema 5 nos permite determinar si S es base. Si S no tiene n elementos, no es base
+para n . De la misma forma se procede en cualquier espacio o subespacio vectorial
+cuya dimensión sea conocida.
+
+
+Teorema 6
+
+Si S es un conjunto LI de vectores en un espacio vectorial V de dimensión finita,
+entonces existe una base B para V, que contiene a S.
+
+El teorema nos dice que un conjunto LI de vectores en un espacio vectorial V se
+puede extender a una base para V.
+
+
+                                                                                           Álgebra lineal elemental y aplicaciones 67
+                                                                                                  Módulo 5: Bases y dimensión
+
+
+5.4 El problema de la base
+Este problema puede presentarse en una de estas dos formas:
+
+1.     Construir una base para V, tomando los vectores de V. Si puede escoger un
+       conjunto de vectores que genere a V, puede eliminar los vectores LD, si los
+       hay, y obtener una base para V.
+
+2.     Dado un conjunto S de vectores de V, construir una base para V añadiendo,
+       o bien eliminando, algunos vectores de S, o ambas cosas.
+
+       Si S genera a V, se procede como en el caso anterior. Si no, se aumenta S
+       hasta obtener un generador y luego se procede como en el caso anterior.
+
+
+6.1 Espacios nulo, renglón y columna de una matriz A
+
+Definición 1
+
+Sea A una matriz m × n . El conjunto
+
+       N A = {x ∈    n
+                         Ax = 0}
+
+
+se llama espacio nulo de A o núcleo de A y se denota por NA. En el ejemplo 9 del
+                                                                 n
+módulo 5 mostramos que este conjunto es un subespacio de             .
+
+
+A la dimensión de N A se le llama nulidad de A y se denota ν ( A ) .
+
+
+                                                                                   Álgebra lineal elemental y aplicaciones 69
+Capítulo 1: Espacios vectoriales
+
+
+                Definición 2
+
+
+                            ⎡ a11   a12           a1n ⎤
+                            ⎢a      a22           a2 n ⎥⎥
+                Sea mA× n = ⎢
+                               21
+                                                          .
+                            ⎢                           ⎥
+                            ⎢                           ⎥
+                            ⎣ am1   am 2          amn ⎦
+
+
+           i.         El espacio generado por los renglones de A,
+
+                              r1 = (a11 , a12 ,..., a1n ), r2 = (a21 , a22 ,..., a2 n ) ,..., rm = (am1 , am 2 ,..., amn ),
+
+                                                     n
+                      es un subespacio de                llamado espacio renglón de A y se denota RA.
+
+           ii.        El espacio generado por las columnas de A
+
+                                    ⎡ a11 ⎤        ⎡ a12 ⎤            ⎡ a1n ⎤
+                                    ⎢a ⎥           ⎢a ⎥               ⎢a ⎥
+                               c1 = ⎢ 21 ⎥ , c 2 = ⎢ 22 ⎥ ,..., c n = ⎢ 2 n ⎥
+                                    ⎢ ⎥            ⎢ ⎥                ⎢ ⎥
+                                    ⎢ ⎥            ⎢ ⎥                ⎢ ⎥
+                                    ⎣ am1 ⎦        ⎣ am 2 ⎦           ⎣ amn ⎦
+                                                    m
+                      es un subespacio de                llamado espacio columna de A y se denota C A .
+
+
+                6.2 Propiedades
+                Teorema 1
+
+                Si A y B son matrices m × n equivalentes por renglones, entonces los espacios
+                generados por los renglones de A y de B son iguales.
+
+
+           Observación
+
+           Si B es una matriz escalonada, entonces dim RB es igual al número de pivotes de B.
+
+           Teorema 2
+
+           Sea B una matriz m × n en la forma escalonada por renglones. Las columnas de B
+           que contienen los pivotes forman una base para CB ; por lo tanto, dim CB es igual
+           al número de pivotes de B.
+
+
+ 76
+                                                                                            Módulo 6: Subespacios asociados con una matriz
+
+
+  Teorema 3
+
+  Sea mA× n y mB×n la matriz que resulta al reducir A a su forma escalonada. Los vectores
+  columna de B que contienen los pivotes forman una base para CB , entonces los
+  vectores columna correspondientes de A formarán una base para C A y, en conse-
+  cuencia,
+
+          dim C A = dim CB .
+
+  Ahora podemos reunir los siguientes resultados:
+
+          RA = RB .
+          ρ : número de pivotes de B.
+          dim RB = dim RA = ρ .
+          dim CB = ρ .
+          dim CB = dim C A .
+
+  Luego dim RA = dim CA = ρ .
+
+  Definición 3
+
+  El rango de A, denotado por ρ ( A ) , es la dimensión de los espacios fila y columna
+  de A.
+
+
+6.3 Relaciones con el espacio nulo o núcleo de una matriz A
+
+Sea mA× n y mB× n la matriz que resulta al reducir A a su forma escalonada.
+Sabemos que:
+
+        N A = NB .
+        RA = RB .
+
+
+La dimensión de N A es igual al número de parámetros en la solución del sistema
+equivalente reducido B x = 0.
+
+La dimensión del espacio renglón de B es igual al número de variables principales
+del sistema Bx = 0.
+
+El número de variables principales más el número de parámetros es n. De todos
+estos hechos se deduce el siguiente teorema.
+
+
+                                                                                               Álgebra lineal elemental y aplicaciones 79
+Capítulo 1: Espacios vectoriales
+
+
+             Teorema 4
+
+             Si A es una matriz m × n , entonces:
+                        dim RA + dim N A = n
+                                                o ρ( A) +ν ( A) = n.
+                        dim C A + dim N A = n
+
+             Teorema 5
+
+             Sea mA× n . Cada vector del espacio renglón de A, RA es ortogonal a todo vector del
+             espacio nulo de A; o sea N A .( RA ⊥ N A ).
+
+
+              6.4 Relaciones con el rango de una matriz A
+              Teorema 6
+
+              Sea A . A es invertible si y sólo si
+                     n× n
+
+              a.            ν ( A) = 0.
+
+              b.            ρ( A) = n.
+
+            Teorema 7
+
+            Sea mA× n . El sistema Ax = b tiene solución si y sólo si b ∈ CA .
+
+
+ 80

@@ -1,0 +1,43 @@
+La viga en I se suelda a la placa que está soportada por 4 pernos de 19 mm de diámetro, dos en cada
+lado, suponiendo que la fuerza P se divide igual sobre cada perno, determine el máximo valor de P si el
+esfuerzo normal en los pernos es de 89 MPa y el esfuerzo cortante en los pernos es de 79 MPa.
+
+
+Solución:
+
+La fuerza externa P actúa sobre los pernos con una componente normal y una tangencial de la
+siguienete manera por trigonometría:
+
+ R x =Pcos (39 °)=0,7771 P                            R y =Psen(39°)=0,6293 P
+
+La distribución de la fuerza normal en los pernos será:
+
+
+                     Rx   0,7771 P
+                     4        4
+Donde: σ perm=89 Mpa= = π             =685,2444 P
+                     A    ∗(0,019 m)2
+                        4
+
+Entonces la carga máxima por esfuerzo normal será:
+         89 Mpa
+  P=               =129,9 Kip
+       685,2444 m2
+
+
+Y la distribución de la fuerza tangencial en los pernos será:
+
+
+                                                  Ry     0,6923 P
+                                                   4         4
+Donde, al estar en cortante doble: τ perm=79 Mpa=    = π            =277,45 P
+                                                  2 A 2 ∗(0,019 m)2
+                                                       4
+
+Entonces la carga máxima por esfuerzo normal será:
+
+       79 Mpa
+ P=             =129,9 Kip=284,74 Kip
+      277,45 m2
+
+Respuesta: Por lo tanto, la máxima fuerza (P) que se puede aplicar es de 129,9 Kip.

@@ -1,0 +1,1627 @@
+Módulo 18: Área de una región plana
+          18.1 Área entre curvas
+
+          Sean f y g dos funciones continuas en el intervalo [a, b] tales que f ( x) ≥ g ( x)
+          para todo x en [a,b].
+
+
+                                                         Figura 18.1
+
+
+          Nos proponemos encontrar el valor del área A de la región R comprendida por las
+          funciones                   g ( x) y las rectas x = a y x = b.
+f ( x),
+          Realicemos una partición P de [ a, b] así: a = x0 < x1 < … < xn = b. El intervalo
+          i-ésimo será [ xi −1 , xi ] , el cual tiene como longitud Δxi = xi − xi −1 .
+
+
+          Tomemos un punto ti en [ xi −1 , xi ] y un elemento rectangular que tenga como altura
+          h = f (ti ) − g (ti ) y ancho Δxi .
+
+          Su área será entonces:
+
+                  ΔAi = [ f (ti ) − g (ti )]Δxi .                                                                 Vea la animación Área entre
+                                                                                                                  curvas en su multimedia de
+                                                                                                                  Elementos básicos de
+          Por tanto, una buena aproximación para el área A de la región R será:                                   cálculo integral y series
+
+
+                  ∑[ f (t ) − g (t )]Δx .
+                    n
+
+
+                   i =1
+                            i            i     i
+
+
+          Si P tiende a cero, la sumatoria anterior converge a un valor A que llamaremos
+          el área de la región R. Esto es:                                                                        Vea el módulo 18 del
+                                                                                                                  programa de televisión
+
+                  A = lim ∑ [ f (ti ) − g (ti )] Δxi = ∫ [ f ( x) − g ( x)] dx.
+                                  n                                                                               Elementos básicos de
+                                                              b
+                                                                                                                  cálculo integral y series
+                          P →0
+                                                                                                 (1)
+                                 i =1
+                                                              a
+
+
+                                                                                         Elementos básicos de cálculo integral y series 205
+Capítulo 4: Aplicaciones de la integral definida
+                                         La existencia del límite anterior está garantizada por ser f y g continuas en [ a, b] .
+
+                                         Observaciones
+
+                                         i.        En la definición anterior, si g ( x) = 0, entonces la integral definida
+
+                                                   ∫ f ( x) dx será el valor del área de la región comprendida por la función
+                                                     b
+
+                                                    a
+
+                                                    f ( x ) ≥ 0, las rectas x = a, x = b y el eje x.
+
+
+                                         ii.       Si se quiere calcular el área encerrada por el eje x, las rectas x = a, x = b y
+                                                   una curva g ( x) situada por debajo del eje x basta hacer f ( x) = 0 en la
+                                                   fórmula (1) y se obtiene:
+
+
+                                                           A = − ∫ g ( x) dx.
+                                                                   b
+                                                                                                                              (2)
+
+                                         Nótese que como g ( x) < 0 , entonces ∫ g ( x) dx < 0 (propiedad iii, teorema 1 del
+                                                                  a
+
+                                                                                       a
+
+
+                                         módulo 14) y, en consecuencia, A > 0.
+                                                                                       b
+
+
+                                  Observaciones
+
+                                  Un procedimiento práctico para calcular la medida del área de una región plana
+                                  determinada se tiene desarrollando los siguientes pasos:
+
+                                  i.      Graficar las funciones hallando los puntos de intersección y determinando
+                                          la región cuya área se quiere calcular.
+
+                                  ii.    Se debe tener en cuenta que cualquier elemento rectangular esté limitado
+                                         siempre por el mismo par de curvas. Si esto no se cumple, se divide la región
+                                         en subregiones apropiadas.
+
+                                  iii.   Determinar los límites de integración correspondientes a la región o
+                                         subregiones y evaluar las integrales resultantes.
+
+                                  En lo sucesivo, en muchas aplicaciones adoptaremos, para simplificar, el siguiente
+                                  método informal. Tomaremos:
+
+                                          dA en lugar de ΔAi .
+                                         dx o dy en lugar de Δxi o Δyi .
+
+
+206
+                                                                                Módulo 19: Volúmenes de sólidos por secciones transversales
+
+               19.1 Volumen de un sólido con secciones planas
+                   paralelas conocidas
+               En esta sección estudiaremos el cálculo de volúmenes de sólidos para los cuales
+               es posible expresar el área de cualquier sección plana, perpendicular a una recta
+               fija, en términos de la distancia de la sección plana a un punto fijo de dicha recta.
+
+               En la figura 19.1 se muestra un sólido cuyas secciones perpendiculares al eje x
+               tiene un área conocida A(ti ) (parte sombreada), en donde A(t ) es una función
+               integrable en [a, b] , ti es un punto del intervalo [ xi −1 , xi ] y Δxi = xi − xi −1 es el
+               espesor del i-ésimo elemento de volumen.
+
+               Si reemplazamos cada elemento de volumen por un «cilindro» de base A(ti ) y
+
+               altura Δxi , su volumen será                          y su suma ∑ Δvi tendrá un valor
+                                                                                 n
+
+
+                                                                                i =1
+
+               aproximado al volumen real V del sólido, aproximación que mejora al disminuir la
+               norma de la partición.
+
+               Entonces,
+
+                       V = lim ∑ A(ti ) Δxi = ∫ A( x) dx.
+                                    n              b
+
+                            P →0
+                                   i =1
+                                                  a
+
+
+Δvi = A(ti ) Δxi
+
+
+                                                       Figura 19.1
+
+               Observación
+
+               El volumen de un sólido de revolución que se presentará en el próximo módulo se
+               puede obtener como caso particular de la fórmula anterior si A( x) se cambia por el
+               área de un círculo o de un anillo circular, según el caso.
+                                                                                                                 Vea el módulo 19 del programa
+                                                                                                                 de televisión Elementos básicos
+                                                                                                                 de cálculo integral y series
+
+
+                                                                                            Elementos básicos de cálculo integral y series 221
+                                                                         Módulo 20: Volúmenes de sólidos de revolución
+20.1 Método de las arandelas
+Supongamos ahora que se va a rotar alrededor del eje x la región B del plano
+encerrada por las curvas f ( x) y g ( x), que supondremos continuas en el intervalo
+[a,b], y las rectas x = a y x = b (figura 20.1).
+
+
+                                     Figura 20.1
+
+
+El sólido resultante se muestra en la figura 20.2.
+
+
+                                                                                           Vea el módulo 20 del programa
+                                                                                           de televisión Elementos básicos
+                                                                                           de cálculo integral y series
+                                     Figura 20.2
+
+
+Supongamos además que f ( x) ≥ g ( x) para todo x de [a, b].
+
+Realicemos una partición P de [a, b] tal que
+
+       a = x0 < x1 < x2 < ... < xn = b                                                    Vea la animación Método de las
+                                                                                          arandelas para volúmenes en su
+                                                                                          multimedia de Elementos básicos
+donde el i-ésimo intervalo tiene longitud Δxi = xi − xi −1 .                              de cálculo integral y series
+
+
+                                                                      Elementos básicos de cálculo integral y series 227
+Capítulo 4: Aplicaciones de la integral definida
+
+                                         Escojamos un punto cualquiera ti de [xi −1 , xi ]. Al girar la región B alrededor del eje
+                                         x, el i-ésimo rectángulo forma una arandela o cilindro hueco como el de la figura 2
+                                         de la «Introducción» con radio exterior R = f (ti ), con radio interior r = g (ti ), y
+                                         h = Δxi . El volumen Δvi de este disco, según la fórmula (1) de la «Introducción»,
+
+                                         está dado por
+
+
+                                                   ∑ Δv = ∑ π ([ f (t )] − [ g (t )] )Δx .
+                                         La suma de los volúmenes de los n discos huecos que resultan será entonces
+                                                    n                 n
+                                                                                          2               2
+                                                                                                                                   (2)
+                                                   i =1              i =1
+                                                           i                          i               i            i
+
+
+                                         El volumen V del sólido resultante lo podemos definir como el límite de la suma (2),
+                                         cuando P se aproxima a cero.
+
+
+                                         Este límite existe ya que f 2 y g 2 son continuas en [a,b], al ser producto de funciones
+                                         continuas en el mismo intervalo.
+
+                                         La fórmula (2) puede utilizarse para encontrar un valor aproximado del volumen,
+                                         aproximación que mejora a medida que P se hace más pequeña.
+
+                                         Definición 1
+
+                                         Sean f ( x) y g ( x) dos funciones continuas en [a,b] tales que f ( x) ≥ g ( x) ≥ 0              Δf v(ix
+                                         o f ( x) ≤ g ( x) ≤ 0 para todo x de [a,b]. Entonces el volumen V del sólido de
+                                         revolución generado al rotar sobre el eje x la región limitada por las curvas y = f ( x),
+                                          y = g ( x) y las rectas x = a y x = b estará dado por la expresión:
+
+
+                                                                              (
+                                                   V = lim ∑ π [ f (ti )] − [ g (ti )]                            ) Δx
+                                                                          n
+                                                                                              2               2
+
+                                                               p →0
+
+
+                                                                     ([ f ( x)] − [ g ( x)] ) dx.
+                                                                       i =1
+                                                                                                                       i
+
+
+                                                          =π∫
+                                                                 b                2               2
+                                                                a
+                                                                                                                                   (3)
+
+
+                                         Observaciones
+
+                                         i.        Si el eje de rotación no es el eje x, la integral de la fórmula (3) debe modificarse
+                                                   en forma apropiada así: f ( x) debe cambiarse por el radio exterior de los
+                                                   discos huecos, g ( x) por su radio interior y dx por la diferencial de la
+                                                   variable independiente (ejemplo 3).
+
+                                         ii.       Si la región B que se va a rotar alrededor del eje x está limitada por la curva
+                                                   y = f ( x), el eje x y las rectas x = a y x = b (figura 20.3), el radio exterior
+                                                   sigue siendo                       pero el interior es g ( x) = 0.
+
+
+228
+                                                                           Módulo 20: Volúmenes de sólidos de revolución
+
+
+                                      Figura 20.3
+
+
+Los discos que resultan al girar el i-ésimo rectángulo ya no son huecos y el volumen
+V total se puede obtener de nuevo a partir de (3) cambiando g ( x) por cero.
+
+Luego
+
+        V = lim ∑ π [ f (ti )] Δxi = π ∫ [ f ( x)] dx.
+                     n                   b
+                             2                      2
+
+             p →0
+                                                                                (4)
+                    i =1
+                                        a
+
+
+      20.2 Método de la corteza (cascarones) cilíndrica
+      Para el cálculo del volumen de un sólido de revolución se tomaron, en la sección
+      anterior, elementos rectangulares de área perpendiculares al eje de revolución, lo
+      cual dio origen a elementos de volumen en forma de anillo circular o disco. En esta
+      sección se tomarán elementos rectangulares de área paralelos al eje de revolución,
+      los cuales al rotar generan un elemento de volumen que llamaremos corteza
+      cilíndrica (figura 20.11), que se puede asociar con la parte sólida de un tubo.
+
+
+                                             Figura 20.11
+
+
+                                                                       Elementos básicos de cálculo integral y series 229
+                                                                                              Módulo 20: Volúmenes de sólidos de revolución
+                  A dicha corteza corresponde un radio interior r1 , un radio externo r2 y una altura
+                  h. Si denotamos por Vc el volumen de la corteza, entonces Vc = volumen del
+                  cilindro externo menos el volumen del cilindro interno, o sea
+
+                                                                                                   (1)
+
+                  Analicemos ahora una forma para calcular por medio de cortezas cilíndricas el
+                  volumen del sólido de revolución, generado al rotar alrededor del eje y la región R
+                  comprendida por las funciones f y g continuas en [a, b] , f ( x) ≥ g ( x) para todo
+                  x en [a,b] y las rectas x = a y x = b, con x ≥ 0 (figuras 20.12 y 20.13).
+
+
+Vc = π r22 h − π r12 h = π ( r22 − r12 ) h.
+                                                     Figura 20.12
+
+
+                                                     Figura 20.13
+
+
+                                                                                                              Vea la animación Método de la
+                                                                                                              corteza cilíndrica en su multi-
+                                                                                                              media de Elementos básicos de
+                                                                                                              cálculo integral y series
+
+
+                                                                                         Elementos básicos de cálculo integral y series 235
+Capítulo 4: Aplicaciones de la integral definida
+
+                                         Sea P = { x0 , x1 ,… , xn } una partición del intervalo [a,b].
+
+                                         Tomemos los elementos de área paralelos al eje y (figura 20.12). El rectángulo
+                                         i-ésimo tiene como base Δxi y como altura                                       , en donde ti es el punto
+
+                                                                                    ( xi −1 + xi )
+                                         medio de [ xi −1 , xi ] , o sea ti =                      .
+                                                                                           2
+
+                                         Al rotar este rectángulo alrededor del eje y obtenemos una corteza cilíndrica (figura
+                                         20.13), a la cual corresponde un volumen Δvi .
+
+                                         Puede observarse además que el radio externo                            de la fórmula (1) es xi y el radio
+                                         interno r1 es xi −1 , luego
+
+
+                                                   Δvi = π xi2 [ f (ti ) − g (ti )] − π xi2−1 [ f (ti ) − g (ti )] .                           (2)
+
+
+                                         Factorizando, se tiene que
+
+
+                                                   Δvi = π [ f (ti ) − g (ti )] ( xi + xi −1 )( xi − xi −1 ) .
+
+                                                                                                                                                      [r2f (
+                                         Como xi + xi −1 = 2ti y xi − xi −1 = Δxi , entonces
+
+
+                                                     Δvi = 2π ti [ f (ti ) − g (ti )] Δxi .
+
+
+                                         Por tanto un valor aproximado del volumen está dado por:
+
+
+                                                   ∑ 2π t [ f (t ) − g (t )] Δx .
+                                                    n
+
+                                                                                                                                               (3)
+                                                   i =1
+                                                            i       i           i     i
+
+
+                                         Puesto que la función x [ f ( x) − g ( x)] es continua en [a,b], entonces para cualquier
+
+                                                                     ∑ 2π ti [ f (ti ) − g (ti )] Δxi existe, en particular para los
+                                                                          n
+                                         ti de [ xi −1 , xi ] , lim
+                                                                P →0
+                                                                         i =1
+
+                                         considerados en (3).
+
+
+                                         Lo anterior nos permite definir el volumen de la siguiente manera:
+
+
+                                                   V = 2π ∫ x [ f ( x) − g ( x)] dx .
+                                                                b
+
+                                                                a
+
+
+236
+                                                                        Módulo 20: Volúmenes de sólidos de revolución
+Observaciones
+
+i.    Si g ( x) = 0 para todo x en [a,b], entonces el volumen está dado por
+
+             V = lim ∑ 2π ti f (ti ) Δxi = 2π ∫ xf ( x) dx.
+                          n                    b
+
+                  P →0
+                         i =1
+                                               a
+
+
+ii.   Si se quiere hallar el volumen por cortezas cilíndricas sobre cualquier otro
+      eje de giro, hay que realizar los cambios pertinentes en la fórmula (2)
+      (ejemplos 5 y 6).
+
+
+                                                                     Elementos básicos de cálculo integral y series 237
+Capítulo 4: Aplicaciones de la integral definida
+
+de la nebulosa de Orión y las características
+de la superficie de Marte, que lo llevaron a
+                                                 21.1 Longitud de arco de una curva plana
+concluir la rotación de este planeta sobre
+su eje. También inventó un ocular de             Para calcular la longitud del arco de curva que une dos puntos A y B del plano
+telescopio que lleva su nombre.                  cartesiano subdividimos la curva en muchas partes y unimos los puntos de división
+En 1673, en París, publicó la obra
+                                                 por segmentos de recta (figura 21.1). Este método fue utilizado por Arquímedes
+Horologium oscillatorium , en la que no          (287-212 a.C.) para aproximar el perímetro de una circunferencia. A continuación
+solamente desarrolló varias teorías sobre        describiremos el procedimiento para una curva plana.
+la fuerza centrífuga en los movimientos
+circulares que ayudaron al físico inglés Isaac
+Newton a formular las leyes de la gravedad,
+                                                 Consideremos una función continua en [a,b] y sea P una partición de [a,b] tal que
+sino que describió una solución al problema
+del péndulo compuesto, para el cual calculó               a = x0 < x1 < x2 < … < xn = b .
+la longitud del péndulo simple equivalente.
+En la misma publicación incluyó también
+una fórmula para calcular el periodo de
+                                                 A cada xi de la partición corresponde un Pi sobre la curva de coordenadas
+
+                                                 ( xi , f ( xi ) ) . Si unimos todo punto Pi con su correspondiente Pi −1 mediante un
+oscilación de un péndulo simple y explicó
+sus leyes de la fuerza centrífuga para
+movimiento uniforme en un círculo. De
+regreso en Holanda construyó algunas
+lentes de grandes longitudes focales e
+                                                 segmento de recta obtenemos una poligonal denotada por P0 P1 P2 … Pn −1 Pn cuya
+inventó el ocular acromático para                longitud viene dada por
+
+                                                         ∑P P,
+telescopios. Poco después de regresar de
+                                                          n
+una visita a Inglaterra, donde se encontró
+con Newton, publicó su tratado sobre la                         i −1 i                                                           (1)
+                                                         i =1
+teoría ondulatoria de la luz. Para él, la luz
+era un movimiento vibratorio en el éter,
+que se difundía y producía la sensación de       donde
+
+                                                         Pi −1 Pi = ( xi − xi −1 ) 2 + ( yi − yi −1 ) 2
+luz al tropezar con el ojo. Con base en su
+teoría pudo deducir las leyes de la reflexión
+y la refracción y explicar el fenómeno de la
+doble refracción. Pero la propuesta que
+Huygens describe en este trabajo cayó en         es la longitud de cada uno de los segmentos de recta que forman la poligonal.
+el olvido, aplastada por la imagen y prestigio
+de Isaac Newton.
+
+
+                                                                                               Figura 21.1
+
+                                                 Ahora, si la norma de la partición es suficientemente pequeña, la suma en (1) es
+                                                 una buena «aproximación» a lo que esperamos sea el valor asociado a la longitud
+                                                 del arco. Podemos entonces definir la longitud del arco así:
+
+
+244
+                                                 Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+
+Definición 1
+
+Si existe un L con la propiedad «para todo ∈> 0 , existe δ > 0 tal que
+
+ ∑ P P − L <∈ siempre que P < δ , para toda partición P sobre [a,b]», a dicho
+  n
+
+        i −1 i
+ i =1
+
+
+L se le llama longitud de arco de la curva y = f ( x) desde el punto P0 al punto Pn
+
+y se denota por L = lim ∑ Pi −1 Pi .
+                                       n
+
+                               P →0
+                                      i =1
+
+
+Cuando dicho límite existe, se dice que la curva es rectificable. Además, si f ( x) tiene
+derivada continua, es decir, f ′( x) es continua, se dice que la curva es suave.
+
+Procedemos ahora a encontrar una fórmula que nos permita calcular la longitud de
+arco de una curva suave.
+
+Tomemos un elemento de arco entre los puntos Pi −1 ( xi −1 , yi −1 ) y Pi ( xi , yi ) (figura
+21.2).
+
+
+                                              Figura 21.2
+
+
+La longitud de la cuerda Pi −1 Pi es                         ( xi − xi −1 )2 + ( yi − yi −1 ) 2 , y como
+Δxi = xi − xi −1 y Δyi = f ( xi ) − f ( xi −1 ), se tiene que:                                               Vea la animación Área de
+                                                                                                             superficie de revolución: dibuje-
+                                                                                                             corte-desenrolle en su multime-
+                                         ⎛ Δy ⎞
+            Pi −1 Pi = Δxi2 + Δyi2 = 1 + ⎜ i ⎟ ⋅ Δxi
+                                                      2                                                      dia de Elementos básicos de
+
+                                         ⎝ Δxi ⎠
+                                                                                                             cálculo integral y series
+
+
+                        ⎛ f ( xi ) − f ( xi −1 ) ⎞
+                   = 1+ ⎜                        ⎟ ⋅ Δxi .
+                                                 2
+
+
+                        ⎝      xi − xi −1        ⎠
+                                                                                                    (1)
+
+Ahora, como f es continua y diferenciable en [a,b], lo es en particular en [ xi −1 , xi ],
+y entonces, de acuerdo con el TVM para derivadas, existe por lo menos un
+ti ∈ [ xi −1 , xi ] tal que:
+                                                                                                              Vea el módulo 21 del programa
+                                                                                                              de televisión Elementos básicos
+                                                                                                              de cálculo integral y series
+
+
+                                                                                         Elementos básicos de cálculo integral y series 245
+Capítulo 4: Aplicaciones de la integral definida
+
+                                                                    f ( xi ) − f ( xi −1 )
+                                                      f ′(ti ) =
+                                                                         xi − xi −1
+                                                                                           .                                  (2)
+
+                                        Sustituyendo (2) en (1), se tiene:
+
+
+                                                         Pi −1 Pi = 1 + ( f ′(ti )) 2 ⋅ Δxi .                                 (3)
+
+
+                                        Un valor aproximado a la longitud de arco de curva s de y = f ( x) desde el punto
+                                         P0 (a, f (a)) al punto Pn (b, f (b)) viene dado por:
+
+
+                                                      s ≈ ∑ Pi −1 Pi = ∑ 1 + ( f ′(ti )) 2 ⋅ Δxi .
+                                                            n                n
+
+                                                                                                                              (4)
+                                                           i =1             i =1
+
+
+                                        Note que la última suma es una suma de Riemann para g ( x ) = 1 + ( f ′( x )) 2 en
+                                        [a,b].
+
+                                        La longitud real del arco de curva se obtiene tomando el límite de la suma en (4)
+                                        cuando P → 0 ⇔ n → ∞ , transformando la suma en la integral definida
+
+                                         ∫        1 + ( f ′( x)) 2 ⋅ dx .
+                                              b
+
+                                              a
+
+
+                                        El razonamiento anterior nos conduce a la siguiente definición.
+
+
+                                        Definición 2
+
+                                        Sea f una función que tiene derivada continua en [a,b] y que determina una curva
+                                        suave C del punto A(a, f (a)) al punto B (b, f (b)).
+
+                                        Entonces, la longitud s del arco de curva C viene dada por:
+
+
+                                                      s=∫
+                                                                      ⎛ dy ⎞
+                                                                  1 + ⎜ ⎟ ⋅ dx.
+                                                                             2
+
+
+                                                                      ⎝ dx ⎠
+                                                             b
+
+                                                            a
+                                                                                                                              (5)
+
+
+                                        Observaciones
+
+                                        i.           En el caso de un arco de curva suave determinado por la ecuación x = g ( y )
+                                                     con y en el intervalo [c,d], entonces un análisis similar nos permite deducir
+                                                     para s:
+
+                                                                  s=∫
+                                                                                ⎛ dx ⎞
+                                                                            1 + ⎜ ⎟ ⋅ dy.
+                                                                                       2
+                                                                        d
+
+
+                                                                                ⎝ dy ⎠
+                                                                        c
+                                                                                                                              (6)
+
+
+                                        ii.          Las fórmulas (5) y (6) pueden recordarse fácilmente usando la siguiente
+                                                     forma nemotécnica:
+
+
+246
+                                          Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+         Asociar el diferencial de longitud de arco ds con la hipotenusa del triángulo
+         que aparece en la figura 21.3 y cuyos catetos son dx y dy.
+
+
+                                         Figura 21.3
+
+
+         Usando el teorema de Pitágoras, se tiene:
+
+
+                                              ⎛ ⎛ dy ⎞ ⎞
+                 (ds ) 2 = (dx) 2 + (dy ) 2 = ⎜1 + ⎜ ⎟ ⎟ (dx) 2
+                                                       2
+
+
+                                              ⎜ ⎝ dx ⎠ ⎟
+                                              ⎝        ⎠
+                                                                                  (7)
+
+          (sacando factor común (dx) 2 )
+
+                                        ⎛ ⎛ dx ⎞ 2 ⎞
+                                      = ⎜ 1 + ⎜ ⎟ ⎟ (dy ) 2
+                                        ⎜ ⎝ dy ⎠ ⎟
+                                        ⎝          ⎠
+                                                                                  (8)
+
+         (sacando factor común (dy ) 2 )
+
+
+         De (7): ds = 1 + ⎜ ⎟ dx ⇒ s = ∫ 1 + ⎜ ⎟ dx .
+                          ⎛ dy ⎞             ⎛ dy ⎞
+                                  2                           2
+
+
+                          ⎝ dx ⎠             ⎝ dx ⎠
+                                        b
+
+                                        a
+
+
+         De (8): ds = 1 + ⎜ ⎟ dy ⇒ s = ∫ 1 + ⎜ ⎟ dy .
+                          ⎛ dx ⎞             ⎛ dx ⎞
+                                  2                           2
+                                         d
+
+
+                          ⎝ dy ⎠        c
+                                             ⎝ dy ⎠
+
+iii.     Las fórmulas (5) y (6) para la longitud de arco, a pesar de ser simples, se
+         pueden calcular en forma exacta sólo para muy pocas funciones. Casi siempre
+         hay que recurrir a métodos numéricos para calcularla en forma aproximada.
+         Por esta razón en los ejercicios propuestos al final del capítulo se pide
+         únicamente escribir, sin calcular, la integral que representa la longitud de
+
+
+       21.3 Área de superficie de revolución
+       En esta sección se presentarán fórmulas para expresar el área de la superficie de un
+       sólido de revolución en forma de integrales definidas. El área de superficie puede
+       interpretarse intuitivamente como la cantidad (en unidades de área) necesaria para
+       «envolver» el sólido. En particular, se mostrará que el área de superficie de una
+       esfera de radio a es cuatro veces el área del círculo que la genera. Éste fue uno de
+       los grandes descubrimientos de Arquímedes en el siglo III a.C.
+
+
+                                                                         Elementos básicos de cálculo integral y series 247
+                                         Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+
+Todas las ideas expuestas serán presentadas usando la forma diferencial o
+aproximaciones locales dejando las usuales sumas de Riemman para un estudio
+más avanzado del tema.
+
+La forma diferencial está basada en tres pasos básicos:
+
+1. Dibújese
+2. Córtese
+3. Desenróllese
+
+21.3.1 Área de superficie alrededor del eje x
+
+Supóngase que y = f (x) es una función con primera derivada continua en [a, b] y
+además f ( x) ≥ 0 para todo x ∈ [a, b] (figura 21.8a).
+
+
+                                     Figura 21.8
+
+Cuando el arco de curva plana del punto A(a, f (a)) al punto B(b, f (b)) gira alrededor
+del eje x, genera una superficie (área lateral) como la que aparece sombreada en la
+figura 21.8b.
+
+Usemos entonces la forma diferencial para expresar el área de superficie como una
+integral definida. Para ello considere una pequeña sección (casi recta) del gráfico
+de f (x) (figura 21.9a) que corresponde al diferencial de longitud ds.
+
+
+                                     Figura 21.9
+
+Al girar ds alrededor del eje x genera la franja de área sombreada que aparece en la
+figura 21.9b. Esta franja corresponde al diferencial de área de superficie que
+denotaremos dS.
+
+
+                                                                          Elementos básicos de cálculo integral y series 255
+Capítulo 4: Aplicaciones de la integral definida
+                                        Supóngase que la franja se corta con tijeras por los puntos AA′ y BB ′ y se
+                                        despliega como aparece en las figuras 21.10 a y b.
+
+
+                                                                                   Figura 21.10
+
+                                        El diferencial de área de superficie dS puede considerarse ahora como el área de un
+                                        rectángulo cuya base BB ′ = AA′ = 2π y (longitud de la circunferencia de radio y) y
+                                        cuya altura es ds (diferencial de longitud).
+
+                                        Esto es:
+                                                   dS = 2π y ds.                                                        (1)
+
+                                        Ahora se tienen dos posibilidades de escoger la ds de acuerdo con las ecuaciones
+                                        (7) y (8) de la sección 21.1. Esto es, si
+
+
+                                                              ⎛ dy ⎞
+                                                   ds =   1 + ⎜ ⎟ dx,
+                                                                       2
+
+
+                                                              ⎝ dx ⎠
+
+                                        entonces el diferencial de área de superficie dS depende sólo de la variable x, esto
+                                        es,
+
+                                                   dS = 2π f ( x ) 1 + ⎜ ⎟ dx ⇒ S = 2π ∫ f ( x ) 1 + ⎜ ⎟ dx.
+                                                                       ⎛ dy ⎞                        ⎛ dy ⎞
+                                                                               2                        2
+
+
+                                                                       ⎝ ⎠                           ⎝ dx ⎠
+                                                                                        b
+                                                                                                                        (2)
+                                                                         dx             a
+
+
+                                        Pero si
+
+                                                            ⎛ dx ⎞
+                                                   ds = 1 + ⎜ ⎟ dy,
+                                                                   2
+
+
+                                                            ⎝ dy ⎠
+                                        entonces el diferencial de área de superficie dS depende sólo de la variable y, esto
+                                        es,
+
+
+                                                   dS = 2π y 1 + ⎜ ⎟ dy ⇒ S = 2π ∫ y 1 + ⎜ ⎟ dy.
+                                                                 ⎛ dx ⎞                  ⎛ dx ⎞
+                                                                           2                      2
+                                                                                   d
+
+
+                                                                 ⎝ dy ⎠                  ⎝ dy ⎠
+                                                                                  c
+                                                                                                                        (3)
+
+
+256
+                                         Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+Cualquiera de las fórmulas (2) y (3) permite determinar el área de la superficie de
+revolución generada al rotar alrededor del eje x un arco de curva de la función
+positiva y con derivada continua y = f (x) en el intervalo [a, b].
+
+
+21.3.2 Área de superficie alrededor del eje y
+
+Al girar ds de la figura 21.9a alrededor del eje y se genera la franja de área sombreada
+que aparece en la figura 21.11. Esta franja corresponde al diferencial de área de
+superficie que denotaremos por dS.
+
+
+                                     Figura 21.11
+
+
+Supongamos que la franja se corta con tijeras por los puntos AA′ y BB ′ y se
+desenrolla como aparece en las figuras 21.12 a y b.
+
+
+                                     Figura 21.12
+
+
+El diferencial de superficie puede considerarse ahora como el área de un rectángulo
+cuya base BB ′ = AA′ = 2π x (longitud de la circunferencia de radio x) y cuya
+altura es ds (diferencial de longitud), es decir,
+
+        dS = 2π x ds.                                                               (4)
+
+
+                                                                           Elementos básicos de cálculo integral y series 257
+Capítulo 4: Aplicaciones de la integral definida
+                                        Al igual que en caso anterior, existen dos posibilidades de expresar la dS en términos
+                                        de x o de y, de acuerdo con la escogencia que se haga del diferencial de longitud ds
+                                        en las ecuaciones (7) y (8) de la sección 21.1.
+
+
+                                                         ⎛ dy ⎞
+                                        Así, si ds = 1 + ⎜ ⎟ dx, entonces, sustituyendo en (4), se puede escribir:
+                                                                     2
+
+
+                                                         ⎝ dx ⎠
+
+
+                                                   dS = 2π x 1 + ⎜ ⎟ dx ⇒ S = 2π ∫ x 1 + ⎜ ⎟ dx.
+                                                                 ⎛ dy ⎞                  ⎛ dy ⎞
+                                                                          2                               2
+
+
+                                                                 ⎝ ⎠                     ⎝ dx ⎠
+                                                                                  b
+                                                                                                                                    (5)
+                                                                   dx             a
+
+
+                                                    ⎛ dx ⎞
+                                        Si ds = 1 + ⎜ ⎟ dy, al sustituir en (4) la variable de integración para S es y, y por
+                                                               2
+
+
+                                                    ⎝ dy ⎠
+                                        tanto la variable x de la dS debe expresarse en términos de y.
+
+                                        Así que:
+
+
+                                                   dS = 2π x 1 + ⎜ ⎟ dy ⇒ S = 2π ∫ g ( y ) 1 + ⎜ ⎟ dy .
+                                                                 ⎛ dx ⎞                        ⎛ dx ⎞
+                                                                          2                                    2
+                                                                                   d
+
+
+                                                                 ⎝ dy ⎠                        ⎝ dy ⎠
+                                                                                  c
+                                                                                                                                    (6)
+
+
+                                        Cualquiera de las fórmulas (5) y (6) permiten determinar el área de la superficie de
+                                        revolución generada al rotar alrededor del eje y un arco de curva de la función
+                                        positiva y con derivada continua y = f (x) en el intervalo [a, b].
+
+                                        Observaciones
+
+                                        i.         Si el eje de rotación no es el eje x (eje y), en la integral de las fórmulas (2), (3),
+                                                   (5) y (6) deben modificarse en forma apropiada los radios de giro. Así, si la
+                                                   ds gira alrededor de la recta y = k, entonces el radio de giro es (y – k) (figura
+                                                   21.13a). En este caso, dS = 2π ( y − k ) ds.
+
+
+                                                                                     Figura 21.13
+
+                                                   Si la ds gira alrededor de la recta x = k, entonces el radio de giro es
+                                                   ( x − k ) (figura 21.13b). En este caso, dS = 2π ( x − k ) ds.
+
+
+258
+                                      Módulo 21: Longitud de arco de una curva plana y área de superficie de revolución
+
+ii.   Se recomienda al estudiante no memorizar las cuatro fórmulas (2), (3), (5) y
+      (6). En lugar de esto se le sugiere seguir en cada caso los tres pasos básicos
+      dados al inicio de la sección: dibújese, córtese, desenróllese, y construir el
+      diferencial de área de superficie apropiado.
+
+
+                                                                       Elementos básicos de cálculo integral y series 259
+       Introducción
+
+Muchas estructuras y sistemas mecánicos modelados en ingeniería se comportan
+como si sus masas estuviesen concentradas en un solo punto, llamado centro de
+masa. Cuando las masas de los objetos son puntuales (caso discreto), el centro de
+masa es un cociente de sumatorias, pero en el caso de cuerpos sólidos, que tienen
+(al menos en el nivel macroscópico) una distribución continua de materia (caso
+continuo), las sumatorias se reemplazan por integrales y nuestro propósito en este
+módulo es usar la integral para determinarlo en el caso de varillas delgadas, láminas
+planas delgadas y sólidos de revolución.
+
+Acerca de tales problemas se puede decir en forma general que:
+
+1.     Si un cuerpo homogéneo (densidad constante) tiene un centro geométrico,
+                                                                                                        Las torres Petronas
+       como una bola de hierro o un cubo de azúcar, el centro de masa está en el
+       centro geométrico.                                                                               La aceleración debida a la gravedad en la
+                                                                                                        base de las torres Petronas de Kuala
+2.     Si un cuerpo tiene un eje de simetría, el centro de masa está sobre dicho eje.                   Lumpur (capital de Malasia), cuya altura es
+                                                                                                        de 452 metros, es sólo 0.014% mayor que
+                                                                                                        en la punta. El centro de gravedad de las
+                                                                                                        torres está solo 2 centímetros abajo del
+                                                                                                        centro de masa. (Tomado del texto Física
+                                                                                                        universitaria, de Sears y otros, p. 407).
+3.    Ninguna ley establece que el centro de masa debe estar localizado dentro del
+      cuerpo. Así por ejemplo, el centro de masa de una dona está en el agujero. En
+      el ejemplo 9 se muestra que el centro de masa de un alambre en forma circular
+      está fuera de él.
+
+Antes de iniciar el estudio del objeto básico de este módulo es conveniente y
+metodológico hacer un comentario acerca de la densidad.
+
+La densidad se define como el producto de la masa por la unidad de volumen; sin
+embargo, en la práctica se utilizan unidades que pueden medirse de manera más
+apropiada. Así por ejemplo:
+
+      Para alambres y varillas delgadas
+
+
+       masa = densidad × longitud . Asociar: dm = δ1 ⋅                          dL
+                                                   dif . masa   densidad    dif . longitud
+
+
+      Para hojas planas y láminas delgadas
+
+       masa = densidad × área. Asociar:        dm = δ 2 ⋅                  dA
+                                             dif . masa    densidad   dif . de área
+
+      Para sólidos
+
+       masa = densidad × volumen. Asociar:           dm = δ 3 ⋅                  dV
+                                                  dif . masa    densidad   dif . de volumen
+
+
+                                                                                         Elementos básicos de cálculo integral y series 263
+                                                                                         Módulo 22: Momentos y centros de masa
+
+ 22.1 Centro de masa de una varilla o de un alambre
+ Caso discreto
+
+ Supongamos un conjunto de n masas m1 , m2 ,… , mn situadas sobre el eje x en los
+ puntos de abscisas x1 , x2 ,… , xn . El momento de cada masa mi con respecto al
+
+ origen será mi xi y su momento total será ∑ mi xi .
+                                                 n
+
+
+                                                i =1
+
+
+ Se llama centro de masa al punto P de abscisa x dada por:
+
+
+                                                       ∑m x
+                                                        n
+
+                 m1 x1 + m2 x2 +  + mn xn
+          x =                             =            i =1
+
+
+                                                       ∑m
+                                                               i i
+
+
+                     m1 + m2 + … + mn                     n
+                                                                     .
+
+                                                        i =1
+                                                                i
+
+
+ El centro de masa P tiene la siguiente propiedad física: si las masas son puntuales,
+ o sea que ocupan solamente un punto y están colocadas sobre una varilla ideal
+ sin peso o de peso despreciable, el sistema queda en equilibrio cuando se le
+ suspende de P.
+
+
+Caso continuo
+
+Consideremos ahora una varilla rígida de diámetro pequeño y longitud L colocada
+sobre el eje x de tal modo que uno de sus extremos coincide con el origen 0 (figura
+22.1). Supongamos además que la densidad lineal (unidades de masa por unidad
+de longitud) es una función δ1 ( x), integrable en [0, L ] .
+
+
+Si hacemos una partición P de la varilla en n segmentos de longitud Δxi = xi − xi −1 ,
+una aproximación a la masa del i-ésimo intervalo será δ1 (ti )Δxi , en donde ti es un
+punto de [ xi −1 , xi ] y Δxi su longitud, una aproximación a su momento con respecto
+al origen será tiδ (ti )Δxi .
+
+
+                                                                           Elementos básicos de cálculo integral y series 265
+Capítulo 4: Aplicaciones de la integral definida
+
+
+                                                                  Figura 22.1
+
+
+                La masa total m estará dada por:
+
+                          m = lim ∑ δ1 (ti )Δxi = ∫ δ1 ( x) dx .
+                                             n            L
+
+                                P →0
+                                                                                              (1)
+                                         i =1
+                                                         0
+
+
+                El momento de masa total M será:
+
+                          M = lim ∑ tiδ1 (ti )Δxi = ∫ xδ1 ( x) dx.
+                                              n               L
+
+                                 P →0
+                                                                                              (2)
+                                             i =1
+                                                              0
+
+
+                El centro de masa estará dado por:
+
+                             ∫ xδ ( x) dx .
+                                  L
+
+
+                          x=
+                              ∫ δ ( x) dx
+                                 0       1
+
+                                     L                                                        (3)
+                                  0      1
+
+
+          22.2 Centro de masa de una región plana o de una
+               lámina delgada
+          Caso discreto
+
+          Se tienen n partículas de masas m1 , m2 ,… , mn situadas sobre el plano xy en los
+          puntos ( x1 , y1 ), ( x2 , y2 ),… , ( xn , yn ) (figura 22.3).
+
+
+          Los momentos de estas masas respecto a los ejes x e y denotados por
+          Mx y My respectivamente, se definen así:
+
+
+266
+Capítulo 4: Aplicaciones de la integral definida
+
+                                           Mx = ∑ yi mi ; My = ∑ xi mi .
+                                                    n                    n
+
+
+                                                   i =1                 i =1
+
+
+                                                                                          Figura 22.3
+
+
+                                          Las coordenadas x e y del centro de masa se definen por:
+
+
+                                                    x=            ; y=
+                                                          ∑ mi               ∑ mi
+                                                            My                  Mx
+                                                            n                   n
+                                                                                      .
+
+                                                           i =1                i =1
+
+
+                                          El punto ( x , y ) tiene la propiedad de que si las masas están colocadas sobre una
+                  Caso continuo           placa sin peso y dicha placa se suspende de él, debe entonces quedar en equilibrio.
+
+                  Consideremos ahora una placa delgada con densidad de superficie
+                  δ 2 ( x, y ) = k (constante) en todos sus puntos y limitada por las curvas
+                  y = f ( x) , y = g ( x) ( f ( x) y g ( x) integrables en [a, b ]) y las rectas x = a y x = b.
+
+                  Supongamos además que f ( x) ≥ g ( x) para todo x en [a, b] (figura 22.4).
+
+
+                                                          Figura 22.4
+
+
+268
+                                                                                                     Módulo 22: Momentos y centros de masa
+
+
+La masa Δmi del i-ésimo rectángulo que resulta al efectuar una partición P sobre
+[a,b] será el producto de la densidad k por el área, esto es,
+
+        Δmi = k [ f (ti ) − g (ti )] Δxi ,
+
+
+en donde ti es un punto cualquiera de [ xi −1 , xi ] .
+
+
+dado aproximadamente por ti ⋅ Δmi = ti k [ f (ti ) − g (ti )] Δxi y el momento de masa
+El momento de masa correspondiente al i-ésimo elemento, respecto al eje y, estará
+
+
+total por:
+
+
+        My = lim ∑ kti [ f (ti ) − g (ti )] Δxi = ∫ kx [ f ( x) − g ( x)] dx.
+                        n                                  b
+
+                P →0
+                                                                                                        (1)
+                       i =1
+                                                           a
+
+
+Para calcular el momento Mx respecto al eje x
+2, o sea que para calcular el momento de una varilla de densidad uniforme, respecto
+a uno de los extremos, basta colocar toda su masa en el punto medio. El i-ésimo
+rectángulo de nuestra partición P se puede asimilar muy bien a una varilla delgada,
+asi que su momento respecto al extremo que se apoya sobre el eje x estará dado
+por:
+
+
+          [ f (ti ) + g (ti )] Δmi .
+        1
+        2
+
+Es decir,
+
+
+          [ f (ti ) + g (ti )] k [ f (ti ) − g (ti )] Δxi = k ⎡⎣( f (ti ))2 − ( g (ti ))2 ⎤⎦ Δxi .
+        1                                                  1
+        2                                                  2
+
+Entonces, el momento total podrá escribirse así:
+
+
+                                                                                     Elementos básicos de cálculo integral y series 269
+Capítulo 4: Aplicaciones de la integral definida
+                                                                                         utilizaremos el resultado del ejemplo
+
+
+                       Mx = lim ∑ ⎜ ⎟ k ⎡⎣ ( f (ti )) 2 − ( g (ti )) 2 ⎤⎦ Δxi
+                                   n
+                                      ⎛1⎞
+                                 i =1 ⎝ 2 ⎠
+                            P →0
+
+
+                          = ∫ ⎡⎣ ( f ( x)) 2 − ( g ( x)) 2 ⎤⎦ dx.
+                            k b                                                                  (2)
+                            2 a
+
+               La masa total m estará dada por
+
+
+                       m = lim ∑ Δmi = lim k ∑ [ f (ti ) − g (ti ) ] Δxi
+                                     n                                 n
+
+                             P →0                              P →0
+                                    i =1                              i =1
+
+                                                       = k ∫ [ f ( x) − g ( x) ] dx.
+                                                                 b                               (3)
+                                                                 a
+
+
+               Las coordenadas x e y del centro de masa se pueden obtener así:
+
+
+                          My ∫ a x [ f ( x) − g ( x) ] dx
+                                           b
+
+
+                       x=   = b
+                                           ∫
+                                 [ f ( x) − g ( x)] dx
+                                                          .                                      (4)
+                          m
+                                               a
+
+
+                          Mx 1 ∫ a ⎡⎣ ( f ( x)) − ( g ( x)) ⎤⎦ dx
+                                                   b
+
+
+                       y=   = ⋅
+                                                2           2
+
+
+                                                       ∫
+                                         [ f ( x) − g ( x)] dx
+                                                                  .                              (5)
+                          m 2          b
+
+                                                           a
+
+
+               Observaciones
+
+               i.      En las fórmulas (4) y (5) se ha eliminado el factor k por aparecer en el
+                       numerador y en el denominador, y en consecuencia las coordenadas x e y
+                       sólo dependen de la geometría de la lámina y no de su masa, por lo que el
+                       punto dado por las fórmulas (4) y (5) se llamará también el centroide de la
+                       región.
+
+               ii.    Si en las fórmulas (1) y (2) se elimina la densidad k (o mejor, se hace igual a
+                      1), los valores resultantes los llamaremos los momentos de la región respecto
+                      a los ejes coordenados.
+
+                      Al hacer k = 1 en la fórmula (3), la masa coincide numéricamente con el área
+                      de la región.
+
+
+270
+                                                                                  Módulo 22: Momentos y centros de masa
+
+
+                                                                                (3)
+
+
+22.3 Centro de masa de un sólido de revolución
+El procedimiento que seguiremos para encontrar el centro de masa de un sólido de
+revolución es análogo al utilizado para encontrar el centro de masa de una lámina
+homogénea.
+
+Consideremos un sistema de coordenadas tridimensionales, en el cual el eje z es un
+eje que tomamos perpendicular al plano xy en el origen.
+
+Entonces un punto P en tres dimensiones se denota por P( x, y, z ); además, el
+plano que contiene los ejes x e y se denota por xy, el plano que contiene los ejes x
+y z será xz y el que contiene los ejes y y z es el plano yz.
+
+Puesto que para un sólido de revolución el eje de giro es un eje de simetría, se
+puede demostrar que el centro de masa está sobre dicho eje; por tanto, si el eje de
+revolución fuera el eje x, las coordenadas y , z del centro de masa serían cero y en
+tal caso la única coordenada que se debe buscar sería x . Si el eje de revolución
+fuera el eje y, las coordenadas x y z son cero y la única coordenada que se
+necesita buscar es y .
+
+Caso continuo
+
+Supongamos ahora que f ( x) ≥ 0 es una función continua sobre [a,b].
+
+
+Tomemos una partición de [a,b] tal que a = x0 < x1 < x2 < … < xn = b , y un ti en
+[ xi −1 , xi ] para cada i = 1, 2,… , n .
+
+Como se nota en la figura 22.10 se formarán n rectángulos con altura f (ti ) y
+ancho Δxi .
+
+                                                                       Elementos básicos de cálculo integral y series 277
+Capítulo 4: Aplicaciones de la integral definida
+
+                                        Si se rota la región definida por y = f ( x), el eje x y las rectas x = a y x = b
+                                        alrededor del eje x, se genera el sólido de revolución de la figura 22.11 y cada
+                                        rectángulo i-ésimo generará un disco.
+
+                                        El volumen de cada disco está dado por Δvi = π [ f (ti )]2 Δxi .
+
+
+                                        Si el sólido de revolución es homogéneo (de densidad constante δ 3 ( x) = k ), la
+                                        masa para cada disco está dada por:
+
+                                                   mi = kπ [ f (ti )]2 ⋅ Δxi .                                        (1)
+
+                                        El centro de masa de cada disco está sobre el eje de revolución y en el centro del
+                                        disco, o sea aproximadamente en el punto (ti , 0, 0) .
+
+                                        Como el momento con respecto a un plano es el producto de la masa por la distancia
+                                        al plano, entonces el momento de cada disco con respecto al plano yz está dado
+                                        por:
+
+                                                   Δ i Myz = ti (π k [ f (ti )]2 Δxi )                                (2)
+
+
+                                                                                         Figura 22.10
+
+
+                                                                                         Figura 22.11
+
+
+278
+                                                                                     Módulo 22: Momentos y centros de masa
+De (1) inferimos que la masa total m está dada por:
+
+
+       m = lim ∑ kπ [ f (ti )] Δxi = ∫ kπ [ f ( x)] dx.
+                    n                               b
+                                         2                      2
+
+            P →0
+                   i =1
+                                                    a
+
+
+De (2) inferimos que el momento del sólido con respecto al plano yz está dado por:
+
+
+       Myz = lim ∑ kπ ti [ f (ti )] Δxi = ∫ kπ x [ f ( x)] dx.
+                           n                                b
+                                             2                          2
+
+               P →0
+                          i =1
+                                                            a
+
+
+Llamaremos centro de masa del sólido al punto ( x , 0, 0) en donde
+
+
+          Myz kπ ∫ a x [ f ( x) ] dx ∫ a x [ f ( x) ] dx
+                                 b           2          b           2
+
+       x=    =                      = b
+               kπ [ f ( x) ] dx  ∫       [ f ( x)] dx   ∫
+                    b           2                   2
+                                                         .
+           m
+                                     a                      a
+
+
+   Observaciones
+
+   i. Se puede observar que en la fórmula final no aparece la densidad k, lo cual
+      significa que la posición del centro de masa no depende del material sino de
+      la forma del cuerpo.
+
+       Para estos cuerpos de densidad constante el centro de masa se llama
+       centroide.
+
+
+   ii. El centroide de un sólido de revolución también puede hallarse por el método
+       de la corteza cilíndrica.
+
+       Si se tiene una región limitada por el eje x, las rectas x = a, x = b y una
+       función f ( x) ≥ 0 continua sobre [a,b] y se rota alrededor del eje y (figura
+       22.12), el rectángulo i-ésimo da origen a la corteza cilíndrica de la figura
+       22.13.
+
+
+                                                 Figura 22.12
+
+
+                                                                            Elementos básicos de cálculo integral y series 279
+Capítulo 4: Aplicaciones de la integral definida
+
+                                                   El centroide del sólido resultante está en el punto (0, y , 0) .
+
+                                                   El centroide de cada corteza cilíndrica está en el centro de la corteza, el cual
+                                                               ⎛ 1             ⎞
+                                                   es el punto ⎜ 0, f (ti ), 0 ⎟ .
+                                                               ⎝ 2             ⎠
+
+
+                                                                                  Figura 22.13
+
+
+                                                   Por tanto, el momento de cada corteza con respecto al plano xz está dado por:
+
+
+                                                           Δ i Mxz =     f (ti )2kπ ti f (ti ) Δxi .
+                                                                       1
+                                                                       2
+
+                                                   El momento total del sólido es
+
+
+                                                           Mxz = lim ∑         f (ti )2π ti f (ti ) Δxi = ∫ kπ x [ f ( x)] dx,
+                                                                              n
+                                                                             k                             b              2
+
+                                                                   P →0
+                                                                        i =1 2                             a
+
+
+                                                   y la masa del sólido es:
+
+
+                                                           m = lim ∑ 2kπ ti f (ti ) Δxi = ∫ 2kπ xf ( x) dx.
+                                                                        n                          b
+
+                                                                P →0
+                                                                       i =1
+                                                                                                  a
+
+
+                                                   De donde,
+
+                                                              Mxz kπ ∫ a x [ f ( x) ] dx ∫ a x [ f ( x) ] dx
+                                                                                  b           2        b           2
+
+                                                           y=    =                      =
+                                                                   2kπ xf ( x) dx     ∫                    ∫
+                                                                          b                   b
+                                                                                                             .
+                                                               m                          2 xf ( x) dx
+                                                                                          a                    a
+
+
+                                        iii.       Cuando el cuerpo es homogéneo, esto es, de densidad constante, el centro
+                                                   de masa coincide con el centroide o centro geométrico.
+
+
+280
+Capítulo 4: Aplicaciones de la Integral Definida
+
+abejas, cuando guardan la miel, tienen que
+                                                23.1 Teorema de Pappus para áreas de superficie
+resolver varios problemas. Necesitan
+hacerlo en celdillas individuales, de tal       Teorema 1
+manera que formen un mosaico sin huecos
+ni salientes entre las celdillas, ya que hay
+que aprovechar el espacio al máximo. Solo       Si un arco de curva plana suave s gira alrededor de una recta L en el plano, de tal
+podrían hacerlo con triángulos, cuadrados       forma que L no corta el interior del arco (figura 23.1a), entonces el área de superficie
+y hexágonos. ¿Por qué? La respuesta es          S es el producto de la longitud del arco por la distancia recorrida por el centroide
+un problema isoperimétrico (del griego          durante la rotación. Es decir,
+«igual perímetro»). Pappus había demos-
+
+                                                        S = 2π ts.
+trado que, entre todos los polígonos
+regulares con el mismo perímetro,                                                                                                   (1)
+encierran más área aquellos que tengan
+mayor número de lados. Por eso, la figura
+que encierra mayor área para un perímetro       donde t es el radio de la circunferencia que recorre el centroide y s es la longitud de
+determinado es el círculo, que posee un         arco.
+número infinito de lados. No obstante, un
+círculo deja espacios cuando se rodea de
+otros círculos. Así, de todas las figuras       En particular, y es el caso que demostraremos, si el eje de rotación es el eje x,
+geométricas que cumplen la condición            entonces:
+«mayor número de lados y adyacencia sin
+
+                                                        S = 2π y s .
+huecos», matemáticamente es el hexágono
+la más óptima. Debido a ello, las abejas                                                                                            (2)
+construyen sus celdillas de forma
+hexagonal, ya que, gastando la misma
+cantidad de cera en las celdillas, consiguen
+mayor superficie para guardar su miel. La
+pregunta es: ¿y quién les enseñó esto a las
+abejas?...
+
+Pappus vivió aproximadamente entre los
+años 290 y 350.
+
+
+                                                                                    Figura 23.1
+
+
+                                      23.2 Teorema de Pappus para sólidos de revolución
+                                      Teorema 2
+
+                                      Si una región R del plano gira alrededor de una recta L en el plano, de tal forma que
+                                      esta última no corta el interior de R (figura 23.2a), entonces el volumen V del sólido
+                                      de revolución es el producto del área de la región R por la distancia recorrida por el
+                                      centroide durante la rotación. Es decir,
+
+
+                                                V = 2π t ⋅ A ,                                                             (1)
+
+                                      donde t es el radio de la circunferencia que recorre el centroide y A es el área de la
+                                      región R.
+
+                                      En particular, si el eje de rotación es el eje x, entonces:
+
+                                               V = 2π y A.                                                                 (2)
+
+
+286
+Capítulo 4: Aplicaciones de la integral definida
+su tiempo, aunque en muchos casos no             24.1 Trabajo realizado por una fuerza variable
+consiguió terminarlos. Formuló la teoría del
+movimiento planetario como un problema
+de mecánica, y comprendió, pero no               Tomemos un intervalo cerrado [a,b] y sea P una partición del intervalo tal que:
+desarrolló matemáticamente, la teoría
+
+                                                          a = x0 < x1 < x2 < … < xn = b .
+fundamental con la que Newton formuló la
+ley de la gravitación. Entre sus aportaciones
+más importantes están la formulación
+correcta de la teoría de la elasticidad (que
+establece que un cuerpo elástico se estira       Supongamos que f ( x) es la magnitud de una fuerza variable que actúa sobre un
+                                                 cuerpo desplazándolo sobre el eje x, desde un punto x = a hasta un punto x = b ;
+proporcionalmente a la fuerza que actúa
+sobre él), conocida como ley de Hooke, y
+el análisis de la naturaleza de la combustión.   además f ( x) es continua sobre [a,b].
+Además fue el primero en utilizar el resorte
+espiral para la regulación de los relojes y
+desarrolló mejoras en los relojes de             Ahora consideremos la cantidad de trabajo realizada por f para mover el objeto
+                                                 cada Δxi .
+péndulo. También fue pionero en
+investigaciones microscópicas, entre las
+que se encuentra el descubrimiento de las
+células vegetales.
+                                                 Si hacemos la norma de la partición suficientemente pequeña, la fuerza f cambia
+A Hooke se le considera el fundador de la        muy poco en el subintervalo [ xi −1 , xi ] , es decir, es «casi constante» y la podemos
+                                                 aproximar a f (ti ), con xi −1 ≤ ti ≤ xi .
+meteorología científica, pues ideó los
+instrumentos usados para registrar los
+cambios de las condiciones del tiempo y
+perfeccionó los métodos para registrar
+sistemáticamente la información obtenida.        Por tanto, un valor muy aproximado del trabajo realizado por la fuerza en el i-ésimo
+En la lista de instrumentos que inventó          subintervalo será:
+figuran el barómetro de cuadrante, un
+
+                                                          ΔWi          f (ti )Δxi ,
+termómetro de alcohol, un cronómetro, el
+primer higrómetro, un anemómetro y un
+«reloj» para registrar automáticamente las
+lecturas de sus diversos instrumentos
+meteorológicos. La supremacía sobre los          y aplicando la propiedad 1 de la «Introducción», una buena aproximación al trabajo
+mares, que conservaría Inglaterra durante        total es
+
+                                                          ∑W ∑ f (t )Δx .
+varias generaciones, debió mucho al genio                  n                n
+inventivo de Hooke, pues en los días de los
+                                                          i =1          i =1
+barcos de vela el dominio de la navegación                       i                  i   i
+
+dependía de la habilidad para predecir con
+exactitud los cambios de tiempo.
+                                                 Lo anterior nos permite definir el trabajo total W de la siguiente manera:
+
+                                                          W = lim ∑ f (ti )Δxi = ∫ f ( x)dx.
+                                                                                n           b
+
+                                                                     P →0
+                                                                            i =1
+                                                                                            a
+
+
+                                                       Observaciones
+
+                                                 i.       Si f ( x) es continua sobre [a,b] y c es un punto de [a,b], el trabajo Wab que
+                                                          realiza la fuerza para mover un objeto desde a hasta b se puede calcular
+                                                          mediante la suma de las integrales definidas
+
+
+                                                                      Wab = ∫ f ( x)dx + ∫ f ( x)dx.
+                                                                                    c           b
+
+                                                                                    a           c
+
+
+                                                 ii.      El trabajo realizado por la fuerza para mover el objeto desde b hasta a es el
+                                                          opuesto del trabajo realizado por la misma fuerza para moverlo desde a
+                                                          hasta b. Esto es, Wba = −Wab .
+
+
+294
+Capítulo 4: Aplicaciones de la integral definida
+Su último trabajo fue la cicloide, la curva
+trazada por un punto en la circunferencia
+de un rollo circular. Pascal murió a la edad
+                                                25.1 Fuerza hidrostática
+de 39 años, después de sufrir un dolor
+intenso debido al crecimiento de un tumor       Consideremos la placa que se muestra en la figura 25.1 y que está limitada por las
+                                                rectas x = a, x = b y por las curvas y = f ( x) y y = g ( x) que supondremos
+maligno en su estómago, que luego se le
+propagó al cerebro.
+
+El principio de Pascal y sus aplicaciones       integrables en [a, b] y tales que f ( x) ≥ g ( x) para todo x en [a, b], sumergida en
+                                                un líquido de densidad de peso w.
+La presión aplicada en un punto de un
+líquido contenido en un recipiente se
+transmite con el mismo valor a cada una de
+las partes del mismo. Tal enunciado,
+obtenido a partir de observaciones y
+experimentos por este genial matemático,
+se conoce como «principio de Pascal», y
+puede ser interpretado como una
+consecuencia de la ecuación fundamental
+de la hidrostática y del carácter incom-
+presible de los líquidos.
+
+La prensa hidráulica constituye la aplicación
+fundamental del principio de Pascal y
+también un dispositivo que permite
+entender mejor su significado. Consiste,
+en esencia, en dos cilindros de diferente
+sección comunicados entre sí, y cuyo
+interior está completamente lleno de un                                                       Figura 25.1
+líquido que puede ser agua o aceite. Dos
+émbolos de secciones diferentes se ajustan,
+                                                La presión sobre todos los puntos del i-ésimo elemento de área variará entre
+                                                wxi −1 y wxi , y si se toma ti tal que xi −1 ≤ ti ≤ xi , wti será un valor intermedio
+respectivamente, en cada uno de los dos
+cilindros, de modo que estén en contacto
+con el líquido. Cuando sobre el émbolo de
+menor sección se ejerce una fuerza la           entre los dos anteriores.
+presión que se origina en el líquido en
+contacto con él se transmite íntegramente       Un valor aproximado de la magnitud de la fuerza ejercida por el líquido sobre el
+                                                i-esimo elemento de área será ΔFi = wti [ f (ti ) − g (ti )]Δxi , en donde los dos últimos
+y de forma instantánea a todo el resto del
+líquido; por tanto, será igual a la presión
+                                                factores representan el área ΔAi del elemento.
+que ejerce el líquido sobre el émbolo de
+mayor sección (esto significa que si, por
+ejemplo, una sección es veinte veces mayor
+que la otra, la fuerza aplicada sobre el        Un valor aproximado de la magnitud de la fuerza ejercida sobre toda la superficie
+émbolo pequeño se ve multiplicada por
+veinte en el émbolo grande).                    estará dada por:
+
+
+                                                             ∑ wt ΔA = ∑ wt [ f (t ) − g (t )] Δx .
+La prensa hidráulica es una máquina simple                    n                 n
+semejante a la palanca de Arquímedes, que
+                                                        F
+                                                             i =1              i =1
+permite amplificar la intensidad de las                              i     i          i   i         i       i
+
+fuerzas y constituye el fundamento de
+elevadores, prensas, frenos y muchos
+otros dispositivos hidráulicos de maquinaria    La fuerza total será entonces:
+industrial.
+
+
+                                                        F = lim ∑ wti [ f (ti ) − g (ti )] Δxi = ∫ wx [ f ( x) − g ( x)] dx.
+                                                                     n                                  b
+
+                                                             P →0
+                                                                    i =1
+                                                                                                        a
+
+
+300

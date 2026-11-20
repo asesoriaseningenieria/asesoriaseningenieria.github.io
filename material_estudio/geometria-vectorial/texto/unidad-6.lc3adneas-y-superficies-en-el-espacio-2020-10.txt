@@ -1,0 +1,2817 @@
+CURSO DE GEOMETRÍA ANALÍTICA
+
+
+       Oscar Cardona Villegas
+       Héctor Escobar Cadavid
+
+
+UNIVERSIDAD PONTIFICIA BOLIVARIANA
+     ESCUELA DE INGENIERÍAS
+               2016
+
+
+                                     1
+                                    MODULO 6
+                           LÍNEAS Y SUPERFICIES EN E3
+
+
+                                                                              3
+En este capitulo se van a tratar tanto las superficies más importantes en E       como
+la forma de representar una línea en el espacio. Ya en el Módulo 3 se estudiaron
+                                          3
+la línea recta y la superficie plana en E como variedades lineales. Ahora se verá
+cómo obtener diferentes representaciones de superficies no lineales y cómo
+identificar una superficie por medio de su ecuación, también cómo tratar las líneas
+en el espacio y poder identificarlas como el corte de dos superficies. Las
+                                                  n
+definiciones generales de línea y superficie en E se dieron en el Módulo 3, ahora
+                                      3
+se dan en forma más particular en E .
+
+
+Definición 6.1
+                       3
+Se llama línea en E        a un conjunto de puntos del espacio euclideo cuyas
+coordenadas pueden expresarse como funciones continuas de un único
+parámetro.
+
+
+Si se representa el parámetro por t , entonces la curva puede expresarse
+mediante las ecuaciones paramétricas x = f1 (t), y = f 2 (t) y z = f 3 (t) . También
+
+puede utilizarse la notación vectorial abreviada R = f1 (t), f 2 (t), f 3 (t) donde R
+
+representa el vector de posición de los puntos de la curva.
+Una línea puede definirse además como el corte de dos superficies dadas con
+ecuaciones f (x, y, z) = 0 y g(x, y, z) = 0 . En la sección 6.3 se profundizará
+
+respecto a esto.
+
+
+                                                                                     2
+Definición 6.2
+                            3
+Se llama superficie en E a un conjunto continuo de puntos del espacio euclídeo
+cuyas coordenadas pueden expresarse como funciones continuas de dos
+parámetros, es decir una superficie es una variedad bidimensional.
+
+
+Ya tenemos, por el cálculo, una idea de lo que es una función continua. Para el
+caso de las superficies significa algo así como que, al recorrerla, no presenta
+huecos ni saltos.
+
+
+La definición anterior, se puede expresar de tres maneras:
+
+
+a. Una superficie es el conjunto de puntos del espacio definido por una función
+
+  real continua en dos variables z = f (x, y ) donde (x, y, z) son las coordenadas
+
+  en E de un punto de la superficie. La ecuación z = f (x, y ) se llama forma
+        3
+
+
+  explícita de la superficie.
+                                                                             3
+  Por ejemplo, las siguientes ecuaciones representan superficies en E en forma
+  explícita:
+   z = 3x + 2 y , representa una superficie plana.
+   z = x2 + y 2 , representa un paraboloide de revolución.
+
+   z = 4 − x2 − y 2 , representa la mitad de una esfera.
+
+
+b. Una superficie en      E 3 es el conjunto imagen de una función continua con
+  dominio D 
+                    2                                2
+                        . Si (u, v) pertenecen a         , dicha aplicación puede venir
+
+  definida       por        una     terna     de           expresiones     del     tipo
+
+   x = f (u, v), y = g(u, v), z = h(u, v) , siendo (x, y, z) el punto de E 3
+
+
+                                                                                      3
+  correspondiente al punto (u, v) por dicha función y siendo f , g, h funciones
+
+  continuas. Esta es la definición paramétrica de una superficie. Si se asigna un
+  vector de posición R        respecto del origen al punto (x, y, z) entonces
+
+  R = f (u, v), g(u, v), h(u, v) es la forma vectorial de la superficie.
+
+
+                                                  3
+c. Una superficie es el conjunto de puntos de E       cuyas coordenadas cumplen una
+  relación funcional del tipo f (x, y, z) = c , siendo c un valor constante. Esta es la
+
+  forma implícita de la superficie.
+
+
+  Por ejemplo 3x + 2 y − z = 0, x + y − z = 0 y x + y + z = 4 son las formas
+                                      2   2             2   2       2
+
+
+  implícitas de las superficies dadas arriba.
+
+
+  Las superficies más sobresalientes se pueden clasificar en 3 categorías:
+  superficies regladas, superficies cuádricas y superficies de revolución. Algunas
+  superficies pertenecen a la vez a varias de estas categorías. Por ejemplo, la
+  esfera es a la vez cuádrica y de revolución; el cilindro circunferencial es a la vez
+  cuádrica, de revolución y reglada. Comenzamos con el estudio de las
+  superficies con el de la esfera.
+
+
+  6.1 LA ESFERA
+
+
+   Definición 6.3
+                                                                3
+   Una esfera es el conjunto de puntos P(x, y, z) de E que equidistan de un
+
+   punto fijo P0 (x0 , y0 , z0 ) llamado el centro de la esfera. La distancia entre P y
+
+   P0 , representada como P0P = r , se llama radio de la esfera (figura 6.1).
+
+
+                                                                                      4
+                                         Z
+                                                          P ( x, y , z )
+
+
+                                                                P0 ( x0 , y0 , z0 )
+
+
+                             X
+                                                            Y
+
+
+                                     Figura 6.1. Esfera
+
+
+6.1.1 Ecuaciones de la esfera
+
+
+Todo punto P(x, y, z) de la esfera cumple que P0P = r o, de forma equivalente,
+      2
+ P0P = r 2 . Por propiedad del producto punto se tiene que P0P • P0P = r 2 , lo cual
+es equivalente a
+
+                   (x − x0 )2 + ( y − y0 )2 + (z − z0 )2 = r 2                        (1)
+
+La ecuación (1) recibe el nombre de ecuación canónica de la esfera.
+Para el caso particular de que P0 (x0 , y0 , z0 ) = (0,0,0) , la ecuación (1) toma la
+
+forma de
+
+                                 x2 + y 2 + z 2 = r 2                                 (2)
+
+   conocida esta ecuación con el nombre de la ecuación normal de la esfera.
+
+
+La ecuación (1) también se puede organizar así:
+
+             x2 + y 2 + z2 − 2x0x − 2 y0 y − 2z0z + x02 + y02 + z02 − r 2 = 0
+Ahora si se hace
+
+a = −2x0 , b = −2 y0 , c = −2z0 , y d = z02 + y02 + z02 − r 2 , entonces esta ecuación
+queda reducida a
+
+
+                                                                                            5
+                      x2 + y 2 + z2 + ax + by + cz + d = 0          (3)
+
+Esta ecuación (3) recibe el nombre de ecuación general de la esfera.
+
+
+Notas:
+a.   De acuerdo con las sustituciones que se hicieron en (3),
+                                                     −a −b −c 
+                            P0 (x0 , y0 , z0 ) = P0  , ,  y
+                                                     2 2 2 
+                                     1 2 2 2
+                                r=     a + b + c − 4d
+                                     2
+     Si a + b + c − 4d = 0 , entonces la esfera se reduce a un punto.
+         2   2    2
+b.
+
+     Si a + b + c − 4d  0 , entonces no existe superficie (es degenerada).
+         2   2    2
+c.
+                                                                          3
+d.   Las esferas pertenecen a las llamadas superficies cuádricas en E , que en la
+     próxima sección serán tratadas.
+
+
+Ecuación vectorial de la esfera
+
+
+Para superficies cerradas como la esfera la forma más util de obtener la ecuación
+vectorial es usando parámetros angulares, es decir, tomando como parámetros
+dos ángulos. Como se observa en la figura 6.2 se definen de la siguiente manera:
+si P(x, y, z) es un punto cualquiera de la esfera y P '(x, y,0) el punto proyección
+
+de P en el plano xy , entonces:
+
+ es el ángulo entre el eje z y el radio vector OP,  0, 
+ es el ángulo entre el eje x y OP ',  0,2 
+Como se puede ver en la figura 6.2 se forman dos triángulos rectángulos de los
+cuales se obtiene,
+
+
+                                                                                  6
+                               x                          y
+                     cos =        ,       sen =
+                              OP '                       OP '
+                               z                         OP ' OP '
+                     cos =      ,         sen =            =
+                              OP                         OP    r
+
+
+                                                 z
+
+
+                                             z
+                                                          P
+                                                 
+                                                     r
+                                                               y
+                                       x         
+                                                          P'         y
+
+
+                      x
+
+
+                 Figura 6.2 Forma paramétrica de la esfera
+
+
+De estas ecuaciones, se deduce,
+                               x = r sen cos
+                               y = r sen sen                     (4)
+                               z = r cos
+Los parámetros son  y  mientras que r es constante (radio de la esfera).
+Cuando r también es un parámetro, las ecuaciones (4) son las ecuaciones de
+transformación a coordenadas esféricas, algo bastante usado en el cálculo
+vectorial.
+
+
+                                                                         7
+Si la esfera tiene centro en P0 (x0 , y0 , z0 ) , mediante una traslación de ejes se
+
+consigue:
+                                 x = r sencos + x0
+                                 y = r sen sen + y0
+                                 z = r cos + z0
+
+
+6.1.2 Familia de esferas
+
+
+De la ecuación general de la esfera, x + y + z + ax + by + cz + d = 0 , se deduce
+                                          2    2    2
+
+
+que toda esfera está determinada por cuatro condiciones (a, b, c, d) , que en caso
+
+tal de que se desconozca una o más de ellas, esto origina una familia de esferas.
+
+
+De la misma manera que en las circunferencias, también se pueden encontrar
+familias de esferas concéntricas, familias de esferas con centro sobre una recta
+dada, familias de esferas tangentes a un plano dado, etcétera.
+
+
+En esta sección se va a considerar el caso más importante de familia de esferas
+que corresponde a las esferas que contienen la intersección de dos esferas
+secantes. Sean las esferas:
+
+                   E1* : x2 + y 2 + z2 + a1x + b1 y + c1z + d1 = 0       y
+
+                   E2* : x2 + y 2 + z2 + a2x + b2 y + c2z + d2 = 0
+de modo que se intersecan, siendo su intersección una circunferencia. Entonces la
+                                                               *     *
+   familia de esferas que pasan por la intersección de E1 y E2 viene dada por
+
+                                     E1* + kE2* = 0
+con k      y k  −1 .
+
+
+                                                                                    8
+Actividad: Justificar por que E1 + kE2 = 0 con k                  y k  −1 representa una
+                                     *        *
+
+
+esfera.
+Si k = −1 , se obtiene
+                     (a1 − a2 )x + (b1 − b2 ) y + (c1 − c2 )z + (d1 − d2 ) = 0
+Que corresponde a la ecuación de un plano llamado plano radical de las esferas
+
+E1* y E2* .
+                                                                           *     *
+El plano radical contiene la circunferencia de intersección de E1 y E2 y se puede
+
+obtener restando sus respectivas ecuaciones generales.
+
+
+La recta que une los centros de las esferas es perpendicular al plano radical de
+dichas esferas.
+
+
+Actividad: Demostrar el enunciado anterior.
+
+
+6.1.3 Ejemplos
+
+
+1. Hallar las ecuaciones de la esfera cuyo centro es                     P0 (−2,3,1) y pasa
+  por P(2, −3, −1)
+
+
+Solución:
+De acuerdo con los datos, P0 (x0 , y0 , z0 ) = P0 (−2,3,1) y el radio viene dado por
+
+               P0P = (2 + 2)2 + (−3 − 3)2 + (−1 − 1)2 = 16 + 36 + 4
+
+Luego r =     56
+Así la forma canónica es:
+
+                            (x + 2)2 + ( y − 3)2 + (z − 1)2 = 56
+
+
+                                                                                          9
+La forma general es:
+
+                       x2 + 4x + 4 + y 2 − 6 y + 9 + z2 − 2z + 1 = 56          o
+
+                       x2 + y 2 + z2 + 4x − 6 y − 2z − 42 = 0
+La forma paramétrica es:
+
+                                      x = 56 sen cos − 2
+                                      y = 56 sen sen +3
+                                      z = 56 cos + 1
+
+
+2. Hallar el centro y el radio de la esfera cuya ecuación está dada por:
+
+                              x2 + y 2 + z2 − 4x + 6 y − 16z = 0
+Solución:
+
+Como la ecuación general de la esfera es x + y + z + ax + by + cz + d = 0 , su
+                                                        2     2   2
+
+
+                                                −a −b −c 
+centro está dado por P0 (x0 , y0 , z0 ) = P0      , ,  = P0 (2, −3,8) y su radio por
+                                                2 2 2
+     1 2 2 2            1
+r=     a + b + c − 4d =   16 + 36 + 256 + 0 , luego r = 308 = 2 77
+     2                  2
+
+3. Hallar     la   ecuación      de       la   esfera       que   pasa   por       los   puntos
+   A(8,2,2), B(−4,3, −3), C(−1,2,5) y D(4,3, −7) .
+Solución:
+Como la esfera pasa por los cuatro puntos mencionados, cada uno de estos
+
+satisface la ecuación x + y + z + ax + by + cz + d = 0
+                          2     2     2
+
+
+Reemplazando cada punto en la ecuación
+ A(8,2,2) :               64 + 4 + 4 + 8a + 2b + 2c + d = 0
+B(−4,3, −3) :            16 + 9 + 9 − 4a + 3b − 3c + d = 0
+
+
+                                                                                             10
+C(−1,2,5) :              1 + 4 + 25 − a + 2b + 5c + d = 0
+D(4,3, −7) :             16 + 9 + 49 + 4a + 2b − 7c + d = 0
+Las ecuaciones resultantes se pueden reescribir así:
+                             8a + 2b + 2c + d = −72
+                             −4a + 3b − 3c + d = −34
+                             −a + 2b + 5c + d = −30
+                             4a + 2b − 7c + d = −74
+Cuya solución corresponde a:
+a = −4, b = 0, c = 2 y d = −44 y por lo tanto la ecuación de la esfera viene dada
+por:
+
+                          x2 + y 2 + z2 − 4x + 2z − 44 = 0 .
+
+
+4. Hallar la ecuación del plano tangente a la esfera
+
+   x2 + y 2 + z2 − 2x + 8 y − 4z + 12 = 0 en el punto P(2, −2,4)
+Solución:
+El centro de la esfera está dado por:
+
+                               −a −b −c 
+                           P0  , ,  = P0 (1, −4,2)
+                               2 2 2 
+Se considera el vector que va del centro P0 al punto de tangencia P :
+
+                        P0P = 2 − 1, −2 + 4,4 − 2 = 1,2,2
+El vector anterior es perpendicular al plano tangente de la esfera en el punto dado,
+por tanto, su vector director N . Con la ecuación del plano (R − R0 ) N = 0 se
+
+obtiene que el plano tangente es
+                            x − 2, y + 2, z − 4 1,2,2 = 0
+                                 x + 2 y + 2z − 6 = 0
+
+
+                                                                                  11
+5. Muestre que el conjunto de puntos P(x, y, z) de E cuya distancia a P1 (2, −1,3)
+                                                                  3
+
+
+    es el doble de su distancia a P2 (−4,2,1) es una esfera. Halle su centro.
+
+Solución:
+La ecuación que plantea la igualdad entre las distancias se puede dar así:
+                                                           2            2
+                   PP
+                    1 = 2 P2P o también PP
+                                         1 = 4 P2P                              (1)
+                       2
+Pero              PP
+                   1 = (x − 2)2 + ( y + 1)2 + (z − 3)2                          (2)
+                       2
+                   PP
+                    2 = (x + 4)2 + ( y − 2)2 + (z − 1)2                         (3)
+
+reemplazando (2) y (3) en (1), se obtiene:
+
+(x − 2)2 + ( y + 1)2 + (z − 3)2 = 4(x + 4)2 + 4( y − 2)2 + 4(z − 1)2 , que es equivalente
+a
+
+                      3x2 + 3 y 2 + 3z2 + 36x − 18 y − 2z + 70 = 0
+que a su vez equivale a:
+                                                      2 70
+                           x2 + y 2 + z2 + 12x − 6 y − z + = 0
+                                                      3   3
+que corresponde a una esfera cuyo centro está localizado en
+
+                             P0 ( −2a , −2b , −2c ) = P0 ( −6,3, 31 )
+
+6. Hallar el plano radical y la ecuación de la recta que une los centros de las
+    esferas
+
+                      E1* : x2 + y 2 + z2 − 2x + 4 y − 6z + 10 = 0
+                      E2* : x2 + y 2 + z2 + 8x − 2 y + 4z + 12 = 0
+Solución:
+                                     *       *                              *         *
+Para hallar el plano radical de E1 y E2 , se puede restar E1 de E2 y se obtiene:
+
+10x − 6 y + 10z + 2 = 0 , que equivale a 5x − 3 y + 5z + 1 = 0
+
+
+                                                                                          12
+                                                                       *   *
+Para la segunda parte del ejercicio, se hallan los centros de E1 y E2 .
+
+                               P1 (1, −2,3) y P2 (−4,1, −2)
+Ahora el vector P1P2 = −5,3, −5          y el punto P1 (1, −2,3) determinan la recta
+
+pedida:
+                        x, y, z = x0 , y0 , z0 + t a1, a2 , a3     o
+
+                         x, y, z = 1, −2,3 + t −5,3, −5
+
+
+                                                                                           *
+Actividad: Hallar el centro y el radio de la circunferencia de intersección de E1 y
+
+E2* .
+
+
+6.1.4 Ejercicios
+
+
+Ejercicios básicos
+
+
+1. Halle la forma general de la esfera que cumple las condiciones dadas en cada
+  caso:
+   a.   Centro en (−1, −1,3) y radio 7 .
+
+   b.   Contiene los puntos P1 (2,0,0), P2 (−1,2,3), P3 ( −1,1,3) y P4 (0,5,1) .
+
+   c.   Centro en (3,6, −4) y tangente al eje x .
+
+   d.   Contiene la circunferencia dada implícitamente por
+
+        x2 + y 2 − 2x − 4 y + 3 = 0, z = 0 y al punto (3,4,2) .
+   e.   Contiene el punto (−2,4,0) y la circunferencia de corte de las esferas
+
+        x2 + y 2 + z2 − 2x + 2 y − 4z + 2 = 0 , x2 + y 2 + z2 − 4x − 2 y − 6z + 10 = 0 .
+
+
+                                                                                           13
+      f.   Pasa por el punto (−1,6, −3) y es tangente al plano 4x + 4 y + 7z − 96 = 0
+
+           en el punto (7,3,8) .
+
+      g.   Contiene los puntos (0,0,4), (2,3,1), (6,2,0) y tiene centro en el plano
+           y=x
+2. Halle la ecuación de la esfera en sus diversas formas cuyo centro es (3, −1,6) y
+
+  su radio es         52 .
+3. Halle la ecuación de la esfera cuyo centro es (1, −1, −1) y es tangente al plano
+
+  10x + 7 y − z + 1 = 0 .
+4. Halle el par de planos tangentes a la esfera (x − 1) + ( y + 4) + (z − 2)                              = 9 que
+                                                                          2              2            2
+
+
+  son perpendiculares al vector 1, −5,2 .
+
+5. Halle el centro y el radio de la esfera 2x
+                                                         2
+                                                             + 2 y 2 + 2z2 + 2x + 8 y + 10z = 7 .
+9. Halle el área de la superficie esférica cuya ecuación es:
+
+      9x2 + 9 y 2 + 9z2 − 36x + 12 y − 18z + 13 = 0 .
+           La ecuación de una esfera es x + y + z + 6 y − 4z + 9 = 0 . Halle las
+                                                         2       2    2
+10.
+
+  formas general y vectorial de otra esfera concéntrica a esta y tangente al plano.
+      2x − 3 y + 2z + 4 = 0 .
+
+
+Ejercicios avanzados
+
+
+1. Halle el centro y el radio de la circunferencia de intersección de las esferas
+
+      E1*: x2 + y 2 + z2 = 35 y E2*: x2 + y 2 + z2 − 2x + y − 5z = 11 .
+2. Muestre          que      la    ecuación        del        plano           tangente       a   la        esfera
+
+      (x − x0 )2 + ( y − y0 )2 + (z − z0 )2 = r 2 en el punto de tangencia P1 (x1 , y1 , z1 ) es
+      (x1 − x0 )(x − x0 ) + ( y1 − y0 )( y − y0 ) + (z1 − z0 )(z − z0 ) = r 2 .
+
+
+                                                                                                               14
+3. Halle una recta tangente a la esfera            x2 + y 2 + z2 − 4x − 2 y = 0 el punto
+   (2,2, −2) .
+4. Halle la ecuación de la familia de esferas que contienen la intersección de las
+
+  esferas x + y + z − 4x − 8 y + 6z + 12 = 0 y
+                 2         2    2
+
+
+   x2 + y 2 + z2 − 4x + 4 y − 6z − 12 = 0 . Halle también la ecuación general de la
+  esfera de esta familia que es tangente al plano x + 2 y − 2z = 0 .
+
+5. Halle el centro y el radio de la circunferencia de intersección de la esfera
+
+   x2 + y 2 + z2 = 36 y el plano 2x − y + z = 0 .
+6. Halle la forma general de la esfera tangente a los planos             x − 2z − 8 = 0 y
+   2x − z + 5 = 0 y que tiene centro en la recta x = −2, y = 0 .
+7. Halle una forma vectorial de la circunferencia de E 3 cuya forma implícita es
+
+   (x − 3)2 + y 2 + z2 = 25 , (x − 3)2 + ( y − 2)2 + z2 = 16 .
+8. Sea una circunferencia en E 3 en un plano paralelo al plano coordenado xy ,
+
+  con centro en (0,0,5) y radio 4 . Halle su forma implícita (como el corte de dos
+
+  esferas).
+9. Halle el punto donde la recta que une los centros de las esferas dadas como:
+   x = 3 sen cos + 1, y = 3 sen sen − 3 , z = 3cos y
+   x2 + y 2 + z2 + 3x − z + 1 = 0 corta al plano radical.
+10. Dadas            las       esferas   de   E3   x2 + y 2 + z2 + 7x − 10 y + 31 = 0   y
+
+   x2 + y 2 + z2 − x − 6 y + 3 = 0 , halle las formas escalar y vectorial de la
+  esfera que contiene la intersección de las esferas anteriores y cuyo centro está
+  sobre el plano x − y − z = 0 .
+
+
+                                                                                        15
+6.2 SUPERFICIES CUÁDRICAS
+
+
+Las cuádricas son las superficies que aparecen con más frecuencia en
+matemática e ingeniería. Algunas de ellas también son regladas o superficies de
+revolución como se verá en los apartados siguientes tales como la esfera, los
+cilindros cuádricos y los conos cuádricos. Las cuádricas se caracterizan porque las
+trazas con planos coordenados o con planos paralelos a estos, son líneas cónicas.
+
+
+Definición 6.4
+
+La gráfica en E de una ecuación de segundo grado en las variables x, y y z
+                 3
+
+
+     a1x2 + a2 y 2 + a3z2 + a4 xy + a5xz + a6 yz + a7x + a8 y + a9z + a10 = 0   (1)
+
+ai , i = 1,...,10 , es una superficie cuádrica.
+
+
+Por supuesto, en la práctica, dada una cuádrica, no aparecen todos los términos
+de la ecuación (1), por lo general los coeficientes de varios de ellos son cero. La
+diferencia entre una cuádrica y otra está, así como en las cónicas, en los valores
+que estos coeficientes tomen. Fíjese, por ejemplo, para que (1) represente una
+esfera a1 = a2 = a3 y a4 = a5 = a6 = 0 .
+
+De todas las superficies cuádricas las siete más importantes se deben estudiar
+con detalle. Aquí se presentan en la forma más simple (forma canónica), pero en
+los ejemplos se analizarán algunas variaciones. Estas siete cuádricas son:
+                      x2 y 2 z2
+    a. Elipsoide:        +  + = 1 a, b, c  0
+                      a 2 b2 c 2
+                                         x2 y 2 z2
+    b. Hiperbolide elíptico de una hoja:    +  − = 1 a, b, c  0
+                                         a 2 b2 c 2
+                                                  x2 y 2 z2
+    c. Hiperbolide elíptico de dos hojas:            −  − = 1 a, b, c  0
+                                                  a 2 b2 c 2
+
+
+                                                                                      16
+                      x2 y 2 z 2
+    d. Cono elíptico:    +  − = 0 a, b, c  0
+                      a 2 b2 c 2
+                             x2 y 2 z
+    e. Paraboloide elíptico:    +  = a, b  0, c  0
+                             a 2 b2 c
+                                    y 2 x2 z
+    f.   Paraboloide hiperbólico:      − = a, b  0, c  0
+                                    b2 a 2 c
+                        x2 y 2
+    g. Cilindro elíptico 2 + 2 = 1 a, b  0
+                        a   b
+6.2.1 Elipsoide
+                                          x2 y 2 z2
+La ecuación canónica del elipsoide es        +  + = 1 a, b, c  0
+                                          a 2 b2 c 2
+Las trazas (curvas de corte) con los planos coordenados son las elipses:
+x2 y 2
+   +   = 1 , z = 0 con el plano XY
+a 2 b2
+x2 z2
+  + = 1 , y = 0 con el plano XZ
+a2 c2
+y 2 z2
+   + = 1 , x = 0 con el plano YZ
+b2 c 2
+En la figura 6.3 se observa el elipsoide con a  b  c
+
+                                            y
+                                                b
+
+
+                                     c
+                                                         a
+                            z                                x
+
+                                Figura 6.3. Elipsoide
+
+
+                                                                           17
+Cuando a = b o b = c o a = c se obtiene un elipsoide de revolución y cuando
+a = b = c se obtiene una esfera.
+
+6.2.2 Hiperbolide elíptico de una hoja
+                                               x2 y 2 z2
+La ecuación canónica de esta cuádrica es          +  − = 1 , a, b, c  0
+                                               a 2 b2 c 2
+Las trazas con los planos coordenados son:
+
+            x2 y 2
+La elipse      +   = 1, z = 0 con el plano XY
+            a 2 b2
+               x2 z2
+La hipérbola     − = 1, y = 0 con el plano XZ y
+               a2 c2
+                y 2 z2
+La hipérbola       − = 1, x = 0 con el plano YZ
+                b2 c 2
+La gráfica del hiperboloide de una hoja se ve en la figura 6.4
+
+
+                                           z
+
+
+                                   a             b
+                               x                     y
+
+
+                      Figura 6.4. Hiperboloide de una hoja
+
+
+                                                                              18
+Si a = b , el hiperboloide es de revolución.
+
+
+6.2.3 Hiperboloide elíptico de dos hojas.
+                             x2 y 2 z2
+Su ecuación canónica es         −  − = 1 , a, b, c  0
+                             a 2 b2 c 2
+Si se analizan las trazas con los planos coordenados se descubre que con el
+                                                      y 2 z2
+plano YZ no hay corte pues al hacer x = 0 se obtiene − 2 − 2 = 1 que no tiene
+                                                      b   c
+solución   en     .   Con   los   otros dos planos se     tienen       las   hipérbolas
+x2 z2                            x2 y 2
+  − = 1, y = 0 con el plano XZ y 2 − 2 = 1, z = 0 con el plano XY .
+a2 c2                            a  b
+Con los planos paralelos al plano x = 0 comienza a haber trazas para x = k con
+
+                                    y 2 z2 k2
+k  a , así se obtienen las elipses 2 + 2 = 2 − 1, x = k . Esto se ve en la figura
+                                    b   c  a
+6.5.
+
+
+                                               y
+
+
+                                      a
+                                                   a
+
+                                                                   x
+                                  z
+
+                      Figura 6.5. Hiperboloide de dos hojas
+
+
+                                                                                     19
+6.2.4 Cono Elíptico
+                                   x2 y 2 z 2
+Tiene como ecuación canónica          +  − = 0 a, b, c  0
+                                   a 2 b2 c 2
+Las trazas con planos coordenados son:
+                           x2 y 2
+Con el plano XY se obtiene    +   = 0, z = 0 cuya solución es el punto de
+                           a 2 b2
+origen (0,0,0) .
+
+                            y 2 z2
+Con el plano YZ se consigue    − = 0, x = 0 que equivale a
+                            b2 c 2
+     b
+y =  z, x = 0 , es decir dos rectas secantes en el origen.
+     c
+                                 x2 z2
+Con el plano XZ es el mismo caso: 2 − 2 = 0, y = 0 que son las rectas
+                                 a c
+     a
+x =  z, y = 0 .
+     c
+Como se ve ésta cuádrica tiene una particularidad: las trazas con planos
+coordenados son cónicas degeneradas. Si se desplazan los cortes a planos
+paralelos, se obtienen una elipse y dos hipérbolas del siguiente modo: (referirse a
+la figura 6.6)
+                               x2 y 2 k2
+Con un plano z = k , la elipse    +  = , z=k
+                               a 2 b2 c 2
+                                  z2 x2 k2
+Con un plano y = k , la hipérbola    − = , y=k
+                                  c 2 a 2 b2
+                                  z 2 y 2 k2
+Con un plano x = k , la hipérbola    −   = , x=k
+                                  c 2 b2 a 2
+
+
+                                                                                 20
+                                            z
+
+
+                                x                   y
+
+
+                             Figura 6.6. Cono elíptico
+
+
+Por último, obsérvese que, cuando a = b , el cono se convierte en circunferencial.
+
+
+6.2.5 Paraboloide elíptico
+                                                    x2 y 2 z
+La ecuación canónica del paraboloide elíptico es       +  = a, b  0 , c  0
+                                                    a 2 b2 c
+Las trazas con los planos coordenados son:
+                                x2 z
+Con el plano XZ la parábola       = , y =0
+                                a2 c
+                                 y2 z
+Con el plano YZ la parábola        = , x=0
+                                 b2 c
+                                x2 y 2
+Con el plano XY se obtiene         +   = 0, z = 0
+                                a 2 b2
+Cuya única solución en es el origen (0,0,0) . Si se desplaza el corte en el eje z se
+
+              x2 y 2 k
+logran elipses 2 + 2 = , z = k . Nótese que la elipse existe sólo si k y c
+              a   b   c
+tienen el mismo signo. La figura 6.7 ilustra el paraboloide.
+
+
+                                                                                  21
+                                             z
+
+
+                                x                       y
+                          Figura 6.7. Paraboloide elíptico
+
+
+Cuando a = b , el paraboloide es de revolución.
+
+
+6.2.6 Paraboloide hiperbólico
+                                                   y 2 x2 z
+La ecuación canónica de esta superficie es            − =       a, b  0 , c  0
+                                                   b2 a 2 c
+Las trazas con los planos coordenados son:
+                                                 y 2 x2
+Con el plano XY , al hacer z = 0 se tiene           − = 0, z = 0 que son las dos
+                                                 b2 a 2
+                             b
+rectas por el origen y =      x, z = 0 .
+                             a
+                                    y2 z
+Con el plano YZ , la parábola         = , x=0
+                                    b2 c
+                                     x2     z
+y con el plano XZ , la parábola        2
+                                         = − , y = 0.
+                                     a      c
+                                                             y 2 x2 k
+Al desplazarse sobre el eje z se obtienen las hipérbolas        − = , z=k
+                                                             b2 a 2 c
+En la figura 6.8 se ilustra el caso para c  0 .
+
+
+                                                                                   22
+                        Figura 6.8. Paraboloide hiperbólico
+
+
+Se debe notar que las hipérbolas tienen un sentido (el eje transverso paralelo al
+eje y ) si k  0 y otro sentido (eje transverso paralelo al eje x ) si k  0
+
+Usted, amable lector, podrá darse cuenta de que no hay forma de hacer que el
+paraboloide hiperbólico sea de revolución.
+
+
+6.2.7 Cilindro elíptico
+
+                       x2 y 2
+Su ecuación canónica es 2 + 2 = 1 , a, b  0 . (Figura 6.9)
+                       a   b
+Las trazas con los planos coordenados son:
+
+                         x2 y 2
+Con el plano XY la elipse 2 + 2 = 1 , z = 0
+                         a   b
+Con el plano YZ el par de rectas y = b que son paralelas al aje Z
+
+Con el plano XZ el par de rectas x = a que son paralelas al eje Z
+Cuando a = b el cilindro es circunferencial.
+
+
+                                                                                    23
+                              Figura 6.9 Cilindro elíptico
+
+
+El siguiente cuadro muestra un resumen de las 7 cuádricas analizadas.
+
+
+                                      Tabla 7. Cuádricas
+Ecuación          Cortes       con Trazas                     Gráfica
+canónica          los ejes
+Elipsoide         Eje x , (a,0,0)      Plano XY ,elipse                              y
+
+x2 y 2 z2                                                                                 b
+   +  + =1        Eje y , (0, b,0)     Plano XZ , elipse
+a 2 b2 c 2                              Plano YZ , elipse
+                  Eje z , (0,0, c)                                           c
+                                                                                                      a
+                                                                  z                                       x
+
+
+Hiperboloide      Eje x , (a,0,0)      Plano XY ,elipse                          z
+
+elíptico de una Eje y , (0, b,0)       Plano XZ ,
+hoja                                    hipérbola
+                Eje z, no corta
+x2 y 2 z2                               PlanoYZ , hipérbola
+    +   − =1                                                              a                   b
+a 2 b2 c 2                                                            x                           y
+
+
+                                                                                                              24
+Hiperboloide      Eje x,(a,0,0)      Plano XY ,
+elíptico de dos Eje y , no corta      Hipérbola                                   y
+
+
+hojas                                 Plano XZ ,
+                Eje z, no corta
+x2 y 2 z2                             hipérbola                               a
+    −   − =1                                                                          a
+
+a 2 b2 c 2                            PlanoYZ ,no corta                                           x
+                                                                          z
+                                      Planos       y = k, k  a
+                                      elipses
+
+Cono elíptico     Con los tres        Plano XY ,el origen                         z
+
+x2 y 2 z 2        ejes, en el         Plano XZ ,dos rectas
+   +  − =0
+a 2 b2 c 2        origen              PlanoYZ ,dos rectas
+                                      Planos, z = k , elipse
+                                                                      x                   y
+
+
+Paraboloide       Con      los   tres Plano XY ,el origen                         z
+elíptico          ejes,     en     el Plano XZ , parábola
+x2 y 2 z          origen              Plano YZ ,
+   +  =
+a 2 b2 c                              parábola
+                                      Planos z = k  0
+                                      elipses
+
+                                                                  x                           y
+
+Paraboloide       Con      los   tres Plano XY ,dos
+hiperbólico       ejes,     en     el rectas
+y 2 x2 z          origen              Plano XZ , parábola
+   − =
+b2 a 2 c                              Plano YZ , parábola
+                                      Planos z = k,
+                                      hipérbolas
+
+
+                                                                                                  25
+Cilindro elíptico   Eje x,(a,0,0)      Plano XY ,elipse
+x2 y 2              Eje y ,(0, b, 0)   Plano XZ , dos rectas
+   +   =1
+a 2 b2              Eje z, no corta
+                                        Plano YZ , dos rectas
+
+
+Actividad: Para los estudiantes que tengan la capacidad será un buen ejercicio
+hacer las gráficas de estas superficies usando un programa como Matlab,
+GeoGebra o Mathematica.
+
+
+Ejemplos
+
+
+ 1. Identificar la superficie y hacer un dibujo:
+
+                              9x2 + 4z2 − 18x − 36 y − 16z + 133 = 0
+Solución:
+Lo más conveniente es efectuar una traslación de ejes para simplificar la ecuación.
+El estudiante puede verificar que la traslación
+                                                            x12 z12
+x = x1 + 1, y = y1 + 3, z = z1 + 2 convierte la ecuación en    +    = y1 .
+                                                             4   9
+Por la forma de la ecuación, se sabe que se trata de un paraboloide elíptico. Como
+las elipses dan al cortar la superficie con los planos y = k, k  0 el paraboloide se
+
+abre hacia el eje y (Figura 6.10).
+
+
+                                                                                   26
+                                               z1
+
+
+                                                               y1
+
+
+                                  x1
+
+                                 Figura 6.10. Ejemplo 1
+
+
+La gráfica respecto al sistema primitivo se observa en la figura 6.11.
+
+                                                    z
+
+                                                2
+
+
+                                           1
+                                                          3    y
+                                 x
+                                 Figura 6.11. Ejemplo 1
+
+2. Identificar la superficie y hacer un dibujo:         4(x2 + y 2 ) = 1 − z .
+Solución:
+Se busca llevar la ecuación a una de las 6 formas de la tabla 7 para ello se efectúa
+la traslación x = x1 , y = y1 , z = z1 + 1 .
+
+                                                                                  z
+Con eso, la ecuación queda 4(x1 + y1 ) = −z1 o mejor x1
+                                       2            2                2
+                                                                         + y12 = − 1
+                                                                                   4
+Lo cual corresponde a un paraboloide elíptico con a = b = 1 y c = −4 . Que a = b
+significa que el paraboloide es de revolución y que c = −4 significa que se abre
+hacia el lado negativo del eje z1 . La figura 6.12 muestra el paraboloide en ambos
+
+sistemas.
+
+
+                                                                                       27
+                                                          z
+                   z1                                     1
+
+
+                            y1
+        x1                                      x               y
+
+
+                                 Figura 6.12 ejemplo 2
+
+3. Dibujar el sólido que queda limitado por las superficies   x2 + y 2 = (4 − z)2 y
+   x2 + y 2 = 16 y el plano z = 4 .
+  Solución:
+La primera ecuación corresponde a un cono circunferencial con el vértice
+desplazado al punto (0,0,4) ; la segunda ecuación representa un cilindro recto
+
+circunferencial con eje en el eje z y radio 2 . El sólido pedido se aprecia en la
+figura 6.13.
+
+                                           z
+
+
+                                          4
+
+
+                                                     y
+
+                                  x
+
+                                 Figura 6.13. Ejemplo 3
+
+
+                                                                                28
+4. Dibujar   el sólido limitado por las superficies               4 x2 + y 2 + z 2 − 4 y = 0 y
+   4 x2 − y 2 + z 2 = 0 .
+La primera ecuación se puede reescribir así:                    4x2 + ( y − 2)2 + z2 = 4 que
+corresponde a un elipsoide de revolución desplazado en el eje y . La traza con el
+
+plano XY es la elipse:
+                                                   2
+                                        ( y − 2)
+                                    x +
+                                     2
+                                                 = 1, z = 0
+                                            4
+La cual tiene centro en (0,2,0) y vértices principales en (0,0,0) y (0,4,0) ; esto
+
+significa que el elipsoide es tangente al plano XZ . La segunda ecuación es un
+cono elíptico con vértice en el origen y eje en el eje y .El sólido se ve en la figura
+
+6.14.
+
+                                         z
+
+
+                                                   2
+                            x                               4
+                                                                  y
+
+
+                                    Figura 6.14. Ejemplo 4
+
+
+Para determinar a qué altura se cortan las dos superficies se resuelve el sistema y
+                                2
+se obtiene, reemplazando z de la segunda en la primera ecuación:
+
+                                             y2 − 2 y = 0
+
+
+                                                                                           29
+Es decir,                                   y( y − 2) = 0
+Lo que significa que y = 0 o y = 2
+
+y = 0 es el corte en el origen. Si y = 2 se reemplaza en alguna de las
+ecuaciones, queda:
+
+                                            4 x2 + z 2 = 4
+Por tanto, una forma implícita de la traza es 4x + z = 4, y = 2 , una elipse, corte
+                                                            2   2
+
+
+de un cilindro elíptico con un plano paralelo al plano xz .
+
+
+6.2.8 Ejercicios
+
+
+En los ejercicios 1 al 15 identifique la cuádrica. Tenga en cuenta que, en algunos
+casos, será necesario hacer una translación de coordenadas. Haga el dibujo.
+
+1. x
+       2
+           + y 2 + z2 − 8x + 4 y + 2z − 4 = 0
+2. x + y             − 6z + 9 = z2
+       2         2
+
+
+3.    y 2 + x2 = 4
+4. 4x
+           2
+               − y 2 + 25z2 = 0
+5. 4x
+           2
+               − 9 y 2 − z2 = 36
+6. 2x
+           2
+               + 2 y 2 + 3z2 = 6
+   x2 z2
+7. 2 − 2 = cy con c  0
+   a b
+8.    y 2 − 4 z + 4 x2 = 0
+9. x
+       2
+           − 2 y 2 − 2z2 + 2x = 1
+10.            z2 + 4x − 4z2 = 4
+11.            x2 + y 2 − z2 tan( ) = 0 con  constante.
+
+
+                                                                                  30
+12.       x2 + y 2 − 4x − 6 y + 18z + 13 = 0
+13.       x2 + y 2 + z2 − 6x + 2 y − 4z + 19 = 0
+14.       y 2 = z 2 − 6z + 9
+15.       x2 − 3z2 − y 2 − 6 y = 0
+16.       Si las trazas de una superficie cuádrica con los planos XZ y XY son
+
+      x2 + z2 − x = 0, y = 0 y x2 + 2 y 2 − x + 2 y = 0, z = 0 y pasa por el punto
+      (1,1,2) , halle la forma implícita de dicha cuádrica.
+
+
+6.3 SUPERFICIES REGLADAS
+
+
+Una superficie reglada es la que se obtiene por el movimiento continuo de una
+recta. La recta móvil se llama generatriz y su posición depende de un parámetro.
+
+
+A la superficie generada puede adaptársele el borde de una regla, de modo que
+coincida perfectamente con la superficie a lo largo de una posición de la
+generatriz, a esto se debe la denominación de regladas.
+
+
+Las superficies regladas se clasifican en desarrollables y alabeadas. La reglada es
+desarrollable si se puede desarrollar sobre un plano, es decir, si un plano tangente
+a la superficie en un punto es también tangente a ella a lo largo de toda generatriz
+que pase por dicho punto y a la cual contiene. En cambio, la reglada es alabeada
+si el plano tangente en un punto contiene a la generatriz por dicho punto, pero no
+es tangente a la superficie en otros puntos de dicha generatriz.
+Para el alcance de este texto solo vamos a estudiar regladas desarrollables, en
+particular cilindros y conos.
+
+
+6.3.1 SUPERFICIES CILÍNDRICAS
+
+
+                                                                                   31
+Definición 6.5
+Se llama superficie cilíndrica o cilindro a la reglada cuyas generatrices son
+paralelas a una recta dada y cortan a una curva, también dada, llamada directriz.
+En otras palabras, un cilindro se obtiene cuando una recta se desplaza, sin
+cambiar de dirección, a lo largo de una línea dada.
+
+
+Los cilindros se nombran según la forma de su directriz; de esta forma si la
+directriz es una circunferencia, el cilindro es circunferencial, si es una parábola, el
+cilindro es parabólico y así en todos los casos.
+
+
+En el estudio de los cilindros se va a restringir la directriz a una curva plana. Si las
+generatrices van perpendiculares al plano de la directriz, el cilindro es recto, si no
+es oblicuo.
+
+
+Para obtener expresiones vectorial, paramétrica e implícita, tanto de un cilindro
+                                                3
+recto como de un cilindro oblicuo en E , se va a suponer, sin pérdida de
+generalidad, que la directriz está en uno de los planos coordenados o en un plano
+paralelo a alguno de ellos. Según esto se pueden analizar tres casos según la
+directriz esté en el plano xy , en el plano xz o en el plano yz . En cualquiera de
+
+los tres casos el análisis es el mismo por lo que si se hace con la directriz en el
+plano xy , luego se pueden extender los resultados a otros casos.
+
+
+Supóngase entonces que la directriz es una línea C
+                                                               *
+                                                                   en el plano   xy dada
+paramétricamente (parámetro t ) por:
+                              x = f1 (t), y = f 2 (t), z = 0
+
+
+                                                                                      32
+Como la generatriz de un cilindro no cambia de dirección, entonces el vector
+director de esta recta es fijo y no depende de un parámetro. Sea éste A = a, b, c
+
+(referirse a la fig. 6.15)
+
+
+                                   z
+
+
+                                       A
+                                                          P
+                                                 R
+                                            y
+
+                                                Rc   P'
+
+                                                          x
+
+                             Figura 6.15. Pedazo de un cilindro
+
+
+Sea P(x, y, z) un punto cualquiera del cilindro cuyo vector de posición es R . La
+
+generatriz por P corta a la directriz en el punto P '(x ', y ',0) que tiene vector de
+
+posición Rc , es decir,        Rc = ( f1 (t), f 2 (t),0) . Se cumple entonces por suma de
+vectores que
+                                           R = Rc + P ' P
+y el vector P ' P es paralelo a A , es decir, P ' P = uA donde u es un parámetro,
+por lo tanto,
+                                           R(t, u) = Rc (t) + uA                      (1)
+
+La ecuación (1) es la forma vectorial del cilindro.
+Cuando el cilindro es recto (figura 6.16), el vector A es cualquier vector paralelo
+al eje z y así, la ecuación (1) queda
+
+                                           R(t, u) = Rc (t) + uk                      (2)
+
+
+                                                                                       33
+                          z
+
+
+                                 y
+                                          R
+
+                                      Rc
+
+                                                 x
+
+                     Figura 6.16 Pedazo de un cilindro recto
+
+
+Si se reemplazan en la ecuación (1) los componentes de los vectores, se logra
+                          x, y, z = f1 (t), f 2 (t),0 + u a, b, c
+lo que equivale a que
+                              x = f1 (t) + au, y = f 2 (t) + bu, z = cu         (3)
+
+que es la forma paramétrica del cilindro con parámetros t y u .
+
+
+Si de (3) se eliminan los parámetros se obtiene una ecuación de la forma
+                                      F(x, y, z) = 0
+que es la forma implícita del cilindro.
+Ahora, en el caso del cilindro recto,
+                               x = f1 (t), y = f 2 (t), z = u
+y aquí, al eliminar los parámetros, se obtiene la ecuación de la forma
+                                        F(x, y) = 0
+Actividad: Hacer los análisis correspondientes para los otros dos casos (directriz
+en el plano xz y directriz en el plano yz o un plano paralelo).
+
+En el caso de los cilindros rectos se puede establecer que la ecuación implícita es
+una ecuación en dos variables y viceversa como se plantea enseguida.
+
+
+                                                                                 34
+Teorema 6.1
+                                                   3
+La forma implícita de un cilindro recto en E , cuya directriz está en un plano
+coordenado (o un plano paralelo) y su generatriz se desplaza perpendicular a
+dicho plano es una ecuación de dos variables siendo la variable faltante la del eje
+paralelo a la generatriz. Recíprocamente, toda la ecuación en dos variables
+                   3
+representa en E a un cilindro recto cuya directriz está en el plano coordenado
+dado por esas dos variables.
+
+
+La directriz de un cilindro recto se puede dar pues como el corte del cilindro mismo
+y un plano coordenado (o paralelo). Por ejemplo, la directriz de un cilindro
+F (x, y ) = 0 está dada implícitamente por
+                           F(x, y ) = 0, z = k , donde k 
+es decir, el corte del cilindro con el plano z = k .
+
+
+6.3.2 Ejemplos
+
+
+1.    La      directriz   de     un     cilindro       recto   es   la   circunferencia
+x = r cos , y = rsen , z = 0 , parámetro  . Halle las diferentes formas del cilindro.
+Solución:
+
+Como el cilindro es recto, la dirección de la generatriz es la del vector k = 0,0,1
+
+por lo que la forma vectorial es R = r cos , rsen ,0 + u 0,0,1            y la forma
+
+paramétrica
+                   x = r cos , y = rsen , z = u , parámetros  y u .
+
+
+                                                                                      35
+De aquí, eliminando los parámetros, se llega a x + y = r
+                                                            2   2   2
+                                                                        que es la forma
+
+implícita de este cilindro recto circunferencial, el cilindro más conocido. La directriz
+del cilindro se puede dar entonces, en forma implícita, como
+
+                              x2 + y 2 = r 2 , z = 0
+Nota: El lector debe notar que esta ecuación es la de una circunferencia en
+
+E 2 .Esto significa que una misma ecuación representa una variedad diferente en
+espacios euclidianos de diferente dimensión.
+
+
+2. Hallar las diferentes formas del cilindro oblicuo cuya directriz es la
+
+circunferencia   x2 + y 2 = 9, z = 0 y cuyas generatrices son paralelas al vector
+A = 1,2,3 .
+Solución:
+Un bosquejo del cilindro se ve en la figura 6.17
+
+
+                                       z
+
+
+                                                y
+
+                              x
+
+
+                   Figura 6.17 Tramo del cilindro del ejemplo 2
+
+
+Una forma vectorial de la directriz, con parámetro t , es:
+                                  Rc (t) = 3cos t,3sent,0
+con lo que la ecuación vectorial del cilindro es:
+                         R(t, u) = 3cos t,3sent,0 + u 1,2,3
+con parámetros t y u .
+
+
+                                                                                      36
+De aquí, las ecuaciones paramétricas son
+                                  x = 3cos t + u                   (1)
+                                  y = 3sent + 2u                   (2)
+
+                                  z = 3u                           (3)
+si se eliminan los parámetros en este sistema de ecuaciones, se obtiene la forma
+implícita del cilindro:
+                                                   z
+de (3) ,                                    u=
+                                                   3
+                                                             z
+en (1) y (2),                               x = 3cos t +
+                                                             3
+                                                              2z
+                                                y = 3sent +
+                                                              3
+                                              z
+de aquí                                    x − = 3cos t
+                                              3
+                                                2z
+y                                          y−      = 3sent
+                                                3
+Elevando al cuadrado las dos ecuaciones anteriores y sumándolas
+                                            2                 2
+                                      z      2z 
+                                   x −  + y −  = 9
+                                      3      3
+                                            5    2    4
+                          o       x2 + y 2 + z2 − xz − yz − 9 = 0
+                                            9    3    3
+y esta es la forma implícita de ese cilindro circunferencial.
+
+
+3. Probar que x + y − 2xy + 4x − 4z = 0 es una superficie cilíndrica y hallar la
+                   2          2
+
+
+forma implícita de su directriz y el vector director de sus generatrices.
+Solución:
+
+
+                                                                              37
+En una superficie cilíndrica las curvas de corte con planos paralelos al plano de la
+directriz son curvas congruentes a ella. En este caso los cortes con los planos
+x = k son las líneas,
+                           y 2 − 2ky + k2 = 4z − 4k, x = k
+o también
+
+                             ( y − k)2 = 4(z − k), x = k
+Esta es la forma implícita de una familia de parábolas con p = 1 (distancia vértice-
+
+foco) y vértice en (k, k, k) o sea parábolas iguales, pero en planos diferentes. Esto
+
+significa que la ecuación dada es la de un cilindro parabólico oblicuo con directriz
+en el plano yz (k = 0) dada por
+
+                                   y 2 = 4z, x = 0
+La recta que une los vértices de las parábolas es una generatriz del cilindro. El
+vértice de la parábola en el plano x = 0 es (0,0,0) y el de la parábola en el plano
+
+x = 1 es (1,1,1) con lo que el vector director de las generatrices es A = 1,1,1 .
+
+
+6.3.3 SUPERFICIES CÓNICAS
+
+
+Definición 6.6
+Se llama superficie cónica o cono a la superficie reglada cuyas generatrices pasan
+por un punto fijo (vértice) y cortan a una curva plana dada (directriz) cuyo plano no
+contiene al vértice.
+
+
+Para evitar ambigüedades, la directriz no puede ser una línea recta ya que esto les
+daría a los planos la dualidad de ser cilindros y conos a la vez. El nombre del cono
+
+
+                                                                                    38
+se obtiene de la forma de su directriz. Así, si la directriz es una circunferencia el
+cono es circunferencial; si es parábola, cono parabólico, etcétera.
+
+
+Al igual que en los cilindros se pueden obtener expresiones vectorial, paramétrica
+e implícita de un cono; para ello es necesario conocer la directriz y las
+coordenadas del vértice, entonces si el vértice del cono es V (a, b, c) con vector de
+
+posicion R v y la directriz tiene el vector de posición Rc (t) pero respecto del vértice
+
+(figura 6.18), la ecuación vectorial del cono es
+                                 R(t, u) = Rv + uRc (t)                             (1),
+
+donde R es el radar de cualquier punto del cono.
+
+
+                                      z         P
+
+
+                                          R
+
+
+                                              Rv v
+                                                     y
+
+                            x
+
+                         Figura 6.18. Pedazo de un cono.
+
+
+Sin pérdida de generalidad, se puede tomar el vértice de un cono en el origen de
+coordenadas y la directriz en un plano paralelo a un plano coordenado. Con estas
+suposiciones se pueden presentar tres casos: directriz en el plano x = k , directriz
+en el plano y = k o directriz en el plano z = k . Como en los cilindros, sólo
+
+haremos aquí el análisis de un caso pues para los otros dos es muy similar y se
+deja a cargo del estudiante.
+
+
+                                                                                      39
+Supóngase     que   la   directriz    está       en   un    plano    paralelo   al    xy   dada
+
+parametricamente por
+                               x = f1 (t), y = f 2 (t), z = c
+con t parámetro y c constante no nula.
+Si P(x, y, z) es cualquier punto del cono con vector de posición R y P '(x ', y ', k)
+
+es el punto donde se cortan la generatriz por P y la directriz, la cual tiene vector
+de posición Rc (t) (referirse a la figura 6.19), entonces R y Rc son vectores
+paralelos por lo que
+                                     R(t, u) = uRc (t)                          (2)
+
+que es la ecuación vectorial del cono.
+
+
+                                             z
+                                                                Rc
+                                                           P'
+
+                                                      P
+
+                                                      R
+                                                                     y
+
+                           x
+
+                                     Figura 6.19. Cono
+
+
+Al reemplazar los datos de la ecuación anterior queda
+                               x, y, z = uf1 (t), uf 2 (t), cu
+o, equivalentemente:
+                               x = uf1 (t), y = uf 2 (t), z = cu                            (3)
+
+
+                                                                                             40
+y esta es la forma paramétrica de un cono con parámetros t y u y vértice en el
+origen. Al eliminar los parámetros en las ecuaciones (3) (siempre que sea posible)
+se obtiene una ecuación de la forma
+                                      F(x, y, z) = 0
+que es la forma implícita del cono.
+En el caso de conos cuádricos (aquellos cuya directriz es una cónica), y mientras
+se mantengan las suposiciones hechas al inicio, la ecuación implícita es
+homogénea en las variables x, y y z .
+
+Teorema 6.2
+Una ecuación F(x, y, z) = 0 homogénea de grado dos representa una superficie
+
+cónica cuádrica con vértice en el origen. Reciprocamente, un cono cuádrico con
+vértice en el origen tiene por ecuación una ecuación homogénea de grado dos.
+
+
+En general, cualquier ecuación homogénea F(x, y, z) = 0 representa un cono con
+
+vértice en el origen.
+
+
+6.3.4 Ejemplos
+
+
+1. Hallar las formas vectorial, paramétrica e implícita del cono circunferencial cuya
+  directriz es la circunferencia
+
+                                   x2 + y 2 = r 2 , z = c
+Solución:
+Una forma vectorial de la directriz, con parámetro t , es
+
+                            Rc (t) = r cos ti + rsentj + ck
+y con esto la ecuación vectorial del cono es
+
+                         R(t, u) = ru cos ti + rusentj + cuk
+De aquí,                              x = ru cos t
+
+
+                                                                                   41
+                                      y = rusent
+                                      z = cu
+y esta es la forma paramétrica de este cono. Si se eliminan los parámetros se
+                                               z
+tiene que                                    u= ,
+                                               c
+y al reemplazar esto en x y y :
+
+                                           z
+                                      x = r cos t
+                                           c
+                                           z
+                                      y = r sent
+                                           c
+                                               z2
+Ahora,                                x + y =r 2
+                                        2      2      2
+
+                                               c
+La ecuación implícita queda finalmente,
+
+                                  c 2 (x 2 + y 2 ) − r 2 z 2 = 0
+
+
+2. Un cono no cuádrico tiene como directriz la curva exponencial z = e , y = 2 ,
+                                                                         x
+
+
+  hallar sus formas vectorial e implícita (figura 6.20).
+Solución:
+Se puede obtener una forma vectorial de la directriz como
+
+                        Rc (v) = v,2, e v     con parámetro v .
+
+De aquí que una ecuación vectorial del cono será
+
+                                 R(u, v) = u v,2, e v
+De ahí que                     x = uv, y = 2u, z = ue v
+                                                                                 2x
+                                                                         1
+Después de eliminar los parámetros, se llega a la ecuación implícita, z = y
+                                                                         2
+                                                                             e    y
+
+
+                                                                                      42
+                                             y
+
+
+                                                          x
+                            z
+
+
+                        Figura 6.20 Un cono no cuádrico
+
+
+3. Probar que la ecuación       y 2 − 2xz = 0 representa un cono parabólico. Hallar la
+  forma implícita de su directriz. (Figura 6.21)
+Solución:
+                                                      3
+La ecuación dada tiene infinitas soluciones en E lo que significa que el conjunto
+de puntos es real y como es una ecuación homogénea de grado dos, entonces es
+un cono cuádrico con vértice en el origen.
+Si el cono es parabólico es porque su directriz es una parábola, la cual se debe
+obtener al cortar el cono con un plano paralelo a alguno de los planos
+coordenados. Si se hace z = 1 queda
+
+                                    y 2 − 2x = 0, z = 1
+                           3
+que es una parábola en E y esta es la directriz del cono.
+Cualquier parábola lograda con z = k o con x = k puede tomarse como directriz
+del cono.
+
+
+                                                                                    43
+                                                z
+
+
+                                                            y
+                                x
+
+                                    Figura 6.21. Cono parabólico
+
+
+6.3.5 Ejercicios
+
+
+Ejercicios básicos
+
+
+1. Encuentre la forma paramétrica vectorial del cilindro recto cuya directriz se da.
+  Bosqueje un dibujo.
+
+      a. x − 4z = 4, y = 0                                  b. y = z , x = 0
+             2             2
+
+
+      c. z = cos(x), y = 0                                  d. y = x , z = 2
+                                                                   2       3
+
+
+      e. x
+           1/ 2
+                     + y1/ 2 = 2, z = 3                     f. x = e , y = 0
+                                                                       z
+
+
+2. Halle las formas implícita y vectorial del cilindro oblicuo cuya directriz se da y
+  cuya generatriz de mueve en la dirección del vector A .
+
+      a.   x2 + z2 = 1, y = 0, A = 2,1, −1
+      b. x − y = 1, z = 0, A = 0,2, −1
+             2         2
+
+
+      c. 4x + z + 4z = 0, y = 4, A = 4,1,0
+                 2         2
+
+
+                                                                                   44
+      d. 9x + 4 y = 36, z = 0, A = 1, −1,1
+                2           2
+
+
+      e. (x + 2) + ( y − 2) = 1, z = 2, A = −1,1,1
+                        2       2
+
+
+      f.   y = ln(x), z = 0, A = 2,1,1
+3. Halle las formas vectorial e implícita del cono con vértice en el origen y directriz
+  dada.
+
+      a. y = x , z = 2                                  b. x − 4z = 4, y = 3
+                    3                                       2      2
+
+
+      c. y + z = 9, x = 3                               d. z = cos(x), y = 4
+            2           2
+
+
+                                                           x2 y 2
+      e. z = 3ln( y ), x = 1/ 2                         f.   +    = 1, z = 1
+                                                           9   4
+4. Halle todas las formas de la ecuación del cono que tiene el vértice en el origen y
+  su directriz es una circunferencia con centro en (0,0,5) y radio 4 .
+
+5. Halle las diferentes formas del cilindro oblicuo cuya directriz es x
+                                                                          2
+                                                                              + y 2 + z2 = 9 ,
+   z = 0 y cuyas generatrices son paralelas al vector A = 1,2, −3 .
+6. Halle la ecuación (en forma implícita) del cono cuya directriz es:
+
+                                                                   
+            x = b sen   cos ( ) , y = b sen   sen ( ) , z = b cos  
+                      3                      3                      3
+con b constante y  parámetro
+                                                        3
+7. Halle las formas escalar y vectorial del cono de E cuya directriz es la traza del
+
+  cilindro x − 2xy + 5 = 0 con el plano z = 4 .
+            2
+
+
+Ejercicios avanzados
+
+
+1. Pruebe que cada una de las ecuaciones dadas representa una superficie
+  cilíndrica. Halle una forma implícita de su directriz y un vector director de su
+  generatriz.
+
+
+                                                                                           45
+   a.    4x2 + y 2 − 4xy + 2x − 2z = 0
+   b.    x2 + 19 y 2 + 2z2 − 2xy − 12 yz = 1
+   c.    xy + 2 yz = 1
+2. Identifique que clase de cono representa cada una de las ecuaciones dadas.
+  Halle una forma implícita de la directriz.
+
+   a.    3 y 2 − xz = 0
+   b.    16(x2 + z2 ) − y 2 = 0
+   c.    4 y 3 − x2 z = 0
+3. Halle la forma vectorial de la ecuación del cilindro oblicuo que usa la misma
+
+  directriz del cilindro recto y = 12z y tiene por generatriz la recta x = z, y = 0 .
+                                   2
+
+
+4. Halle todas las formas de la ecuación del cono que tiene vértice en el origen y
+
+  usa     por    directriz   la   circunferencia   de     E 3 cuya forma implícita es
+   x2 + y 2 + (z − 1)2 = 16 y x2 + y 2 + (z − 3)2 = 9 .
+5. Sea     la   circunferencia     de    E3    dada     por   x2 + y 2 + z2 − 2x − 8 = 0   y
+
+  (x − 1)2 + ( y − 1)2 + z2 = 9 . Halle otra forma implícita de dicha circunferencia en
+  la que las superficies usadas, no sean ninguna de las dos esferas dadas.
+
+
+6.4 LÍNEAS EN E3
+
+
+Hasta este momento se ha estudiado con detalle sólo una línea en el espacio
+euclidiano tridimensional, la línea recta. De la línea recta se vio que se puede
+representar vectorial, paramétrica e implícitamente. La forma implícita de la recta
+se da con las ecuaciones de dos superficies secantes (generalmente dos planos)
+cuya intersección es la recta.
+
+
+                                                                                           46
+                           3                                                3
+Para cualquier línea en E el asunto es parecido: cualquier línea en E se puede
+representar en forma vectorial, en forma paramétrica o en forma implícita. Esta
+última siempre está dada por las ecuaciones de dos superficies que contienen a la
+línea. También existe para algunas líneas una representación en forma explícita,
+pero como no es muy usual no la consideramos.
+
+
+ Definición 6.7
+ Dadas dos superficies secantes S1 * y S2 * cuya intersección es una línea,
+
+ entonces a esta línea se le conoce como traza de S1 * en S2 * o de S2 * en S1 * .
+
+
+                                                  3                                 2
+Es importante anotar que una línea en E               no tiene, como las líneas en E ,
+                                                            3
+ecuación escalar ya que toda ecuación escalar en E que represente un conjunto
+de puntos corresponde a una superficie y no a una línea.
+
+
+Si una de las dos ecuaciones de la forma implícita puede ser un plano entonces la
+línea es plana, pero si ninguna de las dos puede ser un plano entonces la línea es
+alabeada.
+
+
+De la definición general de línea se sabe que una línea es un conjunto de puntos
+que depende de un parámetro y que si
+                            x = f1 (t), y = f 2 (t), z = f 3 (t)
+es la forma paramétrica, con parámetro t , entonces R = f1 (t), f 2 (t), f 3 (t) es la
+
+forma vectorial, donde R es el vector de posición de cualquier punto de la línea.
+Como son tres ecuaciones y un solo parámetro, éste se puede eliminar entre dos
+de las ecuaciones y obtener o bien una ecuación en x y y o bien x y z o en y
+
+y z . Cada una de estas ecuaciones es un cilindro recto que contiene a la línea y
+dos de ellas son una forma implícita. Como es de suponer esa es la forma
+
+
+                                                                                    47
+implícita más simple de la línea, es decir, la que se obtiene como el corte de dos
+cilindros rectos. También, en algunos casos se puede eliminar el parámetro
+usando las tres ecuaciones; en ese caso se obtendría una ecuación en las tres
+variables que sería la de una superficie que contiene a la línea.
+
+
+Ejemplo
+Si la forma paramétrica de una línea es
+
+                                x = t 2 , y = 2 + t, z = t /2
+
+entonces R = t ,2 + t, t / 2
+                 2
+                                 es la forma vectorial y
+
+                               y − 2(1 + z) = 0, x − 4z2 = 0
+es una forma implícita dada por el corte de un plano y un cilindro recto parabólico,
+que se logran al eliminar el parámetro.
+
+
+6.4.1 Líneas obtenidas a partir de superficies
+
+
+Hay varias formas de obtener líneas contenidas en superficies, todo depende de la
+forma como se define la superficie.
+
+
+Si la superficie se define de forma implícita como F(x, y, z) = 0 , se puede
+
+conseguir una línea contenida en ella al cortarla con otra superficie G(x, y, z) = 0 .
+
+Las ecuaciones de las dos superficies secantes son una forma implícita de la
+línea. Supóngase, entonces que F(x, y, z) = 0 , G(x, y, z) = 0 es la forma implícita
+
+de una línea L * en E . Para cualquier valor real de un parámetro k la ecuación
+                       3
+
+
+                  F(x, y, z) + kG(x, y, z) = 0                   (1)
+
+
+                                                                                    48
+representa una familia de superficies que contienen a la línea L * puesto que
+cualquier solución de F(x, y, z) = 0 y G(x, y, z) = 0 es también solución de la
+
+ecuación (1).
+                                                                 3
+Esto lo que indica es que la forma implícita de una línea en E no es única, sino
+que se puede expresar con muchas parejas de superficies que se intersectan en la
+línea.
+Obviamente, la forma más simple de representar una línea en forma implícita es,
+como ya se dijo, cuando las ecuaciones de las dos superficies que la determinan
+corresponden a dos cilindros rectos. Si en el sistema de ecuaciones F(x, y, z) = 0
+
+y G(x, y, z) = 0 se elimina una variable se logra una ecuación en dos variables
+
+que es un cilindro recto.
+
+
+ Definición 6.8
+
+                                  implícitamente por las ecuaciones F(x, y, z) = 0 y
+                              3
+ Dada una línea L * en E
+
+ G(x, y, z) = 0 , se llaman cilindros proyectantes de L * a cada uno de los cilindros
+ rectos que se obtienen al eliminar cualquiera de las variables x, y o z de las
+
+ ecuaciones dadas.
+
+
+Una forma implícita equivalente de L * se consigue con dos de sus cilindros
+proyectantes.
+Supóngase que la superfice está dada en forma paramétrica, con parámetros u y
+v , como
+                            x = f1 (u, v)               (2)
+
+                            y = f 2 (u, v)              (3)
+
+                            z = f 3 (u, v)              (4)
+
+
+                                                                                  49
+Si en estas ecuaciones se hace constante un parámetro o si uno de los
+parámetros se pone a depender del otro, entonces resulta la forma paramétrica de
+una línea que está contenida en la superficie. Esto se ve claro si se piensa que
+cada dimensión de la variedad depende de un parámetro; si a una superficie, que
+es una variedad de dos dimensiones (dos parámetros), se le quita uno (parámetro
+constante o parámetros dependientes entre sí) queda una línea que está en la
+superficie porque todos los puntos de la línea verifican también a la superficie.
+
+
+Por otra parte, si de (2), (3) y (4) se eliminan los parámetros u y v (siempre que
+el álgebra lo permita) se llega a una ecuación F(x, y, z) = 0 que es la forma
+
+implícita de la superficie.
+
+
+Casos representativos de esto son la paralela de longitud y la mediana de latitud,
+que se obtienen en una esfera, y la hélice circunferencial, las cuales se
+representan en los siguientes ejemplos.
+
+
+6.4.2 Ejemplos
+
+
+1. Dada la línea de E :
+                          3
+                              x2 + y 2 + z2 = 2 (5), x2 + y 2 = z (6) hallar una forma
+  implícita más simple.
+Solución:
+La línea en cuestión es el corte de una esfera y un paraboloide. Una forma
+implícita más simple está dada por dos cilindros proyectantes de la línea. Si se
+
+toma F(x, y, z) = x + y + z − 2 y G(x, y, z) = x + y − z y se reemplaza en (1)
+                     2    2    2                     2    2
+
+
+con k = −1 queda
+
+                                         z2 + z − 2 = 0
+
+
+                                                                                    50
+De la cual se obtienen z = −2 y z = 1 que representan un par de planos paralelos
+
+al plano xy . Pero z = −2 en (5) o en (6) produce x + y = −2 que no es posible
+                                                             2   2
+
+
+en los reales. En cambio z = 1 implica x + y = 1 .
+                                             2      2
+
+
+Las ecuaciones x + y = 1 y z = 1 constituyen otra forma implícita de la línea
+                    2      2
+
+
+dada, pero ahora como el corte de un cilindro circunferencial y un plano.
+
+
+2. Hallar formas paramétricas e implícita de la circunferencia que se obtiene
+  cuando en la esfera
+                        x = rsen cos , y = rsensen , z = r cos
+con parámetros  y  , se hace constante el parámetro  .
+Solución:
+Si  = 0 constante también lo son rsen0 = a, r cos0 = b entonces queda la
+
+línea
+                          x = a cos                                 (7)
+                          y = asen                                  (8)
+
+                          z=b                                        (9)
+con parámetro  . Al eliminar  entre (7) y (8) queda
+
+                                    x2 + y 2 = a 2 , z = b
+y esta es una forma implícita de la línea que es el corte de un cilindro recto
+circunferencial y un plano paralelo al plano de la directriz por lo que la línea es una
+circunferencia. Cada circunferencia lograda con un valor particular de  se llama
+una paralela de latitud de la esfera (ver figura 6.22).
+
+
+                                                                                     51
+                                            Z
+
+
+                                                   paralela
+
+                                       0
+
+
+                               X                  Y
+
+
+                          Figura 6.22. Paralela de latitud
+
+
+Actividad: encontrar otra forma implícita de la paralela.
+
+
+3. Si en la esfera del ejemplo anterior se hace constante el parámetro  y se deja
+  variar  , da una circunferencia conocida como meridiana de longitud. Hallar las
+  formas paramétrica e implícita de ésta.
+Solución:
+Al hacer  =  0 y llamar a = r cos0 y b = rsen0 queda la línea
+
+                                     x = asen                                 (10)
+                                      y = bsen                                (11)
+
+                                      z = r cos                               (12)
+
+                                                                               b
+con parámetro  . De aquí, al eliminar el parámetro entre (10) y (11) da y =     x,
+                                                                               a
+que es un plano que contiene al eje z . El corte de este plano y la esfera es una
+forma implícita de la circunferencia meridiana (figura 6.23)
+                                                       b
+                             x2 + y 2 + z 2 = r 2 , y = x
+                                                       a
+Actividad: dar otra forma implícita de esta curva.
+
+
+                                                                                 52
+                                                  Z
+
+
+                                                      meridiana
+
+
+                                             0
+
+
+                                   X                         Y
+
+
+                        Figura 6.23. Meridiana de longitud
+
+
+4. En el ejemplo 1 de cilindros se obtuvo que
+                             x = r cos , y = rsen , z = u
+es una forma paramétrica de un cilindro recto circunferencial con parámetros  y
+u . Si se pone al parámetro u a depender de  haciendo u = c , c constante, se
+produce una línea alabeada conocida como hélice circunferencial. Un examen
+cuidadoso de su forma paramétrica
+                         x = r cos                          (13)
+                         y = rsen                           (14)
+
+                         z = c                              (15)
+revela que esta línea se genera por el movimiento de un punto que a la vez que
+gira sobre el cilindro va moviéndose paralelo a su eje (como describiendo un
+resorte, figura 6.24). Hallar una forma implícita.
+
+
+                                                                              53
+                                                 Z
+
+
+                                                         Y
+                                    X
+
+
+                        Figura 6.24 Hélice circunferencial
+
+
+Solución:
+Es claro que una de las superficies que se interceptan para formar la hélice es el
+
+cilindro circunferencial recto x + y = r que se obtiene fácilmente al eliminar el
+                                2       2    2
+
+
+parámetro  entre (13) y (14) (el cilindro dado). Otra superficie se puede
+conseguir de varias formas, una es:
+                                                     y                      z
+Si cos  0 y al dividir (14) entre (13) da,           = tan y de (15)  =
+                                                     x                      c
+                        z
+con lo que    y = x tan  
+                        c
+esta superficie se conoce como helicoide (algo así como una rampa circular). La
+rosca de un tornillo de tuerca tiene forma de helicoide lo mismo que el conocido
+tornillo de Arquímedes. La forma implícita pedida es
+
+                                        x2 + y 2 = r 2
+                                              z
+                                    y = x tan  
+                                              c
+Actividad: Hallar otras dos formas implícitas de la hélice y definir las formas de
+una hélice cónica.
+
+
+                                                                                54
+6.4.3 Ejercicios
+
+
+Ejercicios básicos
+
+
+1. Dada una línea de             E 3 como el corte de S1*: x2 + y 2 + z2 − 1 = 0 y
+  S2*: 2x2 + 2z2 − 3 y = 0 , halle
+   a.   Una forma vectorial de la línea.
+   b.   La forma vectorial e implícita del cono cuya directriz es dicha línea.
+
+2. Dada la superficie de E , x
+                                  3     2
+                                            + y 2 + 2z2 = 1 , halle una forma vectorial de su
+  traza con el plano z = 1/2 .
+
+3. Dada la línea de E con forma vectorial R(t) = a cos t i + b sen t
+                         3
+                                                                    ()            ( ) j + tk
+  con a, b  0 constantes.
+   a.   Halle una forma implícita.
+   b.   Identifique y bosqueje dicha línea.
+4. Encuentre las coordenadas del vértice y el foco de la parábola dada por
+
+   y 2 x2 z
+      − = , y = 2.
+   16 4 9
+                         3                      1
+5. Sea la línea de E         R = 1 − t, t 2 ,     . Encuentre dos formas implícitas de esta
+                                                t
+  línea.
+
+6. Dada     la   línea   de     E3      en      forma   implícita   como   x2 + y 2 + z2 = 36 ,
+  9x2 + 64 y 2 + 64z2 = 576 , halle la forma paramétrica e identifiquela.
+
+
+                                                                                            55
+Ejercicios avanzados
+
+
+1. Halle una forma vectorial de la traza de x
+                                                   2
+                                                       − y 2 + z2 = 0 con el plano x + z = 0 .
+  Identifique qué línea se obtiene.
+
+2. Sea L * la línea dada implícitamente por S1*: x
+                                                             2
+                                                                 + y 2 = 4, S2*: y 2 + z2 = 4
+   a.   Bosqueje, en el mismo sistema de referencia S1 * y S2 * .
+
+   b.   Dibuje el tramo de L * que queda en el primer octante.
+   c.   Defina paramétricamente a L * .
+3. Dadas las formas paramétricas de una esfera (parámetros  y  ) y un cono
+
+  circunferencial (parámetros r y  ) así :
+
+  E*: x = 2 sen cos , y = 2 sensen , z = 2cos ,  0,  el ángulo entre el
+  eje z y el radio vector;  0,2  el ángulo entre el eje x y el vector
+
+  proyección del radio vector en el plano XY .
+
+               2                 2                 2
+  C* : x =       r cos( ), y =    r sen( ), z =    r , r 0,  ) es la magnitud del
+              2                 2                 2
+  vector de posición de un punto del cono,  0,2  es el ángulo entre el eje x
+
+  y el vector proyección del radar de un punto del cono en el plano XY .
+  Halle dos formas paramétricas de la línea de corte de la esfera y el cono.
+
+                              como corte de S1*: x − 4 y − 4z + 4 = 0 , S2* : x = y ,
+                          3                              2         2        2
+4. Dada la línea de E
+
+  halle una forma vectorial de ella y dibújela en el primer octante.
+
+5. Sea       la   línea       dada    en      E3         por           la       ecuación   vectorial
+
+   R(u) = u(i + j ) − j + 9 − u2 k .       Halle una forma implícita de ella y haga un
+
+  bosquejo.
+
+
+                                                                                                 56
+6. Dada la línea de    E 3 , x2 + y 2 = z2 , 2x + y = 4 halle una forma vectorial e
+  identifíquela.
+
+
+6.5 Superficies de revolución
+
+
+Definición 6.9
+Si C * una línea plana, se llama superficie de revolución con generatriz C * a la
+obtenida al rotar esta alrededor de una recta de su mismo plano que no la corte,
+excepto si es eje de simetría. La recta se llama eje de giro o eje de revolución.
+
+
+El nombre que toma la superficie depende de la forma de la generatriz; si la
+generatriz es una línea cónica o degenerada, la superficie de revolución es
+cuádrica.
+
+
+Cada punto de la generatriz genera, al rotar, una circunferencia que se conoce
+como paralelo y cada posición de la generatriz se llama meridiano. El centro de
+cada paralelo es, claro está, un punto en el eje de giro. Todo punto de la superficie
+de revolución es, por ende, el corte de un paralelo y un meridiano. (Figura 6.25)
+
+
+                              C*       Meridiano
+
+
+                                 Paralelo
+                                                    Eje de giro
+
+
+            Figura 6.25. Generación de una superficie de revolución
+
+
+                                                                                    57
+En la determinación de las diferentes formas de una superficie de revolución se
+asume, sin pérdida de generalidad, que C * está en un plano coordenado y el eje
+de giro es un eje coordenado. Esto simplifica en gran manera todos los
+procedimientos y reduce las posibilidades a seis (cualquier otro caso se puede
+reducir a estos por medio de transformaciones de coordenadas): la generatriz está
+en el plano XY y el eje de giro es el eje x o el eje y , la generatriz está en el
+
+plano XZ y el eje de giro es el x o el z , la generatriz está en el plano YZ y el
+eje de giro es el y o el z .
+
+
+Teorema 6.3
+Si la generatriz C * de una superficie de revolución está dada en forma implícita
+por f (x, y ) = 0, z = 0 la cual gira alrededor del eje x , entonces la forma implícita
+
+                          (
+de la superficie es f x,  y + z
+                                   2   2
+                                           )=0
+Demostración
+Sea P(x, y, z) un punto cualquiera de la superficie y P1 (x1 , y1 ,0) el punto de la
+
+generatriz que está sobre el mismo paralelo que P . Como el centro de ese
+paralelo está en el eje x , dicho centro es P0 (x,0,0) (figura 6.26).
+
+                 z
+
+
+                                                 Como P0P y P0P1 son radios del
+
+                                                 paralelo,   P0P1 = P0P ,        es   decir
+   P                           y
+        u
+                     C*
+                                                   (x − x1 )2 + y12 = y 2 + z2         (1)
+       P0
+            P1
+   x
+
+
+Figura 6.26 Superficie de
+revolución
+
+
+                                                                                              58
+Adicionalmente P, P1 y P0 están en el mismo plano, lo que significa que
+
+ x = x1 (2). Como P1 C * entonces se cumple que f (x1 , y1 ) = 0           (3)
+
+Ahora, (2) en (1) conduce a     y12 = y 2 + z2 , lo que equivale a y1 =  y 2 + z2 ;
+
+esto y (2) en (3) lleva finalmente a f (x,  y + z ) = 0
+                                                  2    2
+                                                                    (4)
+
+
+La ecuación (4) representa la forma implícita de la superficie de revolución. A partir
+de ahí se puede obtener una forma vectorial (paramétrica) despejando una
+variable en términos de las otras dos que se toman como parámetros
+(parametrización trivial).
+Simbólicamente, los demás casos se resumen así donde , •,                representan las
+variables x, y, z en cualquier orden:
+
+Si la generatriz es f (, •) = 0 ,   = 0 y gira alrededor del eje  , entonces la
+
+ecuación implícita es f (,  • +
+                                2    2
+                                         ) = 0 , pero si gira en el eje • , la ecuación es
+
+f ( 2 + 2 , •) = 0
+Una forma más elegante de lograr una ecuación vectorial (paramétrica) de la
+superficie es la siguiente: Supóngase el mismo caso, cuando la generatriz está en
+el plano xy y gira alrededor del eje x . La generatriz C * en forma paramétrica
+
+está dada por
+                                x1 = f1 (t), y1 = f 2 (t), z1 = 0                      (5)
+
+siendo P1 (x1 , y1 , z1 ) un punto cualquiera de C * y t el parámetro. Sean P(x, y, z)
+
+cualquier punto del paralelo que pasa por P1 y P0 (x,0,0) el centro de tal paralelo
+
+(figura 6.27). Si u es el ángulo entre los vectores P0P1 y P0P , se obtiene:
+
+
+                                                                                        59
+                                                            y = P0P cos u
+                                                            z = P0P senu
+
+                       P1                     Pero P0P = P0P1 = y1 , es decir,
+                   y        P(x, y, z)
+                       u                                     y = y1 cos u
+                  P0        z                                z = y1senu
+
+
+Figura 6.27 Forma paramétrica
+Además, para todos los puntos de P del paralelo x = x1 luego
+
+                                           x = x1
+                                           y = y1 cos u                          (6)
+                                           z = y1senu
+Al reemplazar (5) en (6) queda
+                                         x = f1 (t)
+                                         y = f 2 (t)cos u                        (7)
+                                         z = f 2 (t)senu
+Que es la forma paramétrica anunciada.
+
+
+Dentro de las superficies de revolución las más conocidas son: elipsoides,
+hiperboloides de uno y dos mantos, paraboloides, esferas, toroides, cilindros y
+conos circunferenciales todos los cuales ya se estudiaron como casos particulares
+de las superficies cúadricas.
+
+
+                                                                                  60
+6.5.1 Ejemplos
+
+
+1. Hallar formas vectorial e implícita del elipsoide de revolución obtenido al rotar la
+
+            x2 y 2
+   elipse      +   = 1, z = 0 , a  b , alrededor del eje x (figura 6.28).
+            a 2 b2
+Solución:
+Dado que la generatriz es f (x, y ) = 0, z = 0 y rota alrededor del eje x , la forma
+
+escalar de la superficie de revolución es
+
+                                     (                ) = 1 o mejor
+                                                      2
+
+                            x2            y 2 + z2
+                               +
+                            a2               b2
+                                            x2 y 2 + z2
+                                               +        =1                          (1)
+                                            a2    b2
+Una forma vectorial, con parámetro y y z (parametrización trivial), se obtiene de
+
+                                 a 2
+(1):                     R=       b − ( y 2 + z2 ) i + y j + zk
+                                 b
+Otra forma vectorial, y dado que una parametrización de la generatriz es
+x = a cos t, y = b sent, z = 0 , será aplicando las ecuaciones (7):
+R = a cos ti + b sent cos j +b sent sen k , con parámetros t y  .
+                                                      y
+                                                          b
+
+
+                                              b
+                                                               a
+                                 z                                 x
+
+
+                         Figura 6.28. Elipsoide de revolución
+
+
+                                                                                     61
+2. Hallar formas implícita y paramétrica del paraboloide de revolución que da al
+
+rotar la parábola y = 4z, x = 0 alrededor del eje z (figura 6.29).
+                       2
+
+
+Solución:
+La generatriz es de la forma f ( y, z) = 0, x = 0 y gira en el eje z , por lo tanto la
+
+
+                                                     (  x + y ) = 4z , que equivale a
+                                                                    2
+                                                            2   2
+ecuación implícita de la superficie es
+
+x2 + y 2 = 4 z .
+
+
+                                               Z
+
+
+                                                            Y
+
+
+                                        X
+
+
+                           Figura 6.29. Paraboloide de revolución
+                   x2 + y 2
+De aquí z =                 con lo que una forma paramétrica es (con parámetros u y
+                      4
+v)
+                                               u 2 + v2
+                             x = u, y = v, z =          .
+                                                   4
+
+
+3. Dada la ecuación 4x
+                              2
+                                  − 9( y 2 + z2 ) = 36 , probar que representa una superficie
+     de revolución y hallar una forma implícita de su generatriz y el eje de giro.
+Solución:
+
+
+                                                                                           62
+Lo que caracteriza una superficie de revolución es que sus trazas con planos
+perpendiculares al eje de giro son circunferencias. En este caso, los planos x = k
+cortan la superficie dada en las circunferencias
+
+                                4k2 − 36
+                         y +z =
+                          2     2
+                                         , x=k                  con k  3
+                                   9
+Cuyos centros son (k,0,0) . Esto quiere decir que el eje de rotación es el eje x y
+
+la generatriz se puede ubicar en el plano XY o en el XZ . En el plano XY es el
+
+corte de la superficie con          z = 0 , es decir, 4x2 − 9 y 2 = 36, z = 0 , o también
+x2 y 2
+  −    = 1, z = 0 que es una hipérbola. Eso significa que la superficie es un
+9   4
+hiperboloide de revolución de dos mantos (figura 6.30)
+
+
+                                                   y
+
+
+                                                                            x
+                                      z
+
+
+              Figura 6.30. Hiperboloide de revolución de dos mantos
+
+
+4. Al rotar la circunferencia (x − a) + z
+                                          2    2
+                                                   = b2 , y = 0 a  b alrededor del eje z se
+     obtiene una superficie en forma de neumático inflado llamada toroide o toro.
+     Hallar su ecuación implícita (figura 6.31)
+Solución:
+La      ecuación,    puesto     que       la       generatriz    es    f (x, z) = 0, y = 0 ,   es
+
+( x2 + y 2 − a)2 + z2 = b2 .
+
+
+                                                                                               63
+                             Figura 6.31 Toroide
+
+
+6.5.2 Ejercicios
+
+
+Ejercicios básicos
+
+
+1. Halle formas implícita y vectorial para cada superficie de revolución que se
+   obtiene al rotar la curva dada, alrededor del eje dado. Haga un dibujo.
+        y z
+   a.    + = 1, x = 0 , alrededor del eje z .
+        2 3
+   b.   y 2 − 2z2 + 4z = 6, x = 0 alrededor del eje z .
+        x2 y 2
+   c.      +   = 1, a  b, z = 0 , alrededor del eje y .
+        a 2 b2
+   d.   x2 + z2 = 1, y = 0 alrededor del eje x .
+   e.   x2 − y 2 = 1, z = 0 alrededor del eje x .
+   f.   4x2 + z2 + 4z = 0, y = 0 alrededor del eje x .
+   g.   yz = 1, x = 0 alrededor del eje z .
+   h.   z = e x , y = 0 alrededor del eje z .
+   i.   y = x3 , z = 0 alrededor del eje x .
+
+
+                                                                             64
+2. Demuestre que cada una de las ecuaciones siguientes representa una
+  superficie de revolución, halle la forma implícita de su generatriz y el eje de
+  revolución.
+
+   a.   3x2 + 3 y 2 + 2z2 = 6
+   b.   x2 + y 2 − z 2 = 0
+   c.   x2 − 4( y 2 + z2 ) = 1
+   d.   2x2 + 2z2 − 3 y = 0
+3. Halle la forma vectorial de la superficie de revolución que se genera cuando la
+
+                          3
+  línea x, y , z = 0,       9 − t 2 , t rota alrededor del eje z .
+                          2
+
+
+Ejercicios avanzados
+
+
+5. Demuestre que        x2 − y 2 + z2 + 2 y − 5 = 0 es una superficie de revolución.
+  Describa vectorialmente su generatriz y defina de qué línea se trata. Haga un
+  dibujo de la superficie e identifique el eje de giro.
+6. Halle la ecuación implícita del paraboloide de revolución de vértice en (0,0,0) ,
+
+  con z como eje de giro y que pasa por (2,0,3) y (1,2,3) .
+
+7. Halle todas las formas de la ecuación de la superficie de revolución, que usa
+  por    generatriz     en       el   plano   yz   a   la   directriz   del   cilindro   recto
+
+   R = 0,16cos t,16sent + u 1,0,0 .
+
+4. Verifique si la superficie de          E 3 x2 + y 2 − 16z = 0 es una superficie de
+  revolución y en caso de serlo, halle su generatriz y el eje de giro.
+
+
+                                                                                            65
+5. Halle la superficie de revolución que tiene por generatriz a R = 2u, u,0    y eje
+
+  de giro al eje x . De ser posible identifíquela como una superficie reglada y en
+  tal caso halle su directriz en forma vectorial.
+6. Usando el eje x como eje de giro, genere un cono circunferencial con vértice
+  en el origen, como superficie de revolución. Explique cuál será su generatriz y
+  halle la forma implícita de la ecuación de dicho cono.
+
+7. Dada la ecuación de E 3   x2 + y 2 − 2x − 4 y − 8z + 29 = 0 .
+     a. Pruebe que es una superficie de revolución y halle una forma vectorial de
+         su traza con y = 3 .
+
+     b. Halle el vértice y el foco de la traza encontrada en a.
+
+
+6.6 Ejercicios de la Unidad 6
+
+
+Preguntas de repaso:
+
+
+   1. Si tenemos las ecuaciones de dos esferas, ¿cómo se obtiene su plano
+      radical?
+   2. ¿Cómo va el radio de una esfera en el punto de tangencia respecto del
+      plano tangente?
+   3. ¿Cómo se obtiene una superficie reglada?
+   4. ¿Qué diferencia existe entre una superficie cilíndrica y una cónica?
+   5. Con respecto a la ecuación implícita, ¿cuál es la diferencia entre un cilindro
+      recto y uno oblicuo?
+
+
+   6. A partir de la forma paramétrica, ¿cómo se halla la ecuación implícita de
+      una superficie?
+   7. Por medio de la ecuación implícita, ¿cómo se identifica que una superficie
+      es cónica?
+
+
+                                                                                  66
+   8. ¿Qué son líneas planas y líneas alabeadas?
+   9. ¿Qué origina cada punto de la generatriz en una superficie de revolución?
+   10. ¿Cuál es la forma implícita de una superficie cuádrica?
+   11. ¿Qué es una traza en una superficie cuádrica?
+
+
+Preguntas de falso y verdadero:
+
+
+Justificar si los enunciados siguientes son verdaderos o falsos
+
+
+                                                       3
+   1. En la forma paramétrica de una línea de E intervienen dos parámetros.
+   2. El plano radical de dos esferas es perpendicular a la recta que contiene sus
+      centros.
+   3. Por cuatro puntos no coplanares pasa exactamente una esfera.
+
+   4. El centro de la esfera x + y + z − 4x + 2z = 0 es C (2, −1, 0) .
+                                 2    2    2
+
+
+   5. El centro de la circunferencia de intersección de las esferas
+                                                                                    1
+       x2 + y 2 + z2 − 2x − 8 = 0 y (x − 1)2 + ( y − 1)2 + z2 = 9 es el punto C  1, ,0 
+                                                                                   2     
+   6. Para hallar, la ecuación de la circunferencia de intersección de la esfera
+
+       x2 + y 2 + z2 = 9 con el plano z = 2 , basta resolver el sistema de
+      ecuaciones.
+   7. Una superficie reglada se obtiene mediante el movimiento de una curva
+      móvil.
+   8. En las superficies cilíndricas, la generatriz siempre cambia de dirección.
+   9. La forma implícita de un cilindro recto es una ecuación con tres variables.
+   10. La directriz y el vértice de un cono se ubican en un mismo plano.
+   11. Una ecuación homogénea de grado 2 representa un cono con vértice en el
+      origen.
+
+
+                                                                                          67
+   12. Cilindros proyectantes son los cilindros oblicuos, obtenidos al eliminar x o
+       y o z en las ecuaciones F(x, y, z) = 0 y G(x, y, z) = 0 .
+   13. La superficie de E : 4x + ( y − 4) + z − 9 = 0 es una superficie de
+                                    3        2             2   2
+
+
+      revolución.
+   14. La línea x, y, z = 0, t,1 con parámetro t , está contenida en la superficie
+
+      x2
+         + z2 = 1 .
+      4
+   15. La línea de E dada en forma vectorial por x, y , z = t,2 t(2 − t),2
+                    3
+                                                                                                               es
+
+      una elipse.
+
+   16. El cono de E : x = y + z (con vértice en el origen) se puede obtener
+                           3   2        2        2
+
+
+      como       una       superficie       reglada      usando    como   directriz       a        la        línea
+
+      x2 − y 2 − z2 = 0, x = 2 .
+   17. En E la línea x − y + z = 0, y = 0 puede ser la directriz de un cono
+             3                  2       2        2
+
+
+      con vértice en el origen.
+
+   18. Las esferas de E : x + y + z − 2x − 8 = 0 y (x − 1) + ( y − 1) + z = 9
+                               3    2        2       2                     2              2             2
+
+
+      no son secantes.
+
+
+Ejercicios básicos
+
+
+1. Determine      la       ecuación         escalar      del   plano   tangente       a       la            esfera
+
+  (x − 1)2 + ( y − 2)2 + (z − 3)2 = 8 en el punto (3,2,1) .
+                       3
+2. Un punto de E           se mueve de manera que la suma de sus distancias a los
+  planos coordenados es siempre igual a su distancia al origen, halle e identificar
+  la ecuación de la superficie generada.
+
+
+                                                                                                                68
+3. Halle       la   ecuación   escalar   de   la   esfera   que   pasa   por los   puntos
+  P1 (1, −3 − 4), P2 (1, −5,2) y P3 (1, −3,0) y tiene su centro en el plano
+   x + y + z = 0.
+4. Encuentre las formas implícitas del cilindro recto y del cono cuya directriz es la
+
+  curva dada paramétricamente por x = 2, y = t / 4, z = t , parámetro t .
+                                                       2
+
+
+5. Halle la ecuación implícita de un cilindro de generatrices paralelas al eje x que
+  corta al plano YZ en una circunferencia de radio 3 y centro en (0,3, −6) .
+
+6. Halle la ecuación implícita de un paraboloide generado por la rotación de la
+
+  parábola x = 6 y, z = 0 alrededor de su eje de simetría.
+                    2
+
+
+7. Halle la ecuación implícita de un cono generado por la rotación de la recta
+   y = 3x + 10, z = 0 alrededor del eje x .
+8. Dada la línea         L * de E 3 como el corte de S1*: x2 + y 2 + z2 − 1 = 0 y
+  S2*: 2x2 + 2z2 − 3 y = 0 , halle :
+    i.    Una forma vectorial de L * .
+    ii.   Forma vectorial del cono cuya directriz es L * .
+          Muestre además que S2 * es una superficie de revolución y dé la forma
+
+          implícita de su generatriz.
+9. Halle la ecuación implícita de un elipsoide con centro en el origen que pasa por
+   los puntos A(2, −1,1), B(−3,0,0), C(1, −1,2) .
+
+10. La Tierra es una superficie que matemáticamente se conoce como elipsoide de
+
+                                               x2 y 2 z 2
+   Clarke cuya ecuación cartesiana es             + + −1 = 0       con a = b  6378 Km
+                                               a 2 b2 c 2
+   y c  6356.6 Km
+          a.   Halle una forma paramétrica de su generatriz.
+          b.   Halle la forma implícita de cualquier meridiano.
+
+
+                                                                                       69
+11. Pruebe que la traza de x + y
+                                    2    2
+                                             − 2x − 4 y − 8z + 29 = 0 con el plano y = 3 es
+   una parábola. Halle las coordenadas de su foco y su vértice.
+
+12. Halle    una forma paramétrica de la línea de                    E 3 , x2 + y 2 + z2 = 36 ,
+   9x2 + 64 y 2 + 64z2 = 576 . Identificarla.
+13. Dada la línea       x = sen( ), y = csc( ), z = cos( ) , parámetro  . Halle dos
+   formas implícitas de ella identificando las superficies que la determinan.
+14. Encuentre una ecuación de la superficie que consta de todos los puntos
+   equidistantes del punto (−1,0,0) y del plano x = 1 . Identifique dicha superficie.
+
+15. Verifique que la recta         x = 1 + t, y = −4 − 5t, z = 2 + 2t corta al paraboloide
+   3x2 + 6 y 2 = z . Dé las coordenadas de los puntos de corte.
+16. Identifique mediante un procedimiento analítico cada una de las siguientes
+   superficies. Haga un bosquejo de su gráfica.
+
+      a.    x2 − 6 y 2 + z 2 = 1                             g. x − 3 y + z = 0
+                                                                 2          2       2
+
+
+      b.    x2 − 3 y 2 + z2 = −1                             h. x − 9 y = 0
+                                                                 2          2
+
+
+      c.    x2 − 9 y 2 = 9                                   i. 4x = y + z
+                                                                        2       2
+
+
+      d.    4 y = x2                                         j. 4x = y − x
+                                                                        2       2
+
+
+      e.    x2 + 4 y 2 + 4z2 = 16
+       f. x + y − 2x − 4 y − 8z + 29 = 0
+            2       2
+
+
+17. Halle las formas vectorial e implícita del cono cuya directriz es la traza del
+
+   cilindro x − 2xy + 5 = 0 con el plano z = 4 .
+                2
+
+
+                                                                                            70
+Ejercicios avanzados
+
+
+1. Halle el centro y el radio de la circunferencia de intersección de las esferas
+
+   x2 + y 2 + z2 = 4 y (x − 1)2 + y 2 + z2 = 9 .
+2. Halle la ecuación del conjunto de puntos tales que la suma de los cuadrados de
+  sus distancias a los planos x + 4 y + z = 0, 2x − y + z = 0 y 2x + y − 3z = 0 es
+
+  igual a 10 .
+3. Halle formas implícita y vectorial de una generatriz de la superficie reglada
+
+  (x − a)2 + ( y − b)2 = c2 .
+4. Halle una forma paramétrica de la directriz del cilindro 4x
+                                                                        2
+                                                                            − 5 y 2 − 16z − 4 = 0 .
+  Identificar dicha línea.
+
+                                                     t2
+5. Dada la forma vectorial de una línea R(t ) = ti +    j + 4k , encuentre al menos
+                                                     4
+  tres superficies diferentes que contengan esta línea.
+
+6. Halle una forma vectorial de la traza de x
+                                                   2
+                                                       − y 2 + z2 = 0 con el plano x + z = 0 .
+  Identifique dicha línea.
+
+7. Se da una curva implícitamente como                 x2 + y 2 − 4z = 0, x + 3 y + 2z − 6 = 0 ,
+  halle una forma implícita de su proyección en el plano XY .
+8. Halle una forma implícita de la proyección sobre el plano                         XY de la
+  circunferencia     de      corte   del   plano        3x + 2 y − z = 0       con    la   esfera
+
+   x2 + y 2 + z2 = 16 .
+                                                                                 x2 y 2 z 2
+9. Halle la forma implícita del cono cuya directriz es la línea                    + − = 1,
+                                                                                 16 16 4
+
+   x2 + y 2 + z2 = 61 .
+
+
+                                                                                                71
+10. Halle la forma implícita de la esfera que es tangente a x
+                                                                            2
+                                                                                + y 2 + z2 = 8 , pasa
+  por el punto A = (4,4,4) y tiene centro sobre la recta x − y = z, 2x − 2 y = z .
+
+11. Se dan dos superficies, S1*: x
+                                          2
+                                              + z2 = 1 y S2*: 3x2 + y 2 = 12 . Identifique estas
+  superficies y halle una forma vectorial de la traza de S1 * en S2 * .
+
+12. Se da la línea en E , x
+                              3    2
+                                       + 2 y 2 + z − 10 = 0 , x2 − y 2 − 2z + 8 = 0 ; halle una
+  forma vectorial de dicha línea y dibuje en el primer octante ambas superficies y
+  la línea de corte.
+13. Pruebe       que          la        línea          con        ecuaciones          paramétricas
+
+   x = t cos(t), y = tsen(t), z = t se encuentra en el cono x2 + y 2 = z2 . ¿Qué
+  forma tiene dicha línea?
+
+14. Sean dos superficies cuádricas en E , S1*: x
+                                                   3         2
+                                                                 + 9 y 2 + z2 + x + 6 y = 0 y S2 *
+  que contiene el punto (1,2,3) y las trazas de S1 * con los planos XY y XZ ;
+
+  halle la forma implícita de S2 * .
+
+15. Halle formas vectorial e implícitas del paraboloide de revolución de vértice en
+  (0,0,1) , que tiene a z como eje de giro y pasa por (2,0,3) y por (1,2,3) . Halle
+  formas implícitas de las trazas de este paraboloide con los planos coordenados.
+
+16. Sean las esferas x
+                         2
+                             + y 2 + z2 = 25 y x2 + y 2 + (z − 2)2 = 17 . Halle:
+      a. El centro de la circunferencia de intersección.
+      b. La forma vectorial de la circunferencia de intersección.
+      c. Hallar la forma implícita del cono con vértice en el origen, que usa por
+         directriz a la circunferencia de la parte b.
+      d. Si la segunda esfera del enunciado se hubiera obtenido como superficie
+         de revolución, ¿cuál sería la ecuación de la generatriz y cuál su eje de
+         giro?
+
+
+                                                                                                  72
+17. Se tiene el espejo de un telescopio reflector, el cual es un paraboloide circular
+   de 5m de diámetro y 0.5 m de profundidad. Se pide que se halle las
+   ecuaciones del espejo con el origen en el vértice y el eje z a lo largo del
+   paraboloide.
+18. Se desea construir un salón para conciertos y el techo posee la forma de un
+  elipsoide de 18.29 metros de longitud, 2.44 metros de alto y 9.14 metros de
+  ancho. Se le pide al estudiante ayudar al arquitecto a encontrar una ecuación
+  para este recinto.
+19. Se desea crear un recipiente, pero solo se conoce su ecuación. Se pide
+  analizar dicha ecuación y dibujar la gráfica de la superficie. La ecuación es
+  4 x2 + 9 y 2 + 36 z 2 = 36 .
+20. Cuando un avión supera la velocidad del sonido se forma el cono de match,
+  este cono puede ser generado en un plano al rotar la recta 2 z + y = 4, x = 0
+  alrededor del eje y, se pide hallar a ecuación de la superficie generada por esta
+  rotación.
+
+
+                                                                                   73

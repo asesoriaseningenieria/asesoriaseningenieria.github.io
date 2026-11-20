@@ -1,0 +1,1155 @@
+Capítulo 2: Métodos de integración
+                                          Así que:
+
+
+                                                   ∫ x tan (3x ) dx = 6 ∫ tan u du = 6 ∫ tan u ⋅ tan du
+                                                          5        2               1          5       1        3           2
+
+
+                                                                                   6∫
+                                                                               =      tan 3u ⋅ (sec 2 u − 1) du
+                                                                                   1
+
+
+                                                                                     ∫ tan 3u ⋅ sec 2 u du − ∫ tan 3 u du.
+                                                                                   1                        1
+                                                                               =
+                                                                                   6                        6
+
+                                          La primera de estas dos últimas integrales puede calcularse directamente
+                                          haciendo la sustitución V = tan u y dV = sec2 u du . Esto es,
+
+
+                                                   6∫
+                                                      tan 3u ⋅ sec 2 u du = ∫ V 3 dV = V 4 =    tan 4 u =
+                                                   1                       1          1      1            1
+                                                                                                             tan 4 (3 x 2 ).
+                                                                           6          24     24           24
+
+                                          Ahora,
+
+
+                                                      ∫ tan 3u du = ∫ tan u ⋅ tan 2 u du = ∫ tan u (sec 2 u − 1) du
+                                                    1              1                      1
+                                                    6              6                      6
+
+                                                                             ∫ tan u ⋅ sec 2 u du − ∫ tan u du
+                                                                           1                       1
+                                                                       =
+                                                                           6                       6
+
+                                                                              tan 2 u + ln cos u + C
+                                                                            1          1
+                                                                       =
+                                                                           12          6
+
+
+                                                                              tan 2 (3 x 2 ) + ln cos (3 x 2 ) .
+                                                                            1                 1
+                                                                       =
+                                                                           12                 6
+
+                                          De esta forma se tiene finalmente:
+
+
+                                                   ∫ x tan (3x ) dx = 24 tan (3x ) − 12 tan (3x ) − 6 ln cos (3x ) + C.
+                                                          5      2                 1      4       2   1    2           2       1       2
+
+
+                                          ∫ cot (mx) dx = ∫ cot (mx) ⋅ cot (mx) dx = ∫ cot (mx) ⋅ (csc (mx) − 1) dx
+                                               4                           2              2                        2               2
+                                     b.
+
+
+                                                              = ∫ cot 2 ( mx) ⋅ csc 2 ( mx) dx − ∫ cot 2 (mx ) dx
+
+
+                                                              =−    cot 3 (mx) − ∫ (csc 2 (mx) − 1) dx
+                                                                  1
+                                                                 3m
+                                                              =−    cot 3 (mx) + cot (mx) + x + C.
+                                                                  1              1
+                                                                 3m              m
+
+
+ 68
+                                                                                               Módulo 7: Integración por sustitución
+
+
+Ejemplo 1
+
+Calcule las siguientes integrales:
+
+
+     ∫ sec 2 x dx                            ∫ csc x dx                                        ∫ sec x dx
+           4                                      6                                                3
+a.                                  b.                                            c.
+
+Solución
+
+
+       ∫ sec 2 x dx = ∫ sec 2 x ⋅ sec 2 x dx = ∫ (1 + tan 2 x) sec 2 x dx.
+               4                2            2                        2                2
+a.
+
+       Sea V = tan 2x; entonces, dV = 2sec2 2x dx.
+
+       Por tanto,
+
+
+                   ∫ sec 2 x dx = 2 ∫ (1 + V ) dV = 2 V + 6 V + C
+                        4           1             2           1           1   3
+
+
+                                                          =     tan 2 x + tan 3 2 x + C.
+                                                              1          1
+                                                              2          6
+
+
+       ∫ csc x dx = ∫ csc x ⋅ csc x dx = ∫ (1 + cot x) csc x dx.
+               6            4            2                        2   2       2
+b.
+
+       Sea V = cot x; entonces, dV = –csc2 x dx.
+
+       Así que,
+
+                   ∫ csc x dx = − ∫ (1 + V ) dV = − ∫ (1 + 2V + V ) dV
+                        6                        2 2                          2            4
+
+
+                                                       = −V − V 3 − V 5 + C
+                                                             2     1
+                                                             3     5
+
+                                                          = − cot x − cot 3 x − cot 5 x + C.
+                                                                     2         1
+                                                                     3         5
+
+c.     Para usar integración por partes, se escribe la integral en la forma:
+
+
+                   ∫ sec x dx = ∫ sec x ⋅ sec x dx.
+                        3                         2
+
+
+                                                                          Elementos básicos de cálculo integral y series 69
+Capítulo 2: Métodos de integración
+                                     Sean: U = sec x y dV = sec 2 x dx.
+
+                                     Entonces,
+
+                                             dU = sec x ⋅ tan x dx y V = tan x.
+
+                                     Luego
+
+
+                                             ∫ sec x dx = ∫ sec x ⋅ sec x dx = sec x ⋅ tan x − ∫ sec x ⋅ tan x dx
+                                                  3                     2                                     2
+                                                                                                                       (1)
+
+                                     Pero
+
+
+                                             ∫ sec x ⋅ tan x dx = ∫ sec x ⋅ (sec x − 1) dx = ∫ sec x dx − ∫ sec x dx
+                                                         2                       2                    3
+
+
+                                                                 = ∫ sec3 x dx − ln sec x + tan x .                    (2)
+
+                                     Sustituyendo (2) en (1) se obtiene:
+
+
+                                             ∫ sec x dx = sec x ⋅ tan x − ∫ sec x dx + ln sec x + tan x .
+                                                  3                              3
+
+
+                                     Obsérvese que la integral que se está calculando, ∫ sec x dx, aparece de
+                                                                                                          3
+
+
+                                     nuevo a la derecha de la última igualdad, la cual podemos transponer al
+                                     primer miembro y escribir:
+
+                                             2 ∫ sec3 x dx = sec x ⋅ tan x + ln sec x + tan x .
+
+                                     De donde,
+
+                                             ∫ sec x dx = 2 sec x ⋅ tan x + 2 ln sec x + tan x + C.
+                                                  3          1               1
+
+
+ 70
+                                                                                                                     Módulo 7: Integración por sustitución
+
+
+Ejemplo 1
+
+Calcule las siguientes integrales:
+
+
+a. ∫ tan x ⋅ sec x dx                         ∫ cot x ⋅ csc x dx                          ∫ tan x · sec x dx
+        6           4                                5               3                          2        3
+                                     b.                                          c.
+
+Solución
+
+
+      ∫ tan x ⋅ sec x dx = ∫ tan x ⋅ sec x ⋅ sec x dx = ∫ tan x(1 + tan x) sec x dx.
+            6           4                 6              2               2            6             2            2
+a.
+
+
+       Al hacer la sustitución U = tan x y sec 2 x dx = dU en la última integral, se
+       obtiene:
+
+
+                    ∫ tan x ⋅ sec x dx = ∫ tan x(1 + tan x) sec x dx
+                            6    4                           6               2    2
+
+
+                                       = ∫ U (1 + U )dU  6               2
+
+
+                                                  = U7 + U9 +C
+                                                   1    1
+                                                   7    9
+
+                                              =      tan 7 x + tan 9 x + C.
+                                                   1          1
+                                                   7          9
+
+
+       ∫ cot x ⋅ csc x dx = ∫ cot x ⋅ csc x(csc x cot x dx)
+                5           3                 4              2
+b.
+
+                                = ∫ (cot 2 x ) 2 ⋅ csc 2 x (csc x cot x dx )
+
+                                = ∫ (csc 2 x − 1) 2 ⋅ csc 2 x csc x cot x dx.
+
+
+       Al hacer la sustitución U = csc x y csc x cot dx = − dU en la última integral,
+       se obtiene:
+
+
+                    ∫ cot x ⋅ csc x dx = − ∫ (U − 1) ⋅U dU = − ∫ (U − 2U + U )dU
+                            5    3                               2       2   2              6       4        2
+
+
+                                              = − U7 + U5 − U3 +C
+                                                 1      2    1
+                                                 7      5    3
+                                              = − csc7 x + csc5 x − csc3 x + C.
+                                                 1        2        1
+                                                 7        5        3
+
+
+                                                                                                        Elementos básicos de cálculo integral y series 71
+                                            ∫ tan x ⋅ sec x dx = ∫ (sec x − 1) ⋅ sec x dx
+Capítulo 2: Métodos de integración
+                                                    2         3                    2           3
+                                     c.
+
+                                                                    = ∫ sec5 x dx − ∫ sec3 x dx                          (1)
+
+
+                                            Pero,
+
+
+                                                        ∫ sec x dx = ∫ sec x ⋅ sec x dx,
+                                                              5                3       2
+
+
+                                            para ∫ sec x dx en la sección 7.1.4, se deduce que:
+                                            y desarrollando un procedimiento similar (integración por partes) al descrito
+                                                          3
+
+
+                                                        ∫ sec x dx = 4 sec x ⋅ tan x + 4 ∫ sec x dx.
+                                                              5        1       3               3       3
+                                                                                                                         (2)
+
+
+                                            Sustituyendo (2) y el valor obtenido para ∫ sec x dx de la última sección en
+                                                                                                           3
+
+
+                                            (1) podemos escribir:
+
+
+                                          ∫ tan x ⋅ sec x dx = 4 sec x ⋅ tan x + 4 ∫ sec x dx − ∫ sec x dx
+                                               2          3        1       3               3       3           3
+
+
+                                                                  = sec3 x ⋅ tan x − ∫ sec3 x dx
+                                                                   1                1
+                                                                   4                4
+
+                                                                                    1 ⎡1                                  ⎤
+                                                                  = sec3 x ⋅ tan x − ⎢ sec x tan x + ln sec x + tan x ⎥ + C
+                                                                   1                                  1
+                                                                   4                4 ⎣2               2                  ⎦
+                                                                  = sec x ⋅ tan x − ⎡⎣sec x tan x + ln sec x + tan x ⎤⎦ + C.
+                                                                   1 3              1
+                                                                   4                8
+
+
+ 72
+Capítulo 2: Métodos de integración
+
+
+Las fórmulas de Wallis
+
+
+1.            Si n es impar ( n ≥ 3 ), entonces
+
+
+∫
+                       ⎛ 2 ⎞⎛ 4 ⎞⎛ 6 ⎞ ⎛ n −1⎞
+          cos n x dx = ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ... ⎜
+    π 2
+                                             ⎟.
+    0
+                       ⎝ 3 ⎠⎝ 5 ⎠⎝ 7 ⎠ ⎝ n ⎠
+
+
+2.            Si n es par ( n ≥ 2 ), entonces
+
+
+                       ⎛ 1 ⎞ ⎛ 3 ⎞⎛ 5 ⎞ ⎛ n − 1 ⎞ ⎛ π ⎞
+∫         cos n x dx = ⎜ ⎟ ⎜ ⎟⎜ ⎟ ... ⎜
+    π 2
+                                                ⎟⎜ ⎟.
+    0
+                       ⎝ 2 ⎠ ⎝ 4 ⎠⎝ 6 ⎠ ⎝ n ⎠ ⎝ 2 ⎠
+
+
+                                                          Ejemplo 1
+
+                                                          Evalúe la siguiente integral indefinida:
+
+
+                                                                 ∫ 9 − 4 x dx.
+                                                                              2
+
+
+                                                          Solución
+
+                                                          La expresión subradical se puede escribir como una diferencia de cuadrados, esto
+                                                          es,
+
+
+                                                                     9 − 4 x 2 = 32 − (2 x) 2 .
+
+                                                          Al hacer la sustitución:
+
+                                                                 2 x = 3sen θ ,                                                       (1)
+
+                                                          se obtiene
+
+                                                                 dx =      cos θ dθ .
+                                                                         3
+                                                                         2
+
+                                                          Entonces,
+
+
+                                                                 ∫ 9 − 4 x dx = ∫ 3 − (3sen θ ) ⋅ 2 cos θ dθ
+                                                                              2           2          2   3
+
+
+ 74
+                                                                                                    Módulo 8: Sustituciones trigonométricas
+
+                   =      ∫ cos 2θ ⋅ dθ = ∫ (1 + cos 2θ ) dθ = θ + sen 2θ + C
+                        9                9                    9   9
+                        2                4                    4   8
+
+                   = θ + sen θ ⋅ cos θ + C.
+                    9   9
+                                                                                                  (2)
+                    4   4
+                                    π          π
+                   con −                ≤θ ≤       .
+                                    2          2
+
+Ahora, como se debe regresar a la variable original x, se utiliza el siguiente procedi-
+miento geométrico.
+
+De (1) se tiene que sen θ =
+                             2x
+                                 ; así, θ puede interpretarse como el ángulo agudo
+                              3
+de un triángulo rectángulo cuyo cateto opuesto es 2x e hipotenusa igual a 3. Así que
+al cateto restante es, usando el teorema de Pitágoras,                  9 − 4 x 2 (figura 8.1).
+
+
+                                                       Figura 8.1
+
+
+                                                                                 9 − 4x2
+Del triángulo de la figura se deduce que cos θ =                                         , y como
+                                                                                   3
+
+           ⎛ 2x ⎞
+θ = sen −1 ⎜    ⎟ , se deduce finalmente que:
+           ⎝ 3 ⎠
+
+
+        ∫ 9 − 4 x dx = 4 sen ⎜⎝ 3 ⎟⎠ + 2 x 9 − 4 x + C.
+                        2               9   −1   ⎛ 2x ⎞ 1           2
+
+
+Ejemplo 2
+
+Evalúe la siguiente integral indefinida:
+
+        ∫ (a − x ) .
+                   dx
+               2        2   3
+                                2
+
+
+Solución
+
+Al hacer la sustitución:
+                                                                                                                Vea el módulo 8 del programa
+
+        x = a cos θ
+                                                                                                                de televisión Elementos básicos
+                                                                                                  (1)           de cálculo integral y series
+
+
+                                                                                           Elementos básicos de cálculo integral y series 75
+Capítulo 2: Métodos de integración
+                                     se obtiene
+
+                                             dx = − sen θ dθ .
+
+                                     Entonces,
+
+                                             ∫ (a − x ) dx = ∫ (a − a cos θ ) ⋅ (−a sen θ dθ )
+                                                      1                                     1
+                                                  2        2   3                2       2            2    3
+                                                                   2                                          2
+
+
+                                                                             −a sen θ dθ
+                                                                       =∫                    = − 2 ∫ csc 2 θ dθ = 2 cot θ + C.
+                                                                                                 1                1
+                                                                            (a 2 sen 2 θ ) 2
+                                                                                          3
+                                                                                                a                a
+
+                                     Ahora, para regresar a la variable original, se utiliza un procedimiento similar al del
+
+                                     ejemplo 1. Esto es, como cos θ =
+                                                                                        x
+                                                                                          , se puede construir el triángulo de la figura 8.2.
+                                                                                        a
+
+
+                                                                                                Figura 8.2
+
+                                     De allí se deduce que cot θ =
+                                                                                            x
+                                                                                    a − x2
+                                                                                                         y, en consecuencia,
+                                                                                        2
+
+
+                                                                        1 ⎡                          ⎤
+                                             ∫ (a − x ) dx = a ⎢⎣ a − x ⎥⎦ + C.
+                                                      dx                                x
+                                                  2        2   3
+                                                                   2        2       2            2
+
+
+ 76
+                                                                                             Módulo 8: Sustituciones trigonométricas
+
+
+Ejemplo 1
+
+Evalúe la siguiente integral indefinida:
+
+       ∫ x 1+ x .
+                 dx
+             2        2
+
+
+Solución
+
+Al hacer la sustitución:
+
+        x = tan θ                                                                           (1)
+
+se obtiene
+       dx = sec 2 θ dθ .
+
+Entonces,
+
+                                  sec2 θ dθ               sec 2 θ dθ     cos θ dθ
+       ∫ x 1+ x           =∫                       =∫
+                                                        tan θ ⋅ sec θ
+                                                                      =∫
+                                                                          sen 2 θ
+                 dx
+                             tan 2 θ 1 + tan 2 θ
+             2        2                                     2
+
+
+                          =−        +C
+                               1
+                             sen θ
+                          = − csc θ + C.
+
+Ahora, como tan θ =
+                            x
+                              , se puede construir el triángulo de la figura 8.3.
+                            1
+
+
+                                           Figura 8.3
+
+
+                                      1 + x2
+De allí se deduce que csc θ =                y, en consecuencia,
+                                        x
+
+
+                                                                                    Elementos básicos de cálculo integral y series 77
+Capítulo 2: Métodos de integración
+
+                                             ∫ x 1 + x dx = −
+                                                                                    1 + x2
+                                                                                           + C.
+                                                      dx
+                                                  2        2                          x
+
+                                     Ejemplo 2
+
+                                     Evalúe la siguiente integral indefinida:
+
+
+                                             ∫ (4 + 5sen x) .
+                                                      cos xdx
+                                                           2       3
+                                                                       2
+
+
+                                     Solución
+
+                                     Nótese inicialmente que 4 + 5sen 2 x = 22 + ( 5 sen x)2 .
+
+                                     Al hacer la sustitución:
+
+                                                5 sen x = 2 cot θ                                                                         (1)
+
+
+                                     se obtiene
+
+                                             cos x dx = −                  csc2 θ dθ .
+                                                                   2
+                                                                   5
+
+                                     Entonces,
+                                                                                             csc 2 θ ⋅ dθ               csc 2 θ ⋅ dθ
+                                             ∫ (4 + 5sen x) = − 5 ∫ (4 + 4 cot θ ) = − 5 ∫ 2 csc θ
+                                                      cos x dx                       2                              2
+                                                               2       3
+                                                                           2                         2      3
+                                                                                                                2         3     3
+
+
+                                                                               =−       ∫ sen θ ⋅ dθ = 4 5 cosθ + C.
+                                                                                     1                      1
+                                                                                    4 5
+
+
+                                     Ahora, de (1) se tiene cot θ =
+                                                                                         5 sen x
+                                                                                                 , con lo cual se puede construir el triángulo
+                                                                                           2
+                                     de la figura 8.4.
+
+
+                                                                                             Figura 8.4
+
+
+ 78
+                                                                                    Módulo 8: Sustituciones trigonométricas
+
+
+De allí se deduce que cos θ =
+                                                  5 sen x
+                                               4 + 5sen 2 x
+                                                              y, en cosecuencia,
+
+
+       ∫ (4 + 5sen x) = 4 4 + 5sen x + C.
+                 cos x dx                     sen x
+                          2    3
+                                   2                   2
+
+
+Ejemplo 1
+
+Evalúe la siguiente integral indefinida:
+
+
+        ∫
+                x 2 − 16 dx
+                            .
+                    x3
+
+Solución
+
+Puesto que en el integrando aparece el término x2 – a2 (con a = 4), se hace la
+sustitución:
+
+        x = 4sec θ y dx = 4 sec θ ⋅ tan θ ⋅ dθ .                                                (1)
+
+En este caso se tiene:
+
+        x 2 − 16 = 16 sec 2 θ − 16 = 16(sec 2 θ − 1) = 16 tan 2 θ .
+
+    Entonces,
+
+
+                                     16 tan 2 θ                           4 tan θ ⋅ 4sec θ ⋅ tan θ ⋅ dθ
+            ∫                     ∫             ⋅ 4sec θ ⋅ tan θ ⋅ dθ = ∫
+                    x 2 − 16 dx
+                                =
+                        x 3
+                                    (4sec θ ) 3
+                                                                                    64sec3 θ
+
+                                                         sen 2 θ
+                                        1 tan θ
+                                       = ∫      ⋅ dθ = ∫ cos θ dθ = ∫ sen 2 θ ⋅ dθ .
+                                                 2
+                                                      1            1
+                                        4 sec θ
+                                                             2
+
+                                             2
+                                                           1
+                                                         cos 2 θ
+                                                      4            4
+
+
+    Para evaluar la última integral se debe expresar sen2 θ en función del ángulo doble.
+    Esto es,
+                              1 − cos 2θ
+                sen 2 θ =                .
+                                   2
+    Así que:
+
+
+                ∫                = ∫ sen 2 θ ⋅ dθ = ∫ (1 − cos 2θ ) dθ = ⎜ θ − sen 2θ ⎟ + C
+                      x 2 − 16 dx 1                1                    1⎛    1       ⎞
+                          x 3
+                                  4                8                    8⎝    2       ⎠
+
+                                        =     (θ − sen θ ⋅ cos θ ) + C.
+                                            1
+                                            8
+
+
+                                                                           Elementos básicos de cálculo integral y series 79
+Capítulo 2: Métodos de integración
+
+
+                  Para regresar a la variable original de integración, se recuerda de (1) que sec θ =
+                                                                                                        x
+                                                                                                        4
+                  ⎛                  −1 x ⎞
+                  ⎜ θ = arcsec = sec      ⎟ , y de aquí se puede construir el triángulo rectángulo de
+                              x
+                  ⎝           4         4⎠
+                  la figura 8.5, y del cual se deduce que:
+
+
+                                     x 2 − 16
+                         sen θ =              y cos θ = .
+                                                       4
+                                        x              x
+
+                  De esta forma, el resultado final de la integral es:
+
+
+                                                                     1⎡         x 2 − 16 4 ⎤
+                          ∫
+                              x 2 − 16 dx 1
+                                         = (θ − sen θ ⋅ cos θ ) + C = ⎢arcsec −         ⋅ ⎥+C
+                                                                             x
+                                  x 3
+                                          8                          8 ⎢⎣    4     x     x ⎥⎦
+
+                                                        x 2 − 16
+                                         =     arcsec −          + C.
+                                             1       x
+                                             8       4   2 x2
+
+
+                                                               Figura 8.5
+
+
+                    Ejemplo 1
+
+
+                    Calcule la integral ∫
+                                                  dx
+                                            3x 2 − 2 x + 4
+                                                           .
+
+
+                    Solución
+
+                    En primer lugar , el trinomio 3x 2 − 2 x + 4 puede transformarse en la siguiente forma:
+
+
+ 80
+Capítulo 2: Métodos de integración
+                                                                ⎡          4⎤
+                                             3x 2 − 2 x + 4 = 3 ⎢ x 2 − x + ⎥
+                                                                       2
+                                                                ⎣      3   3⎦
+
+                                                                  ⎡         1 4 1⎤
+                                                              = 3 ⎢ x2 − x + + − ⎥
+                                                                        2
+                                                                  ⎣     3   9 3 9⎦
+                                                                   ⎡⎛   1 ⎞ 11 ⎤
+                                                              = 3 ⎢⎜ x − ⎟ + ⎥
+                                                                           2
+
+
+                                                                  ⎢⎣⎝   3⎠   9 ⎥⎦
+                                                                  ⎡⎛    1 ⎞ ⎛ 11 ⎞ ⎤
+                                                              = 3 ⎢⎜ x − ⎟ + ⎜⎜  ⎟ ⎥.
+                                                                           2      2
+
+
+                                                                  ⎢⎝    3 ⎠ ⎝ 3 ⎟⎠ ⎥
+                                                                  ⎣                 ⎦
+
+
+                                     Luego
+
+
+                                             ∫ 3x − 2 x + 4 = 3 ∫ ⎡
+                                                        dx            1                     dx
+                                                                                           ⎛ 11 ⎞ ⎤
+                                                                                                                .
+                                                                              ⎢⎛⎜ x − ⎞⎟ + ⎜    ⎟ ⎥
+                                                   2                                             2
+                                                                                            2
+
+
+                                                                                     3 ⎠ ⎝⎜ 3 ⎠⎟ ⎥
+                                                                                     1
+                                                                              ⎢⎝
+                                                                              ⎣                    ⎦
+
+                                     Al hacer la sustitución
+
+
+                                             ⎛    1⎞
+                                             ⎜ x − ⎟ = u y dx = du
+                                             ⎝    3⎠
+
+                                     se obtiene:
+
+                                             ∫ 3x − 2 x + 4 = 3 ∫
+                                                        dx            1             du
+                                                                                     ⎛ 11 ⎞
+                                                                                                     .
+                                                                              u 2 + ⎜⎜
+                                                   2                                             2
+
+                                                                                          ⎟⎟
+                                                                                     ⎝ 3 ⎠
+
+                                     En esta última integral al efectuar la sustitución trigonométrica
+
+
+                                             u=           tan θ , du =   sec θ ⋅ dθ ,
+                                                       11              11 2
+                                                       3               3
+
+                                     y simplificar la integral resultante, se obtiene:
+
+
+                                             3∫
+                                                                      =            tan −1                + C.
+                                             1           du                   1                 3u
+                                                        ⎛ 11 ⎞
+                                                   u + ⎜⎜
+                                                                  2
+
+                                                             ⎟⎟
+                                                    2
+                                                                              11                11
+                                                        ⎝ 3 ⎠
+
+                                     Al reemplazar u por ⎛⎜ x − ⎞⎟ , se tiene finalmente que:
+                                                               1
+                                                          ⎝ 3⎠
+
+
+                                             ∫ 3x − 2 x + 4 = 11 tan
+                                                                                        (3x − 1)
+                                                                                   −1
+                                                                                                         + C.
+                                                        dx                1
+                                                   2
+                                                                                                11
+
+
+ 82
+                                                                                       Módulo 8: Sustituciones trigonométricas
+
+
+Ejemplo 1
+
+Calcule la integral
+
+
+        ∫ 6 x + x − 1 dx.
+            7x +1
+            2
+
+
+Solución
+
+
+                             (12 x + 1 − 1) + 1
+       ∫ 6 x2 + x − 1 ∫ 6 x2 + x − 1 dx = 12 ∫ 6 x 2 + x − 1 + 12 ∫ 6 x2 + x − 1.
+            7x +1                               7 (12 x + 1)dx 5
+                           7
+                        = 12                                             dx
+                     dx
+
+
+Si en la primera de estas dos últimas integrales se hace la sustitución u = 6 x 2 + x − 1
+y du = (12 x + 1)dx, se obtiene:
+
+
+          ∫             = ∫
+         7 (12 x + 1) dx 7 du 7
+                             = ln u + C1 = ln 6 x 2 + x − 1 + C1 .
+                                           7
+        12 6 x + x − 1 12 u 12
+              2
+                                          12
+
+La segunda integral puede resolverse usando un procedimiento similar al del caso 1,
+                                         ⎡⎛     1⎞ ⎛5⎞ ⎤
+teniendo en cuenta que 6 x 2 + x − 1 = 6 ⎢⎜ x + ⎟ − ⎜ ⎟ ⎥ .
+                                                   2      2
+
+
+                                         ⎢⎣⎝   12 ⎠ ⎝ 12 ⎠ ⎥⎦
+
+
+                                                                            Elementos básicos de cálculo integral y series 83
+Capítulo 2: Métodos de integración
+                                     Así que,
+
+                                                ∫          = ∫
+                                              5      dx      5           dx
+                                             12 6 x + x − 1 12 ⎡⎛       1⎞ ⎛ 5⎞ ⎤
+                                                                                      .
+                                                               6 ⎢⎜ x + ⎟ − ⎜ ⎟ ⎥
+                                                   2                       2      2
+
+
+                                                                 ⎢⎣⎝   12 ⎠ ⎝ 12 ⎠ ⎥⎦
+
+
+                                     Si en esta última integral se hace la sustitución:
+
+
+                                             ⎛     1⎞ 5
+                                             ⎜ x + ⎟ = sec θ
+                                             ⎝    12 ⎠ 12
+                                                                                                                         (1)
+
+
+                                             y dx =      sec θ ⋅ tan θ ⋅ dθ ,
+                                                       5
+                                                      12
+
+                                     se obtiene:
+
+                                                                               ⎛5⎞
+                                                                                     sec θ ⋅ tan θ ⋅ dθ
+                                                                          5 ⎜⎝ 12 ⎟⎠
+                                             12 ∫ ⎡⎛                         ∫
+                                                                        =                               = ∫ csc θ ⋅ dθ
+                                              5            dx                                            1
+                                                          1⎞ ⎛ 5⎞     ⎤           ⎛5⎞
+                                                 6 ⎢⎜ x + ⎟ − ⎜ ⎟ ⎥               ⎜ ⎟ tan θ
+                                                                                         2
+                                                             2      2
+                                                                          72                             6
+                                                   ⎢⎣⎝   12 ⎠ ⎝ 12 ⎠ ⎥⎦           ⎝ 12 ⎠
+                                                                                               2
+
+
+                                                                                  =     ln csc θ − cot θ + C2 .
+                                                                                      1
+                                                                                      6
+
+
+                                                                12 x + 1
+                                     Ahora, como de (1) sec θ =          , se puede contruir el triángulo de la figura 8.6, y
+                                                                   5
+                                     del cual se puede deducir que
+                                                            12 x + 1
+                                             csc θ =                        y cot θ =
+                                                                                                    5
+                                                         24(6 x + x − 1)                      24(6 x 2 + x − 1)
+                                                                2
+                                                                                                                  .
+
+
+                                                                                  Figura 8.6
+
+
+                                     Luego
+
+
+                                                ∫
+                                                                                3x − 1
+                                                           = ln                            + C3 ,
+                                              5      dx     1
+                                             12 6 x + x − 1 6
+                                                   2
+                                                                           6x2 + x −1
+
+
+ 84
+                                                                                                Módulo 8: Sustituciones trigonométricas
+donde
+
+        C3 = C2 + ln 4 − ln 24.
+                 1      1
+                 6      6
+
+Por tanto,
+
+
+        ∫ 6 x + x − 1 dx = 12 ln 6 x + x − 1 + 6 ln
+             7x +1                                         3x − 1
+                                                                            + C.
+                              7                  1
+                                                          6 x2 + x − 1
+                                      2
+             2
+
+
+        Ejemplo 1
+
+        Calcule la integral
+
+                 ∫ 2 − 3x − 4 x .
+                         dx
+                                  2
+
+
+        Solución
+
+        En primer lugar,
+
+
+                                      ⎛            1⎞
+                 2 − 3 x − 4 x 2 = −4 ⎜ x 2 + x − ⎟
+                                               3
+                                      ⎝        4   2⎠
+                                      ⎛⎛            9 ⎞ 9 1⎞
+                                 = −4 ⎜ ⎜ x 2 + x + ⎟ − − ⎟ (completación de cuadrados)
+                                                3
+                                      ⎝ ⎝       4   64 ⎠ 64 2 ⎠
+                               41 ⎛      3 ⎞ ⎛ 41 ⎞ ⎡ ⎛         3 ⎞⎤
+                              = − 4 ⎜ x + ⎟ = ⎜⎜  ⎟⎟ − ⎢ 2 ⎜ x + ⎟ ⎥ .
+                                            2                2                     2
+
+
+                               16   ⎝    8⎠ ⎝ 4 ⎠ ⎣ ⎝           8 ⎠⎦
+
+        De esta forma,
+
+                 ∫ 2 − 3x − 4 x = ∫
+                         dx                          dx
+                                                                        .
+                                          ⎛ 41 ⎞ ⎡ ⎛         3 ⎞⎤
+                                               ⎟⎟ − ⎢ 2 ⎜ x + ⎟ ⎥
+                                  2              2
+
+                                          ⎜⎜
+                                                                    2
+
+
+                                           ⎝ 4  ⎠ ⎣ ⎝        8 ⎠⎦
+
+
+                                                                                       Elementos básicos de cálculo integral y series 85
+Capítulo 2: Métodos de integración
+                                      Si en la última integral se hace la sustitución:
+
+
+                                               ⎛   3⎞
+                                             2⎜ x + ⎟ =    sen θ
+                                                        41
+                                               ⎝   8⎠
+                                                                                               (1)
+                                                        4
+                                             y
+
+                                              dx =     cos θ ⋅ dθ ,
+                                                    41
+                                                    8
+                                      después de simplificar el integrando se obtiene:
+
+
+                                              ∫ 2 − 3 x − 4 x = 2 ∫ dθ = 2 θ + C .
+                                                       dx           1           1
+                                                             2
+
+
+                                      Ahora, de (1),
+
+                                                         ⎛    3⎞
+                                                        8⎜ x + ⎟
+                                              θ = sen −1 ⎝
+                                                              8 ⎠ = sen −1 8 x + 3 .
+                                                            41                41
+                                      Por tanto,
+
+
+                                              ∫ 2 − 3x − 4 x = 2 sen
+                                                                               8x + 3
+                                                                          −1
+                                                                                        + C.
+                                                       dx           1
+                                                             2
+                                                                                 41
+
+
+                               Ejemplo 1
+
+
+                               Calcule la siguiente integral: ∫
+                                                                       x+5
+                                                                  ( x + 4x + 5)3
+                                                                    2
+                                                                                 dx.
+
+
+ 86
+                                                                                      Módulo 9: Integración por descomposición en fracciones simples
+Solución
+Nótese que x 2 + 4 x + 5 es un factor cuadrático irreducible, puesto que
+p 2 − 4q = 16 − 20 = −4 < 0.
+
+Ahora,
+
+
+         ∫ ( x + 4 x + 5) dx = 2 ∫ ( x + 4 x + 5) dx = 2 ∫ ( x + 4 x + 5) dx
+                   x+5                              1          2 x + 10           1    (2 x + 4) + 6
+               2                       3                   2              3             2              3
+
+
+                                                      ∫                dx + 3∫ 2
+                                                           2x + 4
+                                                =
+                                                    1                               1
+                                                    2 ( x + 4 x + 5)          ( x + 4 x + 5)3
+                                                         2           3
+                                                                                              dx.
+
+
+La primera de las dos últimas integrales se resuelve fácilmente haciendo la sustitu-
+ción:
+
+         U = x 2 + 4 x + 5 y dU = (2 x + 4)dx.
+
+De esta forma se puede escribir, después de sustituir y evaluar la integral,
+
+
+         2 ∫ ( x 2 + 4 x + 5)3
+                   2x + 4
+                               dx = −
+         1                                     1
+                                      4( x 2 + 4 x + 5)2
+                                                         .
+
+
+Para resolver la segunda integral se completan cuadrados en el denominador y
+luego se hace una sustitución trigonométrica adecuada, esto es,
+
+
+         3∫                    dx = 3∫
+                     1                          1
+              ( x2 + 4 x + 5)3         ⎡⎣( x + 2)2 + 1⎤⎦
+                                                         3
+                                                           dx.
+
+
+Al hacer la sustitución:
+
+         ( x + 2) = tan θ y dx = sec2 θ ⋅ dθ                                                                      (1)
+
+la integral se transforma en:
+
+
+         3∫                                    dx = 3∫               ⋅ sec 2 θ ⋅ dθ
+                           1                                 1
+              ⎡⎣( x + 2) + 1⎤⎦ 2           3
+                                                         (sec 2 θ )3
+
+                                                                           ⎛ 1 + cos 2θ ⎞
+                                                    = 3∫ cos 4 θ ⋅ dθ = 3∫ ⎜            ⎟ dθ .
+                                                                                            2
+
+
+                                                                           ⎝      2     ⎠
+
+Después de desarrollar el binomio al cuadrado y calcular las integrales
+trigonométricas resultantes, se obtiene:
+
+
+   3∫                    dx = θ + sen θ ⋅ cos θ + sen θ ⋅ cos θ (cos 2 θ − sen 2 θ )
+                   1         9   3               3
+        ⎡⎣( x + 2) + 1⎤⎦
+                                   3
+                       2     8   2               8
+
+
+                                                                                                           Elementos básicos de cálculo integral y series 91
+Capítulo 2: Métodos de integración
+                                                                                            3( x + 2)       3( x + 2)(1 − ( x + 2) 2 )
+                                                                =     arctan ( x + 2) +                   +
+                                                                    9
+                                                                                        2( x 2 + 4 x + 5)      8( x 2 + 4 x + 5) 2
+                                                                                                                                       .
+                                                                    8
+
+                                     En consecuencia, el resultado final de la la integral original es:
+
+
+                                             ∫ ( x + 4 x + 5) dx = − 4( x + 4 x + 5) + 8 arctan ( x + 2)
+                                                     x+5                          1            9
+                                                 2          3                 2            2
+
+
+                                                                             3( x + 2)       3( x + 2)(1 − ( x + 2) 2 )
+                                                                     +                     +                            + C.
+                                                                         2( x 2 + 4 x + 5)      8( x 2 + 4 x + 5) 2
+
+
+ 92

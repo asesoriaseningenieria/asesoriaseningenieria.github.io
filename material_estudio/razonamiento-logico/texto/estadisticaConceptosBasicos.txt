@@ -1,0 +1,412 @@
+Estadística: conceptos básicos y
+          definiciones.
+
+
+                                   1
+Conceptos básicos
+
+
+                    2
+Conceptos básicos cont.
+
+
+                          3
+Conceptos básicos cont.
+
+
+                          4
+Conceptos básicos cont.
+
+
+                          5
+Conceptos básicos cont.
+
+
+                          6
+         Definición de Estadística
+La estadística es la Ciencia de la
+
+
+                                     7
+División de la Estadística
+
+
+                             8
+Gráfica del Análisis Estadístico
+
+
+                                   9
+Pasos en un estudio estadístico
+
+
+                                  10
+Pasos en un estudio estadístico cont.
+
+
+                                        11
+Técnicas de Muestreo
+
+
+                       12
+Tipo de Variables
+
+
+                    13
+             Tipo de variables cont.
+Ejemplos:
+• Es buena idea codificarlas variables como números para poder procesarlas
+   con facilidad en un computador.
+• Es conveniente asignar “etiquetas” a los valores de las variables para
+   recordar qué significan los códigos numéricos.
+–Género (Cualitativa : Códigos arbitrarios)
+   1 : Hombre
+   2 : Mujer
+–Raza (Cualitativa: Códigos arbitrarios)
+   1 : Blanca
+   2 : Negra, ...
+–Felicidad Ordinal: Respetar un orden al codificar.
+   1 : Muy feliz
+   2 : Bastante feliz
+   3 : No demasiado feliz
+• Se pueden asignar códigos a respuestas especiales como
+   0 : No sabe
+   99 : No contesta...
+                                                                        14
+Ejemplo: Tipo de variables cont.
+
+
+                                   15
+Tabla de Frecuencias
+
+
+                       16
+       Tabla de Frecuencias cont.
+Ordenamos los datos en forma creciente:
+
+
+La amplitud total A = 120 –60
+Número de clases: K = 301/2 = 5.48. Aprox. 6 clases
+Extensión del intervalo: H = A/ K = 60/6 = 10
+En este caso, entonces, la tabla de frecuencias tendrá
+aproximadamente 6 clases de amplitud 10 unidades en
+cada clase.                                          17
+Tabla de Frecuencias cont.
+
+
+                             18
+Histograma de la distribución de
+presión diastólica en mm de Hg
+según las frecuencias absolutas:
+
+
+                                   19
+20
+Gráficos para variables cualitativas cont.
+
+
+                                             21
+22
+Diagramas Integrales
+
+
+                       23
+Estadísticos de forma intuitiva
+
+
+                                  24
+Estadísticos
+
+
+               25
+26
+27
+28
+29
+30
+31
+32
+Concepto de Variabilidad
+
+
+                           33
+Conceptos de Variabilidad cont.
+
+
+                                  34
+Conceptos de Variabilidad cont.
+
+
+                                  35
+Conceptos de Variabilidad cont.
+
+
+                                  36
+Conceptos de Variabilidad cont.
+
+
+                                  37
+Conceptos de Variabilidad cont.
+
+
+                                  38
+Conceptos de Variabilidad cont.
+
+
+                                  39
+Conceptos de Variabilidad cont.
+
+
+                                  40
+Distribución de Frecuencias
+
+
+                              41
+Distribución de Frecuencias cont.
+
+
+                                    42
+Medidas de Resumen de Centralización
+
+
+                                       43
+Medidas de Resumen de Centralización cont.
+
+
+                                             44
+Medidas de Resumen de Centralización cont.
+
+
+                                             45
+Medidas de Resumen de Centralización cont.
+
+
+                                             46
+  Medidas de Resumen de Centralización cont.
+• La media es sensible a la presencia de datos
+  extremos.
+• La mediana es muy útil cuando la distribución de la
+  variable es poco simétrica.
+
+
+                                                   47
+Medidas de Resumen de Centralización cont.
+
+
+                                             48
+Medidas de Resumen de Dispersión
+
+
+                               49
+Medidas de Resumen de Dispersión cont.
+
+
+                                         50
+Medidas de Resumen de Dispersión cont.
+
+
+                                         51
+Medidas de Resumen de Dispersión cont.
+
+
+                                         52
+Medidas de Resumen de Dispersión cont.
+
+
+                                         53
+Medidas de Resumen de Dispersión cont.
+
+
+                                         54
+Medidas de Resumen de Dispersión cont.
+
+
+                                         55
+56
+Medidas de Resumen de Dispersión cont.
+
+
+                                         57
+Medidas basadas en el Orden (Posición)
+
+
+                                         58
+Estadísticos de Posición
+
+
+                           59
+Estadísticos de Posición cont.
+
+
+                                 60
+Estadísticos de Posición cont.
+
+
+                                 61
+   Estadísticos de Posición cont.
+  Son valores de la variable que dividen a
+  la muestra en partes de igual porcentaje.
+  Los percentiles separan la muestra en
+  grupos de 1% cada uno (son 99).
+• Cuartiles: agrupan 25% c/u (son 3).
+• Quintiles: agrupan 20% c/u (son 4).
+• Deciles: agrupan 10% c/u (son 9).
+                                          62
+   Estadísticos de Posición cont.
+Se calculan de la siguiente forma:
+Ordenar de menor a mayor los n datos.
+Obtener D = n * k /100
+a) Si D es entero, entonces el percentil k
+  corresponde al valor medio de las
+  observaciones ubicadas en las posiciones
+  D y D+1.
+b) Si D no es un entero, el percentil k
+  corresponde a la observación ubicada en la
+  posición entera siguiente, es decir, [D+1]
+                                           63
+   Estadísticos de Posición cont.
+Ejemplo
+Determinar los percentiles 25 y 60 de los
+siguientes datos: 3, 5, 5, 8, 12, 15, 21, 23, 25, 26,
+29, 35
+P25 D= 12 x 25 /100 = 3
+resulta un entero, por tanto el P25 corresponde al
+promedio de las observaciones en las posiciones
+3º y 4º, es decir, P25= (5+8)/2 = 6.5
+P60 D = 12 x 60 / 100 = 7.2
+Dado que no es un entero, nos “movemos” al
+entero siguiente.
+Es decir, P60 = 23 (observación en la 8ª posición)
+                                                        64
+Estadísticos de Posición cont.
+
+
+                                 65
+Box-plot (Caja con bigotes)
+
+
+                              66
+                 Box-plot cont.
+Un gráfico asociado a los cuartiles es el box-plot: en un eje se
+ubican los siguientes 5 números extraídos de una muestra:
+mínimo, cuartil 1, cuartil 2, cuartil 3 y máximo.
+
+
+Una regla para determinar si un dato es anómalo (outlier) es:
+
+• Si un dato es < Q1 – 1.5(Q3-Q1)
+• Si un dato es > Q3 + 1.5(Q3-Q1)
+                                                                67
+68
+Box-plot comparación de grupos
+
+
+                                 69
+Estadísticos de Forma: Asimetría y Curtosis
+   Momentos de una distribución
+• Los momentos de una distribución son medidas obtenidas a partir de
+  todos sus datos y de sus frecuencias absolutas. Estas medidas
+  caracterizan de tal forma a las distribuciones que si los momentos de
+  dos distribuciones son iguales, diremos que las distribuciones son
+  iguales. Podemos decir que dos distribuciones son más semejantes
+  cuanto mayor sea el número de sus momentos que coinciden.
+• Se define el momento de orden h respecto al origen de una
+  variable estadística como:
+
+
+• Es inmediato observar que, para h=1, a1 es la media de la
+distribución.
+                                                                    70
+       Estadísticos de Forma cont.
+• Se define el momento central de orden h o momento
+  respecto a la media aritmética de orden h como:
+
+
+• Es inmediato observar que m1 = 0 y que m2 = S2
+• Relaciones entre los momentos:
+  1.
+
+  2. Los momentos respecto a la media se ven afectados por los
+  cambios de escala, pero no por los cambios de origen. El resto,
+  por ambos.
+
+                                                               71
+    Estadísticos de Forma cont.
+Forma de una distribución
+Cuando dos distribuciones coinciden en sus medidas de
+posición y dispersión, no tenemos datos analíticos para ver si
+son distintas. Una forma de compararlas es mediante su forma.
+Bastará con comparar la forma de sus histogramas o diagramas
+de barras para ver si se distribuyen o no de igual manera.
+
+Para efectuar este estudio de la forma en una sola variable,
+hemos de tener como referencia una distribución modelo.
+Como convenio, se toma para la comparación la distribución
+normal de media 0 y varianza 1. En particular, es
+conveniente estudiar si la variable en cuestión está más o
+menos apuntada que la Normal. Y si es más o menos simétrica
+que ésta, para lo que se definen los conceptos de Asimetría y
+Curtosis, y sus correspondientes formas de medida.
+
+                                                            72
+        La asimetría y su medida
+• El objetivo de la medida de la asimetría es, sin
+  necesidad de dibujar la distribución de
+  frecuencias, estudiar la deformación horizontal de
+  los valores de la variable respecto al valor central
+  de la media. Las medidas de forma pretenden
+  estudiar la concentración de la variable hacia uno
+  de sus extremos.
+• Una distribución es simétrica cuando a la derecha
+  y a la izquierda de la media existe el mismo
+  número de valores, equidistantes dos a dos de la
+  media, y además con la misma frecuencia.
+
+                                                    73
+La asimetría y su medida cont.
+
+
+                                 74
+     La asimetría y su medida cont.
+Coeficiente de asimetría de Fisher
+• En una distribución simétrica los valores se sitúan en torno a
+  la media aritmética de forma simétrica. El coeficiente de
+  asimetría de Fisher se basa en la relación entre las distancias a
+  la media y la desviación típica.
+
+
+                                                                 75
+    La asimetría y su medida cont.
+Coeficiente de asimetría de Pearson
+• Se basa en el hecho de que en una distribución simétrica, la
+  media coincide con la moda. A partir de este dato se define el
+  coeficiente de asimetría de Pearson como:
+
+
+                                                              76
+          La curtosis y su medida
+• El concepto de curtosis o apuntamiento de una distribución
+  surge al comparar la forma de dicha distribución con la forma
+  de la distribución Normal. De esta forma, clasificaremos las
+  distribuciones según sean más o menos apuntadas que la
+  distribución Normal.
+• Coeficiente de Curtosis de Fischer
+  El coeficiente de curtosis o apuntamiento de Fischer
+  pretende comparar la curva de una distribución con la curva de
+  la variable Normal, en función de la cantidad de valores
+  extremos e la distribución. Basándose en el dato de que en una
+  distribución normal se verifica que:
+
+
+                                                              77
+      La curtosis y su medida cont.
+Se define el coeficiente de curtosis de Fisher como:
+
+
+• Si g2 = 0, la distribución es Mesocúrtica: Al igual que en la
+asimetría es bastante difícil encontrar un coeficiente de curtosis
+de cero, por lo que se suelen aceptar los valores cercanos ( 0.5
+aprox.).
+• Si g2 > 0, la distribución es Leptocúrtica
+• Si g2 < 0, la distribución es Platicúrtica
+
+                                                                78

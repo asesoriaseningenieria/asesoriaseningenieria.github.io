@@ -1,0 +1,55 @@
+Planteamiento del problema:
+
+Los parámetros de diseño son los requerimientos que debe cumplir el diseño de la
+plataforma de ascenso y el sistema de transmisión de potencia, se emplearán los
+últimos dígitos del documento de identidad. En la Figura 1 se muestra el detalle del
+problema a solucionar que consiste en una plataforma de ascenso. En la Tabla 1 se
+especifican los parámetros de diseño de acuerdo con su documento de identificación.
+
+
+                          Figura 1. Plataforma de ascenso.
+
+
+                          Tabla 1. Parámetros de diseño.
+
+
+              Parámetro                           Valor o característica
+                   a                                       0.8 m
+                   b                                       2.5 m
+                   h                                       1.5 m
+    Longitud de las barras AD y BC                         3.5 m
+           Carga del motor                                340 kg
+            Carga del rotor                               240 kg
+           Velocidad de giro                             1649 rpm
+               Potencia                                   15.5 hp
+                                       Solución:
+
+Para iniciar con el análisis de la estructura que soporta la plataforma, primero debemos
+calcular las fuerzas ejercidas por esta sobre el bastidor, suponiendo que la plataforma
+es rígida.
+
+Por lo tanto, debemos hallar en primer lugar el valor de estas fuerzas en unidades
+consistentes.primero, debemos hallar el peso del motor y el rotor:
+
+El peso del motor será:
+
+
+El peso del rotor será:
+
+
+Adicional a esto, debemos calcular el momento ejercido sobre la plataforma, debido a
+la rotación del motor:
+Con estos valores hallados, el D.C.L de la plataforma rígida será:
+
+
+Para hallar las reacciones RA y RB, debemos hallar la distancia x, la cual obtenemos
+analizando el siguiente triángulo:
+
+
+Con todos los valores hallados anteriormente, las reacciones RA y RB serán:
+
+
+De donde se obtiene que: RB = 3212.64 N y:
+
+
+De donde se obtiene que: RA = 2477.16 N

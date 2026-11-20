@@ -1,0 +1,970 @@
+Capítulo 2: Métodos de integración
+                                         6.1 Fórmula para la integración por partes
+                                         Este segundo método de integración está basado en la fórmula para la diferencial de
+                                         un producto de funciones. Esto es, si U y V son dos funciones diferenciables,
+                                         entonces, de acuerdo con la diferencial de un producto, se tiene:
+      Escuche el audio Nota histórica:
+
+                                                  d (U ⋅ V ) = V ⋅ dU + U ⋅ dV .
+      Poincaré en su multimedia de
+      Elementos básicos de cálculo                                                                                       (1)
+      integral y series
+                                         Integrando en ambos lados de la ecuación (1), se obtiene:
+
+
+                                                  ∫ d (U ⋅V ) = ∫ V ⋅ dU + ∫ U ⋅ dV .
+                                         Es decir,
+
+                                                 U ⋅ V = ∫ V ⋅ dU + ∫ U ⋅ dV .
+
+                                         De donde,
+
+
+                                                  ∫ U ⋅ dV = U ⋅V − ∫ V ⋅ dU .                                           (2)
+
+
+                                         generalmente cuando ∫ V ⋅ dU y ∫ dV son más «fáciles» de calcular que la integral
+                                         La fórmula (2) se conoce como la fórmula de la integración por partes y se aplica
+
+
+                                         inicial ∫ U ⋅ dV .
+
+                                         Nótese que para aplicar el método de integración por partes se llama U una parte del
+                                         integrando y dV la parte restante con el diferencial.
+
+                                         Derivando U, se obtiene: dU.
+
+                                         Integrando dV, se obtiene: V.
+
+                                         La figura 6.1 permite recordar el método.
+
+
+                                                                                   Figura 6.1
+
+
+ 54
+                                                                                                 Módulo 6: Integración por partes
+Nótese además que al integrar dV, si se escribe (V + C1 ) en lugar de V en el segundo
+miembro de la ecuación (2), se tiene
+
+
+       ∫ U ⋅ dV = U (V + C ) − ∫ (V + C ) ⋅ dU = U ⋅V − ∫ V ⋅ dU .
+                            1                1
+
+
+Esta última ecuación coincide con (2), lo que indica que al determinar la función V a
+partir de su diferencial dV se puede prescindir de la constante C.
+
+
+6.2 Observaciones importantes del método de
+    integración por partes
+1.     Cuando la integral del lado derecho de (2) es más difícil de calcular que la
+       integral original, se debe a la elección no apropiada del U y del dV. Por esta
+       razón, el éxito que se tenga en la aplicación del método estriba fundamental-
+       mente en la habilidad que se tenga para la elección de los factores U y dV,
+       habilidad que se adquiere con la práctica.
+
+
+       Así por ejemplo, si en la integral ∫ x ⋅ cos x dx se hace (figura 6.2):
+
+
+                                            Figura 6.2
+
+       Entonces,
+
+
+               ∫ x ⋅ cos x dx = ∫ (cos x) ⋅ x dx =       ⋅ cos x − ∫ ⋅ (− sen x dx)
+                                                      x2            x2
+                                        U        dV
+                                                      2             2
+
+
+                                =      ⋅ cos x + ∫ x 2 sen x dx.
+                                    x2          1
+                                    2           2
+
+       Nótese que la integral de la última igualdad es más difícil de calcular que la
+       integral inicial, puesto que en vez de disminuir la potencia de x, aumentó, lo
+       cual indica que la elección del U y del dV no es la apropiada.
+
+       Sin embargo, si se hace (figura 6.3):
+                                                                                                     Vea el módulo 6 del programa
+                                                                                                     de televisión Elementos básicos
+                                                                                                     de cálculo integral y series
+
+
+                                                                                Elementos básicos de cálculo integral y series 55
+Capítulo 2: Métodos de integración
+
+
+                                                                           Figura 6.3
+
+                                          Entonces,
+
+
+                                                  ∫ x ⋅ cos x dx = ∫ x ⋅ cos x dx = x ⋅ sen x − ∫ sen x dx
+                                                                      U
+
+
+                                                                                = x sen x + cos x + C.
+                                                                           dV
+
+
+                                     2.   Algunas veces, al aplicar el método para calcular la integral ∫ U · dV , y des-
+
+
+                                          la igualdad la expresión K ∫ U · dV , transformándose la integral en una ecua-
+                                          pués de algunas manipulaciones algebraicas, aparece en el lado derecho de
+
+
+                                          ción de la forma:
+
+
+                                                  ∫ U · dV = H ( x) + K ∫ U · dV .                                   (1)
+
+
+                                          Si K = 1, la ecuación es una identidad ( H ( x) ≡ 0) y, por tanto, se debe
+                                          ensayar otra elección del U y del dV, ya que la elección inicial no es la
+                                          apropiada.
+
+                                          Si K ≠ 1, se tiene de (1),
+
+
+                                                  ∫ U · dV = 1 − K H ( x) + C ,
+                                                                  1
+
+
+                                          lo cual proporciona la solución a la integral (vea el ejemplo 5 de este módulo
+                                          y 1c de la sección 7.1.5).
+
+
+                                          algunas veces, para calcular la segunda integral ∫ V · du , es necesario apli-
+                                     3.   En algunos casos el método de integración por partes es iterativo, esto es,
+
+
+                                          car nuevamente el mismo método.
+
+                                     4.   Al menos inicialmente, algunas integrales no presentan muchas opciones
+                                          en la elección del U y del dV. Los siguientes ejemplos ilustran la elección
+                                          única que debe hacerse en algunos casos particulares:
+
+
+                                                  ∫ ln x dx; hacer U = ln x y dV = dx.
+                                                  ∫ arc sen x dx; hacer U = arcsen x y dV = dx.
+
+ 56
+                                                                                         Módulo 6: Integración por partes
+
+             ∫ arc tan x dx; hacer U = arctan x y dV = dx.
+             ∫ P ( x) ⋅ f ( x)dx; hacer U = P ( x) y dV = f ( x)dx.
+                 n                             n
+
+
+5.   Es importante tener cuidado con la interpretación de las integrales indefini-
+     das de la fórmula (2) de la integración por partes, ya que una constante de
+     integración puede entenderse de manera implícita; por ejemplo:
+
+     Si U = e− x y dV = e x , entonces dU = −e− x dx y V = ex .
+
+     Entonces, la fórmula (2) de la integración por partes se transforma en:
+
+
+             ∫ e ⋅ e dx = 1 − ∫ (−1) ⋅ dx = 1 + ∫ 1⋅ dx.
+                 −x   x
+
+
+     Es decir,
+
+
+             ∫ 1⋅ dx = 1 + ∫ 1⋅ dx.                                            (A)
+
+     El significado de la ecuación (A) es el siguiente :
+
+     Si la constante 1 es sumada a cualquier primitiva de 1 en el lado derecho de
+     la ecuación (A), el resultado es una primitiva de 1 sobre el lado izquierdo de
+     (A); y similarmente, si la constante 1 es restada a cualquier primitiva de 1 en
+     el lado izquierdo de la ecuación (A), el resultado es una primitiva de 1 sobre
+     el lado derecho de (A).
+
+
+     Ante todo, (A) no significa que el símbolo ∫ 1 ⋅ dx pueda cancelarse en
+     ambos lados de la ecuación y producir así el resultado absurdo 1 = 0.
+
+
+                                                                        Elementos básicos de cálculo integral y series 57
+Capítulo 2: Métodos de integración
+                                        7.1 Integración de potencias de funciones
+                                            trigonométricas
+
+                                        7.1.1 Integrales de la forma ∫ senn u du y ∫ cosn u du
+      Vea el módulo 7 del programa
+      de televisión Elementos básicos   1.   Si n es impar, entonces n es de la forma n = 2k + 1, con k = 1, 2, 3,…
+      de cálculo integral y series
+
+                                             Luego
+
+
+                                                     ∫ sen u du = ∫ sen u du
+                                                           n               2 k +1
+
+
+                                                                = ∫ (sen u ) ⋅ sen u du
+                                                                            2       k
+
+
+                                                                = ∫ (1 − cos u ) sen u du ,
+                                                                                    2   k
+
+
+                                             y esta última integral se convierte en la integral de un polinomio haciendo la
+                                             sustitución V = cos u y sen u du = – dV.
+
+                                             Igualmente,
+
+
+                                                     ∫ cos u du = ∫ cos u du
+                                                           n               2 k +1
+
+
+                                                                = ∫ (cos u ) ⋅ cos u du
+                                                                            2       k
+
+
+                                                                = ∫ (1 − sen u ) cos u du ,
+                                                                                    2   k
+
+
+                                             y esta última integral se convierte en la integral de un polinomio haciendo la
+                                             sustitución V = sen u y cos u du = dV.
+
+                                        2.   Si n es par, se escribe el integrando en la forma:
+
+
+                                                     ∫ sen u du = ∫ sen u du = ∫ (sen u ) du, o
+                                                           n              2k                2   k
+
+
+                                                     ∫ cos u du = ∫ cos u du = ∫ (cos u ) du, siendo k entero positivo.
+                                                           n               2k               2   k
+
+
+                                             Luego se utilizan las identidades trigonométricas
+                                                                 1 − cos 2u             1 + cos 2u
+                                                     sen 2 u =              , cos 2 u =
+                                                                      2                      2
+
+                                             para transformar la integral en la de un polinomio.
+
+
+ 64
+                                                                            Módulo 7: Integración por sustitución
+
+
+7.1.2 Integrales de la forma ∫ senm u ⋅ cosn u du
+
+1.      n es un entero positivo impar, m arbitrario.
+
+        Se debe separar inicialmente el factor cos u du y expresar la potencia par
+        restante de coseno en términos de seno (recuerde que cos 2 u = 1 − sen 2 u ).
+
+2.      m es un entero positivo impar, n arbitrario.
+
+        Se debe separar inicialmente el factor sen u du y expresar la potencia par
+        restante de seno en términos de coseno (recuerde que sen 2 u = 1 − cos 2 u ).
+
+3.      m y n son enteros positivos pares.
+
+
+ Se escribe el integrando en la forma:
+
+
+     ∫ sen u ⋅ cos u du = ∫ sen u ⋅ cos u du, con k, p enteros positivos.
+         m       n             2k      2p
+
+
+         = ∫ (sen u ) ⋅ (cos u ) du = ∫ ⎜
+                                        ⎛ 1 − cos 2u ⎞ ⎛ 1 + cos 2u ⎞
+                                                     ⎟ ⋅⎜
+                                                                    p
+
+                                                                    ⎟ du.
+                                                       k
+
+
+                                        ⎝            ⎠ ⎝            ⎠
+                 2   k     2    p
+
+                                               2              2
+
+ Al desarrollar los binomios y efectuar el producto se obtiene una suma de poten-
+ cias de coseno cuya solución corresponde al caso 7.1.1.
+
+
+                                                               Elementos básicos de cálculo integral y series 65
+                                                                                         Módulo 7: Integración por sustitución
+
+
+7.1.3 Integrales de la forma ∫ tan m u du y ∫ cot m u du, siendo m
+         cualquier entero positivo, m ≥ 2
+
+Se escribe tan m u = tan m − 2 u ⋅ tan 2 u = tan m − 2 u (sec 2 u − 1) en la primera integral, y
+cot m u = cot m − 2 u ⋅ cot 2 u = cot m − 2 u (csc 2 u − 1) en la segunda, con lo cual
+
+
+        ∫ tan u du = ∫ tan          u (sec 2 u − 1) du
+              m               m−2
+
+
+                  = ∫ tan    m−2
+                                   u sec 2 u du − ∫ tan m − 2 u du
+                                                                                            (1)
+
+
+        ∫ cot u du = ∫ cot         u (csc2 u − 1) du
+              m              m−2
+
+
+                   = ∫ cot  m−2
+                                   u csc 2 u du − ∫ cot m − 2 u du
+                                                                                            (2)
+
+
+La primera integral en el lado derecho de (1) y (2) puede calcularse fácilmente hacien-
+do la sustitución V = tan u y dV = sec2 u du (V = cot u y dV = –csc2 u du en (2)). Con
+la segunda integral se procede en la misma forma que se hizo con tanm u y cotmu
+al iniciar este caso.
+
+
+                                                                        Elementos básicos de cálculo integral y series 67
+                                                                                         Módulo 7: Integración por sustitución
+7.1.4 Integrales de la forma ∫ sec u du y ∫ csc u du
+                                         n               n
+
+
+1.    n es un entero positivo par.
+
+      Se debe separar el factor sec2 u du en la primera integral (csc2 u du en la
+      segunda) y se expresa la potencia restante de secante (cosecante) en
+      términos de tangente (cotangente).
+
+2.    Si n es impar, es necesario utilizar el método de la integración por partes,
+      como se ilustra en el ejemplo 1c.
+
+
+         7.1.5 Integrales de la forma ∫ tanm u ⋅ secn u du y ∫ cotmu ⋅ cscnu du
+
+         1.     n entero positivo par, m cualquier entero positivo.
+
+                Se debe separar el factor sec 2 u du en la primera integral (csc2 u du en la
+                segunda).
+
+                Se expresa luego la potencia restante de secante en términos de tangente
+                en la primera integral (potencia de cosecante en términos de cotangente en
+                la segunda).
+
+         2.     m entero positivo impar, n cualquier entero positivo.
+
+                Se debe separar el factor sec u ⋅ tan u du en la primera integral (csc u ⋅ cot u du
+                en la segunda).
+
+
+               Se expresa luego la potencia restante de tangente en términos de secante
+               en la primera integral (potencia de cotangente en términos de cosecante en
+               la segunda).
+
+       3.      Si n es impar y m es par, es necesario utilizar el método de la integración
+               por partes, como se ilustra en el ejemplo 1c.
+
+
+                                                                           Elementos básicos de cálculo integral y series 69
+Capítulo 2: Métodos de integración
+
+
+                                                          8.1 Integrales que contienen expresiones de la
+Las fórmulas de Wallis                                        forma (a 2 -U 2 )r , donde a > 0, U (x) una función
+                                                              derivable y r ∈
+1.            Si n es impar ( n ≥ 3 ), entonces
+
+
+∫
+                       ⎛ 2 ⎞⎛ 4 ⎞⎛ 6 ⎞ ⎛ n −1⎞
+                                                          En este caso, cualquiera de las sustituciones:
+          cos n x dx = ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ... ⎜
+    π 2
+                                             ⎟.
+    0
+                       ⎝ 3 ⎠⎝ 5 ⎠⎝ 7 ⎠ ⎝ n ⎠
+                                                                 U = a senθ y dU = a cosθ dθ, o                                                              (1)
+
+2.            Si n es par ( n ≥ 2 ), entonces                    U = a cosθ y dU = – a sen θ dθ,                                                             (2)
+
+                       ⎛ 1 ⎞ ⎛ 3 ⎞⎛ 5 ⎞ ⎛ n − 1 ⎞ ⎛ π ⎞
+∫
+                                                          transforma la integral dada en una integral que contiene potencias de funciones
+          cos n x dx = ⎜ ⎟ ⎜ ⎟⎜ ⎟ ... ⎜
+    π 2
+                                                ⎟⎜ ⎟.
+                       ⎝ 2 ⎠ ⎝ 4 ⎠⎝ 6 ⎠ ⎝ n ⎠ ⎝ 2 ⎠
+    0                                                     trigonométricas y cuya solución corresponde a algunos de los casos 1, 2 de la
+                                                          secciones 7.1.1 y 7.1.2.
+
+                                                          En efecto,
+
+                                                                 (a 2 − U 2 ) r = ( a 2 − a 2 sen 2 θ ) r = (a 2 (1 − sen 2 θ )) r = a 2 r ⋅ cos 2 r θ .
+
+                                                          También,
+
+                                                                 ( a 2 − U 2 ) r = ( a 2 − a 2 cos 2 θ ) r = ( a 2 (1 − cos 2 θ )) r = a 2 r ⋅ sen 2 r θ .
+
+
+ 74
+Capítulo 2: Métodos de integración
+                                     se obtiene
+
+                                             dx = − sen θ dθ .
+
+                                     Entonces,
+
+                                             ∫ (a − x ) dx = ∫ (a − a cos θ ) ⋅ (−a sen θ dθ )
+                                                      1                                     1
+                                                  2        2   3                2       2            2    3
+                                                                   2                                          2
+
+
+                                                                             −a sen θ dθ
+                                                                       =∫                    = − 2 ∫ csc 2 θ dθ = 2 cot θ + C.
+                                                                                                 1                1
+                                                                            (a 2 sen 2 θ ) 2
+                                                                                          3
+                                                                                                a                a
+
+                                     Ahora, para regresar a la variable original, se utiliza un procedimiento similar al del
+
+                                     ejemplo 1. Esto es, como cos θ =
+                                                                                        x
+                                                                                          , se puede construir el triángulo de la figura 8.2.
+                                                                                        a
+
+
+                                                                                                Figura 8.2
+
+                                     De allí se deduce que cot θ =
+                                                                                            x
+                                                                                    a − x2
+                                                                                                         y, en consecuencia,
+                                                                                        2
+
+
+                                                                        1 ⎡                          ⎤
+                                             ∫ (a − x ) dx = a ⎣⎢ a − x ⎦⎥ + C.
+                                                      dx                                x
+                                                  2        2   3
+                                                                   2        2       2            2
+
+
+                                     8.2 Integrales que contienen expresiones de la forma
+                                            (a 2 + U 2 )r , con a > 0, U (x) una función derivable
+                                            yr∈
+                                     En este caso, cualquiera de las sustituciones:
+
+                                            U = a tan θ y dU = a sec 2 θ dθ, o                                                           (1)
+
+                                            U = a cot θ y dU = – a csc 2 θ dθ,                                                           (2)
+
+                                     transforma la integral dada en una integral que contiene potencias de funciones
+                                     trigonométricas y cuya solución corresponde a algunos de los casos de la seccio-
+                                     nes 7.1.4 y 7.1.5.
+
+
+ 76
+                                                                                                    Módulo 8: Sustituciones trigonométricas
+
+8.3 Integrales que contienen expresiones de la forma
+       (U 2 − a 2 )r , con U > a > 0, U (x) una función
+
+       derivable y r ∈
+En este caso, cualquiera de las sustituciones:
+
+       U = a sec θ y dU = a sec θ · tan θ dθ, o                                                      (1)
+
+       U = a csc θ y dU = – a csc θ cot θ dθ,                                                        (2)
+
+transforma la integral dada en una integral que contiene potencias de funciones
+trigonométricas y cuya solución corresponde a algunos de los casos de las seccio-
+nes 7.1.4 y 7.1.5.
+
+En efecto,
+
+       (U 2 − a 2 ) r = ( a 2 sec 2 θ − a 2 ) r = ( a 2 (sec 2 θ − 1)) r = a 2 r ⋅ tan 2 r θ ;
+
+también,
+
+       = ( a 2 csc 2 θ − a 2 ) r = ( a 2 (csc 2 θ − 1)) r = a 2 r ⋅ cot 2 r θ .
+
+
+                                                                                           Elementos básicos de cálculo integral y series 79
+                                                                                          Módulo 8: Sustituciones trigonométricas
+8.4 Integración de expresiones que contienen
+    trinomios de la forma ax 2 + bx + c, con a ≠ 0
+
+Caso 1: Integrales de la forma ∫
+                                            dx
+                                         ax + bx + c
+                                             2
+
+
+Para calcular la integral se transforma previamente el trinomio ax 2 + bx + c en la
+forma de suma o diferencia de cuadrados dependiendo del signo de la constante a.
+
+Así,
+                         ⎡          c⎤
+       ax 2 + bx + c = a ⎢ x 2 + x + ⎥
+                                b
+                         ⎣      a   a⎦
+
+
+                         ⎡⎛    b ⎞ ⎛ c b2 ⎞⎤
+                     = a ⎢⎜ x + ⎟ + ⎜ − 2 ⎟ ⎥
+                                   2
+
+
+                         ⎢⎣⎝   2a ⎠ ⎝ a 4a ⎠ ⎥⎦                  (completación de cuadrados)
+
+
+                      ⎧ ⎡⎛      b ⎞           ⎤
+                      ⎪a ⎢⎜ x + ⎟ + K 2 ⎥ si          > 2
+                                     2
+                                                    c   b2
+                      ⎪ ⎢⎣⎝     2a ⎠          ⎥⎦
+                     =⎨
+                                                    a 4a
+
+                      ⎪ ⎡⎛      b ⎞          ⎤
+                      ⎪ ⎜ ⎢   +    ⎟   −     ⎥        <
+                                     2
+                                                    c   b2
+                      ⎩ ⎢⎣⎝     2a ⎠         ⎥⎦
+                                           2
+                        a   x            K       si
+                                                    a 4a 2
+
+De esta forma,
+
+        ∫ ax + bx + c = a ∫ ⎡⎛
+                dx         1             dx
+                                     b⎞      ⎤
+                                                       .
+                               ⎢⎜ x + ⎟ ± K ⎥
+            2                           2
+
+
+                               ⎢⎣⎝   a⎠      ⎥⎦
+                                           2
+
+
+                                              ⎛    b⎞
+En la última integral al hacer la sustitución ⎜ x + ⎟ = u y dx = du se obtiene:
+                                              ⎝    a⎠
+
+
+        ∫ ax + bx + c = a ∫ u ± K ,
+                dx         1        du
+            2                   2        2
+
+
+y esta integral puede calcularse haciendo una sustitución trigonométrica apropia-
+da.
+
+  Caso 4: Integrales de la forma ∫
+                                                   Ax + B
+                                                 ax 2 + bx + c
+
+  La solución de este tipo de integrales puede obtenerse haciendo transformaciones
+  análogas a las del caso 2, descomponiendo así la integral inicial en la suma de dos
+  integrales; una de ellas se resuelve por sustitución directa, y la otra corresponde al
+  caso 3 inmediatamente anterior.
+
+
+                                                                                 Elementos básicos de cálculo integral y series 81
+         Introducción
+
+
+cual se pueden calcular integrales de la forma ∫ f ( x ) dx, siendo f (x) una función
+El objetivo de esta sección es estudiar una importante técnica de integración con la
+
+
+racional, es decir, f (x) es el cociente de dos funciones polinómicas. Algunos casos
+simples de las integrales de este tipo de funciones ya han sido presentados en las
+secciones anteriores y no requieren explicación adicional alguna. Por ejemplo,
+
+
+ ∫ ax + b dx = a ln ax + b + C , siendo a ≠ 0,
+     1         1
+
+
+ ∫ 1 + x dx = arctan x + C ,
+     1
+         2                                                                              Johann (Jean) Bernoulli
+
+                                                                                        El matemático suizo Johann Bernoulli,
+
+
+ ∫ 1 + x dx = 2 ln 1 + x + C , etc.
+                                                                                        también conocido como Jean (en francés)
+     x         1        2                                                               y John (en inglés), nació en Basilea el 27 de
+         2                                                                              julio de 1667 y murió allí mismo el primer
+                                                                                        día del año 1748. Fue maestro de Leonhard
+                                                                                        Euler y padre de Daniel Bernoulli (famoso
+                                                                                        por sus trabajos en hidráulica), Nicolas
+                                                                                        Bernoulli y Johann Bernoulli II.
+
+                                                                                        Como la cátedra de matemáticas de la
+                                                                                        Universidad de Basilea estaba ocupada por
+                                                                                        su hermano Jacques, Johann, por
+                                                                                        recomendación de Christiaan Huygens
+                                                                                        (astrónomo, matemático y físico holandés),
+                                                                                        obtuvo una plaza en la Universidad de
+                                                                                        Groninga, en los Países Bajos. Allí estuvo
+                                                                                        diez años, hasta que regresó a Basilea.
+                                                                                        Durante el viaje se enteró de la muerte de
+                                                                                        su hermano Jacques, y cuando llegó la
+                                                                                        Universidad de Basilea le ofreció, sin
+                                                                                        necesidad de concurso, el puesto que aquél
+                                                                                        había dejado vacante. Johann ocupó la
+                                                                                        cátedra durante 42 años, durante los cuales
+                                                                                        enseñó a estudiantes de toda Europa y
+                                                                                        participó en numerosas disputas acadé-
+                                                                                        micas, entre ellas la que tuvieron Newton y
+                                                                                        Leibniz por la paternidad del cálculo y en la
+                                                                                        que Johann tomó partido a favor de este
+                                                                                        último. Su alumno más importante fue, sin
+                                                                                        duda, Leonhard Euler. Johann, que era
+                                                                                        poco dado a alabar a otros, lo admiraba y
+                                                                                        le dedicó frases como: «incomparable
+                                                                                        Leonhard Euler, líder de todos los
+                                                                                        matemáticos» o «sabio y talentoso joven
+                                                                                        Euler».
+
+                                                                                        Johann Bernoulli hizo importantes aportes
+                                                                                        no sólo a las matemáticas (fue el primero
+                                                                                        en introducir el método de descomposición
+                                                                                        en fracciones parciales), sino también a la
+                                                                                        física. Él y Leonhard Euler contribuyeron al
+                                                                                        conocimiento de cuestiones como el tono
+                                                                                        y el timbre del sonido producido por un
+                                                                                        instrumento musical determinado, o la
+                                                                                        velocidad y naturaleza de la transmisión del
+                                                                                        sonido en diferentes medios.
+
+
+                                                                         Elementos básicos de cálculo integral y series 87
+                                                                       Módulo 9: Integración por descomposición en fracciones simples
+
+
+9.1 Integración por descomposición en fracciones
+     simples
+
+Supóngase que se quiere calcular la integral de la forma:
+
+
+        ∫ f ( x)dx = ∫ Q ( x) dx = ∫ b x + b
+                          Pn ( x)         an x n + an −1 x n −1 + ... + a1 x + a0
+                                                                + ... + b1 x + b0
+                                                           m −1
+                                                                                  dx.
+                                                    m −1 x
+                                              m
+                           m               m
+
+
+Se presentan entonces dos posibilidades:
+
+1.     La función racional dada f (x) es propia, es decir, cuando n < m (el grado
+       del numerador es menor que el grado del denominador de la fracción).
+
+2.     La función racional dada f (x) es impropia, es decir, cuando n ≥ m.
+
+
+Si se da el caso 2, el algoritmo de la división entre polinomios permite escribir:
+
+
+        f ( x) =           = Cn − m ( x) + k
+                   Pn ( x)                R ( x)
+                                                  ,
+                   Qm ( x)                Qm ( x)
+
+
+donde Cn − m ( x ) es un polinomio de grado (n – m), y Rk ( x) es un polinomio de
+grado k, k < m.
+
+De esta forma, la integral inicial se transforma en la suma de dos integrales: una de
+ellas, la de una función polinómica, y la otra, la integral de una función racional
+propia. Por tanto, es suficiente estudiar la primera posibilidad, es decir, si se sabe
+cómo se integran las funciones racionales propias, se sabrá cómo se integran todas
+las funciones racionales.
+
+
+9.2 Integración de funciones racionales propias simples
+Entre las funciones racionales propias existen algunas de gran importancia llama-
+das funciones racionales propias simples o funciones simples.
+
+Se conocen cuatro tipos de ellas, a saber:
+
+       Funciones racionales simples tipo I
+
+       Son funciones de la forma f I ( x) =
+                                                       A
+                                                      x−a
+                                                          , en donde A, a son constantes.
+
+
+       Funciones racionales simples tipo II
+
+       Son funciones de la forma f II ( x) =
+                                                                                                             Vea el módulo 9 del programa
+                                                          A
+                                                      ( x − a) k
+                                                                 , en donde A, a son constantes,             de televisión Elementos básicos
+                                                                                                             de cálculo integral y series
+
+       k ∈ , k ≥ 2.
+
+                                                                                        Elementos básicos de cálculo integral y series 89
+Capítulo 2: Métodos de integración
+
+                                             Funciones racionales simples tipo III
+                                                                                              Ax + B
+                                             Son funciones de la forma f III ( x) =
+                                                                                            x + px + q
+                                                                                             2
+                                                                                                       , en donde A, B, p, q son
+
+                                             constantes, y x 2 + px + q es un factor cuadrático irreducible, es decir, un
+                                             factor para el cual p 2 − 4q < 0.
+
+                                             Funciones racionales simples tipo IV
+                                                                                               Ax + B
+                                             Son funciones de la forma f IV ( x) =
+                                                                                         ( x 2 + px + q) k
+                                                                                                           , en donde A, B, p, q son
+
+                                             constantes, k ∈ , k ≥ 2, y x 2 + px + q es un factor cuadrático irreducible.
+
+
+                                     9.2.1 Integración de funciones simples tipo I y II
+
+                                     En muchos ejemplos de las secciones anteriores se han presentado integrales de
+                                     esta forma, en las cuales la sustitución U = x – a y dU = dx transforma la integral
+
+
+                                              ∫ f ( x)dx = ∫ x − a dx = A∫ U = A ⋅ ln U + C = A ⋅ ln x − a + C
+                                                                     A             dU
+                                                   I
+
+
+                                     en las integrales del tipo I, y
+
+
+                                         ∫   f II ( x )dx = ∫                    ∫
+                                                                                                 U − k +1
+                                                                             =       −k
+                                                                                           =   ⋅          +C =      ( x − a )1− k + C
+                                                                    A                                           A
+                                                                ( x − a)k                        −k + 1        1− k
+                                                                          dx   A   U    dU   A
+
+
+                                     en las integrales del tipo II.
+
+
+                                     9.2.2 Integración de funciones simples tipo III y IV
+
+                                     Para calcular la integral de cualquiera de estos tipos se sigue un procedimiento
+                                     similar al desarrollado en la integración de expresiones que contienen trinomios de
+                                     la forma ax 2 + bx + c, con a ≠ 0 (casos 1 y 2 de la sección 8.4). El procedimiento
+                                     consiste en descomponer la integral inicial en la suma de dos integrales, una de las
+                                     cuales es directa, mientras que para la segunda, después de completar cuadrados,
+                                     se hace una sustitución trigonométrica apropiada.
+
+
+ 90
+                                       11.1 Integrales de la forma ∫ f ( x , x m / n , x p / q ,..., x r / s ) dx ,
+Capítulo 2: Métodos de integración
+
+
+                                               donde m , n , p , q ,..., r , s ∈
+
+                                       Si en el integrando aparecen las expresiones x, x , x , , x , donde m, n, p,
+                                                                                        m n p q    r s
+
+
+                                       q,…, r, s∈ , combinadas mediante las operaciones de suma, producto, cociente y
+                                       elevación a potencias, entonces la sustitución
+
+                                               x = U k y dx = kU k −1dU ,
+
+                                       donde k = MCM (mínimo común múltiplo) de los denominadores de las fracciones
+                                       m/n, p/q,…, r/s, transforma la integral inicial en la integral de una función racional
+                                       de U.
+
+
+                      11.2 Integrales de la forma
+
+
+                                   ⎛ ⎛ ax + b ⎞ m / n       ⎛ ax + b ⎞ ⎞
+                              ∫ f ⎜⎜ x, ⎜⎝ cx + d ⎟⎠ ,..., ⎜⎝ cx + d ⎟⎠ ⎟⎟ dx,
+                                                                       r/s
+
+
+                                   ⎝                                       ⎠
+                             donde m , n , p , q ,..., r , s ∈
+
+                                                                      ⎛ ax + b ⎞               ⎛ ax + b ⎞
+                      Si en el integrando aparecen las expresiones x, ⎜        ⎟         ,..., ⎜        ⎟
+                                                                                   m n                      r s
+
+
+                                                                      ⎝ cx + d ⎠               ⎝ cx + d ⎠
+                                                                                                                  , donde
+
+                      m, n, p, q,…, r, s∈    combinadas mediante las operaciones de suma, producto,
+                      cociente y elevación a potencias, entonces la sustitución
+
+                              ax + b
+                                     =Uk,
+                              cx + d
+
+
+                      donde k = MCM (mínimo común múltiplo) de los denominadores de las fracciones
+                      m/n , p/q ,…, r/s, transforma la integral inicial en la integral de una función racional
+                      de U.
+
+
+102
+11.3 Integrales de la forma ∫ f (sen x, cos x )dx
+                                                                                           Módulo 11: Sustituciones diversas
+
+                                                                                          según opinión de un comité formado por
+                                                                                          Laplace, Lagrange, Lacroix y Monge, «no
+                                                                                          contenía nada nuevo ni interesante » . La
+Si en el integrando aparecen las funciones seno y coseno combinadas mediante las          memoria fue publicada en 1822 con pocas
+operaciones de suma, producto y cociente, la sustitución:                                 modificaciones. La conjetura de Fourier
+                                                                                          tenía, hoy lo sabemos, mucha parte de
+                                                                                          verdad, y «únicamente» había que
+
+       U = tan      ⇔ x = 2 arctan U y dx =
+                  x                           2                                           desarrollar convenientemente algunos
+
+                                            1+U 2
+                                                  dU                               (1)    conceptos (por ejemplo, qué se entiende
+                  2                                                                       por función y cómo se construye la integral
+                                                                                          de una función) y establecer la naturaleza
+                                                                                          de la convergencia de las series de funciones
+lleva a las siguientes expresiones:
+                                                                                          en general y de las trigométricas en
+                                                                                          particular.
+
+        sen x =
+                   2U
+                  1+U 2
+                        ,                                                          (2)    Fourier recopiló todo su ingenio matemático
+                                                                                          y descubrió lo que hoy se conoce como
+                                                                                          teorema de Fourier. Según éste, cualquier
+                                                                                          oscilación periódica, por complicada que
+                  1−U 2
+        cos x =
+                                                                                          sea, se puede descomponer en una serie
+
+                  1+U 2
+                        ,                                                          (3)    de movimientos ondulatorios simples y
+                                                                                          regulares, la suma de los cuales es la
+                                                                                          variación periódica compleja original. Es
+                                                                                          decir, se puede expresar como una serie
+las cuales transforman la integral inicial en la integral de una función racional de U.   matemática en la cual los términos son
+                                                                                          funciones trigonométricas. El teorema de
+Nota: las sustituciones dadas en (1), (2) y (3) se denominan a veces sustitución          Fourier tiene muchas aplicaciones; puede
+trigonométrica universal y permiten integrar cualquier función de seno y coseno           ser utilizado en el estudio del sonido y de la
+                                                                                          luz y desde luego en cualquier fenómeno
+como una función racional. Sin embargo, en la práctica esta sustitución conduce a         ondulatorio. El estudio matemático de tales
+menudo a integrar funciones racionales demasiado complicadas. Por esta razón se           fenómenos, basado en el teorema de
+recomienda aplicar esta sustitución sólo en aquellos casos en los cuales hayan            Fourier, se llama análisis armónico.
+fallado los demás métodos de integración.
+                                                                                          En su obra Los miserables , Victor Hugo,
+
+
+Así por ejemplo, si se desea calcular la integral ∫ sen x ⋅ cos x dx por este último
+                                                                                          evocando el año 1817, cita a dos Fourier:
+                                                                                          uno célebre, que pertenecía a la Academia
+                                                                                          de Ciencias y que sería olvidado por la
+método, se tiene, reemplazando (1), (2) y (3) en la integral dada, que:                   posteridad (referencia a Jean Baptiste), y
+                                                                                          otro oscuro, que sería recordado en el
+                                                                                          futuro (referencia al pensador socialista
+
+        ∫ sen x ⋅ cos x dx = ∫ (1 + U )
+                             4U (1 − U 2 )                                                Charles Fourier). La profecía de Victor Hugo
+                                      2 3
+                                             dU .                                         no se cumplió exactamente. La explosión
+                                                                                          del análisis y tratamiento de la señal, y del
+                                                                                          análisis armónico computacional en
+                                                                                          particular, sobre todo a partir del
+                                                                                          descubrimiento de un algoritmo numérico
+Obsérvese que la segunda integral es demasiado complicada para evaluarla, sa-             para el cálculo de la transformada rápida,
+biendo además que la integral puede calcularse fácilmente haciendo la sustitución         ha puesto el nombre del matemático Fourier
+                                                                                          en lo más alto del Olimpo de la Ciencia.
+U= sen x y dU= cos x dx.
+
+
+                                                                          Elementos básicos de cálculo integral y series 105
+Capítulo 2: Métodos de integración
+
+
+                     ∫ sen (mx) sen (nx) dx, ∫ sen (mx) cos (nx) dx, ∫ cos (mx) cos (nx) dx,
+             donde m, n ∈ , se puede calcular usando la integración por partes, o utilizando las
+             siguientes identidades trigonométricas:
+
+
+                     sen (mx) sen (nx) =     [ − cos (m + n) x + cos (m − n) x ] ,
+                                           1
+                                           2
+
+                     sen (mx) cos (nx) =     [sen (m + n) x + sen (m − n) x ] ,
+                                           1
+                                           2
+
+                     cos (mx) cos (nx) =     [cos (m + n) x + cos (m − n) x ].
+                                           1
+                                           2
+
+             11.4 Integración de los binomios diferenciales
+
+             Una expresión de la forma xm (a + bxn ) p , donde a, b, m, n y p son números raciona-
+             les, se denomina binomio diferencial.
+
+
+             Chébishev demostró que la integral de los binomios diferenciales ∫ x (a + bx ) dx,
+                                                                                     m         n p
+
+
+             con a ≠ 0 y b ≠ 0, puede reducirse a la integral de una función racional, y por
+             consiguiente puede expresarse mediante funciones elementales sólo en los tres
+             casos siguientes:
+
+             1.     p es un entero.
+
+             2.      m + 1 es un entero.
+                      n
+                     m +1
+             3.           + p es un entero.
+                      n
+
+                                                   m +1
+             Si ninguno de los números p, m + 1 ,        + p es entero, la integral no puede
+                                              n      n
+             expresarse por medio de funciones elementales.
+
+
+             De lo anterior se puede concluir que cualquier integral de la forma ∫ a + bx n dx,
+             con a, b ≠ 0 y n ≥ 3, no puede expresarse por medio de funciones elementales.
+
+
+106

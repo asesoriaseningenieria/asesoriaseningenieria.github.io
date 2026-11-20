@@ -1,0 +1,146 @@
+EJERCICIO:
+
+Restricciones geométricas
+
+El centroide de área debe ser una figura compuesta por mínimo seis tipos de figuras
+diferentes, utilice las tablas proporcionadas en clase. No se pueden utilizar figuras del mismo
+tipo, por ejemplo, el rectángulo y cuadrado son del mismo tipo, todos los triángulos (recto,
+isósceles, equilátero y escaleno) son el mismo tipo Tamaño.
+
+                                         SOLUCIÓN.
+
+La figura que se eligió compuesta por 6 tipos de figuras diferentes es:
+
+
+Para poder hallar el centroide, se debe dividir la pieza en 6 figuras diferentes como se
+muestra en la siguiente gráfica:
+Para calcular el centroide de la placa, primero debemos hallar las coordenadas de los
+centroides de cada una de las figuras:
+
+Como se puede observar, nuestra figura se puede dividir en una rectángulo principal de 21
+cm de ancho, por 15 cm de alto, al cual se le restan las áreas de las otras 5 figuras que
+componen la placa.
+
+El centroide del rectángulo (6) mayor será: (10.5,7.5). Para hallar el del semicírculo (4), lo
+hallaremos con la fórmula:
+
+𝑥^ = 0. 2234𝑟 = (0. 2234)(8) = 1. 79
+
+𝑦^ = 7 + 0. 7766𝑟 = 7 + (0. 7766)(8) = 13. 21
+
+Para el pentágono regular (1), el centroide se encuentra en el centro del pentágono, el cual
+según el gráfico se encuentra en las coordenadas: (12.5, 11.559).
+
+Para el trapecio (2) como es un trapecio isósceles, la coordenada x del centroide es 11.5 y la
+coordenada y será:
+
+       ℎ(2𝑎+𝑏)       5(2(7)+11)     5(25)     125
+𝑦^ =    3(𝑎+𝑏)
+                 =    3(7+11)
+                                  = 3(18) =    54
+                                                    = 2. 315
+Para la sección parabólica (3), el centroide será:
+
+              3𝑏                  (3)(4)
+𝑥^ = 17 +     4
+                   = 17 +           4
+                                           = 20
+
+
+      3ℎ      (3)(5)         3
+𝑦^ = 10 =       10
+                       = 2 = 1. 5
+
+Y finalmente, para el triángulo rectángulo (5) el centroide será:
+
+              ℎ                   3
+𝑥^ = 21 − 3 = 21 − 3 = 20
+
+              ℎ                   2
+𝑦^ = 15 − 3 = 15 − 3 = 14. 33
+
+Por lo tanto, el área a calcular el centroide queda dividida de la siguiente forma:
+
+
+Las áreas de las figuras son:
+
+Para el trapecio (2):
+
+     ℎ(𝑎+𝑏)        5(7+11)                 2
+𝐴=      2
+              =       2
+                                 = 45𝑐𝑚
+
+Para el pentágono (1):
+     𝑃𝑎        (5)(5)(15−11.559)                           2
+𝐴=    2
+           =           2
+                                        = 43. 01𝑐𝑚
+
+Para la parábola (3):
+
+     𝑏ℎ        (4)(5)                       2
+𝐴=    3
+           =     3
+                            = 6. 67𝑐𝑚
+
+Para el semicírculo (4):
+
+     (         π
+                   )   2
+                             (
+𝐴 = 1 − 4 𝑟 = 1 − 4 (8) = 13. 73𝑐𝑚
+                                    π
+                                        )       2               2
+
+
+Para el triángulo (5):
+
+     𝑏ℎ        (3)(2)               2
+𝐴=    2
+           =     2
+                            = 3𝑐𝑚
+
+Y finalmente, para el rectángulo mayor (6):
+
+                                                2
+𝐴 = 𝑏ℎ = (21)(15) = 315𝑐𝑚
+
+Por lo tanto, con las medidas obtenidas anteriormente, se tiene que las coordenadas del
+centroide de la figura compuesta es:
+
+ Componente                  Área [cm²]                X [cm]          Y [cm]      Ax [cm³]      Ay [cm³]
+
+Pentágono                  -43.01                   12.5            11559       -537.63       -497.15
+Trapecio                   -45                      11.5            2315        -517.5        -104.18
+Parábola                   -6.67                    20              1.5         -133.4        -10.01
+Semicírculo                -13.73                   1.79            13.21       -24.58        -181.37
+Triángulo                  -3                       20              14.33       -60           -42.99
+Rectángulo                 315                      10.5            7.5         3307.5        2362.5
+
+TOTAL                      203.59                                               2058.97       1526.8
+
+
+     ∑𝐴𝑥
+                   2058.97
+𝑋=         =        203.59
+                              = 10. 11𝑐𝑚
+     ∑𝐴
+
+
+     ∑𝐴𝑦
+                   1526.8
+𝑌=         = 203.59 = 7. 5𝑐𝑚
+     ∑𝐴
+Finalmente, el centroide de la figura se encuentra ubicado en las coordenadas (10.11,7.5),
+como se observa en color rojo en la siguiente figura:
+
+
+Por otro lugar, usando el software de diseño 3D FreeCAD, el centroide de la figura se halla
+en el punto (9.9926,7.4493), como se puede observar en el siguiente pantallazo:
+Por lo tanto, el error relativo será:
+
+       |10.11−9.9926|                             |7.5−7.4493|
+ε𝑥 =       9.9926
+                        ∗ 100% = 1. 17%​   ε𝑦 =      7.4493
+                                                                 ∗ 100% = 0. 68%

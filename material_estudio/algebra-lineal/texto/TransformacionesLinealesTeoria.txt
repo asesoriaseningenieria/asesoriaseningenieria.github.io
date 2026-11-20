@@ -1,0 +1,630 @@
+Capítulo 3: Transformaciones lineales
+                                        11.1 Definición y ejemplos de transformaciones lineales
+                                        Definición 1
+
+                                        Sean V y W espacios vectoriales y sea T una función cuyo dominio es V y cuyo
+                                        codominio es W (T : V → W ). Se dice que T es una transformación lineal si:
+
+                                        a.     Para todo x, y elementos de V.
+
+                                               T (x + y ) = T ( x) + T (y ).
+
+                                        b.     Para todo x ∈ V y α ∈ (o α ∈ ).
+
+
+                                               T (α x) = α T (x).
+
+                                        A las transformaciones lineales también se les llama operadores lineales.
+
+                                        Una transformación lineal es, entonces, una función entre dos espacios vectoriales
+                                        «que preserva las operaciones de espacio vectorial». Es decir, la imagen de la suma
+                                        de dos vectores del dominio es la suma de las imágenes de cada uno de los vectores
+                                        y la imagen del producto de un vector del dominio por un escalar es el producto de
+                                        la imagen del vector por el escalar. Gráficamente es como se representa en la figura
+                                        11.1.
+
+
+                                                                                Figura 11.1
+
+
+152
+                                                                           Módulo 11: Definiciones, ejemplos y álgebra de las transformaciones lineales
+
+
+11.2 Álgebra de las transformaciones lineales
+
+11.2.1 Suma y producto por un escalar
+
+Sean T1 y T2 transformaciones lineales del espacio vectorial V en el espacio
+vectorial W; entonces:
+
+
+    i.     La suma de T1    y
+
+
+                                T2 está dada por (T1 + T2 ) v = T1 ( v) + T2 ( v) para todo
+           v ∈ V ; es claro que T1 ( v ) + T2 ( v) es un elemento de W. Luego la suma es
+           una transformación de V en W.
+
+    ii.    Sea α un escalar; el múltiplo escalar α T1 de T1 por α es la transformación
+           α T1 : V → W definida por (α T1 )( v) = α (T1 ( v )).
+
+    Teorema 1
+
+    Sean T1 y T2 transformaciones lineales entre los espacios vectoriales V y W; en-
+    tonces, T1 + T2 y α T1 son transformaciones lineales de V en W.
+
+
+     11.2.2 Composición de transformaciones lineales
+
+     Sean U, V y W espacios vectoriales, T2 : U → V y T1 : V → W transformaciones
+     lineales. La composición de T1 con T2 es la transformación T1 o T2 : U → W
+     definida por T1 o T2 ( v ) = T1 (T2 ( v)) para todo v ∈ U (figura 11.3).
+
+
+                                                             Figura 11.3
+
+
+                                                                                                          Álgebra lineal elemental y aplicaciones 157
+Teorema 2
+
+Sean U, V, W espacios vectoriales, T2 : U → V y T1 : V → W transformaciones
+lineales; entonces, la transformación T1 o T2 : U → W es una transformación
+lineal.
+
+
+12.1 Propiedades de las transformaciones lineales
+Teorema 1
+
+Sea T : V → W una transformación lineal; entonces:
+
+a.        T (0) = 0.
+b.        T (x − y ) = T (x) − T (y ) para todo x, y en V.
+c.        T (α1 v1 + α 2 v 2 + ... + α n v n ) = α1 T ( v1 ) + α 2 T ( v 2 ) + ... + α n T ( v n ), siendo
+
+          {α1 , α2 ,..., αn } y { v1 , v2 ,..., vn } conjuntos cualesquiera de escalares y ele-
+          mentos de V, respectivamente.
+
+
+ Observación
+
+ Es importante notar que en la parte a del teorema anterior, el cero del lado izquierdo
+ de la igualdad es el cero de V y el del lado derecho es el de W; además, la parte c del
+ teorema es una generalización de las partes a y b.
+
+ En general, cuando se define una función de V en W, ésta se especifica mediante una
+ regla que asigna a cada elemento de V un único elemento de W, ya que sería imposi-
+ ble decir para cada uno de los elementos de V cuál es el asignado en W debido a que
+ se trata de la asignación de una infinidad de elementos. Sin embargo, cuando se
+ trata de una transformación lineal, es posible saber cómo está definida T en todo el
+ espacio vectorial V, conociendo lo que hace T a una base de V. Así que en un espacio
+ de dimensión finita, es posible describir T proporcionando sólo las imágenes de un
+ conjunto finito de vectores.
+
+     Teorema 3
+
+     Sea V un espacio vectorial de dimensión finita con base B = { v 1 , v 2 , ..., v n } y
+     sean w1, w2 ,..., wn n vectores en un espacio vectorial W. Entonces existe una única
+     transformación lineal T : V → W tal que T (vi ) = wi para i = 1, 2, ..., n.
+
+
+                                                                                                       Álgebra lineal elemental y aplicaciones 159
+Capítulo 3: Transformaciones lineales
+
+
+                                   12.2 Núcleo e imagen de una transformación lineal
+                                   Definición 1
+
+                                   Sean V y W espacios vectoriales y T : V → W una transformación lineal; entonces:
+
+
+                                   a.        El núcleo de T, denotado nu T, está dado por nu T = { v ∈V / T ( v) = 0} .
+
+                                   b.        La imagen de T, denotada imagen T, está dada por:
+
+                                                    imagen T = {w ∈ W / w = T ( v ), para algún v ∈ V } .
+
+                                   Teorema 4
+
+                                   Si T : V → W es una transformación lineal, entonces:
+
+                                   a.        El núcleo de T es un subespacio de V.
+
+                                   b.        La imagen de T es un subespacio de W.
+
+
+                                   Por lo tanto, (w1 + w2 ) ∈ imagen T.
+
+
+                                   Además, α w1 = α T ( v1 ) = T (α v1 ), es decir, α w1 ∈ imagen T y, en conse-
+                                   cuencia, imagen T es un subespacio de W.
+
+
+                                                                    Figura 12.1
+
+
+                                        Definición 2
+
+                                        Sea T una transfomación lineal de V en W; entonces:
+
+                                        a.     La dimensión del núcleo de T, denotada ν (T ) , se denomina nulidad de T.
+                                        b.     La dimensión de la imagen T, denotada ρ (T ) , se denomina rango de T.
+
+
+168
+Capítulo 3: Transformaciones lineales
+                                        13.1 Tercer problema básico del álgebra lineal
+                                        Dada una transformación T : V → W , con dim V = n y dim W = m, hallar una matriz
+                                        A de m × n que represente a T.
+
+                                        Resolveremos primero el problema para T : n → m y luego lo extenderemos a
+                                        espacios V y W de dimensiones n y m, respectivamente.
+
+                                        Teorema 1
+
+                                        Sea T :      n
+                                                         →     m
+                                                                   una transformación lineal; entonces, existe una única matriz A
+                                        de m × n tal que T (x) = Ax, para x en                  n
+                                                                                                    .
+
+
+                                                ⎡ c1 ⎤
+                                                ⎢c ⎥
+                                        Sea x = ⎢ 2 ⎥ un vector de              n
+                                                                                    ; entonces:
+                                                ⎢ ⎥
+                                                ⎢ ⎥
+                                                ⎣cn ⎦
+
+                                                  x = c1 e1 + c2 e 2 + ... + cn e n ,
+
+                                        de modo que:
+
+                                                T (x) = c1 T (e1 ) + c2 T (e 2 ) + ... + cn T (e n ).                        (1)
+
+                                        Si A es la matriz cuya j-ésima columna es T (e j ) con j = 1, ..., n, entonces:
+
+                                                                                       ⎡ c1 ⎤
+                                                                                       ⎢c ⎥
+                                                  Ax = [T (e1 ) T (e 2 ).. . T (e n )] ⎢ 2 ⎥
+                                                                                       ⎢ ⎥
+                                                                                       ⎢ ⎥
+                                                                                       ⎣cn ⎦
+
+                                                      = c1 T (e1 ) + c2 T (e 2 ) + ... + cn T (e n ) = T ( x ).              (2)
+
+                                        De (1) y (2) tenemos que:
+
+                                                T ( x) = A x .
+                                        Ahora mostraremos que T es única. Suponga que Bm × n también cumple que
+                                        T (x) = B x para x ∈           n
+                                                                           .
+
+                                                      ⎛ 0⎞
+                                                      ⎜ 0⎟
+                                                      ⎜ ⎟
+                                        Si   x = ei = ⎜ ⎟ ,
+                                                      ⎜1⎟
+                                                      ⎜ ⎟
+                                                      ⎜ 0⎟
+                                                      ⎝ ⎠
+
+
+178
+                                                                Módulo 13: El problema de la representación matricial de las transformaciones lineales
+    T (e i ) = A e i = Coli ( A)
+           = B e i = Coli ( B )
+
+luego las columnas de A y B coinciden, por lo cual A = B.
+
+La matriz A = [T (e1 ) T (e 2 ).. . T (e n )] es la matriz de la transformación referida a la
+base estándar o canónica.
+
+
+     Teorema 2
+
+     Sea T : V → W una transformación lineal de un espacio vectorial V de dimensión
+     n en un espacio vectorial W de dimensión m y sean B1 = {v1 , v2 ,..., vn } y
+
+     B2 = {w1 , w2 ,..., wm } bases de V y W respectivamente; entonces, existe una única
+     matriz AT m×n tal que:
+
+
+     Definición 1
+
+     Sean V y W espacios vectoriales con bases                            B1 = { v1 , v2 ,..., vn }   y
+
+      B2 = {w1 , w2 ,..., wm } , respectivamente, y T : V → W una transformación lineal tal
+
+     que [T (x)]B2 = AT (x) B1 . A la matriz AT la denominamos matriz de la transforma-
+     ción referida a B1 y B2 o representación matricial de T respecto a B1 y B2 .
+
+
+                                                                                                          Álgebra lineal elemental y aplicaciones 179
+                                                                          Módulo 13: El problema de la representación matricial de las transformaciones lineales
+
+
+La solución al tercer problema básico del álgebra lineal está dada en el procedimien-
+to desarrollado en la prueba del teorema 2.
+
+
+     Procedimiento para hallar la matriz de una transformación lineal T : V → W
+      referida a las bases B1 de V y B2 de W
+
+
+      Sean: B1 = { v1 , v2 ,..., vn } y B2 = {w1 , w2 ,..., wm } .
+      Paso 1.          Encontrar T ( v1 ), T ( v 2 )...T ( v n ).
+      Paso 2.          Expresar T ( v1 ), T ( v 2 )...T ( v n ) en B2 .
+                       Para ello, hacemos lo siguiente:
+                       [ w1 , w 2 ,...w m         T ( v1 ) T ( v 2 ),..., T ( v n ) ]
+
+                       operaciones elementales      ⎡⎣ I   (T ( v1 )) B2 (T ( v 2 )) B2 ... (T ( v n )) B2 ⎤⎦ .
+
+      Paso 3.          La matriz AT = [(T ( v1 )) B2 (T ( v 2 )) B2 ... (T ( v n )) B2 ].
+
+
+                                                 Figura 13.1
+
+      La figura 13.1 proporciona una interpretación gráfica de la ecuación
+      (T (x)) B2 = AT (x) B1 , donde se muestra que las transformaciones lineales
+      podemos trabajarlas con matrices.
+
+
+      Teorema 3
+
+      Sean V y W espacios vectoriales de dimensión finita con dim V = n y T : V → W
+      una transformación lineal con representación matricial AT ; entonces:
+
+       i.        ρ (T ) = ρ ( AT ).
+       ii.       ν (T ) = ν ( AT ).
+       iii.      ν (T ) + ρ (T ) = n.
+
+
+                                                                                                                  Álgebra lineal elemental y aplicaciones 181
+El siguiente teorema muestra otra forma de calcular la matriz de una transformación
+lineal. Al aplicar este método, la matriz se obtiene como un producto de tres matrices.
+
+Teorema 4
+
+Sean V y W espacios vectoriales de dimensiones n y m, respectivamente, y
+T : V → W una transformación lineal.
+
+Si C es la matriz de la transformación respecto a las bases canónicas S n y Sm de V
+y W, respectivamente, P1 la matriz de transición de B1 a Sn en V, P2 la matriz de
+transición de B2 a Sm en W y AT la matriz de la transformación respecto a
+B1 y B2 , entonces:
+
+
+        AT = P2−1 C P1 .
+
+
+     13.2 Matrices similares y cambio de base
+
+     Al construir una representación matricial A para una transformación T podemos
+     analizar T trabajando con A. Tendremos una ventaja en este hecho si A es una matriz
+     «sencilla», esto es, que simplifique la manipulación algebraica. Como bases dife-
+     rentes dan por resultado matrices diferentes; la elección «correcta» de una base
+     para obtener una matriz A sencilla es importante.
+
+
+       Teorema 5
+
+       Sea T : V → V una transformación lineal con matriz AT respecto a una base B1 y
+       matriz BT respecto a una base B2 . Si P es la matriz de transición de la base B2 a la
+       base B1 , entonces:
+
+
+               BT = P −1 AT P .
+
+
+                                                                                           Álgebra lineal elemental y aplicaciones 185
+                                                               Módulo 13: El problema de la representación matricial de las transformaciones lineales
+
+Definición 2
+
+Dos matrices A y B de n × n son similares o semejantes si existe una matriz invertible
+P tal que B = P −1 A P.
+
+Del teorema 5 y la definición 2 podemos establecer la siguiente proposición: sea
+T : V → V una transformación lineal. Dos matrices cualesquiera que representen
+a T son similares.
+
+Teorema 6
+
+Sean A, B y C matrices de n × n. Entonces:
+
+a.      A es similar a A.
+
+b.      Si A es similar a B, entonces B es similar a A.
+
+c.      Si A es similar a B y B es similar a C, entonces A es similar a C.
+
+d.      Si A es similar a B, entonces det A = det B.
+
+e.      Si A es similar a B, entonces Am es similar a B m para cualquier entero positivo m.
+
+f.      Si A es similar a B, entonces A es invertible si y sólo si B es invertible. En ese
+        caso A−1 es similar a B −1 .
+
+     14.1 Transformaciones lineales uno a uno y sobreyectivas
+     Definición 1
+
+     Sea T : V → W una transformación lineal. T es uno a uno (1 - 1) o inyectiva si
+
+            T ( v1 ) = T ( v2 ) → v1 = v2 ,
+
+     o bien, en forma equivalente,
+
+             v1 ≠ v2 → T (v1 ) ≠ T ( v2 ).
+
+
+                                              Figura 14.1
+
+     La figura 14.1a muestra una transformación lineal inyectiva y la 14.1b, una transfor-
+     mación lineal no inyectiva.
+
+
+                                                                                                       Álgebra lineal elemental y aplicaciones 189
+Capítulo 3: Transformaciones lineales
+
+
+            Definición 2
+
+            Sea T : V → W una transformación lineal. T se llama sobre W o sobre, si para todo
+             w ∈ W existe al menos un v ∈V tal que T (v) = w. En otras palabras, T es sobre si
+            la imagen de T es todo el espacio W.
+
+                      Imagen T = W.
+
+            El teorema siguiente dice que para demostrar si una transformación lineal es uno a
+            uno, sólo se necesita examinar cuáles vectores se transforman en 0.
+
+
+            Teorema 1
+
+            Sea T : V → W una transformación lineal. T es uno a uno si y sólo si nu T = {0} .
+
+
+             Teorema 2
+
+             Sea T : V → W una transformación lineal y sea dim V = dim W .
+
+             a.       Si T es 1 - 1, entonces T es sobre.
+
+             b.       Si T es sobre, entonces T es 1 - 1.
+
+             La demostración del teorema se deja como ejercicio.
+
+             Teorema 3
+
+             Sea T : V → W una transformación lineal. Suponga que dim V = n y dim W = m;
+             entonces:
+
+             a.       Si n > m, T no es 1 - 1.
+
+             b.       Si m > n T no es sobre.
+
+
+200
+Capítulo 3: Transformaciones lineales
+                                         14.2 Isomorfismos
+                                         Definición 3
+
+                                         Sea T : V → W una transformación lineal. Entonces T es un isomorfismo si T es
+                                         1 - 1 y sobre. Se dice que los espacios vectoriales V y W son isomorfos si existe un
+                                         isomorfismo T de V sobre W. Esto se denota como V ≅ W .
+
+                                         Observación
+
+                                         Es importante notar en la definición anterior que la condición para que dos espacios
+                                         vectoriales V y W sean isomorfos es que exista entre ellos una transformación lineal
+                                         que sea isomorfismo. Así, entre espacios vectoriales isomorfos podemos definir
+                                         transformaciones lineales que no sean isomorfismos.
+
+                                         El siguiente teorema nos muestra la similitud existente entre dos espacios vectoriales
+                                         isomorfos. La palabra «isomorfismo» viene del griego «isomorphos», que significa
+                                         «de igual forma».
+
+                                         Teorema 4
+
+                                         Sea T : V → W un isomorfismo.
+
+
+                                         a.     Si { v1 , v2 ,..., vn } genera V, entonces {T (v1 ), T (v2 ),..., T ( vn )} genera a W.
+
+
+                                         b.     Si { v1 , v2 ,..., vn } es LI en V, entonces {T (v1 ), T (v2 ),..., T ( vn )} es lineal-
+                                                mente independiente en W.
+
+                                         c.     Si { v1 , v2 ,..., vn } es base de V, entonces {T (v1 ), T (v2 ),..., T ( vn )} es base de W.
+
+
+                                         d.     Si V es de dimensión finita, entonces W es de dimensión finita y dim V = dim W .
+
+
+                                        Teorema 5
+
+                                        Sean V y W dos espacios vectoriales reales de dimensión finita con dim V = dim W .
+                                        Entonces V ≅ W .
+
+
+204
+Capítulo 3: Transformaciones lineales
+                                          Teorema 6
+
+                                          Sean V y W espacios vectoriales reales de dimensión n y T : V → W , tal que
+                                           T (x) = Ax es una transformación lineal. Entonces A es invertible si y sólo si
+                                           T (x) = Ax es un isomorfismo.
+
+                                          T es un isomorfismo si y sólo si T es 1 - 1, ya que como dim V = dim W , T también
+                                          será sobre.
+
+                                          T es 1 - 1 si y sólo si nu T = {0} , es decir, v (T ) = 0 , y esto es equivalente a la
+                                          proposición A es invertible.
+
+                                          Este teorema caracteriza los isomorfismos como transformaciones lineales cuya
+                                          matriz de transformación es invertible, proporcionándonos una forma de determinar
+                                          cuáles transformaciones lineales son isomorfismos al examinar su matriz de trans-
+                                          formación.
+
+
+                                        15.1 Matrices ortogonales
+                                        Definición 1
+
+                                        Una matriz Q de n × n se llama ortogonal si Q es invertible y Q−1 = QT .
+
+
+                                        Si Q −1 = QT , entonces Q T Q = I n .
+
+
+                                        En el módulo 8 estudiamos la forma de constituir bases ortonormales en n . El
+                                        siguiente teorema nos da una relación entre las matrices ortogonales y las bases
+                                                                    n
+                                        ortonormales de                 .
+
+                                        Teorema 1
+
+                                        La matriz Q n × n es ortogonal si y sólo si las columnas de Q forman una base
+                                                            n
+                                        ortonormal de           .
+
+
+                                        15.2 Isometrías
+                                        Antes de abordar el tema, veamos una propiedad interesante del producto escalar.
+
+                                        Teorema 2
+
+                                        Sea A una matriz de m × n con componentes reales. Entonces, para cualesquier dos
+                                        vectores x ∈    n
+                                                            e y∈            m
+                                                                                :
+
+                                             (Ax) · y = x · ATy.
+
+
+206
+                                                                                                                                               Módulo 15: Isometrías
+
+Definición 2
+
+Una transformación lineal T :                       n
+                                                        →      n
+                                                                   es una isometría si para todo x en        n
+
+
+                      T ( x) = x ,
+
+
+                                              n
+esto es, una isometría en                         es una transformación lineal que conserva la longitud
+        n
+en          .
+
+Si hay una transformación lineal que sea una isometría, entonces:
+
+                T ( x) − T (y ) = T (x − y ) = x − y .
+
+En las isometrías se conserva la magnitud de los vectores; recordemos que la mag-
+                                  n
+nitud de un vector en                     está definida en términos del producto escalar, el cual es
+                                      n
+el producto interno en                    . Es, entonces, esperable que en las isometrías se conser-
+ve el producto escalar.
+
+Teorema 3
+
+Sea T una isometría de                    n
+                                              →         n
+                                                            y sean x e y en            n
+                                                                                           ; entonces:
+
+
+                       T (x) · T (y) = x · y.
+
+
+     El siguiente teorema relaciona las isometrías con las matrices ortogonales.
+
+     Teorema 4
+
+     Una transformación lineal T : n →                                 n
+                                                                           es una isometría si y sólo si la representa-
+     ción matricial de T es ortogonal.
+     Observaciones
+
+     En el teorema anterior hemos mostrado que las isometrías se caracterizan porque su
+     representación matricial es ortogonal. Como toda matriz ortogonal es invertible, se
+     desprende como consecuencia la siguiente proposición:
+
+                 Toda isometría es un isomorfismo.
+
+     Ahora, las columnas de AT son las transformaciones de los vectores de la base, y
+                                                                                  n
+     como éstas forman una base ortonormal de                                         , para constituir isometrías los
+                                                                   n
+     vectores asignados a una base de      deben ser vectores que formen una base
+     ortonormal. El siguiente teorema nos muestra cómo hacer esto.
+
+
+                                                                                                                          Álgebra lineal elemental y aplicaciones 211
+Capítulo 3: Transformaciones lineales
+
+
+         Teorema 5
+
+         Sean {u1 , u2 ,..., un } y {w1 , w 2 ,..., w n } dos bases ortonormales de              n
+                                                                                                     y sea
+
+         T : n → n una transformación lineal tal que T (ui) = wi para i = 1,..., n;
+         entonces T es una isometría.
+
+
+          El recíproco del teorema anterior también se verifica, como veremos en el siguiente
+          teorema.
+
+          Teorema 6
+
+          Sea T :       n
+                            →    n
+                                      una isometría; entonces, si {u 1 , u 2 , ..., u n } es una base
+
+          ortonormal de          n
+                                     , {T (u1 ), T (u 2 ),..., T (u n )} es una base ortonormal de   n
+                                                                                                         .
+
+
+              Teorema 7
+
+              Sea T :       2
+                                →      2
+                                           una isometría. Entonces T es:
+
+              a.        Una transformación de rotación.
+
+              b.        Una reflexión con respecto al eje x seguida de una transformación de rota
+                        ción.
+
+              El concepto de isometría puede extenderse a espacios vectoriales de dimensión
+              finita, donde haya definido un producto interno; acá las isometrías serán las trans-
+              formaciones lineales que conservan la norma de los vectores; por lo tanto, el pro-
+              ducto interno.
+
+
+                                             2
+               Sean x e y en
+
+                                                          −1   x ·y
+                        ángulo entre x e y = cos                    ,                                        (1)
+                                                               x y
+
+                                                                  −1    T (x) · T (y )
+                        ángulo entre T ( x ) y T ( y ) = cos                           .                     (2)
+                                                                        T ( x) T ( y )
+
+
+               Como T es isometría, x · y = T (x) ⋅ T (y ) y x = T (x ) , y = T ( y ) ;
+
+               por lo tanto, (1) = (2).
+
+
+212

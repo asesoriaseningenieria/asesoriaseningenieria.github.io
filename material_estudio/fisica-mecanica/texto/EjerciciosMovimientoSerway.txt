@@ -1,0 +1,742 @@
+| Preguntas de opción múltiple   19
+
+
+■ PREGUNTAS DE OPCIÓN MÚLT IPLE
+
+
+            Las preguntas de opción múltiple en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+1. Una pista de aterrizaje-despegue mide 32.30 m por 210 m,               3. La segunda ley del movimiento de Newton (capítulo 4)
+   con el ancho medido con más precisión que el largo.                       dice que la masa de un objeto por su aceleración es igual a
+   Halle el área, tomando en cuenta las cifras significativas.               la fuerza neta sobre el objeto. ¿Cuál de los siguientes pro-
+   a) 6.783 0 3 103 m2 b) 6.783 3 103 m2 c) 6.78 3 103 m2                    porciona las unidades correctas para la fuerza? a) kg ? m/s2
+   d) 6.8 3 103 m2 e) 7 3 103 m2                                             b) kg ? m2/s2 c) kg/m ? s2 d) kg ? m2/s e) ninguna de éstas
+2. Considere dos cantidades, A y B, que tienen diferentes di-             4. Aplique las reglas para las cifras significativas y halle la
+   mensiones. Determine cuál de las operaciones aritméticas                  respuesta al problema de suma 21.4 1 15 1 17.17 1
+   que siguen podría ser físicamente significativa. a) A 1 B                 4.003. a) 57.573 b) 57.57 c) 57.6 d) 58 e) 60
+   b) B 2 A c) A 2 B d) A/B e) AB
+20      CAPÍTULO 1 | Introducción
+
+5. El codo romano es una antigua unidad de medida equi-                           tancia, t es el tiempo y v es la velocidad con unidades de
+   valente a casi 445 mm. Convertir la altura de un basquet-                      distancia divididas entre el tiempo. a) v/t 2 b) v/x 2 c) v 2/t
+   bolista de 2 m de altura a codos. a) 2.52 codos b) 3.12 co-                    d) v 2/x e) ninguna de éstas
+   dos c) 4.49 codos d) 5.33 codos e) ninguno de éstos                        10. El precio de la gasolina en una estación en particular es
+6. Se anuncia una casa que tiene 1 420 pies cuadrados bajo                        1.5 euros por litro. Una estudiante estadounidense pue-
+   techo. ¿Cuál es el área de la casa en m 2 ? a) 115 m 2                         de utilizar 33 euros para comprar gasolina. Sabiendo que
+   b) 132 m2 c) 176 m2 d) 222 m2 e) ninguno de éstos                              cuatro cuartos hacen un galón y que un litro se encuen-
+7. Responda a cada pregunta sí o no. ¿Deben dos canti-                            tra cerca de un cuarto, ella razona rápidamente: ¿cuántos
+   dades tener las mismas dimensiones a) si usted las está                        galones de gasolina puede comprar? a) menos de 1 galón
+   sumando? b) ¿Si usted las está multiplicando? c) ¿Si las                       b) alrededor de 5 galones c) alrededor de 8 galones d)
+   está restando? d) ¿Si las está dividiendo? e) ¿Si las está                     más de 10 galones
+   comparando?                                                                11. En una distancia horizontal de 45 m medida desde un
+8. Halle la coordenada polar que corresponde a un pun-                            árbol, el ángulo de elevación a la parte superior del árbol
+   to ubicado en (25.00, 12.00) en coordenadas cartesia-                          es 26°. ¿Qué tan alto es el árbol? a) 22 m b) 31 m c) 45 m
+   nas. a) (13.0, 267.4°) b) (13.0, 113°) c) (14.2, 267.4°)                       d) 16 m e) 11 m
+   d) (14.2, 113°) e) (19, 272.5°)                                            12. Una calculadora muestra un resultado como 1.365 248 0
+9. ¿Cuál de las siguientes relaciones es dimensionalmente                         3 107 kg. La incertidumbre estimada en el resultado es
+   consistente con una expresión que produce un valor para                        de 62 3 105 kg. ¿Cuántos dígitos deben ser incluidos
+   la aceleración? Ésta tiene unidades de distancia divididas                     como cifra significativa cuando el resultado está escrito
+   entre tiempo al cuadrado. En estas ecuaciones, x es la dis-                    hacia abajo? a) cero b) una c) dos d) tres e) cuatro
+
+
+ ■ PREGUNTAS CONCEPTUALES
+
+
+                Las preguntas conceptuales en este capítulo pueden ser asignadas en línea en Enhanced WebAssign.
+
+1. Estime el orden de magnitud de la longitud, en me-                          7. En ocasiones se proporciona la altura de un caballo en
+   tros, de cada uno de los siguientes: a) un ratón, b) un                        unidades de “palmos”. ¿Por qué es un estándar deficiente
+   taco de billar, c) una cancha de basquetbol, d) un ele-                        de longitud?
+   fante, e) una calle.
+                                                                               8. ¿Cuántos intervalos de longitud y de tiempo conocidos
+2. ¿Qué tipos de fenómenos naturales podrían servir como                          en las tablas 1.2 y 1.3 podría verificar, utilizando única-
+   modelo de tiempo?                                                              mente el equipo hallado en un dormitorio típico?
+3. Halle el orden de magnitud de su edad en segundos.
+                                                                               9. a) Si una ecuación es dimensionalmente correcta, ¿signi-
+4. Un objeto con una masa de 1 kg pesa aproximadamente                            fica que esto debe ser verdadero? b) Si una ecuación no
+   2 lb. Utilice esta información para estimar la masa de los                     es dimensionalmente correcta, ¿significa que la ecuación
+   objetos que siguen: a) una pelota de béisbol b) su libro                       no puede ser verdadera? Explique sus respuestas.
+   de física c) una camioneta.
+5.       a) Estime el número de latidos de su corazón en                      10. ¿Por qué se considera el sistema métrico de unidades su-
+     un mes. b) Estime el número de latidos de un corazón                         perior a la mayoría de otros sistemas de unidades?
+     humano en una vida promedio.                                             11. ¿Cómo puede estimar un valor incluso cuando está fuera
+6. Estime el número de átomos en 1 cm3 de un sólido. (Ob-                         de un orden de magnitud? Explique y proporcione un
+   serve que el diámetro de un átomo es casi 10210 m.)                            ejemplo.
+
+
+ ■ PROBLEMAS
+
+
+                Los problemas para este capítulo se pueden asignar en línea     1. denota problemas asignados con más frecuencia en Enhanced
+   en Enhanced WebAssign. Los problemas seleccionados también tienen                WebAssign
+   soluciones en los videos Watch It.                                               denota problemas biomédicos
+1. denota problemas sencillos, 2. denota problema intermedio,                       denota problemas guiados
+3. denota problema de alto reto
+                                                                                    denota tutorial Master It disponible en Enhanced WebAssign
+1. denota solución completa disponible en Student Solutions                         denota petición de razonamiento cuantitativo y conceptual
+     Manual/Study Guide
+                                                                                    denota problema de razonamiento simbólico
+                                                                                                                 | Problemas       21
+
+1.3 Análisis dimensional                                            8.         Use su calculadora para determinar ( 8)3 para tres
+ 1. El periodo de un péndulo simple, definido como el                    cifras significativas de dos maneras: a) Encuentra 8
+    tiempo necesario para una oscilación completa, se mide               a cuatro cifras significativas, luego eleve al cubo este nú-
+    en unidades de tiempo y se proporciona mediante                      mero y redondee con tres cifras significativas. b) Encuen-
+                                                                         tre 8 a tres cifras significativas, a continuación, eleve
+                                    ,
+                          T 5 2p                                         este número al cubo y redondee a tres cifras significativas.
+                                    g
+                                                                         c) ¿Cuál respuesta es más precisa? Explique.
+   donde , es la longitud del péndulo y g es la aceleración de-     9. Cuántas cifras significativas existen en a) 78.9 6 0.2,
+    bida a la gravedad, en unidades de longitud dividida en-           b) 3.788 3 109, c) 2.46 3 1026, d) 0.003 2
+    tre tiempo al cuadrado. Muestre que esta ecuación es di-
+                                                                   10. Ahora la rapidez de la luz se define como 2.997 924 58 3
+    mensionalmente consistente. (Puede verificar la fórmula
+                                                                       108 m/s. Exprese la rapidez de la luz a) a tres cifras signi-
+    utilizando sus llaves en el extremo de una cuerda y un
+                                                                       ficativas, b) a cinco cifras significativas y c) a siete cifras
+    cronómetro.)
+                                                                       significativas.
+ 2. a) Suponga que el desplazamiento de un objeto se re-
+                                                                   11.       Un bloque de oro tiene 5.62 cm de longitud, 6.35 cm
+     laciona al tiempo de acuerdo con la expresión x 5 Bt 2.
+                                                                       de ancho y 2.78 cm de altura. a) Calcule la longitud por
+     ¿Cuáles son las dimensiones de B? b) Un desplazamiento
+                                                                       el ancho y redondee la respuesta al número adecuado de
+     se relaciona con el tiempo como x 5 A sen (2 pft), donde
+                                                                       cifras significativas. b) Ahora multiplique el resultado re-
+     A y f son constantes. Halle las dimensiones de A. (Suge-
+                                                                       dondeado del inciso a) por la altura y redondee una vez
+     rencia: Una función trigonométrica que aparece en una
+                                                                       más, obtenga el volumen. c) Repita el proceso, primero
+     ecuación debe ser adimensional.)
+                                                                       hallando el ancho por la altura, redondee y a continua-
+ 3.     Una forma que cubre un área A y tiene una altura               ción obtenga el volumen multiplicando por la longitud.
+    uniforme h tiene un volumen V 5 Ah. a) Muestre que                 d) Explique por qué las respuestas no coinciden en la
+    V 5 Ah es dimensionalmente correcta. b) Muestre que el             tercera cifra significativa.
+    volumen de un cilindro y de una caja rectangular pueden
+                                                                   12. Se mide el radio de un círculo de (10.5 6 0.2) m. Calcule
+    ser rescritas en la forma V 5 Ah identificando A en cada
+                                                                       a) el área y b) la circunferencia del círculo y proporcione
+    caso. (Observe que A, en ocasiones llamada “huella” del
+                                                                       la incertidumbre de cada valor.
+    objeto, puede tener cualquier forma y que la altura, en
+    general, se sustituye por el espesor promedio del objeto.)     13. Los bordes de una caja de zapatos se miden en 11.4 cm,
+                                                                       17.8 cm y 29 cm. Determine el volumen de la caja con-
+ 4. Cada una de las ecuaciones que siguen fueron pro-
+                                                                       servando el número apropiado de cifras significativas en
+    porcionadas por un estudiante durante un examen:
+                                                                       su respuesta.
+    a) 12mv 2 5 12mv 0 2 1 mgh b) v 5 v 0 1 at 2 c) ma 5 v 2.
+    Realice un análisis dimensional de cada ecuación y expli-      14. Lleve a cabo las operaciones aritméticas que siguen: a) la
+    que por qué la ecuación no puede ser correcta.                     suma de los valores observados 756, 37.2, 0.83 y 2.5; b) el
+                                                                       producto 0.003 2 3 356.3; c) el producto 5.620 3 p.
+ 5. La ley de la gravitación universal de Newton se repre-
+     senta mediante
+                                    Mm                             1.5 Conversión de unidades
+                             F5G 2
+                                     r                             15. Una braza es una unidad de longitud, por lo general re-
+    donde F es la fuerza gravitacional, M y m son masas y r es         servada para medir la profundidad del agua. Una braza
+    una longitud. La fuerza tiene unidades SI kg ? m/s2. ¿Cuáles       tiene aproximadamente 6 pies de longitud. Considere la
+    son las unidades SI de la constante de proporcionalidad G?         distancia desde la Tierra hasta la Luna 250 000 mi y uti-
+                                                                       lice la aproximación que se proporciona para hallar la
+ 6.        La energía cinética EC (capítulo 5) tiene dimensio-
+                                                                       distancia en brazas.
+     nes kg ? m2/s2. Puede rescribirse en términos de la canti-
+     dad de movimiento p (capítulo 6) y la masa m como             16. Una pequeña tortuga se mueve a una velocidad de 186
+                                    p2                                 furlongs en dos semanas. Halle la velocidad de la tortuga
+                              EC 5                                     en centímetros por segundo. Tenga en cuenta que un
+                                    2m                                 furlong 5 220 yardas y dos semanas 5 14 días.
+    a) Establezca las unidades adecuadas para la cantidad de
+                                                                   17. Un firkin es una antigua unidad inglesa de volumen igual a
+    movimiento utilizando análisis dimensional. b) Con res-
+                                                                       9 galones. ¿A cuántos metros cúbicos equivalen 6.00 firkins?
+    pecto al problema 5, proporcione las unidades de fuer-
+    za, escriba una ecuación simple que relacione una fuerza       18. Hallar la altura o longitud de estas maravillas naturales
+    constante F que se ejerce sobre un objeto, un intervalo de         en kilómetros, metros y centímetros: a) El sistema de
+    tiempo t durante el cual se aplica la fuerza y la cantidad         cuevas más largo en el mundo es el sistema Mammoth
+    de movimiento que resulta del objeto, p.                           Cave en Central Kentucky, con una longitud de trazo ma-
+                                                                       peada de 348 mi. b) En Estados Unidos, la cascada con la
+1.4 Incertidumbre en el sistema de medida                              caída más grande es Ribbon Falls en California, con 1 612
+    y cifras significativas                                            pies. c) Con 20 320 pies, Mount McKinley en Alaska es la
+ 7. Se va a instalar una alfombra en una sala de longitud de           montaña más alta de Estados Unidos. d) El cañón más pro-
+    9.72 m y ancho de 5.3 m. Encuentre el área de la sala rete-        fundo en Estados Unidos es King’s Canyon en California,
+    niendo el número apropiado de cifras significativas.               con una profundidad de 8 200 pies.
+22      CAPÍTULO 1 | Introducción
+
+19. Un automóvil viaja a una velocidad de 38.0 m/s en una           28. Estime el número de pasos que tomaría para recorrer
+    carretera interestatal donde el límite de velocidad es de           una distancia igual a la circunferencia de la Tierra.
+    75.0 mi/h. ¿El conductor va a exceso de velocidad? Justi-       29.        Estime el número de respiraciones de un ser huma-
+    fique su respuesta.                                                   no durante una vida promedio.
+20. Un determinado coche tiene una eficiencia de combus-            30.         Estime el número de gente en el mundo que sufren
+    tible de 25.0 millas por galón (mi/galón). Exprese esta               a causa del resfriado común en cualquier día determina-
+    eficiencia en kilómetros por litro (km/L).                            do. (Las respuestas pueden variar. Recuerde que una per-
+21. El diámetro de una esfera mide 5.36 pulg. Calcule: a) el              sona sufre a causa de un resfriado por casi una semana.)
+    radio de la esfera en centímetros, b) la superficie de la es-   31.               a) ¿Aproximadamente cuántos microorganis-
+    fera en centímetros cuadrados y c) el volumen de la esfera            mos se hallan en el tracto intestinal humano? (Una escala
+    en centímetros cúbicos.                                               de longitud de una bacteria representativa es de 1026 m.
+22.        Suponga que su cabello crece a razón de 1/32 pulg              Estime el volumen intestinal y considere un centésimo
+    por día. Halle la razón con la que crece en nanómetros por            de él ocupado por bacterias.) b) Explique su repuesta
+    segundo. Como la distancia entre átomos en una molécu-                del inciso a). ¿Estas bacterias son benéficas, peligrosas o
+    la es del orden de 0.1 nm, su respuesta sugiere qué tan rá-           neutras? ¿Qué funciones de ellas podrían ser útiles?
+    pido los átomos son reunidos en esta síntesis de proteína.      32.       Considere una célula de un ser humano como una
+23. La rapidez de la luz es de casi 3.00 3 108 m/s. Convierta           esfera de radio 1.0 mm. a) Determine el volumen de
+    esta cifra a millas por hora.                                       una célula. b) Estime el volumen de su cuerpo. c) Estime
+24.       Una casa tiene 50.0 pies de largo, 26 pies de ancho           el número de las células de su cuerpo.
+      y 8.0 pies de altura de techo. ¿Cuál es el volumen en el      33. La llanta de un automóvil se especifica al menos para
+      interior de la casa en metros cúbicos y en centímetros            50 000 millas. Estime el número de revoluciones que la
+      cúbicos?                                                          llanta realiza en su vida media.
+25. Con frecuencia la cantidad de agua en un recipiente se          34.               Bacterias y otros procariotes se encuentran en
+    mide en acre-pie. Un acre-pie es un volumen que cubre                 el subsuelo profundo, en el agua y en el aire. Una micra
+    un área de un acre a la profundidad de un pie. Un acre                (1026 m) es una escala de longitud representativa aso-
+    es 43 560 pies2. Halle el volumen en unidades SI de un                ciada con estos microbios. a) Estime el número total de
+    recipiente que contiene 25.0 acre-pies de agua.                       bacterias y otros procariotes en la biosfera de la Tierra.
+26. La base de una pirámide cubre un área de 13.0 acres (1                b) Estime la masa total de todos los microbios semejan-
+    acre 5 43 560 pies2) y tiene una altura de 481 pies (figura           tes. c) Explique la importancia relativa de los humanos y
+    P1.26). Si el volumen de una pirámide se conoce por la                los microbios en la ecología del planeta Tierra. ¿El Homo
+    expresión V 5 bh/3, donde b es el área de la base y h es              sapiens puede sobrevivir sin ellos?
+    la altura, halle el volumen de esta pirámide en metros
+    cúbicos.                                                        1.7 Sistemas de coordenadas
+                                                                    35.      Se ubica un punto en un sistema de coordenadas po-
+                                                                        lares mediante las coordenadas r 5 2.5 m y u 5 35°. Halle
+                                                                        las coordenadas x y y de este punto, suponiendo que los
+                                                                        dos sistemas tienen el mismo origen.
+                                                                    36. Se selecciona cierta esquina de una habitación como ori-
+
+          © Sylvain Grandadam/Photo
+                                                                        gen de un sistema coordenado rectangular. Si una mosca
+                                                                        repta sobre una pared adyacente en un punto que tiene
+                                                                        coordenadas (2.0, 1.0), donde las unidades son metros,
+
+          Researchers, Inc.
+                                                                        ¿cuál es la distancia de la mosca desde la esquina de la
+                                                                        habitación?
+                                                                    37. Exprese la ubicación de la mosca del problema 36 en co-
+                                      Figura P1.26
+                                                                        ordenadas polares.
+                                                                    38. Dos puntos en un sistema coordenado rectangular tie-
+                                                                        nen las coordenadas (5.0, 3.0) y (23.0, 4.0), donde las
+27. Un recipiente de un cuarto de helado tiene la forma de              unidades son centímetros. Calcule la distancia entre es-
+    cubo. ¿Cuál es la longitud de un lado, en centímetros?              tos puntos.
+    (Utilice la conversión 1 galón = 3.786 litros.)
+                                                                    39. Se conocen dos puntos por sus coordenadas polares
+1.6 Cálculos aproximados y de orden de magnitud                         (r, u) 5 (2.00 m, 50.0°) y (r, u) 5 (5.00 m, 250.0°), respec-
+                                                                        tivamente. ¿Cuál es la distancia entre ellos?
+  Nota: En el desarrollo de las respuestas a los problemas
+                                                                    40.       Conocidos los puntos (r1, u1) y (r2, u2) en coorde-
+  en esta sección, establezca sus consideraciones principa-
+                                                                          nadas polares, obtenga una fórmula general para
+  les, incluyendo los valores numéricos asignados a los pará-
+                                                                          la distancia entre ellos. Simplifique tanto como sea
+  metros utilizados en la solución.
+                                                                          posible aplicando la identidad cos2 u 1 sen2 u 5 1. Su-
+                                                                                                                   | Problemas      23
+
+      gerencia: escriba las expresiones para los dos puntos en            y de la montaña primero resolviendo una ecuación para x y
+      coordenadas cartesianas y sustituya dentro de la fórmula            sustituyendo el resultado dentro de la otra ecuación.
+      usual de distancia.                                             49. Un topógrafo mide la distancia de un lado a otro de un
+                                                                          río recto, mediante el siguiente método. Comienza direc-
+1.8 Trigonometría                          u                              tamente al otro lado desde un árbol en la orilla opuesta,
+41.      Para el triángulo que se                                         camina x 5 100 m a lo largo de la orilla del río para es-
+    muestra en la figura P1.41,                           6.00 m          tablecer una línea base. A continuación observa al otro
+                                        9.00 m
+    ¿cuáles son a) la longitud                        f                   lado del árbol. El ángulo desde su línea base hacia el ár-
+    del lado desconocido, b) la                                           bol es u 5 35.0° (figura P1.49). ¿Cuál es el ancho del río?
+    tangente de u y c) el seno
+    de f?                                   Figura P1.41
+42. Una escalera de 9.00 m de largo se inclina contra el lado
+    de un edificio. Si el ángulo de inclinación de la escalera
+    es de 75.0° con la horizontal, ¿cuál es la distancia hori-
+    zontal desde la parte inferior de la escalera al edificio?                              y
+
+43. Una fuente se ubica en el                                                                              u
+    centro de un estanque circu-                                                                      x
+    lar como se muestra en la
+    figura P1.43. Sin mojar sus                                                                  Figura P1.49
+    pies, un estudiante cami-
+                                                     55.0
+    na alrededor del estanque
+    y mide la circunferencia                                          50.        Con respecto al problema 48. Considere que la altura
+    de 15.0 m. A continuación                                               de la montaña es y, la distancia original de la mujer desde
+    el estudiante se sitúa en el                                            la montaña es x y el ángulo de elevación que mide des-de
+    borde del estanque y utiliza            Figura P1.43                    la horizontal hacia la parte superior de la montaña es u.
+    un transportador para medir el ángulo de elevación del                  Si se mueve una distancia d más cerca de la montaña y
+    chorro de agua con la parte inferior de la fuente que es                mide un ángulo de elevación f, halle una ecuación gene-
+    de 55.0°. ¿Cuál es la altura de la fuente?                              ral para la altura de la montaña y en términos de d, f y u,
+44. Un triángulo rectángulo tiene una hipotenusa de 3.00 m                  omitiendo la altura de sus ojos por encima de la superficie
+    de longitud y uno de sus ángulos es de 30°. ¿Cuáles son                 del suelo.
+    las longitudes de a) el lado opuesto al ángulo de 30° y b)        Problemas adicionales
+    el lado adyacente al ángulo de 30°?
+                                                                      51. a) Una de las leyes fundamentales del movimiento es-
+45. En la figura P1.45, halle a)                                          tablece que la aceleración de un objeto es directamen-
+    el lado opuesto a u, b) el                                            te proporcional a la fuerza resultante en él, e inversamente
+    lado adyacente a f, c) cos u,         f                               proporcional a su masa. Si la constante de proporciona-
+    d) sen f y e) tan f.                            5.00
+                                                                          lidad se define sin unidades, determine las dimensiones
+                                    3.00
+46. En cierto triángulo rec-                                              de la fuerza. b) El newton es la unidad SI de fuerza. De
+    tángulo, los dos lados que                                            acuerdo con los resultados del inciso a), ¿cómo puede
+                                                           u
+    son perpendiculares entre                                             expresar una fuerza que tiene unidades en newtons me-
+    sí miden 5.00 m y 7.00 m                      4.00                    diante la aplicación de las unidades fundamentales de
+    de largo, respectivamente.              Figura P1.45                  masa, longitud y tiempo?
+    ¿Cuál es la longitud del ter-                                     52. a) Halle un factor de conversión para convertir de millas
+    cer lado del triángulo?                                               por hora a kilómetros por hora. b) Por un tiempo, la ley
+47. En el problema 46, ¿cuál es la tangente del ángulo para el            federal decretó que la velocidad máxima en una autopis-
+    cual 5.00 m es el lado opuesto?                                       ta sería 55 mi/h. Utilice el factor de conversión del inciso
+48.            Una mujer mide el ángulo de elevación de la                a) para hallar la rapidez en kilómetros por hora. c) Se ha
+      parte superior de una montaña como 12.0°. Después ca-               elevado la velocidad máxima en la autopista a 65 mi/h en
+      mina 1.00 km más cerca de la montaña a nivel de piso,               algunos lugares. En kilómetros por hora, ¿de cuánto es el
+      encuentra que el ángulo es de 14.0°. a) Trace un gráfico            incremento sobre el límite de 55 mi/h?
+      del problema, omitiendo la altura de los ojos de la mu-         53.         Un centímetro cúbico (1.0 cm3) de agua tiene una
+      jer por encima de la superficie de la Tierra. Sugerencia:             masa de 1.0 3 1023 kg. a) Determine la masa de 1.0 m3 de
+      Utilice dos triángulos. b) Seleccione nombres variables               agua. b) Considerando que las sustancias biológicas son
+      para la altura de la montaña (indicación: y) y la distancia           98% agua, estime la masa de una célula con un diámetro
+      original de la mujer desde la montaña (indicación: x) y               de 1.0 mm, c) un riñón humano d) y una mosca. Consi-
+      etiquete el gráfico. c) Utilice las marcas en el gráfico y la         dere el riñón de manera aproximada como una esfera con
+      función tangente, escriba dos ecuaciones trigonométricas              un radio de 4.0 cm y la mosca, de manera burda como un
+      que relacionen las dos variables elegidas. d) Halle la altura         cilindro de 4.0 mm de largo y 2.0 mm de diámetro.
+24       CAPÍTULO 1 | Introducción
+
+54. Usualmente las bebidas suaves son vendidas en recipientes             ta a punta alrededor del Ecuador de la Tierra, ¿cuántas
+    de aluminio. En orden de magnitud, a)¿cuántos recipien-               veces tendría que rodear el planeta? Tome el radio de la
+    tes son tirados o reciclados cada año por los consumidores            Tierra en el Ecuador como 6 378 kilómetros. (Nota: An-
+    en Estados Unidos? b) ¿Cuántas toneladas de aluminio                  tes de hacer alguno de estos cálculos, intente adivinar la
+    representa esto? En su solución, establezca las cantidades            respuesta. Es posible que se sorprenda.)
+    que mide o estima y los valores que toma para ellas.              61. a) ¿Cuántos segundos existen en un año? b) Si un mi-
+55. El desplazamiento de un objeto móvil bajo aceleración                 crometeorito (una esfera con un diámetro en el orden
+    uniforme es cierta función del tiempo y la aceleración.               de 1026 metros) golpea cada metro cuadrado de la Luna
+    Suponga que se escribe este desplazamiento como s 5                   cada segundo, estime el número de años que le tomaría cu-
+    kamtn, donde k es una constante adimensional. Muestre                 brir la Luna con micrometeoritos a una profundidad de
+    mediante análisis dimensional que esta expresión se sa-               un metro. (Sugerencia: Considere una caja cúbica, de 1 m
+    tisface si m 5 1 y n 5 2. ¿El análisis puede proporcionar             de lado, sobre la Luna y encuentre cuánto tiempo tarda-
+    el valor de k?                                                        ría en llenar la caja.)
+56. Suponga que toma 7.00 minutos llenar el tanque de ga-             62. Imagine que es el entrenador de un equipo de béisbol
+    solina con 30.0 galones. a) Calcule la velocidad a la que             profesional. Uno de sus pasatiempos para el juego es
+    se llena el tanque en galones por segundo. b) Calcule                 mantener la pelota en su mano. Algunas de las veces se
+    la tasa a la que se llena el tanque en metros cúbicos por             pierden las pelotas cuando el jugador la golpea fuera del
+    segundo. c) Determine el intervalo de tiempo, en horas,               campo. Estime cuántas pelotas tiene que comprar por
+    requerido para llenar un volumen de 1.00 m3 en la mis-                cada temporada a fin de cubrir tales pérdidas. Conside-
+    ma proporción. (1 galón estadounidense 5 231 pulg3.)                  re que su equipo participa en 81 juegos en casa en una
+57.       Un galón de pintura (volumen 5 3.79 3 1023 m3)                  temporada.
+      alcanza para pintar una superficie de 25.0 m2. ¿Cuál es el      63. La estrella de neutrones más cercana (una estrella colap-
+      espesor de la pintura fresca en la pared?                           sada hecha principalmente de neutrones) está aproxima-
+58.        La esfera 1 tiene área de superficie A1 y volumen V1           damente a 3.00 3 1018 m de la Tierra. Teniendo en cuenta
+      y la esfera 2 tiene área de superficie A2 y volumen V2. Si          que la Vía Láctea (figura P1.63) es más o menos un disco
+      el radio de la esfera 2 es el doble del radio de la esfera 1,       de diámetro , 1021 m, y espesor de , 1019 m, estime el
+      ¿cuál es la razón de a) las áreas, A2/A1 y b) los volúmenes,        número de estrellas de neutrones en la Vía Láctea con
+      V2/V1?                                                              una precisión cercana a este orden de magnitud.
+59.      Suponga que hay 100 millones de automóviles en Es-
+    tados Unidos y que el consumo medio de combustible es
+    de 20 mi/gal de gasolina. Si la distancia media recorrida
+    por cada vehículo es de 10 000 mi/año, ¿qué cantidad
+    de gasolina podría ahorrarse al año si el consumo medio de
+    combustible aumentara a 25 mi/gal?
+60. En el momento de la impresión de este libro, la deuda
+
+
+                                                                                  Richard Payne/NASA
+    nacional estadounidense fue de aproximadamente $10
+    billones. a) Si los pagos se hicieron a razón de $1000 por
+    segundo, ¿cuántos años tardaría en pagar la deuda, en el
+    supuesto de que no le fueran cargados intereses? b) Un
+    billete de un dólar tiene aproximadamente 15.5 cm de
+    largo. Si 10 billones de billetes de dólar fueran de pun-                                          Figura P1.63
+50       CAPÍTULO 2 | Movimiento en una dimensión
+
+
+ ■ PROBLEMAS
+
+
+                Los problemas para este capítulo se pueden asignar en línea     1. denota problemas asignados con más frecuencia en Enhanced
+   en Enhanced WebAssign. Los problemas seleccionados también tienen                  WebAssign
+   soluciones en los videos Watch It.                                                 denota problemas biomédicos
+1. denota problemas sencillos; 2. denota problema intermedio,                         denota problemas guiados
+3. denota problema de alto reto
+                                                                                      denota tutorial Master It disponible en Enhanced WebAssign
+1. denota solución completa disponible en Student Solutions                           denota petición de razonamiento cuantitativo y conceptual
+      Manual/Study Guide
+                                                                                      denota problema de razonamiento simbólico
+
+
+2.1 Desplazamiento                                                                  pués continúa hacia el Norte viajando 130 km en 2.00 h.
+                                                                                    a) ¿Cuál es el desplazamiento total? b) ¿Cuál es su veloci-
+2.2 Velocidad
+                                                                                    dad promedio?
+ 1.       La rapidez de un impulso nervioso en el cuerpo hu-                   8. Un jugador de tenis se mue-             x (m)
+    mano es de casi 100 m/s. Si accidentalmente se aplasta la                     ve en una trayectoria en
+                                                                                                                          4
+    punta de su dedo del pie en la oscuridad, estime el tiem-                     línea recta como se muestra
+    po que tarda el impulso nervioso en viajar a su cerebro.                                                              2
+                                                                                  en la figura P2.8. Determi-
+                                                                                                                                                   t (s)
+ 2. La luz viaja con una rapidez de casi 3 3 108 m/s.                             ne su velocidad promedio                     1 2     3   4   5
+    a) ¿Cuántas millas viaja un pulso de luz en un intervalo                      en los intervalos de tiempo            –2
+    de tiempo de 0.1 s, que es casi el parpadeo de un ojo?                        desde a) 0 hasta 1.0 s, b) 0
+    b) Compare esta distancia con el diámetro de la Tierra.                       hasta 4.0 s, c) 1.0 s hasta 5.0 s               Figura P2.8
+ 3. Una persona viaja en automóvil de una ciudad a otra con                       y d) 0 hasta 5.0 s.
+    velocidades constantes diferentes entre las dos ciudades.                  9. Un avión de reacción tiene una velocidad de despegue
+    Esta persona viaja por 30.0 min a 80.0 km/h, 12.0 min a                       de la vto 5 75 m/s y puede moverse a lo largo de la pista
+    100 km/h y 45.0 min a 40.0 km/h y gasta 15.0 min en al-                       con una aceleración media de 1.3 m/s2. Si la longitud de
+    morzar y cargar gasolina. a) Calcule la rapidez promedio                      la pista es de 2.5 km, ¿el avión puede utilizar esta pista en
+    para el viaje. b) Calcule la distancia entre las ciudades                     forma segura? Argumente su respuesta.
+    inicial y final a lo largo de la ruta.
+                                                                              10. Dos automóviles viajan en la misma dirección a lo lar-
+ 4. El actual tiempo y récord mundial en la carrera de los                        go de una autopista recta, uno con rapidez constante de
+    200 m bajo techo es 19.92 s. Está en manos de Frank Fre-                      55 mi/h y el otro a 70 mi/h. Suponiendo que iniciaron
+    dericks de Namibia (1996), mientras que el tiempo ré-                         en el mismo punto, ¿por cuánto llegó primero a su des-
+    cord de la carrera de una milla bajo techo es 228.5 s. Está                   tino a 10 millas el más rápido? b) ¿Qué distancia debe
+    en manos de Hicham El Guerrouj, de Marruecos (1997).                          conducir el auto más rápido para que tenga 15 min de
+    Encuentre la velocidad media en metros por segundo                            ventaja al más lento?
+    que corresponde a estos tiempos récord para a) el evento de
+    los 200 m y b) el evento de una milla.                                    11. El guepardo puede alcanzar una velocidad máxima de
+                                                                                  114 km/h (71 mi/h). Mientras persigue a su presa en
+ 5. Dos botes inician juntos y compiten a través de un lago de
+                                                                                  un corto sprint, un guepardo parte del reposo y corre
+    60 km de ancho y de regreso. El bote A cruza a 60 km/h
+                                                                                  45 m en línea recta, alcanzando una velocidad final
+    y regresa a 60 km/h. El bote B cruza a 30 km/h, y su tri-
+                                                                                  de 72 km/h. a) Determine la aceleración media del gue-
+    pulación, dándose cuenta de que están quedándose atrás,
+                                                                                  pardo en el corto sprint, y b) encuentre su desplazamiento
+    regresan a 90 km/h. El tiempo en el momento del regreso
+                                                                                  en t 5 3.5 s.
+    es omitido y el bote que completa primero el viaje gana.
+    a) ¿Qué bote gana y por cuánto? (¿O bien es un empate?)                   12.        Un atleta nada la longitud L de una alberca en un
+    b) ¿Cuál es la velocidad promedio del bote ganador?                             tiempo t1 y hace el viaje de regreso hasta la posición de
+ 6. Una gráfica de posición en         x (m)
+                                                                                    inicio en un tiempo t2. Si está nadando inicialmente en la
+    términos del tiempo para 10                                                     dirección x positiva, establezca simbólicamente las veloci-
+                                        8                                           dades promedio en a) la primera mitad, b) en la segunda
+    cierto movimiento particu-          6
+    lar a lo largo del eje x se                                                     mitad, c) viaje completo. d) ¿Cuál es su velocidad prome-
+                                        4
+    muestra en la figura P2.6.          2                                           dio para el viaje completo?
+    Determine la velocidad pro-         0                     t (s)           13.      Una persona hace un viaje, conduciendo con rapidez
+                                       –2 1 2 3 4 5 6 7 8
+    medio en los intervalos de                                                    constante de 89.5 km/h, excepto por 22.0 min para un
+                                       –4
+    tiempo desde a) 0 hasta 2.00 s,    –6                                         descanso. Si la rapidez promedio de la persona 77.8 km/h,
+    b) 0 hasta 4.00 s, c) 2.00 has-                                               a) ¿cuánto tiempo invirtió en el viaje y b) qué tan lejos
+    ta 4.00 s, d) 4.00 hasta 7.00 s Figura P2.6 (Problemas 6 y 17)                viajó la persona?
+    y e) 0 hasta 8.00 s.                                                      14. Una tortuga puede correr con una rapidez de 0.10 m/s
+ 7. Un motociclista conduce hacia el Norte por 35.0 minutos                       y una liebre corre 20 veces más rápido. En una compe-
+    a 85.0 km/h y después se detiene por 15.0 minutos. Des-                       tencia, ambos inician al mismo tiempo, pero la liebre se
+                                                                                                                       | Problemas      51
+
+    detiene a descansar por 2.0 minutos. La tortuga gana por                  de la gravedad en la Tierra). Considere un automóvil di-
+    un caparazón (20 cm). a) ¿Cuánto duró la competencia?                     señado para acelerar con esta proporción. ¿Cuánto tiem-
+    b) ¿Cuál es la distancia de la carrera?                                   po sería necesario para que el automóvil acelere desde el
+15. Para calificar a las finales en una carrera, un auto de ca-               reposo hasta 60.0 millas por hora? (¡El automóvil necesi-
+    rreras debe lograr una velocidad promedio de 250 km/h                     taría cohetes de refuerzo!)
+    sobre una pista con una longitud total de 1 600 m. Si un              23. Cierto automóvil es capaz de acelerar a razón de 0.60 m/
+    auto particular cubre la primera mitad de la pista con                    s2. ¿Cuánto tiempo le toma a este auto ir desde una velo-
+    una velocidad promedio de 230 km/h, ¿qué velocidad                        cidad de 55 mi/h hasta una de 60 mi/h?
+    promedio mínima debe tener en la segunda mitad del                    24. La gráfica velocidad en términos del tiempo para un ob-
+    evento con la finalidad de calificar?                                     jeto móvil a lo largo de una trayectoria recta se muestra
+16.            En una carrera un atleta en una pista, larga y                 en la figura P2.24. i) Determine la aceleración promedio
+    recta, con una velocidad constante v1, está a una distancia               de un objeto durante los intervalos de tiempo de a) 0 a
+    d atrás de un segundo corredor que corre con una velo-                    5.0 s, b) 5.0 a 15 s y c) 0 a 20 s. ii) Determine la acelera-
+    cidad constante v2. a) ¿Bajo qué circunstancias el primer                 ción instantánea en a) 2.0 s, b) 10 s y c) 18 s.
+    atleta es capaz de rebasar al segundo atleta? b) Determine
+    el tiempo t que le toma al primer atleta rebasar al segun-
+                                                                                     v (m/s)
+    do, en términos de d, v1 y v2. c) ¿A qué distancia mínima
+    d2 a partir del atleta líder se debe localizar la línea de meta                    8
+    de tal modo que el atleta que le sigue pueda por lo menos                          6
+    ocupar el primer lugar? Exprese d2 en términos de d, v1 y                          4
+    v2 utilizando los resultados del inciso b).                                        2
+                                                                                       0                                   t (s)
+17. Una gráfica de posición en función del tiempo para una                                      5      10      15     20
+    cierta partícula móvil a lo largo del eje x se muestra en la                      –2
+    figura P2.6. Determine la velocidad instantánea en los ins-                       –4
+    tantes a) t 5 1.00 s, b) t = 3.00 s, c) t 5 4.50 s y d) t 5 7.50 s.               –6
+                                                                                      –8
+18. Un automóvil de carreras se mueve de forma tal que su
+    posición se ajusta a la relación
+                                                                                                    Figura P2.24
+                   x 5 (5.0 m/s)t 1 (0.75 m/s3)t 3
+      donde x se mide en metros y t en segundos. a) Trace una             25. Una catapulta de vapor lanza un jet desde el portaaviones
+      gráfica de la posición del automóvil en términos del tiem-              John C. Stennis le proporciona una velocidad de 175 mi/h
+      po. b) Calcule la velocidad instantánea del automóvil en                en 2.50 s. a) Determine la aceleración promedio de la
+      t 5 4.0 s, utilizando intervalos de tiempo de 0.40 s, 0.20 s            nave. b) Suponiendo que la aceleración es constante, de-
+      y 0.10 s. c) Compare la velocidad promedio durante los                  termine la distancia que la nave recorre.
+      primeros 4.0 s con los resultados del inciso b).                    2.5 Movimiento en una dimensión
+19. Un corredor A está inicialmente a 4 millas al Oeste de un                 con aceleración constante
+    asta bandera, está corriendo con una velocidad constante              26. Resolver el ejemplo 2.5, “Persecusión de un automóvil”
+    de 6.0 mi/h al Este. Un corredor B está inicialmente a 3.0                por un método gráfico. En la misma gráfica, trace la posi-
+    mi al Este del asta bandera y está corriendo con velocidad                ción en función del tiempo para el automóvil y la policía.
+    constante de 5.0 mi/h al Oeste. ¿A qué distancia están los                A partir de la intersección de las dos curvas, determine la
+    corredores del asta bandera cuando se reúnen?                             hora en que el policía alcanza el coche.
+2.3 Aceleración                                                           27.     Un objeto en movimiento con aceleración uniforme
+20. Una partícula parte del         a (m/s2)                                  tiene una velocidad de 12.0 cm/s en el sentido positivo
+    reposo y acelera como se           2                                      de las x cuando su coordenada x es de 3.00 cm. Si su co-
+    muestra en la figura P2.20.        1                                      ordenada x 2.00 s más tarde es 25.00 cm, ¿cuál es su ace-
+    Determine a) la velocidad          0                  t (s)               leración?
+    de la partícula en el instan-            5   10 15 20                 28. En 1865 Julio Verne propuso enviar un hombre a la
+                                     1
+    te t 5 10.0 s y en t 5 20.0 s y                                           Luna disparando una cápsula espacial desde un cañón de
+    b) la distancia recorrida en     2
+                                                                              220 m de largo con una velocidad final de 10.97 km/s.
+    los primeros 20.0 s.             3                                       ¿Qué aceleración considerable y poco práctica tendría
+21. Un balón de 50.0 g que                                                    que experimentar el viajero durante su lanzamiento?
+                                            Figura P2.20
+    viaja a 25.0 m/s rebota en                                                (Un humano puede estar en aceleración de 15g por un
+    una pared de ladrillos a 22.0 m/s. Una cámara de alta                     tiempo breve.) Compare su respuesta con la aceleración
+    velocidad graba este evento. Si el balón está en contacto                 en caída libre, 9.80 m/s2.
+    con la pared 3.50 ms, ¿cuál es la magnitud de la acelera-             29. Un camión cubre 40.0 m en 8.50 s mientras disminuye
+    ción media de la pelota durante este intervalo de tiempo?                 su velocidad de manera uniforme hasta una velocidad de
+22.        La persona promedio pierde el conocimiento con                     2.80 m/s. a) Determine la velocidad original del camión.
+      una aceleración de 7g (es decir, siete veces la aceleración             b) Determine su aceleración.
+52     CAPÍTULO 2 | Movimiento en una dimensión
+
+30.      Una lancha de carreras incrementa su velocidad de                   b) ¿Cuáles fueron las magnitudes de la velocidad pro-
+    manera uniforme desde vi 5 20.0 m/s hasta vf 5 30.0 m/s                     medio en los tramos 1, 2 y 3 del viaje, así como
+    en una distancia de 2.00 3 102 m. a) Dibuje un sistema                      para el viaje completo?
+    coordenado para esta situación y etiquete las cantidades        37. Un tren viaja cuesta abajo en una vía recta a 20 m/s cuan-
+    relevantes, incluyendo vectores. b) Para la información             do el ingeniero aplica los frenos, lo que resulta en una
+    que se proporciona, ¿qué ecuación simple es más adecuada            aceleración de 21.0 m/s2 mientras el tren está en movi-
+    para determinar la aceleración? c) Resuelva la ecuación             miento. ¿Qué distancia se mueve el tren durante 40 s a
+    elegida en el inciso b) de manera simbólica para la ace-            partir del instante en que se aplican los frenos?
+    leración del bote en términos de vf , vi y )x. d) Sustituya
+                                                                    38. Un automóvil acelera de manera uniforme desde el repo-
+    los valores conocidos, para obtener la aceleración. e) De-
+                                                                        so hasta una velocidad de 40.0 mi/h en 12.0 s. Determi-
+    termine el tiempo que tarda el bote al viajar la distancia
+                                                                        ne a) la distancia que recorre el automóvil durante este
+    conocida.
+                                                                        tiempo y b) la aceleración constante del automóvil.
+31. Un avión Cessna tiene una velocidad de despegue de
+    120 km/h. a) ¿Qué aceleración constante mínima requie-          39. Un automóvil inicia desde el reposo y viaja por 5.0 s con
+    re la nave si está en el aire después de un recorrido de 240        una aceleración uniforme de 11.5 m/s2. Entonces el
+    m? b) ¿Cuánto tiempo le toma a la nave estar en el aire?            conductor aplica los frenos, ocasionando una acelera-
+                                                                        ción uniforme de 22.0 m/s2. Si los frenos son aplicados
+32. Un objeto se mueve con aceleración constante 4.00 m/s2
+                                                                        por 3.0 s, a) ¿qué tan rápido va el automóvil al final del
+    y durante un intervalo de tiempo alcanza una velocidad
+                                                                        periodo de frenado? b) ¿Qué tan lejos llega el automóvil?
+    final de 12.0 m/s. a) Si su velocidad inicial es de 6.00
+    m/s, ¿cuál es su desplazamiento durante el intervalo de         40.        Un automóvil inicia desde el reposo y viaja por t1
+    tiempo? b) ¿Cuál es la distancia que recorre durante este             segundos con una aceleración uniforme a1. Entonces el
+    intervalo? c) Si su velocidad original es 26.00 m/s, ¿cuál            conductor aplica los frenos, ocasionando una acelera-
+    es su desplazamiento durante este intervalo? d) ¿Cuál es              ción uniforme a2. Si los frenos se aplican por t2 segun-
+    la distancia total que viaja durante el intervalo en el in-           dos, a) ¿cuál es la velocidad del automóvil justo antes de
+    ciso c)?                                                              iniciar el periodo de frenado? b) ¿A qué distancia llega
+                                                                          el automóvil antes que el conductor inicie el frenado?
+33.       En una carrera de prueba, cierto automóvil acelera
+                                                                          c) Utilizando las respuestas de los incisos a) y b) como la
+    de manera uniforme desde cero hasta 24.0 m/s en 2.95 s.
+                                                                          velocidad inicial y posición para el movimiento del auto-
+    a) ¿Cuál es la magnitud de la aceleración del automóvil?
+                                                                          móvil durante el frenado, ¿cuál es la distancia total que
+    b) ¿Cuánto tiempo le toma al automóvil cambiar su velo-
+                                                                          recorre el automóvil? Las respuestas están en términos
+    cidad desde 10.0 hasta 20.0 m/s? c) ¿Duplicar el tiempo
+                                                                          de las variables a1, a2, t1 y t2.
+    siempre duplicará el cambio en la velocidad? ¿Por qué?
+34.       Un jet aterriza con una velocidad de 100 m/s y pue-       41. En las 500 millas de Daytona, un Ford Thunderbird y un
+    de acelerar con una razón máxima de 25.00 m/s2 y lle-               Mercedes Benz se mueven uno al lado del otro en un ca-
+    gar al reposo. a) Desde el instante en que la nave toca la          mino recto a 71.5 m/s. El conductor del Thunderbird se
+    pista, ¿cuál es el tiempo mínimo necesario que requiere             da cuenta de que debe hacer una parada en los fosos y dis-
+    antes de llegar al reposo? b) ¿Esta nave puede aterrizar            minuye su velocidad de manera suave hasta detenerse en
+    en el aeropuerto de una pequeña isla tropical cuando la             una distancia de 250 m. Espera 5.00 s en los fosos y después
+    longitud de la pista es de 0.800 km?                                acelera, alcanzando su velocidad previa de 71.5 m/s des-
+                                                                        pués de una distancia de 350 m. En este punto, ¿a qué
+35.       Speedy Sue conduce a 30.0 m/s y entra a un túnel              distancia ha quedado el Thunderbird detrás del Merce-
+    de un solo carril. A continuación observa una camioneta             des Benz, que ha continuado con velocidad constante?
+    moviéndose lentamente 155 m más adelante viajando a
+    5.00 m/s. Sue aplica los frenos, pero sólo puede acelerar       42. Cierto tranvía en San Francisco puede detenerse en 10 s
+    a 22.00 m/s2 porque la carretera está mojada. ¿Ocurrirá             cuando viaja a velocidad máxima. En una ocasión, el con-
+    un choque? Establezca su respuesta. Si su respuesta es sí,          ductor ve un perro a la distancia d frente al tranvía lo que
+    calcule a qué distancia dentro del túnel y en qué tiempo            obliga a frenar de manera súbita. El tranvía alcanza al pe-
+    se presenta el choque. Si su respuesta es no, calcule la dis-       rro 8.0 s después y el perro salta justo a tiempo fuera de la
+    tancia de acercamiento más próxima entre el automóvil               vía. Si el tranvía viaja 4.0 m más allá de la posición del pe-
+    de Sue y la camioneta.                                              rro antes de detenerse, ¿a qué distancia estaba del tranvía
+                                                                        del perro? (Sugerencia: Necesitará tres ecuaciones.)
+36. Un registro de viaje a lo largo de una trayectoria rectilí-
+    nea es como sigue:                                              43.       Un jugador de hockey está de pie sobre sus patines en
+    1. Se inicia desde el reposo con una aceleración constan-             un estanque congelado cuando un contrincante, que se
+                                                                          mueve con velocidad constante de 12 m/s, patina llevando
+       te de 2.77 m/s2 por 15.0 s.
+                                                                          el disco de goma. Después de 3.0 s, el primero reacciona
+    2. Se mantiene la velocidad constante por los próximos                mentalmente para perseguir a su oponente. Si acelera de
+       2.05 min.                                                          manera uniforme a 4.0 m/s2, a) ¿cuánto tiempo tarda en
+    3. Se aplica una aceleración negativa constante de 29.47              atrapar a su oponente y b) qué distancia ha viajado en ese
+       m/s2 por 4.39 s.                                                   tiempo? (Suponga que el jugador con el disco de goma
+       a) ¿Cuál es el desplazamiento total para el viaje?                 permanece en movimiento con velocidad constante.)
+                                                                                                                                                       | Problemas   53
+
+44. Un tren de 400 m de largo se mueve sobre una vía recta                  del helicóptero? c) ¿Cuáles son sus respuestas para los
+    con una velocidad de 82.4 km/h. El ingeniero aplica los                 incisos a) y b) si el helicóptero se eleva con velocidad
+    frenos en un crucero, y más tarde pasa el último vagón                  constante de 1.50 m/s?
+    por el crucero con una velocidad de 16.4 km/h. Supo-                51. Un jugador de tenis lanza una pelota en trayectoria rec-
+    niendo aceleración constante, calcule cuánto tarda el                   tilínea hacia arriba y entonces la atrapa después de 2.00 s
+    tren bloqueando el crucero. Haga caso omiso del ancho                   en el mismo punto en que la liberó. a) ¿Cuál es la acele-
+    del crucero.                                                            ración de la pelota mientras está en vuelo? b) ¿Cuál es la
+2.6 Objetos en caída libre                                                  velocidad de la pelota cuando logra su altura máxima?
+                                                                            Determine c) la velocidad inicial de la pelota y d) la altu-
+45. Se lanza una pelota verticalmente hacia arriba con una ve-              ra máxima que alcanza.
+    locidad de 25.0 m/s. a) ¿A qué altura se eleva? b) ¿Cuánto
+    tarda en lograr su punto más alto? c) ¿Cuánto tarda la              52.                           Se deja caer un paquete desde un helicóptero que
+    pelota en tocar la superficie de la tierra después de que                                    está descendiendo con una velocidad constante v0. Des-
+    logra su punto más alto? d) ¿Cuál es su velocidad cuando                                     pués de que transcurren t segundos, a) ¿cuál es la veloci-
+    regresa al nivel de donde inició?                                                            dad del paquete en términos de v0, g y t? b) ¿A qué distan-
+                                                                                                 cia d está del helicóptero en términos de g y t? c) ¿Cuáles
+46. Una pelota es lanzada directamente hacia abajo con una                                       son las respuestas de los incisos a) y b) si el helicóptero se
+    velocidad inicial de 8.00 m/s, desde una altura de 30.0 m.                                   está elevando con la misma velocidad constante?
+    Después de qué intervalo de tiempo golpea el suelo?
+                                                                        53.       Se lanza un cohete a escala directamente hacia arri-
+47. Cierto cuerpo en caída libre necesita 1.50 s para viajar los            ba con una velocidad inicial de 50.0 m/s. Se acelera a
+    últimos 30.0 m antes que golpee la superficie de la tierra.             2.00 m/s2 de manera constante hacia arriba hasta que
+    a) Encuentre la velocidad del objeto cuando está a 30.0 m               los motores se apagan a una altitud de 150 m. a) ¿Qué
+    sobre la tierra. b) Encuentre la distancia total que se des-            puede decir con respecto al movimiento de los motores
+    plaza el objeto durante la caida.                                       después de que se apagan? b) ¿Cuál es la altura máxima
+48.          Un guerrero en la base de la pared de un castillo              que alcanza el cohete? c) ¿Cuánto tarda el cohete des-
+      de 3.65 m de altura lanza una roca en una trayectoria                 pués del despegue vertical en alcanzar su altura máxima?
+      rectilínea hacia arriba con una rapidez de 7.40 m/s a una             d) ¿Cuánto tarda el cohete en el aire?
+      altura de 1.55 m por encima de la superficie de la tierra.        54. Una pelota de béisbol viaja directamente hacia arriba
+      a) ¿La roca alcanzará la parte superior de la pared? b) Si            después de ser golpeada por el bate. Un aficionado ob-
+      es así, ¿cuál es la velocidad de la roca en la parte supe-            serva que transcurren 3.00 s para que la pelota alcance su
+      rior? Si no, ¿qué velocidad inicial debe tener la roca para           altura máxima. Calcule a) la velocidad inicial de la pelota
+      alcanzar la parte superior? c) Determine el cambio en la              y b) la altura que alcanza.
+      velocidad de una roca lanzada directamente hacia abajo
+      desde la parte superior de la pared con una velocidad
+                                                                      Problemas adicionales
+      inicial de 7.40 m/s y que se mueve entre los mismos dos              55. Un tractocamión jala dos tráileres, uno detrás del otro, con
+      puntos. d) ¿El cambio en la velocidad de la roca en movi-                una velocidad constante de 100 km/h. Le toma 0.600 s al
+      miento hacia abajo coincide con la magnitud del cambio                   gran mecanismo de maniobra cruzar por completo un puen-
+      en la velocidad de la roca moviéndose hacia arriba entre                 te de 400 m de largo. ¿Cuánto tiempo permanece sobre el
+      las mismas elevaciones? Explique físicamente por qué.                    puente de manera parcial o total todo el tractocamión?
+49.       Un daño cerebral traumático como las contusiones              56.                                 El coronel de la fuerza aérea, John P. Stapp,
+    resulta cuando la cabeza experimenta una aceleración                                         participó en el estudio para determinar si un piloto de
+    considerable. Por lo general, una aceleración menor a                                        jet podría sobrevivir a una eyección de emergencia. El 19
+    800 m/s2 mantenida por alguna extensión de tiempo no                                         de marzo de 1954, se montó en un trineo-cohete que se
+    ocasiona daño, mientras que una aceleración mayor a                                          mueve por una pista a una velocidad de 632 mi/h (véase
+    1000 m/s2 constante por al menos 1 ms ocasionará daño.                                       la figura P2.56). Él y el trineo llegaron al reposo de modo
+    Considere un niño rodando fuera de una cama que está                                         seguro en 1.40 s. Determinar en unidades del SI a) la
+    a 0.40 m encima del piso. Si el piso es de madera dura, la                                   aceleración negativa que experimentó y b) la distancia
+    cabeza del niño pondrá en reposo en aproximadamente                                          que viajó durante esta aceleración negativa.
+    2.0 mm. Si el piso está alfombrado, esta distancia de de-
+    tención se incrementa en casi 1.0 cm. Calcular la magni-
+    tud y dirección de la desaceleración de los dos casos, para
+    determinar los riesgos de daño. Suponga que el pequeño
+
+
+                                                                    Cortesía de U.S. Air Force
+    permanece horizontal durante la caída al piso. Observe
+    que una caída más complicada podría resultar en una velo-
+    cidad de la cabeza mayor o menor que la rapidez calculada.
+50. Se libera una pequeña valija postal desde un helicóptero                                                                            Photri, Inc.
+    que está descendiendo con velocidad constante de 1.50
+    m/s. Después de 2.00 s, a) ¿cuál es la velocidad de la                                       a                                                     b
+    valija? y b) ¿a qué distancia se encuentra la valija debajo                                                          Figura P2.56
+54       CAPÍTULO 2 | Movimiento en una dimensión
+
+57. Se dispara una bala a través de un tablero de 10.0 cm de                Después de correr por 10 min, aún le quedan 500 yardas.
+    espesor de tal manera que la línea de movimiento de la                  Si su aceleración máxima es 0.15 m/s2, ¿puede hacerlo? Si
+    bala es perpendicular a la cara del tablero. Si la velocidad            la respuesta es no, establezca qué aceleración necesitaría
+    inicial de la bala es 400 m/s y emerge por el otro lado del             para tener éxito.
+    tablero con una velocidad de 300 m/s, determine a) la             65. En el capítulo 5 se definió el centro de masa de un
+    aceleración de la bala cuando pasa a través del tablero y             objeto. El centro de masa se mueve con aceleración cons-
+    b) el tiempo total de la bala en contacto con el tablero.             tante cuando las fuerzas constantes actúan sobre el obje-
+58. Una lancha de carreras se mueve a 30.0 m/s y se aproxi-               to. Una gimnasta salta hacia arriba, con su centro de masa
+    ma sin estela a una boya que se encuentra a 100 m ade-                en movimiento a 2.80 m/s, conforme deja el suelo. ¿A qué
+    lante. El piloto disminuye la velocidad del bote con una              altura por encima de este punto está su centro de masa
+    aceleración constante de 23.50 m/s2 reduciendo el es-                 en a) 0.100 s, b) 0.200 s, c) 0.300 s y d) después de 0.500 s?
+    trangulamiento del motor. a) ¿Cuánto tiempo tarda en
+                                                                      66.        Dos estudiantes están en un balcón a una distancia h
+    alcanzar la boya? b) ¿Cuál es la velocidad del bote cuando
+                                                                            sobre el nivel de la calle. Un estudiante lanza una pelo-
+    éste alcanza la boya?
+                                                                            ta verticalmente hacia abajo con una velocidad v0; en el
+59. Un estudiante lanza un conjunto de llaves verticalmen-                  mismo instante, el otro estudiante lanza una pelota verti-
+    te hacia arriba a su compañero en un club estudiantil,                  calmente hacia arriba con la misma velocidad. Responda
+    quien se encuentra en una ventana 4.00 m más arriba. El                 simbólicamente lo siguiente en términos de v0, g, h y t.
+    compañero con su brazo extendido atrapa las llaves 1.50 s               a) Escriba la ecuación cinemática para la coordenada
+    después. a) ¿Con qué velocidad inicial fueron lanzadas                  y de cada pelota. b) Ajuste las ecuaciones encontradas
+    las llaves? b) ¿Cuál fue la velocidad de las llaves en el mo-           en el inciso a) e iguale para la altura 0 y resuelva para t
+    mento que son atrapadas?                                                simbólicamente aplicando la fórmula cuadrática. ¿Cuál
+60.         Un estudiante lanza un conjunto de llaves vertical-             es la diferencia en tiempo de las dos pelotas en el aire?
+      mente hacia arriba a su compañero en un club estudian-                c) Aplique la ecuación cinemática independiente del
+      til, quien se encuentra en una ventana a una distancia h              tiempo para determinar la velocidad de cada pelota
+      más arriba. El compañero con su brazo extendido atrapa                cuando golpean la superficie de la tierra. d) ¿Qué distan-
+      las llaves en un tiempo t después. a) ¿Con qué velocidad              cia las separa en el tiempo t después de que son liberadas
+      inicial fueron lanzadas las llaves? b) ¿Cuál fue la veloci-           y antes que golpeen la superficie de la tierra?
+      dad de las llaves en el momento que son atrapadas? (Las         67. Se suelta una pelota desde una ventana en un piso su-
+      respuestas están en términos de h, g y t.)                          perior de un edificio y es atrapada por una persona en
+61.         Se afirma que un insecto conocido como escupi-                la parte baja del edificio cuando la pelota se mueve con
+      dor (Philaenus spumarius) es el mejor saltador en el reino          una velocidad vf . Esta vez se reproduce la caída, pero una
+      animal. Este insecto puede acelerar a 4 000 m/s2 en una             persona abajo en la calle lanza otra pelota hacia arriba
+      distancia de 2.0 mm cuando endereza sus patas especial-             con una velocidad vf exactamente al mismo tiempo que
+      mente diseñadas “para saltar”. a) Suponiendo una acele-             se deja caer la pelota desde la ventana. Inicialmente las
+      ración uniforme, ¿cuál es la velocidad del insecto después          dos pelotas están separadas por 28.7 m. a) ¿En qué tiem-
+      que éste ha acelerado a través de una distancia corta y             po coinciden? b) ¿A qué altura se cruzan con respecto a
+      cuánto tarda en alcanzar esa velocidad? b) Qué altura sal-          la ventana?
+      taría el insecto si se omite la resistencia del aire? Observe   68. El conductor de un camión aplica los frenos cuando ve
+      que la altura actual obtenida es casi 0.7 m, de tal mane-           un árbol bloqueando el camino. El camión disminuye su
+      ra que la resistencia del aire es importante en este caso.          velocidad de manera uniforme con una aceleración de
+62.         Dibuje los diagramas de movimiento (véase la sec-             25.60 m/s2 por 4.20 s, haciendo marcas de deslizamiento
+      ción 2.5) para a) un objeto que se mueve hacia la dere-             a lo largo de 62.4 m que finalizan en el árbol. ¿Con qué
+      cha a velocidad constante, b) un objeto que se mueve                velocidad el camión golpea el árbol?
+      hacia la derecha y acelerando a una razón constante, c)         69.         Emily desafía a su
+      un objeto que se mueve hacia la derecha y desacelerando
+
+
+                                                                                                         © Cengage Learning/George Semple
+                                                                            esposo David, a que atra-
+      a una razón constante, d) un objeto en movimiento hacia               pe un billete de un dólar
+      la izquierda y acelerando a una razón constante y e) un               como sigue. Ella sostiene
+      objeto que se mueve hacia la izquierda y desacelerando                el billete verticalmente
+      a una razón constante. f) ¿Cómo podrían cambiar sus di-               como en la figura P2.69,
+      bujos si los cambios de velocidad no son uniformes, es                con el centro del billete
+      decir, si la velocidad no se cambia a una razón constante?            entre los dedos índice y
+63.       Se lanza una pelota hacia arriba desde la superficie              pulgar de David. Éste
+      de la tierra con una velocidad inicial de 25 m/s. En el               de-be atrapar el billete               Figura P2.69
+      mismo instante, otra pelota se deja caer desde un edificio            después de que Emily lo
+      de 15 m de altura. ¿Después de cuánto tiempo las pelotas              libera sin mover su mano
+      estarían a la misma altura?                                           hacia abajo. Si su tiempo de reacción es 0.2 s, ¿él tendrá
+64. Para acreditar la clase de educación física en una univer-              éxito? Explique sus motivos. (Este desafío es un buen tru-
+    sidad, una estudiante debe correr 1.0 millas en 12 min.                 co que querría intentar con sus amigos.)
+                                                                                                                | Problemas      55
+
+70. Una alpinista se encuentra en la parte superior de un risco    73. Una persona ve un destello que pasa cerca de un avión
+    a 50.0 m que sobresale de un estanque de aguas tranqui-            que vuela a la distancia. La persona escucha el true-
+    las. Lanza dos piedras verticalmente hacia abajo separadas         no 5.0 s después de ver el destello y ve al avión por arriba
+    1.00 s y observa que ocasionan un solo chasquido. La pri-          10 s después de escuchar el trueno. La rapidez del sonido
+    mera piedra tiene una velocidad inicial de 22.00 m/s.              en el aire es 1 100 pies/s. a) Determine la distancia de la
+    a) ¿Cuánto tiempo después de liberar la primera piedra             nave hasta la persona en el instante del destello. (Omita
+    las dos golpean el agua? b) ¿Qué velocidad inicial debe            el tiempo que tarda la luz recorrer desde el destello has-
+    tener la segunda piedra, ya que golpean simultáneamen-             ta el ojo.) b) Considere que la nave viaja con velocidad
+    te el agua? c) ¿Cuál fue la velocidad de cada piedra en el         constante hacia la persona, determine la velocidad de
+    instante que golpean el agua?                                      la nave. Busque la velocidad de la luz en el aire y sostenga
+                                                                       la aproximación utilizada en el inciso a).
+71. Se transporta hielo en un trineo impulsado por un mo-
+                                                                   74.       Un deslizador sobre una pista de aire lleva una ban-
+    tor cohete partiendo desde el reposo sobre un gran lago
+                                                                       dera de longitud ᐉ a través de un fotoportal fijo, que mide
+    congelado y se acelera a 140 pies/s2. Después de algún
+                                                                       el intervalo de tiempo )td durante el cual la bandera blo-
+    tiempo t1, se apaga el motor y el trineo se mueve con ve-
+                                                                       quea un haz de luz infrarrojo que cruza a través del foto-
+    locidad constante v por un tiempo t2. Si la distancia total
+                                                                       portal. La relación vd 5 ᐉ/)td es la velocidad promedio
+    recorrida por el trineo es 17 500 pies y el tiempo total es
+                                                                       del deslizador en esta parte de su movimiento. Suponga
+    90 s, determine a) los tiempos t1 y t2 y b) la velocidad v,
+                                                                       que el deslizador se mueve con aceleración constante.
+    en la marca de 17 500 pies, el trineo comienza a acelerar
+                                                                       a) ¿Necesariamente vd es igual a la velocidad instantánea
+    a 220 pie/s2. c) ¿Cuál es la posición final del trineo cuan-
+                                                                       del deslizador cuando se encuentra a medio camino a tra-
+    do llega al reposo? d) ¿Cuánto tiempo le toma llegar al
+                                                                       vés del fotoportal en el intervalo? Explique. b) ¿vd es igual
+    reposo?
+                                                                       a la velocidad instantánea del deslizador cuando está a la
+72. En Bosnia, la última prueba de valor para un joven es              mitad del camino a través del fotoportal a tiempo?
+    saltar desde un puente de 400 años (destruido en 1993          75. Un doble de cine sentado en la rama de un árbol quiere
+    y reconstruido en 2004) hacia el río Neretva, 23 m abajo           caer verticalmente sobre un caballo galopando bajo el
+    del puente. a) ¿Cuánto tiempo hizo en el último salto?             árbol. La velocidad constante del caballo es 10.0 m/s, ini-
+    b) ¿Qué tan rápido viajó el saltador hasta impactarse con          cialmente el hombre está a 3.00 m por encima del nivel
+    el río? c) Si la rapidez del sonido en el aire es 340 m/s,         de la silla de montar. a) ¿Cuál debe ser la distancia hori-
+    ¿cuánto tiempo después de que el saltador tocó el agua             zontal entre la silla y la rama cuando el hombre hace su
+    un espectador sobre el puente escucha el chasquido?                movimiento? b) ¿Cuánto tiempo está en el aire?
