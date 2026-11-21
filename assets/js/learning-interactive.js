@@ -1,7 +1,7 @@
 /**
  * Motor interactivo de aprendizaje por asignatura:
- * - Pestañas de estudio (Teoría Básica, Laboratorio Interactivo, Material PDF/Texto, Autoevaluación)
- * - Visor integrado de archivos .txt extraídos desde los PDFs originales
+ * - Pestañas de estudio (Teoría Básica, Laboratorio Interactivo, Material en PDF, Autoevaluación)
+ * - Acceso directo a los documentos y libros locales en formato PDF
  * - Laboratorios / Calculadoras con gráficas Canvas 2D para las 11 asignaturas
  * - Cuestionarios de autoevaluación con retroalimentación paso a paso
  */
@@ -70,37 +70,28 @@
     });
   }
 
-  // ======================== 3. Render Local PDF & Text Docs ========================
+  // ======================== 3. Render Local PDF Docs ========================
   const docsContainer = document.getElementById("local-docs-container");
   if (docsContainer && data && Array.isArray(data.docs)) {
-    if (data.docs.length === 0) {
+    const pdfDocs = data.docs.filter(function (d) { return Boolean(d.pdf_path); });
+    if (pdfDocs.length === 0) {
       docsContainer.innerHTML =
-        '<div class="learning-intro">Esta área combina teoría interactiva directa en la web con acompañamiento 1 a 1 en vivo sobre tus talleres, códigos o proyectos.</div>';
+        '<div class="learning-intro">Esta asignatura cuenta con módulos interactivos de Teoría Básica, Laboratorio Interactivo y Autoevaluación listos para estudiar en línea.</div>';
     } else {
       docsContainer.innerHTML = "";
-      data.docs.forEach(function (doc, i) {
+      pdfDocs.forEach(function (doc, i) {
         const card = document.createElement("div");
         card.className = "doc-item-card topic-item";
 
         const metaParts = [];
         if (doc.pages) metaParts.push(doc.pages + " pág.");
-        if (doc.words) metaParts.push(doc.words.toLocaleString("es-CO") + " palabras extraídas");
         if (doc.size_mb) metaParts.push(doc.size_mb + " MB");
-        const metaStr = metaParts.join(" • ") || "Documento de estudio";
+        const metaStr = metaParts.join(" • ") || "Material en PDF";
 
-        const txtBtn = doc.txt_path
-          ? '<button type="button" class="btn btn-gold btn-sm open-txt-btn" data-txt="../' +
-            escapeAttr(doc.txt_path) +
-            '" data-title="' +
-            escapeAttr(doc.name) +
-            '">📖 Leer en texto</button>'
-          : "";
-
-        const pdfBtn = doc.pdf_path
-          ? '<a href="../' +
-            escapeAttr(doc.pdf_path) +
-            '" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">📄 Abrir PDF</a>'
-          : "";
+        const pdfBtn =
+          '<a href="../' +
+          escapeAttr(doc.pdf_path) +
+          '" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">📄 Abrir PDF</a>';
 
         card.innerHTML =
           '<div class="topic-title-wrap">' +
@@ -108,10 +99,9 @@
             "<div>" +
               '<span class="topic-name">' + escapeHtml(doc.name) + "</span>" +
               '<span class="topic-note">' + escapeHtml(metaStr) + "</span>" +
-              (doc.preview ? '<div class="doc-meta">' + escapeHtml(doc.preview.slice(0, 150)) + "…</div>" : "") +
             "</div>" +
           "</div>" +
-          '<div class="doc-actions">' + txtBtn + pdfBtn + "</div>";
+          '<div class="doc-actions">' + pdfBtn + "</div>";
 
         docsContainer.appendChild(card);
       });
@@ -128,91 +118,6 @@
       });
     });
   }
-
-  // ======================== 4. Built-in Plain Text Viewer Modal ========================
-  const modal = document.createElement("div");
-  modal.className = "text-viewer-modal";
-  modal.setAttribute("role", "dialog");
-  modal.setAttribute("aria-modal", "true");
-  modal.innerHTML =
-    '<div class="text-viewer-dialog">' +
-      '<div class="text-viewer-head">' +
-        '<h3 id="tv-title">Contenido en texto extraído</h3>' +
-        '<button type="button" id="tv-close" class="btn btn-outline btn-sm">✕ Cerrar</button>' +
-      "</div>" +
-      '<div class="text-viewer-toolbar">' +
-        '<div class="search-box" style="max-width:340px;">' +
-          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>' +
-          '<input id="tv-search" type="search" placeholder="Buscar palabra clave en este texto..." aria-label="Buscar en texto">' +
-        "</div>" +
-        '<span id="tv-stats" style="font-size:0.8rem; color:var(--text-dim);"></span>' +
-        '<a id="tv-raw-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="margin-left:auto;">Abrir .txt completo</a>' +
-      "</div>" +
-      '<pre id="tv-content" class="text-viewer-content">Cargando texto...</pre>' +
-    "</div>";
-  document.body.appendChild(modal);
-
-  const tvTitle = document.getElementById("tv-title");
-  const tvContent = document.getElementById("tv-content");
-  const tvSearch = document.getElementById("tv-search");
-  const tvStats = document.getElementById("tv-stats");
-  const tvRawLink = document.getElementById("tv-raw-link");
-  const tvClose = document.getElementById("tv-close");
-  let currentRawText = "";
-
-  function closeModal() {
-    modal.classList.remove("open");
-  }
-  tvClose.addEventListener("click", closeModal);
-  modal.addEventListener("click", function (ev) {
-    if (ev.target === modal) closeModal();
-  });
-  document.addEventListener("keydown", function (ev) {
-    if (ev.key === "Escape" && modal.classList.contains("open")) closeModal();
-  });
-
-  tvSearch.addEventListener("input", function () {
-    const q = tvSearch.value.trim().toLowerCase();
-    if (!q) {
-      tvContent.textContent = currentRawText;
-      tvStats.textContent = currentRawText.split(/\s+/).filter(Boolean).length + " palabras";
-      return;
-    }
-    const lines = currentRawText.split("\n");
-    const matched = lines.filter(function (ln) {
-      return ln.toLowerCase().includes(q);
-    });
-    tvStats.textContent = matched.length + " líneas coinciden";
-    tvContent.textContent = matched.length ? matched.join("\n") : "No se encontraron coincidencias para \"" + q + "\".";
-  });
-
-  document.addEventListener("click", function (ev) {
-    const btn = ev.target.closest(".open-txt-btn");
-    if (!btn) return;
-    const txtUrl = btn.dataset.txt;
-    const title = btn.dataset.title || "Material en texto";
-    tvTitle.textContent = title;
-    tvSearch.value = "";
-    tvRawLink.href = txtUrl;
-    tvContent.textContent = "Cargando contenido extraído...";
-    tvStats.textContent = "";
-    modal.classList.add("open");
-
-    fetch(txtUrl)
-      .then(function (r) {
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        return r.text();
-      })
-      .then(function (txt) {
-        currentRawText = txt;
-        tvContent.textContent = txt;
-        tvStats.textContent = txt.split(/\s+/).filter(Boolean).length + " palabras";
-      })
-      .catch(function () {
-        currentRawText = "";
-        tvContent.textContent = "No fue posible cargar el archivo directamente desde file://. Si abres el sitio en https://asesoriaseningenieria.github.io o con un servidor local (python3 -m http.server), podrás leerlo aquí o abrir el enlace directo .txt.";
-      });
-  });
 
   // ======================== 5. Render Self-Evaluation Quiz ========================
   const quizContainer = document.getElementById("quiz-container");

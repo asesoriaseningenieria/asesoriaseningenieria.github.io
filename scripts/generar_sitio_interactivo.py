@@ -200,7 +200,7 @@ SUBJECTS_META = [
 
 THEORY_CONTENT = {
     "razonamiento-logico": {
-        "intro": "Síntesis teórica construida a partir de las guías descargadas (Logica_Matematica.txt, introduccionLogica.txt, Geometria.txt, Probabilidades.txt y exámenes UdeA).",
+        "intro": "Síntesis teórica de lógica matemática, álgebra básica, geometría y probabilidad basada en la bibliografía y exámenes de la asignatura.",
         "theory": [
             {
                 "title": "1. Proposiciones y Conectivos Lógicos",
@@ -279,7 +279,7 @@ THEORY_CONTENT = {
         ],
     },
     "algebra-lineal": {
-        "intro": "Resumen de módulos basado en EspaciosySubespaciosVectoriales.txt, VectoresCoordenadosyMatricesEquivalentes.txt y TransformacionesLinealesTeoria.txt.",
+        "intro": "Resumen teórico de espacios vectoriales, bases, vectores coordenados y transformaciones lineales basado en los textos guía de la asignatura.",
         "theory": [
             {
                 "title": "1. Espacios y Subespacios Vectoriales",
@@ -346,7 +346,7 @@ THEORY_CONTENT = {
         ],
     },
     "geometria-vectorial": {
-        "intro": "Fundamentos extraídos de Geometria_Vectorial_Jaramillo.txt, vectoresGeometricos.txt, conicas.txt y unidad-6.lc3adneas-y-superficies-en-el-espacio-2020-10.txt.",
+        "intro": "Fundamentos de vectores en el plano y el espacio, rectas, planos y secciones cónicas basados en los materiales de la asignatura.",
         "theory": [
             {
                 "title": "1. Vectores Geométricos, Norma y Producto Escalar",
@@ -413,7 +413,7 @@ THEORY_CONTENT = {
         ],
     },
     "calculo-diferencial": {
-        "intro": "Teoría clave extraída de funciones.txt, limitesyDerivadas.txt, calculo-james-stewart-7ed.txt y hiperbolicas4.txt.",
+        "intro": "Teoría clave de funciones reales, límites, continuidad, derivación y optimización basada en los textos y guías de la asignatura.",
         "theory": [
             {
                 "title": "1. Funciones, Dominio y Modelado",
@@ -479,7 +479,7 @@ THEORY_CONTENT = {
         ],
     },
     "calculo-integral": {
-        "intro": "Módulos estructurados desde TeoriaAntiderivadas.txt, TeoriaRiemann.txt, TeoriaMetodosdeIntegracion.txt, TeoriaAplicaciones.txt y TeoriaImpropias.txt.",
+        "intro": "Módulos teóricos de antiderivadas, sumas de Riemann, métodos de integración, aplicaciones e integrales impropias basados en las guías de la asignatura.",
         "theory": [
             {
                 "title": "1. Antiderivadas e Integral Indefinida",
@@ -556,7 +556,7 @@ THEORY_CONTENT = {
         ],
     },
     "metodos-numericos": {
-        "intro": "Fundamentos extraídos de trabajoModuloDos.txt, trabajoModuloTres.txt, trabajoModulo4.txt, Hermite_interpolation_es.txt y Hernando_LeytonV._2009.txt.",
+        "intro": "Fundamentos teóricos de análisis numérico, interpolación, solución de ecuaciones diferenciales y filtrado de Kalman basados en las guías de la asignatura.",
         "theory": [
             {
                 "title": "1. Error Numérico, Bisección y Newton-Raphson",
@@ -597,7 +597,7 @@ THEORY_CONTENT = {
             {
                 "title": "4. Estimación de Estado y Filtro de Kalman (UKF)",
                 "tag": "Control y Filtrado",
-                "summary": "Como se documenta en la tesis extraída (Hernando_LeytonV._2009.txt), el Filtro de Kalman estima estados óptimos combinando modelo dinámico y mediciones con ruido.",
+                "summary": "El Filtro de Kalman estima estados óptimos combinando modelo dinámico y mediciones con ruido.",
                 "points": [
                     "<strong>Ciclo Predicción–Corrección</strong>: Predice estado a priori y matriz de covarianza P, luego corrige con ganancia de Kalman K usando la medición real.",
                     "<strong>UKF (Unscented Kalman Filter)</strong>: Propaga puntos sigma a través de sistemas no lineales con mayor precisión que el EKF linealizado.",
@@ -638,7 +638,7 @@ THEORY_CONTENT = {
         ],
     },
     "fisica-mecanica": {
-        "intro": "Síntesis basada en los capítulos de Serway extraídos: MovimientoenUnaDreccionSerway.txt, VectoresyLeyesdeNewtonSerway.txt, MovimientoCircularTeoriaSerway1.txt, TrabajoyEnergiaSerway.txt y ColisionesTeoriaSerway.txt.",
+        "intro": "Síntesis teórica de cinemática en 1D y 2D, leyes de Newton, trabajo, energía mecánica y colisiones basada en la bibliografía de la asignatura.",
         "theory": [
             {
                 "title": "1. Cinemática en 1D y 2D (Movimiento Parabólico)",
@@ -667,7 +667,7 @@ THEORY_CONTENT = {
             {
                 "title": "3. Trabajo, Energía Mecánica y Colisiones",
                 "tag": "Conservación",
-                "summary": "Como detalla TrabajoyEnergiaSerway.txt, el trabajo W = F·Δx·cos(θ) mide la transferencia de energía al desplazarse bajo una fuerza.",
+                "summary": "El trabajo W = F·Δx·cos(θ) mide la transferencia de energía al desplazarse bajo una fuerza.",
                 "points": [
                     "<strong>Teorema Trabajo-Energía</strong>: W_neto = ΔK = ½mv_f² − ½mv_i².",
                     "<strong>Conservación de Energía Mecánica</strong> (sin fuerzas no conservativas): K_i + U_gi + U_ei = K_f + U_gf + U_ef.",
@@ -704,7 +704,7 @@ THEORY_CONTENT = {
         ],
     },
     "estatica": {
-        "intro": "Principios de equilibrio rígido y cálculo de centroides compuestos basados en calculosCentroide.txt y estática estructural.",
+        "intro": "Principios de equilibrio rígido, centroides compuestos y análisis estructural basados en la bibliografía de la asignatura.",
         "theory": [
             {
                 "title": "1. Equilibrio de Partículas y Cuerpos Rígidos (2D y 3D)",
@@ -721,7 +721,7 @@ THEORY_CONTENT = {
             {
                 "title": "2. Centroides de Áreas Compuestas",
                 "tag": "Centroides",
-                "summary": "Como se aplica en calculosCentroide.txt, un área compleja se descompone en figuras geométricas simples (rectángulos, triángulos, semicírculos, trapecios), restando los huecos.",
+                "summary": "Un área compleja se descompone en figuras geométricas simples (rectángulos, triángulos, semicírculos, trapecios), restando los huecos.",
                 "points": [
                     "<strong>Rectángulo (b × h)</strong>: Centroide en (b/2, h/2).",
                     "<strong>Triángulo rectángulo</strong>: A un tercio de la base y un tercio de la altura desde el ángulo recto.",
@@ -770,7 +770,7 @@ THEORY_CONTENT = {
         ],
     },
     "mecanica-materiales": {
-        "intro": "Resumen de mecánica de sólidos basado en RCTeoriaEsfuerzos.txt, TeoriaEsfuerzosbeer.txt, EjerciciosEsfuerzosRC.txt y trabajoEsfuerzosCombinadosITM.txt.",
+        "intro": "Resumen de mecánica de sólidos: esfuerzo, deformación, flexión, torsión y Círculo de Mohr basado en los textos guía de la asignatura.",
         "theory": [
             {
                 "title": "1. Esfuerzo Normal, Esfuerzo Cortante y Factor de Seguridad",
@@ -831,7 +831,7 @@ THEORY_CONTENT = {
         ],
     },
     "ingenieria-civil-nsr10": {
-        "intro": "Síntesis técnica basada en la norma colombiana NSR-10 (Títulos A, B, C, E y F), la guía local de análisis estructural y las memorias reales de pavimento rígido (DiseAo_Pavimento_Argelia.txt).",
+        "intro": "Síntesis técnica basada en la norma colombiana NSR-10 (Títulos A, B, C, E y F), diseño estructural, pavimentos rígidos y presupuestos APU.",
         "theory": [
             {
                 "title": "1. Amenaza Sísmica, Espectro Elástico y Cortante Basal (Título A NSR-10)",
@@ -861,7 +861,7 @@ THEORY_CONTENT = {
             {
                 "title": "3. Diseño de Pavimento Rígido (PCA / INVIAS) y Presupuestos APU",
                 "tag": "Vías y Presupuestos",
-                "summary": "Como muestran las memorias reales de Argelia incluidas en esta biblioteca (DiseAo_Pavimento_Argelia.txt), un proyecto vial exige caracterizar tránsito (TPD), subrasante (CBR, módulo k), espesor de losa, dovelas y juntas.",
+                "summary": "Como muestran las memorias técnicas reales incluidas en esta biblioteca en PDF, un proyecto vial exige caracterizar tránsito (TPD), subrasante (CBR, módulo k), espesor de losa, dovelas y juntas.",
                 "points": [
                     "<strong>Pavimento rígido (MR-41 / MR-45)</strong>: Diseño por fatiga y erosión (PCA) o tablas INVIAS según categoría de tránsito T0–T5.",
                     "<strong>Transferencia de carga</strong>: Pasadores lisos (dovelas) en juntas transversales y barras corrugadas de anclaje en juntas longitudinales.",
@@ -898,7 +898,7 @@ THEORY_CONTENT = {
         ],
     },
     "programacion-ingenieria": {
-        "intro": "Módulos prácticos extraídos de Guia_Algoritmos_Python_MATLAB_Ingenieria.txt orientados a programación científica, automatización y web.",
+        "intro": "Módulos prácticos de programación científica en Python, MATLAB, macros VBA, Bash y desarrollo web interactivo para ingeniería.",
         "theory": [
             {
                 "title": "1. Python Científico para Ingeniería (NumPy, SciPy y Pandas)",
@@ -1016,10 +1016,7 @@ def rebuild_catalog_from_disk() -> dict:
         txt_dir.mkdir(parents=True, exist_ok=True)
 
         docs = []
-        seen_stems = set()
         for pdf_path in sorted(pdf_dir.glob("*.pdf")):
-            seen_stems.add(pdf_path.stem)
-            txt_path = txt_dir / f"{pdf_path.stem}.txt"
             size_mb = round(pdf_path.stat().st_size / (1024 * 1024), 2)
             pages = 0
             try:
@@ -1029,33 +1026,16 @@ def rebuild_catalog_from_disk() -> dict:
                     pages = int(m.group(1))
             except Exception:
                 pass
-            text_val = txt_path.read_text(encoding="utf-8", errors="replace").strip() if txt_path.exists() else ""
             docs.append({
                 "name": pdf_path.stem.replace("_", " "),
                 "filename": pdf_path.name,
                 "pdf_path": str(pdf_path.relative_to(ROOT)),
-                "txt_path": str(txt_path.relative_to(ROOT)) if txt_path.exists() else None,
+                "txt_path": None,
                 "size_mb": size_mb,
                 "pages": pages,
-                "words": len(text_val.split()),
-                "chars": len(text_val),
-                "preview": " ".join(text_val[:420].split()),
-            })
-
-        for txt_path in sorted(txt_dir.glob("*.txt")):
-            if txt_path.stem in seen_stems:
-                continue
-            text_val = txt_path.read_text(encoding="utf-8", errors="replace").strip()
-            docs.append({
-                "name": txt_path.stem.replace("_", " "),
-                "filename": txt_path.name,
-                "pdf_path": None,
-                "txt_path": str(txt_path.relative_to(ROOT)),
-                "size_mb": round(txt_path.stat().st_size / (1024 * 1024), 2),
-                "pages": max(1, len(text_val) // 2500),
-                "words": len(text_val.split()),
-                "chars": len(text_val),
-                "preview": " ".join(text_val[:420].split()),
+                "words": 0,
+                "chars": 0,
+                "preview": "",
             })
 
         catalog["subjects"][sid] = {
@@ -1090,13 +1070,13 @@ def write_js_databases(catalog: dict):
         "brandName": "Asesorías en Ingeniería",
         "phone": "300 408 3940",
         "whatsappUrl": "https://wa.me/573004083940",
-        "facebookUrl": "https://www.facebook.com/eulerasesoriaspagina",
+        "facebookUrl": "https://web.facebook.com/profile.php?id=61596656610578",
         "driveGeneralUrl": "https://drive.google.com/drive/folders/11PEo-uedabUmOdOH5_GGLnLfW42c85vS?usp=share_link",
         "subjects": subjects_list,
     }
     dm_js = (
         "/**\n"
-        " * Catálogo estructurado de materias, portal interactivo y biblioteca local PDF/TXT.\n"
+        " * Catálogo estructurado de materias, portal interactivo y biblioteca local en PDF.\n"
         " */\n"
         "window.ASESORIAS_DATA = " + json.dumps(data_materias_obj, indent=2, ensure_ascii=False) + ";\n"
     )
@@ -1117,8 +1097,7 @@ def write_js_databases(catalog: dict):
 
     dt_js = (
         "/**\n"
-        " * Base de teoría básica, catálogo local de archivos PDF/TXT y autoevaluación por asignatura.\n"
-        " * Generado a partir de los documentos extraídos en material_estudio/.\n"
+        " * Base de teoría básica, catálogo local de archivos PDF y autoevaluación por asignatura.\n"
         " */\n"
         "window.ASESORIAS_THEORY = " + json.dumps(theory_export, indent=2, ensure_ascii=False) + ";\n"
     )
@@ -1166,10 +1145,7 @@ def render_subject_pages(catalog: dict):
     <div class="container nav-inner">
       <a href="../index.html" class="brand-link">
         <img src="../assets/img/brand/logo-badge.png" alt="Logo Asesorías en Ingeniería">
-        <div class="brand-text">
-          Asesorías en Ingeniería
-          <span>Portal Interactivo</span>
-        </div>
+        <div class="brand-text">Asesorías en Ingeniería</div>
       </a>
 
       <nav aria-label="Navegación principal">
@@ -1181,17 +1157,9 @@ def render_subject_pages(catalog: dict):
         </ul>
       </nav>
 
-      <div class="nav-actions">
-        <a href="https://wa.me/573004083940" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-sm">
-          <span>WhatsApp 300 408 3940</span>
-        </a>
-        <a href="https://www.facebook.com/eulerasesoriaspagina" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
-          <span class="btn-text-hide">Facebook</span>
-        </a>
-        <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
-        </button>
-      </div>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
     </div>
   </header>
 
@@ -1222,7 +1190,7 @@ def render_subject_pages(catalog: dict):
         <div class="subject-tabs" role="tablist" aria-label="Módulos interactivos de aprendizaje">
           <button type="button" class="subject-tab-btn active" data-tab="teoria">📖 Teoría Básica</button>
           <button type="button" class="subject-tab-btn" data-tab="lab">🧮 Laboratorio Interactivo</button>
-          <button type="button" class="subject-tab-btn" data-tab="material">📚 Material PDF y Texto ({docs_count})</button>
+          <button type="button" class="subject-tab-btn" data-tab="material">📚 Material en PDF ({docs_count})</button>
           <button type="button" class="subject-tab-btn" data-tab="quiz">✅ Autoevaluación</button>
         </div>
 
@@ -1238,7 +1206,7 @@ def render_subject_pages(catalog: dict):
 
         <div class="tab-panel" data-panel="material">
           <div class="topics-panel-head">
-            <h2>Biblioteca local descargada y texto extraído</h2>
+            <h2>Biblioteca de libros y guías en PDF</h2>
             <div class="search-box" style="max-width:260px;">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
               <input id="topic-search" type="search" placeholder="Filtrar archivo..." aria-label="Filtrar archivo">
@@ -1254,14 +1222,6 @@ def render_subject_pages(catalog: dict):
       </div>
 
       <aside class="subject-sidebar">
-        <div class="side-card">
-          <h3>¿Necesitas ayuda con {meta["title"]}?</h3>
-          <p>Agenda una clase particular presencial u online, o solicita acompañamiento en tu taller o parcial con el Ing. Oscar Fernando Valencia.</p>
-          <a href="https://wa.me/573004083940" target="_blank" rel="noopener noreferrer" class="btn btn-gold" style="width:100%; margin-bottom:0.65rem;">WhatsApp: 300 408 3940</a>
-          <a href="../contacto.html?materia={sid}" class="btn btn-outline" style="width:100%; margin-bottom:0.65rem;">Armar solicitud detallada</a>
-          <a href="https://www.facebook.com/eulerasesoriaspagina" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%;">Escribir por Facebook</a>
-        </div>
-
         {ext_links_html}
 
         <div class="side-card">
@@ -1276,8 +1236,8 @@ def render_subject_pages(catalog: dict):
 
   <footer class="site-footer">
     <div class="container footer-bottom">
-      <span>&copy; 2008–<span id="current-year">2026</span> <strong>Asesorías en Ingeniería</strong> • Cel: 300 408 3940.</span>
-      <a href="../index.html#materias">← Volver al catálogo de materias</a>
+      <span><strong>Asesorías en Ingeniería</strong></span>
+      <a href="../index.html#materias">← Volver a asignaturas</a>
     </div>
   </footer>
 

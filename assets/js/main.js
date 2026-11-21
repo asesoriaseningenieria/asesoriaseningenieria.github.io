@@ -87,7 +87,7 @@
         card.className = "subject-card";
 
         const resourceLabel = subj.resourcesCount > 0
-          ? subj.resourcesCount + " documentos PDF y texto"
+          ? subj.resourcesCount + " documentos en PDF"
           : "Teoría + laboratorio interactivo";
 
         const tagsHtml = subj.topics.slice(0, 4).map(function (topic) {

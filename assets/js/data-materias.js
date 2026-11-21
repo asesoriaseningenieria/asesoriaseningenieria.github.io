@@ -1,11 +1,11 @@
 /**
- * Catálogo estructurado de materias, portal interactivo y biblioteca local PDF/TXT.
+ * Catálogo estructurado de materias, portal interactivo y biblioteca local en PDF.
  */
 window.ASESORIAS_DATA = {
   "brandName": "Asesorías en Ingeniería",
   "phone": "300 408 3940",
   "whatsappUrl": "https://wa.me/573004083940",
-  "facebookUrl": "https://www.facebook.com/eulerasesoriaspagina",
+  "facebookUrl": "https://web.facebook.com/profile.php?id=61596656610578",
   "driveGeneralUrl": "https://drive.google.com/drive/folders/11PEo-uedabUmOdOH5_GGLnLfW42c85vS?usp=share_link",
   "subjects": [
     {
@@ -161,7 +161,7 @@ window.ASESORIAS_DATA = {
       "url": "materias/ingenieria-civil-nsr10.html",
       "icon": "assets/img/icons/ingenieria-civil.svg",
       "summary": "Análisis estructural, diseño en concreto reforzado y acero (NSR-10 / AISC 360), diseño de pavimentos rígidos PCA/INVIAS, presupuestos APU y planos.",
-      "resourcesCount": 12,
+      "resourcesCount": 11,
       "topics": [
         "Análisis estructural y espectro sísmico NSR-10",
         "Diseño en concreto reforzado y acero (AISC 360)",
@@ -177,7 +177,7 @@ window.ASESORIAS_DATA = {
       "url": "materias/programacion-ingenieria.html",
       "icon": "assets/img/icons/programacion.svg",
       "summary": "Acompañamiento práctico línea por línea en Python (NumPy, SciPy, Pandas), MATLAB, macros en Visual Basic, Bash y desarrollo web HTML/CSS/JS.",
-      "resourcesCount": 1,
+      "resourcesCount": 0,
       "topics": [
         "Python científico (NumPy, SciPy, Pandas)",
         "MATLAB y simulación numérica",

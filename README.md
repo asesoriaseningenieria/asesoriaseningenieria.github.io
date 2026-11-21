@@ -3,7 +3,7 @@
 Sitio web oficial e interactivo de **Asesorías en Ingeniería** (`https://asesoriaseningenieria.github.io`) para la prestación de servicios de asesorías académicas personalizadas (presenciales y online), desarrollo de trabajos escritos y aprendizaje interactivo por asignaturas.
 
 - 📱 **Celular / WhatsApp**: **`300 408 3940`**
-- 💬 **Facebook**: [`facebook.com/eulerasesoriaspagina`](https://www.facebook.com/eulerasesoriaspagina)
+- 💬 **Facebook**: [`facebook.com/Asesorias en Ingeniería`](https://web.facebook.com/profile.php?id=61596656610578)
 - > **Directriz Humana (Español)**: [`rules/objetivo.md`](rules/objetivo.md)  
 - > **AI Mirror (English)**: [`rules/objective.md`](rules/objective.md)
 
@@ -11,7 +11,7 @@ Sitio web oficial e interactivo de **Asesorías en Ingeniería** (`https://aseso
 Cada una de las 11 páginas en `materias/*.html` incluye 4 módulos integrados:
 1. **📖 Teoría Básica**: Definiciones, propiedades, fórmulas clave y ejemplos paso a paso redactados a partir del material extraído.
 2. **🧮 Laboratorio Interactivo**: Simuladores y calculadoras en vivo con gráficas Canvas 2D (tablas de verdad, matrices, vectores ℝ³, recta tangente, sumas de Riemann, método de Euler, tiro parabólico, reacciones en vigas, Círculo de Mohr, espectro NSR-10 y algoritmos Python/JS).
-3. **📚 Material PDF y Texto Extraído**: Visor integrado en la página para leer y buscar dentro de los archivos `.txt` extraídos desde `material_estudio/<materia>/texto/` y acceso directo a los PDFs en `material_estudio/<materia>/pdfs/`.
+3. **📚 Material en PDF**: Acceso directo a los libros y guías locales en `material_estudio/<materia>/pdfs/` (conservando respaldos en texto extraído en `material_estudio/<materia>/texto/`).
 4. **✅ Autoevaluación**: Cuestionarios tipo parcial con retroalimentación inmediata y solución explicada.
 
 ## Estructura del Proyecto
